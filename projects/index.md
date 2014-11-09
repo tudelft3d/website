@@ -4,7 +4,7 @@ title: Research projects
 permalink: /projects/
 ---
 
-
+This is how to link to a [subproject](/projects/subproject)
 
 <div class="row featurette">
   <div class="col-md-7">
