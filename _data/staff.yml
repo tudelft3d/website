@@ -1,0 +1,56 @@
+  
+- name: Ken Arroyo Ohori
+  title: PhD student
+  photo: ken.jpg
+  homepage: ken
+  email: g.a.k.arroyoohori@tudelft.nl
+  phone: 85154
+
+- name: Filip Biljecki
+  title: PhD student
+  photo: filip.jpg
+  homepage: biljecki
+  email: f.biljecki@tudelft.nl
+  phone: 82798
+
+- name: Hugo Ledoux
+  title: Assistant-professor
+  photo: hugo.jpg
+  homepage: hledoux
+  email: h.ledoux@tudelft.nl
+  phone: 86114
+  room: BK-2:280
+
+- name: Liu Liu
+  title: PhD student
+  photo: liu.png
+  # homepage: biljecki
+  email: l.liu-1@tudelft.nl
+  phone: 85660
+
+- name: Ravi Peters
+  title: PhD student
+  photo: ravi.jpg
+  email: r.y.peters@tudelft.nl
+  phone: 85567
+
+- name: Jantien Stoter
+  title: Professor
+  photo: jantien.jpg
+  email: j.e.stoter@tudelft.nl
+  phone: 81664
+
+- name: Zhiyong Wang
+  title: PhD student
+  photo: zhiyong.png
+  # homepage: biljecki
+  email: z.wang-1@tudelft.nl
+  phone: 87934
+
+- name: Sisi Zlatanova
+  title: Associate-professor
+  photo: sisi.jpg
+  homepage: szlatanova
+  email: s.zlatanova@tudelft.nl
+  phone: 82714
+
