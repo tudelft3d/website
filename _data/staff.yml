@@ -14,11 +14,12 @@
   phone: 82798
 
 - name: Hugo Ledoux
-  title: Assistant-professor
+  title: Assistant-prof.
   photo: hugo.jpg
   homepage: hledoux
   email: h.ledoux@tudelft.nl
   phone: 86114
+  twitter: hugoledoux
   room: BK-2:280
 
 - name: Liu Liu
@@ -39,6 +40,7 @@
   photo: jantien.jpg
   email: j.e.stoter@tudelft.nl
   phone: 81664
+  twitter: jantienstoter
 
 - name: Zhiyong Wang
   title: PhD student
@@ -48,7 +50,7 @@
   phone: 87934
 
 - name: Sisi Zlatanova
-  title: Associate-professor
+  title: Associate-prof.
   photo: sisi.jpg
   homepage: szlatanova
   email: s.zlatanova@tudelft.nl

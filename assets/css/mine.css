@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 75px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
 
 /* The blog posts archive, a long list */
 /*.posts {
