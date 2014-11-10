@@ -14,7 +14,7 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
 <div class="row">
     {% for member in site.data.staff %}
     <div class="col-lg-4 col-sm-6">
-    <a href="http://3dgeoinfo.bk.tudelft.nl/{{ member.homepage }}"><img class="img-circle img-responsive" src="/img/{{ member.photo }}"></a>
+    <a href="http://3dgeoinfo.bk.tudelft.nl/{{ member.homepage }}"><img class="img-circle img-responsive" src="/img/staff/{{ member.photo }}"></a>
       <h3>{{ member.name }} <small>{{ member.title }}</small></h3>
       <p>
         {% if member.homepage %}

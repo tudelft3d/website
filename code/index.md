@@ -12,7 +12,7 @@ All of projects are available on our [GitHub group page](https://github.com/tude
 <hr>
 <div class="row">
   <div class="col-md-3">
-    <img class="image" src="/img/{{ i.image }}"/>
+    <img class="image" src="/img/code/{{ i.image }}"/>
   </div>
   <div class="col-md-9">
      <h3>{{ i.title }}</h3>
