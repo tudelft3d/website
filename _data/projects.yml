@@ -1,0 +1,13 @@
+
+
+- name: 5D geo-modelling
+  description: The aim of the 5D modelling research project is to integrate the multi-dimensional characteristics of geographic data, i.e. 2D/3D, time and scale (also indicated as 'Level of Detail', 'resolution' or 'granularity') at a fundamental level of data modelling.
+  webpage: http://www.geo5d.nl
+  image: geo5d.png
+
+- name: 3DSM
+  description: Simplification of digital surface models using feature-based three-dimensional methods.
+  webpage: http://3dsm.bk.tudelft.nl
+  image: 3dsm.png
+
+

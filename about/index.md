@@ -9,23 +9,6 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
 
 --- 
 
-<div class="col-md-4">
-  <i class="fa fa-map-marker fa-fw">     </i> Room 01.Oost.350 (building #8) <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
-  <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
-</div>
-<div class="col-md-8">
-<iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/hugoledoux.j1k9i9hb/attribution,zoompan.html?access_token=pk.eyJ1IjoiaHVnb2xlZG91eCIsImEiOiIyUEdGTTFZIn0.d1jmfpIZI_fD9rl8-bax9w'></iframe>
-</div>
-
-
----
-
 ## Staff
 
 <div class="row">
@@ -49,4 +32,20 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
       </p>
     </div>
     {% endfor %}
+</div>
+
+---
+
+<div class="col-md-4">
+  <i class="fa fa-map-marker fa-fw">     </i> Room 01.Oost.350 (building #8) <br>
+  <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
+  <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
+  <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
+  <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
+  <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
+  <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
+  <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+</div>
+<div class="col-md-8">
+<iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/hugoledoux.j1k9i9hb/attribution,zoompan.html?access_token=pk.eyJ1IjoiaHVnb2xlZG91eCIsImEiOiIyUEdGTTFZIn0.d1jmfpIZI_fD9rl8-bax9w'></iframe>
 </div>

@@ -15,3 +15,9 @@
   github: https://github.com/tudelft3d/val3dity
   image: val3dity.png
   web: http://geovalidation.bk.tudelft.nl/val3dity
+
+- name: MATAHN
+  description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets.
+  github: https://github.com/tudelft3d/matahn
+  image: matahn.png
+  web: http://3dsm.bk.tudelft.nl/matahn
