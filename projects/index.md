@@ -11,7 +11,7 @@ permalink: /projects/
     <p class="lead">{{ i.description}}</p>
   </div>
   <div class="col-md-5">
-    <a href="{{ i.webpage }}"><img class="featurette-image img-responsive" src="/img/projects/{{ i.image }}" alt="Generic placeholder image"></a>
+    <a href="{{ i.webpage }}"><img class="featurette-image img-responsive" src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}" alt="Generic placeholder image"></a>
   </div>
 </div>
 <hr class="featurette-divider">
