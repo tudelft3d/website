@@ -33,11 +33,12 @@ layout: default
 <?php
 	$bibhtmler = new bibhtmler(array('groupby' => 'year'));
 	$pubs_text = "---\nlayout: default\n---\n";
-	$pubs_text .= "{% raw %}\n";
+	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
 	$pubs_text .= "<div class=\"container\">";
 	$pubs_text .= $bibhtmler->process('../../pubs/all.bib');
 	$pubs_text .= "</div>";
-	$pubs_text .= "{% endraw %}\n";
+	$pubs_text .= "{% assign openTag = '{%' %}\n";
+	$pubs_text .= "{{ openTag }} endraw %}\n";
 	$pubs_page = fopen("../../pubs/index.html", "w");
 	fwrite($pubs_page, $pubs_text);
 	fclose($pubs_page);
