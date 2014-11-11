@@ -18,7 +18,7 @@
   photo: hugo.jpg
   homepage: hledoux
   email: h.ledoux@tudelft.nl
-  phone: 86114
+  phone: +31 15 27 86114
   twitter: hugoledoux
   room: BK-2:280
 
@@ -27,19 +27,26 @@
   photo: liu.png
   # homepage: biljecki
   email: l.liu-1@tudelft.nl
-  phone: 85660
+  phone: +31 15 27 85660
+
+- name: Pirouz Nourian
+  title: PhD student
+  photo: pirouz.png
+  # homepage: szlatanova
+  email: p.nourian@tudelft.nl
+  phone: +31 6 83 84 6119
 
 - name: Ravi Peters
   title: PhD student
   photo: ravi.jpg
   email: r.y.peters@tudelft.nl
-  phone: 85567
+  phone: +31 15 27 85567
 
 - name: Jantien Stoter
   title: Professor
   photo: jantien.jpg
   email: j.e.stoter@tudelft.nl
-  phone: 81664
+  phone: +31 15 27 81664
   twitter: jantienstoter
 
 - name: Zhiyong Wang
@@ -47,12 +54,12 @@
   photo: zhiyong.png
   # homepage: biljecki
   email: z.wang-1@tudelft.nl
-  phone: 87934
+  phone: +31 15 27 87934
 
 - name: Sisi Zlatanova
   title: Associate-prof.
   photo: sisi.jpg
   homepage: szlatanova
   email: s.zlatanova@tudelft.nl
-  phone: 82714
+  phone: +31 15 27 82714
 

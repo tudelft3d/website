@@ -24,7 +24,7 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
           <i class="fa fa-send"></i> {{ member.email }}<br>
         {% endif %}
         {% if member.phone %}
-          <i class="fa fa-phone"></i> +31 15 27 {{ member.phone }}<br>
+          <i class="fa fa-phone"></i> {{ member.phone }}<br>
         {% endif %}
         {% if member.twitter %}
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
