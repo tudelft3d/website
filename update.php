@@ -22,3 +22,11 @@ layout: default
 	system("jekyll build --source ".$repository_path." --destination ".$repository_path."/_site 2>&1");
 ?>
 </code></pre>
+
+<h1>Printenv</h1>
+<pre><code>
+<?php
+	echo("$ printenv\n");
+	system("printenv 2>&1");
+?>
+</code></pre>
