@@ -10,15 +10,17 @@ layout: default
 <h1>Git pull</h1>
 <pre><code>
 <?php
+	echo('$ git pull '.$repository_path);
 	$git_output = shell_exec('git pull '.$repository_path);
-	echo $git_output;
+	echo($git_output);
 ?>
 </code></pre>
 
 <h1>Jekyll build</h1>
 <pre><code>
 <?php
+	echo('$jekyll build --source '.$repository_path.' --destination '.$repository_path.'/_site');
 	$jekyll_output = shell_exec('jekyll build --source '.$repository_path.' --destination '.$repository_path.'/_site');
-	echo $jekyll_output;
+	echo($jekyll_output);
 ?>
 </code></pre>
