@@ -5,6 +5,23 @@ layout: default
 <?php
 ?>
 
+<h1>Merging publication files</h1>
+<pre><code>
+<?php
+	$merged_bib_file = fopen("../../pubs/all.bib", "w");
+	$bib_file_paths = scandir("../../pubs");
+	foreach ($bib_file_paths as $bib_file_path) {
+		if (preg_match("/\w+.bib$/", $bib_file_path)) {
+			if ($bib_file_path === "all.bib") continue;
+			echo("Found: ".$bib_file_path."\n");
+			$bib_file = fopen("../../pubs/".$bib_file_path, "r");
+			fwrite($merged_bib_file, fread($bib_file, filesize("../../pubs/".$bib_file_path)));
+			fclose($bib_file);
+		}
+	} fclose($merged_bib_file);
+?>
+</code></pre>
+
 <h1>Generate publications</h1>
 <pre><code>
 <?php
