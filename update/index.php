@@ -27,6 +27,7 @@ layout: default
 			echo("Found: ".$bib_file_path."\n");
 			$bib_file = fopen("../../pubs/".$bib_file_path, "r");
 			$merged_bib_file_text .= fread($bib_file, filesize("../../pubs/".$bib_file_path));
+			$merged_bib_file_text .= "\n\n";
 			fclose($bib_file);
 		}
 	} $merged_bib_file = fopen("../../pubs/all.bib", "w");
