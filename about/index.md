@@ -21,10 +21,10 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
           <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/{{ member.homepage }}">3dgeoinfo.bk.tudelft.nl/{{ member.homepage }}</a><br>
         {% endif %}
         {% if member.email %}
-          <i class="fa fa-send"></i> {{ member.email }}<br>
+          <i class="fa fa-send"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
         {% endif %}
         {% if member.phone %}
-          <i class="fa fa-phone"></i> {{ member.phone }}<br>
+          <i class="fa fa-phone"></i> <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br>
         {% endif %}
         {% if member.twitter %}
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
