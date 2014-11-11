@@ -8,6 +8,14 @@ layout: default
 	include('./bibhtmler.php');
 ?>
 
+<h1>Git pull</h1>
+<pre><code>
+<?php
+	echo("$ git -C ".$repository_path." pull\n");
+	system("git -C ".$repository_path." pull 2>&1");
+?>
+</code></pre>
+
 <h1>Merging publication files</h1>
 <pre><code>
 <?php
@@ -43,14 +51,6 @@ layout: default
 	fwrite($pubs_page, $pubs_text);
 	fclose($pubs_page);
 	echo("Done!");
-?>
-</code></pre>
-
-<h1>Git pull</h1>
-<pre><code>
-<?php
-	echo("$ git -C ".$repository_path." pull\n");
-	system("git -C ".$repository_path." pull 2>&1");
 ?>
 </code></pre>
 
