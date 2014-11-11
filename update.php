@@ -5,7 +5,6 @@ layout: default
 <?php
 	$repository_path = '/var/www/website';
 	// $repository_path = '/Users/ken/Versioned/website';
-	shell_exec("PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games")
 ?>
 
 <h1>Git pull</h1>
