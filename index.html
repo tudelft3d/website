@@ -13,7 +13,11 @@ layout: default
       <div class="row">
       {% for i in site.data.coverimages %}
       <div class="col-sm-12 col-md-6">
-        <img class="img-responsive" src="{{ "/img/cover/" | append: i.name | prepend: site.baseurl }}"/>
+        {% if i.webpage %}
+          <a href="{{ i.webpage }}"><img class="img-responsive" src="{{ "/img/cover/" | append: i.name | prepend: site.baseurl }}"/></a>
+        {% else %}
+          <img class="img-responsive" src="{{ "/img/cover/" | append: i.name | prepend: site.baseurl }}"/>
+        {% endif %}
       </div>  
       {% endfor %}
     </div>
