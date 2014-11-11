@@ -3,8 +3,8 @@ layout: default
 ---
 
 <?php
-	// $repository_path = '/var/www/website';
-	$repository_path = '/Users/ken/Versioned/website';
+	$repository_path = '/var/www/website';
+	// $repository_path = '/Users/ken/Versioned/website';
 ?>
 
 <h1>Git pull</h1>
