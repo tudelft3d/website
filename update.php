@@ -11,8 +11,7 @@ layout: default
 <pre><code>
 <?php
 	echo('$ git pull '.$repository_path."\n");
-	$git_output = shell_exec('git pull '.$repository_path);
-	echo($git_output);
+	system('git pull '.$repository_path);
 ?>
 </code></pre>
 
@@ -20,7 +19,6 @@ layout: default
 <pre><code>
 <?php
 	echo('$ jekyll build --source '.$repository_path.' --destination '.$repository_path.'/_site'."\n");
-	$jekyll_output = shell_exec('jekyll build --source '.$repository_path.' --destination '.$repository_path.'/_site');
-	echo($jekyll_output);
+	system('jekyll build --source '.$repository_path.' --destination '.$repository_path.'/_site');
 ?>
 </code></pre>
