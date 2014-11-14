@@ -244,11 +244,15 @@ class bibhtmler {
 		$words = $this->splitusing(substr($in, strpos($in, '{')+1, -1), ' ');
 		$out = '';
 		foreach ($words as $word) {
-			if (strpos($word[0], '{') !== FALSE) $word = preg_replace('/[{}]/', '', $word);
-			else {
+			if (strpos($word, '{') !== FALSE) {
+				$word = preg_replace('/[{}]/', '', $word);
+				$word = $this->processtext($word);
+			} else {
 				$word = strtolower($word);
-				if ($this->options['capitalisation'] == 'headline' and !in_array($word, $this->wordsnottocapitalise))
+				if ($this->options['capitalisation'] == 'headline' and !in_array($word, $this->wordsnottocapitalise)) {
+					$word = $this->processtext($word);
 					$word = ucfirst($word);
+				}
 			} $out .= $word.' ';
 		} if ($this->options['capitalisation'] == 'headline' or $this->options['capitalisation'] == 'firstonly') $out = ucfirst($out);
 		$out = substr($out, 0, -1);
@@ -562,7 +566,13 @@ class bibhtmler {
 			'/\\\\vS/',
 			'/\\\\vT/',
 			'/\\\\vz/',
-			'/\\\\vZ/'
+			'/\\\\vZ/',
+			'/\\\\cc/',
+			'/\\\\cC/',
+			'/``/',
+			'/`/',
+			'/\'\'/',
+			'/\'/'
 		);
 		$replacements = array(
 			'—',
@@ -623,7 +633,13 @@ class bibhtmler {
 			'Š',
 			'Ť',
 			'ž',
-			'Ž'
+			'Ž',
+			'ç',
+			'Ç',
+			'“',
+			'‘',
+			'”',
+			'’'
 		);
 		$out = trim(preg_replace('/[{}]/', '', $in), ' ');
 		$out = htmlentities(preg_replace($patterns, $replacements, $out), ENT_COMPAT, 'UTF-8');
