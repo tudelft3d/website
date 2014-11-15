@@ -18,10 +18,10 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
       <h3>{{ member.name }} <small>{{ member.title }}</small></h3>
       <p>
         {% if member.homepage %}
-          <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/{{ member.homepage }}">3dgeoinfo.bk.tudelft.nl/{{ member.homepage }}</a><br>
+          <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
         {% endif %}
         {% if member.email %}
-          <i class="fa fa-send"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
+          <i class="fa fa-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
         {% endif %}
         {% if member.phone %}
           <i class="fa fa-phone"></i> <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br>
@@ -47,5 +47,5 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
   <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
 </div>
 <div class="col-md-8">
-<iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/hugoledoux.j1k9i9hb/attribution,zoompan.html?access_token=pk.eyJ1IjoiaHVnb2xlZG91eCIsImEiOiIyUEdGTTFZIn0.d1jmfpIZI_fD9rl8-bax9w'></iframe>
+<iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/hugoledoux.k7nfjfl9/attribution,zoompan.html?access_token=pk.eyJ1IjoiaHVnb2xlZG91eCIsImEiOiIyUEdGTTFZIn0.d1jmfpIZI_fD9rl8-bax9w'></iframe>
 </div>
