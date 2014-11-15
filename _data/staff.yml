@@ -2,21 +2,21 @@
 - name: Ken Arroyo Ohori
   title: PhD candidate
   photo: ken.jpg
-  homepage: ken
+  homepage: 3dgeoinfo.bk.tudelft.nl/ken
   email: g.a.k.arroyoohori@tudelft.nl
   # phone: +31 15 27 85154
 
 - name: Filip Biljecki
   title: PhD candidate
   photo: filip.jpg
-  homepage: biljecki
+  homepage: 3dgeoinfo.bk.tudelft.nl/biljecki
   email: f.biljecki@tudelft.nl
   phone: +31 15 27 82798
 
 - name: Hugo Ledoux
   title: Assistant-prof.
   photo: hugo.jpg
-  homepage: hledoux
+  homepage: tudelft.nl/hledoux
   email: h.ledoux@tudelft.nl
   phone: +31 15 27 86114
   twitter: hugoledoux
@@ -25,14 +25,14 @@
 - name: Liu Liu
   title: PhD candidate
   photo: liu.png
-  # homepage: biljecki
+  # homepage: 3dgeoinfo.bk.tudelft.nl/biljecki
   email: l.liu-1@tudelft.nl
   phone: +31 15 27 85660
 
 - name: Pirouz Nourian
   title: PhD candidate
   photo: pirouz.png
-  # homepage: szlatanova
+  # homepage: 3dgeoinfo.bk.tudelft.nl/szlatanova
   email: p.nourian@tudelft.nl
   phone: +31 6 83 84 6119
 
@@ -48,18 +48,20 @@
   email: j.e.stoter@tudelft.nl
   phone: +31 15 27 81664
   twitter: jantienstoter
+  room: "2.280"
+  homepage: 3dgeoinfo.bk.tudelft.nl/future/jstoter
 
 - name: Zhiyong Wang
   title: PhD candidate
   photo: zhiyong.png
-  # homepage: biljecki
+  # homepage: 3dgeoinfo.bk.tudelft.nl/biljecki
   email: z.wang-1@tudelft.nl
   phone: +31 15 27 87934
 
 - name: Sisi Zlatanova
   title: Associate-prof.
   photo: sisi.jpg
-  homepage: szlatanova
+  homepage: 3dgeoinfo.bk.tudelft.nl/szlatanova
   email: s.zlatanova@tudelft.nl
   phone: +31 15 27 82714
 
