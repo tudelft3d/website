@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="container">
 <?php
-	// $repository_path = '/var/www/website';
-	$repository_path = '/Users/hugo/www/website';
+	$repository_path = '/var/www/website';
+	// $repository_path = '/Users/hugo/www/website';
 	include('./bibhtmler.php');
 ?>
 
