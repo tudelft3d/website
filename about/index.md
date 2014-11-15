@@ -51,5 +51,10 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
   <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
 </div>
 <div class="col-md-8">
-<iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/hugoledoux.k7nfjfl9/attribution,zoompan.html?access_token=pk.eyJ1IjoiaHVnb2xlZG91eCIsImEiOiIyUEdGTTFZIn0.d1jmfpIZI_fD9rl8-bax9w'></iframe>
+  <div id="map"></div>
 </div>
+
+<script src="//cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js"></script>
+<script src="{{ "/assets/js/mymap.js" | prepend: site.baseurl }}"></script>
+

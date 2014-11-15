@@ -33,6 +33,10 @@ h1 {
    margin-right: 1em;
 }
 
+#map {
+  height: 400px;
+}
+
 
 /* Featurettes
 ------------------------- */
