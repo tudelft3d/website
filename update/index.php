@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="container">
 <?php
-	$repository_path = '/var/www/website';
-	// $repository_path = '/Users/ken/Versioned/website';
+	// $repository_path = '/var/www/website';
+	$repository_path = '/Users/hugo/www/website';
 	include('./bibhtmler.php');
 ?>
 
@@ -15,6 +15,21 @@ layout: default
 	system("git -C ".$repository_path." pull 2>&1");
 ?>
 </code></pre>
+
+<?php
+	$bibhtmler = new bibhtmler(array('groupby' => 'year'));
+	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---";
+	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
+	$pubs_text .= "<div class=\"container\">";
+	$pubs_text .= $bibhtmler->process('../../pubs/jantien.bib');
+	$pubs_text .= "</div>";
+	$pubs_text .= "{% assign openTag = '{%' %}\n";
+	$pubs_text .= "{{ openTag }} endraw %}\n";
+	$pubs_page = fopen("../../jstoter/index.html", "w");
+	fwrite($pubs_page, $pubs_text);
+	fclose($pubs_page);
+	echo("Done!");
+?>
 
 <h1>Merging publication files</h1>
 <pre><code>
