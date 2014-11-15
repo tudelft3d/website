@@ -1,0 +1,19 @@
+  
+- name: Kees Jonker
+  title: Web-based AHN2 map
+  # link: 
+
+- name: Marco Lam
+  title: Calculating the MAT for massive LiDAR datasets
+  # image: 
+  # link: 
+
+- name: Damien Mulder
+  title: A voxel-based method for automatic repair of CityGML models
+  # link: 
+
+- name: Maarten Pronk
+  title: Storage of massive TINs in a DBMS with a star-based data structure
+  # link: 
+
+

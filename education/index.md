@@ -10,11 +10,27 @@ permalink: /education/
   * [GEO1004](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=28153): 3D Modelling of the Built Environment
   * [GEO1005](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=28154): Spatial Decision Support for Planning and Crisis Management
   * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=28157): Geo Datasets and Quality
+  * [GEO2001](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=30706): Synthesis Project
 
+---
 
 ## MSc thesis projects
 
-### Current
+### Ongoing
+
+{% for i in site.data.mscnow %}
+<div class="media">
+  <a class="media-left">
+    <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">{{ i.name }}</h4>
+    <p>{{ i.title }}</p>
+  </div>
+</div>
+{% endfor %}
+
+
 
 
 ### Completed
