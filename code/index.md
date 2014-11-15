@@ -10,19 +10,19 @@ All of projects are available on our [GitHub group page](https://github.com/tude
 
 {% for i in site.data.code %}
 <hr>
-<div class="media">
-  <a class="media-left">
-    <img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}">
-  </a>
-  <div class="media-body">
-    <h3 class="media-heading">{{ i.name }}</h3>
-    <p>{{ i.description }}</p>
-    {% if i.web %}
-      <p><i class="fa fa-external-link"></i> <a href="{{ i.web }}">{{ i.web }}</a></p>
-    {% endif %}
-    {% if i.github %}
-      <p><i class="fa fa-github"></i> <a href="{{ i.github }}">{{ i.github }}</a></p>
-    {% endif %}
+<div class="row">
+  <div class="col-md-3">
+    <img class="image" src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/>
+  </div>
+  <div class="col-md-9">
+     <h3>{{ i.name }}</h3>
+     <p>{{ i.description }}</p>
+     {% if i.web %}
+        <p><i class="fa fa-external-link"></i> <a href="{{ i.web }}">{{ i.web }}</a></p>
+     {% endif %}
+     {% if i.github %}
+        <p><i class="fa fa-github"></i> <a href="{{ i.github }}">{{ i.github }}</a></p>
+     {% endif %}
   </div>
 </div>
 {% endfor %}
