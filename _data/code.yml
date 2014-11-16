@@ -3,12 +3,12 @@
   description: Automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules.
   github: https://github.com/tudelft3d/prepair
   image: prepair.png
+  web: http://geovalidation.bk.tudelft.nl/prepair
 
 - name: pprepair
   description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.
   github: https://github.com/tudelft3d/pprepair
   image: pprepair.png
-  web: http://geovalidation.bk.tudelft.nl/prepair
 
 - name: val3dity
   description: Geometric validation of 3D primitives according to ISO 19107.
