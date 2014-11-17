@@ -19,18 +19,25 @@ h1 {
    margin-bottom: 2em;
 }*/
 
+.firstpost span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 75%;
+  margin-right: 1em;
+}
+
 .posts li {
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   line-height: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 2em;
 }
 
 .posts span {
-   color: #aaa;
-   font-family: Monaco, "Courier New", monospace;
-   font-size: 75%;
-   margin-right: 1em;
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 75%;
+  margin-right: 1em;
 }
 
 #map {

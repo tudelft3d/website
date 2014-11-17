@@ -11,8 +11,14 @@ layout: default
   <div class="row">
     <div class="well col-sm-4 col-md-4">
       <h2>Latest news <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></h2>
+      <div class="firstpost">
+	      <a href="{{ site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a>
+	      <span>{{ site.posts[0].date | date: "%b %d, %Y" }}</span>
+	      <br />{{ site.posts[0].excerpt | strip_html }}
+	      <br /><a href="{{ site.posts[0].url }}">read more</a>
+      </div>
       <ul class="posts">
-        {% for post in site.posts %}
+        {% for post in site.posts offset:1 limit:5 %}
           <li><span>{{ post.date | date: "%b %d, %Y" }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
