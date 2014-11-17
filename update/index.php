@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="container">
 <?php
 	$repository_path = '/var/www/website';
@@ -59,7 +60,11 @@ layout: default
 <pre><code>
 <?php
 	$bibhtmler = new bibhtmler(array('groupby' => 'class'));
-	$pubs_text = "---\nlayout: default\n---\n";
+	$pubs_text = "---\n";
+	$pubs_text .= "layout: page\n";
+	$pubs_text .= "title: Publications\n";
+	$pubs_text .= "permalink: /pubs/\n";
+	$pubs_text .= "---\n\n";
 	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
 	$pubs_text .= "<div class=\"container\">";
 	$pubs_text .= $bibhtmler->process('../../pubs/all.bib');
