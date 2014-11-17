@@ -16,6 +16,8 @@ layout: default
 ?>
 </code></pre>
 
+<h1>Generate Jantien's page</h1>
+<pre><code>
 <?php
 	$bibhtmler = new bibhtmler(array('groupby' => 'year'));
 	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---";
@@ -30,6 +32,7 @@ layout: default
 	fclose($pubs_page);
 	echo("Done!");
 ?>
+</code></pre>
 
 <!-- <h1>Merging publication files</h1>
 <pre><code> -->
