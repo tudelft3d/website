@@ -15,7 +15,8 @@ layout: default
 	      <a href="{{ site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a>
 	      <span>{{ site.posts[0].date | date: "%b %d, %Y" }}</span>
 	      <br />{{ site.posts[0].excerpt | strip_html }}
-	      <br /><a href="{{ site.posts[0].url }}">read more</a>
+	      <br /><a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a>
+	      <hr />
       </div>
       <ul class="posts">
         {% for post in site.posts offset:1 limit:5 %}
