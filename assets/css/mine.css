@@ -13,6 +13,11 @@ h1 {
   padding-bottom: 20px;
 }
 
+h1 span {
+  color: #aaa;
+   font-family: Monaco, "Courier New", monospace;
+   font-size: 40%;
+}
 /* The blog posts archive, a long list */
 /*.posts {
    list-style-type: none;
@@ -36,7 +41,7 @@ h1 {
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 75%;
+   font-size: 80%;
   margin-right: 1em;
 }
 
