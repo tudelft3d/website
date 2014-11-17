@@ -31,26 +31,26 @@ layout: default
 	echo("Done!");
 ?>
 
-<h1>Merging publication files</h1>
-<pre><code>
+<!-- <h1>Merging publication files</h1>
+<pre><code> -->
 <?php
-	$bib_file_paths = scandir("../../pubs");
-	$merged_bib_file_text = "";
-	foreach ($bib_file_paths as $bib_file_path) {
-		if (preg_match("/\w+.bib$/", $bib_file_path)) {
-			if ($bib_file_path === "all.bib") continue;
-			echo("Found: ".$bib_file_path."\n");
-			$bib_file = fopen("../../pubs/".$bib_file_path, "r");
-			$merged_bib_file_text .= fread($bib_file, filesize("../../pubs/".$bib_file_path));
-			$merged_bib_file_text .= "\n\n";
-			fclose($bib_file);
-		}
-	} $merged_bib_file = fopen("../../pubs/all.bib", "w");
-	fwrite($merged_bib_file, $merged_bib_file_text);
-	fclose($merged_bib_file);
-	echo("Done!");
+	// $bib_file_paths = scandir("../../pubs");
+	// $merged_bib_file_text = "";
+	// foreach ($bib_file_paths as $bib_file_path) {
+	// 	if (preg_match("/\w+.bib$/", $bib_file_path)) {
+	// 		if ($bib_file_path === "all.bib") continue;
+	// 		echo("Found: ".$bib_file_path."\n");
+	// 		$bib_file = fopen("../../pubs/".$bib_file_path, "r");
+	// 		$merged_bib_file_text .= fread($bib_file, filesize("../../pubs/".$bib_file_path));
+	// 		$merged_bib_file_text .= "\n\n";
+	// 		fclose($bib_file);
+	// 	}
+	// } $merged_bib_file = fopen("../../pubs/all.bib", "w");
+	// fwrite($merged_bib_file, $merged_bib_file_text);
+	// fclose($merged_bib_file);
+	// echo("Done!");
 ?>
-</code></pre>
+<!-- </code></pre> -->
 
 <h1>Generate publications</h1>
 <pre><code>

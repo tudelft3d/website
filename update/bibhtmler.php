@@ -244,13 +244,10 @@ class bibhtmler {
 		$words = $this->splitusing(substr($in, strpos($in, '{')+1, -1), ' ');
 		$out = '';
 		foreach ($words as $word) {
-			if (strpos($word, '{') !== FALSE) {
-				$word = preg_replace('/[{}]/', '', $word);
-				$word = $this->processtext($word);
-			} else {
+			$word = $this->processtext($word);
+			if (strpos($word, '{') === FALSE) {
 				$word = strtolower($word);
 				if ($this->options['capitalisation'] == 'headline' and !in_array($word, $this->wordsnottocapitalise)) {
-					$word = $this->processtext($word);
 					$word = ucfirst($word);
 				}
 			} $out .= $word.' ';
