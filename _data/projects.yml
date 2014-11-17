@@ -10,4 +10,6 @@
   webpage: http://3dsm.bk.tudelft.nl
   image: 3dsm.png
 
-
+- name: Navigation for first responders among moving obstacles
+  webpage: ../zwang/navigation.html
+  image: navigation.png
