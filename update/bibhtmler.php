@@ -150,6 +150,55 @@ class bibhtmler {
 		)
 	);
 
+	private $localisedclasses = array(
+		'en' => array(
+			'article' => 'Journal articles',
+			'book' => 'Books',
+			'booklet' => 'Booklets',
+			'inbook' => 'Book chapters',
+			'incollection' => 'Conference articles',
+			'inproceedings' => 'Conference articles',
+			'manual' => 'Manuals',
+			'mastersthesis' => 'Master\'s theses',
+			'misc' => 'Others',
+			'phdthesis' => 'PhD theses',
+			'proceedings' => 'Conference proceedings',
+			'techreport' => 'Technical reports',
+			'unpublished' => 'Unpublished'
+		),
+		'es' => array(
+			'article' => 'Art&iacute;culos de revista',
+			'book' => 'Libros',
+			'booklet' => 'Folletos',
+			'inbook' => 'Cap&iacute;tulos de libro',
+			'incollection' => 'Art&iacute;culos de conferencia',
+			'inproceedings' => 'Art&iacute;culos de conferencia',
+			'manual' => 'Manuales',
+			'mastersthesis' => 'Tesis de maestr&iacute;a',
+			'misc' => 'Otros',
+			'phdthesis' => 'Tesis doctorales',
+			'proceedings' => 'Actas de conferencias',
+			'techreport' => 'Reportes t&eacute;cnico',
+			'unpublished' => 'Sin publicar'
+		)
+	);
+
+	private $classesbygrouping = array(
+		'article' => '10',
+		'book' => '5',
+		'booklet' => '8',
+		'inbook' => '20',
+		'incollection' => '30',
+		'inproceedings' => '30',
+		'manual' => '70',
+		'mastersthesis' => '50',
+		'misc' => '80',
+		'phdthesis' => '40',
+		'proceedings' => '25',
+		'techreport' => '60',
+		'unpublished' => '90'
+	);
+
 	private $bibtextypes = array(
 		'article' => array('author','title','journal','year','volume', 'number', 'pages', 'month', 'note'),
 		'book' => array('author', 'editor', 'title', 'publisher', 'year', 'volume', 'number', 'series', 'address', 'edition', 'month', 'note'),
@@ -219,6 +268,13 @@ class bibhtmler {
 			$this->options['afterall'] = '';
 			$this->options['beforegroup'] = '';
 			$this->options['aftergroup'] = '';
+		}
+
+		// Good options for grouping
+		if ($useroptions['groupby'] == 'class' and !isset($useroptions['order'])) {
+			$this->options['order'] = 'classtheninversechronological';
+		} if ($useroptions['groupby'] == 'classbyyear' and !isset($useroptions['order'])) {
+			$this->options['order'] = 'inverseyearthenclass';
 		}
 	}
 
@@ -676,16 +732,22 @@ class bibhtmler {
 			} 
 			
 			// Use keys for sorting
-			if ($this->options['order'] == 'inversechronological' or $this->options['order'] = 'chronological') {
-				if (isset($newdoc['month'])) $docs[$newdoc['year'].$this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', $newdoc['month']))].$newdoc['key']] = $newdoc;
-				else $docs[$newdoc['year']."00".$newdoc['key']] = $newdoc;
-			} if ($this->options['order'] == 'class')
-				$docs[$newdoc['class']] = $newdoc;
+			if ($this->options['order'] == 'chronological') {
+				if (isset($newdoc['month'])) $docs[preg_replace('/[{} ]/', '', $newdoc['year']).".".$this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', $newdoc['month']))].".".$newdoc['key']] = $newdoc;
+				else $docs[preg_replace('/[{} ]/', '', $newdoc['year'])."."."00".".".$newdoc['key']] = $newdoc;
+			} else if ($this->options['order'] == 'inversechronological') {
+				if (isset($newdoc['month'])) $docs[strval(9999-intval(preg_replace('/[{} ]/', '', $newdoc['year']))).".".strval(99-intval($this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', $newdoc['month']))])).".".$newdoc['key']] = $newdoc;
+				else $docs[strval(9999-intval(preg_replace('/[{} ]/', '', $newdoc['year'])))."."."99".".".$newdoc['key']] = $newdoc;
+			} else if ($this->options['order'] == 'classtheninversechronological') {
+				if (isset($newdoc['month'])) $docs[$this->classesbygrouping[$newdoc['class']].".".strval(9999-intval(preg_replace('/[{} ]/', '', $newdoc['year']))).".".strval(99-intval($this->monthssortingorder[strtolower(preg_replace('/[{} ]/', '', $newdoc['month']))])).".".$newdoc['key']] = $newdoc;
+				else $docs[$this->classesbygrouping[$newdoc['class']].".".strval(9999-intval(preg_replace('/[{} ]/', '', $newdoc['year'])))."."."99".".".$newdoc['key']] = $newdoc;
+			} else if ($this->options['order'] == 'inverseyearthenclass') {
+				$docs[strval(9999-intval(preg_replace('/[{} ]/', '', $newdoc['year']))).".".$this->classesbygrouping[$newdoc['class']].".".$newdoc['key']] = $newdoc;
+			}
 		}
 	
 		// Sort
-		if ($this->options['order'] == 'inversechronological') krsort($docs);
-		else if ($this->options['order'] == 'chronological') ksort($docs);
+		ksort($docs);
 	
 		// Preparations
 		$thisgroup = '';
@@ -696,7 +758,7 @@ class bibhtmler {
 	
 		// Print things
 		if ($this->options['beforeall'] != '') $result .= $this->gettabs($this->options['tabs']).$this->options['beforeall']."\n";
-		foreach($docs as $doc) {
+		foreach($docs as $dockey => $doc) {
 		
 			// Group stuff
 			if ($this->options['groupby'] == 'year') {
@@ -708,16 +770,26 @@ class bibhtmler {
 				}
 			}
 			
-			if ($this->options['groupby'] == 'class') {
-				if ($this->processtext($doc['class']) != $thisgroup) {
+			else if ($this->options['groupby'] == 'class') {
+				if ($this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])] != $thisgroup) {
 					if ($thisgroup != '' and $this->options['aftergroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['aftergroup']."\n";
-					$result .= $this->gettabs($this->options['tabs']).$this->options['beforegrouptitle'].$this->processtext($doc['class']).$this->options['aftergrouptitle']."\n";
-					$thisgroup = $this->processtext($doc['class']);
+					$result .= $this->gettabs($this->options['tabs']).$this->options['beforegrouptitle'].$this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])].$this->options['aftergrouptitle']."\n";
+					$thisgroup = $this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])];
+					if ($this->options['beforegroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['beforegroup']."\n";
+				}
+			}
+
+			else if ($this->options['groupby'] == 'classbyyear') {
+				if ($this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])] != $thisgroup) {
+					if ($thisgroup != '' and $this->options['aftergroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['aftergroup']."\n";
+					$result .= $this->gettabs($this->options['tabs']).$this->options['beforegrouptitle'].$this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])].$this->options['aftergrouptitle']."\n";
+					$thisgroup = $this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])];
 					if ($this->options['beforegroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['beforegroup']."\n";
 				}
 			}
 			
 			// Actual entry
+			// $result .= $dockey." = ";
 			$result .= $this->gettabs($entrytabs).$this->options['beforeentry'].$this->processentry($doc).$this->options['afterentry']."\n";
 		
 		} if ($this->options['groupby'] != '' and $this->options['aftergroup'] != '')

@@ -58,7 +58,7 @@ layout: default
 <h1>Generate publications</h1>
 <pre><code>
 <?php
-	$bibhtmler = new bibhtmler(array('groupby' => 'year'));
+	$bibhtmler = new bibhtmler(array('groupby' => 'class'));
 	$pubs_text = "---\nlayout: default\n---\n";
 	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
 	$pubs_text .= "<div class=\"container\">";
