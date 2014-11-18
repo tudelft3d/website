@@ -5,12 +5,12 @@ permalink: /zwang/navigation.html
 ---
 
 <div class="row">
-	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 05.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 07.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 10.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 11.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 16.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV P 02.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 05.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 07.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 10.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 11.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 16.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV P 02.jpg" | prepend: site.baseurl }}"></div>
 </div>
 
 ---
