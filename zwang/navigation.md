@@ -6,7 +6,8 @@ permalink: /zwang/navigation.html
 
 Natural or man-made disasters can cause different kinds of moving obstacles (e.g., fires, plumes, floods), which make some parts of the road network temporarily unavailable. After such incidents occur, responders have to go to different destinations to perform their tasks in the environment affected by the disaster. Therefore they need a path planner that is capable of dealing with such moving obstacles, as well as generating and coordinating their routes quickly and efficiently. The general problem we address is “How do we navigate one or more first responders to one or multiple destinations, avoiding moving obstacles”.
 
-In this research, we aim at developing an integrated navigation system for first responders in the presence of moving obstacles, using the agent technology. We employ hazard models to provide the predicted information about the obstacles, and select a geo-database to store the data needed for emergency navigation. With these technologies, we investigated:
+In this research, we aim at developing an integrated navigation system for first responders in the presence of moving obstacles, using the agent technology. We employ hazard models to provide the predicted information about the obstacles, and select a geo-database to store the data needed for emergency navigation. With these technologies, we have investigated:
+
 1. a multi-agent system, which supports the spatial data processing and analysis involved in the routing process. 
 2. algorithms for path planning in the presence of moving obstacles
 3. spatial data models, which structure the disaster-related information for routing
@@ -18,7 +19,7 @@ In this research, we aim at developing an integrated navigation system for first
 		<h2 class="featurette-heading">One to one navigation, avoiding moving obstacles</h2>
 		<p>
 			In some circumstances, the moving obstacles (e.g. plumes) can make roads unavailable for some specific periods of time. Waiting at some points strategically may be beneficial, saving more time than it would take to follow other alternative routes. 
-			Based on the A* algorithm, new path planning algorithms haven been proposed, incorporating the predicted information of moving obstacles. Besides, the waiting option is also introduced in the algorithms to allow the rescue vehicle to avoid moving obstacles, minimizing the total traveling time. 
+			Based on the A* algorithm, new path planning algorithms have been proposed, incorporating the predicted information of moving obstacles. Besides, the waiting option is also introduced in the algorithms to allow the rescue vehicle to avoid the moving obstacles, minimizing the total traveling time. 
 		</p>
 	</div>
 	<iframe class="col-md-5" height="315" src="//www.youtube.com/embed/9fd14_htfjk" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +43,7 @@ In this research, we aim at developing an integrated navigation system for first
 	<div class="col-md-7">
 		<h2 class="featurette-heading">Many to many navigation, avoiding moving obstacles</h2>
 		<p>
-			Our system can also calculate obstacle-avoiding routes for multiple vehicles. By considering the predicted information of the moving obstacles, the system can give a more reliable estimation of arrival time for different types of vehicles starting from different places and different time instances, which would make emergency plans more effective and contributes to an improvement of performance of the response units.
+			Our system can also calculate obstacle-avoiding routes for multiple vehicles. By considering the predictions of moving obstacles, the system can give a more reliable estimation of arrival time for different types of vehicles starting from different places and different time instances, which would make emergency plans more effective and contributes to an improvement of performance of the response units.
 		</p>
 	</div>
 	<iframe class="col-md-5" height="315" src="//www.youtube.com/embed/mFm6ExkqTzY" frameborder="0" allowfullscreen></iframe>
