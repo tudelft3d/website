@@ -31,7 +31,19 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
         {% endif %}
         {% if member.twitter %}
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
-        {% endif %}        
+        {% endif %}
+        {% unless member.homepage %}
+          <br>
+        {% endunless %}
+        {% unless member.email %}
+          <br>
+        {% endunless %}
+        {% unless member.phone %}
+          <br>
+        {% endunless %}
+        {% unless member.twitter %}
+          <br>
+        {% endunless %}
       </p>
     </div>
     {% endfor %}
@@ -56,4 +68,3 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
 <script src="//cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js"></script>
 <script src="{{ "/assets/js/mymap.js" | prepend: site.baseurl }}"></script>
-
