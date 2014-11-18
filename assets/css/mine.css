@@ -15,9 +15,19 @@ h1 {
 
 h1 span {
   color: #aaa;
-   font-family: Monaco, "Courier New", monospace;
-   font-size: 40%;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 40%;
 }
+
+.navbar-brand {
+  margin-top: 0px;
+}
+
+.navbar-brand img {
+  max-height: 30px;
+  margin-top: -10px;
+}
+
 /* The blog posts archive, a long list */
 /*.posts {
    list-style-type: none;
@@ -41,7 +51,7 @@ h1 span {
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-   font-size: 80%;
+  font-size: 80%;
   margin-right: 1em;
 }
 
