@@ -1,12 +1,35 @@
 
-- name: voxels.png
+# - image: voxels.png
   # webpage: 
 
-- name: solar.png
-  webpage: http://3dgeoinfo.bk.tudelft.nl/biljecki/code.html
+# - image: solar.png
+  # webpage: http://3dgeoinfo.bk.tudelft.nl/biljecki/code.html
 
-- name: lod34.png
-  webpage: http://3dgeoinfo.bk.tudelft.nl/biljecki/phd.html
+# - image: lod34.png
+  # webpage: http://3dgeoinfo.bk.tudelft.nl/biljecki/phd.html
 
-- name: gmaps.png
-  webpage: http://geo5d.nl
+# - image: gmaps.png
+  # webpage: http://geo5d.nl
+
+# - image: indoor.png
+# - webpage: https://github.com/tudelft3d/CityGML2OBJs
+
+# Projects
+
+- image: geo5d.png
+  description: 5D geo-modelling
+  webpage: http://www.geo5d.nl/
+
+- image: 3dsm.png
+  description: 3DSM
+  webpage: http://3dsm.bk.tudelft.nl/
+
+- image: navigation.png
+  description: Navigation for first responders
+  webpage: http://3dgeoinfo.bk.tudelft.nl/future/zwang/navigation.html
+
+# Code
+
+- image: citygml2objs-small.png
+  description: CityGML2OBJs
+  webpage: https://github.com/tudelft3d/CityGML2OBJs
