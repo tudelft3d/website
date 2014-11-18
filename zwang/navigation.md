@@ -62,11 +62,11 @@ In this research, we aim at developing an integrated navigation system for first
 <hr class="featurette-divider">
 
 <div class="row">
-  <div class="col-lg-offset-4 col-lg-2">
+  <div class="col-lg-offset-3 col-lg-3">
       <img class="img-circle img-responsive" src="{{ "/img/staff/zhiyong.png" | prepend: site.baseurl }}">
       <h3>Zhiyong Wang <br><small>PhD candidate</small></h3>
   </div>
-  <div class=" col-lg-2">
+  <div class=" col-lg-3">
       <a href="http://3dgeoinfo.bk.tudelft.nl/szlatanova/"><img class="img-circle img-responsive" src="{{ "/img/staff/sisi.jpg" | prepend: site.baseurl }}"></a>
       <h3>Sisi Zlatanova <br><small>Project leader</small></h3>
   </div>
