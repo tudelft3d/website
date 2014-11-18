@@ -49,6 +49,11 @@ h1 span {
   height: 400px;
 }
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
 
 /* Featurettes
 ------------------------- */
