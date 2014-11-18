@@ -24,15 +24,15 @@
 
 - name: Liu Liu
   title: PhD candidate
-  photo: liu.png
-  # homepage: 3dgeoinfo.bk.tudelft.nl/biljecki
+  photo: liu.jpg
+  # homepage: 3dgeoinfo.bk.tudelft.nl/lliu
   email: l.liu-1@tudelft.nl
   phone: +31 15 27 85660
 
 - name: Pirouz Nourian
   title: PhD candidate
   photo: pirouz.png
-  # homepage: 3dgeoinfo.bk.tudelft.nl/szlatanova
+  # homepage: 3dgeoinfo.bk.tudelft.nl/pnourian
   email: p.nourian@tudelft.nl
   phone: +31 6 83 84 6119
 
@@ -57,7 +57,7 @@
 - name: Zhiyong Wang
   title: PhD candidate
   photo: zhiyong.png
-  # homepage: 3dgeoinfo.bk.tudelft.nl/biljecki
+  # homepage: 3dgeoinfo.bk.tudelft.nl/zwang
   email: z.wang-1@tudelft.nl
   phone: +31 15 27 87934
 
