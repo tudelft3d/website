@@ -24,7 +24,7 @@ layout: default
 	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---\n\n";
 	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
 	$pubs_text .= "<div class=\"container\">";
-	$pubs_text .= $bibhtmler->process('../../pubs/jantien.bib');
+	$pubs_text .= $bibhtmler->process('../../jstoter/jantien.bib');
 	$pubs_text .= "</div>";
 	$pubs_text .= "{% assign openTag = '{%' %}\n";
 	$pubs_text .= "{{ openTag }} endraw %}\n";
