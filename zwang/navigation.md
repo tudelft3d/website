@@ -4,6 +4,17 @@ title: Navigation for first responders among moving obstacles
 permalink: /zwang/navigation.html
 ---
 
+<div class="row">
+	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 05.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 07.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 10.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 11.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV B 16.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-lg-2 nopadding"><img class="img-responsive" src="{{ "/zwang/img/AIBV P 02.jpg" | prepend: site.baseurl }}"></div>
+</div>
+
+---
+
 Natural or man-made disasters can cause different kinds of moving obstacles (e.g., fires, plumes, floods), which make some parts of the road network temporarily unavailable. After such incidents occur, responders have to go to different destinations to perform their tasks in the environment affected by the disaster. Therefore they need a path planner that is capable of dealing with such moving obstacles, as well as generating and coordinating their routes quickly and efficiently. The general problem we address is “How do we navigate one or more first responders to one or multiple destinations, avoiding moving obstacles”.
 
 In this research, we aim at developing an integrated navigation system for first responders in the presence of moving obstacles, using the agent technology. We employ hazard models to provide the predicted information about the obstacles, and select a geo-database to store the data needed for emergency navigation. With these technologies, we have investigated:
@@ -49,3 +60,14 @@ In this research, we aim at developing an integrated navigation system for first
 	<iframe class="col-md-5" height="315" src="//www.youtube.com/embed/mFm6ExkqTzY" frameborder="0" allowfullscreen></iframe>
 </div>
 <hr class="featurette-divider">
+
+<div class="row">
+  <div class="col-lg-offset-4 col-lg-2">
+      <img class="img-circle img-responsive" src="{{ "/img/staff/zhiyong.png" | prepend: site.baseurl }}">
+      <h3>Zhiyong Wang <br><small>PhD candidate</small></h3>
+  </div>
+  <div class=" col-lg-2">
+      <a href="http://3dgeoinfo.bk.tudelft.nl/szlatanova/"><img class="img-circle img-responsive" src="{{ "/img/staff/sisi.jpg" | prepend: site.baseurl }}"></a>
+      <h3>Sisi Zlatanova <br><small>Project leader</small></h3>
+  </div>
+</div>
