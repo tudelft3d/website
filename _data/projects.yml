@@ -12,5 +12,5 @@
 
 - name: Navigation for first responders
   description: The goal of this research is to support path planning for first responders among the moving obstacles caused by different types of disasters.
-  webpage: ../zwang/navigation.html
+  webpage: http://3dgeoinfo.bk.tudelft.nl/zwang/navigation.html
   image: navigation.png
