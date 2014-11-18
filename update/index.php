@@ -21,7 +21,7 @@ layout: default
 <pre><code>
 <?php
 	$bibhtmler = new bibhtmler(array('groupby' => 'year'));
-	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---";
+	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---\n\n";
 	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
 	$pubs_text .= "<div class=\"container\">";
 	$pubs_text .= $bibhtmler->process('../../pubs/jantien.bib');
