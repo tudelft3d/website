@@ -19,13 +19,14 @@ permalink: /education/
 ### Ongoing
 
 {% for i in site.data.mscnow %}
-<div class="media">
-  <a class="media-left">
-    <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}">
-  </a>
-  <div class="media-body">
-    <h4 class="media-heading">{{ i.name }}</h4>
-    <p>{{ i.title }}</p>
+<hr>
+<div class="row">
+  <div class="col-md-3">
+    <img class="image img-responsive" src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
+  </div>
+  <div class="col-md-9">
+     <h4>{{ i.name }}</h4>
+     <p>{{ i.title }}</p>
   </div>
 </div>
 {% endfor %}
@@ -34,14 +35,15 @@ permalink: /education/
 ### Completed
 
 {% for i in site.data.mscfinished %}
-<div class="media">
-  <a class="media-left">
-    <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}">
-  </a>
-  <div class="media-body">
-    <h4 class="media-heading">{{ i.name }}</h4>
-    <p>{{ i.title }}</p>
-    {% if i.link %}
+<hr>
+<div class="row">
+  <div class="col-md-3">
+    <img class="image img-responsive" src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
+  </div>
+  <div class="col-md-9">
+     <h4>{{ i.name }}</h4>
+     <p>{{ i.title }}</p>
+     {% if i.link %}
       <p><i class="fa fa-external-link"></i> <a href="{{ i.link }}">thesis details</a></p>
     {% endif %}
   </div>
