@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-The 3D geoinformation research group is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/), [Faculty of Architecture and the Built Environment](http://www.bk.tudelft.nl) of the [Delft University of Technology](http://www.tudelft.nl). The core research of the group is geographical information (geoinformation) with a special focus on 3D modelling of cities, buildings and landscapes. Research areas are automated cartographic generalization, information modelling, modelling of interior of buildings and crisis management.
+The 3D geoinformation research group is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/), [Faculty of Architecture and the Built Environment](http://www.bk.tudelft.nl) of the [Delft University of Technology](http://www.tudelft.nl). 
+
+Our core research focusses on the 3D modelling of cities, buildings and landscapes. We develop [tools]({{ "/code/" |  prepend: site.baseurl }}) to help in automated cartographic generalization, information modelling, modelling of interior of buildings and crisis management.
 
 --- 
 

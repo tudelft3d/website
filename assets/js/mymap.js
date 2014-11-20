@@ -63,5 +63,5 @@ L.CRS.proj4js = (function () {
                 zoom: 10
             });
             var marker = L.marker([52.005313, 4.370466]).addTo(map);
-            marker.bindPopup("<b>Architecture & Built Environment building</b><br>(building #8), Julianalaan 134, 2628BL Delft<br>Our offices are roughly where the arrow is, on the first floor.").openPopup();
+            marker.bindPopup("<b>Faculty of Architecture & the Built Environment<br>Julianalaan 134, 2628BL Delft</b><br>(our offices are roughly where the arrow is, on the first floor)").openPopup();
 

@@ -41,9 +41,9 @@ permalink: /education/
     <img class="image img-responsive" src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
   </div>
   <div class="col-md-9">
-     <h4>{{ i.name }}</h4>
+     <h4>{{ i.name }} <small>({{ i.year }})</small></h4>
      <p>{{ i.title }}</p>
-     {% if i.link %}
+    {% if i.link %}
       <p><i class="fa fa-external-link"></i> <a href="{{ i.link }}">thesis details</a></p>
     {% endif %}
   </div>

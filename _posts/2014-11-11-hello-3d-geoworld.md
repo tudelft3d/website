@@ -2,9 +2,10 @@
 layout: post
 title:  "Hello 3D geo-world"
 categories: news
-date:   2014-11-11
+date:   2014-11-20
 author: Jantien Stoter
 ---
+
 Since 1st of November 2014, our 3D geoinformation research group has started.
 
 Our vision is that the reality is complex and constantly changing and therefore 3D geoinformation (outdoor and indoor) is extremely important to manage, predict and maintain the complex reality. We study and develop techniques to model, maintain, analyse and disseminate 3D geoinformation. Serving the nowadays users’ needs is thereby extremely important and therefore we develop solutions in close collaboration with users such as experts of noise, air and evacuation simulations. We are happy that our group is located within the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/), since 3D is a key aspect in the design and planning of interventions in the urban environment. We are therefore very close to the main users of 3D geoinformation who can advance in their own domain by using ours and vice versa.
