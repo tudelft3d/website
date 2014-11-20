@@ -14,7 +14,7 @@ The BibTeX key should be in the form AuthorYYa, e.g. `Ledoux14a` and `Ledoux14b`
 For professional publications (such as GIM International) please use `@misc`. The following fields can be used:
 
   * DOI: put the full URL with http://dx.doi.org/…
-  * PDF: you can give a link to a PDF (with full http://…) or just the name of the PDF (which should be the same as the BibTeX key ideally). Do *not* put the PDFs in the repository.
+  * PDF: give the link to a PDF with full URL (http://…). You can place the PDF in `/var/www/pfds/` (so the URL should be `http://3dgeoinfo.bk.tudelft.nl/pfds/Ledoux14a.pdf`), do *not* put the PDFs in the repository. 
 
 ## Code, projects, etc.
 
