@@ -14,38 +14,36 @@ permalink: /education/
 
 ---
 
-## MSc thesis projects
-
-### Ongoing
+## MSc thesis projects -- Ongoing
 
 {% for i in site.data.mscnow %}
-<hr>
 <div class="row">
   <div class="col-md-3">
     <img class="image img-responsive" src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
   </div>
   <div class="col-md-9">
-     <h4>{{ i.name }}</h4>
+     <h3>{{ i.name }}</h3>
      <p>{{ i.title }}</p>
   </div>
 </div>
+<hr>
 {% endfor %}
 
 
-### Completed
+## MSc thesis projects -- Completed
 
 {% for i in site.data.mscfinished %}
-<hr>
 <div class="row">
   <div class="col-md-3">
     <img class="image img-responsive" src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
   </div>
   <div class="col-md-9">
-     <h4>{{ i.name }} <small>({{ i.year }})</small></h4>
+     <h3>{{ i.name }} <small>({{ i.year }})</small></h3>
      <p>{{ i.title }}</p>
     {% if i.link %}
       <p><i class="fa fa-external-link"></i> <a href="{{ i.link }}">thesis details</a></p>
     {% endif %}
   </div>
 </div>
+<hr>
 {% endfor %}
