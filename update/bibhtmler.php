@@ -483,9 +483,15 @@ class bibhtmler {
 			case 'misc':
 				if (array_key_exists('title', $in)) $outwhat .= $this->processtitle($in['title']);
 				if (array_key_exists('author', $in)) $outwho .= $this->processauthors($in['author']);
-				if (array_key_exists('howpublished', $in)) $outwhere[] .= '<em>'.$this->processtext($in['howpublished']).'</em>';
+				if (array_key_exists('journal', $in)) $outwhere[] = "<em>".$this->processtext($in['journal'])."</em>";
+				if (array_key_exists('volume', $in)) {
+					$outwhere[count($outwhere)-1] .= ' '.$this->processtext($in['volume']);
+					if (array_key_exists('number', $in)) $outwhere[count($outwhere)-1] .= ' ('.$this->processtext($in['number']).')';
+				} else if (array_key_exists('number', $in)) $outwhere[count($outwhere)-1] .= ' '.$this->processtext($in['number']);
+				if (array_key_exists('howpublished', $in)) $outwhere[] = '<em>'.$this->processtext($in['howpublished']).'</em>';
 				if (array_key_exists('month', $in) and array_key_exists('year', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else if (array_key_exists('year', $in)) $outwhere[] = $this->processtext($in['year']);
+				if (array_key_exists('pages', $in)) $outwhere[] = $this->localisedtext[$this->options['lang']]['pp.'].' '.$this->processtext($in['pages']);
 				if (array_key_exists('note', $in)) $outnote .= $this->processtext($in['note']);
 				break;
 			
