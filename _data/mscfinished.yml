@@ -1,18 +1,43 @@
 
-- name: Sjors Donkers
-  title: Automatic generation of CityGML LoD3 building models from IFC models
-  link: http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/
-  image: sjors.png
-  year: 2013
-
 - name: Roeland Boeters
   title: Automatic enhancement of CityGML LoD2 models with interiors and its usability for net internal area determination
   link: http://repository.tudelft.nl/view/ir/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634
   image: roeland.jpg
   year: 2013
 
+- name: Sjors Donkers
+  title: Automatic generation of CityGML LoD3 building models from IFC models
+  link: http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/
+  image: sjors.png
+  year: 2013
+
+- name: Marija Krūminaitė
+  title: Space subdivision for indoor navigation
+  link: http://repository.tudelft.nl/view/ir/uuid%3Ac2a9a308-5cdc-4df2-bf30-9eea5ea176c5/
+  image: marija.png
+  year: 2013
+
+- name: Fillipo Mortari
+  title: Automatic extraction of improved geometrical network model from CityGML for indoor navigation
+  link: http://3dgeoinfo.bk.tudelft.nl/pdfs/FilippoMortari_thesis.pdf
+  image: fillipo.png
+  year: 2013
+
+
+- name: Lars de Vries
+  title: A research towards completing the asset information life cycle -- An analysis of the relationships between data exchange, BIM and the asset life cycle and the solutions to overcome existing issues at Amsterdam Airport Schiphol.
+  link: http://repository.tudelft.nl/view/ir/uuid%3A88b6c2fc-b182-4fb2-98c8-25b6a24292ce/
+  image: lars.png
+  year: 2013
+
 - name: Karl van Winden
   title: Automatically deriving and updating attribute road data from movement trajectories
   link: http://repository.tudelft.nl/view/ir/uuid%3Aeec252e0-1a6b-4a3a-a167-45aaadc2bb7f/
   image: karl.png
+  year: 2013
+
+- name: Weilin Xu
+  title: Spatial model-aided indoor tracking
+  link: http://repository.tudelft.nl/view/ir/uuid%3A8fd6a9ef-3dfb-4bd1-b54e-44d5b2cca973/
+  image: xu.png
   year: 2013
