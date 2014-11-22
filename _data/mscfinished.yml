@@ -23,6 +23,11 @@
   image: fillipo.png
   year: 2013
 
+- name: Davide Russo
+  title: Route Directions using Visible Landmarks for an Indoor Navigation System based on Android device IndoorNav
+  link: http://3dgeoinfo.bk.tudelft.nl/pdfs/DavideRusso_thesis.pdf
+  image: davide.png
+  year: 2013
 
 - name: Lars de Vries
   title: A research towards completing the asset information life cycle -- An analysis of the relationships between data exchange, BIM and the asset life cycle and the solutions to overcome existing issues at Amsterdam Airport Schiphol.
