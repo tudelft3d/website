@@ -21,3 +21,8 @@
   github: https://github.com/tudelft3d/matahn
   image: matahn.png
   web: http://3dsm.bk.tudelft.nl/matahn
+
+- name: CityGML2OBJs
+  description: A robust semantic-aware utility to convert CityGML data to OBJ, featuring decoupling of objects and conversion of attributes to colours.
+  github: https://github.com/tudelft3d/CityGML2OBJs
+  image: citygml2objs.png
