@@ -23,6 +23,13 @@
   twitter: hugoledoux
   room: BK-2:280
 
+- name: LI Zhi (Alex)
+  title: PhD candidate
+  photo: zhi.png
+  # homepage: 3dgeoinfo.bk.tudelft.nl/zli
+  email: z.li-5@tudelft.nl
+  # phone: +31 115 27 85660
+
 - name: Liu Liu
   title: PhD candidate
   photo: liu.jpg
@@ -54,8 +61,7 @@
   room: "2.280"
   homepage: 3dgeoinfo.bk.tudelft.nl/jstoter
 
-
-- name: Zhiyong Wang
+- name: WANG Zhiyong Wang
   title: PhD candidate
   photo: zhiyong.png
   # homepage: 3dgeoinfo.bk.tudelft.nl/zwang
