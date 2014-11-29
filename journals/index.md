@@ -141,6 +141,12 @@ The impact factor can be checked (inside the campus or using a VPN) [here](http:
    * Publisher: Elsevier BV
    * Covers applications of aerospace data-gathering techniques for development of natural resources.
 
+#### International Journal of Cartography (*IJC*)
+   * [webpage](http://www.tandfonline.com/loi/tica20)
+   * Impact factor: n/a 5-year impact factor: n/a
+   * Publisher: Taylor & Francis
+   * The official flagship journal of the International Cartographic Association (ICA). It aims to promote research in the fields of cartography and GI Science. 
+
 #### International Journal of Computational Geometry and Applications (*IJCGA*)
    * [webpage](http://www.worldscinet.com/ijcga/)
    * Impact factor: 0.292 5-year impact factor: 0.476
