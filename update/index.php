@@ -20,7 +20,7 @@ layout: default
 <h1>Generate Jantien's page</h1>
 <pre><code>
 <?php
-	$bibhtmler = new bibhtmler(array('groupby' => 'class'));
+	$bibhtmler = new bibhtmler(array('groupby' => 'classbyyear'));
 	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---\n\n";
 	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
 	$pubs_text .= "<div class=\"container\">";
