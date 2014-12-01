@@ -226,6 +226,10 @@ class bibhtmler {
 		'aftergroup' => '',
 		'beforegrouptitle' => '<h3>',
 		'aftergrouptitle' => '</h3>',
+		'beforesubgroup' => '',
+		'aftersubgroup' => '',
+		'beforesubgrouptitle' => '<h4>',
+		'aftersubgrouptitle' => '</h4>',
 		'beforeall' => '',
 		'afterall' => '',
 		'capitalisation' => 'firstonly'
@@ -483,12 +487,12 @@ class bibhtmler {
 			case 'misc':
 				if (array_key_exists('title', $in)) $outwhat .= $this->processtitle($in['title']);
 				if (array_key_exists('author', $in)) $outwho .= $this->processauthors($in['author']);
-				if (array_key_exists('journal', $in)) $outwhere[] = "<em>".$this->processtext($in['journal'])."</em>";
+				if (array_key_exists('journal', $in)) "<em>".$this->processtext($in['journal'])."</em>";
 				if (array_key_exists('volume', $in)) {
 					$outwhere[count($outwhere)-1] .= ' '.$this->processtext($in['volume']);
 					if (array_key_exists('number', $in)) $outwhere[count($outwhere)-1] .= ' ('.$this->processtext($in['number']).')';
 				} else if (array_key_exists('number', $in)) $outwhere[count($outwhere)-1] .= ' '.$this->processtext($in['number']);
-				if (array_key_exists('howpublished', $in)) $outwhere[] = '<em>'.$this->processtext($in['howpublished']).'</em>';
+				if (array_key_exists('howpublished', $in)) $outwhere[] .= '<em>'.$this->processtext($in['howpublished']).'</em>';
 				if (array_key_exists('month', $in) and array_key_exists('year', $in)) $outwhere[] = $this->processmonth($in['month'])." ".$this->processtext($in['year']);
 				else if (array_key_exists('year', $in)) $outwhere[] = $this->processtext($in['year']);
 				if (array_key_exists('pages', $in)) $outwhere[] = $this->localisedtext[$this->options['lang']]['pp.'].' '.$this->processtext($in['pages']);
@@ -757,6 +761,7 @@ class bibhtmler {
 	
 		// Preparations
 		$thisgroup = '';
+		$thissubgroup = '';
 		$grouptabs = $this->options['tabs'];
 		if ($this->options['beforeall'] != '' or $this->options['afterall'] != '') $grouptabs++;
 		$entrytabs = $grouptabs;
@@ -791,6 +796,14 @@ class bibhtmler {
 					$result .= $this->gettabs($this->options['tabs']).$this->options['beforegrouptitle'].$this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])].$this->options['aftergrouptitle']."\n";
 					$thisgroup = $this->localisedclasses[$this->options['lang']][$this->processtext($doc['class'])];
 					if ($this->options['beforegroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['beforegroup']."\n";
+					$thissubgroup = '';
+				} 
+
+				if ($this->processtext($doc['year']) != $thissubgroup) {
+					if ($thissubgroup != '' and $this->options['aftersubgroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['aftersubgroup']."\n";
+					$result .= $this->gettabs($this->options['tabs']).$this->options['beforesubgrouptitle'].$this->processtext($doc['year']).$this->options['aftersubgrouptitle']."\n";
+					$thissubgroup = $this->processtext($doc['year']);
+					if ($this->options['beforesubgroup'] != '') $result .= $this->gettabs($grouptabs).$this->options['beforesubgroup']."\n";
 				}
 			}
 			
