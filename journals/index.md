@@ -1,10 +1,10 @@
 ---
 layout: page
-title: List of journals
+title: List of relevant GIS journals
 permalink: /journals/
 ---
 
-Interesting journals that can be considered when having a publication ready for submission.
+We are maintaining a list of interesting journals, that can be considered when having a publication ready for submission.
 
 The impact factor can be checked (inside the campus or using a VPN) [here](http://admin-apps.webofknowledge.com/JCR/JCR). The search system is *very* picky. It's probably easier to search by ISSN or to first find the exact name [here](http://admin-apps.webofknowledge.com/JCR/JCR?RQ=TITLES_FULL) using the search function of your browser.
 
