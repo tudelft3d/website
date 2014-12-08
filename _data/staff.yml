@@ -6,6 +6,13 @@
   email: g.a.k.arroyoohori@tudelft.nl
   # phone: +31 15 27 85154
 
+- name: Serpil Ates
+  title: visiting PhD
+  photo: serpil.jpg
+  # homepage: 3dgeoinfo.bk.tudelft.nl/ken
+  email: s.ates@tudelft.nl
+  # phone: +31 15 27 85154
+
 - name: Filip Biljecki
   title: PhD candidate
   photo: filip.jpg
@@ -13,6 +20,13 @@
   email: f.biljecki@tudelft.nl
   phone: +31 15 27 82798
   twitter: fbiljecki
+
+- name: Elif Demir Özbek
+  title: visiting PhD
+  photo: elif.jpg
+  # homepage: 3dgeoinfo.bk.tudelft.nl/ken
+  email: e.demirozbek@tudelft.nl
+  # phone: +31 15 27 85154
 
 - name: Hugo Ledoux
   title: Assistant-prof.
@@ -43,6 +57,7 @@
   # homepage: 3dgeoinfo.bk.tudelft.nl/pnourian
   email: p.nourian@tudelft.nl
   phone: +31 6 83 84 6119
+
 
 - name: Ravi Peters
   title: PhD candidate
