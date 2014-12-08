@@ -110,6 +110,7 @@ The impact factor can be checked (inside the campus or using a VPN) [here](http:
    * Impact factor: 1.143 5-year impact factor: 1.078
    * Publisher: Springer New York LLC
    * Aims to promote the most innovative results coming from the research in the field of computer science applied to geographic information systems.
+   
 #### Geomatica
 
    * [webpage](http://pubs.cig-acsg.ca/journal/cig)
