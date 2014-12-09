@@ -54,7 +54,7 @@ Our core research focusses on the 3D modelling of cities, buildings and landscap
 ---
 
 <div class="col-md-4">
-  <i class="fa fa-map-marker fa-fw">     </i> Room 01.Oost.350 (building #8) <br>
+  <i class="fa fa-map-marker fa-fw">     </i> Room 01.WEST.280 (building #8) <br>
   <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
   <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
   <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
