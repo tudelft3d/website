@@ -179,6 +179,7 @@ The impact factor can be checked (inside the campus or using a VPN) [here](http:
    * Impact factor: 1.472 5-year impact factor: 1.848
    * Publisher: Taylor & Francis Ltd.
    * Provides a forum for the exchange of ideas, techniques, approaches and experiences in the rapidly growing field of geographical information systems.
+   
 #### International Journal of Health Geographics (*IJHG*)
    * [webpage](http://www.ij-healthgeographics.com)
    * Impact factor: 5-Year Impact Factor: 2.703
@@ -262,6 +263,7 @@ The impact factor can be checked (inside the campus or using a VPN) [here](http:
    * Impact factor: n/a 5-year impact factor: n/a
    * Publisher: Springer
    * Reports on leading-edge research in artificial intelligence and other areas of computer science.
+   * It is usually published as proceedings of a conference
 
 #### Marine Geodesy: An International Journal of Ocean Surveys, Mapping and Sensing (*UMGD*)
    * [webpage](http://www.tandf.co.uk/journals/UMGD)
