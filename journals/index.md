@@ -271,6 +271,13 @@ The impact factor can be checked (inside the campus or using a VPN) [here](http:
    * Publisher: Taylor & Francis Inc.
    * Covers topography and mapping, satellite altimetry, bathymetry, positioning, precise navigation, boundary demarcation and determination, tsunamis, plate/tectonics, geoid determination, acoustics and space instrumentation, ground truth, system calibration and validation, and geographic information systems.
 
+#### The Photogrammetric Record (*TPR*)
+   * [webpage](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1477-9730)
+   * Impact factor: 1.377 5-year impact factor: n/a
+   * Publisher: Wiley
+   * The Photogrammetric Record is an international journal containing original, independently and rapidly refereed articles that reflect modern advancements in photogrammetry, 3D imaging, computer vision, and other related non-contact fields.
+
+
 #### The Professional Geographer (*RTPG*)
    * [webpage](http://www.tandf.co.uk/journals/PG)
    * Impact factor: n/a 5-year impact factor: n/a
