@@ -58,7 +58,6 @@
   email: p.nourian@tudelft.nl
   phone: +31 6 83 84 6119
 
-
 - name: Ravi Peters
   title: PhD candidate
   photo: ravi.jpg
@@ -76,6 +75,11 @@
   twitter: jantienstoter
   room: "01.WEST.280"
   homepage: 3dgeoinfo.bk.tudelft.nl/jstoter
+
+- name: Daisuke Takahata
+  title: Visiting student
+  photo: daisuke.png
+  email: D.Takahata@student.tudelft.nl
 
 - name: WANG Zhiyong
   title: PhD candidate
