@@ -41,4 +41,12 @@ layout: default
 
   <hr>
 
+  {% for i in site.data.staff %}
+    {% if i.name == page.title %}
+      {% if i.pagetext %}
+        <p>{{ i.pagetext | markdownify }}</p>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
   {{ content }}
