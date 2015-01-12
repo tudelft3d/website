@@ -32,7 +32,7 @@ title: 3D geoinformation at TU Delft
 	      <hr />
       </div>
       <ul class="posts">
-        {% for post in site.posts offset:1 limit:5 %}
+        {% for post in site.posts offset:1 limit:3 %}
           <li><span>{{ post.date | date_to_string }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
