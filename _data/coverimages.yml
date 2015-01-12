@@ -16,6 +16,10 @@
 
 # Projects
 
+- image: bigvoxels.png
+  description:  Big Data Analytics in the Geospatial Domain
+  webpage: /projects/bigvoxels/
+
 - image: geo5d.png
   description: 5D geo-modelling
   webpage: http://www.geo5d.nl/
@@ -26,7 +30,7 @@
 
 - image: navigation.png
   description: Navigation for first responders
-  webpage: http://3dgeoinfo.bk.tudelft.nl/zwang/navigation.html
+  webpage: /projects/navigation/
 
 # Code
 
