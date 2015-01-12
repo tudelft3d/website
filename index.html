@@ -11,22 +11,32 @@ title: 3D geoinformation at TU Delft
     <p>Department of Urbanism, Faculty of Architecture and the Built Environment, Delft University of Technology</p>
 </div>
 
+<!-- alerts for new job position or others -->
+<div class="container">
+  <div class="row">
+  {% for alert in site.data.alerts %}
+    <div class="alert alert-warning" role="alert"><b>{{ alert.type }}</b> {{ alert.description }}</div>
+  {% endfor %}
+  </div>
+</div>
+
 <div class="container">
   <div class="row">
     <div class="well col-md-4">
       <h2>Latest news <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></h2>
       <div class="firstpost">
 	      <a href="{{ site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a>
-	      <span>{{ site.posts[0].date | date: "%b %d, %Y" }}</span>
+	      <br><span>{{ site.posts[0].date | post.date | date_to_string }}</span>
 	      <br />{{ site.posts[0].excerpt | strip_html }}
 	      <br /><a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a>
 	      <hr />
       </div>
       <ul class="posts">
         {% for post in site.posts offset:1 limit:5 %}
-          <li><span>{{ post.date | date: "%b %d, %Y" }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          <li><span>{{ post.date | date_to_string }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
+      <a href="{{ site.baseurl }}/news">All news</a>
     </div>
     <div class="col-md-8">
       <script type="text/javascript">
