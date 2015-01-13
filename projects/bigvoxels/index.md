@@ -6,11 +6,11 @@ permalink: /projects/bigvoxels/
 
 <div class="row">
 	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/8.png" | prepend: site.baseurl }}"></div>
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/1.png" | prepend: site.baseurl }}"></div>
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/3.png" | prepend: site.baseurl }}"></div>
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/11.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/9.jpg" | prepend: site.baseurl }}"></div>
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/2.jpg" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/7.png" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/3.png" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/1.png" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/4.png" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/bigvoxels/img/2.jpg" | prepend: site.baseurl }}"></div>
 </div>
 
 ---
