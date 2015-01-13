@@ -22,7 +22,7 @@
 
 - image: geo5d.png
   description: 5D geo-modelling
-  webpage: http://www.geo5d.nl/
+  webpage: /projects/geo5d/
 
 - image: 3dsm.png
   description: 3DSM

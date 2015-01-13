@@ -15,3 +15,7 @@ url: "http://3dgeoinfo.bk.tudelft.nl" # the base hostname & protocol for your si
 # Build settings
 markdown: kramdown
 
+kramdown:
+  hard_wrap:      false
+  toc_levels:     2..2
+
