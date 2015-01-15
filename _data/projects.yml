@@ -18,3 +18,7 @@
   description: The aim of this project is to develop voxel and point cloud data types and further mature the existing spatial features of the column-store open-source MonetDB relational database
   webpage: /projects/bigvoxels/
   image: bigvoxels.png
+
+- name: Indoor Semantic Modeling to Support Path-Finding
+  webpage: /projects/indoor/
+  image: INSM.jpg
