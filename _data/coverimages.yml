@@ -32,6 +32,10 @@
   description: Navigation for first responders
   webpage: /projects/navigation/
 
+- image: INSM.jpg
+  description: Indoor Semantic Modeling to Support Path-Finding
+  webpage: /projects/indoor/
+
 # Code
 
 - image: citygml2objs-small.png
