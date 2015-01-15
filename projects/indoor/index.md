@@ -7,6 +7,15 @@ permalink: /projects/indoor/
 ## Indoor navigation
 Navigation and location-based services is one of the fast developing applications in Geographic information System (GIS) field. Presently, a considerable attention has been paid to indoor navigation or seamless indoor-outdoor navigation. Because people spend most of their time indoors, which boosts the number of user-required services similar to outdoor navigator especially when they explore complex and large indoor environments.
 
+<div class="row">
+  <div class="col-sm-6 col-xs-6">
+    <img class="img-responsive" src="{{ "/projects/indoor/img/BK_City.jpg" | prepend: site.baseurl }}">
+  </div>
+  <div class="col-sm-6 col-xs-6">
+    <img class="img-responsive" src="{{ "/projects/indoor/img/indoor2.jpg" | prepend: site.baseurl }}">
+  </div>
+</div>
+
 ## Problems
 Difficulties commonly exist in indoor data acquisition, indoor modelling and user-dependent path planning. There are diverse 3D geometric building models and semantics designed for different purposes (e.g. CityGML, BIM) but they fail short of sufficient information for indoor navigation to the large diversity of potential users. Moreover, sometimes outdoor path planning may not completely apply to the indoor environments due to their different navigation networks and various navigation semantics architecture.  
 
@@ -55,7 +64,14 @@ Based on *INSM* a two-level indoor routing strategy has been developed for indoo
 
 Path on the coarse level:
 
-
+<div class="row">
+  <div class="col-sm-6 col-xs-12">
+    <img class="img-responsive" alt="Coarse Level" src="{{ "/projects/indoor/img/1stLevel.png" | prepend: site.baseurl }}">
+  </div>
+  <div class="col-sm-6 col-xs-12">
+    <img class="img-responsive" alt="Coarse Level Path" src="{{ "/projects/indoor/img/1stlevelPath.png" | prepend: site.baseurl }}">
+  </div>
+</div>
 
 Path on the detailed level:
 

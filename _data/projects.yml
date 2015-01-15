@@ -20,5 +20,6 @@
   image: bigvoxels.png
 
 - name: Indoor Semantic Modeling to Support Path-Finding
+  description: This project aims to model and make use of building semantics for navigation purpose, and to develop a corresponding path finding strategy which can provide both conceptual and geometric paths and cater for different user requirements.
   webpage: /projects/indoor/
   image: INSM.jpg
