@@ -59,7 +59,10 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
-The deadline to apply is **March 2nd 2015 at 17:00** (Amsterdam time).
+
+<div class="alert alert-warning" role="alert">
+The deadline to apply is March 2nd 2015 at 17:00 (Amsterdam time).
+</div>
 
 Please e-mail your application materials to  XXX
 When applying for this position, please refer to vacancy number .
