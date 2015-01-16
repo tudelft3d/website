@@ -5,7 +5,7 @@
   image: geo5d.png
 
 - name: 3DSM
-  description: Simplification of digital surface models using feature-based three-dimensional methods.
+  description: Feature aware Digital Surface Model analysis and generalization based on the 3D Medial Axis Transform
   webpage: http://3dsm.bk.tudelft.nl
   image: 3dsm.png
 
