@@ -14,7 +14,7 @@ permalink: /phdposition/
 
 ## Efficient storage, update and dissemination of massive 3D city models
 
-The Netherlands has recently launched a ["3D map"]http://www.arcgis.com/home/item.html?id=c2e507c293af4abf9f3add320f537da5) covering the whole country in which all buildings, roads, trees, canals are 3D geometries.
+The Netherlands has recently launched a [3D map](http://www.arcgis.com/home/item.html?id=c2e507c293af4abf9f3add320f537da5) covering the whole country in which all buildings, roads, trees, canals are 3D geometries.
 It was created by adding the third dimension, obtained from airborne laser-scanners, to the objects in the 2D topographic map.
 This leads to a massive amount of information: 15M+ objects, billions of elevation points, and billions of triangles.
 
@@ -24,13 +24,13 @@ The biggest challenge is the management of massive TINs (triangulated irregular 
 The PhD student will have to design and develop new data structures (eg based on [this](http://www.cs.cmu.edu/~blelloch/papers/BBCK05.pdf) and [that](http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/13_gsis_pgtet.pdf)), implement them, and compare different alternatives (in terms of storage space, query time, etc.).
 Furthermore, a prototype download service that generates 3D datasets tailored to specific applications will be explored.
 
-The project will take place in the 3D geoinformation group under the supervision of [Prof. Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Dr Hugo Ledoux](http://www.tudelft.nl/hledoux).
+The project will take place in the 3D geoinformation group under the supervision of [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Dr Hugo Ledoux](http://www.tudelft.nl/hledoux).
 It is fully funded by the Dutch Technology Foundation ([STW](http://www.stw.nl)), and it is part of a large project in the Netherlands in which 3 universities and 11 organisations are involved.
 We expect the PhD student to collaborate with the other researchers and practitioners involved in the project.
 
 ## Research group
 
-The 3D geoinformation research group focusses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing and implementing better systems to model 3D cities, buildings and landscapes.
+The 3D geoinformation research group focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing and implementing better systems to model 3D cities, buildings and landscapes.
 It is a multidisciplinary group of around [12 people](/about/), including computer scientists, geomatics engineers, and geographers.
 It has a history of successful collaborations with the industry and the government: its research has led to [tools](https://github.com/tudelft3d), standards and patents for the management of 3D geographic information.
 
@@ -59,8 +59,9 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
-The deadline to apply is XX. 
-Please e-mail your application materials to  
+The deadline to apply is **March 2nd 2015 at 17:00** (Amsterdam time).
+
+Please e-mail your application materials to  XXX
 When applying for this position, please refer to vacancy number .
 
-For more information about this position, please contact directly [Hugo Ledoux](http://tudelft.nl/hledoux) (+31 15 27 86114, h.ledoux@tudelft.nl).
+For more information about this position, please contact directly [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (j.e.stoter@tudelft.nl)or [Hugo Ledoux](http://tudelft.nl/hledoux) (h.ledoux@tudelft.nl).
