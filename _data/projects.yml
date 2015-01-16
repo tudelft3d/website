@@ -7,7 +7,7 @@
 - name: 3DSM
   description: Feature aware Digital Surface Model analysis and generalization based on the 3D Medial Axis Transform
   webpage: http://3dsm.bk.tudelft.nl
-  image: 3dsm.png
+  image: 3dsm.jpg
 
 - name: Navigation for first responders
   description: The goal of this research is to support path planning for first responders among the moving obstacles caused by different types of disasters.
