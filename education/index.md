@@ -44,7 +44,7 @@ permalink: /education/
       <p><i class="fa fa-external-link"></i> <a href="{{ i.link }}">thesis</a></p>
     {% endif %}
      {% if i.paper %}
-      <br><p><i class="fa fa-external-link"></i> <a href="{{ i.paper }}">paper</a></p>
+      <p><i class="fa fa-external-link"></i> <a href="{{ i.paper }}">paper</a></p>
     {% endif %}
   </div>
 </div>
