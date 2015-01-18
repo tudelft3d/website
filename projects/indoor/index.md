@@ -76,7 +76,21 @@ Path on the coarse level:
 Path on the detailed level:
 
 <div class="row">
-  <div class="col-sm-12">
+  <div class="col-sm-6  col-xs-12">
     <img class="img-responsive" alt="Detailed Level Path" src="{{ "/projects/indoor/img/2ndLevelPath.png" | prepend: site.baseurl }}">
+  </div>
+  <iframe class="col-sm-6  col-xs-12" height="281" src="//player.vimeo.com/video/117085974" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row">
+  <div class="col-lg-offset-3 col-lg-3">
+      <img class="img-circle img-responsive" src="{{ "/img/staff/liu.png" | prepend: site.baseurl }}">
+      <h3>Liu Liu <br><small>PhD candidate</small></h3>
+  </div>
+  <div class=" col-lg-3">
+      <a href="http://3dgeoinfo.bk.tudelft.nl/szlatanova/"><img class="img-circle img-responsive" src="{{ "/img/staff/sisi.jpg" | prepend: site.baseurl }}"></a>
+      <h3>Sisi Zlatanova <br><small>Project leader</small></h3>
   </div>
 </div>
