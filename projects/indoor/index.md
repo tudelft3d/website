@@ -79,14 +79,16 @@ Path on the detailed level:
   <div class="col-sm-6  col-xs-12">
     <img class="img-responsive" alt="Detailed Level Path" src="{{ "/projects/indoor/img/2ndLevelPath.png" | prepend: site.baseurl }}">
   </div>
-  <iframe class="col-sm-6  col-xs-12" height="281" src="//player.vimeo.com/video/117085974" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div style='position: relative; width: 100%; height: 0px; padding-bottom: 60%;'>
+    <iframe class="col-sm-6  col-xs-12" style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%' src="//player.vimeo.com/video/117085974" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
 </div>
 
 <hr class="featurette-divider">
 
 <div class="row">
   <div class="col-lg-offset-3 col-lg-3">
-      <img class="img-circle img-responsive" src="{{ "/img/staff/liu.png" | prepend: site.baseurl }}">
+      <img class="img-circle img-responsive" src="{{ "/img/staff/liu.jpg" | prepend: site.baseurl }}">
       <h3>Liu Liu <br><small>PhD candidate</small></h3>
   </div>
   <div class=" col-lg-3">
