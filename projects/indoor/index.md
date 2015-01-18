@@ -76,12 +76,10 @@ Path on the coarse level:
 Path on the detailed level:
 
 <div class="row">
-  <div class="col-sm-6 col-xs-12">
+  <div class="col-sm-6  col-xs-12">
     <img class="img-responsive" alt="Detailed Level Path" src="{{ "/projects/indoor/img/2ndLevelPath.png" | prepend: site.baseurl }}">
   </div>
-  <div class="col-sm-6 col-xs-12" style='position: relative; height: 0px; padding-bottom: 56.2%;'>
-    <iframe style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%' src="//player.vimeo.com/video/117085974" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
+  <iframe class="col-sm-6  col-xs-12" height="281" src="//player.vimeo.com/video/117085974" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <hr class="featurette-divider">
