@@ -32,3 +32,14 @@
   description: A robust semantic-aware utility to convert CityGML data to OBJ, featuring decoupling of objects and conversion of attributes to colours.
   github: https://github.com/tudelft3d/CityGML2OBJs
   image: citygml2objs.png
+
+- name: Solar3Dcity
+  description: A simple utility to estimate the yearly solar irradiance of buildings in CityGML
+  github: https://github.com/tudelft3d/Solar3Dcity
+  image: solar3dcity.png
+
+- name: Error3Dcity
+  description: An error propagation tool for simulating acquisition errors to 3D city models in a Monte Carlo simulation
+  github: https://github.com/tudelft3d/Error3Dcity
+  image: error3dcity.png
+
