@@ -28,7 +28,7 @@ Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file.
 
 ## Adding blog/news posts
 
-Each post is a markdown file in `_posts`. When creating one, just copy the structure of the other ones, the naming convention for the files must be followed and each file should have a header of this form:
+Each blog/news post is a [Markdown](http://daringfireball.net/projects/markdown/syntax) file in `_posts`. When creating one, just copy the structure of the other ones, the naming convention for the files must be followed and each file should have a header of this form:
 
 ```
 ---
