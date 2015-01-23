@@ -35,6 +35,11 @@
   image: val3dity.png
   web: http://geovalidation.bk.tudelft.nl/val3dity
 
+- name: masbpy
+  description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
+  github: https://github.com/tudelft3d/masbpy
+  image: masbpy200.jpg
+
 - name: MATAHN
   description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
   github: https://github.com/tudelft3d/matahn
