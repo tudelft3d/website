@@ -4,7 +4,7 @@
   image: random3dcity.png
 
 - name: Solar3Dcity
-  description: A simple utility to estimate the yearly solar irradiance of buildings in CityGML
+  description: A simple utility to estimate the yearly solar irradiation of buildings in CityGML
   github: https://github.com/tudelft3d/Solar3Dcity
   image: solar3dcity.png
 
