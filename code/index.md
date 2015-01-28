@@ -18,7 +18,7 @@ All of projects are available on our [GitHub group page](https://github.com/tude
      <h3>{{ i.name }}</h3>
      <p>{{ i.description }}</p>
      {% if i.web %}
-        <p><i class="fa fa-external-link"></i> <a href="{{ i.web }}" height="200" width="200">{{ i.web }}</a></p>
+        <p><i class="fa fa-external-link"></i> <a href="{{ i.web }}">{{ i.web }}</a></p>
      {% endif %}
      {% if i.github %}
         <p><i class="fa fa-github"></i> <a href="{{ i.github }}">{{ i.github }}</a></p>
