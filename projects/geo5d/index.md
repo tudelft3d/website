@@ -6,9 +6,9 @@ permalink: /projects/geo5d/
 
 <div class="row">
   <!-- <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/gmaps.png" | prepend: site.baseurl }}"></div> -->
-  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/lod34.png" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/lod1.png" | prepend: site.baseurl }}"></div>
-	<div class="col-sm-6 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/extrusion_short.png" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/lod34.png" | prepend: site.baseurl }}"/></div>
+  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/lod1.png" | prepend: site.baseurl }}"/></div>
+	<div class="col-sm-6 hidden-xs nopadding"><img class="img-responsive" src="{{ "/projects/geo5d/img/extrusion_short.png" | prepend: site.baseurl }}"/></div>
 </div>
 
 ---
@@ -36,6 +36,14 @@ Because of the high ambitions to realise a true 5D model, the focus is on laying
 The research will result in well-tested technology for 5D data modelling after 5 years. However as the research approach extends currently available single-dimensional models in a step-wise approach, the intermediate models that integrate multiple but not all dimensional concepts are already in reach for use in practice and commercial implementations within the next few years, i.e. several 3D models after one to two years (3D space, 2D space+time, 2D space+scale) and several 4D models after several years (3D space+time, 3D space+scale, 2D space+time+scale), all based on a solid mathematical theory and recent GIS technology developments.
 
 In 2010 this research project was awarded with a Vidi grant from the [Dutch Technology Foundation STW](http://www.stw.nl), which is part of the [Netherlands Organisation for Scientific Research (NWO)](http://www.nwo.nl). Since then several PhDs, Post-docs, MSc students and visiting scientists have been working in the project.
+
+---
+
+## Main publications
+
+The complete list of publications of the project is available <a href="publications.html">here</a>.
+
+{% include_relative top-pubs.html %}
 
 ---
 
@@ -483,9 +491,9 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
 ## Team
 
 <div class="row">
-    
+
     <div class="col-lg-4 col-sm-6">
-      <a href="http://3dgeoinfo.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="/img/staff/ken.jpg" /></a>
+      <a href="http://3dgeoinfo.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ "/img/staff/ken.jpg"  | prepend: site.baseurl }}" /></a>
     
       <h3>Ken Arroyo Ohori <small>PhD candidate</small></h3>
       <p>
@@ -498,7 +506,7 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
     
     
     <div class="col-lg-4 col-sm-6">
-      <a href="http://3dgeoinfo.bk.tudelft.nl/biljecki"><img class="img-circle img-responsive" src="/img/staff/filip.jpg" /></a>
+      <a href="http://3dgeoinfo.bk.tudelft.nl/biljecki"><img class="img-circle img-responsive" src="{{ "/img/staff/filip.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Filip Biljecki <small>PhD candidate</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/biljecki">3dgeoinfo.bk.tudelft.nl/biljecki</a><br />
@@ -508,7 +516,7 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
     </div>
     
     <div class="col-lg-4 col-sm-6">
-      <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" /></a>
+      <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ "/img/staff/hugo.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Hugo Ledoux <small>Assistant-prof.</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
@@ -519,7 +527,7 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
     </div>
 
       <div class="col-lg-4 col-sm-6">
-      <a href="http://www.gdmc.nl/martijn"><img class="img-circle img-responsive" src="/img/staff/martijn.jpg" /></a>
+      <a href="http://www.gdmc.nl/martijn"><img class="img-circle img-responsive" src="{{ "/img/staff/martijn.jpg"  | prepend: site.baseurl }}" /></a>
     
       <h3>Martijn Meijers <small>Postdoc</small></h3>
       <p>
@@ -532,7 +540,7 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
 
     
     <div class="col-lg-4 col-sm-6">
-      <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" /></a>
+      <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ "/img/staff/jantien.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Jantien Stoter <small>Professor</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
@@ -541,4 +549,4 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
       </p>
     </div>
-</div>>
+</div>
