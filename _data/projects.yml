@@ -5,9 +5,9 @@
   image: geo5d.png
 
 - name: 3DSM
-  description: Simplification of digital surface models using feature-based three-dimensional methods.
+  description: Feature aware Digital Surface Model analysis and generalization based on the 3D Medial Axis Transform
   webpage: http://3dsm.bk.tudelft.nl
-  image: 3dsm.png
+  image: 3dsm.jpg
 
 - name: Navigation for first responders
   description: The goal of this research is to support path planning for first responders among the moving obstacles caused by different types of disasters.
@@ -18,3 +18,8 @@
   description: The aim of this project is to develop voxel and point cloud data types and further mature the existing spatial features of the column-store open-source MonetDB relational database
   webpage: /projects/bigvoxels/
   image: bigvoxels.png
+
+- name: Indoor Semantic Modeling to Support Path-Finding
+  description: This project aims to model and make use of building semantics for navigation purpose, and to develop a corresponding path finding strategy which can provide both conceptual and geometric paths and cater for different user requirements.
+  webpage: /projects/indoor/
+  image: INSM.jpg

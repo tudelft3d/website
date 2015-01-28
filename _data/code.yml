@@ -1,3 +1,22 @@
+- name: Random3Dcity
+  description: A procedural modelling engine natively supporting CityGML, and capable of generating 392 representations of a single building.
+  github: https://github.com/tudelft3d/Random3Dcity
+  image: random3dcity.png
+
+- name: Solar3Dcity
+  description: A simple utility to estimate the yearly solar irradiation of buildings in CityGML
+  github: https://github.com/tudelft3d/Solar3Dcity
+  image: solar3dcity.png
+
+- name: Error3Dcity
+  description: An error propagation tool for simulating acquisition errors to 3D city models in a Monte Carlo simulation
+  github: https://github.com/tudelft3d/Error3Dcity
+  image: error3dcity.png
+
+- name: CityGML2OBJs
+  description: A robust semantic-aware utility to convert CityGML data to OBJ, featuring decoupling of objects and conversion of attributes to colours.
+  github: https://github.com/tudelft3d/CityGML2OBJs
+  image: citygml2objs.png
 
 - name: prepair
   description: Automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules.
@@ -16,19 +35,13 @@
   image: val3dity.png
   web: http://geovalidation.bk.tudelft.nl/val3dity
 
+- name: masbpy
+  description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
+  github: https://github.com/tudelft3d/masbpy
+  image: masbpy200.jpg
+
 - name: MATAHN
   description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
   github: https://github.com/tudelft3d/matahn
   image: matahn.png
   web: http://3dsm.bk.tudelft.nl/matahn
-
-- name: Random3Dcity
-  description: A procedural modelling engine natively supporting CityGML, and capable of generating 392 representations of a single building.
-  github: https://github.com/tudelft3d/Random3Dcity
-  image: r3dc.png
-
-
-- name: CityGML2OBJs
-  description: A robust semantic-aware utility to convert CityGML data to OBJ, featuring decoupling of objects and conversion of attributes to colours.
-  github: https://github.com/tudelft3d/CityGML2OBJs
-  image: citygml2objs.png
