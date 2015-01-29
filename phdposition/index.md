@@ -63,7 +63,7 @@ To apply, please submit:
 
 Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2015-1__.
 
-For more information about this position, please contact directly [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl>) or [Hugo Ledoux](http://tudelft.nl/hledoux) (<h.ledoux@tudelft.nl>).
+For more information about this position, please contact directly [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl>) or [Dr Hugo Ledoux](http://tudelft.nl/hledoux) (<h.ledoux@tudelft.nl>).
 
 <div class="alert alert-warning" role="alert">
 The deadline to apply is March 2nd 2015 at 17:00 (Amsterdam time).
