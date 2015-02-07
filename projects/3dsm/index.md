@@ -56,6 +56,7 @@ In this project, we tackle this problem by *simplifying* DSMs, ie we reduce thei
   <div class="col-md-7">
     <h2 class="featurette-heading">MATAHN</h2>
     <p>MATAHN is a user-friendly way to download parts of the <a href="http://www.ahn.nl">AHN2 datasets</a>. Just select the area you want and we'll create a LAZ file&mdash;no more tiles, we handle them for you. We will soon offer simplified version of AHN2, constructed with our MAT-based algorithms.</p>
+    <p><a href="http://3dsm.bk.tudelft.nl/matahn"><i class="fa fa-external-link"></i> 3dsm.bk.tudelft.nl/matahn</a></p>
   </div>
   <div class="col-md-5">
     <a href="http://3dsm.bk.tudelft.nl/matahn"><img class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/matahn.png" | prepend: site.baseurl }}" alt="Generic placeholder image"></a>
@@ -76,19 +77,19 @@ In this project, we tackle this problem by *simplifying* DSMs, ie we reduce thei
 
 ### Meeting 2014/09/11
 
-  - Both presentations <a href="pdfs/3dsm_gc_20140911.pdf"><i class="fa fa-file-image-o"></i>
+  - Both presentations <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20140911.pdf"><i class="fa fa-file-image-o"></i>
 
 ### Meeting 2014/01/23
 
-  - Overview of the project <a href="pdfs/3dsm_gc_201401_hugo.pdf"><i class="fa fa-file-image-o"></i>
-  - Progress after 9 months <a href="pdfs/3dsm_gc_201401_ravi.pdf"><i class="fa fa-file-image-o"></i>
+  - Overview of the project <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_hugo.pdf"><i class="fa fa-file-image-o"></i>
+  - Progress after 9 months <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_ravi.pdf"><i class="fa fa-file-image-o"></i>
 
 
 
 ### Members
 
-<div class="table-responsive">
-  <table class="table table-hover">
+<div class="container">
+  <table class="table table-hover table-condensed">
 <thead>
 <tr>
 <th style="text-align:left;"> Company </th>
@@ -147,7 +148,7 @@ In this project, we tackle this problem by *simplifying* DSMs, ie we reduce thei
 <div class="row">
 
     <div class="col-lg-4 col-sm-6">
-      <a href="http://3dgeoinfo.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ "/img/staff/ravi.jpg"  | prepend: site.baseurl }}" /></a>
+      <a href="http://3dgeoinfo.bk.tudelft.nl/rypeters"><img class="img-circle img-responsive" src="{{ "/img/staff/ravi.jpg"  | prepend: site.baseurl }}" /></a>
     
       <h3>Ravi Peters <small>PhD candidate</small></h3>
       <p>
