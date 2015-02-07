@@ -4,6 +4,10 @@
   description:  Big Data Analytics in the Geospatial Domain
   webpage: /projects/bigvoxels/
 
+- image: 3d4em.png
+  description: Design and implementation of an SDI for integrated environmental modelling in 3D
+  webpage: http://www.3d4em.nl
+
 - image: geo5d.png
   description: 5D geo-modelling
   webpage: /projects/geo5d/

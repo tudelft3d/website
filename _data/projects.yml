@@ -4,6 +4,11 @@
   webpage: /projects/geo5d/
   image: geo5d.png
 
+- name: 3D4EM
+  description: Design and implementation of an SDI for integrated environmental modelling in 3D
+  webpage: http://www.3d4em.nl
+  image: 3d4em.png
+
 - name: 3DSM
   description: Simplification of digital terrain models using feature-based three-dimensional methods
   webpage: /projects/3dsm/
