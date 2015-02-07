@@ -5,8 +5,8 @@
   image: geo5d.png
 
 - name: 3DSM
-  description: Feature aware Digital Surface Model analysis and generalization based on the 3D Medial Axis Transform
-  webpage: http://3dsm.bk.tudelft.nl
+  description: Simplification of digital terrain models using feature-based three-dimensional methods
+  webpage: /projects/3dsm/
   image: 3dsm.jpg
 
 - name: Navigation for first responders
