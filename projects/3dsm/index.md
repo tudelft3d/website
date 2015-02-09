@@ -50,20 +50,6 @@ In this project, we tackle this problem by *simplifying* DSMs, ie we reduce thei
   </div>
 </div>
 
- - - - 
-
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">MATAHN</h2>
-    <p>MATAHN is a user-friendly way to download parts of the <a href="http://www.ahn.nl">AHN2 datasets</a>. Just select the area you want and we'll create a LAZ file&mdash;no more tiles, we handle them for you. We will soon offer simplified version of AHN2, constructed with our MAT-based algorithms.</p>
-    <p><a href="http://3dsm.bk.tudelft.nl/matahn"><i class="fa fa-external-link"></i> 3dsm.bk.tudelft.nl/matahn</a></p>
-  </div>
-  <div class="col-md-5">
-    <a href="http://3dsm.bk.tudelft.nl/matahn"><img class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/matahn.png" | prepend: site.baseurl }}" alt="Generic placeholder image"></a>
-  </div>
-</div>
-
-
 
 - - -
 
