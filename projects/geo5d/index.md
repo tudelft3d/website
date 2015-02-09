@@ -532,7 +532,7 @@ The complete list of publications of the project is available <a href="publicati
       <h3>Martijn Meijers <small>Postdoc</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://www.gdmc.nl/martijn">www.gdmc.nl/martijn</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:b.m.meijers@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+          <i class="fa fa-envelope"></i> <a href="mailto:b.m.meijers@tudelft.nl">b.m.meijers@tudelft.nl</a><br />
           <br />
           <br />
       </p>
