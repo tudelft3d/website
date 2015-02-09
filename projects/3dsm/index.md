@@ -23,9 +23,9 @@ permalink: /projects/3dsm/
 
 3DSM is a research project funded by the [Dutch Technology Foundation STW](http://www.stw.nl), under the [Open Technology programme](http://www.stw.nl/nl/content/open-technologieprogramma). We aim at investigating algorithms to simplify digital surface models (DSMs), which represent the Earth's surface and man-made objects. In recent years, these have considerably grown in size because of advances in acquisition technologies such as airborne laser-scanning. A vivid example is the [AHN2 datasets](http://www.ahn.nl) in the Netherlands: it contains at least 4 points per square meter, and its total is around 640 billion points (639,477,709,621 to be exact). What is ironic is that while datasets like AHN2 are being collected in several countries (because of their many possible applications such as flood modelling, monitoring of dikes, forest mapping, the generation of 3D city models, etc.), in practice they are seldom used to their full potential since the tools that practitioners have, and are used to, cannot handle such massive datasets.
 
-In this project, we tackle this problem by *simplifying* DSMs, ie we reduce their size while keeping their main characteritics. While current methods often portray DSMs as 2D objects (and thus valuable information is lost), we investigate new simplification algorithms that: 
+In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce their size while keeping their main characteristics. While current methods often portray DSMs as 2D objects (and thus valuable information is lost), we investigate new simplification algorithms that: 
 
-  1. use 3D tools and 3D data structures, specificially the 3D medial axis transform (MAT); 
+  1. use 3D tools and 3D data structures, specifically the 3D medial axis transform (MAT); 
   2. permit us to define 3D features---buildings, dikes, etc---and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application. 
 
 - - - 
