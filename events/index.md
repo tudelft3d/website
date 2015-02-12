@@ -4,8 +4,7 @@ title: Our events
 permalink: /events/
 ---
 
-Eurographics Workshop on Urban Data Modelling and Visualisation 2015 at the Delft University of Technology.
-
+Events that we organise or have organised in the past.
 
 {% for i in site.data.events %}
 <hr>
