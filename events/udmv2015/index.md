@@ -5,7 +5,7 @@ permalink: /events/udmv2015/
 ---
 
 <div class="col-sm-12">
-<img class="image img-responsive" src="../../img/events/Delft-Hall.jpg"/>
+<img class="image img-responsive" src="../../img/events/udmv2015/Delft-Hall.jpg"/>
 </div>
 
 Eurographics Workshop on Urban Data Modelling and Visualisation 2015 at the Delft University of Technology.
@@ -18,6 +18,10 @@ Eurographics Workshop on Urban Data Modelling and Visualisation 2015 at the Delf
 The objective of this workshop is to discuss the modelling and visualisation of the city at various temporal and spatial scales, and aims at sharing associated techniques, methods, uses and points of view.
 
 ## Venue
+
+<div class="col-sm-12">
+<img class="image img-responsive" src="../../img/events/udmv2015/TUDelft-Library.jpg"/>
+</div>
 
 The workshop will be hosted by the 3D Geoinformation Research Group at the Delft University of Technology in the Netherlands (N52.005234, E4.370134).
 
