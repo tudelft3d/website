@@ -4,6 +4,10 @@ title: Eurographics workshop UDMV 2015 (Delft, the Netherlands)
 permalink: /events/udmv2015/
 ---
 
+<div class="col-sm-12">
+<img class="image img-responsive" src="../../img/events/Delft-Hall.jpg"/>
+</div>
+
 Eurographics Workshop on Urban Data Modelling and Visualisation 2015 at the Delft University of Technology.
 
 ## Monday 23 November 2015
@@ -21,6 +25,7 @@ The workshop will be hosted by the 3D Geoinformation Research Group at the Delft
 ## Call for papers
 
 Contributions addressing the following topics are welcome:
+
 - Modelling the static and dynamic features of the city (spatio-temporal data)
 - Multi-scale geometric data (from building scale to urban scale)
 - Multi-scale temporal data (from real time to history time)
@@ -32,7 +37,7 @@ Contributions addressing the following topics are welcome:
 
 Expected contributions are research papers, 6 pages in EG publication format, presenting unpublished methods, algorithms and techniques with established results. All accepted papers will be presented orally at the conference by one of the authors, and will be published in the EG Digital Library.
 
-You can download the LaTeX template from here.
+You can download the LaTeX template from here. Submissions in Word and other formats will not be accepted.
 
 ### Post-event journal publications
 
@@ -45,9 +50,27 @@ Researchers of selected papers will be contacted to submit an extension of their
 - ??, 2015 : Camera-Ready Paper Due
 - November 23, 2015 : Workshop date
 
+
+## Registration
+
+The registration will cost €??, and it covers proceedings, lunch, and coffee breaks.
+
+
 ## Organisation and scientific committee
 
 ## Sponsors
+
+## Programme
+
+Tentative programme:
+
+#### Sunday 22 November
+
+
+
+#### Monday 23 November
+
+
 
 ## Getting there
 
