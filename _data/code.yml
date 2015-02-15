@@ -1,11 +1,14 @@
 - name: Random3Dcity
   description: A procedural modelling engine natively supporting CityGML, and capable of generating 392 representations of a single building.
   github: https://github.com/tudelft3d/Random3Dcity
+  web: http://3dgeoinfo.bk.tudelft.nl/biljecki/Random3Dcity.html
+  video: https://vimeo.com/91289285
   image: random3dcity.png
 
 - name: Solar3Dcity
   description: A simple utility to estimate the yearly solar irradiation of buildings in CityGML
   github: https://github.com/tudelft3d/Solar3Dcity
+  video: https://vimeo.com/119679847
   image: solar3dcity.png
 
 - name: Error3Dcity
@@ -23,17 +26,20 @@
   github: https://github.com/tudelft3d/prepair
   image: prepair.png
   web: http://geovalidation.bk.tudelft.nl/prepair
+  paper: http://dx.doi.org/10.1016/j.cageo.2014.01.009
 
 - name: pprepair
   description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.
   github: https://github.com/tudelft3d/pprepair
   image: pprepair.png
+  paper: http://dx.doi.org/10.1127/1432-8364/2012/0143
 
 - name: val3dity
   description: Geometric validation of 3D primitives according to ISO 19107.
   github: https://github.com/tudelft3d/val3dity
   image: val3dity.png
   web: http://geovalidation.bk.tudelft.nl/val3dity
+  paper: http://dx.doi.org/10.1111/mice.12043
 
 - name: masbpy
   description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
