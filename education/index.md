@@ -26,7 +26,9 @@ permalink: /education/
      <p>{{ i.title }}</p>
   </div>
 </div>
+{% if forloop.rindex > 1 %}
 <hr>
+{% endif %}
 {% endfor %}
 
 
@@ -48,5 +50,7 @@ permalink: /education/
     {% endif %}
   </div>
 </div>
+{% if forloop.rindex > 1 %}
 <hr>
+{% endif %}
 {% endfor %}
