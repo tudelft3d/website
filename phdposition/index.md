@@ -4,6 +4,8 @@ title:  PhD position vacancy
 permalink: /phdposition/
 ---
 
+<div class="alert alert-danger" role="alert">2015-03-03: Position is CLOSED, you can't apply anymore.</div>
+
 <div class="row">
 	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/3.png" | prepend: site.baseurl }}"></div>
   <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/4.png" | prepend: site.baseurl }}"></div>
@@ -51,7 +53,12 @@ Applicants should hold an MSc degree (or almost completed) in geoinformatics/geo
 They are expected to have good programming skills, a good command of English (oral and written) and strong interest in 3D modelling and/or computational geometry.
 Prior experience with GIS is highly desirable.
 
+
 ## How to apply
+
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
+</div>
 
 To apply, please submit: 
 
@@ -61,10 +68,7 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2015-1__.
+<del>Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2015-1__. </del>
 
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl>) or [Dr Hugo Ledoux](http://tudelft.nl/hledoux) (<h.ledoux@tudelft.nl>).
 
-<div class="alert alert-warning" role="alert">
-The deadline to apply is March 2nd 2015 at 17:00 (Amsterdam time).
-</div>
