@@ -13,7 +13,7 @@ It is a multidisciplinary group (computer scientists, geomatics engineers, and g
 
 It has a history of successful collaborations with the industry and the government: its research has led to [software]({{ "/code/" |  prepend: site.baseurl }}), standards and patents for the management of 3D geographic information.
 
---- 
+- - - 
 
 ## Staff
 
@@ -56,7 +56,9 @@ It has a history of successful collaborations with the industry and the governme
     {% endfor %}
 </div>
 
----
+- - -
+
+<h2 id="where">Our offices</h2>
 
 <div class="col-md-4">
   <i class="fa fa-map-marker fa-fw">     </i> Room 01.WEST.280 (building #8) <br>
