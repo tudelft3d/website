@@ -38,7 +38,7 @@ permalink: /education/
 {% for i in site.data.mscfinished %}
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
+      <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>
           {{ i.name }} 
