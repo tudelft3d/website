@@ -13,3 +13,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/holder.js" | prepend: site.baseurl }}"></script>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="{{ "/assets/js/jquery.eqheight.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".row").eqHeight(".column");
+});
+</script>
