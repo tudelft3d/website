@@ -18,7 +18,7 @@ permalink: /education/
 
 <div class="row">
 {% for i in site.data.mscnow %}
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
       <div class="caption">
@@ -36,7 +36,7 @@ permalink: /education/
 
 <div class="row">
 {% for i in site.data.mscfinished %}
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
