@@ -14,6 +14,15 @@ permalink: /education/
 
 - - -
 
+## Looking for a MSc thesis topic?
+
+We have [list of potential topics](msctopics).
+
+
+
+
+- - - 
+
 ## MSc thesis projects -- Ongoing
 
 <div class="row">
