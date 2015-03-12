@@ -10,6 +10,11 @@ img {
       max-width: 100%;
 }
 
+#frontimggrid img {
+  object-fit: contain;
+  height: 345px;
+}
+
 .jumbotron {
   text-align: center;
 }
