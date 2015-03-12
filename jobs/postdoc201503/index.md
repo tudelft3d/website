@@ -5,9 +5,7 @@ permalink: /jobs/postdoc201503/
 ---
 
 <div class="row">
-  <div class="col-sm-6 hidden-xs nopadding"><img class="img-responsive" src="{{ "image003.png" | prepend: site.baseurl }}"></div>
-  <!-- <div class="col-sm-2 hidden-xs nopadding"><img class="img-responsive" src="{{ "image001.png" | prepend: site.baseurl }}"></div> -->
-  <div class="col-sm-6 hidden-xs nopadding"><img class="img-responsive" src="{{ "image007.png" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "img.png" | prepend: site.baseurl }}"></div>
 </div>
 
 
