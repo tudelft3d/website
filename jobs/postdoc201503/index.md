@@ -27,7 +27,7 @@ It has a history of successful collaborations with the industry and the governme
 
 ## Conditions
 
-The starting gross salary will be in the range €2,476 up to €3,908 depending on the experience of the candidate. 
+The [position](http://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/jobs/academic-jobs/) is for two years and the starting gross salary will be in the range €2,476 up to €3,908 depending on the experience of the candidate. 
 TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.
 
 
