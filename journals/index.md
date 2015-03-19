@@ -270,6 +270,14 @@ The impact factor can be checked (inside the campus or using a VPN) [here](http:
    * Impact factor: 1.329 5-year impact factor: n/a
    * Publisher: Taylor & Francis Inc.
    * Covers topography and mapping, satellite altimetry, bathymetry, positioning, precise navigation, boundary demarcation and determination, tsunamis, plate/tectonics, geoid determination, acoustics and space instrumentation, ground truth, system calibration and validation, and geographic information systems.
+   
+   
+#### Open Geospatial Data, Software and Standards
+   * [webpage](http://www.opengeospatialdata.com)
+   * Impact factor: N/A
+   * Publisher: Springer
+   * Provides an advanced forum for the science and technology of open data, crowdsourced information, and sensor web through the publication of reviews and regular research papers.
+   
 
 #### The Photogrammetric Record (*TPR*)
    * [webpage](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1477-9730)
