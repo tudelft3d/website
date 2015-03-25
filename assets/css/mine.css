@@ -72,6 +72,10 @@ h1 span {
     margin: 0 auto;
 }
 
+ul.posts {
+  padding-left: 0;
+}
+
 /* The blog posts archive, a long list */
 /*.posts {
    list-style-type: none;
