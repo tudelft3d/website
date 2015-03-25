@@ -11,12 +11,12 @@ img {
 }
 
 a {
-  color: #30bfeb;
+  color: #4f7de6;
 }
 
 a:hover,
 a:focus {
-  color: #4f7de6;
+  color: #30bfeb;
   text-decoration: none;
 }
 
