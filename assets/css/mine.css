@@ -68,6 +68,10 @@ h1 span {
   margin-top: -7px;
 }
 
+.img-responsive {
+    margin: 0 auto;
+}
+
 /* The blog posts archive, a long list */
 /*.posts {
    list-style-type: none;
