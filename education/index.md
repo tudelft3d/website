@@ -16,9 +16,7 @@ permalink: /education/
 
 ## Looking for a MSc thesis topic?
 
-We have [list of potential topics](msctopics).
-
-
+We have a [list of potential topics](msctopics).
 
 
 - - - 
