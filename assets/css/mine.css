@@ -10,6 +10,16 @@ img {
       max-width: 100%;
 }
 
+a {
+  color: #30bfeb;
+}
+
+a:hover,
+a:focus {
+  color: #4f7de6;
+  text-decoration: none;
+}
+
 #frontimggrid img {
   object-fit: contain;
   height: 345px;
@@ -42,6 +52,10 @@ h1 span {
 
 .navbar-brand {
   margin-top: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #30bfeb;
 }
 
 .tud img {
