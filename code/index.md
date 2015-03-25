@@ -10,30 +10,34 @@ All of projects are available on our [GitHub group page](https://github.com/tude
 
 A publication is added where applicable. If you use our code for a scientific project, please cite the corresponding article.
 
-{% for i in site.data.code %}
-<hr>
+- - -
+
 <div class="row">
-  <div class="col-md-3">
-    <img class="image img-responsive" src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/>
+{% for i in site.data.code %}
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/>
+      <div class="caption">
+        <h3>{{ i.name }}
+        <small>
+        {% if i.github %}
+          <a href="{{ i.github }}"><i class="fa fa-github"></i></a> 
+        {% endif %}
+        {% if i.paper %}
+          <a href="{{ i.paper }}"><i class="fa fa-file-pdf-o fa-fw"></i></a>
+        {% endif %}
+        {% if i.web %}
+          <a href="{{ i.web }}"><i class="fa fa-external-link"></i></a>
+        {% endif %}
+        {% if i.video %}
+          <a href="{{ i.video }}"><i class="fa fa-video-camera"></i> </a>
+        {% endif %}
+        </small>
+        </h3>
+        <p>{{ i.description }}</p>
+      </div>
+    </div>
   </div>
-  <div class="col-md-9">
-     <h3>{{ i.name }}</h3>
-     <p>{{ i.description }}</p>
-     {% if i.web %}
-        <p><i class="fa fa-external-link"></i> <a href="{{ i.web }}">{{ i.web }}</a></p>
-     {% endif %}
-     {% if i.github %}
-        <p><i class="fa fa-github"></i> <a href="{{ i.github }}">{{ i.github }}</a></p>
-     {% endif %}
-     {% if i.paper %}
-        <p><i class="fa fa-file-pdf-o fa-fw"></i> <a href="{{ i.paper }}">{{ i.paper }}</a></p>
-     {% endif %}
-     {% if i.video %}
-        <p><i class="fa fa-video-camera"></i> <a href="{{ i.video }}">{{ i.video }}</a></p>
-     {% endif %}
-  </div>
-</div>
 {% endfor %}
-
-
+</div>
 
