@@ -1,3 +1,14 @@
+- name: pprepair
+  description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.
+  github: https://github.com/tudelft3d/pprepair
+  image: pprepair.png
+  paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/12_pfg.pdf
+
+- name: masbpy
+  description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
+  github: https://github.com/tudelft3d/masbpy
+  image: masbpy200.jpg
+
 - name: Random3Dcity
   description: A procedural modelling engine natively supporting CityGML, and capable of generating 392 representations of a single building.
   github: https://github.com/tudelft3d/Random3Dcity
@@ -26,25 +37,14 @@
   github: https://github.com/tudelft3d/prepair
   image: prepair.png
   web: http://geovalidation.bk.tudelft.nl/prepair
-  paper: http://dx.doi.org/10.1016/j.cageo.2014.01.009
-
-- name: pprepair
-  description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.
-  github: https://github.com/tudelft3d/pprepair
-  image: pprepair.png
-  paper: http://dx.doi.org/10.1127/1432-8364/2012/0143
+  paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/14cgeo_prepair.pdf
 
 - name: val3dity
   description: Geometric validation of 3D primitives according to ISO 19107.
   github: https://github.com/tudelft3d/val3dity
   image: val3dity.png
   web: http://geovalidation.bk.tudelft.nl/val3dity
-  paper: http://dx.doi.org/10.1111/mice.12043
-
-- name: masbpy
-  description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
-  github: https://github.com/tudelft3d/masbpy
-  image: masbpy200.jpg
+  paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/13_cacaie.pdf
 
 - name: MATAHN
   description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
