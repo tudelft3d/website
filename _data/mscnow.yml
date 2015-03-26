@@ -1,4 +1,7 @@
-  
+- name: Carl Chen 
+  title: Edge-aware fusion of roof and façade point clouds into a uniformly dense point cloud
+  image: carl.jpg
+
 - name: Kees Jonker
   title: An improved grid-based height map for the Netherlands
   # link: 
@@ -19,4 +22,10 @@
   # link: 
   image: maarten.gif
 
+- name: Haoxiang Wu
+  title: 3D Semantic Model Generation From 2D Floor Plans
+  image: wu.png
 
+- name: Kaixuan Zhou
+  title: Exploring regularity to improve quality of facade reconstruction
+  image: zhou.png
