@@ -23,13 +23,14 @@ We have a [list of potential topics](msctopics).
 
 ## MSc thesis projects -- Ongoing
 
+{% assign msc = site.data.mscnow | sort: 'surname' %}
 <div class="row">
-{% for i in site.data.mscnow %}
+{% for i in msc %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
       <div class="caption">
-        <h3>{{ i.name }}</h3>
+        <h3>{{ i.name }} {{ i.surname }}</h3>
         <p>{{ i.title }}</p>
       </div>
     </div>
@@ -41,14 +42,15 @@ We have a [list of potential topics](msctopics).
 
 ## MSc thesis projects -- Completed
 
+{% assign msc = site.data.mscfinished | sort: 'year' | reverse %}
 <div class="row">
-{% for i in site.data.mscfinished %}
+{% for i in msc %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>
-          {{ i.name }} 
+          {{ i.name }} {{ i.surname }} 
           <small>({{ i.year }})</small>
         {% if i.link %}
           <small><a href="{{ i.link }}"><i class="fa fa-file-pdf-o"></i></a></small>
