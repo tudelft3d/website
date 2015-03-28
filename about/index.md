@@ -61,7 +61,7 @@ It has a history of successful collaborations with the industry and the governme
 <h2 id="where">Our offices</h2>
 
 <div class="col-md-4">
-  <i class="fa fa-map-marker fa-fw">     </i> Room 01.WEST.280 (building #8) <br>
+  <i class="fa fa-map-marker fa-fw">     </i> Room BG.WEST.010 (building #8) <br>
   <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
   <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
   <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>

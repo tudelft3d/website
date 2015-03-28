@@ -59,9 +59,9 @@ L.CRS.proj4js = (function () {
                         }
                     )
                 ],
-                center: new L.LatLng(52.005313, 4.370466),
+                center: new L.LatLng(52.003187,4.368730), 
                 zoom: 10
             });
-            var marker = L.marker([52.005313, 4.370466]).addTo(map);
-            marker.bindPopup("<b>Faculty of Architecture & the Built Environment<br>Julianalaan 134, 2628BL Delft</b><br>(our offices are roughly where the arrow is, on the first floor)").openPopup();
+            var marker = L.marker([52.003187,4.368730]).addTo(map);
+            marker.bindPopup("<b>Faculty of Architecture & the Built Environment<br>Julianalaan 134, 2628BL Delft</b><br>(our office (BG.WEST.010) is roughly where the arrow is, on the ground floor)").openPopup();
 
