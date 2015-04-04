@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  PhD position vacancy
-permalink: /phdposition/
+permalink: /jobs/phd201502/
 ---
 
 <div class="alert alert-danger" role="alert">2015-03-03: Position is CLOSED, you can't apply anymore.</div>
