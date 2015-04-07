@@ -4,6 +4,8 @@ title:  postdoc position vacancy
 permalink: /jobs/postdoc201503/
 ---
 
+<div class="alert alert-danger" role="alert">2015-04-07: Position is CLOSED, you can't apply anymore.</div>
+
 <div class="row">
   <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "img.png" | prepend: site.baseurl }}"></div>
 </div>
@@ -37,6 +39,10 @@ Applicants should hold a PhD degree (or almost completed) in geoinformatics/geom
 
 ## How to apply
 
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
+</div>
+
 To apply, please submit: 
 
 - a detailed CV and a letter of application,
@@ -45,10 +51,12 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - PhD thesis and all publications you have authored (a URL to a PDF is fine).
 
+<del>
 Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2015-07__.
+</del>
 
 For more information about this position, please contact directly [Ass. Prof. Dr Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (<s.zlatanova@tudelft.nl>). 
 
-<div class="alert alert-warning" role="alert">
+<!-- <div class="alert alert-warning" role="alert">
 The deadline to apply is April 4th 2015 at 17:00 (Amsterdam time).
-</div>
+</div> -->

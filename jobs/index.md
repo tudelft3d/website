@@ -6,7 +6,7 @@ permalink: /jobs/
 
 
 [Postdoc: 3D space subdivision for indoor navigation](/jobs/postdoc201503/)
-<span class="label label-success">deadline 2015-04-04</span> 
+<span class="label label-danger">closed</span> 
 
 - - -
 
