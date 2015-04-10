@@ -4,7 +4,7 @@ title:  PhD position vacancy
 permalink: /jobs/phd201502/
 ---
 
-<div class="alert alert-danger" role="alert">2015-03-03: Position is CLOSED, you can't apply anymore.</div>
+<div class="alert alert-danger" role="alert">2015-03-03: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 <div class="row">
 	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/3.png" | prepend: site.baseurl }}"></div>
