@@ -11,8 +11,8 @@
 
 - name: ACM Transactions on Spatial Algorithms and Systems (TSAS)
   webpage: http://tsas.acm.org/
-  index: no
-  # description: 
+  index: --
+  description: Publishes the highest quality papers on all aspects of spatial algorithms and systems and closely related disciplines. It has a multi-disciplinary perspective in that it spans a large number of areas where spatial data is manipulated or visualized (regardless of how it is specified - i.e., geometrically or textually)
 
 - name: Annals of GIS (TAGI)
   webpage: http://www.tandf.co.uk/journals/tagi
@@ -21,17 +21,17 @@
 
 - name: Annals of the Association of American Geographers
   webpage: http://www.tandfonline.com/loi/raag20
-  index: no
+  index: none
   description: Covers major research articles and in-depth book reviews for all fields of geography.
 
 - name: The Cartographic Journal
   webpage: http://maneypublishing.com/index.php/journals/caj/
-  index: no
+  index: none
   description: Covers all aspects of cartography, mapping and spatial data display, including digital mapping, Geographical Information Systems and related remote-sensing technologies, and global-positioning systems.
 
 - name: Cartographica -- The International Journal for Geographic Information and Geovisualization
   webpage: http://www.utpjournals.com/Cartographica.html
-  index: no
+  index: none
   description: Cartographica delivers cutting-edge international research in all aspects of cartography (including the production, design, use, cognitive understanding, and history of maps), geovisualization, and GIScience.
 
 - name: Cartography and Geographic Information Science (CaGIS)
@@ -71,12 +71,12 @@
 
 - name: Environment and Planning B -- Planning & Design
   webpage: http://www.envplan.com/B.html
-  index: no
+  index: none
   description: Covers research in the application of formal methods, methods models, and theories to spatial problems which involve the built environment and the spatial structure of cities and regions.
 
 - name: Geographical Analysis -- An International Journal of Theoretical Geography
   webpage: http://www.wiley.com/bw/journal.asp?ref=0016-7363
-  index: no
+  index: none
   description: Covers advances in geographical theory, model building, quantitative methods, spatial planning, and research.
 
 - name: Geoinformatica
@@ -86,7 +86,7 @@
    
 - name: Geomatica
   webpage: http://pubs.cig-acsg.ca/journal/cig
-  index: no
+  index: none
   description: Geomatica (formerly CISM Journal ACSGC), is the official quarterly publication of the Canadian Institute of Geomatics. It is the oldest surveying and mapping publication in Canada and was first published in 1922 as the Journal of the Dominion Land Surveyors’ Association.
 
 - name: Geo-spatial Information Science
@@ -101,17 +101,17 @@
 
 - name: International Journal of 3-D Information Modeling (IJ3DIM)
   webpage: http://www.igi-global.com/bookstore/titledetails.aspx?TitleId=41967
-  index: no
+  index: none
   description: Covers Building Information Modeling, 3D GIS, and integration of 3D information in the Urban Built Environment.
 
 - name: International Journal of Applied Earth Observation and Geoinformation (JAG)
   webpage: http://www.elsevier.com/locate/jag
-  index: no
+  index: none
   description: Covers applications of aerospace data-gathering techniques for development of natural resources.
 
 - name: International Journal of Cartography 
   webpage: http://www.tandfonline.com/loi/tica20
-  index: no
+  index: none
   description: The official flagship journal of the International Cartographic Association (ICA). It aims to promote research in the fields of cartography and GI Science. 
 
 - name: International Journal of Computational Geometry and Applications (IJCGA)
@@ -126,7 +126,7 @@
 
 - name: International Journal of E-Planning Research (IJEPR)
   webpage: http://www.igi-global.com/journal/international-journal-planning-research-ijepr/44994
-  index: no
+  index: none
   description: Covers e-planning theory, history, methods, ethics, best practices, on e-planning pedagogy, future developments, and on the software technology associated with e-planning.
 
 - name: International Journal of Foundations of Computer Science (IJFCS)
@@ -146,12 +146,12 @@
 
 - name: International Journal of Spatial Data Infrastructures Research (IJSDIR)
   webpage: http://ijsdir.jrc.ec.europa.eu/index.php/ijsdir
-  index: no
+  index: none
   description: It aims to further the scientific endeavor underpinning the development, implementation and use of Spatial Data Infrastructures (SDIs). These are defined as frameworks of technologies, data, policies, institutional arrangements, and people aimed at increasing the availability, understanding, and use of spatial data and services to support policy, business, research, and society at large.
 
 - name: ISPRS International Journal of Geo-Information (IJGI)
   webpage: http://www.mdpi.com/journal/ijgi
-  index: no
+  index: none
   description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
 
 - name: ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
@@ -161,22 +161,22 @@
 
 - name: Journal on Data Semantics
   webpage: http://www.springer.com/computer/database+management+%26+information+retrieval/journal/13740
-  index: no
+  index: none
   description: Covers conceptual modeling, databases, Semantic Web, information systems, workflow and process modeling, ontologies, business intelligence, interoperability, mobile information services, data warehousing, knowledge representation and reasoning, and artificial intelligence.
 
 - name: Journal of Geographical Systems -- Geographical Information, Analysis, Theory and Decision
   webpage: http://www.springer.com/economics/regional+science/journal/10109
-  index: no
+  index: none
   description: Aims to encourage and promote high quality scholarship on important theoretical and practical issues in regional science, geography, the environmental sciences, and planning.
 
 - name: Journal of Land Use Science (JLUS)
   webpage: http://www.tandf.co.uk/journals/JLUS
-  index: no
+  index: none
   description: Provides information on the study of the nature of land use and land cover, their changes over space and time, and the processes that produce these patterns and changes can be termed 'land use science'.
 
 - name: Journal of Location Based Services (TLBS)
   webpage: http://www.tandf.co.uk/journals/TLBS
-  index: no
+  index: none
   description: Provides a forum for the exchange of original ideas, techniques, designs and experiences in the rapidly growing field of location based services on networked mobile devices.
 
 - name: Journal of Maps
@@ -215,7 +215,7 @@
    
 - name: Open Geospatial Data, Software and Standards
   webpage: http://www.opengeospatialdata.com
-  index: no
+  index: none
   description: Provides an advanced forum for the science and technology of open data, crowdsourced information, and sensor web through the publication of reviews and regular research papers.
    
 - name: The Photogrammetric Record (TPR)
@@ -225,7 +225,7 @@
 
 - name: The Professional Geographer (RTPG)
   webpage: http://www.tandf.co.uk/journals/PG
-  index: no
+  index: none
   description: Provides a forum for new ideas, alternative viewpoints, and debates with emphasis on questions and problems of broad interest to geographers.
 
 - name: Transactions in GIS 
@@ -235,7 +235,7 @@
 
 - name: URISA Journal
   website: http://www.urisa.org/urisajournal
-  index: no
+  index: none
   description: An open-access journal for over ten years, the URISA Journal is the flagship, and official, journal of the Urban and Regional Information Systems Association, the association for GIS professionals
 
 

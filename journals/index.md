@@ -14,11 +14,12 @@ The search system is *very* picky. It's probably easier to search by ISSN or to 
 {% assign journals = site.data.journals | sort: 'name' %}
 {% for i in journals %}
 
-<h4><a href="{{ i.website }}">{{ i.name }}</a></h4>
+<h4><a href="{{ i.webpage }}">{{ i.name }}</a></h4>
 <blockquote>
-<p>indexed: {{ i.index }}</p>
-<p>{{ i.description }}</p>
+{% if i.description %}
+  <small>{{ i.description }}</small>
+{% endif %}
+<small>index: {{ i.index }}</small>
 </blockquote>
-<br>
 
 {% endfor %}
