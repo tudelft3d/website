@@ -32,6 +32,9 @@ A publication is added where applicable. If you use our code for a scientific pr
         {% if i.video %}
           <a href="{{ i.video }}"><i class="fa fa-video-camera"></i> </a>
         {% endif %}
+        {% if i.data %}
+          <a href="{{ i.data }}"><i class="fa fa-database"></i> </a>
+        {% endif %}
         </small>
         </h3>
         <p>{{ i.description }}</p>

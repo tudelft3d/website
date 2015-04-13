@@ -12,7 +12,7 @@
 - name: Random3Dcity
   description: A procedural modelling engine natively supporting CityGML, and capable of generating 392 representations of a single building.
   github: https://github.com/tudelft3d/Random3Dcity
-  web: http://3dgeoinfo.bk.tudelft.nl/biljecki/Random3Dcity.html
+  data: http://3dgeoinfo.bk.tudelft.nl/biljecki/Random3Dcity.html
   video: https://vimeo.com/91289285
   image: random3dcity.png
 
