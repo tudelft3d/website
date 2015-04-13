@@ -1,0 +1,241 @@
+
+- name: Advances in Engineering Software
+  webpage: http://www.journals.elsevier.com/advances-in-engineering-software/
+  index: ISI
+  description: The objective of this journal is to communicate recent and projected advances in computer-based engineering techniques. The fields covered include mechanical, aerospace, civil and environmental engineering...
+
+- name: ACM Transactions on Graphics (TOG)
+  webpage: http://tog.acm.org/
+  index: ISI
+  description: Provides coverage of various forms of graphics applications including geometric modeling, design and analysis of algorithms, person-machine interaction techniques and computer graphics hardware
+
+- name: ACM Transactions on Spatial Algorithms and Systems (TSAS)
+  webpage: http://tsas.acm.org/
+  index: no
+  # description: 
+
+- name: Annals of GIS (TAGI)
+  webpage: http://www.tandf.co.uk/journals/tagi
+  index: ISI
+  description: Publishes original research on the theory, methods, development and applications of geographic information systems, remote sensing, global positioning and cartography.
+
+- name: Annals of the Association of American Geographers
+  webpage: http://www.tandfonline.com/loi/raag20
+  index: no
+  description: Covers major research articles and in-depth book reviews for all fields of geography.
+
+- name: The Cartographic Journal
+  webpage: http://maneypublishing.com/index.php/journals/caj/
+  index: no
+  description: Covers all aspects of cartography, mapping and spatial data display, including digital mapping, Geographical Information Systems and related remote-sensing technologies, and global-positioning systems.
+
+- name: Cartographica -- The International Journal for Geographic Information and Geovisualization
+  webpage: http://www.utpjournals.com/Cartographica.html
+  index: no
+  description: Cartographica delivers cutting-edge international research in all aspects of cartography (including the production, design, use, cognitive understanding, and history of maps), geovisualization, and GIScience.
+
+- name: Cartography and Geographic Information Science (CaGIS)
+  webpage: http://www.tandfonline.com/loi/tcag20
+  index: ISI
+  description: Provides current information on GIS and digital mapping, as well as more traditional cartographic methods.
+
+- name: Computational Geometry -- Theory and Applications
+  webpage: http://www.elsevier.com/locate/comgeo
+  index: ISI
+  description: Publishes fundamental research in all areas of computational geometry, and disseminates information on the applications, techniques and uses of computational geometry.
+
+- name: Computer-Aided Design (CAD)
+  webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/30402/description
+  index: ISI
+  description: Covers current developments and applications of computer-aided design in every field.
+
+- name: Computers & Graphics 
+  webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/371/description
+  index: ISI
+  description: Contains papers on the utilization of computer interactive graphics applications in industrial problem solving. Articles cover computer-aided design, person-machine communication techniques, and information systems.
+
+- name: Computers & Geosciences
+  webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/398/description#description
+  index: ISI 
+  description: Covers all aspects of the application of computers to the geosciences, including algorithms, programming, computational problem-solving techniques, as well as data processing and file maintenance concerns.
+
+- name: Computers, Environment and Urban Systems
+  webpage: http://www.elsevier.com/locate/ceus
+  index: ISI
+  description: Focuses on the development, enhancement, and use of computer-based methodologies for understanding and improving environmental and urban systems.
+
+- name: Discrete & Computational Geometry 
+  webpage: http://www.springer.com/new+%26+forthcoming+titles+%28default%29/journal/454
+  index: ISI
+  description: Contains research articles for mathematicians and computer scientists in the areas of discrete geometry, as well as the design and analysis of geometric algorithms.
+
+- name: Environment and Planning B -- Planning & Design
+  webpage: http://www.envplan.com/B.html
+  index: no
+  description: Covers research in the application of formal methods, methods models, and theories to spatial problems which involve the built environment and the spatial structure of cities and regions.
+
+- name: Geographical Analysis -- An International Journal of Theoretical Geography
+  webpage: http://www.wiley.com/bw/journal.asp?ref=0016-7363
+  index: no
+  description: Covers advances in geographical theory, model building, quantitative methods, spatial planning, and research.
+
+- name: Geoinformatica
+  webpage: http://www.springer.com/earth+sciences+and+geography/geography/journal/10707
+  index: ISI
+  description: Aims to promote the most innovative results coming from the research in the field of computer science applied to geographic information systems.
+   
+- name: Geomatica
+  webpage: http://pubs.cig-acsg.ca/journal/cig
+  index: no
+  description: Geomatica (formerly CISM Journal ACSGC), is the official quarterly publication of the Canadian Institute of Geomatics. It is the oldest surveying and mapping publication in Canada and was first published in 1922 as the Journal of the Dominion Land Surveyors’ Association.
+
+- name: Geo-spatial Information Science
+  webpage: http://www.tandfonline.com/loi/tgsi20
+  index: Scopus
+  description: Presents novel and significant research results encompassing the full spectrum of Geo-spatial Information Science. Offers research articles of immediate and far-reaching importance. Provides a forum for research papers in geomatics from all over the world. Publishes original research papers, review articles and research notes
+
+- name: IEEE Computer Graphics and Applications 
+  webpage: http://www.computer.org/portal/web/cga/home
+  index: ISI
+  description: Presents timely information on computer graphics research, technology and applications.
+
+- name: International Journal of 3-D Information Modeling (IJ3DIM)
+  webpage: http://www.igi-global.com/bookstore/titledetails.aspx?TitleId=41967
+  index: no
+  description: Covers Building Information Modeling, 3D GIS, and integration of 3D information in the Urban Built Environment.
+
+- name: International Journal of Applied Earth Observation and Geoinformation (JAG)
+  webpage: http://www.elsevier.com/locate/jag
+  index: no
+  description: Covers applications of aerospace data-gathering techniques for development of natural resources.
+
+- name: International Journal of Cartography 
+  webpage: http://www.tandfonline.com/loi/tica20
+  index: no
+  description: The official flagship journal of the International Cartographic Association (ICA). It aims to promote research in the fields of cartography and GI Science. 
+
+- name: International Journal of Computational Geometry and Applications (IJCGA)
+  webpage: http://www.worldscinet.com/ijcga/
+  index: ISI
+  description: Covers the design and analysis of algorithms, and its applications to various fields including computer-aided geometry design, computer graphics, constructive solid geometry, operations research, pattern recognition, robotics, solid modelling, and others.
+
+- name: International Journal of Digital Earth (TJDE)
+  webpage: http://www.tandf.co.uk/journals/TJDE
+  index: ISI
+  description: Aimed at harnessing the world's data and information resources to develop a virtual 3-D model of the Earth in order to monitor, measure, and forecast natural and human activity on the planet.
+
+- name: International Journal of E-Planning Research (IJEPR)
+  webpage: http://www.igi-global.com/journal/international-journal-planning-research-ijepr/44994
+  index: no
+  description: Covers e-planning theory, history, methods, ethics, best practices, on e-planning pedagogy, future developments, and on the software technology associated with e-planning.
+
+- name: International Journal of Foundations of Computer Science (IJFCS)
+  webpage: http://www.worldscinet.com/ijfcs/
+  index: ISI
+  description: Brings out articles on all areas of the theoretical and mathematical foundations of computer science. Also publishes new results and proposals in these areas.
+
+- name: International Journal of Geographical Information Science (IJGIS)
+  webpage: http://www.tandf.co.uk/journals/IJGIS
+  index: ISI
+  description: Provides a forum for the exchange of ideas, techniques, approaches and experiences in the rapidly growing field of geographical information systems.
+   
+- name: International Journal of Health Geographics 
+  webpage: http://www.ij-healthgeographics.com
+  index: ISI
+  description: International Journal of Health Geographics is an open access, peer-reviewed, online journal fully dedicated to publishing quality manuscripts on all aspects of geospatial information systems and science applications in health and healthcare.
+
+- name: International Journal of Spatial Data Infrastructures Research (IJSDIR)
+  webpage: http://ijsdir.jrc.ec.europa.eu/index.php/ijsdir
+  index: no
+  description: It aims to further the scientific endeavor underpinning the development, implementation and use of Spatial Data Infrastructures (SDIs). These are defined as frameworks of technologies, data, policies, institutional arrangements, and people aimed at increasing the availability, understanding, and use of spatial data and services to support policy, business, research, and society at large.
+
+- name: ISPRS International Journal of Geo-Information (IJGI)
+  webpage: http://www.mdpi.com/journal/ijgi
+  index: no
+  description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
+
+- name: ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
+  webpage: http://www.itc.nl/isprsjournal/
+  index: ISI
+  description: Provides a channel of communication for specialists in all countries working in the disciplines that apply photogrammetry and remote sensing.
+
+- name: Journal on Data Semantics
+  webpage: http://www.springer.com/computer/database+management+%26+information+retrieval/journal/13740
+  index: no
+  description: Covers conceptual modeling, databases, Semantic Web, information systems, workflow and process modeling, ontologies, business intelligence, interoperability, mobile information services, data warehousing, knowledge representation and reasoning, and artificial intelligence.
+
+- name: Journal of Geographical Systems -- Geographical Information, Analysis, Theory and Decision
+  webpage: http://www.springer.com/economics/regional+science/journal/10109
+  index: no
+  description: Aims to encourage and promote high quality scholarship on important theoretical and practical issues in regional science, geography, the environmental sciences, and planning.
+
+- name: Journal of Land Use Science (JLUS)
+  webpage: http://www.tandf.co.uk/journals/JLUS
+  index: no
+  description: Provides information on the study of the nature of land use and land cover, their changes over space and time, and the processes that produce these patterns and changes can be termed 'land use science'.
+
+- name: Journal of Location Based Services (TLBS)
+  webpage: http://www.tandf.co.uk/journals/TLBS
+  index: no
+  description: Provides a forum for the exchange of original ideas, techniques, designs and experiences in the rapidly growing field of location based services on networked mobile devices.
+
+- name: Journal of Maps
+  webpage: http://www.tandfonline.com/loi/tjom20
+  index: ISI
+
+- name: Journal of Navigation
+  webpage: http://journals.cambridge.org/action/displayJournal?jid=nav
+  index: ISI
+  description: Presents papers on every aspect of navigation - air, land, sea, and space - and papers on every type - scientific, historical, and narrative.
+
+- name: Journal of Photogrammetry, Remote Sensing and Geoinformation Processing (PFG)
+  website: http://www.schweizerbart.de/journals/pfg
+  index: ISI
+  description: Photogrammetrie, Fernerkundung, Geoinformation. Covers the progress and application of photogrammetric methods, remote sensing technology and the intricately connected field of geoinformation processing.
+
+- name: Journal of Spatial Information Science (JOSIS)
+  webpage: http://www.josis.org/index.php/josis
+  index: Scopus
+  description: Research on the theoretical foundations of spatial and geographical information science, computation with geospatial information, and technologies for geographical information use.
+
+- name: Journal of Spatial Science (TJSS)
+  webpage: http://www.tandf.co.uk/journals/TJSS
+  index: ISI
+  description: Covers aspects of professional practise and implementation of techniques related to cartography, geodesy, geographic information science, hydrography, photogrammetry, remote sensing or surveying.
+
+- name: Lecture Notes in Computer Science (LNCS)
+  webpage: http://springerlink.com/content/105633/
+  index: Scopus
+  description: Reports on leading-edge research in artificial intelligence and other areas of computer science.
+
+- name: Marine Geodesy
+  webpage: http://www.tandf.co.uk/journals/UMGD
+  index: ISI
+  description: Covers topography and mapping, satellite altimetry, bathymetry, positioning, precise navigation, boundary demarcation and determination, tsunamis, plate/tectonics, geoid determination, acoustics and space instrumentation, ground truth, system calibration and validation, and geographic information systems.
+   
+- name: Open Geospatial Data, Software and Standards
+  webpage: http://www.opengeospatialdata.com
+  index: no
+  description: Provides an advanced forum for the science and technology of open data, crowdsourced information, and sensor web through the publication of reviews and regular research papers.
+   
+- name: The Photogrammetric Record (TPR)
+  webpage: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1477-9730
+  index: ISI
+  description: The Photogrammetric Record is an international journal containing original, independently and rapidly refereed articles that reflect modern advancements in photogrammetry, 3D imaging, computer vision, and other related non-contact fields.
+
+- name: The Professional Geographer (RTPG)
+  webpage: http://www.tandf.co.uk/journals/PG
+  index: no
+  description: Provides a forum for new ideas, alternative viewpoints, and debates with emphasis on questions and problems of broad interest to geographers.
+
+- name: Transactions in GIS 
+  webpage: http://www.wiley.com/bw/journal.asp?ref=1361-1682
+  index: ISI
+  description: Provides a forum for original research articles, review articles, short notes and book reviews.
+
+- name: URISA Journal
+  website: http://www.urisa.org/urisajournal
+  index: no
+  description: An open-access journal for over ten years, the URISA Journal is the flagship, and official, journal of the Urban and Regional Information Systems Association, the association for GIS professionals
+
+
