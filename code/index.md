@@ -19,6 +19,7 @@ A publication is added where applicable. If you use our code for a scientific pr
       <img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/>
       <div class="caption">
         <h3>{{ i.name }}
+        <br />
         <small>
         {% if i.github %}
           <a href="{{ i.github }}"><i class="fa fa-github"></i></a> 
