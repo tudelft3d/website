@@ -51,3 +51,8 @@
   github: https://github.com/tudelft3d/matahn
   image: matahn.png
   web: http://3dsm.bk.tudelft.nl/matahn
+
+- name: lod2plus
+  description: Automatic generation of simple interiors for CityGML LOD2
+  github: https://github.com/tudelft3d/lod2plus
+  image: lod2plus.png
