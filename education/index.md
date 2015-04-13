@@ -51,12 +51,13 @@ We have a [list of potential topics](msctopics).
       <div class="caption">
         <h3>
           {{ i.name }} {{ i.surname }} 
+          <br />
           <small>({{ i.year }})</small>
         {% if i.link %}
-          <small><a href="{{ i.link }}"><i class="fa fa-file-pdf-o"></i></a></small>
+          <small><a href="{{ i.link }}"><i class="fa fa-book"></i></a></small>
         {% endif %}
         {% if i.paper %}
-          <small><a href="{{ i.paper }}"><i class="fa fa-file-pdf-o"></i></a></small>
+          <small><a href="{{ i.paper }}"><i class="fa fa-file-text"></i></a></small>
         {% endif %}
         </h3>
         <p>{{ i.title }}</p>
