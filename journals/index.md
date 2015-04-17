@@ -17,7 +17,7 @@ The search system is *very* picky. It's probably easier to search by ISSN or to 
 
 {% for i in journals %}
 {% if i.index == 'ISI' %}
-<h4><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i></a></h4>
+<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i></a></p>
 <div id="{{ forloop.index }}" class="collapse"  tabindex="-1">{{ i.description }}</div>
 {% endif %}
 {% endfor %}
@@ -26,7 +26,7 @@ The search system is *very* picky. It's probably easier to search by ISSN or to 
 
 {% for i in journals %}
 {% if i.index == 'Scopus' %}
-<h4><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i></a></h4>
+<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i></a></p>
 <div id="{{ forloop.index }}" class="collapse"  tabindex="-1">{{ i.description }}</div>
 {% endif %}
 {% endfor %}
@@ -35,7 +35,7 @@ The search system is *very* picky. It's probably easier to search by ISSN or to 
 
 {% for i in journals %}
 {% if i.index == null %}
-<h4><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i></a></h4>
+<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i></a></p>
 <div id="{{ forloop.index }}" class="collapse"  tabindex="-1">{{ i.description }}</div>
 {% endif %}
 {% endfor %}
