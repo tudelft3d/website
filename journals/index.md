@@ -1,6 +1,6 @@
 ---
 layout: page
-title: a list of relevant GIS journals
+title: A list of relevant GIS journals
 permalink: /journals/
 ---
 
@@ -22,7 +22,7 @@ The search system is *very* picky. It's probably easier to search by ISSN or to 
 {% endif %}
 {% endfor %}
 
-## at least it's in Scopus
+## At least it's in Scopus
 
 {% for i in journals %}
 {% if i.index == 'Scopus' %}
@@ -31,7 +31,7 @@ The search system is *very* picky. It's probably easier to search by ISSN or to 
 {% endif %}
 {% endfor %}
 
-## not-indexed, but surely coming soon?
+## Non-indexed, but could be in future
 
 {% for i in journals %}
 {% if i.index == null %}
