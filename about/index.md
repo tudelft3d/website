@@ -17,15 +17,17 @@ It has a history of successful collaborations with the industry and the governme
 
 ## Staff
 
+{% assign members = site.data.staff | sort: 'staff' %}
+
 <div class="row">
-    {% for member in site.data.staff %}
+    {% for member in members %}
     <div class="col-lg-4 col-sm-6">
     {% if member.homepage %}
       <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}"></a>
     {% else %}
       <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}">
     {% endif %}
-      <h3>{{ member.name }} <small>{{ member.title }}</small></h3>
+      <h3>{{ member.name }} {{ member.surname }} <small>{{ member.title }}</small></h3>
       <p>
         {% if member.homepage %}
           <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>

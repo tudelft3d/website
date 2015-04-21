@@ -1,39 +1,45 @@
   
-- name: Ken Arroyo Ohori
+- surname: Arroyo Ohori
+  name: Ken
   title: PhD candidate
   photo: ken.jpg
   homepage: tudelft.nl/kenohori
   email: g.a.k.arroyoohori@tudelft.nl
   # phone: +31 15 27 85154
 
-- name: Serpil Ates
+- surname: Ates
+  name: Serpil
   title: visiting PhD
   photo: serpil.jpg
   # homepage: 3dgeoinfo.bk.tudelft.nl/ken
   email: s.ates@tudelft.nl
   # phone: +31 15 27 85154
 
-- name: Filip Biljecki
+- surname: Biljecki
+  name: Filip
   title: PhD candidate
   photo: filip.jpg
   homepage: 3dgeoinfo.bk.tudelft.nl/biljecki
   email: f.biljecki@tudelft.nl
   twitter: fbiljecki
 
-- name: Linda van den Brink
+- surname: van den Brink
+  name: Linda
   title: PhD candidate
   photo: linda.png
   email: l.vandenbrink@geonovum.nl
   twitter: brinkwoman
 
-- name: Elif Demir Özbek
+- surname: Demir Özbek
+  name: Elif
   title: visiting PhD
   photo: elif.jpg
   # homepage: 3dgeoinfo.bk.tudelft.nl/ken
   email: e.demirozbek@tudelft.nl
   # phone: +31 15 27 85154
 
-- name: Hugo Ledoux
+- surname: Ledoux
+  name: Hugo
   title: Assistant-prof.
   photo: hugo.jpg
   homepage: tudelft.nl/hledoux
@@ -42,28 +48,32 @@
   twitter: hugoledoux
   room: BK-2:280
 
-- name: Liu Liu
+- surname: Liu
+  name: Liu
   title: PhD candidate
   photo: liu.jpg
   # homepage: 3dgeoinfo.bk.tudelft.nl/lliu
   email: l.liu-1@tudelft.nl
   # phone: +31 15 27 85660
 
-- name: Pirouz Nourian
+- surname: Nourian
+  name: Pirouz
   title: PhD candidate
   photo: pirouz.png
   # homepage: 3dgeoinfo.bk.tudelft.nl/pnourian
   email: p.nourian@tudelft.nl
   phone: +31 6 83 84 6119
 
-- name: Ravi Peters
+- surname: Peters
+  name: Ravi
   title: PhD candidate
   photo: ravi.jpg
   homepage: 3dgeoinfo.bk.tudelft.nl/rypeters
   email: r.y.peters@tudelft.nl
   # phone: +31 15 27 85567
 
-- name: Jantien Stoter
+- surname: Stoter
+  name: Jantien
   title: Professor
   longtitle: Professor 3D geoinformation
   description: "I am a full professor in Spatial Data Infrastructure, at the Faculty of Architecture and The Built Environment and I am leading the [3D GeoInformation](http://3dgeoinfo.bk.tudelft.nl) group at the Department of [Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/). I obtained my PhD degree ([3D Cadastre](http://www.itc.nl/library/Papers_2004/phd/stoter.pdf)) in 2004. For this work I received the Tienstra award. I combine my professorship with jobs as researcher at both the [Kadaster](http://www.kadaster.nl/web/english.htm) and [Geonovum](http://www.geonovum.nl). I am chair of the [EuroSDR](www.eurosdr.net) Commission “Data Specifications” and leader of the [national 3D SIG](http://www.geonovum.nl/onderwerpen/3d-geo-informatie) (Special Interest Group) as well as of the [EuroSDR 3D SIG](http://www.eurosdr.net/research/project/eurosdr-special-interest-group-3d-3d-sig). Since March 2015, I am co-chair of the OGC 3D Information Management Domain Working Group (OGC 3DIM DWG). I also lead [the project](http://www.geonovum.nl/onderwerpen/co%C3%B6rdinaatsystemen) that studies how the geodetic framework in The Netherlands should support the transition towards ETRS89. My research interests are 3D, automated generalization and information modelling. For my research on [5D data modelling](http://3dgeoinfo.bk.tudelft.nl/projects/geo5d/) I received the prestigious Vidi award of the Netherlands Scientific Foundation ([NWO](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme/awards/vidi+awards/vidi+awards+2010)). I am a member of the editorial boards of several journals: [CEUS](http://www.journals.elsevier.com/computers-environment-and-urban-systems/), the [Geography Journal](http://www.hindawi.com/journals/geography/) and the [International Journal of 3D Information Modelling](http://www.irma-international.org/journal/international-journal-information-modeling-ij3dim/41967/)"
@@ -75,19 +85,16 @@
   room: "BG.WEST.010"
   homepage: 3dgeoinfo.bk.tudelft.nl/jstoter
 
-- name: Daisuke Takahata
-  title: Visiting MSc student
-  photo: daisuke.png
-  email: D.Takahata@student.tudelft.nl
-
-- name: WANG Zhiyong
+- surname: Wang
+  name: Zhyiong
   title: PhD candidate
   photo: zhiyong.png
   # homepage: 3dgeoinfo.bk.tudelft.nl/zwang
   email: z.wang-1@tudelft.nl
   phone: +31 15 27 87934
 
-- name: Sisi Zlatanova
+- surname: Zlatanova
+  name: Sisi
   title: Associate-prof.
   photo: sisi.jpg
   homepage: 3dgeoinfo.bk.tudelft.nl/szlatanova
