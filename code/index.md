@@ -24,6 +24,9 @@ A publication is added where applicable. If you use our code for a scientific pr
         {% if i.github %}
           <a href="{{ i.github }}"><i class="fa fa-github"></i></a> 
         {% endif %}
+        {% if i.thesis %}
+          <a href="{{ i.thesis }}"><i class="fa fa-book"></i></a>
+        {% endif %}
         {% if i.paper %}
           <a href="{{ i.paper }}"><i class="fa fa-file-pdf-o fa-fw"></i></a>
         {% endif %}

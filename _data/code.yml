@@ -3,6 +3,7 @@
   github: https://github.com/tudelft3d/pprepair
   image: pprepair.png
   paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/12_pfg.pdf
+  thesis: http://repository.tudelft.nl/view/ir/uuid:78807acb-4115-478c-93de-68b9db884c8e/
 
 - name: masbpy
   description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
@@ -38,6 +39,7 @@
   image: prepair.png
   web: http://geovalidation.bk.tudelft.nl/prepair
   paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/14cgeo_prepair.pdf
+  thesis: http://repository.tudelft.nl/view/ir/uuid:78807acb-4115-478c-93de-68b9db884c8e/
 
 - name: val3dity
   description: Geometric validation of 3D primitives according to ISO 19107.
@@ -56,3 +58,4 @@
   description: Automatic generation of simple interiors for CityGML LOD2
   github: https://github.com/tudelft3d/lod2plus
   image: lod2plus.png
+  thesis: http://repository.tudelft.nl/view/ir/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634/
