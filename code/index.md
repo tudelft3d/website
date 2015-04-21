@@ -22,22 +22,22 @@ A publication is added where applicable. If you use our code for a scientific pr
         <br />
         <small>
         {% if i.github %}
-          <a href="{{ i.github }}"><i class="fa fa-github"></i></a> 
+          <a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a> 
         {% endif %}
         {% if i.thesis %}
-          <a href="{{ i.thesis }}"><i class="fa fa-book"></i></a>
+          <a href="{{ i.thesis }}"><i class="fa fa-book" title="thesis"></i></a>
         {% endif %}
         {% if i.paper %}
-          <a href="{{ i.paper }}"><i class="fa fa-file-pdf-o fa-fw"></i></a>
+          <a href="{{ i.paper }}"><i class="fa fa-file-pdf-o fa-fw" title="paper"></i></a>
         {% endif %}
         {% if i.web %}
-          <a href="{{ i.web }}"><i class="fa fa-external-link"></i></a>
+          <a href="{{ i.web }}"><i class="fa fa-external-link" title="external link"></i></a>
         {% endif %}
         {% if i.video %}
-          <a href="{{ i.video }}"><i class="fa fa-video-camera"></i> </a>
+          <a href="{{ i.video }}"><i class="fa fa-video-camera" title="video"></i></a>
         {% endif %}
         {% if i.data %}
-          <a href="{{ i.data }}"><i class="fa fa-database"></i> </a>
+          <a href="{{ i.data }}"><i class="fa fa-database" title="data"></i></a>
         {% endif %}
         </small>
         </h3>

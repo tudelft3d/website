@@ -54,10 +54,10 @@ We have a [list of potential topics](msctopics).
           <br />
           <small>({{ i.year }})</small>
         {% if i.link %}
-          <small><a href="{{ i.link }}"><i class="fa fa-book"></i></a></small>
+          <small><a href="{{ i.link }}"><i class="fa fa-book" title="thesis"></i></a></small>
         {% endif %}
         {% if i.paper %}
-          <small><a href="{{ i.paper }}"><i class="fa fa-file-text"></i></a></small>
+          <small><a href="{{ i.paper }}"><i class="fa fa-file-text" title="paper"></i></a></small>
         {% endif %}
         </h3>
         <p>{{ i.title }}</p>
