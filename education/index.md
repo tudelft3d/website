@@ -4,6 +4,15 @@ title: Education
 permalink: /education/
 ---
 
+{% assign me = 'Jantien Stoter' %}
+
+{% for i in site.data.staff %}
+    {% assign name = i.name | append:' ' | append:i.surname %}
+    {% if name == me  %}
+      {{ name }}
+    {% endif %}
+{% endfor %}
+
 ## [MSc Geomatics](http://www.geomatics.tudelft.nl) courses we're involved in
 
   * [GEO1002](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=28151): Geographical information systems & cartography

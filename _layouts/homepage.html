@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   
   {% for i in site.data.staff %}
-    {% assign name = i.name | append:i.surname %}
+    {% assign name = i.name | append:' ' | append:i.surname %}
     {% if name == page.title %}
       <div class="row">
         <div class="col-md-3">
@@ -43,7 +43,8 @@ layout: default
   <hr>
 
   {% for i in site.data.staff %}
-    {% if i.name == page.title %}
+    {% assign name = i.name | append:' ' | append:i.surname %}
+    {% if name == page.title %}
       {% if i.pagetext %}
         <div class="container">
           <p>{{ i.pagetext | markdownify }}</p>
