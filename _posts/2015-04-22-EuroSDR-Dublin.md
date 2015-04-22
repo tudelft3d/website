@@ -10,5 +10,5 @@ On 16th and 17th of April, the EuroSDR 3D Special Interest group came together a
 
 
 <div class="row">
-  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/EuroSDR3DSIG-Dublin.png" | prepend: site.baseurl }}" /></div>
+  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/EuroSDR3DSIG-Dublin.jpg" | prepend: site.baseurl }}" /></div>
 </div>
