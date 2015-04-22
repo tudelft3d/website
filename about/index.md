@@ -15,7 +15,7 @@ It has a history of successful collaborations with the industry and the governme
 
 - - - 
 
-## Staff
+## <a name="people"></a> Staff
 
 {% assign members = site.data.staff | sort: 'staff' %}
 

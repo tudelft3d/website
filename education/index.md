@@ -4,7 +4,7 @@ title: Education
 permalink: /education/
 ---
 
-## [MSc Geomatics](http://www.geomatics.tudelft.nl) courses we're involved in
+## <a name="courses"></a> [MSc Geomatics](http://www.geomatics.tudelft.nl) courses we're involved in
 
   * [GEO1002](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=28151): Geographical information systems & cartography
   * [GEO1004](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=28153): 3D Modelling of the Built Environment
