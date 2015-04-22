@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  EuroSDR 3D SIG hold its working meeting in Dublin
+title:  EuroSDR 3D SIG holds its working meeting in Dublin
 categories: news
 date: 2015-04-22
 author: Jantien Stoter
