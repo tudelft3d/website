@@ -6,16 +6,18 @@ permalink: /events/udmv2015/
 
 
 <div class="jumbotron">
-  <div class="row">
-  
-  <div class="col-md-4">
-	<img class="image img-responsive" src="../../img/events/udmv2015/campus-extrusion.png"/>
-	</div>
-	<div class="col-md-8"><br><br><br>
-  <p class="text-muted text-left">3rd Eurographics Workshop on Urban Data Modelling and Visualisation</p>
-  <p class="text-muted text-left">November 23th, 2015</p>
-  <p class="text-muted text-left">Delft, the Netherlands</p>
-  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6 hidden-sm hidden-xs">
+        <img src="../../img/events/udmv2015/campus-extrusion.png" />
+      </div>
+      <div class="col-lg-7 col-md-6 col-sm-12">
+        <h1 class="text-right" style="color:white">UDMV 2015</h1>
+        <p class="text-right" style="color:white"><small>3rd Eurographics Workshop on Urban Data Modelling and Visualisation <br />
+        November 23th, 2015 &#xb7; Delft, the Netherlands</small></p>
+      </div>
+      
+    </div>
   </div>
 </div>
 
