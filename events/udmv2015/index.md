@@ -1,14 +1,21 @@
 ---
-layout: default
+layout: udmv2015
 title: UDMV 2015
 permalink: /events/udmv2015/
 ---
 
 
 <div class="jumbotron">
-  <div class="container">
-  <p class="text-muted">3rd Eurographics Workshop on Urban Data Modelling and Visualisation</p>
-  <p class="text-muted">November 23th, 2015 &#xb7; Delft, the Netherlands</p>
+  <div class="row">
+  
+  <div class="col-md-4">
+	<img class="image img-responsive" src="../../img/events/udmv2015/campus-extrusion.png"/>
+	</div>
+	<div class="col-md-8"><br><br><br>
+  <p class="text-muted text-left">3rd Eurographics Workshop on Urban Data Modelling and Visualisation</p>
+  <p class="text-muted text-left">November 23th, 2015</p>
+  <p class="text-muted text-left">Delft, the Netherlands</p>
+  </div>
   </div>
 </div>
 
