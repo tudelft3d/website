@@ -14,7 +14,7 @@ permalink: /education/
 
 - - -
 
-## Looking for a MSc thesis topic?
+## <a name="theses"></a> Looking for a MSc thesis topic?
 
 We have a [list of potential topics](msctopics).
 
