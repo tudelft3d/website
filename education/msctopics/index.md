@@ -12,6 +12,19 @@ permalink: /education/msctopics/
 
 - - -
 
+## Automatic guesstimation of the level of detail of a 3D city model
+
+![](img/CityGML-LOD.png)
+
+Every 3D city model has a level of detail, a measure that indicates its grade, usability and value. The LOD of a 3D city model is usually stored in the metadata, but it can also be evident from a quick inspection.
+
+However, this is not always the case, and the number of non-homogenous datasets with variable LOD is increasing. The goal of this project is to build and implement a method that is able to automatically deduce the level of detail of a 3D GIS dataset.
+
+
+*Contact:* [Filip Biljecki](http://tudelft.nl/biljecki)
+
+- - -
+
 ## Edge-matching with a constrained triangulation
 
 ![](img/em.png)
