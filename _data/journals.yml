@@ -151,7 +151,7 @@
 
 - name: ISPRS International Journal of Geo-Information (IJGI)
   webpage: http://www.mdpi.com/journal/ijgi
-  # index: none
+  index: ISI
   description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
 
 - name: ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
