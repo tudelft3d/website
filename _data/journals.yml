@@ -83,7 +83,7 @@
   webpage: http://www.springer.com/earth+sciences+and+geography/geography/journal/10707
   index: ISI
   description: Aims to promote the most innovative results coming from the research in the field of computer science applied to geographic information systems.
-   
+
 - name: Geomatica
   webpage: http://pubs.cig-acsg.ca/journal/cig
   # index: none
@@ -93,6 +93,11 @@
   webpage: http://www.tandfonline.com/loi/tgsi20
   index: Scopus
   description: Presents novel and significant research results encompassing the full spectrum of Geo-spatial Information Science. Offers research articles of immediate and far-reaching importance. Provides a forum for research papers in geomatics from all over the world. Publishes original research papers, review articles and research notes
+
+- name: GIScience & Remote Sensing
+  webpage: http://www.tandfonline.com/loi/tgrs20
+  index: ISI
+  description: GIScience & Remote Sensing publishes original, peer-reviewed articles associated with cartography, geographic information systems (GIS), remote sensing of the environment (including digital image processing), geocomputation, spatial data mining, spatial statistics, and geographic environmental modelling.
 
 - name: IEEE Computer Graphics and Applications 
   webpage: http://www.computer.org/portal/web/cga/home

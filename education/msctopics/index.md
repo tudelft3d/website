@@ -65,13 +65,13 @@ The generalisation will be done according to the [new paradigm of levels of deta
 
 - - - 
 
-Automatic matching of 3D city models## 
+## Automatic matching of 3D city models 
 
 3D city models may be derived with different acquisition techniques from different producers in different levels of detail (LOD), resulting in multiple datasets of the same area. The aim of this research is to design and implement a method that finds corresponding features in two or more datasets. The benefits of this research are, for instance, linking objects for consistency (e.g. updating only one model and propagate the changes in the other models).
 
 This topic is analogous with data matching in cartography.
 
-*Contacts:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
+*Contact:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
 
 - - -
 
@@ -79,7 +79,7 @@ This topic is analogous with data matching in cartography.
 
 Procedural modelling deals with automatic model generation by means of a procedure. It is common in computer graphics, but less so in 3D city modelling. This aim of this thesis is to design a procedural modelling engine focused on 3D GIS and CityGML in multiple levels of detail (LOD). There are two possibilities: generating 3D models from real-world (2D) data supplementing synthetic content (e.g. height of a building, windows), or generating completely synthetic 3D data.
 
-*Contacts:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
+*Contact:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
 
 - - - 
 
@@ -89,7 +89,7 @@ The standard ISO 19157:2013 Geographic information---Data quality is the princip
 
 Upon successful completion of this topic, the student will become proficient with this important standard, and potentially give valuable recommendations for the new version of the standard to the developers. 
 
-*Contacts:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
+*Contact:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
 
 - - -
 
