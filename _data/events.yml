@@ -1,4 +1,5 @@
 - name: UDMV 2015
   description: Eurographics Workshop on Urban Data Modelling and Visualisation 2015
   image: udmv2015.png
-  web: http://3dgeoinfo.bk.tudelft.nl/events/udmv2015/
+  web: /events/udmv2015/
+  info: Call for papers published
