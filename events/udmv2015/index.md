@@ -25,8 +25,9 @@ permalink: /events/udmv2015/
 	<div class="row">
 
 	<div class="col-md-2">
-		<img class="image img-responsive" src="../../img/events/udmv2015/Eurographics-Logo.png"/><br />
-		<img class="image img-responsive" src="../../img/events/udmv2015/STW.png"/><br />
+	<a href="http://3dgeoinfo.bk.tudelft.nl"><img class="img-responsive" src="../../img/logos/tud-3dgeoinfo-black.png"/></a><br />
+	<a href="https://www.eg.org"><img class="image img-responsive" src="../../img/events/udmv2015/Eurographics-Logo.png"/></a><br />
+	<a href="http://www.stw.nl"><img class="image img-responsive" src="../../img/events/udmv2015/STW.png"/></a><br />
 
 		<b>Sponsor 1 Logo</b><br /><br />
 		<b>Sponsor 2 Logo</b><br />
