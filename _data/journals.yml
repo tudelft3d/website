@@ -21,17 +21,17 @@
 
 - name: Annals of the Association of American Geographers
   webpage: http://www.tandfonline.com/loi/raag20
-  # index: none
+  index: ISI
   description: Covers major research articles and in-depth book reviews for all fields of geography.
 
 - name: The Cartographic Journal
   webpage: http://maneypublishing.com/index.php/journals/caj/
-  # index: none
+  index: ISI
   description: Covers all aspects of cartography, mapping and spatial data display, including digital mapping, Geographical Information Systems and related remote-sensing technologies, and global-positioning systems.
 
 - name: Cartographica -- The International Journal for Geographic Information and Geovisualization
   webpage: http://www.utpjournals.com/Cartographica.html
-  # index: none
+  index: Scopus
   description: Cartographica delivers cutting-edge international research in all aspects of cartography (including the production, design, use, cognitive understanding, and history of maps), geovisualization, and GIScience.
 
 - name: Cartography and Geographic Information Science (CaGIS)
@@ -49,7 +49,7 @@
   index: ISI
   description: Covers current developments and applications of computer-aided design in every field.
 
-- name: Computers & Graphics 
+- name: Computers & Graphics
   webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/371/description
   index: ISI
   description: Contains papers on the utilization of computer interactive graphics applications in industrial problem solving. Articles cover computer-aided design, person-machine communication techniques, and information systems.
@@ -64,19 +64,24 @@
   index: ISI
   description: Focuses on the development, enhancement, and use of computer-based methodologies for understanding and improving environmental and urban systems.
 
-- name: Discrete & Computational Geometry 
+- name: Discrete & Computational Geometry
   webpage: http://www.springer.com/new+%26+forthcoming+titles+%28default%29/journal/454
   index: ISI
   description: Contains research articles for mathematicians and computer scientists in the areas of discrete geometry, as well as the design and analysis of geometric algorithms.
 
 - name: Environment and Planning B -- Planning & Design
   webpage: http://www.envplan.com/B.html
-  # index: none
+  index: ISI
   description: Covers research in the application of formal methods, methods models, and theories to spatial problems which involve the built environment and the spatial structure of cities and regions.
+
+- name: Environmental Modelling & Software
+  webpage: http://www.journals.elsevier.com/environmental-modelling-and-software/
+  index: ISI
+  description: Environmental Modelling & Software publishes contributions, in the form of research articles, reviews and short communications, on recent advances in environmental modelling and/or software.
 
 - name: Geographical Analysis -- An International Journal of Theoretical Geography
   webpage: http://www.wiley.com/bw/journal.asp?ref=0016-7363
-  # index: none
+  index: ISI
   description: Covers advances in geographical theory, model building, quantitative methods, spatial planning, and research.
 
 - name: Geoinformatica
@@ -86,7 +91,7 @@
 
 - name: Geomatica
   webpage: http://pubs.cig-acsg.ca/journal/cig
-  # index: none
+  index: Scopus
   description: Geomatica (formerly CISM Journal ACSGC), is the official quarterly publication of the Canadian Institute of Geomatics. It is the oldest surveying and mapping publication in Canada and was first published in 1922 as the Journal of the Dominion Land Surveyors’ Association.
 
 - name: Geo-spatial Information Science
@@ -111,13 +116,13 @@
 
 - name: International Journal of Applied Earth Observation and Geoinformation (JAG)
   webpage: http://www.elsevier.com/locate/jag
-  # index: none
+  index: ISI
   description: Covers applications of aerospace data-gathering techniques for development of natural resources.
 
 - name: International Journal of Cartography 
   webpage: http://www.tandfonline.com/loi/tica20
   # index: none
-  description: The official flagship journal of the International Cartographic Association (ICA). It aims to promote research in the fields of cartography and GI Science. 
+  description: The official journal of the International Cartographic Association (ICA). It aims to promote research in the fields of cartography and GI Science. 
 
 - name: International Journal of Computational Geometry and Applications (IJCGA)
   webpage: http://www.worldscinet.com/ijcga/
@@ -143,7 +148,7 @@
   webpage: http://www.tandf.co.uk/journals/IJGIS
   index: ISI
   description: Provides a forum for the exchange of ideas, techniques, approaches and experiences in the rapidly growing field of geographical information systems.
-   
+
 - name: International Journal of Health Geographics 
   webpage: http://www.ij-healthgeographics.com
   index: ISI
@@ -176,12 +181,12 @@
 
 - name: Journal of Land Use Science
   webpage: http://www.tandf.co.uk/journals/JLUS
-  # index: none
+  index: Scopus
   description: Provides information on the study of the nature of land use and land cover, their changes over space and time, and the processes that produce these patterns and changes can be termed 'land use science'.
 
 - name: Journal of Location Based Services (TLBS)
   webpage: http://www.tandf.co.uk/journals/TLBS
-  # index: none
+  index: Scopus
   description: Provides a forum for the exchange of original ideas, techniques, designs and experiences in the rapidly growing field of location based services on networked mobile devices.
 
 - name: Journal of Maps
@@ -230,7 +235,7 @@
 
 - name: The Professional Geographer (RTPG)
   webpage: http://www.tandf.co.uk/journals/PG
-  # index: none
+  index: ISI
   description: Provides a forum for new ideas, alternative viewpoints, and debates with emphasis on questions and problems of broad interest to geographers.
 
 - name: Transactions in GIS 
@@ -240,7 +245,7 @@
 
 - name: URISA Journal
   website: http://www.urisa.org/urisajournal
-  # index: none
+  index: Scopus
   description: An open-access journal for over ten years, the URISA Journal is the flagship, and official, journal of the Urban and Regional Information Systems Association, the association for GIS professionals
 
 
