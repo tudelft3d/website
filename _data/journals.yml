@@ -2,12 +2,14 @@
 - name: Advances in Engineering Software
   webpage: http://www.journals.elsevier.com/advances-in-engineering-software/
   index: ISI
-  description: The objective of this journal is to communicate recent and projected advances in computer-based engineering techniques. The fields covered include mechanical, aerospace, civil and environmental engineering...
+  description: The objective of this journal is to communicate recent and projected advances in computer-based engineering techniques. The fields covered include mechanical, aerospace, civil and environmental engineering.
+  scirev: https://scirev.sc/journal/advances-in-engineering-software/
 
 - name: ACM Transactions on Graphics (TOG)
   webpage: http://tog.acm.org/
   index: ISI
   description: Provides coverage of various forms of graphics applications including geometric modeling, design and analysis of algorithms, person-machine interaction techniques and computer graphics hardware
+  scirev: https://scirev.sc/journal/acm-transactions-on-graphics/
 
 - name: ACM Transactions on Spatial Algorithms and Systems (TSAS)
   webpage: http://tsas.acm.org/
@@ -23,16 +25,18 @@
   webpage: http://www.tandfonline.com/loi/raag20
   index: ISI
   description: Covers major research articles and in-depth book reviews for all fields of geography.
+  scirev: https://scirev.sc/journal/annals-of-the-association-of-american-geographers/
 
 - name: The Cartographic Journal
   webpage: http://maneypublishing.com/index.php/journals/caj/
   index: ISI
   description: Covers all aspects of cartography, mapping and spatial data display, including digital mapping, Geographical Information Systems and related remote-sensing technologies, and global-positioning systems.
+  scirev: https://scirev.sc/journal/cartographic-journal/
 
 - name: Cartographica -- The International Journal for Geographic Information and Geovisualization
   webpage: http://www.utpjournals.com/Cartographica.html
   index: Scopus
-  description: Cartographica delivers cutting-edge international research in all aspects of cartography (including the production, design, use, cognitive understanding, and history of maps), geovisualization, and GIScience.
+  description: Cartographica delivers cutting-edge international research in all aspects of cartography (including the production, design, use, cognitive understanding, and history of maps), geovisualization, and GIScience.  
 
 - name: Cartography and Geographic Information Science (CaGIS)
   webpage: http://www.tandfonline.com/loi/tcag20
@@ -48,26 +52,31 @@
   webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/30402/description
   index: ISI
   description: Covers current developments and applications of computer-aided design in every field.
+  scirev: https://scirev.sc/journal/computer-aided-design/
 
 - name: Computers & Graphics
   webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/371/description
   index: ISI
   description: Contains papers on the utilization of computer interactive graphics applications in industrial problem solving. Articles cover computer-aided design, person-machine communication techniques, and information systems.
+  scirev: https://scirev.sc/journal/computers-and-graphics/
 
 - name: Computers & Geosciences
   webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/398/description#description
   index: ISI 
   description: Covers all aspects of the application of computers to the geosciences, including algorithms, programming, computational problem-solving techniques, as well as data processing and file maintenance concerns.
+  scirev: https://scirev.sc/journal/computers-and-geosciences/
 
 - name: Computers, Environment and Urban Systems
   webpage: http://www.elsevier.com/locate/ceus
   index: ISI
   description: Focuses on the development, enhancement, and use of computer-based methodologies for understanding and improving environmental and urban systems.
+  scirev: https://scirev.sc/journal/computers-environment-and-urban-systems/
 
 - name: Discrete & Computational Geometry
   webpage: http://www.springer.com/new+%26+forthcoming+titles+%28default%29/journal/454
   index: ISI
   description: Contains research articles for mathematicians and computer scientists in the areas of discrete geometry, as well as the design and analysis of geometric algorithms.
+  scirev: https://scirev.sc/journal/discrete-and-computational-geometry/
 
 - name: Environment and Planning B -- Planning & Design
   webpage: http://www.envplan.com/B.html
@@ -78,16 +87,19 @@
   webpage: http://www.journals.elsevier.com/environmental-modelling-and-software/
   index: ISI
   description: Environmental Modelling & Software publishes contributions, in the form of research articles, reviews and short communications, on recent advances in environmental modelling and/or software.
+  scirev: https://scirev.sc/journal/environmental-modelling-and-software/
 
 - name: Geographical Analysis -- An International Journal of Theoretical Geography
   webpage: http://www.wiley.com/bw/journal.asp?ref=0016-7363
   index: ISI
   description: Covers advances in geographical theory, model building, quantitative methods, spatial planning, and research.
+  scirev: https://scirev.sc/journal/geographical-analysis/
 
 - name: Geoinformatica
   webpage: http://www.springer.com/earth+sciences+and+geography/geography/journal/10707
   index: ISI
   description: Aims to promote the most innovative results coming from the research in the field of computer science applied to geographic information systems.
+  scirev: https://scirev.sc/journal/geoinformatica/
 
 - name: Geomatica
   webpage: http://pubs.cig-acsg.ca/journal/cig
@@ -98,16 +110,19 @@
   webpage: http://www.tandfonline.com/loi/tgsi20
   index: Scopus
   description: Presents novel and significant research results encompassing the full spectrum of Geo-spatial Information Science. Offers research articles of immediate and far-reaching importance. Provides a forum for research papers in geomatics from all over the world. Publishes original research papers, review articles and research notes
+  scirev: https://scirev.sc/journal/geo-spatial-information-science/
 
 - name: GIScience & Remote Sensing
   webpage: http://www.tandfonline.com/loi/tgrs20
   index: ISI
   description: GIScience & Remote Sensing publishes original, peer-reviewed articles associated with cartography, geographic information systems (GIS), remote sensing of the environment (including digital image processing), geocomputation, spatial data mining, spatial statistics, and geographic environmental modelling.
+  scirev: https://scirev.sc/journal/giscienceand-remote-sensing/
 
 - name: IEEE Computer Graphics and Applications 
   webpage: http://www.computer.org/portal/web/cga/home
   index: ISI
   description: Presents timely information on computer graphics research, technology and applications.
+  scirev: https://scirev.sc/journal/ieee-computer-graphics-and-applications/
 
 - name: International Journal of 3-D Information Modeling (IJ3DIM)
   webpage: http://www.igi-global.com/bookstore/titledetails.aspx?TitleId=41967
@@ -118,6 +133,7 @@
   webpage: http://www.elsevier.com/locate/jag
   index: ISI
   description: Covers applications of aerospace data-gathering techniques for development of natural resources.
+  scirev: https://scirev.sc/journal/international-journal-of-applied-earth-observation-and-geoinformation/
 
 - name: International Journal of Cartography 
   webpage: http://www.tandfonline.com/loi/tica20
@@ -128,11 +144,13 @@
   webpage: http://www.worldscinet.com/ijcga/
   index: ISI
   description: Covers the design and analysis of algorithms, and its applications to various fields including computer-aided geometry design, computer graphics, constructive solid geometry, operations research, pattern recognition, robotics, solid modelling, and others.
+  scirev: https://scirev.sc/journal/international-journal-of-computational-geometry-and-applications/
 
 - name: International Journal of Digital Earth (TJDE)
   webpage: http://www.tandf.co.uk/journals/TJDE
   index: ISI
   description: Aimed at harnessing the world's data and information resources to develop a virtual 3-D model of the Earth in order to monitor, measure, and forecast natural and human activity on the planet.
+  scirev: https://scirev.sc/journal/international-journal-of-digital-earth/
 
 - name: International Journal of E-Planning Research (IJEPR)
   webpage: http://www.igi-global.com/journal/international-journal-planning-research-ijepr/44994
@@ -143,16 +161,19 @@
   webpage: http://www.worldscinet.com/ijfcs/
   index: ISI
   description: Brings out articles on all areas of the theoretical and mathematical foundations of computer science. Also publishes new results and proposals in these areas.
+  scirev: https://scirev.sc/journal/international-journal-of-foundations-of-computer-science/
 
 - name: International Journal of Geographical Information Science (IJGIS)
   webpage: http://www.tandf.co.uk/journals/IJGIS
   index: ISI
   description: Provides a forum for the exchange of ideas, techniques, approaches and experiences in the rapidly growing field of geographical information systems.
+  scirev: https://scirev.sc/journal/international-journal-of-geographical-information-science/
 
 - name: International Journal of Health Geographics 
   webpage: http://www.ij-healthgeographics.com
   index: ISI
   description: International Journal of Health Geographics is an open access, peer-reviewed, online journal fully dedicated to publishing quality manuscripts on all aspects of geospatial information systems and science applications in health and healthcare.
+  scirev: https://scirev.sc/journal/international-journal-of-health-geographics/
 
 - name: International Journal of Spatial Data Infrastructures Research (IJSDIR)
   webpage: http://ijsdir.jrc.ec.europa.eu/index.php/ijsdir
@@ -165,9 +186,10 @@
   description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
 
 - name: ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
-  webpage: http://www.itc.nl/isprsjournal/
+  webpage: http://www.isprs.org/isprsjournal/
   index: ISI
   description: Provides a channel of communication for specialists in all countries working in the disciplines that apply photogrammetry and remote sensing.
+  scirev: https://scirev.sc/journal/isprs-journal-of-photogrammetry-and-remote-sensing/
 
 - name: Journal on Data Semantics
   webpage: http://www.springer.com/computer/database+management+%26+information+retrieval/journal/13740
@@ -178,25 +200,30 @@
   webpage: http://www.springer.com/economics/regional+science/journal/10109
   index: Scopus
   description: Aims to encourage and promote high quality scholarship on important theoretical and practical issues in regional science, geography, the environmental sciences, and planning.
+  scirev: https://scirev.sc/journal/journal-of-geographical-systems/
 
 - name: Journal of Land Use Science
   webpage: http://www.tandf.co.uk/journals/JLUS
   index: Scopus
   description: Provides information on the study of the nature of land use and land cover, their changes over space and time, and the processes that produce these patterns and changes can be termed 'land use science'.
+  scirev: https://scirev.sc/journal/journal-of-land-use-science/
 
 - name: Journal of Location Based Services (TLBS)
   webpage: http://www.tandf.co.uk/journals/TLBS
   index: Scopus
   description: Provides a forum for the exchange of original ideas, techniques, designs and experiences in the rapidly growing field of location based services on networked mobile devices.
+  scirev: https://scirev.sc/journal/journal-of-location-based-services/
 
 - name: Journal of Maps
   webpage: http://www.tandfonline.com/loi/tjom20
   index: ISI
+  scirev: https://scirev.sc/journal/journal-of-maps/
 
 - name: Journal of Navigation
   webpage: http://journals.cambridge.org/action/displayJournal?jid=nav
   index: ISI
   description: Presents papers on every aspect of navigation - air, land, sea, and space - and papers on every type - scientific, historical, and narrative.
+  scirev: https://scirev.sc/journal/journal-of-navigation/
 
 - name: Journal of Photogrammetry, Remote Sensing and Geoinformation Processing (PFG)
   website: http://www.schweizerbart.de/journals/pfg
@@ -212,6 +239,7 @@
   webpage: http://www.tandf.co.uk/journals/TJSS
   index: ISI
   description: Covers aspects of professional practise and implementation of techniques related to cartography, geodesy, geographic information science, hydrography, photogrammetry, remote sensing or surveying.
+  scirev: https://scirev.sc/journal/journal-of-spatial-science/
 
 - name: Lecture Notes in Computer Science (LNCS)
   webpage: http://springerlink.com/content/105633/
@@ -222,26 +250,30 @@
   webpage: http://www.tandf.co.uk/journals/UMGD
   index: ISI
   description: Covers topography and mapping, satellite altimetry, bathymetry, positioning, precise navigation, boundary demarcation and determination, tsunamis, plate/tectonics, geoid determination, acoustics and space instrumentation, ground truth, system calibration and validation, and geographic information systems.
-   
+  scirev: https://scirev.sc/journal/marine-geodesy/
+
 - name: Open Geospatial Data, Software and Standards
   webpage: http://www.opengeospatialdata.com
   # index: none
   description: Provides an advanced forum for the science and technology of open data, crowdsourced information, and sensor web through the publication of reviews and regular research papers.
-   
+
 - name: The Photogrammetric Record (TPR)
   webpage: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1477-9730
   index: ISI
   description: The Photogrammetric Record is an international journal containing original, independently and rapidly refereed articles that reflect modern advancements in photogrammetry, 3D imaging, computer vision, and other related non-contact fields.
+  scirev: https://scirev.sc/journal/photogrammetric-record/
 
 - name: The Professional Geographer (RTPG)
   webpage: http://www.tandf.co.uk/journals/PG
   index: ISI
   description: Provides a forum for new ideas, alternative viewpoints, and debates with emphasis on questions and problems of broad interest to geographers.
+  scirev: https://scirev.sc/journal/professional-geographer/
 
 - name: Transactions in GIS 
   webpage: http://www.wiley.com/bw/journal.asp?ref=1361-1682
   index: ISI
   description: Provides a forum for original research articles, review articles, short notes and book reviews.
+  scirev: https://scirev.sc/journal/transactions-in-gis/
 
 - name: URISA Journal
   website: http://www.urisa.org/urisajournal
