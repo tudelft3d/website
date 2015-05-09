@@ -6,7 +6,7 @@ permalink: /journals/
 
 We are maintaining a list of journals that we consider when submitting a GIS manuscript. Some of the journals listed below are not fundamentally GIS journals, but they have been known to publish relevant GIS papers in the past, and to provide a peer-review of high quality.
 
-We support <a href="https://scirev.sc">SciRev</a>, a website which allows you to share your experience with the scientific review process. It aggregates journal review quality and processing times, and helps to differentiate efficient journals. Therefore for each entry, where applicable, we also provide the link to its SciRev page.
+We support <a href="https://scirev.sc">SciRev</a>, a website which allows you to share your experience with a journal's scientific review process. It aggregates journal review quality ratings and processing times, and helps to differentiate efficient journals. Therefore for each entry, where applicable, we also provide the link to its SciRev page.
 
 The impact factor for each journal can be checked (inside the campus or using a VPN) [here](http://admin-apps.webofknowledge.com/JCR/JCR). 
 The search system is *very* picky. It's probably easier to search by ISSN or to first find the exact name [here](http://admin-apps.webofknowledge.com/JCR/JCR?RQ=TITLES_FULL) using the search function of your browser.
