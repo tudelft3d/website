@@ -20,6 +20,7 @@
   webpage: http://www.tandf.co.uk/journals/tagi
   index: ISI
   description: Publishes original research on the theory, methods, development and applications of geographic information systems, remote sensing, global positioning and cartography.
+  scirev: https://scirev.sc/journal/annals-of-gis/
 
 - name: Annals of the Association of American Geographers
   webpage: http://www.tandfonline.com/loi/raag20
@@ -37,6 +38,7 @@
   webpage: http://www.utpjournals.com/Cartographica.html
   index: Scopus
   description: Cartographica delivers cutting-edge international research in all aspects of cartography (including the production, design, use, cognitive understanding, and history of maps), geovisualization, and GIScience.  
+  scirev: https://scirev.sc/journal/cartographica/
 
 - name: Cartography and Geographic Information Science (CaGIS)
   webpage: http://www.tandfonline.com/loi/tcag20
@@ -47,6 +49,7 @@
   webpage: http://www.elsevier.com/locate/comgeo
   index: ISI
   description: Publishes fundamental research in all areas of computational geometry, and disseminates information on the applications, techniques and uses of computational geometry.
+  scirev: https://scirev.sc/journal/computational-geometry/
 
 - name: Computer-Aided Design (CAD)
   webpage: http://www.elsevier.com/wps/find/journaldescription.cws_home/30402/description
@@ -128,6 +131,7 @@
   webpage: http://www.igi-global.com/bookstore/titledetails.aspx?TitleId=41967
   # index: none
   description: Covers Building Information Modeling, 3D GIS, and integration of 3D information in the Urban Built Environment.
+  scirev: https://scirev.sc/journal/international-journal-of-3-d-information-modeling/
 
 - name: International Journal of Applied Earth Observation and Geoinformation (JAG)
   webpage: http://www.elsevier.com/locate/jag
@@ -184,6 +188,7 @@
   webpage: http://www.mdpi.com/journal/ijgi
   index: ISI
   description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
+  scirev: https://scirev.sc/journal/isprs-international-journal-of-geo-information/
 
 - name: ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
   webpage: http://www.isprs.org/isprsjournal/
@@ -256,6 +261,7 @@
   webpage: http://www.opengeospatialdata.com
   # index: none
   description: Provides an advanced forum for the science and technology of open data, crowdsourced information, and sensor web through the publication of reviews and regular research papers.
+  scirev: https://scirev.sc/journal/open-geospatial-data,-software-and-standards/
 
 - name: The Photogrammetric Record (TPR)
   webpage: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1477-9730
