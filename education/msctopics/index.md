@@ -25,6 +25,17 @@ However, this is not always the case, and the number of non-homogenous datasets 
 
 - - -
 
+## Line of sight (visibility) and raytracing analyses on a 3D dataset
+
+Calculating the visibility between two points using 3D city models provides valuable input to many application domains, such as solar analyses (shadowing) and finding the optimal place to install a surveillance camera or a billboard. This list is growing, e.g. a potential application could be to estimate the visibility of an urban canyon from a satellite.
+
+This MSc thesis will investigate visibility algorithms and potential applications.
+
+*Contacts:* [Filip Biljecki](http://tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
+- - -
+
 ## Edge-matching with a constrained triangulation
 
 ![](img/em.png)
