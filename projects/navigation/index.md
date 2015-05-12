@@ -63,7 +63,7 @@ In this research, we aim at developing an integrated navigation system for first
 
 <div class="row">
   <div class="col-lg-offset-3 col-lg-3">
-      <img class="img-circle img-responsive" src="{{ "/img/staff/zhiyong.png" | prepend: site.baseurl }}">
+      <a href="http://3dgeoinfo.bk.tudelft.nl/zhiyong/"><img class="img-circle img-responsive" src="{{ "/img/staff/zhiyong.png" | prepend: site.baseurl }}"></a>
       <h3>Zhiyong Wang <br><small>PhD candidate</small></h3>
   </div>
   <div class=" col-lg-3">
