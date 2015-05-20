@@ -50,7 +50,10 @@ h1 span {
   margin-top: 0px;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-header > a:hover,
+.navbar-default .navbar-header > a:focus {
   color: #30bfeb;
 }
 
