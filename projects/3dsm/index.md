@@ -74,7 +74,6 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
 
   - Overview of the project <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_hl.pdf"><i class="fa fa-file-image-o"></i>
   - Progress last 9 months <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fa fa-file-image-o"></i>
-  - Minutes of the meeting <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_minutes.pdf"><i class="fa fa-file-pdf-o"></i>
 
 ### Meeting 2014/09/11
 
