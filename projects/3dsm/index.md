@@ -59,7 +59,21 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
 
 - - -
 
+## Open-source software
+
+Our implementations of the shrinking ball algorithm to approximate the Medial Axis Transform (MAT) of an oriented point cloud---modified so that noisy point clouds can be processed---are available there:
+
+  - [C++ implementation](https://github.com/tudelft3d/masbcpp)
+  - [Python implementation](https://github.com/tudelft3d/masbpy)
+
+- - -
+
 ## STW Users' committee
+
+### Meeting 2015/05/19
+
+  - Overview of the project <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_hl.pdf"><i class="fa fa-file-image-o"></i>
+  - Progress last 9 months <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fa fa-file-image-o"></i>
 
 ### Meeting 2014/09/11
 
@@ -96,8 +110,8 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
 </tr>
 <tr>
 <td style="text-align:left;"> Grontmij </td>
-<td style="text-align:left;"> Paul </td>
-<td> Beurskens </td>
+<td style="text-align:left;"> Guus </td>
+<td> Claessens </td>
 </tr>
 <tr>
 <td style="text-align:left;"> Kadaster </td>
@@ -121,12 +135,13 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
 </tr>
 <tr>
 <td style="text-align:left;"> Waterschap Scheldestromen </td>
-<td style="text-align:left;"> Johan </td>
-<td> van Cranenburgh </td>
+<td style="text-align:left;"> Sicco </td>
+<td> van Mullem </td>
 </tr>
 </tbody>
 </table>
 </div>
+
 - - -
 
 ## Team
