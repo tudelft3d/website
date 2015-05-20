@@ -154,3 +154,15 @@ footer {
     margin-top: 120px;
   }
 }
+
+.alert-blue,
+.alert-blue > a {
+  color: white;
+  background-color: #4f7de6;
+  border-color: #4f7de6;
+}
+
+.alert-blue > a:hover,
+.alert-blue > a:focus {
+  color: #ace5ee;
+}
