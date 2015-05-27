@@ -59,6 +59,12 @@ The staff of the group is active in several international organisations such as 
     {% endfor %}
 </div>
 
+- - - 
+
+## <a name="people"></a> Former Staff
+
+[List of former staff]({{ "/about/formerstaff" | prepend: site.baseurl }})
+
 - - -
 
 <h2 id="where">Our offices</h2>
