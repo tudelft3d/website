@@ -101,7 +101,7 @@ Calculating the visibility between two points using 3D city models provides valu
 
 This MSc thesis will investigate visibility algorithms and potential applications.
 
-*Contacts:* [Filip Biljecki](http://tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters), [Filip Biljecki](http://tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 
 - - -
