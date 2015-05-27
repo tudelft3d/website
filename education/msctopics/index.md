@@ -12,9 +12,26 @@ permalink: /education/msctopics/
 
 - - -
 
+## Automatic construction of the 3D BAG datasets
+
+![](img/3dbag.png)
+
+The aim is to develop a methodology to automatically construct the 3D BAG, using the BAG ([*Basisregistraties Adressen en Gebouwen*](https://bagviewer.kadaster.nl)), the BGT ([*Basisregistratie Grootschalige Topografie*](https://www.pdok.nl/nl/producten/pdok-downloads/download-basisregistratie-grootschalige-topografie)), and the AHN2 ([*Actueel Hoogtebestand Nederland*](http://www.ahn.nl/index.html)).
+This dataset would contain---as shown in the figure above---the units within buildings (these are inferred from the BAG and the height of the building).
+
+The project would be made in collaboration with the City of Den Haag, who have developed a prototype.
+The student will have to improve their methodology, ensure that it is robust, and scale it for the whole country, if possible (or at least other municipalities).
+
+The project requires programming in Python, the use of FME, and a desire to fight with a great amount of data.
+
+
+*Contact:* [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
 ## Automatic guesstimation of the level of detail of a 3D city model
 
-![](img/CityGML-LOD.png)
+![](img/CityGML-LOD.png){:width="800px"}
 
 Every 3D city model has a level of detail, a measure that indicates its grade, usability and value. The LOD of a 3D city model is usually stored in the metadata, but it can also be evident from a quick inspection.
 
