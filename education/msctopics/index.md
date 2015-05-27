@@ -42,6 +42,27 @@ However, this is not always the case, and the number of non-homogenous datasets 
 
 - - -
 
+## Estimating the cooling demand with 3D city models
+
+This MSc thesis will be conducted in collaboration with the [European Institute for Energy Research (EIFER)](http://www.eifer.org).
+
+It involves:
+
+* Developing a cooling energy model based on 3D city model: morphological analysis, urban typological and classification of 3D data, cooling energy needs calculation, etc.
+
+* Study the influence of urban morphology on cooling needs (e.g. through statistical regressions)
+
+* Implement this relation (e.g. equation between urban density and cooling needs) in a procedural tool.
+
+For more information, please read [here](https://lsecities.net/publications/reports/cities-and-energy-urban-morphology-and-heat-energy-demand/
+) about a project that EIFER led with the LSE for studying the relation between urban morphology and cooling demand.
+
+
+
+*Contact:* [Filip Biljecki](http://tudelft.nl/biljecki)
+
+- - -
+
 ## Line of sight (visibility) and raytracing analyses on a 3D dataset
 
 Calculating the visibility between two points using 3D city models provides valuable input to many application domains, such as solar analyses (shadowing) and finding the optimal place to install a surveillance camera or a billboard. This list is growing, e.g. a potential application could be to estimate the visibility of an urban canyon from a satellite.
