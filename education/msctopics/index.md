@@ -14,7 +14,7 @@ permalink: /education/msctopics/
 
 ## Automatic construction of the 3D BAG datasets
 
-![](img/3dbag.png)
+![](img/3dbag.png){:width="800px"}
 
 The aim is to develop a methodology to automatically construct the 3D BAG, using the BAG ([*Basisregistraties Adressen en Gebouwen*](https://bagviewer.kadaster.nl)), the BGT ([*Basisregistratie Grootschalige Topografie*](https://www.pdok.nl/nl/producten/pdok-downloads/download-basisregistratie-grootschalige-topografie)), and the AHN2 ([*Actueel Hoogtebestand Nederland*](http://www.ahn.nl/index.html)).
 This dataset would contain---as shown in the figure above---the units within buildings (these are inferred from the BAG and the height of the building).
@@ -23,6 +23,38 @@ The project would be made in collaboration with the City of Den Haag, who have d
 The student will have to improve their methodology, ensure that it is robust, and scale it for the whole country, if possible (or at least other municipalities).
 
 The project requires programming in Python, the use of FME, and a desire to fight with a great amount of data.
+
+
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter)
+
+- - -
+
+## Improving house price models with LiDAR datasets
+
+![](img/sunhouseprices.jpg){:width="500px"}
+
+Apartments having more sun and a nice view are worth more than those without windows.
+Sounds trivial, but this fact is rarely taken into account when house prices models are developed.
+The aim of this MSc project is to apply the methodology developed in [this paper](http://dx.doi.org/10.1016/j.compenvurbsys.2013.01.001) to the Dutch housing situation (and potentially to improve it).
+The student will have to use AHN2, 3D city models, and learn about house price models.
+
+The project would be co-supervised by one staff from the 3D geoinformation group (for the technical part related to 3D visibility) and [Jan de Haan](http://www.otb.tudelft.nl/en/about-otb/staff/alle-medewerkers/prof-dr-j-jan-de-haan/), who is a professor in housing systems here at the faculty.
+
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
+## BIM and its integration with CityGML & 3D GIS
+
+![](img/ifcitygml.png){:width="500px"}
+
+A student recently completed his MSc Geomatics thesis work on the automatic conversion of IFC buildings to CityGML LOD3 models ([MSc thesis here](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/)). 
+Several issues are still open, and an MSc project could investigate these. 
+For instance: creation of LOD4, integration with the terrain, and the conversion applied to other city objects (tunnels and bridges).
+
+The project could be embedded in the [BIMlab at CiTG/TU Delft](http://www.tubimlab.nl).
+That is, as an MSc student, you work one day per week during your thesis work there and you get the support of other students (from different faculties) working with BIM, and potential of the companies involved in the project.
+The BIMlab offers [other project too](http://www.tubimlab.nl/?page_id=50).
 
 
 *Contact:* [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
