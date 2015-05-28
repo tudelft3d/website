@@ -29,7 +29,7 @@ The project requires programming in Python, the use of FME, and a desire to figh
 
 - - -
 
-## Improving house price models with LiDAR datasets
+## Improving house price models with 3D city models and LiDAR datasets
 
 ![](img/sunhouseprices.jpg){:width="500px"}
 
@@ -84,7 +84,7 @@ The BIMlab offers [other project too](http://www.tubimlab.nl/?page_id=50).
 
 Every 3D city model has a level of detail, a measure that indicates its grade, usability and value. The LOD of a 3D city model is usually stored in the metadata, but it can also be evident from a quick inspection.
 
-However, this is not always the case, and the number of non-homogenous datasets with variable LOD is increasing. The goal of this project is to build and implement a method that is able to automatically deduce the level of detail of a 3D GIS dataset.
+However, this is not always the case, and the number of non-homogeneous datasets with variable LOD is increasing. The goal of this project is to build and implement a method that is able to automatically deduce the level of detail of a 3D GIS dataset.
 
 
 *Contact:* [Filip Biljecki](http://tudelft.nl/biljecki)
@@ -139,12 +139,12 @@ The existing prototype (called [pprepair](https://github.com/tudelft3d/pprepair)
 
 ## 3D data modelling
 
-The growing awareness for our intensively used environment requires more advanced modelling of spatial situations and events. Over the years, a lot of research has been conducted to create and maintain 3D geo-information and in 2014 a high resolution point data set -- (Actueel Hoogtebestand Nederland 2) -- hase become available as oepn data describing the shape of the whole of The Netherlands quite accurately. The national 3D standard which was established early 2012 as an Application Domain Extension (ADE) of the OGC 3D standard CityGML further stimulates 3D developments in practice. The new standard allows to extend this information into 3D in a common approach. There are remaining research challenges for 3D that can be studied within an MSc research:
+The growing awareness for our intensively used environment requires more advanced modelling of spatial situations and events. Over the years, a lot of research has been conducted to create and maintain 3D geoinformation and in 2014 a high resolution point data set -- (Actueel Hoogtebestand Nederland 2) -- has become available as open data describing the shape of the whole of The Netherlands quite accurately. The national 3D standard which was established early 2012 as an Application Domain Extension (ADE) of the OGC 3D standard CityGML further stimulates 3D developments in practice. The new standard allows to extend this information into 3D in a common approach. There are remaining research challenges for 3D that can be studied within an MSc research:
 
-  * Other domain information models can be studied for extension into 3D. For example spatial plans are 2D until now and there is also no good 3D representation for the Transportation domain (i.e. how to model road-directions at the several levels of detail) nor for cables and pipelines. The urge for a 3D extension of these domain models shos from several use cases
-  * Another MSc project could focus on the integration between BIM (for design and construction) and 3D geo-information (to have a framework on what is and what is not allowed/possible in the design phase or to serve 3D geo-information models with data from the BIM domain)
-  * Currently a 3D topographic data set covering the whole of the netherlands is being processed. It consists of 30.000 tiles; 15 million objects and 2 TB data volume. An MSc project could work on the d<span style="background-color: transparent;">esign and implementation of a methodology (including appropriate data structure) to disseminate this data seamlessly to users in a Web environment</span>
-  * Environmental modelling in 3D: Simulation models (noise; wind; airt pollution) work in 3D; but planning instruments don't. 
+  * Other domain information models can be studied for extension into 3D. For example spatial plans are 2D until now and there is also no good 3D representation for the Transportation domain (i.e. how to model road-directions at the several levels of detail) nor for cables and pipelines. The urge for a 3D extension of these domain models shows from several use cases
+  * Another MSc project could focus on the integration between BIM (for design and construction) and 3D geoinformation (to have a framework on what is and what is not allowed/possible in the design phase or to serve 3D geoinformation models with data from the BIM domain)
+  * Currently a 3D topographic data set covering the whole of the Netherlands is being processed. It consists of 30.000 tiles; 15 million objects and 2 TB data volume. An MSc project could work on the design and implementation of a methodology (including appropriate data structure) to disseminate this data seamlessly to users in a Web environment</span>
+  * Environmental modelling in 3D: Simulation models (noise; wind; air pollution) work in 3D; but planning instruments don't. 
 
 An MSc task would be to develop and implement a methodology that acknowledges (and integrates) the 3D component of environmental modelling for a selection of aspects.
 
