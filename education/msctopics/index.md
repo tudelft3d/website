@@ -67,7 +67,7 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 A student recently completed his MSc Geomatics thesis work on the automatic conversion of IFC buildings to CityGML LOD3 models ([MSc thesis here](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/)). 
 Several issues are still open, and an MSc project could investigate these. 
-For instance: creation of LOD4, integration with the terrain, and the conversion applied to other city objects (tunnels and bridges).
+For instance: creation of interior rooms at different LODs (CityGML v3 will have that concept), integration with the terrain, and the conversion applied to other city objects (tunnels and bridges).
 
 The project could be embedded in the [BIMlab at CiTG/TU Delft](http://www.tubimlab.nl).
 That is, as an MSc student, you work one day per week during your thesis work there and you get the support of other students (from different faculties) working with BIM, and potential of the companies involved in the project.
