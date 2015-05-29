@@ -154,10 +154,10 @@ An MSc task would be to develop and implement a methodology that acknowledges (a
 
 ## Generalisation of semantic 3D city models
 
-Generalisation from a higher to a lower level of detail of a 3D model is one of the key research topics in computer graphics. 
-In semantically enriched 3D city models, such as CityGML, the topic is yet to be researched taking into account additional concepts. 
-This research will investigate the generalisation of 3D city models, which will, beside the simplification of geometry, include generalisation of semantics and texture, and aggregation of city objects. 
-The generalisation will be done according to the [new paradigm of levels of detail](http://3dgeoinfo.bk.tudelft.nl/biljecki/phd.html) developed in our group.
+Generalisation from a higher to a lower level of detail of a dataset is one of the key research topics in cartography (maps/scale) and computer graphics (3D models/simplification). 
+In semantically enriched 3D city models, such as CityGML, the topic is not extensively researched because of some additional concepts, and due to differences such as selective generalisation (retaining the complexity of a part of a building such as the footprint while generalising only the roof). 
+This research will investigate the generalisation of 3D city models, which will, beside the simplification of geometry, include generalisation of semantics and texture, and aggregation of city objects. Further, the student is expected to create a web interface which returns an generalised version of the uploaded CityGML dataset. 
+The generalisation will be done according to the [new paradigm of levels of detail](http://3dgeoinfo.bk.tudelft.nl/biljecki/Random3Dcity.html) developed in our group.
 
 *Contacts:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
