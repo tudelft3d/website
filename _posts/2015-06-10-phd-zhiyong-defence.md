@@ -10,7 +10,7 @@ On 9 June 2015, Zhiyong Wang successfully defended his thesis entitled *Path pla
 Congratulations to Dr. Zhiyong Wang!
 
 <div class="row">
-  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/zhiyong-defence-1.png" | prepend: site.baseurl }}" /></div>
-  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/zhiyong-defence-2.png" | prepend: site.baseurl }}" /></div>
-  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/zhiyong-defence-3.png" | prepend: site.baseurl }}" /></div>
+  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/zhiyong-defence-1.jpg" | prepend: site.baseurl }}" /></div>
+  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/zhiyong-defence-2.jpg" | prepend: site.baseurl }}" /></div>
+  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/zhiyong-defence-3.jpg" | prepend: site.baseurl }}" /></div>
 </div>
