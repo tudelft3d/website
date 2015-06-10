@@ -59,6 +59,9 @@ We have a [list of potential topics](msctopics).
         {% if i.paper %}
           <small><a href="{{ i.paper }}"><i class="fa fa-file-text" title="paper"></i></a></small>
         {% endif %}
+        {% if i.github %}
+          <small><a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a></small> 
+        {% endif %}
         </h3>
         <p>{{ i.title }}</p>
       </div>
