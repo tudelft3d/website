@@ -10,8 +10,12 @@ A group of Geomatics students visited the exhibition of the Prinsenhof museum [â
 
 <div class="row">
   <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/prinsenhof-1.jpg" | prepend: site.baseurl }}" /></div>
+  
   <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/prinsenhof-2.jpg" | prepend: site.baseurl }}" /></div>
+  
   <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/prinsenhof-3.jpg" | prepend: site.baseurl }}" /></div>
+  
   <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/prinsenhof-4.jpg" | prepend: site.baseurl }}" /></div>
+  
   <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="{{ "/img/2015/prinsenhof-5.jpg" | prepend: site.baseurl }}" /></div>
 </div>
