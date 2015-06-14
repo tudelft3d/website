@@ -275,6 +275,12 @@
   description: The Photogrammetric Record is an international journal containing original, independently and rapidly refereed articles that reflect modern advancements in photogrammetry, 3D imaging, computer vision, and other related non-contact fields.
   scirev: https://scirev.sc/journal/photogrammetric-record/
 
+- name: Survey Review (SR)
+  webpage: http://www.maneyonline.com/loi/sre
+  index: ISI
+  description: Survey Review is an international journal which has been published since 1931, until recently under the auspices of the Commonwealth Association of Surveying and Land Economy (CASLE)
+  scirev: https://scirev.sc/journal/survey-review/
+
 - name: The Professional Geographer (RTPG)
   webpage: http://www.tandf.co.uk/journals/PG
   index: ISI
