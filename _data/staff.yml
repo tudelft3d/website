@@ -1,3 +1,11 @@
+- surname: Li
+  name: Fangyu
+  title: visiting scholar
+  photo: lfy.jpg
+  # homepage: tudelft.nl/kenohori
+  email: f.li-3@tudelft.nl
+  # phone: +31 15 27 85154
+
 - surname: Arroyo Ohori
   name: Ken
   title: PhD candidate
@@ -22,8 +30,9 @@
   email: f.biljecki@tudelft.nl
   twitter: fbiljecki
 
-- surname: van den Brink
+- surname: Brink
   name: Linda
+  van: van den
   title: PhD candidate
   photo: linda.png
   email: l.vandenbrink@geonovum.nl
