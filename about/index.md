@@ -18,7 +18,7 @@ The staff of the group is active in several international organisations such as 
 
 ## <a name="people"></a> Staff
 
-{% assign members = site.data.staff | sort: 'staff' %}
+{% assign members = site.data.staff | sort: 'surname' %}
 
 <div class="row">
     {% for member in members %}
@@ -28,7 +28,7 @@ The staff of the group is active in several international organisations such as 
     {% else %}
       <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}">
     {% endif %}
-      <h3>{{ member.name }} {{ member.surname }} <small>{{ member.title }}</small></h3>
+      <h3>{{ member.name }} {{ member.van }} {{ member.surname }} <small>{{ member.title }}</small></h3>
       <p>
         {% if member.homepage %}
           <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
