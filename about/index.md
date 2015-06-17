@@ -83,6 +83,6 @@ The staff of the group is active in several international organisations such as 
   <div id="map"></div>
 </div>
 
-<script src="//cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+<script src="{{ "/assets/js/leaflet.js" | prepend: site.baseurl }}"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js"></script>
 <script src="{{ "/assets/js/mymap.js" | prepend: site.baseurl }}"></script>
