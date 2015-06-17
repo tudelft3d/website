@@ -50,11 +50,11 @@ L.CRS.proj4js = (function () {
                 crs: rd,
                 layers: [
                     new L.TileLayer(
-                        'http://www.openbasiskaart.nl/mapcache/tms/1.0.0/osm@rd/{z}/{x}/{y}.png', {
+                        'http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                             tms: true,
                             minZoom: 1,
                             maxZoom: 13,
-                            attribution: '© <a href="http://www.openbasiskaart.nl">openbasiskaart.nl</a>',
+                            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
                             continuousWorld: true
                         }
                     )
