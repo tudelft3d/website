@@ -24,14 +24,14 @@ The staff of the group is active in several international organisations such as 
     {% for member in members %}
     <div class="col-lg-4 col-sm-6">
     {% if member.homepage %}
-      <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}"></a>
+      <a href="//{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}"></a>
     {% else %}
       <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}">
     {% endif %}
       <h3>{{ member.name }} {{ member.van }} {{ member.surname }} <small>{{ member.title }}</small></h3>
       <p>
         {% if member.homepage %}
-          <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
+          <i class="fa fa-home"></i> <a href="//{{ member.homepage }}">{{ member.homepage }}</a><br>
         {% endif %}
         {% if member.email %}
           <i class="fa fa-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
