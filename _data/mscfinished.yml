@@ -1,3 +1,11 @@
+- surname: Chen 
+  name: Carl
+  title: Edge-aware simplification of roof and facade point clouds into a uniformly dense point cloud
+  link: http://repository.tudelft.nl/view/ir/uuid%3A662fad08-51a9-4f8d-acb1-4caf78d602bb/
+  image: carl.jpg
+  year: 2015
+
+
 - surname: Mulder
   name: Damien
   title: Automatic repair of 3D city building models using a voxel-based repair method
