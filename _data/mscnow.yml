@@ -10,7 +10,7 @@
 
 - surname: Aarsen 
   name: Rosann
-  title: Obstacle detection from geo-data collected by a "meet rollator"
+  title: Using sensor-data collected by a "meet rollator" for deriving outdoor accessibility information concerning mobility impaired people
   image: rosann.png
 
 - surname: Chen 
@@ -29,18 +29,6 @@
   title: Calculating the MAT for massive LiDAR datasets
   image: marco.jpg  
   # link: 
-
-- surname: Mulder
-  name: Damien
-  title: A voxel-based method for automatic repair of CityGML models
-  # link: 
-  image: damien.jpg
-
-- surname: Pronk
-  name: Maarten
-  title: Storage of massive TINs in a DBMS with a star-based data structure
-  # link: 
-  image: maarten.gif
 
 - surname: Wu
   name: Haoxiang

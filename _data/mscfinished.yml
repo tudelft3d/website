@@ -1,3 +1,18 @@
+- surname: Mulder
+  name: Damien
+  title: Automatic repair of 3D city building models using a voxel-based repair method
+  # link: 
+  image: damien.jpg
+  github: https://github.com/dtmulder/VoxelRepair
+  year: 2015
+
+- surname: Pronk
+  name: Maarten 
+  title: Storing massive TINs in a DBMS -- A comparison and a prototype implementation of the multistar approach
+  link: http://repository.tudelft.nl/view/ir/uuid%3Ada6b7329-f45b-4560-8374-bb522e78121f/
+  image: maarten.png
+  github: https://github.com/evetion/multistar
+  year: 2015
 
 - surname: Boeters
   name: Roeland 
