@@ -28,6 +28,12 @@
   description: Covers major research articles and in-depth book reviews for all fields of geography.
   scirev: https://scirev.sc/journal/annals-of-the-association-of-american-geographers/
 
+- name: Building and Environment
+  webpage: http://www.journals.elsevier.com/building-and-environment/
+  index: ISI
+  description: Building and Environment is an international journal that publishes original research papers and review articles related to building science and human interaction with the built environment.
+  scirev: https://scirev.sc/journal/building-and-environment/
+
 - name: The Cartographic Journal
   webpage: http://maneypublishing.com/index.php/journals/caj/
   index: ISI
