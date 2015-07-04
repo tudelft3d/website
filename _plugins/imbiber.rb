@@ -224,6 +224,10 @@ class TextTransformer < Parslet::Transform
 		end
 	}
 
+	rule(:space => simple(:s)) {
+		" "
+	}
+
 	rule(:bracketedtext => sequence(:s)) { s.join("") }
 	rule(:letterpreservecase => simple(:l)) { l.to_s }
 	rule(:specialletterpreservecase => simple(:l)) { @@sl.convert(l.to_s) }
@@ -286,6 +290,7 @@ end
 class MonthTransformer < Parslet::Transform
 	mu = MonthUtils.new
 
+	rule(:fullmonthname => simple(:fmn)) { mu.full_month_to_abbreviated_month(fmn) }
 	rule(:abbreviatedmonthname => simple(:amn)) { amn.to_s }
 	rule(:number => simple(:n)) { mu.number_to_abbreviated_month(n) }
 	rule(:text => simple(:t)) { t.to_s }
@@ -921,10 +926,14 @@ end
 # i = Imbiber.new
 # i.read("/Users/ken/Versioned/my-website/pubs/publications.bib")
 # i.read("/Users/ken/Versioned/website/pubs/all.bib")
+
 # pp i.entries
 # pp i.html_of_all()
+# pp i.entries
+# pp i.html_of(:"Jantien-Stoter14")
 
-# pp TextTransformer.new(:sentence).apply(TextParser.new.parse("Realising the Foundations of a Higher Dimensional {GIS}: A Study of Higher Dimensional Spatial Data Models, Data Structures and Operations"))
+# t = TextTransformer.new(:unchanged).apply(TextParser.new.parse_with_debug("Presentation at the {3D BGT} dag (June 19th in Amersfoort, the Netherlands)"))
+# pp t
 # puts "Fr{\\'e}d{\\'e}ric Hubert"
 # puts NameTransformer.new.apply(NameParser.new.parse_with_debug("Fr{\\'e}d{\\'e}ric Hubert"))
 
