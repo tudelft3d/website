@@ -16,38 +16,6 @@ layout: default
 ?>
 </code></pre>
 
-<h1>Generate geo5d website</h1>
-<pre><code>
-<?php
-  $bibhtmler = new bibhtmler(array('groupby' => 'year'));
-  $top_pubs = "{% raw %}{% raw %}{% endraw %}\n";
-  $top_pubs .= "<div class=\"container\">";
-  $top_pubs .= $bibhtmler->process('../../projects/geo5d/5d-top.bib');
-  $top_pubs .= "</div>";
-  $top_pubs .= "{% assign openTag = '{%' %}\n";
-  $top_pubs .= "{{ openTag }} endraw %}\n";
-  $top_pubs_page = fopen("../../projects/geo5d/top-pubs.html", "w");
-  fwrite($top_pubs_page, $top_pubs);
-  fclose($top_pubs_page);
-  $bibhtmler = new bibhtmler(array('groupby' => 'class'));
-  $all_pubs = "---\n";
-  $all_pubs .= "layout: page\n";
-  $all_pubs .= "title: Publications\n";
-  $all_pubs .= "permalink: /projects/geo5d/publications.html\n";
-  $all_pubs .= "---\n\n";
-  $all_pubs .= "{% raw %}{% raw %}{% endraw %}\n";
-  $all_pubs .= "<div class=\"container\">";
-  $all_pubs .= $bibhtmler->process('../../projects/geo5d/5d-all.bib');
-  $all_pubs .= "</div>";
-  $all_pubs .= "{% assign openTag = '{%' %}\n";
-  $all_pubs .= "{{ openTag }} endraw %}\n";
-  $all_pubs_page = fopen("../../projects/geo5d/publications.html", "w");
-  fwrite($all_pubs_page, $all_pubs);
-  fclose($all_pubs_page);
-  echo("Done!");
-?>
-</code></pre>
-
 <h1>Jekyll build</h1>
 <pre><code>
 <?php
