@@ -43,7 +43,7 @@ In 2010 this research project was awarded with a Vidi grant from the [Dutch Tech
 
 The complete list of publications of the project is available <a href="publications.html">here</a>.
 
-{% imbiber ../../../projects/geo5d/5d-top.bib %}
+{% imbiber ../../projects/geo5d/5d-top.bib %}
 
 ---
 
