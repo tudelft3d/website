@@ -804,7 +804,10 @@ class Imbiber
 
 		else
 			outwho = '<span class="label label-important">Unrecognised entry type: ' + @entries[key][:class] + '</span>'
+		end
 
+		if outwho.nil? then
+			outwho = ""
 		end
 
 		if outwhat.length > 0 then
@@ -937,12 +940,12 @@ class Imbiber
 	end
 end
 
-# i = Imbiber.new
+i = Imbiber.new
 # i.read("/Users/ken/Versioned/my-website/pubs/publications.bib")
-# i.read("/Users/ken/Versioned/website/pubs/all.bib")
+i.read("/Users/ken/Versioned/website/jstoter/jantien.bib")
 
 # pp i.entries
-# pp i.html_of_all(:class)
+pp i.html_of_all(:class)
 # pp i.entries
 # pp i.html_of(:"Jantien-Stoter14")
 
