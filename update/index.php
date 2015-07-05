@@ -6,7 +6,6 @@ layout: default
 <?php
 	$repository_path = '/var/www/website';
 	// $repository_path = '/Users/hugo/www/website';
-	include('./bibhtmler.php');
 ?>
 
 <h1>Git pull</h1>
@@ -14,24 +13,6 @@ layout: default
 <?php
 	echo("$ git -C ".$repository_path." pull\n");
 	system("git -C ".$repository_path." pull 2>&1");
-?>
-</code></pre>
-
-<h1>Generate Jantien's page</h1>
-<pre><code>
-<?php
-	$bibhtmler = new bibhtmler(array('groupby' => 'classbyyear'));
-	$pubs_text = "---\nlayout: homepage\ntitle: Jantien Stoter\npermalink: /jstoter/\n---\n\n";
-	$pubs_text .= "{% raw %}{% raw %}{% endraw %}\n";
-	$pubs_text .= "<div class=\"container\">";
-	$pubs_text .= $bibhtmler->process('../../jstoter/jantien.bib');
-	$pubs_text .= "</div>";
-	$pubs_text .= "{% assign openTag = '{%' %}\n";
-	$pubs_text .= "{{ openTag }} endraw %}\n";
-	$pubs_page = fopen("../../jstoter/index.html", "w");
-	fwrite($pubs_page, $pubs_text);
-	fclose($pubs_page);
-	echo("Done!");
 ?>
 </code></pre>
 
