@@ -45,17 +45,17 @@ class ImbiberTag < Liquid::Tag
 			@imbiber.html_of(@arguments[:one].to_sym)
 		else
 			if @arguments.has_key?(:groupby) then
-				@groupby = @arguments[:groupby]
+				@groupby = @arguments[:groupby].to_sym
 			else
 				@groupby = :year
 			end
 			if @arguments.has_key?(:sortby) then
-				@sortby = @arguments[:sortby]
+				@sortby = @arguments[:sortby].to_sym
 			else
 				@sortby = :date
 			end
 			if @arguments.has_key?(:order) then
-				@order = @arguments[:order]
+				@order = @arguments[:order].to_sym
 			else
 				@order = :desc
 			end

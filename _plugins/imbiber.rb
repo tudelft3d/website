@@ -29,6 +29,7 @@ require 'htmlentities'
 require_relative 'specialletters'
 require_relative 'monthutils'
 require_relative 'localisedtext'
+require_relative 'groups'
 
 class DocumentParser < Parslet::Parser
 
@@ -326,6 +327,7 @@ class Imbiber
 		@lt = LocalisedText.new(@options[:lang])
 		@he = HTMLEntities.new
 		@mu = MonthUtils.new
+		@g = Groups.new
 	end
 
 	def to_s
@@ -888,12 +890,17 @@ class Imbiber
 					end
 					groups[@lt.localise(:Unknown)][:entries].push({:sortingvalue => entry[1][:sortingvalue], :entry => html_of(entry[0])})
 				end
+			when :class
+				# puts entry[1][:class].to_s
+				if !groups.has_key?(entry[1][:class].to_s) then
+					groups[entry[1][:class].to_s] = {:sortingvalue => @g.groupof(entry[1][:class].to_s), :entries => [], :nicename => @lt.classname(entry[1][:class].to_s)}
+				end
+				groups[entry[1][:class].to_s][:entries].push({:sortingvalue => entry[1][:sortingvalue], :entry => html_of(entry[0])})
 			end
-
-			
 		end
 		
 		# Sort groups
+		# pp groups
 		sorted_groups = groups.sort_by { |k, v| v[:sortingvalue] }
 		if order == :desc then
 			sorted_groups = sorted_groups.reverse
@@ -906,7 +913,13 @@ class Imbiber
 			if idswithprefix != false then
 				html << "<section id=\"" << idswithprefix << group[0] << "\">\n"
 			end
-			html << @options[:beforegrouptitle] << group[0] << @options[:aftergrouptitle] << "\n"
+			html << @options[:beforegrouptitle]
+			if group[1].has_key?(:nicename) then
+				html << group[1][:nicename]
+			else
+			 	html << group[0]
+			end
+			html << @options[:aftergrouptitle] << "\n"
 			sorted_group = group[1][:entries].sort_by { |v| v[:sortingvalue] }
 			if order == :desc then
 				sorted_group = sorted_group.reverse
@@ -919,6 +932,7 @@ class Imbiber
 			end
 		end
 
+		# sorted_groups
 		html
 	end
 end
@@ -928,7 +942,7 @@ end
 # i.read("/Users/ken/Versioned/website/pubs/all.bib")
 
 # pp i.entries
-# pp i.html_of_all()
+# pp i.html_of_all(:class)
 # pp i.entries
 # pp i.html_of(:"Jantien-Stoter14")
 

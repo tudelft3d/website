@@ -85,6 +85,39 @@ class LocalisedText
 		}
 	}
 
+	@@classnames = {
+		:en => {
+			'article' => 'Journal articles',
+			'book' => 'Books',
+			'booklet' => 'Booklets',
+			'inbook' => 'Book chapters',
+			'incollection' => 'Conference articles (in book)',
+			'inproceedings' => 'Conference articles',
+			'manual' => 'Manuals',
+			'mastersthesis' => 'Master\'s theses',
+			'misc' => 'Others',
+			'phdthesis' => 'PhD theses',
+			'proceedings' => 'Conference proceedings',
+			'techreport' => 'Technical reports',
+			'unpublished' => 'Unpublished'
+		},
+		:es => {
+			'article' => 'Art&iacute;culos de revista',
+			'book' => 'Libros',
+			'booklet' => 'Folletos',
+			'inbook' => 'Cap&iacute;tulos de libro',
+			'incollection' => 'Art&iacute;culos de conferencia (en libro)',
+			'inproceedings' => 'Art&iacute;culos de conferencia',
+			'manual' => 'Manuales',
+			'mastersthesis' => 'Tesis de maestr&iacute;a',
+			'misc' => 'Otros',
+			'phdthesis' => 'Tesis doctorales',
+			'proceedings' => 'Actas de conferencias',
+			'techreport' => 'Reportes t&eacute;cnico',
+			'unpublished' => 'Sin publicar'
+		}
+	}
+
 	def initialize(locale = :en)
 		@locale = locale
 	end
@@ -99,5 +132,9 @@ class LocalisedText
 		else
 			month
 		end
+	end
+
+	def classname(bibtexclass)
+		return @@classnames[@locale][bibtexclass]
 	end
 end
