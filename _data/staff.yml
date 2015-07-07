@@ -1,6 +1,12 @@
+- surname: Wei
+  name: Shuangfeng
+  title: Visiting scholar
+  photo: shuangfeng.jpg
+  email: s.wei-1@tudelft.nl
+
 - surname: Li
   name: Fangyu
-  title: visiting scholar
+  title: Visiting scholar
   photo: lfy.jpg
   # homepage: tudelft.nl/kenohori
   email: f.li-3@tudelft.nl
@@ -16,7 +22,7 @@
 
 - surname: Ates
   name: Serpil
-  title: visiting PhD
+  title: Visiting PhD
   photo: serpil.jpg
   # homepage: 3d.bk.tudelft.nl/ken
   email: s.ates@tudelft.nl
@@ -40,7 +46,7 @@
 
 - surname: Demir Özbek
   name: Elif
-  title: visiting PhD
+  title: Visiting PhD
   photo: elif.jpg
   # homepage: 3d.bk.tudelft.nl/ken
   email: e.demirozbek@tudelft.nl
