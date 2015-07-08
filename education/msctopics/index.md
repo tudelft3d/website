@@ -246,7 +246,7 @@ Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (in coopera
 Current navigation outdoor and indoor system are relatively simple and offer limited choices. Car navigation systems offer a choice between the shorter path or faster path, or avoiding tolls, highways. Indoor navigation apps can compute optimal path to visit a sequence of targets (e.g. in shopping). Various other options have been reported in the literature such as the least turn’s path, the most interesting paths, the least traversing path or the least obstruction path. Furthermore, the current navigation systems mostly consider that one person is navigated to one static target point. But are these options sufficient for indoor navigation? How the people want to move indoors? What kind of algorithms should be used, or developed. What kind of network is needed? 
 
 <div class="row">
-	<img src="img/3d_indoor_1.png" /><img src="img/3d_indoor_2.png" /><img src="img/3d_indoor_3.png" />
+	<img src="img/3d_indoor_1.png" class="img-responsive" /><img src="img/3d_indoor_2.png" class="img-responsive" /><img src="img/3d_indoor_3.png" class="img-responsive" />
 </div>
 
 This research should investigate conditions for indoor navigation, corresponding algorithms and networks. Starting point of the research will be the taxonomy for navigation of emergency responders developed at the 3dgeoinformation group. The research should identify, implement and validate new ways for indoor navigation (Required skills: graph theory, programming) 
@@ -257,7 +257,7 @@ Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova), Liu Liu
 3D indoor models are still very rare and difficult to obtain. 3D BIM models hardly contain recent modifications, 2D floor plans are not accurate and lack 3D. Range or optical images are some of the relatively easy and cheap way to collect 3D data to be provided for 3D modelling algorithms. There several interesting technologies currently at the market, which seem suited for indoor modelling, but they have never been thoroughly investigated and compared.
 
 <div class="row">
-	<img src="img/scanning_1.png" /><img src="img/scanning_2.png" /><img src="img/scanning_3.png" /><img src="img/scanning_4.png" />
+	<img src="img/scanning_1.png" class="img-responsive" /><img src="img/scanning_2.png" class="img-responsive" /><img src="img/scanning_3.png" class="img-responsive" /><img src="img/scanning_4.png" class="img-responsive" />
 </div>
 
 This research will concentrated on several technologies for collection point clouds ZEB1, Tango, terrestrial scanner, and optical video/images. A comparative study will be completed on the basis of a set of parameters, including time for collecting and processing data to a uniform point cloud. The 4 technologies will be tested on the same building under the same conditions. The most prominent technology should be identified for quick update of parts of 3D models. A test bed for testing and evaluation should be set up.  (Required skills interest on scanning technology, processing of point clouds).      
