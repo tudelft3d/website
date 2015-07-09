@@ -418,9 +418,12 @@ class Imbiber
 				end
 			end
 		end
+
+		puts "Finished reading " + path + "."
 	end
 
 	def html_of(key)
+		puts "Generating HTML of " + key + "..."
 		if !@entries.has_key?(key) then
 			return ""
 		end
@@ -864,9 +867,12 @@ class Imbiber
 		out << '<div id="bib' + key.to_s + '" class="collapse"  tabindex="-1"><pre>' + bibtex_of(@entries[key]) + '</pre></div>'
 		
 		@options[:beforeentry] + out + @options[:afterentry]
+
+		puts "Generated HTML of " + key + "."
 	end
 
 	def html_of_all(groupby = :year, sortby = :date, order = :desc, idswithprefix = false)
+		puts "Generating HTML..."
 
 		# Make groups
 		groups = {}
@@ -945,6 +951,8 @@ class Imbiber
 
 		# sorted_groups
 		html
+
+		puts "Generated HTML."
 	end
 end
 
