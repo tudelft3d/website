@@ -363,6 +363,14 @@ class Imbiber
 	end
 
 	def read(path)
+		puts "Reading " + path + "..."
+
+		if !File.exist?(path) then
+			puts "File does not exist"
+			@entries = {}
+			return
+		end
+
 		text = File.read(path)
 		entriestree = DocumentParser.new.parse(text)
 		entriestree.each do |entrybranch|
@@ -838,10 +846,10 @@ class Imbiber
 			out << ' <a href="' + @entries[key][:paper] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Paper) + '</a>'
 		end
 		if @entries[key].has_key?(:poster) then
-			out << ' <a href="' + @entries[key][:poster] + '"><i class="fa fa-file-image-o"></i> ' + @lt.localise(:Poster) + '</a>'
+			out << ' <a href="' + @entries[key][:poster] + '"><i class="fa-file-pdf-o"></i> ' + @lt.localise(:Poster) + '</a>'
 		end
 		if @entries[key].has_key?(:presentation) then
-			out << ' <a href="' + @entries[key][:presentation] + '"><i class="fa fa-file-image-o"></i> ' + @lt.localise(:Slides) + '</a>'
+			out << ' <a href="' + @entries[key][:presentation] + '"><i class="fa-file-pdf-o"></i> ' + @lt.localise(:Slides) + '</a>'
 		end
 		if @entries[key].has_key?(:doi) then
 			if !@entries[key][:doi].start_with?("http://", "https://", "ftp://", "//") then
