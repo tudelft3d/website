@@ -25,7 +25,26 @@ The student will have to improve their methodology, ensure that it is robust, an
 The project requires programming in Python, the use of FME, and a desire to fight with a great amount of data.
 
 
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter)
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+- - -
+
+## Automatic thematic and semantic labelling of 3D city models
+
+![](img/semanticenrichment1.png)
+
+Many 3D city models are available as a soup of triangles, i.e. their geometry is not structured as in CityGML. This means that they do not contain semantics, i.e. the geometry of a building is not differentiated from a geometry of a road (above example), and the geometry within the same object (e.g. roof, windows and walls) have the same problem (see the image below, left with the desired result on the right). While such models may still be valuable in visualisation, their use for GIS purposes is hindered by the lack of semantics.
+
+![](img/semanticenrichment2.png)
+
+The goal of this thesis is to develop an automatic reasoning system that would automatically infer the theme (semantics) of each geometric primitive, on two levels:
+
+* City level (is it a tree, a building, or a road?)
+* City object level (is the geometry a roof, a window, or a wall)?
+
+The thesis may involve machine learning techniques to aid the classification.
+
+*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -74,7 +93,7 @@ That is, as an MSc student, you work one day per week during your thesis work th
 The BIMlab offers [other project too](http://www.tubimlab.nl/?page_id=50).
 
 
-*Contact:* [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -135,6 +154,7 @@ The existing prototype (called [pprepair](https://github.com/tudelft3d/pprepair)
 
 *Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux)
 
+
 - - -
 
 ## 3D data modelling
@@ -148,7 +168,7 @@ The growing awareness for our intensively used environment requires more advance
 
 An MSc task would be to develop and implement a methodology that acknowledges (and integrates) the 3D component of environmental modelling for a selection of aspects.
 
-*Contact:* [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter)
+*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - - 
 
@@ -157,9 +177,9 @@ An MSc task would be to develop and implement a methodology that acknowledges (a
 Generalisation from a higher to a lower level of detail of a dataset is one of the key research topics in cartography (maps/scale) and computer graphics (3D models/simplification). 
 In semantically enriched 3D city models, such as CityGML, the topic is not extensively researched because of some additional concepts, and due to differences such as selective generalisation (retaining the complexity of a part of a building such as the footprint while generalising only the roof). 
 This research will investigate the generalisation of 3D city models, which will, beside the simplification of geometry, include generalisation of semantics and texture, and aggregation of city objects. Further, the student is expected to create a web interface which returns an generalised version of the uploaded CityGML dataset. 
-The generalisation will be done according to the [new paradigm of levels of detail](http://3dgeoinfo.bk.tudelft.nl/biljecki/Random3Dcity.html) developed in our group.
+The generalisation will be done according to the [new paradigm of levels of detail](http://3d.bk.tudelft.nl/biljecki/Random3Dcity.html) developed in our group.
 
-*Contacts:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contacts:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - - 
 
@@ -169,7 +189,7 @@ The generalisation will be done according to the [new paradigm of levels of deta
 
 This topic is analogous with data matching in cartography.
 
-*Contact:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
+*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
 
 - - -
 
@@ -177,7 +197,7 @@ This topic is analogous with data matching in cartography.
 
 Procedural modelling deals with automatic model generation by means of a procedure. It is common in computer graphics, but less so in 3D city modelling. This aim of this thesis is to design a procedural modelling engine focused on 3D GIS and CityGML in multiple levels of detail (LOD). There are two possibilities: generating 3D models from real-world (2D) data supplementing synthetic content (e.g. height of a building, windows), or generating completely synthetic 3D data.
 
-*Contact:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
+*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
 
 - - - 
 
@@ -187,7 +207,7 @@ The standard ISO 19157:2013 Geographic information---Data quality is the princip
 
 Upon successful completion of this topic, the student will become proficient with this important standard, and potentially give valuable recommendations for the new version of the standard to the developers. 
 
-*Contact:* [Filip Biljecki](http://3dgeoinfo.bk.tudelft.nl/biljecki)
+*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
 
 - - -
 
@@ -197,7 +217,7 @@ The Geological Survey of the Netherlands produces an advanced 3D raster based (1
 
 The student could carry (part of) his/her work at TNO.
 
-*Contact:* [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova)
+*Contact:* [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova)
 
 - - - 
 
@@ -206,7 +226,7 @@ The student could carry (part of) his/her work at TNO.
 Voxelisation is an approach to represent 3D grid. Voxel-based models describe indoor space in a discrete form. In contrast to the commonly used boundary representation (B-Rep), voxel representation allows for better analysis of the *empty* space. Therefore, voxelized building models can be very appropriate for 3D indoor navigation. Currently path-finding is mostly conducted on 2D or 2,5D representations (e.g. floor plans and indoor surface models) of indoor environments. However, these approaches cannot deal with some cases such as "going under or above obstacles", "moving at a certain height (e.g. flying)" or avoiding overhanging parts.
 This research aims at developing a voxel-based path-finding method to obtain specific 3D paths in terms of distinct requirements ( e.g. on surface and in the air) at different modes ( e.g. normal case or emergency). Research questions to be investigated are: the data structure to organise the voxels, the required semantic information and the path-finding algorithms for different modes.
 
-*Contact:* [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova)
+*Contact:* [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova)
 
 - - - 
 
@@ -219,7 +239,7 @@ Several MSc researches can be done within the context of [Amsterdam Institute fo
   * Identify and analyse spreading of certain aspects (e.g. by using social media) to find out how "full" Amsterdam is
   * Tracking and tracing of wheel chairs to provide insight in good and bad wheel chair routes and possible obstacles
 
-*Contact:* [Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter)
+*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 ## FaciliDat: 3D Indoor model and a database schema for facility management  
 
@@ -230,7 +250,7 @@ Most building managers have little to no information about the indoor status of 
 Currently two international standards for 3D indoor modelling are available IFC and CityGML LOD4. Both standards have their advantages and disadvantages for such purposes. IFC has too many details and it is difficult to integrate with GIS. CityGML LOD4 is relatively simple, but hardly supported by major vendors.
 * First option: Is it possible to establish a 3D indoor model that can serve facility management purposes? This research will evaluate the suitability of the two standards (and available database implementations such as 3DCityDB) and propose a solution: extend/adapt one of them or design a new model combining best characteristics of the two. The proposed approach should be realised as a data model in DBMS and validated against a predefined set of user requirements. A simple web application allowing access and view to the database would be recommendable.  (Required skills: UML, SQL, basic programming)
 * Second option: What kind of algorithms are needed to convert automatically IFC to CityGML LOD4 taking care of valid geometry and semantics. It is expected that recommendations for design of a building model will be derived, which will facilitate a fully automatic conversion. This might also result in more strict rules for representing indoor objects in CityGML. (Required skills: computational geometry, programming)
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (in cooperation with More For You, Charim) 
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) (in cooperation with More For You, Charim) 
 
 ## Flexible 3D Indoor model for navigation of different types of users  
 
@@ -239,7 +259,7 @@ Many indoor navigation apps are currently available but they are focussed on spe
 ![](img/flexible_indoor.png)
 
 This research will investigate what kind of 3D indoor model which can provide sufficient information to navigate different users through changing indoor environments. Are different LOD/layers needed? How to maintain connectivity of spaces? Can the network be derived on the fly or should be stored with the geometry model? Fundamental concepts of IndoorGML such as dual graph and Multi-Layered Space Model will be the starting point of the research. Generic user profiles and parameters reflecting changing indoor environmental need to be identified. A final app should demonstrate the flexibility of the model and the proposed strategy for path navigation (Required skills: UML, SQL, programming)
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (in cooperation with CGI) 
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) (in cooperation with CGI) 
 
 ## 3D Indoor navigation: what kind of path?  
 
@@ -251,8 +271,8 @@ Current navigation outdoor and indoor system are relatively simple and offer lim
 	<div style="display:inline-block"><img src="img/3d_indoor_3.png" class="img-responsive" /></div>
 </div>
 
-This research should investigate conditions for indoor navigation, corresponding algorithms and networks. Starting point of the research will be the taxonomy for navigation of emergency responders developed at the 3dgeoinformation group. The research should identify, implement and validate new ways for indoor navigation (Required skills: graph theory, programming) 
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova), Liu Liu
+This research should investigate conditions for indoor navigation, corresponding algorithms and networks. Starting point of the research will be the taxonomy for navigation of emergency responders developed at the 3D geoinformation group. The research should identify, implement and validate new ways for indoor navigation (Required skills: graph theory, programming) 
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova), Liu Liu
 
 ## Indoor scanning for 3D modelling
 
@@ -266,17 +286,17 @@ Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova), Liu Liu
 </div>
 
 This research will concentrated on several technologies for collection point clouds ZEB1, Tango, terrestrial scanner, and optical video/images. A comparative study will be completed on the basis of a set of parameters, including time for collecting and processing data to a uniform point cloud. The 4 technologies will be tested on the same building under the same conditions. The most prominent technology should be identified for quick update of parts of 3D models. A test bed for testing and evaluation should be set up.  (Required skills interest on scanning technology, processing of point clouds).      
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (related to M4C project SIMs3D)
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) (related to M4C project SIMs3D)
 
 ## 3D reconstruction of rooms (floors, ceilings and walls) from point clouds
 
 3D reconstruction of indoor environments is complex task: rooms contain many objects in rooms or attached to walls and ceilings; many of the indoor spaces are half open and there are intermediate floors, balconies and strains. Manual reconstruction is tedious and time consuming; no automatic or semi-automatic approaches currently exist. This research will investigate and design/adapt approaches for **identifying** the walls, ceilings and floors belonging to an indoor space and construct solids (where possible). The research should also suggest a data structure for integrated management of vector geometry and corresponding point clouds. Several approaches can be addressed that can lead to different Master topics: shape grammar, voxels, segmentation/classification, etc.  (Required skills: interest in processing point clouds, programming alternatively using existing software)
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova), Ben Gorte (related to M4C project SIMs3D)
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova), Ben Gorte (related to M4C project SIMs3D)
 
 ## 3D reconstruction of doors and windows from point clouds
 
 Doors and windows are of critical importance for indoor navigation and localisation, but very difficult to identify from point clouds: doors and windows can be closed or open during the scanning, windows can be covered with curtains or sun shutters.  This research will concentrate investigated which outdoor approach could be appropriate for indoor environments. Recently completed research of [Kaixuan Zhou](http://repository.tudelft.nl/view/ir/uuid%3A8f548788-1e42-475b-adbf-93f9dbcd04a1/) could be used as starting point. Different approaches can lead to different MSc topics: use of floor plans, semi-automatics, feature detection, etc. (Required skills: interest in processing point clouds, programming or alternatively using existing software)
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova), Ben Gorte (related to M4C project SIMs3D)
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova), Ben Gorte (related to M4C project SIMs3D)
 
 ## System architecture for flexible indoor path computation making use of IndoorGML
 
@@ -286,14 +306,14 @@ IndoorGML is recently accepted standard for exchange of indoor information neede
 
 The three different options have their pros and cons for different types of server-client applications. Sever-based or client-based computations? How much information to be sent to the client: only the navigation path or the navigation path and the building model? Provide the whole path or wait for requests from the user? An android application should be developed that demonstrates the different approaches 
 (Required skills: web technology, app development)
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (related to OGC pilot project)
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) (related to OGC pilot project)
 
 ## Colouring point clouds obtained from ZEB1
 
 Scanning indoor environments with ZEB1 is quick and accurate method for obtaining indoor point clouds. However,  the point clouds don’t have colour. This research will investigate an approach for integrating images with the ZEB1 point clouds to obtain coloured points. The research will be in collaboration with CSIRO, GeoSlam and university of Picardie. (Required skills: interest in processing point clouds, programming)
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) (in cooperation with LEAP3D)
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) (in cooperation with LEAP3D)
 
 ## Smart City 
 
 Connecting and visualizing real-time sensors with point cloud. Used for analysis of data and influencing the environment (smart city concept). Details to be provided later. 
-Contact: [Sisi Zlatanova](http://3dgeoinfo.bk.tudelft.nl/szlatanova) and Ester de Bruin (LEAP3D) 
+Contact: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) and Ester de Bruin (LEAP3D) 
