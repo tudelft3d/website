@@ -299,6 +299,9 @@ end
 
 class Imbiber
 	def initialize(options = Hash.new)
+		puts "Imbiber initialize()"
+		pp options
+
 		@entries = {}
 		@options = {
 			:lang => :en,
@@ -367,7 +370,6 @@ class Imbiber
 
 		if !File.exist?(path) then
 			puts "File does not exist"
-			@entries = {}
 			return
 		end
 
@@ -418,6 +420,8 @@ class Imbiber
 				end
 			end
 		end
+
+		puts "Read " + @entries.size.to_s + " entries"
 	end
 
 	def html_of(key)
@@ -867,6 +871,7 @@ class Imbiber
 	end
 
 	def html_of_all(groupby = :year, sortby = :date, order = :desc, idswithprefix = false)
+		puts "HTML of " + @entries.size.to_s + " entries..."
 
 		# Make groups
 		groups = {}
@@ -945,6 +950,8 @@ class Imbiber
 
 		# sorted_groups
 		html
+
+		puts "HTML done."
 	end
 end
 
