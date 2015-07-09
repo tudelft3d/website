@@ -364,10 +364,10 @@ class Imbiber
 
 	def read(path)
 		puts "Reading " + path + "..."
+		@entries = {}
 
 		if !File.exist?(path) then
 			puts "File does not exist"
-			@entries = {}
 			return
 		end
 
@@ -375,7 +375,7 @@ class Imbiber
 		entriestree = DocumentParser.new.parse(text)
 		entriestree.each do |entrybranch|
 			key = entrybranch[:entry][:key].to_sym
-			puts key
+			puts "\t" + key
 
 			# Repeated key, skip
 			if @entries.has_key?(key) then
