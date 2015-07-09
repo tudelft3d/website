@@ -375,7 +375,7 @@ class Imbiber
 		entriestree = DocumentParser.new.parse(text)
 		entriestree.each do |entrybranch|
 			key = entrybranch[:entry][:key].to_sym
-			puts "\t" + key
+			puts "\t" + key.to_s
 
 			# Repeated key, skip
 			if @entries.has_key?(key) then
