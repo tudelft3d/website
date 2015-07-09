@@ -42,9 +42,10 @@ The goal of this thesis is to develop an automatic reasoning system that would a
 * City level (is it a tree, a building, or a road?)
 * City object level (is the geometry a roof, a window, or a wall)?
 
-The thesis may involve machine learning techniques to aid the classification.
+The thesis may involve machine learning techniques to aid the classification, hence it may be conducted in collaboration with the 
+[Pattern Recognition Laboratory](http://prlab.tudelft.nl).
 
-*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki), [David Tax](http://prlab.tudelft.nl/users/david-tax),  and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
