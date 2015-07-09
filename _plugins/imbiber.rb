@@ -100,7 +100,7 @@ class NameParser < Parslet::Parser
 	rule(:speciallyencodedletter) { str('---') | str('--') | str('``') | str('`') | str('\'\'') | str('\'') }
 	rule(:escapedletter) { str('\\') >> str('&') }
 	rule(:letterwithmodifier) { str('\\') >> modifier >> (bracketedletter | letter) }
-	rule(:modifier) { str("\'") | str("\"") | str("\^") | str("\`") | str("c") | str("v") | str("~") | str("=") }
+	rule(:modifier) { str("\'") | str("\"") | str("\^") | str("\`") | str("c") | str("v") | str("~") | str("=") | str(".") }
 
 end
 
@@ -190,7 +190,7 @@ class TextParser < Parslet::Parser
 	rule(:speciallyencodedletter) { str('---') | str('--') | str('``') | str('`') | str('\'\'') | str('\'') }
 	rule(:escapedletter) { str('\\') >> str('&') }
 	rule(:letterwithmodifier) { str('\\') >> modifier >> (bracketedletter | letter) }
-	rule(:modifier) { str("\'") | str("\"") | str("\^") | str("\`") | str("c") | str("v") | str("~") | str("=") }
+	rule(:modifier) { str("\'") | str("\"") | str("\^") | str("\`") | str("c") | str("v") | str("~") | str("=") | str(".") }
 
 end
 
@@ -421,6 +421,9 @@ class Imbiber
 	end
 
 	def html_of(key)
+
+		puts "html of " + key.to_s
+
 		if !@entries.has_key?(key) then
 			return ""
 		end

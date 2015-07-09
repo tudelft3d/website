@@ -113,6 +113,9 @@ class SpecialLetters
 		"\\=O" => "Ō",
 		"\\=U" => "Ū",
 		"\\=Y" => "Ȳ",
+
+		"\\.e" => "ė",
+		"\\.E" => "Ė",
 	}
 
 	def convert(letter)
