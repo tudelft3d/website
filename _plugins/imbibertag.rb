@@ -26,7 +26,6 @@ require_relative 'imbiber'
 
 class ImbiberTag < Liquid::Tag
 	def initialize(tag_name, command, tokens)
-		puts "initialize()"
 		super
 		@arguments = {}
 		command.split.each do |part|
@@ -37,13 +36,11 @@ class ImbiberTag < Liquid::Tag
 				@file = part
 			end
 		end
+		@imbiber = Imbiber.new(@arguments)
+		@imbiber.read(@file)
 	end
 
 	def render(context)
-		puts "render()"
-		pp @arguments
-		@imbiber = Imbiber.new(@arguments)
-		@imbiber.read(@file)
 		if @arguments.has_key?(:one) then
 			@imbiber.html_of(@arguments[:one].to_sym)
 		else

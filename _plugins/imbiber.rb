@@ -367,6 +367,7 @@ class Imbiber
 
 		if !File.exist?(path) then
 			puts "File does not exist"
+			@entries = {}
 			return
 		end
 
@@ -374,7 +375,7 @@ class Imbiber
 		entriestree = DocumentParser.new.parse(text)
 		entriestree.each do |entrybranch|
 			key = entrybranch[:entry][:key].to_sym
-			puts "\t" + key.to_s
+			# puts key
 
 			# Repeated key, skip
 			if @entries.has_key?(key) then
@@ -417,12 +418,9 @@ class Imbiber
 				end
 			end
 		end
-
-		puts "Finished reading " + path + "."
 	end
 
 	def html_of(key)
-		# puts "Generating HTML of " + key.to_s + "..."
 		if !@entries.has_key?(key) then
 			return ""
 		end
@@ -866,12 +864,9 @@ class Imbiber
 		out << '<div id="bib' + key.to_s + '" class="collapse"  tabindex="-1"><pre>' + bibtex_of(@entries[key]) + '</pre></div>'
 		
 		@options[:beforeentry] + out + @options[:afterentry]
-
-		# puts "Generated HTML of " + key.to_s + "."
 	end
 
 	def html_of_all(groupby = :year, sortby = :date, order = :desc, idswithprefix = false)
-		puts "Generating HTML..."
 
 		# Make groups
 		groups = {}
@@ -950,8 +945,6 @@ class Imbiber
 
 		# sorted_groups
 		html
-
-		puts "Generated HTML."
 	end
 end
 
