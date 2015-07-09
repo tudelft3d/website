@@ -364,7 +364,6 @@ class Imbiber
 
 	def read(path)
 		puts "Reading " + path + "..."
-		@entries = {}
 
 		if !File.exist?(path) then
 			puts "File does not exist"
