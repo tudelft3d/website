@@ -29,7 +29,7 @@ The project requires programming in Python, the use of FME, and a desire to figh
 
 - - -
 
-## Automatic thematic and semantic labelling of 3D city models (possibly two topics in one)
+## Automatic thematic and semantic labelling of 3D city models
 
 ![](img/semanticenrichment1.png)
 
