@@ -950,6 +950,7 @@ class Imbiber
 
 		# sorted_groups
 		html
+		puts html
 
 		puts "HTML done."
 	end
