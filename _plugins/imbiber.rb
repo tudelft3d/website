@@ -423,7 +423,7 @@ class Imbiber
 	end
 
 	def html_of(key)
-		puts "Generating HTML of " + key.to_s + "..."
+		# puts "Generating HTML of " + key.to_s + "..."
 		if !@entries.has_key?(key) then
 			return ""
 		end
@@ -868,7 +868,7 @@ class Imbiber
 		
 		@options[:beforeentry] + out + @options[:afterentry]
 
-		puts "Generated HTML of " + key.to_s + "."
+		# puts "Generated HTML of " + key.to_s + "."
 	end
 
 	def html_of_all(groupby = :year, sortby = :date, order = :desc, idswithprefix = false)
