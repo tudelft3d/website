@@ -37,13 +37,12 @@ Many 3D city models are available as a soup of triangles, i.e. their geometry is
 
 ![](img/semanticenrichment2.png)
 
-The goal of this thesis is to develop an automatic reasoning system that would automatically infer the theme (semantics) of each geometric primitive, on two levels:
+The goal of this thesis is to develop a reasoning system that would automatically infer the theme (semantics) of each geometric primitive, on two levels:
 
 * City level (is it a tree, a building, or a road?)
 * City object level (is the geometry a roof, a window, or a wall)?
 
-The thesis may involve machine learning techniques to aid the classification, hence it may be conducted in collaboration with the 
-[Pattern Recognition Laboratory](http://prlab.tudelft.nl).
+The solution might involve pattern recognition techniques to aid the classification, hence it can be conducted in collaboration with the [Pattern Recognition Laboratory](http://prlab.tudelft.nl) at TU Delft.
 
 *Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki), [David Tax](http://prlab.tudelft.nl/users/david-tax),  and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
