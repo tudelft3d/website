@@ -14,3 +14,7 @@ The <a href="http://singapore.nlembassy.org">Dutch embassy in Singapore</a> orga
 <img src="{{ site.baseurl }}/img/2015/singapore-visit-4.jpg"/><br/><br/>
 <img src="{{ site.baseurl }}/img/2015/singapore-visit-5.jpg"/><br/><br/>
 <img src="{{ site.baseurl }}/img/2015/singapore-visit-6.jpg"/><br/><br/>
+<img src="{{ site.baseurl }}/img/2015/singapore-visit-7.jpg"/><br/><br/>
+<img src="{{ site.baseurl }}/img/2015/singapore-visit-8.jpg"/><br/><br/>
+<img src="{{ site.baseurl }}/img/2015/singapore-visit-9.jpg"/><br/><br/>
+<img src="{{ site.baseurl }}/img/2015/singapore-visit-10.jpg"/><br/><br/>
