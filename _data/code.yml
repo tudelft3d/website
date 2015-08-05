@@ -58,4 +58,5 @@
   description: Automatic generation of simple interiors for CityGML LOD2
   github: https://github.com/tudelft3d/lod2plus
   image: lod2plus.png
+  paper: http://doi.org/10.1080/13658816.2015.1072201
   thesis: http://repository.tudelft.nl/view/ir/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634/
