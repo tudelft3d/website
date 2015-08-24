@@ -1,0 +1,15 @@
+
+- name: CGAL
+  webpage: http://www.cgal.org
+  description: CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library. CGAL is used in various areas needing geometric computation, such as geographic information systems, computer aided design, molecular biology, medical imaging, computer graphics, and robotics.
+
+- name: GDAL/OGR
+  webpage: http://www.gdal.org
+  description: GDAL is a translator library for raster and vector geospatial data formats that is released under an X/MIT style Open Source license by the Open Source Geospatial Foundation. As a library, it presents a single raster abstract data model and vector abstract data model to the calling application for all supported formats. It also comes with a variety of useful commandline utilities for data translation and processing.
+
+- name: Triangle
+  webpage: https://www.cs.cmu.edu/~quake/triangle.html
+  description: Triangle generates exact Delaunay triangulations, constrained Delaunay triangulations, conforming Delaunay triangulations, Voronoi diagrams, and high-quality triangular meshes. The latter can be generated with no small or large angles, and are thus suitable for finite element analysis. 
+
+
+
