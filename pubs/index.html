@@ -2,6 +2,25 @@
 layout: page
 title: Publications
 permalink: /pubs/
+scrollspy: sidebar
 ---
 
-{% imbiber ../../pubs/all.bib groupby:class %}
+<div class="row">
+	<div class="col-md-9" role="main">
+		{% imbiber ../../pubs/all.bib groupby:class idswithprefix:type_ %}
+	</div>
+	<div class="col-md-3" role="complementary">
+		<div id="sidebar" class="papers-sidebar" role="complementary" data-spy="affix">
+			<h2>Go to</h2>
+			<ul class="nav nav-stacked">
+				<li><a href="#type_article">Journal articles</a></li>
+				<li><a href="#type_proceedings">Conference proceedings</a></li>
+				<li><a href="#type_incollection">Conference articles (in book)</a></li>
+				<li><a href="#type_inproceedings">Conference articles</a></li>
+				<li><a href="#type_techreport">Technical reports</a></li>
+				<li><a href="#type_misc">Others</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
