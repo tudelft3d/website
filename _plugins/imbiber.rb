@@ -422,7 +422,7 @@ class Imbiber
 
 	def html_of(key)
 
-		puts "html of " + key.to_s
+		# puts "html of " + key.to_s
 
 		if !@entries.has_key?(key) then
 			return ""

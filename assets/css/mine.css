@@ -166,3 +166,44 @@ footer {
 .alert-blue > a:focus {
   color: #ace5ee;
 }
+
+.papers-sidebar {
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* all links */
+.papers-sidebar .nav>li>a {
+  color: #2c3e50;
+  border-left: 2px solid transparent;
+  padding: 4px 20px;
+  /*font-size: 18px;*/
+}
+
+/* nested links */
+/*.papers-sidebar .nav .nav>li>a {
+  color: #999;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 16px;
+}*/
+
+/* active & hover links */
+.papers-sidebar .nav>.active>a, 
+.papers-sidebar .nav>li>a:hover, 
+.papers-sidebar .nav>li>a:focus {
+  color: #4f7de6;
+  /*font-weight: bold;*/
+  text-decoration: none;
+  background-color: transparent;
+  border-left-color: #30bfeb;
+}
+
+/* nested active links */
+/*.bs-docs-sidebar .nav .nav>.active>a, 
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+  color: #000;
+}*/
