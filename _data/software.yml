@@ -19,6 +19,11 @@
   description: Various vector formats
   category: Input and Output
 
+- name: PDAL
+  webpage: http://www.pdal.io/
+  description: reads/writes several different point cloud formats
+  category: Input and Output
+
 - name: pyshp
   webpage: http://code.google.com/p/pyshp/
   description: Shapefiles using only Python
@@ -30,6 +35,11 @@
   category: Input and Output
 
 
+- name: Boost.geometry
+  webpage: https://github.com/boostorg/geometry
+  description: geometric datatypes and algorithms
+  category: Geometric libraries
+
 - name: CGAL (Computational Geometry Algorithms Library)
   webpage: http://www.cgal.org/
   description: Robust geometric operations, including many packages for convex hulls, meshes, triangulations, polygon and polyhedron operations, etc.
@@ -38,6 +48,11 @@
 - name: FastGEO
   webpage: http://www.partow.net/projects/fastgeo/index.html
   description: Computational geometry algorithms in Object Pascal
+  category: Geometric libraries
+
+- name: Geometric Toolkit
+  webpage: http://www.geometrictools.com/
+  description: Triangulations, convex hull
   category: Geometric libraries
 
 - name: Geotoolkit.org
