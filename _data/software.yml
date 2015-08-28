@@ -1,19 +1,346 @@
-# categories:
-# [computational geometry, spatial indices, triangulations, spatial data-structures, I/O]
 
-- name: CGAL
-  webpage: http://www.cgal.org
-  description: CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library. CGAL is used in various areas needing geometric computation, such as geographic information systems, computer aided design, molecular biology, medical imaging, computer graphics, and robotics.
-  categories: [computational geometry, spatial indices, triangulations, spatial data-structures]
+- name: GDAL (Geospatial Data Abstraction Library)
+  webpage: http://www.gdal.org/
+  description: Various raster formats
+  category: Input and Output
 
-- name: GDAL/OGR
-  webpage: http://www.gdal.org
-  description: GDAL is a translator library for raster and vector geospatial data formats that is released under an X/MIT style Open Source license by the Open Source Geospatial Foundation. As a library, it presents a single raster abstract data model and vector abstract data model to the calling application for all supported formats. It also comes with a variety of useful commandline utilities for data translation and processing.
-  categories: [I/O]
+- name: GeoTIFF
+  webpage: http://trac.osgeo.org/geotiff/
+  description: GeoTIFF format
+  category: Input and Output
+
+- name: LASlib
+  webpage: http://www.cs.unc.edu/~isenburg/lastools/
+  description: ASPRS LAS format
+  category: Input and Output
+
+- name: OGR
+  webpage: http://www.gdal.org/ogr/
+  description: Various vector formats
+  category: Input and Output
+
+- name: pyshp
+  webpage: http://code.google.com/p/pyshp/
+  description: Shapefiles using only Python
+  category: Input and Output
+
+- name: Shapely
+  webpage: http://trac.gispython.org/lab/wiki/Shapely
+  description: Shapefiles in Python
+  category: Input and Output
+
+
+- name: CGAL (Computational Geometry Algorithms Library)
+  webpage: http://www.cgal.org/
+  description: Robust geometric operations, including many packages for convex hulls, meshes, triangulations, polygon and polyhedron operations, etc.
+  category: Geometric libraries
+
+- name: FastGEO
+  webpage: http://www.partow.net/projects/fastgeo/index.html
+  description: Computational geometry algorithms in Object Pascal
+  category: Geometric libraries
+
+- name: Geotoolkit.org
+  webpage: http://www.geotoolkit.org/
+  description: Operations for geographical data, including projections
+  category: Geometric libraries
+
+- name: GEOS (Geometry Engine - Open Source)
+  webpage: http://trac.osgeo.org/geos/
+  description: Spatial operations, including validation and topology functions
+  category: Geometric libraries
+
+- name: GeoTools
+  webpage: http://www.geotools.org/
+  description: Operations for spatial data
+  category: Geometric libraries
+
+- name: GiST
+  webpage: http://gist.cs.berkeley.edu/
+  description: A template indexing structure to create your own spatial indexing
+  category: Geometric libraries
+
+- name: GTS (GNU Triangulated Surface Library)
+  webpage: http://gts.sourceforge.net/index.html
+  description: Triangulations and surface operations
+  category: Geometric libraries
+
+- name: ITK (Insight Segmentation and Registration Toolkit)
+  webpage: http://www.itk.org
+  description: Algorithms for registering and segmenting multi-dimensional data
+  category: Geometric libraries
+
+- name: JTS (Java Topology Suite)
+  webpage: http://sourceforge.net/projects/jts-topo-suite/
+  description: Spatial operations, including validation and topology functions
+  category: Geometric libraries
+
+- name: LEDA
+  webpage: http://www.algorithmic-solutions.com/leda/index.htm
+  description: Robust computational geometry and combinatorial algorithms
+  category: Geometric libraries
+
+- name: LIBICP (Library for Iterative Closest Point Fitting)
+  webpage: http://www.cvlibs.net/software/libicp.html
+  description: Point cloud registration
+  category: Geometric libraries
+
+- name: libspatialindex
+  webpage: http://libspatialindex.github.com/
+  description: Different spatial indexing methods
+  category: Geometric libraries
+
+- name: MicMac
+  webpage: http://logiciels.ign.fr/?-Micmac,3-
+  description: Photogrammetry
+  category: Geometric libraries
+
+- name: Open CASCADE
+  webpage: http://www.opencascade.org
+  description: CAD engine that uses constructive solid geometry
+  category: Geometric libraries
+
+- name: OpenCV
+  webpage: http://sourceforge.net/projects/opencvlibrary/
+  description: Computer vision library with focus on real-time
+  category: Geometric libraries
+
+- name: OpenFlipper
+  webpage: http://www.openflipper.org
+  description: Process and render geometric data
+  category: Geometric libraries
+
+- name: OpenMesh
+  webpage: http://www.openmesh.org
+  description: Half-edge data structure to represent polygonal meshes.
+  category: Geometric libraries
+
+- name: PCL (Point Cloud Library)
+  webpage: http://pointclouds.org
+  description: 2D/3D image and point cloud processing
+  category: Geometric libraries
+
+- name: PROJ.4
+  webpage: http://trac.osgeo.org/proj/
+  description: Projections
+  category: Geometric libraries
+
+- name: Wykobi
+  webpage: http://www.wykobi.com
+  description: Simple computational geometry library
+  category: Geometric libraries
+
+
+- name: Meshing overview
+  webpage: http://www-users.informatik.rwth-aachen.de/~roberts/meshgeneration.html
+  description: A list of meshing software and people
+  category: Computational geometry software
+
+
+- name: ANN (Approximate Nearest Neighbor Library)
+  webpage: http://www.cs.umd.edu/~mount/ANN/
+  description: Real and approximate nearest neighbors in n-D point clouds
+  category: Computational geometry software
+
+- name: cdd/cddplus
+  webpage: http://www.cs.mcgill.ca/~fukuda/soft/cdd_home/cdd.html
+  description: Convex hulls as halfspace intersections in n-D
+  category: Computational geometry software
+
+- name: Cocone
+  webpage: http://www.cse.ohio-state.edu/~tamaldey/cocone.html
+  description: Surface reconstruction from a point cloud
+  category: Computational geometry software
+
+- name: CUBIT
+  webpage: http://cubit.sandia.gov/
+  description: Mesh generator
+  category: Computational geometry software
+
+- name: Gmsh
+  webpage: http://www.geuz.org/gmsh/
+  description: Mesh generator
+  category: Computational geometry software
+
+- name: Hull
+  webpage: http://www.netlib.org/voronoi/hull.html
+  description: Convex hulls and triangulations
+  category: Computational geometry software
+
+- name: LAStools
+  webpage: http://www.cs.unc.edu/~isenburg/lastools/
+  description: Point cloud processing
+  category: Computational geometry software
+
+- name: MeshLab
+  webpage: http://meshlab.sourceforge.net/
+  description: Mesh processing
+  category: Computational geometry software
+
+- name: Miniball
+  webpage: http://miniball.sourceforge.net/
+  description: Smallest enclosing ball in n-D
+  category: Computational geometry software
+
+- name: Netgen
+  webpage: http://www.hpfem.jku.at/netgen/
+  description: Automatic mesh generator
+  category: Computational geometry software
+
+- name: NormFet
+  webpage: http://www.cse.ohio-state.edu/~tamaldey/normfet.html
+  description: Normals and feature sizes in point clouds
+  category: Computational geometry software
+
+- name: TetGen
+  webpage: http://tetgen.berlios.de/
+  description: Tetrahedral meshes
+  category: Computational geometry software
 
 - name: Triangle
-  webpage: https://www.cs.cmu.edu/~quake/triangle.html
-  description: Triangle generates exact Delaunay triangulations, constrained Delaunay triangulations, conforming Delaunay triangulations, Voronoi diagrams, and high-quality triangular meshes. The latter can be generated with no small or large angles, and are thus suitable for finite element analysis. 
-  categories: [triangulations]
+  webpage: http://www.cs.cmu.edu/~quake/triangle.html
+  description: Very fast 2D (constrained) Delaunay triangulations
+  category: Computational geometry software
 
+- name: Powercrust
+  webpage: http://www.cs.ucdavis.edu/~amenta/powercrust.html
+  description: Surface reconstruction from point clouds
+  category: Computational geometry software
+
+- name: Qhull
+  webpage: http://www.qhull.org/
+  description: n-D approximate convex hulls and triangulations
+  category: Computational geometry software
+
+- name: QualMesh
+  webpage: http://www.cse.ohio-state.edu/~tamaldey/qualmesh.html
+  description: Mesh generator
+  category: Computational geometry software
+
+- name: QMG
+  webpage: http://www.cs.cornell.edu/Info/People/vavasis/qmg-home.html
+  description: Mesh generator
+  category: Computational geometry software
+
+- name: Stellar
+  webpage: http://www.cs.berkeley.edu/~jrs/stellar/
+  description: Mesh improvement
+  category: Computational geometry software
+
+
+- name: MySQL
+  webpage: http://www.mysql.com/
+  description: DBMS, now also supports spatial data and operations
+  category: Databases
+
+- name: PostGIS
+  webpage: http://postgis.refractions.net/
+  description: Spatial extensions for PostgreSQL
+  category: Databases
+
+- name: PostgreSQL
+  webpage: http://www.postgresql.org/
+  description: DBMS, use together with PostGIS
+  category: Databases
+
+- name: SpatiaLite
+  webpage: http://www.gaia-gis.it/spatialite/
+  description: A complete Spatial DBMS in a nutshell (can work with shapefiles as external storage format)
+  category: Databases
+
+
+- name: GD
+  webpage: http://www.boutell.com/gd/
+  description: Graphics library
+  category: Visualisation and publishing
+
+- name: Geomview
+  webpage: http://www.geomview.org/
+  description: 3D visualiser
+  category: Visualisation and publishing
+
+- name: GeoServer
+  webpage: http://geoserver.org/
+  description: Publish web maps
+  category: Visualisation and publishing
+
+- name: GMT
+  webpage: http://gmt.soest.hawaii.edu/
+  description: Graphics library to create images from spatial data, including projections
+  category: Visualisation and publishing
+
+- name: GRASS
+  webpage: http://grass.osgeo.org/
+  description: GIS package
+  category: Visualisation and publishing
+
+- name: ImageMagick
+  webpage: http://www.imagemagick.org/script/index.php
+  description: Graphics library
+  category: Visualisation and publishing
+
+- name: Kartograph
+  webpage: http://kartograph.org
+  description: Framework to create interactive maps
+  category: Visualisation and publishing
+
+- name: libQGLViewer
+  webpage: http://www.libqglviewer.com/index.html
+  description: Library to create OpenGL visualisers using Qt
+  category: Visualisation and publishing
+
+- name: LidarViewer
+  webpage: http://keckcaves.org/software/lidarviewer
+  description: Interactive visualisation of massive point clouds
+  category: Visualisation and publishing
+
+- name: mapnik
+  webpage: http://mapnik.org
+  description: Toolkit for map applications
+  category: Visualisation and publishing
+
+- name: MapServer
+  webpage: http://mapserver.org/
+  description: Publish web maps
+  category: Visualisation and publishing
+
+- name: MeshLab
+  webpage: http://meshlab.sourceforge.net/
+  description: Process and view triangular meshes and point clouds
+  category: Visualisation and publishing
+
+- name: OpenGL
+  webpage: http://www.opengl.org
+  description: The free standard for 3D computer graphics
+  category: Visualisation and publishing
+
+- name: osgEarth
+  webpage: http://osgearth.org/
+  description: Terrain rendering toolkit
+  category: Visualisation and publishing
+
+- name: ParaView
+  webpage: http://www.paraview.org/
+  description: Visualiser for large data sets
+  category: Visualisation and publishing
+
+- name: QGIS (Quantum GIS)
+  webpage: http://www.qgis.org/
+  description: GIS package
+  category: Visualisation and publishing
+
+- name: ScapeToad
+  webpage: http://scapetoad.choros.ch/index.php
+  description: Cartogram generator written in Java
+  category: Visualisation and publishing
+
+- name: TileMill
+  webpage: https://www.mapbox.com/tilemill/
+  description: Simple map creator
+  category: Visualisation and publishing
+
+- name: VTK (Visualization Toolkit)
+  webpage: http://www.vtk.org
+  description: Software that implements a wide variety of visualisation algorithms.
+  category: Visualisation and publishing
 
