@@ -25,12 +25,12 @@
   category: Input and Output
 
 - name: pyshp
-  webpage: http://code.google.com/p/pyshp/
+  webpage: https://github.com/GeospatialPython/pyshp
   description: Shapefiles using only Python
   category: Input and Output
 
 - name: Shapely
-  webpage: http://trac.gispython.org/lab/wiki/Shapely
+  webpage: https://github.com/Toblerity/Shapely
   description: Shapefiles in Python
   category: Input and Output
 
@@ -96,7 +96,7 @@
   category: Geometric libraries
 
 - name: LIBICP (Library for Iterative Closest Point Fitting)
-  webpage: http://www.cvlibs.net/software/libicp.html
+  webpage: http://www.cvlibs.net/software/libicp/
   description: Point cloud registration
   category: Geometric libraries
 
@@ -116,7 +116,7 @@
   category: Geometric libraries
 
 - name: OpenCV
-  webpage: http://sourceforge.net/projects/opencvlibrary/
+  webpage: http://opencv.org
   description: Computer vision library with focus on real-time
   category: Geometric libraries
 
@@ -136,7 +136,7 @@
   category: Geometric libraries
 
 - name: PROJ.4
-  webpage: http://trac.osgeo.org/proj/
+  webpage: https://github.com/OSGeo/proj.4/
   description: Projections
   category: Geometric libraries
 
@@ -146,10 +146,10 @@
   category: Geometric libraries
 
 
-- name: Meshing overview
-  webpage: http://www-users.informatik.rwth-aachen.de/~roberts/meshgeneration.html
-  description: A list of meshing software and people
-  category: Computational geometry software
+# - name: Meshing overview
+#   webpage: http://www-users.informatik.rwth-aachen.de/~roberts/meshgeneration.html
+#   description: A list of meshing software and people
+#   category: Computational geometry software
 
 
 - name: ANN (Approximate Nearest Neighbor Library)
@@ -208,7 +208,7 @@
   category: Computational geometry software
 
 - name: TetGen
-  webpage: http://tetgen.berlios.de/
+  webpage: http://wias-berlin.de/software/tetgen/
   description: Tetrahedral meshes
   category: Computational geometry software
 
