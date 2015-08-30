@@ -29,10 +29,21 @@
   description: Shapefiles using only Python
   category: Input and Output
 
+- name: Fiona
+  webpage: https://github.com/Toblerity/Fiona
+  description: OGR Python bindings
+  category: Input and Output
+
+- name: Rasterio
+  webpage: https://github.com/mapbox/rasterio
+  description: GDAL Python bindings
+  category: Input and Output
+
+
 - name: Shapely
   webpage: https://github.com/Toblerity/Shapely
-  description: Shapefiles in Python
-  category: Input and Output
+  description: Python bindings for GEOS
+  category: Geometric libraries
 
 
 - name: Boost.geometry
