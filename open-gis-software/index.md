@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A list of GIS software and libraries
-permalink: /libs/
+permalink: /open-gis-software/
 ---
 
 We are maintaining a list of software libraries and utilities that can be useful in developing GIS-related software applications.
