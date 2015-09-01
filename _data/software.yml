@@ -11,10 +11,10 @@
   category: Input and Output
   starred: true
 
-- name: LASlib
+- name: LAStools/LASlib
   webpage: http://www.cs.unc.edu/~isenburg/lastools/
-  description: ASPRS LAS format
-  category: Input, Output and processing of pointclouds
+  description: Point cloud I/O and processing
+  category: Input and Output
   starred: true
 
 - name: OGR
@@ -25,7 +25,7 @@
 
 - name: PDAL
   webpage: http://www.pdal.io/
-  description: reads/writes several different point cloud formats
+  description: Point cloud I/O
   category: Input and Output
   starred: false
 
@@ -223,12 +223,6 @@
   description: Convex hulls and triangulations
   category: Computational geometry software
   starred: false
-
-- name: LAStools
-  webpage: http://www.cs.unc.edu/~isenburg/lastools/
-  description: Point cloud processing
-  category: Computational geometry software
-  starred: true
 
 - name: MeshLab
   webpage: http://meshlab.sourceforge.net/
