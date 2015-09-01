@@ -4,7 +4,9 @@ title: A list of GIS software and libraries
 permalink: /open-gis-software/
 ---
 
-Following is a list of various open source software libraries and utilities that can be useful for GIS applications. The ones that we would personally recommend are marked with a star.
+Various open source software libraries and utilities that can be useful for GIS applications. 
+
+The ones that we use and recommend are marked with a <i class="fa fa-star"></i>.
 
 - - -
 

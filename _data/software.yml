@@ -59,7 +59,7 @@
   webpage: https://github.com/boostorg/geometry
   description: geometric datatypes and algorithms
   category: Geometric libraries
-  starred: false
+  starred: true
 
 - name: CGAL (Computational Geometry Algorithms Library)
   webpage: http://www.cgal.org/
