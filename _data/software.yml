@@ -48,7 +48,7 @@
 
 - name: Boost.geometry
   webpage: https://github.com/boostorg/geometry
-  description: geometric datatypes and algorithms
+  description: Various geometric datatypes and algorithms
   category: Geometric libraries
 
 - name: CGAL (Computational Geometry Algorithms Library)
