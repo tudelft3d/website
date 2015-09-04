@@ -16,6 +16,13 @@ permalink: /about/formerstaff/
         {% if member.email %}
           <i class="fa fa-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
         {% endif %}
+        {% if member.homepage %}
+          <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
+        {% endif %}
+        {% if member.twitter %}
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
+        {% endif %}
+
       </p>
     </div>
     {% endfor %}
