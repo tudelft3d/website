@@ -11,6 +11,7 @@ We support <a href="https://scirev.sc">SciRev</a>, a website which allows you to
 The impact factor for each journal can be checked (inside the campus or using a VPN) [here](http://admin-apps.webofknowledge.com/JCR/JCR). 
 The search system is *very* picky. It's probably easier to search by ISSN or to first find the exact name [here](http://admin-apps.webofknowledge.com/JCR/JCR?RQ=TITLES_FULL) using the search function of your browser.
 
+For some of the listed journals <a href="http://filipbiljecki.com/blog/index.php/2015/09/06/publication-delay-in-gis/">a research has been conducted to compute their publication speed</a>, to get a general idea what are the average waiting times from submission to acceptance and publication.
 
 - - -
 
