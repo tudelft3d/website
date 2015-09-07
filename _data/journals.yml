@@ -287,6 +287,10 @@
   description: Survey Review is an international journal which has been published since 1931, until recently under the auspices of the Commonwealth Association of Surveying and Land Economy (CASLE)
   scirev: https://scirev.sc/journal/survey-review/
 
+- name: PeerJ Computer Science
+  webpage: https://peerj.com/computer-science/
+  description: PeerJ Computer Science is the new open access journal covering all subject areas in computer science, with the backing of a prestigious advisory board and more than 300 academic editors.
+
 - name: The Professional Geographer (RTPG)
   webpage: http://www.tandf.co.uk/journals/PG
   index: ISI
