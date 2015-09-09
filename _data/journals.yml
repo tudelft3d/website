@@ -291,6 +291,12 @@
   webpage: https://peerj.com/computer-science/
   description: PeerJ Computer Science is the new open access journal covering all subject areas in computer science, with the backing of a prestigious advisory board and more than 300 academic editors.
 
+- name: PLOS ONE
+  webpage: http://www.plosone.org
+  index: ISI
+  description: The world’s first multidisciplinary Open Access journal, PLOS ONE accepts scientifically rigorous research, regardless of novelty. PLOS ONE’s broad scope provides a platform to publish primary research, including interdisciplinary and replication studies as well as negative results. The journal’s publication criteria are based on high ethical standards and the rigor of the methodology and conclusions reported.
+  scirev: https://scirev.sc/journal/plos-one/
+
 - name: The Professional Geographer (RTPG)
   webpage: http://www.tandf.co.uk/journals/PG
   index: ISI
@@ -302,6 +308,12 @@
   index: ISI
   description: Provides a forum for original research articles, review articles, short notes and book reviews.
   scirev: https://scirev.sc/journal/transactions-in-gis/
+
+- name: Spatial Cognition & Computation
+  webpage: http://www.tandfonline.com/loi/hscc20
+  index: ISI
+  description: This multidisciplinary journal is based on the assumption that the critical issues pertaining to spatial cognition and computation lie at the intersection of a number of disciplines--including cognitive psychology, cognitive science, mathematics and computer science, geography and cartography, animal behavior, neuropsychology, artificial intelligence, philosophy, and planning and architecture.
+  scirev: https://scirev.sc/journal/spatial-cognition-and-computation/
 
 - name: URISA Journal
   website: http://www.urisa.org/urisajournal
