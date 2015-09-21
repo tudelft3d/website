@@ -3,54 +3,62 @@ layout: default
 ---
 <div class="container">
 
-  <h1>{{ page.title }}</h1>
+{% for i in site.data.staff %}
+  {% if i.surname == page.surname %}
+    {% assign staff = i %}
+  {% endif %}   
+{% endfor %}
+ 
+  <h1>{{ staff.name }} {{ staff.van }} {{ staff.surname }}</h1>
   
-  {% for i in site.data.staff %}
-    {% assign name = i.name | append:' ' | append:i.surname %}
-    {% if name == page.title %}
-      <div class="row">
-        <div class="col-md-3">
-          <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: i.photo | prepend: site.baseurl }}">
-        </div>
-        <div class="col-md-6">
-          <h3>{{ i.longtitle }}</h3>
-          <p> {{ i.description | markdownify }}</p>
-        </div>
-        <div class="col-md-3">
-          {% if i.email %}
-            <i class="fa fa-envelope"></i> <a href="mailto:{{ i.email }}">{{ i.email }}</a><br>
-          {% endif %}
-          {% if i.phone %}
-            <i class="fa fa-phone"></i> <a href="tel:{{ i.phone }}">{{ i.phone }}</a><br>
-          {% endif %}
-          {% if i.twitter %}
-            <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ i.twitter }}">@{{ i.twitter }}</a><br>
-          {% endif %}        
-          <i class="fa fa-map-marker fa-fw">     </i> Room {{ i.room }} <br>
-          <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
-          <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
-          <i class="fa fa-map-marker fa-fw fade"></i> (building #8) <br>
-          <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
-          <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
-          <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
-          <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
-          <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="row">
+    <div class="col-md-3">
+      <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: staff.photo | prepend: site.baseurl }}">
+    </div>
+    <div class="col-md-6">
+    {% if staff.longtitle %}
+      <h3>{{ staff.longtitle }}</h3>
+    {% else %}
+      <h3>{{ staff.title }}</h3>
+    {% endif %}  
+    {% if staff.description %}
+      <p> {{ staff.description | markdownify }}</p>
+    {% endif %}  
+    </div>
+    <div class="col-md-3">
+      {% if staff.email %}
+        <i class="fa fa-envelope"></i> <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br>
+      {% endif %}
+      {% if staff.phone %}
+        <i class="fa fa-phone"></i> <a href="tel:{{ staff.phone }}">{{ staff.phone }}</a><br>
+      {% endif %}
+      {% if staff.twitter %}
+        <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ staff.twitter }}">@{{ staff.twitter }}</a><br>
+      {% endif %}        
+      {% if staff.room %}
+        <i class="fa fa-map-marker fa-fw">     </i> Room {{ staff.room }} <br>
+      {% else %}
+        <i class="fa fa-map-marker fa-fw">     </i> Room BG.WEST.010 <br>
+      {% endif %}  
+      <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
+      <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
+      <i class="fa fa-map-marker fa-fw fade"></i> (building #8) <br>
+      <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
+      <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
+      <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
+      <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
+      <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+    </div>
+  </div>
 
   <hr>
 
-  {% for i in site.data.staff %}
-    {% assign name = i.name | append:' ' | append:i.surname %}
-    {% if name == page.title %}
-      {% if i.pagetext %}
-        <div class="container">
-          <p>{{ i.pagetext | markdownify }}</p>
-        </div>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+  {% if staff.pagetext %}
+    <div class="container">
+      <p>{{ staff.pagetext | markdownify }}</p>
+    </div>
+  {% endif %}
 
   {{ content }}
+
+</div>
