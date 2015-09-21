@@ -1,8 +1,10 @@
-- surname: Kavisha
-  name: 
+- surname: Kavisha  
+  title: PhD candidate
   title: PhD candidate
   photo: kavisha.jpg
   email: k.kavisha@tudelft.nl
+  homepage: 3d.bk.tudelft.nl/kavisha
+  description: Storage and dissemination of massive 3D city models
 
 - surname: Wei
   name: Shuangfeng
@@ -97,7 +99,6 @@ I combine my professorship with jobs as researcher at both the [Kadaster](http:/
   email: j.e.stoter@tudelft.nl
   phone: +31 15 27 81664
   twitter: jantienstoter
-  room: "BG.WEST.010"
   homepage: 3d.bk.tudelft.nl/jstoter
 
 - surname: Zlatanova
