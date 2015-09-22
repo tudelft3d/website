@@ -1,24 +1,32 @@
-- surname: Kavisha  
+- surname: Du
+  name: Xin
   title: PhD candidate
+  photo: duxin.jpg
+  # email: k.kavisha@tudelft.nl
+  homepage: 3d.bk.tudelft.nl/duxin
+  description: "Topic: Generalisation of 3D city models"
+  swapnames: true
+
+- surname: Kavisha  
   title: PhD candidate
   photo: kavisha.jpg
   email: k.kavisha@tudelft.nl
   homepage: 3d.bk.tudelft.nl/kavisha
-  description: Storage and dissemination of massive 3D city models
+  description: "Topic: Storage and dissemination of massive 3D city models.<br>Working on the [3D4EM project](http://www.3d4em.nl)."
 
 - surname: Wei
   name: Shuangfeng
   title: Visiting scholar
   photo: shuangfeng.jpg
   email: s.wei-1@tudelft.nl
+  swapnames: true
 
 - surname: Li
   name: Fangyu
   title: Visiting scholar
   photo: lfy.jpg
-  # homepage: tudelft.nl/kenohori
   email: f.li-3@tudelft.nl
-  # phone: +31 15 27 85154
+  swapnames: true
 
 - surname: Arroyo Ohori
   name: Ken
@@ -77,7 +85,6 @@
   homepage: 3d.bk.tudelft.nl/liuliu
   email: l.liu-1@tudelft.nl
   # phone: +31 15 27 85660
-
 
 - surname: Peters
   name: Ravi
