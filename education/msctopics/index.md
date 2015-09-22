@@ -233,18 +233,6 @@ This research aims at developing a voxel-based path-finding method to obtain spe
 
 - - - 
 
-## Topics with AMS
-
-Several MSc researches can be done within the context of [Amsterdam Institute for Advanced Metropolitan Solutions](http://www.ams-amsterdam.com), with help of Amsterdam employees. For example:
-
-  * Finding "fraud" (illegal hotels; illegal occupation of buildings) by a smart combination of (spatial) data
-  * Exploring additional use of photographs that are taken from public space every week to find abuse of parking licences
-  * Identify and analyse spreading of certain aspects (e.g. by using social media) to find out how "full" Amsterdam is
-  * Tracking and tracing of wheel chairs to provide insight in good and bad wheel chair routes and possible obstacles
-
-*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - - 
 
 ## FaciliDat: 3D Indoor model and a database schema for facility management  
 
