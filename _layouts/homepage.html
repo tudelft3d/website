@@ -15,17 +15,17 @@ layout: default
     <div class="col-md-3">
       <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: staff.photo | prepend: site.baseurl }}">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
     {% if staff.longtitle %}
       <h3>{{ staff.longtitle }}</h3>
     {% else %}
       <h3>{{ staff.title }}</h3>
     {% endif %}  
     {% if staff.description %}
-      <p> {{ staff.description | markdownify }}</p>
+      <p>{{ staff.description | markdownify }}</p>
     {% endif %}  
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       {% if staff.email %}
         <i class="fa fa-envelope"></i> <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br>
       {% endif %}
