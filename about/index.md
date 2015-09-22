@@ -28,7 +28,11 @@ The staff of the group is active in several international organisations such as 
     {% else %}
       <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}">
     {% endif %}
+    {% if member.swapnames == False %}
       <h3>{{ member.name }} {{ member.van }} {{ member.surname }}<br><small>{{ member.title }}</small></h3>
+    {% else %}
+      <h3>{{ member.surname }} {{ member.name }}<br><small>{{ member.title }}</small></h3>
+    {% endif %}
       <p>
         {% if member.homepage %}
           <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
