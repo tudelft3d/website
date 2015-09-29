@@ -41,3 +41,11 @@ author: John Smith
 ```
 
 To write markdown and see right-away the result, use that very handy [website](http://dillinger.io). 
+
+To add images, you must them in the folder `/img/2015/myimg.jpg` and then add them with 
+
+```
+Bla bla bla 
+
+![]({{ site.baseurl }}/img/2015/myimg.jpg)
+```
