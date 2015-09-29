@@ -35,7 +35,7 @@ Each blog/news post is a [Markdown](http://daringfireball.net/projects/markdown/
 layout: post
 title:  "Testing..1..2..testing"
 categories: news
-date:   2014-11-20
+date:   2015-09-29 08:29
 author: John Smith
 ---
 ```
