@@ -1,3 +1,9 @@
+- surname: ten Rouwelaar 
+  name: Patricia  
+  title: "Uniformity of topographical key registrations: The derivation of data specifications in order to automatically generalize the BGT into a uniform BGT product and into a midscale data product"
+  link: https://3d.bk.tudelft.nl/pdfs/Rouwelaar_thesis.pdf
+  image: rouwelaar.jpg
+  year: 2015
 
 - surname: Zhou
   name: Kaixuan
@@ -56,7 +62,7 @@
 - surname: Mortari
   name: Filippo 
   title: Automatic extraction of improved geometrical network model from CityGML for indoor navigation
-  link: http://3dgeoinfo.bk.tudelft.nl/pdfs/FilippoMortari_thesis.pdf
+  link: https://3d.bk.tudelft.nl/pdfs/FilippoMortari_thesis.pdf
   paper: http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/II-4/45/2014/isprsannals-II-4-45-2014.html
   image: fillipo.png
   year: 2013
@@ -64,7 +70,7 @@
 - surname: Russo
   name: Davide 
   title: Route Directions using Visible Landmarks for an Indoor Navigation System based on Android device IndoorNav
-  link: http://3dgeoinfo.bk.tudelft.nl/pdfs/DavideRusso_thesis.pdf
+  link: https://3d.bk.tudelft.nl/pdfs/DavideRusso_thesis.pdf
   image: davide.png
   year: 2013
 
@@ -92,13 +98,13 @@
 - surname: van Altena
   name: Vincent 
   title: Improvement of automatic generalisation of manmade water networks for topographic maps by context-dependent pruning
-  link: http://3dgeoinfo.bk.tudelft.nl/pdfs/VincentvanAltena_thesis.pdf
+  link: https://3d.bk.tudelft.nl/pdfs/VincentvanAltena_thesis.pdf
   image: vincent.png
   year: 2014
 
 - surname: den Dekker
   name: Nikkie
   title: Smart cities, sensors & 3D GIS
-  link: http://3dgeoinfo.bk.tudelft.nl/pdfs/NikkiedenDekker_thesis.pdf
+  link: https://3d.bk.tudelft.nl/pdfs/NikkiedenDekker_thesis.pdf
   image: nikkie.png
   year: 2015
