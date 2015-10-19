@@ -33,3 +33,8 @@
   description: The main objective of the working group is to establish an operational framework for 3D Cadastres.
   webpage: http://www.gdmc.nl/3DCadastres/
   image: 3dcadastres.png
+
+- name: 3D Cadastres
+  description: Smart 3D indoor models to support crisis management in large public buildings.
+  webpage: http://www.sims3d.net
+  image: SIMs3D.jpg
