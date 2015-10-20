@@ -2,7 +2,7 @@
 layout: post
 title:  ERC Starters Grant awarded to Jantien
 categories: news
-date: 2015-10-08
+date: 2015-10-20
 ---
 
 Jantien Stoter was awarded an ERC Starting Grant (from the [European Research Council](http://erc.europa.eu/starting-grants)) of 1.5 million euros for a five-year research project. She won the award for her research proposal: Urban modeling in higher dimensions.
