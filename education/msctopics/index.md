@@ -106,11 +106,6 @@ A student recently completed his MSc Geomatics thesis work on the automatic conv
 Several issues are still open, and an MSc project could investigate these. 
 For instance: creation of interior rooms at different LODs (CityGML v3 will have that concept), integration with the terrain, and the conversion applied to other city objects (tunnels and bridges).
 
-The project could be embedded in the [BIMlab at CiTG/TU Delft](http://www.tubimlab.nl).
-That is, as an MSc student, you work one day per week during your thesis work there and you get the support of other students (from different faculties) working with BIM, and potential of the companies involved in the project.
-The BIMlab offers [other project too](http://www.tubimlab.nl/?page_id=50).
-
-
 *Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
