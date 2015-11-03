@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   Vincent van Altana's MSc thesis awarded with UNIGIS International Academic Excellence Award
+title:   Vincent van Altena's MSc thesis awarded with UNIGIS International Academic Excellence Award
 categories: news
 date: 2015-11-03 14:52
 ---
