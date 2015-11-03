@@ -493,11 +493,11 @@ The complete list of publications of the project is available <a href="publicati
 <div class="row">
 
     <div class="col-lg-4 col-sm-6">
-      <a href="http://3dgeoinfo.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ "/img/staff/ken.jpg"  | prepend: site.baseurl }}" /></a>
+      <a href="http://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ "/img/staff/ken.jpg"  | prepend: site.baseurl }}" /></a>
     
       <h3>Ken Arroyo Ohori <small>PhD candidate</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/ken">3dgeoinfo.bk.tudelft.nl/ken</a><br />
+          <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
           <br />
           <br />
@@ -506,10 +506,10 @@ The complete list of publications of the project is available <a href="publicati
     
     
     <div class="col-lg-4 col-sm-6">
-      <a href="http://3dgeoinfo.bk.tudelft.nl/biljecki"><img class="img-circle img-responsive" src="{{ "/img/staff/filip.jpg"  | prepend: site.baseurl }}" /></a>
+      <a href="https://3d.bk.tudelft.nl/biljecki"><img class="img-circle img-responsive" src="{{ "/img/staff/filip.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Filip Biljecki <small>PhD candidate</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/biljecki">3dgeoinfo.bk.tudelft.nl/biljecki</a><br />
+          <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/biljecki">3d.bk.tudelft.nl/biljecki</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:f.biljecki@tudelft.nl">f.biljecki@tudelft.nl</a><br />
           <i class="fa fa-phone"></i> <a href="tel:+31 15 27 82798">+31 15 27 82798</a><br />
       </p>
@@ -525,25 +525,12 @@ The complete list of publications of the project is available <a href="publicati
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
       </p>
     </div>
-
-      <div class="col-lg-4 col-sm-6">
-      <a href="http://www.gdmc.nl/martijn"><img class="img-circle img-responsive" src="{{ "/img/staff/martijn.jpg"  | prepend: site.baseurl }}" /></a>
-    
-      <h3>Martijn Meijers <small>Postdoc</small></h3>
-      <p>
-          <i class="fa fa-home"></i> <a href="http://www.gdmc.nl/martijn">www.gdmc.nl/martijn</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:b.m.meijers@tudelft.nl">b.m.meijers@tudelft.nl</a><br />
-          <br />
-          <br />
-      </p>
-    </div>
-
     
     <div class="col-lg-4 col-sm-6">
       <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ "/img/staff/jantien.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Jantien Stoter <small>Professor</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
+          <i class="fa fa-home"></i> <a href="https://3d.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
           <i class="fa fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
