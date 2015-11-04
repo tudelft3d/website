@@ -1,3 +1,29 @@
+- surname: van der Ham
+  name: Martijn
+  title: Real time analyses of asset tracking in hospitals using indoor positioning technology
+  image: martijn.png
+  year: 2015
+
+- surname: Janssen
+  name: Milo
+  title: A 3D subsurface GIS - Adopting vector/voxel data to provide insights regarding climate adaptation and water related issues
+  image: milo.jpg
+  year: 2015
+
+- surname: Aarsen 
+  name: Rosann
+  title: Using sensor-data collected by a "meet rollator" for deriving outdoor accessibility information concerning mobility impaired people
+  image: rosann.png
+  link: http://repository.tudelft.nl/view/ir/uuid%3A29fc70b1-c262-4f3d-837f-5ecddb56d6f0/
+  year: 2015
+
+- surname: Wu
+  name: Haoxiang
+  title: 3D semantic model generation from 2D floor plans
+  link: http://repository.tudelft.nl/view/ir/uuid%3A26a4c6b8-8ea0-4246-b30e-5c83a28cccb4/
+  image: wu.png
+  year: 2015
+
 - surname: ten Rouwelaar 
   name: Patricia  
   title: "Uniformity of topographical key registrations: The derivation of data specifications in order to automatically generalize the BGT into a uniform BGT product and into a midscale data product"

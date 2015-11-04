@@ -1,18 +1,4 @@
-- surname: van der Ham
-  name: Martijn
-  title: Real time analyses of asset tracking in hospitals using indoor positioning technology
-  image: martijn.png
-
-- surname: Janssen
-  name: Milo
-  title: A 3D subsurface GIS - Adopting vector/voxel data to provide insights regarding climate adaptation and water related issues
-  image: milo.jpg
-
-- surname: Aarsen 
-  name: Rosann
-  title: Using sensor-data collected by a "meet rollator" for deriving outdoor accessibility information concerning mobility impaired people
-  image: rosann.png
-
+  
 - surname: Jonker
   name: Kees
   title: An improved grid-based height map for the Netherlands
@@ -25,7 +11,4 @@
   image: marco.jpg  
   # link: 
 
-- surname: Wu
-  name: Haoxiang
-  title: 3D semantic model generation from 2D floor plans
-  image: wu.png
+
