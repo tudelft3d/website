@@ -26,6 +26,7 @@ We have a [list of potential topics](msctopics).
 ## MSc thesis projects -- Ongoing
 
 {% assign msc = site.data.mscnow | sort: 'surname' %}
+
 <div class="row">
 {% for i in msc %}
   <div class="col-sm-4 col-md-3">
@@ -44,15 +45,29 @@ We have a [list of potential topics](msctopics).
 
 ## MSc thesis projects -- Completed
 
-{% assign msc = site.data.mscfinished | sort: 'year' | reverse %}
+
+{% assign years = site.data.mscfinished | group_by: "year" %}
+
+{% assign sorted_years = years | sort: 'name' %}
+
+{% for year in sorted_years reversed %}
+
+<h3> {{ year.name }} </h3>
+
+{% assign sorted_people = year.items | sort: 'surname' %}
+
 <div class="row">
-{% for i in msc %}
+{% for i in sorted_people %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>
-          {{ i.name }} {{ i.surname }} 
+        {% if i.swapnames == False %}
+          {{ i.name }} {{ i.van }} {{ i.surname }}
+        {% else %}
+          {{ i.surname }} {{ i.name }}
+        {% endif %}
           <br />
           <small>({{ i.year }})</small>
         {% if i.link %}
@@ -71,5 +86,8 @@ We have a [list of potential topics](msctopics).
   </div>
 {% endfor %}
 </div>
+
+{% endfor %}
+
 
 

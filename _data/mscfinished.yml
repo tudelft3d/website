@@ -1,5 +1,6 @@
-- surname: van der Ham
+- surname: Ham
   name: Martijn
+  van: van der
   title: Real time analyses of asset tracking in hospitals using indoor positioning technology
   image: martijn.png
   year: 2015
@@ -19,13 +20,15 @@
 
 - surname: Wu
   name: Haoxiang
+  swapnames: true
   title: 3D semantic model generation from 2D floor plans
   link: http://repository.tudelft.nl/view/ir/uuid%3A26a4c6b8-8ea0-4246-b30e-5c83a28cccb4/
   image: wu.png
   year: 2015
 
-- surname: ten Rouwelaar 
+- surname: Rouwelaar 
   name: Patricia  
+  van: ten
   title: "Uniformity of topographical key registrations: The derivation of data specifications in order to automatically generalize the BGT into a uniform BGT product and into a midscale data product"
   link: https://3d.bk.tudelft.nl/pdfs/Rouwelaar_thesis.pdf
   image: rouwelaar.jpg
@@ -33,6 +36,7 @@
 
 - surname: Zhou
   name: Kaixuan
+  swapnames: true
   title: Exploring Regularities for Improving Quality of Facade Reconstruction from Point Cloud
   link: http://repository.tudelft.nl/view/ir/uuid%3A8f548788-1e42-475b-adbf-93f9dbcd04a1/
   image: zhou.png
@@ -100,15 +104,17 @@
   image: davide.png
   year: 2013
 
-- surname: de Vries
+- surname: Vries
   name: Lars 
+  van: de
   title: A research towards completing the asset information life cycle -- An analysis of the relationships between data exchange, BIM and the asset life cycle and the solutions to overcome existing issues at Amsterdam Airport Schiphol.
   link: http://repository.tudelft.nl/view/ir/uuid%3A88b6c2fc-b182-4fb2-98c8-25b6a24292ce/
   image: lars.png
   year: 2013
 
-- surname: van Winden
+- surname: Winden
   name: Karl 
+  van: van
   title: Automatically deriving and updating attribute road data from movement trajectories
   link: http://repository.tudelft.nl/view/ir/uuid%3Aeec252e0-1a6b-4a3a-a167-45aaadc2bb7f/
   image: karl.png
@@ -116,20 +122,23 @@
 
 - surname: Xu
   name: Weilin 
+  swapnames: true
   title: Spatial model-aided indoor tracking
   link: http://repository.tudelft.nl/view/ir/uuid%3A8fd6a9ef-3dfb-4bd1-b54e-44d5b2cca973/
   image: xu.png
   year: 2014
 
-- surname: van Altena
+- surname: Altena
   name: Vincent 
+  van: van
   title: Improvement of automatic generalisation of manmade water networks for topographic maps by context-dependent pruning
   link: https://3d.bk.tudelft.nl/pdfs/VincentvanAltena_thesis.pdf
   image: vincent.png
   year: 2014
 
-- surname: den Dekker
+- surname: Dekker
   name: Nikkie
+  van: den
   title: Smart cities, sensors & 3D GIS
   link: https://3d.bk.tudelft.nl/pdfs/NikkiedenDekker_thesis.pdf
   image: nikkie.png
