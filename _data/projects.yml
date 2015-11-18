@@ -1,21 +1,32 @@
 
+- name: Quality control of 3D city models
+  description: validation and quality control of 3D city models
+  webpage: http://geovalidation.bk.tudelft.nl/val3dity
+  image: val3dity.png
+
 - name: 5D geo-modelling
-  description: The aim of the 5D modelling research project is to integrate the multi-dimensional characteristics of geographic data, i.e. 2D/3D, time and scale (also indicated as 'Level of Detail', 'resolution' or 'granularity') at a fundamental level of data modelling.
+  description: We integrate 3D geographic data with time and scale as extra dimensions
   webpage: /projects/geo5d/
+  funding: STW
+  fundingurl: http://www.stw.nl
   image: geo5d.png
 
 - name: 3D4EM
   description: Design and implementation of an SDI for integrated environmental modelling in 3D
   webpage: http://www.3d4em.nl
+  funding: STW
+  fundingurl: http://www.stw.nl
   image: 3d4em.png
 
 - name: 3DSM
   description: Simplification of digital terrain models using feature-based three-dimensional methods
   webpage: /projects/3dsm/
+  funding: STW
+  fundingurl: http://www.stw.nl
   image: 3dsm.jpg
 
 - name: Navigation for first responders
-  description: The goal of this research is to support path planning for first responders among the moving obstacles caused by different types of disasters.
+  description: Path planning for first responders among the moving obstacles caused by different types of disasters
   webpage: /projects/navigation/
   image: navigation.png
 
@@ -25,12 +36,12 @@
   image: bigvoxels.png
 
 - name: Indoor Semantic Modeling to Support Path-Finding
-  description: This project aims to model and make use of building semantics for navigation purpose, and to develop a corresponding path finding strategy which can provide both conceptual and geometric paths and cater for different user requirements.
+  description: Modelling of building semantics for navigation purpose
   webpage: /projects/indoor/
   image: INSM.jpg
 
 - name: 3D Cadastres
-  description: The main objective of the working group is to establish an operational framework for 3D Cadastres.
+  description: Working group to establish an operational framework for 3D Cadastres
   webpage: http://www.gdmc.nl/3DCadastres/
   image: 3dcadastres.png
 
@@ -38,3 +49,6 @@
   description: Smart 3D indoor models to support crisis management in large public buildings.
   webpage: http://www.sims3d.net
   image: SIMs3D.jpg
+  funding: STW
+  fundingurl: http://www.stw.nl
+
