@@ -16,7 +16,7 @@ permalink: /projects/
     <div class="thumbnail">
       <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
-        <h3>{{ i.name }}
+        <h3><a href="{{ link }}">{{ i.name }}</a>
         <br />
         <small><a href="{{ link }}"><i class="fa fa-home"></i></a></small>
         {% if i.funding %}
