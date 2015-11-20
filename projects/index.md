@@ -18,7 +18,6 @@ permalink: /projects/
       <div class="caption">
         <h3><a href="{{ link }}">{{ i.name }}</a>
         <br />
-        <small><a href="{{ link }}"><i class="fa fa-home"></i></a></small>
         {% if i.funding %}
           <small>[funded by <a href="{{ i.fundingurl }}">{{ i.funding }}</a>]</small>
         {% endif %}
