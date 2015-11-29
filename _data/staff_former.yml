@@ -1,12 +1,30 @@
-- surname: Nourian
-  name: Pirouz
+- surname: Demir Özbek
+  name: Elif
+  title: Visiting PhD
+  photo: elif.jpg
+  # email: e.demirozbek@tudelft.nl
   period: 2014-2015
-  email: p.nourian@tudelft.nl
-  photo: pirouz.png
 
+- surname: Ates
+  name: Serpil
+  title: Visiting PhD
+  photo: serpil.jpg
+  period: 2014-2015
+  # email: s.ates@tudelft.nl
+  
 - surname: Wang
   name: Zhiyong
   period: 2011-2015
   photo: zhiyong.png
+  title: PhD
   homepage: 3d.bk.tudelft.nl/zhiyong
+
+- surname: Nourian
+  name: Pirouz
+  period: 2014-2015
+  title: research-assistant
+  email: p.nourian@tudelft.nl
+  photo: pirouz.png
+
+
 
