@@ -27,6 +27,16 @@ The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but pro
 
 *Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters) 
 
+
+- - -
+
+## GeoOBJ: developing a spatial extension to OBJ
+
+3D formats found in 3D computer graphics are in many ways superior to GIS formats such as CityGML: they have wide software support and great visualisation capabilities. However, they fall short with spatial analyses, because of various limitations, such as lack of geo-referencing, and lack of semantic structuring. The goal of this project is to bridge the two worlds, by developing a spatial extension to a computer graphics format such as OBJ. This thesis is suitable for MSc Geomatics students, and it may be adapted to any other format.
+
+*Contacts:* [Filip Biljecki](https://3d.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
 - - -
 
 
@@ -47,24 +57,6 @@ The project requires programming in Python, the use of FME, and a desire to figh
 
 - - -
 
-## Automatic thematic and semantic labelling of 3D city models
-
-![](img/semanticenrichment1.png)
-
-Many 3D city models are available as a soup of triangles, i.e. their geometry is not structured as in CityGML. This means that they do not contain semantics, i.e. the geometry of a building is not differentiated from a geometry of a road (above example), and the geometry within the same object (e.g. roof, windows and walls) have the same problem (see the image below, left with the desired result on the right). While such models may still be valuable in visualisation, their use for GIS purposes is hindered by the lack of semantics.
-
-![](img/semanticenrichment2.png)
-
-The goal of this thesis is to develop a reasoning system that would automatically infer the theme (semantics) of each geometric primitive, on two levels:
-
-* City level (is it a tree, a building, or a road?)
-* City object level (is the geometry a roof, a window, or a wall)?
-
-The solution might involve pattern recognition techniques to aid the classification, hence it can be conducted in collaboration with the [Pattern Recognition Laboratory](http://prlab.tudelft.nl) at TU Delft.
-
-*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki), [David Tax](http://prlab.tudelft.nl/users/david-tax),  and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
 
 ## Improving house price models with 3D city models and LiDAR datasets
 
