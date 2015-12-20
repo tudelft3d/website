@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Applications of 3D City Models: State of the Art Review
+title: Applications of 3D City Models - State of the Art Review
 categories: news
 date: 2015-12-20
 ---
