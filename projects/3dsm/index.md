@@ -35,7 +35,9 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
     <h2 class="featurette-heading">Medial Axis Transform (MAT)</h2>
     <p>The MAT represents the shape of an object, in 2D or 3D, with balls contained inside it, and should be seen as the <em>skeleton</em> of an object. Given an object, it is an alternative representation that captures both the shape of the object and its topology (how its different parts are connected), and has therefore been used in numerous shape-related problems.</p>
   </div>
-  <iframe class="col-md-5" src="http://player.vimeo.com/video/84859998" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div class="col-md-5">
+    <iframe src="https://player.vimeo.com/video/84859998" width="500" height="496" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
 </div>
 
  - - - 
