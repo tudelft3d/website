@@ -55,8 +55,7 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
 
 ## Publications
 
-{% include_relative 3dsmpubs.html %}
-
+{% imbiber /var/www/people/ravi/ravi.bib groupby:year idswithprefix:year_ %}
 - - -
 
 ## Open-source software
@@ -65,6 +64,7 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
 
   - [C++ implementation](https://github.com/tudelft3d/masbcpp)
   - [Python implementation](https://github.com/tudelft3d/masbpy)
+
 
 - - -
 
