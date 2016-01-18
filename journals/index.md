@@ -8,6 +8,8 @@ We are curating a list of journals that we consider when submitting a GIS manusc
 
 For 18 journals <a href="http://filipbiljecki.com/blog/index.php/2015/09/06/publication-delay-in-gis/">an analysis has been carried out to compute their publication speed</a>, and to get a general idea what are the average waiting times from submission to acceptance and publication.
 
+Many of the listed journals have been involved in a comprehensive scientometric study <a href="http://doi.org/10.1080/13658816.2015.1130831">published in IJGIS</a>.
+
 We support <a href="https://scirev.sc">SciRev</a>, a website which allows you to share your experience with a journal's scientific review process. It aggregates journal review quality ratings and processing times, and helps to differentiate efficient journals with a committed peer-review. Therefore for each entry, where applicable, we also provide the link to its SciRev page.
 
 The impact factor for each journal can be checked (inside the campus or using a VPN) [here](http://admin-apps.webofknowledge.com/JCR/JCR). The search system is *very* picky. It's probably easier to search by ISSN or to first find the exact name [here](http://admin-apps.webofknowledge.com/JCR/JCR?RQ=TITLES_FULL) using the search function of your browser.
