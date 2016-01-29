@@ -258,6 +258,12 @@
   description: Covers aspects of professional practise and implementation of techniques related to cartography, geodesy, geographic information science, hydrography, photogrammetry, remote sensing or surveying.
   scirev: https://scirev.sc/journal/journal-of-spatial-science/
 
+- name: Landscape and Urban Planning (LUP)
+  webpage: http://www.sciencedirect.com/science/journal/01692046
+  index: ISI
+  description: Landscape and Urban Planning is an international journal aimed at advancing conceptual, scientific, and applied understandings of landscape in order to promote sustainable solutions for landscape change.
+  scirev: https://scirev.sc/reviews/landscape-and-urban-planning/
+
 - name: Lecture Notes in Computer Science (LNCS)
   webpage: http://springerlink.com/content/105633/
   index: Scopus
