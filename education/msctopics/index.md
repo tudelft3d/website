@@ -76,7 +76,7 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 ![](img/ifcitygml.png){:width="500px"}
 
-A student recently completed his MSc Geomatics thesis work on the automatic conversion of IFC buildings to CityGML LOD3 models ([MSc thesis here](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/)). 
+A student recently completed his MSc Geomatics thesis work on the automatic conversion of IFC buildings to CityGML LOD3 models ([MSc thesis here](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/); and also published as a [paper in Transactions in GIS](http://doi.org/10.1111/tgis.12162)). 
 Several issues are still open, and an MSc project could investigate these. 
 For instance: creation of interior rooms at different LODs (CityGML v3 will have that concept), integration with the terrain, and the conversion applied to other city objects (tunnels and bridges).
 
