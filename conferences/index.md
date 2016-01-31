@@ -30,7 +30,7 @@ This is not meant to be an exhaustive list of all GIS conferences. -->
       <td>{{ i.start  }}</td>
       <td>{{ i.end }}</td>
       <td><a href="{{ i.url }}">{{ i.name }}</a></td>
-      <td>({{ i.place }})</td>
+      <td>{{ i.place }}</td>
     </tr>
     {% endif %}
   {% endfor %}
@@ -52,7 +52,7 @@ This is not meant to be an exhaustive list of all GIS conferences. -->
       <td>{{ i.start  }}</td>
       <td>{{ i.end }}</td>
       <td><a href="{{ i.url }}">{{ i.name }}</a></td>
-      <td>({{ i.place }})</td>
+      <td>{{ i.place }}</td>
     </tr>
     {% endif %}
   {% endfor %}
