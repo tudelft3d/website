@@ -1,26 +1,25 @@
 ---
 layout: page
-title: A list of GIS conferences
+title: Some GIS conferences relevant to us
 permalink: /conferences/
 ---
 
-Some GIS conferences that are relevant and interesting to the members of our group. 
+<!-- Some GIS conferences that are relevant and interesting to the members of our group. 
 
-This is not meant to be an exhaustive list of all GIS conferences.
+This is not meant to be an exhaustive list of all GIS conferences. -->
 
-- - -
 
 {% assign today = 'now' | date: "%s" %}
 {% assign confs = site.data.conferences | sort: 'start' %}
 
 <table class="table table-striped">
 
-<!--     <tr>
-      <th>Start</td>
-      <th>End</td>
-      <th>Name</td>
-      <th>Place</td>
-    </tr> -->
+  <tr class="info">
+    <td></td>
+    <td></td>
+    <td>Upcoming Conferences</a></td>
+    <td></td>
+  </tr>
 
 
 <!-- future conferences first -->
