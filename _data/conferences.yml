@@ -53,3 +53,20 @@
   start: 2016-11-01
   end: 2016-11-04
 
+- name: 16th International Conference on Computational Science and Its Applications
+  url: http://iccsa.org
+  place: Beijing, China
+  start: 2016-07-04
+  end: 2016-07-07
+
+- name: 78th FIG Working Week 2016
+  url: http://www.fig.net/fig2016/
+  place: Christchurch, New Zealand
+  start: 2016-05-02
+  end: 2016-05-06
+
+- name: GeoBuzz 2016
+  url: http://geobuzz.nl
+  place: 's-Hertogenbosch, the Netherlands
+  start: 2016-11-22
+  end: 2016-11-23
