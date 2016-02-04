@@ -14,7 +14,7 @@ We support <a href="https://scirev.sc">SciRev</a>, a website which allows you to
 
 The impact factor for each journal can be checked (inside the campus or using a VPN) [here](http://admin-apps.webofknowledge.com/JCR/JCR). The search system is *very* picky. It's probably easier to search by ISSN or to first find the exact name [here](http://admin-apps.webofknowledge.com/JCR/JCR?RQ=TITLES_FULL) using the search function of your browser.
 
-Related efforts:
+You might also be interested in related efforts:
 <ul>
 <li>List of <a href="http://cartography.oregonstate.edu/journals.html">Cartography and Geovisualisation, Oregon State University</a></li>
 <li>List of <a href="http://www.aboutgis.com/gis-and-remote-sensing-journal-list-with-impact-factors/">Giorgos Mountrakis, State University of New York College of Environmental Science and Forestry</a></li>
