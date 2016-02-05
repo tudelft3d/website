@@ -5,9 +5,9 @@
   paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/12_pfg.pdf
   thesis: http://repository.tudelft.nl/view/ir/uuid:78807acb-4115-478c-93de-68b9db884c8e/
 
-- name: masbpy
-  description: Python implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
-  github: https://github.com/tudelft3d/masbpy
+- name: masbcpp
+  description: C++ implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
+  github: https://github.com/tudelft3d/masbcpp
   image: masbpy200.jpg
 
 - name: Random3Dcity
