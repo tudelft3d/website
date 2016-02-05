@@ -1,3 +1,17 @@
+- surname: Jonker
+  name: Kees
+  title: Automatic generation of raster-based height data for the Netherlands based on the AHN2 data set
+  image: jonker.png
+  link: http://repository.tudelft.nl/view/ir/uuid%3Ab1d1c50d-24bf-4a12-b0e5-3c2479907d66/
+  year: 2016
+
+- surname: Lam
+  name: Marco
+  title: Creating the medial axis transform for billions of lidar points using a memory efficient method
+  image: lam.jpg
+  link: http://repository.tudelft.nl/view/ir/uuid%3A2452566b-058a-4fde-aa0e-e300421bb8b2/
+  year: 2016
+
 - surname: Ham
   name: Martijn
   van: van der
