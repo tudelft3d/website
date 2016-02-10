@@ -12,8 +12,9 @@
   name: Abdoulaye
   title: Postdoc
   photo: abdou.png
+  homepage: 3d.bk.tudelft.nl/adiakite
   email: a.a.diakite@tudelft.nl
-  description: "Topic: Smart space subdivision for indoor navigation.<br>Working on the [SIMs3D project](http://www.sims3d.net)."
+  description: "Design and implementation of an SDI for integrated environmental modelling in 3D"
 
 - surname: Du
   name: Xin
