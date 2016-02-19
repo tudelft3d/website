@@ -1,7 +1,11 @@
 # Projects
 
+- image: val3dity.png
+  description: Quality control of 3D city models
+  webpage: http://geovalidation.bk.tudelft.nl/val3dity
+
 - image: bigvoxels.png
-  description:  Big Data Analytics in the Geospatial Domain
+  description: Big Data Analytics in the Geospatial Domain
   webpage: /projects/bigvoxels/
 
 - image: 3d4em.png
