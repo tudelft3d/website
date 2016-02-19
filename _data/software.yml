@@ -5,6 +5,12 @@
   category: Input and Output
   starred: true
 
+- name: Assimp
+  webpage: http://www.assimp.org
+  description: Import various 3D model formats, such as OBJ and COLLADA. C++ and Python.
+  category: Input and Output
+  starred: true
+
 - name: GeoTIFF
   webpage: http://trac.osgeo.org/geotiff/
   description: GeoTIFF format
