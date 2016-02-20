@@ -14,6 +14,15 @@ It has a history of successful collaborations with the industry and the governme
 
 The staff of the group is active in several international organisations such as the [Open Geospatial Consortium](http://www.opengeospatial.org), [EuroSDR](http://www.eurosdr.net), and the [International Society for Photogrammetry and Remote Sensing](http://www.isprs.org).
 
+Our research funding mostly comes from the following organisations:
+
+<div class="row">
+  <div class="col-md-2 hidden-xs nopadding"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}"/></a></div>
+  <div class="col-md-2 hidden-xs nopadding"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/stw.png" | prepend: site.baseurl }}"/></a></div>
+  <div class="col-md-2 hidden-xs nopadding"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}"/></a></div>
+  <div class="col-md-2 hidden-xs nopadding"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.png" | prepend: site.baseurl }}"/></a></div>
+</div>
+
 - - - 
 
 ## <a name="people"></a> Staff
