@@ -1,4 +1,4 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+ Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -20,10 +20,10 @@ a:focus {
   text-decoration: none;
 }
 
-#frontimggrid img {
-  object-fit: contain;
-  height: 345px;
-}
+/*#frontimggrid img {*/
+  /*object-fit: contain;*/
+  /*height: 345px;*/
+/*}*/
 
 .jumbotron {
   text-align: center;
@@ -206,4 +206,4 @@ footer {
 .bs-docs-sidebar .nav .nav>.active:hover>a,
 .bs-docs-sidebar .nav .nav>.active:focus>a {
   color: #000;
-}*/
+}
