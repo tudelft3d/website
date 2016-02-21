@@ -1,4 +1,10 @@
 
+- name: FOSS4G
+  url: http://2016.foss4g.org
+  place: Bonn, Germany
+  start: 2016-08-24 
+  end: 2016-08-26
+
 - name: 1st International Conference on Smart Data and Smart Cities
   url: http://www.udms.net
   place: Split, Croatia
