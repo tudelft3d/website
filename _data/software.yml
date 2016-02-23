@@ -35,6 +35,12 @@
   category: Input and Output
   starred: false
 
+- name: laspy
+  webpage: https://github.com/grantbrown/laspy
+  description: Read/write LAS with Python
+  category: Input and Output
+  starred: false
+
 - name: pyshp
   webpage: https://github.com/GeospatialPython/pyshp
   description: Shapefiles using only Python
@@ -322,6 +328,12 @@
   starred: false
 
 
+- name: D3.js
+  webpage: http://d3js.org
+  description: Framework to create interactive maps and more
+  category: Visualisation and publishing
+  starred: false
+
 # - name: GD
 #   webpage: http://www.boutell.com/gd/
 #   description: Graphics library
@@ -358,11 +370,11 @@
 #   category: Visualisation and publishing
 #   starred: false
 
-- name: Kartograph
-  webpage: http://kartograph.org
-  description: Framework to create interactive maps
-  category: Visualisation and publishing
-  starred: false
+# - name: Kartograph
+#   webpage: http://kartograph.org
+#   description: Framework to create interactive maps
+#   category: Visualisation and publishing
+#   starred: false
 
 # - name: libQGLViewer
 #   webpage: http://www.libqglviewer.com/index.html
