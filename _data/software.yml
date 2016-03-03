@@ -112,7 +112,7 @@
 - name: GiST
   webpage: http://gist.cs.berkeley.edu/
   description: A template indexing structure to create your own spatial indexing
-  category: Geometric libraries
+  category: Spatial indexing
   starred: false
 
 - name: GTS (GNU Triangulated Surface Library)
@@ -148,7 +148,7 @@
 - name: libspatialindex
   webpage: http://libspatialindex.github.com/
   description: Different spatial indexing methods
-  category: Geometric libraries
+  category: Spatial indexing
   starred: false
 
 # - name: MicMac
@@ -203,7 +203,7 @@
 - name: ANN (Approximate Nearest Neighbor Library)
   webpage: http://www.cs.umd.edu/~mount/ANN/
   description: Real and approximate nearest neighbors in n-D point clouds
-  category: Computational geometry software
+  category: Spatial indexing
   starred: false
 
 # - name: cdd/cddplus
@@ -233,12 +233,6 @@
 - name: Hull
   webpage: http://www.netlib.org/voronoi/hull.html
   description: Convex hulls and triangulations
-  category: Computational geometry software
-  starred: false
-
-- name: MeshLab
-  webpage: http://meshlab.sourceforge.net/
-  description: Mesh processing
   category: Computational geometry software
   starred: false
 
@@ -331,120 +325,131 @@
 - name: D3.js
   webpage: http://d3js.org
   description: Framework to create interactive maps and more
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 # - name: GD
 #   webpage: http://www.boutell.com/gd/
 #   description: Graphics library
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 # - name: Geomview
 #   webpage: http://www.geomview.org/
 #   description: 3D visualiser
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 - name: GeoServer
   webpage: http://geoserver.org/
   description: Publish web maps
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 # - name: GMT
 #   webpage: http://gmt.soest.hawaii.edu/
 #   description: Graphics library to create images from spatial data, including projections
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 - name: GRASS
   webpage: http://grass.osgeo.org/
   description: GIS package
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 # - name: ImageMagick
 #   webpage: http://www.imagemagick.org/script/index.php
 #   description: Graphics library
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 # - name: Kartograph
 #   webpage: http://kartograph.org
 #   description: Framework to create interactive maps
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 # - name: libQGLViewer
 #   webpage: http://www.libqglviewer.com/index.html
 #   description: Library to create OpenGL visualisers using Qt
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 - name: LidarViewer
   webpage: http://keckcaves.org/software/lidarviewer
   description: Interactive visualisation of massive point clouds
-  category: Visualisation and publishing
+  category: Visualisation
   starred: true
 
 - name: mapnik
   webpage: http://mapnik.org
   description: Toolkit for map applications
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 - name: MapServer
   webpage: http://mapserver.org/
   description: Publish web maps
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 - name: MeshLab
   webpage: http://meshlab.sourceforge.net/
   description: Process and view triangular meshes and point clouds
-  category: Visualisation and publishing
+  category: Visualisation
   starred: true
 
 # - name: OpenGL
 #   webpage: http://www.opengl.org
 #   description: The free standard for 3D computer graphics
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 # - name: osgEarth
 #   webpage: http://osgearth.org/
 #   description: Terrain rendering toolkit
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 - name: ParaView
   webpage: http://www.paraview.org/
   description: Visualiser for large data sets
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 - name: QGIS (Quantum GIS)
   webpage: http://www.qgis.org/
   description: GIS package
-  category: Visualisation and publishing
+  category: Visualisation
   starred: true
 
 # - name: ScapeToad
 #   webpage: http://scapetoad.choros.ch/index.php
 #   description: Cartogram generator written in Java
-#   category: Visualisation and publishing
+#   category: Visualisation
 #   starred: false
 
 - name: TileMill
   webpage: https://www.mapbox.com/tilemill/
   description: Simple map creator
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
 - name: VTK (Visualization Toolkit)
   webpage: http://www.vtk.org
   description: Software that implements a wide variety of visualisation algorithms.
-  category: Visualisation and publishing
+  category: Visualisation
   starred: false
 
+- name: graph-tool
+  webpage: http://graph-tool.skewed.de
+  description: Efficient Python module for manipulation and statistical analysis of graphs
+  category: Graphs
+  starred: false
+
+- name: pykdtree
+  webpage: https://github.com/storpipfugl/pykdtree
+  description: Fast kd-tree implementation in Python
+  category: Spatial indexing
+  starred: true
