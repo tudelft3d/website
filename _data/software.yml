@@ -382,6 +382,17 @@
   category: Visualisation
   starred: true
 
+- name: Potree
+  webpage: http://potree.org
+  description: Web-based viewer for massive point clouds
+  category: Visualisation
+
+- name: plasio
+  webpage: https://github.com/verma/plasio
+  description: Web-based LAS/LAZ point cloud viewer
+  category: Visualisation
+  starred: false
+
 - name: mapnik
   webpage: http://mapnik.org
   description: Toolkit for map applications
@@ -400,6 +411,11 @@
   category: Visualisation
   starred: true
 
+- name: CloudCompare
+  webpage: http://www.cloudcompare.org
+  description: 3D point cloud and mesh processing software
+  category: Visualisation
+  starred: false
 # - name: OpenGL
 #   webpage: http://www.opengl.org
 #   description: The free standard for 3D computer graphics
