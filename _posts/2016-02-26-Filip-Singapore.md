@@ -18,4 +18,5 @@ A few photos of Filip's fruitful stay in Singapore are included below.
 <img src="{{ site.baseurl }}/img/2016/FS-5.jpg"/><br/>
 <img src="{{ site.baseurl }}/img/2016/FS-6.jpg"/><br/>
 <img src="{{ site.baseurl }}/img/2016/FS-7.jpg"/><br/>
-<img src="{{ site.baseurl }}/img/2016/FS-8.jpg"/>
+<img src="{{ site.baseurl }}/img/2016/FS-8.jpg"/><br/>
+<img src="{{ site.baseurl }}/img/2016/FS-9.jpg"/>
