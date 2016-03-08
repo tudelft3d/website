@@ -12,29 +12,22 @@ permalink: /jobs/phdumnd2016/
 
 - - - 
 
-Extension of a research project where the fundations of higher-dimensional GIS modelling have been defined.
-
-We can construct 4D models by different ways:
-https://3d.bk.tudelft.nl/hledoux/pdfs/15_ijgis_extrusion.pdf
-http://www.mdpi.com/2220-9964/4/3/1055
-
-
 
 ## Generalisation of 3D city models
 
-The Netherlands has recently launched a [3D map](http://www.arcgis.com/home/item.html?id=c2e507c293af4abf9f3add320f537da5) covering the whole country in which all buildings, roads, trees, canals are 3D geometries.
-It was constructed by adding the third dimension, obtained from airborne laser-scanners, to the objects in the 2D topographic map (details [here](http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/13_pers.pdf)).
-This leads to a massive amount of information: 15M+ objects, billions of elevation points, and billions of triangles.
+The PhD is part of a large project (“Urban modelling in higher dimensions”) that will develop a fundamental solution for providing 3D data at application-specific Levels of Detail (LoDs). 3D city models are needed to monitor and predict processes in urban areas (noise, flooding, energy demand-supply). However, each application requires its own semantic and geometric LoD of the 3D data, and practitioners currently must spend enormous effort to collect and transform 3D datasets to make them suitable for a specific application. For example, noise models require block models, solar panel potential analyses require roof geometries and heat loss estimations require windows and doors.
+To enforce and ensure consistency across all dimensions, the project will develop a solution to model LoDs as an extra dimension to the 3D spatial dimensions in an integrated 3D+LoD (i.e. 4D) model. This approach models real-world entities as 4D objects that are stored in a 4D data structure.
 
-The aim of the project is to investigate and develop methods to efficiently store and maintain the dataset in a database, and to disseminate it to practitioners.
-The [existing open-source database solutions](http://www.3dcitydb.org) for managing 3D volumetric objects will be tested with massive datasets and improved, if necessary.
-The biggest challenge is the management of massive TINs (triangulated irregular networks) in a database.
-The PhD student will have to design and develop new data structures (eg based on [this](http://www.cs.cmu.edu/~blelloch/papers/BBCK05.pdf) and [that](http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/13_gsis_pgtet.pdf)), implement them, and compare different alternatives (in terms of storage space, query time, etc).
-Furthermore, a prototype download service that generates 3D datasets tailored to specific applications will be explored, eg [WFS](http://www.opengeospatial.org/standards/wfs) for 3D objects and massive triangulations.
+The general project will develop:
+  1. a generalisation method in 3D to derive different LoDs from the same 3D base data in order to serve different applications
+  1. the 4D data structure to model semantic rich 3D+LoD GIS data in nD
+  1. a method to “slice” the 4D model to obtain error-free 3D data at application-specific LoDs. These three parts are underpinned by use-case studies on urban applications that will define requirements and be used as tests.
 
-The project will take place in the 3D geoinformation group under the supervision of [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Dr Hugo Ledoux](http://www.tudelft.nl/hledoux).
-It is fully funded by the Dutch Technology Foundation ([STW](http://www.stw.nl)), and it is part of a [large project in the Netherlands](http://www.3d4em.nl) in which 3 universities and 11 organisations are involved.
-We expect the PhD student to collaborate with the other researchers and practitioners involved in the project.
+The PhD candidate for part 1 (this position) will develop generalisation algorithms for 3D objects (buildings, bridges, etc). 
+The LoDs to be generated (both in terms of semantics and geometry) are required to be in conformance with the 3D GIS standard CityGML. This standard supports both the concept of LoDs and the 3D data modelling for urban applications (noise, energy, etc.).
+
+The project will take place in the 3D geoinformation group under the supervision of [Prof. Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) and [Dr Hugo Ledoux](http://www.tudelft.nl/hledoux).
+The position is fully funded by the [European Research Council](https://erc.europa.eu) (from a ERC starting grant). We expect the PhD student to collaborate with other researchers, e.g. the senior researchers in the project and two PhDs who will work on parts 2 and 3. In addition, the PhD will be actively involved in the international community on 3D modelling (e.g. the CityGML community).
 
 
 ## Research group
@@ -47,9 +40,11 @@ It has a history of successful collaborations with the industry and the governme
 ## Doing a PhD at TU Delft
 
 At the Delft University of Technology, a PhD student is a full-time employee of the university who gets paid a salary, no extra funding is necessary.
-The gross salary is €2,125 per month for the 1st year, going up to €2,717 during the 4th year.
+The gross salary is €2,174 per month for the 1st year, going up to €2,779 during the 4th year.
 TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.
-More information about doing a PhD at TU Delft and in the Netherlands can be found [here](http://www.phd.tudelft.nl) and [there](http://www.studyinholland.nl/education-system/degrees/phd).
+An International Children’s Centre offers childcare and an international primary school. Dual Career Services offers support to accompanying partners. Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
+
+More information about doing a PhD at TU Delft and in the Netherlands can be found [here](http://www.graduateschool.tudelft.nl) and [there](http://www.studyinholland.nl/education-system/degrees/phd).
 
 
 ## Job requirements
@@ -62,8 +57,9 @@ Prior experience with GIS is highly desirable.
 ## How to apply
 
 <div class="alert alert-danger" role="alert">
-Deadline has passed, you can't apply anymore.
+Deadline is April 30th 2016 at 23:59.
 </div>
+
 
 To apply, please submit: 
 
@@ -73,7 +69,7 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2015-1__.
+Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-08__.
 
-For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl>).
+For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl> or +31 6 52 06 2383).
 
