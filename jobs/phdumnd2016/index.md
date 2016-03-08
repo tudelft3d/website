@@ -19,6 +19,7 @@ The PhD is part of a large project (“Urban modelling in higher dimensions”) 
 To enforce and ensure consistency across all dimensions, the project will develop a solution to model LoDs as an extra dimension to the 3D spatial dimensions in an integrated 3D+LoD (i.e. 4D) model. This approach models real-world entities as 4D objects that are stored in a 4D data structure.
 
 The general project will develop:
+
   1. a generalisation method in 3D to derive different LoDs from the same 3D base data in order to serve different applications
   1. the 4D data structure to model semantic rich 3D+LoD GIS data in nD
   1. a method to “slice” the 4D model to obtain error-free 3D data at application-specific LoDs. These three parts are underpinned by use-case studies on urban applications that will define requirements and be used as tests.
@@ -56,8 +57,8 @@ Prior experience with GIS is highly desirable.
 
 ## How to apply
 
-<div class="alert alert-danger" role="alert">
-Deadline is April 30th 2016 at 23:59.
+<div class="alert alert-info" role="alert">
+Deadline is April 30th 2016 at 23:59 CET.
 </div>
 
 
