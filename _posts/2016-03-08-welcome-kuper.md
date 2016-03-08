@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Peter Vincent Kuper from KIT is visiting us 
+title:  Paul Vincent Kuper from KIT is visiting us 
 categories: news
 date: 2016-03-08 09:26
 ---
