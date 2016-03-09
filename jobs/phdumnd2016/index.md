@@ -5,9 +5,9 @@ permalink: /jobs/phdumnd2016/
 ---
 
 <div class="row">
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/link2.png" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/link2.png" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/link2.png" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/genz.jpg" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/link2.jpg" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/ds.jpg" | prepend: site.baseurl }}"></div>
 </div>
 
 - - - 
@@ -58,7 +58,7 @@ Prior experience with GIS is highly desirable.
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Deadline is April 30th 2016 at 23:59 CET.
+Deadline is April 15th 2016 at 23:59 CET.
 </div>
 
 
