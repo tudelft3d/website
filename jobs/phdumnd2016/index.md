@@ -15,7 +15,7 @@ permalink: /jobs/phdumnd2016/
 
 ## Generalisation of 3D city models
 
-The PhD is part of a large project (“Urban modelling in higher dimensions”) that will develop a fundamental solution for providing 3D data at application-specific Levels of Detail (LoDs). 3D city models are needed to monitor and predict processes in urban areas (noise, flooding, energy demand-supply). However, each application requires its own semantic and geometric LoD of the 3D data, and practitioners currently must spend enormous effort to collect and transform 3D datasets to make them suitable for a specific application. For example, noise models require block models, solar panel potential analyses require roof geometries and heat loss estimations require windows and doors.
+The PhD is part of a large project (entitled "Urban modelling in higher dimensions") that will develop a fundamental solution for providing 3D data at application-specific Levels of Detail (LoDs). 3D city models are needed to monitor and predict processes in urban areas (noise, flooding, energy demand-supply). However, each application requires its own semantic and geometric LoD of the 3D data, and practitioners currently must spend enormous effort to collect and transform 3D datasets to make them suitable for a specific application. For example, noise models require block models, solar panel potential analyses require roof geometries and heat loss estimations require windows and doors.
 To enforce and ensure consistency across all dimensions, the project will develop a solution to model LoDs as an extra dimension to the 3D spatial dimensions in an integrated 3D+LoD (i.e. 4D) model. This approach models real-world entities as 4D objects that are stored in a 4D data structure.
 
 The general project will develop:
@@ -25,10 +25,13 @@ The general project will develop:
   1. a method to “slice” the 4D model to obtain error-free 3D data at application-specific LoDs. These three parts are underpinned by use-case studies on urban applications that will define requirements and be used as tests.
 
 The PhD candidate for part 1 (this position) will develop generalisation algorithms for 3D objects (buildings, bridges, etc). 
-The LoDs to be generated (both in terms of semantics and geometry) are required to be in conformance with the 3D GIS standard CityGML. This standard supports both the concept of LoDs and the 3D data modelling for urban applications (noise, energy, etc.).
+The LoDs to be generated (both in terms of semantics and geometry) are required to be in conformance with the 3D GIS standard CityGML. This standard supports both the concept of LoDs and the 3D data modelling for urban applications (noise, energy, etc).
 
 The project will take place in the 3D geoinformation group under the supervision of [Prof. Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) and [Dr Hugo Ledoux](http://www.tudelft.nl/hledoux).
-The position is fully funded by the [European Research Council](https://erc.europa.eu) (from a ERC starting grant). We expect the PhD student to collaborate with other researchers, e.g. the senior researchers in the project and two PhDs who will work on parts 2 and 3. In addition, the PhD will be actively involved in the international community on 3D modelling (e.g. the CityGML community).
+The position is fully funded by the [European Research Council](https://erc.europa.eu) (from a ERC starting grant). 
+We expect the PhD student to collaborate with other researchers, e.g. the senior researchers in the project and two PhDs who will work on parts 2 and 3. 
+In addition, the project is carried out within the context of the [Amsterdam Institute of Advanced Metropolitan Solutions](http://www.ams-institute.org), and therefore the PhD is expected to work with researchers in AMS (including a geo-data scientist).
+<!-- In addition, the PhD will be actively involved in the international community on 3D modelling (e.g. the CityGML community). -->
 
 
 ## Research group
