@@ -17,10 +17,10 @@ The staff of the group is active in several international organisations such as 
 Our research funding mostly comes from the following organisations:
 
 <div class="row">
-  <div class="col-md-2 col-xs-6 nopadding"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}"/></a></div>
-  <div class="col-md-2 col-xs-6 nopadding"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/stw.png" | prepend: site.baseurl }}"/></a></div>
-  <div class="col-md-2 col-xs-6 nopadding"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}"/></a></div>
-  <div class="col-md-2 col-xs-6 nopadding"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.png" | prepend: site.baseurl }}"/></a></div>
+  <div class="col-md-2 col-xs-6 nopadding"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}" alt="ERC logo"/></a></div>
+  <div class="col-md-2 col-xs-6 nopadding"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/stw.png" | prepend: site.baseurl }}" alt="STW logo"/></a></div>
+  <div class="col-md-2 col-xs-6 nopadding"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}" alt="AMS logo"/></a></div>
+  <div class="col-md-2 col-xs-6 nopadding"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.png" | prepend: site.baseurl }}" alt="Kadaster logo"/></a></div>
 </div>
 
 - - - 
@@ -33,9 +33,17 @@ Our research funding mostly comes from the following organisations:
     {% for member in members %}
     <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
     {% if member.homepage %}
-      <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}"></a>
+      {% if member.swapnames == False %}
+        <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.name }} {{ member.van }} {{ member.surname }} photo" /></a>
+      {% else %}
+        <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.surname }} {{ member.name }} photo" /></a>
+      {% endif %}
     {% else %}
-      <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}">
+      {% if member.swapnames == False %}
+        <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.name }} {{ member.van }} {{ member.surname }} photo" />
+      {% else %}
+        <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.surname }} {{ member.name }} photo" />
+      {% endif %}
     {% endif %}
     {% if member.swapnames == False %}
       <h3>{{ member.name }} {{ member.van }} {{ member.surname }}<br><small>{{ member.title }}</small></h3>
