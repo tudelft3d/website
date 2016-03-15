@@ -61,7 +61,7 @@ Prior experience with GIS is highly desirable.
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Deadline is April 15th 2016 at 23:59 CET.
+Deadline is April 30th 2016 at 23:59 CET.
 </div>
 
 
