@@ -365,12 +365,31 @@ class Imbiber
 	def read(path)
 		puts "Reading " + path + "..."
 
+		# Check extension
+		if path[-4..-1] != '.bib' then
+			puts "Wrong extension: " + path[-4..-1]
+			return
+		end
+
+		# Check if it exists
 		if !File.exist?(path) then
 			puts "File does not exist"
 			@entries = {}
 			return
 		end
 
+		# Try to use a cached serialised version
+		serialised_path = path[0..-4] + 'cachedbib'
+		if File.exist?(serialised_path) then
+			if File.mtime(serialised_path) > File.mtime(path) then
+				puts "\tusing cached version"
+				cached_binary = File.binread(serialised_path)
+				@entries = Marshal.load(cached_binary)
+				return
+			end
+		end
+
+		# Not available, so parse
 		text = File.read(path)
 		entriestree = DocumentParser.new.parse(text)
 		entriestree.each do |entrybranch|
@@ -418,6 +437,9 @@ class Imbiber
 				end
 			end
 		end
+
+		# Serialise and store it as a cache
+		File.open(serialised_path, 'wb') { |file| file.write(Marshal.dump(@entries)) }
 	end
 
 	def html_of(key)
@@ -849,10 +871,13 @@ class Imbiber
 			out << ' <a href="' + @entries[key][:paper] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Paper) + '</a>'
 		end
 		if @entries[key].has_key?(:poster) then
-			out << ' <a href="' + @entries[key][:poster] + '"><i class="fa-file-pdf-o"></i> ' + @lt.localise(:Poster) + '</a>'
+			out << ' <a href="' + @entries[key][:poster] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Poster) + '</a>'
 		end
 		if @entries[key].has_key?(:presentation) then
-			out << ' <a href="' + @entries[key][:presentation] + '"><i class="fa-file-pdf-o"></i> ' + @lt.localise(:Slides) + '</a>'
+			out << ' <a href="' + @entries[key][:presentation] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Slides) + '</a>'
+		end
+		if @entries[key].has_key?(:propositions) then
+			out << ' <a href="' + @entries[key][:propositions] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Propositions) + '</a>'
 		end
 		if @entries[key].has_key?(:doi) then
 			if !@entries[key][:doi].start_with?("http://", "https://", "ftp://", "//") then
@@ -862,6 +887,9 @@ class Imbiber
 		end
 		if @entries[key].has_key?(:url) then
 			out << ' <a href="' + @entries[key][:url] + '"><i class="fa fa-external-link"></i> ' + @lt.localise(:www) + '</a>'
+		end
+		if @entries[key].has_key?(:buy) then
+			out << ' <a href="' + @entries[key][:buy] + '"><i class="fa fa-book"></i> ' + @lt.localise(:Buy) + '</a>'
 		end
 		out << ' <a href="#bib' + key.to_s + '" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i> BibTeX</a>'
 		out << '<div id="bib' + key.to_s + '" class="collapse"  tabindex="-1"><pre>' + bibtex_of(@entries[key]) + '</pre></div>'

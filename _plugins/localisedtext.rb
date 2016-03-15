@@ -24,6 +24,7 @@ class LocalisedText
 	@@words = {
 		:en => {
 			:and => 'and',
+			:Buy => 'Buy',
 			:In => 'In',
 			:eds => 'eds.',
 			:Chapter => 'Chapter',
@@ -33,12 +34,14 @@ class LocalisedText
 			:techreport => 'Technical report',
 			:Paper => 'Paper',
 			:Poster => 'Poster',
+			:Propositions => 'Propositions',
 			:Slides => 'Slides',
 			:www => 'External link',
 			:Unknown => 'Unknown'
 		},
 		:es => {
 			:and => 'y',
+			:Buy => 'Comprar',
 			:In => 'En',
 			:eds => 'eds.',
 			:Chapter => 'capítulo',
@@ -48,6 +51,7 @@ class LocalisedText
 			:techreport => 'Reporte técnico',
 			:Paper => 'Artículo',
 			:Poster => 'Póster',
+			:Propositions => 'Proposiciones',
 			:Slides => 'Presentación',
 			:www => 'Enlace externo',
 			:Unknown => 'Desconocido'
