@@ -37,10 +37,19 @@ class ImbiberTag < Liquid::Tag
 			end
 		end
 		@imbiber = Imbiber.new(@arguments)
-		@imbiber.read(@file)
 	end
 
 	def render(context)
+
+		# Convert relative paths
+		if @file[0] != "." && @file[0] != "/" then
+			@file = context.registers[:site].config["source"] + "/" + @file
+		end
+
+		# Read file
+		@imbiber.read(@file)
+
+		# Call imbiber
 		if @arguments.has_key?(:one) then
 			@imbiber.html_of(@arguments[:one].to_sym)
 		else
