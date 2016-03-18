@@ -14,7 +14,7 @@ permalink: /education/msctopics/
 
 ## Semantic Feature Matching
 
-![](img/tnosemantic.png){:width="500px"}
+![](img/tnosemantic.png){:width="400px"}
 
 For large parts of the world, the available 3D geoinformation is limited, outdated or inaccurate. To cost-effectively obtain an up to date and high-resolution 3D (urban) environment model, automated 3D reconstruction techniques need to be applied on raw elevation and imagery sensor data, in order to find which features (vegetation, buildings, etc.) are present in the terrain and the representation of the relevant feature properties (tree species, roof type). Semantic model based feature matching is a reconstruction approach where a priori knowledge on the environment is used to represent and constrain a search space of possible feature models that can be found in the terrain. 
 
@@ -26,7 +26,7 @@ The key in this research is to devise semantic model representations and search 
 
 ## DTM Filtering for Photogrammetric DSM’s
 
-![](img/tnodtm.png){:width="500px"}
+![](img/tnodtm.png){:width="700px"}
 
 Although laser point clouds have become a common data resource for world modelling, photogrammetrically derived digital surface models are still widely used as the basis for a terrain modelling work flow. With current high resolution camera systems, highly detailed Digital Surface Models (DSM) can be obtained. Digital Terrain Model (DTM) filtering is used to remove features from the DSM and obtain a ground level elevation model. Although DTM filtering is a very basic step in terrain modelling, it is still a challenging task. One of the difficulties is the filtering of forested areas in hilly terrain, but also rough terrain is often not a trivial case.
 
