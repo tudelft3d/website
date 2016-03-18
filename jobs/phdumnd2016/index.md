@@ -75,3 +75,4 @@ Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and 
 
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl> or +31 6 52 06 2383).
 
+* Medieval castle by [boldmachines](http://www.thingiverse.com/thing:862724).
