@@ -5,9 +5,7 @@ permalink: /jobs/phdumnd2016/
 ---
 
 <div class="row">
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/genz.jpg" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/link2.jpg" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/ds.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/phd-banner.jpg" | prepend: site.baseurl }}"></div>
 </div>
 
 - - - 
