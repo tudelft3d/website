@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+map: true
 ---
 
 The 3D geoinformation research group is part of the [Department of Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/), [Faculty of Architecture and the Built Environment](http://www.bk.tudelft.nl) of the [Delft University of Technology](http://www.tudelft.nl), and is affiliated with [AMS, the Amsterdam Institute for Advanced Metropolitan Solutions](http://www.ams-institute.org). 
@@ -91,7 +92,7 @@ Our research funding mostly comes from the following organisations:
 <h2 id="where">Our offices</h2>
 
 <div class="col-md-4">
-  <i class="fa fa-map-marker fa-fw">     </i> Room BG.WEST.010 (building #8) <br>
+  <i class="fa fa-map-marker fa-fw">     </i> Room BG.West.010 (building #8) <br>
   <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
   <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
   <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
@@ -103,7 +104,74 @@ Our research funding mostly comes from the following organisations:
 <div class="col-md-8">
   <div id="map"></div>
 </div>
-
-<script src="//d19vzq90twjlae.cloudfront.net/leaflet-0.4/leaflet.js"></script> 
-<script src="//cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js"></script>
-<script src="{{ "/assets/js/mymap.js" | prepend: site.baseurl }}"></script>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
+  var markers = {
+    "type": "FeatureCollection",                                                                   
+    "features": [{
+      "type": "Feature", 
+      "properties": { 
+        "description": "<h3>3D Geoinformation</h3><p>Room BG.West.010</p>"
+      }, 
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [ 4.37036640026392, 52.004713684518933, 0.0 ] 
+      }
+    }]
+  }
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/kenohori/cim0i33ql00jmbjlw9l1pro1i',
+    center: [4.37036640026392, 52.004713684518933],
+    zoom: 15.5
+  });
+  map.on('style.load', function() {
+    // Add marker data as a new GeoJSON source.
+    map.addSource("markers", {
+      "type": "geojson",
+      "data": markers
+    });
+    // Add a layer showing the markers.
+    map.addLayer({
+      "id": "markers",
+      "interactive": true,
+      "type": "symbol",
+      "source": "markers",
+      "layout": {
+          "icon-image": "{marker-symbol}-15",
+          "icon-allow-overlap": true
+      }
+    });
+  });
+  var popup = new mapboxgl.Popup();
+  // When a click event occurs near a marker icon, open a popup at the location of
+  // the feature, with description HTML from its properties.
+  map.on('click', function (e) {
+    map.featuresAt(e.point, {
+      radius: 50, // Half the marker size.
+      includeGeometry: true,
+      layer: 'markers'
+    }, function (err, features) {
+      if (err || !features.length) {
+        popup.remove();
+        return;
+      }
+      var feature = features[0];
+      // Populate the popup and set its coordinates
+      // based on the feature found.
+      popup.setLngLat(feature.geometry.coordinates)
+        .setHTML(feature.properties.description)
+        .addTo(map);
+    });
+  });
+  // Use the same approach as above to indicate that the symbols are clickable
+  // by changing the cursor style to 'pointer'.
+  map.on('mousemove', function (e) {
+    map.featuresAt(e.point, {
+      radius: 50, // Half the marker size.
+      layer: 'markers'
+    }, function (err, features) {
+      map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
+    });
+  });
+</script>
