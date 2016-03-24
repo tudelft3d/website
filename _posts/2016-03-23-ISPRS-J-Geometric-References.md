@@ -5,21 +5,14 @@ categories: news
 date: 2016-03-23 21:03
 ---
 
-The level of detail (LOD) concept conveys the grade of 3D city models, however, it still allows flexibility for different modelling choices. For instance, consider the following four (valid) variants of LOD1:
+We have published a new article in the [Computers & Geosciences](http://www.journals.elsevier.com/computers-and-geosciences/) journal.
 
-<img src="{{ site.baseurl }}/img/2016/ISPRS-GR-2.png"/><br>
+*Robust approximation of the Medial Axis Transform of LiDAR point clouds as a tool for visualisation*. Ravi Peters and Hugo Ledoux. _Computers & Geosciences 90(A)_, March 2016, pp. 123–133. 
 
-These variants, which we term <i>geometric references</i>, are a topic of our new paper which has been published in the ISPRS Journal of Photogrammetry and Remote Sensing:
+The freely available author's version PDF is available [here](https://3d.bk.tudelft.nl/rypeters/pdfs/16candg.pdf). Please use the [publisher's version](http://dx.doi.org/10.1016/j.cageo.2016.02.019) if available to you.
 
-Biljecki, F., Ledoux, H., Stoter, J., & Vosselman, G. (2016). The variants of an LOD of a 3D building model and their influence on spatial analyses. ISPRS Journal of Photogrammetry and Remote Sensing, 116, 42–54. [doi:10.1016/j.isprsjprs.2016.03.003](http://doi.org/10.1016/j.isprsjprs.2016.03.003)
+----
+<iframe src="https://player.vimeo.com/video/160251174" width="780" height="445" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+----
 
-The freely available author's version PDF is available [here](http://filipbiljecki.com/publications/Biljecki2016wt.pdf). Please use the [publisher's version](http://doi.org/10.1016/j.isprsjprs.2016.03.003) if available to you.
-
-
-<img src="{{ site.baseurl }}/img/2016/ISPRS-GR-1.png"/><br>
-
-Abstract: The level of detail (LOD) of a 3D city model indicates the model's grade and usability. However, there exist multiple valid variants of each LOD. As a consequence, the LOD concept is inconclusive as an instruction for the acquisition of 3D city models. For instance, the top surface of an LOD1 block model may be modelled at the eaves of a building or at its ridge height. Such variants, which we term geometric references, are often overlooked and are usually not documented in the metadata. Furthermore, the influence of a particular geometric reference on the performance of a spatial analysis is not known.
-
-In response to this research gap, we investigate a variety of LOD1 and LOD2 geometric references that are commonly employed, and perform numerical experiments to investigate their relative difference when used as input for different spatial analyses. We consider three use cases (estimation of the area of the building envelope, building volume, and shadows cast by buildings), and compute the deviations in a Monte Carlo simulation.
-
-The experiments, carried out with procedurally generated models, indicate that two 3D models representing the same building at the same LOD, but modelled according to different geometric references, may yield substantially different results when used in a spatial analysis. The outcome of our experiments also suggests that the geometric reference may have a bigger influence than the LOD, since an LOD1 with a specific geometric reference may yield a more accurate result than when using LOD2 models.
+_Abstract:_ Governments and companies around the world collect point clouds (datasets containing elevation points) because these are useful for many applications, e.g. to reconstruct 3D city models, to understand and predict the impact of floods, and to monitor dikes. We address in this paper the visualisation of point clouds, which is perhaps the most essential instrument a practitioner or a scientist has to analyse and understand such datasets. We argue that it is currently hampered by two main problems: (1) point clouds are often massive (several billion points); (2) the viewer's perception of depth and structure is often lost (because of the sparse and unstructured points). We propose solving both problems by using the Medial Axis Transform (MAT) and its properties. This allows us to (1) smartly simplify a point cloud in a geometry-dependent way (to preserve only significant features), and (2) to render splats whose radii are adaptive to the distribution of points (and thus obtain less “holes” in the surface). Our main contribution is a series of heuristics that allows us to compute the MAT robustly for noisy real-world LiDAR point clouds, and to compute the MAT for point clouds that do not fit into the main memory. We have implemented our algorithms, we report on experiments made with point clouds (of more than one billion points), and we demonstrate that we are able to render scenes with much less points than in the original point cloud (we preserve around 10%) while retaining good depth-perception and a sense of structure at close viewing distances.
