@@ -28,6 +28,12 @@
   fundingurl: http://www.stw.nl
   image: 3dsm.jpg
 
+- name: Hidden Amsterdam
+  description: "We help find 'hidden parts' of Amsterdam with 3D city models"
+  webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
+  image: haf.png
+
+
 - name: Quality control of 3D city models
   description: "Validation and quality control of (coming soon: all features) in 3D city models"
   webpage: http://geovalidation.bk.tudelft.nl/val3dity
