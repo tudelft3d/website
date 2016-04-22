@@ -35,11 +35,17 @@
   start: 2016-09-27
   end: 2016-09-30
 
+- name: 5th International FIG Workshop on 3D Cadastres
+  url: http://3dathens2016.gr/
+  place: Athens, Greece
+  start: 2016-10-18
+  end: 2016-10-20
+
 - name: 11th 3D Geoinfo Conference 
   url: http://3dathens2016.gr/site/
   place: Athens, Greece
-  start: 2016-10-21
-  end: 2016-10-22
+  start: 2016-10-20
+  end: 2016-10-21
 
 - name: 19th AGILE International Conference on Geographic Information Science
   url: http://www.agile-online.org/index.php/conference/conference-2016?layout=edit&id=284
