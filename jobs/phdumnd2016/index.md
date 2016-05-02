@@ -4,6 +4,8 @@ title:  PhD position vacancy
 permalink: /jobs/phdumnd2016/
 ---
 
+<div class="alert alert-danger" role="alert">2016-05-02: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/jobs/phdumnd2016/img/phd-banner.jpg" | prepend: site.baseurl }}"></div>
 </div>
@@ -58,11 +60,11 @@ Prior experience with GIS is highly desirable.
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
-Deadline is April 30th 2016 at 23:59 CET.
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
 </div>
 
-
+<del>
 To apply, please submit: 
 
 - a detailed CV and a letter of application,
@@ -74,7 +76,7 @@ To apply, please submit:
 Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-08__.
 
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<mailto:j.e.stoter@tudelft.nl>).
-
+</del>
 - - -
 
 Sources of figures: Medieval castle by [boldmachines](http://www.thingiverse.com/thing:862724). Structure of [Nef polyhedra](http://doc.cgal.org/latest/Nef_3/index.html) in CGAL.
