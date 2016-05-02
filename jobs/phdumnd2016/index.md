@@ -64,7 +64,6 @@ Prior experience with GIS is highly desirable.
 Deadline has passed, you can't apply anymore.
 </div>
 
-<del>
 To apply, please submit: 
 
 - a detailed CV and a letter of application,
@@ -73,10 +72,11 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
+<del>
 Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-08__.
+</del>
 
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<mailto:j.e.stoter@tudelft.nl>).
-</del>
 - - -
 
 Sources of figures: Medieval castle by [boldmachines](http://www.thingiverse.com/thing:862724). Structure of [Nef polyhedra](http://doc.cgal.org/latest/Nef_3/index.html) in CGAL.
