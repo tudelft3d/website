@@ -76,7 +76,10 @@ To apply, please submit:
 Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-08__.
 </del>
 
+<del>
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<mailto:j.e.stoter@tudelft.nl>).
+</del>
+
 - - -
 
 Sources of figures: Medieval castle by [boldmachines](http://www.thingiverse.com/thing:862724). Structure of [Nef polyhedra](http://doc.cgal.org/latest/Nef_3/index.html) in CGAL.
