@@ -191,26 +191,6 @@ Upon successful completion of this topic, the student will become proficient wit
 
 - - -
 
-## Voxel to Object for Geological Survey of NL
-
-The Geological Survey of the Netherlands produces an advanced 3D raster based (100x100x0.5 m^3) model of the top 30 meters of the Dutch subsurface (GeoTop) as one of the products of the Key Registration Subsurface. At present the West of the country is ready. When fully finalized it will contain some 200 million voxels with all physico-chemical properties relevant in the Dutch situation.In the last few years in various domains new 3d object oriented information models and application environments have been adopted (CityGML, BIM ). For combined analysis of the subsurface and the built environment, e.g. in questions concerning the potential of subsurface heat and cold storage in urban areas, interactions between voxel and object models are needed. In this project the student will explore and design various concepts for conversion of voxels (GeoTop ) to object-oriented (CityGML). The research should report on advantages and disadvantages of various approaches of storage for use in combination with object oriented user application environments like CityGML.
-
-The student could carry (part of) his/her work at TNO.
-
-*Contact:* [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova)
-
-- - - 
-
-## 3D Path-finding in a voxelized model of indoor environments
-
-Voxelisation is an approach to represent 3D grid. Voxel-based models describe indoor space in a discrete form. In contrast to the commonly used boundary representation (B-Rep), voxel representation allows for better analysis of the *empty* space. Therefore, voxelized building models can be very appropriate for 3D indoor navigation. Currently path-finding is mostly conducted on 2D or 2,5D representations (e.g. floor plans and indoor surface models) of indoor environments. However, these approaches cannot deal with some cases such as "going under or above obstacles", "moving at a certain height (e.g. flying)" or avoiding overhanging parts.
-This research aims at developing a voxel-based path-finding method to obtain specific 3D paths in terms of distinct requirements ( e.g. on surface and in the air) at different modes ( e.g. normal case or emergency). Research questions to be investigated are: the data structure to organise the voxels, the required semantic information and the path-finding algorithms for different modes.
-
-*Contact:* [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova)
-
-- - - 
-
-
 ## FaciliDat: 3D Indoor model and a database schema for facility management  
 
 Most building managers have little to no information about the indoor status of their buildings: the number of buildings, their structure, rooms, size of windows, doors, area of room floors, etc. Many maintenance daily and yearly tasks such as cleaning, renovation, painting, refurnishing, safety are performed in an ad-hoc manner, which cost extra effort and money. There is great interest in a 3D indoor model, which geometry, topology and semantic information will serve the tasks of the building managers. 
