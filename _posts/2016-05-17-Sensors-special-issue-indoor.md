@@ -5,7 +5,7 @@ categories: news
 date: 2016-05-17 11:00
 ---
 
-We have published a Special issue on [Sensors for Indoor Mapping and Navigation])http://www.mdpi.com/journal/sensors/special_issues/indoor_sensors).
+We have published a Special issue on [Sensors for Indoor Mapping and Navigation](http://www.mdpi.com/journal/sensors/special_issues/indoor_sensors).
 
 53 papers give an overview on the state-of-the art in indoor localisation, tracking and mapping.
  
