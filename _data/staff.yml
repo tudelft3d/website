@@ -15,6 +15,12 @@
   homepage: 3d.bk.tudelft.nl/adiakite
   email: a.a.diakite@tudelft.nl
   description: "Design and implementation of an SDI for integrated environmental modelling in 3D"
+  
+- surname: Commandeur
+  name: Tom
+  title: Researcher
+  photo: tom.jpg
+  email: t.j.f.commandeur@tudelft.nl
 
 - surname: Du
   name: Xin
