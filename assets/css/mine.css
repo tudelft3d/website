@@ -178,7 +178,7 @@ footer {
   color: #2c3e50;
   border-left: 2px solid transparent;
   padding: 4px 20px;
-  /*font-size: 18px;*/
+  font-size: 16px;
 }
 
 /* nested links */
@@ -187,7 +187,7 @@ footer {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 30px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -203,11 +203,11 @@ footer {
 }
 
 /* hide inactive nested list */
-/*.papers-sidebar .nav ul.nav {
-    display: none;
-}*/
+.papers-sidebar .nav ul.nav {
+  display: none;
+}
 
 /* show active nested list */
-/*.papers-sidebar .nav>.active>ul.nav {
-    display: block;
-}*/
+.papers-sidebar .nav>.active>ul.nav {
+  display: block;
+}
