@@ -7,19 +7,41 @@ scrollspy: sidebar
 
 <div class="row">
 	<div class="col-md-9" role="main">
-		{% imbiber pubs/all.bib groupby:class idswithprefix:type_ %}
+		{% imbiber pubs/all.bib groupby:classthenyear idswithprefix:type_ %}
 	</div>
 	<div class="col-md-3" role="complementary">
 		<div id="sidebar" class="papers-sidebar" role="complementary" data-spy="affix">
 			<h2>Go to</h2>
 			<ul class="nav nav-stacked">
 				<li><a href="#type_article">Journal articles</a></li>
+				<ul class="nav nav-stacked">
+					<li><a href="#type_article2016">2016</a></li>
+					<li><a href="#type_article2015">2015</a></li>
+					<li><a href="#type_article2014">2014</a></li>
+					<li><a href="#type_article2013">2013</a></li>
+				</ul>
 				<li><a href="#type_proceedings">Conference proceedings</a></li>
 				<li><a href="#type_incollection">Conference articles (in book)</a></li>
+				<ul class="nav nav-stacked">
+					<li><a href="#type_incollection2016">2016</a></li>
+					<li><a href="#type_incollection2015">2015</a></li>
+					<li><a href="#type_incollection2014">2014</a></li>
+					<li><a href="#type_incollection2013">2013</a></li>
+				</ul>
 				<li><a href="#type_inproceedings">Conference articles</a></li>
+				<ul class="nav nav-stacked">
+					<li><a href="#type_inproceedings2015">2015</a></li>
+					<li><a href="#type_inproceedings2014">2014</a></li>
+					<li><a href="#type_inproceedings2013">2013</a></li>
+				</ul>
 				<li><a href="#type_phdthesis">PhD theses</a></li>
 				<li><a href="#type_techreport">Technical reports</a></li>
 				<li><a href="#type_misc">Others</a></li>
+				<!-- <ul class="nav nav-stacked">
+					<li><a href="#type_misc2015">2015</a></li>
+					<li><a href="#type_misc2014">2014</a></li>
+					<li><a href="#type_misc2013">2013</a></li>
+				</ul> -->
 			</ul>
 		</div>
 	</div>

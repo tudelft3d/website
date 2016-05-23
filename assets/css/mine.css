@@ -182,28 +182,32 @@ footer {
 }
 
 /* nested links */
-/*.papers-sidebar .nav .nav>li>a {
+.papers-sidebar .nav .nav>li>a {
   color: #999;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 30px;
-  font-size: 16px;
-}*/
+  font-size: 14px;
+}
+
 
 /* active & hover links */
 .papers-sidebar .nav>.active>a, 
 .papers-sidebar .nav>li>a:hover, 
 .papers-sidebar .nav>li>a:focus {
-  color: #4f7de6;
-  /*font-weight: bold;*/
+  color: #000;
+  font-weight: bold;
   text-decoration: none;
   background-color: transparent;
-  border-left-color: #30bfeb;
+  border-left-color: #4f7de6;
 }
 
-/* nested active links */
-/*.bs-docs-sidebar .nav .nav>.active>a, 
-.bs-docs-sidebar .nav .nav>.active:hover>a,
-.bs-docs-sidebar .nav .nav>.active:focus>a {
-  color: #000;
-}
+/* hide inactive nested list */
+/*.papers-sidebar .nav ul.nav {
+    display: none;
+}*/
+
+/* show active nested list */
+/*.papers-sidebar .nav>.active>ul.nav {
+    display: block;
+}*/
