@@ -6,7 +6,7 @@ date: 2016-05-23 08:48
 ---
 
 <img class="img-circle img-responsive" src="{{ "/img/staff/tom.jpg" | prepend: site.baseurl }}">
-Tom Commandeur has recently started a researcher in our research group, he will be mostly working on our [software to construct 3D city models](https://github.com/tudelft3d/3dfier), and will improve it so that we can automatically use it to reconstruct the whole of the Netherlands in 3D.
+Tom Commandeur has recently started as a researcher in our research group. He will be mostly working on our [software to construct 3D city models](https://github.com/tudelft3d/3dfier), and will improve it so that we can automatically use it to reconstruct the whole of the Netherlands in 3D.
 We aim at having a full 3DBGT datasets in the coming months.
 This will be done in collaboration with the [Kadaster](http://www.kadaster.nl).
 
