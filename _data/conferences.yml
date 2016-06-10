@@ -41,6 +41,12 @@
   start: 2016-10-18
   end: 2016-10-20
 
+- name: Indoor 3D Workshop
+  url: http://3dathens2016.gr/
+  place: Athens, Greece
+  start: 2016-10-19
+  end: 2016-10-19
+
 - name: 11th 3D Geoinfo Conference 
   url: http://3dathens2016.gr/site/
   place: Athens, Greece
