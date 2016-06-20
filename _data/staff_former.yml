@@ -1,3 +1,21 @@
+
+
+- surname: Li
+  name: Fangyu
+  title: Visiting scholar
+  photo: lfy.jpg
+  period: 2015-2016
+  # email: f.li-3@tudelft.nl
+  swapnames: true
+
+- surname: Wei
+  name: Shuangfeng
+  title: Visiting scholar
+  photo: shuangfeng.jpg
+  period: 2015-2016
+  # email: s.wei-1@tudelft.nl
+  swapnames: true
+
 - surname: Demir Özbek
   name: Elif
   title: Visiting PhD
