@@ -6,7 +6,7 @@ date: 2016-06-14 15:44
 ---
 
 
-The [TU Delft Research Exhibition 2016](http://www.dig-it.tudelft.nl/#projects) was held on 2 June 2016.
+The [TU Delft Research Exhibition 2016](http://www.dig-it.tudelft.nl/#project/14) was held on 2 June 2016.
 The aim was to connect researchers to the general public and companies, and this year more than 380 visitors from more than 125 companies visited the exhibition.
 
 We were honoured to having been chosen, as only 20 research projects were on display.
