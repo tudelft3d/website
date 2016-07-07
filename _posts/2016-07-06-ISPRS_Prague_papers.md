@@ -11,7 +11,7 @@ From the 12th to the 19th of July, will be held in Prague the [23rd ISPRS Congre
 <img class="img-responsive" src="{{ "/img/2016/isprs_header.png" | prepend: site.baseurl }}">
 
 <br>
-**Jantien Stoter, Vincent van Altena, Marc Pos<br>t, Dirk Burghardt, and Cecile Duchêne**
+**Jantien Stoter, Vincent van Altena, Marc Post, Dirk Burghardt, and Cecile Duchêne**
 [Automated generalisation within NMAs](http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B4/647/2016/)
 <br>Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLI-B4, 647-652 
 <br>doi:10.5194/isprs-archives-XLI-B4-647-2016, 2016
