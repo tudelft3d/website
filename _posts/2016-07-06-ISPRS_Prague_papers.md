@@ -7,6 +7,7 @@ date: 2016-07-07 9:30
 
 From the 12th to the 19th of July, will be held in Prague the [23rd ISPRS Congress](http://www.isprs2016-prague.com/). That event being a big rendez-vous for several GIS actors in the world, the 3D GeoInfomation of TU Delft greatly marks its presence with a total of 14 papers in which the team's members are involved. Jantien, Sisi, Kavisha and Abdou will be there to present some of the papers, that are already available online and detailed below.
 <br>
+<br>
 
 <img class="img-responsive" src="{{ "/img/2016/isprs_header.png" | prepend: site.baseurl }}">
 
