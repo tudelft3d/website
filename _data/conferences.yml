@@ -1,4 +1,10 @@
 
+- name: Agile 2017
+  url: https://agile-online.org/index.php/conference/conference-2017
+  place: Wageningen, the Netherlands
+  start: 2017-05-09 
+  end: 2017-05-12
+
 - name: 21st Annual International Conference on 3D Web Technology
   url: http://web3d2016.web3d.org
   place: Anaheim, California, USA
