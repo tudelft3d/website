@@ -18,7 +18,7 @@ His work will significantly improve the current semi-manual process that uses di
 <div class="row">
 {% for i in msc %}
 {% if i.surname == 'Broersen' %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-sm-6 col-md-2">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
