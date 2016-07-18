@@ -13,36 +13,11 @@ Congratulations!
 He worked on the automatic identification of water courses by using only the AHN3 dataset.
 His work will significantly improve the current semi-manual process that uses different 2D datasets and aerial imagery.
 
-{% assign msc = site.data.mscfinished | sort: 'surname' %}
+<br>
+**Tom Broersen**
+<br>Automatic identification of water courses from AHN3 in flat and engineered landscapes
+<br><small><a href="http://repository.tudelft.nl/islandora/object/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056/datastream/OBJ3/download"><i class="fa fa-book" title="thesis"></i></a></small>
 
-<div class="row">
-{% for i in msc %}
-{% if i.surname == 'Broersen' %}
-  <div class="col-sm-6 col-md-2">
-    <div class="thumbnail">
-      <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
-      <div class="caption">
-        <h3>
-          {{ i.name }} {{ i.surname }} 
-          <br />
-          <small>({{ i.year }})</small>
-        {% if i.link %}
-          <small><a href="{{ i.link }}"><i class="fa fa-book" title="thesis"></i></a></small>
-        {% endif %}
-        {% if i.paper %}
-          <small><a href="{{ i.paper }}"><i class="fa fa-file-text" title="paper"></i></a></small>
-        {% endif %}
-        {% if i.github %}
-          <small><a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a></small> 
-        {% endif %}
-        </h3>
-        <p>{{ i.title }}</p>
-      </div>
-    </div>
-  </div>
-{% endif %}
-{% endfor %}
-</div>
 
 - - -
 
