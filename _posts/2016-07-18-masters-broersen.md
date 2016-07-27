@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A new Msc thesis completed in our group
+title:  A new MSc thesis completed in our group
 categories: news
 date: 2016-07-18 12:16
 ---
