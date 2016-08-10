@@ -2,7 +2,7 @@
 - surname: Broersen 
   name: Tom 
   title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
-  link: http://repository.tudelft.nl/islandora/object/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
+  link: http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056
   image: broersen.png
   year: 2016
 
@@ -10,14 +10,14 @@
   name: Kees
   title: Automatic generation of raster-based height data for the Netherlands based on the AHN2 data set
   image: jonker.png
-  link: http://repository.tudelft.nl/view/ir/uuid%3Ab1d1c50d-24bf-4a12-b0e5-3c2479907d66/
+  link: http://resolver.tudelft.nl/uuid:b1d1c50d-24bf-4a12-b0e5-3c2479907d66/
   year: 2016
 
 - surname: Lam
   name: Marco
   title: Creating the medial axis transform for billions of lidar points using a memory efficient method
   image: lam.jpg
-  link: http://repository.tudelft.nl/view/ir/uuid%3A2452566b-058a-4fde-aa0e-e300421bb8b2/
+  link: http://resolver.tudelft.nl/uuid:2452566b-058a-4fde-aa0e-e300421bb8b2/
   year: 2016
 
 - surname: Ham
@@ -25,28 +25,28 @@
   van: van der
   title: Real time analyses of asset tracking in hospitals using indoor positioning technology
   image: martijn.png
-  link: http://repository.tudelft.nl/view/ir/uuid%3A31da4059-5dac-4e60-93d7-36cad2d8ab46/
+  link: http://resolver.tudelft.nl/uuid:31da4059-5dac-4e60-93d7-36cad2d8ab46/
   year: 2015
 
 - surname: Janssen
   name: Milo
   title: A 3D subsurface GIS - Adopting vector/voxel data to provide insights regarding climate adaptation and water related issues
   image: milo.jpg
-  link: http://repository.tudelft.nl/view/ir/uuid%3A7cec6091-5c62-4645-b2b2-c74c149e92a6/
+  link: http://resolver.tudelft.nl/uuid:7cec6091-5c62-4645-b2b2-c74c149e92a6/
   year: 2015
 
 - surname: Aarsen 
   name: Rosann
   title: Using sensor-data collected by a "meet rollator" for deriving outdoor accessibility information concerning mobility impaired people
   image: rosann.png
-  link: http://repository.tudelft.nl/view/ir/uuid%3A29fc70b1-c262-4f3d-837f-5ecddb56d6f0/
+  link: http://resolver.tudelft.nl/uuid:29fc70b1-c262-4f3d-837f-5ecddb56d6f0/
   year: 2015
 
 - surname: Wu
   name: Haoxiang
   swapnames: true
   title: 3D semantic model generation from 2D floor plans
-  link: http://repository.tudelft.nl/view/ir/uuid%3A26a4c6b8-8ea0-4246-b30e-5c83a28cccb4/
+  link: http://resolver.tudelft.nl/uuid:26a4c6b8-8ea0-4246-b30e-5c83a28cccb4/
   image: wu.png
   year: 2015
 
@@ -62,21 +62,21 @@
   name: Kaixuan
   swapnames: true
   title: Exploring Regularities for Improving Quality of Facade Reconstruction from Point Cloud
-  link: http://repository.tudelft.nl/view/ir/uuid%3A8f548788-1e42-475b-adbf-93f9dbcd04a1/
+  link: http://resolver.tudelft.nl/uuid:8f548788-1e42-475b-adbf-93f9dbcd04a1/
   image: zhou.png
   year: 2015
 
 - surname: Chen 
   name: Carl
   title: Edge-aware simplification of roof and facade point clouds into a uniformly dense point cloud
-  link: http://repository.tudelft.nl/view/ir/uuid%3A662fad08-51a9-4f8d-acb1-4caf78d602bb/
+  link: http://resolver.tudelft.nl/uuid:662fad08-51a9-4f8d-acb1-4caf78d602bb/
   image: carl.jpg
   year: 2015
 
 - surname: Mulder
   name: Damien
   title: Automatic repair of 3D city building models using a voxel-based repair method
-  link: http://repository.tudelft.nl/view/ir/uuid%3A8ef4459d-b940-4007-bc3c-d87349015129/ 
+  link: http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129/ 
   image: damien.jpg
   github: https://github.com/dtmulder/VoxelRepair
   year: 2015
@@ -84,7 +84,7 @@
 - surname: Pronk
   name: Maarten 
   title: Storing massive TINs in a DBMS - A comparison and a prototype implementation of the multistar approach
-  link: http://repository.tudelft.nl/view/ir/uuid%3Ada6b7329-f45b-4560-8374-bb522e78121f/
+  link: http://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f/
   image: maarten.png
   github: https://github.com/evetion/multistar
   year: 2015
@@ -101,7 +101,7 @@
 - surname: Donkers
   name: Sjors 
   title: Automatic generation of CityGML LoD3 building models from IFC models
-  link: http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/
+  link: http://resolver.tudelft.nl/uuid:31380219-f8e8-4c66-a2dc-548c3680bb8d/
   image: sjors.png
   github: https://github.com/tudelft3d/ifc2citygml
   paper: http://doi.org/10.1111/tgis.12162
@@ -110,7 +110,7 @@
 - surname: Krūminaitė
   name: Marija 
   title: Space subdivision for indoor navigation
-  link: http://repository.tudelft.nl/view/ir/uuid%3Ac2a9a308-5cdc-4df2-bf30-9eea5ea176c5/
+  link: http://resolver.tudelft.nl/uuid:c2a9a308-5cdc-4df2-bf30-9eea5ea176c5/
   image: marija.png
   year: 2014
 
@@ -133,7 +133,7 @@
   name: Lars 
   van: de
   title: A research towards completing the asset information life cycle -- An analysis of the relationships between data exchange, BIM and the asset life cycle and the solutions to overcome existing issues at Amsterdam Airport Schiphol.
-  link: http://repository.tudelft.nl/view/ir/uuid%3A88b6c2fc-b182-4fb2-98c8-25b6a24292ce/
+  link: http://resolver.tudelft.nl/uuid:88b6c2fc-b182-4fb2-98c8-25b6a24292ce/
   image: lars.png
   year: 2013
 
@@ -141,7 +141,7 @@
   name: Karl 
   van: van
   title: Automatically deriving and updating attribute road data from movement trajectories
-  link: http://repository.tudelft.nl/view/ir/uuid%3Aeec252e0-1a6b-4a3a-a167-45aaadc2bb7f/
+  link: http://resolver.tudelft.nl/uuid:eec252e0-1a6b-4a3a-a167-45aaadc2bb7f/
   paper: http://doi.org/10.1111/tgis.12186
   image: karl.png
   year: 2014
@@ -150,7 +150,7 @@
   name: Weilin 
   swapnames: true
   title: Spatial model-aided indoor tracking
-  link: http://repository.tudelft.nl/view/ir/uuid%3A8fd6a9ef-3dfb-4bd1-b54e-44d5b2cca973/
+  link: http://resolver.tudelft.nl/uuid:8fd6a9ef-3dfb-4bd1-b54e-44d5b2cca973/
   image: xu.png
   year: 2014
 
