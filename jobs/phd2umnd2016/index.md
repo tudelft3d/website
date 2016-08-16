@@ -65,9 +65,9 @@ Prior experience with GIS is highly desirable.
 
 ## How to apply
 
-<!-- <div class="alert alert-danger" role="alert">
-Deadline has passed, you can't apply anymore.
-</div> -->
+<div class="alert alert-info" role="alert">
+Deadline is September 30th 2016 at 23:59 CET.
+</div>
 
 To apply, please submit: 
 
