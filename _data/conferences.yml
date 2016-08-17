@@ -1,3 +1,13 @@
+- name: XXIVth ISPRS Congress
+  url: http://www.isprs2020-nice.science
+  place: Nice, France
+  start: 2020-07-12
+  end: 2020-07-17
+
+- name: ISPRS Geospatial Week 2017
+  place: Wuhan, China
+  start: 2017-09-18
+  end: 2017-09-22
 
 - name: Agile 2017
   url: https://agile-online.org/index.php/conference/conference-2017
