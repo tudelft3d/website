@@ -8,7 +8,7 @@ permalink: /jobs/phd2umnd2016/
  -->
 
 <div class="row">
-	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/jobs/phdumnd2016/img/phd-banner.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/jobs/phd2umnd2016/img/phd-banner.jpg" | prepend: site.baseurl }}"></div>
 </div>
 
 - - - 
