@@ -138,7 +138,7 @@ Every 3D city model has a level of detail, a measure that indicates its grade, u
 However, this is not always the case, and the number of non-homogeneous datasets with variable LOD is increasing. The goal of this project is to build and implement a method that is able to automatically deduce the level of detail of a 3D GIS dataset.
 
 
-*Contact:* [Filip Biljecki](http://tudelft.nl/biljecki)
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Filip Biljecki](http://tudelft.nl/biljecki)
 
 - - -
 
