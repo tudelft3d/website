@@ -14,7 +14,7 @@ A few from our group (Hugo Ledoux, Jantien Stoter, and Filip Biljecki) contribut
 We were in charge of the part concerned with the validation of the geometry.
 We have among others developed different unit tests that help software developers test if their implementation of the geometry is ISO1910-compliant (thus CityGML-compliant); these can be downloaded on [this GitHub page](https://github.com/tudelft3d/CityGML-QIE-3Dvalidation).
 
-![]({{ site.baseurl }}/img/2016/3dtests.jpg)
+![]({{ site.baseurl }}/img/2016/3dtest.jpg)
 
 Our own implementation of a geometry validator, called val3dity, is freely available and can be used by everyone (its [source code](https://github.com/tudelft3d/val3dity), its [easy-to-use web interface](http://geovalidation.bk.tudelft.nl/val3dity/)), and its [Windows EXE](https://github.com/tudelft3d/val3dity/releases)).
 The 3D primitives of GML (`<gml:Solid>`, `<gml:CompositeSurface>`, or `<gml:MultiSurface>`) are what it was built for, but it can be used to validate any 3D primitive, also in other formats. 
