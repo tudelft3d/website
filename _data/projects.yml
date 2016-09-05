@@ -44,6 +44,8 @@
 - name: Hidden Amsterdam
   description: "We help find 'hidden parts' of Amsterdam with 3D city models"
   webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
+  funding: AMS
+  fundingurl: http://www.ams-institute.org
   image: haf.png
 
 - name: Quality control of 3D city models
