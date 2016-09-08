@@ -129,19 +129,6 @@ For instance: creation of interior rooms at different LODs (interior used to be 
 
 - - -
 
-## Automatic guesstimation of the level of detail of a 3D city model
-
-![](img/CityGML-LOD.png){:width="800px"}
-
-Every 3D city model has a level of detail, a measure that indicates its grade, usability and value. The LOD of a 3D city model is usually stored in the metadata, but it can also be evident from a quick inspection.
-
-However, this is not always the case, and the number of non-homogeneous datasets with variable LOD is increasing. The goal of this project is to build and implement a method that is able to automatically deduce the level of detail of a 3D GIS dataset.
-
-
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Filip Biljecki](http://tudelft.nl/biljecki)
-
-- - -
-
 ## Estimating the cooling demand with 3D city models
 
 This MSc thesis will be conducted in collaboration with the [European Institute for Energy Research (EIFER)](http://www.eifer.org).
@@ -157,8 +144,6 @@ It involves:
 For more information, please read [here](https://lsecities.net/publications/reports/cities-and-energy-urban-morphology-and-heat-energy-demand/
 ) about a project that EIFER led with the LSE for studying the relation between urban morphology and cooling demand.
 
-
-
 *Contact:* [Filip Biljecki](http://tudelft.nl/biljecki)
 
 - - -
@@ -173,8 +158,6 @@ This MSc thesis will investigate visibility algorithms and potential application
 
 
 - - -
-
-
 
 ## Automatic matching of 3D city models 
 

@@ -1,3 +1,17 @@
+
+## Automatic guesstimation of the level of detail of a 3D city model
+
+![](img/CityGML-LOD.png){:width="800px"}
+
+Every 3D city model has a level of detail, a measure that indicates its grade, usability and value. The LOD of a 3D city model is usually stored in the metadata, but it can also be evident from a quick inspection.
+
+However, this is not always the case, and the number of non-homogeneous datasets with variable LOD is increasing. The goal of this project is to build and implement a method that is able to automatically deduce the level of detail of a 3D GIS dataset.
+
+
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Filip Biljecki](http://tudelft.nl/biljecki)
+
+- - -
+
 ## Generalisation of semantic 3D city models
 
 Generalisation from a higher to a lower level of detail of a dataset is one of the key research topics in cartography (maps/scale) and computer graphics (3D models/simplification). 
