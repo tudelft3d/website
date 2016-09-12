@@ -24,3 +24,4 @@ This surface will then be used as input in simulation software for instance.
 
 The code is in beta, although it is in our opinion usable. 
 If you use it, feedback is very much appreciated.
+This work is partly sponsored by Kadaster.
