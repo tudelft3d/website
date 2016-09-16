@@ -2,6 +2,7 @@
 - name: 3dfier
   description: Takes 2D GIS datasets and "3dfies" them by lifting each polygon to its height (obtained with LiDAR)
   github: https://github.com/tudelft3d/3dfier
+  video: https://vimeo.com/181421237
   image: 3dfier.jpg
 
 - name: pprepair
