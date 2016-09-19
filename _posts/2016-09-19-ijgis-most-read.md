@@ -13,7 +13,7 @@ We are pleased to learn from the editors of the [International Journal of Geogra
 * **Biljecki F** (2016): A scientometric analysis of selected GIScience journals. *International Journal of Geographical Information Science*, 30(7): 1302-1335.<br>
 [doi:10.1080/13658816.2015.1130831](http://dx.doi.org/10.1080/13658816.2015.1130831)
 
-The most read papers will be presented at the AAG Annual Meeting 2017 in Boston, USA.
-IJGIS is the flagship journal of geographical information science, with the first issue published in 1989 (for other relevant journals in the field, feel free to have a look at our [curated list of GIScience journals]({{ site.baseurl }}/journals/)).
+The most read papers will be presented at the [Association of American Geographers (AAG)](http://www.aag.org) Annual Meeting 2017 in Boston, USA.
+IJGIS is the flagship journal of geographical information science, with the first issue published in 1987 (for other relevant journals in the field, feel free to have a look at our [curated list of GIScience journals]({{ site.baseurl }}/journals/)).
 
 We thank the readers for their interest, and we remain committed in carrying out [research]({{ site.baseurl }}/projects/) of high relevance to the GIScience community. For our other recently published work please see [our list of publications]({{ site.baseurl }}/pubs/). You are welcome to follow us at [our blog]({{ site.baseurl }}/news/) or [Twitter](https://twitter.com/tudelft3d).
