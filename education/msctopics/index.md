@@ -187,6 +187,54 @@ Upon successful completion of this topic, the student will become proficient wit
 
 - - -
 
+## Shape grammar to subdivide spaces
+
+![](img/shape_grammar.png)
+
+Indoor environment in public buildings consist of very large spaces and usually it is difficult to give instructions how to get to a specific part of the such space. Therefore for indoor localisation and navigation, spaces are subdivided into functional areas. There several approaches to subdivide spaces. 
+
+This research will concentrate on space subdivision using shape grammar. A shape grammar consists of number of shape rules and a generation process that selects and processes rules. In general, shape rule specifies the transformations on  existing (part of a) shape. This research is part of [SIMs3D](www.sims3d.net) project.
+
+*Contact:* [Abdoulaye Diakité](http://3d.bk.tudelft.nl/adiakite)
+
+- - -
+
+## Octree – Indoor/Outdoor navigation
+
+![](img/octree_nav.png)
+
+3D raster representation is increasingly gaining the interest of the researchers. They are simple structures but usually result in large data sets. Therefore in previous research we have investigated Octree data structure and its use for indoor path computation.
+
+This research topic will continue and extend previous work by considering rasterization of outdoor space. The goal is to investigate what kind of Octree would be needed for seamless indoor/outdoor navigation. 
+
+*Contact*: [Sisi Zlatanova](http://3d.bk.tudelft.nl/szlatanova) 
+
+- - -
+
+## Indoor modelling with the Google Tango tablet
+
+![](img/tango.png)
+
+The Google Tango tablet is a very intuitive, interactive and interesting tool for indoor scanning. The device contains suitable sensors to rapidly produce 3D models. But the few apps available for this task are very limited, and only provides either an already processed mesh or point cloud samples. 
+
+The goal of this research is to evaluate to which extent the tablet can be used for indoor modelling. It is about fully exploiting the skills of the tablet to extract proper point clouds and perform semantically rich surface reconstruction, by relying on other information such as the scanning trajectories, the coloured pictures of the environment, etc. 
+
+*Contact:* [Abdoulaye Diakité](http://3d.bk.tudelft.nl/adiakite)
+
+- - -
+
+## Dynamic changes of the 3D indoor spaces
+
+In order to perform fine-grained indoor navigation, one needs to consider the entire 3D free and non-free space. The non-free space is often characterized by furniture elements and people activities (crowd, queue, etc).  The free space that is available for navigation cannot be evaluated without considering the obstacles. This problem is even more complex because the obstacles can move in the indoor space.
+
+![](img/dynamic_indoor.png)
+
+The goal of this research is to investigate the best way to consider the moving objects in an indoor environment to optimally evaluate the real free space available for navigation. This research is part of [SIMs3D](www.sims3d.net) project.
+ 
+*Contact:* [Abdoulaye Diakité](http://3d.bk.tudelft.nl/adiakite)
+
+- - -
+
 ## FaciliDat: 3D Indoor model and a database schema for facility management  
 
 Most building managers have little to no information about the indoor status of their buildings: the number of buildings, their structure, rooms, size of windows, doors, area of room floors, etc. Many maintenance daily and yearly tasks such as cleaning, renovation, painting, refurnishing, safety are performed in an ad-hoc manner, which cost extra effort and money. There is great interest in a 3D indoor model, which geometry, topology and semantic information will serve the tasks of the building managers. 
