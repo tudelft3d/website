@@ -192,7 +192,7 @@ Upon successful completion of this topic, the student will become proficient wit
 Visualization is an important and complex issue in the context of 3D city models. The enormous amount of data to be fetched, the heterogeneity of data sources, and the complexity of rendering are only a few parts of this challenge. The project aims at investigating 3D tiling schemes for efficiently visualizing massive TINs in the context of 3D city models using [Cesium](https://cesiumjs.org) 3D webglobe.
 The knowledge of programming in C++ is required.
 
-*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
