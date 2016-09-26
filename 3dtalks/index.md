@@ -29,7 +29,7 @@ permalink: /3dtalks/
     <td>Date</td>
     <td>Presentor</td>
     <td>Title</td>
-    <td>Room</td>
+    <td>Room (at [BK-City](http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/)</td>
     <td>Time</td>
   </tr>
 
