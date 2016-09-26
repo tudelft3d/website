@@ -9,7 +9,7 @@ permalink: /3dtalks/
   <div class="col-xs-4 col-md-2">
     <img src="{{ "/img/logos/3dtalks2.png" | prepend: site.baseurl }}"/>
   </div>
-  <div class="col-sm-8 col-md-8">
+  <div class="col-xs-8 col-md-10">
     <p>Every 2 weeks, we hold talks about one aspect of 3D geoinformation.
     Either one staff of the group presents their latest results, or we invite someone from another university or from a company to present their results and/or latest developments.</p>
     <p>These are usually Fridays at 11:00--12:00, and everyone is welcome to join.</p>
