@@ -23,6 +23,8 @@ permalink: /3dtalks/
 {% assign today = 'now' | date: "%s" %}
 {% assign talks = site.data.3dtalks | sort: 'date' %}
 
+<div class="table-responsive">
+
 <table class="table table-striped">
 
   <tr class="info">
@@ -46,7 +48,8 @@ permalink: /3dtalks/
   {% endif %}  
   {% endfor %}
 
-</table>    
+</table> 
+</div>   
 
 - - -
 
@@ -55,6 +58,7 @@ permalink: /3dtalks/
 {% assign today = 'now' | date: "%s" %}
 {% assign talks = site.data.3dtalks | sort: 'date' %}
 
+<div class="table-responsive">
 <table class="table table-striped">
 
   <tr class="info">
@@ -77,3 +81,4 @@ permalink: /3dtalks/
   {% endfor %}
 
 </table>    
+</div>
