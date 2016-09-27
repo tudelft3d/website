@@ -11,6 +11,18 @@ permalink: /education/msctopics/
 
 - - -
 
+## 3D visualization of massive TINs
+
+![](img/3dtop10.jpg){:width="650px"}
+
+Visualization is an important and complex issue in the context of 3D city models. The enormous amount of data to be fetched, the heterogeneity of data sources, and the complexity of rendering are only a few parts of this challenge. The project aims at investigating 3D tiling schemes for efficiently visualizing massive TINs using [Cesium](https://cesiumjs.org) 3D webglobe.
+The knowledge of programming in C++ is required.
+
+*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
+
 ## Automatic repair of 3D buildings
 
 ![](img/repair.png){:width="650px"}
@@ -184,15 +196,6 @@ The standard ISO 19157:2013 Geographic information---Data quality is the princip
 Upon successful completion of this topic, the student will become proficient with this important standard, and potentially give valuable recommendations for the new version of the standard to the developers. 
 
 *Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
-
-- - -
-
-## 3D visualization of massive TINs
-
-Visualization is an important and complex issue in the context of 3D city models. The enormous amount of data to be fetched, the heterogeneity of data sources, and the complexity of rendering are only a few parts of this challenge. The project aims at investigating 3D tiling schemes for efficiently visualizing massive TINs using [Cesium](https://cesiumjs.org) 3D webglobe.
-The knowledge of programming in C++ is required.
-
-*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
