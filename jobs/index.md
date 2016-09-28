@@ -4,6 +4,11 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+[Assistant-professor 3D reconstruction of the built environment (tenure track)](/jobs/ud/)
+
+- - -
+
+
 <del>[PhD: 3D and 4D data for Urban modelling](/jobs/phd2umnd2016/)</del>
 <span class="label label-danger">closed</span> 
 
