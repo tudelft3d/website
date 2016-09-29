@@ -40,8 +40,8 @@ permalink: /3dtalks/
   {% if a >= today %}
     <tr>
       <td>{{ i.date  }}</td>
-      <td>{{ i.name }}</td>
-      <td>{{ i.title }}</td>
+      <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+      <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.room }}</td>
       <td>{{ i.time }}</td>
     </tr>
@@ -73,8 +73,8 @@ permalink: /3dtalks/
   {% if a < today %}
     <tr>
       <td>{{ i.date  }}</td>
-      <td>{{ i.name }}</td>
-      <td>{{ i.title }}</td>
+      <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+      <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.ppt }}</td>
     </tr>
   {% endif %}  
