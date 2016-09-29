@@ -70,14 +70,14 @@ If the candidate has less than five years of teaching experience and do not yet 
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Deadline to apply is 16 November 2016.
+Deadline to apply is 15 November 2016.
 </div>
 
 To apply, please submit: 
 
   - a letter of application and a detailed CV 
   - a list of publications, including a list of "top 3 articles" related to the position
-  - maximum 2 pages with 1) your short research statement (with you vision on future research directions); 2) your teaching statement (with goals and experience)
+  - maximum 2 pages with 1) your short research statement (with your vision on future research directions); 2) your teaching statement (with goals and experience)
   - the name of three referees, with contact information.
 
 Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-XX__.
