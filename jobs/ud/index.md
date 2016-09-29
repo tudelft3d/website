@@ -80,6 +80,6 @@ To apply, please submit:
   - maximum 2 pages with 1) your short research statement (with your vision on future research directions); 2) your teaching statement (with goals and experience)
   - the name of three referees, with contact information.
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-XX__.
+Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-32__.
 
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<mailto:j.e.stoter@tudelft.nl>).
