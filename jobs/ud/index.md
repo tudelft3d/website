@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Assistant-professor 3D reconstruction of the built environment (tenure track)
+title:  Assistant-professor 3D reconstruction for urban applications (tenure track)
 permalink: /jobs/ud/
 ---
 
@@ -15,13 +15,13 @@ permalink: /jobs/ud/
 
 ## Description of the position
 
-The [3D geoinformation research group](https://3d.bk.tudelft.nl) would like to consolidate and extend its research by adding a new knowledge domain: 3D data reconstruction.
-The research of the group has so far focused on data modelling, data structures, and dissemination of data in the context of urban applications; both outdoors (eg the modelling of buildings and the terrain) and indoors applications are equally important.
-With this new position we would like to cover the whole 3D geoinformation chain: from 3D data acquisition to the use of 3D data. 
-We expect the new assistant-professor to actively collaborate with the current staff and strengthen our research.
-
-The task of the assistant-professor is to start and lead a new research theme in the domain of automatic 3D data reconstruction; this should ideally be for both indoors and outdoors.
-The 3D input data may come from different sources (laserscanning, point clouds from dense image matching, terrestrial measurements, drones, etc).
+The [3D geoinformation research group](https://3d.bk.tudelft.nl) would like to consolidate and extend its research by adding an additional knowledge domain to its research: 3D object reconstruction for urban applications.
+The research of the group has so far focused on data modelling, data structures, and dissemination of data in the context of urban applications; both outdoor (e.g. the modelling of buildings and the terrain) and indoor applications are equally important. The applications cover for instance noise and air quality simulations, energy and safety applications, as well as indoor navigation applications for disaster management.
+With this new position we would like to cover the whole 3D geoinformation chain: from 3D data acquisition to the use of 3D data in decision making. 
+We expect the new assistant professor to actively collaborate with the current staff and strengthen our research.
+ 
+The task of the assistant professor is to start and lead this new research theme in the domain of automatic 3D object reconstruction for urban applications; this should ideally be for both indoors and outdoors.
+The 3D input data may come from different sources: laser scanning or images, from terrestrial or airborne platforms, manned or unmanned (drones), etc.
 The candidate will also have to teach in the [MSc Geomatics programme](http://geomatics.tudelft.nl), and potentially develop new courses related to his/her area of research.
 
 The expected starting date is 1 January 2017, or as soon as possible.
