@@ -4,8 +4,8 @@ title:  PhD position vacancy
 permalink: /jobs/phd2umnd2016/
 ---
 
-<!-- <div class="alert alert-danger" role="alert">2016-05-02: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
- -->
+<div class="alert alert-danger" role="alert">2016-10-01: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/jobs/phd2umnd2016/img/phd-banner.jpg" | prepend: site.baseurl }}"></div>
@@ -65,9 +65,10 @@ Prior experience with GIS is highly desirable.
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
-Deadline is September 30th 2016 at 23:59 CET.
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
 </div>
+
 
 To apply, please submit: 
 
@@ -78,9 +79,9 @@ To apply, please submit:
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-28__.
+<del>Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2016-28__.</del>
 
-
+<del>
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<mailto:j.e.stoter@tudelft.nl>).
-
+</del>
 

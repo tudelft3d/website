@@ -4,7 +4,8 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
-[PhD: 3D and 4D data for Urban modelling](/jobs/phd2umnd2016/)
+<del>[PhD: 3D and 4D data for Urban modelling](/jobs/phd2umnd2016/)</del>
+<span class="label label-danger">closed</span> 
 
 - - -
 
