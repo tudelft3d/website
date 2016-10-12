@@ -28,10 +28,37 @@
   ga('send', 'pageview');
 
 </script>
+
+<script language="javascript" type="text/javascript">
+var timerid = 0;
+var images = new Array("photos/1.jpg","photos/2.jpg","photos/3.jpg","photos/4.jpg","photos/5.JPG","photos/6.JPG","photos/7.JPG");
+var countimages = 0;
+function startTime()
+{
+  if(timerid)
+  {
+    timerid = 0;
+  }
+  var tDate = new Date();
+  
+  if(countimages == images.length)
+  {
+    countimages = 0;
+  }
+  if(tDate.getSeconds() % 5 == 0)
+  {
+    document.getElementById("img1").src = images[countimages];
+      countimages++;
+  }
+
+  
+  timerid = setTimeout("startTime()", 1000);
+}
+</script>
 </head>
 
 
-  <body>
+  <body onload="startTime();">
 
     <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -91,9 +118,9 @@
   </div>
 
   <div class="col-md-7">
-      <div class="well"><b>September 28: The workshop has been a success. We thank everyone for coming.</b><br/>
-        For workshop slides and tutorial: <a href="http://www.gis.bgu.tum.de/en/projects/3dcitydb/#c1426">Click here</a><br/>
-        <br/>
+      <div class="well"><h4><b>September 28: The workshop has been a success. We thank everyone for coming.</b><h4>
+        <h4> <b>The recordings of the workshop lectures are available here: <a href="https://3d.bk.tudelft.nl/events/3dvis2016/registration.html">Workshop Recordings</b></a></h4> 
+        <h4><b>The workshop slides and tutorials are available at the TU Munich webpage: <a href="http://www.gis.bgu.tum.de/en/projects/3dcitydb/#c1426">Workshop material</a></b> </h4><br/>
         <!-- Registration is on first come, first served basis and it will be closed when it reaches 25 participants. Therefore, we encourage participants to register ASAP. A waiting list will be established in case of over-passing the maximum.
         <br/>
         Kindly fill the form <a href="https://docs.google.com/forms/d/1NmPORlGKWccyy_9nTHKQdeFetLd65Fx4cnnNebyY5p4/viewform"> here </a> for registration. -->
@@ -103,7 +130,7 @@
      <!-- <img class="image img-responsive" src="../../img/events/udmv2015/photos/DSC_7181.JPG" /><br /> -->
     
     <!-- <img class="image img-responsive" src="../../img/events/udmv2015/Delft-Hall.jpg" /><br /> -->
-
+<h3> <b><a href="agenda.html"> Click here for Workshop Agenda </a></b></h3>
 <h3> Workshop Recordings </h3>
 
       <h4> Day 1 </h4>
@@ -143,19 +170,7 @@
 
   </div>
   <div class="col-md-3">
-    <div class="alert alert-info">
-      <h4>Important dates</h4>
-      <br />
-
-      <b><strike>July 20, 2016</strike></b><br />
-      <ul><li><strike>Registration closes</strike></li></ul><br />
-
-      <b><strike>August 20, 2016</strike></b><br />
-      <ul><li><strike>Notification to participants</strike></li></ul><br />
-
-      <b><strike>September 27-28, 2016</strike></b><br />
-      <ul><li><strike>Workshop<strike></li></ul><br />
-    </div>
+     <img id="img1" src="photos/1.jpg" width="600" height="400">
   </div>
 </div>
 </div>
