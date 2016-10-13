@@ -1,4 +1,25 @@
 
+- surname: Rodenberg 
+  name: Olivier 
+  title: The effect of A* pathfinding characteristics on the path length and performance in an octree representation of an indoor point cloud
+  link: http://resolver.tudelft.nl/uuid:fa1444c0-b957-43a3-9a9e-a0a7664bb6c8
+  image: Olivier.png
+  year: 2016
+  
+  - surname: Fichtner  
+  name: Florian W. 
+  title: Semantic enrichment of a point cloud based on an octree for multi-storey pathfinding
+  link: http://resolver.tudelft.nl/uuid:b4c13508-dbcc-4a32-a7b7-9cb22230e0a7
+  image: Florian.png
+  year: 2016
+  
+  - surname: Nagelkerke 
+  name: Tim 
+  title: Navigation to a human in motion by using points of interest
+  link: http://resolver.tudelft.nl/uuid:b9e42100-1bad-43de-bd1f-87f47779460a
+  image: Tim.png
+  year: 2016
+
 - surname: Broersen 
   name: Tom 
   title: Automatic identification of water courses from AHN3 in flat and engineered landscapes
