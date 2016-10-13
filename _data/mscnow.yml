@@ -12,3 +12,13 @@
   name: Jan
   title: 3D noise modeling for outdoor music events in the built environment
   image: jtkate.png
+  
+- surname: Koopman
+  name: Martijn
+  title: "3D indoor navigation : one algorithm for walking, driving and flying actors "
+  image: martijn.png
+  
+- surname: Staats
+  name: Bart
+  title: "Automatic selection of indoor navigable space in complex buildings"
+  image: bart.png
