@@ -73,3 +73,9 @@
   webpage: http://www.gdmc.nl/3DCadastres/
   image: 3dcadastres.png
 
+- name: Spying the underground
+  description: AR Visualisation of underground pipes
+  webpage: http://spyunderground.nl/
+  funding: 3TU lighthouse
+  fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
+  image: spyunder.jpg
