@@ -1,10 +1,11 @@
 ---
 layout: null
 ---
+{% assign talks = site.data.3dtalks | sort: 'date' %}
 BEGIN:VCALENDAR
 PRODID:-//3D geoinformation group at TU Delft//NONSGML 3D talks calendar version 1.0//EN
 VERSION:2.0
-{% for i in site.data.3dtalks %}
+{% for i in talks %}
 BEGIN:VEVENT
 SUMMARY:3D talk
 DTSTAMP:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00Z
