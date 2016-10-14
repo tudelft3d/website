@@ -1,0 +1,17 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+PRODID:-//3D geoinformation group at TU Delft//NONSGML 3D talks calendar version 1.0//EN
+VERSION:2.0
+{% for i in site.data.3dtalks %}
+BEGIN:VEVENT
+SUMMARY:3D talk
+DTSTAMP:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00Z
+DTSTART;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00
+DTEND;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 6, 2 }}{{ i.time | slice: 9, 2 }}00
+DESCRIPTION:{{ i.name }}: {{ i.title }}
+LOCATION:{{ i.room }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
