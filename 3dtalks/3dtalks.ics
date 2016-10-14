@@ -8,7 +8,7 @@ VERSION:2.0
 {% for i in talks %}
 BEGIN:VEVENT
 SUMMARY:3D talk
-DTSTAMP:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00Z
+DTSTAMP;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00
 DTSTART;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00
 DTEND;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 6, 2 }}{{ i.time | slice: 9, 2 }}00
 DESCRIPTION:{{ i.name }}: {{ i.title }}
