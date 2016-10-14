@@ -13,11 +13,11 @@ DTSTART;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0
 DTEND;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 6, 2 }}{{ i.time | slice: 9, 2 }}00
 DESCRIPTION:{{ i.name }}: {{ i.title }}
 LOCATION:{{ i.room }}
-END:VEVENT
 BEGIN:VALARM
   TRIGGER:-PT3H
   ACTION:DISPLAY
   DESCRIPTION:3D talk
 END:VALARM
+END:VEVENT
 {% endfor %}
 END:VCALENDAR
