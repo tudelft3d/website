@@ -31,9 +31,9 @@ DTEND;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 6, 
 DESCRIPTION:{{ i.name }}: {{ i.title }}
 LOCATION:{{ i.room }}
 BEGIN:VALARM
-  TRIGGER:-PT3H
-  ACTION:DISPLAY
-  DESCRIPTION:3D talk
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:3D talk
 END:VALARM
 END:VEVENT
 {% endfor %}
