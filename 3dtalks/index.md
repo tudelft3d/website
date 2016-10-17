@@ -13,10 +13,12 @@ permalink: /3dtalks/
     <p>Every 2 weeks, we hold talks about one aspect of 3D geoinformation.
     Either one staff of the group presents their latest results, or we invite someone from another university or from a company to present their results and/or latest developments.</p>
     <p>These are usually Fridays at 11:00&ndash;12:00, and everyone is welcome to join.</p>
+    <p>
+    Add this <a href="http://3d.bk.tudelft.nl/3dtalks/3dtalks.ics">ICS file</a> to your calendar application, it will be automatically updated.
+    </p>
   </div>
 </div>
 
-<span class="label label-info">Add this <a href="http://3d.bk.tudelft.nl/3dtalks/3dtalks.ics">ICS file</a> to your calendar application, it will be automatically updated.</span>
 
 - - -
 
@@ -24,6 +26,7 @@ permalink: /3dtalks/
 
 {% assign today = 'now' | date: "%s" %}
 {% assign talks = site.data.3dtalks | sort: 'date' %}
+
 
 <div class="table-responsive">
 
