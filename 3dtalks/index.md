@@ -16,6 +16,8 @@ permalink: /3dtalks/
   </div>
 </div>
 
+<span class="label label-info">Add this <a href="http://3d.bk.tudelft.nl/3dtalks/3dtalks.ics">ICS file</a> to your calendar application, it will be automatically updated.</span>
+
 - - -
 
 ## Upcoming talks
