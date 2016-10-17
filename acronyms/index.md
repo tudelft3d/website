@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Dutch acronyms"
+title:  "Dutch GIS acronyms"
 permalink: /acronyms/
 ---
 
