@@ -12,7 +12,7 @@ Here's a short list to help you survive the first few meetings.
   - __BAG__: dataset about buildings and adresses in the Netherlands
   - __BGT__: large-scale (1:1000/1:500) topographic map (actually an object oriented data set) of the Netherlands, replacing GBKN
   - __FP7__: A large European research initiative, with calls for funding in many areas
-Geonovum: body in charge of the development and the management of the standards related to geo-information in the Netherlands
+  - __Geonovum__: body in charge of the development and the management of the standards related to geo-information in the Netherlands
   - __GBKN__: the large-scale topographic map of the Netherlands. Will be replaced by the BGT from 1-1-2016
   - __INSPIRE__: A European initiative related to data interoperability
   - __Kadaster__: producer of the topographic maps of the Netherlands from scale 1:10k and smaller (and responsible for registration of real estate)
