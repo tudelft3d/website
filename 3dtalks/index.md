@@ -80,7 +80,9 @@ permalink: /3dtalks/
       <td>{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      <td>{{ i.ppt }}</td>
+      {% if i.ppt %}
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/{{ i.ppt }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></td>
+      {% endif %}
     </tr>
   {% endif %}  
   {% endfor %}
