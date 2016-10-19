@@ -70,7 +70,7 @@ If the candidate has less than five years of teaching experience and do not yet 
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Deadline to apply is 15 November 2016.
+Deadline to apply is 1 December 2016.
 </div>
 
 To apply, please submit: 
