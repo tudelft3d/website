@@ -1,7 +1,7 @@
 
 - surname: Du
   name: Xin
-  title: PhD student
+  title: PhD candidate
   photo: duxin.jpg
   # description: "Topic: Quality control of 3D city models"
   period: 2015-2016
@@ -41,7 +41,7 @@
   name: Zhiyong
   period: 2011-2015
   photo: zhiyong.png
-  title: PhD
+  title: PhD candidate
   homepage: 3d.bk.tudelft.nl/zhiyong
 
 - surname: Nourian
