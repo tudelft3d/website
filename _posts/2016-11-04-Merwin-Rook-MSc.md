@@ -2,7 +2,7 @@
 layout: post
 title:  MSc thesis defence of Merwin Rook
 categories: news
-date: 2016-11-04 14:00
+date: 2016-11-04 13:53
 ---
 
 On 4 November 2016, Merwin Rook completed the MSc Geomatics programme with the defence of his MSc thesis <i>Automatic thematic and semantic classification of 3D city models</i>.
