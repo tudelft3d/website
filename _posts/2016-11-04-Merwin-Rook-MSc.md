@@ -12,7 +12,7 @@ The work has been carried out in our [3D Geoinformation group](https://3d.bk.tud
 
 The goal of the research was to develop a method that automatically detects features in "plain" 3D city models, enriching them with semantic and thematic information. The work contributes to the creation of CityGML models from existing 3D models stored in computer graphic formats.
 
-The thesis will be available shortly at the [TU Delft repository](http://repository.tudelft.nl).
+The thesis is available at the [TU Delft repository](http://resolver.tudelft.nl/uuid:61236178-3b72-4923-8d72-1d44446783df).
 
 The work was also published as a conference paper (open access) at the recent [Joint 3D Athens Conference 2016](http://3dathens2016.gr/site/):
 
