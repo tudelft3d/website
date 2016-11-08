@@ -22,7 +22,7 @@ A few Dutch cities that we reconstructed with [3dfier](https://github.com/tudelf
           <a href="{{ i.citygml | prepend: "/download/3dfier/" | prepend: site.baseurl }}">[CityGML]</a> 
         {% endif %}
         {% if i.obj %}
-          <a href="{{ i.obj }}">[OBJ]</a> 
+          <a href="{{ i.obj | prepend: "/download/3dfier/" | prepend: site.baseurl  }}">[OBJ]</a> 
         {% endif %}
         </small>
         </h3>
