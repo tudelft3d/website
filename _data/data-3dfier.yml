@@ -8,5 +8,23 @@
 - name: Zwolle
   image: zwolle.png
   # citygml: https://3d.bk.tudelft.nl
-  obj: https://3d.bk.tudelft.nl
+  obj: Zwolle.obj.zip
   description: 1kmX1km
+
+- name: Leiden
+  image: leiden.png
+  # citygml: https://3d.bk.tudelft.nl
+  obj: Leiden.obj.zip
+  description: Old city center
+
+- name: Amsterdam
+  image: amsterdam.png
+  # citygml: https://3d.bk.tudelft.nl
+  obj: Amsterdam.obj.zip
+  description: Small part of center
+
+- name: Rotterdam
+  image: rotterdam.png
+  citygml: Rotterdam.gml.zip
+  obj: Rotterdam.obj.zip
+  description: 5kmX5km
