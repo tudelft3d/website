@@ -1,12 +1,12 @@
 
 - name: Delft
   image: delft.png
-  citygml: https://3d.bk.tudelft.nl
-  obj: https://3d.bk.tudelft.nl
+  citygml: Delft.gml.zip
+  obj: Delft.obj.zip
   description: 30k objects, 500mX500m, all classes
 
 - name: Zwolle
   image: zwolle.png
-  citygml: https://3d.bk.tudelft.nl
+  # citygml: https://3d.bk.tudelft.nl
   obj: https://3d.bk.tudelft.nl
   description: 1kmX1km
