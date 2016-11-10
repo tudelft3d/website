@@ -57,7 +57,9 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
 
 ## Publications
 
-{% imbiber /var/www/people/ravi/ravi.bib groupby:year idswithprefix:year_ %}
+<!-- {% imbiber /var/www/people/ravi/ravi.bib groupby:year idswithprefix:year_ %} -->
+{% imbiber projects/3dsm/3dsm.bib %}
+
 - - -
 
 ## Open-source software
