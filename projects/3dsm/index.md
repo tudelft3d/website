@@ -77,6 +77,11 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
   - Overview of the results in 2016<a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_hl.pdf"><i class="fa fa-file-image-o"></i>
   <!-- - Progress last 9 months <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fa fa-file-image-o"></i> -->
 
+### Meeting 2016-01-19
+
+  - Overview of the results last 7 months <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_hl.pdf"><i class="fa fa-file-image-o"></i>
+  - Details about latest work <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_rp.pdf"><i class="fa fa-file-image-o"></i>
+
 ### Meeting 2015/05/19
 
   - Overview of the project <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_hl.pdf"><i class="fa fa-file-image-o"></i>
@@ -116,9 +121,9 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
 <td> Goos </td>
 </tr>
 <tr>
-<td style="text-align:left;"> Grontmij </td>
-<td style="text-align:left;"> Guus </td>
-<td> Claessens </td>
+<td style="text-align:left;"> Sweco </td>
+<td style="text-align:left;"> Marco </td>
+<td> Grimaudo </td>
 </tr>
 <tr>
 <td style="text-align:left;"> Kadaster </td>
