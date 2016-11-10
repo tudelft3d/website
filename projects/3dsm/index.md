@@ -77,7 +77,7 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
 ### Meeting 2016-11-09
 
   - Overview of the results in 2016<a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_hl.pdf"><i class="fa fa-file-image-o"></i>
-  <!-- - Progress last 9 months <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fa fa-file-image-o"></i> -->
+  - Details about latest work <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_rp.pdf"><i class="fa fa-file-image-o"></i> 
 
 ### Meeting 2016-01-19
 
@@ -167,7 +167,7 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
     
       <h3>Ravi Peters <small>PhD candidate</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/rypeters">3dgeoinfo.bk.tudelft.nl/rypeters</a><br />
+          <i class="fa fa-home"></i> <a href="http://tudelft.nl/rypeters">tudelft.nl/rypeters</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:r.y.peters@tudelft.nl">r.y.peters@tudelft.nl</a><br />
           <br />
           <br />
