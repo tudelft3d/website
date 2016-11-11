@@ -42,7 +42,7 @@ permalink: /3dtalks/
 
   {% for i in talks %}
   {% assign a = i.date | date: "%s" %}
-  {% if a >= today %}
+  {% if a > today %}
     <tr>
       <td>{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
@@ -75,7 +75,7 @@ permalink: /3dtalks/
 
   {% for i in talks reversed %}
   {% assign a = i.date | date: "%s" %}
-  {% if a < today %}
+  {% if a <= today %}
     <tr>
       <td>{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
