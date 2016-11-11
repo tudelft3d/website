@@ -1,5 +1,20 @@
 # Projects
 
+- image: umnd.jpg
+  description: Urban modelling in higher dimensions
+  webpage: https://3d.bk.tudelft.nl/projects/umnd/
+
+- image: SIMs3D.jpg
+  description: Smart 3D indoor models to support crisis management in large public buildings
+  webpage: http://www.sims3d.net/
+
+- image: haf.png
+  description: We help find 'hidden parts' of Amsterdam with 3D city models
+  webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
+
+- image: spyunder.jpg
+  description: AR Visualisation of underground pipes
+  webpage: http://spyunderground.nl/
 
 - image: cartoon.png
   description: A national 3D geoinformation dataset for urban applications
@@ -35,6 +50,10 @@
 
 # Code
 
+- image: azul.png
+  description: A CityGML viewer for Mac
+  webpage: https://github.com/tudelft3d/azul
+
 - image: citygml2objs-small.png
   description: CityGML2OBJs
   webpage: https://github.com/tudelft3d/CityGML2OBJs
@@ -50,3 +69,7 @@
 - image: pprepair.png
   description: pprepair
   webpage: https://github.com/tudelft3d/pprepair
+
+- image: 3dfier.jpg
+  description: Automatic reconstruction of the whole of the Netherlands
+  webpage: https://github.com/tudelft3d/3dfier
