@@ -24,7 +24,7 @@ permalink: /3dtalks/
 
 ## Upcoming talks
 
-{% assign today = 'now' | date: "%s" %}
+{% assign today = 'now' | date: "%Y%m%d" %}
 {% assign talks = site.data.3dtalks | sort: 'date' %}
 
 
@@ -41,8 +41,8 @@ permalink: /3dtalks/
   </tr>
 
   {% for i in talks %}
-  {% assign a = i.date | date: "%s" %}
-  {% if a > today %}
+  {% assign a = i.date | date: "%Y%m%d" %}
+  {% if a >= today %}
     <tr>
       <td>{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
@@ -60,9 +60,6 @@ permalink: /3dtalks/
 
 ## Past talks
 
-{% assign today = 'now' | date: "%s" %}
-{% assign talks = site.data.3dtalks | sort: 'date' %}
-
 <div class="table-responsive">
 <table class="table table-striped">
 
@@ -74,8 +71,8 @@ permalink: /3dtalks/
   </tr>
 
   {% for i in talks reversed %}
-  {% assign a = i.date | date: "%s" %}
-  {% if a <= today %}
+  {% assign a = i.date | date: "%Y%m%d" %}
+  {% if a < today %}
     <tr>
       <td>{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
