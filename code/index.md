@@ -13,7 +13,8 @@ A publication is added where applicable. If you use our code for a scientific pr
 - - -
 
 <div class="row">
-{% for i in site.data.code %}
+{% assign code = site.data.code | sort_natural: 'name' %}
+{% for i in code %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/>

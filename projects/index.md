@@ -5,7 +5,8 @@ permalink: /projects/
 ---
 
 <div class="row">
-{% for i in site.data.projects %}
+{% assign projects = site.data.projects | sort: 'name' %}
+{% for i in projects %}
 {% capture beginchar %}{{ i.webpage | truncate: 4 }}{% endcapture %}
   {% if beginchar == "/..." %}
     {% assign link = i.webpage | prepend: site.baseurl %}
