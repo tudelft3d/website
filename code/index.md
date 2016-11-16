@@ -26,7 +26,7 @@ A publication is added where applicable. If you use our code for a scientific pr
           <a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a> 
         {% endif %}
         {% if i.appstore %}
-          <a href="{{ i.appstore }}"><i class="fa fa-apple" title="github"></i></a> 
+          <a href="{{ i.appstore }}"><i class="fa fa-apple" title="app store"></i></a> 
         {% endif %}        
         {% if i.thesis %}
           <a href="{{ i.thesis }}"><i class="fa fa-book" title="thesis"></i></a>
