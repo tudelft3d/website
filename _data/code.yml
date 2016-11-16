@@ -2,7 +2,7 @@
   description: A CityGML viewer for macOS 10.12
   github: https://github.com/tudelft3d/azul
   image: azul.png
-  appstore: https://itunes.apple.com/nl/app/azul/id1173239678?mt=12
+  appstore: https://itunes.apple.com/app/azul/id1173239678?mt=12
 
 - name: 3dfier
   description: Takes 2D GIS datasets and "3dfies" them by lifting each polygon to its height (obtained with LiDAR)
