@@ -13,7 +13,7 @@ A publication is added where applicable. If you use our code for a scientific pr
 - - -
 
 <div class="row">
-{% assign code = site.data.code | sort_natural: 'name' %}
+{% assign code = site.data.code | better_sort: 'name' %}
 {% for i in code %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
