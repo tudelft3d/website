@@ -17,7 +17,7 @@ A publication is added where applicable. If you use our code for a scientific pr
 {% for i in code %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/>
+      <a href="{{ i.github }}"><img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>{{ i.name }}
         <br />
