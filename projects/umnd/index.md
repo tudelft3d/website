@@ -1,11 +1,19 @@
 ---
 layout: page
-title: Urban modelling in higher dimensions
+title: Urban modelling in higher dimensions (UMnD)
 permalink: /projects/umnd/
 ---
 
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/umnd.jpg" }}"></div>
+</div>
+
+- - -
+
+
+<div class="row">
+  <div class="col-sm-8 col-md-4"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}"/></a></div>
+  <div class="col-sm-8 col-md-4"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}"/></a></div>
 </div>
 
 - - -
@@ -17,7 +25,8 @@ permalink: /projects/umnd/
 
 ## About
 
-Urban modelling in higher dimensions, UMnD for short, is a project funded by the [ERC Starting Grant](http://erc.europa.eu/starting-grants) to Jantien Stoter; 1.5 million euros for a five-year research project. 
+Urban modelling in higher dimensions, UMnD for short, is a project funded by the [ERC Starting Grant](http://erc.europa.eu/starting-grants) to [Jantien Stoter]({{ "/jstoter" | prepend: site.baseurl }}); 1.5 million euros for a five-year research project. 
+It started in September 2016.
 
 Geographic data about urban objects (buildings, roads) is needed to monitor and control the processes within modern urban areas (noise, flooding, energy demand-supply). As these processes occur in 3D, urban applications require 3D data and each application requires its own
 specific semantic and geometric level of detail (LoD) of the 3D data. The scientific challenge of Jantien's project is that it requires
@@ -45,7 +54,7 @@ and stored LoDs of a 3D urban model.
 
   <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
         <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
-      <h3>Hugo  Ledoux<br /><small>Assistant-prof.</small></h3>
+      <h3>Hugo  Ledoux<br /><small>Associate-prof.</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />

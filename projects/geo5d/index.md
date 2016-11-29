@@ -517,7 +517,7 @@ The complete list of publications of the project is available <a href="publicati
     
     <div class="col-lg-4 col-sm-6">
       <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ "/img/staff/hugo.jpg"  | prepend: site.baseurl }}" /></a>
-      <h3>Hugo Ledoux <small>Assistant-prof.</small></h3>
+      <h3>Hugo Ledoux <small>Associate-prof.</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
