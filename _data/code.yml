@@ -28,22 +28,20 @@
   data: http://3dgeoinfo.bk.tudelft.nl/biljecki/Random3Dcity.html
   video: https://vimeo.com/91289285
   image: random3dcity.png
+  paper: http://doi.org/10.5194/isprs-annals-IV-4-W1-51-2016
 
 - name: Solar3Dcity
   description: A simple utility to estimate the yearly solar irradiation of buildings in CityGML
   github: https://github.com/tudelft3d/Solar3Dcity
   video: https://vimeo.com/119679847
   image: solar3dcity.png
-
-- name: Error3Dcity
-  description: An error propagation tool for simulating acquisition errors to 3D city models in a Monte Carlo simulation
-  github: https://github.com/tudelft3d/Error3Dcity
-  image: error3dcity.png
+  paper: http://doi.org/10.1080/13658816.2015.1073292
 
 - name: CityGML2OBJs
   description: A robust semantic-aware utility to convert CityGML data to OBJ, featuring decoupling of objects and conversion of attributes to colours.
   github: https://github.com/tudelft3d/CityGML2OBJs
   image: citygml2objs.png
+  paper: http://doi.org/10.2312/udmv.20151345
 
 - name: prepair
   description: Automatic repair of GIS polygons according to the OGC Simple Features and ISO 19107 rules.
