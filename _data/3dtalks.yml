@@ -12,6 +12,12 @@
   date: 2016-12-09 
   time: 11:00-12:00
 
+- title: "Building Information Framework for integrating geo- and BIM-data"
+  name: "Bob Heester"
+  room: "BG.West.270"
+  date: 2017-01-20 
+  time: 11:00-12:00
+
 - title: "Matching Multiscale traffic simulations with CityGML"
   name: "[Guus Tamminga](http://www.citg.tudelft.nl/en/about-faculty/departments/transport-and-planning/staff-information/drs-guus-tamminga-msc/) (TU Delft, CiTG)"
   ppt:  "2016-11-25.pdf"
