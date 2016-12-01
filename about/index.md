@@ -106,73 +106,47 @@ Our research funding mostly comes from the following organisations:
 </div>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
-  var markers = {
-    "type": "FeatureCollection",                                                                   
-    "features": [{
-      "type": "Feature", 
-      "properties": { 
-        "description": "<h3>3D Geoinformation</h3><p>Room BG.West.010</p>"
-      }, 
-      "geometry": { 
-        "type": "Point", 
-        "coordinates": [ 4.37036640026392, 52.004713684518933, 0.0 ] 
-      }
-    }]
-  }
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/kenohori/cim0i33ql00jmbjlw9l1pro1i',
     center: [4.37036640026392, 52.004713684518933],
-    zoom: 15.5
+    zoom: 13.5,
+    pitch: 60
   });
   map.addControl(new mapboxgl.NavigationControl());
-  map.on('style.load', function() {
-    // Add marker data as a new GeoJSON source.
-    map.addSource("markers", {
-      "type": "geojson",
-      "data": markers
-    });
-    // Add a layer showing the markers.
-    map.addLayer({
-      "id": "markers",
-      "interactive": true,
-      "type": "symbol",
-      "source": "markers",
-      "layout": {
-          "icon-image": "{marker-symbol}-15",
-          "icon-allow-overlap": true
+  var markers = {
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "description": "<h3>3D Geoinformation</h3><p>Room BG.West.010</p>",
+        "iconSize": [50, 50]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.37036640026392, 52.004713684518933]
       }
-    });
-  });
-  var popup = new mapboxgl.Popup();
-  // When a click event occurs near a marker icon, open a popup at the location of
-  // the feature, with description HTML from its properties.
-  map.on('click', function (e) {
-    map.featuresAt(e.point, {
-      radius: 50, // Half the marker size.
-      includeGeometry: true,
-      layer: 'markers'
-    }, function (err, features) {
-      if (err || !features.length) {
-        popup.remove();
-        return;
-      }
-      var feature = features[0];
-      // Populate the popup and set its coordinates
-      // based on the feature found.
-      popup.setLngLat(feature.geometry.coordinates)
-        .setHTML(feature.properties.description)
+    }]
+  }
+  // add markers to map
+  markers.features.forEach(function(marker) {
+    // create a DOM element for the marker
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url({{ site.url }}{{ site.baseurl }}/img/map/marker.svg)';
+    el.style.width = marker.properties.iconSize[0] + 'px';
+    el.style.height = marker.properties.iconSize[1] + 'px';
+
+    el.addEventListener('click', function() {
+      var popup = new mapboxgl.Popup({closeOnClick: false})
+        .setLngLat(markers.features[0].geometry.coordinates)
+        .setHTML(markers.features[0].properties.description)
         .addTo(map);
     });
-  });
-  // Use the same approach as above to indicate that the symbols are clickable
-  // by changing the cursor style to 'pointer'.
-  map.on('mousemove', function (e) {
-    map.featuresAt(e.point, {
-      radius: 50, // Half the marker size.
-      layer: 'markers'
-    }, function (err, features) {
-      map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
-    });
+
+    // add marker to map
+    new mapboxgl.Marker(el, {offset: [-marker.properties.iconSize[0] / 2, -marker.properties.iconSize[1] / 2]})
+      .setLngLat(markers.features[0].geometry.coordinates)
+      .addTo(map);
   });
 </script>
