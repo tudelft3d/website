@@ -125,6 +125,7 @@ Our research funding mostly comes from the following organisations:
     center: [4.37036640026392, 52.004713684518933],
     zoom: 15.5
   });
+  map.addControl(new mapboxgl.NavigationControl());
   map.on('style.load', function() {
     // Add marker data as a new GeoJSON source.
     map.addSource("markers", {
