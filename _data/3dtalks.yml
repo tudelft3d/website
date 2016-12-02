@@ -1,7 +1,18 @@
+- title: "TBA"
+  name: "TBA"
+  room: "BG.West.270"
+  date: 2017-02-17 
+  time: 11:00-12:00
+
+- title: "TBA"
+  name: "TBA"
+  room: "BG.West.270"
+  date: 2017-02-03 
+  time: 11:00-12:00
 
 - title: "Overview of the activities at [3DOM](http://3dom.fbk.eu)"
   name: "[Fabio Remondino](http://3dom.fbk.eu/people/profile/remondino) (FBK Trento)"
-  room: "TBA"
+  room: "BG.West.270"
   date: 2017-03-08 
   time: 09:30-10:30
 
@@ -12,7 +23,7 @@
   time: 11:00-12:00
 
 - title: "Building Information Framework: Integrating Geo- and BIM-data about the built environment"
-  name: "Bob Heester"
+  name: "[Bob Heester](http://www.anteagroup.nl/nl/contacten/bob-heester)"
   room: "BG.West.270"
   date: 2017-01-20 
   time: 11:00-12:00
