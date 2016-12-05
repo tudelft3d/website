@@ -6,6 +6,7 @@ permalink: /jobs/
 
 <del>
 [Assistant-professor 3D reconstruction for urban applications (tenure track)](/jobs/ud/)
+<span class="label label-danger">closed</span> 
 </del>
 
 - - -
