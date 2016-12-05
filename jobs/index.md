@@ -4,7 +4,9 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<del>
 [Assistant-professor 3D reconstruction for urban applications (tenure track)](/jobs/ud/)
+</del>
 
 - - -
 
