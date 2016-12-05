@@ -4,7 +4,7 @@ title:  Assistant-professor 3D reconstruction for urban applications (tenure tra
 permalink: /jobs/ud/
 ---
 
-<div class="alert alert-danger" role="alert">2016-05-02: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+<div class="alert alert-danger" role="alert">2016-12-05: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 
 <div class="row">
