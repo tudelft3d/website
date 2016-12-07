@@ -1,10 +1,16 @@
 
+
+- name: Web3D 2017
+  url: http://web3d2017.org
+  place: Queensland University of Technology, Brisbane, Australia
+  start: 2017-06-05
+  end: 2017-06-07
+
 - name: COSIT 2017
   url: http://www.cosit2017.org
   place: L'Aquila, Italy
   start: 2017-09-04
   end: 2017-09-08
-
 
 - name: XXIVth ISPRS Congress
   url: http://www.isprs2020-nice.science
