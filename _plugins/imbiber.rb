@@ -304,10 +304,10 @@ class Imbiber
 			:lang => :en,
 			:nameformat => :firstlast,
 			:titlecase => :sentence,
-			:beforeentry => "<p>",
-			:afterentry => "</p>",
+			:beforeentry => "<div class=\"filteredelement\">",
+			:afterentry => "</div>",
 			:beforegrouptitle => "<h3>",
-			:aftergrouptitle => "</h3>",
+			:aftergrouptitle => "<span id=\"filteredcount\"></span></h3>",
 			:beforesubgrouptitle => "<h4>",
 			:aftersubgrouptitle => "</h4>"
 		}
@@ -975,7 +975,7 @@ class Imbiber
 		sorted_groups.each do |group|
 			# pp group[1][:entries]
 			if idswithprefix != false then
-				html << "<section id=\"" << idswithprefix << group[0] << "\">\n"
+				html << "<section id=\"" << idswithprefix << group[0] << "\" class=\"filteredgroup\">\n"
 			end
 			html << @options[:beforegrouptitle]
 			if group[1].has_key?(:nicename) then
@@ -996,7 +996,7 @@ class Imbiber
 						if last_year != "" then
 							html << "</section>\n"
 						end
-						html << "<section id=\"" << idswithprefix.to_s << group[0] << entry[:sortingvalue][0..3] << "\">\n"
+						html << "<section id=\"" << idswithprefix.to_s << group[0] << entry[:sortingvalue][0..3] << "\" class=\"filteredgroup\">\n"
 						html << "<h4>" << entry[:sortingvalue][0..3] << "</h4>"
 						last_year = entry[:sortingvalue][0..3]
 					end

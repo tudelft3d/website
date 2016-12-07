@@ -17,5 +17,26 @@
 <script>
   $(document).ready(function() {
     $(".row").eqHeight(".column");
+    $("#filter").keyup(function(){
+      // Retrieve the input field text and reset the count to zero
+      var filter = $(this).val();
+      $(".filteredgroup").each(function(){
+        var count = 0;
+        $(this).find(".filteredelement").each(function(){
+          if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+            $(this).fadeOut();
+          } else {
+            $(this).fadeIn();
+            count++;
+          }
+        });
+        if (count > 0) {
+          // $(this).find("#filteredcount").text(" (" + count + ")")
+          $(this).fadeIn();
+        } else {
+          $(this).fadeOut();
+        }
+      });
+    });
   });
 </script>
