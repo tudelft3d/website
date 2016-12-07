@@ -6,14 +6,14 @@ layout: default
 		<div class="col-md-9" role="main">
 			<h1>{{ page.title }}</h1>
 			<div class="visible-xs-block visible-sm-block">
-				<input type="text" class="text-input" id="small-filter" value="" placeholder="Search" />
+				<input type="text" class="text-input" id="small-filter" value="" placeholder="Search" type="search" />
 			</div>
 			{{ content }}
 		</div>
 		<div class="col-md-3 hidden-xs hidden-sm" role="complementary">
 			<div id="sidebar" class="papers-sidebar" role="complementary" data-spy="affix">
 				<h2>Search</h2>
-				<input type="text" class="text-input" id="filter" value="" />
+				<input type="text" class="text-input" id="filter" value="" type="search" autofocus />
 				<h2>Go to</h2>
 				<ul class="nav nav-stacked">
 					<li><a href="#type_article">Journal articles</a>
