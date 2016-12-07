@@ -6,6 +6,14 @@ scrollspy: sidebar
 ---
 
 <div class="row">
+	<div class="col-sm-12 visible-xs-block visible-sm-block">
+			<form id="live-search" action="" class="styled">
+		    <fieldset>
+	        <input type="text" class="text-input" id="filter" value="" placeholder="Search" />
+	        <span id="filter-count"></span>
+		    </fieldset>
+			</form>
+		</div>
 	<div class="col-md-9" role="main">
 		{% imbiber pubs/all.bib groupby:classthenyear idswithprefix:type_ %}
 	</div>
