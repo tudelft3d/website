@@ -24,6 +24,9 @@ A few Dutch cities that we reconstructed with [3dfier](https://github.com/tudelf
         {% if i.obj %}
           <a href="{{ i.obj | prepend: "/download/3dfier/" | prepend: site.baseurl  }}">[OBJ]</a> 
         {% endif %}
+        {% if i.imgeo %}
+          <a href="{{ i.imgeo | prepend: "/download/3dfier/" | prepend: site.baseurl }}">[IMGeo]</a> 
+        {% endif %}
         </small>
         </h3>
         <p>{{ i.description }}</p>
