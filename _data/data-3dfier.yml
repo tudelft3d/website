@@ -3,6 +3,7 @@
   image: delft.png
   citygml: Delft.gml.zip
   obj: Delft.obj.zip
+  imgeo: Delft.imgeo.zip
   description: 30k objects, 500mX500m, all classes
 
 - name: Zwolle
