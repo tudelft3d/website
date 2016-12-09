@@ -10,11 +10,11 @@ Surprised because we do not often see reviews of PhD theses, that section is, we
 
 The review, available [here](http://dx.doi.org/10.1080/14498596.2016.1225489), is very positive:
 
-    it pushes the boundary of existing theories in 3D geographic modelling. It brings the knowledge-base of the spatial sciences to a new level. Particularly, the early chapter on conceptualising higher dimensions of geographic phenomena is significant for the spatial sciences.
+  > it pushes the boundary of existing theories in 3D geographic modelling. It brings the knowledge-base of the spatial sciences to a new level. Particularly, the early chapter on conceptualising higher dimensions of geographic phenomena is significant for the spatial sciences.
 
 and even states that it could be used as a textbook:
 
-     I strongly recommend the book to those who are undertaking research in 3D and spatiotemporal information. Also, the book has the potential to be used as a reference textbook for teaching.
+  > I strongly recommend the book to those who are undertaking research in 3D and spatiotemporal information. Also, the book has the potential to be used as a reference textbook for teaching.
 
 The thesis released into the public domain using the CC0 code, and is [freely available online](https://3d.bk.tudelft.nl/ken/en/thesis/).
 
