@@ -61,16 +61,6 @@
 
     $("#filter").keyup(function(){
       var filter = $(this).val();
-      if (filter.length < 2) {
-        $(".filteredgroup").each(function(){
-          $(this).fadeIn();
-          $(this).find(".filteredelement").each(function(){
-            $(this).unmark();
-            $(this).fadeIn();
-          });
-        });
-        return;
-      }
       $("#small-filter").val(filter);
       $(".filteredgroup").each(function(){
         var count = 0;

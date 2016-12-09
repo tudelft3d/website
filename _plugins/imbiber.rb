@@ -975,7 +975,7 @@ class Imbiber
 		sorted_groups.each do |group|
 			# pp group[1][:entries]
 			if idswithprefix != false then
-				html << "<section id=\"" << idswithprefix << group[0] << "\" class=\"filteredgroup\">\n"
+				html << "<section id=\"" << idswithprefix << group[0] << "\" class=\"filteredtopgroup\">\n"
 			end
 			html << @options[:beforegrouptitle]
 			if group[1].has_key?(:nicename) then
