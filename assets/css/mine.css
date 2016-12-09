@@ -211,3 +211,8 @@ footer {
 .papers-sidebar .nav>.active>ul.nav {
   display: block;
 }
+
+mark {
+  background: #8CF8FF;
+  padding: 0em;
+}

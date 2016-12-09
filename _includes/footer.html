@@ -14,16 +14,35 @@
 <script src="{{ "/assets/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 <!-- <script src="{{ "/assets/js/holder.js" | prepend: site.baseurl }}"></script> -->
 <script src="{{ "/assets/js/jquery.eqheight.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/jquery.mark.min.js" | prepend: site.baseurl }}"></script>
 <script>
   $(document).ready(function() {
 {% if page.scrollspy %}
     $("#small-filter").keyup(function(){
-      // Retrieve the input field text and reset the count to zero
       var filter = $(this).val();
+      if (filter.length < 2) {
+        $(".filteredgroup").each(function(){
+          $(this).find(".filteredelement").each(function(){
+            $(this).unmark();
+            $(this).fadeIn();
+          });
+        });
+        return;
+      }
+      $("#filter").val(filter);
       $(".filteredgroup").each(function(){
         var count = 0;
         $(this).find(".filteredelement").each(function(){
-          if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+          $(this).unmark();
+          window.filterhits = 0;
+          $(this).mark(filter, {"separateWordSearch": false,
+            "done": function(counter){
+              if (counter > 0) {
+                window.filterhits = counter;
+              }
+            }
+          });
+          if (window.filterhits == 0 && filter.length > 0) {
             $(this).fadeOut();
           } else {
             $(this).fadeIn();
@@ -38,13 +57,32 @@
         }
       });
     });
+
     $("#filter").keyup(function(){
-      // Retrieve the input field text and reset the count to zero
       var filter = $(this).val();
+      if (filter.length < 2) {
+        $(".filteredgroup").each(function(){
+          $(this).find(".filteredelement").each(function(){
+            $(this).unmark();
+            $(this).fadeIn();
+          });
+        });
+        return;
+      }
+      $("#small-filter").val(filter);
       $(".filteredgroup").each(function(){
         var count = 0;
         $(this).find(".filteredelement").each(function(){
-          if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+          $(this).unmark();
+          window.filterhits = 0;
+          $(this).mark(filter, {"separateWordSearch": false,
+            "done": function(counter){
+              if (counter > 0) {
+                window.filterhits = counter;
+              }
+            }
+          });
+          if (window.filterhits == 0 && filter.length > 0) {
             $(this).fadeOut();
           } else {
             $(this).fadeIn();
@@ -60,7 +98,7 @@
       });
     });
 {% else %}
-  $(".row").eqHeight(".column");
+    $(".row").eqHeight(".column");
 {% endif %}
   });
 </script>
