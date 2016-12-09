@@ -22,6 +22,7 @@
       var filter = $(this).val();
       if (filter.length < 2) {
         $(".filteredgroup").each(function(){
+          $(this).fadeIn();
           $(this).find(".filteredelement").each(function(){
             $(this).unmark();
             $(this).fadeIn();
@@ -62,6 +63,7 @@
       var filter = $(this).val();
       if (filter.length < 2) {
         $(".filteredgroup").each(function(){
+          $(this).fadeIn();
           $(this).find(".filteredelement").each(function(){
             $(this).unmark();
             $(this).fadeIn();
