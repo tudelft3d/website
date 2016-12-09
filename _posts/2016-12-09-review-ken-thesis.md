@@ -5,7 +5,7 @@ categories: news
 date: 2016-12-09 09:21
 ---
 
-We were very happy---and surprised---to see that the [Journal of Spatial Science](http://www.tandfonline.com/toc/tjss20/current) has published a review of the PhD thesis of [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken), who [defended earlier this year his PhD work](2016-04-07-ken-phd.md) in our group.
+We were very happy---and surprised---to see that the [Journal of Spatial Science](http://www.tandfonline.com/toc/tjss20/current) (made by [Mohsen Kalantari](http://www.csdila.unimelb.edu.au/people/saeid-kalantari-soltanieh.html)) has published a review of the PhD thesis of [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken), who [defended earlier this year his PhD work](https://3d.bk.tudelft.nl/news/2016/04/07/ken-phd.html) in our group.
 Surprised because we do not often see reviews of PhD theses, that section is, we believe, mostly reserved for the review of books.
 
 The review, available [here](http://dx.doi.org/10.1080/14498596.2016.1225489), is very positive:
