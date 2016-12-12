@@ -14,6 +14,6 @@ The render below shows Delft in 3D, reconstructed entirely from open data using 
 
 We have generated a set of [sample data]({{ site.baseurl }}/opendata/3dfier/) of a few cities in the Netherlands.
 
-In future we plan to add new datasets, so feel free to bookmark the page and check it for updates.<br />
+In future we plan to add new datasets, so feel free to bookmark the [page]({{ site.baseurl }}/opendata/3dfier/) and check it for updates.<br />
 
 ![]({{ site.baseurl }}/img/2016/open-data-1.png)
