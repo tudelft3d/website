@@ -29,6 +29,12 @@
   start: 2017-05-09 
   end: 2017-05-12
 
+- name: GIS Research UK Conference
+  url: http://manchester.gisruk.org
+  place: Manchester, UK
+  start: 2017-04-18 
+  end: 2017-04-21
+
 - name: 21st Annual International Conference on 3D Web Technology
   url: http://web3d2016.web3d.org
   place: Anaheim, California, USA
