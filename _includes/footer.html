@@ -92,5 +92,36 @@
 {% else %}
     $(".row").eqHeight(".column");
 {% endif %}
+{% if page.filter %}
+    $("#filter").keyup(function(){
+      var filter = $(this).val();
+      $(".filteredgroup").each(function(){
+        var count = 0;
+        $(this).find(".filteredelement").each(function(){
+          $(this).unmark();
+          window.filterhits = 0;
+          $(this).mark(filter, {"separateWordSearch": false,
+            "done": function(counter){
+              if (counter > 0) {
+                window.filterhits = counter;
+              }
+            }
+          });
+          if (window.filterhits == 0 && filter.length > 0) {
+            $(this).fadeOut();
+          } else {
+            $(this).fadeIn();
+            count++;
+          }
+        });
+        if (count > 0) {
+          // $(this).find("#filteredcount").text(" (" + count + ")")
+          $(this).fadeIn();
+        } else {
+          $(this).fadeOut();
+        }
+      });
+    });
+{% endif %}
   });
 </script>
