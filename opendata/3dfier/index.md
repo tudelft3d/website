@@ -6,7 +6,7 @@ permalink: /opendata/3dfier/
 
 A few Dutch cities that we reconstructed with [3dfier](https://github.com/tudelft3d/3dfier) by combining the [BGT dataset (large-scale topographic dataset of the Netherlands)](https://www.pdok.nl/nl/producten/pdok-downloads/download-basisregistratie-grootschalige-topografie) (license is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) and the [AHN3 datasets (laser altimetry)](https://www.pdok.nl/nl/ahn3-downloads) (license is [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)).
 
-The dataset below are all available under the [Creative Commons CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.nl).
+The dataset below are all available under the [Creative Commons CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0).
 
 
 - - -
