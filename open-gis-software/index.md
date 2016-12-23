@@ -10,7 +10,7 @@ The ones that we use and recommend are marked with a <i class="fa fa-star"></i>.
 
 - - -
 
-{% assign software = site.data.software | sort: 'name' %}
+{% assign software = site.data.software | better_sort: 'name' %}
 
 ## Databases
 {% for i in software %}
