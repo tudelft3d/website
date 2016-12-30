@@ -20,8 +20,9 @@
 
 - name: Amsterdam
   image: amsterdam.png
-  # citygml: https://3d.bk.tudelft.nl
+  citygml: Amsterdam.gml.zip
   obj: Amsterdam.obj.zip
+  imgeo: Amsterdam.imgeo.zip
   description: Small part of center
 
 - name: Rotterdam
