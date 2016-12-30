@@ -23,7 +23,7 @@
   citygml: Amsterdam.gml.zip
   obj: Amsterdam.obj.zip
   imgeo: Amsterdam.imgeo.zip
-  description: Small part of center
+  description: 330k objects, Center, Oost, West and Zuid
 
 - name: Rotterdam
   image: rotterdam.png
