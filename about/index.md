@@ -26,84 +26,91 @@ Our research funding mostly comes from the following organisations:
 
 - - - 
 
-## <a name="people"></a> Staff
+<section id="people">
+  <h2>Staff</h2>
 
-{% assign members = site.data.staff | sort: 'surname' %}
+  {% assign members = site.data.staff | sort: 'surname' %}
 
-<div class="row">
+  <div class="row">
     {% for member in members %}
-    <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-    {% if member.homepage %}
-      {% if member.swapnames == False %}
-        <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.name }} {{ member.van }} {{ member.surname }} photo" /></a>
+      <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      {% if member.homepage %}
+        {% if member.swapnames == False %}
+          <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.name }} {{ member.van }} {{ member.surname }} photo" /></a>
+        {% else %}
+          <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.surname }} {{ member.name }} photo" /></a>
+        {% endif %}
       {% else %}
-        <a href="http://{{ member.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.surname }} {{ member.name }} photo" /></a>
+        {% if member.swapnames == False %}
+          <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.name }} {{ member.van }} {{ member.surname }} photo" />
+        {% else %}
+          <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.surname }} {{ member.name }} photo" />
+        {% endif %}
       {% endif %}
-    {% else %}
       {% if member.swapnames == False %}
-        <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.name }} {{ member.van }} {{ member.surname }} photo" />
+        <h3>{{ member.name }} {{ member.van }} {{ member.surname }}<br><small>{{ member.title }}</small></h3>
       {% else %}
-        <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}" alt="{{ member.surname }} {{ member.name }} photo" />
+        <h3>{{ member.surname }} {{ member.name }}<br><small>{{ member.title }}</small></h3>
       {% endif %}
-    {% endif %}
-    {% if member.swapnames == False %}
-      <h3>{{ member.name }} {{ member.van }} {{ member.surname }}<br><small>{{ member.title }}</small></h3>
-    {% else %}
-      <h3>{{ member.surname }} {{ member.name }}<br><small>{{ member.title }}</small></h3>
-    {% endif %}
-      <p>
-        {% if member.homepage %}
-          <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
-        {% endif %}
-        {% if member.email %}
-          <i class="fa fa-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
-        {% endif %}
-        {% if member.phone %}
-          <i class="fa fa-phone"></i> <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br>
-        {% endif %}
-        {% if member.twitter %}
-          <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
-        {% endif %}
-        {% unless member.homepage %}
-          <br>
-        {% endunless %}
-        {% unless member.email %}
-          <br>
-        {% endunless %}
-        {% unless member.phone %}
-          <br>
-        {% endunless %}
-        {% unless member.twitter %}
-          <br>
-        {% endunless %}
-      </p>
-    </div>
+        <p>
+          {% if member.homepage %}
+            <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
+          {% endif %}
+          {% if member.email %}
+            <i class="fa fa-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
+          {% endif %}
+          {% if member.phone %}
+            <i class="fa fa-phone"></i> <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br>
+          {% endif %}
+          {% if member.twitter %}
+            <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
+          {% endif %}
+          {% unless member.homepage %}
+            <br>
+          {% endunless %}
+          {% unless member.email %}
+            <br>
+          {% endunless %}
+          {% unless member.phone %}
+            <br>
+          {% endunless %}
+          {% unless member.twitter %}
+            <br>
+          {% endunless %}
+        </p>
+      </div>
     {% endfor %}
-</div>
+  </div>
+</section>
 
 - - - 
 
-## <a name="people"></a> Former Staff
+<section name="people">
+  <h2>Former Staff</h2>
 
-[List of former staff]({{ "/about/formerstaff" | prepend: site.baseurl }})
+  <a href="{{ "/about/formerstaff" | prepend: site.baseurl }}">List of former staff</a>
+
+</section>
 
 - - -
 
-<h2 id="where">Our offices</h2>
+<section id="where">
+  <h2>Our offices</h2>
 
-<div class="col-md-4">
-  <i class="fa fa-map-marker fa-fw">     </i> Room BG.West.010 (building #8) <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
-  <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
-  <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
-</div>
-<div class="col-md-8">
-  <div id="map"></div>
-</div>
+  <div class="col-md-4">
+    <i class="fa fa-map-marker fa-fw">     </i> Room BG.West.010 (building #8) <br>
+    <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
+    <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
+    <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
+    <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
+    <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
+    <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
+    <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+  </div>
+  <div class="col-md-8">
+    <div id="map"></div>
+  </div>
+</section>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
   var map = new mapboxgl.Map({
