@@ -5,7 +5,7 @@ permalink: /education/
 ---
 
 <section id="courses"></section>
-## [MSc Geomatics](http://www.geomatics.tudelft.nl) courses we're involved in
+<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in</h2>
 
   * [GEO1002](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38465): Geographical information systems & cartography
   * [GEO1004](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38430): 3D Modelling of the Built Environment
@@ -18,7 +18,7 @@ permalink: /education/
 - - -
 
 <section id="theses"></section>
-## Looking for a MSc thesis topic?
+<h2>Looking for a MSc thesis topic?</h2>
 
 We have a [list of potential topics](msctopics).
 
