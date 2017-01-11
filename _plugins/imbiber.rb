@@ -840,19 +840,23 @@ class Imbiber
 			outwho = ""
 		end
 
-		if outwhat.length > 0 then
+		if outwhat != nil && outwhat.length > 0 then
 			outwhat = "<strong>" + @he.encode(outwhat, :named) + "</strong>. "
+		else
+			outwhat = ""
 		end
-		if outwho.length > 0 then
+		if outwho != nil && outwho.length > 0 then
 			outwho = @he.encode(outwho, :named) + ". "
+		else
+			outwho = ""
 		end
-		if outwhere.length > 0 then
+		if outwhere != nil && outwhere.length > 0 then
 			outwhere = @he.encode(outwhere.join(', '), :named) + '. '
 			outwhere = outwhere.gsub('&lt;em&gt;', '<em>').gsub('&lt;/em&gt;', '</em>')
 		else
 			outwhere = ""
 		end
-		if outnote.length > 0 then
+		if outnote != nil && outnote.length > 0 then
 			outnote << ". "
 		end
 		out = outwhat + outwho + outwhere + outnote
