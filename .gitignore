@@ -2,3 +2,7 @@ _site/*
 .DS_Store
 .jekyll-metadata
 *.cachedbib
+.bak
+.sav
+.ini
+
