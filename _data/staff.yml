@@ -1,3 +1,10 @@
+- surname: Helm 
+  van: van der
+  name: Margo
+  title: Secretary
+  photo: margo.jpg
+  email: j.m.vanderhelm@tudelft.nl
+  phone: "+31 15 27 81008"
 
 - surname: Post
   name: Marc
@@ -7,7 +14,6 @@
   email: j.m.post@tudelft.nl
   # description: "Generalisation of 3D city models"
 
-
 - surname: Yan
   name: Jinjin
   swapnames: true
@@ -16,7 +22,6 @@
   homepage: 3d.bk.tudelft.nl/jinjinyan
   email: j.yan-3@tudelft.nl
 
-
 - surname: Kim
   name: Sangmin
   title: Postdoc
@@ -24,14 +29,12 @@
   # homepage: 3d.bk.tudelft.nl/alabetski
   email: s.kim-2@tudelft.nl
 
-
 - surname: Labetski
   name: Anna
   title: PhD candidate
   photo: anna.png
   homepage: 3d.bk.tudelft.nl/alabetski
   email: a.labetski@tudelft.nl
-
 
 - surname: Altena 
   van: van
