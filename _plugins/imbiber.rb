@@ -322,7 +322,7 @@ class Imbiber
 					
 		end
 
-		@bibfields = ["address", "author", "booktitle", "chapter", "edition", "editor", "howpublished", "institution", "journal", "month", "note", "number", "organization", "pages", "publisher", "school", "series", "title", "type", "year"].to_set
+		@bibfields = ["address", "author", "booktitle", "chapter", "edition", "editor", "howpublished", "institution", "journal", "month", "note", "number", "organization", "pages", "publisher", "school", "series", "title", "type", "volume", "year"].to_set
 
 		@lt = LocalisedText.new(@options[:lang])
 		@he = HTMLEntities.new
