@@ -1,4 +1,23 @@
 
+## "Straightening" and improvements of meshes of 3D city models obtained from image matching
+
+<iframe src="https://player.vimeo.com/video/146221307?color=ff9933" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/146221307">3D - Amsterdam</a> from <a href="https://vimeo.com/cyclomedia">CycloMedia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+![](img/cmt3dams.png){:width="500px"}
+
+The video above of a part of Amsterdam was created automatically by [Cyclomedia](http://www.cyclomedia.com) from matching images taken from car driving around and of aerial photos.
+From far away, the model looks admittedly great, but if you zoom in it is very "noisy", eg surfaces are not straight, and there are a lot of artefacts.
+Different methods have been tried (eg [this one](https://hal.inria.fr/hal-00759261)), and here the goal is to see how methods you learned in the 3D modelling course (eg [RANSAC](https://en.wikipedia.org/wiki/RANSAC)) can be used.
+
+We have a large area of Amsterdam already (in COLLADA format: textured triangles), so the project can start right away!
+
+Notice that it's possible to do this project with a mix of software (FME, CloudCompare) and Python.
+
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Abdoulaye Diakité](mailto:a.a.diakite@tudelft.nl)
+
+- - -
+
 ## Automatic guesstimation of the level of detail of a 3D city model
 
 ![](img/CityGML-LOD.png){:width="800px"}
