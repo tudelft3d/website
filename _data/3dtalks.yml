@@ -5,7 +5,7 @@
   date: 2017-02-17 
   time: 11:00-12:00
 
--title: "The role of (3D) GIS in the urbanism design process"
+- title: "The role of (3D) GIS in the urbanism design process"
   name: "[Steffen Nijhuis (TU Delft)](http://homepage.tudelft.nl/s8t3t/)"
   room: "BG.West.270"
   date: 2017-02-03 
@@ -43,7 +43,6 @@
   room: "BG.West.270"
   date: 2016-11-25 
   time: 11:00-12:00
-
 
 - title: "3D city model aided building change detection from VHR aerial images"
   name: "[Kaixuan Zhou](http://www.citg.tudelft.nl/nl/over-faculteit/afdelingen/geoscience-and-remote-sensing/staff/phd-students/msc-k-kaixuan-zhou/) (TU Delft, CiTG)"
