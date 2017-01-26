@@ -27,6 +27,8 @@ The student will be helped by a remote sensing specialist (ir. Sven Briels) and 
 For this position we ask for programming skills, preferably in Matlab. 
 The student will have to develop and test a large number of algorithms and approaches to get information from the raw data.
 
+[More information is found there.](http://jobs.readaar.com/blog/internship-remote-sensing-machine-learning)
+
 *Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) 
 
 
