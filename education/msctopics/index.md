@@ -18,11 +18,11 @@ permalink: /education/msctopics/
 This project is done in cooperation with [Readaar](http://www.readaar.com).
 Readaar already developed a method to efficiently determine 3D roof segments from LiDAR data. 
 Their current method is extremely fast (less than 2 days to process the entire Netherlands on a normal workstation) and gives a coarse estimation (~1m planar accuracy) of all roof segments in the Netherlands. 
-They want to upgrade their current method to combine LiDAR with aerial imagery to profit from the much higher resolution of imagery wrt LiDAR. 
+They want to upgrade their current method to combine LiDAR with aerial imagery to profit from the much higher resolution of imagery w.r.t. LiDAR. 
 There are multiple ways to achieve this, which could be focused more on traditional point cloud processing methods or more on object detection/machine learning approaches.
 Both stereo imagery and LiDAR data are available for the entire Netherlands. 
 
-The student will be helped by a remote sensing specialist (ir. Sven Briels) and a machine learning expert (Jean-Michel Renders Phd.) from [Readaar](http://www.readaar.com), and supervisors from TU Delft.
+The student will be helped by a remote sensing specialist (ir. Sven Briels) and a machine learning expert (Jean-Michel Renders, PhD) from [Readaar](http://www.readaar.com), and supervisors from TU Delft.
 
 For this position we ask for programming skills, preferably in Matlab. 
 The student will have to develop and test a large number of algorithms and approaches to get information from the raw data.
