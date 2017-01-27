@@ -16,13 +16,13 @@ We published a new paper:
     doi = {10.1080/15230406.2017.1279986}
 }</pre></div></div>
 
-<br>
+<br/>
 
-There has been a great deal of research about errors in geographic information and how they affect spatial analyses. A typical GIS process introduces various types of errors at different stages, and such errors usually propagate into errors in the result of a spatial analysis. However, most studies consider only a single error type thus preventing the understanding of the interaction and relative contributions of different types of errors. We focus on the level of detail (LOD) and positional error, and perform a multiple error propagation analysis combining both types of error. We experiment with three spatial analyses (computing gross volume, envelope area, and solar irradiation of buildings) performed with procedurally generated 3D city models to decouple and demonstrate the magnitude of the two types of error, and to show how they individually and jointly propagate to the output of the employed spatial analysis. The most notable result is that in the considered spatial analyses the positional error has a much higher impact than the LOD. As a consequence, we suggest that it is pointless to acquire geoinformation of a fine LOD if the acquisition method is not accurate, and instead we advise focusing on the accuracy of the data.
+There has been a great deal of research about errors in geographic information and how they affect spatial analyses. A typical GIS process introduces various types of errors at different stages, and such errors usually propagate into errors in the result of a spatial analysis. However, most studies consider only a single error type thus preventing the understanding of the interaction and relative contributions of different types of errors. We focus on the level of detail (LOD) and positional error, and perform a multiple error propagation analysis combining both types of error. We experiment with three spatial analyses (computing gross volume, envelope area, and solar irradiation of buildings) performed with procedurally generated 3D city models to decouple and demonstrate the magnitude of the two types of error, and to show how they individually and jointly propagate to the output of the employed spatial analysis. The most notable result is that in the considered spatial analyses the positional error has a much higher impact than the LOD. As a consequence, we suggest that it is pointless to acquire geoinformation of a fine LOD if the acquisition method is not accurate, and instead we advise focusing on the accuracy of the data.<br/><br/>
 
-<a href="http://dx.doi.org/10.1080/15230406.2017.1279986"><img src="{{ site.baseurl }}/img/2017/cagis-1.png"/></a><br/>
+<a href="http://dx.doi.org/10.1080/15230406.2017.1279986"><img src="{{ site.baseurl }}/img/2017/cagis-1.png"/></a><br/><br/>
 
-The paper is freely available at the <a href="http://dx.doi.org/10.1080/15230406.2017.1279986">journal</a> (open access).<br/><br/>
+The paper is freely available at the <a href="http://dx.doi.org/10.1080/15230406.2017.1279986">journal</a> (open access).<br/><br/><br/>
 
 <img src="{{ site.baseurl }}/img/2017/cagis-2.png"/><br/><br/>
 <img src="{{ site.baseurl }}/img/2017/cagis-3.png"/><br/><br/>
