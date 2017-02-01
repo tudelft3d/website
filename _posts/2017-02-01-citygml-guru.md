@@ -21,6 +21,7 @@ We are particularly looking for new software, and a more exhaustive list of [ong
 
 The [source code is publicly available and hosted on GitHub](https://github.com/tudelft3d/website-citygml), and if you want to contribute please visit [this page](https://www.citygml.guru/contribute/).
 
+Cheers,
 The gurus of CityGML
 
 
