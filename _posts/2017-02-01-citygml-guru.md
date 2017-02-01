@@ -5,7 +5,7 @@ categories: news
 date: 2017-02-01 15:08
 ---
 
-Because we were saddened about the general state of the CityGML websites, we have decided to start our own page: [www.citygml.guru](https://www.citygml.guru).
+Because we were saddened by the general state of the CityGML websites, we have decided to start our own page: [www.citygml.guru](https://www.citygml.guru).
 
 <a href="https://www.citygml.guru"><img src="{{ site.baseurl }}/img/2017/citygmlguru.png"/></a>
 
