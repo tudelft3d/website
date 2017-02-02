@@ -1,9 +1,14 @@
+- name: OGC TC/PC
+  description: Open Geospatial Consortium Technical and Planning Committee March 2017
+  image: ogc.png
+  web: http://www.opengeospatial.org/event/1703tc
+  date: 20-24 March 2017
 
 - name: 3DViz 2016
   description: 3D Visualisation Workshop
   image: 3dviz2016.jpg
   web: /events/3dvis2016/
-  date: 27 September 2016 
+  date: 27 September 2016
 
 - name: UDMV 2015
   description: 3rd Eurographics Workshop on Urban Data Modelling and Visualisation 2015
