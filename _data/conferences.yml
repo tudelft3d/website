@@ -1,3 +1,14 @@
+- name: GRASF Conference 2017
+  url: http://www.grasf.ae/
+  place: Dubai, United Arab Emirates
+  start: 2017-03-06
+  end: 2017-03-08
+
+- name: ISPRS Workshop on Modelling and Managing Cartographic Data
+  url: http://www2.isprs.org/commissions/comm4/wg7/isprs-workshop-on-modelling-and-managing-cartographic-data.html
+  place: Washington DC, USA
+  start: 2017-07-02
+  end: 2017-07-02
 
 - name: 28th International Cartographic Conference 2017
   url: http://icc2017.org
@@ -19,7 +30,7 @@
 
 - name: Web3D 2017
   url: http://web3d2017.org
-  place: Queensland University of Technology, Brisbane, Australia
+  place: Brisbane, Australia
   start: 2017-06-05
   end: 2017-06-07
 
@@ -45,6 +56,12 @@
   place: Wageningen, the Netherlands
   start: 2017-05-09 
   end: 2017-05-12
+
+- name:  Bridging space, time, and semantics in GIScience
+  url: http://geosem.ntua.gr
+  place: Wageningen, the Netherlands
+  start: 2017-05-09 
+  end: 2017-05-09
 
 - name: GIS Research UK Conference
   url: http://manchester.gisruk.org
