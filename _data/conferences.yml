@@ -1,4 +1,10 @@
 
+- name: LS2017 ISPRS Workshop Laser Scanning 2017
+  url: http://www2.ipf.kit.edu/laserscanning2017/index.html
+  place: Wuhan, China
+  start: 2017-09-18
+  end: 2017-09-22
+
 - name: GRASF Conference 2017
   url: http://www.grasf.ae/
   place: Dubai, United Arab Emirates
