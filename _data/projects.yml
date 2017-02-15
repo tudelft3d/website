@@ -47,6 +47,7 @@
   funding: AMS
   fundingurl: http://www.ams-institute.org
   image: haf.png
+  finished: true
 
 - name: Quality control of 3D city models
   description: "Validation and quality control of (coming soon: all features) in 3D city models"
@@ -57,16 +58,19 @@
   description: Path planning for first responders among the moving obstacles caused by different types of disasters
   webpage: /projects/navigation/
   image: navigation.png
+  finished: true
 
 - name:  Big Data Analytics in the Geospatial Domain
   description: Project to develop voxel, point cloud data types, and spatial features of the MonetDB relational database
   webpage: /projects/bigvoxels/
   image: bigvoxels.png
+  finished: true
 
 - name: Indoor Semantic Modeling to Support Path-Finding
   description: Modelling of building semantics for navigation purpose
   webpage: /projects/indoor/
   image: INSM.jpg
+  finished: true
 
 - name: 3D Cadastres
   description: Working group to establish an operational framework for 3D Cadastres
