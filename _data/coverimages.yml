@@ -1,8 +1,8 @@
 # Projects
 
-- image: citygmlguru.jpg
-  description: "the gurus of CityGML: help, tips, datasets, etc."
-  webpage: https://www.citygml.guru
+- image: citygml-logo.png
+  description: "CityGML official homepage: help, tips, datasets, etc."
+  webpage: https://www.citygml.org
 
 - image: umnd.jpg
   description: Urban modelling in higher dimensions
