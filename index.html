@@ -25,33 +25,33 @@ title: 3D geoinformation at TU Delft
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-	    <div class="panel panel-default">
-		    <div class="panel-heading">
-		    	<h4>Latest news <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></h4>
-		    </div>
-		    <div class="panel-body">
-		      <div class="firstpost">
-			      <a href="{{ site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a>
-			      <br><span>{{ site.posts[0].date | date_to_string }}</span>
-			      <br />{{ site.posts[0].excerpt | strip_html }}
-			      <br /><a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a>
-			      <hr />
-		      </div>
-		      <ul class="posts">
-		        {% for post in site.posts offset:1 limit:5 %}
-		          <li><span>{{ post.date | date_to_string }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-		        {% endfor %}
-		      </ul>
-		      <a href="{{ site.baseurl }}/news">All news</a>
-		    </div>
-	    </div>
-      <div class="row">     
-        <div class="col-sm-6 col-md-offset-2 col-md-8"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}"/></a></div>
-        <div class="col-sm-6 col-md-offset-2 col-md-8"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.png" | prepend: site.baseurl }}"/></a></div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4>Latest news <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></h4>
+        </div>
+        <div class="panel-body">
+          <div class="firstpost">
+            <a href="{{ site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a>
+            <br><span>{{ site.posts[0].date | date_to_string }}</span>
+            <br />{{ site.posts[0].excerpt | strip_html }}
+            <br /><a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a>
+            <hr />
+          </div>
+          <ul class="posts">
+            {% for post in site.posts offset:1 limit:5 %}
+              <li><span>{{ post.date | date_to_string }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <a href="{{ site.baseurl }}/news">All news</a>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-offset-2 col-md-8"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}"/></a></div>
-        <div class="col-sm-6 col-md-offset-2 col-md-8"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.png" | prepend: site.baseurl }}"/></a></div>
+      <div class="row">     
+        <div class="col-sm-6 col-md-offset-2 col-md-8">
+          <a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}"/></a>
+          <a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.png" | prepend: site.baseurl }}"/></a>
+          <a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}"/></a>
+          <a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.png" | prepend: site.baseurl }}"/></a>
+        </div>
       </div>
     </div>
     <div class="col-md-8">
