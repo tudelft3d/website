@@ -64,12 +64,21 @@ The project will start with a kick off with the stakeholders in January 2017. Af
 
 ## Sponsors
 
-<div style="display:table-cell; padding: 20px;"><a href="http://www.bimloket.nl" title="BIM Loket website"><img src="bimloket.jpg" alt="BIM Loket logo" style="max-height: 200px;"></a></div>
-<div style="display:table-cell; padding: 20px;"><a href="https://www.denhaag.nl" title="Den Haag website"><img src="denhaag.jpg" alt="Den Haag logo" style="max-height: 200px;"></a></div>
-<div style="display:table-cell; padding: 20px;"><a href="http://www.geonovum.nl" title="Geonovum website"><img src="geonovum.png" alt="Geonovum logo" style="max-height: 200px;"></a></div>
-<div style="display:table-cell; padding: 20px;"><a href="https://www.kadaster.nl" title="Kadaster website"><img src="kadaster.jpg" alt="Kadaster logo" style="max-height: 200px;"></a></div>
-<div style="display:table-cell; padding: 20px;"><a href="http://www.rijkswaterstaat.nl" title="Rijkswaterstaat website"><img src="rws.png" alt="Rijkswaterstaat logo" style="max-height: 200px;"></a></div>
-<div style="display:table-cell; padding: 20px;"><a href="http://www.rotterdam.nl" title="Rotterdam website"><img src="rotterdam.png" alt="Rotterdam logo" style="max-height: 200px;"></a></div>
+<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.bimloket.nl" title="BIM Loket website"><img src="bimloket.jpg" alt="BIM Loket logo" style="max-height: 200px;"></a></div>
+<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.denhaag.nl" title="Den Haag website"><img src="denhaag.jpg" alt="Den Haag logo" style="max-height: 200px;"></a></div>
+<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.geonovum.nl" title="Geonovum website"><img src="geonovum.png" alt="Geonovum logo" style="max-height: 200px;"></a></div>
+<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.kadaster.nl" title="Kadaster website"><img src="kadaster.jpg" alt="Kadaster logo" style="max-height: 200px;"></a></div>
+<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.rijkswaterstaat.nl" title="Rijkswaterstaat website"><img src="rws.png" alt="Rijkswaterstaat logo" style="max-height: 200px;"></a></div>
+<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.rotterdam.nl" title="Rotterdam website"><img src="rotterdam.png" alt="Rotterdam logo" style="max-height: 200px;"></a></div>
+
+<div class="row">
+  <div class="visible-xs thumbnail"><a href="http://www.bimloket.nl" title="BIM Loket website"><img src="bimloket.jpg" alt="BIM Loket logo"></a></div>
+  <div class="visible-xs thumbnail"><a href="https://www.denhaag.nl" title="Den Haag website"><img src="denhaag.jpg" alt="Den Haag logo"></a></div>
+  <div class="visible-xs thumbnail"><a href="http://www.geonovum.nl" title="Geonovum website"><img src="geonovum.png" alt="Geonovum logo"></a></div>
+  <div class="visible-xs thumbnail"><a href="https://www.kadaster.nl" title="Kadaster website"><img src="kadaster.jpg" alt="Kadaster logo"></a></div>
+  <div class="visible-xs"><a href="http://www.rijkswaterstaat.nl" title="Rijkswaterstaat website"><img src="rws.png" alt="Rijkswaterstaat logo"></a></div>
+  <div class="visible-xs thumbnail"><a href="http://www.rotterdam.nl" title="Rotterdam website"><img src="rotterdam.png" alt="Rotterdam logo"></a></div>
+</div>
 
 - - - 
 
