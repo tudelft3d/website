@@ -42,7 +42,7 @@ and stored LoDs of a 3D urban model.
 <div class="row">
 
   <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-      <a href="http://3d.bk.tudelft.nl/alabetski"><img class="img-circle img-responsive" src="/img/staff/anna.png" alt="Anna  Labetski photo" /></a>
+      <a href="http://3d.bk.tudelft.nl/alabetski"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/anna.png" alt="Anna  Labetski photo" /></a>
     <h3>Anna  Labetski<br /><small>PhD candidate</small></h3>
     <p>
         <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/alabetski">3d.bk.tudelft.nl/alabetski</a><br />
@@ -53,7 +53,7 @@ and stored LoDs of a 3D urban model.
   </div>
 
   <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-        <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
+        <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
       <h3>Hugo  Ledoux<br /><small>Associate-prof.</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
@@ -64,8 +64,8 @@ and stored LoDs of a 3D urban model.
   </div>
 
   <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-        <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
-      <h3>Jantien  Stoter<br /><small>Professor</small></h3>
+        <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
+      <h3>Jantien Stoter<br /><small>Professor</small></h3>
       <p>
           <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/jstoter">3d.bk.tudelft.nl/jstoter</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
