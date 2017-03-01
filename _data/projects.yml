@@ -83,3 +83,8 @@
   funding: 3TU lighthouse
   fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
   image: spyunder.jpg
+
+- name: GeoBIM
+  description: Bridging the gap between Geo and BIM
+  webpage: /projects/geobim/
+  image: geobim.jpg

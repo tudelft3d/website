@@ -52,6 +52,10 @@
   description: Indoor Semantic Modeling to Support Path-Finding
   webpage: /projects/indoor/
 
+- image: geobim.jpg
+  description: GeoBIM
+  webpage: /projects/geobim/
+
 # Code
 
 - image: azul.png
