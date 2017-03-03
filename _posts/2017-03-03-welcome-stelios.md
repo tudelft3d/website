@@ -6,9 +6,7 @@ date: 2017-03-03 08:26
 ---
 
 <img class="img-circle img-responsive" src="{{ "/img/staff/stelios.jpg" | prepend: site.baseurl }}">
-
-
-Stelios Vitalis has just joined our research group as a PhD student.
+Stelios Vitalis has just joined our research group as a PhD candidate.
 He will be working on the ERC project [Urban modelling in higher dimensions]({{ site.baseurl }}/projects/umnd), and his topic of research will be the development of a data structure to model semantically rich 3D+LoD GIS data in 4D.
 
 Stelios is a GIS Software Engineer. 
