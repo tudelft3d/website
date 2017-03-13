@@ -1,4 +1,10 @@
 
+- name: Automation in Construction
+  webpage: https://www.journals.elsevier.com/automation-in-construction
+  index: ISI
+  description: Broad scope, but favours a lot BIM/IFC papers recently.
+  # scirev: https://scirev.sc/journal/advances-in-engineering-software/
+
 - name: Journal of Open Source Software (JOSS)
   webpage: http://joss.theoj.org
   description: academic journal with a formal peer review process that is designed to improve the quality of the software submitted. Upon acceptance into JOSS, a CrossRef DOI is minted and we list your paper on the JOSS website.
