@@ -54,6 +54,10 @@ They are expected to have good programming skills (C++ will be used), a good com
 
 ## How to apply
 
+<div class="alert alert-info" role="alert">
+Deadline to apply is 15 May 2017 at 10:00am (Amsterdam time).
+</div>
+
 To apply, please submit: 
 
 - a detailed CV and a letter of application,
