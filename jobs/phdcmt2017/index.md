@@ -66,7 +66,7 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2017-XX__.
+Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2017/07__.
 
 For more information about this position, please contact directly [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) (<mailto:h.ledoux@tudelft.nl>).
 
