@@ -16,7 +16,7 @@ With laser-scanners and cameras mounted on cars and/or drones, it is possible to
 While such model admittedly look great, in practice they cannot be used in several applications because the urban features (eg buildings, trees, bridges, etc.) are not available, we only have one gigantic mesh of triangles with textures.
 
 The aim of the project is to develop new algorithms to automatically identify urban features in the mesh, and to construct a representation of these that is useful for different applications.
-One requirements is the "straightening" of some man-made features (eg walls of buildings) so that they are less noisy/bumpy, and another is that these objects should be semantically enriched by taking with attributes/semantics coming from other (2D) datasets of the area.
+One requirement is the "straightening" of some man-made features (eg walls in buildings) so that they are less noisy/bumpy, and another is that these objects should be semantically enriched by taking attributes/semantics coming from other (2D) datasets of the area.
 The project includes a theoretical part (design of algorithms) and a development part where a prototype will be built and tested with real-world datasets of different countries.
 
 The PhD position is funded by the Dutch company [CycloMedia](http://www.cyclomedia.com) and by an [EU research project](https://itea3.org/project/ps-crimson.html) involving several companies.
