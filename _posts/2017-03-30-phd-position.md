@@ -6,7 +6,7 @@ date: 2017-03-30 08:57
 ---
 
 
-We are looking for a new PhD to join our group. 
+We are looking for a new PhD student to join our group. 
 The project is in collaboration with the Dutch company [CycloMedia](http://www.cyclomedia.com) and different partners around the world.
 
 Deadline to apply is 2017-05-15, and [all details are available on that page]({{ "/jobs/phdcmt2017/" | prepend: site.baseurl }}).
