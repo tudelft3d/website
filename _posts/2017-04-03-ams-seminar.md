@@ -11,7 +11,7 @@ The aim of the workshop was to bring experts on 3D data for urban applications t
 
 [AMS](http://www.ams-institute.org/institute/) is an Amsterdam based public-private institute where talent is educated and engineers, designers, digital engineers and natural/social scientists jointly develop and valorise interdisciplinary metropolitan solutions.
 TU Delft, together with Wageningen UR and MIT, is a core partner of AMS. Further partners are TNO, Amsterdam Smart City, The Waag Society, City of Boston, KPN, Accenture, Alliander, Cisco, ESA, IBM, Shell, Waternet and La Fabrique de la Cité.
-Our [group]({{ site.baseurl }}) is involved in AMS projects and our professor Jantien Stoter is a [principal investigator at AMS](http://www.ams-institute.org/category/pi/).
+Our [group](https://3d.bk.tudelft.nl) is involved in AMS projects and our professor Jantien Stoter is a [principal investigator at AMS](http://www.ams-institute.org/category/pi/).
 
 ![]({{ site.baseurl }}/img/2017/ams-seminar-0.JPG)<br />
 ![]({{ site.baseurl }}/img/2017/ams-seminar-1.JPG)<br />
