@@ -6,7 +6,7 @@
   email: b.a.heester@tudelft.nl
   phone: "+31 6 52046328"
   homepage: 3d.bk.tudelft.nl/bheester
-  # description: "Topic: 4D data structure to model semantically rich 3D+LoD GIS data in 4D. Working on the [UMnD project](https://3d.bk.tudelft.nl/projects/umnd/)."
+  description: "Integration of GIS and BIM"
 
 - surname: Vitalis
   name: Stelios
