@@ -13,7 +13,7 @@ permalink: /jobs/phdcmt2017/
 
 
 With laser-scanners and cameras mounted on cars and/or drones, it is possible to reconstruct automatically and quickly a 3D textured mesh of a city, such as that above from Amsterdam, created by [CycloMedia](http://www.cyclomedia.com).
-While such model admittedly look great, in practice they cannot be used in several applications because the urban features (eg buildings, trees, bridges, etc.) are not available, we only have one gigantic mesh of triangles with textures.
+While such models admittedly look great, in practice they cannot be used in several applications because the urban features (eg buildings, trees, bridges, etc.) are not available, we only have one gigantic mesh of triangles with textures.
 
 The aim of the project is to develop new algorithms to automatically identify urban features in the mesh, and to construct a representation of these that is useful for different applications.
 One requirement is the "straightening" of some man-made features (eg walls in buildings) so that they are less noisy/bumpy, and another is that these objects should be semantically enriched by taking attributes/semantics coming from other (2D) datasets of the area.
