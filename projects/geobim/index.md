@@ -120,10 +120,10 @@ The project will start with a kick off with the stakeholders in January 2017. Af
   </div>
 
   <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-        <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/hugo.jpg" alt="Hugo Ledoux photo" /></a>
+        <a href="https://www.tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/hugo.jpg" alt="Hugo Ledoux photo" /></a>
       <h3>Hugo Ledoux<br /><small>Associate-prof. (TUD)</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
+          <i class="fa fa-home"></i> <a href="https://www.tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
           <i class="fa fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
