@@ -62,6 +62,17 @@ The participants, and the research groups and organisations they belong to, are 
 
 The project will start with a kick off with the stakeholders in January 2017. After that, a fast software development process will be applied to provide a preliminary prototype by April and a final prototype by Sept/Oct 2017. The developers will start by defining the programming interface in accordance with stakeholder demands (as collected in the kick off), with a unified and interoperable geometric interpretation of the elements in IFC and CityGML by the preliminary prototype. Two workshops on intermediate results will validate the results with the stakeholders.  More complete coverage of both schemas will be present in the final prototype. Parallel to the development of the IFC/CityGML interface, the use cases will be run by the partner organisations. Requirements on further developments of technologies and standards will continuously be collected and reported back to the advisory board.
 
+## Meetings
+
+### Launch on 2017-02-15 at the BIM Loket in Delft
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <script async class="speakerdeck-embed" data-id="876a2e1d5fcf4dad8f873a91b4dce644" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
+
+
 ## Sponsors
 
 <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.bimloket.nl" title="BIM Loket website"><img src="bimloket.jpg" alt="BIM Loket logo" style="max-height: 200px;"></a></div>
