@@ -72,6 +72,7 @@ The project will start with a kick off with the stakeholders in January 2017. Af
   </div>
 </div>
 
+- - -
 
 ## Sponsors
 
