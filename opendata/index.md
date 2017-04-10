@@ -47,6 +47,6 @@ permalink: /opendata/
 
 <h2>Curated lists</h2>
 
-Note that on our website <a href="http://www.citygml.guru">CityGML.guru</a> we also maintain a list of <a href="https://www.citygml.guru/3dcities/">open 3D city models of cities around the world</a>.<br/>
+Note that on <a href="http://www.citygml.org">CityGML.org</a> we also maintain a list of <a href="https://www.citygml.org/3dcities/">open 3D city models of cities around the world</a>.<br/>
 
 Furthermore, Wikipedia has <a href="https://en.wikipedia.org/wiki/National_lidar_dataset">a list of national lidar datasets</a>. These datasets can be used as input to generate 3D city models. A possibility is to use the open-source software <a href="https://github.com/tudelft3d/3dfier">3dfier</a> developed at our group, or <a href="https://www.citygml.guru/software/#generators-of-3d-city-models-in-citygml">other CityGML software</a>.
