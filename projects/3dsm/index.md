@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Simplification of digital terrain models using feature-based three-dimensional methods
+title: Point cloud modelling with the 3D Medial Axis Transform
 permalink: /projects/3dsm/
 ---
 
@@ -19,24 +19,33 @@ permalink: /projects/3dsm/
 
 - - -
 
-## About
-
-3DSM is a research project funded by the [Dutch Technology Foundation STW](http://www.stw.nl), under the [Open Technology programme](http://www.stw.nl/nl/content/open-technologieprogramma). We aim at investigating algorithms to simplify digital surface models (DSMs), which represent the Earth's surface and man-made objects. In recent years, these have considerably grown in size because of advances in acquisition technologies such as airborne laser-scanning. A vivid example is the [AHN2 datasets](http://www.ahn.nl) in the Netherlands: it contains at least 4 points per square meter, and its total is around 640 billion points (639,477,709,621 to be exact). What is ironic is that while datasets like AHN2 are being collected in several countries (because of their many possible applications such as flood modelling, monitoring of dikes, forest mapping, the generation of 3D city models, etc.), in practice they are seldom used to their full potential since the tools that practitioners have, and are used to, cannot handle such massive datasets.
-
-In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce their size while keeping their main characteristics. While current methods often portray DSMs as 2D objects (and thus valuable information is lost), we investigate new simplification algorithms that: 
-
-  1. use 3D tools and 3D data structures, specifically the 3D medial axis transform (MAT); 
-  2. permit us to define 3D features---buildings, dikes, etc---and consider these while simplifying. The knowledge of the features will permit us to remove unimportant points and focus only on those of interest for a given application. 
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">Point cloud modelling</h2>
+    <p>Through point clouds we can obtain dense and accurate representations of real-world objects and landscapes. Yet a to a computer a point cloud is nothing more than a list of points, without meaning and semantics. Fully exploiting the wealth of information that is contained in point clouds means that we need to now how structured information from point clouds can be efficiently obtained. The enhanced point cloud that results is key in enabling applications such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
+  </div>
+  <div class="col-md-5">
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+    <video autoplay loop class="embed-responsive-item">
+        <source src="{{ "/projects/3dsm/img/ze.mp4" | prepend: site.baseurl }}" type="video/mp4">
+    </video>
+    </div>
+  </div>
+</div>
 
 - - - 
 
 <div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">Medial Axis Transform (MAT)</h2>
-    <p>The MAT represents the shape of an object, in 2D or 3D, with balls contained inside it, and should be seen as the <em>skeleton</em> of an object. Given an object, it is an alternative representation that captures both the shape of the object and its topology (how its different parts are connected), and has therefore been used in numerous shape-related problems.</p>
-  </div>
   <div class="col-md-5">
-    <iframe src="https://player.vimeo.com/video/84859998" width="500" height="496" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+    <video autoplay loop class="embed-responsive-item">
+        <source src="{{ "/projects/3dsm/img/sb.mp4" | prepend: site.baseurl }}" type="video/mp4">
+    </video>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="">3D Medial Axis Transform (MAT)</h2>
+    <p>The MAT represents the shape of an object, in 2D or 3D, with balls contained inside it, and should be seen as the <em>skeleton</em> of an object. Given an object, it is an alternative representation that captures both the shape of the object and its topology (how its different parts are connected), and has therefore been used in numerous shape-related problems.</p>
   </div>
 </div>
 
@@ -44,20 +53,13 @@ In this project, we tackle this problem by *simplifying* DSMs, i.e. we reduce th
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading">MAT-based simplification of DSMs</h2>
+    <h2 class="featurette-heading" style="">MAT for Point cloud modelling</h2>
     <p>The general idea of the project is to simplify a DSM not by manipulating the surface, but rather by working on its MAT. The MAT is a complete shape descriptor (which means that it encodes the original shape), and thus if we manipulate or simplify it (eg by removing large noisy spikes, which are easier to identify than small bumps on the surface) we can reconstruct a simplified version of the original DSM.</p>
   </div>
   <div class="col-md-5">
     <img class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/idea.gif" | prepend: site.baseurl }}" alt="Generic placeholder image">
   </div>
 </div>
-
-
-- - -
-
-## Publications
-
-{% imbiber projects/3dsm/3dsm.bib groupby:year idswithprefix:year_ %}
 
 - - -
 
@@ -68,6 +70,23 @@ Our implementations of the shrinking ball algorithm to approximate the Medial Ax
   - [C++ implementation](https://github.com/tudelft3d/masbcpp)
   - [Python implementation](https://github.com/tudelft3d/masbpy)
 
+- - - 
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">Funding</h2>
+    <p>3DSM is a research project funded by the <a href="http://www.stw.nl/en/">Netherlands Organisation for Scientific Research (NWO)</a> under the <a href="http://www.stw.nl/en/content/open-technology-programme">Open Technology programme</a>.</p>
+  </div>
+  <div class="col-md-5">
+    <img style="margin-top:25px" class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/nwo_logo.jpg" | prepend: site.baseurl }}" alt="NWO logo">
+  </div>
+</div>
+
+- - -
+
+## Publications
+
+{% imbiber projects/3dsm/3dsm.bib groupby:year idswithprefix:year_ %}
 
 - - -
 
