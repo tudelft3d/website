@@ -28,6 +28,8 @@ In both the Geographic Information (Geo) and Building Information Modelling (BIM
 
 **Use case 2**: The process of supporting the life-cycle of objects with a continuous information chain: using information about complete urban areas in the design process (i.e. using geo-information in a BIM application) and, at a later stage, converting plan, design and construction data to maintenance data. The focus of this second use case is on large infrastructure projects.
 
+**Use case 3**: Integration of sub-soil information in the BIM design process.
+
 For the BIM/Geo data interface, this project will focus on the two most prominent standards in the domains. These are Industry Foundation Classes (IFC) building models, which contain the physical elements of single constructions in great detail, and CityGML models, which can represent entire cities in a simpler format that is usable for exchange, dissemination and spatial analyses, such as solar potential and wind simulations. The two modelling paradigms embodied by IFC and CityGML are good use cases of BIM and Geo data, and they are still broadly incompatible as they originally targeted different groups of people and now they cannot be used in the same tools (Figure 1).
 
 ## Previous work
@@ -115,6 +117,17 @@ The project will start with a kick off with the stakeholders in January 2017. Af
     <p>
         <i class="fa fa-home"></i> <a href="http://www.tue.nl/staff/j.beetz">tue.nl/staff/j.beetz</a><br />
         <i class="fa fa-envelope"></i> <a href="mailto:j.beetz@tue.nl">j.beetz@tue.nl</a><br />
+        <br />
+        <br />
+    </p>
+  </div>
+
+  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      <a href="https://3d.bk.tudelft.nl/adiakite"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/abdou.png" alt="Abdoulaye Diakité photo" /></a>
+    <h3>Abdoulaye Diakité<br /><small>Postdoc (TUD)</small></h3>
+    <p>
+        <i class="fa fa-home"></i> <a href="https://3d.bk.tudelft.nl/adiakite">3d.bk.tudelft.nl/adiakite</a><br />
+        <i class="fa fa-envelope"></i> <a href="mailto:a.a.diakite@tudelft.nl">a.a.diakite@tudelft.nl</a><br />
         <br />
         <br />
     </p>
