@@ -35,7 +35,7 @@
   image: 3d4em.jpg
 
 - name: 3DSM
-  description: Simplification of digital terrain models using feature-based three-dimensional methods
+  description: Point cloud modelling with the 3D Medial Axis Transform
   webpage: /projects/3dsm/
   funding: STW
   fundingurl: http://www.stw.nl

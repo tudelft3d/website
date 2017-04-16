@@ -14,15 +14,12 @@ permalink: /projects/3dsm/
 
 - - -
 
-* Table of Content
-{:toc}
-
-- - -
-
 <div class="row featurette">
   <div class="col-md-7">
     <h2 class="featurette-heading" style="margin-top:0px;">Point cloud modelling</h2>
-    <p>Through point clouds we can obtain dense and accurate representations of real-world objects and landscapes. Yet a to a computer a point cloud is nothing more than a list of points, without meaning and semantics. Fully exploiting the wealth of information that is contained in point clouds means that we need to now how structured information from point clouds can be efficiently obtained. The enhanced point cloud that results is key in enabling applications such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
+    <p>Through point clouds we can obtain dense and accurate representations of real-world objects and landscapes. If we merely look at a visualisation of this point cloud, already a great deal of information is conveyed to us. We can easily recognise different objects and measure distances, areas, and volumes.</p>
+    <p>Yet to a computer a point cloud is nothing more than a bunch of 3D coordinates, without any structure or semantics. If we want a computer do the same things, we need to first structure the point cloud in a way a also computer can efficiently make use of it.</p>
+    <p>In the 3DSM project we aim to find 3D methods and datastructes that make it easier to work with pointclouds. In achieving this we enable a number of key applications of point clouds such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
   </div>
   <div class="col-md-5">
     <div align="center" class="embed-responsive embed-responsive-16by9">
@@ -44,7 +41,7 @@ permalink: /projects/3dsm/
     </div>
   </div>
   <div class="col-md-7">
-    <h2 class="featurette-heading" style="">3D Medial Axis Transform (MAT)</h2>
+    <h2 class="featurette-heading" style="margin-top:0px;">3D Medial Axis Transform (MAT)</h2>
     <p>The MAT represents the shape of an object, in 2D or 3D, with balls contained inside it, and should be seen as the <em>skeleton</em> of an object. Given an object, it is an alternative representation that captures both the shape of the object and its topology (how its different parts are connected), and has therefore been used in numerous shape-related problems.</p>
   </div>
 </div>
@@ -53,8 +50,8 @@ permalink: /projects/3dsm/
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading" style="">MAT for Point cloud modelling</h2>
-    <p>The general idea of the project is to simplify a DSM not by manipulating the surface, but rather by working on its MAT. The MAT is a complete shape descriptor (which means that it encodes the original shape), and thus if we manipulate or simplify it (eg by removing large noisy spikes, which are easier to identify than small bumps on the surface) we can reconstruct a simplified version of the original DSM.</p>
+    <h2 class="featurette-heading" style="margin-top:0px;">MAT for Point cloud modelling</h2>
+    <p>The general idea of the project is to process point clouds not by manipulating the surface points, but rather by working on its MAT. While the MAT contains the same information as the conventional 'surface points' (i.e. the input point cloud), it models key properties of a shape in a much more explicit way. The key benefit of the MAT here is its skeleton-like and explicitly topological representation. Using this skeleton we can easily isolate distinct object from the point cloud and remove them for instance. This is possible because we always keep the link to the surface points while we work with the MAT.</p>
   </div>
   <div class="col-md-5">
     <img class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/idea.gif" | prepend: site.baseurl }}" alt="Generic placeholder image">
@@ -63,12 +60,33 @@ permalink: /projects/3dsm/
 
 - - -
 
+<div class="row featurette">
+  <div class="col-md-5">
+    <img class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/usecases.jpeg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+  </div>
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">Use cases</h2>
+    <p>An important part of this project is to demonstrate the viablity of the MAT for a number of real-world applications and by using real-world datasets. We have identified the following:</p>
+    <ul>
+    <li>Point cloud visualisation and simplification</li>
+    <li>Building detection</li>
+    <li>Watercourse detection</li>
+    <li>Visibility analysis</li>
+    <li>Surface reconstruction</li>
+    </ul>
+  </div>
+</div>
+
+- - -
+
 ## Open-source software
 
-Our implementations of the shrinking ball algorithm to approximate the Medial Axis Transform (MAT) of an oriented point cloud---modified so that noisy point clouds can be processed---are available there:
+We will release all the code that is developed for this project as open source software. As of today not everthing is published yet. However, the core algorithm that we use to robustly compute the 3D MAT of point clouds is already available:
 
   - [C++ implementation](https://github.com/tudelft3d/masbcpp)
   - [Python implementation](https://github.com/tudelft3d/masbpy)
+
+<iframe src="https://player.vimeo.com/video/127577620" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 - - - 
 
