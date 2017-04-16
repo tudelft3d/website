@@ -18,7 +18,7 @@ permalink: /projects/3dsm/
   <div class="col-md-7">
     <h2 class="featurette-heading" style="margin-top:0px;">Point cloud modelling</h2>
     <p>Through point clouds we can obtain dense and accurate representations of real-world objects and landscapes. If we merely look at a visualisation of this point cloud, already a great deal of information is conveyed to us. We can easily recognise different objects and measure distances, areas, and volumes.</p>
-    <p>Yet to a computer a point cloud is nothing more than a bunch of 3D coordinates, without any structure or semantics. If we want a computer do the same things, we need to first structure the point cloud in a way a also computer can efficiently make use of it.</p>
+    <p>Yet to a computer a point cloud is nothing more than a bunch of 3D coordinates, without any structure or semantics. If we want a computer do the same things, we need to first structure the point cloud in a way also a computer can efficiently make use of it.</p>
     <p>In the 3DSM project we aim to find 3D methods and datastructes that make it easier to work with pointclouds. In achieving this we enable a number of key applications of point clouds such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
   </div>
   <div class="col-md-5">
@@ -65,8 +65,8 @@ permalink: /projects/3dsm/
     <img class="featurette-image img-responsive" src="{{ "/projects/3dsm/img/usecases.jpeg" | prepend: site.baseurl }}" alt="Generic placeholder image">
   </div>
   <div class="col-md-7">
-    <h2 class="featurette-heading" style="margin-top:0px;">Use cases</h2>
-    <p>An important part of this project is to demonstrate the viablity of the MAT for a number of real-world applications and by using real-world datasets. We have identified the following:</p>
+    <h2 class="featurette-heading" style="margin-top:0px;">Case studies</h2>
+    <p>An important part of this project is to demonstrate the viablity of the MAT for a number of real-world applications and by using real-world datasets. We have identified the following case studies:</p>
     <ul>
     <li>Point cloud visualisation and simplification</li>
     <li>Building detection</li>
