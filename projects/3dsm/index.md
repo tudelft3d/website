@@ -19,7 +19,7 @@ permalink: /projects/3dsm/
     <h2 class="featurette-heading" style="margin-top:0px;">Point cloud modelling</h2>
     <p>Through point clouds we can obtain dense and accurate representations of real-world objects and landscapes. If we merely look at a visualisation of this point cloud, already a great deal of information is conveyed to us. We can easily recognise different objects and measure distances, areas, and volumes.</p>
     <p>Yet to a computer a point cloud is nothing more than a bunch of 3D coordinates, without any structure or semantics. If we want a computer do the same things, we need to first structure the point cloud in a way also a computer can efficiently make use of it.</p>
-    <p>In the 3DSM project we aim to find 3D methods and datastructes that make it easier to work with pointclouds. In achieving this we enable a number of key applications of point clouds such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
+    <p>In the 3DSM project we aim to find 3D methods and datastructes that make it easier to work with pointclouds. By achieving this we enable a number of key applications of point clouds such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
   </div>
   <div class="col-md-5">
     <div align="center" class="embed-responsive embed-responsive-16by9">
@@ -50,7 +50,7 @@ permalink: /projects/3dsm/
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading" style="margin-top:0px;">MAT for Point cloud modelling</h2>
+    <h2 class="featurette-heading" style="margin-top:0px;">MAT for point cloud modelling</h2>
     <p>The general idea of the project is to process point clouds not by manipulating the surface points, but rather by working on its MAT. While the MAT contains the same information as the conventional 'surface points' (i.e. the input point cloud), it models key properties of a shape in a much more explicit way. The key benefit of the MAT here is its skeleton-like and explicitly topological representation. Using this skeleton we can easily isolate distinct object from the point cloud and remove them for instance. This is possible because we always keep the link to the surface points while we work with the MAT.</p>
   </div>
   <div class="col-md-5">
