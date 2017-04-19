@@ -1,12 +1,10 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
   padding-bottom: 20px;
 }
 
-section {
-  padding-top: 50px;
-  margin-top: -50px;
+.content {
+  padding-top: 60px;
 }
 
 img {
@@ -32,7 +30,8 @@ a:focus {
 
 .jumbotron {
   text-align: center;
-  background-color: #2c3e50
+  background-color: #2c3e50;
+  padding: 90px 30px 15px 15px;
 }
 
 h1 {
@@ -60,6 +59,9 @@ h1 span {
 .navbar-default .navbar-header > a:hover,
 .navbar-default .navbar-header > a:focus {
   color: #30bfeb;
+}
+.navbar-default {
+  opacity: 0.95;
 }
 
 .tud {
