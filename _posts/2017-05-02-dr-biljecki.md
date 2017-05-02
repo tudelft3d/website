@@ -1,12 +1,12 @@
 ---
 layout: post
-title: PhD defence of Filip Biljecki
+title: Congratulations Dr Biljecki!
 categories: news
 date: 2017-05-02 14:01
 ---
 
 On Monday 1 May 2017, [Filip Biljecki](https://3d.bk.tudelft.nl/biljecki/) successfully defended his PhD thesis at TU Delft.
-Because his work in the last 4.5 years and his thesis were judged "exceptional", he also graduated *cum laude*, which is awarded to less than 5% of PhD theses in the Netherlands.
+Because both his work in the last 4.5 years and his thesis were judged "exceptional", he also graduated *cum laude*, which is awarded to less than 5% of PhD theses in the Netherlands.
 
 Filip's PhD thesis is entitled *Level of detail in 3D city models* ([PDF freely available](http://doi.org/b463)).
 
