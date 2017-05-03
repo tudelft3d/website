@@ -72,6 +72,9 @@ The project will start with a kick off with the stakeholders in January 2017. Af
   <div class="col-xs-12 col-md-6">
     <script async class="speakerdeck-embed" data-id="876a2e1d5fcf4dad8f873a91b4dce644" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
   </div>
+  <div class="col-xs-12 col-md-6">
+    <script async class="speakerdeck-embed" data-id="1f51a84e65cb4cdaba22edcc4381487a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
 </div>
 
 - - -
