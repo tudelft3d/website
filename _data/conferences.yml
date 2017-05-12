@@ -1,3 +1,9 @@
+- name: GIS Ostrava 2017
+  url: http://gis.vsb.cz/gisostrava/
+  place: Ostrava, Czech Republic
+  start: 2017-03-22
+  end: 2017-03-24
+
 - name: 25th ACM SIGSPATIAL International Conference on Advances in GIS
   url: http://sigspatial2017.sigspatial.org
   place: Redondo Beach, USA
