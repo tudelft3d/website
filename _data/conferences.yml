@@ -1,3 +1,27 @@
+- name: GeoBuzz 2017
+  url: http://geobuzz.nl
+  place: ’s-Hertogenbosch, the Netherlands
+  start: 2017-11-21
+  end: 2017-11-22
+
+- name: GIS Research UK 2018
+  url: http://www2.le.ac.uk/conference/gisruk2018?uol_r=8366ebfe
+  place: Leicester, UK
+  start: 2018-04-17 
+  end: 2018-04-20
+
+- name: Eurographics Workshop on Urban Data Modelling and Visualisation (UDMV) 2017
+  place: Fribourg, Switzerland
+  start: 2017-11-24
+  end: 2017-11-24
+  url: http://smartlivinglab.ch/index.php/en/home/events/189-udmv2017.html
+
+- name: 17th International Conference on Computational Science and Its Applications
+  url: http://iccsa.org
+  place: Trieste, Italy
+  start: 2017-07-03
+  end: 2017-07-06
+
 - name: "GeoAdvances 2017 : ISPRS Workshop on Multi-dimensional & Multi-scale Spatial Data Modeling"
   url: http://geoadvances.org/
   place: Karabuk, Turkey
@@ -82,7 +106,7 @@
   start: 2017-05-09 
   end: 2017-05-09
 
-- name: GIS Research UK Conference
+- name: GIS Research UK 2017
   url: http://manchester.gisruk.org
   place: Manchester, UK
   start: 2017-04-18 
