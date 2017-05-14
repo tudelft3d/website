@@ -9,6 +9,26 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+
+- - -
+
+## Automatic Derivation and Storage of Metadata for 3D City Models.
+
+![](img/metadata.png){:width="350px"}
+
+The size of 3D City Models makes it temporally and computationally expensive to quickly parse a dataset to understand if it is suitable for a specific application. Furthermore, datasets are created and modified by different users, this makes it difficult to know what level of processing it has experienced and to track its lineage to understand changes over time. Metadata is crucial for establishing data confidence, estimating fitness-for-purpose, maintaining dataset lineage and credit recognition amongst many other benefits. The problem is that it sounds boring and can be laborious to produce and maintain.
+
+The aim of this project is to: 
+1. Develop a methodology that parses a 3D City Model and automatically derives metadata, e.g. spatial extent, the presence of semantic information, level of detail, etc. 
+2. Discover a method of storing metadata that a) ensures it is still coupled with its parent dataset and b) is easily queried. 
+3. Examine the limitations of 2D metadata standards and make recommendations about how to extend standards to include 3D data.
+
+If there is interest the student may wish to examine a Resource Description Framework as the metadata data model. 
+
+For this position we ask for programming skills, preferably in Python. SQL is an asset but you can easily learn it over the course of the project. 
+
+*Contact:* [Anna Labetski](http://3d.bk.tudelft.nl/alabetski) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
 - - -
 
 ## Extraction of 3D roof segments from aerial imagery 
