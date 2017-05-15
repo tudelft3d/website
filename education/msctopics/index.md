@@ -32,29 +32,6 @@ For this position we ask for programming skills, preferably in Python. SQL is an
 
 *Contact:* [Anna Labetski](http://3d.bk.tudelft.nl/alabetski) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
-- - -
-
-## Extraction of 3D roof segments from aerial imagery 
-
-![](img/readaar.jpg){:width="350px"}
-
-This project is done in cooperation with [Readaar](http://www.readaar.com).
-Readaar already developed a method to efficiently determine 3D roof segments from LiDAR data. 
-Their current method is extremely fast (less than 2 days to process the entire Netherlands on a normal workstation) and gives a coarse estimation (~1m planar accuracy) of all roof segments in the Netherlands. 
-They want to upgrade their current method to combine LiDAR with aerial imagery to profit from the much higher resolution of imagery w.r.t. LiDAR. 
-There are multiple ways to achieve this, which could be focused more on traditional point cloud processing methods or more on object detection/machine learning approaches.
-Both stereo imagery and LiDAR data are available for the entire Netherlands. 
-
-The student will be helped by a remote sensing specialist (ir. Sven Briels) and a machine learning expert (Jean-Michel Renders, PhD) from [Readaar](http://www.readaar.com), and supervisors from TU Delft.
-
-For this position we ask for programming skills, preferably in Matlab. 
-The student will have to develop and test a large number of algorithms and approaches to get information from the raw data.
-
-[More information is found there.](http://jobs.readaar.com/blog/internship-remote-sensing-machine-learning)
-
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) 
-
-
 
 - - -
 
@@ -68,26 +45,6 @@ Visualization is an important and complex issue in the context of 3D city models
 The knowledge of programming in C++ is required.
 
 *Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-
-## Automatic repair of 3D buildings
-
-![](img/repair.png){:width="650px"}
-
-To be used as input in most simulation and modelling software, 3D city models should be geometrically and topologically valid.
-Unfortunately, the vast majority of 3D city models (eg in CityGML) available are of very poor quality: they contain geometric errors such part of roofs missing, a bridge not connected to the shore, self-intersections of surfaces, two buildings overlapping, wrong orientation of surfaces, etc.
-The aim of this project is to build a workflow so that the new [generic CGAL repair operators](http://doc.cgal.org/latest/Polygon_mesh_processing/) can be used to repair automatically 3D buildings.
-Other modules of CGAL could also be used, eg the [Nef Polyhedra](http://doc.cgal.org/latest/Nef_3/index.html).
-
-I have already experience in repairing 3D buildings, but these new operators would make the software simpler, robuster, and easier to maintain.
-Moreover, a Geomatics student graduated 2 years ago on a similar topic: [voxel-based methods were then investigated](http://repository.tudelft.nl/islandora/object/uuid:8ef4459d-b940-4007-bc3c-d87349015129/?collection=research).
-
-CGAL is in C++, thus the knowledge of C++---or a strong desire to learn it---is necessary.
-I am patient if you want to take this opportunity to learn, and many staff of my group could help.
-
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -159,17 +116,6 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 - - -
 
-## BIM/IFC and its integration with CityGML & 3D GIS
-
-![](img/ifcitygml.png){:width="600px"}
-
-An MSc Geomatics student recently completed his thesis work on the automatic conversion of IFC buildings to CityGML LOD3 models ([MSc thesis here](http://repository.tudelft.nl/view/ir/uuid%3A31380219-f8e8-4c66-a2dc-548c3680bb8d/); and also published as a [paper in Transactions in GIS](http://doi.org/10.1111/tgis.12162)). 
-Several issues are still open, and an MSc project could investigate these. 
-For instance: creation of interior rooms at different LODs (interior used to be LOD4, but CityGML v3.0 will have different interior LODs), integration with the terrain, and the conversion applied to other city objects (tunnels and bridges).
-
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - -
 
 ## Estimating the cooling demand with 3D city models
 
