@@ -24,8 +24,10 @@ layout: default
     {% if staff.description %}
       <p>{{ staff.description | markdownify }}</p>
     {% endif %}  
+    <br>
     </div>
     <div class="col-md-4">
+    <div class="well well-sm">
       {% if staff.email %}
         <i class="fa fa-envelope"></i> <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br>
       {% endif %}
@@ -48,6 +50,7 @@ layout: default
       <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
       <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
       <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+    </div>
     </div>
   </div>
 
