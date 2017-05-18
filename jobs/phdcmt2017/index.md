@@ -4,6 +4,8 @@ title:  PhD position vacancy
 permalink: /jobs/phdcmt2017/
 ---
 
+<div class="alert alert-danger" role="alert">2017-05-15: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <iframe src="https://player.vimeo.com/video/146221307?color=ff9933" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/146221307">3D - Amsterdam</a> from <a href="https://vimeo.com/cyclomedia">CycloMedia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
@@ -54,8 +56,8 @@ They are expected to have good programming skills (C++ will be used), a good com
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
-Deadline to apply is 15 May 2017 at 10:00am (Amsterdam time).
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
 </div>
 
 To apply, please submit: 
