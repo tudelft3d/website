@@ -5,7 +5,10 @@ permalink: /jobs/
 ---
 
 
-<span class="label label-info">new!</span> [PhD: Automatic generation of semantic 3D city models from 3D textured meshes](/jobs/phdcmt2017/)
+<span class="label label-danger">closed</span>
+<del>
+[PhD: Automatic generation of semantic 3D city models from 3D textured meshes](/jobs/phdcmt2017/)
+</del>
 
 - - - 
 
