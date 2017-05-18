@@ -9,8 +9,24 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+- - -
+
+## Automatic conversion of 3D GIS datasets to IFC 
+
+![](img/ifccontext.jpg){:width="600px"}
+
+While our group is currently busy with the [conversion of BIM/IFC datasets to CityGML]({{ "/projects/geobim/" | prepend: site.baseurl }}), the inverse conversion is also interesting.
+Being able to convert automatically a CityGML dataset to an IFC dataset (or Revit) could give context to designers, directly in their software.
+There are several issues to solve: what geometries to convert/use? how to deal with the different coordinate reference systems? what IFC classes should be used? etc.
+
+Besides the details of the methodology to convert, we envision that that student could build a web application where a user can select an area in the Netherlands, which constructs automatically the CityGML dataset created from our software [3dfier](https://github.com/tudelft3d/3dfier), and sends to the use the IFC file.
+
+Python programming is sufficient of this project, and ideally a background in Architecture and experience with Revit and other 3D design software using BIM/IFC.
+
+*Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
+
 
 ## Automatic Derivation and Storage of Metadata for 3D City Models.
 
@@ -112,7 +128,7 @@ We therefore believe that using a triangulation as a base structure is an intuit
 
 The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that needs to be extended has been developed in C++, thus the knowledge of C++---or a strong desire to learn it---is necessary.
 
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori)
 
 - - -
 
