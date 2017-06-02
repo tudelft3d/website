@@ -52,6 +52,22 @@ For this position we ask for programming skills, preferably in Python. SQL is an
 
 - - -
 
+## Smart weather data filtering using a 3D city model
+
+<div class="row"><div class="col-sm-12">
+<img src="img/netatmo.png" />
+</div></div>
+
+[Netatmo](https://www.netatmo.com/) sells low-cost personal weather stations that anyone can buy, and so there are now close to [1000 stations](https://weathermap.netatmo.com) in The Hague, Delft and the surrounding areas! By default, Netatmo owners share their data publicly, but like all crowdsourced datasets, it is all quite messy. The stations' locations are only roughly known, some outdoor modules are in the sunlight (at certain times), have different exposure to the wind, etc.
+
+The aim of the project is to *improve the dataset by using the 3D model of The Hague to filter the data in a smart way*. For instance, maybe we can find out if some of the stations are not located in the places where they say they are, or maybe some of the stations' readings are reliable only during certain periods of the day due to the sunlight hitting them directly.
+
+For this project, the student should be able to program well enough to read a CityGML model and to do analyses with geometric operations (such as casting shadows). C++ programming would be ideal but any other language should be good enough.
+
+*Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori) or Alexander Wandl
+
+- - -
+
 ## 3D visualization of massive TINs
 
 ![](img/3dtop10.jpg){:width="350px"}
