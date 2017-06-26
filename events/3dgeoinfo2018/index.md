@@ -34,11 +34,11 @@ permalink: /events/3dgeoinfo2018/
   </div>
 
   <div class="col-md-7">
-    <div class="alert">
-    <h4>News</h4><br/>
-    Mark your calendar: 3D GeoInfo 2018 will be held in Delft, the Netherlands, on October 17-19 2018!
-    </div>
+  
+  <p><small><span class="post-date">2017-06-26</span></small><br>Mark your calendar: 3D GeoInfo 2018 will be held in Delft, the Netherlands, on 17-19 October 2018!</p>
+  <!-- <p><small><span class="post-date">2017-06-26</span></small><br>;lorem</p> -->
   </div>
+
   
   <div class="col-md-3">
     <div class="alert alert-info">

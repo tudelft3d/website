@@ -88,6 +88,7 @@ ul.posts {
    margin-bottom: 2em;
 }*/
 
+
 .firstpost span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -103,6 +104,13 @@ ul.posts {
 }
 
 .posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+  margin-right: 1em;
+}
+
+.post-date {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
