@@ -59,7 +59,7 @@ permalink: /events/3dgeoinfo2018/
       <li>Early-bird registration</li></ul><br />
  -->
 
-      <b>October 17-19, 2018</b><br />
+      <b>October 15-16, 2018</b><br />
       <ul>Conference</ul><br />
     </div>
   </div>
