@@ -12,7 +12,7 @@ permalink: /events/3dgeoinfo2018/
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <h1 class="text-right" style="color:white">3D GeoInfo 2018</h1>
-        <p class="text-right" style="color:white"><small>17-19 October 2018<br>Delft, the Netherlands</small></p>
+        <p class="text-right" style="color:white"><small>15-16 October 2018<br>Delft, the Netherlands</small></p>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@ permalink: /events/3dgeoinfo2018/
 
   <div class="col-md-7">
   
-  <p><small><span class="post-date">2017-06-26</span></small><br>Mark your calendar: 3D GeoInfo 2018 will be held in Delft, the Netherlands, on 17-19 October 2018!</p>
+  <p><small><span class="post-date">2017-06-26</span></small><br>Mark your calendar: 3D GeoInfo 2018 will be held in Delft, the Netherlands, on 15-16 October 2018!</p>
   <!-- <p><small><span class="post-date">2017-06-26</span></small><br>;lorem</p> -->
   </div>
 
