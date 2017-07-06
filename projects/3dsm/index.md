@@ -113,7 +113,7 @@ We will release all the code that is developed for this project as open source s
 ### Meeting 2017-07-04
 
   - Overview of all results of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_hl.pdf"><i class="fa fa-file-image-o"></i>
-  <!-- - Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_rp.pdf"><i class="fa fa-file-image-o"></i>  -->
+   - Overview of scientific breakthroughs <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_rp.pdf"><i class="fa fa-file-image-o"></i>  
 
 ### Meeting 2016-11-09
 
