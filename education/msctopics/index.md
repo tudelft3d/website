@@ -30,6 +30,7 @@ It is possible to use Python for this project, although some knowledge of C++ wo
 
 *Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
+- - -
 
 ## Improvements (trees, bridges, viaducs) to 3dfier
 
