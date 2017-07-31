@@ -11,6 +11,26 @@ permalink: /education/msctopics/
 
 - - -
 
+# Point cloud normal estimation based on the 3D medial axis transform
+
+![](img/wrong_normal_orientation.png){:width="600px"}
+
+Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR.
+While current point clouds are dense and offer an accurate representation of real-world objects and landscapes, they lack structure and semantics.
+
+The aim of this project is to properly *orient* a point cloud, ie to find an approximation of the normal at each point; this normal should point outwards.
+Surface normals are essential for different processing of a point cloud, eg visualisation, shadow analysis or segmentation.
+
+"Standard" methods, eg [that function in PCL](http://pointclouds.org/documentation/tutorials/normal_estimation.php), usually find the nearest points of a given point, fit a plane, and choose between the 2 possible normals (up or down) based on a viewpoint.
+The problem is that in practice, eg with the [AHN3 dataset](http://www.ahn.nl), we do not have that information.
+
+The topic involved building on our work with the [3D medial-axis transform (MAT)](https://3d.bk.tudelft.nl/projects/3dsm/) and use the 3D MAT of a point cloud as a base to obtain high quality normals with a proper orientation.
+
+It is possible to use Python for this project, although some knowledge of C++ would surely help.
+
+*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
 ## Improvements (trees, bridges, viaducs) to 3dfier
 
 ![](img/3dfier.png){:width="600px"}
