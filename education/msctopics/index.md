@@ -11,6 +11,26 @@ permalink: /education/msctopics/
 
 - - -
 
+## Improvements (trees, bridges, viaducs) to 3dfier
+
+![](img/3dfier.png){:width="600px"}
+
+We have developed a software, [3dfier](https://github.com/tudelft3d/3dfier), to automatically construct 3D city models from 2D GIS datasets (e.g. topographical datasets) and LiDAR/pointcloud datasets. 
+The software creates a 3D model by lifting every polygon to 3D, and the semantics of every polygon is used to perform the lifting. 
+That is, water polygons are extruded to horizontal polygons, buildings to LOD1 blocks, roads as smooth surfaces, etc. Every polygon is triangulated (constrained Delaunay triangulation) and the lifted polygons are "stitched" together so that one digital surface model (DSM) is constructed. 
+Our aim is to obtain one DSM that is error-free, i.e. no intersecting triangles, no holes (the surface is watertight), where buildings are integrated in the surface, etc.
+
+The aim of this MSc project is to further develop some lacking features of 3dfier, it could be one of the following:
+
+  1. adding 3D representation of trees by *iconisation*, ie by inserting a parametric template that has the general shape/dimension of a tree. This implies automatically finding this, and a good start is the methodology described in [this paper (Section 4.2)](https://infoscience.epfl.ch/record/206788/files/paper.pdf)
+  2. adding bridges and other man-made structures (such as viaducs) by first modelling them with [Esri CityEngine](http://www.esri.com/software/cityengine) and then "stitching" them to the 3D model.
+
+These topics can be done with Python as a post-processing of 3dfier.
+
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl) 
+
+- - -
+
 ## Automatic conversion of 3D GIS datasets to IFC 
 
 ![](img/ifccontext.jpg){:width="600px"}
@@ -29,7 +49,7 @@ Python programming is sufficient of this project, and ideally the candidate shou
 - - -
 
 
-## Automatic Derivation and Storage of Metadata for 3D City Models.
+## Automatic Derivation and Storage of Metadata for 3D City Models
 
 ![](img/metadata.png){:width="350px"}
 
@@ -123,15 +143,6 @@ The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but pro
 
 - - -
 
-## GeoOBJ: developing a spatial extension to OBJ
-
-3D formats found in 3D computer graphics are in many ways superior to GIS formats such as CityGML: they have wide software support and great visualisation capabilities. However, they fall short with spatial analyses, because of various limitations, such as lack of geo-referencing, and lack of semantic structuring. The goal of this project is to bridge the two worlds, by developing a spatial extension to a computer graphics format such as OBJ. This thesis is suitable for MSc Geomatics students, and it may be adapted to any other format.
-
-*Contacts:* [Filip Biljecki](https://3d.bk.tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-
-- - -
-
 ## Snap rounding in a triangulation 
 
 ![](img/triangulation.png){:width="500px"}
@@ -175,7 +186,7 @@ Calculating the visibility between two points using 3D city models provides valu
 
 This MSc thesis will investigate visibility algorithms and potential applications.
 
-*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters), [Filip Biljecki](http://tudelft.nl/biljecki) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 
 - - -

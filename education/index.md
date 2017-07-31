@@ -5,15 +5,16 @@ permalink: /education/
 ---
 
 <section id="courses"></section>
+
 <h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in</h2>
 
   * [GEO1002](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38465): Geographical information systems & cartography
   * [GEO1004](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38430): 3D Modelling of the Built Environment
   * [GEO1005](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38431): Spatial Decision Support for Planning and Crisis Management
-  * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38469): Geo Datasets and Quality
+  * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42058): Geo Datasets and Quality
   <!-- * [GEO2001](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=30706): Synthesis Project -->
-  * [GEO2010](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38743): Graduation thesis preparation
-  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38742): Graduation thesis
+  * [GEO2010](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42062): Graduation thesis preparation
+  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42061): Graduation thesis
 
 - - -
 
