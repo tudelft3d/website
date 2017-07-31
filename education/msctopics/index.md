@@ -11,7 +11,7 @@ permalink: /education/msctopics/
 
 - - -
 
-# Point cloud normal estimation based on the 3D medial axis transform
+## Point cloud normal estimation based on the 3D medial axis transform
 
 ![](img/wrong_normal_orientation.png){:width="600px"}
 
