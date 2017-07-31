@@ -4,28 +4,25 @@ title: Former Staff
 permalink: /about/formerstaff/
 ---
 
+{% assign members = site.data.staff_former %}
 
-{% assign members = site.data.staff_former | sort: 'surname' %}
+<table class="table table-striped">
 
-<div class="row">
-    {% for member in members %}
-    <div class="col-lg-4 col-sm-6">
-      <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: member.photo | prepend: site.baseurl }}">
-      <h3>{{ member.name }} {{ member.surname }}</h3>
-      <p>
-        {{ member.title }} ({{ member.period }})<br>
-        {% if member.email %}
-          <i class="fa fa-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
-        {% endif %}
-        {% if member.homepage %}
-          <i class="fa fa-home"></i> <a href="http://{{ member.homepage }}">{{ member.homepage }}</a><br>
-        {% endif %}
-        {% if member.twitter %}
-          <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><br>
-        {% endif %}
+  <tr class="info">
+    <td>name</td>
+    <td>position</td>
+    <td>period</td>
+    <td>current position</td>
+  </tr>
 
-      </p>
-    </div>
-    {% endfor %}
-</div>
+  {% for i in members %}
+    <tr>
+      <td>{{ i.name }} {{ i.van }} {{ i.surname }}</td>
+      <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+      <td>{{ i.period }}</td>
+      <td>{{ i.current | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+    </tr>
+  {% endfor %}
+
+</table>
 

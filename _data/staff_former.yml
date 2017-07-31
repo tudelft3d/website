@@ -1,4 +1,13 @@
 
+- surname: Biljecki
+  name: Filip
+  title: "[PhD](http://filipbiljecki.com/phd.html)" 
+  photo: filip.jpg
+  email: f.biljecki@tudelft.nl
+  twitter: fbiljecki
+  period: 2012-2017
+  current: "[postdoc at  National University of Singapore](http://filipbiljecki.com)"
+
 - surname: Du
   name: Xin
   title: PhD candidate
@@ -43,6 +52,7 @@
   photo: zhiyong.png
   title: PhD candidate
   homepage: 3d.bk.tudelft.nl/zhiyong
+  current: "[postdoc in Heidelberg](https://www.geog.uni-heidelberg.de/gis/wang.html)"
 
 - surname: Nourian
   name: Pirouz
@@ -50,6 +60,7 @@
   title: research-assistant
   email: p.nourian@tudelft.nl
   photo: pirouz.png
+  current: "[assistant-prof at TU Delft](https://sites.google.com/site/pirouznourian/about-me)"
 
 
 
