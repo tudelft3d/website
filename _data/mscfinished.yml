@@ -1,4 +1,25 @@
 
+- surname: Staats
+  name: Bart
+  title: "Identification of walkable space in a voxel model, derived from a point cloud and its corresponding trajectory"
+  image: bart.png
+  link: http://resolver.tudelft.nl/uuid:6a827a88-ce09-43f1-adb9-da886448a1fc
+  year: 2017
+
+- surname: Tryfona
+  name: Maya
+  title: Bidirectional enrichment of CityGML and Multi-View Stereo Mesh models
+  image: tryfona.png
+  link: http://resolver.tudelft.nl/uuid:560bd9fb-7688-492f-b1c0-799644707be9
+  year: 2017
+    
+- surname: Kang 
+  name: Yuxuan
+  title: Straightening and simplifying a multi-view stereo mesh of a city
+  image: kang.png
+  link: http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a
+  year: 2017
+
 - surname: Heeres 
   name: Erik 
   title: "Exploring the 3D BAG: How to define it and to what extent can it automatically be created using open data"
