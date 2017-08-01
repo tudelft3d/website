@@ -15,7 +15,7 @@ permalink: /education/msctopics/
 
 ![](img/cityjson.jpg)
 
-As an alternative format for the [CityGML](www.citygml.org) data model, we have recently developed [CityJSON](www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
+As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
 The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with). 
 CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
 It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
