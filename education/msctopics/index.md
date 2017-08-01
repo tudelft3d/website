@@ -13,7 +13,7 @@ permalink: /education/msctopics/
 
 ## Compression of CityJSON files
 
-![](img/cityjson.jpg){:width="400px"}
+![](img/cityjson.jpg)
 
 As an alternative format for the [CityGML](www.citygml.org) data model, we have recently developed [CityJSON](www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
 The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with). 
