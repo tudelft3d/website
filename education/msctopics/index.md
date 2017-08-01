@@ -11,9 +11,31 @@ permalink: /education/msctopics/
 
 - - -
 
+## Compression of CityJSON files
+
+![](img/cityjson.jpg){:width="400px"}
+
+As an alternative format for the [CityGML](www.citygml.org) data model, we have recently developed [CityJSON](www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with). 
+CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
+It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
+
+Based on some preliminary and limited tests, we concluded that it can compress many datasets with a factor of at least 4X, often 10X+.
+The aim of this MSc project is to verify (or disprove!) this claim by:
+
+  1. developing a conversion tool from CityGML datasets, using either [citygml4j](https://github.com/citygml4j) or the [new GDAL driver](http://www.gdal.org/drv_gmlas.html).
+  2. identifying how files could be further compress. At this moment, a [simpler compress method is implemented](http://www.cityjson.org/en/0.1/specs/#id21) ([code here](https://github.com/tudelft3d/cityjson/tree/master/software/cityjson-compress/c%2B%2B11)).
+  3. testing with very large files, eg a whole German region with 10M+ buildings.
+
+Knowledge of Python is enough.
+
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+
+- - - 
+
 ## Point cloud normal estimation based on the 3D medial axis transform
 
-![](img/wrong_normal_orientation.png){:width="600px"}
+![](img/wrong_normal_orientation.png){:width="400px"}
 
 Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR.
 While current point clouds are dense and offer an accurate representation of real-world objects and landscapes, they lack structure and semantics.
