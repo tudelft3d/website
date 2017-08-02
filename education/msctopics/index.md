@@ -223,11 +223,15 @@ For more information, please read [here](https://lsecities.net/publications/repo
 
 - - -
 
-## Line of sight (visibility) and raytracing analyses on a 3D dataset
+## Line of sight (visibility) and raytracing analyses on a point cloud dataset
+
+![](img/matvisibility.png){:width="600px"}
 
 Calculating the visibility between two points using 3D city models provides valuable input to many application domains, such as solar analyses (shadowing) and finding the optimal place to install a surveillance camera or a billboard. This list is growing, e.g. a potential application could be to estimate the visibility of an urban canyon from a satellite.
 
-This MSc thesis will investigate visibility algorithms and potential applications.
+We have developed a 3D skeleton-based approach (part of that [research project](https://3d.bk.tudelft.nl/projects/3dsm/)) ([PDF here](https://3d.bk.tudelft.nl/hledoux/pdfs/15_udmv_visibility.pdf)) that would be the start of the project.
+
+Knowledge of Python and FME is sufficient.
 
 *Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
