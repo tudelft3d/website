@@ -24,7 +24,7 @@ Based on some preliminary and limited tests, we concluded that it can compress m
 The aim of this MSc project is to verify (or disprove!) this claim by:
 
   1. developing a conversion tool from CityGML datasets, using either [citygml4j](https://github.com/citygml4j) or the [new GDAL driver](http://www.gdal.org/drv_gmlas.html).
-  2. identifying how files could be further compress. At this moment, a [simpler compress method is implemented](http://www.cityjson.org/en/0.1/specs/#id21) ([code here](https://github.com/tudelft3d/cityjson/tree/master/software/cityjson-compress/c%2B%2B11)).
+  2. identifying how files could be further compressed. At this moment, only a [simpler compression method is implemented](http://www.cityjson.org/en/0.1/specs/#id21) ([code here](https://github.com/tudelft3d/cityjson/tree/master/software/cityjson-compress/c%2B%2B11)).
   3. testing with very large files, eg a whole German region with 10M+ buildings.
 
 Knowledge of Python is enough.
