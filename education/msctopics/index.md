@@ -201,25 +201,6 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 *Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori)
 
-- - -
-
-
-## Estimating the cooling demand with 3D city models
-
-This MSc thesis will be conducted in collaboration with the [European Institute for Energy Research (EIFER)](http://www.eifer.org).
-
-It involves:
-
-* Developing a cooling energy model based on 3D city model: morphological analysis, urban typological and classification of 3D data, cooling energy needs calculation, etc.
-
-* Study the influence of urban morphology on cooling needs (e.g. through statistical regressions)
-
-* Implement this relation (e.g. equation between urban density and cooling needs) in a procedural tool.
-
-For more information, please read [here](https://lsecities.net/publications/reports/cities-and-energy-urban-morphology-and-heat-energy-demand/
-) about a project that EIFER led with the LSE for studying the relation between urban morphology and cooling demand.
-
-*Contact:* [Filip Biljecki](http://tudelft.nl/biljecki)
 
 - - -
 
@@ -235,34 +216,6 @@ Knowledge of Python and FME is sufficient.
 
 *Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
-
-- - -
-
-## Automatic matching of 3D city models 
-
-3D city models may be derived with different acquisition techniques from different producers in different levels of detail (LOD), resulting in multiple datasets of the same area. The aim of this research is to design and implement a method that finds corresponding features in two or more datasets. The benefits of this research are, for instance, linking objects for consistency (e.g. updating only one model and propagate the changes in the other models).
-
-This topic is analogous with data matching in cartography.
-
-*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
-
-- - -
-
-## Procedural modelling in CityGML
-
-Procedural modelling deals with automatic model generation by means of a procedure. It is common in computer graphics, but less so in 3D city modelling. This aim of this thesis is to design a procedural modelling engine focused on 3D GIS and CityGML in multiple levels of detail (LOD). There are two possibilities: generating 3D models from real-world (2D) data supplementing synthetic content (e.g. height of a building, windows), or generating completely synthetic 3D data.
-
-*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
-
-- - - 
-
-## Extension of the ISO standard 19157 for 3D data
-
-The standard ISO 19157:2013 Geographic information---Data quality is the principal standard for describing the quality of geodata. For instance, the positional and thematic errors. However, the standard falls short when it comes to 3D data. For instance, it is not possible to describe invalid 3D geometry such as solids, and that the dataset has been acquired in an insufficient level of detail. The aim of this thesis is to investigate how is it possible to extend the standard for quality concepts found in 3D.
-
-Upon successful completion of this topic, the student will become proficient with this important standard, and potentially give valuable recommendations for the new version of the standard to the developers. 
-
-*Contact:* [Filip Biljecki](http://3d.bk.tudelft.nl/biljecki)
 
 - - -
 
