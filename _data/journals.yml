@@ -1,4 +1,10 @@
 
+- name: OSGeo Journal
+  webpage: http://www.osgeo.org/journal
+  # index: none
+  description: "digital publication containing case studies, news, tutorials, project updates and more. With a general aim at promoting, highlighting and educating readers about open source geospatial applications in general, but also provides updates on OSGeo projects. The Journal is also available in French."
+  # scirev: https://scirev.sc/journal/advances-in-engineering-software/
+
 - name: Automation in Construction
   webpage: https://www.journals.elsevier.com/automation-in-construction
   index: ISI
