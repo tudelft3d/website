@@ -1,5 +1,9 @@
 # Projects
 
+- image: cityjson-logo.jpg
+  description: "CityJSON official homepage: help, tips, datasets, etc."
+  webpage: http://www.cityjson.org
+
 - image: citygml-logo.png
   description: "CityGML official homepage: help, tips, datasets, etc."
   webpage: https://www.citygml.org
