@@ -20,6 +20,13 @@
   link: http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a
   year: 2017
 
+- surname: Koopman
+  name: Martijn
+  title: "3D indoor navigation : one algorithm for walking, driving and flying actors "
+  image: martijn.png
+  link: http://resolver.tudelft.nl/uuid:13788271-e19d-41e1-b827-fe7535a66281
+  year: 2016
+
 - surname: Heeres 
   name: Erik 
   title: "Exploring the 3D BAG: How to define it and to what extent can it automatically be created using open data"
