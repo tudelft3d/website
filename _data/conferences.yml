@@ -1,4 +1,10 @@
-- name: GIScience 2018
+- name: 21st AGILE International Conference on Geographic Information Science
+  url: https://agile-online.org/index.php/home-2018
+  place: Lund, Sweden
+  start: 2018-06-13
+  end: 2018-06-15
+
+  - name: GIScience 2018
   url: http://giscience.org
   place: Melbourne, Australia
   start: 2018-08-28
@@ -112,7 +118,7 @@
   start: 2017-09-18
   end: 2017-09-22
 
-- name: Agile 2017
+- name: 20th AGILE International Conference on Geographic Information Science
   url: https://agile-online.org/index.php/conference/conference-2017
   place: Wageningen, the Netherlands
   start: 2017-05-09 
