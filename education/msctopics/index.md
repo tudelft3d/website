@@ -11,6 +11,18 @@ permalink: /education/msctopics/
 
 - - -
 
+## Handling massive 3D data using NoSQL databases
+
+![](img/NOSQL.jpg){:width="400px"}
+
+The project is about exploring NoSQL databases for storing massive 3D data. The main test dataset is the TIN generated from national elevation model of the Netherlands (AHN3) with a point density of over 10 points/m2. Several data structures have been proposed for the representation and storage of TINs in memory and in databases. A few of those data structures [here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B2/123/2016/) are to be tested with the generated TIN models to account for their geometry, topology, storage, indexing, and loading times in a NoSQL database and compare the results with already available results of testing with Postgres/PostGIS database to analyse the performance of NoSql vs. SQL databases.
+
+Prior knowledge of databases and programming in Python or C++ is required.
+
+*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
 ## Compression of CityJSON files
 
 ![](img/cityjson.jpg)
@@ -133,9 +145,7 @@ For this project, the student should be able to program well enough to read a Ci
 
 ## 3D visualization of massive TINs
 
-![](img/3dtop10.jpg){:width="350px"}
-
-![](img/terrains.png){:width="350px"}
+![](img/cesiumproject.jpg){:width="400px"}
 
 Visualization is an important and complex issue in the context of 3D city models. The enormous amount of data to be fetched, the heterogeneity of data sources, and the complexity of rendering are only a few parts of this challenge. The project aims at investigating 3D tiling schemes for efficiently visualizing massive TINs using [Cesium](https://cesiumjs.org) 3D webglobe.
 The knowledge of programming in C++ is required.
