@@ -13,7 +13,7 @@ permalink: /education/msctopics/
 
 ## Level of Detail of Roads in CityGML
 
-![](img/RoadLoDTopic.png){:width="500px"}
+![](img/RoadLoDTopic.png){:width="800px"}
 
 Road networks are utilised within a wide range of applications for navigation, city planning, and visibility analysis. There is a growing need for road networks within 3D city models for cases such as autonomous vehicle routing and road maintenance and repair. At the same time, while the concept of Levels of Detail (LoD) for buildings in CityGML has been extensively studied, this is not the case for roads. This project will examine a multitude of road standards, in both 2D and 3D, to refine and enhance the concept of LoDs for roads. A road network at various levels will then be created (with procedural modelling utilising ESRI CityEngine if there is interest) to test within an application of the student’s choice. 
 
