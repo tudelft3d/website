@@ -55,6 +55,23 @@ Knowledge of Python is enough.
 
 - - - 
 
+## 3D breakline extraction from point clouds
+
+![](img/MAT_CA_ridge_overlay.jpg){:width="400px"}
+
+Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR, and contain a wealth of information on both natural and man-made structures.
+
+The aim of this project is to extract 3D breaklines directly from a point cloud such as the national AHN3.
+Breaklines indicate discontinuities in a terrain (such as the ridges in a mountain) and are needed for applications such as flood simulations and noise simulations.
+
+As a starting point the [3D medial-axis transform (MAT)](https://3d.bk.tudelft.nl/projects/3dsm/) can be used (used to generate the image above).
+
+Prior knowledge of programming in Python or C++ is required.
+
+*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - - 
+
 ## Point cloud normal estimation based on the 3D medial axis transform
 
 ![](img/wrong_normal_orientation.png){:width="400px"}
