@@ -14,6 +14,7 @@
   photo: duxin.jpg
   # description: "Topic: Quality control of 3D city models"
   period: 2015-2016
+  current: ""
   swapnames: true
 
 - surname: Li
@@ -22,6 +23,7 @@
   photo: lfy.jpg
   period: 2015-2016
   # email: f.li-3@tudelft.nl
+  current: ""
   swapnames: true
 
 - surname: Wei
@@ -30,6 +32,7 @@
   photo: shuangfeng.jpg
   period: 2015-2016
   # email: s.wei-1@tudelft.nl
+  current: ""
   swapnames: true
 
 - surname: Demir Özbek
@@ -38,6 +41,7 @@
   photo: elif.jpg
   # email: e.demirozbek@tudelft.nl
   period: 2014-2015
+  current: ""
 
 - surname: Ates
   name: Serpil
@@ -45,6 +49,7 @@
   photo: serpil.jpg
   period: 2014-2015
   # email: s.ates@tudelft.nl
+  current: ""
   
 - surname: Wang
   name: Zhiyong
