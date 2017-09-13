@@ -11,6 +11,14 @@ permalink: /education/msctopics/
 
 - - -
 
+## Augmented Reality applications for City Models (Hololens)
+
+![](img/HololensVisualiser.png)
+
+Augmented Reality is an emerging technology in visualisation and perseption of digital worlds. City models could be benefited from such a technology, as users could better explore and understand the data that are integrated in such a virtual model of a city. This project is about the development of a visualization application on Microsoft Hololens platform, exploring potential benefits and issues of such an application and the potential use cases for future use. The application should focus on the visualisation of geometry and attributes of a city model. The implementation will be done through the use of the Unity 3D engine and the C# programming language.
+
+*Contact:* [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis)
+
 ## Level of Detail of Roads in CityGML
 
 ![](img/RoadLoDTopic.png){:width="800px"}
