@@ -20,7 +20,7 @@ doi = {10.1186/s40965-017-0036-1}
 <br/>
 
 The article describes <a href="http://arts.brighton.ac.uk/projects/vi-suite">VI-Suite</a>, a free and open-source addon for the 3D content creation application Blender, developed primarily as a tool for the contextual and performative analysis of buildings. Its functionality has grown from simple, static lighting analysis to fully parametric lighting, shadowing, and building energy analyses. It adopts a flexible, mesh geometry based approach to the specification of calculation points and this has made it suitable for certain types of 3D geospatial analyses and data visualisation.
-The application of <a href="http://arts.brighton.ac.uk/projects/vi-suite">VI-Suite</a> for 3D GIS analysis is demonstrated on two use cases (shadow and sky view factor mapping, and irradiance mapping) performed on the CityGML dataset of the Hague, the Netherlands. The entire workflow has been performed entirely using open data and open software.
+The application of <a href="http://arts.brighton.ac.uk/projects/vi-suite">VI-Suite</a> for 3D GIS analysis is demonstrated on two use cases (shadow and sky view factor mapping, and irradiance mapping) performed on the CityGML dataset of the Hague, the Netherlands. The workflow has been performed entirely using open data and open software.
 <br/>
 
 The paper is available at the <a href="http://dx.doi.org/10.3390/ijgi6060158">journal</a> (open access). 
