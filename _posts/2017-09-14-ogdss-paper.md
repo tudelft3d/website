@@ -26,8 +26,8 @@ The application of <a href="http://arts.brighton.ac.uk/projects/vi-suite">VI-Sui
 The paper is available at the <a href="http://dx.doi.org/10.3390/ijgi6060158">journal</a> (open access). 
 The code of <a href="http://arts.brighton.ac.uk/projects/vi-suite">VI-Suite</a> is available as open-source on <a href="https://github.com/rgsouthall/vi-suite04">Github</a>.<br/>
 
-<img src="{{ site.baseurl }}/img/2017/visuite-0.gif"/><br/>
-<img src="{{ site.baseurl }}/img/2017/visuite-1.gif"/><br/>
+<img src="{{ site.baseurl }}/img/2017/visuite-0.png"/><br/>
+<img src="{{ site.baseurl }}/img/2017/visuite-1.png"/><br/>
 
 
 
