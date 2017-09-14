@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The VI-Suite: a set of environmental analysis tools with geospatial data applications
+title:  "The VI-Suite: a set of environmental analysis tools with geospatial data applications"
 categories: news
 date: 2017-09-14 06:00
 ---
