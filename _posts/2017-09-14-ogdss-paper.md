@@ -31,4 +31,4 @@ The code of <a href="http://arts.brighton.ac.uk/projects/vi-suite">VI-Suite</a> 
 
 
 
-<a href="http://dx.doi.org/10.3390/ijgi6060158"><img src="{{ site.baseurl }}/img/2017/visuite-2.png"/></a><br/>
+<a href="http://doi.org/10.1186/s40965-017-0036-1"><img src="{{ site.baseurl }}/img/2017/visuite-2.png"/></a><br/>
