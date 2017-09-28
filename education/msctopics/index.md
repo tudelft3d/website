@@ -19,13 +19,9 @@ Done in collaboration with [Deltares](https://www.deltares.nl/en/).
 
 Basic problem to solve: given a (classified) LAS pointcloud, how to (re)generate its alpha shape, which allows us to find its extent.
 Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
-
 At the moment, Deltares could mostly use the results to combat edge effects (in a raster) from their algorithms, which can be partly removed by erode/dilate operations (raster morphology), which is messy, especially when you also want to generate several DTMs with different resolutions. 
-
 Deltares is now using a simplified outline, but that gives some artefacts in overlapping flight strips (rounded sharp corners).
-
 The project involves invertigating how to construct alpha-shapes for massive real-world datasets, eg 100M+ points.
-
 As programming language, Deltares uses [Julia](https://julialang.org). 
 Not for stable production use (don’t!), but it’s easy (coming from Python) and fast, perfect for research. 
 
