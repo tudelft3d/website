@@ -1,12 +1,19 @@
+- title: "Exploratory and Scalable: Data Science for Sustainable, High-Performance Buildings"
+  name: "[Clayton Miller](http://www.budslab.org)"
+  room: "01.West.290"
+  date: 2017-11-10 
+  time: 10:00-11:30
+
+
 - title: "The 3D practice of Province Noord-Brabant"
   name: "Stefan van Gerwen and colleagues"
-  room: "BG 01 west 270"
+  room: "01 west 270"
   date: 2017-09-21 
   time: 10:00-11:00
 
 - title: "(1) CityGML on GDAL introduction; (2) Building a web 3D model of Glyfada (Greece) with open data"
   name: "Stelios Vitalis"
-  room: "BG 01 west 290"
+  room: "BGwest 290"
   date: 2017-09-20
   time: 11:00-12:30
 
