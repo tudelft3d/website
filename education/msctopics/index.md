@@ -23,7 +23,7 @@ Finding the bounding-box (or the convex hull, or with a raster solution) is in m
 At the moment, Deltares could use the results to combat edge effects from classification filter algorithms.
 Deltares is now using a simplified outline, but that results in artefacts in overlapping flight strips.
 The project involves investigating how to construct alpha-shapes for massive real-world datasets, eg 100M+ points.
-As programming language in this project, Deltares uses [Julia](https://julialang.org) an easy (coming from Python) and fast language in development, perfect for research.
+As programming language in this project, Deltares uses [Julia](https://julialang.org), an easy (coming from Python) and fast language in development.
 
 *Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Maarten Pronk](mailto:maarten.pronk@deltares.nl)
 
