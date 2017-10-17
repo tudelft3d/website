@@ -1,9 +1,11 @@
+
 - title: "Exploratory and Scalable: Data Science for Sustainable, High-Performance Buildings"
   name: "[Clayton Miller](http://www.budslab.org)"
   room: "01.West.290"
   date: 2017-11-10 
   time: 10:00-11:30
 
+<<<<<<< HEAD
 - title: "Research to integrate BIM and Geo-information"
   name: "Bob Heesters"
   room: "TBA"
@@ -17,6 +19,8 @@
   time: 14:00
   
   
+=======
+>>>>>>> Welcome Weixiao
 - title: "The 3D practice of Province Noord-Brabant"
   name: "Stefan van Gerwen and colleagues"
   room: "01 west 270"

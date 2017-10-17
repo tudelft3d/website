@@ -1,4 +1,15 @@
 
+- surname: GAO
+  name: Weixiao
+  swapnames: true
+  title: PhD candidate 
+  photo: weixiao.jpg
+  homepage: 3d.bk.tudelft.nl/weixiao
+  description: "Topic: Automatic generation of semantic 3D city models from 3D textured meshes. Working in collaboration with [CycloMedia](https://www.cyclomedia.com)."
+  # email: b.a.heester@tudelft.nl
+  # phone: "+31 6 52046328"
+
+
 - surname: Heester
   name: Bob
   title: PhD candidate (external)
@@ -33,7 +44,7 @@
   email: j.m.post@tudelft.nl
   # description: "Generalisation of 3D city models"
 
-- surname: Yan
+- surname: YAN
   name: Jinjin
   swapnames: true
   title: PhD candidate
@@ -106,7 +117,7 @@
   phone: +31 15 27 86114
   twitter: hugoledoux
 
-- surname: Liu
+- surname: LIU
   name: Liu
   title: PhD candidate
   photo: liu.jpg
