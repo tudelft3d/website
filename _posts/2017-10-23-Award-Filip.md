@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Filip Biljecki receives EuroSDR "Best PhD thesis award"  
+title: Filip Biljecki receives EuroSDR Best PhD thesis award
 categories: news
 date: 2017-10-23 14:51
 ---
