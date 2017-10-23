@@ -35,7 +35,7 @@ permalink: /3dtalks/
     <td>Date</td>
     <td>Presenter</td>
     <td>Title</td>
-    <td>Room (at <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">BK-City</a>)</td>
+    <td style="white-space: nowrap;">Room (at <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">BK-City</a>)</td>
     <td>Time</td>
   </tr>
 
@@ -43,11 +43,11 @@ permalink: /3dtalks/
   {% assign a = i.date | date: "%Y%m%d" %}
   {% if a >= today %}
     <tr>
-      <td>{{ i.date  }}</td>
+      <td style="white-space: nowrap;">{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.room }}</td>
-      <td>{{ i.time }}</td>
+      <td style="white-space: nowrap;">{{ i.time }}</td>
     </tr>
   {% endif %}  
   {% endfor %}
@@ -73,7 +73,7 @@ permalink: /3dtalks/
   {% assign a = i.date | date: "%Y%m%d" %}
   {% if a < today %}
     <tr>
-      <td>{{ i.date  }}</td>
+      <td style="white-space: nowrap;">{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       {% if i.ppt %}
