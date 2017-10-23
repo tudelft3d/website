@@ -1,3 +1,10 @@
+- surname: Janssen
+  name: Patrick
+  title: Associate-prof. (external)
+  photo: patrick.jpg
+  homepage: www.arch.nus.edu.sg/people/cv/pj.htm
+  # description: "Topic: Automatic generation of semantic 3D city models from 3D textured meshes. Working in collaboration with [CycloMedia](https://www.cyclomedia.com)."
+  email: patrick.janssen@nus.edu.sg
 
 - surname: GAO
   name: Weixiao
@@ -119,6 +126,7 @@
 
 - surname: LIU
   name: Liu
+  swapnames: true
   title: PhD candidate
   photo: liu.jpg
   homepage: 3d.bk.tudelft.nl/liuliu
