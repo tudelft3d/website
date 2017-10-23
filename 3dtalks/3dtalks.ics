@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{% assign talks = site.data.3dtalks | sort: 'date' %}
+{% assign talks = site.data.talks | sort: 'date' %}
 BEGIN:VCALENDAR
 PRODID:-//3D geoinformation group at TU Delft//NONSGML 3D talks calendar version 1.0//EN
 VERSION:2.0

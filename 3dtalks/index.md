@@ -25,8 +25,7 @@ permalink: /3dtalks/
 ## Upcoming talks
 
 {% assign today = 'now' | date: "%Y%m%d" %}
-{% assign talks = site.data.3dtalks | sort: 'date' %}
-
+{% assign talks = site.data.talks | sort: 'date' %}
 
 <div class="table-responsive">
 
