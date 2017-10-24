@@ -34,11 +34,10 @@
   start: 2018-04-17 
   end: 2018-04-20
 
-- name: Eurographics Workshop on Urban Data Modelling and Visualisation (UDMV) 2017
-  place: Fribourg, Switzerland
+- name: <s>Eurographics Workshop on Urban Data Modelling and Visualisation (UDMV) 2017 - Cancelled</s>
+  place: <s>Fribourg, Switzerland</s>
   start: 2017-11-24
   end: 2017-11-24
-  url: http://smartlivinglab.ch/index.php/en/home/events/189-udmv2017.html
 
 - name: 17th International Conference on Computational Science and Its Applications
   url: http://iccsa.org
