@@ -139,24 +139,6 @@ These topics can be done with Python as a post-processing of 3dfier.
 
 - - -
 
-## Automatic conversion of 3D GIS datasets to IFC 
-
-![](img/ifccontext.jpg){:width="600px"}
-
-While our group is currently busy with the [conversion of BIM/IFC datasets to CityGML]({{ "/projects/geobim/" | prepend: site.baseurl }}), the inverse conversion is also interesting.
-Being able to convert automatically a CityGML dataset to an IFC dataset (or Revit) could give context to designers, directly in their software.
-That would allow them to quickly visualise the shadow that their new building casts on neighbouring buildings, to assess quickly whether the gardens of neighbours is visible, etc.
-There are several technical issues to solve: what geometries to convert/use? how to deal with the different coordinate reference systems? what IFC classes should be used? etc.
-
-Besides the details of the methodology to convert the datasets, we envision that that student could also build a web application where a user can select an area in the Netherlands, then the CityGML dataset is automatically created from our software [3dfier](https://github.com/tudelft3d/3dfier), and finally sent back to the user as an IFC file.
-
-Python programming is sufficient of this project, and ideally the candidate should have a background in architecture and experience with Revit or other 3D design software (eg Revit).
-
-*Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-
 ## Automatic Derivation and Storage of Metadata for 3D City Models
 
 ![](img/metadata.png){:width="350px"}
