@@ -11,7 +11,7 @@ Filip Biljecki, who successfully completed earlier this year his PhD in our grou
 Filip won the award for his thesis [Level of Detail in 3D City Models](http://filipbiljecki.com/phd/dissertationFilipBiljecki.pdf).
 The PhD was already ranked among the 5% best theses of Delft University of Technology.
 
-Fillip is currently a postdoc at the National University of Singapore.
+Filip is currently a postdoc at the National University of Singapore.
 
 Many congratulations, Filip!
 
