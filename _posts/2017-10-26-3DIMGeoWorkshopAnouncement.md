@@ -2,7 +2,7 @@
 layout: post
 title: Workshop "3D IMGeo: do it yourself"
 categories: news
-date: 2017-10-23 14:51
+date: 2017-10-26
 ---
 
 On 1st of November at the [Geo users Festival](https://www.geonovum.nl/sites/default/files/GGF17webversie1.pdf) we will organise a workshop in which participants will create their own 3D IMGeo data from 2D IMGeo data and a point cloud (AHN).
