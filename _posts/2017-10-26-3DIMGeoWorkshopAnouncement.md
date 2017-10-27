@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Workshop: 3D IMGeo: do it yourself"
+title: "Workshop: 3D IMGeo: reconstruct it yourself!"
 categories: news
 date: 2017-10-26 15:41
 ---
