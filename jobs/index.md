@@ -5,6 +5,10 @@ permalink: /jobs/
 ---
 
 
+[Assistant-professor 3D city modelling for urban applications (tenure track)](/jobs/ud2017/)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [PhD: Automatic generation of semantic 3D city models from 3D textured meshes](/jobs/phdcmt2017/)
