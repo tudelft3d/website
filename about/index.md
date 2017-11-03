@@ -18,10 +18,11 @@ The staff of the group is active in several international organisations such as 
 Our research funding mostly comes from the following organisations:
 
 <div class="row">
-  <div class="col-md-offset-2 col-md-2 col-xs-12"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}" alt="ERC logo"/></a></div>
+  <div class="col-md-offset-1 col-md-2 col-xs-12"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}" alt="ERC logo"/></a></div>
   <div class="col-md-2 col-xs-12"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.png" | prepend: site.baseurl }}" alt="NWO logo"/></a></div>
   <div class="col-md-2 col-xs-12"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}" alt="AMS logo"/></a></div>
   <div class="col-md-2 col-xs-12"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.png" | prepend: site.baseurl }}" alt="Kadaster logo"/></a></div>
+  <div class="col-md-2 col-xs-12"><a href="http://www.rws.nl"><img class="img-responsive" src="{{ "/img/partners/rws.png" | prepend: site.baseurl }}" alt="RWS logo"/></a></div>
 </div>
 
 - - - 
