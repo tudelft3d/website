@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jan ten Kate graduated on predicting noise nuisance from festivals in Amsterdam with a 9.0!"
+title: "Jan ten Kate graduated on predicting noise nuisance from music festivals in Amsterdam (graded with a 9.0)"
 categories: news
 date: 2017-11-08 15:41
 ---
