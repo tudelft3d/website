@@ -16,7 +16,7 @@ To tackle the momentary effects of the weather, multiple different situations sh
 the weather forecast is known
 The strict meteorological conditions, that are currently used in the noise simulation, were only met for 1.6% of the total cumulated opening hours of the studied events, while Jan showed significant different outcomes of the simulation when different weather conditions are used.
 
-The thesis resulted in new insights that can help to improve the noise nuisance prediction of music events to take measures accordingly. Eventually to reduce the nuissance that citizenze experience from music events.
+The thesis resulted in new insights that can help to improve the noise nuisance prediction of music events to take measures accordingly. Eventually to reduce the nuisance that citizens experience from music events.
 
 Congratulations, Jan!
 
