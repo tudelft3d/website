@@ -40,7 +40,7 @@ It has a history of successful collaborations with the industry and the governme
 
 The candidate should:
 
-- hold a PhD degree in a field related to geoinformation (geomatics, geography, urbanism, or a comparable subject)
+- hold a PhD degree in a field related to 3D data and/or geoinformation (geomatics, geography, GIS, data science, computer science, urbanism, or a comparable subject)
 - have ample experience and knowledge in 3D city modelling
 - have excellent scientific skills, as demonstrated by a peer-reviewed publications
 - have an affinity for programming, the ability to develop prototypes and software is an advantage
