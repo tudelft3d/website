@@ -24,7 +24,7 @@ This will require close collaboration with urban/landscape scientists and design
 The tasks for this position are to lead on research and education on the innovative use of 3D geoinformation in environmental technology and design, in landscape architecture, and in urban planning and design. 
 The appointee will develop education courses and curricula, and teach in areas related to the field of research in the MSc programmes [Geomatics](https://www.tudelft.nl/onderwijs/opleidingen/masters/gm/msc-geomatics/), [Urbanism](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/urbanism/), and [Landscape Architecture](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/landscape-architecture/) at TU Delft, and at [AMS](http://www.ams-institute.org). 
 
-The expected starting date is 1 May 2018, or as soon as possible.
+The expected starting date is 1 June 2018, or as soon as possible.
 
 
 ## Research group
@@ -46,6 +46,7 @@ The candidate should:
 - have an affinity for programming, the ability to develop prototypes and software is an advantage
 - have prior experience in supervision of PhD and MSc students
 - have proven didactic skills and teaching experience, since the candidate will have to teach (in English)
+The ability to develop prototypes and software is an advantage.
 
 
 ## What we offer
