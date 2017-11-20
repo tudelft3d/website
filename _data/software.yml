@@ -1,7 +1,7 @@
 
 - name: azul
-  webpage: https://itunes.apple.com/app/azul/id1173239678?mt=12
-  description: A CityGML viewer for macOS 10.12
+  webpage: https://github.com/tudelft3d/azul
+  description: A fast 3D city model viewer for macOS
   category: Visualisation
   starred: true
 
