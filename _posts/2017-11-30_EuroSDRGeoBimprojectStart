@@ -5,12 +5,10 @@ categories: news
 date: 2017-11-30 14:44
 ---
 
-
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/img/2017/Foto 29-11-17 13 16 08.jpg" | prepend: site.baseurl }}"></div>
 </div>
 <br>
-
 
 On 29th and 30th of November, the kick off of the EuroSDR GeoBIM project took place at Kadaster Amsterdam.
 The project is a collaboration of 11 national and regional mapping agencies and a research institutes (among which University Colege London, Dublin Institute of Technology and us).
