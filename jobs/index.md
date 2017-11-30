@@ -4,6 +4,9 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+[Postdoc Researcher: Integrating Geo and BIM](/jobs/postdoc2017/)
+
+- - -
 
 [Assistant-professor 3D city modelling for urban applications (tenure track)](/jobs/ud2017/)
 
