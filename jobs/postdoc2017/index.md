@@ -1,19 +1,28 @@
 ---
 layout: page
-title:  Postdoc GeoBIM
+title:  "Postdoc Researcher: Integrating Geo and BIM"
 permalink: /jobs/postdoc2017/
 ---
 
 <div class="row">
-	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/jobs/ud2017/img/geobim.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "/jobs/postdoc2017/img/geobim.jpg" | prepend: site.baseurl }}"></div>
 </div>
 
 - - - 
 
 ## Description of the position
 
+The [Amsterdam Institute of Advanced Metropolitan Solutions (AMS)](http://www.ams-institute.org/) has funded a postdoc position in our research group to integrate data from two main information domains that maintain and collect data about the built environment: BIM (building information modelling) and Geographic Information (Geo).
+The project aims to develop a fundamental solution to integrate models of single  buildings and construction sites (BIM) with models of complete urban areas (Geo). 
+The solution will allow us to access BIM data from Geo applications and access geo data in BIM applications.
+
+The task of the postdoc is to analyse the data requirements from a few selected use cases: what data do BIM-professionals need and what data do Geo-professionals need to accommodate the workflows and applications of the use cases? From those data requirement analyses, the postdoc will design and prototype interoperability solutions.
+
+The postdoc does not need to start from scratch. 
+Together with users and stakeholders from both domains we have collaborated in a [GeoBIM project in 2017 in which an automated conversion from BIM to Geo was partly developed](https://3d.bk.tudelft.nl/projects/geobim/). 
+The postdoc will build on these results and continue our collaboration with national and international stakeholders, with national and international academia and with national and international standardisation bodies.
+
 We are looking for a researcher with a PhD in a field related to 3D Geoinformation (geomatics, geography, computer science, GIS, urbanism, or a comparable subject). 
-The candidate is willing to, and has affinity with, working in multi‐disciplinary teams in an international oriented environment. 
 
 The position is open immediately until filled, and is initially limited to one year. 
 
@@ -25,18 +34,13 @@ It is a multidisciplinary group of around [20 people](/about/), including comput
 It has a history of successful collaborations with the industry and the government: its research has led to [open source](https://github.com/tudelft3d) [software](https://github.com/tudelft3d), standards, and patents for the management of 3D geographic information.
 
 
+The position is open immediately until filled and is initially limited to one year.  
 
 ## Job requirements
 <!-- 600 char --> 
 
-The candidate should:
-
-- hold a PhD degree in a field related to 3D data and/or geoinformation (geomatics, geography, GIS, data science, computer science, urbanism, or a comparable subject)
-- have excellent scientific skills, as demonstrated by a peer-reviewed publications
-- have an affinity for programming, the ability to develop prototypes and software is an advantage
-- have proven didactic skills and teaching experience, since the candidate will have to teach (in English)
-
-Applicants must be strongly motivated for post-doctoral studies, possess the ability to work independently and perform critical analysis, and also possess good cooperation and communication abilities in English. 
+We are looking for a researcher with a PhD in a field related to 3D Geoinformation and/or BIM (geomatics, BIM, geography, computer science, GIS, urbanism, or a comparable subject). The candidate is willing to, and has affinity with, working in multi‐disciplinary teams in an international oriented environment. Applicants must be strongly motivated for post-doctoral studies and show the ability to publish their work in scientific journals. 
+In addition, she/he should possess the ability to work independently and perform critical analysis, and also possesses good cooperation and communication abilities in English. 
 
 
 ## What we offer
@@ -48,7 +52,7 @@ TU Delft also offers an attractive benefits package, including a flexible work w
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Deadline to apply is 15 December 2017 at 12:00 (Amsterdam time).
+Deadline to apply is 15 January 2018 at 12:00 (Amsterdam time).
 </div>
 
 To apply, please submit: 
@@ -59,7 +63,7 @@ To apply, please submit:
 - proof of English competencies (if applicable),
 - PhD thesis and all publications you have authored (a URL to a PDF is fine).
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2017-14__.
+Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2017-19__.
 
 For more information about this position, please contact directly [Prof. Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) (<mailto:j.e.stoter@tudelft.nl>).
 
