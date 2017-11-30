@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Good start of EuroSDR GeoBIM projectftware that makes a difference"
+title: "Good start of EuroSDR GeoBIM project!"
 categories: news
 date: 2017-11-30 14:44
 ---
