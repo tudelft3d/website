@@ -16,6 +16,6 @@ We also designed the setup of a broad questionnaire that we will execute to stud
 The duration of the EuroSDR GeoBIM project is about 2 years in which we will seek active collaboration with related initiatives such as the GeoBIM harmonization initiatives within ISO and OGC. 
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/img/2017/Foto 29-11-17 13 16 08.jpg" | prepend: site.baseurl }}"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/img/2017/EuroSDRGeoBIM.jpg" | prepend: site.baseurl }}"></div>
 </div>
 <br>
