@@ -12,7 +12,7 @@ permalink: /jobs/postdoc2017/
 
 ## Description of the position
 
-The [Amsterdam Institute of Advanced Metropolitan Solutions (AMS)](http://www.ams-institute.org/) has funded a postdoc position in our research group to integrate data from two main information domains that maintain and collect data about the built environment: BIM (building information modelling) and Geographic Information (Geo).
+The [Amsterdam Institute of Advanced Metropolitan Solutions (AMS)](http://www.ams-institute.org/) has funded a postdoc position in our research group to integrate data from two main information domains that maintain and collect (3D)data about the built environment: BIM (building information modelling) and Geographic Information (Geo).
 The project aims to develop a fundamental solution to integrate models of single  buildings and construction sites (BIM) with models of complete urban areas (Geo). 
 The solution will allow us to access BIM data from Geo applications and access geo data in BIM applications.
 
@@ -39,9 +39,9 @@ The position is open immediately until filled and is initially limited to one ye
 ## Job requirements
 <!-- 600 char --> 
 
-We are looking for a researcher with a PhD in a field related to 3D Geoinformation and/or BIM (geomatics, BIM, geography, computer science, GIS, urbanism, or a comparable subject). The candidate is willing to, and has affinity with, working in multi‐disciplinary teams in an international oriented environment. Applicants must be strongly motivated for post-doctoral studies and show the ability to publish their work in scientific journals. 
-In addition, she/he should possess the ability to work independently and perform critical analysis, and also possesses good cooperation and communication abilities in English. 
-
+We are looking for a researcher with a PhD in a field related to 3D Geoinformation and/or BIM (geomatics, BIM, geography, computer science, GIS, urbanism, or a comparable subject). The candidate is willing to, and has affinity with, working in multi‐disciplinary teams in an international oriented environment. Applicants must be strongly motivated for post-doctoral studies and show the ability to publish their work in scientific journals.
+The candidate should have an affinity for programming. The ability to develop prototypes and software is an advantage.
+In addition, she/he should possess the ability to work independently and perform critical analysis, and also possesses good cooperation and communication abilities in English.
 
 ## What we offer
 
