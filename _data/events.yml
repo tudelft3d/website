@@ -1,3 +1,9 @@
+- name: Pointcloud processing seminar 2018
+  description: 1-day seminar on point cloud processing 
+  image: udmv2015.png
+  web: /events/pointcloud2018/
+  date: 13 March 2018
+
 - name: OGC TC/PC
   description: Open Geospatial Consortium Technical and Planning Committee March 2017
   image: ogc.png
