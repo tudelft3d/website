@@ -1,5 +1,5 @@
-- name: Pointcloud processing seminar 2018
-  description: 1-day seminar on point cloud processing 
+- name: State-of-the-art point cloud processing 2018
+  description: 1-day seminar on point cloud processing
   image: udmv2015.png
   web: /events/pointcloud2018/
   date: 13 March 2018
