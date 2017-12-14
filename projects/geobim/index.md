@@ -5,8 +5,7 @@ permalink: /projects/geobim/
 ---
 
 <div class="row">
-  <div class="col-sm-6 col-xs-6"><img class="img-responsive" src="{{ "shadow.jpg" }}"></div>
-  <div class="col-sm-6 col-xs-6"><img class="img-responsive" src="{{ "height.jpg" }}"></div>
+  <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="{{ "volumetric.png" }}"></div>
 </div>
 
 - - -
@@ -18,51 +17,38 @@ permalink: /projects/geobim/
 
 ## Summary
 
-This project, in which the main stakeholders in the field collaborate, will develop an interface between CityGML and IFC to prepare for a fundamental solution to bridge the gap between Geo and BIM. The project will show with two use cases how integration between Geo and BIM can be realised: what works and what does not; what is a feasible direction to support both domains; and, what (technical and standardisation) agreements are required to bridge the BIM/Geo gap. Involvement with relevant stakeholders will assure that the project will be anchored within the national and international standardisation initiatives.
+Geographic information systems (GIS) have long been used to model the environment and to perform 2D spatial analyses of large areas.
+However, with the increasing availability of computing power, advanced data acquisition methods, and automated workflows that generate detailed 3D data, GIS models have become increasingly detailed and started to contain models of individual buildings---the traditional domain of building information modelling (BIM).
 
-## Introduction
+At the same time, the increase in computing power and the availability of better software have enabled BIM methodologies to move to the mainstream, disrupting more traditional building design platforms based on 2D CAD drawings.
+As users of BIM software want to incorporate the surrounding features into their workflow, it is only logical that the BIM domain is currently enhancing its standards to support environmental information such as infrastructure and that BIM users turn to existing GIS datasets containing environmental information.
+Both domains are thus now overlapping, increasingly modelling the same objects, even if the data is represented and stored in rather different ways.
 
-In both the Geographic Information (Geo) and Building Information Modelling (BIM) domains, it is widely acknowledged that the integration of data from both domains is beneficial and a crucial step forwards for future 3D city modelling as well as for facing the multi-disciplinary challenges of our built environment. BIM data (i.e. detailed data about design and construction) can feed Geo data (i.e. more general data useful for region-scale spatial analyses) and Geo data can serve as a reference for BIM data. In fact, in many domains, 3D models are already a widespread technology (e.g. water, noise, air quality, energy, building & construction). But it is still very hard to share 3D information among different users throughout the lifecycle of urban and environmental processes (from plan, design and construction to maintenance). The proposed project aims at developing a fundamental solution to integrate models of single buildings and construction sites (BIM) with models of complete urban areas (Geo). The solution will be developed alongside two use cases.
+While the GIS and the BIM domains clearly overlap when the modelling of cities is concerned, each domain retains its own focus and has its own characteristics.
+The BIM domain focuses on information about the design and construction of building sites, and thus has very detailed and semantically rich information about all the physical elements that comprise an individual building as it is designed or built.
+Meanwhile, GIS describe information about the environment as captured at different points in time, thus having less detailed but regularly updated datasets covering wide regions.
 
-**Use case 1**: The process of submitting an IFC model to a building permit-application portal by citizens and companies; checking the IFC design against the existing physical world (represented in a 3D city model) and against a 3D zoning plan; and finally updating the 3D city model by integrating the 3D building model.
+Due to the overlap in the features modelled in both domains as well as their differing strengths and weaknesses, it is widely acknowledged that the integration of data from both domains is beneficial and a crucial step forward for future 3D city modelling.
+This integration can avoid unnecessary efforts in redundant modelling and allow for new data flows in both directions and new applications.
+In this way, more detailed BIM data can feed more general GIS data and GIS data can provide the context that is usually missing in BIM data.
+By pursuing the integration of GIS and BIM data, many new possibilities appear: with contextual GIS information, BIM methodologies can be better applied to infrastructural works; more detailed 3D city models can be built by reusing BIM data; smart city concepts can perform integrated reasoning on terrain, buildings and city infrastructure; and spatial analyses can support multiple levels of detail and the complete life cycles of objects.
 
-**Use case 2**: The process of supporting the life-cycle of objects with a continuous information chain: using information about complete urban areas in the design process (i.e. using geo-information in a BIM application) and, at a later stage, converting plan, design and construction data to maintenance data. The focus of this second use case is on large infrastructure projects.
+Yet, the disciplines of GIS and BIM are disconnected by their modelling paradigms, software tools and open standards---respectively CityGML for GIS and IFC for BIM.
+Consequently, GIS and BIM datasets differ fundamentally with respect to their semantics, geometry and level of detail, and because of the different modelling approach of both, there is not one optimal nor uniform conversion between the information models.
+Even as researchers and practitioners have studied how to best share information between BIM and GIS and how to address all the differences from different perspectives, it is still very hard (if not impossible) to share 3D information among different users throughout the life cycle of urban and environmental processes, i.e. from plan, design and construction to maintenance.
+Moreover, most of the research so far has focused on the semantic aspects of GIS-BIM integration (e.g. mapping equivalent types), leaving the difficult task of geometric processing on the background.
 
-**Use case 3**: Integration of sub-soil information in the BIM design process.
+In view of these integration problems, in the beginning of 2017, we started the GeoBIM project, in which we worked on an interface to process complex architectural IFC models in an automated fashion, such as performing automated tests on them and converting them to CityGML.
+We created such an interface based on IfcOpenShell and CGAL, a pair of libraries respectively used to process BIM and GIS models.
+The project is a collaboration of two research groups on BIM and 3D GIS (Technical universities of Eindhoven respectively Delft), the two respective national standardisation bodies (BIM Loket and Geonovum) and several users who have a high interest in closer BIM/GIS integration, i.e. Rijkswaterstaat, Kadaster and the cities of Den Haag and Rotterdam.
 
-For the BIM/Geo data interface, this project will focus on the two most prominent standards in the domains. These are Industry Foundation Classes (IFC) building models, which contain the physical elements of single constructions in great detail, and CityGML models, which can represent entire cities in a simpler format that is usable for exchange, dissemination and spatial analyses, such as solar potential and wind simulations. The two modelling paradigms embodied by IFC and CityGML are good use cases of BIM and Geo data, and they are still broadly incompatible as they originally targeted different groups of people and now they cannot be used in the same tools (Figure 1).
+The results of this project are mixed.
+On one hand, we found a series of errors that seem to be pervasive in IFC models and which make automated processing of complex architectural models very difficult, and since fully dealing with such errors would require automatic repair algorithms, a complete working interface could unfortunately not be developed within the timeframe of the GeoBIM project.
+However, we took the opportunity to look into these errors and converted them into a set of recommended guidelines that should enable the automated processing of IFC models.
 
-## Previous work
+## Final report
 
-Many researchers and practitioners have studied how to best share information between BIM and Geo, including models that combine both approaches, the generalisation of detailed BIM data, adding detail into Geo 3D datasets, and the creation of converters between IFC and CityGML. The ambitions are getting bigger now the that two domains are increasingly intersecting: BIM methodologies are applied to infrastructural works; city models are getting more detailed; Smart City concepts ask for an integrated reasoning on our city infrastructure; and objectives towards sustainability urge for an approach on multiple levels of detail. Yet, these disciplines are disconnected by their modelling paradigms and software tools, which differ fundamentally with respect to their semantics, geometry and level of detail. Until now solutions on integration were unsuccessful since it is very complex to address all these differences.
-
-## The proposed solution
-
-This project will start with building an interface between data from the two domains, applying it to the two use cases mentioned above, and formulating recommendations for developments of techniques and standardisation for further integration. There are two aspects that we see as extremely important for a successful integration as well for obtaining thorough understanding on required future steps: 1) a close collaboration between data-experts from both domains and 2) involvements of users and use cases to assure that the development is more than an academic or theoretical standardisation exercise. Both will be organised in this project.
-
-## Deliverables
-
-The two main deliverables will be a CityGML/IFC interface and an agreed and supported plan for follow up.
-
-## CityGML/IFC interface
-
-The CityGML/IFC interface will be an open source library/API that can read and write both IFC and CityGML, integrate multiple models into one, and can then perform operations (e.g. Boolean operations such as union or intersection) to manipulate and analyse the models. It will 
-cover the most important geometric and semantic classes of IFC and CityGML. The focus will be on the geometry, and specifically on boundary representation models, all of which will be completely supported. Other geometry types, such as Constructive Solid Geometry and Sweeps will be supported if time allows. We do not aim for a complete implementation of all of the semantic classes in IFC or CityGML.
-
-A prototype implementation of the library will be developed within the framework of this project. We have already studied and experimented with many open source software and libraries and selected CGAL Nef Polyhedra as a promising base. It is a very powerful and robust geometry engine that is also free and open source but does not currently support any BIM or Geo standard. The software will be developed under an open source model, where the source code of the software is published in a public repository and provided for the use of others. Testing will be done using real-world data within the context of the two mentioned use cases. Communication about the IFC/CityGML interface development will be handled according to an open source model: documenting the development and testing the process, disseminating it through blog posts and websites, and communicating directly with the users of the use cases.
-
-## Agreed and supported plan for follow up
-
-Parallel to the development of the interface, the project will deliver recommendations on how standards, technologies and organisations should make further steps to facilitate further BIM/ Geo integration. These will be based on the insights obtained from the use cases and the developed CityGML/IFC interface. The recommendations will also cover defining stricter modelling guidelines for both IFC and CityGML, which makes a better integration and re-use of CityGML data in BIM domain and vice versa possible.
-
-## The collaboration
-
-As argued above, successful solution to bridge the prevailing gap between Geo and BIM requires a close collaboration between experts and organisations from both domains. The developers form the core of the project. They will develop the CityGML/IFC interface and are BIM-data researchers from TU Eindhoven and Geo-data researchers from TU Delft, completed with developers from the partner organisations. The developers have ample experiences in developing and maintaining open source software solutions in these fields.  See [3d.bk.tudelft.nl/code/](https://3d.bk.tudelft.nl/code/) and [ifcopenshell.org](http://www.ifcopenshell.org). Besides the developers, an advisory board will be established to define and provide the requirements for the use cases, to organise the use cases and to reflect on (intermediate) results. The advisory board is also important to provide input and confirm the recommendations for follow up. The follow-up plan will be a collaborative work of the advisory board.
-The participants, and the research groups and organisations they belong to, are actively involved in national and international standardisation organisations related to CityGML and IFC, and we thus expect that the results will lead to an improvement of the standards.
-
-## Planning
-
-The project will start with a kick off with the stakeholders in January 2017. After that, a fast software development process will be applied to provide a preliminary prototype by April and a final prototype by Sept/Oct 2017. The developers will start by defining the programming interface in accordance with stakeholder demands (as collected in the kick off), with a unified and interoperable geometric interpretation of the elements in IFC and CityGML by the preliminary prototype. Two workshops on intermediate results will validate the results with the stakeholders.  More complete coverage of both schemas will be present in the final prototype. Parallel to the development of the IFC/CityGML interface, the use cases will be run by the partner organisations. Requirements on further developments of technologies and standards will continuously be collected and reported back to the advisory board.
+The final report including a recommended set of IFC guidelines for automated geometric processing is found [here](https://3d.bk.tudelft.nl/ken/files/17_geobim.pdf).
 
 ## Meetings
 
@@ -72,8 +58,21 @@ The project will start with a kick off with the stakeholders in January 2017. Af
   <div class="col-xs-12 col-md-6">
     <script async class="speakerdeck-embed" data-id="876a2e1d5fcf4dad8f873a91b4dce644" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
   </div>
+</div>
+
+### First prototype on 2017-04-19
+
+<div class="row">
   <div class="col-xs-12 col-md-6">
     <script async class="speakerdeck-embed" data-id="1f51a84e65cb4cdaba22edcc4381487a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
+
+### Agreeing on IFC guidelines on 2017-04-19
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <script async class="speakerdeck-embed" data-id="3af1de4df4e4491caff247efe4af98a2" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
   </div>
 </div>
 
@@ -103,7 +102,7 @@ The project will start with a kick off with the stakeholders in January 2017. Af
 
 <div class="row">
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
       <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
     <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
     <p>
@@ -114,18 +113,7 @@ The project will start with a kick off with the stakeholders in January 2017. Af
     </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="jakob.jpg" alt="Jakob Beetz photo" /></a>
-    <h3>Jakob Beetz<br /><small>Assistant-prof. (TU/e)</small></h3>
-    <p>
-        <i class="fa fa-home"></i> <a href="http://www.tue.nl/staff/j.beetz">tue.nl/staff/j.beetz</a><br />
-        <i class="fa fa-envelope"></i> <a href="mailto:j.beetz@tue.nl">j.beetz@tue.nl</a><br />
-        <br />
-        <br />
-    </p>
-  </div>
-
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
       <a href="https://3d.bk.tudelft.nl/adiakite"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/abdou.png" alt="Abdoulaye Diakité photo" /></a>
     <h3>Abdoulaye Diakité<br /><small>Postdoc (TUD)</small></h3>
     <p>
@@ -136,7 +124,7 @@ The project will start with a kick off with the stakeholders in January 2017. Af
     </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
       <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="thomas.png" alt="Thomas Krijnen photo" /></a>
     <h3>Thomas Krijnen<br /><small>PhD candidate (TU/e)</small></h3>
     <p>
@@ -147,7 +135,7 @@ The project will start with a kick off with the stakeholders in January 2017. Af
     </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
         <a href="https://www.tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/hugo.jpg" alt="Hugo Ledoux photo" /></a>
       <h3>Hugo Ledoux<br /><small>Associate-prof. (TUD)</small></h3>
       <p>
@@ -158,7 +146,7 @@ The project will start with a kick off with the stakeholders in January 2017. Af
       </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
         <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien Stoter photo" /></a>
       <h3>Jantien Stoter<br /><small>Professor (TUD)</small></h3>
       <p>
