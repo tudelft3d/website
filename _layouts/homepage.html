@@ -37,19 +37,23 @@ layout: default
       {% if staff.twitter %}
         <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ staff.twitter }}">@{{ staff.twitter }}</a><br>
       {% endif %}        
-      {% if staff.room %}
-        <i class="fa fa-map-marker fa-fw">     </i> Room {{ staff.room }} <br>
+      {% if staff.address %}
+        <i class="fa fa-map-marker fa-fw"></i> {{ staff.address}} <br>
       {% else %}
-        <i class="fa fa-map-marker fa-fw">     </i> Room BG.WEST.010 <br>
+        {% if staff.room %}
+          <i class="fa fa-map-marker fa-fw">     </i> Room {{ staff.room }} <br>
+        {% else %}
+          <i class="fa fa-map-marker fa-fw">     </i> Room BG.WEST.010 <br>
+        {% endif %}  
+        <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
+        <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
+        <i class="fa fa-map-marker fa-fw fade"></i> (building #8) <br>
+        <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
+        <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
+        <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
+        <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
+        <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
       {% endif %}  
-      <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
-      <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
-      <i class="fa fa-map-marker fa-fw fade"></i> (building #8) <br>
-      <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
-      <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
-      <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
-      <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
-      <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
     </div>
     </div>
   </div>
