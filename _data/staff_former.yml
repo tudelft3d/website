@@ -1,4 +1,15 @@
 
+
+- surname: Post
+  name: Marc
+  title: PhD candidate (external)
+  photo: marc.jpg
+  current: "[Kadaster](https://www.kadaster.com/)"
+  period: 2016-2017
+  homepage: 3d.bk.tudelft.nl/mpost
+  email: j.m.post@tudelft.nl
+  # description: "Generalisation of 3D city models"
+
 - surname: Kim
   name: Sangmin
   title: Postdoc

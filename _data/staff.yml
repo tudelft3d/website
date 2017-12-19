@@ -53,14 +53,6 @@
   email: j.m.vanderhelm@tudelft.nl
   phone: "+31 15 27 81298"
 
-- surname: Post
-  name: Marc
-  title: PhD candidate (external)
-  photo: marc.jpg
-  homepage: 3d.bk.tudelft.nl/mpost
-  email: j.m.post@tudelft.nl
-  # description: "Generalisation of 3D city models"
-
 - surname: YAN
   name: Jinjin
   swapnames: true
