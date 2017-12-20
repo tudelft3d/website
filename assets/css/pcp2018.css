@@ -1,11 +1,18 @@
 .jumbotron{
   position: relative;
-    overflow: hidden;
-    height: 500px;
- 
-  /* Tried setting the height. Didnt work either */
-  /* height: 200px; */
+  overflow: hidden;
+  height: 500px;
+  background-color: #ecf0f1;
 }
+.jumbotron .container {
+  max-width: 800px;
+}
+
+.jumbotron h1, .jumbotron p {
+  color: #fff;
+  text-shadow: 2px 2px 4px #222;
+}
+
 .container {
   position: relative;
   z-index: 2;
@@ -23,4 +30,9 @@
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   z-index: 1;
+}
+
+.sponsor-logo {
+  display: block;
+  max-width: 200px;
 }
