@@ -7,13 +7,14 @@ date: 2017-01-27 09:24
 
 We published a new paper:
 
-<div class="filteredelement"><strong>The effect of acquisition error and level of detail on the accuracy of spatial analyses</strong>. Filip Biljecki, Gerard Heuvelink, Hugo Ledoux, and Jantien Stoter. <em>Cartography and Geographic Information Science</em> Advance online publication, 2017, pp. 1&ndash;21. <br /> <a href="http://filip.biljecki.com/publications/2017_cagis_lod_error_propagation.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a> <a href="http://dx.doi.org/10.1080/15230406.2017.1279986"><i class="fa fa-external-link"></i> DOI</a> <a href="#bib2017_cagis_lod_error_propagation" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i> BibTeX</a><div id="bib2017_cagis_lod_error_propagation" class="collapse" tabindex="-1"><pre class="bibtex">@article{2017_cagis_lod_error_propagation,
+<div class="filteredelement"><strong>The effect of acquisition error and level of detail on the accuracy of spatial analyses</strong>. Filip Biljecki, Gerard Heuvelink, Hugo Ledoux, and Jantien Stoter. <em>Cartography and Geographic Information Science</em>, 45(2): 156-176, 2018. <br /> <a href="http://filip.biljecki.com/publications/2018_cagis_lod_error_propagation.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a> <a href="http://dx.doi.org/10.1080/15230406.2017.1279986"><i class="fa fa-external-link"></i> DOI</a> <a href="#bib2018_cagis_lod_error_propagation" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i> BibTeX</a><div id="bib2018_cagis_lod_error_propagation" class="collapse" tabindex="-1"><pre class="bibtex">@article{2018_cagis_lod_error_propagation,
     author = {Biljecki, Filip and Heuvelink, Gerard B M and Ledoux, Hugo and Stoter, Jantien},
     title = {The effect of acquisition error and level of detail on the accuracy of spatial analyses},
     journal = {Cartography and Geographic Information Science},
-    year = {2017},
-    pages = {1--21},
-    volume = {Advance online publication},
+    year = {2018},
+    volume = {45},
+    number = {2},
+    pages = {156--176},
     doi = {10.1080/15230406.2017.1279986}
 }</pre></div></div>
 
