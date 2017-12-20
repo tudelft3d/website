@@ -1,0 +1,26 @@
+.jumbotron{
+  position: relative;
+    overflow: hidden;
+    height: 500px;
+ 
+  /* Tried setting the height. Didnt work either */
+  /* height: 200px; */
+}
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
