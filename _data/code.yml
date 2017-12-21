@@ -58,11 +58,17 @@
   web: http://geovalidation.bk.tudelft.nl/val3dity
   paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/13_cacaie.pdf
 
-- name: MATAHN
-  description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
-  github: https://github.com/tudelft3d/matahn
-  image: matahn.png
-  web: http://3dsm.bk.tudelft.nl/matahn
+# - name: MATAHN
+#   description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
+#   github: https://github.com/tudelft3d/matahn
+#   image: matahn.png
+#   web: http://3dsm.bk.tudelft.nl/matahn
+
+- name: CityJSON
+  description: JSON-based implementation of CityGML, easy-to-use and compact
+  web: http://www.cityjson.org
+  github: https://github.com/tudelft3d/cityjson
+  image: cityjson.png
 
 - name: lod2plus
   description: Automatic generation of simple interiors for CityGML LOD2
