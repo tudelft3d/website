@@ -64,12 +64,6 @@
 #   image: matahn.png
 #   web: http://3dsm.bk.tudelft.nl/matahn
 
-- name: CityJSON
-  description: JSON-based implementation of CityGML, easy-to-use and compact
-  web: http://www.cityjson.org
-  github: https://github.com/tudelft3d/cityjson
-  image: cityjson.png
-
 - name: lod2plus
   description: Automatic generation of simple interiors for CityGML LOD2
   github: https://github.com/tudelft3d/lod2plus
