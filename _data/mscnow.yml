@@ -3,19 +3,14 @@
   name: Martijn
   title: Large scale automatic extraction of 3D roof segments from aerial imagery
   image: vermeer.png
-
-- surname: ten Kate
-  name: Jan
-  title: 3D noise modeling for outdoor music events in the built environment
-  image: jtkate.png
   
-- surname: Ortega-Córdova
+- surname: Ortega-Córdova
   name: Lessie M. 
   title: "Framework for Urban Vegetation 3D Modelling"
   image: lessieoc.png
 
 - surname: Dukai
-  name: Balázs
+  name: Balázs
   title: "Automatic identification of LOD in 3D city models"
   image: balazsd.png
 
