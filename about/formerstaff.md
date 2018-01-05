@@ -12,7 +12,7 @@ permalink: /about/formerstaff/
     <td>name</td>
     <td>position</td>
     <td>period</td>
-    <td>current position</td>
+    <td>last known position</td>
   </tr>
 
   {% for i in members %}
