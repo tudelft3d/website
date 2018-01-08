@@ -1,4 +1,13 @@
 
+- name: Simulation-ready 3D city models
+  description: Automatic reconstruction of simulation-ready 3D city models
+  webpage: /projects/simwind/
+  funding: AMS
+  fundingurl: http://www.ams-institute.org
+  image: simwind.jpg
+  finished: true
+
+
 - name: UMnD
   description: Urban modelling in higher dimensions
   webpage: /projects/umnd/
