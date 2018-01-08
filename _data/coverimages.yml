@@ -1,5 +1,9 @@
 # Projects
 
+- image: simwind.jpg
+  description: "Automatic reconstruction of simulation-ready 3D city models"
+  webpage: /projects/simwind/
+
 - image: cityjson-logo.jpg
   description: "CityJSON official homepage: help, tips, datasets, etc."
   webpage: http://www.cityjson.org
