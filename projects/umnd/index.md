@@ -41,7 +41,7 @@ and stored LoDs of a 3D urban model.
 
 <div class="row">
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
       <a href="http://3d.bk.tudelft.nl/alabetski"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/anna.png" alt="Anna  Labetski photo" /></a>
     <h3>Anna  Labetski<br /><small>PhD candidate</small></h3>
     <p>
@@ -52,7 +52,7 @@ and stored LoDs of a 3D urban model.
     </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
         <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
       <h3>Hugo  Ledoux<br /><small>Associate-prof.</small></h3>
       <p>
@@ -63,7 +63,7 @@ and stored LoDs of a 3D urban model.
       </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
         <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
       <h3>Jantien Stoter<br /><small>Professor</small></h3>
       <p>
@@ -74,7 +74,7 @@ and stored LoDs of a 3D urban model.
       </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
         <a href="http://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
       <h3>Ken Arroyo Ohori<br /><small>Postdoc</small></h3>
       <p>
@@ -83,7 +83,7 @@ and stored LoDs of a 3D urban model.
       </p>
   </div>
 
-  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
           <a href="http://3d.bk.tudelft.nl/svitalis"><img class="img-circle img-responsive" src="/img/staff/stelios.jpg" alt="Stelios Vitalis photo" /></a>
         <h3>Stelios  Vitalis<br /><small>PhD candidate</small></h3>
         <p>
