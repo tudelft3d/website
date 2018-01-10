@@ -56,9 +56,9 @@
 #   description: Navigation for first responders
 #   webpage: /projects/navigation/
 
-- image: INSM.jpg
-  description: Indoor Semantic Modeling to Support Path-Finding
-  webpage: /projects/indoor/
+# - image: INSM.jpg
+#   description: Indoor Semantic Modeling to Support Path-Finding
+#   webpage: /projects/indoor/
 
 - image: geobim.jpg
   description: GeoBIM
