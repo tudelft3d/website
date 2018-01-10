@@ -16,17 +16,17 @@
   description: Urban modelling in higher dimensions
   webpage: https://3d.bk.tudelft.nl/projects/umnd/
 
-- image: SIMs3D.jpg
-  description: Smart 3D indoor models to support crisis management in large public buildings
-  webpage: http://www.sims3d.net/
+# - image: SIMs3D.jpg
+#   description: Smart 3D indoor models to support crisis management in large public buildings
+#   webpage: http://www.sims3d.net/
 
 - image: haf.png
   description: We help find 'hidden parts' of Amsterdam with 3D city models
   webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
 
-- image: spyunder.jpg
-  description: AR Visualisation of underground pipes
-  webpage: http://spyunderground.nl/
+# - image: spyunder.jpg
+#   description: AR Visualisation of underground pipes
+#   webpage: http://spyunderground.nl/
 
 - image: cartoon.png
   description: A national 3D geoinformation dataset for urban applications
@@ -36,9 +36,9 @@
   description: Quality control of 3D city models
   webpage: http://geovalidation.bk.tudelft.nl/val3dity
 
-- image: bigvoxels.png
-  description: Big Data Analytics in the Geospatial Domain
-  webpage: /projects/bigvoxels/
+# - image: bigvoxels.png
+#   description: Big Data Analytics in the Geospatial Domain
+#   webpage: /projects/bigvoxels/
 
 - image: 3d4em.jpg
   description: Design and implementation of an SDI for integrated environmental modelling in 3D
@@ -52,9 +52,9 @@
   description: 3DSM
   webpage: /projects/3dsm/
 
-- image: navigation.png
-  description: Navigation for first responders
-  webpage: /projects/navigation/
+# - image: navigation.png
+#   description: Navigation for first responders
+#   webpage: /projects/navigation/
 
 - image: INSM.jpg
   description: Indoor Semantic Modeling to Support Path-Finding
@@ -74,9 +74,9 @@
   description: CityGML2OBJs
   webpage: https://github.com/tudelft3d/CityGML2OBJs
 
-- image: random3dcity.png
-  description: Random3Dcity
-  webpage: https://github.com/tudelft3d/Random3Dcity
+# - image: random3dcity.png
+#   description: Random3Dcity
+#   webpage: https://github.com/tudelft3d/Random3Dcity
 
 - image: prepair.png
   description: prepair
