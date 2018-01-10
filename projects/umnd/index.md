@@ -75,7 +75,16 @@ and stored LoDs of a 3D urban model.
   </div>
 
   <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-          <a href="http://3d.bk.tudelft.nl/svitalis"><img class="img-circle img-responsive" src="/img/staff/stelios.jpg" alt="Stelios  Vitalis photo" /></a>
+        <a href="http://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
+      <h3>Ken Arroyo Ohori<br /><small>Postdoc</small></h3>
+      <p>
+          <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
+          <i class="fa fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+      </p>
+  </div>
+
+  <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+          <a href="http://3d.bk.tudelft.nl/svitalis"><img class="img-circle img-responsive" src="/img/staff/stelios.jpg" alt="Stelios Vitalis photo" /></a>
         <h3>Stelios  Vitalis<br /><small>PhD candidate</small></h3>
         <p>
             <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/svitalis">3d.bk.tudelft.nl/svitalis</a><br />
