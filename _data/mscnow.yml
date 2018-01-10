@@ -14,3 +14,12 @@
   title: "Automatic identification of LOD in 3D city models"
   image: balazsd.png
 
+- surname: Salheb
+  name: Nebras
+  title: Automatic Conversion of CityGML to IFC
+  image: nebras.png
+
+- surname: Karydakis
+  name: Panagiotis
+  title: Generalization of BIM model to visualize it through HoloLens
+  image: panagiotis.png
