@@ -8,7 +8,10 @@ permalink: /jobs/
 
 - - -
 
+<span class="label label-danger">closed</span>
+<del>
 [Assistant-professor 3D city modelling for urban applications (tenure track)](/jobs/ud2017/)
+</del>
 
 - - -
 
