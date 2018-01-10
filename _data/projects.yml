@@ -7,7 +7,6 @@
   image: simwind.jpg
   finished: true
 
-
 - name: UMnD
   description: Urban modelling in higher dimensions
   webpage: /projects/umnd/
@@ -28,6 +27,7 @@
   funding: STW
   fundingurl: http://www.stw.nl
   image: geo5d.png
+  finished: true
 
 - name: SIMs3D
   description: Smart 3D indoor models to support crisis management in large public buildings.
@@ -97,8 +97,10 @@
   funding: 3TU lighthouse
   fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
   image: spyunder.jpg
+  finished: true
 
 - name: GeoBIM
   description: Bridging the gap between Geo and BIM
   webpage: /projects/geobim/
   image: geobim.jpg
+  finished: true
