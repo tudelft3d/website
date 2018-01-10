@@ -4,7 +4,7 @@ title:  Assistant-professor 3D city modelling for urban applications (tenure tra
 permalink: /jobs/ud2017/
 ---
 
-<!-- <div class="alert alert-danger" role="alert">2016-12-05: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div> -->
+<div class="alert alert-danger" role="alert">2018-01-09: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 
 <div class="row">
@@ -70,8 +70,12 @@ If the candidate has less than five years of teaching experience and do not yet 
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 Deadline to apply is 8 January 2018 at 12:00 (Amsterdam time).
+</div> -->
+
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
 </div>
 
 To apply, please submit: 
