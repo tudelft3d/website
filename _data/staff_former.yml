@@ -8,6 +8,16 @@
   phone: +31 15 27 82714
   current: "[UNSW Sydney](https://www.be.unsw.edu.au/)"
   period: 2015-2017
+  
+  - surname: LIU
+  name: Liu
+  swapnames: true
+  title: PhD candidate
+  photo: liu.jpg
+  homepage: 3d.bk.tudelft.nl/liuliu
+  email: l.liu-1@tudelft.nl
+  period: 2013-2017
+  # current: "[]"
 
 - surname: Post
   name: Marc
