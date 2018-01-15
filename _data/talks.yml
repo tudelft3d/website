@@ -1,3 +1,8 @@
+- title: "(1) Development of a data structure to model semantically rich 3D+LoD GIS data in 4D; (2) Pedestrian Navigation in Indoor/Outdoor Large Spaces with No Clear Pattern for Movement"
+  name: "(1) Stelios Vitalis; (2) Jinjin Yan"
+  room: "BG west 290"
+  date: 2018-02-06
+  time: 15:00-17:00
 
 - title: "From textured meshes to 3D city models (overview PhD plan)"
   name: "[Weixiao GAO](https://3d.bk.tudelft.nl/weixiao)"
@@ -29,7 +34,7 @@
   date: 2017-09-21 
   time: 10:00-11:00
 
-- title: "(1) CityGML on GDAL introduction; (2) Building a web 3D model of Glyfada (Greece) with open data"
+- title: "CityGML on GDAL introduction"
   name: "Stelios Vitalis"
   room: "BGwest 290"
   date: 2017-09-20
