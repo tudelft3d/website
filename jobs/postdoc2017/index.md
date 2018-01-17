@@ -4,6 +4,9 @@ title:  "Postdoc Researcher: Integrating Geo and BIM"
 permalink: /jobs/postdoc2017/
 ---
 
+<div class="alert alert-danger" role="alert">2018-01-17: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
+
 <div class="row">
 	<div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "/jobs/postdoc2017/img/geobim.jpg" | prepend: site.baseurl }}"></div>
 </div>
@@ -51,8 +54,13 @@ TU Delft also offers an attractive benefits package, including a flexible work w
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 Deadline to apply is 15 January 2018 at 12:00 (Amsterdam time).
+</div>
+ -->
+
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
 </div>
 
 To apply, please submit: 

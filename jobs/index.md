@@ -4,7 +4,10 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<span class="label label-danger">closed</span>
+<del>
 [Postdoc Researcher: Integrating Geo and BIM](/jobs/postdoc2017/)
+</del>
 
 - - -
 
