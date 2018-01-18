@@ -4,11 +4,11 @@
   date: 2018-02-09
   time: 10:30-11:30
 
-- title: "(1) Development of a data structure to model semantically rich 3D+LoD GIS data in 4D; (2) Pedestrian Navigation in Indoor/Outdoor Large Spaces with No Clear Pattern for Movement"
-  name: "(1) Stelios Vitalis; (2) Jinjin Yan"
+- title: "Development of a data structure to model semantically rich 3D+LoD GIS data in 4D"
+  name: "Stelios Vitalis"
   room: "BG west 290"
   date: 2018-02-06
-  time: 15:00-17:00
+  time: 15:00-16:00
 
 - title: "From textured meshes to 3D city models (overview PhD plan)"
   name: "[Weixiao GAO](https://3d.bk.tudelft.nl/weixiao)"
