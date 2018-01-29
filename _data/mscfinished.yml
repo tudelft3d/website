@@ -1,4 +1,11 @@
 
+- surname: Vermeer
+  name: Martijn
+  title: Large-scale efficient extraction of 3D roof segments from aerial stereo imagery
+  image: vermeer.png
+  link: http://resolver.tudelft.nl/uuid:24e59c42-b019-4fd8-a968-307eae8e4460
+  year: 2018
+
 - surname: ten Kate
   name: Jan
   title: "3D noise modeling for outdoor music events in the built environment"
