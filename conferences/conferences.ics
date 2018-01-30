@@ -1,0 +1,54 @@
+---
+layout: null
+---
+{% assign confs = site.data.conferences | sort: 'start' %}
+BEGIN:VCALENDAR
+PRODID:-//3D geoinformation group at TU Delft//NONSGML GIS conferences calendar version 1.0//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+{% for i in confs %}
+BEGIN:VEVENT
+SUMMARY:{{ i.name }}
+DTSTAMP;TZID=Europe/Amsterdam:{{ i.start | date: '%Y%m%d' }}
+DTSTART;TZID=Europe/Amsterdam:{{ i.start | date: '%Y%m%d' }}
+DTEND;TZID=Europe/Amsterdam:{{ i.end | date: '%Y%m%d' }}
+DESCRIPTION:Visit: {{ i.url }}
+LOCATION:{{ i.place }}
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Conference
+END:VALARM
+END:VEVENT
+{% for j in i.milestones %}
+BEGIN:VEVENT
+SUMMARY:[{{ i.name }}] {{ j.name }}
+DTSTAMP;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
+DTSTART;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
+DTEND;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
+DESCRIPTION:Visit: {{ i.url }}
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Milestone
+END:VALARM
+END:VEVENT
+{% endfor %}
+{% endfor %}
+END:VCALENDAR
