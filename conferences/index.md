@@ -8,6 +8,15 @@ permalink: /conferences/
 
 This is not meant to be an exhaustive list of all GIS conferences. -->
 
+<div class="row">
+  <div class="col-md-12">
+  <p>
+    Add this <a href="http://3d.bk.tudelft.nl/conferences/conferences.ics">ICS file</a> to your calendar application in order to track conference dates and their deadlines. It is automatically updated.
+    </p>
+    </div>
+</div>
+
+- - -
 
 {% assign today = 'now' | date: "%s" %}
 {% assign confs = site.data.conferences | sort: 'start' %}
@@ -17,7 +26,7 @@ This is not meant to be an exhaustive list of all GIS conferences. -->
   <tr class="info">
     <td></td>
     <td></td>
-    <td>Upcoming Conferences</a></td>
+    <td>Upcoming Conferences</td>
     <td></td>
   </tr>
 
@@ -38,7 +47,7 @@ This is not meant to be an exhaustive list of all GIS conferences. -->
     <tr class="info">
       <td></td>
       <td></td>
-      <td>Past Conferences</a></td>
+      <td>Past Conferences</td>
       <td></td>
     </tr>
 
