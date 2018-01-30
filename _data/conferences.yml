@@ -21,6 +21,11 @@
   place: Lund, Sweden
   start: 2018-06-13
   end: 2018-06-15
+  milestones:
+    - name: Full paper submission deadline
+      date: 2017-12-10
+    - name: Short paper and poster submissions deadline
+      date: 2018-02-15
 
 - name: GIScience 2018
   url: http://giscience.org
