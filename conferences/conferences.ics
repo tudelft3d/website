@@ -46,7 +46,7 @@ SUMMARY:[{{ i.short }}] {{ j.name }}
 DTSTAMP;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
 DTSTART;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
 DTEND;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
-DESCRIPTION:Visit: {{ i.url }}
+DESCRIPTION:Milestone for {{i.name}}. Visit: {{ i.url }}
 BEGIN:VALARM
 TRIGGER:-PT3H
 ACTION:DISPLAY
