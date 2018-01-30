@@ -38,7 +38,11 @@ END:VALARM
 END:VEVENT
 {% for j in i.milestones %}
 BEGIN:VEVENT
+{% if i.short == null %}
 SUMMARY:[{{ i.name }}] {{ j.name }}
+{% else %}
+SUMMARY:[{{ i.short }}] {{ j.name }}
+{% endif %}
 DTSTAMP;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
 DTSTART;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
 DTEND;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
