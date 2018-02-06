@@ -1,4 +1,12 @@
 
+- surname: Duijn
+  van: den
+  name: Xander
+  title: "A 3D data modeling approach for integrated management of below and above ground utility network features"
+  image: xdduijn.jpg
+  link:  http://resolver.tudelft.nl/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9
+  year: 2018
+
 - surname: Dukai
   name: Balázs
   title: "Exploring the automatic Level of Detail inference for the validation of buildings in 3D city models"
