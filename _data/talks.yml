@@ -1,8 +1,14 @@
-- title: "Overview Bentley activities related to 3D GIS"
+- title: "Digital Floriade 2022"
+  name: "Matty Lakerveld"
+  room: "01.West.270"
+  date: 2018-02-16
+  time: 10:30-11:00
+  
+- title: "Developments in Bentley software"
   name: "Jan Blaauboer"
   room: "01.West.270"
   date: 2018-02-09
-  time: 10:30-11:30
+  time: 10:30-11:
 
 - title: "Development of a data structure to model semantically rich 3D+LoD GIS data in 4D"
   name: "Stelios Vitalis"
