@@ -14,4 +14,6 @@ permalink: /events/3dgeoinfo2018/
 
 <p>The conference is part of the joint event <a href="https://www.tudelft.nl/geodelft2018/">Geo Delft 2018</a>.  The conference will focus on 3D developments and 3D applications in advanced 3D data and technologies. The conference will provide a platform for these topics to be discussed and research ideas exchanged, as well as promote international collaboration in geoinformation, 3D data analysis and visualisations.</p>
 
+<p>In case of questions, you can contact the co-chairs <a href="mailto:j.e.stoter@tudelft.nl">Jantien Stoter</a> and <a href="mailto:m.n.koeva@utwente.nl">Mila Koeva</a>.</p>
+
 <img class="image img-responsive" src="../../img/events/udmv2015/Delft-Hall.jpg" /><br />

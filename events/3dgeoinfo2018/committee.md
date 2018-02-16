@@ -150,6 +150,14 @@ permalink: /events/3dgeoinfo2018/committee
     </tr>
     <tr>
       <td>
+        Siddique Ullah Baig
+      </td>
+      <td>
+        Universiti Technologi Malaysia
+      </td>
+    </tr>
+    <tr>
+      <td>
         Filip Biljecki
       </td>
       <td>
@@ -458,14 +466,6 @@ permalink: /events/3dgeoinfo2018/committee
       </td>
       <td>
         Delft University of Technology
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Siddique Ullah Baig
-      </td>
-      <td>
-        Universiti Technologi Malaysia
       </td>
     </tr>
     <tr>
