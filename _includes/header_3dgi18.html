@@ -12,17 +12,30 @@
     </div>
     <div class="navbar-collapse collapse navbar-right" id="navbar">
       <ul class="nav navbar-nav">
-        <li>
-          <a href="{{ "/events/3dgeoinfo2018/papers" | prepend: site.baseurl }}">papers</a>
+        <li class="dropdown">
+          <a href="committee.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">committee <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="committee.html#organisation">organisation committee</a></li>
+            <li><a href="committee.html#programme">programme committee</a></li>
+          </ul>
         </li>
         <li>
-          <a href="{{ "/events/3dgeoinfo2018/registration" | prepend: site.baseurl }}">registration</a>
-        </li>        
+          <a href="{{ "/events/3dgeoinfo2018/registration.html" | prepend: site.baseurl }}">registration</a>
+        </li> 
+        <li class="dropdown">
+          <a href="papers.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">papers <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <!-- <li><a href="papers.html#accepted">accepted papers</a></li> -->
+            <li><a href="papers.html#call">call for papers</a></li>
+            <li><a href="papers.html#submission">submission</a></li>
+            <li><a href="papers.html#proceedings">proceedings</a></li>
+          </ul>
+        </li>
         <li>
-          <a href="{{ "/events/3dgeoinfo2018/committees" | prepend: site.baseurl }}">committees</a>
-        </li>        
+          <a href="{{ "/events/3dgeoinfo2018/programme.html" | prepend: site.baseurl }}">programme</a>
+        </li>       
         <li>
-          <a href="{{ "/events/3dgeoinfo2018/venue" | prepend: site.baseurl }}">venue</a>
+          <a href="{{ "/events/3dgeoinfo2018/venue.html" | prepend: site.baseurl }}">venue</a>
         </li>        
       </ul>
     </div>
