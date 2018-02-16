@@ -28,19 +28,15 @@ We invite you to submit papers related to the following topics:
 * 3D GeoWeb
 * 3D Marine Information Systems
 
-There are two options for submissions:
+The accepted papers will be published in the ISPRS Annals or the ISPRS Archives, which are both indexed by SCOPUS. Authors of selected papers might be also be invited to extend their paper for possible publication in ISPRS Journals. Prospective authors are encouraged to consider the following possibilities for submission:
 
-* **Full papers** will be double-blind reviewed. If accepted a full paper will be published in the ISPRS Annals
+* **Full papers** will be published in the *ISPRS Annals* or *ISPRS Archives* after being accepted in a double-blind review. The submitted papers should report new or improved techniques, algorithms, benchmarks, technology developments, frameworks, and best practices, which are not published elsewhere. Papers will be evaluated on their originality, novelty, and impact. Full papers not accepted for *ISPRS Annals* might be considered for the *ISPRS Archives*.
 
-* Abstracts will be double-blind reviewed. If accepted the authors will have to prepare a paper which will be published in the ISPRS Archives. Abstracts on their own will not be published. 
+* **Abstracts** will be published in the *ISPRS Archives* after being accepted in a double-blind review and extended into papers. Abstracts on their own will not be published. The submitted (extended) abstracts can be professional/demo papers demonstrating innovative systems and practical approaches, or research in progress.
 
+The papers should be limited to 8 pages and submitted in the [ISPRS template](http://www.isprs.org/documents/orangebook/app5.aspx).
 
-The accepted papers will be published in the ISPRS Annals or the ISPRS Archives (SCOPUS indexed). Authors of selected papers might be invited to extend their paper for possible publication in ISPRS Journals. Prospective authors are encouraged to consider the following possibilities for submission:
-
-* Papers for ISPRS Annals (Double-blind peer reviewed): Submitted papers should report new or improved techniques, algorithms, bench marks, technology developments, frameworks, and best practices, which are not published elsewhere. Authors are encouraged to submit full papers (max 8 pages) in ISPRS format. Papers will be evaluated on their originality, novelty, and impact. Papers not accepted for ISPRS Annals might be considered for the ISPRS Archives. 
-
-* Papers for ISPRS Archives (Abstract review): Submitted extended abstracts will be published in the ISPRS Archives. Such papers can be professional/demo papers demonstrating innovative systems and practical approaches, or research in progress. Professional/Demo papers are limited to 8 pages in ISPRS format.
-
+<a name="submission" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 ## Submission
 
-Coming soon...
+Submissions should be done through [Easychair](https://easychair.org/conferences/?conf=3dgeoinfo1).
