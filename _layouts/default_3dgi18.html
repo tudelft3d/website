@@ -6,9 +6,52 @@
   <body>
 
   {% include header_3dgi18.html %}
-  
-  {{ content }}
+  <div class="jumbotron">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+	        <img src="img/campus3d.png" />
+	      </div>
+	      <div class="col-lg-6 col-md-6 col-sm-12">
+	        <h1 class="text-right" style="color:white">3D GeoInfo 2018</h1>
+	        <p class="text-right" style="color:white"><small>1-2 October 2018<br>Delft, the Netherlands</small></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+				  <a href="https://3d.bk.tudelft.nl"><img class="img-responsive" src="../../img/logos/tud-3dgeoinfo-black.png" /></a><br />
+				  <a href="https://www.isprs.org"><img class="image img-responsive" src="img/isprs.gif" /></a><br />
+				  <br />
+			  </div>
+        <div class="col-md-7">
+          {{ content }}
+        </div>
+        <div class="col-md-3">
+			    <div class="alert alert-info">
+			      <h4>Important dates</h4>
+			      <br />
 
+			      <b>March 31, 2018</b><br />
+			      <ul>Full paper submission</ul><br />
+
+			      <b>April 30, 2018</b><br />
+			      <ul>Abstract submission</ul><br />
+
+			      <b>May 15, 2018</b><br />
+			      <ul>Author notification</ul><br />
+
+			      <b>June 15, 2018</b><br />
+			      <ul>Final version of full papers</ul><br />
+
+			      <b>October 1-2, 2018</b><br />
+			      <ul>Conference</ul><br />
+			    </div>
+			  </div>
+      </div>
+    </div>
   {% include footer_3dgi18.html %}
   </body>
 </html>

@@ -1,7 +1,7 @@
 ---
-layout: page_3dgi18
-title: Venue
-permalink: /events/3dgeoinfo2018/venue/
+layout: default_3dgi18
+title: Venue | 3D GeoInfo 2018
+permalink: /events/3dgeoinfo2018/venue
 ---
 
 The workshop will be hosted by the <a href="https://3d.bk.tudelft.nl">3D geoinformation group</a> at the [Delft University of Technology](https://www.tudelft.nl). The address is:<br /><br />

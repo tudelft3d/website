@@ -1,67 +1,17 @@
 ---
 layout: default_3dgi18
-title: Welcome to the 3D GeoInfo 2018 page!
+title: 3D GeoInfo 2018
 permalink: /events/3dgeoinfo2018/
 ---
 
-<div class="jumbotron">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-        <img src="{{ "img/campus3d.png" | prepend: site.baseurl }}" />
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h1 class="text-right" style="color:white">3D GeoInfo 2018</h1>
-        <p class="text-right" style="color:white"><small>15-16 October 2018<br>Delft, the Netherlands</small></p>
-      </div>
-    </div>
-  </div>
+<div class="well"><b>News</b><br/><br/>
+  <p><small><span class="post-date">Feb 16</span></small> The local organiser of the conference is now the 3D geoinformation group at the Delft University of Technology.</p>
 </div>
 
-<div class="container">
+<p>It is our great pleasure to invite you to the 3D GeoInfo Conference 2018!</p>
 
-  <div class="row">
+<p>The 3D GeoInfo Conference aims at bringing together international researchers from academia, industry and government in the field of 3D geoinformation. The conference offers an interdisciplinary forum to researchers in the fields of data collection, advanced modelling approaches, data analysis and visualisation.</p>
 
-  <div class="col-md-2">
-  <a href="https://3d.bk.tudelft.nl"><img class="img-responsive" src="../../img/logos/tud-3dgeoinfo-black.png" /></a><br />
-  <a href="https://www.isprs.org"><img class="image img-responsive" src="img/isprs.gif" /></a><br />
-  <br />
-  <!-- <a href="http://www.cyclomedia.com/"><img class="image img-responsive" src="../../img/events/udmv2015/Logo_CYCLOMEDIA_FC.jpg" /></a><br />
-  <a href="http://www.esri.nl"><img class="image img-responsive" src="../../img/events/udmv2015/Esri.png" /></a><br />
-  <a href="http://www.crenau.archi.fr"><img class="image img-responsive" src="../../img/events/udmv2015/AAUcrenau_RVB_CouleursGauche.png" /></a><br />
-  <a href="http://www.stw.nl"><img class="image img-responsive" src="../../img/events/udmv2015/STW.png" /></a><br />
-  <a href="UDMV2015-CfP.pdf"><img class="image img-responsive" src="../../img/events/udmv2015/flyer_small.png" /></a> -->
-  </div>
+<p>The conference is part of the joint event <a href="https://www.tudelft.nl/geodelft2018/">Geo Delft 2018</a>.  The conference will focus on 3D developments and 3D applications in advanced 3D data and technologies. The conference will provide a platform for these topics to be discussed and research ideas exchanged, as well as promote international collaboration in geoinformation, 3D data analysis and visualisations.</p>
 
-  <div class="col-md-7">
-  
-  <p><small><span class="post-date">2018-02-15</span></small><br>And we're back in control ladies and gentlemen!</p>
-  <!-- <p><small><span class="post-date">2017-06-26</span></small><br>;lorem</p> -->
-  </div>
-
-  
-  <div class="col-md-3">
-    <div class="alert alert-info">
-      <h4>Important dates</h4>
-      <br />
-      <b>Around May 2018</b><br />
-      <ul>Deadline submission papers</ul><br />
-
-<!--       <s>July 3, 2015</s><br /><b>July 20, 2015</b><br />
-      <ul><li>Paper submission</li></ul><br />
- -->
-<!--       <s>August 28, 2015</s><br /><b>September 4, 2015</b><br />
-      <ul><li>Author notification</li>
-      <li>Registration opens</li></ul><br />
- -->
-<!--       <s>October 9, 2015</s><br /><b>October 16, 2015</b><br />
-      <ul><li>Final version of the paper</li>
-      <li>Early-bird registration</li></ul><br />
- -->
-
-      <b>October 1-2, 2018</b><br />
-      <ul>Conference</ul><br />
-    </div>
-  </div>
-</div>
-</div>
+<img class="image img-responsive" src="../../img/events/udmv2015/Delft-Hall.jpg" /><br />
