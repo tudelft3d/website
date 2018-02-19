@@ -5,6 +5,7 @@ permalink: /events/3dgeoinfo2018/papers
 ---
 
 <a name="call" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+
 ## Call for papers
 
 We invite you to submit papers related to the following topics:
@@ -37,6 +38,7 @@ The accepted papers will be published in the ISPRS Annals or the ISPRS Archives,
 The papers should be limited to 8 pages and submitted in the [ISPRS template](http://www.isprs.org/documents/orangebook/app5.aspx).
 
 <a name="submission" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+
 ## Submission
 
 Submissions should be done through [Easychair](https://easychair.org/conferences/?conf=3dgeoinfo1).

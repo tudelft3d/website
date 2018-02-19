@@ -8,7 +8,7 @@ permalink: /events/3dgeoinfo2018/
   <p><small><span class="post-date">Feb 16</span></small> The local organiser of the conference is now the 3D geoinformation group at the Delft University of Technology.</p>
 </div>
 
-<p>It is our great pleasure to invite you to the 3D GeoInfo Conference 2018!</p>
+<p>It is our great pleasure to invite you to the 13th 3D GeoInfo Conference!</p>
 
 <p>The 3D GeoInfo Conference aims at bringing together international researchers from academia, industry and government in the field of 3D geoinformation. The conference offers an interdisciplinary forum to researchers in the fields of data collection, advanced modelling approaches, data analysis and visualisation.</p>
 
