@@ -1,0 +1,128 @@
+- activity: Doors open
+  start: "9:15"
+  end: "9:45"
+
+- activity: Welcome
+  start: "9:45"
+  end: "9:50"
+
+- activity: presentations
+  start: "9:50"
+  end: "10:10"
+  n: 1
+  themes: 
+    - title: Keynote
+      speakers:
+        - name: Fabio Remondino
+          organisation: FBK, Trento, Italy
+          topic: Point Cloud acquisition and structuring
+
+- activity: presentations
+  start: "10:10"
+  end: "11:00"
+  n: 4
+  themes: 
+    - title: Acquisistion and practice
+      speakers:
+        - name: Jeroen Leusink
+          organisation: Het Waterschapshuis
+          topic: The future of the Dutch national LiDAR dataset (AHN)
+        - name: Willem van Hinsbergh
+          organisation: Kadaster
+          topic: Image-based point clouds at Kadaster
+        - name: Michiel Boelhouwer
+          organisation: City of Rotterdam
+          topic: Lidar applications in the City of Rotterdam 2008-2018
+        - name: Tom van der Putte	
+          organisation: CycloMedia Technology
+          topic: "Mobile LiDAR: from acquisition to added value"
+
+- activity: Coffee break
+  start: "11:00"
+  end: "11:30"
+
+- activity: presentations
+  start: "11:30"
+  end: "12:30"
+  n: 6
+  themes: 
+    - title: Reconstruction and detection
+      speakers:
+        - name: Liangliang Nan
+          organisation: TU Delft
+          topic: Polygonal object reconstruction from point clouds
+        - name: Ravi Peters
+          organisation: TU Delft
+          topic: Building detection with the 3D medial axis transform
+        - name: Roderik Lindenbergh
+          organisation: TU Delft
+          topic: Change detection in the built-up area
+        - name: Jinhu Wang
+          organisation: TU Delft
+          topic: Object detection on highways with MLS point clouds
+        - name: Tobias Wittwer
+          organisation: GeoNext BV
+          topic: Automated rail infrastructure modelling from MLS point clouds
+    - title: VR and AR
+      speakers:
+        - name: Ed Fennema
+          organisation: Geodan
+          topic: Point Cloud Data in VR and AR
+
+- activity: Lunch
+  start: "12:30"
+  end: "13:45"
+
+- activity: presentations
+  start: "13:45"
+  end: "14:05"
+  n: 1
+  themes: 
+    - title: Keynote
+      speakers:
+        - name: Norbert Pfeifer
+          organisation: TU Wien, Vienna, Austria
+          topic: Point Cloud acquisition via calibration to classification
+
+- activity: presentations
+  start: "14:05"
+  end: "14:45"
+  n: 3
+  themes:
+    - title: Semantic enrichment
+      speakers:
+        - name: Sander Oude Elberink
+          organisation: ITC
+          topic: Fusion of ALS/MLS and large scale topography (BGT)
+        - name: Shayan Nikoohemat
+          organisation: ITC
+          topic: Exploiting indoor mobile laser scanning trajectories for semantic interpretation of point clouds
+    - title: Processing
+      speakers:
+        - name: Sven Briels
+          organisation: Readaar
+          topic: Near instant point cloud generation from stereo-imagery for small areas
+
+- activity: Coffee break
+  start: "14:45"
+  end: "15:05"
+
+- activity: presentations
+  start: "15:05"
+  end: "15:45"
+  n: 3
+  themes:
+    - title: Processing
+      speakers:
+        - name: Gary Nobles
+          organisation: University of Groningen
+          topic: "Beyond point clouds: developing a workflow for volumetric data capture"
+        - name: Dogan Altundag
+          organisation: GeoSignum	
+          topic: Web-based point cloud processing
+        - name: Niels van der Vaart
+          organisation: ESRI	
+          topic: Sharing and consuming point clouds via webservices
+
+- activity: Drinks
+  start: "15:45"
