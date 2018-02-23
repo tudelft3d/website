@@ -37,3 +37,31 @@
   max-width: 200px;
   margin-bottom: 20px;
 }
+
+.table>tbody>tr>td.pcp-theme {
+  /* vertical-align: middle; */
+}
+
+.reconstruction-and-detection {
+  background: #F2EFEF;
+}
+
+.vr-and-ar {
+  background: #F4F4F4;
+}
+
+.semantic-enrichment{
+  background: #FEFEFA;
+}
+
+.acquisistion-and-practice {
+  background: #FBFCF9;
+}
+
+.processing {
+  background: #F5F9F8;
+}
+
+.keynote {
+  background: #E1F6FF;
+}
