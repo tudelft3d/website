@@ -8,26 +8,16 @@ permalink: /events/3dgeoinfo2018/papers
 
 ## Call for papers
 
-We invite you to submit papers related to the following topics:
+We are pleased to invite you to the 2018 3D Geoinfo Conference hosted in Delft, Netherlands! Aiming to bring together international researchers from academia, industry and government in the field of 3D geoinformation, the conference offers an interdisciplinary forum to researchers in the fields of data collection, advanced modelling approaches, data analysis and visualisation.
 
-* 3D Geoinformation Requirements
-* 3D Spatial Data Infrastructure & Integration
-* 3D Data Acquisition and Processing
-* 3D GIS, Real-Time, Big Data
-* 4D/5D Modelling, BIM
-* 3D Spatial Databases
-* 3D Data Management Systems and Point Cloud
-* 3D Standards for Geospatial Technologies
-* 3D Open Source Development
-* 3D City Modelling and CityGML standards
-* 3D Geometry, Topology and Semantics
-* 3D Data Analysis and Visualisation, Augmented and Virtual Reality
-* 3D Spatial Analysis and Simulation
-* 3D Modelling for Smart Cities
-* 3D Indoor and Outdoor Navigation
-* 3D GIS Applications (cadastre, utilities, city and urban planning, geology, disaster and risk management, environmental simulation, archaeology)
-* 3D GeoWeb
-* 3D Marine Information Systems
+The conference will focus on developments and applications in advanced 3D data and technologies as well as provide a platform for these topics to be discussed and for research ideas to be exchanged. There will also be opportunities to promote international collaboration in geoinformation, 3D data analysis and visualisations. The conference is part of the joint event Geo Delft 2018, taking place October 1 - 5.
+
+Contributions addressing the following topics are welcome:
+ • 3D data acquisition and processing
+ • 3D city modelling and its standards
+ • 4D/5D Modelling, BIM
+ • Visualisation and dissemination of 3D data
+ • 3D GIS, spatial analysis and its applications (cadastre, utilities, infrastructure, navigation, planning, geology, disaster and risk management, archaeology, marine systems, simulations)
 
 The accepted papers will be published in the ISPRS Annals or the ISPRS Archives, which are both indexed by SCOPUS. Authors of selected papers might be also be invited to extend their paper for possible publication in ISPRS Journals. Prospective authors are encouraged to consider the following possibilities for submission:
 
@@ -41,4 +31,4 @@ The papers should be limited to 8 pages and submitted in the [ISPRS template](ht
 
 ## Submission
 
-Submissions should be done through [Easychair](https://easychair.org/conferences/?conf=3dgeoinfo1).
+The submissions link will be available soon.
