@@ -13,11 +13,11 @@ We are pleased to invite you to the 2018 3D Geoinfo Conference hosted in Delft, 
 The conference will focus on developments and applications in advanced 3D data and technologies as well as provide a platform for these topics to be discussed and for research ideas to be exchanged. There will also be opportunities to promote international collaboration in geoinformation, 3D data analysis and visualisations. The conference is part of the joint event Geo Delft 2018, taking place October 1 - 5.
 
 Contributions addressing the following topics are welcome:
- • 3D data acquisition and processing
- • 3D city modelling and its standards
- • 4D/5D Modelling, BIM
- • Visualisation and dissemination of 3D data
- • 3D GIS, spatial analysis and its applications (cadastre, utilities, infrastructure, navigation, planning, geology, disaster and risk management, archaeology, marine systems, simulations)
+* 3D data acquisition and processing
+* 3D city modelling and its standards
+* 4D/5D Modelling, BIM
+* Visualisation and dissemination of 3D data
+* 3D GIS, spatial analysis and its applications (cadastre, utilities, infrastructure, navigation, planning, geology, disaster and risk management, archaeology, marine systems, simulations)
 
 The accepted papers will be published in the ISPRS Annals or the ISPRS Archives, which are both indexed by SCOPUS. Authors of selected papers might be also be invited to extend their paper for possible publication in ISPRS Journals. Prospective authors are encouraged to consider the following possibilities for submission:
 
