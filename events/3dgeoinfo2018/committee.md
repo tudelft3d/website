@@ -366,6 +366,14 @@ permalink: /events/3dgeoinfo2018/committee
     </tr>
     <tr>
       <td>
+        Hugo Ledoux
+      </td>
+      <td>
+        Delft University of Technology
+      </td>
+    </tr>
+    <tr>
+      <td>
         Claudine Metral
       </td>
       <td>
