@@ -6,11 +6,11 @@ permalink: /events/3dgeoinfo2018/papers
 
 <a name="call" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
-## Call for papers
+## Call for papers [[PDF]](Call.pdf)
 
 We are pleased to invite you to the 2018 3D Geoinfo Conference hosted in Delft, Netherlands! Aiming to bring together international researchers from academia, industry and government in the field of 3D geoinformation, the conference offers an interdisciplinary forum to researchers in the fields of data collection, advanced modelling approaches, data analysis and visualisation.
 
-The conference will focus on developments and applications in advanced 3D data and technologies as well as provide a platform for these topics to be discussed and for research ideas to be exchanged. There will also be opportunities to promote international collaboration in geoinformation, 3D data analysis and visualisations. The conference is part of the joint event Geo Delft 2018, taking place October 1 - 5.
+The conference will focus on developments and applications in advanced 3D data and technologies as well as provide a platform for these topics to be discussed and for research ideas to be exchanged. There will also be opportunities to promote international collaboration in geoinformation, 3D data analysis and visualisations. The conference is part of the joint event Geo Delft 2018, taking place October 1-5.
 
 Contributions addressing the following topics are welcome:
 * 3D data acquisition and processing
@@ -31,4 +31,4 @@ The papers should be limited to 8 pages and submitted in the [ISPRS template](ht
 
 ## Submission
 
-The submissions link will be available soon.
+Submissions should be done through [Easychair](https://easychair.org/conferences/?conf=3dgeoinfo1).
