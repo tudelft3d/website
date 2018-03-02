@@ -15,9 +15,8 @@
   email: patrick.janssen@nus.edu.sg
   address: "Dept of Architecture, National University of Singapore, Singapore 117566"
 
-- surname: GAO
+- surname: Gao
   name: Weixiao
-  swapnames: true
   title: PhD candidate 
   photo: weixiao.jpg
   homepage: 3d.bk.tudelft.nl/weixiao
@@ -52,14 +51,6 @@
   email: j.m.vanderhelm@tudelft.nl
   phone: "+31 15 27 81298"
 
-- surname: YAN
-  name: Jinjin
-  swapnames: true
-  title: PhD candidate
-  photo: jinjin.jpg
-  homepage: 3d.bk.tudelft.nl/jinjinyan
-  email: j.yan-3@tudelft.nl
-
 - surname: Labetski
   name: Anna
   title: PhD candidate
@@ -78,14 +69,6 @@
   homepage: 3d.bk.tudelft.nl/vpvanaltena
   # description: "Topic: An interdisciplinary investigation on using spatial-temporal research in new testament exegesis"
   # pagetext: I am an bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam at eum ad veniam dolorem excepturi odit, in, voluptatibus, ut, autem ipsam. Pariatur vitae, consectetur! Consectetur, aut cum laboriosam nihil.
-
-- surname: Diakité
-  name: Abdoulaye
-  title: Postdoc
-  photo: abdou.png
-  homepage: 3d.bk.tudelft.nl/adiakite
-  email: a.a.diakite@tudelft.nl
-  description: "Post-doc researcher, currently working on the smart space subdivision of building model for indoor navigation purpose in emergency situations [(SIMs3D Project)](http://www.sims3d.net). I completed my PhD in computational geometry at the LIRIS lab (Université de Lyon) in France. My topics of interest are: 3D modeling and reconstruction (of buildings and architectural elements), 3D indoor navigation, spatial analysis on BIM and GIS and computational geometry. <br> <br> Find more details about my work and publications in: [Google Scholar](https://scholar.google.com/citations?user=-ybFhFIAAAAJ&hl=en), [ResearchGate](https://www.researchgate.net/profile/Abdoulaye_Diakite) and [LinkedIn](https://nl.linkedin.com/in/abdoulaye-diakité-7b3bb994)."
   
 - surname: Commandeur
   name: Tom
@@ -131,7 +114,6 @@
   photo: ravi.jpg
   homepage: tudelft.nl/rypeters
   email: r.y.peters@tudelft.nl
-  # phone: +31 15 27 85567
 
 - surname: Stoter
   name: Jantien
