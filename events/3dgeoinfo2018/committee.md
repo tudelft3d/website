@@ -190,6 +190,14 @@ permalink: /events/3dgeoinfo2018/committee
     </tr>
     <tr>
       <td>
+        Volker Coors
+      </td>
+      <td>
+        HFT Stuttgart
+      </td>
+    </tr>
+    <tr>
+      <td>
         Rémi Cura
       </td>
       <td>
@@ -386,14 +394,6 @@ permalink: /events/3dgeoinfo2018/committee
       </td>
       <td>
         Universiti Teknologi Malaysia
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Romain Nouvel
-      </td>
-      <td>
-        HFT Stuttgart
       </td>
     </tr>
     <tr>
