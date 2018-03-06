@@ -1,3 +1,9 @@
+- name: ISPRS TC II Symposium 2018 "TOWARDS PHOTOGRAMMETRY 2020"
+  url: http://www.isprs.org/tc2-symposium2018/
+  place: Riva del Garda, Italy
+  start: 2018-06-03
+  end: 2018-06-07
+
 - name: 13th 3D Geoinfo Conference 
   url: https://www.utwente.nl/en/3dgeoinfo2018/
   place: Delft, the Netherlands
