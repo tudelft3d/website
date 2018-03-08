@@ -33,9 +33,11 @@
         - name: Michiel Boelhouwer
           organisation: City of Rotterdam
           topic: Lidar applications in the City of Rotterdam 2008-2018
-        - name: <s>Tom van der Putte</s>
-          organisation: <s>CycloMedia Technology</s>
-          topic: "<s>Mobile LiDAR: from acquisition to added value</s>"
+    - title: Reconstruction and detection
+      speakers:
+        - name: Ravi Peters
+          organisation: TU Delft
+          topic: Building detection with the 3D medial axis transform
 
 - activity: Coffee break
   start: "11:00"
@@ -44,16 +46,13 @@
 - activity: presentations
   start: "11:30"
   end: "12:30"
-  n: 6
+  n: 5
   themes: 
     - title: Reconstruction and detection
       speakers:
         - name: Liangliang Nan
           organisation: TU Delft
           topic: Polygonal object reconstruction from point clouds
-        - name: Ravi Peters
-          organisation: TU Delft
-          topic: Building detection with the 3D medial axis transform
         - name: Roderik Lindenbergh
           organisation: TU Delft
           topic: Change detection in the built-up area
