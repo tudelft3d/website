@@ -33,9 +33,9 @@
         - name: Michiel Boelhouwer
           organisation: City of Rotterdam
           topic: Lidar applications in the City of Rotterdam 2008-2018
-        - name: Tom van der Putte	
-          organisation: CycloMedia Technology
-          topic: "Mobile LiDAR: from acquisition to added value"
+        - name: <s>Tom van der Putte</s>
+          organisation: <s>CycloMedia Technology</s>
+          topic: "<s>Mobile LiDAR: from acquisition to added value</s>"
 
 - activity: Coffee break
   start: "11:00"
@@ -124,5 +124,8 @@
           organisation: ESRI	
           topic: Sharing and consuming point clouds via webservices
 
-- activity: Drinks
+- activity: Closing
   start: "15:45"
+
+- activity: Drinks
+  start: "15:50"
