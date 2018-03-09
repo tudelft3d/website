@@ -5,7 +5,7 @@ permalink: /about/
 map: true
 ---
 
-The 3D geoinformation research group is part of the [Department of Urbanism](https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/), [Faculty of Architecture and the Built Environment](http://www.bk.tudelft.nl) of the [Delft University of Technology](http://www.tudelft.nl), and is affiliated with [AMS, the Amsterdam Institute for Advanced Metropolitan Solutions](http://www.ams-institute.org). 
+The 3D geoinformation research group is part of the [Department of Urbanism](https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/), [Faculty of the Built Environment and Architecture](http://www.bk.tudelft.nl) of the [Delft University of Technology](http://www.tudelft.nl), and is affiliated with [AMS, the Amsterdam Institute for Advanced Metropolitan Solutions](http://www.ams-institute.org). 
 It focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
 These systems help in environmental modelling, urban planning, crisis management, automated cartographic generalisation, information modelling, modelling of the interior of buildings, etc.
 
@@ -100,8 +100,8 @@ Our research funding mostly comes from the following organisations:
 
   <div class="col-md-4">
     <i class="fa fa-map-marker fa-fw">     </i> Room BG.West.010 (building #8) <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> Faculty of Architecture <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> and the Built Environment<br>
+    <i class="fa fa-map-marker fa-fw fade"></i> Faculty of the Built Environment <br>
+    <i class="fa fa-map-marker fa-fw fade"></i> and Architecture<br>
     <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
     <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
     <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
