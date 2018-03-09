@@ -11,4 +11,5 @@ Furthermore, the report describes the developed [web service interface](https://
 The tool is based on the Cesium project allowing to visualise the process on a 3D globe. 
 
 
-<a href="https://doi.org/10.1186/s40965-018-0043-x"><img src="{{ site.baseurl }}/img/2018/GeoBIM1.png"/></a><br/>
+<img src="{{ site.baseurl }}/img/2018/GeoBIM1.png"/><br/><br/>
+<img src="{{ site.baseurl }}/img/2018/GeoBIM2.png"/><br/><br/>
