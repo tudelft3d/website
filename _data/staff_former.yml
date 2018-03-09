@@ -6,9 +6,9 @@
   # email: a.a.diakite@tudelft.nl
   description: "Post-doc researcher, currently working on the smart space subdivision of building model for indoor navigation purpose in emergency situations [(SIMs3D Project)](http://www.sims3d.net). I completed my PhD in computational geometry at the LIRIS lab (Université de Lyon) in France. My topics of interest are: 3D modeling and reconstruction (of buildings and architectural elements), 3D indoor navigation, spatial analysis on BIM and GIS and computational geometry. <br> <br> Find more details about my work and publications in: [Google Scholar](https://scholar.google.com/citations?user=-ybFhFIAAAAJ&hl=en), [ResearchGate](https://www.researchgate.net/profile/Abdoulaye_Diakite) and [LinkedIn](https://nl.linkedin.com/in/abdoulaye-diakité-7b3bb994)."
   period: 2015-2018
-  current: "postdoc at UNSW Sydney"
+  current: "postdoc at [UNSW Sydney](https://www.unsw.edu.au)"
 
-- surname: YAN
+- surname: Yan
   name: Jinjin
   swapnames: true
   title: PhD candidate
@@ -16,7 +16,7 @@
   homepage: 3d.bk.tudelft.nl/jinjinyan
   # email: j.yan-3@tudelft.nl
   period: 2016-2018
-  current: "finishing PhD at UNSW Sydney"
+  current: "finishing PhD at [UNSW Sydney](https://www.unsw.edu.au)"
 
 - surname: Zlatanova
   name: Sisi
@@ -36,13 +36,13 @@
   homepage: 3d.bk.tudelft.nl/liuliu
   email: l.liu-1@tudelft.nl
   period: 2013-2017
-  current: "postdoc at Tongji University"
+  current: "postdoc at [Tongji University](http://en.tongji.edu.cn/)"
 
 - surname: Post
   name: Marc
   title: PhD candidate (external)
   photo: marc.jpg
-  current: "[Kadaster](https://www.kadaster.com/)"
+  current: "GIS specialist at [Kadaster](https://www.kadaster.com/)"
   period: 2016-2017
   homepage: 3d.bk.tudelft.nl/mpost
   email: j.m.post@tudelft.nl
@@ -71,7 +71,7 @@
   photo: duxin.jpg
   # description: "Topic: Quality control of 3D city models"
   period: 2015-2016
-  current: "finishing PhD at Eindhoven University of Technology"
+  current: "finishing PhD at [Eindhoven University of Technology](https://www.tue.nl/)"
   swapnames: true
 
 - surname: Li
@@ -89,7 +89,7 @@
   photo: shuangfeng.jpg
   period: 2015-2016
   # email: s.wei-1@tudelft.nl
-  current: "associate-prof at Beijing University of Civil Engineering and Architecture"
+  current: "associate-prof at [Beijing University of Civil Engineering and Architecture](http://english.bucea.edu.cn/)"
   swapnames: true
 
 - surname: Demir Özbek
@@ -98,7 +98,7 @@
   photo: elif.jpg
   # email: e.demirozbek@tudelft.nl
   period: 2014-2015
-  current: "finishing PhD at Istanbul Technical University"
+  current: "finishing PhD at [Istanbul Technical University](http://www.itu.edu.tr/en)"
 
 - surname: Ates
   name: Serpil
@@ -106,7 +106,7 @@
   photo: serpil.jpg
   period: 2014-2015
   # email: s.ates@tudelft.nl
-  current: "finishing PhD at Istanbul Technical University"
+  current: "finishing PhD at [Istanbul Technical University](http://www.itu.edu.tr/en)"
   
 - surname: Wang
   name: Zhiyong
