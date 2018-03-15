@@ -57,7 +57,7 @@
       speakers:
         - name: Liangliang Nan
           organisation: TU Delft
-          topic: Polygonal object reconstruction from point clouds
+          topic: Point Cloud Registration & Reconstruction
           pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_LiangliangNan.pdf
         - name: Kaixuan Zhou
           organisation: TU Delft
