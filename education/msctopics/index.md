@@ -253,3 +253,35 @@ Knowledge of Python and FME is sufficient.
 
 *Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
+- - -
+
+## Structure-aware Urban Model Simplification
+
+<img src="img/simplification.png" style="width: 400px;"/>
+
+With the advances of data acquisition technologies, point clouds of urban scenes can be easily captured by various means (e.g., laser scanners, drones, and various cameras). With such data, it is possible to automatically and quickly reconstruct 3D models of urban buildings (e.g., the 3D models in Google Earth). Though such models admittedly look great with textures, they cannot be used in several applications due to the imperfections and complexity of the models (i.e., gigantic meshes, missing regions, noise, and undesired structures).
+
+The aim of this project is to develop algorithms and tools to convert the dense triangular mesh models to lightweight polygonal models by assuming the building surface is piecewise planar. We consider a method to be effective to this problem if it meets the following requirements
+-	The simplified model should reliably approximate the initial model,
+-	The simplified model is an oriented 2-manifold (i.e., physically valid), 
+-	The method should not closely follow surface details due to imperfections (i.e., noise, outliers, and missing data) being simplified to recover sharp features of the building, 
+-	(optional) It would be nice to provide a way to control the detail levels of the model, by introducing an extra parameter.
+
+**Required Skills**: C/C++ programming, mesh processing; experience with CGAL and Numerical Optimization is a bonus.
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+
+- - -
+
+## Repairing 3D Urban Models
+
+<img src="img/repair_urban_models.png" style="width: 800px;"/>
+
+Nowadays the number of 3D building models are increasing explosively (e.g., the 3D models in Google Earth). These models can be easily obtained by applying state-of-the-art modeling/reconstruction techniques, or by manual creation using various software packages. It is quite common to observe errors and imperfections in these models, like gaps, holes, self-intersections, duplicated geometry (e.g., double walls), T-junctions, degeneracies, non-manifold (e.g., more than two polygons meeting at the same edge), etc. Unfortunately, most applications, such as physical-based simulation, digital fabrication (e.g., 3D printing), intelligent model editing tools, can only accept clean surface models as input, which restricts the existing models mainly to visualization purpose. It becomes extremely difficult to eliminate these flaws when a certain combination of them are present. Thus, the restoration of these 3D models remains an open problem.
+
+In this project, we would like to develop robust algorithms and tools for automatic restoration and cleaning of the models. We would expect our method to produce a closed surface representation of a building that partitions the space into disjoint internal and external half spaces without ambiguities.
+
+**Required Skills**: C _or_ C++ _or_ Python programming; mesh processing; experience with machine learning (in particular Deep Learning) is a bonus.
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
