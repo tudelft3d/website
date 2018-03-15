@@ -2,8 +2,8 @@
 # - type: "Tenure track available:"
 #   description: Assistant-professor 3D city modelling for urban applications (tenure track). <a href="/jobs/ud2017/" class="alert-link">More information</a>.
 
-- type: "Upcoming event:"
-  description: Point Cloud Processing 2018. <a href="/events/pcp2018" class="alert-link">More information</a>
+# - type: "Upcoming event:"
+#   description: Point Cloud Processing 2018. <a href="/events/pcp2018" class="alert-link">More information</a>
 
 - type: "Upcoming event:"
   description: 3D Geoinfo Conference 2018. <a href="/events/3dgeoinfo2018" class="alert-link">More information</a>

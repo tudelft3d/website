@@ -16,6 +16,7 @@
         - name: Fabio Remondino
           organisation: FBK, Trento, Italy
           topic: Point Cloud acquisition and structuring
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_FabioRemondino.pdf
 
 - activity: presentations
   start: "10:10"
@@ -27,17 +28,21 @@
         - name: Jeroen Leusink
           organisation: Het Waterschapshuis
           topic: The future of the Dutch national LiDAR dataset (AHN)
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_JeroenLeusink.pdf
         - name: Willem van Hinsbergh
           organisation: Kadaster
           topic: Image-based point clouds at Kadaster
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_WillemVanHinsbergh.pdf
         - name: Michiel Boelhouwer
           organisation: City of Rotterdam
           topic: Lidar applications in the City of Rotterdam 2008-2018
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_MichielBoelhouwer.pdf
     - title: Reconstruction and detection
       speakers:
         - name: Ravi Peters
           organisation: TU Delft
           topic: Building detection with the 3D medial axis transform
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_RaviPeters.pdf
 
 - activity: Coffee break
   start: "11:00"
@@ -53,20 +58,25 @@
         - name: Liangliang Nan
           organisation: TU Delft
           topic: Polygonal object reconstruction from point clouds
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_LiangliangNan.pdf
         - name: Kaixuan Zhou
           organisation: TU Delft
           topic: Change detection in the built-up area
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_KaixuanZhou.pdf
         - name: Jinhu Wang
           organisation: TU Delft
           topic: Object detection on highways with MLS point clouds
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_JinhuWang.pdf
         - name: Tobias Wittwer
           organisation: GeoNext BV
           topic: Automated rail infrastructure modelling from MLS point clouds
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_TobiasWittwer.pdf
     - title: VR and AR
       speakers:
         - name: Ed Fennema
           organisation: Geodan
           topic: Point Cloud Data in VR and AR
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_EdFennema.pdf
 
 - activity: Lunch
   start: "12:30"
@@ -82,6 +92,7 @@
         - name: Norbert Pfeifer
           organisation: TU Wien, Vienna, Austria
           topic: Point Cloud acquisition via calibration to classification
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_NorbertPfeifer.pdf
 
 - activity: presentations
   start: "14:05"
@@ -93,14 +104,17 @@
         - name: Sander Oude Elberink
           organisation: ITC
           topic: Fusion of ALS/MLS and large scale topography (BGT)
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_SJOudeElberink.pdf
         - name: Shayan Nikoohemat
           organisation: ITC
           topic: Exploiting indoor mobile laser scanning trajectories for semantic interpretation of point clouds
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_ShayanNikoohemat.pdf
     - title: Processing
       speakers:
         - name: Sven Briels
           organisation: Readaar
           topic: Near instant point cloud generation from stereo-imagery for small areas
+          # pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_SvenBriels.pdf
 
 - activity: Coffee break
   start: "14:45"
@@ -116,12 +130,15 @@
         - name: Gary Nobles
           organisation: University of Groningen
           topic: "Beyond point clouds: developing a workflow for volumetric data capture"
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_GaryNobles.pdf
         - name: Dogan Altundag
           organisation: GeoSignum	
           topic: Web-based point cloud processing
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_DoganAltundag.pdf
         - name: Niels van der Vaart
           organisation: ESRI	
           topic: Sharing and consuming point clouds via webservices
+          pdf: https://3d.bk.tudelft.nl/pdfs/pcp2018/pcp2018_NielsvdVaart.pdf
 
 - activity: Closing
   start: "15:45"

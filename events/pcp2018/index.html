@@ -96,7 +96,7 @@ layout: null
       <li>applications &amp; use-cases from practice.</li>
     </ul>
 
-    <h2 id="id-program">Programme</h2>
+    <h2 id="id-program">Programme + presentation slides</h2>
     <table class="table table-responsive">
       <!-- <thead>
         <tr>
@@ -121,7 +121,13 @@ layout: null
               {% if forloop.index > 1 %}
         <tr>
               {% endif %}
-          <td class='tb-speaker {{theme.title | downcase | replace: ' ', '-'}}'>{{speaker.topic}}<br/><i>{{speaker.name}}, {{speaker.organisation}}</i></td>
+          <td class='tb-speaker {{theme.title | downcase | replace: ' ', '-'}}'>
+            {% if speaker.pdf %}
+            <a href="{{speaker.pdf}}">{{speaker.topic}}</a>
+            {% else %}
+            {{speaker.topic}}
+            {% endif %}
+            <br/><i>{{speaker.name}}, {{speaker.organisation}}</i></td>
         </tr>
             {% endfor %}
           {% endfor %}
