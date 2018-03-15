@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  {% if page.scrollspy %}
+  <body data-spy="scroll" data-target="#{{ page.scrollspy }}">
+  {% else %}
+  <body>
+  {% endif %}
+  {% include header.html %}
+
+  <div class="intro-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-message">
+              <h1>UMnD</h1>
+              <h3>Urban Modelling in Higher Dimensions</h3>
+              <hr class="intro-divider">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-2 hidden-sm hidden-xs">
+            <a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.png" | prepend: site.baseurl }}"/></a>
+            <br />
+            <a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.png" | prepend: site.baseurl }}"/></a>
+            <br />
+          </div>
+          <div class="col-md-10">
+            {{ content }}
+          </div>
+      </div>
+
+    {% include footer.html %}
+  </body>
+</html>
