@@ -1,8 +1,8 @@
-- name: 3D Geoinfo 2018
-  description: 13th 3D GeoInfo Conference
-  image: 3dgeoinfo2018.png
-  web: /events/3dgeoinfo2018/
-  date: 1-2 October 2018
+# - name: 3D Geoinfo 2018
+#   description: 13th 3D GeoInfo Conference
+#   image: 3dgeoinfo2018.png
+#   web: /events/3dgeoinfo2018/
+#   date: 1-2 October 2018
 
 - name: Point cloud processing 2018
   description: 1-day seminar on point clouds
