@@ -42,6 +42,10 @@
   email: s.vitalis@tudelft.nl
   homepage: 3d.bk.tudelft.nl/svitalis
   description: "Topic: 4D data structure to model semantically rich 3D+LoD GIS data in 4D. Working on the [UMnD project](https://3d.bk.tudelft.nl/projects/umnd/)."
+  twitter: liberostelios
+  projects:
+    - name: umnd
+      role: PhD Candidate
   # phone: "+31 15 27 81298"
 
 - surname: Helm 
@@ -60,6 +64,9 @@
   email: a.labetski@tudelft.nl
   twitter: BigLabetski
   description: "Topic: Generalisation of 3D City Models, working on the [UMnD project](https://3d.bk.tudelft.nl/projects/umnd/).<br><br>I have an HBA in Human Geography and GIS from the University of Toronto and an MSc in Geospatial Analysis from University College London. <br><br>My interests include: Cartographic Generalisation, Levels of Detail, Transportation Networks, Active Transportation, and Metadata (automation, storage and update)."
+  projects:
+    - name: umnd
+      role: PhD Candidate
 
 - surname: Altena 
   van: van
@@ -90,6 +97,9 @@
   photo: ken.jpg
   homepage: tudelft.nl/kenohori
   email: g.a.k.arroyoohori@tudelft.nl
+  projects:
+    - name: umnd
+      role: Postdoc
   # phone: +31 15 27 85154
 
 - surname: Brink
@@ -108,6 +118,9 @@
   email: h.ledoux@tudelft.nl
   phone: +31 15 27 86114
   twitter: hugoledoux
+  projects:
+    - name: umnd
+      role: Associate-prof.
 
 - surname: Peters
   name: Ravi
@@ -115,6 +128,9 @@
   photo: ravi.jpg
   homepage: tudelft.nl/rypeters
   email: r.y.peters@tudelft.nl
+  projects:
+    - name: umnd
+      role: Postdoc
 
 - surname: Stoter
   name: Jantien
@@ -141,8 +157,8 @@
   twitter: jantienstoter
   homepage: 3d.bk.tudelft.nl/jstoter
   projects:
-    - umnd
-    - goedemiddag
+    - name: umnd
+      role: Professor
 
 - surname: Nan
   name: Liangliang

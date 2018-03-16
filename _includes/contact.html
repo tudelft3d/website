@@ -1,0 +1,42 @@
+{% if include.person.homepage %}
+    {% if include.person.swapnames == False %}
+    <a href="http://{{ include.person.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: include.person.photo | prepend: site.baseurl }}" alt="{{ include.person.name }} {{ include.person.van }} {{ include.person.surname }} photo" /></a>
+    {% else %}
+    <a href="http://{{ include.person.homepage }}"><img class="img-circle img-responsive" src="{{ "/img/staff/" | append: include.person.photo | prepend: site.baseurl }}" alt="{{ include.person.surname }} {{ include.person.name }} photo" /></a>
+    {% endif %}
+{% else %}
+    {% if include.person.swapnames == False %}
+    <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: include.person.photo | prepend: site.baseurl }}" alt="{{ include.person.name }} {{ include.person.van }} {{ include.person.surname }} photo" />
+    {% else %}
+    <img class="img-circle img-responsive" src="{{ "/img/staff/" | append: include.person.photo | prepend: site.baseurl }}" alt="{{ include.person.surname }} {{ include.person.name }} photo" />
+    {% endif %}
+{% endif %}
+{% if include.person.swapnames == False %}
+    <h3>{{ include.person.name }} {{ include.person.van }} {{ include.person.surname }}<br><small>{{ include.role }}</small></h3>
+{% else %}
+    <h3>{{ include.person.surname }} {{ include.person.name }}<br><small>{{ include.role }}</small></h3>
+{% endif %}
+    <p>
+    {% if include.person.homepage %}
+        <a href="http://{{ include.person.homepage }}"><i class="fa fa-home"></i></a>
+        {% if include.person.email or include.person.phone or include.person.twitter %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.person.email %}
+        <a href="mailto:{{ include.person.email }}"><i class="fa fa-envelope"></i></a>
+        {% if include.person.phone or include.person.twitter %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.person.phone %}
+        <a href="tel:{{ include.person.phone }}"><i class="fa fa-phone"></i></a>
+        {% if include.person.twitter %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.person.twitter %}
+        <a href="https://twitter.com/{{ include.person.twitter }}"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+    <br/>
+    </p>
