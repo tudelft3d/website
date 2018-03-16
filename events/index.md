@@ -22,5 +22,3 @@ permalink: /events/
   </div>
 {% endfor %}
 </div>
-
-
