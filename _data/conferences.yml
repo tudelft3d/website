@@ -15,12 +15,20 @@
   place: Delft, the Netherlands
   start: 2018-10-01
   end: 2018-10-02
+  milestones:
+    - name: Full papers submission deadline
+      date: 2018-05-01
+    - name: Abstract submission deadline
+      date: 2018-05-30
 
 - name: 18th International Conference on Computational Science and Its Applications
   url: http://iccsa.org
   place: Melbourne, Australia
   start: 2018-07-02
   end: 2018-07-05
+  milestones:
+    - name: Abstract and Papers submission deadline
+      date: 2018-03-15
 
 - name: FOSS4G 2018
   url: http://2018.foss4g.org
@@ -45,6 +53,11 @@
   place: Melbourne, Australia
   start: 2018-08-28
   end: 2018-08-31
+  milestones:
+    - name: Full paper submission deadline
+      date: 2018-02-16
+    - name: Short paper/extended abstract submission
+      date: 2018-04-30
 
 - name: GIS Ostrava 2017
   url: http://gis.vsb.cz/gisostrava/
