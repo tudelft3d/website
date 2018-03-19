@@ -18,6 +18,36 @@ and stored LoDs of a 3D urban model.
 
 ## Research Lines
 
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+      <a href="/projects/umnd/rl1.html" class="thumbnail">
+        <img src="{{ "/projects/umnd/img/rl1.png" | prepend: site.baseurl }}" alt="">
+      </a>  
+      <div class="caption">
+        <h3>Generalisation of 3D City Models</h3>
+        <!-- <p>Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. </p> -->
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <a href="/projects/umnd/rl2.html" class="thumbnail">
+        <img src="{{ "/projects/umnd/img/rl2.png" | prepend: site.baseurl }}" alt="">
+      </a>  
+      <div class="caption">
+        <h3>Construction and Storage of 4D City Objects</h3>
+        <!-- <p>Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. </p> -->
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <a href="/projects/umnd/rl3.html" class="thumbnail">
+        <img src="{{ "/projects/umnd/img/rl3.png" | prepend: site.baseurl }}" alt="">
+      </a>
+      <div class="caption">
+        <h3>Extraction of 3D City Objects from 4D</h3>
+        <!-- <p>Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. </p> -->
+      </div>
+    </div>
+  </div>
+
 - - -
 
 ## Team
@@ -25,6 +55,12 @@ and stored LoDs of a 3D urban model.
 <div class="row">
     {% include project_team.html project_name='umnd' %} 
 </div>
+
+- - -
+
+## Publications
+
+{% imbiber projects/umnd/umnd.bib groupby:classthenyear idswithprefix:type_ %}
 
 <!-- <div class="row">
 
