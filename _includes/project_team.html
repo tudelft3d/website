@@ -3,8 +3,8 @@
 {% for member in members %}
     {% for  project in member.projects %}
         {% if project.name == include.project_name %}
-            <div class="col-md-2 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-                {% include contact.html person=member role=project.role %}
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                {% include contact.html person=member role=project.role size=h3 %}
             </div>
         {% endif %}
     {% endfor %}

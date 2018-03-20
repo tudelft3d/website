@@ -268,7 +268,7 @@ mark {
 
 /* all links */
 .umnd-sidebar .nav>li>a {
-  color: #2c3e50;
+  /* color: #2c3e50; */
   border-left: 2px solid transparent;
   padding: 4px 20px;
   font-size: 16px;
@@ -288,7 +288,7 @@ mark {
 .umnd-sidebar .nav>.active>a, 
 .umnd-sidebar .nav>li>a:hover, 
 .umnd-sidebar .nav>li>a:focus {
-  color: #fff;
+  /* color: #000; */
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
@@ -305,7 +305,7 @@ mark {
   display: block;
 }
 
-.thumbnail {
+.rl-thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
@@ -317,4 +317,4 @@ mark {
   -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
   height: 100px;
-}
+} */

@@ -1,5 +1,5 @@
 ---
-layout: default_umnd
+layout: frontpage_umnd
 title: Urban modelling in higher dimensions (UMnD)
 permalink: /projects/umnd/
 ---
@@ -20,7 +20,7 @@ and stored LoDs of a 3D urban model.
 
 <div class="row">
     <div class="col-sm-6 col-md-4">
-      <a href="/projects/umnd/rl1.html" class="thumbnail">
+      <a href="/projects/umnd/rl1.html" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl1.png" | prepend: site.baseurl }}" alt="">
       </a>  
       <div class="caption">
@@ -29,7 +29,7 @@ and stored LoDs of a 3D urban model.
       </div>
     </div>
     <div class="col-sm-6 col-md-4">
-      <a href="/projects/umnd/rl2.html" class="thumbnail">
+      <a href="/projects/umnd/rl2.html" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl2.png" | prepend: site.baseurl }}" alt="">
       </a>  
       <div class="caption">
@@ -38,7 +38,7 @@ and stored LoDs of a 3D urban model.
       </div>
     </div>
     <div class="col-sm-6 col-md-4">
-      <a href="/projects/umnd/rl3.html" class="thumbnail">
+      <a href="/projects/umnd/rl3.html" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl3.png" | prepend: site.baseurl }}" alt="">
       </a>
       <div class="caption">
