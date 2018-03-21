@@ -46,9 +46,11 @@ The results of this project are mixed.
 On one hand, we found a series of errors that seem to be pervasive in IFC models and which make automated processing of complex architectural models very difficult, and since fully dealing with such errors would require automatic repair algorithms, a complete working interface could unfortunately not be developed within the timeframe of the GeoBIM project.
 However, we took the opportunity to look into these errors and converted them into a set of recommended guidelines that should enable the automated processing of IFC models.
 
-## Final report
+## Final reports
 
-The final report including a recommended set of IFC guidelines for automated geometric processing is found [here](https://3d.bk.tudelft.nl/ken/files/17_geobim.pdf).
+The final report including a recommended set of IFC guidelines for automated geometric processing is found [here](https://3d.bk.tudelft.nl/ken/files/18_geobim.pdf).
+
+Additionally, we have authored an additional report that explains the issues around georeferencing IFC models [here](https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf).
 
 ## Meetings
 
