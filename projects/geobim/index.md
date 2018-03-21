@@ -46,11 +46,15 @@ The results of this project are mixed.
 On one hand, we found a series of errors that seem to be pervasive in IFC models and which make automated processing of complex architectural models very difficult, and since fully dealing with such errors would require automatic repair algorithms, a complete working interface could unfortunately not be developed within the timeframe of the GeoBIM project.
 However, we took the opportunity to look into these errors and converted them into a set of recommended guidelines that should enable the automated processing of IFC models.
 
+Additionally, we took a more in-depth look at the issues surrounding the georeferencing of IFC models.
+Our results show that there are several tools made available in BIM software (e.g. Revit) which support the proper definition of the georeferencing information for a BIM model when exported as IFC.
+We have introduced the [IfcLocator](https://github.com/tudelft3d/IfcLocator) tool, which stands as an open-source alternative to the commercial software products.
+Although it is at a very early stage, the tool is already able to provide an intuitive point of view of the actual location stored in an IFC file and perform a simple change of location.
+
 ## Final reports
 
-The final report including a recommended set of IFC guidelines for automated geometric processing is found [here](https://3d.bk.tudelft.nl/ken/files/18_geobim.pdf).
-
-Additionally, we have authored an additional report that explains the issues around georeferencing IFC models [here](https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf).
+The final report of the project, including a recommended set of IFC guidelines for automated geometric processing, is found [here](https://3d.bk.tudelft.nl/ken/files/18_geobim.pdf).
+The additional report that explains the issues around georeferencing IFC models is [here](https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf).
 
 ## Meetings
 
