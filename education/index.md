@@ -12,9 +12,10 @@ permalink: /education/
   * [GEO1004](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38430): 3D Modelling of the Built Environment
   * [GEO1005](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38431): Spatial Decision Support for Planning and Crisis Management
   * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42058): Geo Datasets and Quality
-  <!-- * [GEO2001](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=30706): Synthesis Project -->
+  * [GEO1101](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42060): Synthesis Project
   * [GEO2010](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42062): Graduation thesis preparation
   * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42061): Graduation thesis
+  * [GEO5010](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42134): Research Assignment
 
 - - -
 
