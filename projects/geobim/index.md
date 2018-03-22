@@ -53,8 +53,15 @@ Although it is at a very early stage, the tool is already able to provide an int
 
 ## Final reports
 
-The final report of the project, including a recommended set of IFC guidelines for automated geometric processing, is found [here](https://3d.bk.tudelft.nl/ken/files/18_geobim.pdf).
-The additional report that explains the issues around georeferencing IFC models is [here](https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf).
+  1. The final report of the project, including a recommended set of IFC guidelines for automated geometric processing, is found [here](https://3d.bk.tudelft.nl/ken/files/18_geobim.pdf).
+  2. The additional report that explains the issues around georeferencing IFC models is [here](https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf).
+
+
+## Open-source software
+
+  1. [IfcOpenShell_CGAL](https://github.com/aothms/IfcOpenShell_CGAL)
+  2. [IfcLocator](https://github.com/tudelft3d/IfcLocator)
+
 
 ## Meetings
 
