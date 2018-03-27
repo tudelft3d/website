@@ -26,7 +26,7 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
 
 <div class="row">
     <div class="col-xs-5 col-sm-4">
-      <a href="/projects/umnd/rl1.html" class="rl-thumbnail">
+      <a href="{{ "/projects/umnd/rl1.html" | prepend: site.baseurl }}" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl1.png" | prepend: site.baseurl }}" alt="">
       </a>
       <div class="caption hidden-xs">
@@ -37,7 +37,7 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
       <h3>Generalisation of 3D City Models</h3>
     </div>
     <div class="col-xs-5 col-sm-4">
-      <a href="/projects/umnd/rl2.html" class="rl-thumbnail">
+      <a href="{{ "/projects/umnd/rl2.html" | prepend: site.baseurl }}" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl2.png" | prepend: site.baseurl }}" alt="">
       </a>
       <div class="caption hidden-xs">
@@ -48,7 +48,7 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
       <h3>Construction and Storage of 4D City Objects</h3>
     </div>
     <div class="col-xs-5 col-sm-4">
-      <a href="/projects/umnd/rl3.html" class="rl-thumbnail">
+      <a href="{{ "/projects/umnd/rl3.html" | prepend: site.baseurl }}" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl3.png" | prepend: site.baseurl }}" alt="">
       </a>
       <div class="caption hidden-xs">
