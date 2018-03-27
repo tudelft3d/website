@@ -6,7 +6,7 @@ permalink: /projects/umnd/rl1
 ---
 
 <div class="row">
-    <img class="img-responsive" src="{{ "img/GeneralisingMontrealLoD2toLoD1.png" | prepend: site.baseurl }}"/>
+    <img class="img-responsive" src="{{ "/projects/umnd/img/GeneralisingMontrealLoD2toLoD1.png" | prepend: site.baseurl }}"/>
 </div>
 
 - - -
@@ -35,15 +35,15 @@ More specifically this research is guided by the following questions:
 
 ### Vertical Reference
 <div class="row">
-    <img class="img-responsive" src="{{ "img/VerticalReference.png" | prepend: site.baseurl }}"/>
+    <img class="img-responsive" src="{{ "/projects/umnd/img/VerticalReference.png" | prepend: site.baseurl }}"/>
 </div>
 
 ### Floor Plan
 <div class="row">
-    <img class="img-responsive" src="{{ "img/RDPvKada.png" | prepend: site.baseurl }}"/>
+    <img class="img-responsive" src="{{ "/projects/umnd/img/RDPvKada.png" | prepend: site.baseurl }}"/>
 </div>
 
 ### Harmonised Generalisation
 <div class="row">
-    <img class="img-responsive" src="{{ "img/HarmonisedGeneralisationCrop.png" | prepend: site.baseurl }}"/>
+    <img class="img-responsive" src="{{ "/projects/umnd/img/HarmonisedGeneralisationCrop.png" | prepend: site.baseurl }}"/>
 </div>
