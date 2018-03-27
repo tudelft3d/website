@@ -4,47 +4,59 @@ title: Urban modelling in higher dimensions (UMnD)
 permalink: /projects/umnd/
 ---
 
-Urban modelling in higher dimensions, UMnD for short, is a project funded by the [ERC Starting Grant](http://erc.europa.eu/starting-grants) to [Jantien Stoter]({{ "/jstoter" | prepend: site.baseurl }}); 1.5 million euros for a five-year research project. 
-It started in September 2016.
+Urban modelling in higher dimensions, UMnD for short, is a project funded by the ERC Starting Grant [ERC-StG-2015](https://cordis.europa.eu/project/rcn/199506_en.html), which awarded 1.5 million euros to [Jantien Stoter]({{ "/jstoter" | prepend: site.baseurl }}) for a five-year research project.
+It started in September 2016 and is scheduled to run until August 2018.
 
-Geographic data about urban objects (buildings, roads) is needed to monitor and control the processes within modern urban areas (noise, flooding, energy demand-supply). As these processes occur in 3D, urban applications require 3D data and each application requires its own
-specific semantic and geometric level of detail (LoD) of the 3D data. The scientific challenge of Jantien's project is that it requires
-enormous efforts to collect and transform 3D data to make it suitable for a specific application. The project will develop a 4D data model
-that captures application specific LoDs of urban objects as additional dimension to the three spatial ones (i.e. 3D+LoD). This will result in
-a fundamental solution for providing 3D data at application specific LoDs and it will solve the current problem of independently acquired
-and stored LoDs of a 3D urban model.
+## Objective
+
+3D geographic information about urban objects (buildings, roads) is needed to monitor and control processes within modern urban areas (noise, flooding, energy demand-supply).
+However, each specific process requires 3D data with its own specific semantic and geometric Level of Detail (LoD), and current approaches require enormous manual efforts to collect general-purpose 3D data and to transform it to make it suitable for a specific application.
+
+In this project, we will develop a fundamental solution for providing 3D data at application specific LoDs.
+For this, we will use an innovative method that goes far beyond the state-of-the-art by introducing higher dimensional (nD) mathematical models, which will enable us to to enforce consistency by modelling the LoDs as an extra dimension to the 3D spatial dimensions in an integrated 3D+LoD (4D) model.
+
+We have defined three key research lines for the project: (i) a groundbreaking extension of 2D cartographic generalisation solutions to 3D, enabling us to automatically derive application-specific coarse 3D data from fine 3D data; (ii) embedding multiple 3D city models at different levels of detail into a single 4D model; and (iii) “slicing” operations that extract custom 3D cross-sections of the 4D model.
+By combining the results of these three lines of research, we aim to generate error-free 3D data at application specific LoDs.
+
+If successful, the 4D approach opens a new horizon for modelling parametrisable aspects of urban environments, which may establish new modelling paradigms in the future.
 
 - - - 
 
 ## Research Lines
 
 <div class="row">
-    <div class="col-sm-6 col-md-4">
+    <div class="col-xs-5 col-sm-4">
       <a href="/projects/umnd/rl1.html" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl1.png" | prepend: site.baseurl }}" alt="">
-      </a>  
-      <div class="caption">
+      </a>
+      <div class="caption hidden-xs">
         <h3>Generalisation of 3D City Models</h3>
-        <!-- <p>Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. </p> -->
       </div>
     </div>
-    <div class="col-sm-6 col-md-4">
+    <div class="col-xs-7 caption visible-xs">
+      <h3>Generalisation of 3D City Models</h3>
+    </div>
+    <div class="col-xs-5 col-sm-4">
       <a href="/projects/umnd/rl2.html" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl2.png" | prepend: site.baseurl }}" alt="">
-      </a>  
-      <div class="caption">
+      </a>
+      <div class="caption hidden-xs">
         <h3>Construction and Storage of 4D City Objects</h3>
-        <!-- <p>Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. </p> -->
       </div>
     </div>
-    <div class="col-sm-6 col-md-4">
+    <div class="col-xs-7 caption visible-xs">
+      <h3>Construction and Storage of 4D City Objects</h3>
+    </div>
+    <div class="col-xs-5 col-sm-4">
       <a href="/projects/umnd/rl3.html" class="rl-thumbnail">
         <img src="{{ "/projects/umnd/img/rl3.png" | prepend: site.baseurl }}" alt="">
       </a>
-      <div class="caption">
-        <h3>Extraction of 3D City Objects from 4D</h3>
-        <!-- <p>Bacon ipsum dolour sit amet porchetta beef turkey, bacon turducken boudin hamburger venison ball tip. </p> -->
+      <div class="caption hidden-xs">
+        <h3>Extraction of 3D City Objects from a 4D Model</h3>
       </div>
+    </div>
+    <div class="col-xs-7 caption visible-xs">
+      <h3>Extraction of 3D City Objects from a 4D Model</h3>
     </div>
   </div>
 
