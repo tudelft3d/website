@@ -6,7 +6,7 @@ permalink: /projects/umnd/rl2
 ---
 
 <div class="row">
-    <img class="img-responsive" src="{{ "img/rl2.png" | prepend: site.baseurl }}"/>
+    <img class="img-responsive" src="{{ "/projects/umnd/img/rl2.png" | prepend: site.baseurl }}"/>
 </div>
 
 - - -
@@ -34,10 +34,10 @@ More specifically, this research aims to answer the following questions:
 
 <div class="row">
     <div class="col-md-6">
-        <img class="img-responsive" src="{{ "img/topological_reconstruction_1.png" | prepend: site.baseurl }}"/>
+        <img class="img-responsive" src="{{ "/projects/umnd/img/topological_reconstruction_1.png" | prepend: site.baseurl }}"/>
     </div>
     <div class="col-md-6">
-        <img class="img-responsive" src="{{ "img/topological_reconstruction_2.png" | prepend: site.baseurl }}"/>
+        <img class="img-responsive" src="{{ "/projects/umnd/img/topological_reconstruction_2.png" | prepend: site.baseurl }}"/>
     </div>
 </div>
 
