@@ -5,7 +5,7 @@ permalink: /projects/umnd/
 ---
 
 Urban modelling in higher dimensions, UMnD for short, is a project funded by the ERC Starting Grant [ERC-StG-2015](https://cordis.europa.eu/project/rcn/199506_en.html), which awarded 1.5 million euros to [Jantien Stoter]({{ "/jstoter" | prepend: site.baseurl }}) for a five-year research project.
-It started in September 2016 and is scheduled to run until August 2018.
+It started in September 2016 and is scheduled to run until August 2021.
 
 ## Objective
 
