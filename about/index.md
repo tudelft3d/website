@@ -70,7 +70,7 @@ Our research funding mostly comes from the following organisations:
   </div>
 </section>
 <script>
-  mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
+  mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiY2pnNnc1bDJkMjcxNzMzeGZjOGI4aW5ibyJ9.gonBY78tu7tCtqUAQr5YfA';
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/kenohori/cim0i33ql00jmbjlw9l1pro1i',
