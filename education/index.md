@@ -14,8 +14,8 @@ permalink: /education/
   * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42058): Geo Datasets and Quality
   * [GEO1101](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42060): Synthesis Project
   * [GEO2010](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42062): Graduation thesis preparation
-  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42061): Graduation thesis
-  * [GEO5010](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42134): Research Assignment
+  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42061): Graduation thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fa fa-home"></i></a>
+  * [GEO5010](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42134): Research Assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fa fa-home"></i></a>
 
 - - -
 
