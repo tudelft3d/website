@@ -62,6 +62,25 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
 
 - - -
 
+## Events
+
+The following is the list of events that we participated or organised related to the UMnD project:
+
+### 2018
+
+- [International Symposium on Point Cloud Processing, TU Delft, 13 March](https://3d.bk.tudelft.nl/events/pcp2018/)
+
+### 2017
+
+- [Urbanism PhD Day 2017, TU Delft, 10 May](https://www.urbanism.nl)
+- [EuroSDR workshop on economic value of 3D Geoinformation, ICGC Barcelona, 30-31 March](http://www.eurosdr.net/workshops/identifying-economic-value-3d-geoinformation)
+- [PhD Symposium with TU München, TU Delft, 23-24 March](https://3d.bk.tudelft.nl/news/2017/04/10/TU-Munchen-PhD-symposium.html)
+- [Open Geospatial Consortium TC Meeting, TU Delft, 20-24 March](http://www.opengeospatial.org/event/1703tc)
+- [Symposium 3D urban modelling, AMS Amsterdam, 15 March](http://www.ams-institute.org/events/event/workshop-3d-geo-information-for-smart-urban-applications/)
+- [National 3D symposium, Provinciehuis  Utrecht, 15 November](http://www.geonovum.nl/nieuws/nationaal-3d-symposium-15-november)
+
+- - -
+
 ## Team
 
 <div class="row">
