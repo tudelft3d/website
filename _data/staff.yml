@@ -5,6 +5,7 @@
   photo: francesca.jpg
   email: f.noardo@tudelft.nl
   homepage: 3d.bk.tudelft.nl/fnoardo
+  description: "Integration of IFC and CityGML"
 
 
 - surname: Dukai
@@ -42,7 +43,7 @@
   email: b.a.heester@tudelft.nl
   phone: "+31 6 52046328"
   homepage: 3d.bk.tudelft.nl/bheester
-  description: "Integration of GIS and BIM"
+  description: "Integration of GIS and BIM thought the use of Blockchain technology"
 
 - surname: Vitalis
   name: Stelios
