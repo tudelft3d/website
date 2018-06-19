@@ -1,4 +1,8 @@
-
+- title: "Introduction to Docker"
+  name: "Balázs Dukai"
+  room: "01.West.270"
+  date: 2018-06-28
+  time: 10:00-11:00
 
 - title: "Democratizing Geospatial Modelling (with [Möbius modeller](http://design-automation.net/software/mobius/index.html))"
   name: "[Patrick Janssen](http://patrick.janssen.name/)"
