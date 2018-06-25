@@ -1,5 +1,70 @@
 - - -
 
+## Automatic Derivation and Storage of Metadata for 3D City Models
+
+![](img/metadata.png){:width="350px"}
+
+The size of 3D City Models makes it temporally and computationally expensive to quickly parse a dataset to understand if it is suitable for a specific application. Furthermore, datasets are created and modified by different users, this makes it difficult to know what level of processing it has experienced and to track its lineage to understand changes over time. Metadata is crucial for establishing data confidence, estimating fitness-for-purpose, maintaining dataset lineage and credit recognition amongst many other benefits. The problem is that it sounds boring and can be laborious to produce and maintain.
+
+The aim of this project is to: 
+
+* Develop a methodology that parses a 3D City Model and automatically derives metadata, e.g. spatial extent, the presence of semantic information, level of detail, etc. 
+
+* Discover a method of storing metadata that a) ensures it is still coupled with its parent dataset and b) is easily queried. 
+
+* Examine the limitations of 2D metadata standards and make recommendations about how to extend standards to include 3D data.
+
+If there is interest the student may wish to examine a Resource Description Framework as the metadata data model. 
+
+For this position we ask for programming skills, preferably in Python. SQL is an asset but you can easily learn it over the course of the project. 
+
+*Contact:* [Anna Labetski](http://3d.bk.tudelft.nl/alabetski) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
+- - -
+
+## Compression of CityJSON files
+
+![](img/cityjson.jpg)
+
+As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with). 
+CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
+It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
+
+Based on some preliminary and limited tests, we concluded that it can compress many datasets with a factor of at least 4X, often 10X+.
+The aim of this MSc project is to verify (or disprove!) this claim by:
+
+  1. developing a conversion tool from CityGML datasets, using either [citygml4j](https://github.com/citygml4j) or the [new GDAL driver](http://www.gdal.org/drv_gmlas.html).
+  2. identifying how files could be further compressed. At this moment, only a [simpler compression method is implemented](http://www.cityjson.org/en/0.1/specs/#id21) ([code here](https://github.com/tudelft3d/cityjson/tree/master/software/cityjson-compress/c%2B%2B11)).
+  3. testing with very large files, eg a whole German region with 10M+ buildings.
+
+Knowledge of Python is enough.
+
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+
+- - - 
+
+
+## alpha-shape computation for massive point cloud datasets
+
+![](img/alphashape.png)
+
+Done in collaboration with [Deltares](https://www.deltares.nl/en/).
+
+Given a (classified) LAS pointcloud, how to (re)generate its alpha shape?
+
+Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
+At the moment, Deltares could use the results to combat edge effects from classification filter algorithms.
+Deltares is now using a simplified outline, but that results in artefacts in overlapping flight strips.
+The project involves investigating how to construct alpha-shapes for massive real-world datasets, eg 100M+ points.
+As programming language in this project, Deltares uses [Julia](https://julialang.org), an easy (coming from Python) and fast language in development.
+
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Maarten Pronk](mailto:maarten.pronk@deltares.nl)
+
+
+- - -
+
 ## GeoOBJ: developing a spatial extension to OBJ
 
 3D formats found in 3D computer graphics are in many ways superior to GIS formats such as CityGML: they have wide software support and great visualisation capabilities. However, they fall short with spatial analyses, because of various limitations, such as lack of geo-referencing, and lack of semantic structuring. The goal of this project is to bridge the two worlds, by developing a spatial extension to a computer graphics format such as OBJ. This thesis is suitable for MSc Geomatics students, and it may be adapted to any other format.
