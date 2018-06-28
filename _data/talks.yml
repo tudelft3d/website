@@ -3,6 +3,7 @@
   room: "01.West.270"
   date: 2018-06-28
   time: 10:00-11:00
+  ppt: "docker_intro.pdf"
 
 - title: "Democratizing Geospatial Modelling (with [Möbius modeller](http://design-automation.net/software/mobius/index.html))"
   name: "[Patrick Janssen](http://patrick.janssen.name/)"
