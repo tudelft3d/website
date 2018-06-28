@@ -19,7 +19,7 @@ You might also be interested in related efforts:
 <li>List of <a href="http://cartography.oregonstate.edu/journals.html">Cartography and Geovisualisation, Oregon State University</a></li>
 <li>List of <a href="http://www.aboutgis.com/gis-and-remote-sensing-journal-list-with-impact-factors/">Giorgos Mountrakis, State University of New York College of Environmental Science and Forestry</a></li>
 <li>TGIS paper <i>GIScience Journals Ranking and Evaluation: An International Delphi Study</i> (<a href="http://doi.org/10.1111/j.1467-9671.2008.01106.x">doi:10.1111/j.1467-9671.2008.01106.x</a>)</li>
-<li><a href="http://www.agile-online.org/index.php/initiatives/finished-initiatives/giscience-publication-rating">AGILE's initiative on GIScience Publication Rating</a></li>
+<li><a href="https://agile-online.org/agile-actions/archive/special-interest-groups/giscience-publication-rating">AGILE's initiative on GIScience Publication Rating</a></li>
 </ul>
 
 - - -
