@@ -10,6 +10,7 @@
   room: "BG.West.290"
   date: 2018-07-04
   time: 11:00-12:00
+  ppt: "2018-07-04.pdf"
 
 - title: "Introduction to Docker"
   name: "Balázs Dukai"
