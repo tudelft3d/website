@@ -5,6 +5,9 @@
 # - type: "Upcoming event:"
 #   description: Point Cloud Processing 2018. <a href="/events/pcp2018" class="alert-link">More information</a>
 
+- type: "Workshop:"
+  description: We are organising a workshop on 3D city models construction and manipulation software. <a href="https://3dgeoinfo2018.nl/programme.html#workshop" class="alert-link">More information</a>
+
 - type: "Upcoming event:"
   description: 3D Geoinfo Conference 2018. <a href="https://3dgeoinfo2018.nl" class="alert-link">More information</a>
 
