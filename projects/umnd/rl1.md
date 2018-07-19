@@ -47,3 +47,16 @@ More specifically this research is guided by the following questions:
 <div class="row">
     <img class="img-responsive" src="{{ "/projects/umnd/img/HarmonisedGeneralisationCrop.png" | prepend: site.baseurl }}"/>
 </div>
+
+- - -
+
+## Activities
+
+{% assign activities = site.data.umnd.activities | sort: 'date' | reverse %}
+<ul class="posts">
+{% for activity in activities %}
+    {% if activity.research_line contains 1 %}
+    <li class="activity"><span>{{ activity.date | date_to_string }}</span> {{ activity.description }}</li>
+    {% endif %}
+{% endfor %}
+</ul>

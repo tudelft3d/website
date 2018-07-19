@@ -42,3 +42,16 @@ More specifically, this research aims to answer the following questions:
 </div>
 
 As part of this research line, we have worked on the topological reconstruction of 3D City Models from CityGML. This has been implemented in a computer software which is available as open-source in [GitHub](https://github.com/liberostelios/citygml2cmap).
+
+- - -
+
+## Activities
+
+{% assign activities = site.data.umnd.activities | sort: 'date' | reverse %}
+<ul class="posts">
+{% for activity in activities %}
+    {% if activity.research_line contains 2 %}
+    <li class="activity"><span>{{ activity.date | date_to_string }}</span> {{ activity.description }}</li>
+    {% endif %}
+{% endfor %}
+</ul>

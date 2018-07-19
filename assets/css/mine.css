@@ -103,6 +103,13 @@ ul.posts {
   line-height: 2em;
 }
 
+.posts li.activity {
+  overflow: hidden;
+  text-overflow: unset;
+  white-space: unset;
+  line-height: unset;
+}
+
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;

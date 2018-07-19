@@ -1,0 +1,39 @@
+- research_line: [2]
+  description: We have presented our new paper regarding the "Topological reconstruction of 3D city models with preservation of semantics." in AGILE 2018.
+  date: 2018-06-14
+- research_line: [2]
+  description: Stelios Vitalis has participated in the 3rd week of the Intensive Research Program in Discrete, Combinatorial and Computational Geometry.
+  date: 2018-05-04
+- research_line: [1]
+  description: "We have published a new paper: \"Val3dity: validation of 3D GIS primitives according to the international standards.\""
+  date: 2018-02-23
+- research_line: [2]
+  description: Stelios Vitalis has successfully passed his Go/NoGo meeting after submitting his research proposal.
+  date: 2018-02-13
+- research_line: [1, 2]
+  description: We have presented our reseach subject to the NCG Symposium at the TU Delft.
+  date: 2017-11-02
+- research_line: [3]
+  description: "We have published our new paper \"Towards an integration of GIS and BIM data: what are the geometric and topological issues?\" in 3D Geoinfo 2017."
+  date: 2017-10-17
+- research_line: [2]
+  description: Our contribusion on QGIS 3D visualisation has been accepted.
+  date: 2017-10-10
+- research_line: [1]
+  description: Anna Labetski has successfully passed her Go/NoGo meeting after submitting her research proposal.
+  date: 2017-09-11
+- research_line: [2]
+  description: Stelios Vitalis have visited FOSS4G Europe 2017 in Paris / Marne-le-Vallee in order to test the new GDAL capabilities for parsing CityGML.
+  date: 2017-07-22
+- research_line: [3]
+  description: We have published a new paper on "Visualising higher-dimensional space-time and space-scale objects as projections to R3."
+  date: 2017-07-03
+- research_line: [1, 2]
+  description: Anna Labetski and Stelios Vitalis have participated in the TU Delft Research Exhibit 2017.
+  date: 2017-06-08
+- research_line: [1, 2]
+  description: We have presented our research in the PhD symposium with the Geomatics department of TU Munchen.
+  date: 2017-03-24
+- research_line: [1]
+  description: We have presented our new paper on "Generalising 3D Buildings from LoD2 to LoD1"
+  date: 2017-01-13
