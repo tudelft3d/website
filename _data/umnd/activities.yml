@@ -19,6 +19,9 @@
 - research_line: [2]
   description: Our contribusion on QGIS 3D visualisation has been accepted.
   date: 2017-10-10
+- research_line: [2]
+  description: We have presented a 3D Talk on "CityGML in GDAL introduction".
+  date: 2017-09-20
 - research_line: [1]
   description: Anna Labetski has successfully passed her Go/NoGo meeting after submitting her research proposal.
   date: 2017-09-11
@@ -28,9 +31,12 @@
 - research_line: [3]
   description: We have published a new paper on "Visualising higher-dimensional space-time and space-scale objects as projections to R3."
   date: 2017-07-03
+- research_line: [2]
+  description: Stelios Vitalis has visited the "Geometry Understanding in Higher Dimensions" symposium in Paris.
+  date: 2017-06-08
 - research_line: [1, 2]
   description: Anna Labetski and Stelios Vitalis have participated in the TU Delft Research Exhibit 2017.
-  date: 2017-06-08
+  date: 2017-06-07
 - research_line: [1, 2]
   description: We have presented our research in the PhD symposium with the Geomatics department of TU Munchen.
   date: 2017-03-24
