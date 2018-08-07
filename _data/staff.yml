@@ -4,8 +4,12 @@
   title: Assistant-prof.
   photo: giorgio.jpg
   email: g.agugiaro@tudelft.nl
-  # homepage: 3d.bk.tudelft.nl/agugiaro
-  # description: "Integration of IFC and CityGML"
+  github: github.com/gioagu
+  homepage: 3d.bk.tudelft.nl/gagugiaro
+  description: "His main research interests are in the field of Geographical Information Systems and spatial data integration, with particular focus on semantic 3D city modelling and their energy-related topics. 
+  Some of his research topics deal for example with the development of an information model to manage and exchange semantically-enriched multi-resolution 3D data for urban energy planning. 
+  Having a semantic 3D virtual city model as background, the idea is to foster software integration to allow complex urban system simulation and close (or reduce) the gap between geo-information and simulation.
+  He is currently chair of the [ISPRS Technical Commission 4 WG 10 (Advanced Geospatial Applications for Smart Cities and Regions)](http://www2.isprs.org/commissions/comm4/wg10.html) and national representative for Austria of the Urban Data Management Society (UDMS)."
 
 
 - surname: Noardo
