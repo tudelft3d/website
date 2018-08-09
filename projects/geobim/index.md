@@ -81,7 +81,7 @@ Although it is at a very early stage, the tool is already able to provide an int
   </div>
 </div>
 
-### Agreeing on IFC guidelines on 2017-04-19
+### Agreeing on IFC guidelines on 2017-09-05
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
