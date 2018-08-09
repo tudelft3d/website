@@ -6,7 +6,6 @@ date: 2018-08-07
 ---
 
 <img class="img-circle img-responsive" src="{{ "/img/staff/giorgio.jpg" | prepend: site.baseurl }}">
-
 Giorgio Agugiaro has joined our research group as an Assistant Professor (tenure track).
 
 He completed in 2002 his studies in environmental engineering at the University of Padova, Italy. He received in 2009 his Ph.D. in Geomatics as a joint doctorate between the Technische Universität Berlin and the University of Padova.
