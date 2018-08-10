@@ -29,6 +29,9 @@
   twitter: BalazsDukai
   github: github.com/balazsdukai
   homepage: 3d.bk.tudelft.nl/bdukai
+  projects:
+    - name: noise3d
+      role: Researcher
 
 
 - surname: Janssen
@@ -107,6 +110,9 @@
   title: Researcher
   photo: tom.jpg
   email: t.j.f.commandeur@tudelft.nl
+  projects:
+    - name: noise3d
+      role: Researcher
 
 - surname: Kavisha  
   title: PhD candidate
@@ -148,13 +154,15 @@
 
 - surname: Peters
   name: Ravi
-  title: Postdoc
+  title: Geodata scientist, Postdoc
   photo: ravi.jpg
   homepage: tudelft.nl/rypeters
   email: r.y.peters@tudelft.nl
   projects:
     - name: umnd
       role: Postdoc
+    - name: noise3d
+      role: Researcher
 
 - surname: Stoter
   name: Jantien
@@ -183,6 +191,9 @@
   projects:
     - name: umnd
       role: Professor
+  projects:
+    - name: noise3d
+      role: Professor
 
 - surname: Nan
   name: Liangliang
@@ -190,3 +201,7 @@
   photo: liangliang.jpg
   homepage: 3d.bk.tudelft.nl/liangliang
   email: liangliang.nan@tudelft.nl
+  projects:
+    - name: noise3d
+      role: Assistant-prof.
+

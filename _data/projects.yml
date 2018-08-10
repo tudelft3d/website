@@ -7,6 +7,12 @@
   image: simwind.jpg
   finished: true
 
+- name: Noise 3D
+  description: Automated reconstruction of 3D input data for noise studies
+  webpage: /projects/noise3d/
+  funding: RWS
+  image: noise3d.png
+
 - name: UMnD
   description: Urban modelling in higher dimensions
   webpage: /projects/umnd/
