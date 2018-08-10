@@ -49,6 +49,7 @@
   funding: STW
   fundingurl: http://www.stw.nl
   image: 3dsm.jpg
+  finished: true
 
 - name: CityJSON
   description: JSON-based implementation of CityGML, easy-to-use and compact
