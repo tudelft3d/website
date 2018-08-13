@@ -65,7 +65,7 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 - - -
 
-## Sponsors
+## Project partners
 
 <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" style="max-height: 200px;"></a></div>
 <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" style="max-height: 200px;"></a></div>
