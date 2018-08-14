@@ -13,6 +13,18 @@ permalink: /education/msctopics/
 
 - - - 
 
+## Interoperability between BIM IFC & BEM gbXML
+
+![](img/ifc_gbxml.png){:width="400px"}
+
+The aim of the project is to investigate the interoperability between two popular standards in the BIM (Building Information Modelling) and BEM (Building Energy Modelling) domains: [IFC](https://www.buildingsmart.org/about/what-is-openbim/ifc-introduction/) and [gbXML](http://www.gbxml.org). The goal is to compare and identify the schematic mapping between these two standards and develop a (Python/C++) prototype based on these mappings for data conversion. Real world gbXML datasets are to be generated for testing in gbXML energy simulations using tools such as EnergyPlus, Revit or IES.
+
+Prior knowledge of programming in Python or C++ is required.
+
+*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha), [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
+
 ## Level of Detail of Roads in CityGML
 
 ![](img/RoadLoDTopic.png){:width="800px"}
