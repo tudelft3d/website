@@ -24,9 +24,9 @@ While a CityJSON file is [about 7X compacter](https://github.com/tudelft3d/cityj
 
 The aim of this MSc project is to design a framework to deal with such massive CityJSON files.
 The potential solution is to design a tiling scheme, and find a way to make it work with a web-based viewer, eg [Cesium](https://cesiumjs.org/) or [three.js](https://threejs.org/).
-There is an emerging standard about the tiling of 3D GIS datasets ([3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles)]), which should probably be reused/modified.
+There is an emerging standard about the tiling of 3D GIS datasets ([3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles)), which should probably be reused/modified.
 
-Knowledge of Python is enough.
+Knowledge of Python and of web technologies (javascript; although that can be learned with the project) is enough.
 
 *Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
 
