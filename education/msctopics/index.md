@@ -30,7 +30,7 @@ The focus of the student within this project will be on using the datasets to de
 
 [More information is found there.](http://jobs.readaar.com/blog/internship-datamining-on-aerial-imagery)
 
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](svenbriels@readaar.com)
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](mailto:svenbriels@readaar.com)
 
 
 - - - 
