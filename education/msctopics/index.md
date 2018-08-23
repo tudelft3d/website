@@ -9,6 +9,28 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+- - -
+
+## Extraction of characteristics of buildings from aerial imagery 
+
+![](img/readaar.jpg){:width="350px"}
+
+This project is done in cooperation with [Readaar](http://www.readaar.com).
+Readaar was founded in 2016 and extracts all kind of information from aerial imagery. 
+To do this they combine remote sensing with machine learning. 
+
+Readaar has already developed a method to generate point clouds and 3D building models from stereo imagery. 
+The next step is to translate this into useful insights like: 
+
+  - how many solar panels can we fit on the roof, 
+  - what is the roof type, 
+  - how many floors does the building have. 
+
+The focus of the student within this project will be on using the datasets to develop methods that extract (data mining) the insights that Readaar's customers want to have.
+
+[More information is found there.](http://jobs.readaar.com/blog/internship-datamining-on-aerial-imagery)
+
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](svenbriels@readaar.com)
 
 
 - - - 
