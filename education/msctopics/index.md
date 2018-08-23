@@ -11,6 +11,29 @@ permalink: /education/msctopics/
 
 - - -
 
+## Develop a framework to handle massive CityJSON files
+
+![](img/cityjson.jpg)
+
+As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with). 
+CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
+It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
+
+While a CityJSON file is [about 7X compacter](https://github.com/tudelft3d/cityjson/wiki/Compression-factor-for-a-few-open-CityGML-datasets) than the equivalent CityGML file, very large areas (like the [whole of city of Berlin](https://www.businesslocationcenter.de/en/downloadportal)) are still problematic.
+
+The aim of this MSc project is to design a framework to deal with such massive CityJSON files.
+The potential solution is to design a tiling scheme, and find a way to make it work with a web-based viewer, eg [Cesium](https://cesiumjs.org/) or [three.js](https://threejs.org/).
+There is an emerging standard about the tiling of 3D GIS datasets ([3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles)]), which should probably be reused/modified.
+
+Knowledge of Python is enough.
+
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+
+
+
+- - -
+
 ## Extraction of characteristics of buildings from aerial imagery 
 
 ![](img/readaar.jpg){:width="350px"}
