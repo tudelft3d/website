@@ -267,7 +267,7 @@ The aim of this project is to develop algorithms and tools to convert the dense 
 -	The method should not closely follow surface details due to imperfections (i.e., noise, outliers, and missing data) being simplified to recover sharp features of the building, 
 -	(optional) It would be nice to provide a way to control the detail levels of the model, by introducing an extra parameter.
 
-**Required Skills**: C/C++ programming, mesh processing; experience with CGAL and Numerical Optimization is a bonus.
+**Required Skills**: Proficient in one programming language (e.g., C/C++, Python, Java); experiences in CGAL and Numerical Optimization is a bonus.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
@@ -282,6 +282,6 @@ Nowadays the number of 3D building models are increasing explosively (e.g., the 
 
 In this project, we would like to develop robust algorithms and tools for automatic restoration and cleaning of the models. We would expect our method to produce a closed surface representation of a building that partitions the space into disjoint internal and external half spaces without ambiguities.
 
-**Required Skills**: C _or_ C++ _or_ Python programming; mesh processing; experience with machine learning (in particular Deep Learning) is a bonus.
+**Required Skills**: Proficient in one programming language (e.g., C/C++, Python, Java); experiences in mesh processing, machine learning (in particular Deep Learning) is a bonus.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
