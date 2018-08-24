@@ -10,7 +10,7 @@
   image: azul.png
   appstore: https://itunes.apple.com/app/azul/id1173239678?mt=12
   
-  - name: PolyFit
+- name: PolyFit
   description: Piecewise planar object (e.g., buildings) reconstruction from point clouds.
   github: https://github.com/LiangliangNan/PolyFit
   image: polyfit.jpg
@@ -18,7 +18,7 @@
   paper: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-ICCV2017.pdf
   video: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-video.mp4
 
-  - name: MVStudio
+- name: MVStudio
   description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution.
   github: https://github.com/LiangliangNan/MVStudio
   image: mvstudio.jpg
