@@ -17,7 +17,6 @@
   web: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
   paper: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-ICCV2017.pdf
   video: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-video.mp4
-  data:  https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit_data.rar
 
   - name: MVStudio
   description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution.
