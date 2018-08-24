@@ -1,3 +1,9 @@
+
+- name: cjio
+  description: Python CLI to process and manipulate CityJSON files
+  github: https://github.com/tudelft3d/cjio
+  image: cjio.png
+
 - name: azul
   description: A fast 3D city model viewer for macOS
   github: https://github.com/tudelft3d/azul
