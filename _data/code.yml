@@ -9,6 +9,20 @@
   github: https://github.com/tudelft3d/azul
   image: azul.png
   appstore: https://itunes.apple.com/app/azul/id1173239678?mt=12
+  
+  - name: PolyFit
+  description: Piecewise planar object (e.g., buildings) reconstruction from point clouds.
+  github: https://github.com/LiangliangNan/PolyFit
+  image: polyfit.jpg
+  web: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
+  paper: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-ICCV2017.pdf
+  video: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-video.mp4
+  data:  https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit_data.rar
+
+  - name: MVStudio
+  description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution.
+  github: https://github.com/LiangliangNan/MVStudio
+  image: mvstudio.jpg
 
 - name: 3dfier
   description: Takes 2D GIS datasets and "3dfies" them by lifting each polygon to its height (obtained with LiDAR)
