@@ -36,18 +36,20 @@ Knowledge of Python and of web technologies (javascript; although that can be le
 
 ![](img/blender_cityjson.png){:width="500px"}
 
-[Blender](https://www.blender.org/) is a 3D modelling tool with the ability to be extended through the Python programming language. Through the [BlenderGIS](https://github.com/domlysz/BlenderGIS) addon it can incorporate GIS functionality for the manipulation of 3D geospatial datasets.
+[Blender](https://www.blender.org/) is a 3D modelling tool with the ability to be extended through the Python programming language. 
+Through the [BlenderGIS](https://github.com/domlysz/BlenderGIS) addon it can incorporate GIS functionality for the manipulation of 3D geospatial datasets.
 
-The aim of this MSc project is to create an addon that adds the ability in Blender to import/export and manipulate all aspects of a 3D city model in CityJSON format. The addon must be able to:
+The aim of this MSc project is to create an addon that adds the ability in Blender to import/export and manipulate all aspects of a 3D city model in [CityJSON format](http://www.cityjson.org). 
+The addon should be able to:
 
 * Import/export CityJSON files
 * Incorporate the tools of [cjio](https://github.com/tudelft3d/cjio) for validation and reporting of the data
-* Allow editing of the city object semantic information
+* Allow editing of the city object semantic information, including geometric constraints according to [ISO 19107](http://geovalidation.bk.tudelft.nl/val3dity/docs/definitions/)
 * Provide searching functionality for the city objects
 
-Knowledge of Python is required.
+Knowledge of Python is enough.
 
-*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+*Contacts:* [Stelios Vitalis](mailto:s.vitalis@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
