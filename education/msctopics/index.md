@@ -30,7 +30,24 @@ Knowledge of Python and of web technologies (javascript; although that can be le
 
 *Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
 
+- - -
 
+## Develop a Blender addon with a complete set of tools for CityJSON files
+
+![](img/blender_cityjson.png){:width="500px"}
+
+[Blender](https://www.blender.org/) is a 3D modelling tool with the ability to be extended through the Python programming language. Through the [BlenderGIS](https://github.com/domlysz/BlenderGIS) addon it can incorporate GIS functionality for the manipulation of 3D geospatial datasets.
+
+The aim of this MSc project is to create an addon that adds the ability in Blender to import/export and manipulate all aspects of a 3D city model in CityJSON format. The addon must be able to:
+
+* Import/export CityJSON files
+* Incorporate the tools of [cjio](https://github.com/tudelft3d/cjio) for validation and reporting of the data
+* Allow editing of the city object semantic information
+* Provide searching functionality for the city objects
+
+Knowledge of Python is required.
+
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
 
 - - -
 
