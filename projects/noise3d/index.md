@@ -67,14 +67,10 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 ## Project partners
 
-<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" style="max-height: 200px;"></a></div>
-<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" style="max-height: 200px;"></a></div>
-<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
-
 <div class="row">
-  <div class="visible-xs thumbnail"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" style="max-height: 200px;"></a></div>
-  <div class="visible-xs thumbnail"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" style="max-height: 200px;"></a></div>
-  <div class="visible-xs thumbnail"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" ></a></div>
 </div>
 
 - - - 
