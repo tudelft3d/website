@@ -14,11 +14,11 @@ permalink: /education/msctopics/
 
 ![](img/flatroofs.png) 
 
-Several applications require information about the geometry of a building's roof, particularly whether it is flat or not. But deciding if the roof is flat is not always straightforward, and different domains have different definitions for *flat*. Think about calculating water runoff, or finding roofs with a potential terraces. Thus better if we can say something about the area of the flat surface in a roof, if there is any.
+Several applications require information about the geometry of a building's roof, particularly whether it is flat or not. In theory this information can be derived from a point cloud. But deciding if a roof is flat is not always straightforward, and different domains have different definitions for *flat*. Think about calculating water runoff, or finding roofs with a potential terraces. Thus better if we can say something about the area of the flat surface in a roof, if there is any.
 
-The aim of this MSc project is to develop a method for computing the area of the flat surface in a roof from a point cloud, and identify whether the roof has structure that consists of multiple levels. Additionally, the work can be extended to modelling multi-level roofs (aka. [LoD1.3](http://doi.org/10.1016/j.compenvurbsys.2016.04.005)).Ultimately, to goal is to incorporate the results in [3dfier](https://github.com/tudelft3d/3dfier), therefore the method needs to be feasible for implementation.
+The aim of this MSc project is to develop a method for computing the area of the flat surface in a roof from a point cloud, and identify whether the roof has structure that consists of multiple levels. Additionally, the work can be extended to modelling multi-level roofs (aka. [LoD1.3](http://doi.org/10.1016/j.compenvurbsys.2016.04.005)). Ultimately, to goal is to incorporate such a method in [3dfier](https://github.com/tudelft3d/3dfier) and it should therefore be computationally efficient.
 
-Depending on the approach the project can be really *data sciency*. Thus knowledge of *a* programming language is needed and it is good to be comfortable with, or at least have the strong desire to learn some statistics.
+Knowledge of a programming language like python is required. You should also be comfortable with, or at least have the strong desire to learn some statistics.
 
 *Contacts:* [Balázs Dukai](https://3d.bk.tudelft.nl/bdukai/) and [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
 
