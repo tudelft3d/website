@@ -328,7 +328,7 @@ Particular attention will be paid to energy-related topics in order verify how a
 The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug  tool(s) and to perform a mapping to the CityGML/Energy ADE data model. In addition, proper interfaces will have to be developed and tested by means of a concrete case study.
 This topic is available for up to **two students** (each one choosing a different application area).
 
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Jantien Stoter
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 - - -
 
@@ -367,5 +367,5 @@ Starting from a CityGML-based 3D city model, the Msc thesis will focus on testin
 
 Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Architect are required. A bonus is texperience of the CityGML 3D City Database and the associated tools.
 
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Jantien Stoter
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
