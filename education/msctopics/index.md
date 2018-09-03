@@ -328,7 +328,7 @@ Particular attention will be paid to energy-related topics in order verify how a
 The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug  tool(s) and to perform a mapping to the CityGML/Energy ADE data model. In addition, proper interfaces will have to be developed and tested by means of a concrete case study.
 This topic is available for up to **two students** (each one choosing a different application area).
 
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Jantien Stoter
 
 - - -
 
@@ -357,3 +357,17 @@ The MSc thesis will focus on defining and implementing a 3D “urban mining” m
 This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Alexander Wandl
+
+- - -
+
+## Integrated modelling of utility networks in the urban environment
+
+<!--img src="img/ga_ladybug.jpg" style="width: 600px;"/-->
+
+In the framework of Smart Cities, the MSc thesis will focus on interoperability issues when it comes the heterogeneous utility networks (e.g. gas, water, electricity, sewage, district heating, telecommunications, etc.) that are found in the urban environment.
+Starting from a CityGML-based 3D city model, the Msc thesis will focus on testing and further extending the Utility Network ADE (Appication Domain Extension), based on a concrete case study which will be agreed upon with the student. A ''possible'' application area is in the energy sector, e.g. when it comes to coupling networks to simulation programs.
+
+Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Architect are required. A bonus is texperience of the CityGML 3D City Database and the associated tools.
+
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Jantien Stoter
+
