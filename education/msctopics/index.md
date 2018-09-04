@@ -12,15 +12,12 @@ permalink: /education/msctopics/
 - - -
 ## 3D city model to BIM to 3D city model
 
-![](img/interGeoBIM.png)
+![](img/InterGeoBIM.png)
 
 The interoperability of 3D city models (in [CityGML](https://www.citygml.org)) and detailed building information models (BIM in [IFC](http://www.buildingsmart-tech.org/specifications/ifc-overview)), has a lot of potential but there are several unresolved problems.
 Many software tools exist to manage CityGML and IFC data. The aim of this project is to design and test workflows for conversions from CityGML to IFC and vice versa without loss of quality of the data (in geometry or semantics), through existing software’s import and export functions.
 
 *Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-
-![](img/flatroofs.png) 
 
 - - -
 ## Integrated 3D geo-information for Building permissions issuing
