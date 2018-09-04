@@ -10,13 +10,34 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## 3D city model to BIM to 3D city model
+
+![](img/interGeoBIM.png)
+
+The interoperability of 3D city models (in [CityGML](https://www.citygml.org)) and detailed building information models (BIM in [IFC](http://www.buildingsmart-tech.org/specifications/ifc-overview)), has a lot of potential but there are several unresolved problems.
+Many software tools exist to manage CityGML and IFC data. The aim of this project is to design and test workflows for conversions from CityGML to IFC and vice versa without loss of quality of the data (in geometry or semantics), through existing software’s import and export functions.
+
+*Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+
+
+- - -
+## Integrated 3D geo-information for Building permissions issuing
+
+![](img/EuroSDRgeoBIM_BP.jpg)
+
+The aim of the project is to design a platform for automatically checking building information models (BIM) against city regulations. Through analysing the requirements and needs for building permissions (in Europe), the characteristics of the needed information must be established. Procedures, tools and methodologies need to be defined to automatically check a building design against spatial regulations (especially height regulations).
+
+*Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+- - -
 
 ## Develop a framework to handle massive CityJSON files
 
 ![](img/cityjson.jpg)
 
 As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
-The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with). 
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with).
 CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
 It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
 
@@ -34,20 +55,20 @@ Knowledge of Python and of web technologies (javascript; although that can be le
 
 - - -
 
-## Extraction of characteristics of buildings from aerial imagery 
+## Extraction of characteristics of buildings from aerial imagery
 
 ![](img/readaar.jpg){:width="350px"}
 
 This project is done in cooperation with [Readaar](http://www.readaar.com).
-Readaar was founded in 2016 and extracts all kind of information from aerial imagery. 
-To do this they combine remote sensing with machine learning. 
+Readaar was founded in 2016 and extracts all kind of information from aerial imagery.
+To do this they combine remote sensing with machine learning.
 
-Readaar has already developed a method to generate point clouds and 3D building models from stereo imagery. 
-The next step is to translate this into useful insights like: 
+Readaar has already developed a method to generate point clouds and 3D building models from stereo imagery.
+The next step is to translate this into useful insights like:
 
-  - how many solar panels can we fit on the roof, 
-  - what is the roof type, 
-  - how many floors does the building have. 
+  - how many solar panels can we fit on the roof,
+  - what is the roof type,
+  - how many floors does the building have.
 
 The focus of the student within this project will be on using the datasets to develop methods that extract (data mining) the insights that Readaar's customers want to have.
 
@@ -56,7 +77,7 @@ The focus of the student within this project will be on using the datasets to de
 *Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](mailto:svenbriels@readaar.com)
 
 
-- - - 
+- - -
 
 ## Interoperability between BIM IFC & BEM gbXML
 
@@ -74,7 +95,7 @@ Prior knowledge of programming in Python or C++ is required.
 
 ![](img/RoadLoDTopic.png){:width="800px"}
 
-Road networks are utilised within a wide range of applications for navigation, city planning, and visibility analysis. There is a growing need for road networks within 3D city models for cases such as autonomous vehicle routing and road maintenance and repair. At the same time, while the concept of Levels of Detail (LoD) for buildings in CityGML has been extensively studied, this is not the case for roads. This project will examine a multitude of road standards, in both 2D and 3D, to refine and enhance the concept of LoDs for roads. A road network at various levels will then be created (with procedural modelling utilising ESRI CityEngine if there is interest) to test within an application of the student’s choice. 
+Road networks are utilised within a wide range of applications for navigation, city planning, and visibility analysis. There is a growing need for road networks within 3D city models for cases such as autonomous vehicle routing and road maintenance and repair. At the same time, while the concept of Levels of Detail (LoD) for buildings in CityGML has been extensively studied, this is not the case for roads. This project will examine a multitude of road standards, in both 2D and 3D, to refine and enhance the concept of LoDs for roads. A road network at various levels will then be created (with procedural modelling utilising ESRI CityEngine if there is interest) to test within an application of the student’s choice.
 
 *Contact:* [Anna Labetski](http://3d.bk.tudelft.nl/alabetski) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
@@ -107,7 +128,7 @@ Prior knowledge of programming in Python or C++ is required.
 
 *Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
-- - - 
+- - -
 
 ## Point cloud normal estimation based on the 3D medial axis transform
 
@@ -134,9 +155,9 @@ It is possible to use Python for this project, although some knowledge of C++ wo
 
 ![](img/3dfier.png){:width="600px"}
 
-We have developed a software, [3dfier](https://github.com/tudelft3d/3dfier), to automatically construct 3D city models from 2D GIS datasets (e.g. topographical datasets) and LiDAR/pointcloud datasets. 
-The software creates a 3D model by lifting every polygon to 3D, and the semantics of every polygon is used to perform the lifting. 
-That is, water polygons are extruded to horizontal polygons, buildings to LOD1 blocks, roads as smooth surfaces, etc. Every polygon is triangulated (constrained Delaunay triangulation) and the lifted polygons are "stitched" together so that one digital surface model (DSM) is constructed. 
+We have developed a software, [3dfier](https://github.com/tudelft3d/3dfier), to automatically construct 3D city models from 2D GIS datasets (e.g. topographical datasets) and LiDAR/pointcloud datasets.
+The software creates a 3D model by lifting every polygon to 3D, and the semantics of every polygon is used to perform the lifting.
+That is, water polygons are extruded to horizontal polygons, buildings to LOD1 blocks, roads as smooth surfaces, etc. Every polygon is triangulated (constrained Delaunay triangulation) and the lifted polygons are "stitched" together so that one digital surface model (DSM) is constructed.
 Our aim is to obtain one DSM that is error-free, i.e. no intersecting triangles, no holes (the surface is watertight), where buildings are integrated in the surface, etc.
 
 The aim of this MSc project is to further develop some lacking features of 3dfier, it could be one of the following:
@@ -146,7 +167,7 @@ The aim of this MSc project is to further develop some lacking features of 3dfie
 
 These topics can be done with Python as a post-processing of 3dfier.
 
-*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl) 
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl)
 
 
 - - -
@@ -182,7 +203,7 @@ The knowledge of programming in C++ is required.
 
 ![](img/tnosemantic.png){:width="400px"}
 
-For large parts of the world, the available 3D geoinformation is limited, outdated or inaccurate. To cost-effectively obtain an up to date and high-resolution 3D (urban) environment model, automated 3D reconstruction techniques need to be applied on raw elevation and imagery sensor data, in order to find which features (vegetation, buildings, etc.) are present in the terrain and the representation of the relevant feature properties (tree species, roof type). Semantic model based feature matching is a reconstruction approach where a priori knowledge on the environment is used to represent and constrain a search space of possible feature models that can be found in the terrain. 
+For large parts of the world, the available 3D geoinformation is limited, outdated or inaccurate. To cost-effectively obtain an up to date and high-resolution 3D (urban) environment model, automated 3D reconstruction techniques need to be applied on raw elevation and imagery sensor data, in order to find which features (vegetation, buildings, etc.) are present in the terrain and the representation of the relevant feature properties (tree species, roof type). Semantic model based feature matching is a reconstruction approach where a priori knowledge on the environment is used to represent and constrain a search space of possible feature models that can be found in the terrain.
 
 The key in this research is to devise semantic model representations and search algorithms that explore the search space and find instances of the semantic feature model that best match the available sensor data. The project will focus on encoding and using object relations (e.g. between a building and adjacent street) in semantic feature models to improve the correctness of the matches. The project is carried out in co-operation with [TNO in The Hague](https://www.tno.nl/nl/), where these techniques are applied in the field of gaming and simulation.
 
@@ -206,7 +227,7 @@ This research will aim at finding improved filtering and interpolation technique
 
 ![](img/bathycontours.png){:width="500px"}
 
-For some years, we have been working on a novel method to automatically generate "good" depth-contours for hydrographic charts. 
+For some years, we have been working on a novel method to automatically generate "good" depth-contours for hydrographic charts.
 Our latest results, based on the [MSc thesis of Ravi Peters](http://repository.tudelft.nl/view/ir/uuid%3A5977a99b-0875-44b4-abe1-09288bf2aed1/) and published in that [paper](https://3d.bk.tudelft.nl/hledoux/pdfs/14_marinegeo.pdf), have been picked up by major companies who are implementing it.
 
 The aim of the proposed project is to improve the results.
@@ -215,19 +236,19 @@ The student would have to focus on automatically applying the algorithms only wh
 
 The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but probably possible to make do with Python.
 
-*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters) 
+*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters)
 
 
 - - -
 
-## Snap rounding in a triangulation 
+## Snap rounding in a triangulation
 
 ![](img/triangulation.png){:width="500px"}
 
-The most common way to do edge-matching or to clean small inconsistencies within and between datasets is to apply snapping (point-to-point or point-to-line). 
-However, simple snapping creates many problems, including topological changes and inconsistencies. 
-Snap rounding extends this method in order to give robustness guarantees, but current implementations, such as [the one in CGAL](http://doc.cgal.org/latest/Snap_rounding_2/index.html), are *extremely* slow. 
-Related to this, in the project [pprepair](https://github.com/tudelft3d/pprepair), we have previously used a constrained triangulation as a robust method to repair polygons and planar partitions. 
+The most common way to do edge-matching or to clean small inconsistencies within and between datasets is to apply snapping (point-to-point or point-to-line).
+However, simple snapping creates many problems, including topological changes and inconsistencies.
+Snap rounding extends this method in order to give robustness guarantees, but current implementations, such as [the one in CGAL](http://doc.cgal.org/latest/Snap_rounding_2/index.html), are *extremely* slow.
+Related to this, in the project [pprepair](https://github.com/tudelft3d/pprepair), we have previously used a constrained triangulation as a robust method to repair polygons and planar partitions.
 Using this approach topological errors are automatically fixed.
 We therefore believe that using a triangulation as a base structure is an intuitive and efficient way to optimize snap rounding, since we can perform simple snapping and recover from topological errors afterwards.
 
@@ -260,8 +281,8 @@ With the advances of data acquisition technologies, point clouds of urban scenes
 
 The aim of this project is to develop algorithms and tools to convert the dense triangular mesh models to lightweight polygonal models by assuming the building surface is piecewise planar. We consider a method to be effective to this problem if it meets the following requirements
 -	The simplified model should reliably approximate the initial model,
--	The simplified model is an oriented 2-manifold (i.e., physically valid), 
--	The method should not closely follow surface details due to imperfections (i.e., noise, outliers, and missing data) being simplified to recover sharp features of the building, 
+-	The simplified model is an oriented 2-manifold (i.e., physically valid),
+-	The method should not closely follow surface details due to imperfections (i.e., noise, outliers, and missing data) being simplified to recover sharp features of the building,
 -	(optional) It would be nice to provide a way to control the detail levels of the model, by introducing an extra parameter.
 
 **Required Skills**: Proficient in one programming language (e.g., C/C++, Python, Java); experiences in CGAL and Numerical Optimization is a bonus.
