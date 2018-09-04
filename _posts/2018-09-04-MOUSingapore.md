@@ -6,7 +6,8 @@ date: 2018-09-04 6:00
 ---
 
 
-On 23rd of August, Jantien Stoter visited Singapore to sign a Memorandum of Understanding to extend the collaboration on 3D with the [Singapore Land Authority]{https://www.sla.gov.sg} (SLA). 
+On 23rd of August, Jantien Stoter visited Singapore to sign a Memorandum of Understanding to extend the collaboration on 3D with the [Singapore Land Authority]{https://www.sla.gov.sg}.
+
 SLA initiated and led a whole-of-government 3D national mapping project to create and maintain a national 3D city model for urban applications. 
 In the MOU, SLA and the 3D Geoinformation research group agree to collaborate on topics related to 3D city modelling such as 3D data reconstruction; validation and repair of 3D city models; generalisation of 3D city models; and, application of 3D city models.
 The MOU was signed in presence of the Dutch Ambassador Margriet Vonno.
