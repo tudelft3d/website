@@ -10,6 +10,30 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+
+
+## Linked data: Extend CityJSON with machine-readable semantics
+
+![](img/ld.jpg)
+
+[CityJSON](http://www.cityjson.org) is based on JavaScript Object Notation, a lightweight data-interchange format primarily used on the Web. 
+However, JSON is just syntax, without any machine-readable knowledge about the meaning (semantics) of the data. Currently, the only way to figure out what the data in a CityJSON file means (e.g. what is a building?) is to read the [CityGML](https://www.citygml.org) specification (assuming you know where to find it), something only humans can do. 
+
+The aim of this MSc project is to find out how to encode the meaning of CityJSON files in a machine-readable way, directly embedded or linked in the JSON document, and to discover what benefits (or disadvantages) this would bring. This could be done by creating a vocabulary which describes the keys that can be used in CityJSON, basically a CityGML vocabulary or (simple) ontology; and using [JSON-LD](https://json-ld.org/) to map the keys in CityJSON to this vocabulary. 
+
+The "LD" in JSON-LD stands for "[linked data](https://www.w3.org/wiki/LinkedData)". 
+Once CityJSON-LD is created, we effectively have a lightweight linked data format for CityGML. 
+But this is not a benefit in itself. 
+The project would go on to explore the advantages and disadvantages of working with CityJSON-LD, as opposed to just CityJSON.
+
+This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
+
+
+*Contacts:* [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+- - -
+
+
 ## 3D city model to BIM to 3D city model
 
 ![](img/InterGeoBIM.png)
