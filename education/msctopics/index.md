@@ -12,10 +12,11 @@ permalink: /education/msctopics/
 - - -
 ## 3D city model to BIM to 3D city model
 
-![](img/interGeoBIM.png)
+![](img/InterGeoBIM.png)
 
 The interoperability of 3D city models (in [CityGML](https://www.citygml.org)) and detailed building information models (BIM in [IFC](http://www.buildingsmart-tech.org/specifications/ifc-overview)), has a lot of potential but there are several unresolved problems.
 Many software tools exist to manage CityGML and IFC data. The aim of this project is to design and test workflows for conversions from CityGML to IFC and vice versa without loss of quality of the data (in geometry or semantics), through existing software’s import and export functions.
+In collaboration with [AMS](https://www.ams-institute.org) and [ISPRS](http://www.isprs.org)
 
 *Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
@@ -27,6 +28,7 @@ Many software tools exist to manage CityGML and IFC data. The aim of this projec
 ![](img/EuroSDRgeoBIM_BP.jpg)
 
 The aim of the project is to design a platform for automatically checking building information models (BIM) against city regulations. Through analysing the requirements and needs for building permissions (in Europe), the characteristics of the needed information must be established. Procedures, tools and methodologies need to be defined to automatically check a building design against spatial regulations (especially height regulations).
+In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
 
 *Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
