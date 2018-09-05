@@ -40,6 +40,8 @@ The aim of this MSc project is to develop a method for computing the area of the
 
 Knowledge of a programming language like python is required. You should also be comfortable with, or at least have the strong desire to learn some statistics.
 
+The topic is done in collaboration with Rijkswaterstaat.
+
 *Contacts:* [Balázs Dukai](https://3d.bk.tudelft.nl/bdukai/) and [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
 
 - - -
