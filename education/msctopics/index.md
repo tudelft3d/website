@@ -12,6 +12,28 @@ permalink: /education/msctopics/
 - - -
 
 
+## Develop a framework for sharing sensor data
+
+![](img/slimmestad-alg.png)
+
+The ISO/OGC standard [Observations and Measurements](http://www.opengeospatial.org/standards/om) (O&M) provides a model for the exchange of information about sensor observations. 
+It’s a rather concise and abstract model and it has always raised questions about how to create a profile in order to use it in practice. 
+A framework for this is needed.
+
+Creating a profile involves the definition of an information model that extends the [abstract O&M model](http://portal.opengeospatial.org/files/?artifact_id=41579). 
+O&M is defined in UML. 
+In addition, there is an XML-based exchange format, the [O&M GML encoding](http://portal.opengeospatial.org/files/?artifact_id=41510), a [JSON implementation](https://portal.opengeospatial.org/files/64910), and a linked data based ontology called [Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/). 
+All of these may play a role in the framework, but the central question of this MSc topic is how to create a working O&M profile.
+
+A practical case for the study could be the [Base Registry Underground](https://www.basisregistratieondergrond.nl), which will contain a lot of sensor data such as groundwater measurements and soil quality observations. 
+
+This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
+
+*Contacts:* [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+
+- - -
+
 ## Linked data: Extend CityJSON with machine-readable semantics
 
 ![](img/ld.jpg)
