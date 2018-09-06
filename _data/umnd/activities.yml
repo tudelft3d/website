@@ -2,7 +2,7 @@
   description: We have presented our new paper regarding the "Topological reconstruction of 3D city models with preservation of semantics." in AGILE 2018.
   date: 2018-06-14
 - research_line: [1, 2, 3]
-  description: We (co)organised a successfull international symposium on [Point Clouds Processing](https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html)
+  description: We (co)organised a successfull international symposium on <a ref="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>
   date: 2018-03-15
 - research_line: [2]
   description: Stelios Vitalis has participated in the 3rd week of the Intensive Research Program in Discrete, Combinatorial and Computational Geometry.
