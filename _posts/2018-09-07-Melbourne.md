@@ -5,7 +5,8 @@ categories: news
 date: 2018-09-07
 ---
 
-Last week, Jantien Stoter visited the [Centre for Spatial Data Infrastructures and Land Administration]( http://www.csdila.unimelb.edu.au/news/), University of Melbourne and with them.
+Last week, Jantien Stoter visited the [Centre for Spatial Data Infrastructures and Land Administration]( http://www.csdila.unimelb.edu.au/news/), University of Melbourne.
+
 With them, she attended 3D knowledge exchange sessions at both [Land Use Victoria]( https://www.vic.gov.au/contactsandservices/directory/?ea0_lfz149_120.&organizationalUnit&3260c753-3b54-4be8-bc55-b085945dd479) and the [City Of Melbourne](https://www.melbourne.vic.gov.au/Pages/home.aspx).
 Jantien presented an overview of the research of our group in both events.
 City of Melbourne encounter similar challenges in realising their 3D ambitions as we are addressing in our research such as 3D reconstruction, 3D data standards, 3D urban applications and IFC/BIM. We are exploring opportunities to work more closely together in the future.
