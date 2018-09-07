@@ -11,9 +11,9 @@ Jantien presented an overview of the research of our group in both events.
 City of Melbourne encounter similar challenges in realising their 3D ambitions as we are addressing in our research such as 3D reconstruction, 3D data standards, 3D urban applications and IFC/BIM. We are exploring opportunities to work more closely together in the future.
 In the meeting with Land Use Victoria (LUV) the topic was the Victoria 3D Digital Cadastre Roadmap that they are currently writing in a collaboration with University of Melbourne. The 3D Cadastre challenges ahead are similar as at the Dutch Kadaster. We will therefore join our forces on the roadmap with attention for the overlap and differences in both our countries. 
 
-
+![]({{ site.baseurl }}/img/2018/melbourne4.jpg)
+![]({{ site.baseurl }}/img/2018/melbourne5.jpg)
 ![]({{ site.baseurl }}/img/2018/melbourne.jpg)
 ![]({{ site.baseurl }}/img/2018/melbourne2.jpg)
 ![]({{ site.baseurl }}/img/2018/melbourne3.jpg)
-![]({{ site.baseurl }}/img/2018/melbourne4.jpg)
-![]({{ site.baseurl }}/img/2018/melbourne5.jpg)
+
