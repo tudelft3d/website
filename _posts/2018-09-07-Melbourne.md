@@ -5,7 +5,7 @@ categories: news
 date: 2018-09-07
 ---
 
-Last week, Jantien Stoter visited the [Centre for Spatial Data Infrastructures and Land Administration]( http://www.csdila.unimelb.edu.au/news/), University of Melbourne (She was in Melbourne to give a keynote at [GIScience 2018](http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/).
+Last week, Jantien Stoter visited the [Centre for Spatial Data Infrastructures and Land Administration]( http://www.csdila.unimelb.edu.au/news/), University of Melbourne (She was in Melbourne to give a keynote at [GIScience 2018](http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/)).
 
 With them, she attended 3D knowledge exchange sessions at both [Land Use Victoria]( https://www.vic.gov.au/contactsandservices/directory/?ea0_lfz149_120.&organizationalUnit&3260c753-3b54-4be8-bc55-b085945dd479) and the [City Of Melbourne](https://www.melbourne.vic.gov.au/Pages/home.aspx).
 Jantien presented an overview of the research of our group in both events.
