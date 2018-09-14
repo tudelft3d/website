@@ -6,8 +6,8 @@
   email: g.agugiaro@tudelft.nl
   github: github.com/gioagu
   homepage: 3d.bk.tudelft.nl/gagugiaro
-  description: "His main research interests are in the field of Geographical Information Systems and spatial data integration, with particular focus on semantic 3D city modelling and their energy-related topics. 
-  Some of his research topics deal for example with the development of an information model to manage and exchange semantically-enriched multi-resolution 3D data for urban energy planning. 
+  description: "His main research interests are in the field of Geographical Information Systems and spatial data integration, with particular focus on semantic 3D city modelling and their energy-related topics.
+  Some of his research topics deal for example with the development of an information model to manage and exchange semantically-enriched multi-resolution 3D data for urban energy planning.
   Having a semantic 3D virtual city model as background, the idea is to foster software integration to allow complex urban system simulation and close (or reduce) the gap between geo-information and simulation.
   He is currently chair of the [ISPRS Technical Commission 4 WG 10 (Advanced Geospatial Applications for Smart Cities and Regions)](http://www2.isprs.org/commissions/comm4/wg10.html) and national representative for Austria of the Urban Data Management Society (UDMS)."
 
@@ -19,7 +19,11 @@
   email: f.noardo@tudelft.nl
   homepage: 3d.bk.tudelft.nl/fnoardo
   description: "Integration of IFC and CityGML"
-
+  projects:
+    - name: esdr-geobim
+      role: Postdoc
+    - name: sdi-ams
+      role: Postdoc
 
 - surname: Dukai
   name: Balázs
@@ -45,7 +49,7 @@
 
 - surname: Gao
   name: Weixiao
-  title: PhD candidate 
+  title: PhD candidate
   photo: weixiao.jpg
   homepage: 3d.bk.tudelft.nl/weixiao
   description: "Topic: Automatic generation of semantic 3D city models from 3D textured meshes. Working in collaboration with [CycloMedia](https://www.cyclomedia.com)."
@@ -75,7 +79,7 @@
       role: PhD Candidate
   # phone: "+31 15 27 81298"
 
-- surname: Helm 
+- surname: Helm
   van: van der
   name: Margo
   title: Secretary
@@ -95,7 +99,7 @@
     - name: umnd
       role: PhD Candidate
 
-- surname: Altena 
+- surname: Altena
   van: van
   name: Vincent
   title: PhD candidate (external)
@@ -104,7 +108,7 @@
   homepage: 3d.bk.tudelft.nl/vpvanaltena
   # description: "Topic: An interdisciplinary investigation on using spatial-temporal research in new testament exegesis"
   # pagetext: I am an bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam at eum ad veniam dolorem excepturi odit, in, voluptatibus, ut, autem ipsam. Pariatur vitae, consectetur! Consectetur, aut cum laboriosam nihil.
-  
+
 - surname: Commandeur
   name: Tom
   title: Researcher
@@ -114,7 +118,7 @@
     - name: noise3d
       role: Researcher
 
-- surname: Kavisha  
+- surname: Kavisha
   title: PhD candidate
   photo: kavisha.jpg
   email: k.kavisha@tudelft.nl
@@ -129,6 +133,10 @@
   email: g.a.k.arroyoohori@tudelft.nl
   projects:
     - name: umnd
+      role: Postdoc
+    - name: esdr-geobim
+      role: Postdoc
+    - name: sdi-ams
       role: Postdoc
   # phone: +31 15 27 85154
 
@@ -169,15 +177,15 @@
   title: Professor
   longtitle: Professor 3D geoinformation
   description: "I am a full professor in Spatial Data Infrastructure, at the Faculty of Architecture and The Built Environment and I am leading the [3D GeoInformation](http://3d.bk.tudelft.nl) group at the Department of [Urbanism](http://www.bk.tudelft.nl/en/about-faculty/departments/urbanism/).
-  I obtained my PhD degree ([3D Cadastre](http://www.itc.nl/library/Papers_2004/phd/stoter.pdf)) in 2004. 
-  For this work I received the Tienstra award. 
+  I obtained my PhD degree ([3D Cadastre](http://www.itc.nl/library/Papers_2004/phd/stoter.pdf)) in 2004.
+  For this work I received the Tienstra award.
   After my PhD I worked several years at ITC, University of Twente (2004-2009) and led there a research group on “automated generalisation”.
   I combine my professorship with jobs as researcher at both the [Kadaster](http://www.kadaster.nl/web/english.htm) and [Geonovum](http://www.geonovum.nl).
   I am chair of the [EuroSDR](www.eurosdr.net) Commission “Data Modelling AND Processing” and leader of the [national 3D SIG](http://www.geonovum.nl/onderwerpen/3d-geo-informatie) (Special Interest Group) as well as of the [EuroSDR 3D SIG](http://www.eurosdr.net/research/project/eurosdr-special-interest-group-3d-3d-sig).
-  Since March 2015, I am vice-chair of the OGC 3D Information Management Domain Working Group [(OGC 3DIM DWG)](http://www.opengeospatial.org/projects/groups/3dimdwg). 
+  Since March 2015, I am vice-chair of the OGC 3D Information Management Domain Working Group [(OGC 3DIM DWG)](http://www.opengeospatial.org/projects/groups/3dimdwg).
   In December 2016, I became a Principal Investigator at the [Amsterdam Institute of Advanced Metropolitan Solutions](http://www.ams-amsterdam.com)
- 
-  My research interests are 3D, automated generalization and information modelling. 
+
+  My research interests are 3D, automated generalization and information modelling.
   For my research on [5D data modelling](http://3d.bk.tudelft.nl/projects/geo5d/) I received the prestigious Vidi award of the Netherlands Scientific Foundation ([NWO](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme/awards/vidi+awards/vidi+awards+2010)).
   In addition I received a Starting Grant from the European Research Council for my proposal Urban Modelling in higher dimensions ([ERC](https://erc.europa.eu/sites/default/files/document/file/erc_2015_stg_results_all_domains.pdf)).
   I am (co)author of over 350 academic and professional articles and appeared several times in regional and national media.
@@ -191,8 +199,11 @@
   projects:
     - name: umnd
       role: Professor
-  projects:
     - name: noise3d
+      role: Professor
+    - name: esdr-geobim
+      role: Professor
+    - name: sdi-ams
       role: Professor
 
 - surname: Nan
@@ -204,4 +215,3 @@
   projects:
     - name: noise3d
       role: Assistant-prof.
-

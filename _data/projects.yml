@@ -1,4 +1,16 @@
 
+- name: EuroSDR GeoBIM
+  description: Geo and BIM integration in Europe
+  webpage: /projects/eurosdr-geobim/
+  funding: EuroSDR
+  image: esdr-geobim.jpg
+
+- name: Smart data integration for urban applications
+  description: 3D Data interoperability for smart cities
+  webpage: /projects/smartdi-ams/
+  funding: AMS
+  image: sdi-ams.jpg
+
 - name: Simulation-ready 3D city models
   description: Automatic reconstruction of simulation-ready 3D city models
   webpage: /projects/simwind/
@@ -69,7 +81,7 @@
   fundingurl: http://www.ams-institute.org
   image: haf.png
   finished: true
-  
+
 - name: Quality control of 3D city models
   description: "Validation and quality control of 3D city models"
   webpage: http://geovalidation.bk.tudelft.nl/val3dity
