@@ -93,6 +93,21 @@ The following is the list of events that we participated or organised related to
 
 - - -
 
+## Activities
+
+{% assign activities = site.data.umnd.activities | sort: 'date' | reverse %}
+<ul class="posts">
+{% for activity in activities %}
+    <li class="activity"><span>{{ activity.date | date_to_string }}</span> {{ activity.description }}
+      <i>Related to research line(s)
+      {% for rl in activity.research_line %}
+        <a href="{{ "/projects/umnd/rl" | append: rl | append: ".html" | prepend: site.baseurl }}">{{ rl }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}.</i>
+    </li>
+{% endfor %}
+</ul>
+
+- - -
+
 ## Team
 
 <div class="row">
