@@ -15,7 +15,7 @@ permalink: /projects/
   {% else %}
     {% assign link = i.webpage %}
   {% endif %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-md-3 col-sm-4 col-xs-6">
     <div class="thumbnail">
       <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
@@ -48,7 +48,7 @@ permalink: /projects/
   {% else %}
     {% assign link = i.webpage %}
   {% endif %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-md-3 col-sm-4 col-xs-6">
     <div class="thumbnail">
       <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">

@@ -18,11 +18,11 @@ The staff of the group is active in several international organisations such as 
 Our research funding mostly comes from the following organisations:
 
 <div class="row">
-  <div class="col-md-offset-1 col-md-2 col-xs-12"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.svg" | prepend: site.baseurl }}" alt="ERC logo" style="height: 100px;" /></a></div>
-  <div class="col-md-2 col-xs-12"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.svg" | prepend: site.baseurl }}" alt="NWO logo" style="height: 100px;" /></a></div>
-  <div class="col-md-2 col-xs-12"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.svg" | prepend: site.baseurl }}" alt="AMS logo" style="height: 100px;" /></a></div>
-  <div class="col-md-2 col-xs-12"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.svg" | prepend: site.baseurl }}" alt="Kadaster logo" style="height: 100px;" /></a></div>
-  <div class="col-md-2 col-xs-12"><a href="http://www.rws.nl"><img class="img-responsive" src="{{ "/img/partners/rws.svg" | prepend: site.baseurl }}" alt="RWS logo" style="height: 100px;" /></a></div>
+  <div class="col-sm-offset-1 col-sm-2 col-xs-4"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.svg" | prepend: site.baseurl }}" alt="ERC logo" style="height: 100px;" /></a></div>
+  <div class="col-sm-2 col-xs-4"><a href="http://www.stw.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.svg" | prepend: site.baseurl }}" alt="NWO logo" style="height: 100px;" /></a></div>
+  <div class="col-sm-2 col-xs-4"><a href="http://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.svg" | prepend: site.baseurl }}" alt="AMS logo" style="height: 100px;" /></a></div>
+  <div class="col-sm-2 col-sm-offset-0 col-xs-offset-2 col-xs-4"><a href="http://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.svg" | prepend: site.baseurl }}" alt="Kadaster logo" style="height: 100px;" /></a></div>
+  <div class="col-sm-2 col-xs-4"><a href="http://www.rws.nl"><img class="img-responsive" src="{{ "/img/partners/rws.svg" | prepend: site.baseurl }}" alt="RWS logo" style="height: 100px;" /></a></div>
 </div>
 
 - - - 
@@ -34,7 +34,7 @@ Our research funding mostly comes from the following organisations:
 
   <div class="row">
     {% for member in members %}
-      <div class="col-md-3 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      <div class="col-md-3 col-sm-4 col-xs-6">
         {% include contact.html person=member role=member.title %}
       </div>
     {% endfor %}
@@ -55,7 +55,7 @@ Our research funding mostly comes from the following organisations:
 <section id="where">
   <h2>Our offices</h2>
 
-  <div class="col-md-4">
+  <div class="col-md-4 col-sm-6 col-xs-12">
     <i class="fa fa-map-marker fa-fw">     </i> Room BG.West.010 (building #8) <br>
     <i class="fa fa-map-marker fa-fw fade"></i> Faculty of the Built Environment <br>
     <i class="fa fa-map-marker fa-fw fade"></i> and Architecture<br>
@@ -64,8 +64,9 @@ Our research funding mostly comes from the following organisations:
     <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
     <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
     <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+    <br />
   </div>
-  <div class="col-md-8">
+  <div class="col-md-8 col-sm-6 col-xs-12">
     <div id="map"></div>
   </div>
 </section>
