@@ -102,6 +102,8 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
   <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.kartverket.no" title="Kartverket (Norway)"><img src="/projects/eurosdrgeobim/imgs/kartverket-logo.png" alt="Kartverket logo" style="max-height: 200px;"></a></div>
 
   <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://eng.gst.dk/about-the-danish-geodata-agency/" title="Agency for Data Supply and Efficiency (Denmark)"><img src="/projects/eurosdrgeobim/imgs/denmark-logo.jpg" alt="Agency for Data Supply and Efficiency, Denmark logo" style="max-height: 200px;"></a></div>
+
+  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.eurosdr.net" title="EuroSDR"><img src="/projects/eurosdrgeobim/imgs/eurosdr.jpg" alt="EuroSDR logo" style="max-height: 200px;"></a></div>
 </div>
 <!--<div class="row">
   <div class="visible-xs thumbnail"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" style="max-height: 200px;"></a></div>
