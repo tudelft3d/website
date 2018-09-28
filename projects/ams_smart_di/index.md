@@ -70,16 +70,12 @@ The results support city analysis, from the cooperation with researchers dealing
 
 ## Project partners
 
-<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.ams-institute.org" title="AMS website"><img src="/projects/ams_smart_di/img/ams-logo.png" alt="AMS logo" style="max-height: 200px;"></a></div>
-<div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.almere.nl" title="Municipality of Almere website"><img src="/projects/ams_smart_di/img/Almere.png" alt="Almere Municipality logo" style="max-height: 200px;"></a></div>
-
-
-<!--<div class="row">
-  <div class="visible-xs thumbnail"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" style="max-height: 200px;"></a></div>
-  <div class="visible-xs thumbnail"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" style="max-height: 200px;"></a></div>
-  <div class="visible-xs thumbnail"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
+<div class="row">
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.ams-institute.org" title="AMS website"><img src="/projects/ams_smart_di/img/ams-logo.png" alt="AMS logo" style="max-height: 200px;"></a></div>
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.almere.nl" title="Municipality of Almere website"><img src="/projects/ams_smart_di/img/Almere.png" alt="Almere Municipality logo" style="max-height: 200px;"></a></div>
 </div>
--->
+
+
 - - -
 ## Connected projects
 

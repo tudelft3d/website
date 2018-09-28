@@ -75,42 +75,34 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 ## Project partners
 
 <div class="row">
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.ordnancesurvey.co.uk" title="Ordnance Survey (UK)"><img src=" /projects/eurosdrgeobim/imgs/os-logo.jpg" alt="OS logo" style="max-height: 200px;"></a></div>
 
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.swisstopo.admin.ch/en/home.html" title="Swisstopo (Switzerland)"><img src="/projects/eurosdrgeobim/imgs/swisstopo-logo.png" alt="Swisstopo logo" style="max-height: 200px;"></a></div>
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.ordnancesurvey.co.uk" title="Ordnance Survey (UK)"><img src=" /projects/eurosdrgeobim/imgs/os-logo.jpg" alt="OS logo" style="max-height: 200px;"></a></div>
 
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.osi.ie" title="Ordnance Survey (Irland)"><img src="/projects/eurosdrgeobim/imgs/osi-logo.jpg" alt="OSi logo" style="max-height: 200px;"></a></div>
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.swisstopo.admin.ch/en/home.html" title="Swisstopo (Switzerland)"><img src="/projects/eurosdrgeobim/imgs/swisstopo-logo.png" alt="Swisstopo logo" style="max-height: 200px;"></a></div>
 
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/projects/eurosdrgeobim/imgs/kadaster-logo.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.osi.ie" title="Ordnance Survey (Irland)"><img src="/projects/eurosdrgeobim/imgs/osi-logo.jpg" alt="OSi logo" style="max-height: 200px;"></a></div>
 
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.icgc.cat" title="ICGC (Catalonia)"><img src="/projects/eurosdrgeobim/imgs/icgc-logo.png" alt="ICGC logo" style="max-height: 200px;"></a></div>
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/projects/eurosdrgeobim/imgs/kadaster-logo.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
 
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.gugik.gov.pl" title="GUGiK (Poland)"><img src="/projects/eurosdrgeobim/imgs/gugik-logo.png" alt="GUGiK logo" style="max-height: 200px;"></a></div>
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.icgc.cat" title="ICGC (Catalonia)"><img src="/projects/eurosdrgeobim/imgs/icgc-logo.png" alt="ICGC logo" style="max-height: 200px;"></a></div>
 
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.gugik.gov.pl" title="GUGiK (Poland)"><img src="/projects/eurosdrgeobim/imgs/gugik-logo.png" alt="GUGiK logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.ign.fr" title="IGN (France)"><img src="/projects/eurosdrgeobim/imgs/ign-logo.jpg" alt="IGN logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.lantmateriet.se" title="Lantmateriet (Sweden)"><img src="/projects/eurosdrgeobim/imgs/landmateriet-logo.png" alt="Landmateriet logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.maanmittauslaitos.fi/en" title="NLS (Finland)"><img src="/projects/eurosdrgeobim/imgs/nls-logo.png" alt="NLS logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.ngi.be" title="NGI (Belgium)"><img src="/projects/eurosdrgeobim/imgs/ngibelgium-logo.jpg" alt="NGI logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.kartverket.no" title="Kartverket (Norway)"><img src="/projects/eurosdrgeobim/imgs/kartverket-logo.png" alt="Kartverket logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://eng.gst.dk/about-the-danish-geodata-agency/" title="Agency for Data Supply and Efficiency (Denmark)"><img src="/projects/eurosdrgeobim/imgs/denmark-logo.jpg" alt="Agency for Data Supply and Efficiency, Denmark logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.eurosdr.net" title="EuroSDR"><img src="/projects/eurosdrgeobim/imgs/eurosdr.jpg" alt="EuroSDR logo" style="max-height: 200px;"></a></div>
 </div>
 
-<div class="row">
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.ign.fr" title="IGN (France)"><img src="/projects/eurosdrgeobim/imgs/ign-logo.jpg" alt="IGN logo" style="max-height: 200px;"></a></div>
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.lantmateriet.se" title="Lantmateriet (Sweden)"><img src="/projects/eurosdrgeobim/imgs/landmateriet-logo.png" alt="Landmateriet logo" style="max-height: 200px;"></a></div>
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.maanmittauslaitos.fi/en" title="NLS (Finland)"><img src="/projects/eurosdrgeobim/imgs/nls-logo.png" alt="NLS logo" style="max-height: 200px;"></a></div>
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.ngi.be" title="NGI (Belgium)"><img src="/projects/eurosdrgeobim/imgs/ngibelgium-logo.jpg" alt="NGI logo" style="max-height: 200px;"></a></div>
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://www.kartverket.no" title="Kartverket (Norway)"><img src="/projects/eurosdrgeobim/imgs/kartverket-logo.png" alt="Kartverket logo" style="max-height: 200px;"></a></div>
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="https://eng.gst.dk/about-the-danish-geodata-agency/" title="Agency for Data Supply and Efficiency (Denmark)"><img src="/projects/eurosdrgeobim/imgs/denmark-logo.jpg" alt="Agency for Data Supply and Efficiency, Denmark logo" style="max-height: 200px;"></a></div>
-
-  <div class="hidden-xs" style="display:table-cell; padding: 20px;"><a href="http://www.eurosdr.net" title="EuroSDR"><img src="/projects/eurosdrgeobim/imgs/eurosdr.jpg" alt="EuroSDR logo" style="max-height: 200px;"></a></div>
-</div>
-<!--<div class="row">
-  <div class="visible-xs thumbnail"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" style="max-height: 200px;"></a></div>
-  <div class="visible-xs thumbnail"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" style="max-height: 200px;"></a></div>
-  <div class="visible-xs thumbnail"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
-</div>
--->
 - - -
 
 ## Connected projects
