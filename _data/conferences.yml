@@ -285,3 +285,9 @@
   start: 2016-12-08
   end: 2016-12-08
   url: http://www.geo.ulg.ac.be/UDMV16/
+
+- name: 3D Singapore 2019
+  place: Singapore
+  start: 2019-09-24
+  end: 2019-09-27
+  url: https://www.3dgeoinfo2019.com
