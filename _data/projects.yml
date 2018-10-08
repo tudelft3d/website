@@ -1,14 +1,14 @@
 
 - name: EuroSDR GeoBIM
-  description: Geo and BIM integration in Europe
+  description: Geo and BIM integration in Europe. Co-funded project under EuroSDR flag
   webpage: /projects/eurosdr-geobim/
-  funding: EuroSDR
   image: esdr-geobim.jpg
 
 - name: Smart data integration for urban applications
   description: 3D Data interoperability for smart cities
   webpage: /projects/smartdi-ams/
   funding: AMS
+  fundingurl: http://www.ams-institute.org
   image: sdi-ams.jpg
 
 - name: Simulation-ready 3D city models

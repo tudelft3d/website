@@ -38,21 +38,21 @@
       role: Researcher
   description: |+
     Currently working on:
-    
+
      — [Automated reconstruction of 3D input data for noise studies](https://3d.bk.tudelft.nl/projects/noise3d/)
-     
+
      — [A geodesign decision support environment](http://h2020repair.eu/gdse-software-package/) for ressource management in peri-urban areas
-     
+
      — Automated generation of a 3D BAG data set
-     
+
      — Improving our 3D reconstruction software [3dfier](https://github.com/tudelft3d/3dfier)
-     
+
      Previously:
-     
+
      — Developed [confdist](https://github.com/balazsdukai/confdist) for computing transcriptional edit distances between pairs of words
-     
+
      — Developed a testing framework and documentation for our 3D geometry validation software [val3dity](http://geovalidation.bk.tudelft.nl/val3dity/)
-  
+
 
 
 - surname: Janssen
@@ -151,8 +151,6 @@
   projects:
     - name: umnd
       role: Postdoc
-    - name: esdr-geobim
-      role: Postdoc
     - name: sdi-ams
       role: Postdoc
   # phone: +31 15 27 85154
@@ -217,8 +215,6 @@
     - name: umnd
       role: Professor
     - name: noise3d
-      role: Professor
-    - name: esdr-geobim
       role: Professor
     - name: sdi-ams
       role: Professor
