@@ -1,5 +1,17 @@
+- research_line: [1, 2, 3]
+  description: We have organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
+  date: 2018-10-02
 - research_line: [2]
-  description: We have presented our new paper regarding the "Topological reconstruction of 3D city models with preservation of semantics." in AGILE 2018.
+  description: "We have presented our paper: \"A framework for the representation of two versions of a 3D model in 4D space\" in the 2018 3D GeoInfo Conference"
+  date: 2018-10-01
+- research_line: [3]
+  description: "We have published a new book chapter: \"Modeling Cities and Landscapes in 3D with CityGML\""
+  date: 2018-09-20
+- research_line: [3]
+  description: "We have published a new paper: \"Processing BIM and GIS Models in Practice: Experiences and Recommendations from a GeoBIM Project in The Netherlands\""
+  date: 2018-08-02
+- research_line: [2]
+  description: We have presented our new paper regarding the "Topological reconstruction of 3D city models with preservation of semantics" in AGILE 2018.
   date: 2018-06-14
 - research_line: [1, 2, 3]
   description: We (co)organised a successfull international symposium on <a href="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>.
@@ -7,12 +19,18 @@
 - research_line: [2]
   description: Stelios Vitalis has participated in the 3rd week of the Intensive Research Program in Discrete, Combinatorial and Computational Geometry.
   date: 2018-05-04
+- research_line: [3]
+  description: "We have published a new paper: \"Essential Means for Urban Computing: Specification of Web-Based Computing Platforms for Urban Planning, a Hitchhiker’s Guide\""
+  date: 2018-03-29
 - research_line: [1]
   description: "We have published a new paper: \"Val3dity: validation of 3D GIS primitives according to the international standards\"."
   date: 2018-02-23
 - research_line: [2]
   description: Stelios Vitalis has successfully passed his Go/NoGo meeting after submitting his research proposal.
   date: 2018-02-13
+- research_line: [3]
+  description: Ken Arroyo Ohori has officially started working on UMnD.
+  date: 2018-01-01
 - research_line: [1, 2]
   description: We have presented our reseach subject to the NCG Symposium at the TU Delft.
   date: 2017-11-02
