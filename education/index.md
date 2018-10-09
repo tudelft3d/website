@@ -33,7 +33,7 @@ We have a [list of potential topics](msctopics).
 
 <div class="row">
 {% for i in msc %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-xs-6 col-sm-4 col-md-3">
     <div class="thumbnail">
       <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
       <div class="caption">
@@ -62,7 +62,7 @@ We have a [list of potential topics](msctopics).
 
 <div class="row">
 {% for i in sorted_people %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-xs-6 col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
