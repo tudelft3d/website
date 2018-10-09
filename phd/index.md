@@ -11,9 +11,9 @@ permalink: /phd/
 
 <div class="row">
 {% for i in phd reversed %}
-  <div class="col-xs-6 col-sm-4 col-md-3">
-    <div class="thumbnail">
-      <a href="{{ i.link }}"><img src="{{ "/phd/" | append: i.image | prepend: site.baseurl }}"/></a>
+  <div style="display: inline-block; vertical-align: top;">
+    <div class="thumbnail" style="padding: 15px;">
+      <a href="{{ i.link }}"><img src="{{ "/phd/" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
       <div class="caption">
         <h3>
         {% if i.swapnames == False %}
@@ -36,7 +36,7 @@ permalink: /phd/
           <small><a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a></small> 
         {% endif %}
         </h3>
-        <p>{{ i.title }}</p>
+        <p style="max-width: 200px;">{{ i.title }}</p>
       </div>
     </div>
   </div>
