@@ -11,7 +11,7 @@ permalink: /phd/
 
 <div class="row">
 {% for i in phd reversed %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-xs-6 col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/phd/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
@@ -42,7 +42,6 @@ permalink: /phd/
   </div>
 {% endfor %}
 </div>
-
 
 
 
