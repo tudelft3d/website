@@ -9,7 +9,7 @@ The 3D geoinformation research group is part of the [Department of Urbanism](htt
 It focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
 These systems help in environmental modelling, urban planning, crisis management, automated cartographic generalisation, information modelling, modelling of the interior of buildings, etc.
 
-It is a multidisciplinary group (computer scientists, geomatics engineers, and geographers) composed of 3 permanent research staff and several PhD students, postdocs, and visitors.
+It is a multidisciplinary group (computer scientists, geomatics engineers, and geographers) composed of 4 permanent research staff and several PhD students, postdocs, and visitors.
 
 It has a history of successful collaborations with the industry and the government: its research has led to [software]({{ "/code/" |  prepend: site.baseurl }}), standards, and patents for the management of 3D geographic information.
 
