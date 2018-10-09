@@ -55,7 +55,7 @@ Although it is at a very early stage, the tool is already able to provide an int
 
   1. The final report of the project, including a recommended set of IFC guidelines for automated geometric processing, is found [here](https://3d.bk.tudelft.nl/ken/files/18_geobim.pdf).
   2. The additional report that explains the issues around georeferencing IFC models is [here](https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf).
-
+  3. The report that studies the integration between an IFC design and the geological subsurface can be found [here](https://3d.bk.tudelft.nl/pdfs/BIM_Subsurface%20report%20Version%20June%202017.pdf). NB: The title page is Dutch; but the report is written in English.
 
 ## Open-source software
 
