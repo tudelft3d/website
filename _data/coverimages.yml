@@ -81,7 +81,3 @@
 - image: mvstudio.jpg
   description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution.
   webpage: https://github.com/LiangliangNan/MVStudio
-
-- image: masbpy200.jpg
-  description: C++ implementation of the shrinking ball algorithm to estimate the 3D Medial Axis from pointclouds.
-  webpage: https://github.com/tudelft3d/masbcpp
