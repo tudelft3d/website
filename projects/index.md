@@ -53,7 +53,7 @@ permalink: /projects/
 # Completed reseach projects
 
 <div class="row">
-{% assign projects = site.data.projects | sort: 'end' %}
+{% assign projects = site.data.projects | sort: 'end' | reverse %}
 
 {% for i in projects %}
 {% if i.finished == true %}
