@@ -111,12 +111,15 @@
   image: navigation.png
   finished: true
   end: 2015
+  start: 2010
 
 - name:  Big Data Analytics in the Geospatial Domain
   description: Project to develop voxel, point cloud data types, and spatial features of the MonetDB relational database
   webpage: /projects/bigvoxels/
   image: bigvoxels.png
   finished: true
+  start: 2015
+  end: 2016
 
 - name: Indoor Semantic Modeling to Support Path-Finding
   description: Modelling of building semantics for navigation purpose
@@ -124,6 +127,7 @@
   image: INSM.jpg
   finished: true
   end: 2017
+  start: 2010
 
 - name: 3D Cadastres
   description: Working group to establish an operational framework for 3D Cadastres
@@ -138,6 +142,8 @@
   fundingurl: https://www.4tu.nl/bouw/en/LHP2016/
   image: spyunder.jpg
   finished: true
+  start: 2016
+  end: 2017
 
 - name: TUD+TU/e GeoBIM
   description: Bridging the gap between Geo and BIM
