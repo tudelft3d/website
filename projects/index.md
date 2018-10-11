@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <div class="row">
-{% assign projects = site.data.projects | sort: 'name' %}
+{% assign projects = site.data.projects | sort: 'start' | reverse %}
 
 {% for i in projects %}
 {% unless i.finished == true %}
@@ -21,8 +21,23 @@ permalink: /projects/
       <div class="caption">
         <h3><a href="{{ link }}">{{ i.name }}</a>
         <br />
+        {% if i.start %}
+          {% if i.end %}
+            {% if i.start == i.end %}
+              <small>({{ i.start }})</small><br />
+            {% else %}
+              <small>({{ i.start }}-{{ i.end }})</small><br />
+            {% endif %}
+          {% else %}
+            <small>Started {{ i.start }}</small><br />
+          {% endif %}
+        {% else %}
+          {% if i.end %}
+            <small>Ended {{ i.end }}</small><br />
+          {% endif %}
+        {% endif %}
         {% if i.funding %}
-          <small>[funded by <a href="{{ i.fundingurl }}">{{ i.funding }}</a>]</small>
+          <small>Funded by <a href="{{ i.fundingurl }}">{{ i.funding }}</a></small><br />
         {% endif %}
         </h3>
         <p>{{ i.description }}</p>
@@ -38,7 +53,7 @@ permalink: /projects/
 # Completed reseach projects
 
 <div class="row">
-{% assign projects = site.data.projects | sort: 'name' %}
+{% assign projects = site.data.projects | sort: 'end' %}
 
 {% for i in projects %}
 {% if i.finished == true %}
@@ -54,8 +69,23 @@ permalink: /projects/
       <div class="caption">
         <h3><a href="{{ link }}">{{ i.name }}</a>
         <br />
+        {% if i.start %}
+          {% if i.end %}
+            {% if i.start == i.end %}
+              <small>({{ i.start }})</small><br />
+            {% else %}
+              <small>({{ i.start }}-{{ i.end }})</small><br />
+            {% endif %}
+          {% else %}
+            <small>Started {{ i.start }}</small><br />
+          {% endif %}
+        {% else %}
+          {% if i.end %}
+            <small>Ended {{ i.end }}</small><br />
+          {% endif %}
+        {% endif %}
         {% if i.funding %}
-          <small>[funded by <a href="{{ i.fundingurl }}">{{ i.funding }}</a>]</small>
+          <small>Funded by <a href="{{ i.fundingurl }}">{{ i.funding }}</a></small><br />
         {% endif %}
         </h3>
         <p>{{ i.description }}</p>

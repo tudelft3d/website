@@ -1,8 +1,11 @@
 
 - name: EuroSDR GeoBIM
-  description: Geo and BIM integration in Europe. Co-funded project under EuroSDR flag
+  description: Geo and BIM integration in Europe
   webpage: /projects/eurosdr-geobim/
   image: esdr-geobim.jpg
+  funding: EuroSDR + 11 NMAs
+  fundingurl: http://www.eurosdr.net
+  start: 2017
 
 - name: Smart data integration for urban applications
   description: 3D Data interoperability for smart cities
@@ -10,6 +13,7 @@
   funding: AMS
   fundingurl: http://www.ams-institute.org
   image: sdi-ams.jpg
+  start: 2018
 
 - name: Simulation-ready 3D city models
   description: Automatic reconstruction of simulation-ready 3D city models
@@ -18,12 +22,14 @@
   fundingurl: http://www.ams-institute.org
   image: simwind.jpg
   finished: true
+  end: 2017
 
 - name: Noise 3D
   description: Automated reconstruction of 3D input data for noise studies
   webpage: /projects/noise3d/
   funding: RWS
   image: noise3d.png
+  start: 2018
 
 - name: UMnD
   description: Urban modelling in higher dimensions
@@ -31,6 +37,7 @@
   funding: ERC
   fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
   image: umnd.jpg
+  start: 2016
 
 - name: 3D Nederland
   description: "Automatic reconstruction of the whole of the Netherlands: LOD1 buildings + terrain"
@@ -38,6 +45,7 @@
   fundingurl: https://www.kadaster.nl
   webpage: https://github.com/tudelft3d/3dfier
   image: 3dfier.jpg
+  start: 2015
 
 - name: 5D geo-modelling
   description: We integrate 3D geographic data with time and scale as extra dimensions
@@ -46,6 +54,8 @@
   fundingurl: http://www.stw.nl
   image: geo5d.png
   finished: true
+  start: 2011
+  end: 2017
 
 - name: SIMs3D
   description: Smart 3D indoor models to support crisis management in large public buildings.
@@ -53,6 +63,7 @@
   image: SIMs3D.jpg
   funding: STW
   fundingurl: http://www.stw.nl
+  start: 2015
 
 - name: 3D4EM
   description: Design and implementation of an SDI for integrated environmental modelling in 3D
@@ -60,6 +71,7 @@
   funding: STW
   fundingurl: http://www.stw.nl
   image: 3d4em.jpg
+  start: 2015
 
 - name: 3DSM
   description: Point cloud modelling with the 3D Medial Axis Transform
@@ -68,10 +80,13 @@
   fundingurl: http://www.stw.nl
   image: 3dsm.jpg
   finished: true
+  start: 2013
+  end: 2018
 
 - name: CityJSON
   description: JSON-based implementation of CityGML, easy-to-use and compact
   webpage: http://www.cityjson.org
+  start: 2017
   image: cityjson.jpg
 
 - name: Hidden Amsterdam
@@ -80,18 +95,22 @@
   funding: AMS
   fundingurl: http://www.ams-institute.org
   image: haf.png
+  start: 2016
+  end: 2016
   finished: true
 
 - name: Quality control of 3D city models
   description: "Validation and quality control of 3D city models"
   webpage: http://geovalidation.bk.tudelft.nl/val3dity
   image: val3dity.png
+  start: 2013
 
 - name: Navigation for first responders
   description: Path planning for first responders among the moving obstacles caused by different types of disasters
   webpage: /projects/navigation/
   image: navigation.png
   finished: true
+  end: 2015
 
 - name:  Big Data Analytics in the Geospatial Domain
   description: Project to develop voxel, point cloud data types, and spatial features of the MonetDB relational database
@@ -104,22 +123,26 @@
   webpage: /projects/indoor/
   image: INSM.jpg
   finished: true
+  end: 2017
 
 - name: 3D Cadastres
   description: Working group to establish an operational framework for 3D Cadastres
   webpage: http://www.gdmc.nl/3DCadastres/
   image: 3dcadastres.png
+  start: 2001
 
 - name: Spying the underground
   description: AR Visualisation of underground pipes
-  webpage: http://spyunderground.nl/
-  funding: 3TU lighthouse
-  fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
+  webpage: https://www.4tu.nl/bouw/en/LHP2016/Spying%20the%20Underground/
+  funding: 4TU lighthouse
+  fundingurl: https://www.4tu.nl/bouw/en/LHP2016/
   image: spyunder.jpg
   finished: true
 
-- name: GeoBIM
+- name: TUD+TU/e GeoBIM
   description: Bridging the gap between Geo and BIM
   webpage: /projects/geobim/
   image: geobim.jpg
   finished: true
+  start: 2017
+  end: 2018
