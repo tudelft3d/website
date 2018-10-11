@@ -2,8 +2,11 @@
   description: We organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
   date: 2018-10-02
 - research_line: [1, 2, 3]
-  description: Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbournet.
+  description: Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.
   date: 2018-08-30
+- research_line: [1, 2, 3]
+  description: Open lecture at the <a href="http://https://www.arch.nus.edu.sg/activities/news-plus-events/events_ay1819_guestlectures_jantienstoter_230818/">National University of Singapore.</a>.
+  date: 2018-08-24
 - research_line: [2]
   description: "We presented our paper: \"A framework for the representation of two versions of a 3D model in 4D space\" in the 2018 3D GeoInfo Conference"
   date: 2018-10-01
