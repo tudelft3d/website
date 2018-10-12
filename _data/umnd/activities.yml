@@ -1,5 +1,5 @@
 - research_line: [1, 2, 3]
-  description: We organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
+  description: Organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
   date: 2018-10-02
 - research_line: [1, 2, 3]
   description: Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.
@@ -8,34 +8,34 @@
   description: Open lecture at the <a href="http://https://www.arch.nus.edu.sg/activities/news-plus-events/events_ay1819_guestlectures_jantienstoter_230818/">National University of Singapore.</a>.
   date: 2018-08-24
 - research_line: [2]
-  description: "We presented our paper: \"A framework for the representation of two versions of a 3D model in 4D space\" in the 2018 3D GeoInfo Conference"
+  description: "Presented paper: \"A framework for the representation of two versions of a 3D model in 4D space\" in the 2018 3D GeoInfo Conference"
   date: 2018-10-01
 - research_line: [1]
-  description: "We presented our paper: \"A proposal for an improved transportation model in CityGML\" in the 2018 3D GeoInfo Conference"
+  description: "Presented paper: \"A proposal for an improved transportation model in CityGML\" in the 2018 3D GeoInfo Conference"
   date: 2018-10-01
 - research_line: [1, 2, 3]
-  description: We organised the pre-conference workshop "Automated reconstruction of 3D City Models and using them in urban applications" for the 2018 3D GeoInfo Conference in Delft.
+  description: Organised the pre-conference workshop "Automated reconstruction of 3D City Models and using them in urban applications" for the 2018 3D GeoInfo Conference in Delft.
   date: 2018-09-30
 - research_line: [3]
-  description: "We published a new book chapter: \"Modeling Cities and Landscapes in 3D with CityGML\""
+  description: "Published book chapter: \"Modeling Cities and Landscapes in 3D with CityGML\""
   date: 2018-09-20
 - research_line: [3]
-  description: "We published a new paper: \"Processing BIM and GIS Models in Practice: Experiences and Recommendations from a GeoBIM Project in The Netherlands\""
+  description: "Published paper: \"Processing BIM and GIS Models in Practice: Experiences and Recommendations from a GeoBIM Project in The Netherlands\""
   date: 2018-08-02
 - research_line: [2]
-  description: We presented our new paper regarding the "Topological reconstruction of 3D city models with preservation of semantics" in AGILE 2018.
+  description: "Presented paper: \"Topological reconstruction of 3D city models with preservation of semantics\" in AGILE 2018."
   date: 2018-06-14
 - research_line: [1, 2, 3]
-  description: We (co)organised a successfull international symposium on <a href="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>.
+  description: (Co)organised a successfull international symposium on <a href="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>.
   date: 2018-03-15
 - research_line: [2]
   description: Stelios Vitalis participated in the 3rd week of the Intensive Research Program in Discrete, Combinatorial and Computational Geometry.
   date: 2018-05-04
 - research_line: [3]
-  description: "We published a new paper: \"Essential Means for Urban Computing: Specification of Web-Based Computing Platforms for Urban Planning, a Hitchhiker’s Guide\""
+  description: "Published paper: \"Essential Means for Urban Computing: Specification of Web-Based Computing Platforms for Urban Planning, a Hitchhiker’s Guide\""
   date: 2018-03-29
 - research_line: [1]
-  description: "We published a new paper: \"Val3dity: validation of 3D GIS primitives according to the international standards\"."
+  description: "Published paper: \"Val3dity: validation of 3D GIS primitives according to the international standards\"."
   date: 2018-02-23
 - research_line: [2]
   description: Stelios Vitalis successfully passed his Go/NoGo meeting after submitting his research proposal.
@@ -44,16 +44,16 @@
   description: Ken Arroyo Ohori has officially started working on UMnD.
   date: 2018-01-01
 - research_line: [1, 2]
-  description: We presented our reseach subject to the NCG Symposium at the TU Delft.
+  description: Presented our reseach subject to the NCG Symposium at the TU Delft.
   date: 2017-11-02
 - research_line: [3]
-  description: "We published our new paper \"Towards an integration of GIS and BIM data: what are the geometric and topological issues?\" in 3D Geoinfo 2017."
+  description: "Published paper: \"Towards an integration of GIS and BIM data: what are the geometric and topological issues?\" in 3D Geoinfo 2017."
   date: 2017-10-17
 - research_line: [2]
-  description: Our contribusion on QGIS 3D visualisation has been accepted.
+  description: Our contribution to QGIS 3D visualisation was accepted.
   date: 2017-10-10
 - research_line: [2]
-  description: We presented a 3D Talk on "CityGML in GDAL introduction".
+  description: Presented a 3D Talk on "CityGML in GDAL introduction".
   date: 2017-09-20
 - research_line: [1]
   description: Anna Labetski successfully passed her Go/NoGo meeting after submitting her research proposal.
@@ -62,7 +62,7 @@
   description: Stelios Vitalis visited FOSS4G Europe 2017 in Paris / Marne-le-Vallee in order to test the new GDAL capabilities for parsing CityGML.
   date: 2017-07-22
 - research_line: [3]
-  description: We published a new paper on "Visualising higher-dimensional space-time and space-scale objects as projections to R3".
+  description: "Published paper: \"Visualising higher-dimensional space-time and space-scale objects as projections to R3\"."
   date: 2017-07-03
 - research_line: [2]
   description: Stelios Vitalis visited the "Geometry Understanding in Higher Dimensions" symposium in Paris.
@@ -71,8 +71,8 @@
   description: Anna Labetski and Stelios Vitalis participated in the TU Delft Research Exhibit 2017.
   date: 2017-06-07
 - research_line: [1, 2]
-  description: We presented our research in the PhD symposium with the Geomatics department of TU Munchen.
+  description: Presented our research in the PhD symposium with the Geomatics department of TU Munchen.
   date: 2017-03-24
 - research_line: [1]
-  description: We presented our new paper on "Generalising 3D Buildings from LoD2 to LoD1" at GISRUK 2017 in Manchester, UK.
+  description: "Presented paper: \"Generalising 3D Buildings from LoD2 to LoD1\" at GISRUK 2017 in Manchester, UK."
   date: 2017-01-13
