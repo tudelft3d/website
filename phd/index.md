@@ -13,7 +13,7 @@ permalink: /phd/
 {% for i in phd reversed %}
   <div style="display: inline-block; vertical-align: top;">
     <div class="thumbnail" style="padding: 15px;">
-      <a href="{{ i.link }}"><img src="{{ "/phd/" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
+      <a href="{{ i.doi }}"><img src="{{ "/phd/" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
       <div class="caption">
         <h3>
         {% if i.swapnames == False %}
