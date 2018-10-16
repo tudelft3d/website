@@ -1,3 +1,10 @@
+- name: 3D BAG
+  description: 3D version of the BAG data set
+  webpage: /projects/3dbag/
+  image: 3dbag_square.png
+  funding: ""
+  fundingurl: ""
+  start: 2017
 
 - name: EuroSDR GeoBIM
   description: Geo and BIM integration in Europe

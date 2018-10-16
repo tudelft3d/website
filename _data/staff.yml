@@ -36,6 +36,8 @@
   projects:
     - name: noise3d
       role: Researcher
+    - name: 3dbag
+      role: Developer
   description: |+
     Currently working on:
 
@@ -174,6 +176,8 @@
   projects:
     - name: umnd
       role: Associate-prof.
+    - name: 3dbag
+      role: Associate-prof.
 
 - surname: Peters
   name: Ravi
@@ -217,6 +221,8 @@
     - name: noise3d
       role: Professor
     - name: sdi-ams
+      role: Professor
+    - name: 3dbag
       role: Professor
 
 - surname: Nan
