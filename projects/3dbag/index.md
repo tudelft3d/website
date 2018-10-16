@@ -29,6 +29,8 @@ The data set along with its documentation is found on the project website [3dbag
 
 For creating the 3D BAG we wrote **bag3d**, which is an application that uses [3dfier](https://github.com/tudelft3d/3dfier) for extruding the building footprints to LoD1 models. It is designed to run regularly as an automated process (eg. with a cron job), hence keeping the 3D BAG in line with the BAG updates. It is a multithreaded application, and it can process the whole Netherlands in a reasonable amount of time. Although bag3d was made for the Dutch BAG data set (as its name implies), we wrote an [extensive documentation](https://tudelft3d.github.io/bag3d/) for making it easier to adapt to other data sets.
 
+The source code of the software is open and it is located [here](https://github.com/tudelft3d/bag3d).
+
 
 - - - 
 
