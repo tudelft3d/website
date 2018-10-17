@@ -2,8 +2,8 @@
   description: 3D version of the BAG data set
   webpage: /projects/3dbag/
   image: 3dbag_square.jpg
-  funding: ""
-  fundingurl: ""
+  funding: ERC
+  fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
   start: 2017
 
 - name: EuroSDR GeoBIM
