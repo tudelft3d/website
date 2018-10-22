@@ -11,6 +11,16 @@ permalink: /education/msctopics/
 
 - - -
 
+## Handling massive 3Di datasets in 3D City Database
+
+The project is about exploring 3DcityDB for managing massive input and output data for [3Di](http://www.3di.nu).
+3Di Water management is a web based application for detailed hydraulic computations using high resolution datasets.
+The aim is to: (1) create a data warehouse (i.e. a central repository) for 3D datasets used in hydraulic modelling by integrating 3DCityDB with 3Di, (2) use the integrated 3D city and 3Di area models for different applications such as visualization.
+ 
+The project is in collaboration with Nelen en Schuurmans, Utrecht.
+Prior knowledge of databases and programming in Python or C/C++ is required.
+
+**Contact:** [Jonas van Schrojenstein](mailto:jonas.vanschrojenstein@nelen-schuurmans.nl) and [Kavisha](http://3d.bk.tudelft.nl/kavisha)
 
 
 ## Sensor standards overview
