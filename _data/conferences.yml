@@ -1,3 +1,15 @@
+- name: 22nd AGILE International Conference on Geographic Information Science
+  url: https://agile-online.org/conference-2019
+  place: Limassol, Cyprus
+  start: 2019-06-17
+  end: 2018-06-20
+  short: AGILE 2019
+  milestones:
+    - name: Full paper submission deadline
+      date: 2018-11-30
+    - name: Short paper and poster submissions deadline
+      date: 2019-01-01
+
 - name: Point Cloud Processing 2018
   url: https://3d.bk.tudelft.nl/events/pcp2018/
   place: Delft, The Netherlands
@@ -11,7 +23,7 @@
   end: 2018-06-07
 
 - name: 13th 3D Geoinfo Conference 
-  url: https://www.utwente.nl/en/3dgeoinfo2018/
+  url: https://3dgeoinfo2018.nl
   place: Delft, the Netherlands
   start: 2018-10-01
   end: 2018-10-02
