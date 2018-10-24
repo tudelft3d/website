@@ -11,6 +11,18 @@ permalink: /education/msctopics/
 
 - - -
 
+## Versioning of 3D spatial data
+
+[![Versioning comic](img/version.jpg)](https://www.geeksaresexy.net/2018/08/26/versioning-important-comic/)
+
+This topic is about the investigation of versioning mechanisms for 3D spatial data, with an emphasis on city models and datasets produced by municipalities. The main aim of the project is to implement existing versioning solutions across different 3D exchange formats and evaluate them. It is, also, about proposing new methods to handle the issue.
+
+As part of the thesis you will have to identify specific use cases, such as the updating of existing 3D city models with new data in a way that ensures that revisions are maintained. You will have to communicate with stakeholders, such as municipalities or organisations that deal with multiple iterations of 3D data.
+
+Knowledge of programming in Python is required.
+
+**Contact:** [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+
 ## Handling massive 3Di datasets in 3D City Database
 
 The project is about exploring 3DcityDB for managing massive input and output data for [3Di](http://www.3di.nu).
