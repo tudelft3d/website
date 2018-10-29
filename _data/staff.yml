@@ -38,6 +38,8 @@
       role: Researcher
     - name: 3dbag
       role: Developer
+    - name: inous
+      role: Developer
   description: |+
     Currently working on:
 
@@ -178,6 +180,9 @@
       role: Associate-prof.
     - name: 3dbag
       role: Associate-prof.
+    - name: inous
+      role: Associate-prof.
+
 
 - surname: Peters
   name: Ravi

@@ -66,5 +66,5 @@ Although it is at a very early stage, the tool is already able to provide an int
 ## Team
 
 <div class="row">
-    {% include project_team.html project_name='3dbag' %} 
+    {% include project_team.html project_name='inous' %} 
 </div>
