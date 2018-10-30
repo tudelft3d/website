@@ -1,9 +1,9 @@
 
 - name: iNous
-  description: INdoor/OUdoor Spatial data services
+  description: Building an Eco-System for Indoor Spatial Information
   webpage: /projects/inous/
-  image: inous-logo.jpg
-  funding: Korean governments
+  image: inous-logo.png
+  funding: Korean gov
   start: 2018
 
 - name: 3D BAG
