@@ -1,3 +1,12 @@
+- name: GISRUK 2019
+  url: http://www.newcastle.gisruk.org/
+  place: Newcastle, UK
+  start: 2019-04-23
+  end: 2019-04-26
+  milestones:
+    - name: Paper submission deadline
+      date: 2019-01-18
+
 - name: 26th ACM SIGSPATIAL International Conference on Advances in GIS
   url: https://sigspatial2018.sigspatial.org
   place: Seattle, USA
@@ -18,7 +27,7 @@
   milestones:
     - name: Full paper submission deadline
       date: 2019-01-17
-    - name: Abstract submissions deadline
+    - name: Abstract submission deadline
       date: 2019-02-04
 
 - name: 19th International Conference on Computational Science and Its Applications
@@ -27,7 +36,7 @@
   start: 2019-07-01
   end: 2019-07-04
   milestones:
-    - name: Abstract and Papers submissionsssion deadline
+    - name: Abstract and Papers submission deadline
       date: 2019-02-17
 
 - name: 22nd AGILE International Conference on Geographic Information Science
