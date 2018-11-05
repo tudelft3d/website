@@ -8,7 +8,7 @@ permalink: /opendata/
 
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <a href="3dfier"><img src="{{ "/img/code/3dfier.jpg" | prepend: site.baseurl }}"/></a>
+      <a href="3dfier"><img src="{{ "/img/code/3dfier.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>3D city models
         <br/>

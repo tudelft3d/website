@@ -48,6 +48,10 @@ I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions
   projects:
     - name: noise3d
       role: Researcher
+    - name: 3dbag
+      role: Developer
+    - name: inous
+      role: Developer
   description: |+
     Currently working on:
 
@@ -186,10 +190,15 @@ I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions
   projects:
     - name: umnd
       role: Associate-prof.
+    - name: 3dbag
+      role: Associate-prof.
+    - name: inous
+      role: Associate-prof.
+
 
 - surname: Peters
   name: Ravi
-  title: Geodata scientist, Postdoc
+  title: Postdoc
   photo: ravi.jpg
   homepage: tudelft.nl/rypeters
   email: r.y.peters@tudelft.nl
@@ -208,8 +217,8 @@ I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions
   For this work I received the Tienstra award.
   After my PhD I worked several years at ITC, University of Twente (2004-2009) and led there a research group on “automated generalisation”.
   I combine my professorship with jobs as researcher at both the [Kadaster](http://www.kadaster.nl/web/english.htm) and [Geonovum](http://www.geonovum.nl).
-  I am chair of the [EuroSDR](www.eurosdr.net) Commission “Data Modelling AND Processing” and leader of the [national 3D SIG](http://www.geonovum.nl/onderwerpen/3d-geo-informatie) (Special Interest Group) as well as of the [EuroSDR 3D SIG](http://www.eurosdr.net/research/project/eurosdr-special-interest-group-3d-3d-sig).
-  Since March 2015, I am vice-chair of the OGC 3D Information Management Domain Working Group [(OGC 3DIM DWG)](http://www.opengeospatial.org/projects/groups/3dimdwg).
+  I am chair of the [EuroSDR](www.eurosdr.net) 3D Special Interest Group [EuroSDR 3D SIG](http://www.eurosdr.net/research/project/eurosdr-special-interest-group-3d-3d-sig).
+  Since March 2015, I am vice-chair of the Open Geospatial COnsortium 3D Information Management Domain Working Group [(OGC 3DIM DWG)](http://www.opengeospatial.org/projects/groups/3dimdwg).
   In December 2016, I became a Principal Investigator at the [Amsterdam Institute of Advanced Metropolitan Solutions](http://www.ams-amsterdam.com)
 
   My research interests are 3D, automated generalization and information modelling.
@@ -217,7 +226,7 @@ I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions
   In addition I received a Starting Grant from the European Research Council for my proposal Urban Modelling in higher dimensions ([ERC](https://erc.europa.eu/sites/default/files/document/file/erc_2015_stg_results_all_domains.pdf)).
   I am (co)author of over 350 academic and professional articles and appeared several times in regional and national media.
   I am a member of the editorial boards of several journals: [CEUS](http://www.journals.elsevier.com/computers-environment-and-urban-systems/), the [Geography Journal](http://www.hindawi.com/journals/geography/) and the [International Journal of 3D Information Modelling](http://www.irma-international.org/journal/international-journal-information-modeling-ij3dim/41967/)"
-  pagetext: These are my publications since 2013. My older publications can be seen [here](https://repository.tudelft.nl/islandora/search/author%3Astoter%2Cj.e.?sort=mods_originInfo_dateSort_dt%20asc).
+  pagetext: These are my publications since 2013. My older publications can be seen [here](https://pure.tudelft.nl/portal/en/persons/je-stoter(1f6b45c5-44ba-4745-a730-d5d3e627e3db)/publications.html).
   photo: jantien.jpg
   email: j.e.stoter@tudelft.nl
   phone: +31 15 27 81664
@@ -229,6 +238,8 @@ I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions
     - name: noise3d
       role: Professor
     - name: sdi-ams
+      role: Professor
+    - name: 3dbag
       role: Professor
 
 - surname: Nan

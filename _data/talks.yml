@@ -1,4 +1,40 @@
 
+- title: "3D Den Haag"
+  name: "Kim Langenberg"
+  room: "Not known yet"
+  date: 2018-11-23
+  time: 11:00-12:00
+
+- title: "First steps towards linking semantic 3D city modelling and multi-domain co-simulation for energy planning at urban scale"
+  name: "[Edmund Wid, Austrian Intitute of Technology](https://www.ait.ac.at/ueber-das-ait/researcher-profiles/?tx_aitprofile_pi1%5Bname%5D=Widl-Edmund)"
+  room: "Room T"
+  date: 2018-11-09
+  time: 12:30-14:00
+
+- title: "Image-based method for mobile laser scan registration (Student P5)"
+  name: "Antria Christodoulou"
+  room: "Room C"
+  date: 2018-10-30
+  time: 12:45-14:30
+
+- title: "3D mathematical morphology on voxelized point clouds for outlier detection (Student P5)"
+  name: "Simon Griffioen"
+  room: "Room Z"
+  date: 2018-11-06
+  time: 12:45-14:30
+
+- title: "Urban building energy modeling using 3d city model and minimizing uncertainty through bayesian inference - a case study focus on amsterdam residential heating demand simulation (Student P5)"
+  name: "Cheng-Kai Wang"
+  room: "Room R"
+  date: 2018-10-31
+  time: 09:00-10:30
+
+- title: "Simplification and Visualization of BIM models through Hololens (Student P5)"
+  name: "Panos Karydakis"
+  room: "Room C"
+  date: 2018-10-29
+  time: 14:45-16:30
+
 - title: "Rotterdam 3D"
   name: "Timo Erinkveld"
   room: "01.West.270"

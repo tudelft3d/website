@@ -27,7 +27,7 @@
   description: Takes 2D GIS datasets and "3dfies" them by lifting each polygon to its height (obtained with LiDAR)
   github: https://github.com/tudelft3d/3dfier
   video: https://vimeo.com/181421237
-  image: 3dfier.jpg
+  image: 3dfier.png
 
 - name: pprepair
   description: Planar partition repair. It ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.

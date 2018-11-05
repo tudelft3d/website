@@ -76,10 +76,13 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
 
 ## Events
 
-The following is the list of events that we participated or organised related to the UMnD project:
+The following is the list of events that we participated in or organised related to the UMnD project:
 
 ### 2018
 
+- [3D GeoInfo 2018 Conference, TU Delft, 1 and 2 October](https://3dgeoinfo2018.nl/)
+- [3D GeoInfo 2018 pre-conference workshop, TU Delft, 30 September](https://3dgeoinfo2018.nl/workshop.html)
+- [Urbanism PhD Day 2018, TU Delft, 15 June](https://www.urbanism.nl)
 - [International Symposium on Point Cloud Processing, TU Delft, 13 March](https://3d.bk.tudelft.nl/events/pcp2018/)
 
 ### 2017

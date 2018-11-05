@@ -5,8 +5,8 @@
 # - type: "Upcoming event:"
 #   description: Point Cloud Processing 2018. <a href="/events/pcp2018" class="alert-link">More information</a>
 
-- type: "Upcoming events:"
-  description: <a href="https://3dgeoinfo2018.nl" class="alert-link">3D Geoinfo Conference 2018</a> and the <a href="https://3dgeoinfo2018.nl/workshop.html" class="alert-link">3D Geoinfo pre-conference workshop on Automated reconstruction of 3D City Models and using them in urban applications</a>
+# - type: "Upcoming events:"
+#   description: <a href="https://3dgeoinfo2018.nl" class="alert-link">3D Geoinfo Conference 2018</a> and the <a href="https://3dgeoinfo2018.nl/workshop.html" class="alert-link">3D Geoinfo pre-conference workshop on Automated reconstruction of 3D City Models and using them in urban applications</a>
 
 # - type: "Postdoc available:"
 #   description: about the integration of Geo and BIM. <a href="/jobs/postdoc2017/" class="alert-link">More information</a>

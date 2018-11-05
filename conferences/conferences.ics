@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:{{ i.name }}
 DTSTAMP;TZID=Europe/Amsterdam:{{ i.start | date: '%Y%m%d' }}
 DTSTART;TZID=Europe/Amsterdam:{{ i.start | date: '%Y%m%d' }}
-DTEND;TZID=Europe/Amsterdam:{{ i.end | date: '%Y%m%d' }}
+DTEND;TZID=Europe/Amsterdam:{{ i.end | date: '%s' | plus: 86400 | date: '%Y%m%d' }}
 DESCRIPTION:Visit: {{ i.url }}
 LOCATION:{{ i.place }}
 BEGIN:VALARM
@@ -45,7 +45,7 @@ SUMMARY:[{{ i.short }}] {{ j.name }}
 {% endif %}
 DTSTAMP;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
 DTSTART;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
-DTEND;TZID=Europe/Amsterdam:{{ j.date | date: '%Y%m%d' }}
+DTEND;TZID=Europe/Amsterdam:{{ j.date | date: '%s' | plus: 86400 | date: '%Y%m%d' }}
 DESCRIPTION:Milestone for {{i.name}}. Visit: {{ i.url }}
 BEGIN:VALARM
 TRIGGER:-PT3H

@@ -1,0 +1,51 @@
+
+- surname: Peters
+  name: Ravi
+  doi: http://dx.doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243
+  month: March
+  isbn: 978-94-6186-899-2
+  pdf: https://3d.bk.tudelft.nl/rypeters/pdfs/thesis_web.pdf
+  title: Geographical point cloud modelling with the 3D medial axis transform
+  year: 2018
+  image: ravi.svg
+
+
+- surname: Biljecki
+  name: Filip
+  doi: http://dx.doi.org/10.4233/uuid:f12931b7-5113-47ef-bfd4-688aae3be248
+  link: https://filipbiljecki.com/phd.html
+  isbn: 9789461868008
+  pdf: http://filipbiljecki.com/phd/dissertationFilipBiljecki.pdf
+  title: Level of detail in 3D city models
+  year: 2017
+  image: filip.svg
+
+
+- surname: Liu
+  name: Liu
+  isbn: 978-94-92516-93-0
+  pdf: https://repository.tudelft.nl/islandora/object/uuid:b5097b45-9fad-4bda-8c12-1b569e6eaf6f/datastream/OBJ/download
+  title: "Indoor Semantic Modelling for Routing: The Two-Level Routing Approach for Indoor Navigation"
+  doi: http://resolver.tudelft.nl/uuid:b5097b45-9fad-4bda-8c12-1b569e6eaf6f
+  year: 2017
+  image: liu.jpg
+
+
+- surname: Arroyo Ohori
+  name: Ken
+  doi: http://dx.doi.org/10.4233/uuid:39c5b176-398b-4a6f-8578-1dc46e9f37ed
+  link: https://3d.bk.tudelft.nl/ken/en/thesis/
+  isbn: 978-1-326-59638-5
+  pdf: https://3d.bk.tudelft.nl/ken/files/16_thesis.pdf
+  title: Higher-dimensional modelling of geographic information
+  year: 2016
+  image: ken.jpg
+
+
+- surname:  Wang
+  name:  Zhiyong
+  doi: http://doi.org/10.4233/uuid:2ef62c2a-a587-4a02-b7f0-9df62e9b0886
+  pdf: https://3d.bk.tudelft.nl/pdfs/Thesis_final_Zhiyong.pdf
+  title: Path planning for first responders in the presence of moving obstacles
+  year: 2015
+  image: zhiyong.jpg

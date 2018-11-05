@@ -1,5 +1,9 @@
 # Projects
 
+- image: 3dbag_square.jpg
+  description: "3D Basisregistratie Adressen en Gebouwen"
+  webpage: /projects/3dbag/
+
 - image: simwind.jpg
   description: "Automatic reconstruction of simulation-ready 3D city models"
   webpage: /projects/simwind/
@@ -8,25 +12,17 @@
   description: "CityJSON official homepage: help, tips, datasets, etc."
   webpage: http://www.cityjson.org
 
-- image: citygml-logo.png
-  description: "CityGML official homepage: help, tips, datasets, etc."
-  webpage: https://www.citygml.org
+# - image: citygml-logo.png
+#   description: "CityGML official homepage: help, tips, datasets, etc."
+#   webpage: https://www.citygml.org
 
 - image: umnd.jpg
   description: Urban modelling in higher dimensions
   webpage: https://3d.bk.tudelft.nl/projects/umnd/
 
-# - image: SIMs3D.jpg
-#   description: Smart 3D indoor models to support crisis management in large public buildings
-#   webpage: http://www.sims3d.net/
-
 - image: haf.png
   description: We help find 'hidden parts' of Amsterdam with 3D city models
   webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
-
-# - image: spyunder.jpg
-#   description: AR Visualisation of underground pipes
-#   webpage: http://spyunderground.nl/
 
 - image: cartoon.png
   description: A national 3D geoinformation dataset for urban applications
@@ -35,10 +31,6 @@
 - image: val3dity.png
   description: Quality control of 3D city models
   webpage: http://geovalidation.bk.tudelft.nl/val3dity
-
-# - image: bigvoxels.png
-#   description: Big Data Analytics in the Geospatial Domain
-#   webpage: /projects/bigvoxels/
 
 - image: 3d4em.jpg
   description: Design and implementation of an SDI for integrated environmental modelling in 3D
@@ -52,17 +44,21 @@
   description: 3DSM
   webpage: /projects/3dsm/
 
-# - image: navigation.png
-#   description: Navigation for first responders
-#   webpage: /projects/navigation/
-
-# - image: INSM.jpg
-#   description: Indoor Semantic Modeling to Support Path-Finding
-#   webpage: /projects/indoor/
-
 - image: geobim.jpg
   description: GeoBIM
   webpage: /projects/geobim/
+
+- image: noise3d.png
+  description: Automated reconstruction of 3D input data for noise studies
+  webpage: /projects/noise3d/
+
+- image: sdi-ams.jpg
+  description: 3D Data interoperability for smart cities
+  webpage: /projects/smartdi-ams/
+
+- image: esdr-geobim.jpg
+  description: Geo and BIM integration in Europe
+  webpage: /projects/eurosdr-geobim/
 
 # Code
 
@@ -70,13 +66,9 @@
   description: A CityGML viewer for Mac
   webpage: https://github.com/tudelft3d/azul
 
-- image: citygml2objs-small.png
-  description: CityGML2OBJs
-  webpage: https://github.com/tudelft3d/CityGML2OBJs
-
-# - image: random3dcity.png
-#   description: Random3Dcity
-#   webpage: https://github.com/tudelft3d/Random3Dcity
+- image: polyfit.jpg
+  description: Piecewise planar object (e.g., buildings) reconstruction from point clouds.
+  webpage: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
 
 - image: prepair.png
   description: prepair
@@ -86,6 +78,10 @@
   description: pprepair
   webpage: https://github.com/tudelft3d/pprepair
 
-- image: 3dfier.jpg
+- image: 3dfier.png
   description: Automatic reconstruction of the whole of the Netherlands
   webpage: https://github.com/tudelft3d/3dfier
+
+- image: mvstudio.jpg
+  description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution.
+  webpage: https://github.com/LiangliangNan/MVStudio

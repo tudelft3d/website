@@ -11,6 +11,28 @@ permalink: /education/msctopics/
 
 - - -
 
+## Versioning of 3D spatial data
+
+[![Versioning comic](img/version.jpg)](https://www.geeksaresexy.net/2018/08/26/versioning-important-comic/)
+
+This topic is about the investigation of versioning mechanisms for 3D spatial data, with an emphasis on city models and datasets produced by municipalities. The main aim of the project is to implement existing versioning solutions across different 3D exchange formats and evaluate them. It is, also, about proposing new methods to handle the issue.
+
+As part of the thesis you will have to identify specific use cases, such as the updating of existing 3D city models with new data in a way that ensures that revisions are maintained. You will have to communicate with stakeholders, such as municipalities or organisations that deal with multiple iterations of 3D data.
+
+Knowledge of programming in Python is required.
+
+**Contact:** [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+
+## Handling massive 3Di datasets in 3D City Database
+
+The project is about exploring 3DcityDB for managing massive input and output data for [3Di](http://www.3di.nu).
+3Di Water management is a web based application for detailed hydraulic computations using high resolution datasets.
+The aim is to: (1) create a data warehouse (i.e. a central repository) for 3D datasets used in hydraulic modelling by integrating 3DCityDB with 3Di, (2) use the integrated 3D city and 3Di area models for different applications such as visualization.
+ 
+The project is in collaboration with Nelen en Schuurmans, Utrecht.
+Prior knowledge of databases and programming in Python or C/C++ is required.
+
+**Contact:** [Jonas van Schrojenstein](mailto:jonas.vanschrojenstein@nelen-schuurmans.nl) and [Kavisha](http://3d.bk.tudelft.nl/kavisha)
 
 
 ## Sensor standards overview
@@ -23,7 +45,7 @@ Different standards organizations are working on standards related to sensors an
 
 This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
 
-*Contacts:* [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 ## Moving objects on the Web
 
@@ -32,7 +54,7 @@ Describing trajectories and paths of moving objects requires a different approac
 
 This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
 
-*Contacts:* [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 
 ## Develop a framework for sharing sensor data
@@ -52,7 +74,7 @@ A practical case for the study could be the [Base Registry Underground](https://
 
 This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
 
-*Contacts:* [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 
 - - -
@@ -73,8 +95,7 @@ The project would go on to explore the advantages and disadvantages of working w
 
 This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
 
-
-*Contacts:* [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
 
@@ -87,7 +108,7 @@ The interoperability of 3D city models (in [CityGML](https://www.citygml.org)) a
 Many software tools exist to manage CityGML and IFC data. The aim of this project is to design and test workflows for conversions from CityGML to IFC and vice versa without loss of quality of the data (in geometry or semantics), through existing software’s import and export functions.
 In collaboration with [AMS](https://www.ams-institute.org) and [ISPRS](http://www.isprs.org)
 
-*Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
 ## Integrated 3D geo-information for Building permissions issuing
@@ -97,7 +118,7 @@ In collaboration with [AMS](https://www.ams-institute.org) and [ISPRS](http://ww
 The aim of the project is to design a platform for automatically checking building information models (BIM) against city regulations. Through analysing the requirements and needs for building permissions (in Europe), the characteristics of the needed information must be established. Procedures, tools and methodologies need to be defined to automatically check a building design against spatial regulations (especially height regulations).
 In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
 
-*Contacts:* [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
 
@@ -113,7 +134,7 @@ Knowledge of a programming language like python is required. You should also be 
 
 The topic is done in collaboration with Rijkswaterstaat.
 
-*Contacts:* [Balázs Dukai](https://3d.bk.tudelft.nl/bdukai/) and [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
+**Contact:** [Balázs Dukai](https://3d.bk.tudelft.nl/bdukai/) and [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
 
 - - -
 
@@ -134,7 +155,7 @@ There is an emerging standard about the tiling of 3D GIS datasets ([3D Tiles](ht
 
 Knowledge of Python and of web technologies (javascript; although that can be learned with the project) is enough.
 
-*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
 
 - - -
 
@@ -155,7 +176,7 @@ The addon should be able to:
 
 Knowledge of Python is enough.
 
-*Contacts:* [Stelios Vitalis](mailto:s.vitalis@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+**Contact:** [Stelios Vitalis](mailto:s.vitalis@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -230,7 +251,7 @@ As a starting point the [3D medial-axis transform (MAT)](https://3d.bk.tudelft.n
 
 Prior knowledge of programming in Python or C++ is required.
 
-*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -251,7 +272,7 @@ The topic involved building on our work with the [3D medial-axis transform (MAT)
 
 It is possible to use Python for this project, although some knowledge of C++ would surely help.
 
-*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -271,24 +292,8 @@ The aim of this MSc project is to further develop some lacking features of 3dfie
 
 These topics can be done with Python as a post-processing of 3dfier.
 
-*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl)
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl)
 
-
-- - -
-
-## Smart weather data filtering using a 3D city model
-
-<div class="row"><div class="col-sm-12">
-<img src="img/netatmo.png" />
-</div></div>
-
-[Netatmo](https://www.netatmo.com/) sells low-cost personal weather stations that anyone can buy, and so there are now close to [1000 stations](https://weathermap.netatmo.com) in The Hague, Delft and the surrounding areas! By default, Netatmo owners share their data publicly, but like all crowdsourced datasets, it is all quite messy. The stations' locations are only roughly known, some outdoor modules are in the sunlight (at certain times), have different exposure to the wind, etc.
-
-The aim of the project is to *improve the dataset by using the 3D model of The Hague to filter the data in a smart way*. For instance, maybe we can find out if some of the stations are not located in the places where they say they are, or maybe some of the stations' readings are reliable only during certain periods of the day due to the sunlight hitting them directly.
-
-For this project, the student should be able to program well enough to read a CityGML model and to do analyses with geometric operations (such as casting shadows). C++ programming would be ideal but any other language should be good enough.
-
-*Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori) or Alexander Wandl
 
 - - -
 
@@ -300,9 +305,6 @@ Visualization is an important and complex issue in the context of 3D city models
 The knowledge of programming in C++ is required.
 
 *Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
 
 - - -
 
@@ -331,7 +333,7 @@ The student would have to focus on automatically applying the algorithms only wh
 
 The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but probably possible to make do with Python.
 
-*Contacts:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters)
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters)
 
 
 - - -
@@ -349,7 +351,7 @@ We therefore believe that using a triangulation as a base structure is an intuit
 
 The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that needs to be extended has been developed in C++, thus the knowledge of C++---or a strong desire to learn it---is necessary.
 
-*Contact:* [Ken Arroyo Ohori](http://tudelft.nl/kenohori)
+**Contact:** [Ken Arroyo Ohori](http://tudelft.nl/kenohori)
 
 
 - - -
@@ -364,7 +366,7 @@ We have developed a 3D skeleton-based approach (part of that [research project](
 
 Knowledge of Python and FME is sufficient.
 
-*Contacts:* [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 

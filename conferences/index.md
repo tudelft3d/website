@@ -11,7 +11,7 @@ This is not meant to be an exhaustive list of all GIS conferences. -->
 <div class="row">
   <div class="col-md-12">
   <p>
-    Add this <a href="http://3d.bk.tudelft.nl/conferences/conferences.ics">ICS file</a> to your calendar application in order to track conference dates and their deadlines. It is automatically updated.
+    Add this <a href="conferences.ics">ICS file</a> to your calendar application in order to track conference dates and their deadlines. It is automatically updated.
     </p>
     </div>
 </div>
