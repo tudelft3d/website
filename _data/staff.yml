@@ -18,7 +18,19 @@
   photo: francesca.jpg
   email: f.noardo@tudelft.nl
   homepage: 3d.bk.tudelft.nl/fnoardo
-  description: "Integration of IFC and CityGML"
+  description: "I am a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).
+I work towards the integration of multi-source data in particular, detailed 3D models (from survey or from design) in interoperable 3D maps, having semantics (meaning and descriptions) from open standards and correct geometry. The inclusion of different levels-of-detail, time, extra information (energy, history, functions, sensor data…) make such maps increasingly powerful to analyse the city (e.g. noise, air quality, urban flooding), visualise effects of changes, communicate, educate.
+I envisage the concrete employment of such technology for smart cities applications.
+
+
+I am now working in projects aiming at the integration of 3D geoinformation with Building Information Models (BIM).
+
+
+I had my MSc in Architecture (Restoration and Enhancement) from the Politecnico di Torino (Italy) (2012), where I also obtained my PhD in Cultural Heritage (2016), during which (and until may 2018) my research was especially directed at the use of open standard data models and open technologies to archive high-level-of-detail and semantic information in 3D digital maps.
+
+
+I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions/comm4/wg2.html): Ontologies, Semantics, and Knowledge Representation for Geospatial Information of the International Society of Photogrammetry and Remote Sensing (ISPRS).
+"
   projects:
     - name: esdr-geobim
       role: Postdoc
