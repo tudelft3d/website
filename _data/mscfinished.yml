@@ -2,6 +2,13 @@
 
 - surname: Griffioen
   name: Simon
+  title: Urban building energy modeling using 3D city model and minimizing uncertainty through Bayesian inference - A case study focuses on Amsterdam
+residential heating demand simulation
+  image: Wang.png
+  year: 2018
+
+- surname: Wang
+  name: Cheng-Kai
   title: A voxel-based methodology to detect (clustered) outliers in aerial lidar point clouds
   image: griffioen.png
   year: 2018
