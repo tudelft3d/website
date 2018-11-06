@@ -11,6 +11,16 @@ permalink: /education/msctopics/
 
 - - -
 
+## Calculating Street Widths
+
+![](img/RoadWidthMScTopicFull.png){:width="700px"}
+
+This project will be in partnership with researchers in the department of Urbanism examining the relationship between street design and automated vehicles. As part of this thesis you will examine ways to automatically calculate the width of roads (this is considered the total width including pedestrian walkways and cycling lanes). Part of this process will require you to find ways to automatically classify intersection areas as well as develop methods to automatically partition road segments. 
+
+Knowledge of a programming language (preferably Python) is highly recommended.
+
+**Contact:** [Anna Labetski](mailto:a.labetski@tudelft.nl)
+
 ## Versioning of 3D spatial data
 
 [![Versioning comic](img/version.jpg)](https://www.geeksaresexy.net/2018/08/26/versioning-important-comic/)
