@@ -866,7 +866,7 @@ class Imbiber
 		end
 		out << "<br />"
 		if @entries[key].has_key?(:oa) then
-			if (@entries[key][:oa] <=> "True") == 0 then
+			if (@entries[key][:oa].casecmp("True")) == 0 then
 				out << '<i class="ai ai-open-access-square"></i>'
 			end
 		end
