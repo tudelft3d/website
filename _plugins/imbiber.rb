@@ -864,6 +864,9 @@ class Imbiber
 		if @entries[key].has_key?(:info) then
 			out << '<span class="text-danger"> ' + @entries[key][:info] + '</span>.'
 		end
+		if @entries[key].has_key?(:oa) then
+			out << '<i class="ai ai-open-access-square"></i>.'
+		end
 		out << "<br />"
 		if @entries[key].has_key?(:pdf) then
 			out << ' <a href="' + @entries[key][:pdf] + '"><i class="fa fa-file-pdf-o"></i> PDF</a>'
@@ -885,7 +888,7 @@ class Imbiber
 		end
 		if @entries[key].has_key?(:doi) then
 			if !@entries[key][:doi].start_with?("http://", "https://", "ftp://", "//") then
-				@entries[key][:doi] = "http://dx.doi.org/" + @entries[key][:doi]
+				@entries[key][:doi] = "https://doi.org/" + @entries[key][:doi]
 			end
 			out << ' <a href="' + @entries[key][:doi] + '"><i class="fa fa-external-link"></i> DOI</a>'
 		end
