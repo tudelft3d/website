@@ -865,6 +865,8 @@ class Imbiber
 			out << '<span class="text-danger"> ' + @entries[key][:info] + '</span>. '
 		end
 		out << "<br />"
+
+		out << "<span style='font-size: 15pt'>"
 		if @entries[key].has_key?(:oa) then
 			if (@entries[key][:oa].casecmp("True")) == 0 then
 				out << '<i class="ai ai-open-access-square"></i>'
@@ -902,6 +904,7 @@ class Imbiber
 		end
 		out << ' <a href="#bib' + key.to_s + '" data-toggle="collapse"><i class="far fa-caret-square-down"></i></a>'
 		out << '<div id="bib' + key.to_s + '" class="collapse" tabindex="-1"><pre class="bibtex">' + bibtex_of(@entries[key]) + '</pre></div>'
+		out << "</span>"
 		
 		if @entries[key].has_key?(:img) && img == true then
 			if @entries[key].has_key?(:pdf) then
