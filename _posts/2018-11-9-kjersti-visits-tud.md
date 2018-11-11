@@ -14,7 +14,7 @@ During her stay, Kjersti will work together with the 3D geoinformation group on 
  
 The VOLTA project is funded by the EU Marie Curie RISE actions.
 
-![]({{ site.baseurl }}/img/2018/kjertsi1.jpg)
+![]({{ site.baseurl }}/img/2018/kjersti1.jpg)
 
 ![]({{ site.baseurl }}/img/2018/kjersti2.jpg)
 
