@@ -1,10 +1,10 @@
 ---
 layout: post
-title: VOLTA secondment from AVT to in Delft
+title: VOLTA secondment from AVT to 3D@TUD
 categories: news
 date: 2018-11-9
 ---
-In November and December 2018, Kjersti Moe from [Vermessung AVT in Tyrol](https://www.avt.at/home.html), Austria is visiting 3D geoinformation of TU Delft within the framework of the [MCSA VOLTA](https://volta.fbk.eu) Project.
+In November and December 2018, Kjersti Moe from [Vermessung AVT in Tyrol](https://www.avt.at/home.html), Austria is visiting our 3D geoinformation in Delft within the framework of the [MCSA VOLTA](https://volta.fbk.eu) Project.
 
 Amongst the overall aims for the project are the development of new methodologies to derive accurate geometric information from images, as well as automatic classification and understanding of (2D and 3D) geospatial data.
 The VOLTA projects promotes intersectoral collaboration and sharing of knowledge between research and market through staff exchange.
