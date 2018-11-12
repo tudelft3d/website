@@ -16,7 +16,7 @@ You can download their thesis in the links below, they are all--surprise, surpri
 
 <div class="row">
 {% for i in msc %}
-{% if i.surname == 'Griffioen' or i.surname == 'Christodoulou' or i.surname == 'Karydakis'  %}
+{% if i.surname == 'Griffioen' or i.surname == 'Christodoulou' or i.surname == 'Karydakis' or i.surname == 'Wang'  %}
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
@@ -46,3 +46,4 @@ You can download their thesis in the links below, they are all--surprise, surpri
 - - -
 
 ![]({{ site.baseurl }}/img/2018/griffioen.jpg)
+![]({{ site.baseurl }}/img/2018/wang.jpg)
