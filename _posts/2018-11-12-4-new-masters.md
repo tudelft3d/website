@@ -2,7 +2,7 @@
 layout: post
 title:  Four new MSc theses in our group
 categories: news
-date: 2018-11-06 15:46
+date: 2018-11-12 13:57
 ---
 
 In the last 2 weeks, 4 students from the [MSc Geomatics programme at TU Delft](http://geomatics.tudelft.nl) graduated with theses by staff from our group.
