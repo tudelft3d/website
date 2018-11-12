@@ -8,7 +8,7 @@ date: 2018-11-06 15:46
 In the last 2 weeks, 4 students from the [MSc Geomatics programme at TU Delft](http://geomatics.tudelft.nl) graduated with theses by staff from our group.
 Congratulations to them 🎉
 
-You can download their thesis in the links below, they are all--surprise, surprise--related to 3D geoinformation!
+You can download their thesis in the links below, they are all---surprise, surprise---related to 3D geoinformation!
 
 - - -
 
