@@ -129,7 +129,7 @@ The following is the list of events that we participated in or organised related
       <a href="http://3d.bk.tudelft.nl/alabetski"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/anna.png" alt="Anna  Labetski photo" /></a>
     <h3>Anna  Labetski<br /><small>PhD candidate</small></h3>
     <p>
-        <a href="http://3d.bk.tudelft.nl/alabetski"><i class="fa fa-home"></i></a> | <a href="mailto:a.labetski@tudelft.nl"><i class="fa fa-envelope"></i></a> | <a href="https://twitter.com/BigLabetski"><i class="fa fa-twitter"></i></a><br />
+        <a href="http://3d.bk.tudelft.nl/alabetski"><i class="fa fa-home"></i></a> | <a href="mailto:a.labetski@tudelft.nl"><i class="fa fa-envelope"></i></a> | <a href="https://twitter.com/BigLabetski"><i class="fab fa-twitter"></i></a><br />
         <br />
         <br />
     </p>
@@ -142,7 +142,7 @@ The following is the list of events that we participated in or organised related
           <a href="http://tudelft.nl/hledoux"><i class="fa fa-home"></i></a> | 
           <a href="mailto:h.ledoux@tudelft.nl"><i class="fa fa-envelope"></i></a> | 
           <a href="tel:+31 15 27 86114"><i class="fa fa-phone"></i></a> | 
-          <a href="https://twitter.com/hugoledoux"><i class="fa fa-twitter"></i></a><br />
+          <a href="https://twitter.com/hugoledoux"><i class="fab fa-twitter"></i></a><br />
       </p>
   </div>
 
@@ -153,7 +153,7 @@ The following is the list of events that we participated in or organised related
           <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/jstoter">3d.bk.tudelft.nl/jstoter</a><br />
           <i class="fa fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
           <i class="fa fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
-          <i class="fa fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
+          <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
       </p>
   </div>
 
