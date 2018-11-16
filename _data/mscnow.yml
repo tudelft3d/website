@@ -5,3 +5,8 @@
   name: Nebras
   title: Automatic Conversion of CityGML to IFC
   image: nebras.png
+
+- surname: Boersma
+  name: Freek
+  title: Exploring the modelling of different LoDs of roads and intersections in 3D city models
+  image: boersma.png
