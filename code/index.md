@@ -20,7 +20,6 @@ A publication is added where applicable. If you use our code for a scientific pr
       <a href="{{ i.github }}"><img src="{{ "/img/code/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>{{ i.name }}</h3>
-        <br />
         <span style='font-size: 15pt'>
         {% if i.github %}
           <a href="{{ i.github }}"><i class="fab fa-github" title="github"></i></a> 
