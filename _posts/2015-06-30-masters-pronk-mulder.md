@@ -29,13 +29,13 @@ A link to their final thesis and code is available below.
           <br />
           <small>({{ i.year }})</small>
         {% if i.link %}
-          <small><a href="{{ i.link }}"><i class="fa fa-book" title="thesis"></i></a></small>
+          <small><a href="{{ i.link }}"><i class="fas fa-book" title="thesis"></i></a></small>
         {% endif %}
         {% if i.paper %}
-          <small><a href="{{ i.paper }}"><i class="fa fa-file-text" title="paper"></i></a></small>
+          <small><a href="{{ i.paper }}"><i class="fas fa-file-text" title="paper"></i></a></small>
         {% endif %}
         {% if i.github %}
-          <small><a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a></small> 
+          <small><a href="{{ i.github }}"><i class="fas fa-github" title="github"></i></a></small> 
         {% endif %}
         </h3>
         <p>{{ i.title }}</p>

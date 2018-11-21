@@ -7,7 +7,7 @@ date: 2017-01-17 15:50
 
 We published a new paper:
 
-<div class="filteredelement"><strong>Generating 3D city models without elevation data</strong>. Filip Biljecki, Hugo Ledoux, and Jantien Stoter. <em>Computers, Environment and Urban Systems</em> 64, 2017, pp. 1&ndash;18. <br /> <a href="http://filip.biljecki.com/publications/2017_ceus_inferring_heights.pdf"><i class="fa fa-file-pdf-o"></i> PDF</a> <a href="http://dx.doi.org/10.1016/j.compenvurbsys.2017.01.001"><i class="fa fa-external-link"></i> DOI</a> <a href="#bib2017_ceus_inferring_heights" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i> BibTeX</a><div id="bib2017_ceus_inferring_heights" class="collapse" tabindex="-1"><pre class="bibtex">@article{2017_ceus_inferring_heights,
+<div class="filteredelement"><strong>Generating 3D city models without elevation data</strong>. Filip Biljecki, Hugo Ledoux, and Jantien Stoter. <em>Computers, Environment and Urban Systems</em> 64, 2017, pp. 1&ndash;18. <br /> <a href="http://filip.biljecki.com/publications/2017_ceus_inferring_heights.pdf"><i class="fas fa-file-pdf"></i> PDF</a> <a href="http://dx.doi.org/10.1016/j.compenvurbsys.2017.01.001"><i class="fas fa-external-link-alt"></i> DOI</a> <a href="#bib2017_ceus_inferring_heights" data-toggle="collapse"><i class="far fa-caret-square-down"></i> BibTeX</a><div id="bib2017_ceus_inferring_heights" class="collapse" tabindex="-1"><pre class="bibtex">@article{2017_ceus_inferring_heights,
   author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
   journal = {Computers, Environment and Urban Systems},
   vol = {64},

@@ -29,16 +29,16 @@ layout: default
     <div class="col-md-4">
     <div class="well well-sm">
       {% if staff.email %}
-        <i class="fa fa-envelope"></i> <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br>
+        <i class="fas fa-envelope"></i> <a href="mailto:{{ staff.email }}">{{ staff.email }}</a><br>
       {% endif %}
       {% if staff.phone %}
-        <i class="fa fa-phone"></i> <a href="tel:{{ staff.phone }}">{{ staff.phone }}</a><br>
+        <i class="fas fa-phone"></i> <a href="tel:{{ staff.phone }}">{{ staff.phone }}</a><br>
       {% endif %}
       {% if staff.twitter %}
         <i class="fab fa-twitter"></i> <a href="https://twitter.com/{{ staff.twitter }}">@{{ staff.twitter }}</a><br>
       {% endif %}        
       {% if staff.address %}
-        <i class="fa fa-map-marker fa-fw"></i> {{ staff.address}} <br>
+        <i class="fas fa-map-marker-alt fa-fw"></i> {{ staff.address}} <br>
       {% else %}
         {% if staff.room %}
           <i class="fa fa-map-marker fa-fw">     </i> Room {{ staff.room }} <br>

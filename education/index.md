@@ -11,11 +11,11 @@ permalink: /education/
   * [GEO1002](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38465): Geographical information systems & cartography
   * [GEO1004](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=38430): 3D Modelling of the Built Environment
   * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42058): Geo Datasets and Quality
-  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48143): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fa fa-home"></i></a>
+  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48143): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i></a>
   * [GEO1101](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42060): Synthesis Project
   * [GEO2010](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42062): Graduation thesis preparation
-  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42061): Graduation thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fa fa-home"></i></a>
-  * [GEO5010](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42134): Research Assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fa fa-home"></i></a>
+  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=42061): Graduation thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
+  * [GEO5010](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=42134): Research Assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
 
 - - -
 
@@ -75,13 +75,13 @@ We have a [list of potential topics](msctopics).
           <br />
           <small>({{ i.year }})</small>
         {% if i.link %}
-          <small><a href="{{ i.link }}"><i class="fa fa-book" title="thesis"></i></a></small>
+          <small><a href="{{ i.link }}"><i class="fas fa-book" title="thesis"></i></a></small>
         {% endif %}
         {% if i.paper %}
-          <small><a href="{{ i.paper }}"><i class="fa fa-file-text" title="paper"></i></a></small>
+          <small><a href="{{ i.paper }}"><i class="fas fa-file-alt" title="paper"></i></a></small>
         {% endif %}
         {% if i.github %}
-          <small><a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a></small> 
+          <small><a href="{{ i.github }}"><i class="fas fa-github" title="github"></i></a></small> 
         {% endif %}
         </h3>
         <p>{{ i.title }}</p>

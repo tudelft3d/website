@@ -18,19 +18,19 @@
 {% endif %}
     <p>
     {% if include.person.homepage %}
-        <a href="http://{{ include.person.homepage }}"><i class="fa fa-home"></i></a>
+        <a href="http://{{ include.person.homepage }}"><i class="fas fa-home"></i></a>
         {% if include.person.email or include.person.phone or include.person.twitter %}
         |
         {% endif %}
     {% endif %}
     {% if include.person.email %}
-        <a href="mailto:{{ include.person.email }}"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:{{ include.person.email }}"><i class="fas fa-envelope"></i></a>
         {% if include.person.phone or include.person.twitter %}
         |
         {% endif %}
     {% endif %}
     {% if include.person.phone %}
-        <a href="tel:{{ include.person.phone }}"><i class="fa fa-phone"></i></a>
+        <a href="tel:{{ include.person.phone }}"><i class="fas fa-phone"></i></a>
         {% if include.person.twitter %}
         |
         {% endif %}
