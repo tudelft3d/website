@@ -344,3 +344,8 @@
   start: 2019-09-24
   end: 2019-09-27
   url: https://www.3dgeoinfo2019.com
+  milestones:
+    - name: Full paper submission deadline
+      date: 2019-05-01
+    - name: Extended abstract submission deadline
+      date: 2019-05-15

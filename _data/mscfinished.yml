@@ -1,3 +1,19 @@
+
+
+- surname: Wang
+  name: Cheng-Kai
+  title: Urban building energy modeling using 3D city model and minimizing uncertainty through Bayesian inference
+  image: wang.jpg
+  link: http://resolver.tudelft.nl/uuid:bc0d7164-be60-485a-ad7d-f7a049a3851d
+  year: 2018
+
+- surname: Griffioen
+  name: Simon
+  title: A voxel-based methodology to detect (clustered) outliers in aerial lidar point clouds
+  link: http://resolver.tudelft.nl/uuid:2ffa73f4-34cc-4ea0-82df-11e61cb47bea
+  image: griffioen.png
+  year: 2018
+
 - surname: Karydakis
   name: Panagiotis
   title: "Simplification & visualization of BIM models through Hololens"
@@ -9,6 +25,7 @@
   name: Antria
   title: "An image-based method
 for the pairwise registration of mobile laser scanning point clouds"
+  link: http://resolver.tudelft.nl/uuid:5c1d2d90-8f2f-4dc2-b6c3-d5c635323c35
   image: andria.png
   year: 2018
 

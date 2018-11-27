@@ -11,6 +11,16 @@ permalink: /education/msctopics/
 
 - - -
 
+## Calculating Street Widths
+
+![](img/RoadWidthMScTopicFull.png){:width="700px"}
+
+This project will be in partnership with researchers in the department of Urbanism examining the relationship between street design and automated vehicles. As part of this thesis you will examine ways to automatically calculate the width of roads (this is considered the total width including pedestrian walkways and cycling lanes). Part of this process will require you to find ways to automatically classify intersection areas as well as develop methods to automatically partition road segments. 
+
+Knowledge of a programming language (preferably Python) is highly recommended.
+
+**Contact:** [Anna Labetski](mailto:a.labetski@tudelft.nl)
+
 ## Versioning of 3D spatial data
 
 [![Versioning comic](img/version.jpg)](https://www.geeksaresexy.net/2018/08/26/versioning-important-comic/)
@@ -213,16 +223,6 @@ The aim of the project is to investigate the interoperability between two popula
 Prior knowledge of programming in Python or C++ is required.
 
 *Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha), [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-
-
-## Level of Detail of Roads in CityGML
-
-![](img/RoadLoDTopic.png){:width="800px"}
-
-Road networks are utilised within a wide range of applications for navigation, city planning, and visibility analysis. There is a growing need for road networks within 3D city models for cases such as autonomous vehicle routing and road maintenance and repair. At the same time, while the concept of Levels of Detail (LoD) for buildings in CityGML has been extensively studied, this is not the case for roads. This project will examine a multitude of road standards, in both 2D and 3D, to refine and enhance the concept of LoDs for roads. A road network at various levels will then be created (with procedural modelling utilising ESRI CityEngine if there is interest) to test within an application of the student’s choice.
-
-*Contact:* [Anna Labetski](http://3d.bk.tudelft.nl/alabetski) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 

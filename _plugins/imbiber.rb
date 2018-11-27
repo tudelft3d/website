@@ -862,41 +862,49 @@ class Imbiber
 		out = outwhat + outwho + outwhere + outnote
 
 		if @entries[key].has_key?(:info) then
-			out << '<span class="text-danger"> ' + @entries[key][:info] + '</span>.'
+			out << '<span class="text-danger"> ' + @entries[key][:info] + '</span>. '
 		end
 		out << "<br />"
-		if @entries[key].has_key?(:pdf) then
-			out << ' <a href="' + @entries[key][:pdf] + '"><i class="fa fa-file-pdf-o"></i> PDF</a>'
-		end
-		if @entries[key].has_key?(:paper) then
-			out << ' <a href="' + @entries[key][:paper] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Paper) + '</a>'
-		end
-		if @entries[key].has_key?(:poster) then
-			out << ' <a href="' + @entries[key][:poster] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Poster) + '</a>'
-		end
-		if @entries[key].has_key?(:presentation) then
-			out << ' <a href="' + @entries[key][:presentation] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Slides) + '</a>'
-		end
-		if @entries[key].has_key?(:slides) then
-			out << ' <a href="' + @entries[key][:slides] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Slides) + '</a>'
-		end
-		if @entries[key].has_key?(:propositions) then
-			out << ' <a href="' + @entries[key][:propositions] + '"><i class="fa fa-file-pdf-o"></i> ' + @lt.localise(:Propositions) + '</a>'
+
+		out << "<span style='font-size: 15pt'>"
+		if @entries[key].has_key?(:oa) then
+			if (@entries[key][:oa].casecmp("True")) == 0 then
+				out << '<i class="ai ai-open-access-square"></i>'
+			end
 		end
 		if @entries[key].has_key?(:doi) then
 			if !@entries[key][:doi].start_with?("http://", "https://", "ftp://", "//") then
-				@entries[key][:doi] = "http://dx.doi.org/" + @entries[key][:doi]
+				@entries[key][:doi] = "https://doi.org/" + @entries[key][:doi]
 			end
-			out << ' <a href="' + @entries[key][:doi] + '"><i class="fa fa-external-link"></i> DOI</a>'
+			out << ' <a href="' + @entries[key][:doi] + '"><i class="ai ai-doi-square"></i></a>'
 		end
 		if @entries[key].has_key?(:url) then
-			out << ' <a href="' + @entries[key][:url] + '"><i class="fa fa-external-link"></i> ' + @lt.localise(:www) + '</a>'
+			out << ' <a href="' + @entries[key][:url] + '"><i class="fas fa-external-link-square-alt"></i></a>'
+		end
+		if @entries[key].has_key?(:pdf) then
+			out << ' <a href="' + @entries[key][:pdf] + '"><i class="fas fa-file-alt"></i></a>'
+		end
+		if @entries[key].has_key?(:paper) then
+			out << ' <a href="' + @entries[key][:paper] + '"><i class="fas fa-file-alt"></i></a>'
+		end
+		if @entries[key].has_key?(:poster) then
+			out << ' <a href="' + @entries[key][:poster] + '"><i class="fas fa-file-image"></i></a>'
+		end
+		if @entries[key].has_key?(:presentation) then
+			out << ' <a href="' + @entries[key][:presentation] + '"><i class="fas fa-image"></i></a>'
+		end
+		if @entries[key].has_key?(:slides) then
+			out << ' <a href="' + @entries[key][:slides] + '"><i class="fas fa-image"></i></a>'
+		end
+		if @entries[key].has_key?(:propositions) then
+			out << ' <a href="' + @entries[key][:propositions] + '"><i class="fas fa-file-powerpoint"></i></a>'
 		end
 		if @entries[key].has_key?(:buy) then
-			out << ' <a href="' + @entries[key][:buy] + '"><i class="fa fa-book"></i> ' + @lt.localise(:Buy) + '</a>'
+			out << ' <a href="' + @entries[key][:buy] + '"><i class="fas fa-book"></i></a>'
 		end
-		out << ' <a href="#bib' + key.to_s + '" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i> BibTeX</a>'
+		out << ' <a href="#bib' + key.to_s + '" data-toggle="collapse"><i class="far fa-caret-square-down"></i></a>'
 		out << '<div id="bib' + key.to_s + '" class="collapse" tabindex="-1"><pre class="bibtex">' + bibtex_of(@entries[key]) + '</pre></div>'
+		out << "</span>"
 		
 		if @entries[key].has_key?(:img) && img == true then
 			if @entries[key].has_key?(:pdf) then
