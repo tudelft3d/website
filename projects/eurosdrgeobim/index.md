@@ -91,10 +91,26 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 <!-- ## Open-source software -->
 
 
-<!--## Presentations
+## Presentations
 
-### Kickoff meeting on 2018-05-18 in Delft
+### Presentation at the [GeoDesign+BIM conference](https://geo-bim.org/europe/index.html) 2nd November 2018 in Amsterdam
 
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <script async class="speakerdeck-embed" data-id="86820537cb71450ba31713a341b0356c" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
+
+### Presentation at the [3DGeoinfo conference](https://geo-bim.org/europe/index.html) 1st October 2018 in Delft
+
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <script async class="speakerdeck-embed" data-id="b4ab9e96022749b398ece1c5a60cde07" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
+
+
+<!--
 <div class="row">
   <div class="col-xs-12 col-md-6">
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQIBHL1kPQuQXAcPC0KpTeLNJCeSpvk2GC0jVs5-9M9dvmQ3ZYSfKLohd9yZdmWmR_iwZYZWjpJNNfu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
