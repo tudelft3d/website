@@ -24,16 +24,16 @@ permalink: /phd/
           <br />
           <small>({{ i.year }})</small>
         {% if i.link %}
-          <small><a href="{{ i.link }}"><i class="fa fa-book" title="thesis"></i></a></small>
+          <small><a href="{{ i.link }}"><i class="fas fa-book" title="thesis"></i></a></small>
         {% endif %}
         {% if i.doi %}
-          <small><a href="{{ i.doi }}"><i class="fa fa-bookmark" title="thesis"></i></a></small>
+          <small><a href="{{ i.doi }}"><i class="fas fa-bookmark" title="thesis"></i></a></small>
         {% endif %}
         {% if i.website %}
-          <small><a href="{{ i.website }}"><i class="fa fa-file-text" title="website"></i></a></small>
+          <small><a href="{{ i.website }}"><i class="fas fa-external-link-square-alt" title="website"></i></a></small>
         {% endif %}
         {% if i.github %}
-          <small><a href="{{ i.github }}"><i class="fa fa-github" title="github"></i></a></small> 
+          <small><a href="{{ i.github }}"><i class="fab fa-github" title="github"></i></a></small> 
         {% endif %}
         </h3>
         <p style="max-width: 200px;">{{ i.title }}</p>

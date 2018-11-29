@@ -16,7 +16,7 @@ permalink: /events/
       <div class="caption">
         <h3>{{ i.name }}</h3>
         <p>{{ i.description }}<br>
-        <i class="fa fa-calendar"></i> {{ i.date }}</p>
+        <i class="fas fa-calendar-alt"></i> {{ i.date }}</p>
       </div>
     </div>
   </div>

@@ -77,7 +77,7 @@ permalink: /3dtalks/
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       {% if i.ppt %}
-      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/{{ i.ppt }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/{{ i.ppt }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
       {% endif %}
     </tr>
   {% endif %}  

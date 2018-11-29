@@ -119,8 +119,8 @@ Although it is at a very early stage, the tool is already able to provide an int
       <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
     <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
     <p>
-        <i class="fa fa-home"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
-        <i class="fa fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
         <br />
         <br />
     </p>
@@ -130,8 +130,8 @@ Although it is at a very early stage, the tool is already able to provide an int
       <a href="https://3d.bk.tudelft.nl/adiakite"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/abdou.png" alt="Abdoulaye Diakité photo" /></a>
     <h3>Abdoulaye Diakité<br /><small>Postdoc (TUD)</small></h3>
     <p>
-        <i class="fa fa-home"></i> <a href="https://3d.bk.tudelft.nl/adiakite">3d.bk.tudelft.nl/adiakite</a><br />
-        <i class="fa fa-envelope"></i> <a href="mailto:a.a.diakite@tudelft.nl">a.a.diakite@tudelft.nl</a><br />
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/adiakite">3d.bk.tudelft.nl/adiakite</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:a.a.diakite@tudelft.nl">a.a.diakite@tudelft.nl</a><br />
         <br />
         <br />
     </p>
@@ -141,8 +141,8 @@ Although it is at a very early stage, the tool is already able to provide an int
       <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="thomas.png" alt="Thomas Krijnen photo" /></a>
     <h3>Thomas Krijnen<br /><small>PhD candidate (TU/e)</small></h3>
     <p>
-        <i class="fa fa-home"></i> <a href="http://thomaskrijnen.com">thomaskrijnen.com</a><br />
-        <i class="fa fa-envelope"></i> <a href="mailto:t.f.krijnen@tue.nl">t.f.krijnen@tue.nl</a><br />
+        <i class="fas fa-home"></i> <a href="http://thomaskrijnen.com">thomaskrijnen.com</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:t.f.krijnen@tue.nl">t.f.krijnen@tue.nl</a><br />
         <br />
         <br />
     </p>
@@ -152,9 +152,9 @@ Although it is at a very early stage, the tool is already able to provide an int
         <a href="https://www.tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/hugo.jpg" alt="Hugo Ledoux photo" /></a>
       <h3>Hugo Ledoux<br /><small>Associate-prof. (TUD)</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="https://www.tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
+          <i class="fas fa-home"></i> <a href="https://www.tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
           <i class="fab fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
       </p>
   </div>
@@ -163,9 +163,9 @@ Although it is at a very early stage, the tool is already able to provide an int
         <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien Stoter photo" /></a>
       <h3>Jantien Stoter<br /><small>Professor (TUD)</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/jstoter">3d.bk.tudelft.nl/jstoter</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/jstoter">3d.bk.tudelft.nl/jstoter</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
           <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
       </p>
   </div>

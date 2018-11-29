@@ -112,32 +112,32 @@ We will release all the code that is developed for this project as open source s
 
 ### Meeting 2017-07-04
 
-  - Overview of all results of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_hl.pdf"><i class="fa fa-file-image-o"></i>
-   - Overview of scientific breakthroughs <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_rp.pdf"><i class="fa fa-file-image-o"></i>  
+  - Overview of all results of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_hl.pdf"><i class="fas fa-image"></i></a>
+   - Overview of scientific breakthroughs <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_rp.pdf"><i class="fas fa-image"></i></a>  
 
 ### Meeting 2016-11-09
 
-  - Overview of the results in 2016<a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_hl.pdf"><i class="fa fa-file-image-o"></i>
-  - Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_rp.pdf"><i class="fa fa-file-image-o"></i> 
+  - Overview of the results in 2016<a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_hl.pdf"><i class="fas fa-image"></i></a>
+  - Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_rp.pdf"><i class="fas fa-image"></i></a> 
 
 ### Meeting 2016-01-19
 
-  - Overview of the results last 7 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_hl.pdf"><i class="fa fa-file-image-o"></i>
-  - Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_rp.pdf"><i class="fa fa-file-image-o"></i>
+  - Overview of the results last 7 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_hl.pdf"><i class="fas fa-image"></i></a>
+  - Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_rp.pdf"><i class="fas fa-image"></i></a>
 
 ### Meeting 2015/05/19
 
-  - Overview of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_hl.pdf"><i class="fa fa-file-image-o"></i>
-  - Progress last 9 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fa fa-file-image-o"></i>
+  - Overview of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_hl.pdf"><i class="fas fa-image"></i></a>
+  - Progress last 9 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fas fa-image"></i></a>
 
 ### Meeting 2014/09/11
 
-  - Both presentations <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20140911.pdf"><i class="fa fa-file-image-o"></i>
+  - Both presentations <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20140911.pdf"><i class="fas fa-image"></i></a>
 
 ### Meeting 2014/01/23
 
-  - Overview of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_hugo.pdf"><i class="fa fa-file-image-o"></i>
-  - Progress after 9 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_ravi.pdf"><i class="fa fa-file-image-o"></i>
+  - Overview of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_hugo.pdf"><i class="fas fa-image"></i></a>
+  - Progress after 9 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_ravi.pdf"><i class="fas fa-image"></i></a>
 
 
 
@@ -208,8 +208,8 @@ We will release all the code that is developed for this project as open source s
     
       <h3>Ravi Peters <small>PhD candidate</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://tudelft.nl/rypeters">tudelft.nl/rypeters</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:r.y.peters@tudelft.nl">r.y.peters@tudelft.nl</a><br />
+          <i class="fas fa-home"></i> <a href="http://tudelft.nl/rypeters">tudelft.nl/rypeters</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:r.y.peters@tudelft.nl">r.y.peters@tudelft.nl</a><br />
           <br />
           <br />
       </p>
@@ -219,9 +219,9 @@ We will release all the code that is developed for this project as open source s
       <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ "/img/staff/hugo.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Hugo Ledoux <small>Project leader</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
+          <i class="fas fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
           <i class="fab fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
       </p>
     </div>
@@ -231,9 +231,9 @@ We will release all the code that is developed for this project as open source s
       <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ "/img/staff/jantien.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Jantien Stoter <small>Graduation Professor</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
+          <i class="fas fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
           <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
       </p>
     </div>

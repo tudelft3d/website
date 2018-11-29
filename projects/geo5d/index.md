@@ -76,7 +76,7 @@ The complete list of publications of the project is available <a href="publicati
         <p>
           The purpose of my research is therefore to take advantage of these developments in other fields and develop the new representations and techniques needed to support a higher dimensional GIS, as well as to put these into practice by building actual working prototypes.
         </p>
-          <strong>Realising the foundations of a higher dimensional GIS: a study of higher dimensional spatial data models, data structures and operations</strong>. Ken Arroyo Ohori. PhD Proposal 57, OTB Research Institute for the Built Environment, Delft University of Technology, December 2011. ISBN: 978-90-77029-29-9 ISSN: 1560-0245. <br> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal.pdf"><i class="fa fa-file-text-o"></i> PDF</a> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal_presentation.pdf"><i class="fa fa-picture-o"></i> Slides</a> <a href="#bib11phdproposal" data-toggle="collapse"><i class="fa fa-caret-square-o-down"></i> BibTeX</a><div id="bib11phdproposal" class="collapse"  tabindex="-1"><pre>@techreport{11phdproposal,
+          <strong>Realising the foundations of a higher dimensional GIS: a study of higher dimensional spatial data models, data structures and operations</strong>. Ken Arroyo Ohori. PhD Proposal 57, OTB Research Institute for the Built Environment, Delft University of Technology, December 2011. ISBN: 978-90-77029-29-9 ISSN: 1560-0245. <br> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal.pdf"><i class="fas fa-file-alt"></i> PDF</a> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal_presentation.pdf"><i class="fas fa-image"></i> Slides</a> <a href="#bib11phdproposal" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a><div id="bib11phdproposal" class="collapse"  tabindex="-1"><pre>@techreport{11phdproposal,
   author = {Ken {Arroyo Ohori}},
   title = {Realising the Foundations of a Higher Dimensional {GIS}: A Study of Higher Dimensional Spatial Data Models, Data Structures and Operations},
   institution = {OTB Research Institute for the Built Environment, Delft University of Technology},
@@ -95,7 +95,7 @@ The complete list of publications of the project is available <a href="publicati
             <div class="panel panel-default">
               <div class="panel-heading">
                   <a data-toggle="collapse" href="#k1">
-                      <b>1. <em>n</em>D data structures and data models</b> <i class="fa fa-angle-double-down"></i>
+                      <b>1. <em>n</em>D data structures and data models</b> <i class="fas fa-caret-square-down"></i>
                   </a>
               </div>
               <div id="k1" class="panel-collapse collapse">
@@ -125,7 +125,7 @@ The complete list of publications of the project is available <a href="publicati
             <div class="panel panel-default">
               <div class="panel-heading">
                   <a data-toggle="collapse" href="#k2">
-                      <b>2. Construction of nD objects: nD extrusion</b> <i class="fa fa-angle-double-down"></i>
+                      <b>2. Construction of nD objects: nD extrusion</b> <i class="fas fa-caret-square-down"></i>
                   </a>
               </div>
               <div id="k2" class="panel-collapse collapse">
@@ -155,7 +155,7 @@ The complete list of publications of the project is available <a href="publicati
           <div class="panel panel-default">
               <div class="panel-heading">
                   <a data-toggle="collapse" href="#k3">
-                      <b>3. Construction of nD objects: incremental construction</b> <i class="fa fa-angle-double-down"></i>
+                      <b>3. Construction of nD objects: incremental construction</b> <i class="fas fa-caret-square-down"></i>
                   </a>
               </div>
               <div id="k3" class="panel-collapse collapse">
@@ -186,7 +186,7 @@ The complete list of publications of the project is available <a href="publicati
             <div class="panel panel-default">
               <div class="panel-heading">
                   <a data-toggle="collapse" href="#k4">
-                      <b>4. Manipulating higher dimensional GIS models</b> <i class="fa fa-angle-double-down"></i>
+                      <b>4. Manipulating higher dimensional GIS models</b> <i class="fas fa-caret-square-down"></i>
                   </a>
               </div>
               <div id="k4" class="panel-collapse collapse">
@@ -216,7 +216,7 @@ The complete list of publications of the project is available <a href="publicati
             <div class="panel panel-default">
               <div class="panel-heading">
                   <a data-toggle="collapse" href="#k5">
-                      <b>5. Realising a higher dimensional GIS</b> <i class="fa fa-angle-double-down"></i>
+                      <b>5. Realising a higher dimensional GIS</b> <i class="fas fa-caret-square-down"></i>
                   </a>
               </div>
               <div id="k5" class="panel-collapse collapse">
@@ -315,7 +315,7 @@ The complete list of publications of the project is available <a href="publicati
 
         <div class="panel-heading">
           <a data-toggle="collapse" href="#fs">    
-              <b>Stages and research questions</b> <i class="fa fa-angle-double-down"></i>
+              <b>Stages and research questions</b> <i class="fas fa-caret-square-down"></i>
             </a>
           </div>
 
@@ -324,7 +324,7 @@ The complete list of publications of the project is available <a href="publicati
             <div class="panel panel-default">
               <div class="panel-heading">
                   <a data-toggle="collapse" href="#f1">
-                      <b>1. Formalisation:</b> What is the concept of LOD, what is an LOD? How to specify it? <i class="fa fa-angle-double-down"></i>
+                      <b>1. Formalisation:</b> What is the concept of LOD, what is an LOD? How to specify it? <i class="fas fa-caret-square-down"></i>
                   </a>
               </div>
 
@@ -342,7 +342,7 @@ The complete list of publications of the project is available <a href="publicati
             <div class="panel panel-default">
               <div class="panel-heading">
                 <a data-toggle="collapse" href="#f2">
-                      <b>2. Hyper-dimensional integration of space and scale: </b>Can we model LOD as a spatial dimension, i.e. in a space-scale hypercube? <i class="fa fa-angle-double-down"></i>
+                      <b>2. Hyper-dimensional integration of space and scale: </b>Can we model LOD as a spatial dimension, i.e. in a space-scale hypercube? <i class="fas fa-caret-square-down"></i>
                   </a>
         
               </div>
@@ -364,7 +364,7 @@ The complete list of publications of the project is available <a href="publicati
         <div class="panel panel-default">
           <div class="panel-heading">
             <a data-toggle="collapse" href="#f3">
-                    <b>3. Context-awareness:</b> Can we define contexts and use-cases in 3D city modelling, and create LODs which are customised for an application? <i class="fa fa-angle-double-down"></i>
+                    <b>3. Context-awareness:</b> Can we define contexts and use-cases in 3D city modelling, and create LODs which are customised for an application? <i class="fas fa-caret-square-down"></i>
               </a>
         
           </div>
@@ -383,7 +383,7 @@ The complete list of publications of the project is available <a href="publicati
       <div class="panel panel-default">
           <div class="panel-heading">
            <a data-toggle="collapse" href="#f4">
-          <b>4. Linking of features in between LODs:</b> Can we match features represented in multi-LOD datasets, and re-use data? <i class="fa fa-angle-double-down"></i>
+          <b>4. Linking of features in between LODs:</b> Can we match features represented in multi-LOD datasets, and re-use data? <i class="fas fa-caret-square-down"></i>
             </a>
         
         </div>
@@ -497,8 +497,8 @@ The complete list of publications of the project is available <a href="publicati
     
       <h3>Ken Arroyo Ohori <small>PhD candidate</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
           <br />
           <br />
       </p>
@@ -509,9 +509,9 @@ The complete list of publications of the project is available <a href="publicati
       <a href="https://3d.bk.tudelft.nl/biljecki"><img class="img-circle img-responsive" src="{{ "/img/staff/filip.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Filip Biljecki <small>PhD candidate</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://3d.bk.tudelft.nl/biljecki">3d.bk.tudelft.nl/biljecki</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:f.biljecki@tudelft.nl">f.biljecki@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 82798">+31 15 27 82798</a><br />
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/biljecki">3d.bk.tudelft.nl/biljecki</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:f.biljecki@tudelft.nl">f.biljecki@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 82798">+31 15 27 82798</a><br />
       </p>
     </div>
     
@@ -519,9 +519,9 @@ The complete list of publications of the project is available <a href="publicati
       <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="{{ "/img/staff/hugo.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Hugo Ledoux <small>Associate-prof.</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
+          <i class="fas fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
           <i class="fab fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
       </p>
     </div>
@@ -530,9 +530,9 @@ The complete list of publications of the project is available <a href="publicati
       <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ "/img/staff/jantien.jpg"  | prepend: site.baseurl }}" /></a>
       <h3>Jantien Stoter <small>Professor</small></h3>
       <p>
-          <i class="fa fa-home"></i> <a href="https://3d.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
-          <i class="fa fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
-          <i class="fa fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
+          <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
           <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
       </p>
     </div>

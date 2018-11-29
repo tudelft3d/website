@@ -37,7 +37,7 @@ Our [implementation is open-source](https://github.com/tudelft3d/3dfier) and fre
 
 ## Final report 
 
-<i class="fa fa-file-pdf-o">
+<i class="fas fa-file-pdf">
   <a href="simwind-final-report.pdf">simwind-final-report.pdf</a>
 </i>
 
