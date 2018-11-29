@@ -30,10 +30,10 @@ You might also be interested in related efforts:
 
 {% for i in journals %}
 {% if i.index == 'ISI' %}
-<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="far fa-caret-square-down"></i></a></p>
+<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a></p>
 <div id="{{ forloop.index }}" class="collapse"  tabindex="-1">{{ i.description }}<br>
 	{% if i.scirev %}
-		<a href="{{ i.scirev }}"><i class="fa fa-pencil"></i> SciRev entry</a><br>
+		<a href="{{ i.scirev }}"><i class="fas fa-pencil-alt"></i> SciRev entry</a><br>
 	{% endif %}
 </div>
 {% endif %}
@@ -44,10 +44,10 @@ You might also be interested in related efforts:
 
 {% for i in journals %}
 {% if i.index == 'Scopus' %}
-<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="far fa-caret-square-down"></i></a></p>
+<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a></p>
 <div id="{{ forloop.index }}" class="collapse"  tabindex="-1">{{ i.description }}<br>
 	{% if i.scirev %}
-		<a href="{{ i.scirev }}"><i class="fa fa-pencil"></i> SciRev entry</a><br>
+		<a href="{{ i.scirev }}"><i class="fas fa-pencil-alt"></i> SciRev entry</a><br>
 	{% endif %}
 </div>
 {% endif %}
@@ -57,10 +57,10 @@ You might also be interested in related efforts:
 
 {% for i in journals %}
 {% if i.index == null %}
-<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="far fa-caret-square-down"></i></a></p>
+<p><a href="{{ i.webpage }}">{{ i.name }}</a> <a href="#{{ forloop.index}}" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a></p>
 <div id="{{ forloop.index }}" class="collapse"  tabindex="-1">{{ i.description }}<br>
 	{% if i.scirev %}
-		<a href="{{ i.scirev }}"><i class="fa fa-pencil"></i> SciRev entry</a><br>
+		<a href="{{ i.scirev }}"><i class="fas fa-pencil-alt"></i> SciRev entry</a><br>
 	{% endif %}
 </div>
 {% endif %}

@@ -902,7 +902,7 @@ class Imbiber
 		if @entries[key].has_key?(:buy) then
 			out << ' <a href="' + @entries[key][:buy] + '"><i class="fas fa-book"></i></a>'
 		end
-		out << ' <a href="#bib' + key.to_s + '" data-toggle="collapse"><i class="far fa-caret-square-down"></i></a>'
+		out << ' <a href="#bib' + key.to_s + '" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a>'
 		out << '<div id="bib' + key.to_s + '" class="collapse" tabindex="-1"><pre class="bibtex">' + bibtex_of(@entries[key]) + '</pre></div>'
 		out << "</span>"
 		

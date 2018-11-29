@@ -40,7 +40,7 @@ Links to their final theses are available below.
           <small><a href="{{ i.paper }}"><i class="fas fa-file-text" title="paper"></i></a></small>
         {% endif %}
         {% if i.github %}
-          <small><a href="{{ i.github }}"><i class="fas fa-github" title="github"></i></a></small> 
+          <small><a href="{{ i.github }}"><i class="fab fa-github" title="github"></i></a></small> 
         {% endif %}
         </h3>
         <p>{{ i.title }}</p>

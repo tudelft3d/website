@@ -7,7 +7,7 @@ date: 2017-01-16 19:16
 
 We published a new paper:
 
-<div class="filteredelement"><strong>Path planning for first responders in the presence of moving obstacles with uncertain boundaries</strong>. Zhiyong Wang, Sisi Zlatanova, and Peter van Oosterom. <em>IEEE Transactions on Intelligent Transportation Systems</em>, Advance online publication,  2017. <br /> <a href="http://dx.doi.org/10.1109/TITS.2016.2634079"><i class="fas fa-external-link-alt"></i> DOI</a> <a href="#bibWang17" data-toggle="collapse"><i class="far fa-caret-square-down"></i> BibTeX</a><div id="bibWang17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Wang17,
+<div class="filteredelement"><strong>Path planning for first responders in the presence of moving obstacles with uncertain boundaries</strong>. Zhiyong Wang, Sisi Zlatanova, and Peter van Oosterom. <em>IEEE Transactions on Intelligent Transportation Systems</em>, Advance online publication,  2017. <br /> <a href="http://dx.doi.org/10.1109/TITS.2016.2634079"><i class="fas fa-external-link-alt"></i> DOI</a> <a href="#bibWang17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a><div id="bibWang17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Wang17,
   author = {Wang, Zhiyong and Zlatanova, Sisi and Van Oosterom, Peter},
   journal = {IEEE Transactions on Intelligent Transportation Systems},
   title = {Path planning for first responders in the presence of moving obstacles with uncertain boundaries},

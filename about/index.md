@@ -56,14 +56,14 @@ Our research funding mostly comes from the following organisations:
   <h2>Our offices</h2>
 
   <div class="col-md-4 col-sm-6 col-xs-12">
-    <i class="fa fa-map-marker fa-fw">     </i> Room BG.West.010 (building #8) <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> Faculty of the Built Environment <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> and Architecture<br>
-    <i class="fa fa-map-marker fa-fw fade"></i> Delft University of Technology <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> Julianalaan 134 <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> Delft 2628BL<br>
-    <i class="fa fa-map-marker fa-fw fade"></i> the Netherlands <br>
-    <i class="fa fa-map-marker fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+    <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.010 (building #8) <br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Faculty of the Built Environment <br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> and Architecture<br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> the Netherlands <br>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
     <br />
   </div>
   <div class="col-md-8 col-sm-6 col-xs-12">

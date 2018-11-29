@@ -31,7 +31,7 @@ A publication is added where applicable. If you use our code for a scientific pr
           <a href="{{ i.thesis }}"><i class="fas fa-book" title="thesis"></i></a>
         {% endif %}
         {% if i.paper %}
-          <a href="{{ i.paper }}"><i class="far fa-file-pdf" title="paper"></i></a>
+          <a href="{{ i.paper }}"><i class="fas fa-file-alt"></i></a>
         {% endif %}
         {% if i.web %}
           <a href="{{ i.web }}"><i class="fas fa-external-link-alt" title="external link"></i></a>

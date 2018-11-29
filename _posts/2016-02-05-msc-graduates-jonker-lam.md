@@ -33,7 +33,7 @@ Kees improved the [raster version of AHN2](http://www.nationaalgeoregister.nl/ge
           <small><a href="{{ i.paper }}"><i class="fas fa-file-alt" title="paper"></i></a></small>
         {% endif %}
         {% if i.github %}
-          <small><a href="{{ i.github }}"><i class="fas fa-github" title="github"></i></a></small> 
+          <small><a href="{{ i.github }}"><i class="fab fa-github" title="github"></i></a></small> 
         {% endif %}
         </h3>
         <p>{{ i.title }}</p>
