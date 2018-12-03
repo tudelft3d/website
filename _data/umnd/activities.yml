@@ -1,3 +1,6 @@
+- research_line: [1]
+  description: "Published paper: \"A metadata ADE for CityGML\""
+  date: 2018-11-30
 - research_line: [1, 2, 3]
   description: Organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
   date: 2018-10-02
