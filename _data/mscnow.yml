@@ -2,12 +2,12 @@
 
 - surname: Tzounakos	  
   name: Nikolaos 
-  title: Interior-exterior Classification of 3D Models
-  image: interior_exterior.jpg
+  title: Interior_exterior Classification of 3D Models
+  image: interiorexterior.jpg
   
 - surname: Bouzas	  
   name: Vasileios
-  title: Structure-aware Building Mesh Simplification
+  title: Structure_aware Building Mesh Simplification
   image: simplification.jpg
 
 - surname: Ai	  
@@ -17,7 +17,7 @@
 
 - surname: Du  
   name: Shenglan
-  title: Accurate, Detailed, and AutomaticTree Modelling from Point Clouds
+  title: Accurate, Detailed, and Automatic Tree Modelling from Point Clouds
   image: tree_ShenglanDu.jpg
 
 
