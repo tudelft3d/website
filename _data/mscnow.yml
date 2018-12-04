@@ -3,25 +3,20 @@
   title: Interior-exterior Classification of 3D Models
   image: interior_exterior.jpg
   
-  
-  - surname: Bouzas	  
+- surname: Bouzas	  
   name: Vasileios
   title: Structure-aware Building Mesh Simplification
   image: simplification.jpg
-
-
 
 - surname: Ai	  
   name: Zhiwei
   title: Urban Scene Understanding from Point Clouds
   image: understanding.jpg
 
-
 - surname: Du  
   name: Shenglan
   title: Accurate, Detailed, and AutomaticTree Modelling from Point Clouds
   image: tree_ShenglanDu.jpg
-
 
 
 - surname: Veenendaal  
