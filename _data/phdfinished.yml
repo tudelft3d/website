@@ -1,3 +1,12 @@
+- surname: van den Brink
+  name: Linda
+  doi: https://doi.org/10.4233/uuid:a0bd364d-f101-4337-91c5-92038b2a6d56
+  month: December
+  pdf: https://repository.tudelft.nl/islandora/object/uuid:a0bd364d-f101-4337-91c5-92038b2a6d56
+  title: Geospatial Data on the Web
+  year: 2018
+  image: linda.png
+
 
 - surname: Peters
   name: Ravi
