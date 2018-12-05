@@ -31,6 +31,15 @@ For creating the 3D BAG we wrote **bag3d**, which is an application that uses [3
 
 The source code of the software is open and it is located [here](https://github.com/tudelft3d/bag3d).
 
+- - -
+
+## Funding
+
+<div class="row">
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><img src="/img/partners/erc.svg" alt="ERC logo" ></a></div>
+</div>
+
+This project has received funding from the European Research Council (ERC) under the European Unions Horizon2020 Research & Innovation Programme (grant agreement no. 677312 UMnD: Urban modelling in higher dimensions).
 
 - - - 
 
