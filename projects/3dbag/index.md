@@ -36,7 +36,7 @@ The source code of the software is open and it is located [here](https://github.
 ## Funding
 
 <div class="row">
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><img src="/img/partners/erc.svg" alt="ERC logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><img src="/img/partners/erc.svg" alt="ERC logo" ></div>
 </div>
 
 This project has received funding from the European Research Council (ERC) under the European Unions Horizon2020 Research & Innovation Programme (grant agreement no. 677312 UMnD: Urban modelling in higher dimensions).
