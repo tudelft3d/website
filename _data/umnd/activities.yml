@@ -2,8 +2,18 @@
   description: "Published paper: \"A metadata ADE for CityGML\""
   date: 2018-11-30
 - research_line: [1, 2, 3]
+  description: Jantien appointed as Principal Investigator at <a href="https://https://www.ams-institute.org">Amsterdam Institute of Advanced Matropolitan Solutions</a>
+  date: 2016-09-01
+- research_line: [1, 2, 3]
   description: Organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
   date: 2018-10-02
+- research_line: [1, 2, 3]
+  description: Jantien (PI) participated in working visit of Dutch delegation (industry, academia and government) to London.
+  date: 2017-02-02
+- research_line: [1, 2, 3]
+  description: The project was shown during the <a href="https://www.tudelft.nl/en/technology-transfer/development-innovation/research-exhibition-projects/3d-geoinformation-dataset/">Research Exhibition of Delft University of Technology</a> (175th anniversary). 
+  date: 2017-02-02
+  https://www.tudelft.nl/en/technology-transfer/development-innovation/research-exhibition-projects/3d-geoinformation-dataset/
 - research_line: [1, 2, 3]
   description: Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.
   date: 2018-08-30
