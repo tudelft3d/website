@@ -15,7 +15,7 @@ permalink: /projects/noise3d/
 
 - - -
 
-## Summary
+# Summary
 
 In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group, TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands  (AHN).
 
@@ -36,15 +36,16 @@ In addition, we will investigate whether we can also standardise a number of oth
 In addition to improving the workflow and standardising concepts, we look at how we can roll out the workflow for the whole of the Netherlands. For this, the method is implemented in the 3D production line of the Kadaster. This production line generates 3D topography from point clouds and 2D topographic datasets. The open software [3dfier](https://github.com/tudelft3d/3dfier) is part of this production line. To generate noise-specific 3D data, the functionality can be re-used.
 An important aspect is also keeping the generated 3D data up-to-date. The BAG and BGT represent changes in reality at most a few months later. The current version of AHN (version 3) was collected between 2014 and 2019. For more up-to-date point clouds, we can use points generated from aerial photographs, which are collected every year. The 3D production line of the Kadaster also includes the generation of point clouds from dense image matching for 3D modelling.
 
-<!-- ## Reports
+- - -
 
-  1. The final report of the first phase of the project is found [here](https://3d.bk.tudelft.nl/pdfs/xxx). -->
+# Publications
+
+{% imbiber projects/noise3d/pubs.bib groupby:year idswithprefix:year_ %}
 
 
-<!-- ## Open-source software -->
+- - -
 
-
-## Presentations
+# Presentations
 
 ### Kickoff meeting on 2018-05-18 in Delft
 
@@ -72,7 +73,7 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 - - -
 
-## Project partners
+# Project partners
 
 <div class="row">
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" ></a></div>
@@ -82,7 +83,7 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 - - - 
 
-## Team
+# Team
 
 <div class="row">
     {% include project_team.html project_name='noise3d' %} 
