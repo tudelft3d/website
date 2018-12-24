@@ -17,6 +17,12 @@
   description: Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.
   date: 2018-08-30
 - research_line: [1, 2, 3]
+  description: Invited presentation at the <a href=" https://geo-bim.org/europe/2017/pdf/presentation/Jantien-Stoter-bim-loket-geobim-2017-24-11.pdf">GeoBIM conference</a> in Amsterdam.
+  date: 2017-11-24
+- research_line: [1, 2, 3]
+  description: Developed an up-to-date 3D building service covering whole of the Netherlands <a href="http://3dbag.bk.tudelft.nl">3D BAG</a>. Published via <a href="https://data.4tu.nl/repository/uuid:f1f9759d-024a-492a-b821-07014dd6131c">4TU Data Centre</a>
+  date: 2017-11-24
+- research_line: [1, 2, 3]
   description: Open lecture at the <a href="http://https://www.arch.nus.edu.sg/activities/news-plus-events/events_ay1819_guestlectures_jantienstoter_230818/">National University of Singapore.</a>.
   date: 2018-08-24
 - research_line: [2]
