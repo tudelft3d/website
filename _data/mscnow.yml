@@ -46,3 +46,8 @@
   name: Yixin
   title: Filtering a non-expert weather station's temperature data by using 3D model and point cloud in the Hague
   image: yixin.png
+
+- surname: Wang
+  name: Qu
+  title: 3D breakline extraction from point clouds
+  image: quwang.png
