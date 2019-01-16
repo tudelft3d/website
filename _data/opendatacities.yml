@@ -41,7 +41,7 @@
   link: http://www.businesslocationcenter.de/en/downloadportal
   country: Germany
   building_lod: LoD2
-  formats: CityGML
+  formats: CityGML, 2D Shape, 3D Shape - PolygonZ, 3D Shape - Multipatch, KMZ, DXF, DWG, 3DS, ESRI FGDB
   year: 2013
   texture:  Yes
   notes: Released in 2015
@@ -50,7 +50,7 @@
   link: http://kartta.hel.fi/3d/
   country: Finland
   building_lod: LoD2
-  formats: CityGML
+  formats: CityGML, 2D Shape, 3D Shape - PolygonZ, 3D Shape - Multipatch, KMZ, DXF, DWG, 3DS, ESRI FGDB
   year: 2016
   texture:  Yes
 
@@ -66,7 +66,7 @@
   link: http://urbisdownload.gis.irisnet.be/en/dimension
   country: Belgium
   building_lod: LoD2
-  formats: CityGML
+  formats: CityGML, DWG, DGN, GML, Shapefile, SketchUp
   year: 2014
   classes:  Building
   texture:   No
@@ -99,7 +99,7 @@
   link: http://donnees.ville.montreal.qc.ca/dataset/maquette-numerique-batiments-citygml-lod2-avec-textures
   country: Canada
   building_lod: LoD2
-  formats: CityGML
+  formats: CityGML, 3DM
   year: 2009
   classes: "[terrain (TIN in CityGML format)](http://donnees.ville.montreal.qc.ca/dataset/modele-numerique-de-terrain-mnt)"
   acquisition: Photogrammetry
@@ -121,7 +121,7 @@
   link: http://www1.nyc.gov/site/doitt/initiatives/3d-building.page
   country: United States
   building_lod: LoD2 
-  formats: CityGML
+  formats: CityGML, Multipatch (ESRI), DGN
   year: 2016
   acquisition: Cadastre footprints + LiDAR
   texture: no
