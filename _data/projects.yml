@@ -1,3 +1,9 @@
+- name: GeoBIM benchmark
+  description: Reference study on software support for open standards of city and building models
+  webpage: /projects/geobim-benchmark/
+  image: benchmark.png
+  funding: ISPRS
+  start: 2019
 
 - name: iNous
   description: Building an Eco-System for Indoor Spatial Information
