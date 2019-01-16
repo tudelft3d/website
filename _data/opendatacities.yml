@@ -1,0 +1,258 @@
+- dataset: Espoo
+  link: https://kartat.espoo.fi/3d/index_en.html
+  country: Finland
+  building_lod: LOD1-3 
+  formats: CityGML
+  year: 2019
+  texture: yes
+  notes: "Many classes from CityGML: water body, terrain, landuse, etc."
+
+- dataset: Vienna
+  link: https://www.data.gv.at/katalog/dataset/86d88cae-ad97-4476-bae5-73488a12776d
+  country: Austria
+  building_lod: LoD2 
+  formats: CityGML
+  year: 2018
+  texture: no
+  notes: "From the building footprints of the area multipurpose map and a surface model semi-automatically derived prototypical roof forms."
+
+
+- dataset: North Rhine-Westphalia (state)
+  link: https://www.opengeodata.nrw.de/produkte/geobasis/3d-gm/
+  country: Germany
+  building_lod: LoD1+LoD2 
+  formats: CityGML
+  year: 2016
+  acquisition: "Cadastre footprints, LiDAR, aerial images. LoD1 is derived from LoD2 models with average roof height ([details here](http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/hoehenmodelle/3d_gebaeudemodelle/index.html))"
+  texture: no
+  notes: "Enormous datasets that covers whole NRW (NRW is the most populated state in Germany) Cities included: Düsseldorf, Essen, Oberhausen, Köln, Bonn and more"
+
+- dataset: Thuringia (state)
+  link: http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen/download3dgeb%C3%A4ude.aspx
+  country: Germany
+  building_lod: LoD1 (full) + LoD2 (partly)
+  formats: CityGML
+  year: 2013 (cadastre footprints) - 2016 and earlier (LiDAR)
+  acquisition: Cadastre footprints + LiDAR
+  texture: no
+  notes: "Datasets that covers whole Thuringia (Thüringen); Cities included: Erfurt, Jena, Gera, Gotha"
+
+- dataset: Berlin
+  link: http://www.businesslocationcenter.de/en/downloadportal
+  country: Germany
+  building_lod: LoD2
+  formats: CityGML
+  year: 2013
+  texture:  Yes
+  notes: Released in 2015
+ 
+- dataset: Helsinki
+  link: http://kartta.hel.fi/3d/
+  country: Finland
+  building_lod: LoD2
+  formats: CityGML
+  year: 2016
+  texture:  Yes
+
+- dataset: Dresden
+  link: http://www.dresden.de/de/leben/stadtportrait/statistik/geoinformationen/3-d-modell.php?shortcut=3D
+  country: Germany
+  building_lod: LoD1/LoD2/LoD3
+  formats: CityGML
+  year: 2009
+  texture: Partially
+ 
+- dataset: Brussels
+  link: http://urbisdownload.gis.irisnet.be/en/dimension
+  country: Belgium
+  building_lod: LoD2
+  formats: CityGML
+  year: 2014
+  classes:  Building
+  texture:   No
+  
+- dataset: Hamburg
+  link: http://suche.transparenz.hamburg.de/dataset/3d-stadtmodell-lod2-de-hamburg2
+  country: Germany
+  building_lod: LoD1 and LoD2
+  formats: CityGML
+  year: 2017
+  acquisition: Cadastre footprints + LiDAR
+  
+- dataset: Linz
+  link: http://geo.data.linz.gv.at/katalog/geodata/3d_geo_daten_lod2/
+  country: Austria
+  building_lod: LoD2
+  formats: CityGML
+  year: 2011
+  texture: no
+  
+- dataset:  Lyon
+  link: http://data.grandlyon.com
+  country: France
+  building_lod: LoD2
+  formats: CityGML
+  year: 2012
+  classes:  Terrain, water
+  
+- dataset: Montréal
+  link: http://donnees.ville.montreal.qc.ca/dataset/maquette-numerique-batiments-citygml-lod2-avec-textures
+  country: Canada
+  building_lod: LoD2
+  formats: CityGML
+  year: 2009
+  classes: "[terrain (TIN in CityGML format)](http://donnees.ville.montreal.qc.ca/dataset/modele-numerique-de-terrain-mnt)"
+  acquisition: Photogrammetry
+  texture:  Yes
+  notes: "The [LiDAR dataset of the same area](http://donnees.ville.montreal.qc.ca/dataset/lidar-aerien-2015) is also available"
+
+- dataset: New York City (by TUM)
+  link: http://www.gis.bgu.tum.de/en/projects/new-york-city-3d/
+  country: United States
+  building_lod: LoD1
+  formats: CityGML
+  year: 2015
+  acquisition: Photogrammetry in combination with existing public 2(.5)D datasets
+  classes:  Roads, lots, parks, water, terrain
+  texture:   No
+  notes: "[article with details](http://www.ifp.uni-stuttgart.de/publications/phowo15/330Kolbe.pdf)"
+  
+- dataset: New York City (by DoITT)
+  link: http://www1.nyc.gov/site/doitt/initiatives/3d-building.page
+  country: United States
+  building_lod: LoD2 
+  formats: CityGML
+  year: 2016
+  acquisition: Cadastre footprints + LiDAR
+  texture: no
+  notes: buildings are modeled with thematic surfaces in LoD2, however, for most buildings the geometric shape is LoD1
+  
+
+- dataset: Rotterdam
+  link: http://www.rotterdamopendata.nl/dataset/rotterdam-3d-bestanden
+  country: Netherlands
+  building_lod: LoD2
+  formats: CityGML
+  year: 2010
+  acquisition: Cadastre footprints + LiDAR
+  texture:  Yes
+
+- dataset: Various CityJSON datasets
+  link: http://www.cityjson.org/en/0.8/datasets/
+  country: Netherlands, Canada, USA, Austria
+  building_lod: LoD2
+  formats: CityJSON
+  year: 2018
+  acquisition: converted from CityGML with citygml4j
+  texture:  Rotterdam
+  notes: Available cities are the Hague, Montréal, New York, Rotterdam and Vienna
+
+- dataset: The Hague
+  link:    https://data.overheid.nl/data/dataset/ngr-3d-model-den-haag
+  country: Netherlands
+  building_lod: LoD2
+  formats: CityGML
+  year: 2011
+  classes:  Terrain
+  texture:   No
+  notes: It contains terrain intersection curves!
+
+- dataset: Dutch cities
+  link:    https://3d.bk.tudelft.nl/opendata/3dfier/
+  country: Netherlands
+  building_lod: LoD1
+  formats: CityGML, OBJ, IMGeo
+  year: 2016
+  classes:  Terrain and many other
+  texture:   No
+  notes: A few Dutch cities generated with 3dfier
+
+- dataset: Cambridge
+  link: http://www.cambridgema.gov/GIS/3D/3ddata/3ddatadownloadmap
+  country: UK
+  building_lod: LOD1
+  # year: 2013
+  texture:  No
+  # notes: Released in 2015
+  formats: DXF, Shapefile, COLLADA
+
+- dataset: Toronto
+  link: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=d431d477f9a3a410VgnVCM10000071d60f89RCRD
+  country: Canada
+  building_lod: LOD1
+  year: 2016
+  # texture:  No
+  # notes: Released in 2015
+  formats: Shapefile, Geodatabase, AutoCAD, SketchUp
+
+- dataset: Boston
+  link: http://www.bostonplans.org/document-center?doctype=12&sortby=name&sortdirection=asc
+  country: USA
+  building_lod: LOD2
+  year: 2013
+  texture:  No
+  notes : terrain
+  formats: OBJ, DWG, MAX
+
+- dataset: Philadelphia
+  link: http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7146
+  country: USA
+  building_lod: LOD2
+  year: 2015
+  texture:  Yes
+  notes : 
+  formats: GDB
+  
+- dataset: Vancouver
+  link: http://data.vancouver.ca/datacatalogue/buildingFootprints.htm
+  country: Canada
+  building_lod: LOD1
+  year: 2009
+  texture:  No
+  notes : 
+  formats: Shapefile, DWG, KML
+
+- dataset: Adelaide
+  link: https://data.sa.gov.au/data/dataset/3d-model
+  country: Australia
+  building_lod: LOD1/LOD2
+  year: 2015
+  texture:  Yes
+  notes : terrain
+  formats: .3DS with JPEG textures, Blender, FBX
+
+- dataset: Greater Geelong
+  link: http://www.geelongaustralia.com.au/data/item/central-geelong-3d-massing-model.aspx
+  country: Australia
+  building_lod: LOD1/LOD2
+  year: 2016
+  texture:  No
+  notes : terrain
+  formats: KML
+
+- dataset: San Francisco
+  link: https://data.sfgov.org/Housing-and-Buildings/Building-Footprints/72ai-zege
+  country: USA
+  building_lod: LOD1
+  year: 2017
+  texture:  No
+  notes : 
+  formats: KML, KMZ, Shapefile, GeoJSON
+  
+- dataset: Fredericton
+  link: http://data.fredericton.ca/en/dataset/3d-building-models
+  country: Canada
+  building_lod: LOD2
+  year: 2016
+  texture:  Yes
+  notes : 
+  formats: KMZ
+
+- dataset: Austin
+  link: ftp://ftp.ci.austin.tx.us/GIS-Data/Regional/coa_gis.html
+  country: USA
+  building_lod: LOD2
+  year: 2013
+  texture:  No
+  notes : 
+  formats: KMZ, Shapefile
