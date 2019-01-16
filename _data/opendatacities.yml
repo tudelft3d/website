@@ -1,7 +1,7 @@
 - dataset: Espoo
   link: https://kartat.espoo.fi/3d/index_en.html
   country: Finland
-  building_lod: LOD1-3 
+  building_lod: LoD1-3 
   formats: CityGML
   year: 2019
   texture: yes
@@ -60,7 +60,7 @@
   building_lod: LoD1/LoD2/LoD3
   formats: CityGML
   year: 2009
-  texture: Partially
+  texture: partially
  
 - dataset: Brussels
   link: http://urbisdownload.gis.irisnet.be/en/dimension
@@ -144,7 +144,7 @@
   formats: CityJSON
   year: 2018
   acquisition: converted from CityGML with citygml4j
-  texture:  Rotterdam
+  texture:  some
   notes: Available cities are the Hague, Montréal, New York, Rotterdam and Vienna
 
 - dataset: The Hague
@@ -170,7 +170,7 @@
 - dataset: Cambridge
   link: http://www.cambridgema.gov/GIS/3D/3ddata/3ddatadownloadmap
   country: UK
-  building_lod: LOD1
+  building_lod: LoD1
   # year: 2013
   texture:  No
   # notes: Released in 2015
@@ -179,7 +179,7 @@
 - dataset: Toronto
   link: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=d431d477f9a3a410VgnVCM10000071d60f89RCRD
   country: Canada
-  building_lod: LOD1
+  building_lod: LoD1
   year: 2016
   # texture:  No
   # notes: Released in 2015
@@ -188,7 +188,7 @@
 - dataset: Boston
   link: http://www.bostonplans.org/document-center?doctype=12&sortby=name&sortdirection=asc
   country: USA
-  building_lod: LOD2
+  building_lod: LoD2
   year: 2013
   texture:  No
   notes : terrain
@@ -197,7 +197,7 @@
 - dataset: Philadelphia
   link: http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7146
   country: USA
-  building_lod: LOD2
+  building_lod: LoD2
   year: 2015
   texture:  Yes
   notes : 
@@ -206,7 +206,7 @@
 - dataset: Vancouver
   link: http://data.vancouver.ca/datacatalogue/buildingFootprints.htm
   country: Canada
-  building_lod: LOD1
+  building_lod: LoD1
   year: 2009
   texture:  No
   notes : 
@@ -215,7 +215,7 @@
 - dataset: Adelaide
   link: https://data.sa.gov.au/data/dataset/3d-model
   country: Australia
-  building_lod: LOD1/LOD2
+  building_lod: LoD1/LoD2
   year: 2015
   texture:  Yes
   notes : terrain
@@ -224,7 +224,7 @@
 - dataset: Greater Geelong
   link: http://www.geelongaustralia.com.au/data/item/central-geelong-3d-massing-model.aspx
   country: Australia
-  building_lod: LOD1/LOD2
+  building_lod: LoD1/LoD2
   year: 2016
   texture:  No
   notes : terrain
@@ -233,7 +233,7 @@
 - dataset: San Francisco
   link: https://data.sfgov.org/Housing-and-Buildings/Building-Footprints/72ai-zege
   country: USA
-  building_lod: LOD1
+  building_lod: LoD1
   year: 2017
   texture:  No
   notes : 
@@ -242,7 +242,7 @@
 - dataset: Fredericton
   link: http://data.fredericton.ca/en/dataset/3d-building-models
   country: Canada
-  building_lod: LOD2
+  building_lod: LoD2
   year: 2016
   texture:  Yes
   notes : 
@@ -251,7 +251,7 @@
 - dataset: Austin
   link: ftp://ftp.ci.austin.tx.us/GIS-Data/Regional/coa_gis.html
   country: USA
-  building_lod: LOD2
+  building_lod: LoD2
   year: 2013
   texture:  No
   notes : 
