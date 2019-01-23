@@ -12,7 +12,7 @@ We offer different formats:
 
   - OBJ: simple format useful for visualisation, use this to visualise the models. The free software [MeshLab](http://meshlab.sourceforge.net) works great, and is cross-platform.
   - CityGML: the file will be much bigger than the OBJ. You can visualise it with our free software [Azul](https://github.com/tudelft3d/azul) (MacOS) or [FZKViewer](http://iai-typo3.iai.fzk.de/www-extern-kit/index.php?id=1134) (Windows).
-  - IMGeo: Dutch format, more details [there](http://www.geonovum.nl/onderwerp-artikel/toolkit-3d). There are no proper visualiser for this at this moment.
+  - IMGeo: Dutch format, more details [there](http://www.geonovum.nl/onderwerp-artikel/toolkit-3d). There are no proper visualisers for this at this moment.
 
 If you want to use [3dfier](https://github.com/tudelft3d/3dfier) yourself, you can follow that [handy tutorial](https://github.com/tudelft3d/3dfier/wiki/General-3dfier-tutorial-to-generate-LOD1-models).
 
