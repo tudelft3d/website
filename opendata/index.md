@@ -25,7 +25,7 @@ permalink: /opendata/
         <h3>3D city models in CityJSON
         <br/>
         </h3>
-        <p>Several 3D cities CityJSON are available in CityJSON</p>
+        <p>Several 3D cities are available in CityJSON</p>
       </div>
     </div>
   </div>
