@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Cities around the world with open datasets
+title:  Cities/regions around the world with open datasets
 permalink: /opendata/opencities/
 ---
 

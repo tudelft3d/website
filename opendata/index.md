@@ -17,12 +17,21 @@ permalink: /opendata/
       </div>
     </div>
   </div>
-</div>
 
-<h2>Open datasets that we created</h2>
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="http://www.cityjson.org/en/0.8/datasets/"><img src="{{ "/img/code/cityjson.png" | prepend: site.baseurl }}"/></a>
+      <div class="caption">
+        <h3>3D city models in CityJSON
+        <br/>
+        </h3>
+        <p>Several 3D cities CityJSON are available in CityJSON</p>
+      </div>
+    </div>
+  </div>
 
-<div class="row">  
-    <div class="col-sm-4 col-md-3">
+ 
+  <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="3dfier"><img src="{{ "/img/code/3dfier.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
@@ -33,20 +42,9 @@ permalink: /opendata/
       </div>
     </div>
   </div>  
+ 
   
   <div class="col-sm-4 col-md-3">
-    <div class="thumbnail">
-      <a href="http://www.cityjson.org/en/0.8/datasets/"><img src="{{ "/img/code/cityjson.png" | prepend: site.baseurl }}"/></a>
-      <div class="caption">
-        <h3>3D city models in CityJSON
-        <br/>
-        </h3>
-        <p>Automatically converted from CityGML with the open-source library citygml4j <a href="https://github.com/citygml4j/citygml4j">citygml4j</a>.</p>
-      </div>
-    </div>
-  </div>
-  
-    <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <a href="random3dcity"><img src="{{ "/img/code/random3dcity.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
