@@ -1,5 +1,5 @@
 - research_line: [1]
-  description: "Invited talk 'Improving the usability of 3D city models' by Hugo at the <a href="https://www.uni-muenster.de/Geoinformatics/en/GI-Forum/index.php">Universität Münster GI-Forum</a>"
+  description: "Invited talk 'Improving the usability of 3D city models' by Hugo at the <a href=\"https://www.uni-muenster.de/Geoinformatics/en/GI-Forum/index.php\">Universität Münster GI-Forum</a>"
   date: 2019-01-22
 - research_line: [1]
   description: "Published paper: \"A metadata ADE for CityGML\""
