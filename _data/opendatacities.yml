@@ -1,3 +1,13 @@
+- dataset: American cities
+  link:    https://github.com/opencitymodel/opencitymodel
+  country: USA
+  building_lod: LoD1
+  formats: CityJSON, CityGML
+  year: 2019
+  classes:  
+  texture:  no
+  notes: 125 million buildings, separated by state
+
 - dataset: Espoo
   link: https://kartat.espoo.fi/3d/index_en.html
   country: Finland
@@ -164,7 +174,7 @@
   formats: CityGML, OBJ, IMGeo
   year: 2016
   classes:  Terrain and many other
-  texture:   No
+  texture:  no
   notes: A few Dutch cities generated with 3dfier
 
 - dataset: Cambridge
