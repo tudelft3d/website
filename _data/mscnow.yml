@@ -1,5 +1,25 @@
 
 
+- surname: Wang	  
+  name: Xin
+  title: Urban Environment Simulation based on CityGML with Energy ADE and Ladybug
+  image: wang.png
+
+- surname: Arapakis	  
+  name: Panagiotis
+  title: Coupling CityGML with ENVI-met
+  image: arapakis.png
+
+- surname: Ruben	  
+  name: Pablo
+  title: Enrichment and application of digital 3D city models in the context of urban mining
+  image: ruben.png
+
+- surname: Garcia Gonzalez	  
+  name: Francisco Gabriel
+  title: An interactive design tool for urban planning using the size of the living space as unit of measurement
+  image: gonzalez.png
+
 - surname: Tzounakos	  
   name: Nikolaos 
   title: Interior_exterior Classification of 3D Models
