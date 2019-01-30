@@ -1,4 +1,9 @@
-
+- surname: Flikweert
+  name: Puck
+  title: "Automatic Extraction of an IndoorGML Navigation from an Indoor Point Cloud"
+  image: puck.png
+  link: https://3d.bk.tudelft.nl/pdfs/Puck_Flikweert_final.pdf
+  year: 2017
 
 - surname: Wang
   name: Cheng-Kai
