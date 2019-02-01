@@ -5,7 +5,7 @@ categories: news
 date: 2019-02-01 15:11
 ---
 
-<img class="img-circle img-responsive" src="{{ "img/staff/clara.JPG" | prepend: site.baseurl }}">
+<img class="img-circle img-responsive" src="{{ "img/staff/clara.jpg" | prepend: site.baseurl }}">
 
 Clara García-Sánchez has joined our research group as an Assistant Professor (tenure track), after receiving the [Delft Technology Fellowship](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/fellows-and-postdocs/delft-technology-fellowship/).
 
