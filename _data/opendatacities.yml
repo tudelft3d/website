@@ -148,7 +148,7 @@
   texture:  Yes
 
 - dataset: Various CityJSON datasets
-  link: http://www.cityjson.org/en/0.8/datasets/
+  link: http://www.cityjson.org/en/0.9/datasets/
   country: Netherlands, Canada, USA, Austria
   building_lod: LoD2
   formats: CityJSON

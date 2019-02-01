@@ -20,7 +20,7 @@ permalink: /opendata/
 
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <a href="http://www.cityjson.org/en/0.8/datasets/"><img src="{{ "/img/code/cityjson.png" | prepend: site.baseurl }}"/></a>
+      <a href="http://www.cityjson.org/en/0.9/datasets/"><img src="{{ "/img/code/cityjson.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>3D city models in CityJSON
         <br/>
