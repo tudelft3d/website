@@ -3,6 +3,7 @@
   webpage: /projects/geobim-benchmark/
   image: benchmark.png
   funding: ISPRS
+  fundingurl: http://www.isprs.org
   start: 2019
 
 - name: iNous
@@ -51,6 +52,7 @@
   description: Automated reconstruction of 3D input data for noise studies
   webpage: /projects/noise3d/
   funding: RWS
+  fundingurl: https://www.rijkswaterstaat.nl
   image: noise3d.png
   start: 2017
 
