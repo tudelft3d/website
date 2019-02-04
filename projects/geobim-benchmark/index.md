@@ -5,12 +5,22 @@ permalink: /projects/geobim-benchmark/
 ---
 
 <div class="row">
-	<div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+	<div class="col-md-4 col-md-offset-1 col-xs-6">
 		<img class="img-responsive" src="img/benchmark.png" />
+	</div>
+	<div class="col-md-6 col-md-offset-1 col-xs-6">
+		<h1>GeoBIM benchmark</h1>
 	</div>
 </div>
 
-<h1>GeoBIM benchmark</h1>
+<div class="well"><b>Recent news</b><br/><br/>
+	{% assign sorted = site.data.geobim_news | sort: 'date' | reverse %}
+  {% for news in sorted limit:3 %}
+  	<p><small><span class="post-date">{{ news.date | date: "%b %d" }}</span></small> {{ news.news }}</p>
+  {% endfor %}
+  <a href="news.html">All news</a>
+</div>
+
 <h3>Reference study on software support for open standards of city and building models</h3>
 
 In the (spatial) information world, **interoperability** is a key condition for the reuse of information, and is realised via standardisation. Within this context, increasing attention is being paid to GeoBIM --- the exchange of information from geospatial and Building Information Modelling (BIM) sources --- by scholars (very critical for a number of smart city applications), public entities (e.g. land description, control, analysis), practitioners (e.g. city planners, building designers, asset managers).
@@ -48,5 +58,5 @@ Two **standards** underpin this information exchange:
 
 [Task 4](task4.html) - Software and workflows for **conversion** (**IFC to CityGML** and **CityGML to IFC**)
 
-<h3>Benchmark data</h3>
+<!-- <h3>Benchmark data</h3> -->
 
