@@ -25,14 +25,14 @@ Two **standards** underpin this information exchange:
 	</div>
 	<div class="col-md-9 col-xs-10">
 		<p>The <strong>Open Geospatial Consortium (OGC)</strong> established <strong>CityGML</strong> in 2008, which is the most widespread standard for structuring the 3D geoinformation of urban areas.</p>
-		<p>For more information about CityGML, visit <a href="http://www.citygmlwiki.org">www.citygmlwiki.org</a>.</p>
+		<p>For more information about CityGML, go <a href="citygml.html">here</a>.</p>
 	</div>
 	<div class="col-md-3 col-xs-2">
 		<img class="img-responsive" src="img/ifc.jpg" />
 	</div>
 	<div class="col-md-9 col-xs-10">
 		<p>In the Architecture, Engineering and Construction fields, <strong>buildingSMART</strong> established the <strong>Industry Foundation Classes (IFC)</strong> standard for semantically structuring BIM.</p>
-		<p>For more information about IFC, visit <a href="http://www.buildingsmart-tech.org/specifications/ifc-overview">www.buildingsmart-tech.org/specifications/ifc-overview</a>.</p>
+		<p>For more information about IFC, go <a href="ifc.html">here</a>.</p>
 	</div>
 </div>
 
