@@ -44,7 +44,7 @@ Figure 2. UML diagram of CityGML's building model. Prefixes are used to indicate
 
 Figure 3. A building represented in LOD0 to LOD4 (image from Biljecki et al. [2016]).
 
-For more information about CityGML visit [http://www.citygmlwiki.org](citygmlwiki.org) and [www.citygml.org](citygml.org).
+For more information about CityGML visit [citygmlwiki.org](http://www.citygmlwiki.org) and [citygml.org](http://www.citygml.org).
 
 ### References
 

@@ -10,7 +10,7 @@ The investigation of the available technical solutions to support research and a
 
 This is the first project that will provide insight into the current state of the art of standardisation in the 3D geo and BIM domain and will also identifying remaining issues.
 
-It is a Scientific initiative funded by the [International Society for Photogrammetry and Remote Sensing (ISPRS)](http://www.isprs.org/) and the [European Spatial Data Research association (EuroSDR)](www.eurosdr.net).
+It is a Scientific initiative funded by the [International Society for Photogrammetry and Remote Sensing (ISPRS)](http://www.isprs.org/) and the [European Spatial Data Research association (EuroSDR)](http://www.eurosdr.net).
 
 ### Objective
 
