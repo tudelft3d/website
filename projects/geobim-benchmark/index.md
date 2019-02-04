@@ -11,7 +11,7 @@ permalink: /projects/geobim-benchmark/
 </div>
 
 <h1>GeoBIM benchmark</h1>
-<h4>Reference study on software support for open standards of city and building models</h4>
+<h3>Reference study on software support for open standards of city and building models</h3>
 
 In the (spatial) information world, **interoperability** is a key condition for the reuse of information, and is realised via standardisation. Within this context, increasing attention is being paid to GeoBIM --- the exchange of information from geospatial and Building Information Modelling (BIM) sources --- by scholars (very critical for a number of smart city applications), public entities (e.g. land description, control, analysis), practitioners (e.g. city planners, building designers, asset managers).
 
@@ -35,3 +35,18 @@ Two **standards** underpin this information exchange:
 		<p>For more information about IFC, visit <a href="http://www.buildingsmart-tech.org/specifications/ifc-overview">www.buildingsmart-tech.org/specifications/ifc-overview</a>.</p>
 	</div>
 </div>
+
+**Conversion procedures** from IFC to CityGML and from CityGML to IFC have also been frequently studied. However, a comprehensive description and test of conversion procedures in a unified framework, together with an assessment of software performance and reliability, has never been done until now.
+
+<h3>Benchmark tasks</h3>
+
+[Task 1](task1.html) - The **support of IFC** within BIM software
+
+[Task 2](task2.html) - What options for **georeferencing BIM** are available?
+
+[Task 3](task3.html) - **Support for CityGML** within GIS tools
+
+[Task 4](task4.html) - Software and workflows for **conversion** (**IFC to CityGML** and **CityGML to IFC**)
+
+<h3>Benchmark data</h3>
+
