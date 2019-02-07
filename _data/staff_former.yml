@@ -58,12 +58,12 @@
 
 - surname: Biljecki
   name: Filip
-  title: "[PhD](http://filipbiljecki.com/phd.html)" 
+  title: "[PhD](http://filip.biljecki.com/phd.html)" 
   photo: filip.jpg
-  email: f.biljecki@tudelft.nl
+  # email: f.biljecki@tudelft.nl
   twitter: fbiljecki
   period: 2014-2017
-  current: "[postdoc at  National University of Singapore](http://filipbiljecki.com)"
+  current: "[postdoc at National University of Singapore](http://filip.biljecki.com)"
 
 - surname: Du
   name: Xin
