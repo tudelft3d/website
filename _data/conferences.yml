@@ -349,3 +349,15 @@
       date: 2019-05-01
     - name: Extended abstract submission deadline
       date: 2019-05-15
+
+- name: 4th International Conference on Smart Data and Smart Cities
+  place: Kuala Lumpur, Malaysia
+  start: 2019-10-01
+  end: 2019-10-03
+  url: http://www.geoinfo.utm.my/sdsc2019/
+  milestones:
+    - name: Full paper submission deadline
+      date: 2019-05-14
+    - name: Abstract submission deadline
+      date: 2019-05-31
+
