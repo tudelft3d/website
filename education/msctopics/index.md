@@ -19,6 +19,8 @@ In this MSc thesis we will simulate explicitly the wind around diverse tree topo
 
 Knowledge of programming in python is highly desirable.
 
+**Contact:** [Clara Garcia-Sanchez]
+(mailto:C.Garcia-Sanchez@tudelft.nl)
 
 
 ## Calculating Street Widths
