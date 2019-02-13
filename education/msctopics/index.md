@@ -11,6 +11,21 @@ permalink: /education/msctopics/
 
 - - -
 
+## Automatic reconstruction of historical 3D city models
+
+![](img/delft_1600.jpg){:width="500px"}
+
+
+Several cities are currently attempting to reconstruct historial 3D models of their cities, see for instance [Rotterdam before/during/after WWII](https://www.stadsarchief.rotterdam.nl/rotterdam3d).
+As far I know, all the efforts have been made manually, by hiring several students to draw buildings from historical photos.
+
+The aim of the project is to investigate how historical 3D models of cities can be *automatically* reconstructed.
+The idea is to use [2D topographic maps](https://www.topotijdreis.nl) and other sources (eg cadastre) and infer the height of buidings, [maybe with machine learning](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf).
+
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
 ## Modelling tree topology effects on wind
 
 ![](img/FlowAroundTrees.png)
