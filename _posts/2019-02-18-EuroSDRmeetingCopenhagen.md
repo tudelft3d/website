@@ -6,6 +6,7 @@ date: 2019-02-17
 ---
 
 Last week, we had our 4th meeting of the [EuroSDR GeoBIM](https://3d.bk.tudelft.nl/projects/eurosdr-geobim/) project in Copenhagen.
+
 In this project, mapping agencies and universities from 12 European countries are investigating how the use of geo-data can be increased in BIM applications and vice versa.
 We are currently investigating two workflows that need both types of data: building permit process and asset management.
 For both workflows, we are studying how the workflows are currently practiced, how the workflow can be improved and (partially) automated by better integrated use of geo- and BIM data and what developments are needed for such improved use.
