@@ -9,7 +9,7 @@ permalink: /projects/geobim-benchmark/
 		<img class="img-responsive" src="img/benchmark.png" />
 	</div>
 	<div class="col-md-6 col-md-offset-1 col-xs-6">
-		<h1>GeoBIM benchmark</h1>
+		<h1>GeoBIM benchmark 2019</h1>
 	</div>
 </div>
 
@@ -23,40 +23,30 @@ permalink: /projects/geobim-benchmark/
 
 <h3>Reference study on software support for open standards of city and building models</h3>
 
-In the (spatial) information world, **interoperability** is a key condition for the reuse of information, and is realised via standardisation. Within this context, increasing attention is being paid to GeoBIM --- the exchange of information from geospatial and Building Information Modelling (BIM) sources --- by scholars (very critical for a number of smart city applications), public entities (e.g. land description, control, analysis), practitioners (e.g. city planners, building designers, asset managers).
+This benchmark will investigate the available **technical solutions** to support research and activities related to GeoBIM, through the use of the **open standards IFC** (by buildingSMART) and **CityGML** (by OGC).  We will address the following questions:
 
-**Objective:** The benchmark will provide insight into the state of the art of support for CityGML and IFC and the developments that are needed to make a better integration of Geo and BIM data possible. Its main objective is to **provide a framework** describing the present ability of existing software tools to **use** (read and visualise, import, manage, analyse, export) CityGML and IFC models and understand their **performance** whole doing so, both in terms of information loss and in terms of ability to handle large datasets.
+1. What is the **support for IFC** within BIM (and other) software?
+2. What options for **geo-referencing BIM** data are available?
+3. What is the **support for CityGML** within GIS (and other) tools?
+4. What options for **conversion (IFC↔CityGML)** are available?
+5. What is the support of different types of **IFC geometries**?
 
-Two **standards** underpin this information exchange:
+You are invited to take part in this benchmark activity by performing one or more tasks.
 
 <div class="row">
 	<div class="col-md-3 col-xs-2">
-		<img class="img-responsive" src="img/citygml-logo.png" />
+		<img class="img-responsive" src="img/puzzle.jpg" />
 	</div>
 	<div class="col-md-9 col-xs-10">
-		<p>The <strong>Open Geospatial Consortium (OGC)</strong> established <strong>CityGML</strong> in 2008, which is the most widespread standard for structuring the 3D geoinformation of urban areas.</p>
-		<p>For more information about CityGML, go <a href="citygml.html">here</a>.</p>
-	</div>
-	<div class="col-md-3 col-xs-2">
-		<img class="img-responsive" src="img/ifc.jpg" />
-	</div>
-	<div class="col-md-9 col-xs-10">
-		<p>In the Architecture, Engineering and Construction fields, <strong>buildingSMART</strong> established the <strong>Industry Foundation Classes (IFC)</strong> standard for semantically structuring BIM.</p>
-		<p>For more information about IFC, go <a href="ifc.html">here</a>.</p>
+		<p>Volunteers will be required to perform one or more tasks using  the tools they are familiar with, and deliver their results using the results template.</p>
+		<p>At least one scientific publication co-authored by both the benchmark proponents and volunteers will be written, and final results will be published on the website.</p>
 	</div>
 </div>
 
-**Conversion procedures** from IFC to CityGML and from CityGML to IFC have also been frequently studied. However, a comprehensive description and test of conversion procedures in a unified framework, together with an assessment of software performance and reliability, has never been done until now.
+<h4>How to participate</h4>
 
-<h3>Benchmark tasks</h3>
-
-[Task 1](task1.html) - The **support of IFC** within BIM software
-
-[Task 2](task2.html) - What options for **georeferencing BIM** are available?
-
-[Task 3](task3.html) - **Support for CityGML** within GIS tools
-
-[Task 4](task4.html) - Software and workflows for **conversion** (**IFC to CityGML** and **CityGML to IFC**)
-
-<!-- <h3>Benchmark data</h3> -->
-
+<div class="row">
+	<div class="col-xs-12">
+		<img class="img-responsive" src="img/howto.jpeg" />
+	</div>
+</div>
