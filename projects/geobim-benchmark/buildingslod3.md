@@ -7,11 +7,11 @@ permalink: /projects/geobim-benchmark/buildingslod3.html
 <h1>CityGML Buildings in LoD 3</h1>
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-1.gif" }}" style="max-height: 500px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-1.gif" }}" style="max-height: 500px"></div>
 </div>
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-2.gif" }}" style="max-height: 500px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-2.gif" }}" style="max-height: 500px"></div>
 </div>
 
 - - -
@@ -42,7 +42,7 @@ The geometries are all managed as<strong> MultiSurfaces.</strong>
 In the following Figure 1, you can read some dimensions of the model, to be used for the tests in Task 3.
 
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig1.gif" }}" title="Sample of dimensions of the CityGML buildings, read by the software FZK (in red, the points and lines marking the measured distances)." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig1.gif" }}" title="Sample of dimensions of the CityGML buildings, read by the software FZK (in red, the points and lines marking the measured distances)." >
 </div>
 
 
@@ -69,32 +69,32 @@ From these views you can also have a view about how the geometry looks like, in 
 
 <strong> Element 1</strong>
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig2.gif" }}" title="Element 1	(in yellow)." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig2.gif" }}" title="Element 1	(in yellow)." >
 </div>
 ------------
 <strong> Element 2 </strong>
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig3.gif" }}" title="Element 2	(in yellow)." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig3.gif" }}" title="Element 2	(in yellow)." >
 </div>
 ------------
 <strong> Element 3</strong>
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig4.gif" }}" title="Element 3	(in yellow)" >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig4.gif" }}" title="Element 3	(in yellow)" >
 </div>
 -----------------
 <strong> Element 4</strong>
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig5.gif" }}" title="Element 4	 (in yellow)." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig5.gif" }}" title="Element 4	 (in yellow)." >
 </div>
 ------------
 <strong> Element 5</strong>
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig6.gif" }}" title="Element 5	 (in yellow)." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig6.gif" }}" title="Element 5	 (in yellow)." >
 </div>
 ------------
 <strong> Element 6</strong>
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/buildingslod3-Fig7.gif" }}" title="Element 6 (in yellow)" >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig7.gif" }}" title="Element 6 (in yellow)" >
 </div>
 
 ---------------

@@ -43,7 +43,7 @@ permalink: /projects/geobim-benchmark/data.html
   
   <div class="row">
   
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/amsterdamgml.html" title="amsterdam.gml"><img src=" /projects/geobim-benchmark/img/amsterdam-Index.gif" alt="Up:Town IFC model" style="max-height: 200px;"></a>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/amsterdamgml.html" title="amsterdam.gml"><img src=" /projects/geobim-benchmark/img/amsterdam-index.gif" alt="Amsterdam CityGML model" style="max-height: 200px;"></a>
 	<div class="caption">
 		<h3><a href="/projects/geobim-benchmark/amsterdamgml.html">Amsterdam LoD 1</a>
 		<br />
