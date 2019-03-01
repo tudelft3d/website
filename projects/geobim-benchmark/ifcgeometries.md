@@ -21,11 +21,19 @@ permalink: /projects/geobim-benchmark/ifcgeometries.html
 
 Set of geometries to test specific geometric features in software.
 
+It was exported on 23/02/2019 using IfcOpenShell 0.6
+
 In Figure 1 the schema of the geometries is drawn as reference
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Analytical-Fig1.gif" }}"style="max-height: 300px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Analytical-Fig1.gif" }}" style="max-height: 300px"></div>
 </div>
+
+## Technical details
+
+Name of the file: <strong>IFCgeometries.ifc</strong>
+
+Used IFC version: 2x3
 
 ------------------
 
