@@ -129,6 +129,8 @@ The results template is organised in 5 sections:
 
 Participants can have the overall in-sight into the task through the <mark>[word-format results template](DOWNLOAD)</mark>.
 
+It is **really recommended to have a look at the whole task before starting.**
+
 ### Structure of the online results template
 
 To allow the participants to fill the results template in different times without loosing the previous work, the results template for this task is splitted in 12 parts.
