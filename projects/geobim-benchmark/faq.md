@@ -66,6 +66,33 @@ if you want to have more details, read the [complete description of the project]
 
 To be sure that the participants agree with this use of the results, they are asked to check some declarations at the end of the online results templates they will deliver.
 
+## What are the needed steps to participate?
+
+<div class="row">
+	<div class="col-xs-12">
+		<img class="img-responsive" src="img/howto.jpeg" />
+	</div>
+</div>
+
+Read the information in the website, to understand the project and the task.
+
+Before beginning, participants should read, in particular:
+* The description of the task they will perform in the task description section;
+* The description of the data they will use in the [data description](https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html) section;
+* The list of tested [software](https://3d.bk.tudelft.nl/projects/geobim-benchmark/software.html) (or under test), to suitably choose which tool to test. *It is, however, possible to test the same software more than once (see specific FAQ).*
+* These FAQs
+* The word-format of the results template for the chosen task, in order to have an overall view of the task.
+
+
+## Can I test a software/tool that was already tested or is being tested?
+
+You can see from the [software](https://3d.bk.tudelft.nl/projects/geobim-benchmark/software.html) section of the website the list of software tested or being tested.
+
+Our aim is the test of the highest number of tools, in order to build the widest possible framework of technical solutions for the benchmark tasks, as a useful reference for the whole community. Therefore, participants are invited to keep this in mind when choosing the software to be tested.
+
+However, it is also possible to test the same software or tool more than once. It can be useful to check repeatability and, eventually, testing different kinds of customisation possibilities, especially concerning the most flexible tools.
+
+
 ## What should I do if my tests are not successful?
 
 If issues prevent any task to be completed until the end,<strong> you can anyway deliver the results</strong> you obtained, giving detailed descriptions of the found problems.
@@ -143,3 +170,7 @@ The <strong>IFC certification</strong> by buildingSMART is described in the spec
 ### Task 3 section
 
 ### Task 4 section -->
+
+## If you didn't find the information you are looking for...
+
+You can contact us through e-mail at *f.noardo@tudelft.nl*
