@@ -33,7 +33,7 @@ In Figure 1 the schema of the geometries is drawn as reference
 
 Name of the file: <strong>IFCgeometries.ifc</strong>
 
-Used IFC version: 2x3
+Used IFC version: **2x3**
 
 ------------------
 
@@ -52,3 +52,7 @@ In the final part of the video, the red and green surfaces are mapping the norma
 </div>
 ------------
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dE3TCGO1-3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+--------------------------
+## Download
+
+You can download the IFCgeometries.ifc data from this [**link**](https://www.dropbox.com/s/6lh9q8mzxwlzdi4/IFCgeometries.ifc?dl=0)

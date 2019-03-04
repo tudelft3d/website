@@ -113,5 +113,8 @@ From these views you can also have a view about how the geometry looks like, in 
 ### Video of the LoD 2 model
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1O27Iuf8eBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+--------------------------
+## Download
 
+You can download the RotterdamLOD12.gml data from this [**link**](https://www.dropbox.com/s/tmloqpk400i4bx4/RotterdamLOD12.gml?dl=0)
  - - -

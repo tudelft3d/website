@@ -83,6 +83,13 @@ Before beginning, participants should read, in particular:
 * These FAQs
 * The word-format of the results template for the chosen task, in order to have an overall view of the task.
 
+## Can I participate if I have some potential conflict of interest?
+
+If you have some possible conflict of interest (e.g. you work for a software house, you are the developer of a new software, you are very involved with open standard development) you can participate in the benchmark, just declaring it in the initial part of the forms. Moreover, your contribution as an expert is welcome.
+
+You are just asked to give as many details as possible about procedures and settings of the tested workflows and tools, in order to enable their easy repeatability, besides demonstrating their effectiveness.
+
+Moreover, obviously, you must answer honestly to the questions.
 
 ## Can I test a software/tool that was already tested or is being tested?
 

@@ -115,7 +115,7 @@ Information and descriptions are all published in this website.
 Contact us and register your participation to the benchmark, giving **your personal details** and declaring **which tool** you intend to test, for **which Task** through this [registration form](https://francescanoardo.typeform.com/to/IbdpZD).
 
 ### Data
-You are able to download the CityGML open data and the open *IFCgeometries.ifc* file from their respective <mark>[description page](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html)</mark>
+You are able to download the *CityGML open data* and the open *IFCgeometries.ifc* file from their respective [description page](https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html)
 Participants will be able to download the *Myran* and *Up:Town* IFC models after you fill the [registration form](https://francescanoardo.typeform.com/to/IbdpZD).
 
 The *Myran* and *Up:Town* IFC models are not open data. Therefore, we ask participants not to use them without permissions outside the project, please.

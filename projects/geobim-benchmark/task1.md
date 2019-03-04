@@ -166,7 +166,7 @@ You are able to download the IFC data after you fill the [registration form](htt
 
 The ***Myran*** and ***Up:Town*** IFC models are *not open data*. Therefore, we ask participants not to use them without permissions outside the project, please.
 
-The ***IFCgeometries.ifc*** file can also be downloaded from the <mark>[description page](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html)</mark>
+The ***IFCgeometries.ifc*** file can also be downloaded from the [description page](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html)
 
 ### Results template
 Begin to perform the Task and deliver results through the online [Results template for Task 1](https://francescanoardo.typeform.com/to/c35MpI)

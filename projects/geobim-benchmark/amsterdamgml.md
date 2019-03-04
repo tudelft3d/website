@@ -77,4 +77,8 @@ For this element it is also possible to consider the attribute 'measuredHeight' 
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/amsterdam-Fig5.gif" }}" title="Element 4)	PlantCover (in yellow)." >
 </div>
 
+--------------------------
+## Download
+
+You can download the amsterdam.gml data from this [**link**](https://www.dropbox.com/s/fw9m8r1chhscarq/amsterdam.gml?dl=0)
  - - -
