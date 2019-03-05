@@ -3,7 +3,7 @@ layout: benchmark
 title: GeoBIM benchmark
 permalink: /projects/geobim-benchmark/
 ---
-
+<!--
 <div class="row">
 	<div class="col-md-4 col-md-offset-1 col-xs-6">
 		<img class="img-responsive" src="img/benchmark.png" />
@@ -12,6 +12,16 @@ permalink: /projects/geobim-benchmark/
 		<h1>GeoBIM benchmark 2019</h1>
 	</div>
 </div>
+-->
+<h1>GeoBIM benchmark 2019</h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/logohome.gif" }}" style="max-height: 300px"></div>
+  
+  
+</div>
+
+
 
 <div class="well"><b>Recent news</b><br/><br/>
 	{% assign sorted = site.data.geobim_news | sort: 'date' | reverse %}
@@ -23,30 +33,43 @@ permalink: /projects/geobim-benchmark/
 
 <h3>Reference study on software support for open standards of city and building models</h3>
 
-This benchmark will investigate the available **technical solutions** to support research and activities related to GeoBIM, through the use of the **open standards IFC** (by buildingSMART) and **CityGML** (by OGC).  We will address the following questions:
+This benchmark will investigate the available **technical solutions** to support research and activities related to GeoBIM, through the use of the **open standards IFC** (by buildingSMART) and **CityGML** (by OGC):
 
-1. What is the **support for IFC** within BIM (and other) software?
-2. What options for **geo-referencing BIM** data are available?
-3. What is the **support for CityGML** within GIS (and other) tools?
-4. What options for **conversion (IFC↔CityGML)** are available?
-5. What is the support of different types of **IFC geometries**?
+.
 
-You are invited to take part in this benchmark activity by performing one or more tasks.
+<h4>1. What is the <strong>support for IFC</strong> within BIM (and other) software?</h4>
+
+<h4>2. What options for <strong>geo-referencing BIM</strong> data are available?</h4>
+
+<h4>3. What is the <strong>support for CityGML</strong> within GIS (and other) tools?</h4>
+
+<h4>4. What options for <strong>conversion (IFC↔CityGML)</strong> are available?</h4>
+.
+
+### We want you
+
+**You can be part** of this scientific initiative!
+
+Take part in this benchmark activity by performing one or more tasks.
 
 <div class="row">
-	<div class="col-md-3 col-xs-2">
+	<div class="col-md-3 col-xs-4">
 		<img class="img-responsive" src="img/puzzle.jpg" />
 	</div>
-	<div class="col-md-9 col-xs-10">
-		<p>Volunteers will be required to perform one or more tasks using  the tools they are familiar with, and deliver their results using the results template.</p>
-		<p>At least one scientific publication co-authored by both the benchmark proponents and volunteers will be written, and final results will be published on the website.</p>
+	<div class="col-md-9 col-xs-8">
+		<p>Volunteers will be welcome to perform one or more tasks using the tools they are familiar with, <strong>contributing to build a common reference list of tools</strong> to be used for GeoBIM-related activities.</p>
+		<p>At least one <strong>scientific publication co-authored by both the benchmark proponents and volunteers</strong> will be written, and final results will be published on the website.</p>
 	</div>
 </div>
 
-<h4>How to participate</h4>
+### How to participate
 
 <div class="row">
 	<div class="col-xs-12">
-		<img class="img-responsive" src="img/howto.jpeg" />
+		<img class="img-responsive" src="img/howto.gif" />
 	</div>
 </div>
+
+#### [Register here](https://francescanoardo.typeform.com/to/IbdpZD) to participate!
+
+And browse the website to know all the details.

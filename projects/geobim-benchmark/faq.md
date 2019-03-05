@@ -70,7 +70,7 @@ To be sure that the participants agree with this use of the results, they are as
 
 <div class="row">
 	<div class="col-xs-12">
-		<img class="img-responsive" src="img/howto.jpeg" />
+		<img class="img-responsive" src="img/howto.gif" />
 	</div>
 </div>
 
