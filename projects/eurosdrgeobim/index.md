@@ -46,42 +46,31 @@ Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [INVE
 
  - - -
 
-## Partner meetings
+## Project meetings
+
+### 1st EuroSDR GeoBIM project meeting: 8-9 May 2018, Amsterdam (NL).
 
 <div class="row">
-
-
-
-
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="8-9/5/2018 Amsterdam"><img src="/projects/eurosdrgeobim/imgs/Meeting1.png" alt="1st Meeting EuroSDR GeoBIM partners" ></a></div>
-
-<p class="text-left">Meeting 8-9 May 2018, Amsterdam.</p>
+<p class="text-left">First phase of the project: investigation of the state of play of GeoBIM in the participating Countries, through questionnaires.</p>
 </div>
-<!--
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell; padding: 20px;"><a title="8-9/5/2018 Amsterdam"><img src="/projects/eurosdrgeobim/imgs/Meeting1.png" alt="1st Meeting EuroSDR GeoBIM partners" style="max-height: 200px;"></a></div>
 
--->
+### 2nd EuroSDR GeoBIM project meeting: 26 September 2018, Amsterdam (NL).
 <div class="row">
-
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="26/9/2018 Amsterdam"><img src="/projects/eurosdrgeobim/imgs/Meeting2.png" alt="2nd Meeting EuroSDR GeoBIM partners" ></a></div>
-
-<p class="text-left">Meeting 26 September 2018, Amsterdam.</p>
+<p class="text-left">Second phase of the project: GeoBIM for two use cases. First use case, <strong>building permission issuing</strong>: current practice in the participating Countries and GeoBIM workflow proposal.</p>
 </div>
 
-<!--## Results
+### 3rd EuroSDR GeoBIM project meeting: 13-14 February 2019, Copenhagen (DK).
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="14-15/03/2019 Copenhagen"><img src="/projects/eurosdrgeobim/imgs/Meeting4.gif" alt="3rd Meeting EuroSDR GeoBIM partners" ></a></div>
+<p class="text-left">Second phase of the project. Use case <strong>building permission issuing</strong>: workflow finalisation; results of interviews in Municipalities; usful data. Use case <strong>assets and facility management</strong>: discussion of the needed approach.</p>
+</div>
 
-We have now developed a first version of the workflow which automatically generates necessary 3D data about buildings, the noise reduction of the land use and the height of the terrain from the BAG, BGT and point clouds.
-The noise consultancy company DGMR has tested these files in their GeoMilieu noise simulation software. For this test, DGMR replaced the input files from a recently performed noise study with our files.
-This showed that the automated generated data achieve the same quality of the (partly) interactively generated input data.
 
-## Further Development
 
-At this moment we are working on further developments. Here we look at different aspects.
-Firstly, we improve the current workflow by thinning out unnecessary detail in order not to unnecessarily burden the simulation, and adding more details where it is desirable.
-We also investigate the modelling and generation of bridges, a concept within noise studies for which different alternatives are currently being used and for which there is no standardised approach yet. We also examine with stakeholders and experts how the software (or prescribed calculation method) can be adjusted, so that optimisation can be obtained from a combination of 3D data on the one hand and improvement of the simulation software on the other hand.
-In addition, we will investigate whether we can also standardise a number of other variables within the noise domain such as minimum vertical jumps to be modelled, generalisation of the data on land use (for noise attenuation) and generalisation of the front façade line of buildings.
-In addition to improving the workflow and standardising concepts, we look at how we can roll out the workflow for the whole of the Netherlands. For this, the method is implemented in the 3D production line of the Kadaster. This production line generates 3D topography from point clouds and 2D topographic datasets. The open software [3dfier](https://github.com/tudelft3d/3dfier) is part of this production line. To generate noise-specific 3D data, the functionality can be re-used.
-An important aspect is also keeping the generated 3D data up-to-date. The BAG and BGT represent changes in reality at most a few months later. The current version of AHN (version 3) was collected between 2014 and 2019. For more up-to-date point clouds, we can use points generated from aerial photographs, which are collected every year. The 3D production line of the Kadaster also includes the generation of point clouds from dense image matching for 3D modelling. -->
+
+
 
 <!-- ## Reports
 
@@ -105,7 +94,7 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 <div class="row">
   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-  <script async class="speakerdeck-embed" data-id="b4ab9e96022749b398ece1c5a60cde07" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
+  <script async class="speakerdeck-embed" data-id="47a7764eb98d4e9d91b81d5153d9a4b6" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
   </div>
 </div>
 
@@ -131,16 +120,16 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 ## Project partners
 
 <div class="row">
-
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.eurosdr.net" title="EuroSDR"><img src="/projects/eurosdrgeobim/imgs/eurosdr.jpg" alt="EuroSDR logo" style="max-height: 200px;"></a></div>
+  </div>
+  
+### NMCAs
+<div class="row">
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.ordnancesurvey.co.uk" title="Ordnance Survey (UK)"><img src=" /projects/eurosdrgeobim/imgs/os-logo.jpg" alt="OS logo" style="max-height: 200px;"></a></div>
-
-  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.ucl.ac.uk" title="University College London"><img src=" /projects/eurosdrgeobim/imgs/UCL-logo.png" alt="UCL logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.swisstopo.admin.ch/en/home.html" title="Swisstopo (Switzerland)"><img src="/projects/eurosdrgeobim/imgs/swisstopo-logo.png" alt="Swisstopo logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.osi.ie" title="Ordnance Survey (Irland)"><img src="/projects/eurosdrgeobim/imgs/osi-logo.jpg" alt="OSi logo" style="max-height: 200px;"></a></div>
-
-  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.dit.ie/colleges/collegeofengineeringbuiltenvironment/" title="Dublin Institute of Technology"><img src="/projects/eurosdrgeobim/imgs/Dublin_IT-logo.png" alt="Dublin Institute of Technology logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/projects/eurosdrgeobim/imgs/kadaster-logo.png" alt="Kadaster logo" style="max-height: 200px;"></a></div>
 
@@ -152,19 +141,32 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.lantmateriet.se" title="Lantmateriet (Sweden)"><img src="/projects/eurosdrgeobim/imgs/landmateriet-logo.png" alt="Landmateriet logo" style="max-height: 200px;"></a></div>
 
-  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.lunduniversity.lu.se" title="Lund University"><img src="/projects/eurosdrgeobim/imgs/lund-logo.png" alt="Lund University logo" style="max-height: 200px;"></a></div>
-
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.maanmittauslaitos.fi/en" title="NLS (Finland)"><img src="/projects/eurosdrgeobim/imgs/nls-logo.png" alt="NLS logo" style="max-height: 200px;"></a></div>
 
-  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.ngi.be" title="NGI (Belgium)"><img src="/projects/eurosdrgeobim/imgs/ngibelgium-logo.jpg" alt="NGI logo" style="max-height: 200px;"></a></div>
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.gis.si/en/" title="GIS (Slovenia)"><img src="/projects/eurosdrgeobim/imgs/logoSMASlovenia.png" alt="GIS logo" style="max-height: 200px;"></a></div>
+  
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.gu.gov.si/en/" title="SMA (Slovenia)"><img src="/projects/eurosdrgeobim/imgs/logoGISSlovenia.png" alt="SMA logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.kartverket.no" title="Kartverket (Norway)"><img src="/projects/eurosdrgeobim/imgs/kartverket-logo.png" alt="Kartverket logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://eng.gst.dk/about-the-danish-geodata-agency/" title="Agency for Data Supply and Efficiency (Denmark)"><img src="/projects/eurosdrgeobim/imgs/denmark-logo.jpg" alt="Agency for Data Supply and Efficiency, Denmark logo" style="max-height: 200px;"></a></div>
 
-  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.eurosdr.net" title="EuroSDR"><img src="/projects/eurosdrgeobim/imgs/eurosdr.jpg" alt="EuroSDR logo" style="max-height: 200px;"></a></div>
 </div>
 
+## Universities
+
+<div class="row">
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/" title="Delft University of Technoology - 3D geoinformation group"><img src=" /projects/eurosdrgeobim/imgs/logo-tud3d.png" alt="TUDelft - 3D geoinfo logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.ucl.ac.uk" title="University College London"><img src=" /projects/eurosdrgeobim/imgs/UCL-logo.png" alt="UCL logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.lunduniversity.lu.se" title="Lund University"><img src="/projects/eurosdrgeobim/imgs/lund-logo.png" alt="Lund University logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.dit.ie/colleges/collegeofengineeringbuiltenvironment/" title="Dublin Institute of Technology"><img src="/projects/eurosdrgeobim/imgs/Dublin_IT-logo.png" alt="Dublin Institute of Technology logo" style="max-height: 200px;"></a></div>
+
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.en.fgg.uni-lj.si/" title="UN FGG (Slovenia)"><img src="/projects/eurosdrgeobim/imgs/logoUniLjubljana.png" alt="UN FGG logo" style="max-height: 200px;"></a></div>
+</div>
 - - -
 
 ## Connected projects
@@ -173,10 +175,12 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 [Smart data integration for urban applications](https://3d.bk.tudelft.nl/projects/smartdi-ams/)
 
+[GeoBIM benchmark 2019](https://3d.bk.tudelft.nl/projects/geobim-benchmark/)
 - - -
-
+<!--
 ## Team
 
 <div class="row">
     {% include project_team.html project_name='esdr-geobim' %}
 </div>
+-->
