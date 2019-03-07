@@ -196,13 +196,13 @@
   formats: Shapefile, Geodatabase, AutoCAD, SketchUp
 
 - dataset: Boston
-  link: http://www.bostonplans.org/document-center?doctype=12&sortby=name&sortdirection=asc
+  link: http://www.bostonplans.org/3d-data-maps/3d-smart-model/3d-data-download
   country: USA
-  building_lod: LoD2
-  year: 2013
+  building_lod: LoD1+LoD2
+  year: 2017
   texture:  No
   notes : terrain
-  formats: OBJ, DWG, MAX
+  formats: OBJ, DWG, MAX, Shapefile
 
 - dataset: Philadelphia
   link: http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7146
