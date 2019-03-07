@@ -73,3 +73,5 @@ Take part in this benchmark activity by performing one or more tasks.
 #### [Register here](https://francescanoardo.typeform.com/to/IbdpZD) to participate!
 
 And browse the website to know all the details.
+
+Download the [call for participation](https://www.dropbox.com/s/2f6q7ckla9wm9e6/callGeoBIMbenchmark.pdf?dl=0)
