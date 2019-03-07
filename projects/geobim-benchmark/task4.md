@@ -5,7 +5,7 @@ permalink: /projects/geobim-benchmark/task4.html
 ---
 
 
-<h1>Task 1 - Options for <strong>conversion:</strong> <strong>IFC to CityGML</strong> and <strong>CityGML to IFC</strong></h1>
+<h1>Task 4 - Options for <strong>conversion:</strong> <strong>IFC to CityGML</strong> and <strong>CityGML to IFC</strong></h1>
 
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/logoTask4.gif" }}" style="max-height: 300px"></div>

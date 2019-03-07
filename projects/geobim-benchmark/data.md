@@ -6,6 +6,11 @@ permalink: /projects/geobim-benchmark/data.html
 
 <h1>Data description</h1>
 
+In this page, you can find the data used for the benchmark.
+
+Most of the datasets are free to download.
+
+However, to get access to some of them (*Myran* and *Up:Town* IFC files), you have to participate in the test and sign a data agreement.
 
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcmyran.html" title="Myran.ifc"><img src=" /projects/geobim-benchmark/img/Myran-Index.gif" alt="Myran IFC model" style="max-height: 200px;"></a>

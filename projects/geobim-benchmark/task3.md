@@ -5,7 +5,7 @@ permalink: /projects/geobim-benchmark/task3.html
 ---
 
 
-<h1>Task 1 - The <strong>support for CityGML</strong> within GIS (and other) tools</h1>
+<h1>Task 3 - The <strong>support for CityGML</strong> within GIS (and other) tools</h1>
 
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/logoTask3.jpg" }}" style="max-height: 300px"></div>
