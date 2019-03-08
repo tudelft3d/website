@@ -24,8 +24,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -37,6 +37,33 @@ Notice that, even if the aim is to test the highest possible number of software/
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
+			</tr>
+			<tr>
+				<td>AECOsim Building Designer</td>
+			</tr>
+			<tr>
+				<td>Autodesk Civil 3D</td>
+			</tr>
+			<tr>
+				<td>ACCA Edificius</td>
+			</tr>
+			<tr>
+				<td>simplebim</td>
+			</tr>
+			<tr>
+				<td>Tekla</td>
+			</tr>
+			<tr>
+				<td>Bentley Microstation</td>
+			</tr>
+			<tr>
+				<td>Construsoft Vico Office Suite</td>
+			</tr>
+			<tr>
+				<td>Vectorworks</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -50,13 +77,19 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>ESRI ArcGIS</td>
+			</tr>
+			<tr>
+				<td>Bentley Map</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -70,19 +103,22 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>FME</td>
+				<td>Safe Software FME</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
-<h3>Other software</h3>
+<h3>3D Viewers and Other software</h3>
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
@@ -90,11 +126,26 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td>Autodesk Infraworks</td>
+			</tr>
+			<tr>
+				<td>ifcviewer</td>
+			</tr>
+			<tr>
+				<td>Sketch-up</td>
+			</tr>
+			<tr>
+				<td>FZK Viewer</td>
+			</tr>
+			<tr>
+				<td>eveBIM</td>
+			</tr>
 			<tr>
 				<td>...</td>
 			</tr>
@@ -112,8 +163,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -125,6 +176,33 @@ Notice that, even if the aim is to test the highest possible number of software/
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
+			</tr>
+			<tr>
+				<td>AECOsim Building Designer</td>
+			</tr>
+			<tr>
+				<td>Autodesk Civil 3D</td>
+			</tr>
+			<tr>
+				<td>ACCA Edificius</td>
+			</tr>
+			<tr>
+				<td>simplebim</td>
+			</tr>
+			<tr>
+				<td>Tekla</td>
+			</tr>
+			<tr>
+				<td>Bentley Microstation</td>
+			</tr>
+			<tr>
+				<td>Construsoft Vico Office Suite</td>
+			</tr>
+			<tr>
+				<td>Vectorworks</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -138,13 +216,16 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>FME</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -158,8 +239,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -180,8 +261,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -190,6 +271,12 @@ Notice that, even if the aim is to test the highest possible number of software/
 			</tr>
 			<tr>
 				<td>QGIS</td>
+			</tr>
+			<tr>
+				<td>Bentley Map</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -203,13 +290,16 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>FME</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -223,8 +313,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -235,7 +325,7 @@ Notice that, even if the aim is to test the highest possible number of software/
 	</table>
 </div>
 
-<h3>Other software</h3>
+<h3>3D Viewers and Other software</h3>
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
@@ -243,11 +333,26 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td>Autodesk Infraworks</td>
+			</tr>
+			<tr>
+				<td>Azul</td>
+			</tr>
+			<tr>
+				<td>Sketch-up</td>
+			</tr>
+			<tr>
+				<td>FZK Viewer</td>
+			</tr>
+			<tr>
+				<td>eveBIM</td>
+			</tr>
 			<tr>
 				<td>...</td>
 			</tr>
@@ -264,8 +369,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -274,6 +379,9 @@ Notice that, even if the aim is to test the highest possible number of software/
 			</tr>
 			<tr>
 				<td>QGIS</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -287,8 +395,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -300,6 +408,9 @@ Notice that, even if the aim is to test the highest possible number of software/
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -313,13 +424,16 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>FME</td>
+			</tr>
+			<tr>
+				<td>...</td>
 			</tr>
 		</tbody>
 	</table>
@@ -333,8 +447,8 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<th>Software</th>
 				<th>Operating system</th>
 				<th>Version</th>
-				<th>Being tested by</th>
-				<th>Results delivered by</th>
+				<th>Being tested</th>
+				<th>Results delivered</th>
 			</tr>
 		</thead>
 		<tbody>

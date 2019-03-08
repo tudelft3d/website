@@ -70,16 +70,17 @@ Take part in this benchmark activity by performing one or more tasks.
 	</div>
 </div>
 
-#### [Register here](https://francescanoardo.typeform.com/to/IbdpZD) to participate!
+#### [**Register to this link**](https://francescanoardo.typeform.com/to/IbdpZD) to participate!
 
 And browse the website to know all the details.
 
 Download the [call for participation](https://www.dropbox.com/s/2f6q7ckla9wm9e6/callGeoBIMbenchmark.pdf?dl=0)
 
+### If you only want to be up-to-date about GeoBIM benchmark activities
 <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
