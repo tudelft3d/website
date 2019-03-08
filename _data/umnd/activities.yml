@@ -1,4 +1,11 @@
-- research_line: [1]
+
+- research_line: [1, 2, 3]
+  description: "Invited talk 'CityGML (as an encoding) is dood, lang leven CityJSON!' by Hugo at the the Geonovum Springplank (Amersfoort, the Netherlands)"
+  date: 2017-11-27
+- research_line: [1, 2, 3]
+  description: "Invited talk 'CityJSON---A JSON-based implementation of the CityGML data model' by Hugo at the OGC meeting (Orléans, France)"
+  date: 2018-03-21
+- research_line: [1, 2, 3]
   description: "Invited talk 'Improving the usability of 3D city models' by Hugo at the <a href=\"https://www.uni-muenster.de/Geoinformatics/en/GI-Forum/index.php\">Universität Münster GI-Forum</a>"
   date: 2019-01-22
 - research_line: [1]
