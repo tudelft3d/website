@@ -1,4 +1,16 @@
 
+- research_line: [1]
+  description: Anna Labetski officially started working on UMnD.
+  date: 2016-09-01
+- research_line: [2]
+  description: Stelios Vitalis officially started working on UMnD.
+  date: 2017-03-01
+- research_line: [1]
+  description: "Anna Labetski completed a 1 week research visit at <a href=\"https://www.ucl.ac.uk\">University College London</a>"
+  date: 2019-03-08
+- research_line: [1]
+  description: "Anna Labetski completed a 1 week research visit at the <a href=\"https://www.tum.de/en\">Technische Universität München</a>"
+  date: 2017-06-23
 - research_line: [1, 2, 3]
   description: "Invited talk 'CityGML (as an encoding) is dood, lang leven CityJSON!' by Hugo at the the Geonovum Springplank (Amersfoort, the Netherlands)"
   date: 2017-11-27
@@ -87,7 +99,7 @@
   description: Stelios Vitalis successfully passed his Go/NoGo meeting after submitting his research proposal.
   date: 2018-02-13
 - research_line: [3]
-  description: Ken Arroyo Ohori has officially started working on UMnD.
+  description: Ken Arroyo Ohori officially started working on UMnD.
   date: 2018-01-01
 - research_line: [1, 2]
   description: Presented our reseach subject to the NCG Symposium at the TU Delft.
