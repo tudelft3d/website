@@ -48,7 +48,7 @@ In the case they need to change computer for different parts of the Task, they a
 
   * Is the CityGML /GML format read and <strong>imported</strong> directly into the software? Or is some specific translation through specific tool/plugin necessary? Is the CityGML file read through one of its different implementation possibilities described by OGC (GML file, 3DcityDB...)?
   
-  * How is the <strong>georeferencing</strong> managed? Is it fully kept (unit of measure, scale, coordinate reference system, orientation)? How does it change eventually? Does the model maintain its correct dimensions and proportions and it is not distorted nor scaled?. Is it necessary to set the correct coordinate reference system (CRS) manually?
+  * How is the <strong>georeferencing</strong> managed? Is it fully kept (unit of measure, scale, coordinate reference system, orientation)? How does it change eventually? Does the model maintain its correct dimensions and proportions and it is not distorted nor scaled? Is it necessary to set the correct coordinate reference system (CRS) manually?
   
   * How are the <strong>semantics</strong> translated into the software internal library/vocabulary? Are the CityGML hierarchy and attributes kept? Is the translation consistent with the IFC definitions? Are the relations among the objects kept and consistent? What changes / inconsistencies / errors were noted?
   
@@ -64,7 +64,7 @@ The participants should deliver also the file in the specific (native) format of
 
 ## What data must be used
 
-For performing this task, the following (open) data will be used, in this order:
+For performing this task, the following (open) data must be used, in this order:
 
 * [Rotterdam LoD 1 and 2 CityGML model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/rotterdamlod12.html)
 * [Buildings in LoD 3 CityGML model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/buildingslod3.html)
@@ -134,7 +134,7 @@ It is **really recommended to have a look at the whole task before starting.**
 
 ### Structure of the online results template
 
-To allow the participants to fill the results template in different times without loosing the previous work, the results template for this task is splitted in 7 parts.
+To allow the participants to fill the results template in different times without losing the previous work, the results template for this task is splitted in 7 parts.
 
 At the end of each part, the link towards the following one will be provided, both in the last slide of the online form, and in an e-mail sent to the indicated e-mail address.
 

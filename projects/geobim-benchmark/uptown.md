@@ -21,6 +21,8 @@ permalink: /projects/geobim-benchmark/uptown.html
 
 It is the IFC model of a residential building under construction in Rotterdam, the Netherlands.
 
+It was provided for this study by the Municipality of Rotterdam.
+
 The data represent the architectural model of the BIM.
 
 It was exported on 20/03/2017 from the base software Autodesk Revit 2015 (ENU)
@@ -42,7 +44,7 @@ Used IFC version: 2x3 (MVD: CoordinationView v.2.0)
 
 <strong>N:</strong> 0 m
 
-<strong>H:</strong> 0 m 
+<strong>H:</strong> 0 m
 
 <strong>Rotation to the true North</strong> of the reference direction (red in Figure 1): 0°.
 
@@ -91,7 +93,7 @@ IfcProject
 - IfcSite
 
   - IfcBuilding
-  
+
     - IfcBuildingStorey
 
       - IfcWall
@@ -109,7 +111,7 @@ IfcProject
       - IfcRoof
 
       - IfcCovering
-  
+
       - IfcOpeningElement
 
       - IfcDoor
@@ -121,11 +123,11 @@ IfcProject
       - IfcFlowTerminal
 
       - IfcEnergyConversionDevice
- 
+
       - IfcFurnishingElement
 
       - IfcMember
-    
+
       - IfcBuildingElementProxy
 
 Note: The use of semantic entities is not perfect. For Example, many IfcBuildingElementProxy describe elements having well-defined semantics in IFC (e.g. stairs) and many attributes are missing, <strong>but we will evaluate the consistency of the model with itself through the conversions.</strong>

@@ -21,6 +21,8 @@ permalink: /projects/geobim-benchmark/rotterdamlod12.html
 
 Surrounding area of the Up:Town building (one of the provided IFC model for this benchmark); it represents the Maritiem district in Rotterdam (Figure 24).
 
+This is an open data produced and provided by the Municipality of Rotterdam.
+
 Only buildings are included, and they are represented in 2 Levels of Details (LoDs): LoD1 (extruded building footprints), LoD2 (more detailed external surfaces of the buildings, with realistic roof shapes and different semantics for walls and roofs). Check the CityGML description in the benchmark website and related documentation to have more details.
 
 

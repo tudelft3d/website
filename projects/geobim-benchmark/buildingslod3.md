@@ -23,7 +23,7 @@ permalink: /projects/geobim-benchmark/buildingslod3.html
 
 ## Short description
 
-Randomly generated CityGML buildings (through the software Random3Dcity, see https://3d.bk.tudelft.nl/code/) 
+Randomly generated CityGML buildings (through the software Random3Dcity, see https://3d.bk.tudelft.nl/code/) by F. Biljecki.
 
 Only buildings are included, and they are represented in Levels of Detail (LoD) 3, therefore including roof shapes, windows, doors. Check the CityGML description in the website and related documentation to have more details.
 
@@ -99,7 +99,7 @@ From these views you can also have a view about how the geometry looks like, in 
 
 ---------------
 
-### Video of the CityGML Buildings in LoD 3 
+### Video of the CityGML Buildings in LoD 3
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Z0Fh2ATXkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

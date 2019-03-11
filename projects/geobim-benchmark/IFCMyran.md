@@ -21,6 +21,8 @@ permalink: /projects/geobim-benchmark/ifcmyran.html
 
 It is the IFC model of a 2-floor office building in Falun, Sweden.
 
+It was provided for this study by .
+
 The data represent the architectural model of the BIM.
 
 It was exported on 25/10/2017 from the base software Autodesk Revit 2018 (ENU)
@@ -42,7 +44,7 @@ Used IFC version: 2x3 (MVD: CoordinationView v.2.0)
 
 <strong>N:</strong> 0 m
 
-<strong>H:</strong> 0 m 
+<strong>H:</strong> 0 m
 
 <strong>Rotation to the true North</strong> of the reference direction (blue in Figure 1): 0°.
 
@@ -60,7 +62,7 @@ Used IFC version: 2x3 (MVD: CoordinationView v.2.0)
 
 <strong>N:</strong> 6721748.645 m
 
-<strong>H:</strong> 148.2 m 
+<strong>H:</strong> 148.2 m
 
 <strong>Rotation to the true North</strong> of the reference direction (blue in Figure 2): 48°.
 
@@ -94,7 +96,7 @@ IfcProject
 - IfcSite
 
   - IfcBuilding
-  
+
     - IfcBuildingStorey
 
       - IfcWall
@@ -118,7 +120,7 @@ IfcProject
       - IfcRoof
 
       - IfcCovering
-  
+
       - IfcOpeningElement
 
       - IfcDoor
@@ -130,11 +132,11 @@ IfcProject
       - IfcFlowTerminal
 
       - IfcFlowSegment
- 
+
       - IfcFurnishingElement
 
       - IfcMember
-    
+
       - IfcBuildingElementProxy
 
 Note: Semantics are usually consistently assigned and many attributes are filled.

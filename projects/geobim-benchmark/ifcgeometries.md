@@ -21,6 +21,8 @@ permalink: /projects/geobim-benchmark/ifcgeometries.html
 
 Set of geometries to test specific geometric features in software.
 
+It was modelled specifically for this study by T. Krijnen.
+
 It was exported on 23/02/2019 using IfcOpenShell 0.6
 
 In Figure 1 the schema of the geometries is drawn as reference
