@@ -25,7 +25,7 @@ permalink: /projects/geobim-benchmark/buildingslod3.html
 
 Procedurally generated CityGML building models (with the software <a href="http://filip.biljecki.com/code/Random3Dcity.html">Random3Dcity</a>)
 
-Only buildings are included, and they are represented in Levels of Detail (LoD) 3, therefore including roof shapes, windows, doors. Please check the CityGML description in the linked website and related documentation to have more details on usage and licence.
+Only buildings are included, and they are represented in Levels of Detail (LoD) 3, therefore including roof shapes, windows, doors. Please check the CityGML description on the linked website and related documentation to have more details on usage and licence.
 
 ## Technical details
 
