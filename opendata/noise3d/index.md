@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3D data set for noise studies
+title: Automatically generated 3D input data for noise studies (downloads)
 permalink: /opendata/noise3d/
 ---
 
@@ -10,7 +10,7 @@ This is an ongoing project and here we offer the outcome of its milestones. A mo
 
 -----
 
-## Version 0.2
+# Version 0.2
 
 In the span of 2018–Q1 2019 we finialized the second milestone of the project. In this we further improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of objects according to their sound reflectance property.
 
@@ -22,7 +22,7 @@ Throughout the project we kept ourselves to the requirements and limitations of 
 
 We offer a sample of this improved data set. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
 
-### Attributes
+## Attributes
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -97,7 +97,15 @@ We offer a sample of this improved data set. The sample spans four AHN tiles nea
   </tr>
 </table>
 
-### Downloads
+## Building models
+
+We offer three versions of building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental*. For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs can have a model with multiple height values per footprint (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, just like in *LoD1.0*. In the *LoD1.3 experimental* also the buildings with slanted roofs are modeled as in *LoD1.3*, thus one height value per roof part. See the graphic below.
+
+<div style="width:600px; margin:20px auto;">
+  <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
+</div>
+
+## Downloads
 
 For the sample area we prepared the following data sets:
 
@@ -121,7 +129,7 @@ For the sample area we prepared the following data sets:
     <td class="tg-pcvp">Ground types classified by their noise reflecting property</td>
     <td class="tg-pcvp">&lt;tile id&gt;_bodemvlakken</td>
     <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ERSI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
       </td>
   </tr>
@@ -130,16 +138,16 @@ For the sample area we prepared the following data sets:
     <td class="tg-0pky">Terrain modelled with 3D lines (not contour lines and not breaklines)</td>
     <td class="tg-0pky">&lt;tile id&gt;_hoogtelijnen</td>
     <td class="tg-0pky">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ERSI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
       </td>
   </tr>
   <tr>
     <td class="tg-pcvp">building in LoD1.0</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 75th percentile of the roof.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod10_p75</td>
+    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 95th percentile of the roof.</td>
+    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod10</td>
     <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ERSI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
       </td>
   </tr>
@@ -148,7 +156,7 @@ For the sample area we prepared the following data sets:
     <td class="tg-0pky">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
     <td class="tg-0pky">&lt;tile id&gt;_pand_lod13</td>
     <td class="tg-0pky">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ERSI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
       </td>
   </tr>
@@ -157,8 +165,23 @@ For the sample area we prepared the following data sets:
     <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_pand_lod13_experimenteel</td>
     <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ERSI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
       </td>
   </tr>
 </table>
+
+- - -
+# Contact
+
+In case of questions or comments about the data feel free to contact Ravi Peters at <a href="mailto:r.y.peters@tudelft.nl?Subject=[Noise3D]" target="_top">r.y.peters@tudelft.nl</a>
+
+- - -
+
+# Project partners
+
+<div class="row">
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" ></a></div>
+</div>
