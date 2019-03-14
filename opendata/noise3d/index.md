@@ -184,4 +184,5 @@ In case of questions or comments about the data feel free to contact Ravi Peters
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" ></a></div>
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" ></a></div>
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://ipo.nl/" title="IPO website"><img src="/img/partners/ipo.jpg" alt="IPO logo" ></a></div>
 </div>
