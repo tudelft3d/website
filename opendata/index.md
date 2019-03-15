@@ -7,18 +7,6 @@ permalink: /opendata/
 <!-- # TODO B: create a rendering in Blender with the bodemvlakken draped over the terrain and the extruded buildings-->
 
 <div class="row">
-
-  <div class="col-sm-4 col-md-3">
-    <div class="thumbnail">
-      <a href="noise3d"><img src="{{ "/img/code/noise3d_v02.png" | prepend: site.baseurl }}"/></a>
-      <div class="caption">
-        <h3>Noise 3D
-        <br/>
-        </h3>
-        <p>Automatically generated 3D input data for noise studies.</p>
-      </div>
-    </div>
-  </div>
   
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
