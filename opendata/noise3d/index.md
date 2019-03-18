@@ -1,18 +1,20 @@
 ---
 layout: page
-title: Automatically generated 3D input data for noise studies (downloads)
+title: Automatically generated 3D input data for noise studies - downloads available
 permalink: /opendata/noise3d/
 ---
 
 In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group, TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
 
-This is an ongoing project and here we offer the outcome of its milestones. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
+This is an ongoing project (started in 2017) and here we offer the outcome of its milestones. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
 
 -----
 
 # Version 0.2
 
-In the span of 2018–Q1 2019 we finialized the second milestone of the project. In this we further improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of objects according to their sound reflectance property.
+In 2017, we started investigating the possibilities to automatically reconstruct 3D input data for noise simulation (i.e. buildings, terrain height, land use objects w.r.t. noise absorption and reflections, noise barriers, bridges). 
+In the span of 2018–Q1 2019 we further developed these ideas and prototypes and specifcially improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of land use objects according to their sound reflectance property.
+Parallel to this we studied how to generate the required data about bridges and noise barriers.
 
 Throughout the project we kept ourselves to the requirements and limitations of the currently available noise simluation software on the market.
 
@@ -20,7 +22,7 @@ Throughout the project we kept ourselves to the requirements and limitations of 
   <img src="{{ "testarea_v02_extent.png" | prepend: site.baseurl }}" alt="Sample area v0.2" style="display:block; margin:auto;">
 </div>
 
-We offer a sample of this improved data set. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
+We offer a sample of the 0.2 version of the data set, consisting of buildings, terrain heights (i.e. height lines) and noise reflection/absorption factors for land use objects. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
 
 ## Attributes
 
@@ -99,7 +101,9 @@ We offer a sample of this improved data set. The sample spans four AHN tiles nea
 
 ## Building models
 
-We offer three versions of building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental*. For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs can have a model with multiple height values per footprint (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, just like in *LoD1.0*. In the *LoD1.3 experimental* also the buildings with slanted roofs are modeled as in *LoD1.3*, thus one height value per roof part. See the graphic below.
+To generate building data, we use the BAG buildings to model the footprints and generate one height per building. This is what we call "LoD1". If a building has a height jump within the building (e.g. in case of a church or a garage attaeched to a building) we decompose the footprint to reflect these height differences. This is what we call "LoD1.3" representations.
+We offer three versions of building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental*. For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs can have a model with multiple height values per footprint (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, just like in *LoD1.0*. This is done, because modelling LoD1.3 models for buildings that have slanted roofs is still challenging.
+To be able to show what the possibilities are to represent sich s;anted roof models, we also offer a *LoD1.3 experimental* dataset. This data set also contains the buildings with slanted roofs modeled as in *LoD1.3*, thus one height value per roof part. See the graphic below.
 
 <div style="width:600px; margin:20px auto;">
   <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
@@ -144,7 +148,7 @@ For the sample area we prepared the following data sets:
   </tr>
   <tr>
     <td class="tg-pcvp">building in LoD1.0</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 95th percentile of the roof.</td>
+    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 95th percentile of the points that are part of the roof.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_pand_lod10</td>
     <td class="tg-pcvp">
       <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
