@@ -24,7 +24,88 @@ Throughout the project we kept ourselves to the requirements and limitations of 
 
 On this page, we offer a sample of the current version of the generated data set, i.e. version 0.2 The data consists of buildings, terrain heights (i.e. height lines) and noise reflection/absorption factors for land use objects. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
 
+## Building models
+
+To generate building data, we use the BAG buildings to model the footprints and generate one height per building as required in noise simulation. This is the so called "LoD1" representation of a building. If a building has a height jump within the building (e.g. in case of a church or a garage attached to a building) we decompose the footprint to reflect these height differences. This is the so called "LoD1.3" representation of a building.
+
+We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental* (see graphic below). For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs have a model with multiple height values per footprint and such buildings are seperated in more parts in case of height jumps (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, even if height jumps occur within one building, just like in *LoD1.0*. This is done, because modelling LoD1.3 models for buildings with height jumps that have slanted roofs is still challenging.
+
+To be able to show what the current possibilities are to represent such slanted roof models, we also offer a *LoD1.3 experimental* dataset. This data set also contains the buildings with slanted roofs modeled as in *LoD1.3*, thus one height value per roof part. We intend to further improve these models in the near future.
+
+<div style="width:900px; margin:20px auto;">
+  <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
+</div>
+
+## Downloads
+
+For the sample area we prepared the following data sets:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+.tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-pcvp{border-color:inherit;text-align:left;vertical-align:top;background-color: #ecf0f1;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-fymr">Feature</th>
+    <th class="tg-fymr">Explanation</th>
+    <th class="tg-fymr">File name</th>
+    <th class="tg-fymr">Download</th>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">ground type</td>
+    <td class="tg-pcvp">Ground types classified by their noise reflecting property</td>
+    <td class="tg-pcvp">&lt;tile id&gt;_bodemvlakken</td>
+    <td class="tg-pcvp">
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">terrain<br></td>
+    <td class="tg-0pky">Terrain modelled with 3D lines (not contour lines and not breaklines)</td>
+    <td class="tg-0pky">&lt;tile id&gt;_hoogtelijnen</td>
+    <td class="tg-0pky">
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      </td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">building in LoD1.0</td>
+    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 95th percentile of the points that are part of the roof.</td>
+    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod10</td>
+    <td class="tg-pcvp">
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">building in LoD1.3</td>
+    <td class="tg-0pky">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
+    <td class="tg-0pky">&lt;tile id&gt;_pand_lod13</td>
+    <td class="tg-0pky">
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      </td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">building in LoD1.3 (experimental version)</td>
+    <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
+    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod13_experimenteel</td>
+    <td class="tg-pcvp">
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      </td>
+  </tr>
+</table>
+
+
 ## Attributes
+
+The table below describes the attributes of the *buildings* and *ground types* data sets. The lines in the *terrain* data set do not have attributes.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -99,81 +180,6 @@ On this page, we offer a sample of the current version of the generated data set
   </tr>
 </table>
 
-## Building models
-
-To generate building data, we use the BAG buildings to model the footprints and generate one height per building as required in noise simulation. This is the so called "LoD1" representation of a building. If a building has a height jump within the building (e.g. in case of a church or a garage attached to a building) we decompose the footprint to reflect these height differences. This is the so called "LoD1.3" representation of a building.
-We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental*. For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs have a model with multiple height values per footprint and such buildings are seperated in more parts in case of height jumps (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, even if height jumps occur within one building, just like in *LoD1.0*. This is done, because modelling LoD1.3 models for buildings with height jumps that have slanted roofs is still challenging.
-To be able to show what the current possibilities are to represent sich slanted roof models, we also offer a *LoD1.3 experimental* dataset. This data set also contains the buildings with slanted roofs modeled as in *LoD1.3*, thus one height value per roof part. We intend to further improve these models in the near future. See the graphic below.
-
-<div style="width:600px; margin:20px auto;">
-  <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
-</div>
-
-## Downloads
-
-For the sample area we prepared the following data sets:
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border:none;}
-.tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-pcvp{border-color:inherit;text-align:left;vertical-align:top;background-color: #ecf0f1;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-fymr">Feature</th>
-    <th class="tg-fymr">Explanation</th>
-    <th class="tg-fymr">File name</th>
-    <th class="tg-fymr">Download</th>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">ground type</td>
-    <td class="tg-pcvp">Ground types classified by their noise reflecting property</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_bodemvlakken</td>
-    <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">terrain<br></td>
-    <td class="tg-0pky">Terrain modelled with 3D lines (not contour lines and not breaklines)</td>
-    <td class="tg-0pky">&lt;tile id&gt;_hoogtelijnen</td>
-    <td class="tg-0pky">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">building in LoD1.0</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 95th percentile of the points that are part of the roof.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod10</td>
-    <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">building in LoD1.3</td>
-    <td class="tg-0pky">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
-    <td class="tg-0pky">&lt;tile id&gt;_pand_lod13</td>
-    <td class="tg-0pky">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">building in LoD1.3 (experimental version)</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod13_experimenteel</td>
-    <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
-      </td>
-  </tr>
-</table>
 
 - - -
 # Contact

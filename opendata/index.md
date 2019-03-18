@@ -4,8 +4,6 @@ title: Open datasets
 permalink: /opendata/
 ---
 
-<!-- # TODO B: create a rendering in Blender with the bodemvlakken draped over the terrain and the extruded buildings-->
-
 <div class="row">
   
   <div class="col-sm-4 col-md-3">
