@@ -4,7 +4,7 @@ title: Automatically generated 3D input data for noise studies - downloads avail
 permalink: /opendata/noise3d/
 ---
 
-In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group, TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
+In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
 
 This is an ongoing project (started in 2017) and here we offer the outcome of its milestones. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
 
@@ -13,10 +13,10 @@ This is an ongoing project (started in 2017) and here we offer the outcome of it
 # Version 0.2
 
 In 2017, we started investigating the possibilities to automatically reconstruct 3D input data for noise simulation (i.e. buildings, terrain height, land use objects w.r.t. noise absorption and reflection, noise barriers and bridges). 
-In the span of 2018–Q1 2019 we further developed these ideas and prototypes and specifically improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of land use objects according to their sound reflectance property.
+In 2018 and Q1 2019 we further developed these ideas and prototypes and specifically improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of land use objects according to their sound reflectance property.
 Parallel to this, we studied how to generate the required data about bridges and noise barriers.
 
-Throughout the project we kept ourselves to the requirements and limitations of the currently available noise simluation software on the market.
+Throughout the project we kept ourselves to the requirements and limitations of the currently available noise simulation software on the market.
 
 <div style="width:600px; margin:20px auto;">
   <img src="{{ "testarea_v02_extent.png" | prepend: site.baseurl }}" alt="Sample area v0.2" style="display:block; margin:auto;">
@@ -26,11 +26,15 @@ On this page, we offer a sample of the current version of the generated data set
 
 ## Building models
 
-To generate building data, we use the BAG buildings to model the footprints and generate one height per building as required in noise simulation. This is the so called "LoD1" representation of a building. If a building has a height jump within the building (e.g. in case of a church or a garage attached to a building) we decompose the footprint to reflect these height differences. This is the so called "LoD1.3" representation of a building.
+In the current noise simulation practice buildings each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the roof in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
-We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental* (see graphic below). For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs have a model with multiple height values per footprint and such buildings are seperated in more parts in case of height jumps (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, even if height jumps occur within one building, just like in *LoD1.0*. This is done, because modelling LoD1.3 models for buildings with height jumps that have slanted roofs is still challenging.
+We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental* (see graphic below). 
 
-To be able to show what the current possibilities are to represent such slanted roof models, we also offer a *LoD1.3 experimental* dataset. This data set also contains the buildings with slanted roofs modeled as in *LoD1.3*, thus one height value per roof part. We intend to further improve these models in the near future.
+1. In the *LoD1.0* data set each building is modelled with a single height value. 
+2. In the *LoD1.3* data set the buildings with *only* horizontal roofparts have are modelled with multiple heights. To achieve this the footprint is subdivided into several roofparts and each roofpart is assigned its own height. Buildings with slanted roofs are modelled wiht a single height.
+3. In the *LoD1.3 experimental* dataset, also the buildings with slanted roofparts are modelled with multiple heights. These buildings are the most difficult to model in *LoD1.3*, and these results are merely indicative of the current status of our LoD1.3 building reconstruction method. We intend to further improve this method in the near future.
+
+For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. 
 
 <div style="width:900px; margin:20px auto;">
   <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
