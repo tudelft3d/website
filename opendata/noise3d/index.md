@@ -12,9 +12,9 @@ This is an ongoing project (started in 2017) and here we offer the outcome of it
 
 # Version 0.2
 
-In 2017, we started investigating the possibilities to automatically reconstruct 3D input data for noise simulation (i.e. buildings, terrain height, land use objects w.r.t. noise absorption and reflections, noise barriers, bridges). 
-In the span of 2018–Q1 2019 we further developed these ideas and prototypes and specifcially improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of land use objects according to their sound reflectance property.
-Parallel to this we studied how to generate the required data about bridges and noise barriers.
+In 2017, we started investigating the possibilities to automatically reconstruct 3D input data for noise simulation (i.e. buildings, terrain height, land use objects w.r.t. noise absorption and reflection, noise barriers and bridges). 
+In the span of 2018–Q1 2019 we further developed these ideas and prototypes and specifically improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of land use objects according to their sound reflectance property.
+Parallel to this, we studied how to generate the required data about bridges and noise barriers.
 
 Throughout the project we kept ourselves to the requirements and limitations of the currently available noise simluation software on the market.
 
@@ -22,7 +22,7 @@ Throughout the project we kept ourselves to the requirements and limitations of 
   <img src="{{ "testarea_v02_extent.png" | prepend: site.baseurl }}" alt="Sample area v0.2" style="display:block; margin:auto;">
 </div>
 
-We offer a sample of the 0.2 version of the data set, consisting of buildings, terrain heights (i.e. height lines) and noise reflection/absorption factors for land use objects. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
+On this page, we offer a sample of the current version of the generated data set, i.e. version 0.2 The data consists of buildings, terrain heights (i.e. height lines) and noise reflection/absorption factors for land use objects. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
 
 ## Attributes
 
@@ -101,9 +101,9 @@ We offer a sample of the 0.2 version of the data set, consisting of buildings, t
 
 ## Building models
 
-To generate building data, we use the BAG buildings to model the footprints and generate one height per building. This is what we call "LoD1". If a building has a height jump within the building (e.g. in case of a church or a garage attaeched to a building) we decompose the footprint to reflect these height differences. This is what we call "LoD1.3" representations.
-We offer three versions of building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental*. For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs can have a model with multiple height values per footprint (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, just like in *LoD1.0*. This is done, because modelling LoD1.3 models for buildings that have slanted roofs is still challenging.
-To be able to show what the possibilities are to represent sich s;anted roof models, we also offer a *LoD1.3 experimental* dataset. This data set also contains the buildings with slanted roofs modeled as in *LoD1.3*, thus one height value per roof part. See the graphic below.
+To generate building data, we use the BAG buildings to model the footprints and generate one height per building as required in noise simulation. This is the so called "LoD1" representation of a building. If a building has a height jump within the building (e.g. in case of a church or a garage attached to a building) we decompose the footprint to reflect these height differences. This is the so called "LoD1.3" representation of a building.
+We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental*. For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. In the *LoD1.0* data set each building model has a single height value. In the *LoD1.3* data set buildings with *only* horizontal roofs have a model with multiple height values per footprint and such buildings are seperated in more parts in case of height jumps (one height per roof part). But building that have slanted roofs are modeled with single height value per footprint, even if height jumps occur within one building, just like in *LoD1.0*. This is done, because modelling LoD1.3 models for buildings with height jumps that have slanted roofs is still challenging.
+To be able to show what the current possibilities are to represent sich slanted roof models, we also offer a *LoD1.3 experimental* dataset. This data set also contains the buildings with slanted roofs modeled as in *LoD1.3*, thus one height value per roof part. We intend to further improve these models in the near future. See the graphic below.
 
 <div style="width:600px; margin:20px auto;">
   <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
