@@ -61,47 +61,42 @@ For the sample area we prepared the following data sets:
   </tr>
   <tr>
     <td class="tg-pcvp">ground type</td>
-    <td class="tg-pcvp">Ground types classified by their noise reflecting property</td>
+    <td class="tg-pcvp">Ground types classified by their noise reflecting property. Objects that are smaller than 6 square meters are merged into their neighbour and obtain the neighbour's reflectance property.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_bodemvlakken</td>
     <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
-      </td>
+      <a href="{{ "bodemvlakken.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+    </td>
   </tr>
   <tr>
     <td class="tg-0pky">terrain<br></td>
     <td class="tg-0pky">Terrain modelled with 3D lines (not contour lines and not breaklines)</td>
     <td class="tg-0pky">&lt;tile id&gt;_hoogtelijnen</td>
     <td class="tg-0pky">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      <a href="{{ "hoogtelijnen.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
     <td class="tg-pcvp">building in LoD1.0</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 95th percentile of the points that are part of the roof.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod10</td>
+    <td class="tg-pcvp">Bulding footprints with a single height value per building. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof.</td>
+    <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
     <td class="tg-0pky">building in LoD1.3</td>
-    <td class="tg-0pky">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
-    <td class="tg-0pky">&lt;tile id&gt;_pand_lod13</td>
+    <td class="tg-0pky">Bulding footprints with a single height value per <em>building-part</em>. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
+    <td class="tg-0pky">&lt;tile id&gt;_lod13_&lt;percentile&gt;</td>
     <td class="tg-0pky">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
     <td class="tg-pcvp">building in LoD1.3 (experimental version)</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_pand_lod13_experimenteel</td>
+    <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
+    <td class="tg-pcvp">&lt;tile id&gt;_lod13_&lt;percentile&gt;_experimenteel</td>
     <td class="tg-pcvp">
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      <a href="{{ somefile | prepend: "/download/noise3d/" | prepend: site.baseurl }}">[GML]</a><br/>
+      <a href="{{ "lod13_experimenteel.zip" | prepend: "/download/noise3d/v02" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
@@ -127,6 +122,11 @@ The table below describes the attributes of the *buildings* and *ground types* d
   </tr>
   <tr>
     <td class="tg-0pky">building</td>
+    <td class="tg-0pky">bag_id</td>
+    <td class="tg-0pky">the <code>identificatie</code> attribute from the BAG</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
     <td class="tg-pcvp">dak_type</td>
     <td class="tg-pcvp">type of the roof of building<br>
       <code>2</code> – roof with at least one slanted surface<br>
@@ -143,31 +143,26 @@ The table below describes the attributes of the *buildings* and *ground types* d
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-pcvp">hoogte_act</td>
-    <td class="tg-pcvp"><em>hoogte actueel</em> or valid height<br>
+    <td class="tg-pcvp">maaiveld_h</td>
+    <td class="tg-pcvp"><em>maaiveld hoogte</em> or absolute ground height of the building</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">maaiveld_p</td>
+    <td class="tg-0pky"><em>aantal maaiveld punten</em> or number of AHN points that were used for calculating the ground height. Note that a value below 3 might indicate an unreliable value for <code>maaiveld_h</code></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-pcvp">ahn_geldig</td>
+    <td class="tg-pcvp">or valid height<br>
       <code>1</code> – building was built <em>before</em> the point cloud was collected for the tile<br>
       <code>0</code> – building was built <em>after</em> the point cloud was collected for the area
     </td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">maaiveld_h</td>
-    <td class="tg-0pky"><em>maaiveld hoogte</em> or absolute ground height of the building</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-pcvp">maaiveld_p</td>
-    <td class="tg-pcvp"><em>aantal maaiveld punten</em> or number of AHN points that were used for calculating the ground height. Note that a value below 3 might indicate an unreliable value for <code>maaiveld_h</code></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">ahn_datum</td>
-    <td class="tg-0pky">the date of the acquisition of the point cloud for the tile</td>
-  </tr>
-  <tr>
     <td class="tg-0pky" style="border-bottom-width:0.5px"></td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">bag_id</td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">the <code>identificatie</code> attribute from the BAG</td>
+    <td class="tg-0pky" style="border-bottom-width:0.5px">ahn_datum</td>
+    <td class="tg-0pky" style="border-bottom-width:0.5px">the date of the acquisition of the point cloud for the tile</td>
   </tr>
   <tr>
     <td class="tg-0pky">ground type</td>
