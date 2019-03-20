@@ -8,7 +8,7 @@ In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation 
 
 This is an ongoing project (started in 2017). A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
 
-On this site we publish the current version (i.e. 0.2) of the data to provide the posisbility to test the data and send us feedback.
+On this site we publish the current version (i.e. 0.2) of the data to provide the possibility to test the data and send us feedback.
 
 # Feedback 
 
