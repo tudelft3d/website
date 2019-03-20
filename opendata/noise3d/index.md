@@ -200,5 +200,5 @@ The table below describes the attributes of the *buildings* and *ground types* d
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" ></a></div>
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" ></a></div>
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://ipo.nl/" title="IPO website"><img src="/img/partners/ipo.jpg" alt="IPO logo" ></a></div>
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://erc.europa.eu" title="IPO website"><img src="/img/partners/erc.jpg" alt="ERC logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://erc.europa.eu" title="IPO website"><img src="/img/partners/erc.svg" alt="ERC logo" ></a></div>
 </div>
