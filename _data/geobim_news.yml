@@ -2,3 +2,5 @@
   news: The website is under construction
 - date: 2019-03-05
   news: The materials are ready. Registrations are open!
+- date: 2019-03-19
+  news: Some IFC 4 models are added as test data, namely another version of the IFCgeometries.ifc and an Italian building (Savigliano.ifc). In some days, data descriptions will be available and the online results templates for task 1 will be updated.

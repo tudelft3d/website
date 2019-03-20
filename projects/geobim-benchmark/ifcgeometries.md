@@ -25,6 +25,8 @@ It was modelled specifically for this study by T. Krijnen.
 
 It was exported on 23/02/2019 using IfcOpenShell 0.6
 
+These data are provided in two versions: IFC 2x3 and IFC 4, so they are actually two data and both have to be tested, if the software allows it.
+
 In Figure 1 the schema of the geometries is drawn as reference
 
 <div class="row">
@@ -35,7 +37,9 @@ In Figure 1 the schema of the geometries is drawn as reference
 
 Name of the file: <strong>IFCgeometries.ifc</strong>
 
-Used IFC version: **2x3**
+Used IFC version: **2x3** for *IFCgeometries.ifc*
+
+and IFC **4** for the file *IFCgeometries_IFC4.ifc*
 
 ------------------
 

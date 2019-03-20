@@ -10,7 +10,7 @@ In this page, you can find the data used for the benchmark.
 
 Most of the datasets are free to download.
 
-However, to get access to some of them (*Myran* and *Up:Town* IFC files), you have to participate in the test and sign a data agreement.
+However, to get access to some of them (*Myran*, *Up:Town* and *Savigliano* IFC files), you have to participate in the test and sign a data agreement.
 
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcmyran.html" title="Myran.ifc"><img src=" /projects/geobim-benchmark/img/Myran-Index.gif" alt="Myran IFC model" style="max-height: 200px;"></a>
@@ -32,6 +32,18 @@ However, to get access to some of them (*Myran* and *Up:Town* IFC files), you ha
 		<p>Useful to test also the computational requirements of software with IFC models, in Tasks 1, 2 and 4</p>
 	</div>
   </div>
+  
+  <!--
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/savigliano.html" title="Savigliano.ifc"><img src=" /projects/geobim-benchmark/img/Savigliano-Index.gif" alt="Up:Town IFC model" style="max-height: 200px;"></a>
+	<div class="caption">
+		<h3><a href="/projects/geobim-benchmark/savigliano.html">Savigliano</a>
+		<br />
+			<small>IFC model</small><br />
+        </h3>
+		<p>Useful to test software and procedures with an IFC 4 model, in Tasks 1, 2 and 4</p>
+	</div>
+  </div>
+  -->
   
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcgeometries.html" title="Analytical.ifc"><img src=" /projects/geobim-benchmark/img/Analytical-Index.gif" alt="Specific IFC geometries" style="max-height: 200px;"></a>
 	<div class="caption">
