@@ -6,14 +6,20 @@ permalink: /opendata/noise3d/
 
 In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
 
-This is an ongoing project (started in 2017) and here we offer the outcome of its milestones. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
+This is an ongoing project (started in 2017). A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
 
-## Feedback Session on 11 April 2019
-On the 11th of April 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00).
+On this site we publish the current version (i.e. 0.2) of the data to provide the possibility to test the data and send us feedback.
+
+# Feedback 
+
+### Feedback Form
+In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
+
+### Feedback Session on 11 April 2019
+On the 11th of April 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00). During this session we will present our approach and we will recieve your feedback for further development.
 
 You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform).
 
------
 
 # Version 0.2
 
@@ -184,11 +190,6 @@ The table below describes the attributes of the *buildings* and *ground types* d
   </tr>
 </table>
 
-
-- - -
-# Feedback
-
-In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
 
 - - -
 
