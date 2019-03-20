@@ -8,6 +8,11 @@ In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation 
 
 This is an ongoing project (started in 2017) and here we offer the outcome of its milestones. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
 
+## Feedback Session on 11 April 2019
+On the 11th of April 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00).
+
+You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform).
+
 -----
 
 # Version 0.2
@@ -34,7 +39,7 @@ We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* an
 2. In the *LoD1.3* data set the buildings with *only* horizontal roofparts are modelled with multiple heights. To achieve this the footprint is subdivided into several roofparts and each roofpart is assigned its own height. Buildings with slanted roofs are modelled with a single height.
 3. In the *LoD1.3 experimental* dataset, also the buildings with slanted roofparts are modelled with multiple heights. These buildings are the most difficult to model in *LoD1.3*, and these results are merely indicative of the current status of our LoD1.3 building reconstruction method. We intend to further improve this method in the near future.
 
-For all versions the height of the top surface of the building model is set to the 95th percentile of the height values of the point cloud of the roof of the real building. 
+The height of each roofpart is computed by taking a percentile of the elevations points it contains. We offer both a 75th percentile and a 95th percentile variant.
 
 <div style="width:900px; margin:20px auto;">
   <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
@@ -181,9 +186,9 @@ The table below describes the attributes of the *buildings* and *ground types* d
 
 
 - - -
-# Contact
+# Feedback
 
-In case of questions or comments about the data feel free to contact Ravi Peters at <a href="mailto:r.y.peters@tudelft.nl?Subject=[Noise3D]" target="_top">r.y.peters@tudelft.nl</a>
+In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
 
 - - -
 
