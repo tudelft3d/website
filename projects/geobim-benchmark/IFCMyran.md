@@ -44,7 +44,7 @@ Used IFC version: 2x3 (MVD: CoordinationView v.2.0)
 
 <strong>N:</strong> 0 m
 
-<strong>H:</strong> 0 m
+<strong>H:</strong> 148.2 m
 
 <strong>Rotation to the true North</strong> of the reference direction (blue in Figure 1): 0°.
 
@@ -62,7 +62,7 @@ Used IFC version: 2x3 (MVD: CoordinationView v.2.0)
 
 <strong>N:</strong> 6721748.645 m
 
-<strong>H:</strong> 148.2 m
+<strong>H:</strong> 360.5 m
 
 <strong>Rotation to the true North</strong> of the reference direction (blue in Figure 2): 48°.
 
