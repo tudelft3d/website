@@ -21,7 +21,7 @@ permalink: /projects/geobim-benchmark/savigliano.html
 
 It is the IFC model of a residential building under construction in Rotterdam, the Netherlands.
 
-It was modelled during a research project in Politecnico di Torino, by L. Polia.
+It was modelled by Lorenzo Polia during a research in Politecnico di Torino, Department of Architecture and Design.
 
 The data represent the architectural model of the BIM.
 
@@ -49,44 +49,44 @@ Used IFC version: 4 (MVD: DesignTransferView v.1.0)
 <strong>Rotation to the true North</strong> of the reference direction (red in Figure 1): 0°.
 
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-2.gif" }}" title="Figure 1 - 3D view of the Savigliano IFC model, as visualised in Solibri model viewer. The red-green arrows represents the insertion point of the model; the green arrow is the direction taken as reference for rotating the model towards the true north (using the reference point as centre of the rotation)."  style="max-height: 300px">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig1.gif" }}" title="Figure 1 - 2D view of the Savigliano IFC model, as visualised in Revit. The blue point represents the reference point of the model; the red line is the direction taken as reference for rotating the model towards the true north (using the reference point as centre of the rotation)."  style="max-height: 300px">
 </div>
 
 
 ### Georeferencing parameters (for Task 2)
-<strong>Coordinate reference system:</strong> EPSG: 28992 – Amersfoort / RD New
+<strong>Coordinate reference system:</strong> EPSG: 32632 WGS 84 / UTM zone 32N
 
 <strong>Coordinates of the reference point (blue in Figure 1 and 2):</strong>
 
-<strong>E:</strong> 93065.2 m
+<strong>E:</strong> 394411.14 m
 
-<strong>N:</strong> 436770.4 m
+<strong>N:</strong> 4944441.08 m
 
-<strong>H:</strong> -1.5 m
+<strong>H:</strong> 450 m
 
-<strong>Rotation to the true North</strong> of the reference direction (blue in Figure 2): 106.65°.
+<strong>Rotation to the true North</strong> of the reference direction (blue in Figure 2): 43.65°.
 
-Centre of rotation is the same reference point (in blue in Figures 1 and 2).
-
-<div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig2.gif" }}" title="Figure 2 - 2D view of a floor of the Up:Town building in the IFC model, visualised in the map; the red line represents the (rotated) reference line and the blue point represents the reference point)."  style="max-height: 300px">
-</div>
+Centre of rotation is the same reference point (in blue in Figure 1).
 
 
 ### Units of measure and dimensions
 The used unit of measure in the model is <strong>metre</strong>.
 
-In the following Figures 3 some dimensions are shown, to be considered for Task 1
+In the following Figures 2 and 3 some dimensions are shown, to be considered for Task 1
 
 
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig3.gif" }}" title="Figure 3 - Some dimensions in the 2D floor plan." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig2.gif" }}" title="Figure 2 - Some dimensions in the 2D floor plan." >
+</div>
+
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig3.gif" }}" title="Figure 3 - Some dimensions in the 2D section." >
 </div>
 
 
 ## Semantics details
 
-Here, the entities included in the model (hierarchically organised) are listed:
+Here, the entities included in the model (following 'inclusion' hierarchy) are listed:
 
 IfcProject
 
@@ -98,8 +98,6 @@ IfcProject
 
       - IfcWall
 
-      - IfcWallStandardCase
-
       - IfcCurtainWall
 
       - IfcColumn
@@ -110,71 +108,114 @@ IfcProject
 
       - IfcRoof
 
-      - IfcCovering
-
       - IfcOpeningElement
 
       - IfcDoor
 
       - IfcWindow
+      
+      - IfcStair
+      
+          - IfcStairFlight
+          
+          - IfcSlab
+          
+          - IfcRailing
 
       - IfcRailing
 
-      - IfcFlowTerminal
+      - IfcPipeFitting
 
-      - IfcEnergyConversionDevice
+      - IfcPipeSegment
 
-      - IfcFurnishingElement
+      - IfcDistributionPort
 
       - IfcMember
 
       - IfcBuildingElementProxy
 
-Note: The use of semantic entities is not perfect. For Example, many IfcBuildingElementProxy describe elements having well-defined semantics in IFC (e.g. stairs) and many attributes are missing, <strong>but we will evaluate the consistency of the model with itself through the conversions.</strong>
+Note: The use of semantic entities is generally accurate, and no inconsistent entities are defined.
 
-You can browse the full list of IFC entities, with related descriptions, definitions and foreseen attributes in the [buildingSMART website] (http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/).
+You can browse the full list of IFC entities, with related descriptions, definitions and foreseen attributes in the [buildingSMART website](http://standards.buildingsmart.org/IFC/RELEASE/IFC4/FINAL/HTML/).
 
 
 For checking the semantics of the model, <strong>we propose here some elements in a higher detail.</strong>
 
-Anyway, we suggest to have an overall look at the model and its elements, and report on them all, including the more general entities <strong>IfcSite</strong> and <strong>IfcBuilding</strong> (Figure 4).
+Anyway, we suggest to have an overall look at the model and its elements, and report on them all, including the more general entities <strong>IfcSite</strong> and <strong>IfcBuilding</strong>.
+
+### 6 Elements in detail
 
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig4.gif" }}" title="Figure 4 – Attributes under the entity IfcSite and IfcBuilding." >
-</div>
-
-
-### 4 Elements in detail
-
-Some entities can be semantically defined in inaccurate way.
-
-However, in Task 1, you will need to check that the given semantics are maintained through the conversions, independently from teir actual meaning.
-
-<div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig5.gif" }}" title="Element 1)	Roof of the lower part of the building  (in red), with its hierarchy and attributes." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig4.gif" }}" title="Element 1)	Side wall enclosing one staircase (in red), with its hierarchy and attributes." >
 </div>
 ------------
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig6.gif" }}" title="Element 2)	Railing of the 7th floor over the roof of the lowest part of the building, in the tower  (in red), with its hierarchy and attributes." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig5.gif" }}" title="Element 2)	Roof of a part of one building (in red), with its hierarchy and attributes." >
 </div>
 ------------
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig7.gif" }}" title="Element 3)	Wall in the last floor of the lowest part of the building (in red), with its hierarchy and attributes." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig6.gif" }}" title="Element 3)	Stair Flight (in red), with its hierarchy and attributes." >
 </div>
 ------------
 <div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/UpTown-Fig8.gif" }}" title="Element 4)	Up-left window in the lowest part of the building (having the tower on the right)  (in red), with its hierarchy and attributes." >
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig7.gif" }}" title="Element 4)	Slab on the 5th level of one building (in red), with its hierarchy and attributes." >
+</div>
+------------
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig8.gif" }}" title="Element 5)	Window in the upper-right corner of one building (in red), with its hierarchy and attributes." >
+</div>
+------------
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig9.gif" }}" title="Element 6)	Column (in red), with its hierarchy and attributes." >
 </div>
 
+## Elements groups: the 3 storeys
 
+For the Task 1, you should also check that the objects are grouped in the same building storeys.
+
+The grouping of the model is completely consistent with the definition. Some elements running for the whole height of the buildings (e.g. staircases, columns, installations) are in the group where they are based (from the (sub)groundfloor to higher floors):
+
+### Building storey -1
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-St-1.gif" }}" title="Many views of the IfcBuildingStorey -1 in the software IfcViewer." >
+</div>
+
+### Building storey 0
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-St0.gif" }}" title="Many views of the IfcBuildingStorey Ground floor in the software IfcViewer." >
+</div>
+
+### Building storey 1
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-St1.gif" }}" title="Many views of the IfcBuildingStorey 1 in the software IfcViewer." >
+</div>
+
+### Building storeys 2, 3 and 4
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-St234.gif" }}" title="Many views of the IfcBuildingStoreys 2, 3 and 4 (which are similar each other) in the software IfcViewer." >
+</div>
+
+### Building storey 'roof'
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-StR.gif" }}" title="Many views of the IfcBuildingStorey regarding the roof level in the software IfcViewer." >
+</div>
+
+### Building storey 'roof slabs'
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-StRS.gif" }}" title="Many views of the IfcBuildingStorey finishing the Roof in the software IfcViewer." >
+</div>
+
+### Building storey 'staircases roofs'
+<div class="row">
+	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-StRR.gif" }}" title="Many views of the IfcBuildingStorey representing the roof of staircases in the software IfcViewer." >
+</div>
+------------
 ## Relationships
 
 In Task 1, you are also asked to check other relationships.
-Some examples, in the UpTown.ifc model are:
+Some examples, in the Savigliano.ifc model are:
 
-<strong>IfcRelAssociatesClassification</strong>, connecting objects (e.g. IfCWallStandardCase or IfcOpeningElement) to IfcClassificationReference.
-
-<strong>IfcRelAggregates</strong>, between IfcWallStandardCase to IfcWallType or IfcPlate to IfcPlateType, and so on.
+<strong>IfcRelAggregates</strong>, between IfcStairFlight, IfcSlab, IfcRailing to IfcStair, or IfcPlate and IfcMember to IfcCurtainWall.
 
 <strong>IfcRelDefinesByType</strong>, , between IfcWallStandardCase to IfcWallType or IfcPlate to IfcPlateType, and so on.
 

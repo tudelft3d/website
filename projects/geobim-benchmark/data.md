@@ -33,7 +33,7 @@ However, to get access to some of them (*Myran*, *Up:Town* and *Savigliano* IFC 
 	</div>
   </div>
   
-  <!--
+ 
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/savigliano.html" title="Savigliano.ifc"><img src=" /projects/geobim-benchmark/img/Savigliano-Index.gif" alt="Up:Town IFC model" style="max-height: 200px;"></a>
 	<div class="caption">
 		<h3><a href="/projects/geobim-benchmark/savigliano.html">Savigliano</a>
@@ -43,7 +43,7 @@ However, to get access to some of them (*Myran*, *Up:Town* and *Savigliano* IFC 
 		<p>Useful to test software and procedures with an IFC 4 model, in Tasks 1, 2 and 4</p>
 	</div>
   </div>
-  -->
+ 
   
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcgeometries.html" title="Analytical.ifc"><img src=" /projects/geobim-benchmark/img/Analytical-Index.gif" alt="Specific IFC geometries" style="max-height: 200px;"></a>
 	<div class="caption">

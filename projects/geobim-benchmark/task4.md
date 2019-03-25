@@ -65,7 +65,8 @@ Participants will be able to **download** these data and find the data **descrip
 ### IFC data (conversion IFC to CityGML)
 * [Myran IFC model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcmyran.html)
 * [Up:Town IFC model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/uptown.html)
-* [Specific IFC geometries](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html)
+* [Savigliano model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/savigliano.html)
+* [Specific IFC geometries in both IFC 2x3 and IFC 4](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html)
 
 Participants will be able to download the *Myran* and *Up:Town* IFC models after you fill the [registration form](https://francescanoardo.typeform.com/to/IbdpZD).
 Participants will be able to **download** the other data and find the data **descriptions**, in the [data section](https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html) of this website.

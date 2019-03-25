@@ -89,7 +89,7 @@ In the following Figures 3-4 some dimensions are shown, to be considered for Tas
 
 ## Semantics details
 
-Here, the entities included in the model (hierarchically organised) are listed:
+Here, the entities included in the model (following 'inclusion' hierarchy) are listed:
 
 IfcProject
 
@@ -141,7 +141,7 @@ IfcProject
 
 Note: Semantics are usually consistently assigned and many attributes are filled.
 
-You can browse the full list of IFC entities, with related descriptions, definitions and foreseen attributes in the [buildingSMART website] (http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/).
+You can browse the full list of IFC entities, with related descriptions, definitions and foreseen attributes in the [buildingSMART website](http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/).
 
 
 For checking the semantics of the model, <strong>we propose here some elements in a higher detail.</strong>
