@@ -1,41 +1,47 @@
 ---
 layout: page
-title: Automatically generated 3D input data for noise studies - downloads available
+title: 3D input data for noise studies
 permalink: /opendata/noise3d/
 ---
 
-In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
+![](/img/projects/noise3d_banner.jpg)
 
-This is an ongoing project (started in 2017). A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
-
-On this site we publish the current version (i.e. 0.2) of the data to provide the possibility to test the data and send us feedback.
-
-# Feedback 
-
-### Feedback Form
-In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
-
-### Feedback Session on 11 April 2019
+<div class="well"><b>Feedback Session on 11 April 2019</b><br/><br/>
 On the 11th of April 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00). During this session we will present our approach and we will recieve your feedback for further development.
 
-You can register using [this form](https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform).
-
-
-# Version 0.2
-
-In 2017, we started investigating the possibilities to automatically reconstruct 3D input data for noise simulation (i.e. buildings, terrain height, land use objects w.r.t. noise absorption and reflection, noise barriers and bridges). 
-In 2018 and Q1 2019 we further developed these ideas and prototypes and specifically improved the 3D reconstruction of buildings by adding more detail and geometric accuracy, improved the terrain model by optimising the amount of terrain features and complexity, and improved the classification of land use objects according to their sound reflectance property.
-Parallel to this, we studied how to generate the required data about bridges and noise barriers.
-
-Throughout the project we kept ourselves to the requirements and limitations of the currently available noise simulation software on the market.
-
-<div style="width:600px; margin:20px auto;">
-  <img src="{{ "testarea_v02_extent.png" | prepend: site.baseurl }}" alt="Sample area v0.2" style="display:block; margin:auto;">
+You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
 </div>
 
-On this page, we offer a sample of the current version of the generated data set, i.e. version 0.2 The data consists of buildings, terrain heights (i.e. height lines) and noise reflection/absorption factors for land use objects. The sample spans four AHN tiles nearby the city of Rotterdam, namely *37ez2*, *37fz1*, *37gn2*, *37hn1*.
+- - -
 
-## Building models
+* Table of Content
+{:toc}
+
+- - -
+## Introduction
+
+In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
+
+This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
+
+On this site we publish an example dataset that is generated using the current 0.2 version of our method. With this sample dataset interested parties have the possibility to review our results and send us feedback.
+
+## Method and example data
+
+Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. With version 0.2 we deliver 3 input layers for 3D noise studies, namely
+
+1. building models (gebouwen),
+2. ground types with noise reflection/absorption factors (bodemvlakken), and
+3. terrain (hoogtelijnen).
+
+These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.2 example dataset.
+
+The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below.
+
+![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
+
+
+### Building models
 
 In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
@@ -51,7 +57,7 @@ The height of each roofpart is computed by taking a percentile of the elevations
   <img src="{{ "building_lod.png" | prepend: site.baseurl }}" alt="Building model versions" style="display:block; margin:auto;">
 </div>
 
-## Downloads
+### Downloads
 
 For the sample area we prepared the following data sets:
 
@@ -113,7 +119,7 @@ For the sample area we prepared the following data sets:
 </table>
 
 
-## Attributes
+### Attributes
 
 The table below describes the attributes of the *buildings* and *ground types* data sets. The lines in the *terrain* data set do not have attributes.
 
@@ -181,14 +187,22 @@ The table below describes the attributes of the *buildings* and *ground types* d
     <td class="tg-0pky">unique ID of the object</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-pcvp">demping</td>
-    <td class="tg-pcvp">sound reflectance property of the ground<br>
+    <td class="tg-0pky" style="border-bottom-width:0.5px"></td>
+    <td class="tg-pcvp" style="border-bottom-width:0.5px">demping</td>
+    <td class="tg-pcvp" style="border-bottom-width:0.5px">sound reflectance property of the ground<br>
       <code>hard</code> – reflecting<br>
       <code>zacht</code> – non-reflecting
     </td>
   </tr>
+  <tr>
+    <td class="tg-0pky">terrain</td>
+    <td class="tg-0pky">-</td>
+    <td class="tg-0pky">-</td>
+  </tr>
 </table>
+
+## Feedback Form
+In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
 
 
 - - -
