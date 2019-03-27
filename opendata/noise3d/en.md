@@ -3,7 +3,6 @@ layout: page_noise3d
 title: 3D input data for noise studies
 permalink: /opendata/noise3d/en
 is_dutch: false
-redirect_from: /opendata/noise3d
 ---
 
 ![](/img/projects/noise3d_banner.jpg)
