@@ -1,15 +1,16 @@
 ---
-layout: page
-title: 3D input data for noise studies
-permalink: /opendata/noise3d/
+layout: page_noise3d
+title: 3D Basisbestand Geluid
+permalink: /opendata/noise3d/nl
+is_dutch: true
 ---
 
 ![](/img/projects/noise3d_banner.jpg)
 
-<div class="well"><b>Feedback Session on 11 April 2019</b><br/><br/>
-On the 11th of April 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00). During this session we will present our approach and we will recieve your feedback for further development.
+<div class="well"><b>Feedback Sessie op 11 April 2019</b><br/><br/>
+Op 11 April 2019 organiseren we een feedback sessie bij het Kadaster in Rotterdam (10:00-12:00). In deze sessie zullen we toelichten hoe het versie 0.2 van het Basisbestand 3D Geluid tot stand is gekomen en staan we open voor feedback.
 
-You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
+U kunt zich aanmelden met <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">dit formulier</a>.
 </div>
 
 - - -
@@ -211,10 +212,4 @@ In case of questions or comments about the data please fill out our [feedback fo
 
 # Project partners
 
-<div class="row">
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.rws.nl" title="RWS website"><img src="/img/partners/rws.png" alt="RWS logo" ></a></div>
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rivm.nl" title="RIVM website"><img src="/img/partners/rivm.png" alt="RIVM logo" ></a></div>
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="http://www.kadaster.nl" title="Kadaster website"><img src="/img/partners/kadaster.png" alt="Kadaster logo" ></a></div>
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://ipo.nl/" title="IPO website"><img src="/img/partners/ipo.jpg" alt="IPO logo" ></a></div>
-<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://erc.europa.eu" title="IPO website"><img src="/img/partners/erc.svg" alt="ERC logo" ></a></div>
-</div>
+{% include noise3d/partners.html %}

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="container content">
+
+  {% if page.is_dutch %}
+  <h1>{{ page.title }} <small>[<a href="en">English version</a>]</small></h1>
+  {% else %}
+  <h1>{{ page.title }} <small>[<a href="nl">Nederlandse versie</a>]</small></h1>
+  {% endif %}
+
+  {{ content }}
+
+</div>
+
