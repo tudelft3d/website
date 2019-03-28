@@ -1,6 +1,6 @@
 ---
 layout: page_noise3d
-title: 3D Basisbestand Geluid
+title: 3D Basisbestand Geluid versie 0.2. Beschikbaar voor testdoeleinden
 permalink: /opendata/noise3d/nl
 is_dutch: true
 ---
