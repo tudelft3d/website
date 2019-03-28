@@ -39,16 +39,16 @@ With version 0.2 we deliver 3 input layers for 3D noise studies, namely
 
 These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.2 example dataset.
 
-The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below. We provide this test data in order to collect feedback that we will use for future developmenst where we plan to upscale the results to the whole of the Netherlands.
-For version 0.2 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedack we can adjust these parameters in a next release.
-
-The input data can direclty be used as input in software that implements the "Standaard Rekenmethode II van het RMG2012 (SRM2)" (i.e. the Dutch prescribed calculation method), like  GeoMilieu and WinHavik.
+The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below. We provide this test data in order to collect feedback that we will use for future developments where we plan to upscale the results to the whole of the Netherlands.
+For version 0.2 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
 
 ![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
+The input data can directly be used as input in software that implements the "Standaard Rekenmethode II van het RMG2012 (SRM2)" (i.e. the Dutch prescribed calculation method), like  GeoMilieu and WinHavik.
+
 ### Building models
-For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software 3dfier. This software converts 2D footprints into 3D blockmodels.
-The heights of buildings are calculated as the 95-percentile of all AHN-points that fall wihtin one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As addtional information, we also provide the 75-percentile.
+For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software 3dfier. This software converts 2D footprints into 3D block models.
+The heights of buildings are calculated as the 95-percentile of all AHN-points that fall within one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As additonal information, we also provide the 75-percentile.
 
 In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
@@ -67,10 +67,10 @@ More details about our LoD1.3 reconstruction method can be found in the followin
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Heights of the terrain
-For the representation of the height, we use the BGT and AHN as basis. The resulting 3D lines that do not signifcantly contribute to the terrain have been removed. We also added height lines in case a height-difference was detected in AHN but not respresented by the BGT information.
+For the representation of the height, we use the BGT and AHN as basis. The resulting 3D lines that do not significantly contribute to the terrain have been removed. We also added height lines in case a height-difference was detected in AHN but not represented by the BGT information.
 
 ### Groundtypes with noise characteristcs
-Also for modelling noise-reflection and -absortpion values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
+Also for modelling noise-reflection and -absorption values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -82,8 +82,8 @@ Also for modelling noise-reflection and -absortpion values, we use the BGT as ba
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-fymr">BGT class en <code>fysiekVoorkomen</code> attribute</th>
-    <th class="tg-fymr">Akoestische classificatie</th>
+    <th class="tg-fymr">BGT class and <code>fysiekVoorkomen</code> attribute</th>
+    <th class="tg-fymr">Acoustic classification</th>
   </tr> 
   <tr>
     <td class="tg-pcvp">OndersteunendWaterdeel (alles)</td>
@@ -148,9 +148,9 @@ Also for modelling noise-reflection and -absortpion values, we use the BGT as ba
 The test data is available as *ESRI shape*.
 
 The following source data was used:
-* BGT (Basisregistratie Grootschalige Topografie) , date 11-02-2019
-* BAG (Basisregistratie Adressen en Gebouwen), date 25-02-2019
-* AHN (Actueel Hoogtebestand Nederland), version 3
+* BGT: date 11-02-2019
+* BAG: date 25-02-2019
+* AHN: version 3
 
 For the sample area we prepared the following data sets.
 

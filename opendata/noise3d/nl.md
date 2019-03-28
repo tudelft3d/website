@@ -152,9 +152,9 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
 Dit testbestand is beschikbaar in *ESRI shape*.
 
 De gebruikte bronbestanden zijn:
-* BGT (Basisregistratie Grootschalige Topografie), datum 11-02-2019
-*	BAG (Basisregistratie Adressen en Gebouwen), datum 25-02-2019
-*	AHN (Actueel Hoogtebestand Nederland), versie 3
+* BGT: datum 11-02-2019
+*	BAG: datum 25-02-2019
+*	AHN: versie 3
 
 Onderstaand het download overzicht.
 
