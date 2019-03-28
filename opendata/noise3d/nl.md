@@ -9,8 +9,7 @@ is_dutch: true
 
 <div class="well"><b>Feedback Sessie op 11 April 2019</b><br/><br/>
 Op 11 April 2019 organiseren we een feedback sessie bij het Kadaster in Rotterdam. Tijdens deze sessie zullen we uitleg geven over onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
-U kunt zich hier aanmelden voor deze sessie: 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
+U kunt zich <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">hier</a> aanmelden voor deze sessie.
 </div>
 
 
