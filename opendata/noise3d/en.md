@@ -21,7 +21,7 @@ You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcy
 - - -
 ## Introduction
 
-In a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft, we are investigating how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
+The past 2 years, we have investigated to automatically reconstruct 3D noise data in a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft. In this collaboration, we have investigated how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
 
 This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
 
@@ -29,7 +29,10 @@ On this site we publish an example dataset that is generated using the current 0
 
 ## Method and example data
 
-Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. With version 0.2 we deliver 3 input layers for 3D noise studies, namely
+Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. 
+
+### Version 02
+With version 0.2 we deliver 3 input layers for 3D noise studies, namely
 
 1. building models (gebouwen),
 2. ground types with noise reflection/absorption factors (bodemvlakken), and
@@ -37,12 +40,24 @@ Our method aims to achieve high detail and accuracy, while keeping the resulting
 
 These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.2 example dataset.
 
-The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below.
+The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below. We provide this test data in order to collect feedback that we will use for future developmenst where we plan to upscale the results to the whole of the Netherlands.
+For version 0.2 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedack we can adjust these parameters in a next release.
+
+The input data can direclty be used as input in software that implements the "Standaard Rekenmethode II van het RMG2012 (SRM2)" (i.e. the Dutch prescribed calculation method), like  GeoMilieu and WinHavik.
 
 ![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
+### Dataformat
+The test data is available as ESRI shape and GML.
+
+### Source data
+•	BGT (Basisregistratie Grootschalige Topografie) , versie @@@
+•	BAG (Basisregistratie Adressen en Gebouwen), versie @@@
+•	AHN (Actueel Hoogtebestand Nederland), versie @@@
 
 ### Building models
+For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software 3dfier. This software converts 2D footprints into 3D blockmodels.
+The heights of buildings are calculated as the 95-percentile of all AHN-points that fall wihtin one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As addtional information, we also provide the 75-percentile.
 
 In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
