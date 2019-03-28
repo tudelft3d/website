@@ -302,7 +302,7 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
 
 Voor vragen en feedback vragen we u dit [feedback formulier](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform) in te vullen.
 
-# Disclaimer
+## Disclaimer
 Het bestand 3D geluid NL versie 0.2 wordt uitsluitend ter beschikking gesteld voor testdoeleinden. Er kunnen geen rechten aan worden ontleend.
 
 Geen van de partijen die betrokken zijn bij de totstandkoming kan aansprakelijk worden gesteld voor eventuele schade die voortvloeit uit het gebruik van de data. 
