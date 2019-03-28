@@ -54,6 +54,8 @@ The test data is available as ESRI shape and GML.
 •	BAG (Basisregistratie Adressen en Gebouwen), versie @@@
 •	AHN (Actueel Hoogtebestand Nederland), versie @@@
 
+## Description of our methods to generate the data
+
 ### Building models
 For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software 3dfier. This software converts 2D footprints into 3D blockmodels.
 The heights of buildings are calculated as the 95-percentile of all AHN-points that fall wihtin one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As addtional information, we also provide the 75-percentile.
@@ -80,7 +82,7 @@ For the representation of the height, we use the BGT and AHN as basis. The resul
 ### Groundtypes with noise characteristcs
 Also for modelling noise-reflection and -absortpion values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
 
-### Downloads
+## Downloads
 
 For the sample area we prepared the following data sets:
 
@@ -232,7 +234,7 @@ In case of questions or comments about the data please fill out our [feedback fo
 # Disclaimer
 The 3D noise data version 0.2 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
 
-
+----
 # Project partners
 
 {% include noise3d/partners.html %}
