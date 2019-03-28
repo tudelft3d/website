@@ -31,7 +31,7 @@ On this site we publish an example dataset that is generated using the current 0
 
 Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. 
 
-With version 0.2 we deliver 3 input layers for 3D noise studies, namely
+With version 0.2 we deliver three input layers for 3D noise studies, namely
 
 1. building models (gebouwen),
 2. ground types with noise reflection/absorption factors (bodemvlakken), and
@@ -44,10 +44,10 @@ For version 0.2 we have made initial choices regarding the simplification of the
 
 ![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
-The input data can directly be used as input in software that implements the "Standaard Rekenmethode II van het RMG2012 (SRM2)" (i.e. the Dutch prescribed calculation method), like  GeoMilieu and WinHavik.
+The input data can directly be used as input in software that implements the *Standaard Rekenmethode II van het RMG2012 (SRM2)* (i.e. the Dutch legally prescribed calculation method), like  GeoMilieu and WinHavik.
 
 ### Building models
-For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software 3dfier. This software converts 2D footprints into 3D block models.
+For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software [3dfier]{https://github.com/tudelft3d/3dfier}. This software converts 2D footprints into 3D block models.
 The heights of buildings are calculated as the 95-percentile of all AHN-points that fall within one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As additonal information, we also provide the 75-percentile.
 
 In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
