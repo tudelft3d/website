@@ -27,11 +27,10 @@ This is an ongoing project that was started in 2017. A more detailed project des
 
 On this site we publish an example dataset that is generated using the current 0.2 version of our method. With this sample dataset interested parties have the possibility to review our results and send us feedback.
 
-## Method and example data
+## Example data Version 0.2
 
 Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. 
 
-### Version 02
 With version 0.2 we deliver 3 input layers for 3D noise studies, namely
 
 1. building models (gebouwen),
