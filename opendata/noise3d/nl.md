@@ -1,6 +1,6 @@
 ---
 layout: page_noise3d
-title: 3D Basisbestand Geluid versie 0.2. Beschikbaar voor testdoeleinden
+title: 3D input data voor geluidssimulaties versie 0.2 (experimenteel)
 permalink: /opendata/noise3d/nl
 is_dutch: true
 ---
@@ -28,7 +28,7 @@ Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3
 Op deze webpage stellen we voorbeeld data beschikbaar welke is gegenereerd met versie 0.2 van onze methode. Op deze versie ontvangen we graag feedback voor onze verdere ontwikkeling. 
 
 
-## Beschrijving versie 0.2
+## Beschrijving test data versie 0.2
 Onze methode heeft als doel om zo veel mogelijk detail en nauwkeurigheid te behouden, en tegelijkertijd de data klein te houden en deze te laten aansluiten om de huidige beschikbare geluidsimulatie software systemen. 
 
 Met versie 0.2 bieden we 3 input lagen aan voor geluid studies. Namelijk:
@@ -86,7 +86,7 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-fymr">BGT klasse en fysiekVoorkomen </th>
+    <th class="tg-fymr">BGT klasse en <code>fysiekVoorkomen</code> attribuutwaarde</th>
     <th class="tg-fymr">Akoestische classificatie</th>
   </tr> 
   <tr>
@@ -149,12 +149,14 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
 
 ## Downloads
 
-Dit testbestand wordt opgeleverd in verschillende dataformaten, te weten *ESRI shape* en GML.
+Dit testbestand is beschikbaar in *ESRI shape*.
 
 De gebruikte bronbestanden zijn:
 * BGT (Basisregistratie Grootschalige Topografie), datum 11-02-2019
 *	BAG (Basisregistratie Adressen en Gebouwen), datum 25-02-2019
 *	AHN (Actueel Hoogtebestand Nederland), versie 3
+
+Onderstaand het download overzicht.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -307,9 +309,7 @@ Het bestand 3D geluid NL versie 0.2 wordt uitsluitend ter beschikking gesteld vo
 
 Geen van de partijen die betrokken zijn bij de totstandkoming kan aansprakelijk worden gesteld voor eventuele schade die voortvloeit uit het gebruik van de data. 
 
-
-- - -
-
+----
 # Project partners
 
 {% include noise3d/partners.html %}

@@ -1,6 +1,6 @@
 ---
 layout: page_noise3d
-title: 3D input data for noise studies
+title: 3D input data for noise studies (experimental)
 permalink: /opendata/noise3d/en
 is_dutch: false
 ---
@@ -19,15 +19,15 @@ You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcy
 {:toc}
 
 - - -
-## Introduction
+## What is 3D noise in the Netherlands? An introduction
 
 The past 2 years, we have investigated to automatically reconstruct 3D noise data in a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft. In this collaboration, we have investigated how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
 
-This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }})
+This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }}).
 
 On this site we publish an example dataset that is generated using the current 0.2 version of our method. With this sample dataset interested parties have the possibility to review our results and send us feedback.
 
-## Example data Version 0.2
+## Description test data version 0.2
 
 Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. 
 
@@ -45,16 +45,6 @@ For version 0.2 we have made initial choices regarding the simplification of the
 The input data can direclty be used as input in software that implements the "Standaard Rekenmethode II van het RMG2012 (SRM2)" (i.e. the Dutch prescribed calculation method), like  GeoMilieu and WinHavik.
 
 ![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
-
-### Dataformat
-The test data is available as ESRI shape and GML.
-
-### Source data
-•	BGT (Basisregistratie Grootschalige Topografie) , versie @@@
-•	BAG (Basisregistratie Adressen en Gebouwen), versie @@@
-•	AHN (Actueel Hoogtebestand Nederland), versie @@@
-
-## Description of our methods to generate the data
 
 ### Building models
 For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software 3dfier. This software converts 2D footprints into 3D blockmodels.
@@ -82,9 +72,87 @@ For the representation of the height, we use the BGT and AHN as basis. The resul
 ### Groundtypes with noise characteristcs
 Also for modelling noise-reflection and -absortpion values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+.tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-pcvp{border-color:inherit;text-align:left;vertical-align:top;background-color: #ecf0f1;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-fymr">BGT class en <code>fysiekVoorkomen</code> attribute</th>
+    <th class="tg-fymr">Akoestische classificatie</th>
+  </tr> 
+  <tr>
+    <td class="tg-pcvp">OndersteunendWaterdeel (alles)</td>
+    <td class="tg-pcvp">Zacht</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">OnbegroeidTerreindeel (erf, gesloten verharding, open verharding, half verhard</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">OnbegroeidTerreindeel (onverhard, zand)</td>
+    <td class="tg-pcvp">Zacht</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BegroeidTerreindeel</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">Pand (alles)</td>
+    <td class="tg-pcvp">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Scheiding (alles)</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">Kunstwerkdeel (alles)</td>
+    <td class="tg-pcvp">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">OverigBouwwerk (alles)</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">Overbruggingsdeel (alles)</td>
+    <td class="tg-pcvp">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Wegdeel (anders dan ruiterpad en onverhard)</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">Wegdeel (ruiterpad, onverhard)</td>
+    <td class="tg-pcvp">Zacht</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">OndersteunendWegdeel (verkeerseiland, gesloten verharding, open verharding, half verhard)</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+  <tr>
+    <td class="tg-pcvp">OndersteunendWegdeel (berm, onverhard, groenvoorziening)</td>
+    <td class="tg-pcvp">Zacht</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Waterdeel (alles)</td>
+    <td class="tg-0pky">Hard</td>
+  </tr>
+</table>
+
 ## Downloads
 
-For the sample area we prepared the following data sets:
+The test data is available as *ESRI shape*.
+
+The following source data was used:
+* BGT (Basisregistratie Grootschalige Topografie) , date 11-02-2019
+* BAG (Basisregistratie Adressen en Gebouwen), date 25-02-2019
+* AHN (Actueel Hoogtebestand Nederland), version 3
+
+For the sample area we prepared the following data sets.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -229,8 +297,6 @@ The table below describes the attributes of the *buildings* and *ground types* d
 ## Feedback Form
 In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
 
-
-- - -
 # Disclaimer
 The 3D noise data version 0.2 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
 
