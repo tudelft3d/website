@@ -74,6 +74,12 @@ More details about our LoD1.3 reconstruction method can be found in the followin
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+### Heights of the terrain
+For the representation of the height, we use the BGT and AHN as basis. The resulting 3D lines that do not signifcantly contribute to the terrain have been removed. We also added height lines in case a height-difference was detected in AHN but not respresented by the BGT information.
+
+### Groundtypes with noise characteristcs
+Also for modelling noise-reflection and -absortpion values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
+
 ### Downloads
 
 For the sample area we prepared the following data sets:
@@ -223,6 +229,9 @@ In case of questions or comments about the data please fill out our [feedback fo
 
 
 - - -
+# Disclaimer
+The 3D noise data version 0.2 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
+
 
 # Project partners
 
