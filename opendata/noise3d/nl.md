@@ -211,7 +211,7 @@ Footprints van gebouwen met een enkele hoogte per deel <em>building-part</em>. F
 Ook voor gebouwen met schuine daken (<code>dak_type</code> is <code>2</code>), is een LoD1.3 representatie gemodelleerd.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod13_&lt;percentile&gt;_experimenteel</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod13_experimenteel.zip" | prepend: "/download/noise3d/v02" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13_experimenteel.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
