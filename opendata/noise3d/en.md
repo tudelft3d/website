@@ -82,64 +82,64 @@ Also for modelling noise-reflection and -absorption values, we use the BGT as ba
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-fymr">BGT class and <code>fysiekVoorkomen</code> attribute</th>
-    <th class="tg-fymr">Acoustic classification</th>
+    <th class="tg-fymr">BGT klasse en <code>fysiekVoorkomen</code> attribuutwaarde</th>
+    <th class="tg-fymr">Akoestische classificatie</th>
   </tr> 
   <tr>
     <td class="tg-pcvp">OndersteunendWaterdeel (alles)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">OnbegroeidTerreindeel (erf, gesloten verharding, open verharding, half verhard</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">OnbegroeidTerreindeel (onverhard, zand)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">BegroeidTerreindeel</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Pand (alles)</td>
-    <td class="tg-pcvp">Hard</td>
+    <td class="tg-pcvp">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-0pky">Scheiding (alles)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Kunstwerkdeel (alles)</td>
-    <td class="tg-pcvp">Hard</td>
+    <td class="tg-pcvp">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-0pky">OverigBouwwerk (alles)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Overbruggingsdeel (alles)</td>
-    <td class="tg-pcvp">Hard</td>
+    <td class="tg-pcvp">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-0pky">Wegdeel (anders dan ruiterpad en onverhard)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Wegdeel (ruiterpad, onverhard)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">OndersteunendWegdeel (verkeerseiland, gesloten verharding, open verharding, half verhard)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">OndersteunendWegdeel (berm, onverhard, groenvoorziening)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">Waterdeel (alles)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
 </table>
 
@@ -281,10 +281,10 @@ The table below describes the attributes of the *buildings* and *ground types* d
   </tr>
   <tr>
     <td class="tg-0pky" style="border-bottom-width:0.5px"></td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">demping</td>
+    <td class="tg-pcvp" style="border-bottom-width:0.5px">bodemfactor</td>
     <td class="tg-pcvp" style="border-bottom-width:0.5px">sound reflectance property of the ground<br>
-      <code>hard</code> – reflecting<br>
-      <code>zacht</code> – non-reflecting
+      <code>0</code> – reflecting<br>
+      <code>1</code> – non-reflecting
     </td>
   </tr>
   <tr>

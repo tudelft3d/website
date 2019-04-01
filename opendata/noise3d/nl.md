@@ -90,59 +90,59 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
   </tr> 
   <tr>
     <td class="tg-pcvp">OndersteunendWaterdeel (alles)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">OnbegroeidTerreindeel (erf, gesloten verharding, open verharding, half verhard</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">OnbegroeidTerreindeel (onverhard, zand)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">BegroeidTerreindeel</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Pand (alles)</td>
-    <td class="tg-pcvp">Hard</td>
+    <td class="tg-pcvp">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-0pky">Scheiding (alles)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Kunstwerkdeel (alles)</td>
-    <td class="tg-pcvp">Hard</td>
+    <td class="tg-pcvp">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-0pky">OverigBouwwerk (alles)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Overbruggingsdeel (alles)</td>
-    <td class="tg-pcvp">Hard</td>
+    <td class="tg-pcvp">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-0pky">Wegdeel (anders dan ruiterpad en onverhard)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Wegdeel (ruiterpad, onverhard)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">OndersteunendWegdeel (verkeerseiland, gesloten verharding, open verharding, half verhard)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">OndersteunendWegdeel (berm, onverhard, groenvoorziening)</td>
-    <td class="tg-pcvp">Zacht</td>
+    <td class="tg-pcvp">absorberend</td>
   </tr>
   <tr>
     <td class="tg-0pky">Waterdeel (alles)</td>
-    <td class="tg-0pky">Hard</td>
+    <td class="tg-0pky">reflecterend</td>
   </tr>
 </table>
 
@@ -285,10 +285,10 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
   </tr>
   <tr>
     <td class="tg-0pky" style="border-bottom-width:0.5px"></td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">demping</td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">omschrijving van de bodemeigenschappen ("Hard" of "Zacht"), op basis van de BGT-classificatie, zoals aangegeven in bovenstaande tabel.<br>
-      <code>hard</code> – reflecterende bodem <br>
-      <code>zacht</code> – absorberende bodem
+    <td class="tg-pcvp" style="border-bottom-width:0.5px">bodemfactor</td>
+    <td class="tg-pcvp" style="border-bottom-width:0.5px">omschrijving van de bodemeigenschappen ("reflecterend" of "absorberend"), op basis van de BGT-classificatie, zoals aangegeven in bovenstaande tabel.<br>
+      <code>0</code> – reflecterende bodem <br>
+      <code>1</code> – absorberende bodem
     </td>
   </tr>
   <tr>
