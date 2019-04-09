@@ -45,16 +45,25 @@ However, to get access to some of them (*Myran*, *Up:Town* and *Savigliano* IFC 
   </div>
  
   
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcgeometries.html" title="Analytical.ifc"><img src=" /projects/geobim-benchmark/img/Analytical-Index.gif" alt="Specific IFC geometries" style="max-height: 200px;"></a>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcgeometries.html" title="IFCgeometries.ifc"><img src=" /projects/geobim-benchmark/img/Analytical-Index.gif" alt="Specific IFC geometries" style="max-height: 200px;"></a>
 	<div class="caption">
-		<h3><a href="/projects/geobim-benchmark/ifcgeometries.html">Specific IFC geometries</a>
+		<h3><a href="/projects/geobim-benchmark/ifcgeometries.html">Specific IFC (2x3) geometries</a>
 		<br />
 			<small>IFC model</small><br />
         </h3>
-		<p>Useful to test the functionalities of software related to specific geometries, with IFC models, in Tasks 1 and 4</p>
+		<p>Useful to test the functionalities of software related to specific geometries, with IFC (2x3) models, in Tasks 1 and 4</p>
 	</div>
   </div>
   
+   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifc4geometries.html" title="IFC4geometries.ifc"><img src=" /projects/geobim-benchmark/img/IFC4geometries-Index.gif" alt="Specific IFC 4 geometries" style="max-height: 200px;"></a>
+	<div class="caption">
+		<h3><a href="/projects/geobim-benchmark/ifc4geometries.html">Specific IFC 4 geometries</a>
+		<br />
+			<small>IFC model</small><br />
+        </h3>
+		<p>Useful to test the functionalities of software related to specific geometries, with IFC 4 models, in Tasks 1 and 4</p>
+	</div>
+  </div>
   </div>
   
   

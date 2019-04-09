@@ -25,8 +25,6 @@ It was modelled specifically for this study by T. Krijnen.
 
 It was exported on 23/02/2019 using IfcOpenShell 0.6
 
-These data are provided in two versions: IFC 2x3 and IFC 4, so they are actually two data and both have to be tested, if the software allows it.
-
 In Figure 1 the schema of the geometries is drawn as reference
 
 <div class="row">
@@ -37,9 +35,7 @@ In Figure 1 the schema of the geometries is drawn as reference
 
 Name of the file: <strong>IFCgeometries.ifc</strong>
 
-Used IFC version: **2x3** for *IFCgeometries.ifc*
-
-and IFC **4** for the file *IFCgeometries_IFC4.ifc*
+Used IFC version: **2x3**
 
 ------------------
 
@@ -61,6 +57,4 @@ In the final part of the video, the red and green surfaces are mapping the norma
 --------------------------
 ## Download
 
-You can download the IFCgeometries.ifc data in IFC 2x3 from this [**link**](https://www.dropbox.com/s/6lh9q8mzxwlzdi4/IFCgeometries.ifc?dl=0)
-
-You can download the IFCgeometries.ifc data in IFC 4 from this [**link**](https://www.dropbox.com/s/9adwrn1ubwwnr4p/IFCgeometries_IFC4.ifc?dl=0)
+You can download the IFCgeometries.ifc data (IFC 2x3) from this [**link**](https://www.dropbox.com/s/6lh9q8mzxwlzdi4/IFCgeometries.ifc?dl=0)
