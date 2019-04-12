@@ -46,7 +46,7 @@ Used IFC version: 2x3 (MVD: CoordinationView v.2.0)
 
 <strong>H:</strong> 148.2 m
 
-<strong>Rotation to the true North</strong> of the reference direction (blue in Figure 1): 32°.
+<strong>Rotation to the true North</strong> of the reference direction (blue in Figure 1): 32.3°.
 
 <div class="row">
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Myran-Fig1.gif" }}" title="Figure 1 - 2D view of a floor of the Myran building and its site in the IFC model, as visualised in Autodesk Revit. The blue point represents the Project point and the Origin point (overlapping), to be considered as reference point. Here we can already visualise the model as correctly oriented towards the true North." style="max-height: 300px">
