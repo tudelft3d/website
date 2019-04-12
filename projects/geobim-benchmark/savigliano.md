@@ -19,7 +19,7 @@ permalink: /projects/geobim-benchmark/savigliano.html
 
 ## Short description
 
-It is the IFC model of a residential building under construction in Rotterdam, the Netherlands.
+It is the IFC model of a residential building in Savigliano, Italy.
 
 It was modelled by Lorenzo Polia during a research in Politecnico di Torino, Department of Architecture and Design.
 
@@ -40,13 +40,13 @@ Used IFC version: 4 (MVD: DesignTransferView v.1.0)
 
 <strong>Coordinates of the reference point (blue in Figure 1):</strong>
 
-<strong>E:</strong> 0 m
+<strong>E:</strong> 385555.55 m
 
-<strong>N:</strong> 0 m
+<strong>N:</strong> 4955555.55 m
 
-<strong>H:</strong> 0 m
+<strong>H:</strong> 100 m
 
-<strong>Rotation to the true North</strong> of the reference direction (red in Figure 1): 0°.
+<strong>Rotation to the true North</strong> of the reference direction (red in Figure 1): 125.5°.
 
 <div class="row">
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Savigliano-Fig1.gif" }}" title="Figure 1 - 2D view of the Savigliano IFC model, as visualised in Revit. The blue point represents the reference point of the model; the red line is the direction taken as reference for rotating the model towards the true north (using the reference point as centre of the rotation)."  style="max-height: 300px">
