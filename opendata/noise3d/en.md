@@ -7,7 +7,7 @@ is_dutch: false
 
 ![](/img/projects/noise3d_banner.jpg)
 
-<div class="well"><b>Feedback Session on 11 April 2019</b><br/><br/>
+<div class="well"><b>Feedback Session on 28 May 2019</b><br/><br/>
 	On the 28th of May 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (9:30-11:30). During this session we will present our approach and we will recieve your feedback for further development.
 	
 	You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
