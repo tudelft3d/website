@@ -132,6 +132,8 @@ Participants can have the overall in-sight into the task through the [word-forma
 
 It is **really recommended to have a look at the whole task before starting.**
 
+**Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.** 
+
 ### Structure of the online results template
 
 To allow the participants to fill the results template in different times without losing the previous work, the results template for this task is splitted in 7 parts.

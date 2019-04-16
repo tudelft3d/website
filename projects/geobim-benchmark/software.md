@@ -31,9 +31,17 @@ Notice that, even if the aim is to test the highest possible number of software/
 		<tbody>
 			<tr>
 				<td>Autodesk Revit</td>
+				<td>Windows 10/Home</td>
+				<td>2018</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
-				<td>ArchiCAD</td>
+				<td>Graphisoft ArchiCAD</td>
+				<td>Windows 10/Home</td>
+				<td>22.0.0</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
@@ -60,7 +68,11 @@ Notice that, even if the aim is to test the highest possible number of software/
 				<td>Construsoft Vico Office Suite</td>
 			</tr>
 			<tr>
-				<td>Vectorworks</td>
+				<td>Vectorworks Designer</td>
+				<td>Windows 10/Home</td>
+				<td>2019</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -268,9 +280,17 @@ Notice that, even if the aim is to test the highest possible number of software/
 		<tbody>
 			<tr>
 				<td>ESRI ArcGIS</td>
+				<td>Windows 10/Home</td>
+				<td>10.2</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
 				<td>QGIS</td>
+				<td>Windows 10/Home 64-bits</td>
+				<td>3.6</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
 				<td>Bentley Map</td>
@@ -352,6 +372,13 @@ Notice that, even if the aim is to test the highest possible number of software/
 			</tr>
 			<tr>
 				<td>eveBIM</td>
+			</tr>
+			<tr>
+				<td>Safe Software FME Data Inspector</td>
+				<td>macOS 10.14.3</td>
+				<td>2018.1</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
 				<td>...</td>

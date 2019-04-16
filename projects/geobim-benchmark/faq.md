@@ -119,6 +119,14 @@ It is not compulsory to add it, just do it if you have any doubt about the given
 
 Yes, it is possible. Those should be eventually integrated with any further needed detail.
 
+## Once the results in the online forms are submitted, is it possible to modify the answers?
+
+Unfortunately not. In the case this is necessary, you can e-mail the organisers to report the needed changes.
+
+## Once the results in the online forms are submitted, is it possible to see them again?
+
+Yes, once you submit the form, you will receive an e-mail with the link to the following form and the answers you have submitted.
+
 -----------------------------
 
 ### <strong> Glossary and other definitions </strong>

@@ -131,6 +131,8 @@ Participants can have the overall in-sight into the task through the [word-forma
 
 It is **really recommended to have a look at the whole task before starting.**
 
+**Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.** 
+
 ### Structure of the online results template
 
 To allow the participants to fill the results template in different times without loosing the previous work, the results template for this task is splitted in 12 parts.
@@ -141,18 +143,24 @@ At the end of each part, the link towards the following one will be provided, bo
 
 In particular, the 12 parts include:
 
-* 1/12) 'Section 1 - Participants information' to 'Section 3 - Computer hardware used'
-* 2/12) 'Section 4 - the Task': test with *Myran.ifc* - 'Import functionality'
-* 3/12) 'Section 4 - the Task': test with *Myran.ifc* - 'Georeferencing information'
-* 4/12) 'Section 4 - the Task': test with *Myran.ifc* - 'Semantics'
-* 5/12) 'Section 4 - the Task': test with *Myran.ifc* - 'Geometry' to 'Model management'
-* 6/12) 'Section 4 - the Task': test with *Myran.ifc* - 'Export functionality'
-* 7/12) 'Section 4 - the Task': test with *UpTown.ifc* - 'Import functionality'
-* 8/12) 'Section 4 - the Task': test with *UpTown.ifc* - 'Georeferencing information'
-* 9/12) 'Section 4 - the Task': test with *UpTown.ifc* - 'Semantics'
-* 10/12) 'Section 4 - the Task': test with *UpTown.ifc* - 'Geometry' to 'Model management'
-* 11/12) 'Section 4 - the Task': test with *UpTown.ifc* - 'Export functionality'
-* 12/12) 'Section 4 - the Task': test with *IFCgeometries.ifc* - 'Import functionality' to 'Section 5 - Finalisation'
+* 1/18) 'Section 1 - Participants information' to 'Section 3 - Computer hardware used'
+* 2/18) 'Section 4 - the Task': test with *Myran.ifc* - 'Import functionality'
+* 3/18) 'Section 4 - the Task': test with *Myran.ifc* - 'Georeferencing information'
+* 4/18) 'Section 4 - the Task': test with *Myran.ifc* - 'Semantics'
+* 5/18) 'Section 4 - the Task': test with *Myran.ifc* - 'Geometry' to 'Model management'
+* 6/18) 'Section 4 - the Task': test with *Myran.ifc* - 'Export functionality'
+* 7/18) 'Section 4 - the Task': test with *UpTown.ifc* - 'Import functionality'
+* 8/18) 'Section 4 - the Task': test with *UpTown.ifc* - 'Georeferencing information'
+* 9/18) 'Section 4 - the Task': test with *UpTown.ifc* - 'Semantics'
+* 10/18) 'Section 4 - the Task': test with *UpTown.ifc* - 'Geometry' to 'Model management'
+* 11/18) 'Section 4 - the Task': test with *UpTown.ifc* - 'Export functionality'
+* 12/18) 'Section 4 - the Task': test with *Savigliano.ifc* - 'Import functionality'
+* 13/18) 'Section 4 - the Task': test with *Savigliano.ifc* - 'Georeferencing information'
+* 14/18) 'Section 4 - the Task': test with *Savigliano.ifc* - 'Semantics'
+* 15/18) 'Section 4 - the Task': test with *Savigliano.ifc* - 'Geometry' to 'Model management'
+* 16/18) 'Section 4 - the Task': test with *Savigliano.ifc* - 'Export functionality'
+* 17/18) 'Section 4 - the Task': test with *IFCgeometries.ifc* - 'Import functionality' to 'Export functionality'
+* 18/18) 'Section 4 - the Task': test with *IFC4geometries.ifc* - 'Import functionality' to 'Section 5 - Finalisation'
 
 
 ## The materials participants need
@@ -174,7 +182,7 @@ Begin to perform the Task and deliver results through the online [Results templa
 <div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/c35MpI" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=c35MpI&utm_source=typeform.com-13384974-Pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
  
- [word-format results template](https://www.dropbox.com/s/fwew88hwu0bihdj/Task%201%20%E2%80%93%20Support%20for%20IFC.docx?dl=0)
+ [word-format results template](https://www.dropbox.com/s/78c21sjz02k8828/Task%201%20%E2%80%93%20Support%20for%20IFC.docx?dl=0)
 ## Deliverables for Task 1
 
 **REMEMBER TO DELIVER**, through the last online form:

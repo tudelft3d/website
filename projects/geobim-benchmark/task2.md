@@ -54,6 +54,7 @@ For performing this task, the following data will be used, in this order:
 
 * [Myran IFC model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcmyran.html)
 * [Up:Town IFC model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/uptown.html)
+* [Savigliano IFC model](https://3d.bk.tudelft.nl/projects/geobim-benchmark/savigliano.html)
 
 In the case the tested software is not able to manage some of the data, participants can anyway deliver the results concerning the other one.
 
@@ -98,12 +99,23 @@ The results template is organised in 5 sections:
 	* Georeferencing procedure (it is part of the task, but the related questions are no more reported in the *results template*, since it is assumed thay they are the same as described for the test with the *Myran.ifc* data. In the case different steps or configuration, settings, tools, any details are used, these can be reported in the final *'other comment'* and *'attach other files'* sections. 
 	* Same time performances evaluation with georeferenced data
 	* export functionality
+	
+	.
+  * Test with ***Savigliano.ifc*** data (this will allow the main test of the georeferencing procedure with IFC4 data):
+
+    * Time performances evaluation with not-georeferenced data, once imported in the software
+	* Georeferencing procedure
+	* Same time performances evaluation with georeferenced data
+	* export functionality
+	
 	.	
 * **Section 5** - *Finalisation* (participants can deliver eventual further information or comments, agree with the use of data and deliver the processed models, both in native formats and IFC, before submitting their results).
 
 Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/6smxwmrbxwu465o/Task%202%20%E2%80%93%20georeferencing%20IFC.docx?dl=0).
 
 It is **really recommended to have a look at the whole task before starting.**
+
+**Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.** 
 
 ### Structure of the online results template
 
@@ -115,8 +127,9 @@ At the end of first part, the link towards the following one will be provided, b
 
 In particular, the 2 parts include:
 
-* 1/2) 'Section 1 - Participants information' to 'Section 4 - the Task': test with *Myran.ifc*'
-* 2/2) 'Section 4 - the Task': test with *UpTown.ifc* to 'Section 5 - Finalisation'
+* 1/3) 'Section 1 - Participants information' to 'Section 4 - the Task': test with *Myran.ifc*'
+* 2/3) 'Section 4 - the Task': test with *UpTown.ifc*
+* 3/3) 'Section 4 - the Task': test with *Savigliano.ifc* to 'Section 5 - Finalisation'
 
 
 ## The materials participants need
@@ -128,7 +141,7 @@ Contact us and register your participation to the benchmark, giving **your perso
 ### Data
 You are able to download the IFC data after you fill the [registration form](https://francescanoardo.typeform.com/to/IbdpZD).
 
-The ***Myran*** and ***Up:Town*** IFC models are *not open data*. Therefore, we ask participants not to use them without permissions outside the project, please.
+The ***Myran***, ***Up:Town*** and ***Savigliano.ifc*** IFC models are *not open data*. Therefore, we ask participants not to use them without permissions outside the project, please.
 
 ### Results template
 Begin to perform the Task and deliver results through the online [Results template for Task 2](https://francescanoardo.typeform.com/to/UhfL7P)
