@@ -45,6 +45,9 @@ In the case they need to change computer for different parts of the Task, they a
 
 
 ## Summary of the Task
+
+**For all the tests you should refer to the information provided in the data description section for each part of the test (e.g. testing dimensions with the given measurements, semantics with the described elements, and so on)**
+
 1. The participants should <strong>import the IFC model</strong> in their software and fill the results template about:
 
   * How is the <strong>georeferencing</strong> managed? Is it fully kept (unit of measure, scale, coordinate reference system, orientation)? How does it change (where is the origin of the new system, how is it oriented, what is the coordinate reference system and projection and what the unit of measure for the representation? Does the model maintain its correct dimensions and proportions and it is not distorted or scaled?).
@@ -118,20 +121,39 @@ The results template is organised in 5 sections:
 	* export functionality
 	
 	.	
+  * Test with ***Savigliano.ifc*** data (this will test the software also with IFC 4 files):
+    
+    * Import functionality
+	* Georeferencing information
+	* Semantics
+	* Geometry
+	* Model management (visualisation, editing, analysis, query)
+	* export functionality
+	
+	.
+	
   * Test with ***IFCgeometries.ifc*** data (this will allow an analytical test about the management of specific kinds of IFC geometries):
   
     * Import functionality
 	* Geometry
 	* export functionality
+
+	.
 	
+  * Test with ***IFC4geometries.ifc*** data (this will allow an analytical test about the management of specific kinds of IFC geometries also in IFC 4):
+  
+    * Import functionality
+	* Geometry
+	* export functionality
 	.	
+	
 * **Section 5** - *Finalisation* (participants can deliver eventual further information or comments, agree with the use of data and deliver the processed models, both in native formats and IFC, before submitting their results).
 
 Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/fwew88hwu0bihdj/Task%201%20%E2%80%93%20Support%20for%20IFC.docx?dl=0).
 
 It is **really recommended to have a look at the whole task before starting.**
 
-**Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.** 
+**!! Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.** 
 
 ### Structure of the online results template
 
@@ -187,9 +209,9 @@ Begin to perform the Task and deliver results through the online [Results templa
 
 **REMEMBER TO DELIVER**, through the last online form:
 
-1. All the files (3) in the project or **native format** employed by the tested software, as imported (if the software allows to save in its native format);
+1. All the files (5) in the project or **native format** employed by the tested software, as imported (if the software allows to save in its native format);
 
-2. All the exported **IFC models** (3) (if the software has export functionality);
+2. All the exported **IFC models** (5) (if the software has export functionality);
 
 3. The answered **results template for task 1** by submitting the filled online form (the word version of the template, completed with the open answers, descriptions and screenshots could also be attached, if necessary)
 

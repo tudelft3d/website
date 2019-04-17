@@ -44,6 +44,9 @@ In the case they need to change computer for different parts of the Task, they a
 
 
 ## Summary of the Task
+
+**For all the tests you should refer to the information provided in the data description section for each part of the test (e.g. testing dimensions with the given measurements, semantics with the described elements, and so on)**
+
 1. The participants should <strong>import the CityGML model</strong> in their software and fill the results template about:
 
   * Is the CityGML /GML format read and <strong>imported</strong> directly into the software? Or is some specific translation through specific tool/plugin necessary? Is the CityGML file read through one of its different implementation possibilities described by OGC (GML file, 3DcityDB...)?

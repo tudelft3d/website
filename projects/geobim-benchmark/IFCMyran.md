@@ -21,7 +21,7 @@ permalink: /projects/geobim-benchmark/ifcmyran.html
 
 It is the IFC model of a 2-floor office building in Falun, Sweden.
 
-It was provided for this study by .
+It was provided for this study by MONDO arkitekter, Falun, Sweden.
 
 The data represent the architectural model of the BIM.
 
@@ -231,7 +231,7 @@ Some examples, in the Myran.ifc model are:
 
 <strong>IfcRelFillsElement</strong>, between IfcOpeningElement to IfcDoor or IfcWindow.
 
-<strong>IfcRelContainedInSpatialStructure</strong>, between IfcBeam and IfcFlowSegment (and many more) to IfcBuildngStorey.
+<strong>IfcRelContainedInSpatialStructure</strong>, between IfcBeam and IfcFlowSegment (and many more) to IfcBuildingStorey.
 
 
  - - -

@@ -100,11 +100,13 @@ The scientific material regarding the used procedures/tools (papers, reports, we
 
 ## Benchmark Data
 
-Three datasets are provided for each of the two standards (IFC and CityGML).
+Five datasets are provided for IFC standards.
 
-The simpler ones will allow the test of **software functionality**. The more complex (larger) ones will also test the requirements in terms of **computer hardware** in order to support their management.
+Three datasets are provided for CityGML standards.
 
-Most of them are data **produced by practice** (Myran.ifc, UpTown.ifc, RotterdamLOD12.gml and amsterdam.gml), therefore, they, although they were chosen also for their good quality, they are not specifically generated for the use of open standards.
+The simpler ones will allow the test of **software functionality**. The more complex (larger) ones will also test the requirements in terms of **computer hardware** in order to support their management. Moreover, for IFC they are provided int he two version IFC 2x3 and 4
+
+Most of them are data **produced by practice** (Myran.ifc, UpTown.ifc, RotterdamLOD12.gml, Savigliano.ifc, RotterdamLOD12.gml and amsterdam.gml), therefore, although they were chosen also for their good quality and validated as far as possible, they are not specifically generated for the use of open standards.
 
 This represents a further challenge, because more problems can rise, as it happens in the real-world practice.
 
@@ -116,7 +118,7 @@ It is possible to see the full details of the use datasets in the [data descript
 
 The results of the tests delivered by the participants will be openly available (with the consent of participants), both during and after the end of the project, to download and use (for research, education, testing).
 
-The provided models and their description will also be freely available (with some more limitations for the Myran.ifc and UpTown.ifc models), permitting eventual future benchmark comparisons.
+The provided models and their description will also be freely available (with some more limitations for the Myran.ifc, UpTown.ifc and Savigliano.ifc models), permitting eventual future benchmark comparisons.
 
 A detailed report of the results and of their analysis will be written, published on the website and shared with the participants.
 
@@ -132,8 +134,8 @@ Finally, the final results will be published in an open-access journal paper and
 		<p> The report of the benchmark will <strong>help to bring the use of open standard spatial data further outside the academic world</strong>, enhancing the possibility to effectively and actually use complex three (and more)-dimensional data in real-world applications.</p>
 	</li>
 	<li>
-		<p>The <strong>outline of the present implementation state</strong> (how much has been done and how much is left) of spatial open standards and feedback about the open standard data models to the standardisation entities (OGC and BuildingSmart).</p>
-		<p>This will encourage software vendors to implement better support, so that they can be used more effectively in more applications and use cases. The necessary next steps (what is needed in order to implement further or improve the support of OS) will be also outlined.</p>
+		<p>The <strong>outline of the present implementation state</strong> (how much has been done and how much is left) of spatial open standards and feedback about the open standard data models to the standardisation entities (OGC and buildingSMART).</p>
+		<p>This will encourage software vendors to implement better support, so that they can be used more effectively in more applications and use cases. The necessary next steps (what is needed in order to implement further or improve the support of open standards) will be also outlined.</p>
 	</li>
 	<li>The developed <strong>material and test datasets, answers and results analyses</strong>, together with the report of the activity describing in detail the material, methods and results of the study, will be made available after the end of the initiative (as long as permitted), as reference or material for future improvements, new software tools, tests, continued benchmarking or other similar research.</li>
 </ol>

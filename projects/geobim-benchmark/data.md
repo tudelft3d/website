@@ -12,6 +12,16 @@ Most of the datasets are free to download.
 
 However, to get access to some of them (*Myran*, *Up:Town* and *Savigliano* IFC files), you have to participate in the test and sign a data agreement.
 
+
+- - -
+
+* Table of Content
+{:toc}
+
+- - -
+
+## IFC data
+
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="display:table-cell; padding: 20px;"><a href="/projects/geobim-benchmark/ifcmyran.html" title="Myran.ifc"><img src=" /projects/geobim-benchmark/img/Myran-Index.gif" alt="Myran IFC model" style="max-height: 200px;"></a>
 	<div class="caption">
@@ -66,6 +76,7 @@ However, to get access to some of them (*Myran*, *Up:Town* and *Savigliano* IFC 
   </div>
   </div>
   
+## CityGML data
   
   <div class="row">
   

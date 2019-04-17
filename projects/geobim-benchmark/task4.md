@@ -135,8 +135,8 @@ Begin to perform the Task and deliver results through the online [Results templa
 
 **REMEMBER TO DELIVER**, through the last online form:
 
-1. All the **IFC or CityGML files** (should be 3, one per delivered template) resulting from the performed **conversions**;
+1. All the **IFC or CityGML files** (should be 3 for  CityGML to IFC conversions, or 5 for IFC to CityGML conversions, one per delivered template) resulting from the performed **conversions**;
 
-2. All the answered **results templates for task 4** (should be 3, one per converted file) by submitting the filled online forms (the word version of the template, completed with the open answers, descriptions and screenshots could also be attached, if necessary)
+2. All the answered **results templates for task 4** (should be 3 for  CityGML to IFC conversions, or 5 for IFC to CityGML conversions, one per converted file) by submitting the filled online forms (the word version of the template, completed with the open answers, descriptions and screenshots could also be attached, if necessary)
 
 In the case that some materials were not correctly delivered or some of your answers are not clear, you could be contacted by organisers for integrating your results or giving more explanations.

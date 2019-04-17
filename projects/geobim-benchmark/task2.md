@@ -154,9 +154,9 @@ Begin to perform the Task and deliver results through the online [Results templa
 
 **REMEMBER TO DELIVER**, through the last online form:
 
-1. All the georeferenced files (2) in the project or **native format** employed by the tested software (if the software allows to save in its native format);
+1. All the georeferenced files (3) in the project or **native format** employed by the tested software (if the software allows to save in its native format);
 
-2. All the exported **georeferenced IFC models** (2) (if the software has export functionality);
+2. All the exported **georeferenced IFC models** (3) (if the software has export functionality);
 
 3. The answered **results template for task 2** by submitting the filled online form (the word version of the template, completed with the open answers, descriptions and screenshots could also be attached, if necessary)
 

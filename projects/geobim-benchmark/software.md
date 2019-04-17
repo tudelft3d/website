@@ -10,9 +10,9 @@ In this page you can find a list of software to be tested / being tested / teste
 
 This would inform about the progress of the benchmark, and would also guide participants in the choice of the tools to be tested.
 
-Notice that, even if the aim is to test the highest possible number of software/tools/procedures, the same software/tool/procedure can be tested more than ones; this will allow testing replicability (see the [FAQ section](https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html)).
+Notice that, even if the aim is to test the highest possible number of software/tools/procedures, the same software/tool/procedure can be tested more than ones, especially for highly customisable tools (like Safe Software FME); this will allow testing replicability (see the [FAQ section](https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html)).
 
-!!This page is **under construction**, moreover, **you are free to test other tools, not in this list yet**. We will add them as soon as you will register your participation.!!
+In addition, **you are free to test other tools, not in this list yet**. We will add them as soon as you will register your participation.
 
 ## Tools for Task 1
 
@@ -457,7 +457,11 @@ Notice that, even if the aim is to test the highest possible number of software/
 		</thead>
 		<tbody>
 			<tr>
-				<td>FME</td>
+				<td>Safe Software FME</td>
+				<td>Windows Pro 10</td>
+				<td>2018.1</td>
+				<td> </td>
+				<td>X</td>
 			</tr>
 			<tr>
 				<td>...</td>

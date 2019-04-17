@@ -43,7 +43,7 @@ You can check their characteristics in the following images and video. They deri
 
 Therefore, while making task 1, describe them as they appear in the tested software, and don't be influenced by the images and video that you see here.
 
-In the final part of the video, the red and green surfaces are mapping the normals directions of te surfaces, indicatively.
+In the final part of the video, the red and green surfaces are mapping the normals directions of the surfaces, indicatively.
 
 <div class="row">
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Analytical-Fig2.jpg" }}" >

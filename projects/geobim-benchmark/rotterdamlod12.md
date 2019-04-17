@@ -19,7 +19,7 @@ permalink: /projects/geobim-benchmark/rotterdamlod12.html
 
 ## Short description
 
-Surrounding area of the Up:Town building (one of the provided IFC model for this benchmark); it represents the Maritiem district in Rotterdam (Figure 24).
+Surrounding area of the Up:Town building (one of the provided IFC model for this benchmark); it represents the Maritiem district in Rotterdam.
 
 This is an open data produced and provided by the Municipality of Rotterdam.
 

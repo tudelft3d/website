@@ -43,7 +43,7 @@ You can check their characteristics in the following images. They derive from di
 
 Therefore, while making task 1, describe them as they appear in the tested software, and don't be influenced by the images that you see here.
 
-In Figure 3, the red and green surfaces are mapping the normals directions of te surfaces, indicatively.
+In Figure 3, the red and green surfaces are mapping the normals directions of the surfaces, indicatively.
 
 <div class="row">
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/IFC4geometries-Fig2.gif" }}" >
