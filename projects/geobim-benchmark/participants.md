@@ -22,13 +22,13 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 		</thead>
 		<tbody>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/dogus.jpg" style="max-height:100px;"/></div></td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/dogus.JPG" style="max-height:100px;"/></div></td>
 				<td>Doğuş Güler</td>
 				<td>Instambul Technical University</td>
 				<td>Turkey</td>
 			</tr>
 			<tr>
-				<td> </div></td>
+				<td> </td>
 				<td>Rudi Stouffs</td>
 				<td>National University of Singapore</td>
 				<td>Singapore</td>
@@ -106,7 +106,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>The Netherlands</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/pla.jpg" style="max-height:100px;"/></div></td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/pla.JPG" style="max-height:100px;"/></div></td>
 				<td>Maria Pla</td>
 				<td>ICGC, Head Databases Department</td>
 				<td>Spain</td>
