@@ -10,9 +10,27 @@ In this page you can find a list of software to be tested / being tested / teste
 
 This would inform about the progress of the benchmark, and would also guide participants in the choice of the tools to be tested.
 
-Notice that, even if the aim is to test the highest possible number of software/tools/procedures, the same software/tool/procedure can be tested more than ones, especially for highly customisable tools (like Safe Software FME); this will allow testing replicability (see the [FAQ section](https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html)).
+Notice that, even if the aim is to test the **highest possible number of software/tools/procedures**, the same software/tool/procedure can be tested **more than once**, especially for highly customisable tools (like Safe Software FME); this will allow testing replicability (see the [FAQ section](https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html)).
 
 In addition, **you are free to test other tools, not in this list yet**. We will add them as soon as you will register your participation.
+
+In the last columns of the table that follows, some details about the used **method** to make the data work in the software (procedures, plugins, tools), when needed, are added, together with the **level of expertise** of the participant who tested it, following the scale:
+
+* 1 - *Very beginner user* (it is nearly the first time he/she use the software)
+* 2 - *Current user*
+* 3 - *Expert user* (knows very well the technical details and tricks)
+* 4 - *Developer of the tested software*
+
+To guide your choice, it is preferable to use **different methods** for the same tools, and that participants with **different levels of expertise** test the same tool.
+
+
+*Last update: 18th April 2019*
+- - -
+
+* Table of Content
+{:toc}
+
+- - -
 
 ## Tools for Task 1
 
@@ -21,27 +39,27 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Autodesk Revit</td>
+				<td>Autodesk Revit 2018</td>
 				<td>Windows 10/Home</td>
-				<td>2018</td>
-				<td> </td>
-				<td>X</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>Graphisoft ArchiCAD</td>
+				<td>Graphisoft ArchiCAD 22.0.0</td>
 				<td>Windows 10/Home</td>
-				<td>22.0.0</td>
-				<td> </td>
-				<td>X</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
@@ -68,11 +86,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 				<td>Construsoft Vico Office Suite</td>
 			</tr>
 			<tr>
-				<td>Vectorworks Designer</td>
+				<td>Vectorworks Designer 2019</td>
 				<td>Windows 10/Home</td>
-				<td>2019</td>
-				<td> </td>
-				<td>X</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -86,11 +104,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -112,11 +130,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -135,11 +153,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -172,11 +190,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -225,11 +243,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -248,11 +266,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -270,27 +288,27 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>ESRI ArcGIS</td>
+				<td>ESRI ArcGIS 10.2</td>
 				<td>Windows 10/Home</td>
-				<td>10.2</td>
-				<td> </td>
-				<td>X</td>
+				<td>Results delivered</td>
+				<td>Data interoperability tool</td>
+				<td>2</td>
 			</tr>
 			<tr>
-				<td>QGIS</td>
+				<td>QGIS 3.6</td>
 				<td>Windows 10/Home 64-bits</td>
-				<td>3.6</td>
-				<td> </td>
-				<td>X</td>
+				<td>Results delivered</td>
+				<td>Conversion to CityJSON</td>
+				<td>2</td>
 			</tr>
 			<tr>
 				<td>Bentley Map</td>
@@ -307,11 +325,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -330,11 +348,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -350,11 +368,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -374,11 +392,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 				<td>eveBIM</td>
 			</tr>
 			<tr>
-				<td>Safe Software FME Data Inspector</td>
+				<td>Safe Software FME Data Inspector 2018.1</td>
 				<td>macOS 10.14.3</td>
-				<td>2018.1</td>
-				<td> </td>
-				<td>X</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>3</td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -393,11 +411,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -419,11 +437,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -448,11 +466,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -475,11 +493,11 @@ In addition, **you are free to test other tools, not in this list yet**. We will
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
-				<th>Software</th>
+				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Version</th>
-				<th>Being tested</th>
-				<th>Results delivered</th>
+				<th>Testing status</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
