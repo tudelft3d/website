@@ -17,7 +17,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<th> </th>
 				<th>Name</th>
 				<th>Affiliation</th>
-				<th>Nationality</th>
+				<th>Country</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -43,7 +43,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td> </td>
 				<td>Diana Moraru</td>
 				<td>Ordnance Survey</td>
-				<td>united Kingdom</td>
+				<td>United Kingdom</td>
 			</tr>
 			<tr>
 				<td> </td>
