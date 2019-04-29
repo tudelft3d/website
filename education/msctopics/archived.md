@@ -1,5 +1,38 @@
 - - -
 
+## Line of sight (visibility) and raytracing analyses on a point cloud dataset
+
+![](img/matvisibility.png){:width="600px"}
+
+Calculating the visibility between two points using 3D city models provides valuable input to many application domains, such as solar analyses (shadowing) and finding the optimal place to install a surveillance camera or a billboard. This list is growing, e.g. a potential application could be to estimate the visibility of an urban canyon from a satellite.
+
+We have developed a 3D skeleton-based approach (part of that [research project](https://3d.bk.tudelft.nl/projects/3dsm/)) ([PDF here](https://3d.bk.tudelft.nl/hledoux/pdfs/15_udmv_visibility.pdf)) that would be the start of the project.
+
+Knowledge of Python and FME is sufficient.
+
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
+- - -
+
+## 3D breakline extraction from point clouds
+
+![](img/MAT_CA_ridge_overlay.jpg){:width="400px"}
+
+Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR, and contain a wealth of information on both natural and man-made structures.
+
+The aim of this project is to extract 3D breaklines directly from a point cloud such as the national AHN3.
+Breaklines indicate discontinuities in a terrain (such as the ridges in a mountain) and are needed for applications such as flood simulations and noise simulations.
+
+As a starting point the [3D medial-axis transform (MAT)](https://3d.bk.tudelft.nl/projects/3dsm/) can be used (used to generate the image above).
+
+Prior knowledge of programming in Python or C++ is required.
+
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+
+- - -
+
 ## Automatic Derivation and Storage of Metadata for 3D City Models
 
 ![](img/metadata.png){:width="350px"}

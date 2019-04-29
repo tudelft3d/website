@@ -11,6 +11,24 @@ permalink: /education/msctopics/
 
 - - -
 
+
+## Guesstimation of the height of all USA buildings
+
+![](img/zurich.jpg){:width="600px"}
+
+The project [Open City Model](https://github.com/opencitymodel/opencitymodel) by [BuildZero.Org](BuildZero.Org) provides a height for each of the 125,192,184 buildings in the USA.
+They took the [footprints from Microsoft](https://github.com/Microsoft/USBuildingFootprints) and estimated their heights.
+It can be seen that several seen to be at the same height, and the methodology used is not documented.
+
+The aim of this project is to develop a methodology to improve their results, in particular using machine learning and the [results we obtained for Netherlands](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf)
+
+
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
+
+
 ## Automatic reconstruction of historical 3D city models
 
 ![](img/delft_1600.jpg){:width="500px"}
@@ -175,16 +193,17 @@ The topic is done in collaboration with Rijkswaterstaat.
 
 - - -
 
+
 ## Develop a framework to handle massive CityJSON files
 
-![](img/cityjson.jpg)
+![](img/cityjson.jpg){:width="500px"}
 
 As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
 The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with).
 CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
 It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
 
-While a CityJSON file is [about 7X compacter](https://github.com/tudelft3d/cityjson/wiki/Compression-factor-for-a-few-open-CityGML-datasets) than the equivalent CityGML file, very large areas (like the [whole of city of Berlin](https://www.businesslocationcenter.de/en/downloadportal)) are still problematic.
+While a CityJSON file is [about 6X compacter](https://github.com/tudelft3d/cityjson/wiki/Compression-factor-for-a-few-open-CityGML-datasets) than the equivalent CityGML file, very large areas (like the [whole of city of Berlin](https://www.businesslocationcenter.de/en/downloadportal)) are still problematic.
 
 The aim of this MSc project is to design a framework to deal with such massive CityJSON files.
 The potential solution is to design a tiling scheme, and find a way to make it work with a web-based viewer, eg [Cesium](https://cesiumjs.org/) or [three.js](https://threejs.org/).
@@ -262,23 +281,6 @@ The project is about exploring NoSQL databases for storing massive 3D data. The 
 Prior knowledge of databases and programming in Python or C++ is required.
 
 *Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## 3D breakline extraction from point clouds
-
-![](img/MAT_CA_ridge_overlay.jpg){:width="400px"}
-
-Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR, and contain a wealth of information on both natural and man-made structures.
-
-The aim of this project is to extract 3D breaklines directly from a point cloud such as the national AHN3.
-Breaklines indicate discontinuities in a terrain (such as the ridges in a mountain) and are needed for applications such as flood simulations and noise simulations.
-
-As a starting point the [3D medial-axis transform (MAT)](https://3d.bk.tudelft.nl/projects/3dsm/) can be used (used to generate the image above).
-
-Prior knowledge of programming in Python or C++ is required.
-
-**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -379,21 +381,6 @@ We therefore believe that using a triangulation as a base structure is an intuit
 The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that needs to be extended has been developed in C++, thus the knowledge of C++---or a strong desire to learn it---is necessary.
 
 **Contact:** [Ken Arroyo Ohori](http://tudelft.nl/kenohori)
-
-
-- - -
-
-## Line of sight (visibility) and raytracing analyses on a point cloud dataset
-
-![](img/matvisibility.png){:width="600px"}
-
-Calculating the visibility between two points using 3D city models provides valuable input to many application domains, such as solar analyses (shadowing) and finding the optimal place to install a surveillance camera or a billboard. This list is growing, e.g. a potential application could be to estimate the visibility of an urban canyon from a satellite.
-
-We have developed a 3D skeleton-based approach (part of that [research project](https://3d.bk.tudelft.nl/projects/3dsm/)) ([PDF here](https://3d.bk.tudelft.nl/hledoux/pdfs/15_udmv_visibility.pdf)) that would be the start of the project.
-
-Knowledge of Python and FME is sufficient.
-
-**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
