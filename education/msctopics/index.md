@@ -474,3 +474,19 @@ Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Ar
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
+
+- - -
+
+## Computation of spatial extent for massive point cloud datasets
+
+![](img/alphashape.png)
+
+
+Given a (classified) LAS pointcloud, how to (re)generate its spatial extent?
+
+Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
+
+A better solution is to use the alpha-shape of the set of points, but this is impossible with massive datasets (which are often very common in practice).
+
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 

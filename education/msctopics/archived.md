@@ -79,25 +79,6 @@ Knowledge of Python is enough.
 - - - 
 
 
-## alpha-shape computation for massive point cloud datasets
-
-![](img/alphashape.png)
-
-Done in collaboration with [Deltares](https://www.deltares.nl/en/).
-
-Given a (classified) LAS pointcloud, how to (re)generate its alpha shape?
-
-Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
-At the moment, Deltares could use the results to combat edge effects from classification filter algorithms.
-Deltares is now using a simplified outline, but that results in artefacts in overlapping flight strips.
-The project involves investigating how to construct alpha-shapes for massive real-world datasets, eg 100M+ points.
-As programming language in this project, Deltares uses [Julia](https://julialang.org), an easy (coming from Python) and fast language in development.
-
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) and [Maarten Pronk](mailto:maarten.pronk@deltares.nl)
-
-
-- - -
-
 ## GeoOBJ: developing a spatial extension to OBJ
 
 3D formats found in 3D computer graphics are in many ways superior to GIS formats such as CityGML: they have wide software support and great visualisation capabilities. However, they fall short with spatial analyses, because of various limitations, such as lack of geo-referencing, and lack of semantic structuring. The goal of this project is to bridge the two worlds, by developing a spatial extension to a computer graphics format such as OBJ. This thesis is suitable for MSc Geomatics students, and it may be adapted to any other format.
