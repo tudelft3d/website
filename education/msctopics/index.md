@@ -14,7 +14,7 @@ permalink: /education/msctopics/
 
 ## Guesstimation of the height of all USA buildings
 
-![](img/zurich.jpg){:width="600px"}
+![](img/zurich.png){:width="600px"}
 
 The project [Open City Model](https://github.com/opencitymodel/opencitymodel) by [BuildZero.Org](BuildZero.Org) provides a height for each of the 125,192,184 buildings in the USA.
 They took the [footprints from Microsoft](https://github.com/Microsoft/USBuildingFootprints) and estimated their heights.
