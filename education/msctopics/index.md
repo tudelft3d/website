@@ -196,7 +196,7 @@ The topic is done in collaboration with Rijkswaterstaat.
 
 ## Develop a framework to handle massive CityJSON files
 
-![](img/cityjson.jpg){:width="500px"}
+![](img/cityjson.jpg){:width="200px"}
 
 As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
 The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with).
