@@ -18,9 +18,9 @@ permalink: /education/msctopics/
 
 The project [Open City Model](https://github.com/opencitymodel/opencitymodel) by [BuildZero.Org](http://buildzero.org) provides a height for each of the 125,192,184 buildings in the USA.
 They took the [footprints from Microsoft](https://github.com/Microsoft/USBuildingFootprints) and estimated their heights.
-It can be seen that several seen to be at the same height, and the methodology used is not documented.
+It can be seen that several buildings are at the same height, and the methodology they used is not documented.
 
-The aim of this project is to develop a methodology to improve their results, in particular using machine learning and the [results we obtained for Netherlands](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf)
+The aim of this project is to develop a methodology to improve their results, in particular using machine learning and the [results we obtained for the Netherlands](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf).
 
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
