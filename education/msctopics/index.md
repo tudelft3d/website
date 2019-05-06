@@ -155,22 +155,19 @@ This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), t
 - - -
 
 
-## 3D city model to BIM to 3D city model
+## 3D digital urban regulations to use GeoBIM for building permission checks
 
-![](img/InterGeoBIM.png)
-
-The interoperability of 3D city models (in [CityGML](https://www.citygml.org)) and detailed building information models (BIM in [IFC](http://www.buildingsmart-tech.org/specifications/ifc-overview)), has a lot of potential but there are several unresolved problems.
-Many software tools exist to manage CityGML and IFC data. The aim of this project is to design and test workflows for conversions from CityGML to IFC and vice versa without loss of quality of the data (in geometry or semantics), through existing software’s import and export functions.
-In collaboration with [AMS](https://www.ams-institute.org) and [ISPRS](http://www.isprs.org)
+The automation of urban regulation checks for the planning use case requires the urban regulations to be archived in a digital and spatial (3D) format.
+This project aims at the definition of an effective way to store those regulations digitally and spatially, for their use in checking urban regulations compliancy of new buildings through GeoBIM integrated information. The studied solution could start from extending [CityGML](https://www.citygmlwiki.org), employing [INSPIRE](https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/) data model, or other available standards.
+In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
 
 **Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
-## Integrated 3D geo-information for Building permissions issuing
+## Extracting information from BIM models for GeoBIM building permission use case
 
-![](img/EuroSDRgeoBIM_BP.jpg)
-
-The aim of the project is to design a platform for automatically checking building information models (BIM) against city regulations. Through analysing the requirements and needs for building permissions (in Europe), the characteristics of the needed information must be established. Procedures, tools and methodologies need to be defined to automatically check a building design against spatial regulations (especially height regulations).
+The integration of geoinformation with BIM information can be very effective for automatically checking urban regulations. However, not all the information which is present in BIM is necessary for regulations checking. Moreover, BIMs designed in actual practice sometimes have different characteristics than the ones expected by academy. At the same time too much detail hinders data processing and designers are reluctant to share all the details about their designs.
+In this study, the aim is to understand which information is needed for checking some critical regulation where GeoBIM information can be useful, as it could be obtained from a sample of more complex BIMs modelled by designers and practitioners, and develop a tool to filter, derive/extract and generalise the required information to be used for the integration with a 3D city model and the checks of the selected regulations.
 In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
 
 **Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
