@@ -42,7 +42,7 @@ In the case they need to change computer for different parts of the Task, they a
 
 
 ## Summary of the Task
-The participants should georeference the IFC models according to the parameters described in their respective [data description](http://127.0.0.1:4000/projects/geobim-benchmark/data.html), in the section 'Georeferencing details - Georeferencing parameters (for Task 2)'.
+The participants should georeference the IFC models according to the parameters described in their respective [data description](https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html), in the section 'Georeferencing details - Georeferencing parameters (for Task 2)'.
 
 In the results they will describe the used procedure and deliver the georeferenced models.
 
