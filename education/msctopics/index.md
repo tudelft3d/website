@@ -237,7 +237,7 @@ Knowledge of Python is enough.
 
 ![](img/readaar.jpg){:width="350px"}
 
-This project is done in cooperation with [Readaar](http://www.readaar.com).
+This project is done in cooperation with [Readaar](http://www.readar.com).
 Readaar was founded in 2016 and extracts all kind of information from aerial imagery.
 To do this they combine remote sensing with machine learning.
 
@@ -250,9 +250,9 @@ The next step is to translate this into useful insights like:
 
 The focus of the student within this project will be on using the datasets to develop methods that extract (data mining) the insights that Readaar's customers want to have.
 
-[More information is found there.](http://jobs.readaar.com/blog/internship-datamining-on-aerial-imagery)
+[More information is found there.](https://readar.com/jobs/internship-deep-learning-on-aerial-imagery/)
 
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](mailto:svenbriels@readaar.com)
+*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](mailto:svenbriels@readar.com)
 
 
 - - -
