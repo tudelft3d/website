@@ -237,7 +237,7 @@ Knowledge of Python is enough.
 
 ![](img/readaar.jpg){:width="350px"}
 
-This project is done in cooperation with [Readaar](http://www.readar.com).
+This project is done in cooperation with [Readar](http://www.readar.com).
 Readaar was founded in 2016 and extracts all kind of information from aerial imagery.
 To do this they combine remote sensing with machine learning.
 
