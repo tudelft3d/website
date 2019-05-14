@@ -12,7 +12,7 @@ permalink: /education/msctopics/
 - - -
 
 
-## Improving automatic meshing for urban environments
+## Improving automatic meshing for buildings
 
 ![](img/MeshConceptCFD.jpg){:width="600px"}
 Computational fluid dynamic simulations require detailed meshes that can represent obstacles features accurately. In numerical simulations, the quality of the mesh can draw the line between good and poor results. Nowadays, mesh tools are general and they are not necessarily optimised for meshing entire cities, requiring large time investments to design and improve the mesh quality.
@@ -22,7 +22,7 @@ This MSc project focuses on developing an algorithm that create the mesh automat
 Knowledge of programming in python is required.
 Following elective course GEO5013 is an advantage.
 
-**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)[Hugo Ledoux](http://tudelft.nl/hledoux)
+**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
