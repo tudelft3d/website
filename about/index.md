@@ -63,7 +63,7 @@ Our research funding mostly comes from the following organisations:
     <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br>
     <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>
     <i class="fas fa-map-marker-alt fa-fw fade"></i> the Netherlands <br>
-    <i class="fas fa-map-marker-alt fa-fw fade"></i> <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">How to get here</a>
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/">How to get here</a>
     <br />
   </div>
   <div class="col-md-8 col-sm-6 col-xs-12">
