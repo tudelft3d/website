@@ -12,6 +12,37 @@ permalink: /education/msctopics/
 - - -
 
 
+## Improving automatic meshing for urban environments
+
+![](img/MeshConceptCFD.jpg){:width="600px"}
+Computational fluid dynamic simulations require detailed meshes that can represent obstacles features accurately. In numerical simulations, the quality of the mesh can draw the line between good and poor results. Nowadays, mesh tools are general and they are not necessarily optimised for meshing entire cities, requiring large time investments to design and improve the mesh quality.
+
+This MSc project focuses on developing an algorithm that create the mesh automatically around buildings by specifying a limited number of parameters that define the grid cells sizes. The mesh will be generated from a top-up perspective, initially extruding the geometrical edges to create cell layers close to the buildings. The approach will be first tested in 2D single and multiple building geometries.
+
+Knowledge of programming in python is required.
+Following elective course GEO5013 is an advantage.
+
+**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)[Hugo Ledoux](http://tudelft.nl/hledoux)
+
+- - -
+
+
+## From GIS to 3D flow simulations in urban environments
+
+![](img/WindFlowOklahoma.png){:width="600px"}
+
+Changes in wind can largely affect the wind pattern within cities, leading to zones with high wind speeds and areas with flow stagnation. Wind distributions in urban area depend on heterogeneous city layouts and change with new constructions. A priori knowledge of winds within a certain urban area can help to develop strategies that improve pedestrian wind comfort, help urban designs and ameliorate urban air quality. However, the chain process from the use of GIS data, to the construction of a 3D city model enriched with diverse semantics that can be used in CFD simulations is complex.  
+
+The present MSc project goal is to start from GIS databases to generate a water tight model with different semantics, to evaluate and to design a guideline that includes the model information required to perform wind flow simulations. The test case will be built around TU Delft campus, including semantics that differentiate between buildings, green and water areas.
+
+Knowledge of programming in python is required. 
+Following elective course GEO5013 is recommended.
+
+**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)
+
+- - -
+
+
 ## Guesstimation of the height of all USA buildings
 
 ![](img/zurich.png){:width="600px"}
