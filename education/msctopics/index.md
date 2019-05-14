@@ -14,7 +14,7 @@ permalink: /education/msctopics/
 
 ## Improving automatic meshing for buildings
 
-![](img/MeshConceptCFD.jpg){:width="600px"}
+![](img/MeshConceptCFD.png){:width="600px"}
 Computational fluid dynamic simulations require detailed meshes that can represent obstacles features accurately. In numerical simulations, the quality of the mesh can draw the line between good and poor results. Nowadays, mesh tools are general and they are not necessarily optimised for meshing entire cities, requiring large time investments to design and improve the mesh quality.
 
 This MSc project focuses on developing an algorithm that create the mesh automatically around buildings by specifying a limited number of parameters that define the grid cells sizes. The mesh will be generated from a top-up perspective, initially extruding the geometrical edges to create cell layers close to the buildings. The approach will be first tested in 2D single and multiple building geometries.
