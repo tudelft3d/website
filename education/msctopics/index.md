@@ -412,34 +412,30 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 - - -
 
-## Structure-aware Urban Model Simplification
+## Learning to Synthesize Detailed 3D Building Models
 
-<img src="img/simplification.png" style="width: 400px;"/>
+<img src="img/synthesis.png" style="width: 400px;"/>
 
-With the advances of data acquisition technologies, point clouds of urban scenes can be easily captured by various means (e.g., laser scanners, drones, and various cameras). With such data, it is possible to automatically and quickly reconstruct 3D models of urban buildings (e.g., the 3D models in Google Earth). Though such models admittedly look great with textures, they cannot be used in several applications due to the imperfections and complexity of the models (i.e., gigantic meshes, missing regions, noise, and undesired structures).
+LoD1 or LoD2 building models can be relatively easily generated from building footprints and point cloud data. However, such models lack meaningful geometric detailed façade structures (e.g., doors, windows, and balconies), making them unsuitable for real-world applications such as visualization and simulation. The goal of this MSc thesis is to develop an algorithm that can automatically synthesize semantically meaningful façade details onto the given coarse models. The resulted models will have a plausible style conforming to the images of real-world buildings.
 
-The aim of this project is to develop algorithms and tools to convert the dense triangular mesh models to lightweight polygonal models by assuming the building surface is piecewise planar. We consider a method to be effective to this problem if it meets the following requirements
--	The simplified model should reliably approximate the initial model,
--	The simplified model is an oriented 2-manifold (i.e., physically valid),
--	The method should not closely follow surface details due to imperfections (i.e., noise, outliers, and missing data) being simplified to recover sharp features of the building,
--	(optional) It would be nice to provide a way to control the detail levels of the model, by introducing an extra parameter.
-
-**Required Skills**: Proficient in one programming language (e.g., C/C++, Python, Java); experiences in CGAL and Numerical Optimization is a bonus.
+**Required Skills**: 
+Proficient in one programming language, either C/C++ or Python; experiences in mesh processing; willing to follow courses on machine learning (in particular Deep Learning) before or at the beginning of the project.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 
 - - -
 
-## Repairing 3D Urban Models
+## Outer Surface Extraction for Complex 3D Models
 
 <img src="img/repair_urban_models.png" style="width: 800px;"/>
 
-Nowadays the number of 3D building models are increasing explosively (e.g., the 3D models in Google Earth). These models can be easily obtained by applying state-of-the-art modeling/reconstruction techniques, or by manual creation using various software packages. It is quite common to observe errors and imperfections in these models, like gaps, holes, self-intersections, duplicated geometry (e.g., double walls), T-junctions, degeneracies, non-manifold (e.g., more than two polygons meeting at the same edge), etc. Unfortunately, most applications, such as physical-based simulation, digital fabrication (e.g., 3D printing), intelligent model editing tools, can only accept clean surface models as input, which restricts the existing models mainly to visualization purpose. It becomes extremely difficult to eliminate these flaws when a certain combination of them are present. Thus, the restoration of these 3D models remains an open problem.
+The number of 3D building models is explosively increasing. These models can be easily obtained by applying state-of-the-art modeling/reconstruction techniques, or by manual creation using various software packages. It is quite common to observe errors and imperfections in these models, such as gaps, holes, self-intersections, duplicated geometry (e.g., double walls), non-manifold (e.g., more than two polygons meeting at the same edge). Applications, such as simulation, digital fabrication (e.g., 3D printing), and model editing tools, can only accept clean surface models as input, which restricts the existing models to visualization purpose only. It becomes extremely difficult to eliminate these flaws when a certain combination of them are present. 
 
-In this project, we would like to develop robust algorithms and tools for automatic restoration and cleaning of the models. We would expect our method to produce a closed surface representation of a building that partitions the space into disjoint internal and external half spaces without ambiguities.
+In this project, we would like to develop robust algorithms and tools that can automatically resolve these commonly found issues in 3D models. We would expect the method to produce a closed surface representation of a building. With such a representation, a 3D building is partitioned into disjoint interior and exterior spaces without ambiguity.
 
-**Required Skills**: Proficient in one programming language (e.g., C/C++, Python, Java); experiences in mesh processing, machine learning (in particular Deep Learning) is a bonus.
+**Required Skills**: 
+Proficient in one programming language (e.g., C/C++ or Python); experiences in mesh processing; machine learning (in particular Deep Learning) is a bonus.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
