@@ -301,14 +301,14 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>Windows 10/Home</td>
 				<td>Results delivered</td>
 				<td>Data interoperability tool</td>
-				<td>2</td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>QGIS 3.6</td>
 				<td>Windows 10/Home 64-bits</td>
 				<td>Results delivered</td>
 				<td>Conversion to CityJSON</td>
-				<td>2</td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>Bentley Map</td>
