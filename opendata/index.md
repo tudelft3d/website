@@ -67,6 +67,18 @@ permalink: /opendata/
       </div>
     </div>
   </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="http://3dbag.bk.tudelft.nl"><img src="{{ "/img/code/3dbag.png" | prepend: site.baseurl }}"/></a>
+      <div class="caption">
+        <h3>3D BAG
+        <br/>
+        </h3>
+        <p>The 3D BAG is a register of addresses and buildings of the Netherlands, including building height information and related quality metrics.</p>
+      </div>
+    </div>
+  </div>
   
 </div>
 
