@@ -11,6 +11,18 @@ permalink: /education/msctopics/
 
 - - -
 
+## Multidisciplinary graduation BK studio: City of the Future
+
+![](img/cityfuture.jpg){:width="600px"}
+
+City of the Future is a multidisciplinary graduation studio focusing on the central question: how to design and develop in an integrated way a transformation area into an attractive future urban environment? It is motivated by urgent social / local issues varying among housing demand, social inclusiveness, new economy, climate adaptation, and the transitions in the areas of energy, mobility, circularity, automation and digitization.
+
+Students of different MSc tracks (thus Geomatics students are welcome) will be dealing with various matters (e.g. spatial, policy, energy, societal) sharing insights and perspectives about the multifaceted future challenges of urban environments.
+
+[--> Webpage of the project][https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/] 
+
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
 
 ## Improving automatic meshing for buildings
 
