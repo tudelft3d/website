@@ -19,7 +19,7 @@ City of the Future is a multidisciplinary graduation studio focusing on the cent
 
 Students of different MSc tracks (thus Geomatics students are welcome) will be dealing with various matters (e.g. spatial, policy, energy, societal) sharing insights and perspectives about the multifaceted future challenges of urban environments.
 
-[--> Webpage of the project][https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/] 
+[--> Webpage of the project](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/)
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
