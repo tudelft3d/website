@@ -31,6 +31,11 @@ permalink: /projects/geobim-benchmark/
   <a href="news.html">All news</a>
 </div>
 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uXcGYA72IaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 <h3>Reference study on software support for open standards of city and building models</h3>
 
 This benchmark will investigate the available **technical solutions** to support research and activities related to GeoBIM, through the use of the **open standards IFC** (by buildingSMART) and **CityGML** (by OGC):

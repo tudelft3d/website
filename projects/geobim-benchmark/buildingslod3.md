@@ -31,20 +31,34 @@ Only buildings are included, and they are represented in Levels of Detail (LoD) 
 
 Name of the file: <strong>BuildingsLOD3.gml</strong>
 
-Used CityGML version:<strong> 2</strong>
-
-Coordinate reference system:<strong> EPSG: 28992 – Amersfoort / RD New</strong>
+Used CityGML version:<strong>2</strong>
 
 Level(s) of Detail: <strong>LoD 3</strong> (in the same GML file)
 
 The geometries are all managed as<strong> MultiSurfaces.</strong>
 
-In the following Figure 1, you can read some dimensions of the model, to be used for the tests in Task 3.
+
+## Georeferencing details
+
+Coordinate reference system:<strong> EPSG: 28992 – Amersfoort / RD New</strong>
+
+Bounding box coordinates:
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsSRSdetails.gif" }}" style="max-height: 500px"></div>
+</div>
+
+Model orientations:
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsOrientation.gif" }}" style="max-height: 500px"></div>
+</div>
+
+In the following Figure, you can read some dimensions of the model, to be used for the tests in Task 3.
 
 <div class="row">
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/BuildingsLOD3-Fig1.gif" }}" title="Sample of dimensions of the CityGML buildings, read by the software FZK (in red, the points and lines marking the measured distances)." >
 </div>
-
 
 ## Semantics details
 

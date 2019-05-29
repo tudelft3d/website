@@ -32,12 +32,29 @@ Name of the file: <strong>Amsterdam.gml</strong>
 
 Used CityGML version:<strong> 2</strong>
 
-Coordinate reference system:<strong> EPSG: 28992 – Amersfoort / RD New</strong>
-
 Level(s) of Detail: <strong>LoD 1</strong>
 
 The geometries are all managed as<strong> MultiSurfaces.</strong>
 
+## Georeferencing details
+
+Coordinate reference system:<strong> EPSG: 7415 (Combined SRS for 3D data, based on Amersfoort / RD New system)</strong>
+
+Envelope lowerCorner:
+
+E 116137.400
+
+N 481250.300
+
+H 0
+
+Envelope upperCorner:
+
+E 129664.253
+
+N 490288.900
+
+H 100
 
 ## Semantics details
 

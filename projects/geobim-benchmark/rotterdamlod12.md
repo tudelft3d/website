@@ -32,11 +32,27 @@ Name of the file: <strong>RotterdamLOD12.gml</strong>
 
 Used CityGML version:<strong> 2</strong>
 
-Coordinate reference system:<strong> EPSG: 28992 – Amersfoort / RD New</strong>
 
 Level(s) of Detail: <strong>LoD 1 & LoD 2</strong> (in the same GML file)
 
 The geometries are all managed as<strong> MultiSurfaces.</strong>
+
+## Georeferencing details
+
+Coordinate reference system:<strong> EPSG: 28992 – Amersfoort / RD New</strong>
+
+Bounding box coordinates:
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/RotterdamSRSdetails.gif" }}" style="max-height: 500px"></div>
+</div>
+
+Model orientations:
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/RotterdamOrientation.gif" }}" style="max-height: 500px"></div>
+</div>
+
 
 
 ## Semantics details
@@ -54,7 +70,7 @@ Here, the entities included in the model are listed model (you can read the City
 * bldg:RoofSurface
 * bldg:WallSurface
 
-### 3+5 Elements
+### 3+4 Elements
 
 In the following images and videos you can see the model (in the software Azul), with the classification (and hierarchies) of objects and <strong> attributes</strong>  of specific elements, to be used as reference while performing the Task 3.
 From these views you can also have a view about how the geometry looks like, in order to have a visual reference for testing your software.
@@ -99,12 +115,17 @@ From these views you can also have a view about how the geometry looks like, in 
 <div class="row">
 	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/RotterdamLOD12-Fig4.gif" }}" title="Element 6 (in yellow)." >
 </div>
-------------
-<strong> Element 7 </strong>
-<div class="row">
-	<img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/RotterdamLOD12-Fig5.gif" }}" title="Element 7 (in yellow)." >
-</div>
 ---------------------------------
+
+### Grouping relationships
+
+Reference for checking the part-of relationships:
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/RotterdamGrouping.gif" }}" style="max-height: 1000px"></div>
+</div>
+
+
 
 ### Video of the LoD 1 model
 

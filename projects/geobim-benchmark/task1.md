@@ -205,6 +205,9 @@ Begin to perform the Task and deliver results through the online [Results templa
 
  
  [word-format results template](https://www.dropbox.com/s/78c21sjz02k8828/Task%201%20%E2%80%93%20Support%20for%20IFC.docx?dl=0)
+ 
+You can see an [**example of delivered answers**](https://www.dropbox.com/s/o3flhextk9ipel9/ExampleTask1.pdf?dl=0)
+
 ## Deliverables for Task 1
 
 **REMEMBER TO DELIVER**, through the last online form:

@@ -29,17 +29,9 @@ permalink: /projects/geobim-benchmark/faq.html
 
 You can choose <strong>1 to all</strong> the proposed tasks. Each task is independent from the others, so, even 1 is sufficient.
 
-<!--
 ## How much time does it take to perform the tasks and deliver results?
-The needed time is, approximately:
 
-TIME for Task 1
-
-TIME for Task 2
-
-TIME for Task 3
-
-TIME for Task 4-->
+The needed time is, approximately, between a couple of hours and one/two working days, also considering the waiting time for computer response in case of heavy files. It also depends on the level of confidence you have with the tested software.
 
 ## How will the delivered data and documents be used?
 
