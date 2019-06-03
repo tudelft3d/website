@@ -1,3 +1,15 @@
+
+- dataset: Poznań
+  link:    http://sip.poznan.pl/model3d/#/export
+  country: Poland
+  building_lod: LoD1+LoD2
+  formats: several diff formats
+  year: 2019
+  classes:  Building
+  texture:  no
+  # notes: 
+
+
 - dataset: American cities
   link:    https://github.com/opencitymodel/opencitymodel
   country: USA
