@@ -1,4 +1,14 @@
 
+- dataset: Zürich
+  link:    https://data.stadt-zuerich.ch/dataset?q=&tags=3d-stadtmodell
+  country: Switzerland
+  building_lod: LoD1+LoD2
+  formats: several diff formats
+  year: 2019
+  classes:  Building + Terrain
+  texture:  no
+  # notes: 
+
 - dataset: Poznań
   link:    http://sip.poznan.pl/model3d/#/export
   country: Poland
