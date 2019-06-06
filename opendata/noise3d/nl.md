@@ -101,7 +101,7 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
   </tr>
   <tr>
     <td class="tg-0pky">BegroeidTerreindeel</td>
-    <td class="tg-0pky">reflecterend</td>
+    <td class="tg-0pky">absorberend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Pand (alles)</td>

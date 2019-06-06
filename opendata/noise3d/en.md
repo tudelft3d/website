@@ -99,7 +99,7 @@ Also for modelling noise-reflection and -absorption values, we use the BGT as ba
   </tr>
   <tr>
     <td class="tg-0pky">BegroeidTerreindeel</td>
-    <td class="tg-0pky">reflecterend</td>
+    <td class="tg-0pky">absorberend</td>
   </tr>
   <tr>
     <td class="tg-pcvp">Pand (alles)</td>
