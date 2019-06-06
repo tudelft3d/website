@@ -150,9 +150,9 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
 Dit testbestand is beschikbaar in *ESRI shape*.
 
 De gebruikte bronbestanden zijn:
-* BGT: datum 11-02-2019
-*	BAG: datum 25-02-2019
-*	AHN: versie 3
+* BGT: datum 11-02-2019, <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download bronbestanden]</a>
+* BAG: datum 25-02-2019, <a href="{{ "source_bag.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download bronbestanden]</a>
+* AHN: versie 3, download bronbestanden van PDOK: [37ez2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37EZ2.LAZ), [37fz1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37FZ1.LAZ), [37gn2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37GN2.LAZ), [37hn1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37HN1.LAZ)
 
 Onderstaand het download overzicht.
 
