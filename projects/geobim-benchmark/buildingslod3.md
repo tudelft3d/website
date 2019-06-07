@@ -120,5 +120,5 @@ From these views you can also have a view about how the geometry looks like, in 
 --------------------------
 ## Download
 
-You can download the BuildingsLOD3.gml data from this [**link**](https://www.dropbox.com/s/bfs6fk26u4np3ea/BuildingsLOD3.gml?dl=0)
+You can download the BuildingsLOD3.gml data from this [**link**] <!--(https://www.dropbox.com/s/bfs6fk26u4np3ea/BuildingsLOD3.gml?dl=0)-->
  - - -

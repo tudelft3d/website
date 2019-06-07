@@ -60,8 +60,8 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			<tr>
 				<td> </td>
 				<td>Amber Mulder & Kostantinos Mastorakis</td>
-				<td>B</td>
-				<td>B</td>
+				<td>Geomatics MSc students TU Delft</td>
+				<td>The Netherlands</td>
 			</tr>
 			<tr>
 				<td> </td>
@@ -253,7 +253,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Greece</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/yao.jpeg" style="max-height:100px;"/></div></td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/yao.jpg" style="max-height:100px;"/></div></td>
 				<td>Yepeng Yao</td>
 				<td> </td>
 				<td>Hong Kong</td>
@@ -271,7 +271,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Italy</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/liu.jpeg" style="max-height:100px;"/></div></td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/liu.png" style="max-height:100px;"/></div></td>
 				<td>Xinyi Liu</td>
 				<td>Wuhan University</td>
 				<td>China</td>
