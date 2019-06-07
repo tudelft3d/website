@@ -24,7 +24,7 @@ In the last columns of the table that follows, some details about the used **met
 To guide your choice, it is preferable to use **different methods** for the same tools, and that participants with **different levels of expertise** test the same tool.
 
 
-*Last update: 18th April 2019*
+*Last update: 7th June 2019*
 - - -
 
 * Table of Content
@@ -168,10 +168,21 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>ifcviewer</td>
 			</tr>
 			<tr>
-				<td>Sketch-up</td>
+				<td>Trimble SketchUp 2019</td>
+				<td>macOS Mojave</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>FZK Viewer</td>
+				<td>KIT FZK Viewer 5.1</td>
+				<td>Windows 10 Pro</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td></td>
 			</tr>
 			<tr>
 				<td>eveBIM</td>
@@ -386,7 +397,11 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>Sketch-up</td>
 			</tr>
 			<tr>
-				<td>FZK Viewer</td>
+				<td>KIT FZK Viewer 5.1</td>
+				<td>Windows 10 Pro</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>2</td>
 			</tr>
 			<tr>
 				<td>eveBIM</td>
