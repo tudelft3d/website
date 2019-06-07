@@ -4,7 +4,7 @@ title: Amsterdam CityGML model
 permalink: /projects/geobim-benchmark/amsterdamgml.html
 ---
 
-<h1>Amsterdam GityGML model LoD 1</h1>
+<h1>Amsterdam CityGML model LoD 1</h1>
 
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/amsterdam-1.gif" }}" style="max-height: 500px"></div>

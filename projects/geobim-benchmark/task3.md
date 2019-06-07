@@ -163,7 +163,7 @@ Information and descriptions are all published in this website.
 Contact us and register your participation to the benchmark, giving **your personal details** and declaring **which tool** you intend to test, for **which Task** through this [registration form](https://francescanoardo.typeform.com/to/IbdpZD).
 
 ### Data
-You are able to download the CityGML *open data* from their respective [description page](https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html)
+You are able to download the CityGML *open data* from their respective [description page](https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html#citygml-data)
 
 ### Results template
 Begin to perform the Task and deliver results through the online [Results template for Task 3](https://francescanoardo.typeform.com/to/rOzxI8)
