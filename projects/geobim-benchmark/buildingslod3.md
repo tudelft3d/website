@@ -27,6 +27,10 @@ Procedurally generated CityGML building models (with the software <a href="http:
 
 Only buildings are included, and they are represented in Levels of Detail (LoD) 3, therefore including roof shapes, windows, doors. Please check the CityGML description on the linked website and related documentation to have more details on usage and licence.
 
+The file was further checked, validated and improved through '3DcityDB' and 'Safe Software FME' Validation tools, manual editing and processing through FME tools.
+
+*An improved and corrected version is published on 11th June 2019.* Please, download and use this new version (at the end of this page).
+
 ## Technical details
 
 Name of the file: <strong>BuildingsLOD3.gml</strong>
@@ -120,5 +124,5 @@ From these views you can also have a view about how the geometry looks like, in 
 --------------------------
 ## Download
 
-You can download the BuildingsLOD3.gml data from this [**link**] <!--(https://www.dropbox.com/s/bfs6fk26u4np3ea/BuildingsLOD3.gml?dl=0)-->
+You can download the BuildingsLOD3.gml data (corrected version 11/06/2019) from this [**link**](https://www.dropbox.com/s/uyovdhtuv7g3ztl/BuildingsLOD3.gml?dl=0)
  - - -

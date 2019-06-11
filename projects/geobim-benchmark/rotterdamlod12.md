@@ -25,6 +25,11 @@ This is an open data produced and provided by the Municipality of Rotterdam.
 
 Only buildings are included, and they are represented in 2 Levels of Details (LoDs): LoD1 (extruded building footprints), LoD2 (more detailed external surfaces of the buildings, with realistic roof shapes and different semantics for walls and roofs). Check the CityGML description in the benchmark website and related documentation to have more details.
 
+The textures for LoD2 are also present (in the updated version of the file 11/06/2019).
+
+The file was further checked, validated and improved through '3DcityDB' and 'Safe Software FME' Validation tools, manual editing and processing through FME tools.
+
+*An improved and corrected version is published on 11th June 2019.* Please, download and use this new version (at the end of this page).
 
 ## Technical details
 
@@ -139,5 +144,6 @@ Reference for checking the part-of relationships:
 --------------------------
 ## Download
 
-You can download the RotterdamLOD12.gml data from this [**link**](https://www.dropbox.com/s/tmloqpk400i4bx4/RotterdamLOD12.gml?dl=0)
+
+You can download the RotterdamLOD12.gml data (corrected version 11/06/2019) from this [**link**](https://www.dropbox.com/s/jpo3dzcgi53nq2k/rotterdam_LoD1_LoD2.zip?dl=0)
  - - -

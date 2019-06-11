@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 7th June 2019*
+*Last update: 11th June 2019*
 
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
@@ -281,6 +281,12 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Helga Tauscher</td>
 				<td>Dresden University</td>
 				<td>Germany</td>
+			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/ign.gif" style="max-height:100px;"/></div></td>
+				<td>Grégoire Maillet</td>
+				<td>IGN</td>
+				<td>France</td>
 			</tr>
 		</tbody>
 	</table>
