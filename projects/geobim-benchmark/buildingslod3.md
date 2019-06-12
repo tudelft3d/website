@@ -29,7 +29,7 @@ Only buildings are included, and they are represented in Levels of Detail (LoD) 
 
 The file was further checked, validated and improved through '3DcityDB' and 'Safe Software FME' Validation tools, manual editing and processing through FME tools.
 
-*An improved and corrected version is published on 11th June 2019.* Please, download and use this new version (at the end of this page).
+**An improved and corrected version is published on 11th June 2019.** Please, download and use this new version (at the end of this page).
 
 ## Technical details
 
