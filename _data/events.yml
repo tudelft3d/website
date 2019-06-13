@@ -1,3 +1,10 @@
+
+- name: FOSS4GNL
+  description: Free and open-source for geospatial Dutch conference
+  image: foss4gnl.jpg
+  web: https://foss4g.nl
+  date: 20 June 2019
+
 - name: Knowledge exchange event on Energy and the digital built environment 2018
   description: Energy ADE workshop 2018
   image: energyade.png
