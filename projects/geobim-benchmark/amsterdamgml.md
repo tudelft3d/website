@@ -21,7 +21,7 @@ permalink: /projects/geobim-benchmark/amsterdamgml.html
 
 This model represents the city of Amsterdam in CityGML, including all the entities for a seamless 3D city model (buildings, roads, vegetation, and so on).
 
-It was produced with the software 3dfier by the TUDelft 3D geoinformation group, and, together with other datasets, can be downloaded from: [https://3d.bk.tudelft.nl/opendata/3dfier/](https://3d.bk.tudelft.nl/opendata/3dfier/).
+It was produced with the software 3dfier by the TUDelft 3D geoinformation group, and slightly modified for the purposes of the benchmark.
 
 The used Level of Detail (LoD) is 1. Check the CityGML description in the website and related documentation to have more details.
 
@@ -99,5 +99,5 @@ For this element it is also possible to consider the attribute 'measuredHeight' 
 --------------------------
 ## Download
 
-You can download the amsterdam.gml data from this [**link**](https://www.dropbox.com/s/fw9m8r1chhscarq/amsterdam.gml?dl=0)
+You can download the amsterdam.gml data from this [**link**](https://3d.bk.tudelft.nl/download/benchmark/Amsterdam_LoD1.zip)
  - - -
