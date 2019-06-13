@@ -71,6 +71,20 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
   </div>
 </div>
 
+### Feedback session version 0.2 on 2019-06-12 in Rotterdam
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSXM_2teaeSj3Xx5lNHMtq5B0UHmNRaFnDaXxNsIL4qri-qLbsLf_kq-X8V8mIvvczQJbSBCPKLo8v9/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRHD3dxareqewf1Vy67vbzZIWuy9Qnl8byYlg8_QQTTh_D6QQGvV87F437vYBC6_8q4CUcn0e2rVvo8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
 - - -
 
 # Project partners
