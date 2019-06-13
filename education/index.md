@@ -33,17 +33,21 @@ We have a [list of potential topics](msctopics).
 
 <div class="row">
 {% for i in msc %}
-  <div class="col-xs-6 col-sm-4 col-md-3">
-    <div class="thumbnail">
-      <img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/>
-      <div class="caption">
-        <h3>{{ i.name }} {{ i.surname }}</h3>
-        <p>{{ i.title }}</p>
-      </div>
+  <div class="col-xs-12 col-md-6">
+  <div class="media">
+    <br/>
+    <div class="media-left pull-left">
+      <img class="media-object" style="width:80px;height:80px;" src="{{ '/img/msc/' | append: i.image | prepend: site.baseurl }}"/>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">{{ i.name }} {{ i.surname }}</h4>
+      {{ i.title }}
     </div>
   </div>
+</div>
 {% endfor %}
 </div>
+
 
 - - -
 
@@ -62,18 +66,26 @@ We have a [list of potential topics](msctopics).
 
 <div class="row">
 {% for i in sorted_people %}
-  <div class="col-xs-6 col-sm-4 col-md-3">
-    <div class="thumbnail">
-      <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
-      <div class="caption">
-        <h3>
+  <div class="col-xs-12 col-md-6">
+  <div class="media">
+    <br/>
+    <div class="media-left pull-left">
+      <a href="{{ i.link }}">
+      <img class="media-object" style="width:80px;height:80px;" src="{{ '/img/msc/' | append: i.image | prepend: site.baseurl }}"/>
+      <!-- <img class="media-object" data-holder-rendered="true" style="width:64px;height:64px;" src="https://placeimg.com/64/64/any" alt="64x64"> -->
+    </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">
         {% if i.swapnames == False %}
           {{ i.name }} {{ i.van }} {{ i.surname }}
         {% else %}
           {{ i.surname }} {{ i.name }}
         {% endif %}
-          <br />
-          <small>({{ i.year }})</small>
+      </h4>
+      {{ i.title }}
+      <br/>
+        <!-- <small>({{ i.year }})</small> -->
         {% if i.link %}
           <small><a href="{{ i.link }}"><i class="fas fa-book" title="thesis"></i></a></small>
         {% endif %}
@@ -83,11 +95,9 @@ We have a [list of potential topics](msctopics).
         {% if i.github %}
           <small><a href="{{ i.github }}"><i class="fab fa-github" title="github"></i></a></small> 
         {% endif %}
-        </h3>
-        <p>{{ i.title }}</p>
-      </div>
     </div>
   </div>
+</div>
 {% endfor %}
 </div>
 
