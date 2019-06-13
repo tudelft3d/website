@@ -259,7 +259,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Hong Kong</td>
 			</tr>
 			<tr>
-				<td> </td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/stelios.jpeg" style="max-height:100px;"/></div></td>
 				<td>Stelios Vitalis</td>
 				<td>TU Delft</td>
 				<td>The Netherlands</td>
