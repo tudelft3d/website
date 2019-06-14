@@ -1,3 +1,9 @@
+- name: Architectural heritage information in 3D geospatial models
+  description: 3D city models and HGeoBIM for heritage
+  webpage: /projects/culturalheritage/
+  image: ch3.gif
+  start: 2019
+  
 - name: GeoBIM benchmark
   description: Reference study on software support for open standards of city and building models
   webpage: /projects/geobim-benchmark/
