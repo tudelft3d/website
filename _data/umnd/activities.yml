@@ -1,5 +1,8 @@
+- research_line: [1, 2, 3]
+  description: "Published paper: \"CityJSON: a compact and easy-to-use encoding of the CityGML data model.\"
+  date: 2019-06-17
 - research_line: [1, 3]
-  description: "Published paper: \"Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra\""
+  description: "Published paper: \"Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra\"
   date: 2019-05-29
 - research_line: [1]
   description: Anna Labetski officially started working on UMnD.
