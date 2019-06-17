@@ -13,7 +13,7 @@ We have published a new paper---published as open access---explaining why we hav
   journal   = {Open Geospatial Data, Software and Standards},
   year      = {2019},
   volume    = {4},
-  number    = {1},
+  number    = {4},
   doi       = {http://dx.doi.org/10.1186/s40965-019-0064-0},
 }</pre></div></div>
 
