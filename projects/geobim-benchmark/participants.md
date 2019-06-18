@@ -279,7 +279,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			<tr>
 				<td> </td>
 				<td>Helga Tauscher</td>
-				<td>Dresden University</td>
+				<td>Dresden University of Applied Science</td>
 				<td>Germany</td>
 			</tr>
 			<tr>
