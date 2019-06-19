@@ -25,35 +25,36 @@ A winter school for presenting the main results and training to GeoBIM.
 </div>
 
 ### When
-on Monday, **8th July 2019 h. 10.00 - 16.00 CEST**
+on Monday, **8th July 2019 h. 9.30 - 12.30 CEST**
  
 ### Where
 at the [**TU Delft**](https://3d.bk.tudelft.nl/about/#where), the Netherlands.
 
-Or around the world, joining it through the **web** (we will send the link to participating people).
+Or around the world, joining it through the **web** (we will send the link to registered people).
 
-### Draft Agenda
+### Agenda
 
-10.00 – 10.15	Welcome and Introduction on the GeoBIM benchmark
-	
-10.15 – 10.30	Presentation of intermediate results
+9.30 – 9.45	Welcome and Introduction round (who we are, our main interests, in life and in the benchmark)
 
-10.30 – 11.00	Presentation by participants about interesting workflows / tools / other – part I
+9.45 - 10.15 Introduction on the GeoBIM benchmark & Presentation of the intermediate results
+
+10.15 – 11.00	Presentation by participants (part I) about their experience with what they tested and main issues with the data and tools (10’ each):
+
+- The benchmark test (Task, Software, Data, Results)
+- Issues and suggestions
+- Plans
 
 *11.00 – 11.15	Coffee break*
 
-11.15 – 11.45	Presentation by participants about interesting workflows / tools / other – part II
+11.15 – 12.00	Presentation by participants (part II)
 
-11.45 – 12.00	Review about other possible interesting tools, not tested yet
+12.00 – 12.25	Discussion:
+1. Other interesting tools to be tested
+2. How to help participation, how to fix/improve materials
+3. General thoughts about standardised data and interoperability
+4. discussion, feedbacks, plans for the future
 
-*12.00 -13.00 Lunch*
-
-13.00 – 15.00
-*coffee and cookies available all the time (in Delft)*	Workshop outlining the most effective tools and procedures from the benchmark, replicating the tests, also with different data and considering the tools presented in the morning review.
-
-15.00-15.30	Results of the workshop discussion
-
-15.30 – 16.00	Progress in participation and discussion & Conclusion, discussion, feedbacks, plans for the future
+12.25 – 12.30 Conclusion
 
 ### Join us!
 
