@@ -15,8 +15,8 @@ For the asset management workflow, the results of a series of interviews with as
 
 More information about the project can be found [here](https://3d.bk.tudelft.nl/projects/eurosdr-geobim/).
 
-![]({{ site.baseurl }}/img/2019/eurosdrgeobimlund1.jpg)
-
-![]({{ site.baseurl }}/img/2019/eurosdrgeobimlund2.jpg)
-
-![]({{ site.baseurl }}/img/2019/eurosdrgeobimlund3.jpg)
+<div class="row">
+  <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="{{ site.baseurl }}/img/2019/eurosdrgeobimlund1.jpg"></div>
+  <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="{{ site.baseurl }}/img/2019/eurosdrgeobimlund3.jpg"></div>
+  <div class="col-sm-4 col-sm-offset-4 col-xs-12"><img class="img-responsive" src="{{ site.baseurl }}/img/2019/eurosdrgeobimlund2.jpg"></div>
+</div>
