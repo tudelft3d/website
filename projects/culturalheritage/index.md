@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Architectural heritage information in 3D geospatial models
-permalink: /projects/culturalheritage
+permalink: /projects/culturalheritage/
 ---
 
 <div class="row">
