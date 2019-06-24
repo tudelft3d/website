@@ -25,7 +25,7 @@ A winter school for presenting the main results and training to GeoBIM.
 </div>
 
 ### When
-on Monday, **8th July 2019 h. 9.30 - 12.30 CEST**
+on Monday, **8th July 2019 h. 9.30 - 12.30 CET**
  
 ### Where
 at the [**TU Delft**](https://3d.bk.tudelft.nl/about/#where), the Netherlands.
