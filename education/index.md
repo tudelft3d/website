@@ -6,17 +6,18 @@ permalink: /education/
 
 <section id="courses"></section>
 
-<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in (2018-2019)</h2>
+<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in (2019-2020)</h2>
 
-  * [GEO1002](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=46513): Geographical information systems & cartography
+  * [GEO1002](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48846): Geographical information systems & cartography
   * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49099): 3D Modelling of the Built Environment
-  * [GEO1008](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=47852): Geo Datasets and Quality
-  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48143): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i></a>
+  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49105): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i></a>
   * [GEO1016](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50504): Photogrammetry and 3D Computer Vision
-  * [GEO1101](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=47854): Synthesis Project
-  * [GEO2010](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=47856): Graduation thesis preparation
-  * [GEO2020](http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=47855): Graduation thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
-  * [GEO5010](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=47857): Research Assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
+  * [GEO1101](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49104): Synthesis Project
+  * [GEO2010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49107): Thesis preparation
+  * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49106): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
+  * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49111): Research Assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
+  * [GEO5013](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50539): 3D city modelling for urban applications
+  * BK4ON5: GIS-supported urban design specialist
 
 - - -
 
