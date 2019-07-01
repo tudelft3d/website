@@ -6,7 +6,7 @@ permalink: /education/
 
 <section id="courses"></section>
 
-<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in (2019-2020)</h2>
+<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in the 2019-2020 academic year</h2>
 
   * [GEO1002](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48846): Geographical information systems & cartography
   * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49099): 3D Modelling of the Built Environment
@@ -17,6 +17,9 @@ permalink: /education/
   * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49106): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
   * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49111): Research Assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
   * [GEO5013](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50539): 3D city modelling for urban applications
+
+<h2>Other courses we are teaching</h2>
+
   * BK4ON5: GIS-supported urban design specialist
 
 - - -
