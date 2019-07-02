@@ -99,7 +99,7 @@ Knowledge of programming in python is highly desirable.
 
 **Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)
 
-## Calculating Street Widths
+## Calculating street widths
 
 ![](img/RoadWidthMScTopicFull.png){:width="700px"}
 
@@ -121,7 +121,7 @@ Knowledge of programming in Python is required.
 
 **Contact:** [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
 
-## Handling massive 3Di datasets in 3D City Database
+## Handling massive 3Di datasets in 3D city database
 
 The project is about exploring 3DcityDB for managing massive input and output data for [3Di](http://www.3di.nu).
 3Di Water management is a web based application for detailed hydraulic computations using high resolution datasets.
@@ -424,7 +424,7 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 - - -
 
-## Learning to Synthesize Detailed 3D Building Models
+## Learning to synthesize detailed 3D building models
 
 <img src="img/synthesis.png" style="width: 400px;"/>
 
@@ -438,7 +438,7 @@ Proficient in one programming language, either C/C++ or Python; experiences in m
 
 - - -
 
-## Outer Surface Extraction for Complex 3D Models
+## Outer surface extraction for complex 3D models
 
 <img src="img/repair_urban_models.png" style="width: 800px;"/>
 
