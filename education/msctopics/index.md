@@ -11,6 +11,17 @@ permalink: /education/msctopics/
 
 - - -
 
+## Façade parsing from textured meshes
+
+![](img/facade_parsing.png){:width="600px"}
+
+Recent advances in Structure from Motion (SfM) and Multi-View Stereo (MVS) enable generating textured meshes of large urban scenes. Many real-world applications (e.g., sun light simulation) require detailed semantic information of these models. This project aims at partitioning the façade models into semantically meaning regions, i.e., walls, doors, windows, chimneys, and balconies using state-of-the-art machine learning / deep learning techniques.
+
+**Required Skills**: 
+Experiences in 3D mesh processing; Proficient in one programming language (e.g., C/C++ or Python); Attendance in courses (CS4220, or CS4240, or related online courses) on machine learning / deep learning. 
+
+**Contact**: [Weixiao GAO](https://3d.bk.tudelft.nl/weixiao/)
+
 ## Multidisciplinary graduation BK studio: City of the Future
 
 ![](img/cityfuture.jpg){:width="600px"}
