@@ -424,7 +424,7 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 - - -
 
-## Learning to Synthesize Detailed 3D Building Models
+## Learning to synthesize detailed 3D building models
 
 <img src="img/synthesis.png" style="width: 400px;"/>
 
@@ -438,7 +438,7 @@ Proficient in one programming language, either C/C++ or Python; experiences in m
 
 - - -
 
-## Outer Surface Extraction for Complex 3D Models
+## Outer surface extraction for complex 3D models
 
 <img src="img/repair_urban_models.png" style="width: 800px;"/>
 
