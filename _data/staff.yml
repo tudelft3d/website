@@ -26,18 +26,27 @@
   photo: francesca.jpg
   email: f.noardo@tudelft.nl
   homepage: 3d.bk.tudelft.nl/fnoardo
-  description: "I am a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).
-I work towards the integration of multi-source data in particular, detailed 3D models (from survey or from design) in interoperable 3D maps, having semantics (meaning and descriptions) from open standards and correct geometry. The inclusion of different levels-of-detail, time, extra information (energy, history, functions, sensor data…) make such maps increasingly powerful to analyse the city (e.g. noise, air quality, urban flooding), visualise effects of changes, communicate, educate.
+  description: "I am a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/), working on [Smart data integration for urban applications](https://3d.bk.tudelft.nl/projects/smartdi-ams/).
+I work towards the integration of multi-source data, in particular, detailed 3D models (from survey or from design) in interoperable 3D maps, having semantics (meaning and descriptions) from open standards and correct geometry. The inclusion of different levels-of-detail, time, extra information (energy, history, functions, sensor data…) make such maps increasingly powerful to analyse the city (e.g. noise, air quality, urban flooding), visualise effects of changes, communicate, educate.
 I envisage the concrete employment of such technology for smart cities applications.
 
 
 I am now working in projects aiming at the integration of 3D geoinformation with Building Information Models (BIM).
+The topic is addressed in the [EuroSDR GeoBIM project](https://3d.bk.tudelft.nl/projects/eurosdr-geobim/) with the focus on building permission issuing use case.
+
+The [GeoBIM benchmark](https://3d.bk.tudelft.nl/projects/geobim-benchmark/) aims instead at testing the support and performance of software managing Geo and BIM data (in IFC and CityGML) in order build a reference for people interested in the use of standardised data.
+I was awarded a fellowship position in the LEaDing Fellows Postdoc Programme, with the project 'Multisource Spatial data integration for smart city applications'. 
 
 
 I had my MSc in Architecture (Restoration and Enhancement) from the Politecnico di Torino (Italy) (2012), where I also obtained my PhD in Cultural Heritage (2016), during which (and until may 2018) my research was especially directed at the use of open standard data models and open technologies to archive high-level-of-detail and semantic information in 3D digital maps.
 
 
 I am the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions/comm4/wg2.html): Ontologies, Semantics, and Knowledge Representation for Geospatial Information of the International Society of Photogrammetry and Remote Sensing (ISPRS).
+
+
+The call for papers for a [Special issue 'Integration of BIM and GIS 
+for Built Environment Applications'](https://www.mdpi.com/journal/ijgi/special_issues/BIM_GIS_built) in the International Journal of Geo-Information: in the online journal, [IJGI - ISSN 
+2220-9964](http://www.mdpi.com/journal/ijgi).
 "
   projects:
     - name: esdr-geobim
