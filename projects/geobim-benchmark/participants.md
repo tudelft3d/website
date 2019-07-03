@@ -295,13 +295,13 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Italy</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/ign.gif" style="max-height:100px;"/></div></td>
+				<td> </td>
 				<td>Lorenzo Polia</td>
 				<td> </td>
 				<td>Italy</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/ign.gif" style="max-height:100px;"/></div></td>
+				<td> </td>
 				<td>Danny Hyam</td>
 				<td>Ordnance Survey</td>
 				<td>United Kingdom</td>
