@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 11th June 2019*
+*Last update: 03th July 2019*
 
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
@@ -287,6 +287,48 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Grégoire Maillet</td>
 				<td>IGN</td>
 				<td>France</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Nannina Spanò</td>
+				<td>Politecnico di Torino</td>
+				<td>Italy</td>
+			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/ign.gif" style="max-height:100px;"/></div></td>
+				<td>Lorenzo Polia</td>
+				<td> </td>
+				<td>Italy</td>
+			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/ign.gif" style="max-height:100px;"/></div></td>
+				<td>Danny Hyam</td>
+				<td>Ordnance Survey</td>
+				<td>United Kingdom</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Candan Eylül Kilsedar</td>
+				<td>Politecnico di Milano</td>
+				<td>Italy</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Elisa Rolland</td>
+				<td>CSTB</td>
+				<td>France</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Helen Eriksson</td>
+				<td>Lantmäteriet and Lund University</td>
+				<td>Sweden</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Krzysztof Bakuła</td>
+				<td>Warsaw University of Technology</td>
+				<td>Poland</td>
 			</tr>
 		</tbody>
 	</table>
