@@ -28,9 +28,13 @@ A winter school for presenting the main results and training to GeoBIM.
 on Monday, **8th July 2019 h. 9.30 - 12.30 CET**
  
 ### Where
-at the [**TU Delft**](https://3d.bk.tudelft.nl/about/#where), the Netherlands.
+at the [**TU Delft**](https://3d.bk.tudelft.nl/about/#where), the Netherlands, room **BG-west-350**.
 
-Or around the world, joining it through the **web** (we will send the link to registered people).
+Or around the world, joining it through the **web** following the **link** (please, try to connect 15 minutes before the meeting):
+
+[Join the meeting by the web-platform 'Zoom'](https://lu-se.zoom.us/j/356618156)
+
+[Join the meeting by Skype for Business](https://lu-se.zoom.us/skype/356618156)
 
 ### Agenda
 
