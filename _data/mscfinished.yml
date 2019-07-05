@@ -1,3 +1,10 @@
+- surname: Xu
+  name: Yixin
+  title: "Improving location accuracy of a crowdsourced weather station by using a point cloud: use case base Netatmo on the Hague"
+  link: https://3d.bk.tudelft.nl/pdfs/Yixin%20Xu%20thesis.pdf
+  year: 2019
+  image: yixin.png
+
 - surname: Flikweert
   name: Puck
   title: "Automatic Extraction of an IndoorGML Navigation from an Indoor Point Cloud"
