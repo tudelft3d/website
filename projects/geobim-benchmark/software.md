@@ -55,11 +55,67 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>1</td>
 			</tr>
 			<tr>
+				<td>Autodesk Revit 2018</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Autodesk Revit 2019</td>
+				<td>Windows 10/Home</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>Autodesk Revit</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>Graphisoft ArchiCAD 22.0.0</td>
 				<td>Windows 10/Home</td>
 				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
+			</tr>
+			<tr>
+				<td>Vectorworks Designer 2019</td>
+				<td>Windows 10/Home</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Datacomp Sp. z.o.o. BIM Vision 2.20.3</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Solibrí Model Viewer 9.8.18</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>CSTB eveBIM 2.8</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>Bimserver 1.5.138</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
@@ -84,13 +140,6 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>Construsoft Vico Office Suite</td>
-			</tr>
-			<tr>
-				<td>Vectorworks Designer 2019</td>
-				<td>Windows 10/Home</td>
-				<td>Results delivered</td>
-				<td> - </td>
-				<td>1</td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -182,6 +231,41 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>2</td>
 			</tr>
 			<tr>
+				<td>KIT FZK Viewer 5.1</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Hexagon AB tridicon CityDiscoverer Light 15.10</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Gmbh VirtualcitySYSTEMS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Gmbh MOSS Computer Grafik Systeme</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>iTOWNS 2.11.1</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td></td>
 			</tr>
 			<tr>
@@ -209,6 +293,13 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td>CSTB eveBIM 2.8</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td>4</td>
+			</tr>
 			<tr>
 				<td>Autodesk Revit</td>
 			</tr>
@@ -286,6 +377,34 @@ To guide your choice, it is preferable to use **different methods** for the same
 		</thead>
 		<tbody>
 			<tr>
+				<td>Trimble SketchUP</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Cloud Compare</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Meshlab</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>AutoCAD</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>...</td>
 			</tr>
 		</tbody>
@@ -315,11 +434,46 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>1</td>
 			</tr>
 			<tr>
+				<td>ESRI ArcGIS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>ESRI CityEngine</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>QGIS 3.6</td>
 				<td>Windows 10/Home 64-bits</td>
 				<td>Results delivered</td>
 				<td>Conversion to CityJSON</td>
 				<td>1</td>
+			</tr>
+			<tr>
+				<td>QGIS 2.18.14</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>QGIS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Microstation</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Bentley Map</td>
@@ -404,7 +558,18 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>2</td>
 			</tr>
 			<tr>
-				<td>eveBIM</td>
+				<td>KIT FZK Viewer 5.1</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>CSTB eveBIM 2.8</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td>4</td>
 			</tr>
 			<tr>
 				<td>Safe Software FME Data Inspector 2018.1</td>
@@ -412,6 +577,48 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>Results delivered</td>
 				<td> - </td>
 				<td>3</td>
+			</tr>
+			<tr>
+				<td>Hexagon AB tridicon CityDiscoverer Light 15.10</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>3DCityDB + CesiumJS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>3DCityDB 4.2.0</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Gmbh VirtualcitySYSTEMS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Gmbh MOSS Computer Grafik Systeme</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>iTOWNS 2.11.1</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -490,9 +697,9 @@ To guide your choice, it is preferable to use **different methods** for the same
 		</thead>
 		<tbody>
 			<tr>
-				<td>Safe Software FME</td>
+				<td>Safe Software FME 2018.1</td>
 				<td>Windows Pro 10</td>
-				<td>2018.1</td>
+				<td>Results delivered</td>
 				<td> </td>
 				<td>X</td>
 			</tr>
@@ -516,6 +723,20 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td>3DCityDB + CesiumJS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>PostgreSQL PostGIS</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
 			<tr>
 				<td>...</td>
 			</tr>
