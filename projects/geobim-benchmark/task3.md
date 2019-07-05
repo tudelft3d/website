@@ -131,7 +131,8 @@ The results template is organised in 5 sections:
 	.	
 * **Section 5** - *Finalisation* (participants can deliver eventual further information or comments, agree with the use of data and deliver the processed models, both in native formats and IFC, before submitting their results).
 
-Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/nww0e15hpq8e1vv/Task%203%20%E2%80%93%20Support%20for%20CityGML.docx?dl=0).
+Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/rfxyw2cpdi6ya02/Task%203%20%E2%80%93%20Support%20for%20CityGML.pdf?dl=0). *(Please note that the **online form has been improved with respect to this!**
+Our suggestion is to have a look at the whole task here and then do the tests while filling the online form. Thank you).*
 
 It is **really recommended to have a look at the whole task before starting.**
 
@@ -170,7 +171,7 @@ Begin to perform the Task and deliver results through the online [Results templa
 
 <div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/rOzxI8" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=rOzxI8&utm_source=typeform.com-13384974-Pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
- [word-format results template](https://www.dropbox.com/s/nww0e15hpq8e1vv/Task%203%20%E2%80%93%20Support%20for%20CityGML.docx?dl=0).
+
  
 You can see an [**example of delivered answers**](https://www.dropbox.com/s/wg8vy96kdaidefm/ExampleTask3.pdf?dl=0)
 
