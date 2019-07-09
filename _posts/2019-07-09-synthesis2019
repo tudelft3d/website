@@ -36,7 +36,7 @@ Shortcomings in the current data were identified, and some suggestions were elab
 
 Project ‘Influence  of 3D City Layout on AirQuality’
 
-The client for this project is the Dutch National Institute for Public Health and the Environment (RIVMxxlink). 
+The client for this project is the Dutch National Institute for Public Health and the Environment ([RIVM](https://www.rivm.nl/en)). 
 RIVM maintains a standardised calculation method to estimate air pollution produced by traffic in urban areas. 
 This method makes use of a street classification based on distance between buildings and roads and the height of these buildings (see figure below left).
 This street configuration determines different dilution levels for the pollutants, and consequently how much of the polluted air will stagnate between the buildings (with higher pollutant concentrations as consequence). 
