@@ -22,6 +22,8 @@ Experiences in 3D mesh processing; Proficient in one programming language (e.g.,
 
 **Contact**: [Weixiao GAO](https://3d.bk.tudelft.nl/weixiao/)
 
+- - -
+
 ## Multidisciplinary graduation BK studio: City of the Future
 
 ![](img/cityfuture.jpg){:width="600px"}
@@ -34,6 +36,7 @@ Students of different MSc tracks (thus Geomatics students are welcome) will be d
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
+- - -
 
 ## Improving automatic meshing for buildings
 
@@ -48,7 +51,6 @@ Following elective course GEO5013 is an advantage.
 **Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
-
 
 ## From GIS to 3D flow simulations in urban environments
 
@@ -65,7 +67,6 @@ Following elective course GEO5013 is recommended.
 
 - - -
 
-
 ## Guesstimation of the height of all USA buildings
 
 ![](img/zurich.png){:width="600px"}
@@ -76,12 +77,9 @@ It can be seen that several buildings are at the same height, and the methodolog
 
 The aim of this project is to develop a methodology to improve their results, in particular using machine learning and the [results we obtained for the Netherlands](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf).
 
-
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
-
-
 
 ## Automatic reconstruction of historical 3D city models
 
@@ -110,6 +108,8 @@ Knowledge of programming in python is highly desirable.
 
 **Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)
 
+- - -
+
 ## Calculating street widths
 
 ![](img/RoadWidthMScTopicFull.png){:width="700px"}
@@ -120,17 +120,7 @@ Knowledge of a programming language (preferably Python) is highly recommended.
 
 **Contact:** [Anna Labetski](mailto:a.labetski@tudelft.nl)
 
-## Versioning of 3D spatial data
-
-[![Versioning comic](img/version.jpg)](https://www.geeksaresexy.net/2018/08/26/versioning-important-comic/)
-
-This topic is about the investigation of versioning mechanisms for 3D spatial data, with an emphasis on city models and datasets produced by municipalities. The main aim of the project is to implement existing versioning solutions across different 3D exchange formats and evaluate them. It is, also, about proposing new methods to handle the issue.
-
-As part of the thesis you will have to identify specific use cases, such as the updating of existing 3D city models with new data in a way that ensures that revisions are maintained. You will have to communicate with stakeholders, such as municipalities or organisations that deal with multiple iterations of 3D data.
-
-Knowledge of programming in Python is required.
-
-**Contact:** [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
+- - -
 
 ## Handling massive 3Di datasets in 3D city database
 
@@ -143,6 +133,7 @@ Prior knowledge of databases and programming in Python or C/C++ is required.
 
 **Contact:** [Jonas van Schrojenstein](mailto:jonas.vanschrojenstein@nelen-schuurmans.nl) and [Kavisha](http://3d.bk.tudelft.nl/kavisha)
 
+- - -
 
 ## Sensor standards overview
 
@@ -156,15 +147,17 @@ This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), t
 
 **Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
+- - -
+
 ## Moving objects on the Web
 
 Describing trajectories and paths of moving objects requires a different approach to describing static ones. Research how best to support Web applications that generate or use data concerning moving objects. Use cases include transportation, tourism, migration, location-based services, travel blogs and wildlife tracking. There is an OGC standard for [Moving features](http://www.opengeospatial.org/standards/movingfeatures), but the XML encoding is too complex and verbose - not lightweight enough to conduct, for example, enhanced (near) real-time operations involving moving objects, via the Web.
-
 
 This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
 
 **Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
+- - -
 
 ## Develop a framework for sharing sensor data
 
@@ -184,7 +177,6 @@ A practical case for the study could be the [Base Registry Underground](https://
 This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
 
 **Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
 
 - - -
 
@@ -208,7 +200,6 @@ This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), t
 
 - - -
 
-
 ## 3D digital urban regulations to use GeoBIM for building permission checks
 
 The automation of urban regulation checks for the planning use case requires the urban regulations to be archived in a digital and spatial (3D) format.
@@ -218,6 +209,7 @@ In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://w
 **Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
+
 ## Extracting information from BIM models for GeoBIM building permission use case
 
 The integration of geoinformation with BIM information can be very effective for automatically checking urban regulations. However, not all the information which is present in BIM is necessary for regulations checking. Moreover, BIMs designed in actual practice sometimes have different characteristics than the ones expected by academy. At the same time too much detail hinders data processing and designers are reluctant to share all the details about their designs.
@@ -227,7 +219,6 @@ In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://w
 **Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
-
 
 ## Develop a framework to handle massive CityJSON files
 
@@ -247,27 +238,6 @@ There is an emerging standard about the tiling of 3D GIS datasets ([3D Tiles](ht
 Knowledge of Python and of web technologies (javascript; although that can be learned with the project) is enough.
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
-
-- - -
-
-## Develop a Blender addon with a complete set of tools for CityJSON files
-
-![](img/blender_cityjson.png){:width="500px"}
-
-[Blender](https://www.blender.org/) is a 3D modelling tool with the ability to be extended through the Python programming language. 
-Through the [BlenderGIS](https://github.com/domlysz/BlenderGIS) addon it can incorporate GIS functionality for the manipulation of 3D geospatial datasets.
-
-The aim of this MSc project is to create an addon that adds the ability in Blender to import/export and manipulate all aspects of a 3D city model in [CityJSON format](http://www.cityjson.org). 
-The addon should be able to:
-
-* Import/export CityJSON files
-* Incorporate the tools of [cjio](https://github.com/tudelft3d/cjio) for validation and reporting of the data
-* Allow editing of the city object semantic information, including geometric constraints according to [ISO 19107](http://geovalidation.bk.tudelft.nl/val3dity/docs/definitions/)
-* Provide searching functionality for the city objects
-
-Knowledge of Python is enough.
-
-**Contact:** [Stelios Vitalis](mailto:s.vitalis@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -291,7 +261,6 @@ The focus of the student within this project will be on using the datasets to de
 [More information is found there.](https://readar.com/jobs/internship-deep-learning-on-aerial-imagery/)
 
 *Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](mailto:svenbriels@readar.com)
-
 
 - - -
 
@@ -358,7 +327,6 @@ These topics can be done with Python as a post-processing of 3dfier.
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl)
 
-
 - - -
 
 ## 3D visualization of massive TINs
@@ -399,7 +367,6 @@ The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but pro
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters)
 
-
 - - -
 
 ## Snap rounding in a triangulation
@@ -429,7 +396,6 @@ LoD1 or LoD2 building models can be relatively easily generated from building fo
 Proficient in one programming language, either C/C++ or Python; experiences in mesh processing; willing to follow courses on machine learning (in particular Deep Learning) before or at the beginning of the project.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
-
 
 - - -
 
@@ -505,19 +471,16 @@ Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Ar
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
-
 - - -
 
 ## Computation of spatial extent for massive point cloud datasets
 
 ![](img/alphashape.png)
 
-
 Given a (classified) LAS pointcloud, how to (re)generate its spatial extent?
 
 Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
 
 A better solution is to use the alpha-shape of the set of points, but this is impossible with massive datasets (which are often very common in practice).
-
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 
