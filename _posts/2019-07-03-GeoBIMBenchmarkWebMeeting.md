@@ -13,6 +13,6 @@ Have a look at the [GeoBIM benchmark project](https://3d.bk.tudelft.nl/projects/
 
 
 <div class="row">
-  <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="{{ site.baseurl }}/projects/geobim-benchmark//img/meeting.gif"></div>
+  <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="{{ site.baseurl }}/projects/geobim-benchmark/img/Meeting.gif"></div>
 
 </div>

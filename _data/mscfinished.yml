@@ -1,3 +1,25 @@
+
+- surname: Wang
+  name: Qu
+  title: 3D breakline extraction from point clouds with the medial axis transform
+  image: quwang.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:ba8e4bf4-e473-410b-a1f0-ef48e9c2fbf3
+
+- surname: Tzounakos    
+  name: Nikolaos 
+  title: Robust interior-exterior classification for 3d models
+  image: interior_exterior.jpg
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b
+  
+- surname: Bouzas   
+  name: Vasileios
+  title: Structure-aware building mesh simplification
+  image: simplification.jpg
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
+
 - surname: Xu
   name: Yixin
   title: "Improving location accuracy of a crowdsourced weather station by using a point cloud: use case base Netatmo on the Hague"
