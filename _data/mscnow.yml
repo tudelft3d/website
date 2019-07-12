@@ -25,16 +25,6 @@
   title: An interactive design tool for urban planning using the size of the living space as unit of measurement
   image: gonzalez.png
 
-- surname: Tzounakos	  
-  name: Nikolaos 
-  title: Interior_exterior Classification of 3D Models
-  image: interior_exterior.jpg
-  
-- surname: Bouzas	  
-  name: Vasileios
-  title: Structure_aware Building Mesh Simplification
-  image: simplification.jpg
-
 - surname: Ai	  
   name: Zhiwei
   title: Urban Scene Understanding from Point Clouds
@@ -67,7 +57,4 @@
   title: Exploring the modelling of different LoDs of roads and intersections in 3D city models
   image: boersma.png
 
-- surname: Wang
-  name: Qu
-  title: 3D breakline extraction from point clouds
-  image: quwang.png
+
