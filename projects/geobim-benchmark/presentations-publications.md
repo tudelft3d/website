@@ -6,7 +6,9 @@ permalink: /projects/geobim-benchmark/presentations-publications.html
 
 <h1>Presentations & Publications</h1>
 
-
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/disseminationIMG.gif" }}" style="max-height: 300px"></div>
+</div>
 
 
 - - -

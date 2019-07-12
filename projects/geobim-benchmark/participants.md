@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 04th July 2019*
+*Last update: 12th July 2019*
 
 - - -
 
@@ -19,7 +19,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 
 
 
-<h2>Professionals</h2>
+## Professionals
 
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
@@ -43,12 +43,6 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Rob van der Knaap</td>
 				<td>Gis-Solutions</td>
 				<td>The Netherlands</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/willkomm.jpg" style="max-height:100px;"/></div></td>
-				<td>Philipp Willkomm</td>
-				<td>M.O.S.S. Computer Grafik Systeme GmbH</td>
-				<td>Germany</td>
 			</tr>
 			<tr>
 				<td> </td>
@@ -92,7 +86,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 
 
 
-<h2>Software companies and developers</h2>
+## Software companies and developers
 
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
@@ -111,12 +105,24 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>CSTB</td>
 				<td>France</td>
 			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/willkomm.jpg" style="max-height:100px;"/></div></td>
+				<td>Philipp Willkomm</td>
+				<td>M.O.S.S. Computer Grafik Systeme GmbH</td>
+				<td>Germany</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Dean Hintz</td>
+				<td>Safe Software</td>
+				<td>Canada</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
 		
 		
-<h2>Academy world</h2>
+## Academy world
 
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
@@ -129,6 +135,24 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/patrick.jpg" style="max-height:100px;"/></div></td>
+				<td>Patrick Janssen</td>
+				<td>National University of Singapore</td>
+				<td>Singapore</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Jernej Tekavec</td>
+				<td>University of Ljubljana, Faculty of Civil and Geodetic Engineering</td>
+				<td>Slovenia</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Miguel Azenha</td>
+				<td>University of Minho</td>
+				<td>Portugal</td>
+			</tr>
 			<tr>
 				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/dogus.JPG" style="max-height:100px;"/></div></td>
 				<td>Doğuş Güler</td>
@@ -345,7 +369,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 
 
 
-<h2>Public institutions</h2>
+## Public institutions
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
@@ -357,6 +381,12 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td> </td>
+				<td>Kate Noss</td>
+				<td>Ordnance Survey</td>
+				<td>United Kingdom</td>
+			</tr>
 			<tr>
 				<td> </td>
 				<td>Diana Moraru</td>
@@ -403,7 +433,7 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 	</table>
 </div>
 
-<h1>Benchmark Advisory Board</h1>
+## Benchmark Advisory Board
 
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">

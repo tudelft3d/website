@@ -25,16 +25,24 @@ A winter school for presenting the main results and training to GeoBIM.
 </div>
 
 ### When
-on Monday, **8th July 2019 h. 9.30 - 12.30 CET**
+on Monday, **8th July 2019 h. 9.30 - <!--12.30--> 11.00 CET**
  
 ### Where
 at the [**TU Delft**](https://3d.bk.tudelft.nl/about/#where), the Netherlands, room **BG-west-350**.
 
-Or around the world, joining it through the **web** following the **link** (please, try to connect 15 minutes before the meeting):
+Or around the world, joining it through the **web** 
+
+### What
+14 people participated, and it was useful to share the issues found during the tests, usually common to many, and to discuss the Tasks and the challenges.
+
+[Minute](...)
+
+<!-- following the **link** (please, try to connect 15 minutes before the meeting):
 
 [Join the meeting by the web-platform 'Zoom'](https://lu-se.zoom.us/j/356618156)
 
 [Join the meeting by Skype for Business](https://lu-se.zoom.us/skype/356618156)
+
 
 ### Agenda
 
@@ -74,7 +82,7 @@ In order to help us with organisational issues, **please register**:
 
 <div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/QyLxrI" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=QyLxrI&utm_source=typeform.com-13384974-Pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
-
+-->
 ----------------
 ----------------
 

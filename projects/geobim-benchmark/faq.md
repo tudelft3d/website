@@ -104,8 +104,14 @@ Yes, eventually, it is not a problem. But, if possible, we wil be grateful if yo
 
 <strong>Results templates</strong> are provided for each task in order to guide the test in each passage and deliver detailed results. They have the format of online forms, where doc/pdf/jpg files can be attached in specific sections, when required. The results template in word format is also available, to have an overview on the specific task, to be used as a guideline in making the test, and, eventually, to be attached in the case it is necessary to deliver more detailed descriptions.
 
+## Can I complete the online forms without an internet connection?
+
+Unfortunately, there’s no “offline mode” with Typeform (which is used for building the results templates). It’s designed to work only with an internet connection, which you need to load the typeform, and also to submit responses.
+
+If someone starts completing a typeform but loses their internet connection, they can click the Submit button, but a message will appear saying results cannot be submitted, and to not close the page. The typeform will keep trying until the internet connection returns, <strong>as long as the browser tab remains open</strong>.
+
 ## Why should I also attach the word format of the results template?
-It is not compulsory to add it, just do it if you have any doubt about the given answers in the online form (e.g. no space enough for the descriptions or screenshots, no space for other needed details, and similar issues).
+<strong>Only the submission of the online formas is mandatory.</strong> It is not compulsory to add other formats, just do it if you have any doubt about the given answers in the online form (e.g. no space enough for the descriptions or screenshots, no space for other needed details, and similar issues).
 
 ## In filling the results templates while preforming the task, is it possible to refer to web materials already answering the question (e.g. describing needed procedures or settings, and so on)?
 

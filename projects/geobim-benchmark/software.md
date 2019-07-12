@@ -76,6 +76,13 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td> </td>
 			</tr>
 			<tr>
+				<td>Autodesk Revit</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>Graphisoft ArchiCAD 22.0.0</td>
 				<td>Windows 10/Home</td>
 				<td>Results delivered</td>
@@ -119,27 +126,80 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>AECOsim Building Designer</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Autodesk Civil 3D</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>ACCA Edificius</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>simplebim</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Tekla</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Bentley Microstation</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Construsoft Vico Office Suite</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Autodesk Autocad Architecture</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Autodesk Fusion</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>OpenDesignAlliance IFC SDK</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -163,9 +223,17 @@ To guide your choice, it is preferable to use **different methods** for the same
 		<tbody>
 			<tr>
 				<td>ESRI ArcGIS</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Bentley Map</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -189,6 +257,10 @@ To guide your choice, it is preferable to use **different methods** for the same
 		<tbody>
 			<tr>
 				<td>Safe Software FME</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -266,6 +338,27 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td> </td>
 			</tr>
 			<tr>
+				<td>Solibri</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Sidefx Houdini</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Mobius Modeller (inhouse)</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td></td>
 			</tr>
 			<tr>
@@ -299,6 +392,13 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>in progress</td>
 				<td> - </td>
 				<td>4</td>
+			</tr>
+			<tr>
+				<td>Autodesk Revit</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>Autodesk Revit</td>
@@ -354,7 +454,11 @@ To guide your choice, it is preferable to use **different methods** for the same
 		</thead>
 		<tbody>
 			<tr>
-				<td>FME</td>
+				<td>Safe Software FME</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -399,6 +503,34 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>AutoCAD</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Solibri</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>FME Desktop 2018.1</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Sidefx Houdini</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Mobius Modeller (inhouse)</td>
 				<td> </td>
 				<td>in progress</td>
 				<td> </td>
@@ -469,6 +601,13 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td> </td>
 			</tr>
 			<tr>
+				<td>QGIS 3,4</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>Microstation</td>
 				<td> </td>
 				<td>in progress</td>
@@ -477,6 +616,10 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>Bentley Map</td>
+				<td> </td>
+				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -499,7 +642,11 @@ To guide your choice, it is preferable to use **different methods** for the same
 		</thead>
 		<tbody>
 			<tr>
-				<td>FME</td>
+				<td>Safe Software FME</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -621,6 +768,20 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td> </td>
 			</tr>
 			<tr>
+				<td>Sidefx Houdini</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Mobius Modeller (inhouse)</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>...</td>
 			</tr>
 		</tbody>
@@ -702,6 +863,13 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>Results delivered</td>
 				<td> </td>
 				<td>X</td>
+			</tr>
+			<tr>
+				<td>Safe Software FME</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
 			</tr>
 			<tr>
 				<td>...</td>

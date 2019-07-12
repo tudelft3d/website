@@ -95,12 +95,24 @@ The results template is organised in 5 sections:
 
 * **Section 5** - *Finalisation* (participants can deliver eventual further information or comments, agree with the use of data and deliver the processed models, both in native formats and IFC, before submitting their results).
 
-Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/4glxfy3itgrbnxa/Task%204%20%E2%80%93%20conversions.pdf?dl=0). *(Please note that the **online form has been improved with respect to this!**
-Our suggestion is to have a look at the whole task here and then do the tests while filling the online form. Thank you).*
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 It is **really recommended to have a look at the whole task before starting.**
 
+Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/4glxfy3itgrbnxa/Task%204%20%E2%80%93%20conversions.pdf?dl=0).
+
+*(Please note that the **online forms are made easier (and up-to-date) to be filled with respect to the word file!**
+Our suggestion is to have a look at the whole task here and then do the tests while filling the online form. Thank you).*
+
+**To begin and submit the online forms, an internet connection is needed. However, after it is loaded, no connection is necessary, and the form can stay open for long time, as long as te tab browser stay open (it won't refresh), so that you can take your time for doing tests.** See [FAQ](https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html)
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 **Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.** 
+
+**If you test more than one software, you should submit one form per software (all of them will be stored and the information won't be replaced**
+
 
 ### Structure of the online results template
 
