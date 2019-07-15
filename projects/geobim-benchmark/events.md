@@ -35,7 +35,7 @@ Or around the world, joining it through the **web**
 ### What
 14 people participated, and it was useful to share the issues found during the tests, usually common to many, and to discuss the Tasks and the challenges.
 
-[Minute](...)
+[Minute](https://www.dropbox.com/s/trgogk2fgt283l7/GeoBIMbenchmark_meeting_minute-2.docx?dl=0)
 
 <!-- following the **link** (please, try to connect 15 minutes before the meeting):
 
