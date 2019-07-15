@@ -1,8 +1,31 @@
+
+- surname: Du  
+  name: Shenglan
+  title: Accurate, Detailed and Automatic Tree Modelling from Point Clouds
+  image: tree_ShenglanDu.jpg
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:675ee438-3dc9-43c8-a7a7-f3b8807c583f
+
+- surname: Ruben    
+  name: Pablo
+  title: 3D City Models in the Context of Urban Mining
+  image: ruben.png
+  year: 2019
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A0fd2ffec-f25a-4391-be68-e816cc2611dd
+
+- surname: Garcia Gonzalez    
+  name: Francisco Gabriel
+  title: An interactive design tool for urban planning using the size of the living space as unit of measurement
+  image: gonzalez.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e
+
 - surname: Oldenburg  
   name: Davey
   title: Reverse Waste Flow Mapping for Amsterdam
   image: oldenburg.png
   year: 2019
+  link: http://resolver.tudelft.nl/uuid:098b385b-5e63-4559-931d-679837bd13db
 
 - surname: Wang
   name: Qu
