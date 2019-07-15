@@ -5,35 +5,15 @@
   title: Urban Environment Simulation based on CityGML with Energy ADE and Ladybug
   image: wang.png
 
-- surname: Oldenburg  
-  name: Davey
-  title: Reverse Waste Flow Mapping for Amsterdam
-  image: oldenburg.png
-
 - surname: Arapakis	  
   name: Panagiotis
   title: Coupling CityGML with ENVI-met
   image: arapakis.png
 
-- surname: Ruben	  
-  name: Pablo
-  title: Enrichment and application of digital 3D city models in the context of urban mining
-  image: ruben.png
-
-- surname: Garcia Gonzalez	  
-  name: Francisco Gabriel
-  title: An interactive design tool for urban planning using the size of the living space as unit of measurement
-  image: gonzalez.png
-
 - surname: Ai	  
   name: Zhiwei
   title: Urban Scene Understanding from Point Clouds
   image: understanding.jpg
-
-- surname: Du  
-  name: Shenglan
-  title: Accurate, Detailed, and Automatic Tree Modelling from Point Clouds
-  image: tree_ShenglanDu.jpg
 
 
 # - surname: Veenendaal  
@@ -51,10 +31,5 @@
   name: Nebras
   title: Automatic Conversion of CityGML to IFC
   image: nebras.png
-
-- surname: Boersma
-  name: Freek
-  title: Exploring the modelling of different LoDs of roads and intersections in 3D city models
-  image: boersma.png
 
 
