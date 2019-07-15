@@ -2,7 +2,7 @@
 layout: post
 title:  "New paper about the LandInfra standard and its role in solving the BIM-GIS quagmire."
 categories: news
-date: 2019-07-15 15:45
+date: 2019-07-15 14:40
 ---
 
 A new paper has been published:
