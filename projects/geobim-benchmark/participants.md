@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 12th July 2019*
+*Last update: 18th July 2019*
 
 - - -
 
