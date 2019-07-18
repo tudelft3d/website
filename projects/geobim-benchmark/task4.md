@@ -99,7 +99,7 @@ The results template is organised in 5 sections:
 
 It is **really recommended to have a look at the whole task before starting.**
 
-Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/4glxfy3itgrbnxa/Task%204%20%E2%80%93%20conversions.pdf?dl=0).
+Participants can have the overall in-sight into the task through reading the [complete list of questions](https://www.dropbox.com/s/kmq43ljuzlsfhw1/Task4.pdf?dl=0) and having a look at [an example of submitted template in its most up-to-date format](https://www.dropbox.com/s/sfx1se5qejrkc97/ExampleTask4_UpdatedForms.pdf?dl=0). 
 
 *(Please note that the **online forms are made easier (and up-to-date) to be filled with respect to the word file!**
 Our suggestion is to have a look at the whole task here and then do the tests while filling the online form. Thank you).*

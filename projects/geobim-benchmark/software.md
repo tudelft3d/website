@@ -23,8 +23,9 @@ In the last columns of the table that follows, some details about the used **met
 
 To guide your choice, it is preferable to use **different methods** for the same tools, and that participants with **different levels of expertise** test the same tool.
 
+The software whose testing status is "in progress" are only provisionally linked to the specific task, but they could be used also for others. More specific information is added after the test is delivered.
 
-*Last update: 7th June 2019*
+*Last update: 18th July 2019*
 - - -
 
 * Table of Content
@@ -169,7 +170,7 @@ To guide your choice, it is preferable to use **different methods** for the same
 			<tr>
 				<td>Bentley Microstation</td>
 				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>in progress</td>
 				<td> - </td>
 				<td> </td>
 			</tr>
@@ -198,6 +199,27 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td>OpenDesignAlliance IFC SDK</td>
 				<td> </td>
 				<td>SUGGESTED: TO BE TESTED</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>HALE</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Solibri</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>DDS-CAD</td>
+				<td> </td>
+				<td>in progress</td>
 				<td> - </td>
 				<td> </td>
 			</tr>
@@ -304,6 +326,20 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>KIT FZK Viewer 5.1</td>
+				<td>Windows 10 Enterprise</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>FreeCAD 0.18</td>
+				<td>Windows 10 Enterprise 2016 LTSB</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>KIT FZK Viewer 5.1</td>
 				<td> </td>
 				<td>in progress</td>
 				<td> - </td>
@@ -401,7 +437,11 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td> </td>
 			</tr>
 			<tr>
-				<td>Autodesk Revit</td>
+				<td>Autodesk Revit 2020</td>
+				<td>Windows 10 Pro</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>ArchiCAD</td>
@@ -706,10 +746,10 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>KIT FZK Viewer 5.1</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Windows 10 Pro</td>
+				<td>Results delivered</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>CSTB eveBIM 2.8</td>
@@ -727,10 +767,10 @@ To guide your choice, it is preferable to use **different methods** for the same
 			</tr>
 			<tr>
 				<td>Hexagon AB tridicon CityDiscoverer Light 15.10</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Windows 10 Enterprise</td>
+				<td>Results delivered</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>3DCityDB + CesiumJS</td>
@@ -779,6 +819,27 @@ To guide your choice, it is preferable to use **different methods** for the same
 				<td> </td>
 				<td>in progress</td>
 				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>HALE</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Solibri</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>DDS-CAD</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
 				<td> </td>
 			</tr>
 			<tr>

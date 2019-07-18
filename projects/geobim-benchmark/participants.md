@@ -117,6 +117,12 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Safe Software</td>
 				<td>Canada</td>
 			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/morrish.jpg" style="max-height:100px;"/></div></td>
+				<td>Sean Morrish</td>
+				<td>ESRI, UCD, NYU</td>
+				<td>USA</td>
+			</tr>
 		</tbody>
 	</table>
 </div>

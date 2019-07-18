@@ -115,7 +115,7 @@ The results template is organised in 5 sections:
 
 It is **really recommended to have a look at the whole task before starting.**
 
-Participants can have the overall in-sight into the task through the [word-format results template](https://www.dropbox.com/s/d6m19x59tkddsk0/Task%202%20%E2%80%93%20georeferencing%20IFC.pdf?dl=0). 
+Participants can have the overall in-sight into the task through reading the [complete list of questions](https://www.dropbox.com/s/duhw5fljfbw6ik3/Task2.pdf?dl=0) and having a look at [an example of submitted template in its most up-to-date format](hhttps://www.dropbox.com/s/74g8shc42via0wz/ExampleTask2_UpdatedForms.pdf?dl=0). 
 
 *(Please note that the **online forms are made easier (and up-to-date) to be filled with respect to the word file!**
 Our suggestion is to have a look at the whole task here and then do the tests while filling the online form. Thank you).*
