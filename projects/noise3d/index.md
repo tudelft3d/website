@@ -85,6 +85,14 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
   </div>
 </div>
 
+### Kickoff version 0.3 on 2019-07-19 in Delft
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0BS_nfIbHgZCsMzhz8PJU7KeBRgJDKI-2U9w4YVLh1m1pyezl_aPAcFHvgGuTGPozxDrUVVS6Tqcl/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
 - - -
 
 # Project partners
