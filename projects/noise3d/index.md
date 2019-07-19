@@ -85,7 +85,7 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
   </div>
 </div>
 
-### Kickoff version 0.3 on 2019-07-19 in Delft
+### Kickoff version 0.3 on 2019-07-05 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
