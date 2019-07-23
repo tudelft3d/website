@@ -18,7 +18,7 @@ Have a great summer all, you deserve it! 🤩😎
 <div class="row">
 {% for i in msc %}
 {% if i.surname == 'Du' or i.surname == 'Ruben' or i.surname == 'Garcia Gonzalez' or i.surname == 'Oldenburg' or i.surname == 'Boersma' or i.image == 'quwang.png' or i.surname == 'Tzounakos' or i.surname == 'Bouzas' or i.image == 'yixin.png' %}
-  <div class="col-sm-4 col-md-3">
+  <div class="col-sm-4 col-xs-6">
     <div class="thumbnail">
       <a href="{{ i.link }}"><img src="{{ "/img/msc/" | append: i.image | prepend: site.baseurl }}"/></a>
       <div class="caption">
