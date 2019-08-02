@@ -1,3 +1,6 @@
+- research_line: [2]
+  description: "Published paper: \"Incorporating Topological Representation in 3D City Models\""
+  date: 2019-08-02
 - research_line: [1, 3]
   description: "Published paper: \"The LandInfra standard and its role in solving the BIM-GIS quagmire\""
   date: 2019-07-15
