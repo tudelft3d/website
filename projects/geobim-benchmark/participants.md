@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 18th July 2019*
+*Last update: 06th August 2019*
 
 - - -
 
@@ -79,6 +79,12 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Lorenzo Polia</td>
 				<td> </td>
 				<td>Italy</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Artur Warchol</td>
+				<td>ProGea 4D sp. z.o.o.</td>
+				<td>Poland</td>
 			</tr>
 		</tbody>
 	</table>

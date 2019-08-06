@@ -1,6 +1,6 @@
 ---
 layout: benchmark
-title: Myran IFC model
+title: UpTown IFC model
 permalink: /projects/geobim-benchmark/uptown.html
 ---
 

@@ -25,7 +25,7 @@ To guide your choice, it is preferable to use **different methods** for the same
 
 The software whose testing status is "in progress" are only provisionally linked to the specific task, but they could be used also for others. More specific information is added after the test is delivered.
 
-*Last update: 18th July 2019*
+*Last update: 06th August 2019*
 - - -
 
 * Table of Content
@@ -84,6 +84,13 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td> </td>
 			</tr>
 			<tr>
+				<td>Autodesk Revit</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>Graphisoft ArchiCAD 22.0.0</td>
 				<td>Windows 10/Home</td>
 				<td>Results delivered</td>
@@ -96,13 +103,6 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
-			</tr>
-			<tr>
-				<td>Datacomp Sp. z.o.o. BIM Vision 2.20.3</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
 			</tr>
 			<tr>
 				<td>Solibrí Model Viewer 9.8.18</td>
@@ -119,11 +119,11 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td>4</td>
 			</tr>
 			<tr>
-				<td>Bimserver 1.5.138</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>BimServer 1.5.138</td>
+				<td>macOS 10.13.6</td>
+				<td>Results delivered</td>
 				<td> - </td>
-				<td> </td>
+				<td>2</td>
 			</tr>
 			<tr>
 				<td>Bentley Allplan</td>
@@ -133,9 +133,9 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td> </td>
 			</tr>
 			<tr>
-				<td>AECOsim Building Designer</td>
+				<td>AECOsim</td>
 				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>in progress</td>
 				<td> - </td>
 				<td> </td>
 			</tr>
@@ -169,6 +169,13 @@ The software whose testing status is "in progress" are only provisionally linked
 			</tr>
 			<tr>
 				<td>Bentley Microstation</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Bentley MicroStation + TerraSolid</td>
 				<td> </td>
 				<td>in progress</td>
 				<td> - </td>
@@ -339,6 +346,13 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td>1</td>
 			</tr>
 			<tr>
+				<td>BIM Vision 2.20.3</td>
+				<td>Windows 10 Enterprise 64-bit</td>
+				<td>Results delivered</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
 				<td>KIT FZK Viewer 5.1</td>
 				<td> </td>
 				<td>in progress</td>
@@ -494,11 +508,11 @@ The software whose testing status is "in progress" are only provisionally linked
 		</thead>
 		<tbody>
 			<tr>
-				<td>Safe Software FME</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Safe Software FME Desktop 2018.1</td>
+				<td>Windows 10 Enterprise</td>
+				<td>Results delivered</td>
 				<td> - </td>
-				<td> </td>
+				<td>3</td>
 			</tr>
 			<tr>
 				<td>...</td>
@@ -924,6 +938,13 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td>Results delivered</td>
 				<td> </td>
 				<td>X</td>
+			</tr>
+			<tr>
+				<td>Safe Software FME 2018.1</td>
+				<td>Windows Pro 10</td>
+				<td>Results delivered</td>
+				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>Safe Software FME</td>
