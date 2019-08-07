@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 06th August 2019*
+*Last update: 07th August 2019*
 
 - - -
 
@@ -320,6 +320,12 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Krzysztof Bakuła</td>
 				<td>Warsaw University of Technology</td>
 				<td>Poland</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Ihab Hijazi</td>
+				<td>Technical University of Munich, An-Najah National University</td>
+				<td>Germany, Palestine</td>
 			</tr>
 			<tr>
 				<td> </td>

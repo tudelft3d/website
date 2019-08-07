@@ -126,6 +126,13 @@ The software whose testing status is "in progress" are only provisionally linked
 				<td>2</td>
 			</tr>
 			<tr>
+				<td>BimServer</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> - </td>
+				<td> </td>
+			</tr>
+			<tr>
 				<td>Bentley Allplan</td>
 				<td> </td>
 				<td>SUGGESTED: TO BE TESTED</td>
@@ -795,6 +802,13 @@ The software whose testing status is "in progress" are only provisionally linked
 			</tr>
 			<tr>
 				<td>3DCityDB 4.2.0</td>
+				<td> </td>
+				<td>in progress</td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>3DCityDB</td>
 				<td> </td>
 				<td>in progress</td>
 				<td> </td>
