@@ -22,13 +22,14 @@ Three-dimensional city models are notoriously complex to visualise in a web-brow
 
 This thesis would explore new ways to solve these issues, and would especially explore the new [Draco library](https://google.github.io/draco/), which allows us to compress 3D meshes; [preliminary results](https://cesium.com/blog/2018/04/09/draco-compression/) are promising.
 
-The work would involve testing this with more 3D city models, writing converter from CityJSON, and exploring how complex geometric primitives can be preserved (Draco assumes a simple mesh; buildings are often formed of solids) and how to attach semantics to the model (using .b3dm or others).
+The work would involve testing this with more 3D city models, writing converter from CityJSON, and exploring how complex geometric primitives can be preserved (Draco assumes a simple mesh; buildings are often formed of solids) and how to attach semantics to the model (using .b3dm or others). We have implemented a *glTF* and *b3dm* conversion in [cjio](https://github.com/tudelft3d/cjio), but need thorough testing and improvements. However, it could serve as the starting point for the thesis.
+
+If you work on this topic, you can expect to learn how binary file formats work exactly (even write your own), about rendering 3D objects, how to use Cesium, certainly the ins and outs of CityJSON, and more.  
 
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Balázs Dukai](https://www.balazsdukai.com/)
 
-
-
+- - -
 
 ## Façade parsing from textured meshes
 
