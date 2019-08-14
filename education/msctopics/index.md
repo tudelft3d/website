@@ -11,6 +11,25 @@ permalink: /education/msctopics/
 
 - - -
 
+
+## Compression of 3D city models on the web for visualisation
+
+![](img/3dcmview.jpg){:width="600px"}
+
+Three-dimensional city models are notoriously complex to visualise in a web-browser because they are usually rather large and the users would like to be able to explore the attributes (attached to different elements at different levels, eg to a building, to a window, etc.).
+
+[Cesium](https://cesiumjs.org/) partly solves the issue of having complex 3D city models in a browser, but the files are still rather large and attaching complex semantics/attributes is still not fully satisfactory.
+
+This thesis would explore new ways to solve these issues, and would especially explore the new [Draco library](https://google.github.io/draco/), which allows us to compress 3D meshes; [preliminary results](https://cesium.com/blog/2018/04/09/draco-compression/) are promising.
+
+The work would involve testing this with more 3D city models, writing converter from CityJSON, and exploring how complex geometric primitives can be preserved (Draco assumes a simple mesh; buildings are often formed of solids) and how to attach semantics to the model (using .b3dm or others).
+
+
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Balázs Dukai](https://www.balazsdukai.com/)
+
+
+
+
 ## Façade parsing from textured meshes
 
 ![](img/facade_parsing.png){:width="600px"}
