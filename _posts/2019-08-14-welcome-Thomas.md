@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Welcome Clara!
+title:  Welcome Thomas!
 categories: news
 date: 2019-08-14 3:45
 ---
