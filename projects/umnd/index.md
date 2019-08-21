@@ -80,8 +80,8 @@ The following is the list of events that we participated in or organised related
 
 ### 2018
 
-- [3D GeoInfo 2018 Conference, TU Delft, 1 and 2 October](https://3dgeoinfo2018.nl/)
-- [3D GeoInfo 2018 pre-conference workshop, TU Delft, 30 September](https://3dgeoinfo2018.nl/workshop.html)
+- [3D GeoInfo 2018 Conference, TU Delft, 1 and 2 October](https://3d.bk.tudelft.nl/events/3dgeoinfo2018/)
+- [3D GeoInfo 2018 pre-conference workshop, TU Delft, 30 September](https://3d.bk.tudelft.nl/events/3dgeoinfo2018/workshop.html)
 - [Urbanism PhD Day 2018, TU Delft, 15 June](https://www.urbanism.nl)
 - [International Symposium on Point Cloud Processing, TU Delft, 13 March](https://3d.bk.tudelft.nl/events/pcp2018/)
 
