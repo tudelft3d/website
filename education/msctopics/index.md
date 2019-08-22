@@ -10,7 +10,18 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts
 
+This MSc thesis topic will be jointly supervised by staff of the 3D Geoinformation group (Dept. of Urbanism) and the Climate Design group (Dept. of Architectural Engineering and Technology). Ideally, two students (one for each research group) will work together, however focusing each on one of the following topics:
+
+![](img/energy2019.jpg){:width="600px"}
+
+For the Geomatics track, the focus will be on modelling the building stock and the (energy) supply networks of a district in an integrated GIS environment. CityGML and its extensions Energy ADE and Utility Network ADE will be considered for the purpose. At least a basic knowledge of CityGML is required for this topic.
+The focus of the energy track will be on developing a GIS-based Urban Energy Model (UEM) which simulates the building energy performance on the urban-scale. While the building  energy efficiency is getting greater attention, there is a lack of building energy simulation on the urban scale. The UEM has to be computationally efficient and simultaneously use a set of input parameters that is aggregated to a level which is proportional with the urban GIS data. This will make the model suited for the macro-level simulations. The data relates to the basic building information such as wall and window areas, shading coefficients, material properties, floor area, lighting density, internal heat production from appliances, plug loads, and occupancy schedules. 
+The above-mentioned GIS-model will be integrated with the UEM, as well as design algorithm, in order to extract suitable data to be used as input to the energy models. The GIS platform collected and synthesized the data and then will be used as the input of the UEM to get energy use of buildings in the area. The model will also be applied to evaluate the energy savings of desired retrofit scenarios.
+In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Saleh Mohammadi] (https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&cHash=) and [Sabine Jansen](https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&cHash=) (Climate Design group)
 
 ## Compression of 3D city models on the web for visualisation
 
@@ -25,7 +36,6 @@ This thesis would explore new ways to solve these issues, and would especially e
 The work would involve testing this with more 3D city models, writing converter from CityJSON, and exploring how complex geometric primitives can be preserved (Draco assumes a simple mesh; buildings are often formed of solids) and how to attach semantics to the model (using .b3dm or others). We have implemented a *glTF* and *b3dm* conversion in [cjio](https://github.com/tudelft3d/cjio), but need thorough testing and improvements. However, it could serve as the starting point for the thesis.
 
 If you work on this topic, you can expect to learn how binary file formats work exactly (even write your own), about rendering 3D objects, how to use Cesium, certainly the ins and outs of CityJSON, and more.  
-
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Balázs Dukai](https://www.balazsdukai.com/)
 
