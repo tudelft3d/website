@@ -21,7 +21,7 @@ The focus of the energy track will be on developing a GIS-based Urban Energy Mod
 The above-mentioned GIS-model will be integrated with the UEM, as well as design algorithm, in order to extract suitable data to be used as input to the energy models. The GIS platform collected and synthesized the data and then will be used as the input of the UEM to get energy use of buildings in the area. The model will also be applied to evaluate the energy savings of desired retrofit scenarios.
 In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Saleh Mohammadi] (https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&cHash=) and [Sabine Jansen](https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&cHash=) (Climate Design group)
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Saleh Mohammadi](https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&cHash=) and [Sabine Jansen](https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&cHash=) (Climate Design group)
 
 ## Compression of 3D city models on the web for visualisation
 
