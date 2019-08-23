@@ -10,6 +10,7 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+
 ## GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts
 
 This MSc thesis topic will be jointly supervised by staff of the 3D Geoinformation group (Dept. of Urbanism) and the Climate Design group (Dept. of Architectural Engineering and Technology). Ideally, two students (one for each research group) will work together, however focusing each on one of the following topics:
@@ -22,6 +23,8 @@ The above-mentioned GIS-model will be integrated with the UEM, as well as design
 In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.
 
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Saleh Mohammadi](https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&cHash=) and [Sabine Jansen](https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&cHash=) (Climate Design group)
+
+- - -
 
 ## Compression of 3D city models on the web for visualisation
 
