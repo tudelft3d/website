@@ -210,8 +210,11 @@
 - name: XXIVth ISPRS Congress
   url: http://www.isprs2020-nice.science
   place: Nice, France
-  start: 2020-07-12
-  end: 2020-07-17
+  start: 2020-06-12
+  end: 2020-06-17
+  milestones:
+    - name: Deadline for abstracts and full papers
+      date: 2020-02-03
 
 - name: ISPRS Geospatial Week 2017
   url: http://zhuanti.3snews.net/2016/ISPRS/
