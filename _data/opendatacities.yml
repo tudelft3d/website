@@ -1,3 +1,12 @@
+- dataset: Singapore
+  link:    https://github.com/ualsg/hdb3d-data
+  country: Singapore
+  building_lod: LoD1
+  formats: CityJSON, OBJ
+  year: 2019
+  classes:  Building
+  texture:  no
+  notes: Public housing (HDB) buildings. Code used to generate dataset is publicaly available.
 
 - dataset: Zürich
   link:    https://data.stadt-zuerich.ch/dataset?q=&tags=3d-stadtmodell
