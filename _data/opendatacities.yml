@@ -6,7 +6,7 @@
   year: 2019
   classes:  Building
   texture:  no
-  notes: Public housing (HDB) buildings. Code used to generate dataset is publicaly available.
+  notes: Public housing (HDB) buildings. Code used to generate dataset is publicly available.
 
 - dataset: Zürich
   link:    https://data.stadt-zuerich.ch/dataset?q=&tags=3d-stadtmodell
