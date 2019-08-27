@@ -5,7 +5,7 @@ permalink: /projects/eurosdr-geobim/
 ---
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eurosdrgeobim/imgs/eurosdrgeobim.jpg" }}"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eurosdrgeobim/imgs/eurosdrgeobim.gif" }}"></div>
 </div>
 
 - - -
