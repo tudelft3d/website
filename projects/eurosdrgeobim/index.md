@@ -37,52 +37,72 @@ The second phase aims at the definition of a workflow and of the specific requir
 
  - - -
 
-## Results and Reports
+## Publications
 
-Paper presented to the 3DGeoinfo conference, Delft, 1-2 October 2018:
+Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [Investigating the state of play of GeoBIM across Europe](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W10/19/2018/). International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, XLII-4/W10, 19-26, 2018, 3DGeoinfo conference, Delft, 1-2 October 2018. https://doi.org/10.5194/isprs-archives-XLII-4-W10-19-2018.
 
-Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [INVESTIGATING THE STATE OF PLAY OF GEOBIM ACROSS EUROPE](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W10/19/2018/). International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, XLII-4/W10, 19-26, 2018, https://doi.org/10.5194/isprs-archives-XLII-4-W10-19-2018.
+Noardo, F., Ellul, C., Harrie, L., Overland, I., Shariat, M., Arroyo Ohori, K., Stoter, S. (2019). [Opportunities and challenges for GeoBIM in Europe: developing a building permits use-case to raise awareness and examine technical interoperability challenge.](https://doi.org/10.1080/14498596.2019.1627253) Journal of Spatial Science – Special issue “Nexus of BIM and GIS: integrating building and geospatial data” https://doi.org/10.1080/14498596.2019.1627253
 
+<!--
+Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (2019). EuroSDR GeoBIM project: a study in Europe on how to use the potentials of BIM and geo data in practice. 3DGeoInfo2019 Conference, Singapore - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences.
+-->
 
  - - -
 
 ## Project meetings
 
-### 1st EuroSDR GeoBIM project meeting: 8-9 May 2018, Amsterdam (NL).
+### 1st EuroSDR GeoBIM project meeting: Kick-off 29-30 November 2017, Amsterdam (NL).
 
 <div class="row">
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="8-9/5/2018 Amsterdam"><img src="/projects/eurosdrgeobim/imgs/Meeting1.png" alt="1st Meeting EuroSDR GeoBIM partners" ></a></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="29-30/11/2017 Amsterdam (NL)"><img src="/projects/eurosdrgeobim/imgs/Meeting0.gif" alt="Kick-off Meeting EuroSDR GeoBIM partners" ></a></div>
+<p class="text-left">Kick-off meeting of the EuroSDR GeoBIM project.</p>
+</div>
+
+### 2nd EuroSDR GeoBIM project meeting: 8-9 May 2018, Amsterdam (NL).
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="8-9/5/2018 Amsterdam (NL)"><img src="/projects/eurosdrgeobim/imgs/Meeting1.png" alt="2nd Meeting EuroSDR GeoBIM partners" ></a></div>
 <p class="text-left">First phase of the project: investigation of the state of play of GeoBIM in the participating Countries, through questionnaires.</p>
 </div>
 
-### 2nd EuroSDR GeoBIM project meeting: 26 September 2018, Amsterdam (NL).
+### 3rd EuroSDR GeoBIM project meeting: 26 September 2018, Amsterdam (NL).
 <div class="row">
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="26/9/2018 Amsterdam"><img src="/projects/eurosdrgeobim/imgs/Meeting2.png" alt="2nd Meeting EuroSDR GeoBIM partners" ></a></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="26/9/2018 Amsterdam (NL)"><img src="/projects/eurosdrgeobim/imgs/Meeting2.png" alt="3rd Meeting EuroSDR GeoBIM partners" ></a></div>
 <p class="text-left">Second phase of the project: GeoBIM for two use cases. First use case, <strong>building permission issuing</strong>: current practice in the participating Countries and GeoBIM workflow proposal.</p>
 </div>
 
-### 3rd EuroSDR GeoBIM project meeting: 13-14 February 2019, Copenhagen (DK).
+### 4th EuroSDR GeoBIM project meeting: 13-14 February 2019, Copenhagen (DK).
 <div class="row">
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="14-15/03/2019 Copenhagen"><img src="/projects/eurosdrgeobim/imgs/Meeting4.gif" alt="3rd Meeting EuroSDR GeoBIM partners" ></a></div>
-<p class="text-left">Second phase of the project. Use case <strong>building permission issuing</strong>: workflow finalisation; results of interviews in Municipalities; usful data. Use case <strong>assets and facility management</strong>: discussion of the needed approach.</p>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="14-15/03/2019 Copenhagen (DK)"><img src="/projects/eurosdrgeobim/imgs/Meeting4.gif" alt="4th Meeting EuroSDR GeoBIM partners" ></a></div>
+<p class="text-left">Second phase of the project. Use case <strong>building permission issuing</strong>: workflow improvement; results of interviews in Municipalities; useful data. Use case <strong>assets and facility management</strong>: introduction and discussion of the needed approach.</p>
 </div>
 
+### 5th EuroSDR GeoBIM project meeting: 17-18 June 2019, Lund (SE).
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="17-18/06/2019 Lund (SE)"><img src="/projects/eurosdrgeobim/imgs/Meeting5.gif" alt="5th Meeting EuroSDR GeoBIM partners" ></a></div>
+<p class="text-left">Second phase of the project. Use case <strong>building permission issuing</strong>: final workflow review in small working groups; further results of interviews in Municipalities. Second case study from France available, and more data are provided from the ICGC Catalunya. Use case <strong>assets and facility management</strong>: first results of the initial interviews with stakeholders.</p>
+</div>
 
-
-
-
-
-<!-- ## Reports
-
-  1. The final report of the first phase of the project is found [here](https://3d.bk.tudelft.nl/pdfs/xxx). -->
-
-
-<!-- ## Open-source software -->
 
 
 ## Presentations
 
-### Presentation at the [GeoDesign+BIM conference](https://geo-bim.org/europe/index.html) 2nd November 2018 in Amsterdam
+<!--
+### Presentation at the [GEOBIM conference](https://geo-bim.org/europe/index.html) 11-12 November 2019 in Amsterdam
+
+...
+
+### Presentation at the [3D Geoinfo 2019 conference](https://www.3dgeoinfo2019.com) 23rd-27th September 2019, Singapore
+...
+
+### Presentation at the [Measurement, Visualisation and Processing in BIM for Design and Construction Management 2019 Conference](http://mvpbim2019.org) 24th September 2019 in Prague (CZ)
+
+...
+
+
+-->
+
+### Presentation at the [GeoDesign+BIM conference](https://geo-bim.org/europe/index.html) 2nd November 2018 in Amsterdam (NL)
 
 <div class="row">
   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -90,7 +110,7 @@ Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [INVE
   </div>
 </div>
 
-### Presentation at the [3DGeoinfo conference](https://geo-bim.org/europe/index.html) 1st October 2018 in Delft
+### Presentation at the [3DGeoinfo conference](https://geo-bim.org/europe/index.html) 1st October 2018 in Delft (NL)
 
 <div class="row">
   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -98,23 +118,6 @@ Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [INVE
   </div>
 </div>
 
-
-<!--
-<div class="row">
-  <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQIBHL1kPQuQXAcPC0KpTeLNJCeSpvk2GC0jVs5-9M9dvmQ3ZYSfKLohd9yZdmWmR_iwZYZWjpJNNfu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-  </div>
-</div>
-
-### Progress meeting on 2018-07-11 in Delft
-
-<div class="row">
-  <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSoc6X22aCw8VRb2_hSW0z84RFdBZH2958mL_T893bfg9vcgHtM_D-68kOMso7_slRJDilujDgExZTa/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-  </div>
-</div>
-
--->
 - - -
 
 ## Project partners
@@ -138,6 +141,8 @@ Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [INVE
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.gugik.gov.pl" title="GUGiK (Poland)"><img src="/projects/eurosdrgeobim/imgs/gugik-logo.png" alt="GUGiK logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.ign.fr" title="IGN (France)"><img src="/projects/eurosdrgeobim/imgs/ign-logo.jpg" alt="IGN logo" style="max-height: 200px;"></a></div>
+  
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="http://www.cstb.fr/en/" title="Centre Scientifique et Technique du Bâtiment"><img src="/projects/eurosdrgeobim/imgs/CSTB-logo.jpg" alt="CSTB logo" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.lantmateriet.se" title="Lantmateriet (Sweden)"><img src="/projects/eurosdrgeobim/imgs/landmateriet-logo.png" alt="Landmateriet logo" style="max-height: 200px;"></a></div>
 
@@ -171,11 +176,16 @@ Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [INVE
 
 ## Connected projects
 
-[GeoBIM](https://3d.bk.tudelft.nl/projects/geobim/)
+<div class="row">
 
-[Smart data integration for urban applications](https://3d.bk.tudelft.nl/projects/smartdi-ams/)
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/" title="GeoBIM benchmark 2019"><img src=" /img/projects/benchmark.png" alt="GeoBIM benchmark 2019" style="max-height: 200px;"></a></div>
+    
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/geobim/" title="GeoBIM"><img src=" /img/projects/geobim.jpg" alt="GeoBIM" style="max-height: 200px;"></a></div>
 
-[GeoBIM benchmark 2019](https://3d.bk.tudelft.nl/projects/geobim-benchmark/)
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/smartdi-ams/" title="Smart data integration for urban applications"><img src=" /img/projects/sdi-ams.jpg" alt="Smart data integration for urban applications" style="max-height: 200px;"></a></div>
+
+</div>
+
 - - -
 <!--
 ## Team
