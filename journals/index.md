@@ -10,7 +10,7 @@ Many of the listed journals have been involved in a comprehensive scientometric 
 
 We support <a href="https://scirev.sc">SciRev</a>, a website which allows you to share your experience with a journal's scientific review process. It aggregates journal review quality ratings and processing times, and helps to differentiate efficient journals with a committed peer-review. Therefore for each entry, where applicable, we also provide the link to its SciRev page.
 
-The impact factor for each journal can be checked (inside the campus or using a VPN) [here](http://admin-apps.webofknowledge.com/JCR/JCR). The search system is *very* picky. It's probably easier to search by ISSN or to first find the exact name [here](http://admin-apps.webofknowledge.com/JCR/JCR?RQ=TITLES_FULL) using the search function of your browser.
+The impact factor for each journal can be checked (inside the campus or using a VPN) [here](https://jcr.clarivate.com).
 
 You might also be interested in related efforts:
 <ul>
