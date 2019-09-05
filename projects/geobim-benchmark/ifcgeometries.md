@@ -57,4 +57,4 @@ In the final part of the video, the red and green surfaces are mapping the norma
 --------------------------
 ## Download
 
-You can download the IFCgeometries.ifc data (IFC 2x3) from this [**link**](https://www.dropbox.com/s/6lh9q8mzxwlzdi4/IFCgeometries.ifc?dl=0)
+You can download the IFCgeometries.ifc data (IFC 2x3) [NEW revised VERSION from 05/09/2019] from this [**link**](https://www.dropbox.com/s/y7ot7qymrahao12/IFCgeometries.ifc?dl=0)

@@ -60,4 +60,4 @@ In Figure 3, the red and green surfaces are mapping the normals directions of th
 --------------------------
 ## Download
 
-You can download the IFC4geometries.ifc data (IFC 4) from this [**link**](https://www.dropbox.com/s/9adwrn1ubwwnr4p/IFCgeometries_IFC4.ifc?dl=0)
+You can download the IFC4geometries.ifc data (IFC 4) [NEW revised VERSION from 05/09/2019] from this [**link**](https://www.dropbox.com/s/oawyoskhb27ujyi/IFCgeometries_IFC4.ifc?dl=0)
