@@ -155,19 +155,6 @@ Knowledge of a programming language (preferably Python) is highly recommended.
 
 - - -
 
-## Handling massive 3Di datasets in 3D city database
-
-The project is about exploring 3DcityDB for managing massive input and output data for [3Di](http://www.3di.nu).
-3Di Water management is a web based application for detailed hydraulic computations using high resolution datasets.
-The aim is to: (1) create a data warehouse (i.e. a central repository) for 3D datasets used in hydraulic modelling by integrating 3DCityDB with 3Di, (2) use the integrated 3D city and 3Di area models for different applications such as visualization.
- 
-The project is in collaboration with Nelen en Schuurmans, Utrecht.
-Prior knowledge of databases and programming in Python or C/C++ is required.
-
-**Contact:** [Jonas van Schrojenstein](mailto:jonas.vanschrojenstein@nelen-schuurmans.nl) and [Kavisha](http://3d.bk.tudelft.nl/kavisha)
-
-- - -
-
 ## Sensor standards overview
 
 Create an overview of the standards landscape related to sensors and observations that explains the scope of each of these standards, their application to practical use cases, impact on Spatial Data Infrastructures and mechanisms by which they may be combined. 
@@ -297,30 +284,6 @@ The focus of the student within this project will be on using the datasets to de
 
 - - -
 
-## Interoperability between BIM IFC & BEM gbXML
-
-![](img/ifc_gbxml.png){:width="400px"}
-
-The aim of the project is to investigate the interoperability between two popular standards in the BIM (Building Information Modelling) and BEM (Building Energy Modelling) domains: [IFC](https://www.buildingsmart.org/about/what-is-openbim/ifc-introduction/) and [gbXML](http://www.gbxml.org). The goal is to compare and identify the schematic mapping between these two standards and develop a (Python/C++) prototype based on these mappings for data conversion. Real world gbXML datasets are to be generated for testing in gbXML energy simulations using tools such as EnergyPlus, Revit or IES.
-
-Prior knowledge of programming in Python or C++ is required.
-
-*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha), [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## Handling massive 3D data using NoSQL databases
-
-![](img/NOSQL.jpg){:width="400px"}
-
-The project is about exploring NoSQL databases for storing massive 3D data. The main test dataset is the TIN generated from national elevation model of the Netherlands (AHN3) with a point density of over 10 points/m2. Several data structures have been proposed for the representation and storage of TINs in memory and in databases. A few of those data structures ([here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B2/123/2016/)) are to be tested with the generated TIN models to account for their geometry, topology, storage, indexing, and loading times in a NoSQL database and compare the results with already available results of testing with Postgres/PostGIS database to analyse the performance of NoSql vs. SQL databases.
-
-Prior knowledge of databases and programming in Python or C++ is required.
-
-*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
 ## Point cloud normal estimation based on the 3D medial axis transform
 
 ![](img/wrong_normal_orientation.png){:width="400px"}
@@ -359,17 +322,6 @@ The aim of this MSc project is to further develop some lacking features of 3dfie
 These topics can be done with Python as a post-processing of 3dfier.
 
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl)
-
-- - -
-
-## 3D visualization of massive TINs
-
-![](img/cesiumproject.jpg){:width="400px"}
-
-Visualization is an important and complex issue in the context of 3D city models. The enormous amount of data to be fetched, the heterogeneity of data sources, and the complexity of rendering are only a few parts of this challenge. The project aims at investigating 3D tiling schemes for efficiently visualizing massive TINs using [Cesium](https://cesiumjs.org) 3D webglobe.
-The knowledge of programming in C++ is required.
-
-*Contact:* [Kavisha](http://3d.bk.tudelft.nl/kavisha) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
