@@ -11,6 +11,22 @@ permalink: /education/msctopics/
 
 - - -
 
+## Storing CityJSON to NoSQL databases (e.g. MongoDB)
+
+![](img/NOSQL.jpg){:width="400px"}
+
+CityJSON has been proven to be an efficient way of storing 3D city models by using, on average, about 6x less space than CityGML files.
+Nevertheless, permanent storage and robust access of such big amount of data can better be managed through the use of databases, which ensure [ACID](https://en.wikipedia.org/wiki/ACID) reliability.
+While 3DcityDB is already a way of mapping the CityGML data model to traditional SQL databases (e.g. PostGIS and ORACLE), modern web applications require more flexibility and use extensively NoSQL database to store data.
+In particular, MongoDB seems to work very well with JSON data.
+
+The focus of this thesis is to develop a way to store CityJSON in MongoDB (or other NoSQL databases) and evaluate the efficiency of such an approach.
+A prototype application might be required to be developed and/or support in [cjio](https://github.com/tudelft3d/cjio) might be added as a result of this project.
+
+Knowledge of Python programming language is recommended.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
+
 ## GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts
 
 This MSc thesis topic will be jointly supervised by staff of the 3D Geoinformation group (Dept. of Urbanism) and the Climate Design group (Dept. of Architectural Engineering and Technology). Ideally, two students (one for each research group) will work together, however focusing each on one of the following topics:
