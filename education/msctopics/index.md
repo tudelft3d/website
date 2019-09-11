@@ -10,6 +10,17 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## Where will you lose you hat? Finding the windiest street in the Netherlands
+Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns. 
+
+In this MSc thesis we will use Netherlands wind maps and 3D city models to explore the correspondence between larger wind maps and local winds. The data inherent in 3D city models will be used to derive fundamental parameters that describe urban morphologies, such as skyview factor, length-to-width ratio, orientation or building density. Through these parameters we will classify diverse urban areas, and explore relations between the derived urban parameters and the local potential for wind enhancement or reduction over the Netherlands. 
+
+If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models, how to convert a city object, city-parts into a machine-learnable representation, how various urban layouts influence wind distributions. Ideally, you would also explore how to scale up the operation to a whole country, and optionally you may also learn how to run Computational Fluid Dynamic (CFD) simulations for wind.
+
+![](img/WindyStreetPicture.png){:width="400px"}
+
+
+**Contact:** [Clara Garcia-Sanchez](https://cgarcia-sanchez.com) and [Balazs Dukai](http://balazsdukai.com).
 
 ## Storing CityJSON to NoSQL databases (e.g. MongoDB)
 
