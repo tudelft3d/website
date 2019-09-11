@@ -39,7 +39,7 @@ in Amsterdam at the [**Amsterdam institute for Advanced Metropolitan Solutions (
 
 *Part 1*		Geo- and BIM information, towards interoperability
 
-	- 3D City models: overview, effective use cases, data and related standards (CityGML, CityJSON...)
+  - 3D City models: overview, effective use cases, data and related standards (CityGML, CityJSON...)
 
   - Building Information Models: overview, effective use cases, data and related standards (IFC...)
 
