@@ -50,3 +50,4 @@ Have a great summer all, you deserve it! 🤩😎
 ![]({{ site.baseurl }}/img/2019/TzounakosDefense.jpg)
 ![]({{ site.baseurl }}/img/2019/QuWangDefense.jpg)
 ![]({{ site.baseurl }}/img/2019/YixinXuDefense.jpeg)
+![]({{ site.baseurl }}/img/2019/ShenglanDuDefense.jpeg)
