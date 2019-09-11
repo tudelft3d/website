@@ -19,14 +19,14 @@ A winter school for presenting the main results and training to GeoBIM.
 
 - - -
 
-## GeoBIM benchmark winter school
+## GeoBIM benchmark workshop
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/WinterSchool.gif" }}" style="max-height: 500px"></div>
 </div>
 
 ### When
 on **2nd and 3rd December 2019** SAVE THE DATE!
- 
+
 ### Where
 in Amsterdam at the [**Amsterdam institute for Advanced Metropolitan Solutions (AMS)**](https://www.ams-institute.org), the Netherlands (to be confirmed).
 
@@ -35,22 +35,38 @@ in Amsterdam at the [**Amsterdam institute for Advanced Metropolitan Solutions (
 
 **1st day**
 
-*Part I*		Welcome and Introduction on the Geo- and BIM information, towards interoperability
-	
-*Part II*		GeoBIM use cases
+*Part 0*		Welcome and Introduction on GeoBIM
+
+*Part 1*		Geo- and BIM information, towards interoperability
+
+	- 3D City models: overview, effective use cases, data and related standards (CityGML, CityJSON...)
+
+  - Building Information Models: overview, effective use cases, data and related standards (IFC...)
+
+*Part 2*		GeoBIM use cases
+
+- GeoBIM for Building permission issuing
+
+- GeoBIM for asset management
+
+- GeoBIM for microclimate simulations
 
 **2nd day**
 
-*Part I*		Presentation of the benchmark results
+*Part I*		Presentation of the benchmark results for the different tasks; the most interesting workflows in the actual software
 
-*Part II*		Workshop: most effective tools, replicating results
+*Part II*		Workshop: replicating results in the most interesting tools, with different data
+
+*Conclusion and discussion*
 
 
 ### Join us!
 
-The **winter school** will be for free and everyone is welcome!
+For the **2-days workshop** only a small amount will be charged, including lunches and coffee breaks (40€).
 
-In the coming days we will provide you the final program.
+Everyone is welcome!
+
+In the coming days we will provide you with the final detailed program.
 
 YOU CAN ALREADY REGISTER: [**Register now!**](https://francescanoardo.typeform.com/to/qplW6H)
 
@@ -68,11 +84,11 @@ YOU CAN ALREADY REGISTER: [**Register now!**](https://francescanoardo.typeform.c
 
 ### When
 on Monday, **8th July 2019 h. 9.30 - <!--12.30--> 11.00 CET**
- 
+
 ### Where
 at the [**TU Delft**](https://3d.bk.tudelft.nl/about/#where), the Netherlands, room **BG-west-350**.
 
-Or around the world, joining it through the **web** 
+Or around the world, joining it through the **web**
 
 ### What
 14 people participated, and it was useful to share the issues found during the tests, usually common to many, and to discuss the Tasks and the challenges.
