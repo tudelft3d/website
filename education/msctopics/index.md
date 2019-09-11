@@ -20,7 +20,7 @@ If you work on this topic, you can expect to learn about flow patterns (as in wi
 ![](img/WindyStreetPicture.png){:width="400px"}
 
 
-**Contact:** [Clara Garcia-Sanchez](https://cgarcia-sanchez.com) and [Balazs Dukai](http://balazsdukai.com).
+**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Balázs Dukai](http://balazsdukai.com).
 
 ## Storing CityJSON to NoSQL databases (e.g. MongoDB)
 
