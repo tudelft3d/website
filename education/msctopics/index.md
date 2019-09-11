@@ -10,7 +10,7 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
-## Where will you lose you hat? Finding the windiest street in the Netherlands
+## Where will you lose your hat? Finding the windiest street in the Netherlands
 Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns. 
 
 In this MSc thesis we will use Netherlands wind maps and 3D city models to explore the correspondence between larger wind maps and local winds. The data inherent in 3D city models will be used to derive fundamental parameters that describe urban morphologies, such as skyview factor, length-to-width ratio, orientation or building density. Through these parameters we will classify diverse urban areas, and explore relations between the derived urban parameters and the local potential for wind enhancement or reduction over the Netherlands. 
