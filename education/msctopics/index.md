@@ -10,6 +10,17 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+
+## Estimation of the impact of field view in the value of high-rise-buildings flats
+
+![](img/ga_ilir_2019.jpg){:width="600px"}
+
+Cities have increasingly exhibited a vertical dimension which has long been neglected by mainstream urban economics and prevailing location theories. Recent studies have documented that both firms and households are prepared to pay more (known as price premiums) to be located on higher floors. Two key reasons for higher vertical location are namely ‘view’ and ‘status’ (being on top of others). To date, very little is known about how much these parameters contribute to the premium.
+In particular, in tall buildings design subdivision of floor plans is becoming complex to address different user preferences and to maximise views for higher economic returns, as different levels of a building offer different fields of view based, among the rest, on the impact of surrounding obstructing objects.
+Analyses based in 3D city models can help to better estimate the role of field of view in this context.
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Ilir Nase](https://www.tudelft.nl/staff/i.nase/) (MBE)
+
 ## Where will you lose your hat? Finding the windiest street in the Netherlands
 Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns. 
 
