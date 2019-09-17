@@ -10,8 +10,15 @@
   image: azul.png
   appstore: https://itunes.apple.com/app/azul/id1173239678?mt=12
   
+- name: AdTree
+  description: Reconstructing accurate and detailed 3D tree models from point clouds.
+  github: https://github.com/tudelft3d/adtree
+  image: adtree.jpg
+  web: https://www.mdpi.com/2072-4292/11/18/2074
+  paper: https://3d.bk.tudelft.nl/liangliang/publications/2019/adtree/AdTree_RS-2019.pdf
+
 - name: PolyFit
-  description: Piecewise planar object (e.g., buildings) reconstruction from point clouds.
+  description: Piecewise planar object (e.g., buildings) reconstruction from point clouds
   github: https://github.com/LiangliangNan/PolyFit
   image: polyfit.jpg
   web: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
@@ -19,7 +26,7 @@
   video: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-video.mp4
 
 - name: MVStudio
-  description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution.
+  description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution
   github: https://github.com/LiangliangNan/MVStudio
   image: mvstudio.jpg
 
