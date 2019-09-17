@@ -21,9 +21,12 @@ A winter school for presenting the main results and training to GeoBIM.
 
 ## GeoBIM benchmark workshop
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Workshop_Website.gif" }}" style="max-height: 500px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Workshop_Website.gif" }}"></div>
 </div>
 
+<!--
+[**Download the Detailed program and Speakers**]()
+-->
 
 ### Join us!
 
