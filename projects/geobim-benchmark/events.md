@@ -23,10 +23,11 @@ A winter school for presenting the main results and training to GeoBIM.
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Workshop_Website.gif" }}"></div>
 </div>
+.
 
-<!--
-[**Download the Detailed program and Speakers**]()
--->
+
+[**Download the Detailed program here.**](https://drive.google.com/file/d/1E2YpUKPmlBSpPTnapswr5xmN8d_I-RGS/view?usp=sharing) Speakers will be available shortly!
+
 
 ### Join us!
 
