@@ -21,43 +21,8 @@ A winter school for presenting the main results and training to GeoBIM.
 
 ## GeoBIM benchmark workshop
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/WinterSchool.gif" }}" style="max-height: 500px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Workshop_Website.gif" }}" style="max-height: 500px"></div>
 </div>
-
-### When
-on **2nd and 3rd December 2019** SAVE THE DATE!
-
-### Where
-in Amsterdam at the [**Amsterdam institute for Advanced Metropolitan Solutions (AMS)**](https://www.ams-institute.org), the Netherlands (to be confirmed).
-
-
-### Draft Agenda
-
-**1st day**
-
-*Part 0*		Welcome and Introduction on GeoBIM
-
-*Part 1*		Geo- and BIM information, towards interoperability
-
-  - 3D City models: overview, effective use cases, data and related standards (CityGML, CityJSON...)
-
-  - Building Information Models: overview, effective use cases, data and related standards (IFC...)
-
-*Part 2*		GeoBIM use cases
-
-- GeoBIM for Building permission issuing
-
-- GeoBIM for asset management
-
-- GeoBIM for microclimate simulations
-
-**2nd day**
-
-*Part I*		Presentation of the benchmark results for the different tasks; the most interesting workflows in the actual software
-
-*Part II*		Workshop: replicating results in the most interesting tools, with different data
-
-*Conclusion and discussion*
 
 
 ### Join us!
