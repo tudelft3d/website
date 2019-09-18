@@ -62,6 +62,21 @@ Register by the **15th November**: [**Register now!**](https://francescanoardo.t
 <div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/qplW6H" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=qplW6H&utm_source=typeform.com-13384974-Pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
 
+
+
+
+***List of possible hotels close to the venue:***
+
+[Pension Homeland](https://www.pensionhomeland.com/en/), walking distance from AMS Institute: 150 m
+
+[Motel 1](https://www.motel-one.com/en/hotels/amsterdam/hotel-amsterdam-waterlooplein/),  walking distance from AMS Institute: 1.2 km (15 min)
+
+[IBIS](https://www.accorhotels.com/en/hotel-3044-ibis-amsterdam-centre-stopera/index.shtml),  walking distance from AMS Institute: 1.2 km (15 min)
+
+[Lloyd hotel](https://www.lloyd.nl),  walking distance from AMS Institute: 1.6 km (20 min)
+
+[Holiday Inn Express](https://www.ihg.com/holidayinnexpress/hotels/us/en/amsterdam/amsch/hoteldetail),  walking distance from AMS Institute: 1.1 km (13 min) 
+
 ----------------
 ----------------
 <h1>Other GeoBIM benchmark events</h1>
