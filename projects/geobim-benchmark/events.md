@@ -3,7 +3,7 @@ layout: benchmark
 title: Benchmark events
 permalink: /projects/geobim-benchmark/events.html
 ---
-
+<!--
 <h1>Benchmark events</h1>
 
 Within the GeoBIM benchmark initiative, two open events are about to be organised:
@@ -18,32 +18,57 @@ A winter school for presenting the main results and training to GeoBIM.
 {:toc}
 
 - - -
-
+-->
 ## GeoBIM benchmark workshop
+
+The GeoBIM benchmark workshop will be held on next **December 2nd/3rd** to get insight into the **GeoBIM benchmark results** and explore in detail the **related topics**:
+
+- 3D city models,
+- Building Information Models,
+- respective open standards (CityGML, CityJSON, IFC, and more),
+- GeoBIM use cases (automatic building permission issuing, asset management, energy simulations).
+
+### Workshop details:
+
+***When***: 2nd/3rd December 2019
+
+***Where***: in the [Amsterdam Institute for Advanced Metropolitan Solutions](https://www.ams-institute.org), in Amsterdam, Kattenburgerstraat 5, Building 027W, 1018JA. **12-minutes walking from Amsterdam Central Station.** [See how to get there.](https://www.ams-institute.org/about-ams/address-contact-information/)
+
+***Participation Fee***: 40€ including 2-days workshop, lunches and coffee breaks.
+
+***Programme and speakers***: [**Download the Detailed programme here.**](/projects/geobim-benchmark/Workshop_ProgrammeNoNames.png) Speakers will be available shortly!
+
+....................................................................................
+
+Register by the **15th November**: [**Register now!**](https://francescanoardo.typeform.com/to/qplW6H)
+
+....................................................................................
+
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/geobim-benchmark/img/Workshop_Website.gif" }}"></div>
 </div>
-.
 
 
-[**Download the Detailed program here.**](https://drive.google.com/file/d/1E2YpUKPmlBSpPTnapswr5xmN8d_I-RGS/view?usp=sharing) Speakers will be available shortly!
 
 
-### Join us!
+### Join us! Everyone is welcome!
 
-For the **2-days workshop** only a small amount will be charged, including lunches and coffee breaks (40€).
+....................................................................................
 
-Everyone is welcome!
+Register by the **15th November**: [**Register now!**](https://francescanoardo.typeform.com/to/qplW6H)
 
-In the coming days we will provide you with the final detailed program.
-
-YOU CAN ALREADY REGISTER: [**Register now!**](https://francescanoardo.typeform.com/to/qplW6H)
+....................................................................................
 
 <div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/qplW6H" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=qplW6H&utm_source=typeform.com-13384974-Pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
 
 ----------------
 ----------------
+<h1>Other GeoBIM benchmark events</h1>
+
+One more event was organised as part of the GeoBIM benchmark project: the *GeoBIM benchmark (web)meeting*.
+
+You can see some outcomes of the meeting in the following.
 
 
 ## GeoBIM benchmark (web)meeting
