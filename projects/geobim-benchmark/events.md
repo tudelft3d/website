@@ -36,7 +36,7 @@ The GeoBIM benchmark workshop will be held on next **December 2nd/3rd** to get i
 
 ***Participation Fee***: 40€ including 2-days workshop, lunches and coffee breaks.
 
-***Programme and speakers***: [**Download the Detailed programme here.**](/projects/geobim-benchmark/Workshop_ProgrammeNoNames.png) Speakers will be available shortly!
+***Programme and speakers***: [**Download the Detailed programme here.**](/projects/geobim-benchmark/Workshop_Programme.png) Speakers will be available shortly!
 
 ....................................................................................
 
