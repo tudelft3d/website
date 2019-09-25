@@ -21,6 +21,8 @@ Analyses based in 3D city models can help to better estimate the role of field o
 
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Ilir Nase](https://www.tudelft.nl/staff/i.nase/) (MBE)
 
+- - -
+
 ## Where will you lose your hat? Finding the windiest street in the Netherlands
 Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns. 
 
@@ -30,8 +32,9 @@ If you work on this topic, you can expect to learn about flow patterns (as in wi
 
 ![](img/WindyStreetPicture.png){:width="400px"}
 
-
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Balázs Dukai](http://balazsdukai.com).
+
+- - -
 
 ## Storing CityJSON to NoSQL databases (e.g. MongoDB)
 
@@ -48,6 +51,8 @@ A prototype application might be required to be developed and/or support in [cji
 Knowledge of Python programming language is recommended.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
+
+- - -
 
 ## GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts
 
