@@ -33,7 +33,7 @@ The second phase aims at the definition of a workflow and of the specific requir
  - Use case 1 - Workflow from global design to building permission issuing;
  - Use case 2 - Life-cycle support in asset-management.
 
- The project is expected to finish end 2019.
+ The project is expected to finish middle 2020.
 
  - - -
 
@@ -43,9 +43,7 @@ Ellul, C., Stoter, J., Harrie, L., Shariat, M., Behan, A., Pla, M. (2018). [Inve
 
 Noardo, F., Ellul, C., Harrie, L., Overland, I., Shariat, M., Arroyo Ohori, K., Stoter, S. (2019). [Opportunities and challenges for GeoBIM in Europe: developing a building permits use-case to raise awareness and examine technical interoperability challenge.](https://doi.org/10.1080/14498596.2019.1627253) Journal of Spatial Science – Special issue “Nexus of BIM and GIS: integrating building and geospatial data” https://doi.org/10.1080/14498596.2019.1627253
 
-<!--
-Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (2019). EuroSDR GeoBIM project: a study in Europe on how to use the potentials of BIM and geo data in practice. 3DGeoInfo2019 Conference, Singapore - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences.
--->
+Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (2019). [EuroSDR GeoBIM project: a study in Europe on how to use the potentials of BIM and geo data in practice](https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019). 3DGeoInfo2019 Conference, Singapore - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences IV-4(W8) 2019. https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019
 
  - - -
 
@@ -90,17 +88,15 @@ Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (201
 <!--
 ### Presentation at the [GEOBIM conference](https://geo-bim.org/europe/index.html) 11-12 November 2019 in Amsterdam
 
-...
+...-->
 
 ### Presentation at the [3D Geoinfo 2019 conference](https://www.3dgeoinfo2019.com) 23rd-27th September 2019, Singapore
-...
 
-### Presentation at the [Measurement, Visualisation and Processing in BIM for Design and Construction Management 2019 Conference](http://mvpbim2019.org) 24th September 2019 in Prague (CZ)
-
-...
-
-
--->
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <script async class="speakerdeck-embed" data-id="a9d22511f41f47c2a0ef54efd1944964" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
 
 ### Presentation at the [GeoDesign+BIM conference](https://geo-bim.org/europe/index.html) 2nd November 2018 in Amsterdam (NL)
 
