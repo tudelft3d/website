@@ -298,12 +298,6 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Germany</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/kilsedar.jpg" style="max-height:100px;"/></div></td>
-				<td>Candan Eylül Kilsedar</td>
-				<td>Politecnico di Milano</td>
-				<td>Italy</td>
-			</tr>
-			<tr>
 				<td> </td>
 				<td>Nannina Spanò</td>
 				<td>Politecnico di Torino</td>
