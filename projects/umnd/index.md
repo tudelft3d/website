@@ -78,6 +78,10 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
 
 The following is the list of events that we participated in or organised related to the UMnD project:
 
+### 2019
+- [3D GeoInfo 2019 Conference, Singapore, 26 and 27 September](https://www.3dgeoinfo2019.com/)
+- [2nd International IAG Workshop on BIM and GIS Integration, Singapore, 25 September](https://www.3dgeoinfo2019.com/bim-gis-workshop/)
+
 ### 2018
 
 - [3D GeoInfo 2018 Conference, TU Delft, 1 and 2 October](https://3d.bk.tudelft.nl/events/3dgeoinfo2018/)
