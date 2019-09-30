@@ -80,6 +80,7 @@ The following is the list of events that we participated in or organised related
 
 ### 2019
 - [3D GeoInfo 2019 Conference, Singapore, 26 and 27 September](https://www.3dgeoinfo2019.com/)
+- [2nd International IAG Workshop on BIM and GIS Integration, Singapore, 25 September](https://www.3dgeoinfo2019.com/bim-gis-workshop/)
 
 ### 2018
 
