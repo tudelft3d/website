@@ -1,3 +1,21 @@
+- research_line: [1, 2, 3]
+  description: "Awarded Best Paper Award (Runner-up) for the paper: \"A Data Structure to Incorporate Versioning in 3D City Models\" at the 2019 3D GeoInfo Conference."
+  date: 2019-09-27
+- research_line: [1, 2, 3]
+  description: "Presented paper: \"A Data Structure to Incorporate Versioning in 3D City Models\" at the 2019 3D GeoInfo Conference."
+  date: 2019-09-27
+- research_line: [1]
+  description: "Presented paper: \"A Survey on the Adoption of GIS Data and Standards in Urban Application Domains\" at the 2019 3D GeoInfo Conference."
+  date: 2019-09-27
+- research_line: [1]
+  description: "Presented paper: \"An Improved LOD Framework for the Terrains in 3D City Models\" at the 2019 3D GeoInfo Conference."
+  date: 2019-09-27
+- research_line: [3]
+  description: "Presented paper: \"EuroSDR GeoBIM Project a Study in Europe on how to use the Potentials of BIM and Geo Data in Practice\" at the 2nd International IAG Workshop on BIM and GIS Integration."
+  date: 2019-09-25
+- research_line: [3]
+  description: "Presented paper: \"GeoBIM Benchmark 2019: Intermediate Results\" at the 2nd International IAG Workshop on BIM and GIS Integration."
+  date: 2019-09-25
 - research_line: [2]
   description: "Published paper: \"Incorporating Topological Representation in 3D City Models\""
   date: 2019-08-02
