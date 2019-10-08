@@ -10,6 +10,16 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## The effect of real void decks in Singapore ventilation
+In tropical climates urban ventilation is key to improve pedestrian thermal comfort and air pollution exposure. Void decks are a common urban design used to enhance local street ventilation in compact urban areas. However, while improving thermal comfort and local air quality, void decks change pedestrian wind comfort as well. Some studies have explored the effect of void decks in idealized configurations, retrieving wind speeds enhanced up to two times at pedestrian level. Thus, understanding wind flows around void deck configurations is fundamental to optimize local urban designs towards concrete environmental goals.  
+
+Within this MSc thesis, we will use the newly published cityjson 3D city model of Singapore to analyze wind flows around realistic void decks already existent within the urban area. The innovative aspect of the project resides in the combination of open data, cityjson and void deck geometries with computational fluid dynamic tools. The study will analyze changes in wind and temperature distributions accross the most common wind directions using the open source CFD libraries OpenFOAM. 
+
+If you work on this topic, you can expect to learn all the fundamentals of CFD in urban environments and flow pattern physics around buildings (as in wind and temperature fields). Ideally, you could also explore the effects of void decks to potential dispersion releases, if time allows for it. The project will be done in collaboration with the NUS Urban Analytics Lab in Singapore. 
+
+![](img/Singapore3Dmodel.jpeg){:width="400px"}
+
+**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com)
 
 ## Estimation of the impact of field view in the value of high-rise-buildings flats
 
