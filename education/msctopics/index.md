@@ -17,7 +17,7 @@ Within this MSc thesis, we will use the newly published cityjson 3D city model o
 
 If you work on this topic, you can expect to learn all the fundamentals of CFD in urban environments and flow pattern physics around buildings (as in wind and temperature fields). Ideally, you could also explore the effects of void decks to potential dispersion releases, if time allows for it. The project will be done in collaboration with the NUS Urban Analytics Lab in Singapore. 
 
-![](img/Singapore3Dmodel.jpeg){:width="400px"}
+![](img/Singapore3Dmodel.jpeg){:width="600px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com)
 
