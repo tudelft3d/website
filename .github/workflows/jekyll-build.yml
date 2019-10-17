@@ -1,4 +1,4 @@
-name: check jekyll build
+name: jekyll build
 
 on: [push]
 
@@ -16,4 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         gem install jekyll parslet htmlentities
+    - name: build
+      run: |
         jekyll build
