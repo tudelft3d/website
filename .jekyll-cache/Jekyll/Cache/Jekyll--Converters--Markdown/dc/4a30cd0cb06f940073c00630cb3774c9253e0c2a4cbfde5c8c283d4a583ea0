@@ -1,0 +1,15 @@
+I"<p><img src="/img/projects/cityjson.jpg" alt="" width="200px" /></p>
+
+<p>We’re happy that the version 1.0.0 of CityJSON has been launched!</p>
+
+<p>It took us less than 2 years (<a href="https://github.com/tudelft3d/cityjson/commit/affadcfcc44002b70d18ea023679fde39b8b111e">first commit</a> was 19 June 2017) to build a JSON-encoding of the CityGML data model 2.0.0.</p>
+
+<p>It comes with several software packages, full open specifications, and all existing CityGML datasets can be converted in one-click to CityJSON (and vice-versa).</p>
+
+<p>And we have a new website: <a href="https://cityjson.org">https://cityjson.org</a></p>
+
+<p>While CityJSON is mostly made and maintained by us, everyone is welcome to <a href="/contribute/">contribute by submitting new content and/or fixing errors</a>.</p>
+
+<iframe src="https://giphy.com/embed/YTbZzCkRQCEJa" width="480" height="360" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<p><a href="https://giphy.com/gifs/party-excited-birthday-YTbZzCkRQCEJa">via GIPHY</a></p>
+:ET

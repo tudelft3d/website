@@ -1,0 +1,264 @@
+I"j<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="img/3dbag.jpg" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
+  <li><a href="#data-set" id="markdown-toc-data-set">Data set</a></li>
+  <li><a href="#open-source-software" id="markdown-toc-open-source-software">Open-source software</a></li>
+  <li><a href="#funding" id="markdown-toc-funding">Funding</a></li>
+  <li><a href="#team" id="markdown-toc-team">Team</a></li>
+</ul>
+
+<hr />
+
+<h2 id="summary">Summary</h2>
+
+<p>The Dutch national register of addresses and buildings (<a href="https://www.kadaster.nl/bag">Basisregistraties Adressen en Gebouwen (BAG)</a>) models the current state of all buildings and living units in the Netherlands. It is an openly accessible data set in which buildings are represented by their footprints, and it is widely used both by the government and the private sector. An accurate, open and country-wide 3D representation of the BAG benefits applications such as census estimation, property tax determination or noise simulations.</p>
+
+<p>We have developed a work flow and software for the automated generation of the 3D BAG, with the height information derived from the <a href="http://www.ahn.nl/">Dutch national elevation model (AHN)</a>. The resulting data set contains an unparalleled amount of information on the quality and reliability of each building, allowing practitioners to use the highest quality input for their work. The 3D BAG is  generated every month, keeping it up-to-date with the releases of the BAG and AHN.</p>
+
+<h2 id="data-set">Data set</h2>
+
+<p>The data set along with its documentation is found on the project website <a href="http://3dbag.bk.tudelft.nl">3dbag.bk.tudelft.nl</a>.</p>
+
+<h2 id="open-source-software">Open-source software</h2>
+
+<p>For creating the 3D BAG we wrote <strong>bag3d</strong>, which is an application that uses <a href="https://github.com/tudelft3d/3dfier">3dfier</a> for extruding the building footprints to LoD1 models. It is designed to run regularly as an automated process (eg. with a cron job), hence keeping the 3D BAG in line with the BAG updates. It is a multithreaded application, and it processes the whole Netherlands in a reasonable amount of time. Although bag3d was made for the Dutch BAG data set (as its name implies), we wrote an <a href="https://tudelft3d.github.io/bag3d/">extensive documentation</a> for making it easier to adapt to other data sets.</p>
+
+<p>The source code of the software is open and it is located <a href="https://github.com/tudelft3d/bag3d">here</a>.</p>
+
+<hr />
+
+<h2 id="funding">Funding</h2>
+
+<div class="row">
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><img src="/img/partners/erc.svg" alt="ERC logo" /></div>
+</div>
+
+<p>This project has received funding from the European Research Council (ERC) under the European Unions Horizon2020 Research &amp; Innovation Programme (grant agreement no. 677312 UMnD: Urban modelling in higher dimensions).</p>
+
+<hr />
+
+<h2 id="team">Team</h2>
+
+<div class="row">
+    
+
+
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://balazsdukai.com"><img class="img-circle img-responsive" src="/img/staff/balazs.jpg" alt="Balázs  Dukai photo" /></a>
+    
+
+
+    <h3>Balázs  Dukai<br /><small>Developer</small></h3>
+
+    <p>
+    
+        <a href="http://balazsdukai.com"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:b.dukai@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/BalazsDukai"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
+    
+
+
+    <h3>Hugo  Ledoux<br /><small>Associate-prof.</small></h3>
+
+    <p>
+    
+        <a href="http://tudelft.nl/hledoux"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:h.ledoux@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 86114"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/hugoledoux"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
+    
+
+
+    <h3>Jantien  Stoter<br /><small>Professor</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/jstoter"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:j.e.stoter@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 81664"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/jantienstoter"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+ 
+</div>
+:ET

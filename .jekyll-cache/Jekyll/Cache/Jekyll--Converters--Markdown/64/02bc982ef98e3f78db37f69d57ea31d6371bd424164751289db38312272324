@@ -1,0 +1,126 @@
+I"l<p>A few Dutch cities that we reconstructed with <a href="https://github.com/tudelft3d/3dfier">3dfier</a> by combining the <a href="https://www.pdok.nl/nl/producten/pdok-downloads/download-basisregistratie-grootschalige-topografie">BGT dataset (large-scale topographic dataset of the Netherlands)</a> (license is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>) and the <a href="https://www.pdok.nl/nl/ahn3-downloads">AHN3 datasets (laser altimetry)</a> (license is <a href="https://creativecommons.org/publicdomain/zero/1.0">CC0 1.0</a>).</p>
+
+<p>The dataset below are all available under the <a href="https://creativecommons.org/publicdomain/zero/1.0">Creative Commons CC0 Public Domain Dedication</a>.</p>
+
+<p>We offer different formats:</p>
+
+<ul>
+  <li>OBJ: simple format useful for visualisation, use this to visualise the models. The free software <a href="http://meshlab.sourceforge.net">MeshLab</a> works great, and is cross-platform.</li>
+  <li>CityGML: the file will be much bigger than the OBJ. You can visualise it with our free software <a href="https://github.com/tudelft3d/azul">Azul</a> (MacOS) or <a href="http://iai-typo3.iai.fzk.de/www-extern-kit/index.php?id=1134">FZKViewer</a> (Windows).</li>
+  <li>IMGeo: Dutch format, more details <a href="http://www.geonovum.nl/onderwerp-artikel/toolkit-3d">there</a>. There are no proper visualisers for this at this moment.</li>
+</ul>
+
+<p>If you want to use <a href="https://github.com/tudelft3d/3dfier">3dfier</a> yourself, you can follow that <a href="https://github.com/tudelft3d/3dfier/wiki/General-3dfier-tutorial-to-generate-LOD1-models">handy tutorial</a>.</p>
+
+<hr />
+
+<div class="row">
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="delft.png" />
+      <div class="caption">
+        <h3>Delft
+        <br />
+        <small>
+        
+          <a href="/download/3dfier/Delft.gml.zip">[CityGML]</a> 
+        
+        
+          <a href="/download/3dfier/Delft.obj.zip">[OBJ]</a> 
+        
+        
+          <a href="/download/3dfier/Delft.imgeo.zip">[IMGeo]</a> 
+        
+        </small>
+        </h3>
+        <p>30k objects, 500mX500m, all classes</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="zwolle.png" />
+      <div class="caption">
+        <h3>Zwolle
+        <br />
+        <small>
+        
+        
+          <a href="/download/3dfier/Zwolle.obj.zip">[OBJ]</a> 
+        
+        
+        </small>
+        </h3>
+        <p>1kmX1km</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="leiden.png" />
+      <div class="caption">
+        <h3>Leiden
+        <br />
+        <small>
+        
+        
+          <a href="/download/3dfier/Leiden.obj.zip">[OBJ]</a> 
+        
+        
+        </small>
+        </h3>
+        <p>Old city center</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="amsterdam.png" />
+      <div class="caption">
+        <h3>Amsterdam
+        <br />
+        <small>
+        
+          <a href="/download/3dfier/Amsterdam.gml.zip">[CityGML]</a> 
+        
+        
+          <a href="/download/3dfier/Amsterdam.obj.zip">[OBJ]</a> 
+        
+        
+          <a href="/download/3dfier/Amsterdam.imgeo.zip">[IMGeo]</a> 
+        
+        </small>
+        </h3>
+        <p>330k objects, Center, Oost, West and Zuid</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="rotterdam.png" />
+      <div class="caption">
+        <h3>Rotterdam
+        <br />
+        <small>
+        
+          <a href="/download/3dfier/Rotterdam.gml.zip">[CityGML]</a> 
+        
+        
+          <a href="/download/3dfier/Rotterdam.obj.zip">[OBJ]</a> 
+        
+        
+        </small>
+        </h3>
+        <p>5kmX5km</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+:ET

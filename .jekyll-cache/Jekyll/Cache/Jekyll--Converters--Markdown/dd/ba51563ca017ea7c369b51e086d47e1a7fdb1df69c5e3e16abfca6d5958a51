@@ -1,0 +1,762 @@
+I"J7<div class="row">
+  <div class="col-xs-4 col-md-3">
+    <img src="/img/logos/3dtalks2.png" />
+  </div>
+  <div class="col-xs-8 col-md-9">
+    <p>Every 2 weeks, we hold talks about one aspect of 3D geoinformation.
+    Either one staff of the group presents their latest results, or we invite someone from another university or from a company to present their results and/or latest developments.</p>
+    <p>These are usually Fridays at 11:00&ndash;12:00, and everyone is welcome to join.</p>
+    <p>
+    Add this <a href="http://3d.bk.tudelft.nl/3dtalks/3dtalks.ics">ICS file</a> to your calendar application, it will be automatically updated.
+    </p>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="upcoming-talks">Upcoming talks</h2>
+
+<div class="table-responsive">
+
+<table class="table table-striped">
+
+  <tr class="info">
+    <td>Date</td>
+    <td>Presenter</td>
+    <td>Title</td>
+    <td style="white-space: nowrap;">Room (at <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">BK-City</a>)</td>
+    <td>Time</td>
+  </tr>
+
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+
+</table> 
+</div>
+
+<hr />
+
+<h2 id="past-talks">Past talks</h2>
+
+<div class="table-responsive">
+<table class="table table-striped">
+
+  <tr class="info">
+    <td>Date</td>
+    <td>Presenter</td>
+    <td>Title</td>
+    <td>Slides</td>
+  </tr>
+
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2019-09-17</td>
+      <td>Gabriella Wiersma, student MSc Geomatics
+</td>
+      <td>CityGML/IMGeo as linked data (internship at Geonovum)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2019-09-02</td>
+      <td>Ziqian Ni; <a href="https://3d.bk.tudelft.nl/weixiao">Weixiao GAO</a>
+</td>
+      <td>3D mesh annotator: Towards semantic 3D urban mesh benchmark
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2019-07-02</td>
+      <td>(1) <a href="http://patrick.janssen.name/">Patrick Janssen</a> (2) Thomas Krijnen
+</td>
+      <td>(1) Möbius parametric modeller + (2) Thomas Krijnen PhD overview
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2019-04-17</td>
+      <td>(1) Anna Labetski; (2) Francesca Noardo
+</td>
+      <td>(1) Trip to OS + UCL; (2) Introducing the GeoBIM benchmark
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2019-02-26</td>
+      <td>(1) Stelios Vitalis; (2) Ravi Peters
+</td>
+      <td>(1) Git: advanced topics and best practices; (2) Geoflow: a flowchart tool for 3D geodata processing
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-11-28</td>
+      <td>Kim Langenberg
+</td>
+      <td>3D Den Haag
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-11-09</td>
+      <td><a href="https://www.ait.ac.at/ueber-das-ait/researcher-profiles/?tx_aitprofile_pi1%5Bname%5D=Widl-Edmund">Edmund Wid, Austrian Intitute of Technology</a>
+</td>
+      <td>First steps towards linking semantic 3D city modelling and multi-domain co-simulation for energy planning at urban scale
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-11-06</td>
+      <td>Simon Griffioen
+</td>
+      <td>3D mathematical morphology on voxelized point clouds for outlier detection (Student P5)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-10-31</td>
+      <td>Cheng-Kai Wang
+</td>
+      <td>Urban building energy modeling using 3d city model and minimizing uncertainty through bayesian inference - a case study focus on amsterdam residential heating demand simulation (Student P5)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-10-30</td>
+      <td>Antria Christodoulou
+</td>
+      <td>Image-based method for mobile laser scan registration (Student P5)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-10-29</td>
+      <td>Panos Karydakis
+</td>
+      <td>Simplification and Visualization of BIM models through Hololens (Student P5)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-08-06</td>
+      <td>Timo Erinkveld
+</td>
+      <td>Rotterdam 3D
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-07-04</td>
+      <td>Hugo Ledoux
+</td>
+      <td>CityJSON: updates and future work
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2018-07-04.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-06-28</td>
+      <td>Balázs Dukai
+</td>
+      <td>Introduction to Docker
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2018-06-28.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-06-19</td>
+      <td><a href="http://patrick.janssen.name/">Patrick Janssen</a>
+</td>
+      <td>Democratizing Geospatial Modelling (with <a href="http://design-automation.net/software/mobius/index.html">Möbius modeller</a>)
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2018-06-19.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-04-10</td>
+      <td><a href="https://www.linkedin.com/in/ludvigemgard">Ludvig Emgård</a>
+</td>
+      <td>Overview of <a href="http://spotscale.com/">spotscale</a> activities related to 3D city modelling
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-02-16</td>
+      <td>Matty Lakerveld
+</td>
+      <td>Digital Floriade 2022
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-02-09</td>
+      <td>Jan Blaauboer
+</td>
+      <td>Developments in Bentley software
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2018-02-06</td>
+      <td>Stelios Vitalis
+</td>
+      <td>Development of a data structure to model semantically rich 3D+LoD GIS data in 4D
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-12-18</td>
+      <td><a href="https://3d.bk.tudelft.nl/weixiao">Weixiao GAO</a>
+</td>
+      <td>From textured meshes to 3D city models (overview PhD plan)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-12-06</td>
+      <td>Lars Harrie, University Lund
+</td>
+      <td>Geo/BIM projects in Sweden (collaboration between Swedish National Mapping AGency (NLS) and Lund University
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-11-10</td>
+      <td><a href="http://www.budslab.org">Clayton Miller</a>
+</td>
+      <td>Exploratory and Scalable: Data Science for Sustainable and High-Performance Buildings
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-11-03</td>
+      <td>Bob Heesters
+</td>
+      <td>Research to integrate BIM and Geo-information
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-09-21</td>
+      <td>Stefan van Gerwen and colleagues
+</td>
+      <td>The 3D practice of Province Noord-Brabant
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-09-20</td>
+      <td>Stelios Vitalis
+</td>
+      <td>CityGML on GDAL introduction
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-08-04</td>
+      <td>Jinjin Yan
+</td>
+      <td>Pedestrian Navigation in Indoor/Outdoor Large Spaces with No Clear Pattern for Movement
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-06-23</td>
+      <td>(1) Marc Post; (2) Hugo Ledoux
+</td>
+      <td>(1) Overview of PhD activities; (2) CityGML is dead, long live CityJSON!
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-06-15</td>
+      <td>Kavisha
+</td>
+      <td>Overview of PhD activities
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-05-18</td>
+      <td>Prof Yasemin <a href="https://staffroster.metu.edu.tr/my_staff_roster.php?ssn=MTcwODE4&amp;action=Publications">Çetin</a>
+</td>
+      <td>Overview of the research group at Middle East Technical University
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-05-04</td>
+      <td>Ken Arroyo Ohori
+</td>
+      <td>4D visualisation and GIS-BIM integration
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2017-05-04.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-04-20</td>
+      <td>Rob van Dort
+</td>
+      <td>5D (and beyond) data management
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-04-05</td>
+      <td>Balasz Dukai, Yuxuan (Ethan) Kang, and Maya Tryfona
+</td>
+      <td>Mid-term presentations of MSc Geomatics graduation students (aka P3)
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-03-29</td>
+      <td>Henri Veldhuis and Marco Grimaudo
+</td>
+      <td>Geo-ICT and 3D (also Hololens applications) at <a href="http://www.sweco.nl/en">Sweco</a>
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-03-17</td>
+      <td>Filip Biljecki and Ravi Peters
+</td>
+      <td>Report on research visits to HFT Stuttgart and FBK in Trento
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-03-08</td>
+      <td><a href="http://3dom.fbk.eu/people/profile/remondino">Fabio Remondino</a> (FBK Trento)
+</td>
+      <td>Overview of the activities at <a href="http://3dom.fbk.eu">3DOM</a>
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-03-03</td>
+      <td>Roland van der Heijden
+</td>
+      <td>3D Rotterdam 2.0
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-02-16</td>
+      <td>Erik Meerburg
+</td>
+      <td>Tangible maps, an analog approach to digital urban models
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-02-03</td>
+      <td><a href="http://homepage.tudelft.nl/s8t3t/">Steffen Nijhuis (TU Delft)</a>
+</td>
+      <td>The role of (3D) GIS in the urbanism design process
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2017-01-20</td>
+      <td><a href="http://www.anteagroup.nl/nl/contacten/bob-heester">Bob Heester</a>
+</td>
+      <td>Building Information Framework: Integrating Geo- and BIM-data about the built environment
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-12-16</td>
+      <td><a href="https://www.arch.nus.edu.sg/people/cv/pj.htm">Patrick Janssen (National University of Singapore)</a>
+</td>
+      <td>Towards generative and evaluative feedback in urban planning
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2016-12-16.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-12-12</td>
+      <td>Lucía Díaz Vilariño
+</td>
+      <td>Indoor navigation from point clouds: 3D modelling and obstacle detection
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2016-12-12.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-11-25</td>
+      <td><a href="http://www.citg.tudelft.nl/en/about-faculty/departments/transport-and-planning/staff-information/drs-guus-tamminga-msc/">Guus Tamminga</a> (TU Delft, CiTG)
+</td>
+      <td>Matching Multiscale traffic simulations with CityGML
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2016-11-25.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-11-11</td>
+      <td><a href="http://www.citg.tudelft.nl/nl/over-faculteit/afdelingen/geoscience-and-remote-sensing/staff/phd-students/msc-k-kaixuan-zhou/">Kaixuan Zhou</a> (TU Delft, CiTG)
+</td>
+      <td>3D city model aided building change detection from VHR aerial images
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2016-11-14.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-10-28</td>
+      <td><a href="https://nl.linkedin.com/in/peter-van-veelen-6411b53b">Peter van Veelen</a> (TU Delft, BK)
+</td>
+      <td>Research programme Urban Deltas: explanation of what it is and exploration of collaboration
+</td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-10-17</td>
+      <td>Katerina Mekhlis &amp; Sergey Gevorkov
+</td>
+      <td>Overview of 3D Urban panoramas in <a href="http://neocityview.com">NeoCity project</a>
+</td>
+      
+      <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/2016-10-17.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      
+    </tr>
+    
+  
+  
+  
+    <tr>
+      <td style="white-space: nowrap;">2016-10-14</td>
+      <td>Meisam Yousefzadeh
+</td>
+      <td>Overview of 3D activities at <a href="http://www.3dgeosolutions.nl">3D GeoSolutions</a>
+</td>
+      
+    </tr>
+    
+  
+
+</table>    
+</div>
+:ET

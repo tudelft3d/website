@@ -1,0 +1,237 @@
+I"6'<div class="row">
+    <img class="img-responsive" src="/projects/umnd/img/GeneralisingMontrealLoD2toLoD1.png" />
+</div>
+
+<hr />
+
+<h2 id="overview">Overview</h2>
+
+<p>3D city models are necessary for monitoring and forecasting processes in urban areas (e.g. noise and flooding modelling).
+Each application requires its own semantic and geometric LoD of the 3D data, and currently a tremendous amount of effort is exerted in the collection and transformation of 3D datasets.
+This research will focus on determining the most efficient generalisation methodology for deriving different LoDs from the same 3D dataset.
+The methodology will be applicable to generalising individual city objects as well as city models as a collective unit.</p>
+
+<p><em>Research Objective:</em> Develop a harmonious generalisation framework in 3D to derive buildings and roads at different error-free LoDs from the same 3D base data in order to serve various applications.</p>
+
+<p>More specifically this research is guided by the following questions:</p>
+<ul>
+  <li>What are the application specifications that guide generalisation decision-making? What is this relationship vice versa?</li>
+  <li>What are the best generalisation statistics for summarising, quantifying and evaluating the generalisation results? How are they balanced for different applications?</li>
+  <li>How is generalisation different between different LoD groups, e.g. LoD3 to LoD2 vs. LoD2 to LoD1?</li>
+  <li>How do generalisation approaches differ between buildings and roads?</li>
+  <li>How can buildings and roads be generalised to ensure they still fit with an underlying terrain?</li>
+  <li>What 3D city model specific attributes are currently missing in metadata standards that are crucial for maintaining generalisation lineage?</li>
+  <li>How can metadata generation be automated, stored and updated as a result of generalisation processes?</li>
+</ul>
+
+<hr />
+
+<h2 id="current-work">Current Work</h2>
+
+<h3 id="vertical-reference">Vertical Reference</h3>
+<div class="row">
+    <img class="img-responsive" src="/projects/umnd/img/VerticalReference.png" />
+</div>
+
+<h3 id="floor-plan">Floor Plan</h3>
+<div class="row">
+    <img class="img-responsive" src="/projects/umnd/img/RDPvKada.png" />
+</div>
+
+<h3 id="harmonised-generalisation">Harmonised Generalisation</h3>
+<div class="row">
+    <img class="img-responsive" src="/projects/umnd/img/HarmonisedGeneralisationCrop.png" />
+</div>
+
+<hr />
+
+<h2 id="activities">Activities</h2>
+
+<ul class="posts">
+
+    
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+    
+
+    
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "A Survey on the Adoption of GIS Data and Standards in Urban Application Domains" at the 2019 3D GeoInfo Conference.</li>
+    
+
+    
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "An Improved LOD Framework for the Terrains in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+    
+
+    
+    <li class="activity"><span>27 Sep 2019</span> Awarded Best Paper Award (Runner-up) for the paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>15 Jul 2019</span> Published paper: "The LandInfra standard and its role in solving the BIM-GIS quagmire"</li>
+    
+
+    
+    <li class="activity"><span>17 Jun 2019</span> Published paper: "CityJSON: a compact and easy-to-use encoding of the CityGML data model."</li>
+    
+
+    
+    <li class="activity"><span>29 May 2019</span> Published paper: "Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra"</li>
+    
+
+    
+    <li class="activity"><span>08 Mar 2019</span> Anna Labetski completed a 1 week research visit at <a href="https://www.ucl.ac.uk">University College London</a></li>
+    
+
+    
+    <li class="activity"><span>22 Jan 2019</span> Invited talk 'Improving the usability of 3D city models' by Hugo at the <a href="https://www.uni-muenster.de/Geoinformatics/en/GI-Forum/index.php">Universität Münster GI-Forum</a></li>
+    
+
+    
+    <li class="activity"><span>30 Nov 2018</span> Published paper: "A metadata ADE for CityGML"</li>
+    
+
+    
+    <li class="activity"><span>02 Oct 2018</span> Organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.</li>
+    
+
+    
+
+    
+    <li class="activity"><span>01 Oct 2018</span> Presented paper: "A proposal for an improved transportation model in CityGML" in the 2018 3D GeoInfo Conference</li>
+    
+
+    
+    <li class="activity"><span>30 Sep 2018</span> Developed an up-to-date 3D building service covering whole of the Netherlands <a href="http://3dbag.bk.tudelft.nl">3D BAG</a>. Published via <a href="https://data.4tu.nl/repository/uuid:f1f9759d-024a-492a-b821-07014dd6131c">4TU Data Centre</a></li>
+    
+
+    
+    <li class="activity"><span>30 Sep 2018</span> Organised the pre-conference workshop "Automated reconstruction of 3D City Models and using them in urban applications" for the 2018 3D GeoInfo Conference in Delft.</li>
+    
+
+    
+
+    
+    <li class="activity"><span>30 Aug 2018</span> Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.</li>
+    
+
+    
+    <li class="activity"><span>24 Aug 2018</span> Open lecture at the <a href="http://https://www.arch.nus.edu.sg/activities/news-plus-events/events_ay1819_guestlectures_jantienstoter_230818/">National University of Singapore.</a>.</li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>21 Mar 2018</span> Invited talk 'CityJSON---A JSON-based implementation of the CityGML data model' by Hugo at the OGC meeting (Orléans, France)</li>
+    
+
+    
+    <li class="activity"><span>15 Mar 2018</span> (Co)organised a successfull international symposium on <a href="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>.</li>
+    
+
+    
+    <li class="activity"><span>23 Feb 2018</span> Published paper: "Val3dity: validation of 3D GIS primitives according to the international standards".</li>
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>30 Dec 2017</span> Jantien Stoter interviewed for ten years anniversary ERC <a href="http://tu-delft.instantmagazine.com/tu-delft/erc#!/home">ERC Anniversary interview</a>.</li>
+    
+
+    
+    <li class="activity"><span>27 Nov 2017</span> Invited talk 'CityGML (as an encoding) is dood, lang leven CityJSON!' by Hugo at the the Geonovum Springplank (Amersfoort, the Netherlands)</li>
+    
+
+    
+    <li class="activity"><span>24 Nov 2017</span> Invited presentation at the <a href=" https://geo-bim.org/europe/2017/pdf/presentation/Jantien-Stoter-bim-loket-geobim-2017-24-11.pdf">GeoBIM conference</a> in Amsterdam.</li>
+    
+
+    
+    <li class="activity"><span>02 Nov 2017</span> Presented our reseach subject to the NCG Symposium at the TU Delft.</li>
+    
+
+    
+    <li class="activity"><span>02 Nov 2017</span> Jantien Stoter nominated for personal Geo Prestige Award Professional <a href="https://www.geoinformatienederland.nl/nieuws/persbericht-geo-prestige-award-winnaars-bekend">Geo Prestige Professional Award</a>.</li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>11 Sep 2017</span> Anna Labetski successfully passed her Go/NoGo meeting after submitting her research proposal.</li>
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>23 Jun 2017</span> Anna Labetski completed a 1 week research visit at the <a href="https://www.tum.de/en">Technische Universität München</a></li>
+    
+
+    
+
+    
+    <li class="activity"><span>07 Jun 2017</span> Anna Labetski and Stelios Vitalis participated in the TU Delft Research Exhibit 2017.</li>
+    
+
+    
+    <li class="activity"><span>30 Mar 2017</span> We co-organised the <a href="http://www.eurosdr.net/workshops/identifying-economic-value-3d-geoinformation">EuroSDR workshop on economic value of 3D Geoinformation</a> at ICGC Barcelona</li>
+    
+
+    
+    <li class="activity"><span>24 Mar 2017</span> Presented our research in the PhD symposium with the Geomatics department of TU Munchen.</li>
+    
+
+    
+    <li class="activity"><span>17 Mar 2017</span> We organised the technial meeting of the worldwide standardisation organisation of geographical information (OGC) in Delft (200+ participants) <a href="https://www.opengeospatial.org/event/1703tc">OGC TC Meeting Delft</a></li>
+    
+
+    
+    <li class="activity"><span>15 Mar 2017</span> We organised the <a href="https://www.geonovum.nl/over-geonovum/actueel/nationaal-3d-symposium-15-november">Symposium 3D urban modelling</a> with Prof Thomas H. Kolbe</li>
+    
+
+    
+
+    
+    <li class="activity"><span>02 Feb 2017</span> Jantien (PI) participated in working visit of Dutch delegation (industry, academia and government) to London.</li>
+    
+
+    
+    <li class="activity"><span>02 Feb 2017</span> The project was shown during the <a href="https://www.tudelft.nl/en/technology-transfer/development-innovation/research-exhibition-projects/3d-geoinformation-dataset/">Research Exhibition of Delft University of Technology</a> (175th anniversary).</li>
+    
+
+    
+    <li class="activity"><span>13 Jan 2017</span> Presented paper: "Generalising 3D Buildings from LoD2 to LoD1" at GISRUK 2017 in Manchester, UK.</li>
+    
+
+    
+    <li class="activity"><span>25 Nov 2016</span> We organised the <a href="http://www.ams-institute.org/events/event/workshop-3d-geo-information-for-smart-urban-applications/">National 3D symposium</a> (150+ participants)</li>
+    
+
+    
+    <li class="activity"><span>01 Sep 2016</span> Jantien appointed as Principal Investigator at <a href="https://https://www.ams-institute.org">Amsterdam Institute of Advanced Matropolitan Solutions</a></li>
+    
+
+    
+    <li class="activity"><span>01 Sep 2016</span> Anna Labetski officially started working on UMnD.</li>
+    
+
+</ul>
+:ET

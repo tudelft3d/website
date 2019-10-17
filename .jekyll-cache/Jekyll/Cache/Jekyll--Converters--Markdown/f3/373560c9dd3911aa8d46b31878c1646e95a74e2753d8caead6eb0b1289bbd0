@@ -1,0 +1,55 @@
+I"�<div class="alert alert-danger" role="alert">2015-04-07: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
+<div class="row">
+  <div class="col-sm-12 hidden-xs nopadding"><img class="img-responsive" src="img.png" /></div>
+</div>
+
+<h2 id="3d-space-subdivision-for-indoor-navigation">3D space subdivision for indoor navigation</h2>
+
+<p>Providing accurate 3D indoor path is highly depended on the space subdivision and space availability in buildings. At present, no semi-automatic or automatic methods exist, which can deliver a flexible representation of indoor spaces that can support various users and their tasks. The aim of this project is to develop a 3D space subdivision approach, which understands the principles of interior architectural design and human perception to identify spaces that can be used for navigation. This project brings together research on 3D indoor models (geometry, semantics and topology), 3D indoor navigation for users with various profiles and tasks and 3D indoor reconstruction from point clouds. The PostDoc has to develop a grammar-based framework to describe the interior structure of the building (such as rooms and furniture), which allows flexible increase or decrease of granularity of internal spaces to fit them to the navigation needs. 3D models that combine geometric details, rich semantics and spatial relationships are central for this research. Standards such as IndoorGML, CityGML and IFC will be largely explored. A prototype application on mobile devices has to be developed and tested in several use cases defined by the Dutch Fire Brigade.</p>
+
+<p>The project will take place in the 3D geoinformation group under the supervision of <a href="http://3dgeoinfo.bk.tudelft.nl/szlatanova">Ass. Prof. Dr Sisi Zlatanova</a>.
+It is fully funded by the Dutch Technology Foundation (<a href="http://www.stw.nl">STW</a>). The project is related to an on-going project on <a href="http://3dgeoinfo.bk.tudelft.nl/projects/indoor/">indoor navigation</a> and the implementation and testing of IndoorGML. It will be conducted together with Twente University, Dutch Fire Brigade, several companies and OGC SWG IndoorGML.
+We expect the PhD student to collaborate actively with the other researchers and practitioners involved in the project.</p>
+
+<h2 id="research-group">Research group</h2>
+
+<p>The 3D geoinformation research group, part of the <a href="http://www.bk.tudelft.nl/en">Faculty of Architecture and the Built Environment</a>, focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing and implementing better systems to model 3D cities, buildings and landscapes.
+It is a multidisciplinary group of around <a href="/about/">12 people</a>, including computer scientists, geomatics engineers, and geographers.
+It has a history of successful collaborations with the industry and the government: its research has led to <a href="https://github.com/tudelft3d">software</a>, standards and patents for the management of 3D geographic information.</p>
+
+<h2 id="conditions">Conditions</h2>
+
+<p>The <a href="http://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/jobs/academic-jobs/">position</a> is for two years and the starting gross salary will be in the range €2,476 up to €3,908 depending on the experience of the candidate. 
+TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.</p>
+
+<h2 id="job-requirements">Job requirements</h2>
+
+<p>Applicants should hold a PhD degree (or almost completed) in geoinformatics/geomatics, computer science, applied mathematics, or in a related discipline. They are expected to have good programming skills, a good command of English (oral and written) and strong interest in 3D modelling and/or computational geometry. Prior experience with 3D standards (CityGML, IFC), 3D indoor modelling or grammar-based approaches is highly desirable.</p>
+
+<h2 id="how-to-apply">How to apply</h2>
+
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
+</div>
+
+<p>To apply, please submit:</p>
+
+<ul>
+  <li>a detailed CV and a letter of application,</li>
+  <li>the name of two referees,</li>
+  <li>copies of MSc/PhD diplomas and grades obtained,</li>
+  <li>proof of English competencies (if applicable),</li>
+  <li>PhD thesis and all publications you have authored (a URL to a PDF is fine).</li>
+</ul>
+
+<p><del>
+Please email your application material to Caro Coemans (<a href="mailto:hr-bk@tudelft.nl">hr-bk@tudelft.nl</a>) and refer to vacancy number <strong>BK2015-07</strong>.
+</del></p>
+
+<p>For more information about this position, please contact directly <a href="http://3dgeoinfo.bk.tudelft.nl/szlatanova">Ass. Prof. Dr Sisi Zlatanova</a> (<a href="mailto:s.zlatanova@tudelft.nl">s.zlatanova@tudelft.nl</a>).</p>
+
+<!-- <div class="alert alert-warning" role="alert">
+The deadline to apply is April 4th 2015 at 17:00 (Amsterdam time).
+</div> -->
+:ET

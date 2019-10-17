@@ -1,0 +1,1026 @@
+I"BU<div class="row">
+  <!-- <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="/projects/geo5d/img/gmaps.png"></div> -->
+  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="/projects/geo5d/img/lod34.png" /></div>
+  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="/projects/geo5d/img/lod1.png" /></div>
+	<div class="col-sm-6 hidden-xs nopadding"><img class="img-responsive" src="/projects/geo5d/img/extrusion_short.png" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#about" id="markdown-toc-about">About</a></li>
+  <li><a href="#main-publications" id="markdown-toc-main-publications">Main publications</a></li>
+  <li><a href="#research-topics-and-tasks" id="markdown-toc-research-topics-and-tasks">Research topics and tasks</a></li>
+  <li><a href="#users-committee" id="markdown-toc-users-committee">Users’ committee</a></li>
+  <li><a href="#team" id="markdown-toc-team">Team</a></li>
+</ul>
+
+<hr />
+
+<h2 id="about">About</h2>
+
+<p>The aim of the 5D modelling research project is to integrate the multi-dimensional characteristics of geographic data, i.e. 2D/3D, time and scale (also indicated as ‘Level of Detail’, ‘resolution’ or ‘granularity’) at a fundamental level of data modelling.<br />
+The resulting conceptual 5D model creates a new approach for modelling geographic data (geo-data), as until now geo-data modelling has focused on the issues of single dimensions only, with at most some minimum attention for the other dimensions.</p>
+
+<p>The integrated approach provides a sustainable foundation for spatial data infrastructures:</p>
+
+<ul>
+  <li>A true 5D approach accomplishes a highly formal definition of geo-data that fully addresses the relationships between space, time and scale. This avoids having to handle special cases separately.</li>
+  <li>The model enforces consistency across dimensional borders, which improves data quality.</li>
+  <li>Optimal efficient 5D searching and maintenance can only be realised if a 5D data structure is used, otherwise the DBMS query plan has to select first on space, then on time and then on scale (or in another order).</li>
+</ul>
+
+<p>The 5D data modelling is being studied at two levels. At first a 5D data model and data structure are being accomplished on which any geo-information model can be founded. Secondly, it is being studied how GIS data can be modelled in an nD way accordingly.</p>
+
+<p>Because of the high ambitions to realise a true 5D model, the focus is on laying down a foundation for n-dimensional data modelling by defining a theory validated through prototype implementations, which can be further developed in the future. In addition, in a step-wise approach mathematical theories on n-dimensional modelling are being applied to established principles in 2D/3D, time and multi-scale modelling. Studying several combinations of the different dimensions will identify the optimal method for including multi-dimensional concepts and notions in geo-data modelling.</p>
+
+<p>The research will result in well-tested technology for 5D data modelling after 5 years. However as the research approach extends currently available single-dimensional models in a step-wise approach, the intermediate models that integrate multiple but not all dimensional concepts are already in reach for use in practice and commercial implementations within the next few years, i.e. several 3D models after one to two years (3D space, 2D space+time, 2D space+scale) and several 4D models after several years (3D space+time, 3D space+scale, 2D space+time+scale), all based on a solid mathematical theory and recent GIS technology developments.</p>
+
+<p>In 2010 this research project was awarded with a Vidi grant from the <a href="http://www.stw.nl">Dutch Technology Foundation STW</a>, which is part of the <a href="http://www.nwo.nl">Netherlands Organisation for Scientific Research (NWO)</a>. Since then several PhDs, Post-docs, MSc students and visiting scientists have been working in the project.</p>
+
+<hr />
+
+<h2 id="main-publications">Main publications</h2>
+
+<p>The complete list of publications of the project is available <a href="publications.html">here</a>.</p>
+
+<h3>2018<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>The effect of acquisition error and level of detail on the accuracy of spatial analyses</strong>. Filip Biljecki, Gerard B. M. Heuvelink, Hugo Ledoux and Jantien Stoter. <em>Cartography and Geographic Information Science</em> 45(2), 2018, pp. 156&ndash;176. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.1080/15230406.2017.1279986"><i class="ai ai-doi-square"></i></a> <a href="#bibBiljeck18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljeck18" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljeck18,
+	author = {Filip Biljecki and Gerard B.M. Heuvelink and Hugo Ledoux and Jantien Stoter},
+	journal = {Cartography and Geographic Information Science},
+	number = {2},
+	pages = {156--176},
+	title = {The effect of acquisition error and level of detail on the accuracy of spatial analyses},
+	volume = {45},
+	year = {2018}
+}</pre></div></span></div>
+<h3>2017<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Visualising higher-dimensional space-time and space-scale objects as projections to R3</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>PeerJ Computer Science</em>, July 2017. ISSN: 2376–5992. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.7717/peerj-cs.123"><i class="ai ai-doi-square"></i></a> <a href="#bibArroyo-Ohori17a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori17a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori17a,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	journal = {PeerJ Computer Science},
+	month = {jul},
+	note = {ISSN: 2376--5992},
+	title = {Visualising higher-dimensional space-time and space-scale objects as projections to {R3}},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Modelling and manipulating spacetime objects in a true 4D model</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>Journal of Spatial Information Science</em> 14, June 2017, pp. 61&ndash;93. ISSN: 1948–660X. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.5311/JOSIS.2017.14.297"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/17_josis.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori17,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	journal = {Journal of Spatial Information Science},
+	month = {jun},
+	note = {ISSN: 1948--660X},
+	pages = {61--93},
+	title = {Modelling and manipulating spacetime objects in a true {4D} model},
+	volume = {14},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D BGT: waarom, wat en hoe?</strong>. Jantien Stoter, Tom Commandeur and Hugo Ledoux. <em>Geo-Info</em> 14(2), 2017, pp. 69&ndash;73. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/17_geoinfo_3dbgt.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter17b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17b" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter17b,
+	author = {Stoter, Jantien and Commandeur, Tom and Ledoux, Hugo},
+	journal = {Geo-Info},
+	number = {2},
+	pages = {69--73},
+	title = {{3D BGT}: waarom, wat en hoe?},
+	volume = {14},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Registration of Multi-Level Property Rights in 3D in The Netherlands: Two Cases and Next Steps in Further Implementation</strong>. Jantien Stoter, Hendrik Ploeger, Ruben Roes, Els van der Riet, Filip Biljecki, Hugo Ledoux, Dirco Kok and Sangmin Kim. <em>ISPRS International Journal of Geo-Information</em> 6(6), 2017, pp. 158. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.3390/ijgi6060158"><i class="ai ai-doi-square"></i></a> <a href="http://www.mdpi.com/2220-9964/6/6/158/pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter17a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter17a,
+	author = {Stoter, Jantien and Ploeger, Hendrik and Roes, Ruben and van der Riet, Els and Biljecki, Filip and Ledoux, Hugo and Kok, Dirco and Kim, Sangmin},
+	journal = {ISPRS International Journal of Geo-Information},
+	number = {6},
+	pages = {158},
+	title = {{Registration of Multi-Level Property Rights in 3D in The Netherlands: Two Cases and Next Steps in Further Implementation}},
+	volume = {6},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>The VI-Suite: a set of environmental analysis tools with geospatial data applications</strong>. Ryan Southall and Filip Biljecki. <em>Open Geospatial Data, Software and Standards</em> 2, 2017, pp. 23. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1186/s40965-017-0036-1"><i class="ai ai-doi-square"></i></a> <a href="http://filip.biljecki.com/publications/2017_ogdss_visuite.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibSouthall17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibSouthall17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Southall17,
+	author = {Southall, Ryan and Biljecki, Filip},
+	journal = {Open Geospatial Data, Software and Standards},
+	pages = {23},
+	title = {{The VI-Suite: a set of environmental analysis tools with geospatial data applications}},
+	volume = {2},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Het Level of Detail van 3D geo-informatie: Een bekend maar nauwelijks onderzocht concept</strong>. Filip Biljecki, Hugo Ledoux and Jantien Stoter. <em>Geo-Info</em> 14(5), 2017, pp. 12&ndash;16. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/17_geoinfo_lod.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki17b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki17b" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki17b,
+	author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
+	journal = {Geo-Info},
+	number = {5},
+	pages = {12--16},
+	title = {Het {Level of Detail} van {3D} geo-informatie: {Een} bekend maar nauwelijks onderzocht concept},
+	volume = {14},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Generating 3D city models without elevation data</strong>. Filip Biljecki, Hugo Ledoux and Jantien Stoter. <em>Computers, Environment and Urban Systems</em> 64, 2017, pp. 1&ndash;18. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1016/j.compenvurbsys.2017.01.001"><i class="ai ai-doi-square"></i></a> <a href="http://filip.biljecki.com/publications/2017_ceus_inferring_heights.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki17a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki17a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki17a,
+	author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
+	journal = {Computers, Environment and Urban Systems},
+	pages = {1--18},
+	title = {{Generating 3D city models without elevation data}},
+	volume = {64},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Level of detail in 3d city models</strong>. Filip Biljecki. PhD thesis, Delft University of Technology, May 2017. ISBN: 9789461868008. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.4233/uuid:f12931b7-5113-47ef-bfd4-688aae3be248"><i class="ai ai-doi-square"></i></a> <a href="http://dx.doi.org/10.4233/uuid:f12931b7-5113-47ef-bfd4-688aae3be248"><i class="fas fa-external-link-square-alt"></i></a> <a href="http://filipbiljecki.com/phd/dissertationFilipBiljecki.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://filipbiljecki.com/phd/propositionsFilipBiljecki.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="#bibBiljecki17PhD" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki17PhD" class="collapse" tabindex="-1"><pre class="bibtex">@phdthesis{Biljecki17PhD,
+	author = {Filip Biljecki},
+	month = {May},
+	note = {ISBN: 9789461868008},
+	school = {Delft University of Technology},
+	title = {Level of detail in 3D city models},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Modelling and manipulating spacetime objects in a true 4D model</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>Journal of Spatial Information Science</em> 14, 2017. ISSN: 1948–660X. <span class="text-danger"> In press</span>. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/ken/files/17_josis.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori16" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori16" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori16,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	journal = {Journal of Spatial Information Science},
+	note = {ISSN: 1948--660X},
+	title = {Modelling and manipulating spacetime objects in a true {4D} model},
+	volume = {14},
+	year = {2017}
+}</pre></div></span></div>
+<h3>2016<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Defining simple nD operations based on prismatic nD objects</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. In E. Dimopoulou and P. van Oosterom (eds.), <em>11th 3D Geoinfo Conference</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV&ndash;2/W1, ISPRS, Athens, Greece, October 2016, pp. 155&ndash;162. ISSN: 2194–9042 (Print), 2194–9050 (Internet and USB). <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.5194/isprs-annals-IV-2-W1-155-2016"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/16_3dgeoinfo.pdf"><i class="fas fa-file-alt"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/16_3dgeoinfo_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori16a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori16a" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Arroyo-Ohori16a,
+	address = {Athens, Greece},
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	booktitle = {11th 3D Geoinfo Conference},
+	editor = {E. Dimopoulou and P. {van Oosterom}},
+	month = {oct},
+	note = {ISSN: 2194--9042 (Print), 2194--9050 (Internet and USB)},
+	pages = {155--162},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {Defining simple n{D} operations based on prismatic n{D} objects},
+	volume = {IV--2/W1},
+	year = {2016}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Higher-dimensional modelling of geographic information</strong>. Ken Arroyo Ohori. PhD thesis, Delft University of Technology, April 2016. ISBN: 978-1-326-59638-5. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.4233/uuid:39c5b176-398b-4a6f-8578-1dc46e9f37ed"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/ken/en/thesis/"><i class="fas fa-external-link-square-alt"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/16_thesis.pdf"><i class="fas fa-file-alt"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/16_propositions.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="http://www.lulu.com/shop/ken-arroyo-ohori/higher-dimensional-modelling-of-geographic-information/paperback/product-22605113.html"><i class="fas fa-book"></i></a> <a href="#bibArroyo-Ohori16c" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori16c" class="collapse" tabindex="-1"><pre class="bibtex">@phdthesis{Arroyo-Ohori16c,
+	author = {Ken {Arroyo Ohori}},
+	month = {apr},
+	note = {ISBN: 978-1-326-59638-5},
+	school = {Delft University of Technology},
+	title = {Higher-dimensional modelling of geographic information},
+	year = {2016}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Population estimation using a 3D city model: a multi-scale country-wide study in the Netherlands</strong>. Filip Biljecki, Ken Arroyo Ohori, Hugo Ledoux, Ravi Peters and Jantien Stoter. <em>PLOS ONE</em> 11(6), 2016, pp. e0156808. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1371/journal.pone.0156808"><i class="ai ai-doi-square"></i></a> <a href="http://dx.doi.org/10.1371%2Fjournal.pone.0156808"><i class="fas fa-external-link-square-alt"></i></a> <a href="http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0156808.PDF"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki16d" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki16d" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki16d,
+	author = {Biljecki, Filip and Arroyo Ohori, Ken and Ledoux, Hugo and Peters, Ravi and Stoter, Jantien},
+	journal = {PLOS ONE},
+	number = {6},
+	pages = {e0156808},
+	title = {Population Estimation Using a {3D} City Model: A Multi-Scale Country-Wide Study in the {Netherlands}},
+	volume = {11},
+	year = {2016}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>An improved LOD specification for 3D building models</strong>. Filip Biljecki, Hugo Ledoux and Jantien Stoter. <em>Computers, Environment and Urban Systems</em> 59, 2016, pp. 25&ndash;37. <br /><span style="font-size: 15pt"> <a href="http://doi.org/10.1016/j.compenvurbsys.2016.04.005"><i class="ai ai-doi-square"></i></a> <a href="http://filipbiljecki.com/publications/2016_ceus_improved_lod.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki16c" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki16c" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki16c,
+	author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
+	journal = {Computers, Environment and Urban Systems},
+	pages = {25--37},
+	title = {{An improved LOD specification for 3D building models}},
+	volume = {59},
+	year = {2016}
+}</pre></div></span></div>
+<h3>2015<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Storing a 3D city model, its levels of detail and the correspondences between objects as a 4D combinatorial map</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. In Alias Abdul Rahman, Umit Isikdag and Francesc Ant&oacute;n Castro (eds.), <em>ISPRS Joint International Geoinformation Conference 2015</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences II&ndash;2/W2, ISPRS, Kuala Lumpur, Malaysia, October 2015, pp. 1&ndash;8. ISSN: 2194–9042 (Print), 2194–9050 (Internet and USB). <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.5194/isprsannals-II-2-W2-1-2015"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/15_isprs.pdf"><i class="fas fa-file-alt"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/15_isprs_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori15c" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori15c" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Arroyo-Ohori15c,
+	address = {Kuala Lumpur, Malaysia},
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	booktitle = {ISPRS Joint International Geoinformation Conference 2015},
+	editor = {Alias Abdul Rahman and Umit Isikdag and Francesc Ant\'on Castro},
+	month = {oct},
+	note = {ISSN: 2194--9042 (Print), 2194--9050 (Internet and USB)},
+	pages = {1--8},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {Storing a {3D} city model, its levels of detail and the correspondences between objects as a {4D} combinatorial map},
+	volume = {II--2/W2},
+	year = {2015}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Propagation of positional error in 3D GIS: estimation of the solar irradiation of building roofs</strong>. Filip Biljecki, Gerard B. M. Heuvelink, Hugo Ledoux and Jantien Stoter. <em>International Journal of Geographical Information Science</em> 29(12), 2015, pp. 2269-2294. <br /><span style="font-size: 15pt"> <a href="http://doi.org/10.1080/13658816.2015.1073292"><i class="ai ai-doi-square"></i></a> <a href="http://filipbiljecki.com/publications/Biljecki2015iw.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki15a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki15a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki15a,
+	author = {Biljecki, Filip and Heuvelink, Gerard B M and Ledoux, Hugo and Stoter, Jantien},
+	journal = {International Journal of Geographical Information Science},
+	number = {12},
+	pages = {2269-2294},
+	title = {{Propagation of positional error in 3D GIS: estimation of the solar irradiation of building roofs}},
+	volume = {29},
+	year = {2015}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Improving the consistency of multi-LOD CityGML datasets by removing redundancy</strong>. Filip Biljecki, Hugo Ledoux and Jantien Stoter. In Martin Breunig, Mulhim Al-Doori, Edgar Butwilowski, Paul V. Kuper, Joachim Benner and Karl Heinz Haefele (eds.), <em>3D Geoinformation Science&mdash;The Selected Papers of the 3D GeoInfo 2014</em>, Lecture Notes in Geoinformation and Cartography, Springer, 2015, pp. 1&ndash;17. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1007/978-3-319-12181-9_1"><i class="ai ai-doi-square"></i></a> <a href="http://filipbiljecki.com/publications/Biljecki2015bt.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki15" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki15" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Biljecki15,
+	author = {Filip Biljecki and Hugo Ledoux and Jantien Stoter},
+	booktitle = {3D Geoinformation Science---The Selected Papers of the 3D GeoInfo 2014},
+	editor = {Breunig, Martin and Al-Doori, Mulhim and Butwilowski, Edgar and Kuper, Paul V. and Benner, Joachim and Haefele, Karl Heinz},
+	pages = {1--17},
+	publisher = {Springer},
+	series = {Lecture Notes in Geoinformation and Cartography},
+	title = {Improving the consistency of {multi-LOD} {CityGML} datasets by removing redundancy},
+	year = {2015}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Modeling a 3D city model and its levels of detail as a true 4D model</strong>. Ken Arroyo Ohori, Hugo Ledoux, Filip Biljecki and Jantien Stoter. <em>ISPRS International Journal of Geo-Information</em> 4(3), Sep 2015, pp. 1055&ndash;1075. ISSN: 2220-9964. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.3390/ijgi4031055"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/15_ijgi.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori15b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori15b" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori15b,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Filip Biljecki and Jantien Stoter},
+	journal = {ISPRS International Journal of Geo-Information},
+	month = {Sep},
+	note = {ISSN: 2220-9964},
+	number = {3},
+	pages = {1055--1075},
+	title = {Modeling a {3D} city model and its levels of detail as a true {4D} model},
+	volume = {4},
+	year = {2015}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>An evaluation and classification of nD topological data structures for the representation of objects in a higher-dimensional GIS</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>International Journal of Geographical Information Science</em>, 2015. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1080/13658816.2014.999683"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/15_ijgis_ndstructures.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori15a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori15a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori15a,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	journal = {International Journal of Geographical Information Science},
+	title = {An evaluation and classification of {nD} topological data structures for the representation of objects in a higher-dimensional {GIS}},
+	year = {2015}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A dimension-independent extrusion algorithm using generalised maps</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>International Journal of Geographical Information Science</em>, 2015. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1080/13658816.2015.1010535"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/15_ijgis_extrusion.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori15" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori15" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori15,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	journal = {International Journal of Geographical Information Science},
+	title = {A dimension-independent extrusion algorithm using generalised maps},
+	year = {2015}
+}</pre></div></span></div>
+<h3>2014<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Fully automated generalisation of a 1:50k map from 1:10k data</strong>. J. E. Stoter, M. Post, V. van Altena, R. Nijhuis and B. Bruns. <em>Cartography and Geographic Information Science</em> 41(1), January 2014, pp. 1-13. <br /><span style="font-size: 15pt"> <a href="#bibStoter14f" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter14f" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter14f,
+	author = {Stoter, J.E. and M. Post and V. van Altena and R. Nijhuis and B. Bruns},
+	journal = {Cartography and Geographic Information Science},
+	month = {jan},
+	number = {1},
+	pages = {1-13},
+	title = {Fully automated generalisation of a 1:50k map from 1:10k data},
+	volume = {41},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Constructing an n-dimensional cell complex from a soup of (n-1)-dimensional faces</strong>. Ken Arroyo Ohori, Guillaume Damiand and Hugo Ledoux. In Prosenjit Gupta and Christos Zaroliagis (eds.), <em>Applied Algorithms. First International Conference, ICAA 2014, Kolkata, India, January 13-15, 2014. Proceedings</em>, Lecture Notes in Computer Science 8321, Springer International Publishing Switzerland, Kolkata, India, January 2014, pp. 37&ndash;48. ISBN: 978-3-319-04125-4 (Print) 978-3-319-04126-1 (Online) ISSN: 0302-9743. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1007/978-3-319-04126-1_4"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/14_icaa.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/14_icaa_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori14" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori14" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Arroyo-Ohori14,
+	address = {Kolkata, India},
+	author = {Ken {Arroyo Ohori} and Guillaume Damiand and Hugo Ledoux},
+	booktitle = {Applied Algorithms. First International Conference, ICAA 2014, Kolkata, India, January 13-15, 2014. Proceedings},
+	editor = {Prosenjit Gupta and Christos Zaroliagis},
+	month = {jan},
+	note = {ISBN: 978-3-319-04125-4 (Print) 978-3-319-04126-1 (Online) ISSN: 0302-9743},
+	pages = {37--48},
+	publisher = {Springer International Publishing Switzerland},
+	series = {Lecture Notes in Computer Science},
+	title = {Constructing an n-dimensional cell complex from a soup of (n-1)-dimensional faces},
+	volume = {8321},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A framework for the automatic geometric repair of CityGML models</strong>. Junqiao Zhao, Jantien Stoter and Hugo Ledoux. In Manfred Buchroithner, Nikolas Prechtel and Dirk Burghardt (eds.), <em>Cartography from Pole to Pole</em>, Lecture Notes in Geoinformation and Cartography, Springer Berlin Heidelberg, 2014, pp. 187&ndash;202. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1007/978-3-642-32618-9_14"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/14zhao_citygmlrepair.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibZhao14a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibZhao14a" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Zhao14a,
+	author = {Junqiao Zhao and Jantien Stoter and Hugo Ledoux},
+	booktitle = {Cartography from Pole to Pole},
+	editor = {Manfred Buchroithner and Nikolas Prechtel and Dirk Burghardt},
+	pages = {187--202},
+	publisher = {Springer Berlin Heidelberg},
+	series = {Lecture Notes in Geoinformation and Cartography},
+	title = {A Framework for the Automatic Geometric Repair of {CityGML} Models},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>CityGML implementation specifications for a countrywide 3D data set: the case of the Netherlands</strong>. Jantien Stoter, George Vosselman, Christian Dahmen, Sander Oude Elberink and Hugo Ledoux. <em>Photogrammetric Engineering &amp; Remote Sensing</em> 80(11), 2014, pp. 1069&ndash;1077. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.14358/PERS.80.11.1069"><i class="ai ai-doi-square"></i></a> <a href="#bibStoter14" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter14" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter14,
+	author = {Stoter, Jantien and Vosselman, George and Dahmen, Christian and Oude Elberink, Sander and Ledoux, Hugo},
+	journal = {Photogrammetric Engineering \&amp; Remote Sensing},
+	number = {11},
+	pages = {1069--1077},
+	title = {{CityGML} implementation specifications for a countrywide {3D} data set: the case of the {Netherlands}},
+	volume = {80},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A triangulation-based approach to automatically repair GIS polygons</strong>. Hugo Ledoux, Ken Arroyo Ohori and Martijn Meijers. <em>Computers &amp; Geosciences</em> 66, 2014, pp. 121&ndash;131. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1016/j.cageo.2014.01.009"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/pdfs/Ledoux14a.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibLedoux14a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLedoux14a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Ledoux14a,
+	author = {Hugo Ledoux and Ken {Arroyo Ohori} and Martijn Meijers},
+	journal = {Computers \&amp; Geosciences},
+	pages = {121--131},
+	title = {A triangulation-based approach to automatically repair {GIS} polygons},
+	volume = {66},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Height references of CityGML LOD1 buildings and their influence on applications</strong>. Filip Biljecki, Hugo Ledoux and Jantien Stoter. In Martin Breunig, Al-Doori Mulhim, Edgar Butwilowski, Paul Vincent Kuper, Joachim Benner and Karl-Heinz H&auml;fele (eds.), <em>Proceedings of the 9th 3DGeoInfo Conference 2014</em>, Dubai, UAE, 2014. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.4233/uuid:09d030b5-67d3-467b-babb-5e5ec10f1b38"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/14_3dgi_references.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki14c" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki14c" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Biljecki14c,
+	address = {Dubai, UAE},
+	author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
+	booktitle = {Proceedings of the 9th 3DGeoInfo Conference 2014},
+	editor = {Breunig, Martin and Mulhim, Al-Doori and Butwilowski, Edgar and Kuper, Paul Vincent and Benner, Joachim and H{\"a}fele, Karl-Heinz},
+	title = {Height references of {CityGML LOD1} buildings and their influence on applications},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Error propagation in the computation of volumes in 3D city models with the Monte Carlo method</strong>. F. Biljecki, H. Ledoux and J. Stoter. <em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, Toronto, Canada, 2014, pp. 31&ndash;39. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.5194/isprsannals-ii-2-31-2014"><i class="ai ai-doi-square"></i></a> <a href="#bibBiljecki14b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki14b" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Biljecki14b,
+	address = {Toronto, Canada},
+	author = {F. Biljecki and H. Ledoux and J. Stoter},
+	booktitle = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	pages = {31--39},
+	title = {Error propagation in the computation of volumes in {3D} city models with the {Monte Carlo} method},
+	volume = {II-2},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Formalisation of the level of detail in 3D city modelling</strong>. Filip Biljecki, Hugo Ledoux, Jantien Stoter and Junqiao Zhao. <em>Computers, Environment and Urban Systems</em> 48, 2014, pp. 1&ndash;15. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1016/j.compenvurbsys.2014.05.004"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/14ceus_lod.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki14" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki14" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki14,
+	author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien and Zhao, Junqiao},
+	journal = {Computers, Environment and Urban Systems},
+	pages = {1--15},
+	title = {Formalisation of the level of detail in {3D} city modelling},
+	volume = {48},
+	year = {2014}
+}</pre></div></span></div>
+<h3>2013<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Using extrusion to generate higher-dimensional GIS datasets</strong>. Ken Arroyo Ohori and Hugo Ledoux. In Craig Knoblock, Peer Kr&ouml;ger, John Krumm, Markus Schneider and Peter Widmayer (eds.), <em>SIGSPATIAL&rsquo;13: Proceedings of the 21st ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems</em>, ACM, Orlando, United States, November 2013, pp. 398&ndash;401. ISBN: 978-1-4503-2521-9. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1145/2525314.2525447"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_acmsigspatial.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_acmsigspatial_poster.pdf"><i class="fas fa-file-image"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_acmsigspatial_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori13" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Arroyo-Ohori13,
+	address = {Orlando, United States},
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux},
+	booktitle = {SIGSPATIAL'13: Proceedings of the 21st ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems},
+	editor = {Craig Knoblock and Peer Kr\"oger and John Krumm and Markus Schneider and Peter Widmayer},
+	month = {nov},
+	note = {ISBN: 978-1-4503-2521-9},
+	pages = {398--401},
+	publisher = {ACM},
+	title = {Using extrusion to generate higher-dimensional {GIS} datasets},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Modelling higher dimensional data for GIS using generalised maps</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. In B. Murgante, S. Misra, M. Carlini, C. Torre, H. Q. Nguyen, D. Taniar, B. Apduhan and O. Gervasi (eds.), <em>Computational Science and Its Applications &mdash; ICCSA 2013. 13th International Conference, Ho Chi Minh City, Vietnam, June 24&ndash;27, 2013, Proceedings, Part I</em>, Lecture Notes in Computer Science 7971, Springer Berlin Heidelberg, Ho Chi Minh City, Vietnam, June 2013, pp. 526&ndash;539. ISBN: 978-3-642-39636-6 (Print) 978-3-642-39637-3 (Online) ISSN: 0302-9743 (Print) 1611-3349 (Online). <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1007/978-3-642-39637-3_41"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_iccsa.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_iccsa_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori13a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori13a" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Arroyo-Ohori13a,
+	address = {Ho Chi Minh City, Vietnam},
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	booktitle = {Computational Science and Its Applications --- ICCSA 2013. 13th International Conference, Ho Chi Minh City, Vietnam, June 24--27, 2013, Proceedings, Part I},
+	editor = {B. Murgante and S. Misra and M. Carlini and C. Torre and H.Q. Nguyen and D. Taniar and B. Apduhan and O. Gervasi},
+	month = {jun},
+	note = {ISBN: 978-3-642-39636-6 (Print) 978-3-642-39637-3 (Online) ISSN: 0302-9743 (Print) 1611-3349 (Online)},
+	pages = {526--539},
+	publisher = {Springer Berlin Heidelberg},
+	series = {Lecture Notes in Computer Science},
+	title = {Modelling Higher Dimensional Data for {GIS} Using Generalised Maps},
+	volume = {7971},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Manipulating higher dimensional spatial information</strong>. Ken Arroyo Ohori, Filip Biljecki, Jantien Stoter and Hugo Ledoux. <em>Geographic Information Science at the Heart of Europe. Proceedings of the 16th AGILE International Conference on Geographic Information Science</em>, Leuven, Belgium, May 2013. <br /><span style="font-size: 15pt"> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_agile.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/13_agile_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori13c" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori13c" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Arroyo-Ohori13c,
+	address = {Leuven, Belgium},
+	author = {Ken {Arroyo Ohori} and Filip Biljecki and Jantien Stoter and Hugo Ledoux},
+	booktitle = {Geographic Information Science at the Heart of Europe. Proceedings of the 16th AGILE International Conference on Geographic Information Science},
+	month = {may},
+	title = {Manipulating higher dimensional spatial information},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Representing the dual of objects in a four-dimensional GIS</strong>. Ken Arroyo Ohori, Pawel Boguslawski and Hugo Ledoux. In A. Abdul Rahman, P. Boguslawski, C. Gold and M. N. Said (eds.), <em>Developments in Multidimensional Spatial Data Models</em>, Lecture Notes in Geoinformation and Cartography, Springer Berlin Heidelberg, Johor Bahru, Malaysia, May 2013, pp. 17&ndash;31. ISBN: 978-3-642-36378-8 (Print) 978-3-642-36379-5 (Online) ISSN: 1863-2246 (Print) 1863-2351 (Online). <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1007/978-3-642-36379-5_2"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/ken/files/12_geoadvances.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori13b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori13b" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Arroyo-Ohori13b,
+	address = {Johor Bahru, Malaysia},
+	author = {Ken {Arroyo Ohori} and Pawel Boguslawski and Hugo Ledoux},
+	booktitle = {Developments in Multidimensional Spatial Data Models},
+	editor = {Abdul Rahman, A. and Boguslawski, P. and Gold, C. and Said, M.N.},
+	month = {may},
+	note = {ISBN: 978-3-642-36378-8 (Print) 978-3-642-36379-5 (Online) ISSN: 1863-2246 (Print) 1863-2351 (Online)},
+	pages = {17--31},
+	publisher = {Springer Berlin Heidelberg},
+	series = {Lecture Notes in Geoinformation and Cartography},
+	title = {Representing the dual of objects in a four-dimensional {GIS}},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Automatic repair of CityGML LOD2 buildings using shrink-wrapping</strong>. Junqiao Zhao, Hugo Ledoux and Jantien Stoter. In Umit Isikdag (eds.), <em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Proceedings of the ISPRS 8th 3DGeoInfo Conference &amp; WG II/2 Workshop</em>, Istanbul, Turkey, 2013, pp. 309&ndash;317. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/doi:10.5194/isprsannals-II-2-W1-309-2013"><i class="ai ai-doi-square"></i></a> <a href="#bibZhao13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibZhao13" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Zhao13,
+	address = {Istanbul, Turkey},
+	author = {Zhao, Junqiao and Ledoux, Hugo and Stoter, Jantien},
+	booktitle = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Proceedings of the ISPRS 8th 3DGeoInfo Conference {\&amp;} WG II/2 Workshop},
+	editor = {Isikdag, Umit},
+	pages = {309--317},
+	title = {Automatic Repair Of {CityGML} {LOD2} Buildings Using Shrink-Wrapping},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Three-dimensional modeling with national coverage: case of the Netherlands</strong>. Jantien Stoter, Linda van den Brink, Jakob Beetz, Hugo Ledoux, Marcel Reuvers, Paul Janssen, Friso Penninga, George Vosselman and Sander Oude Elberink. <em>Geo-spatial Information Science</em> 16(4), 2013, pp. 267&ndash;276. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1080/10095020.2013.866619"><i class="ai ai-doi-square"></i></a> <a href="#bibStoter13a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter13a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter13a,
+	author = {Jantien Stoter and van den Brink, Linda and Jakob Beetz and Hugo Ledoux and Marcel Reuvers and Paul Janssen and Friso Penninga and George Vosselman and Oude Elberink, Sander},
+	journal = {Geo-spatial Information Science},
+	number = {4},
+	pages = {267--276},
+	title = {Three-dimensional modeling with national coverage: Case of the {Netherlands}},
+	volume = {16},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Establishing and implementing a national 3D standard in the Netherlands</strong>. J. E. Stoter, H. Ledoux, M. Reuvers, L. van den Brink, R. Klooster, P. Janssen, J. Beetz, F. Penninga and G. Vosselman. <em>Photogrammetrie, Fernerkundung, Geoinformation</em> 4, 2013, pp. 381&ndash;392. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1127/1432-8364/2013/0184"><i class="ai ai-doi-square"></i></a> <a href="#bibStoter13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter13" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter13,
+	author = {Stoter, J. E. and Ledoux, H. and Reuvers, M. and van den Brink, L. and Klooster, R. and Janssen, P. and Beetz, J. and Penninga, F. and Vosselman, G.},
+	journal = {Photogrammetrie, Fernerkundung, Geoinformation},
+	number = {4},
+	pages = {381--392},
+	title = {Establishing and implementing a national {3D} standard in the {Netherlands}},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Legal barriers to 3d cadaster implementation: what is the issue?</strong>. Serene Ho , Abbas Rajabifard , Jantien Stoter and Mohsen Kalantari. <em>Journal of Land Use Policy</em> 35, September 2013, pp. 379-387. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1016/j.landusepol.2013.06.010"><i class="ai ai-doi-square"></i></a> <a href="http://www.sciencedirect.com/science/article/pii/S0264837713001257"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bibSerene-Ho13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibSerene-Ho13" class="collapse" tabindex="-1"><pre class="bibtex">@article{Serene-Ho13,
+	author = {Serene Ho, Abbas Rajabifard, Jantien Stoter and Mohsen Kalantari},
+	journal = {Journal of Land Use Policy},
+	month = {September},
+	pages = {379-387},
+	title = {Legal barriers to 3D cadaster implementation: what is the issue?},
+	volume = {35},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>On the validation of solids represented with the international standards for geographic information</strong>. Hugo Ledoux. <em>Computer-Aided Civil and Infrastructure Engineering</em> 28(9), 2013, pp. 693&ndash;706. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1111/mice.12043"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/_13cacaie.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibLedoux13b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLedoux13b" class="collapse" tabindex="-1"><pre class="bibtex">@article{Ledoux13b,
+	author = {Ledoux, Hugo},
+	journal = {Computer-Aided Civil and Infrastructure Engineering},
+	number = {9},
+	pages = {693--706},
+	title = {On the validation of solids represented with the international standards for geographic information},
+	volume = {28},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A star-based data structure to store efficiently 3D topography in a database</strong>. Hugo Ledoux and Martijn Meijers. <em>Geo-spatial Information Science</em> 16(4), 2013, pp. 256&ndash;266. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1080/10095020.2013.866618"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/_13gsis_pgtet.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibLedoux13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLedoux13" class="collapse" tabindex="-1"><pre class="bibtex">@article{Ledoux13,
+	author = {Ledoux, Hugo and Meijers, Martijn},
+	journal = {Geo-spatial Information Science},
+	number = {4},
+	pages = {256--266},
+	title = {A star-based data structure to store efficiently {3D} topography in a database},
+	volume = {16},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3d cadastre in the netherlands: developments and international applicability</strong>. Hendrik Ploeger Jantien Stoter and Peter van Oosterom. <em>Computers, Environment and Urban Systems</em> 36, 2013, pp. 12. <br /><span style="font-size: 15pt"> <a href="#bibJantien-Stoter13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibJantien-Stoter13" class="collapse" tabindex="-1"><pre class="bibtex">@article{Jantien-Stoter13,
+	author = {Jantien Stoter, Hendrik Ploeger and Peter van Oosterom},
+	journal = {Computers, Environment and Urban Systems},
+	pages = {12},
+	title = {3D cadastre in the Netherlands: Developments and international applicability},
+	volume = {36},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>The concept of level of detail in 3D city models - PhD research proposal</strong>. F. Biljecki. PhD Proposal 62, OTB Research Institute for the Built Environment, Delft University of Technology, 2013. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/publications/reports/GISt62.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki13b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki13b" class="collapse" tabindex="-1"><pre class="bibtex">@techreport{Biljecki13b,
+	author = {Biljecki, F.},
+	institution = {OTB Research Institute for the Built Environment, Delft University of Technology},
+	number = {62},
+	title = {The concept of level of detail in {3D} city models - {PhD} Research Proposal},
+	type = {PhD Proposal},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Revisiting the concept of level of detail in 3D city modelling</strong>. Filip Biljecki, Junqiao Zhao, Jantien Stoter and Hugo Ledoux. In Umit Isikdag (eds.), <em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Proceedings of the ISPRS 8th 3DGeoInfo Conference &amp; WG II/2 Workshop</em>, Istanbul, Turkey, 2013, pp. 63&ndash;74. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.5194/isprsannals-II-2-W1-63-2013"><i class="ai ai-doi-square"></i></a> <a href="#bibBiljecki13a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki13a" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Biljecki13a,
+	address = {Istanbul, Turkey},
+	author = {Biljecki, Filip and Zhao, Junqiao and Stoter, Jantien and Ledoux, Hugo},
+	booktitle = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Proceedings of the ISPRS 8th 3DGeoInfo Conference {\&amp;} WG II/2 Workshop},
+	editor = {Isikdag, Umit},
+	pages = {63--74},
+	title = {{Revisiting the concept of level of detail in {3D} city modelling}},
+	year = {2013}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Transportation mode-based segmentation and classification of movement trajectories</strong>. Filip Biljecki, Hugo Ledoux and Peter van Oosterom. <em>International Journal of Geographical Information Science</em> 27(2), 2013, pp. 385&ndash;407. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1080/13658816.2012.692791"><i class="ai ai-doi-square"></i></a> <a href="http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/_12ijgis_gps.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBiljecki13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki13" class="collapse" tabindex="-1"><pre class="bibtex">@article{Biljecki13,
+	author = {Biljecki, Filip and Ledoux, Hugo and van Oosterom, Peter},
+	journal = {International Journal of Geographical Information Science},
+	number = {2},
+	pages = {385--407},
+	title = {Transportation mode-based segmentation and classification of movement trajectories},
+	volume = {27},
+	year = {2013}
+}</pre></div></span></div>
+<h3>2012<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Validation and automatic repair of planar partitions using a constrained triangulation</strong>. Ken Arroyo Ohori, Hugo Ledoux and Martijn Meijers. <em>Photogrammetrie, Fernerkundung, Geoinformation</em> 5, October 2012, pp. 613&ndash;630. ISSN: 1432-8364. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1127/1432-8364/2012/0143"><i class="ai ai-doi-square"></i></a> <a href="http://www.gdmc.nl/ken/files/12_pfg.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori12a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori12a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori12a,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Martijn Meijers},
+	journal = {Photogrammetrie, Fernerkundung, Geoinformation},
+	month = {oct},
+	note = {ISSN: 1432-8364},
+	pages = {613--630},
+	title = {Validation and Automatic Repair of Planar Partitions Using a Constrained Triangulation},
+	volume = {5},
+	year = {2012}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Integrating scale and space in 3D city models</strong>. Jantien Stoter, Hugo Ledoux, Martijn Meijers and Ken Arroyo Ohori. In Jacynthe Pouliot, Sylvie Daniel, Fr&eacute;d&eacute;ric Hubert and Alborz Zamyadi (eds.), <em>Proceedings of the 7th International 3D GeoInfo Conference</em>, International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XXXVIII-4/C26, Qu&eacute;bec City, Canada, May 2012, pp. 7&ndash;10. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/ken/files/12_3dgeoinfo.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://www.gdmc.nl/ken/files/12_3dgeoinfo_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibStoter12" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter12" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Stoter12,
+	address = {Qu\'ebec City, Canada},
+	author = {Jantien Stoter and Hugo Ledoux and Martijn Meijers and Ken {Arroyo Ohori}},
+	booktitle = {Proceedings of the 7th International 3D GeoInfo Conference},
+	editor = {Jacynthe Pouliot and Sylvie Daniel and Fr{\'e}d{\'e}ric Hubert and Alborz Zamyadi},
+	month = {may},
+	pages = {7--10},
+	series = {International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {Integrating Scale and Space in {3D} City Models},
+	volume = {XXXVIII-4/C26},
+	year = {2012}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>5D modeling - applications and advantages</strong>. Jantien Stoter, Hugo Ledoux, Martijn Meijers, Ken Arroyo Ohori and Peter van Oosterom. <em>Geospatial World Forum 2012</em>, Amsterdam, The Netherlands, April 2012. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/ken/files/12_gwf.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter12a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter12a" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Stoter12a,
+	address = {Amsterdam, The Netherlands},
+	author = {Stoter, Jantien and Ledoux, Hugo and Meijers, Martijn and Arroyo Ohori, Ken and van Oosterom, Peter},
+	booktitle = {Geospatial World Forum 2012},
+	month = {apr},
+	title = {{5D} Modeling - applications and advantages},
+	year = {2012}
+}</pre></div></span></div>
+<h3>2011<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Realising the foundations of a higher dimensional GIS: a study of higher dimensional spatial data models, data structures and operations</strong>. Ken Arroyo Ohori. PhD Proposal 57, OTB Research Institute for the Built Environment, Delft University of Technology, December 2011. ISBN: 978-90-77029-29-9 ISSN: 1560-0245. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal.pdf"><i class="fas fa-file-alt"></i></a> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal_presentation.pdf"><i class="fas fa-image"></i></a> <a href="#bibArroyo-Ohori11" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori11" class="collapse" tabindex="-1"><pre class="bibtex">@techreport{Arroyo-Ohori11,
+	author = {Ken {Arroyo Ohori}},
+	institution = {OTB Research Institute for the Built Environment, Delft University of Technology},
+	month = {dec},
+	note = {ISBN: 978-90-77029-29-9 ISSN: 1560-0245},
+	number = {57},
+	title = {Realising the Foundations of a Higher Dimensional {GIS}: A Study of Higher Dimensional Spatial Data Models, Data Structures and Operations},
+	type = {PhD Proposal},
+	year = {2011}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Towards a national 3D spatial data infrastructure: case of the Netherlands</strong>. JE Stoter, G. Vosselman, J. Goos, S. Zlatanova, E. Verbree, R. Klooster and M. Reuvers. <em>Organ der Deutschen Gesellschaft f&uuml;r Photogrammetrie und Fernerkundung</em> 6, 2011, pp. 405&ndash;420. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/publications/2011/National_3D_Spatial_Data_Infrastructure.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter11a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter11a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter11a,
+	author = {Stoter, JE and Vosselman, G and Goos, J and Zlatanova, S and Verbree, E and Klooster, R and Reuvers, M},
+	journal = {Organ der Deutschen Gesellschaft f\"ur Photogrammetrie und Fernerkundung},
+	pages = {405--420},
+	title = {Towards a national {3D} spatial data infrastructure: case of the {N}etherlands},
+	volume = {6},
+	year = {2011}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A semantic-rich multi-scale information model for topography</strong>. Jantien E. Stoter, Thomas Visser, Peter van Oosterom, Wilko Quak and Nico Bakker. <em>International Journal of Geographical Information Science</em> 25(5), 2011, pp. 739&ndash;763. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/publications/2011/Multi-scale_information_model_topography.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter11" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter11" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter11,
+	author = {Jantien E. Stoter and Thomas Visser and Peter van Oosterom and Wilko Quak and Nico Bakker},
+	journal = {International Journal of Geographical Information Science},
+	number = {5},
+	pages = {739--763},
+	title = {A semantic-rich multi-scale information model for topography},
+	volume = {25},
+	year = {2011}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Topologically consistent 3D city models obtained by extrusion</strong>. Hugo Ledoux and Martijn Meijers. <em>International Journal of Geographical Information Science</em> 25(4), 2011, pp. 557&ndash;574. <br /><span style="font-size: 15pt"> <a href="http://homepage.tudelft.nl/23t4p/pdfs/_10ijgisextrusion.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibLedoux11" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLedoux11" class="collapse" tabindex="-1"><pre class="bibtex">@article{Ledoux11,
+	author = {Ledoux, Hugo and Meijers, Martijn},
+	journal = {International Journal of Geographical Information Science},
+	number = {4},
+	pages = {557--574},
+	title = {Topologically consistent {3D} city models obtained by extrusion},
+	volume = {25},
+	year = {2011}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Solutions for 4D cadastre - with a case study on utility networks</strong>. F. D&ouml;ner, RJ Thompson, JE Stoter, CHJ Lemmen, HD Ploeger, PJM van Oosterom and S. Zlatanova. <em>International Journal of Geographical Information Science</em> 25(7), 2011, pp. 1173&ndash;1189. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/publications/2011/Solutions_for_4D_cadastre.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibDoner11a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibDoner11a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Doner11a,
+	author = {D\"oner, F and Thompson, RJ and Stoter, JE and Lemmen, CHJ and Ploeger, HD and Oosterom, PJM van and Zlatanova, S},
+	journal = {International Journal of Geographical Information Science},
+	number = {7},
+	pages = {1173--1189},
+	title = {Solutions for {4D} cadastre - with a case study on utility networks},
+	volume = {25},
+	year = {2011}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>4D cadastres: first analysis of legal, organizational, and technical impact - with a case study on utility networks</strong>. F. D&ouml;ner, R. Thompson, J. E. Stoter, C. Lemmen, H. Ploeger, P. van Oosterom and S. Zlatanova. <em>Land Use Policy</em>, 2011, pp. 1068&ndash;1081. <br /><span style="font-size: 15pt"> <a href="http://www.gdmc.nl/publications/2010/4D_Cadastres.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibDoner11" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibDoner11" class="collapse" tabindex="-1"><pre class="bibtex">@article{Doner11,
+	author = {D\"oner,F. and R. Thompson and J.E. Stoter and C. Lemmen and H. Ploeger and P. van Oosterom and S. Zlatanova},
+	journal = {Land Use Policy},
+	pages = {1068--1081},
+	title = {{4D} cadastres: First analysis of Legal, organizational, and technical impact - With a case study on utility networks},
+	year = {2011}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Modelling and analysing 3D buildings with a primal/dual data structure</strong>. Pawel Boguslawski, Christopher M. Gold and Hugo Ledoux. <em>ISPRS Journal of Photogrammetry &amp; Remote Sensing</em> 66, 2011, pp. 188&ndash;197. <span class="text-danger"> Won the ISPRS best paper award in 2011</span>. <br /><span style="font-size: 15pt"> <a href="http://homepage.tudelft.nl/23t4p/pdfs/_11isprs.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBoguslawski11" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBoguslawski11" class="collapse" tabindex="-1"><pre class="bibtex">@article{Boguslawski11,
+	author = {Pawel Boguslawski and Christopher M. Gold and Hugo Ledoux},
+	journal = {ISPRS Journal of Photogrammetry \&amp; Remote Sensing},
+	pages = {188--197},
+	title = {Modelling and analysing {3D} buildings with a primal/dual data structure},
+	volume = {66},
+	year = {2011}
+}</pre></div></span></div>
+
+<hr />
+
+<h2 id="research-topics-and-tasks">Research topics and tasks</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading"> 
+        <a data-toggle="collapse" href="#k">
+          <b>Realising the foundations of a higher dimensional GIS<br />PhD research of Ken Arroyo Ohori (06/2011 &ndash; ongoing)</b>
+        </a>
+    </div>
+
+      <div id="k" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="row">
+        <div class="col-lg-4 col-sm-4">
+          <img src="img/kenproposal.jpg" class="img-responsive" />
+        </div>
+        <div class="col-lg-8 col-sm-8">
+          <p>
+          Geographic Information Systems are still relatively weak in 3D, with most systems only able to support at most some form of limited 3D storage and visualisation with the help of external modules.
+          This is not because of a lack of applications for higher dimensional GIS.
+          We can gain powerful new insights by integrating additional dimensions into GIS, such as time, scale, and other application-dependent feature spaces.
+        </p>
+        <p>
+          At the same time, techniques to create and manipulate spatial data were developed much further within other fields, such as algebraic topology and computer graphics.
+          This included strong mathematical formulations and their extension to higher dimensions.
+          Thus, 3D (and more) became widespread in these fields, to the point that is now a standard part of them.
+        </p>
+        <p>
+          The purpose of my research is therefore to take advantage of these developments in other fields and develop the new representations and techniques needed to support a higher dimensional GIS, as well as to put these into practice by building actual working prototypes.
+        </p>
+          <strong>Realising the foundations of a higher dimensional GIS: a study of higher dimensional spatial data models, data structures and operations</strong>. Ken Arroyo Ohori. PhD Proposal 57, OTB Research Institute for the Built Environment, Delft University of Technology, December 2011. ISBN: 978-90-77029-29-9 ISSN: 1560-0245. <br /> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal.pdf"><i class="fas fa-file-alt"></i> PDF</a> <a href="http://www.gdmc.nl/ken/files/11_phd_proposal_presentation.pdf"><i class="fas fa-image"></i> Slides</a> <a href="#bib11phdproposal" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a><div id="bib11phdproposal" class="collapse" tabindex="-1"><pre>@techreport{11phdproposal,
+  author = {Ken {Arroyo Ohori}},
+  title = {Realising the Foundations of a Higher Dimensional {GIS}: A Study of Higher Dimensional Spatial Data Models, Data Structures and Operations},
+  institution = {OTB Research Institute for the Built Environment, Delft University of Technology},
+  year = {2011},
+  type = {PhD Proposal},
+  number = {57},
+  month = dec,
+  note = {ISBN: 978-90-77029-29-9 ISSN: 1560-0245}
+}</pre></div>
+        </div>
+      </div>
+      
+
+          <div id="ks" class="panel-collapse">
+            <div class="panel-body">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                  <a data-toggle="collapse" href="#k1">
+                      <b>1. <em>n</em>D data structures and data models</b> <i class="fas fa-caret-square-down"></i>
+                  </a>
+              </div>
+              <div id="k1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <br />
+                <div class="row">
+                  <div class="col-lg-5 col-sm-5">
+                    <img src="img/gmaps-3d-5.png" class="img-responsive" />
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <img src="img/modifiedgmaps.jpg" class="img-responsive" />
+                  </div>
+                </div>
+                <br />
+                <p>
+                  Current GIS data structures and data models only support 2D and 3D features in a limited form.
+                  At the same time, there are representations developed in other domains (e.g. computer science, computer science and algebraic topology) that support nD data but cannot directly be aplied to GIS.
+                  The aim of this research is to study the capabilities of existing nD data models and structures, together with the necessary adaptations in order to use them in GIS.
+                  <br />
+                      <b>Read more:</b>
+                      <?php echo($bibhtmler->process('publications.bib', '13iccsa')) ?>
+                    </p>
+                  </div>
+              </div>
+            </div>
+            
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                  <a data-toggle="collapse" href="#k2">
+                      <b>2. Construction of nD objects: nD extrusion</b> <i class="fas fa-caret-square-down"></i>
+                  </a>
+              </div>
+              <div id="k2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <br />
+                <div class="row">
+                  <div class="col-lg-4 col-sm-4">
+                    <img src="img/extrusion.png" class="img-responsive" />
+                  </div>
+                  <div class="col-lg-7 col-sm-7">
+                    <img src="img/aula4d.png" class="img-responsive" />
+                  </div>
+                </div>
+                <br />
+                <p>
+                  It is possible to construct nD objects from (n-1)D ones by assuming that these remain unchanged along the n-th dimension, such as when the footprint of a building doesn't change along the vertical direction or when a 3D building's geometry doesn't change in time.
+                  This is a generalised version of the 2D to 3D operator as known in GIS.
+                  The aim of this research is to develop an nD extrusion operator that is able to construct and maintain all topological relationships correctly.
+                  <br />
+                      <b>Read more:</b>
+                      <?php echo($bibhtmler->process('publications.bib', '13acmsigspatial')) ?>
+                    </p>
+                  </div>
+              </div>
+            </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <a data-toggle="collapse" href="#k3">
+                      <b>3. Construction of nD objects: incremental construction</b> <i class="fas fa-caret-square-down"></i>
+                  </a>
+              </div>
+              <div id="k3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <br />
+                <div class="row">
+                  <div class="col-lg-5 col-sm-5">
+                    <img src="img/2tetra-map.png" class="img-responsive" />
+                  </div>
+                  <div class="col-lg-4 col-sm-4">
+                    <img src="img/tesseract3.png" class="img-responsive" />
+                  </div>
+                </div>
+                <br />
+                <p>
+                  Constructing arbitrary nD objects is very difficult, largely because such objects are themselves difficult to describe and understand.
+                  However, there is a relatively intuitive way to describe such nD objects, one that significantly reduces the complexity of their description: doing so based on their (n-1)D boundary.
+                  This can be applied iteratively in increasing dimension, starting from simple nD points defined by their coordinates, and then moving on to facets, volumes, and so on.
+                  The aim of this research is to develop an operator that is able to connect the "soup" of (n-1)D faces in the boundary of an object to form this nD object.
+                  <br />
+                      <b>Read more:</b>
+                      <?php echo($bibhtmler->process('publications.bib', '14icaa')) ?>
+                    </p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                  <a data-toggle="collapse" href="#k4">
+                      <b>4. Manipulating higher dimensional GIS models</b> <i class="fas fa-caret-square-down"></i>
+                  </a>
+              </div>
+              <div id="k4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <br />
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <img src="img/slicing.png" class="img-responsive" />
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <img src="img/slicing2.png" class="img-responsive" />
+                  </div>
+                </div>
+                <br />
+                <p>
+                  Editing and extracting useful information from higher dimensional models is complex since we are only used to working with 2D/3D data and tools.
+                  Moreover, there is a lack of understanding and multiple misconceptions in the GIS community regarding what a higher dimensional GIS could do, how higher dimensional data would look like and how this data could be manipulated.
+                  The aim of this research is therefore to describe the kind of data that would be used in a higher dimensional GIS, the work flow to do editing operations on it, and the techniques to extract 2D/3D data from it for use in standard 2D/3D GIS.
+                  <br />
+                      <b>Read more:</b>
+                      <?php echo($bibhtmler->process('publications.bib', '13agile')) ?>
+                    </p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                  <a data-toggle="collapse" href="#k5">
+                      <b>5. Realising a higher dimensional GIS</b> <i class="fas fa-caret-square-down"></i>
+                  </a>
+              </div>
+              <div id="k5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <br />
+                <p>
+                  Taking the developed theories and algorithms for a higher dimensional GIS and putting them into practice is not trivial.
+                  The curse of dimensionality causes huge datasets and non-linear behaviour in even simple problems, programming and using dimension-independent libraries and functions requires advanced techniques, and the generic nature of GIS further complicates matters.
+                  The aim of this research is to find and develop techniques to overcome these difficulties, and to build actual working prototypes to showcase the developed theories and algorithms.
+                  <br />
+                    </p>
+                  </div>
+              </div>
+            </div>
+
+          <br />
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading"> 
+        <a data-toggle="collapse" href="#j">
+          <b>Automatic repair of 3D city models<br />John Zhao (07/2012 &ndash; 12/2013)</b>
+        </a>
+    </div>
+
+      <div id="j" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <iframe src="//player.vimeo.com/video/80282908" width="500" height="375" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> <p><a href="http://vimeo.com/80282908">Repair of 3D building models using shrink-wrapping</a> from <a href="http://vimeo.com/user18215271">Junqiao Zhao</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading"> 
+        <a data-toggle="collapse" href="#h">
+          <b>Validation of 3D datasets<br />Hugo Ledoux (06/2011 &ndash; ongoing)</b>
+        </a>
+    </div>
+    <div id="h" class="panel-collapse collapse in">
+    <div class="panel-body">
+      <center><img src="img/validornot.png" class="img-responsive" width="400" /></center>
+      <p>The international standard <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=26012">ISO19107</a> provides definitions of geometric primitives, with the aim of fostering exchange and interoperability in the GIS community. In 2D, these are well-accepted and there are several implementations available to <em>validate</em> primitives. However, while there exists an equivalent definition in 3D (for solids), it is ignored by most researchers and by software vendors. We are working on an open-source validator for 3D datasets, one that is ISO19107-compliant. It is called <em>val3dity</em>, the code is freely <a href="https://github.com/tudelft3d/val3dity">available</a>, and we offer a <a href="http://geovalidation.bk.tudelft.nl/val3dity">web application</a>.</p>
+    </div>
+</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading"> 
+        <a data-toggle="collapse" href="#f">
+          <b>Level of Detail in 3D city modelling<br />PhD research of Filip Biljecki (07/2012 &ndash; ongoing)</b>
+        </a>
+      </div>
+        
+
+      <div id="f" class="panel-collapse collapse in">
+      <div class="panel-body">
+
+        <div class="row">
+        <div class="col-lg-4 col-sm-4">
+          <img src="img/filipproposal.jpg" class="img-responsive" />
+          <br />
+        </div>
+
+        <div class="col-lg-8 col-sm-8">
+
+        <p>
+            Level of detail is a concept available in various disciplines from computer graphics and cartography to electrical circuit design. 
+            For GIS practitioners, the discipline where LOD is most relevant and well known is 3D city modelling. 
+            While current LOD paradigms, such as the one found in CityGML 2.0, fulfil the requirements of many applications and users, there are significant shortcomings: the LODs are discrete and their number is limited, the specifications are not clear, potentially there is inconsistency between different LODs, the paradigms do not take into account the application and user’s needs, and redundancy is present in virtually all parts of the modelling-storage-query-visualisation workflow. Further, there is no framework in which LODs can be compared and translated.
+          </p>
+
+          <p>The aim of this PhD research is to investigate and to improve the concept of level of detail (LOD) in 3D city modelling. The two most important aspects of the improvement are the formalisation of the concept in the frame of 3D city modelling, and the integration of LOD with 3D space in a 4D model (3D+scale).<br />
+          </p>
+
+        <p>
+          This research is associated with the OGC CityGML Standards Working group, and the results may be used for the upcoming version of the standard due in 2016.
+        </p>
+        <br />
+        
+        <?php echo($bibhtmler->process('publications.bib', '13phdproposal')) ?>
+        <?php echo($bibhtmler->process('publications.bib', '13eurosdr')) ?>
+        
+        </div>
+      </div>
+
+        
+
+      <div class="panel panel-default">
+
+        <div class="panel-heading">
+          <a data-toggle="collapse" href="#fs">    
+              <b>Stages and research questions</b> <i class="fas fa-caret-square-down"></i>
+            </a>
+          </div>
+
+          <div id="fs" class="panel-collapse collapse">
+            <div class="panel-body">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                  <a data-toggle="collapse" href="#f1">
+                      <b>1. Formalisation:</b> What is the concept of LOD, what is an LOD? How to specify it? <i class="fas fa-caret-square-down"></i>
+                  </a>
+              </div>
+
+              <div id="f1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                <p>The concept of LOD is an ambiguous term in 3D city modelling. The goal here is to formalise the concept in a consistent framework, and to derive a specification format in order to unambiguously specify a discrete LOD which can be used, for instance, in contracting and the process of procurement of 3D city models.<br />
+                    <b>Most relevant publication:</b> Under submission, to be updated.</p>
+                  </div>
+              </div>
+            </div>
+            <br />
+          <center><img src="img/def.png" class="img-responsive" width="700" /></center>
+          <br />
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a data-toggle="collapse" href="#f2">
+                      <b>2. Hyper-dimensional integration of space and scale: </b>Can we model LOD as a spatial dimension, i.e. in a space-scale hypercube? <i class="fas fa-caret-square-down"></i>
+                  </a>
+        
+              </div>
+          
+  
+            <div id="f2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>This part of the research deals with the integration of 3D geometry and LOD in a 4D model. The benefits of this approach are, for instance, consistency and vario-scale 3D models.<br />
+                  <b>Most relevant publication:</b> An introduction is available in <i>Stoter et al. (2012): Integrating scale and space in 3D city models</i> [<a href="http://dx.doi.org/10.5194/isprsarchives-XXXVIII-4-C26-7-2012" target="_blank">DOI</a>]</p>
+                </div>
+            </div>
+          </div>
+          
+        <br />
+      <center><img src="img/4d.png" class="img-responsive" width="500" /></center>
+      <br />
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <a data-toggle="collapse" href="#f3">
+                    <b>3. Context-awareness:</b> Can we define contexts and use-cases in 3D city modelling, and create LODs which are customised for an application? <i class="fas fa-caret-square-down"></i>
+              </a>
+        
+          </div>
+  
+          <div id="f3" class="panel-collapse collapse">
+              <div class="panel-body">
+          <p>3D city models can be used for more than 30 different applications. Each application has different requirements, for instance, noise modelling might not benefit from appeareance and semantics in the model. The goal of this research is to investigate what metrics are important for an application, and create Application LODs (ALOD) which are context-aware and suited for a specific application. The benefit of this research is the better understanding of the requirements of an application, and cutting the costs of acquisition, modelling, and storage of the models.<br />
+          The figure below shows three different 3D models which all produce the same result when used in the estimation of the solar potential of the rooftops.<br />
+          <b>Most relevant publication:</b> No publications at the moment (work in progress)</p>
+              </div>
+          </div>
+        </div>
+        <br />
+      <center><img src="img/alodf.png" class="img-responsive" width="600" /></center><br />
+
+      <div class="panel panel-default">
+          <div class="panel-heading">
+           <a data-toggle="collapse" href="#f4">
+          <b>4. Linking of features in between LODs:</b> Can we match features represented in multi-LOD datasets, and re-use data? <i class="fas fa-caret-square-down"></i>
+            </a>
+        
+        </div>
+  
+          <div id="f4" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>CityGML files may be derived in multi-scale representations, i.e. more than one LOD in the same file. Some of the features overlap, i.e. the geometry and texture of a roof may be the same in two or more LODs. This part of the PhD investigates is it possible to link and re-use such features for consistency (e.g. update only one LOD and propagate the changes), and avoid their storage redundancy (e.g. store only once).<br />
+          <b>Most relevant publication:</b> No publications at the moment (work in progress)</p>
+            </div>
+        </div>
+      </div>
+   
+        <br />
+      <center><img src="img/link.png" class="img-responsive" width="600" /></center><br />
+
+        </div>
+      </div>
+    </div>
+      </div>
+  </div>
+
+</div>
+
+<hr />
+
+<h2 id="users-committee">Users’ committee</h2>
+
+<h3 id="members">Members</h3>
+
+<p>1Spatial, Bentley, ESRI, Kadaster, Municipality of Amsterdam, Municipality of the Hague, Municipality of Rotterdam, Rijkswaterstaat, Oracle</p>
+
+<h3 id="problems-identified-by-the-users-committee">Problems identified by the users’ committee</h3>
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Problem</th>
+        <th>Dimension</th>
+        <th>Stakeholder</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>BGT/BRT generalisation</td>
+        <td>2D+scale</td>
+        <td>BGT sourceholders &amp; Kadaster</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Centre line generator</td>
+        <td>2D+scale</td>
+        <td>BGT sourceholders &amp; Kadaster</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Operations within tGap</td>
+        <td>2D+scale</td>
+        <td>BGT sourceholders &amp; Kadaster</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Validation and repair of 3D city models</td>
+        <td>3D</td>
+        <td>Municipalities of the Hague &amp; Rotterdam</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>LOD and BIM</td>
+        <td>3D+scale</td>
+        <td>Bentley </td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>LOD in city modelling</td>
+        <td>3D+scale</td>
+        <td>Municipalities of the Hague &amp; Rotterdam</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Generalisation of 3D city models</td>
+        <td>3D+scale</td>
+        <td>Municipalities of the Hague &amp; Rotterdam</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Time topology</td>
+        <td>2D+time</td>
+        <td>Municipality of Amsterdam</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Maintaining 3D city models</td>
+        <td>3D+time</td>
+        <td>Municipalities of the Hague &amp; Rotterdam</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+
+<h2 id="team">Team</h2>
+
+<div class="row">
+
+    <div class="col-lg-4 col-sm-6">
+      <a href="http://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="/img/staff/ken.jpg" /></a>
+    
+      <h3>Ken Arroyo Ohori <small>PhD candidate</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+          <br />
+          <br />
+      </p>
+    </div>
+    
+    
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://3d.bk.tudelft.nl/biljecki"><img class="img-circle img-responsive" src="/img/staff/filip.jpg" /></a>
+      <h3>Filip Biljecki <small>PhD candidate</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/biljecki">3d.bk.tudelft.nl/biljecki</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:f.biljecki@tudelft.nl">f.biljecki@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 82798">+31 15 27 82798</a><br />
+      </p>
+    </div>
+    
+    <div class="col-lg-4 col-sm-6">
+      <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" /></a>
+      <h3>Hugo Ledoux <small>Associate-prof.</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
+          <i class="fab fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
+      </p>
+    </div>
+    
+    <div class="col-lg-4 col-sm-6">
+      <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" /></a>
+      <h3>Jantien Stoter <small>Professor</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
+          <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
+      </p>
+    </div>
+</div>
+:ET

@@ -33,74 +33,9 @@
   photo: francesca.jpg
   email: f.noardo@tudelft.nl
   twitter: FrancescaNoardo
-  homepage: 3d.bk.tudelft.nl/fnoardo
+  homepage: noardo.eu
   description: "She is a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).
-
-
-.......
-  
-
-**Research interests**
-
-
 She works towards the **integration of multi-source spatial data**, in particular, detailed 3D models (from survey or from design), **in interoperable 3D maps**, having semantics from open standards and correct geometry.
-
-
-The inclusion of different levels-of-detail, time, extra information (energy, history, functions, sensor data…) make such maps increasingly powerful to analyse the city (e.g. noise, air quality, urban flooding), visualise effects of changes, communicate, educate.
-
-
-She envisages the concrete employment of such technology for **smart cities applications**.
-
-
-.......
-
-
-**Projects**
-
-
-She is now working in projects aiming at the integration of 3D geoinformation with Building Information Models (BIM).
-
-
-The GeoBIM integration is addressed in the [***EuroSDR GeoBIM project***](https://3d.bk.tudelft.nl/projects/eurosdr-geobim/) with the focus on building permission issuing use case.
-
-
-Other use cases for GeoBIM information are addressed within the project [***Smart data integration for urban applications***](https://3d.bk.tudelft.nl/projects/smartdi-ams/), at AMS.
-
-
-The [***GeoBIM benchmark***](https://3d.bk.tudelft.nl/projects/geobim-benchmark/) aims instead at testing the support and performance of software managing Geo and BIM data (in IFC and CityGML) in order build a reference for people interested in the use of standardised data.
-
-
-Her interest in the management of [***cultural heritage through spatial (3D) information***](https://3d.bk.tudelft.nl/projects/culturalheritage/) is still part of her research.
-
-On similar topics, she is collaborating to the [***HERILAND project***](https://www.heriland.eu).
-
-
-She was recently awarded a fellowship position in the **LEaDing Fellows** Postdoc Programme, with the project ***'Multisource Spatial data integration for smart city applications'***. 
-
-
-.......
-
-
-**Before..**
-
-
-She had her MSc in Architecture (Restoration and Enhancement) from the Politecnico di Torino (Italy) (2012), where she also obtained her PhD in Cultural Heritage (2016), during which (and until may 2018) her research was especially directed at the use of open standard data models and open technologies to archive high-level-of-detail and semantic information in 3D digital maps.
-
-
-.......
-
-
-**More things**
-
-
-She is the secretary in the [Working Group IV/2](http://www2.isprs.org/commissions/comm4/wg2.html): ***Ontologies, Semantics, and Knowledge Representation for Geospatial Information*** of the [International Society of Photogrammetry and Remote Sensing (ISPRS)](https://www.isprs.org).
-
-
-She is guest editor, together with prof. L. Harrie and prof. C. Ellul of the [**Special issue 'Integration of BIM and GIS 
-for Built Environment Applications'**](https://www.mdpi.com/journal/ijgi/special_issues/BIM_GIS_built) in the Open-Access [*ISPRS International Journal of Geo-Information*](http://www.mdpi.com/journal/ijgi) ISSN 
-2220-9964.
-
-**The call for papers is open! Deadline 29/02/2020**
 "
   projects:
     - name: esdr-geobim

@@ -1,0 +1,158 @@
+I"À<p><img src="/img/2015/pronkmulder.jpg" alt="" /></p>
+
+<p>On June 22, both Damien Mulder (left) and Maarten Pronk (right) successfully defended their MSc thesis work (in the programme <a href="http://geomatics.tudelft.nl">MSc Geomatics at TU Delft</a>). 
+Congratulations to them!</p>
+
+<p>Damien worked on the automatic repair of 3D buildings with voxel-based method, and Maarten worked on the efficient storage of massive TINs in a DBMS (and moreover graduated <em>cum laude</em>, bravo!).
+A link to their final thesis and code is available below.</p>
+
+<hr />
+
+<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129/"><img src="/img/msc/damien.jpg" /></a>
+      <div class="caption">
+        <h3>
+          Damien Mulder 
+          <br />
+          <small>(2015)</small>
+        
+          <small><a href="http://resolver.tudelft.nl/uuid:8ef4459d-b940-4007-bc3c-d87349015129/"><i class="fas fa-book" title="thesis"></i></a></small>
+        
+        
+        
+          <small><a href="https://github.com/dtmulder/VoxelRepair"><i class="fab fa-github" title="github"></i></a></small> 
+        
+        </h3>
+        <p>Automatic repair of 3D city building models using a voxel-based repair method</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="http://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f/"><img src="/img/msc/maarten.png" /></a>
+      <div class="caption">
+        <h3>
+          Maarten Pronk 
+          <br />
+          <small>(2015)</small>
+        
+          <small><a href="http://resolver.tudelft.nl/uuid:da6b7329-f45b-4560-8374-bb522e78121f/"><i class="fas fa-book" title="thesis"></i></a></small>
+        
+        
+        
+          <small><a href="https://github.com/evetion/multistar"><i class="fab fa-github" title="github"></i></a></small> 
+        
+        </h3>
+        <p>Storing massive TINs in a DBMS - A comparison and a prototype implementation of the multistar approach</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+:ET

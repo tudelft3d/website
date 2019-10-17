@@ -1,0 +1,21 @@
+I"z<p>Because we were saddened by the general state of the CityGML websites, we have now taken over the official domain: <a href="https://www.citygml.org">www.citygml.org</a>.</p>
+
+<p><a href="https://www.citygml.org"><img src="/img/2017/citygmlguru.png" /></a></p>
+
+<p>We currently have, among others, the following:</p>
+
+<ul>
+  <li>several <a href="https://www.citygml.org/samplefiles/">sample datasets</a> (included different examples of the different primitives)</li>
+  <li><a href="https://www.citygml.org/3dcities/">a list of a openly available cities in CityGML</a>, and those in other formats too</li>
+  <li><a href="https://www.citygml.org/3dcities/">a list of software that are CityGML v2.0 compatible</a></li>
+  <li><a href="https://www.citygml.org/schemas/doc-complete/citygml">the complete schema of CityGML, <em>browsable</em></a></li>
+</ul>
+
+<p>Anyone who also loves CityGML is more than welcome to contribute to the site by submitting new content and/or fixing errors.
+We are particularly looking for new software, and a more exhaustive list of <a href="https://www.citygml.org/ongoingdev/">ongoing developments</a>.</p>
+
+<p>The <a href="https://github.com/tudelft3d/website-citygml">source code is publicly available and hosted on GitHub</a>, and if you want to contribute please visit <a href="https://www.citygml.org/contribute/">this page</a>.</p>
+
+<p>Cheers,
+The gurus of CityGML</p>
+:ET

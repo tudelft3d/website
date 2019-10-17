@@ -1,0 +1,14 @@
+I"�<p>We presented at the FOSS4G 2019 conference in Bucharest:</p>
+
+<p><strong>Working with 3D city models in Python</strong></p>
+
+<p>Semantic 3D city models are one of the cornerstones of the so-called “smart city” applications, yet they are very difficult to manipulate/edit/update. While they are relatively easy to generate, their use and maintenance is limited by the available software and the cumbersome data model. Have you ever tried to write a CityGML file? And to parse one? We did, and we didn’t like it. Therefore we created a developer-friendly JSON implementation of the CityGML data model. The talk at FOSS4G introduced <em>CityJSON</em> its processing software <em>cjio</em>, which can be used as a CLI to chain operations, or its API can be used to generate features for machine learning.</p>
+
+<p>The complete material of the presentation is in a <a href="https://github.com/balazsdukai/foss4g2019">GitHub repository</a>. The <a href="https://nbviewer.jupyter.org/github/balazsdukai/foss4g2019/blob/gh-pages/cjio_tutorial.ipynb">jupyter notebook</a> contains a step-by-step tutorial on using the current version of <em>cjio</em>.</p>
+
+<p><a href="https://nbviewer.jupyter.org/github/balazsdukai/foss4g2019/blob/gh-pages/cjio_tutorial.ipynb"><img src="/img/2019/foss4g_cjio.png" /></a></p>
+
+<p>The recording of the talk:</p>
+
+<iframe width="1024" height="576" src="https://media.ccc.de/v/bucharest-26-working-with-3d-city-models-in-python/oembed" frameborder="0" allowfullscreen=""></iframe>
+:ET

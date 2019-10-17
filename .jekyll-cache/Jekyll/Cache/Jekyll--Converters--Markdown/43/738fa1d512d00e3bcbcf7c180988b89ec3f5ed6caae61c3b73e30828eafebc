@@ -1,0 +1,549 @@
+I"�,
+<div class="table-responsive">
+
+<table class="table table-striped">
+
+  <tr class="info">
+    <td>dataset</td>
+    <td>country</td>
+    <td>year</td>
+    <td>building LoD</td>
+    <td>other classes</td>
+    <td>textures</td>
+    <td>acquisition</td>
+    <td>formats</td>
+    <td>notes</td>
+  </tr>
+
+  
+    <tr>
+      <td><a href="https://data.sa.gov.au/data/dataset/3d-model">Adelaide</a></td>
+      <td>Australia</td>
+      <td>2015</td>
+      <td>LoD1/LoD2</td>
+      <td>Terrain
+</td>
+      <td>true
+</td>
+      <td>
+</td>
+      <td>.3DS with JPEG textures, Blender, FBX
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://github.com/opencitymodel/opencitymodel">American cities</a></td>
+      <td>USA</td>
+      <td>2019</td>
+      <td>LoD1</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityJSON, CityGML
+</td>
+      <td>125 million buildings, separated by state
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://austintexas.gov/department/gis-and-maps/gis-data">Austin</a></td>
+      <td>USA</td>
+      <td>2013</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>KMZ
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://www.businesslocationcenter.de/en/economic-atlas/download-portal/">Berlin</a></td>
+      <td>Germany</td>
+      <td>2013</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>true
+</td>
+      <td>
+</td>
+      <td>CityGML, 2D Shape, 3D Shape - PolygonZ, 3D Shape - Multipatch, KMZ, DXF, DWG, 3DS, ESRI FGDB
+</td>
+      <td>Released in 2015
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www.bostonplans.org/3d-data-maps/3d-smart-model/3d-data-download">Boston</a></td>
+      <td>USA</td>
+      <td>2017</td>
+      <td>LoD1+LoD2</td>
+      <td>Terrain
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>OBJ, DWG, MAX, Shapefile
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://urbisdownload.gis.irisnet.be/en/dimension">Brussels</a></td>
+      <td>Belgium</td>
+      <td>2014</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityGML, DWG, DGN, GML, Shapefile, SketchUp
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www.cambridgema.gov/GIS/3D/3ddata/3ddatadownloadmap">Cambridge</a></td>
+      <td>UK</td>
+      <td></td>
+      <td>LoD1</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>DXF, Shapefile, COLLADA
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www.dresden.de/de/leben/stadtportrait/statistik/geoinformationen/3-d-modell.php?shortcut=3D">Dresden</a></td>
+      <td>Germany</td>
+      <td>2009</td>
+      <td>LoD1/LoD2/LoD3</td>
+      <td>
+</td>
+      <td>partially
+</td>
+      <td>
+</td>
+      <td>CityGML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://3d.bk.tudelft.nl/opendata/3dfier/">Dutch cities</a></td>
+      <td>Netherlands</td>
+      <td>2016</td>
+      <td>LoD1</td>
+      <td>Terrain and many other
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityGML, OBJ, IMGeo
+</td>
+      <td>A few Dutch cities generated with 3dfier
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://kartat.espoo.fi/3d/index_en.html">Espoo</a></td>
+      <td>Finland</td>
+      <td>2019</td>
+      <td>LoD1-3</td>
+      <td>
+</td>
+      <td>true
+</td>
+      <td>
+</td>
+      <td>CityGML
+</td>
+      <td>Many classes from CityGML: water body, terrain, landuse, etc.
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://www.gearthblog.com/blog/archives/2010/03/how_fredericton_canada_went_3d.html">Fredericton</a></td>
+      <td>Canada</td>
+      <td>2016</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>true
+</td>
+      <td>
+</td>
+      <td>KMZ
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www.geelongaustralia.com.au/data/item/central-geelong-3d-massing-model.aspx">Greater Geelong</a></td>
+      <td>Australia</td>
+      <td>2016</td>
+      <td>LoD1/LoD2</td>
+      <td>Terrain
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>KML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://suche.transparenz.hamburg.de/dataset/3d-stadtmodell-lod2-de-hamburg2">Hamburg</a></td>
+      <td>Germany</td>
+      <td>2017</td>
+      <td>LoD1 and LoD2</td>
+      <td>
+</td>
+      <td>
+</td>
+      <td>Cadastre footprints + LiDAR
+</td>
+      <td>CityGML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://kartta.hel.fi/3d/">Helsinki</a></td>
+      <td>Finland</td>
+      <td>2016</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>true
+</td>
+      <td>
+</td>
+      <td>CityGML, 2D Shape, 3D Shape - PolygonZ, 3D Shape - Multipatch, KMZ, DXF, DWG, 3DS, ESRI FGDB
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://geo.data.linz.gv.at/katalog/geodata/3d_geo_daten_lod2/">Linz</a></td>
+      <td>Austria</td>
+      <td>2011</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityGML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://data.grandlyon.com">Lyon</a></td>
+      <td>France</td>
+      <td>2012</td>
+      <td>LoD2</td>
+      <td>Terrain, water
+</td>
+      <td>
+</td>
+      <td>
+</td>
+      <td>CityGML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://donnees.ville.montreal.qc.ca/dataset/maquette-numerique-plateau-mont-royal-batiments-lod2-avec-textures">Montréal</a></td>
+      <td>Canada</td>
+      <td>2013</td>
+      <td>LoD2</td>
+      <td><a href="http://donnees.ville.montreal.qc.ca/dataset/modele-numerique-de-terrain-mnt">Terrain (TIN in CityGML format)</a>
+</td>
+      <td>true
+</td>
+      <td>Photogrammetry
+</td>
+      <td>CityGML, 3DM
+</td>
+      <td>The <a href="http://donnees.ville.montreal.qc.ca/dataset/lidar-aerien-2015">LiDAR dataset of the same area</a> is also available. <a href="http://donnees.ville.montreal.qc.ca/dataset/maquette-numerique-batiments-citygml-lod2-avec-textures">2009 dataset</a> also available.
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www1.nyc.gov/site/doitt/initiatives/3d-building.page">New York City (by DoITT)</a></td>
+      <td>United States</td>
+      <td>2016</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>Cadastre footprints + LiDAR
+</td>
+      <td>CityGML, Multipatch (ESRI), DGN
+</td>
+      <td>Buildings are modeled with thematic surfaces in LoD2, however, for most buildings the geometric shape is LoD1
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://www.gis.bgu.tum.de/projekte/3d-city-model-of-new-york-city/">New York City (by TUM)</a></td>
+      <td>United States</td>
+      <td>2015</td>
+      <td>LoD1</td>
+      <td>Roads, lots, parks, water, terrain
+</td>
+      <td>false
+</td>
+      <td>Photogrammetry in combination with existing public 2(.5)D datasets
+</td>
+      <td>CityGML
+</td>
+      <td><a href="https://phowo.ifp.uni-stuttgart.de/publications/phowo15/330Kolbe.pdf">Article with details</a>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://www.opengeodata.nrw.de/produkte/geobasis/3d-gm/">North Rhine-Westphalia (state)</a></td>
+      <td>Germany</td>
+      <td>2016</td>
+      <td>LoD1+LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>Cadastre footprints, LiDAR, aerial images. LoD1 is derived from LoD2 models with average roof height (<a href="http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/hoehenmodelle/3d_gebaeudemodelle/index.html">details here</a>)
+</td>
+      <td>CityGML
+</td>
+      <td>Enormous datasets that covers whole NRW (NRW is the most populated state in Germany) Cities included: Düsseldorf, Essen, Oberhausen, Köln, Bonn and more
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=7146">Philadelphia</a></td>
+      <td>USA</td>
+      <td>2015</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>true
+</td>
+      <td>
+</td>
+      <td>GDB
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://sip.poznan.pl/model3d/#/export">Poznań</a></td>
+      <td>Poland</td>
+      <td>2019</td>
+      <td>LoD1+LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>several diff formats
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="http://www.rotterdamopendata.nl/dataset/rotterdam-3d-bestanden">Rotterdam</a></td>
+      <td>Netherlands</td>
+      <td>2010</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>true
+</td>
+      <td>Cadastre footprints + LiDAR
+</td>
+      <td>CityGML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://data.sfgov.org/d/asx6-3trm">San Francisco</a></td>
+      <td>USA</td>
+      <td>2017</td>
+      <td>LoD1</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>KML, Shapefile, File Geodatabase
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://github.com/ualsg/hdb3d-data">Singapore</a></td>
+      <td>Singapore</td>
+      <td>2019</td>
+      <td>LoD1</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityJSON, OBJ
+</td>
+      <td>Public housing (HDB) buildings. <a href="https://github.com/ualsg/hdb3d-code">Code</a> used to generate dataset is publicly available.
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://denhaag.dataplatform.nl/#/data/36049d1a-4a0f-4c5d-8adb-21dbfb7252f9">The Hague</a></td>
+      <td>Netherlands</td>
+      <td>2018</td>
+      <td>LoD2</td>
+      <td>Terrain
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityGML, DGN
+</td>
+      <td><a href="https://denhaag.dataplatform.nl/#/data/756d6fe7-f334-4ced-af13-61d612d92b1a">2010</a> model also available. It contains terrain intersection curves!
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://open.toronto.ca/dataset/3d-massing/">Toronto</a></td>
+      <td>Canada</td>
+      <td>2016</td>
+      <td>LoD1</td>
+      <td>
+</td>
+      <td>
+</td>
+      <td>
+</td>
+      <td>Shapefile, Geodatabase, AutoCAD, SketchUp
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://opendata.vancouver.ca/explore/dataset/building-footprints-2009">Vancouver</a></td>
+      <td>Canada</td>
+      <td>2009</td>
+      <td>LoD1</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>Shapefile, DWG, KML
+</td>
+      <td>
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://www.cityjson.org/datasets/">Various CityJSON datasets</a></td>
+      <td>Netherlands, Canada, USA, Austria</td>
+      <td>2018</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>some
+</td>
+      <td>converted from CityGML with citygml4j
+</td>
+      <td>CityJSON
+</td>
+      <td>Available cities are the Hague, Montréal, New York, Rotterdam, Vienna, and Zürich
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://www.data.gv.at/katalog/dataset/86d88cae-ad97-4476-bae5-73488a12776d">Vienna</a></td>
+      <td>Austria</td>
+      <td>2018</td>
+      <td>LoD2</td>
+      <td>
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>CityGML
+</td>
+      <td>From the building footprints of the area multipurpose map and a surface model semi-automatically derived prototypical roof forms.
+</td>
+    </tr>
+  
+    <tr>
+      <td><a href="https://data.stadt-zuerich.ch/dataset?q=&amp;tags=3d-stadtmodell">Zürich</a></td>
+      <td>Switzerland</td>
+      <td>2019</td>
+      <td>LoD1+LoD2</td>
+      <td>Terrain
+</td>
+      <td>false
+</td>
+      <td>
+</td>
+      <td>several diff formats
+</td>
+      <td>
+</td>
+    </tr>
+  
+
+</table>
+</div>
+:ET

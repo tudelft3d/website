@@ -1,0 +1,372 @@
+I"�\<div class="row">
+  <div class="col-sm-3 hidden-xs nopadding"><img class="img-responsive" src="/projects/3dsm/img/2dskeleton.png" /></div>
+  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="/projects/3dsm/img/bg2.png" /></div>
+  <div class="col-sm-5 hidden-xs nopadding"><img class="img-responsive" src="/projects/3dsm/img/bg.jpg" /></div>
+</div>
+
+<hr />
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">Point cloud modelling</h2>
+    <p>Through point clouds we can obtain dense and accurate representations of real-world objects and landscapes. If we merely look at a visualisation of this point cloud, already a great deal of information is conveyed to us. We can easily recognise different objects and measure distances, areas, and volumes.</p>
+    <p>Yet to a computer a point cloud is nothing more than a bunch of 3D coordinates, without any structure or semantics. If we want a computer do the same things, we need to first structure the point cloud in a way also a computer can efficiently make use of it.</p>
+    <p>In the 3DSM project we aim to find 3D methods and datastructes that make it easier to work with pointclouds. By achieving this we enable a number of key applications of point clouds such as point cloud visualisation, visibility analysis, automatic object detection and surface reconstruction.</p>
+  </div>
+  <div class="col-md-5">
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+    <video autoplay="" loop="" class="embed-responsive-item">
+        <source src="/projects/3dsm/img/ze.mp4" type="video/mp4" />
+    </video>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<div class="row featurette">
+  <div class="col-md-5">
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+    <video autoplay="" loop="" class="embed-responsive-item">
+        <source src="/projects/3dsm/img/sb.mp4" type="video/mp4" />
+    </video>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">3D Medial Axis Transform (MAT)</h2>
+    <p>The MAT represents the shape of an object, in 2D or 3D, with balls contained inside it, and should be seen as the <em>skeleton</em> of an object. Given an object, it is an alternative representation that captures both the shape of the object and its topology (how its different parts are connected), and has therefore been used in numerous shape-related problems.</p>
+  </div>
+</div>
+
+<hr />
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">MAT for point cloud modelling</h2>
+    <p>The general idea of the project is to process point clouds not by manipulating the surface points, but rather by working on its MAT. While the MAT contains the same information as the conventional 'surface points' (i.e. the input point cloud), it models key properties of a shape in a much more explicit way. The key benefit of the MAT here is its skeleton-like and explicitly topological representation. Using this skeleton we can easily isolate distinct object from the point cloud and remove them for instance. This is possible because we always keep the link to the surface points while we work with the MAT.</p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-image img-responsive" src="/projects/3dsm/img/idea.gif" alt="Generic placeholder image" />
+  </div>
+</div>
+
+<hr />
+
+<div class="row featurette">
+  <div class="col-md-5">
+    <img class="featurette-image img-responsive" src="/projects/3dsm/img/usecases.jpeg" alt="Generic placeholder image" />
+  </div>
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">Case studies</h2>
+    <p>An important part of this project is to demonstrate the viablity of the MAT for a number of real-world applications and by using real-world datasets. We have identified the following case studies:</p>
+    <ul>
+    <li>Point cloud visualisation and simplification</li>
+    <li>Building detection</li>
+    <li>Watercourse detection</li>
+    <li>Visibility analysis</li>
+    <li>Surface reconstruction</li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="open-source-software">Open-source software</h2>
+
+<p>We will release all the code that is developed for this project as open source software. As of today not everthing is published yet. However, the core algorithm that we use to robustly compute the 3D MAT of point clouds is already available:</p>
+
+<ul>
+  <li><a href="https://github.com/tudelft3d/masbcpp">C++ implementation</a></li>
+  <li><a href="https://github.com/tudelft3d/masbpy">Python implementation</a></li>
+</ul>
+
+<iframe src="https://player.vimeo.com/video/127577620" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<hr />
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading" style="margin-top:0px;">Funding</h2>
+    <p>3DSM is a research project funded by the <a href="http://www.stw.nl/en/">Netherlands Organisation for Scientific Research (NWO)</a> under the <a href="http://www.stw.nl/en/content/open-technology-programme">Open Technology programme</a>.</p>
+  </div>
+  <div class="col-md-5">
+    <img style="margin-top:25px" class="featurette-image img-responsive" src="/projects/3dsm/img/nwo_logo.jpg" alt="NWO logo" />
+  </div>
+</div>
+
+<hr />
+
+<h2 id="publications">Publications</h2>
+
+<section id="year_2018" class="filteredtopgroup">
+<h3>2018<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Geographical point cloud modelling with the 3D medial axis transform</strong>. Ravi Peters. PhD thesis, Delft University of Technology, March 2018. ISBN: 978-94-6186-899-2. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.4233/uuid:f3a5f5af-ea54-40ba-8702-e193a087f243"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/thesis_web.pdf"><i class="fas fa-file-alt"></i></a> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/thesis_propositions.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="#bibPeters18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibPeters18" class="collapse" tabindex="-1"><pre class="bibtex">@phdthesis{Peters18,
+	author = {Ravi Peters},
+	month = {March},
+	note = {ISBN: 978-94-6186-899-2},
+	school = {Delft University of Technology},
+	title = {Geographical point cloud modelling with the {3D} medial axis transform},
+	year = {2018}
+}</pre></div></span></div>
+</section>
+<section id="year_2017" class="filteredtopgroup">
+<h3>2017<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Automatic identification of watercourses in flat and engineered landscapes by computing the skeleton of a lidar point cloud</strong>. Tom Broersen, Ravi Peters and Hugo Ledoux. <em>Computers &amp; Geosciences</em> 106, 2017, pp. 171&ndash;180. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1016/j.cageo.2017.06.003"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/Broersen17.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibBroersen17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBroersen17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Broersen17,
+	author = {Tom Broersen and Ravi Peters and Hugo Ledoux},
+	journal = {Computers &amp; Geosciences},
+	pages = {171--180},
+	title = {Automatic identification of watercourses in flat and engineered landscapes by computing the skeleton of a LiDAR point cloud},
+	volume = {106},
+	year = {2017}
+}</pre></div></span></div>
+</section>
+<section id="year_2016" class="filteredtopgroup">
+<h3>2016<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Robust approximation of the Medial Axis Transform of LiDAR point clouds as a tool for visualisation</strong>. Ravi Peters and Hugo Ledoux. <em>Computers &amp; Geosciences</em> 90(A), March 2016, pp. 123&ndash;133. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1016/j.cageo.2016.02.019"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/16candg.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibPeters16" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibPeters16" class="collapse" tabindex="-1"><pre class="bibtex">@article{Peters16,
+	author = {Peters, Ravi and Ledoux, Hugo},
+	journal = {Computers \&amp; Geosciences},
+	month = {mar},
+	number = {A},
+	pages = {123--133},
+	title = {Robust approximation of the {Medial Axis Transform} of {LiDAR} point clouds as a tool for visualisation},
+	volume = {90},
+	year = {2016}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Creating the medial axis transform for billions of LiDAR points using a memory efficient method</strong>. Marco Lam. Master&apos;s thesis, MSc thesis in Geomatics, Delft University of Technology, 2016. <br /><span style="font-size: 15pt"> <a href="http://resolver.tudelft.nl/uuid:2452566b-058a-4fde-aa0e-e300421bb8b2/"><i class="ai ai-doi-square"></i></a> <a href="#bibLam16" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLam16" class="collapse" tabindex="-1"><pre class="bibtex">@mastersthesis{Lam16,
+	author = {Lam, Marco},
+	school = {MSc thesis in Geomatics, Delft University of Technology},
+	title = {Creating the medial axis transform for billions of {LiDAR} points using a memory efficient method},
+	year = {2016}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Automatic identification of water courses from AHN3 in flat and engineered landscapes</strong>. Tom Broersen. Master&apos;s thesis, MSc thesis in Geomatics, Delft University of Technology, 2016. <br /><span style="font-size: 15pt"> <a href="http://resolver.tudelft.nl/uuid:7a64a9f7-2fef-46b1-9e48-5e0b0d736056"><i class="ai ai-doi-square"></i></a> <a href="#bibBroersen16" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBroersen16" class="collapse" tabindex="-1"><pre class="bibtex">@mastersthesis{Broersen16,
+	author = {Broersen, Tom},
+	school = {MSc thesis in Geomatics, Delft University of Technology},
+	title = {Automatic identification of water courses from {AHN3} in flat and engineered landscapes},
+	year = {2016}
+}</pre></div></span></div>
+</section>
+<section id="year_2015" class="filteredtopgroup">
+<h3>2015<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Visibility Analysis in a Point Cloud Based on the Medial Axis Transform</strong>. Ravi Peters, Hugo Ledoux and Filip Biljecki. <em>Eurographics Workshop on Urban Data Modelling and Visualisation 2015</em>, Delft, Netherlands, November 2015, pp. 7&ndash;12. <br /><span style="font-size: 15pt"> <a href="http://doi.org/10.2312/udmv.20151342"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/15_udmv.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibPeters15" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibPeters15" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Peters15,
+	address = {Delft, Netherlands},
+	author = {Peters, Ravi and Ledoux, Hugo and Biljecki, Filip},
+	booktitle = {Eurographics Workshop on Urban Data Modelling and Visualisation 2015},
+	month = {nov},
+	pages = {7--12},
+	title = {{Visibility Analysis in a Point Cloud Based on the Medial Axis Transform}},
+	year = {2015}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Het 3D skelet van een puntenwolk</strong>. Ravi Peters. Presentation at the AHN/NCG studiemiddag (Amersfoort, the Netherlands), Januari 28 2015. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/15_ahn_studie_middag.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bib15_ahn_studie_middag" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib15_ahn_studie_middag" class="collapse" tabindex="-1"><pre class="bibtex">@misc{15_ahn_studie_middag,
+	author = {Ravi Peters},
+	howpublished = {Presentation at the AHN/NCG studiemiddag (Amersfoort, the Netherlands)},
+	month = {Januari 28},
+	title = {Het {3D} skelet van een puntenwolk},
+	year = {2015}
+}</pre></div></span></div>
+</section>
+<section id="year_2014" class="filteredtopgroup">
+<h3>2014<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>A Voronoi-based approach to generating depth-contours for hydrographic charts</strong>. Ravi Peters, Hugo Ledoux and Martijn Meijers. <em>Marine Geodesy</em> 37(2), 2014, pp. 145&ndash;166. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1080/01490419.2014.902882"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/14marinegeo.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibPeters14" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibPeters14" class="collapse" tabindex="-1"><pre class="bibtex">@article{Peters14,
+	author = {Peters, Ravi and Ledoux, Hugo and Meijers, Martijn},
+	journal = {Marine Geodesy},
+	number = {2},
+	pages = {145--166},
+	title = {A {V}oronoi-based approach to generating depth-contours for hydrographic charts},
+	volume = {37},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Feature aware digital surface model analysis and generalization based on the 3D medial axis transform</strong>. Ravi Peters. PhD research proposal GISt Report No. 65, Delft University of Technology, 2014. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/14phdproposal.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bib14phdproposal" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib14phdproposal" class="collapse" tabindex="-1"><pre class="bibtex">@techreport{14phdproposal,
+	address = {the Netherlands},
+	author = {Ravi Peters},
+	institution = {Delft University of Technology},
+	number = {GISt Report No. 65},
+	title = {Feature aware digital surface model analysis and generalization based on the {3D} medial axis transform},
+	type = {PhD research proposal},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Approximating the medial axis transform of LiDAR point clouds</strong>. Ravi Peters. Poster at the Lorentz workshop on geometric algorithms in the field, June 2014. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/Lorentz_poster_web.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bib14_lorentz_poster" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib14_lorentz_poster" class="collapse" tabindex="-1"><pre class="bibtex">@misc{14_lorentz_poster,
+	address = {Leiden, the Netherlands},
+	author = {Ravi Peters},
+	howpublished = {Poster at the Lorentz workshop on geometric algorithms in the field},
+	month = {June},
+	title = {Approximating the Medial Axis Transform of {LiDAR} point clouds},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Towards Medial Axis-based simplification of LiDAR point clouds</strong>. Ravi Peters. Presentation at the iQumulus workshop (Cardiff, United Kingdom), July 8 2014. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/14_iqmulus_workshop.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bib14_iqmulus_workshop" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib14_iqmulus_workshop" class="collapse" tabindex="-1"><pre class="bibtex">@misc{14_iqmulus_workshop,
+	author = {Ravi Peters},
+	howpublished = {Presentation at the iQumulus workshop (Cardiff, United Kingdom)},
+	month = {July 8},
+	title = {Towards {M}edial {A}xis-based simplification of {LiDAR} point clouds},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Feature-aware LiDAR point cloud simplification</strong>. Ravi Peters. Poster at the GeoBuzz conference, November 2014. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/GeoBuzz_poster_web.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bib14_geobuzz_poster" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib14_geobuzz_poster" class="collapse" tabindex="-1"><pre class="bibtex">@misc{14_geobuzz_poster,
+	address = {s'Hertogenbosch, the Netherlands},
+	author = {Ravi Peters},
+	howpublished = {Poster at the GeoBuzz conference},
+	month = {November},
+	title = {Feature-aware {LiDAR} point cloud simplification},
+	year = {2014}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>MATAHN: a seamless AHN2 download service</strong>. Ravi Peters and Hugo Ledoux. Presentation at the 3D BGT dag (Amersfoort, the Netherlands), June 19 2014. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/matahn_3dbgt-dag_2014.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bib14_3dbgtdag_matahn" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib14_3dbgtdag_matahn" class="collapse" tabindex="-1"><pre class="bibtex">@misc{14_3dbgtdag_matahn,
+	author = {Ravi Peters and Hugo Ledoux},
+	howpublished = {Presentation at the 3D BGT dag (Amersfoort, the Netherlands)},
+	month = {June 19},
+	title = {{MATAHN:} A seamless {AHN2} download service},
+	year = {2014}
+}</pre></div></span></div>
+</section>
+<section id="year_2013" class="filteredtopgroup">
+<h3>2013<span id="filteredcount"></span></h3>
+<div class="filteredelement"><strong>Generation and generalization of safe depth-contours for hydrographic charts using a surface-based approach</strong>. Ravi Peters, Hugo Ledoux and Martijn Meijers. In D. Burghardt (eds.), <em>Proceedings 16th ICA Generalisation Workshop</em>, Dresden, Germany, 2013. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/_13icagenz.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibPeters13" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibPeters13" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Peters13,
+	address = {Dresden, Germany},
+	author = {Peters, Ravi and Ledoux, Hugo and Meijers, Martijn},
+	booktitle = {Proceedings 16th ICA Generalisation Workshop},
+	editor = {D. Burghardt},
+	title = {Generation and generalization of safe depth-contours for hydrographic charts using a surface-based approach},
+	year = {2013}
+}</pre></div></span></div>
+</section>
+
+<hr />
+
+<h2 id="stw-users-committee">STW Users’ committee</h2>
+
+<h3 id="meeting-2017-07-04">Meeting 2017-07-04</h3>
+
+<ul>
+  <li>Overview of all results of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_hl.pdf"><i class="fas fa-image"></i></a></li>
+  <li>Overview of scientific breakthroughs <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2017-07-04_rp.pdf"><i class="fas fa-image"></i></a></li>
+</ul>
+
+<h3 id="meeting-2016-11-09">Meeting 2016-11-09</h3>
+
+<ul>
+  <li>Overview of the results in 2016<a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_hl.pdf"><i class="fas fa-image"></i></a></li>
+  <li>Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-11-09_rp.pdf"><i class="fas fa-image"></i></a></li>
+</ul>
+
+<h3 id="meeting-2016-01-19">Meeting 2016-01-19</h3>
+
+<ul>
+  <li>Overview of the results last 7 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_hl.pdf"><i class="fas fa-image"></i></a></li>
+  <li>Details about latest work <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_2016-01-19_rp.pdf"><i class="fas fa-image"></i></a></li>
+</ul>
+
+<h3 id="meeting-20150519">Meeting 2015/05/19</h3>
+
+<ul>
+  <li>Overview of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_hl.pdf"><i class="fas fa-image"></i></a></li>
+  <li>Progress last 9 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20150519_rp.pdf"><i class="fas fa-image"></i></a></li>
+</ul>
+
+<h3 id="meeting-20140911">Meeting 2014/09/11</h3>
+
+<ul>
+  <li>Both presentations <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_20140911.pdf"><i class="fas fa-image"></i></a></li>
+</ul>
+
+<h3 id="meeting-20140123">Meeting 2014/01/23</h3>
+
+<ul>
+  <li>Overview of the project <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_hugo.pdf"><i class="fas fa-image"></i></a></li>
+  <li>Progress after 9 months <a href="http://3d.bk.tudelft.nl/pdfs/3dsm/3dsm_gc_201401_ravi.pdf"><i class="fas fa-image"></i></a></li>
+</ul>
+
+<h3 id="members">Members</h3>
+
+<div class="container">
+  <table class="table table-hover table-condensed">
+<thead>
+<tr>
+<th style="text-align:left;"> Company </th>
+<th style="text-align:left;"> Name </th>
+<th>     </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> Bentley </td>
+<td style="text-align:left;"> Benoit </td>
+<td> Frédéricque </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Gemeente Rotterdam </td>
+<td style="text-align:left;"> Joris </td>
+<td> Goos </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Sweco </td>
+<td style="text-align:left;"> Marco </td>
+<td> Grimaudo </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Kadaster </td>
+<td style="text-align:left;"> Marc </td>
+<td> Post </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Het Waterschaphuis </td>
+<td style="text-align:left;"> Niels </td>
+<td> van der Zon </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Rijkswaterstaat DVS </td>
+<td style="text-align:left;"> René </td>
+<td> Visser </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Safe Sotware </td>
+<td style="text-align:left;"> Kevin </td>
+<td> Wiebe </td>
+</tr>
+<tr>
+<td style="text-align:left;"> Waterschap Scheldestromen </td>
+<td style="text-align:left;"> Sicco </td>
+<td> van Mullem </td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<hr />
+
+<h2 id="team">Team</h2>
+
+<div class="row">
+
+    <div class="col-lg-4 col-sm-6">
+      <a href="http://3dgeoinfo.bk.tudelft.nl/rypeters"><img class="img-circle img-responsive" src="/img/staff/ravi.jpg" /></a>
+    
+      <h3>Ravi Peters <small>PhD candidate</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://tudelft.nl/rypeters">tudelft.nl/rypeters</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:r.y.peters@tudelft.nl">r.y.peters@tudelft.nl</a><br />
+          <br />
+          <br />
+      </p>
+    </div>
+    
+    <div class="col-lg-4 col-sm-6">
+      <a href="http://tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" /></a>
+      <h3>Hugo Ledoux <small>Project leader</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://tudelft.nl/hledoux">tudelft.nl/hledoux</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 86114">+31 15 27 86114</a><br />
+          <i class="fab fa-twitter"></i> <a href="https://twitter.com/hugoledoux">@hugoledoux</a><br />
+      </p>
+    </div>
+
+    
+    <div class="col-lg-4 col-sm-6">
+      <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" /></a>
+      <h3>Jantien Stoter <small>Graduation Professor</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://3dgeoinfo.bk.tudelft.nl/jstoter">3dgeoinfo.bk.tudelft.nl/jstoter</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
+          <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
+      </p>
+    </div>
+</div>
+:ET

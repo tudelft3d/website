@@ -1,0 +1,179 @@
+I"�.<h1>An in-depth insight into the GeoBIM benchmark project</h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/benchmark.png" style="max-height: 300px" /></div>
+</div>
+
+<p>The investigation of the available <strong>technical solutions</strong> to support research and activities related to the GeoBIM topic is the subject of this project.</p>
+
+<p>This is the first project that will provide insight into the current state of the art of the open standards implementation in the 3D geo and BIM domain and will also identifying remaining issues.</p>
+
+<p>It is a Scientific initiative funded by the <a href="http://www.isprs.org/">International Society for Photogrammetry and Remote Sensing (ISPRS)</a> (<strong>ISPRS Scientific Initiative 2019</strong>) and the <a href="http://www.eurosdr.net">European Spatial Data Research association (EuroSDR)</a>.</p>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#objective" id="markdown-toc-objective">Objective</a></li>
+  <li><a href="#the-tasks" id="markdown-toc-the-tasks">The Tasks</a></li>
+  <li><a href="#the-participants" id="markdown-toc-the-participants">The Participants</a></li>
+  <li><a href="#the-tested-tools" id="markdown-toc-the-tested-tools">The tested tools</a></li>
+  <li><a href="#connected-scientific-material" id="markdown-toc-connected-scientific-material">Connected scientific material</a></li>
+  <li><a href="#benchmark-data" id="markdown-toc-benchmark-data">Benchmark Data</a></li>
+  <li><a href="#results-deliverables-and-dissemination" id="markdown-toc-results-deliverables-and-dissemination">Results, deliverables and dissemination</a></li>
+  <li><a href="#benchmark-events" id="markdown-toc-benchmark-events">Benchmark events</a></li>
+  <li><a href="#project-plan" id="markdown-toc-project-plan">Project plan</a></li>
+</ul>
+
+<hr />
+
+<h2 id="objective">Objective</h2>
+
+<p>The main objective of the benchmark is to <strong>provide a framework</strong> describing the present ability of existing software tools to <strong>use</strong> (read and visualise, import, manage, analyse, export) CityGML and IFC models and understand their <strong>performance</strong> while doing so, both in terms of information loss and in terms of ability to handle large datasets.</p>
+
+<p>Three aspects of this problem are examined:</p>
+
+<div class="row">
+	<div class="col-md-3&lt;!-- col-md-offset-1--&gt; col-xs-3">
+		<img class="img-responsive" src="img/logoTask1.jpg" />
+	</div>
+	<div class="col-md-3 &lt;!--col-md-offset-1--&gt; col-xs-3">
+		<img class="img-responsive" src="img/logoTask3.jpg" />
+	</div>
+	<div class="col-md-6 &lt;!--col-md-offset-1--&gt; col-xs-6">
+		<p>- Firstly, <strong>software support for the individual standards (CityGML and IFC)</strong> within their respective domains – i.e. How well is CityGML supported by GIS (and other) tools and IFC by BIM (and other) tools?</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-3&lt;!-- col-md-offset-1--&gt; col-xs-3">
+		<img class="img-responsive" src="img/logoTask2.gif" />
+	</div>
+	<div class="col-md-9 &lt;!--col-md-offset-1--&gt; col-xs-9">
+		<p>- Secondly, options for <strong>IFC geo-referencing</strong> is explored, as this is a fundamental step in enabling information exchange.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-3&lt;!-- col-md-offset-1--&gt; col-xs-3">
+		<img class="img-responsive" src="img/logoTask4.gif" />
+	</div>
+	<div class="col-md-9 &lt;!--col-md-offset-1--&gt; col-xs-9">
+		<p>- Thirdly, a critical test of the available <strong>conversion procedures</strong> between CityGML and IFC (in both directions) is conducted to objectively assess and compare potential for integrated data use, starting from the same premises.</p>
+	</div>
+</div>
+
+<h2 id="the-tasks">The Tasks</h2>
+
+<p>The benchmark defines specific <strong>tasks</strong> to test the following:</p>
+
+<ul>
+  <li>
+    <p><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/task1.html">Task 1</a> - Support for IFC within BIM (and other) software;</p>
+  </li>
+  <li>
+    <p><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/task2.html">Task 2</a> - Options for geo-referencing BIM data;</p>
+  </li>
+  <li>
+    <p><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/task3.html">Task 3</a> - Support for CityGML within GIS (and other) tools;</p>
+  </li>
+  <li>
+    <p><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/task4.html">Task 4</a> - Options for conversion (software and procedural) (both IFC to CityGML and CityGML to IFC).</p>
+  </li>
+</ul>
+
+<h2 id="the-participants">The Participants</h2>
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/puzzle.jpg" style="max-height: 200px" /></div>
+</div>
+
+<p><strong>External voluntary Participants<!-- LINK TO THE PARTICIPANTS PAGE--></strong> are a very important part of the initiative. They perform one or more tasks with the tools they are familiar with, and deliver their results in the provided results template.</p>
+
+<p>This will allow <strong>joining the efforts and the individual experiences</strong> with specific (technical) tools to build a common list of tools compared following common criteria.</p>
+
+<p>They will all <strong>co-author at least one scientific publication</strong> together with the benchmark proponents reporting the main results of the benchmark.</p>
+
+<h2 id="the-tested-tools">The tested tools</h2>
+<p>The aim is to test the highest number of tools, in order to provide the widest framework.</p>
+
+<p>Both off-the-shelf tools and self-programmed software will be considered, both proprietary and open source.</p>
+
+<p>The tested tools will be finally <strong>objectively described following the results of the tests, with a look at their specific features, in order to be chosen for the users’ specific needs</strong>.</p>
+
+<p>No ‘winner’ nor ‘looser’ will emerge, but a scientific in-sight into the offered functionality.</p>
+
+<p>For this reason, also software vendors representatives and programmers are invited to be participants, for their tools to be part of the final benchmark list.</p>
+
+<h2 id="connected-scientific-material">Connected scientific material</h2>
+<p>The scientific material regarding the used procedures/tools (papers, reports, web resources, open repositories…) will be linked in a specific page of this website.</p>
+
+<h2 id="benchmark-data">Benchmark Data</h2>
+
+<p>Five datasets are provided for IFC standards.</p>
+
+<p>Three datasets are provided for CityGML standards.</p>
+
+<p>The simpler ones will allow the test of <strong>software functionality</strong>. The more complex (larger) ones will also test the requirements in terms of <strong>computer hardware</strong> in order to support their management. Moreover, for IFC they are provided int he two version IFC 2x3 and 4</p>
+
+<p>Most of them are data <strong>produced by practice</strong> (Myran.ifc, UpTown.ifc, RotterdamLOD12.gml, Savigliano.ifc, RotterdamLOD12.gml and amsterdam.gml), therefore, although they were chosen also for their good quality and validated as far as possible, they are not specifically generated for the use of open standards.</p>
+
+<p>This represents a further challenge, because more problems can rise, as it happens in the real-world practice.</p>
+
+<p>For this benchmark it is important also to consider this aspect, in order to <strong>provide a useful tool supporting the widest application possible</strong> of open standards.</p>
+
+<p>It is possible to see the full details of the use datasets in the <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html">data description section</a>.</p>
+
+<h2 id="results-deliverables-and-dissemination">Results, deliverables and dissemination</h2>
+
+<p>The results of the tests delivered by the participants will be openly available (with the consent of participants), both during and after the end of the project, to download and use (for research, education, testing).</p>
+
+<p>The provided models and their description will also be freely available (with some more limitations for the Myran.ifc, UpTown.ifc and Savigliano.ifc models), permitting eventual future benchmark comparisons.</p>
+
+<p>A detailed report of the results and of their analysis will be written, published on the website and shared with the participants.</p>
+
+<p>Finally, the final results will be published in an open-access journal paper and presented at relevant conferences in the field.</p>
+
+<h3 id="the-most-interesting-outcomes">The most interesting outcomes</h3>
+
+<ol>
+	<li>
+		<p>A <strong>reference list of tools</strong> to be used for managing standard 3D models:</p>
+		<p>features, performance, required procedures, settings and best practices on the use of open standards clearly described and assessed in a unique framework, in a sample of commonly used software and conversion procedures.</p>
+		<p>As the project will <strong>identify bottlenecks</strong> in the current status of open standard, it will <strong>encourage further development and use of open standards and increase spatial information interoperability</strong>.</p>
+		<p> The report of the benchmark will <strong>help to bring the use of open standard spatial data further outside the academic world</strong>, enhancing the possibility to effectively and actually use complex three (and more)-dimensional data in real-world applications.</p>
+	</li>
+	<li>
+		<p>The <strong>outline of the present implementation state</strong> (how much has been done and how much is left) of spatial open standards and feedback about the open standard data models to the standardisation entities (OGC and buildingSMART).</p>
+		<p>This will encourage software vendors to implement better support, so that they can be used more effectively in more applications and use cases. The necessary next steps (what is needed in order to implement further or improve the support of open standards) will be also outlined.</p>
+	</li>
+	<li>The developed <strong>material and test datasets, answers and results analyses</strong>, together with the report of the activity describing in detail the material, methods and results of the study, will be made available after the end of the initiative (as long as permitted), as reference or material for future improvements, new software tools, tests, continued benchmarking or other similar research.</li>
+</ol>
+
+<h2 id="benchmark-events">Benchmark events</h2>
+
+<p>Two main events will be organised for the benchmark:</p>
+<ol>
+	<li>
+		<p> <strong>July 2019</strong> - Intermediate <strong>meeting of proponents and participants</strong> </p>
+		<p>In the meeting the intermediate results will be presented, discussed and disseminated. This will provide an opportunity to present the most promising workflows identified to date, propose their replication by other participants and to discuss eventual adjustments to the test datasets or further activities or developments.</p></li>
+		<li>
+		<p><strong>December 2019</strong> - GeoBIM benchmark winter school.</p>
+		<p>A final <strong>winter school</strong> will be organized at the end of the initiative to present the final results. It will be addressed to students, practitioners from industry and government, other interested parties and it will aim at disseminating the geoBIM topics connected to the benchmark results, and the results themselves. It will be structured as follows:</p>
+		<ul>
+			<li>Educational component: IFC and CityGML open standards;</li>
+			<li>Use Case presentation – highlighting situations where geoBIM is useful;</li>
+			<li>Presentation of the benchmark and its results;</li>
+			<li>Workshop outlining the most effective tools from the benchmark;</li>
+			<li>Discussion and feedback, along with plans for future work.</li>
+		</ul>
+	</li>
+
+</ol>
+
+<h2 id="project-plan">Project plan</h2>
+
+<div class="row">
+	<div class="col-md-12">
+		<img class="img-responsive" src="img/plan.png" />
+	</div>
+</div>
+:ET
