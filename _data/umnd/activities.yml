@@ -1,3 +1,6 @@
+- research_line: [1]
+  description: "Anna Labetski completed a 2 month research visit at the <a href=\"https://www.sla.gov.sg\">Singapore Land Authority</a> with the Survey and Geomatics Division."
+  date: 2019-10-18
 - research_line: [1, 2, 3]
   description: "Awarded Best Paper Award (Runner-up) for the paper: \"A Data Structure to Incorporate Versioning in 3D City Models\" at the 2019 3D GeoInfo Conference."
   date: 2019-09-27
