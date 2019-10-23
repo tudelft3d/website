@@ -18,4 +18,4 @@ jobs:
         gem install jekyll parslet htmlentities
     - name: build
       run: |
-        jekyll build
+        jekyll build --trace
