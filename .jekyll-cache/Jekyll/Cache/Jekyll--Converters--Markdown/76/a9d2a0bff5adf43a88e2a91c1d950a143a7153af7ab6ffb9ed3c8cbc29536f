@@ -1,0 +1,117 @@
+I"<p>Various open source software libraries and utilities that can be useful for GIS applications.</p>
+
+<p>The ones that we use and recommend are marked with a <i class="fas fa-star"></i>.</p>
+
+<hr />
+
+<h2 id="databases">Databases</h2>
+
+<p><a href="http://postgis.refractions.net/">PostGIS</a>  <i class="fas fa-star"></i> <br /> Spatial extensions for PostgreSQL </p>
+
+<p><a href="http://www.postgresql.org/">PostgreSQL</a> <br /> DBMS, use together with PostGIS </p>
+
+<p><a href="http://www.gaia-gis.it/spatialite/">SpatiaLite</a> <br /> A complete Spatial DBMS in a nutshell (can work with shapefiles as external storage format) </p>
+
+<h2 id="geometry">Geometry</h2>
+
+<p><a href="https://github.com/boostorg/geometry">Boost.geometry</a>  <i class="fas fa-star"></i> <br /> Various geometric datatypes and algorithms </p>
+
+<p><a href="http://www.cgal.org/">CGAL (Computational Geometry Algorithms Library)</a>  <i class="fas fa-star"></i> <br /> Robust geometric operations, including many packages for convex hulls, meshes, triangulations, polygon and polyhedron operations, etc. </p>
+
+<p><a href="http://trac.osgeo.org/geos/">GEOS (Geometry Engine - Open Source)</a>  <i class="fas fa-star"></i> <br /> Spatial operations, including validation and topology functions </p>
+
+<p><a href="http://gts.sourceforge.net/index.html">GTS (GNU Triangulated Surface Library)</a> <br /> Triangulations and surface operations </p>
+
+<p><a href="http://www.netlib.org/voronoi/hull.html">Hull</a> <br /> Convex hulls and triangulations </p>
+
+<p><a href="http://sourceforge.net/projects/jts-topo-suite/">JTS (Java Topology Suite)</a> <br /> Spatial operations, including validation and topology functions </p>
+
+<p><a href="http://www.algorithmic-solutions.com/leda/index.htm">LEDA</a> <br /> Robust computational geometry and combinatorial algorithms </p>
+
+<p><a href="http://miniball.sourceforge.net/">Miniball</a> <br /> Smallest enclosing ball in n-D </p>
+
+<p><a href="http://www.cse.ohio-state.edu/~tamaldey/normfet.html">NormFet</a> <br /> Normals and feature sizes in point clouds </p>
+
+<p><a href="http://www.opencascade.org">Open CASCADE</a> <br /> CAD engine that uses constructive solid geometry </p>
+
+<p><a href="http://pointclouds.org">PCL (Point Cloud Library)</a>  <i class="fas fa-star"></i> <br /> 2D/3D image and point cloud processing </p>
+
+<p><a href="https://github.com/OSGeo/proj.4/">PROJ.4</a>  <i class="fas fa-star"></i> <br /> Projections </p>
+
+<p><a href="http://www.qhull.org/">Qhull</a> <br /> n-D approximate convex hulls and triangulations </p>
+
+<p><a href="https://github.com/Toblerity/Shapely">Shapely</a>  <i class="fas fa-star"></i> <br /> Python bindings for GEOS </p>
+
+<p><a href="http://wias-berlin.de/software/tetgen/">TetGen</a>  <i class="fas fa-star"></i> <br /> Tetrahedral meshes </p>
+
+<p><a href="http://www.cs.cmu.edu/~quake/triangle.html">Triangle</a>  <i class="fas fa-star"></i> <br /> Very fast 2D (constrained) Delaunay triangulations </p>
+
+<h2 id="graphs">Graphs</h2>
+
+<p><a href="http://graph-tool.skewed.de">graph-tool</a> <br /> Efficient Python module for manipulation and statistical analysis of graphs </p>
+
+<h2 id="input-and-output">Input and Output</h2>
+
+<p><a href="http://www.assimp.org">Assimp</a>  <i class="fas fa-star"></i> <br /> Import various 3D model formats, such as OBJ and COLLADA. C++ and Python. </p>
+
+<p><a href="https://github.com/Toblerity/Fiona">Fiona</a>  <i class="fas fa-star"></i> <br /> OGR Python bindings </p>
+
+<p><a href="http://www.gdal.org/">GDAL (Geospatial Data Abstraction Library)</a>  <i class="fas fa-star"></i> <br /> Various raster formats </p>
+
+<p><a href="http://trac.osgeo.org/geotiff/">GeoTIFF</a>  <i class="fas fa-star"></i> <br /> GeoTIFF format </p>
+
+<p><a href="https://github.com/grantbrown/laspy">laspy</a> <br /> Read/write LAS with Python </p>
+
+<p><a href="http://www.cs.unc.edu/~isenburg/lastools/">LAStools/LASlib</a>  <i class="fas fa-star"></i> <br /> Point cloud I/O and processing </p>
+
+<p><a href="http://www.gdal.org/ogr/">OGR</a>  <i class="fas fa-star"></i> <br /> Various vector formats </p>
+
+<p><a href="http://www.pdal.io/">PDAL</a> <br /> Point cloud I/O </p>
+
+<p><a href="https://github.com/GeospatialPython/pyshp">pyshp</a> <br /> Shapefiles using only Python </p>
+
+<p><a href="https://github.com/mapbox/rasterio">Rasterio</a>  <i class="fas fa-star"></i> <br /> GDAL Python bindings </p>
+
+<h2 id="spatial-indexing">Spatial indexing</h2>
+
+<p><a href="http://www.cs.umd.edu/~mount/ANN/">ANN (Approximate Nearest Neighbor Library)</a> <br /> Real and approximate nearest neighbors in n-D point clouds </p>
+
+<p><a href="http://gist.cs.berkeley.edu/">GiST</a> <br /> A template indexing structure to create your own spatial indexing </p>
+
+<p><a href="http://libspatialindex.github.com/">libspatialindex</a> <br /> Different spatial indexing methods </p>
+
+<p><a href="https://github.com/storpipfugl/pykdtree">pykdtree</a>  <i class="fas fa-star"></i> <br /> Fast kd-tree implementation in Python </p>
+
+<h2 id="visualisation">Visualisation</h2>
+
+<p><a href="https://github.com/tudelft3d/azul">azul</a>  <i class="fas fa-star"></i> <br /> A fast 3D city model viewer for macOS </p>
+
+<p><a href="http://www.cloudcompare.org">CloudCompare</a> <br /> 3D point cloud and mesh processing software </p>
+
+<p><a href="http://d3js.org">D3.js</a> <br /> Framework to create interactive maps and more </p>
+
+<p><a href="http://geoserver.org/">GeoServer</a> <br /> Publish web maps </p>
+
+<p><a href="http://grass.osgeo.org/">GRASS</a> <br /> GIS package </p>
+
+<p><a href="http://keckcaves.org/software/lidarviewer">LidarViewer</a>  <i class="fas fa-star"></i> <br /> Interactive visualisation of massive point clouds </p>
+
+<p><a href="http://mapnik.org">mapnik</a> <br /> Toolkit for map applications </p>
+
+<p><a href="http://mapserver.org/">MapServer</a> <br /> Publish web maps </p>
+
+<p><a href="http://meshlab.sourceforge.net/">MeshLab</a>  <i class="fas fa-star"></i> <br /> Process and view triangular meshes and point clouds </p>
+
+<p><a href="http://www.paraview.org/">ParaView</a> <br /> Visualiser for large data sets </p>
+
+<p><a href="https://github.com/verma/plasio">plasio</a> <br /> Web-based LAS/LAZ point cloud viewer </p>
+
+<p><a href="http://potree.org">Potree</a> <br /> Web-based viewer for massive point clouds </p>
+
+<p><a href="http://www.qgis.org/">QGIS (Quantum GIS)</a>  <i class="fas fa-star"></i> <br /> GIS package </p>
+
+<p><a href="https://www.mapbox.com/tilemill/">TileMill</a> <br /> Simple map creator </p>
+
+<p><a href="http://www.vtk.org">VTK (Visualization Toolkit)</a> <br /> Software that implements a wide variety of visualisation algorithms. </p>
+
+:ET

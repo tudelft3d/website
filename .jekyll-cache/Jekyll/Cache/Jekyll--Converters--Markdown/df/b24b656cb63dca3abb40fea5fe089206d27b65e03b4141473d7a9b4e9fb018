@@ -1,0 +1,44 @@
+I"©
+<h1>Presentations &amp; Publications</h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/disseminationIMG.gif" style="max-height: 300px" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#publications-and-reports" id="markdown-toc-publications-and-reports">Publications and Reports</a></li>
+  <li><a href="#presentations" id="markdown-toc-presentations">Presentations</a></li>
+</ul>
+
+<hr />
+
+<h2 id="publications-and-reports">Publications and Reports</h2>
+
+<p><strong>Paper presented to the GeoSpatialWeek 2019 conference, Enschede, 13rd June 2019:</strong></p>
+
+<p>Noardo, F., Arroyo Ohori, K., Biljecki, F., Krijnen, T., Ellul, C., Harrie, L., Stoter, J. (2019). <a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W13/1339/2019/">GeoBIM benchmark 2019: design and initial results</a>. International Archives of the Photogrammetry, Remote Sensing &amp; Spatial Information Sciences, XLII-2/W13, 1339-1346, 2019.</p>
+
+<p><strong>Paper (invited as a Keynote) to the 3D Geoinfo 2019 conference - 2nd International IAG Workshop on BIM and GIS integration, 25th September 2019:</strong></p>
+
+<p>Noardo, F., Biljecki, F., Agugiaro, G., Arroyo Ohori, K.,  Ellul, C., Harrie, L., Stoter, J. (2019). <a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W15/47/2019">GeoBIM Benchmark 2019: Intermediate Results</a>. 14th 3D GeoInfo Conference 2019, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W8). 2019.</p>
+
+<h2 id="presentations">Presentations</h2>
+
+<h3 id="presentation-at-the-geospatial-week-2019-conference-13th-june-2019-in-enschede-nl">Presentation at the <a href="https://www.gsw2019.org">GeoSpatial Week 2019 conference</a> 13th June 2019 in Enschede (NL)</h3>
+
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <script async="" class="speakerdeck-embed" data-id="b9a623910bc74970b4d9e7da97cbefac" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
+
+<h3 id="keynote-presentation-at-the-3d-geoinfo-2019-conference-singapore-2nd-bim-and-gis-integration-workshop-25th-september-2019-in-singapore">Keynote presentation at the <a href="https://www.3dgeoinfo2019.com/bim-gis-workshop/">3D Geoinfo 2019 conference, Singapore, 2nd BIM and GIS integration workshop</a> 25th September 2019 in Singapore</h3>
+
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <script async="" class="speakerdeck-embed" data-id="c215d0ed59c2496aa81dcceada199702" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
+:ET

@@ -1,0 +1,1405 @@
+I"XQ<p>Urban modelling in higher dimensions, UMnD for short, is a project funded by the ERC Starting Grant <a href="https://cordis.europa.eu/project/rcn/199506_en.html">ERC-StG-2015</a>, which awarded 1.5 million euros to <a href="/jstoter">Jantien Stoter</a> for a five-year research project.
+It started in September 2016 and is scheduled to run until August 2021. The <a href="https://www.ams-institute.org">Amsterdam Institute of Advanced Metropolitan Solutions</a> funds the implementation of the UMnD research results for urban applications in Amsterdam.</p>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Latest activities</h4>
+    </div>
+    <div class="panel-body">
+        <ul class="posts">
+        
+            <li class="activity"><span>18 Oct 2019</span> Research Line
+            
+            <a href="/projects/umnd/rl1.html">1</a>: Anna Labetski completed a 2 month research visit at the <a href="https://www.sla.gov.sg">Singapore Land Authority</a> with the Survey and Geomatics Division.</li>
+        
+            <li class="activity"><span>27 Sep 2019</span> Research Line
+            
+            <a href="/projects/umnd/rl1.html">1</a>, 
+            <a href="/projects/umnd/rl2.html">2</a>, 
+            <a href="/projects/umnd/rl3.html">3</a>: Presented paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+        
+            <li class="activity"><span>27 Sep 2019</span> Research Line
+            
+            <a href="/projects/umnd/rl1.html">1</a>: Presented paper: "A Survey on the Adoption of GIS Data and Standards in Urban Application Domains" at the 2019 3D GeoInfo Conference.</li>
+        
+            <li class="activity"><span>27 Sep 2019</span> Research Line
+            
+            <a href="/projects/umnd/rl1.html">1</a>: Presented paper: "An Improved LOD Framework for the Terrains in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+        
+            <li class="activity"><span>27 Sep 2019</span> Research Line
+            
+            <a href="/projects/umnd/rl1.html">1</a>, 
+            <a href="/projects/umnd/rl2.html">2</a>, 
+            <a href="/projects/umnd/rl3.html">3</a>: Awarded Best Paper Award (Runner-up) for the paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+        
+        </ul>
+    </div>
+</div>
+
+<hr />
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#objective" id="markdown-toc-objective">Objective</a></li>
+  <li><a href="#research-lines" id="markdown-toc-research-lines">Research Lines</a></li>
+  <li><a href="#events" id="markdown-toc-events">Events</a></li>
+  <li><a href="#activities" id="markdown-toc-activities">Activities</a></li>
+  <li><a href="#team" id="markdown-toc-team">Team</a></li>
+  <li><a href="#publications" id="markdown-toc-publications">Publications</a></li>
+</ul>
+
+<hr />
+
+<h2 id="objective">Objective</h2>
+
+<p>3D geographic information about urban objects (buildings, roads) is needed to monitor and control processes within modern urban areas (noise, flooding, energy demand-supply).
+However, each specific process requires 3D data with its own specific semantic and geometric Level of Detail (LoD), and current approaches require enormous manual efforts to collect general-purpose 3D data and to transform it to make it suitable for a specific application.</p>
+
+<p>In this project, we will develop a fundamental solution for providing 3D data at application specific LoDs.
+For this, we will use an innovative method that goes far beyond the state-of-the-art by introducing higher dimensional (nD) mathematical models, which will enable us to to enforce consistency by modelling the LoDs as an extra dimension to the 3D spatial dimensions in an integrated 3D+LoD (4D) model.</p>
+
+<p>We have defined three key research lines for the project: (i) a groundbreaking extension of 2D cartographic generalisation solutions to 3D, enabling us to automatically derive application-specific coarse 3D data from fine 3D data; (ii) embedding multiple 3D city models at different levels of detail into a single 4D model; and (iii) “slicing” operations that extract custom 3D cross-sections of the 4D model.
+By combining the results of these three lines of research, we aim to generate error-free 3D data at application specific LoDs.</p>
+
+<p>If successful, the 4D approach opens a new horizon for modelling parametrisable aspects of urban environments, which may establish new modelling paradigms in the future.</p>
+
+<hr />
+
+<h2 id="research-lines">Research Lines</h2>
+
+<div class="row">
+    <div class="col-xs-5 col-sm-4">
+      <a href="/projects/umnd/rl1.html" class="rl-thumbnail">
+        <img src="/projects/umnd/img/rl1.png" alt="" />
+      </a>
+      <div class="caption hidden-xs">
+        <h3>Generalisation of 3D City Models</h3>
+      </div>
+    </div>
+    <div class="col-xs-7 caption visible-xs">
+      <h3>Generalisation of 3D City Models</h3>
+    </div>
+    <div class="col-xs-5 col-sm-4">
+      <a href="/projects/umnd/rl2.html" class="rl-thumbnail">
+        <img src="/projects/umnd/img/rl2.png" alt="" />
+      </a>
+      <div class="caption hidden-xs">
+        <h3>Construction and Storage of 4D City Objects</h3>
+      </div>
+    </div>
+    <div class="col-xs-7 caption visible-xs">
+      <h3>Construction and Storage of 4D City Objects</h3>
+    </div>
+    <div class="col-xs-5 col-sm-4">
+      <a href="/projects/umnd/rl3.html" class="rl-thumbnail">
+        <img src="/projects/umnd/img/rl3.png" alt="" />
+      </a>
+      <div class="caption hidden-xs">
+        <h3>Extraction of 3D City Objects from a 4D Model</h3>
+      </div>
+    </div>
+    <div class="col-xs-7 caption visible-xs">
+      <h3>Extraction of 3D City Objects from a 4D Model</h3>
+    </div>
+  </div>
+
+<hr />
+
+<h2 id="events">Events</h2>
+
+<p>The following is the list of events that we participated in or organised related to the UMnD project:</p>
+
+<h3 id="2019">2019</h3>
+<ul>
+  <li><a href="https://www.3dgeoinfo2019.com/">3D GeoInfo 2019 Conference, Singapore, 26 and 27 September</a></li>
+  <li><a href="https://www.3dgeoinfo2019.com/bim-gis-workshop/">2nd International IAG Workshop on BIM and GIS Integration, Singapore, 25 September</a></li>
+</ul>
+
+<h3 id="2018">2018</h3>
+
+<ul>
+  <li><a href="https://3d.bk.tudelft.nl/events/3dgeoinfo2018/">3D GeoInfo 2018 Conference, TU Delft, 1 and 2 October</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/events/3dgeoinfo2018/workshop.html">3D GeoInfo 2018 pre-conference workshop, TU Delft, 30 September</a></li>
+  <li><a href="https://www.urbanism.nl">Urbanism PhD Day 2018, TU Delft, 15 June</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/events/pcp2018/">International Symposium on Point Cloud Processing, TU Delft, 13 March</a></li>
+</ul>
+
+<h3 id="2017">2017</h3>
+
+<ul>
+  <li><a href="https://www.urbanism.nl">Urbanism PhD Day 2017, TU Delft, 10 May</a></li>
+  <li><a href="http://www.eurosdr.net/workshops/identifying-economic-value-3d-geoinformation">EuroSDR workshop on economic value of 3D Geoinformation, ICGC Barcelona, 30-31 March</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/news/2017/04/10/TU-Munchen-PhD-symposium.html">PhD Symposium with TU München, TU Delft, 23-24 March</a></li>
+  <li><a href="http://www.opengeospatial.org/event/1703tc">Open Geospatial Consortium TC Meeting, TU Delft, 20-24 March</a></li>
+  <li><a href="http://www.ams-institute.org/events/event/workshop-3d-geo-information-for-smart-urban-applications/">Symposium 3D urban modelling, AMS Amsterdam, 15 March</a></li>
+  <li><a href="http://www.geonovum.nl/nieuws/nationaal-3d-symposium-15-november">National 3D symposium, Provinciehuis  Utrecht, 15 November</a></li>
+</ul>
+
+<hr />
+
+<h2 id="activities">Activities</h2>
+
+<ul class="posts">
+
+    <li class="activity"><span>18 Oct 2019</span> Anna Labetski completed a 2 month research visit at the <a href="https://www.sla.gov.sg">Singapore Land Authority</a> with the Survey and Geomatics Division.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "A Survey on the Adoption of GIS Data and Standards in Urban Application Domains" at the 2019 3D GeoInfo Conference.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "An Improved LOD Framework for the Terrains in 3D City Models" at the 2019 3D GeoInfo Conference.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>27 Sep 2019</span> Awarded Best Paper Award (Runner-up) for the paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>25 Sep 2019</span> Presented paper: "EuroSDR GeoBIM Project a Study in Europe on how to use the Potentials of BIM and Geo Data in Practice" at the 2nd International IAG Workshop on BIM and GIS Integration.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>25 Sep 2019</span> Presented paper: "GeoBIM Benchmark 2019: Intermediate Results" at the 2nd International IAG Workshop on BIM and GIS Integration.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Aug 2019</span> Published paper: "Incorporating Topological Representation in 3D City Models"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>15 Jul 2019</span> Published paper: "The LandInfra standard and its role in solving the BIM-GIS quagmire"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>17 Jun 2019</span> Published paper: "CityJSON: a compact and easy-to-use encoding of the CityGML data model."
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>29 May 2019</span> Published paper: "Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>08 Mar 2019</span> Anna Labetski completed a 1 week research visit at <a href="https://www.ucl.ac.uk">University College London</a>
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>22 Jan 2019</span> Invited talk 'Improving the usability of 3D city models' by Hugo at the <a href="https://www.uni-muenster.de/Geoinformatics/en/GI-Forum/index.php">Universität Münster GI-Forum</a>
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>30 Nov 2018</span> Published paper: "A metadata ADE for CityGML"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Oct 2018</span> Organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>01 Oct 2018</span> Presented paper: "A framework for the representation of two versions of a 3D model in 4D space" in the 2018 3D GeoInfo Conference
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>01 Oct 2018</span> Presented paper: "A proposal for an improved transportation model in CityGML" in the 2018 3D GeoInfo Conference
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>30 Sep 2018</span> Developed an up-to-date 3D building service covering whole of the Netherlands <a href="http://3dbag.bk.tudelft.nl">3D BAG</a>. Published via <a href="https://data.4tu.nl/repository/uuid:f1f9759d-024a-492a-b821-07014dd6131c">4TU Data Centre</a>
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>30 Sep 2018</span> Organised the pre-conference workshop "Automated reconstruction of 3D City Models and using them in urban applications" for the 2018 3D GeoInfo Conference in Delft.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>20 Sep 2018</span> Published book chapter: "Modeling Cities and Landscapes in 3D with CityGML"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>30 Aug 2018</span> Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>24 Aug 2018</span> Open lecture at the <a href="http://https://www.arch.nus.edu.sg/activities/news-plus-events/events_ay1819_guestlectures_jantienstoter_230818/">National University of Singapore.</a>.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Aug 2018</span> Published paper: "Processing BIM and GIS Models in Practice: Experiences and Recommendations from a GeoBIM Project in The Netherlands"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>14 Jun 2018</span> Presented paper: "Topological reconstruction of 3D city models with preservation of semantics" in AGILE 2018.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>04 May 2018</span> Stelios Vitalis participated in the 3rd week of the Intensive Research Program in Discrete, Combinatorial and Computational Geometry.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>29 Mar 2018</span> Published paper: "Essential Means for Urban Computing: Specification of Web-Based Computing Platforms for Urban Planning, a Hitchhiker’s Guide"
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>21 Mar 2018</span> Invited talk 'CityJSON---A JSON-based implementation of the CityGML data model' by Hugo at the OGC meeting (Orléans, France)
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>15 Mar 2018</span> (Co)organised a successfull international symposium on <a href="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>23 Feb 2018</span> Published paper: "Val3dity: validation of 3D GIS primitives according to the international standards".
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>13 Feb 2018</span> Stelios Vitalis successfully passed his Go/NoGo meeting after submitting his research proposal.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>01 Jan 2018</span> Ken Arroyo Ohori officially started working on UMnD.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>30 Dec 2017</span> Jantien Stoter interviewed for ten years anniversary ERC <a href="http://tu-delft.instantmagazine.com/tu-delft/erc#!/home">ERC Anniversary interview</a>.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>27 Nov 2017</span> Invited talk 'CityGML (as an encoding) is dood, lang leven CityJSON!' by Hugo at the the Geonovum Springplank (Amersfoort, the Netherlands)
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>24 Nov 2017</span> Invited presentation at the <a href=" https://geo-bim.org/europe/2017/pdf/presentation/Jantien-Stoter-bim-loket-geobim-2017-24-11.pdf">GeoBIM conference</a> in Amsterdam.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Nov 2017</span> Presented our reseach subject to the NCG Symposium at the TU Delft.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Nov 2017</span> Jantien Stoter nominated for personal Geo Prestige Award Professional <a href="https://www.geoinformatienederland.nl/nieuws/persbericht-geo-prestige-award-winnaars-bekend">Geo Prestige Professional Award</a>.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>17 Oct 2017</span> Published paper: "Towards an integration of GIS and BIM data: what are the geometric and topological issues?" in 3D Geoinfo 2017.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>10 Oct 2017</span> Our contribution to QGIS 3D visualisation was accepted.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>20 Sep 2017</span> Presented a 3D Talk on "CityGML in GDAL introduction".
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>11 Sep 2017</span> Anna Labetski successfully passed her Go/NoGo meeting after submitting her research proposal.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>22 Jul 2017</span> Stelios Vitalis visited FOSS4G Europe 2017 in Paris / Marne-le-Vallee in order to test the new GDAL capabilities for parsing CityGML.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>03 Jul 2017</span> Published paper: "Visualising higher-dimensional space-time and space-scale objects as projections to R3".
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>23 Jun 2017</span> Anna Labetski completed a 1 week research visit at the <a href="https://www.tum.de/en">Technische Universität München</a>
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>08 Jun 2017</span> Stelios Vitalis visited the "Geometry Understanding in Higher Dimensions" symposium in Paris.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>07 Jun 2017</span> Anna Labetski and Stelios Vitalis participated in the TU Delft Research Exhibit 2017.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>30 Mar 2017</span> We co-organised the <a href="http://www.eurosdr.net/workshops/identifying-economic-value-3d-geoinformation">EuroSDR workshop on economic value of 3D Geoinformation</a> at ICGC Barcelona
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>24 Mar 2017</span> Presented our research in the PhD symposium with the Geomatics department of TU Munchen.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>17 Mar 2017</span> We organised the technial meeting of the worldwide standardisation organisation of geographical information (OGC) in Delft (200+ participants) <a href="https://www.opengeospatial.org/event/1703tc">OGC TC Meeting Delft</a>
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>15 Mar 2017</span> We organised the <a href="https://www.geonovum.nl/over-geonovum/actueel/nationaal-3d-symposium-15-november">Symposium 3D urban modelling</a> with Prof Thomas H. Kolbe
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>01 Mar 2017</span> Stelios Vitalis officially started working on UMnD.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl2.html">2</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Feb 2017</span> Jantien (PI) participated in working visit of Dutch delegation (industry, academia and government) to London.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>02 Feb 2017</span> The project was shown during the <a href="https://www.tudelft.nl/en/technology-transfer/development-innovation/research-exhibition-projects/3d-geoinformation-dataset/">Research Exhibition of Delft University of Technology</a> (175th anniversary).
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>13 Jan 2017</span> Presented paper: "Generalising 3D Buildings from LoD2 to LoD1" at GISRUK 2017 in Manchester, UK.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+    <li class="activity"><span>25 Nov 2016</span> We organised the <a href="http://www.ams-institute.org/events/event/workshop-3d-geo-information-for-smart-urban-applications/">National 3D symposium</a> (150+ participants)
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>01 Sep 2016</span> Jantien appointed as Principal Investigator at <a href="https://https://www.ams-institute.org">Amsterdam Institute of Advanced Matropolitan Solutions</a>
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>, 
+        <a href="/projects/umnd/rl2.html">2</a>, 
+        <a href="/projects/umnd/rl3.html">3</a>.</i>
+    </li>
+
+    <li class="activity"><span>01 Sep 2016</span> Anna Labetski officially started working on UMnD.
+      <i>Related to research line(s)
+      
+        <a href="/projects/umnd/rl1.html">1</a>.</i>
+    </li>
+
+</ul>
+
+<hr />
+
+<h2 id="team">Team</h2>
+
+<div class="row">
+    
+
+
+    
+
+    
+
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://tudelft.nl/kenohori"><img class="img-circle img-responsive" src="/img/staff/ken.jpg" alt="Ken  Arroyo Ohori photo" /></a>
+    
+
+
+    <h3>Ken  Arroyo Ohori<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://tudelft.nl/kenohori"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:k.ohori@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://balazsdukai.com"><img class="img-circle img-responsive" src="/img/staff/balazs.jpg" alt="Balázs  Dukai photo" /></a>
+    
+
+
+    <h3>Balázs  Dukai<br /><small>Developer</small></h3>
+
+    <p>
+    
+        <a href="http://balazsdukai.com"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:b.dukai@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/BalazsDukai"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://3d.bk.tudelft.nl/alabetski"><img class="img-circle img-responsive" src="/img/staff/anna.png" alt="Anna  Labetski photo" /></a>
+    
+
+
+    <h3>Anna  Labetski<br /><small>PhD Candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/alabetski"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:a.labetski@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/BigLabetski"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://3d.bk.tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
+    
+
+
+    <h3>Hugo  Ledoux<br /><small>Associate-prof.</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/hledoux"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:h.ledoux@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 86114"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/hugoledoux"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+        
+    
+
+    
+
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://tudelft.nl/rypeters"><img class="img-circle img-responsive" src="/img/staff/ravi.jpg" alt="Ravi  Peters photo" /></a>
+    
+
+
+    <h3>Ravi  Peters<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://tudelft.nl/rypeters"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:r.y.peters@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+
+    
+
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
+    
+
+
+    <h3>Jantien  Stoter<br /><small>Professor</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/jstoter"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:j.e.stoter@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 81664"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/jantienstoter"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://3d.bk.tudelft.nl/svitalis"><img class="img-circle img-responsive" src="/img/staff/stelios.jpg" alt="Stelios  Vitalis photo" /></a>
+    
+
+
+    <h3>Stelios  Vitalis<br /><small>PhD Candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/svitalis"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:s.vitalis@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/liberostelios"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+
+    
+
+    
+
+    
+
+    
+ 
+</div>
+
+<hr />
+
+<h2 id="publications">Publications</h2>
+
+<section id="type_article" class="filteredtopgroup">
+<h3>Journal articles<span id="filteredcount"></span></h3>
+<section id="type_article2019" class="filteredgroup">
+<h4>2019</h4><div class="filteredelement"><strong>Incorporating Topological Representation in 3D City Models</strong>. Stelios Vitalis, Ken Arroyo Ohori and Jantien Stoter. <em>ISPRS International Journal of Geo-Information</em> 8(8), August 2019, pp. 347. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.3390/ijgi8080347"><i class="ai ai-doi-square"></i></a> <a href="https://www.mdpi.com/2220-9964/8/8/347"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bibVitalis2019" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibVitalis2019" class="collapse" tabindex="-1"><pre class="bibtex">@article{Vitalis2019,
+	author = {Stelios Vitalis and Ken Arroyo Ohori and Jantien Stoter},
+	title = {{Incorporating Topological Representation in 3D City Models}},
+	journal = {{ISPRS} International Journal of Geo-Information},
+	year = {2019},
+	volume = {8},
+	number = {8},
+	pages = {347},
+	month = {aug},
+	publisher = {{MDPI} {AG}}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Opportunities and Challenges for GeoBIM in Europe: developing a building permits use-case to raise awareness and examine technical interoperability challenges</strong>. F. Noardo, C. C. Ellul, L. Harrie, I. Overland, M. Shariat, K. Arroyo Ohori and J. Stoter. <em>Journal of Spatial Science</em>, 2019. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1080/14498596.2019.1627253."><i class="ai ai-doi-square"></i></a> <a href="http://dx.doi.org/10.1080/14498596.2019.1627253"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bibNoardo19b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibNoardo19b" class="collapse" tabindex="-1"><pre class="bibtex">@article{Noardo19b,
+	author = {F. Noardo and C. Ellul, C. and L. Harrie and I. Overland and M. Shariat and K. Arroyo Ohori and J. Stoter},
+	journal = {Journal of Spatial Science},
+	title = {Opportunities and {C}hallenges for {GeoBIM} in {Europe}: developing a building permits use-case to raise awareness and examine technical interoperability challenges},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>The LandInfra standard and its role in solving the BIM-GIS quagmire</strong>. Kavisha Kumar, Anna Labetski, Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>Open Geospatial Data, Software and Standards</em> 4(5), 2019. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.1186/s40965-019-0065-z"><i class="ai ai-doi-square"></i></a> <a href="#bibKumar2019a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibKumar2019a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Kumar2019a,
+	author = {Kavisha Kumar and and Anna Labetski and Ken Arroyo Ohori and Hugo Ledoux and Jantien Stoter},
+	title = {The {LandInfra} standard and its role in solving the {BIM-GIS} quagmire},
+	journal = {Open Geospatial Data, Software and Standards},
+	year = {2019},
+	volume = {4},
+	number = {5}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra</strong>. Kavisha Kumar, Anna Labetski, Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>ISPRS International Journal of Geo-Information</em> 8(6), 2019. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.3390/ijgi8060246"><i class="ai ai-doi-square"></i></a> <a href="http://www.mdpi.com/2220-9964/8/6/246"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bibKumar2019" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibKumar2019" class="collapse" tabindex="-1"><pre class="bibtex">@article{Kumar2019,
+	author = {Kumar, Kavisha and Labetski, Anna and Ohori, Ken Arroyo and Ledoux, Hugo and Stoter, Jantien},
+	title = {{Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra}},
+	journal = {ISPRS International Journal of Geo-Information},
+	year = {2019},
+	volume = {8},
+	number = {6}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Spatial Analysis of New Testament Textual Emendations Utilizing Confusion Distances</strong>. Spatial Analysis of New Testament Textual Emendations Utilizing Confusion Distances Vincent van Altena, Jan Krans, Henk Bakker, Bal&aacute;zs Dukai and Jantien Stoter. <em>Open Theology</em> 5(1), 2019, pp. 44-65. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.1515/opth-2019-0004"><i class="ai ai-doi-square"></i></a> <a href="https://www.degruyter.com/view/j/opth.2019.5.issue-1/opth-2019-0004/opth-2019-0004.xml"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bibAltena2019" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibAltena2019" class="collapse" tabindex="-1"><pre class="bibtex">@article{Altena2019,
+	author = {Spatial Analysis of New Testament Textual Emendations Utilizing Confusion Distances
+	Vincent van Altena and Jan Krans and Henk Bakker and Bal{\'{a}}zs Dukai and Jantien Stoter},
+	journal = {Open Theology},
+	title = {{Spatial Analysis of New Testament Textual Emendations Utilizing Confusion Distances}},
+	year = {2019},
+	volume = {5(1)},
+	pages = {44-65}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>CityJSON: a compact and easy-to-use encoding of the CityGML data model</strong>. Hugo Ledoux, Ken Arroyo Ohori, Kavisha Kumar, Bal&aacute;zs Dukai, Anna Labetski and Stelios Vitalis. <em>Open Geospatial Data, Software and Standards</em> 4(4), 2019. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="http://dx.doi.org/10.1186/s40965-019-0064-0"><i class="ai ai-doi-square"></i></a> <a href="#bib19_ogdss_cityjson" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib19_ogdss_cityjson" class="collapse" tabindex="-1"><pre class="bibtex">@article{19_ogdss_cityjson,
+	author = {Hugo Ledoux and Ken Arroyo Ohori and Kavisha Kumar and Bal{\'{a}}zs Dukai and Anna Labetski and Stelios Vitalis},
+	title = {{CityJSON}: a compact and easy-to-use encoding of the {CityGML} data model},
+	journal = {Open Geospatial Data, Software and Standards},
+	year = {2019},
+	volume = {4},
+	number = {4}
+}</pre></div></span></div>
+</section>
+<section id="type_article2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>Geo-BIM data integration: easier said than done?</strong>. Jantien Stoter, Ken Arroyo Ohori and Hugo Ledoux. <em>Geospatial World</em>, November 2018, pp. 35&ndash;38. ISSN: 2277–3134. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/ken/files/18_geospatialworld.pdf"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bib18geospatialworld" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18geospatialworld" class="collapse" tabindex="-1"><pre class="bibtex">@article{18geospatialworld,
+	author = {Jantien Stoter and Ken {Arroyo Ohori} and Hugo Ledoux},
+	journal = {Geospatial World},
+	month = {nov},
+	note = {ISSN: 2277--3134},
+	pages = {35--38},
+	title = {{Geo-BIM} data integration: Easier said than done?},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Processing BIM and GIS models in practice: experiences and recommendations from a GeoBIM project in the Netherlands</strong>. Ken Arroyo Ohori, Abdoulaye Diakit&eacute;, Thomas Krijnen, Hugo Ledoux and Jantien Stoter. <em>ISPRS International Journal of Geo-Information</em> 7(8), August 2018. <br /><span style="font-size: 15pt"> <a href="#bibArroyo-Ohori18a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori18a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori18a,
+	author = {Ken {Arroyo Ohori} and Abdoulaye Diakit\'e and Thomas Krijnen and Hugo Ledoux and Jantien Stoter},
+	journal = {ISPRS International Journal of Geo-Information},
+	month = {aug},
+	number = {8},
+	title = {Processing {BIM} and {GIS} Models in Practice: Experiences and Recommendations from a {GeoBIM} Project in The {N}etherlands},
+	volume = {7},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Essential means for urban computing: specification of web-based computing platforms for urban planning, a hitchhiker&rsquo;s guide</strong>. Pirouz Nourian, Carlos Martinez-Ortiz and Ken Arroyo Ohori. <em>Urban Planning</em> 3(1), March 2018, pp. 47&ndash;57. ISSN: 2183–7635. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.17645/up.v3i1.1299"><i class="ai ai-doi-square"></i></a> <a href="https://3d.bk.tudelft.nl/ken/files/18_up.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibNourian18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibNourian18" class="collapse" tabindex="-1"><pre class="bibtex">@article{Nourian18,
+	author = {Pirouz Nourian and Carlos Martinez-Ortiz and Ken Arroyo Ohori},
+	journal = {Urban Planning},
+	month = {mar},
+	note = {ISSN: 2183--7635},
+	number = {1},
+	pages = {47--57},
+	title = {Essential Means for Urban Computing: Specification of Web-Based Computing Platforms for Urban Planning, a Hitchhiker's Guide},
+	volume = {3},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D geo-information innovation in europes public mapping agencies: a public value perspective</strong>. Serene Ho, Joep Crompvoets and Jantien Stoter. <em>Land Journal</em> 7(2), 2018, pp. 61. <br /><span style="font-size: 15pt"> <a href="#bibSerene18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibSerene18" class="collapse" tabindex="-1"><pre class="bibtex">@article{Serene18,
+	author = {Serene Ho and Joep Crompvoets and Jantien Stoter},
+	journal = {Land Journal},
+	number = {2},
+	pages = {61},
+	title = {{3D} Geo-Information Innovation in Europes Public Mapping Agencies: A Public Value Perspective},
+	volume = {7},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Val3dity: validation of 3D GIS primitives according to the international standards</strong>. Hugo Ledoux. <em>Open Geospatial Data, Software and Standards</em> 3(1), 2018, pp. 1. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1186/s40965-018-0043-x"><i class="ai ai-doi-square"></i></a> <a href="#bibLedoux18_ogdss" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLedoux18_ogdss" class="collapse" tabindex="-1"><pre class="bibtex">@article{Ledoux18_ogdss,
+	author = {Ledoux, Hugo},
+	journal = {Open Geospatial Data, Software and Standards},
+	number = {1},
+	pages = {1},
+	title = {{val3dity}: validation of {3D GIS} primitives according to the international standards},
+	volume = {3},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A metadata ADE for CityGML</strong>. Anna Labetski, Kavisha Kumar, Hugo Ledoux and Jantien Stoter. <em>Open Geospatial Data, Software and Standards</em> 3(16), 2018. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.1186/s40965-018-0057-4"><i class="ai ai-doi-square"></i></a> <a href="#bibLabetskiMetadata2018" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLabetskiMetadata2018" class="collapse" tabindex="-1"><pre class="bibtex">@article{LabetskiMetadata2018,
+	author = {Labetski, Anna and Kumar, Kavisha and Ledoux, Hugo and Stoter, Jantien},
+	title = {{A metadata ADE for CityGML}},
+	journal = {Open Geospatial Data, Software and Standards},
+	year = {2018},
+	volume = {3},
+	number = {16}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D data for urban issues</strong>. B. Dukai and J. E. Stoter. <em>Spool</em> 5(2), 2018. <br /><span style="font-size: 15pt"> <a href="#bibDukai18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibDukai18" class="collapse" tabindex="-1"><pre class="bibtex">@article{Dukai18,
+	author = {B. Dukai and J.E. Stoter},
+	journal = {Spool},
+	number = {2},
+	title = {{3D} Data for Urban Issues},
+	volume = {5},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Stakeholder analysis of the governance framework of a national sdi dataset&ndash;whose needs are met in the buildings and address register of the netherlands?</strong>. Serena Coetzee, Martijn Odijk, Bastiaan van Loenen, Janette Storm and Jantien Stoter. <em>International Journal of Digital Earth: a new journal for a new vision</em>, 9 2018. Accepted Author Manuscript. <br /><span style="font-size: 15pt"> <a href="#bibCoetzee2018" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibCoetzee2018" class="collapse" tabindex="-1"><pre class="bibtex">@article{Coetzee2018,
+	author = {Serena Coetzee and Martijn Odijk and {van Loenen}, Bastiaan and Janette Storm and Jantien Stoter},
+	journal = {International Journal of Digital Earth: a new journal for a new vision},
+	month = {9},
+	note = {Accepted Author Manuscript},
+	publisher = {Taylor and Francis},
+	title = {Stakeholder analysis of the governance framework of a national SDI dataset--whose needs are met in the buildings and address register of the Netherlands?},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Advancing new testament interpretation through spatiotemporal analysis demonstrated by case studies</strong>. Vincent van Altena, Henk Bakker and Jantien Stoter. <em>Transactions in GIS</em> 20(4), 2018, pp. 1-24. <br /><span style="font-size: 15pt"> <a href="#bibAltena18a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibAltena18a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Altena18a,
+	author = {Vincent {van Altena} and Henk Bakker and Jantien Stoter},
+	journal = {Transactions in GIS},
+	number = {4},
+	pages = {1-24},
+	title = {Advancing New Testament interpretation through spatiotemporal analysis Demonstrated by case studies},
+	volume = {20},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Compactly representing massive terrain models as TINs in CityGML</strong>. Kavisha Kumar, Hugo Ledoux and Jantien Stoter. <em>Transactions in GIS</em>, 2018, pp. 1-28. <br /><span style="font-size: 15pt"> <a href="#bib18_tgis_ade_tin" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18_tgis_ade_tin" class="collapse" tabindex="-1"><pre class="bibtex">@article{18_tgis_ade_tin,
+	author = {Kumar, Kavisha and Ledoux, Hugo and Stoter, Jantien},
+	journal = {Transactions in GIS},
+	pages = {1-28},
+	title = {Compactly representing massive terrain models as {TINs} in {CityGML}},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>HSW: Heuristic shrink-wrapping for automatically repairing solid-based CityGML LOD2 building models</strong>. Junqiao Zhao, Hugo Ledoux, Jantien Stoter and T. Feng. <em>ISPRS Journal of Photogrammetry and Remote Sensing</em> 146(289&ndash;304), 2018. <br /><span style="font-size: 15pt"> <a href="#bib18_isprs_shrinkwrapping" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18_isprs_shrinkwrapping" class="collapse" tabindex="-1"><pre class="bibtex">@article{18_isprs_shrinkwrapping,
+	author = {Zhao, Junqiao and Ledoux, Hugo and Stoter, Jantien and Feng, T.},
+	title = {{HSW}: {H}euristic shrink-wrapping for automatically repairing solid-based {CityGML} {LOD2} building models},
+	journal = {{ISPRS} Journal of Photogrammetry and Remote Sensing},
+	year = {2018},
+	volume = {146},
+	number = {289--304}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D-BAG: actueel en landsdekkend</strong>. Bal&aacute;zs Dukai, Hugo Ledoux and Jantien Stoter. <em>Geo-Info</em> 15(5), 2018, pp. 38&ndash;42. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/18_geoinfomag_3dbag.pdf"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bib18_geoinfomag_3dbag" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18_geoinfomag_3dbag" class="collapse" tabindex="-1"><pre class="bibtex">@article{18_geoinfomag_3dbag,
+	author = {Dukai, Bal{\'a}zs and Ledoux, Hugo and Stoter, Jantien},
+	title = {{3D-BAG}: actueel en landsdekkend},
+	journal = {Geo-Info},
+	year = {2018},
+	volume = {15},
+	number = {5},
+	pages = {38--42}
+}</pre></div></span></div>
+</section>
+<section id="type_article2017" class="filteredgroup">
+<h4>2017</h4><div class="filteredelement"><strong>Visualising higher-dimensional space-time and space-scale objects as projections to R3</strong>. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>PeerJ Computer Science</em>, July 2017. ISSN: 2376–5992. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.7717/peerj-cs.123"><i class="ai ai-doi-square"></i></a> <a href="#bibArroyo-Ohori17a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori17a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Arroyo-Ohori17a,
+	author = {Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	journal = {PeerJ Computer Science},
+	month = {jul},
+	note = {ISSN: 2376--5992},
+	title = {Visualising higher-dimensional space-time and space-scale objects as projections to {R3}},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Registration of Multi-Level Property Rights in 3D in The Netherlands: Two Cases and Next Steps in Further Implementation</strong>. Jantien Stoter, Hendrik Ploeger, Ruben Roes, Els van der Riet, Filip Biljecki, Hugo Ledoux, Dirco Kok and Sangmin Kim. <em>ISPRS International Journal of Geo-Information</em> 6(6), 2017, pp. 158. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.3390/ijgi6060158"><i class="ai ai-doi-square"></i></a> <a href="http://www.mdpi.com/2220-9964/6/6/158/pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter17a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17a" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter17a,
+	author = {Stoter, Jantien and Ploeger, Hendrik and Roes, Ruben and van der Riet, Els and Biljecki, Filip and Ledoux, Hugo and Kok, Dirco and Kim, Sangmin},
+	journal = {ISPRS International Journal of Geo-Information},
+	number = {6},
+	pages = {158},
+	title = {{Registration of Multi-Level Property Rights in 3D in The Netherlands: Two Cases and Next Steps in Further Implementation}},
+	volume = {6},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D BGT: waarom, wat en hoe?</strong>. Jantien Stoter, Tom Commandeur and Hugo Ledoux. <em>Geo-Info</em> 2, 2017, pp. 69&ndash;73. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/17_geoinfo_3dbgt.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibStoter17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Stoter17,
+	author = {Stoter, Jantien and Commandeur, Tom and Ledoux, Hugo},
+	journal = {Geo-Info},
+	pages = {69--73},
+	title = {{3D BGT}: waarom, wat en hoe?},
+	volume = {2},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Towards a high level of semantic harmonisation in the geospatial domain</strong>. Linda van den Brink, Paul Janssen, Wilko Quak and Jantien Stoter. <em>Computers, Environment and Urban Systems</em> 62, 2017, pp. 233&ndash;242. <br /><span style="font-size: 15pt"> <a href="http://dx.doi.org/10.1016/j.compenvurbsys.2016.12.002"><i class="ai ai-doi-square"></i></a> <a href="#bibBrink17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBrink17" class="collapse" tabindex="-1"><pre class="bibtex">@article{Brink17,
+	author = {Linda van den Brink and Paul Janssen and Wilko Quak and Jantien Stoter},
+	journal = {Computers, Environment and Urban Systems},
+	pages = {233--242},
+	title = {Towards a high level of semantic harmonisation in the geospatial domain},
+	volume = {62},
+	year = {2017}
+}</pre></div></span></div>
+</section>
+<section id="type_inbook" class="filteredtopgroup">
+<h3>Book chapters<span id="filteredcount"></span></h3>
+<section id="type_inbook2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>Modeling cities and landscapes in 3D with CityGML</strong>. Ken Arroyo Ohori, Filip Biljecki, Kavisha Kumar, Hugo Ledoux and Jantien Stoter. Andr&eacute; Borrmann, Markus K&ouml;nig, Christian Koch and Jakob Beetz (eds.), Springer, September 2018, pp. 199&ndash;215. ISBN: 978–3–319–92861–6 (Print) 978–3–319–92862–3 (Online). <br /><span style="font-size: 15pt"> <a href="#bib18bimchapter" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18bimchapter" class="collapse" tabindex="-1"><pre class="bibtex">@inbook{18bimchapter,
+	author = {Ken {Arroyo Ohori} and Filip Biljecki and Kavisha Kumar and Hugo Ledoux and Jantien Stoter},
+	booktitle = {Building Information Modeling: Technology Foundations and Industry Practice},
+	editor = {Andr\'e Borrmann and Markus K\"onig and Christian Koch and Jakob Beetz},
+	month = {sep},
+	note = {ISBN: 978--3--319--92861--6 (Print) 978--3--319--92862--3 (Online)},
+	pages = {199--215},
+	publisher = {Springer},
+	title = {Modeling Cities and Landscapes in {3D} with {CityGML}},
+	year = {2018}
+}</pre></div></span></div>
+</section>
+<section id="type_proceedings" class="filteredtopgroup">
+<h3>Conference proceedings<span id="filteredcount"></span></h3>
+<section id="type_proceedings2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>13th 3D geoinfo conference 2018</strong>. Ken Arroyo Ohori, Anna Labetski, Giorgio Agugiaro, Mila Koeva and Jantien Stoter. ISPRS, Delft, The Netherlands, October 2018. <span class="text-danger"> The proceedings of the conference containing full papers and extended abstracts as published in ISPRS Archives Volume XLII-4/W10</span>. <br /><span style="font-size: 15pt"> <a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W10/"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bib18a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18a" class="collapse" tabindex="-1"><pre class="bibtex">@proceedings{18a,
+	address = {Delft, The Netherlands},
+	editor = {Ken {Arroyo Ohori} and Anna Labetski and Giorgio Agugiaro and Mila Koeva and Jantien Stoter},
+	month = {oct},
+	number = {W10},
+	publisher = {ISPRS},
+	title = {13th {3D} GeoInfo Conference 2018},
+	volume = {XLII-4},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>13th 3D geoinfo conference 2018</strong>. Ken Arroyo Ohori, Anna Labetski, Giorgio Agugiaro, Mila Koeva and Jantien Stoter. ISPRS, Delft, The Netherlands, October 2018. <span class="text-danger"> The proceedings of the conference containing the best full papers as published in ISPRS Annals Volume IV-4/W6</span>. <br /><span style="font-size: 15pt"> <a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-4-W6/"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bib18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bib18" class="collapse" tabindex="-1"><pre class="bibtex">@proceedings{18,
+	address = {Delft, The Netherlands},
+	editor = {Ken {Arroyo Ohori} and Anna Labetski and Giorgio Agugiaro and Mila Koeva and Jantien Stoter},
+	month = {oct},
+	number = {W6},
+	publisher = {ISPRS},
+	title = {13th {3D} GeoInfo Conference 2018},
+	volume = {IV-4},
+	year = {2018}
+}</pre></div></span></div>
+</section>
+<section id="type_incollection" class="filteredtopgroup">
+<h3>Conference articles (in book)<span id="filteredcount"></span></h3>
+<section id="type_incollection2019" class="filteredgroup">
+<h4>2019</h4><div class="filteredelement"><strong>A Data Structure to Incorporate Versioning in 3D City Models</strong>. Stelios Vitalis, Anna Labetski, Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. <em>14th 3D GeoInfo Conference 2018</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W8), ISPRS, 2019, pp. 123&ndash;130. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-annals-IV-4-W8-123-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibVitalis2019a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibVitalis2019a" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Vitalis2019a,
+	author = {Stelios Vitalis and Anna Labetski and Ken {Arroyo Ohori} and Hugo Ledoux and Jantien Stoter},
+	booktitle = {14th 3D GeoInfo Conference 2018},
+	pages = {123--130},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {A {D}ata {S}tructure to {I}ncorporate {V}ersioning in 3{D} {C}ity {M}odels},
+	volume = {IV-4},
+	number = {W8},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Towards a Generic 3D Standardisation Approach for the Netherlands Supporting Different Applications and Encodings</strong>. J. Stoter, H. Ledoux, F. Penninga, L. van den Brink, M. Reuvers, M. Vermeij and M. G. Wiersma. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-4(W15), ISPRS, 2019, pp. 89&ndash;96. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W15-89-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibStoter3DGeoInfo2019b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter3DGeoInfo2019b" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Stoter3DGeoInfo2019b,
+	author = {Stoter, J. and Ledoux, H. and Penninga, F. and van den Brink, L. and Reuvers, M. and Vermeij, M. and Wiersma, M. G.},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {89--96},
+	publisher = {ISPRS},
+	series = {ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {Towards a {G}eneric {3D} {S}tandardisation {A}pproach for the {N}etherlands {S}upporting {D}ifferent {A}pplications and {E}ncodings},
+	volume = {XLII-4},
+	number = {W15},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Considerations for a Contemporary 3D Cadastre for our Times</strong>. Jantien Stoter, Serene Ho and Filip Biljecki. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-4(W15), ISPRS, 2019, pp. 81&ndash;88. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W15-81-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibStoter3DGeoInfo2019a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter3DGeoInfo2019a" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Stoter3DGeoInfo2019a,
+	author = {Jantien Stoter and Serene Ho and Filip Biljecki},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {81--88},
+	publisher = {ISPRS},
+	series = {ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {Considerations for a {C}ontemporary {3D} {C}adastre for our {T}imes},
+	volume = {XLII-4},
+	number = {W15},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>EuroSDR GeoBIM Project a Study in Europe on how to use the Potentials of BIM and Geo Data in Practice</strong>. Francesca Noardo, Claire Ellul, Lars Harrie, Emmanuel Devys, Ken Arroyo Ohori, Perola Olsson and Jantien Stoter. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-4(W15), ISPRS, 2019, pp. 53&ndash;60. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibNoardo3DGeoInfo2019b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibNoardo3DGeoInfo2019b" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Noardo3DGeoInfo2019b,
+	author = {Francesca Noardo and Claire Ellul and Lars Harrie and and Emmanuel Devys and Ken {Arroyo Ohori} and Perola Olsson and Jantien Stoter},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {53--60},
+	publisher = {ISPRS},
+	series = {ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {{EuroSDR GeoBIM} {P}roject a {S}tudy in {E}urope on how to use the {P}otentials of {BIM} and {G}eo {D}ata in {P}ractice},
+	volume = {XLII-4},
+	number = {W15},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>GeoBIM Benchmark 2019: Intermediate Results</strong>. Francesca Noardo, Filip Biljecki, Giorgio Agugiaro, Ken Arroyo Ohori, Claire Ellul, Lars Harrie and Jantien Stoter. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-4(W15), ISPRS, 2019, pp. 47&ndash;52. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W15-47-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibNoardo3DGeoInfo2019a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibNoardo3DGeoInfo2019a" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Noardo3DGeoInfo2019a,
+	author = {Francesca Noardo and Filip Biljecki and Giorgio Agugiaro and Ken {Arroyo Ohori} and Claire Ellul and Lars Harrie and Jantien Stoter},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {47--52},
+	publisher = {ISPRS},
+	series = {ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {{GeoBIM} {B}enchmark 2019: {I}ntermediate {R}esults},
+	volume = {XLII-4},
+	number = {W15},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A Survey on the Adoption of GIS Data and Standards in Urban Application Domains</strong>. Kavisha Kumar, Anna Labetski, Giorgio Agugiaro and Jantien Stoter. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-4(W15), ISPRS, 2019, pp. 41&ndash;46. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W15-41-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibKumar3DGeoInfo2019b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibKumar3DGeoInfo2019b" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Kumar3DGeoInfo2019b,
+	author = {Kavisha Kumar and Anna Labetski and Giorgio Agugiaro and Jantien Stoter},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {41--46},
+	publisher = {ISPRS},
+	series = {ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {A {S}urvey on the {A}doption of {GIS} {D}ata and {S}tandards in {U}rban {A}pplication {D}omains},
+	volume = {XLII-4},
+	number = {W15},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>An Improved LOD Framework for the Terrains in 3D City Models</strong>. Kavisha Kumar, Anna Labetski, Hugo Ledoux and Jantien Stoter. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W8), ISPRS, 2019, pp. 75&ndash;82. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-annals-IV-4-W8-75-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibKumar3DGeoInfo2019a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibKumar3DGeoInfo2019a" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Kumar3DGeoInfo2019a,
+	author = {Kavisha Kumar and Anna Labetski and Hugo Ledoux and Jantien Stoter},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {75--82},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {An {I}mproved {LOD} {F}ramework for the {T}errains in {3D} {C}ity {M}odels},
+	volume = {IV-4},
+	number = {W8},
+	year = {2019}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A Multi-Height LoD1 Model of all Buildings in the Netherlands</strong>. Bal&aacute;zs Dukai, Hugo Ledoux and Jantien Stoter. <em>14th 3D GeoInfo Conference 2019</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W8), ISPRS, 2019, pp. 51&ndash;57. <br /><span style="font-size: 15pt"><i class="ai ai-open-access-square"></i> <a href="https://doi.org/10.5194/isprs-annals-IV-4-W8-51-2019"><i class="ai ai-doi-square"></i></a> <a href="#bibDukai3DGeoInfo2019" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibDukai3DGeoInfo2019" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Dukai3DGeoInfo2019,
+	author = {Bal{\'{a}}zs Dukai and Hugo Ledoux and Jantien Stoter},
+	booktitle = {14th 3D GeoInfo Conference 2019},
+	pages = {51--57},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {A {M}ulti-{H}eight {LoD1} {M}odel of all {B}uildings in the {N}etherlands},
+	volume = {IV-4},
+	number = {W8},
+	year = {2019}
+}</pre></div></span></div>
+</section>
+<section id="type_incollection2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>A Framework for the Representation of Two Versions of a 3D City Model in 4D Space</strong>. Stelios Vitalis, Ken Arroyo Ohori and Jantien Stoter. <em>13th 3D GeoInfo Conference 2018</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W6), ISPRS, October 2018, pp. 81&ndash;88. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.5194/isprs-annals-IV-4-W6-81-2018"><i class="ai ai-doi-square"></i></a> <a href="#bibVitalis2018" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibVitalis2018" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Vitalis2018,
+	author = {Stelios Vitalis and Ken {Arroyo Ohori} and Jantien Stoter},
+	booktitle = {13th 3D GeoInfo Conference 2018},
+	month = {oct},
+	number = {W6},
+	pages = {81--88},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {A {F}ramework for the {R}epresentation of {T}wo {V}ersions of a {3D} {C}ity {M}odel in {4D} {S}pace},
+	volume = {IV-4},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>A Proposal for an Improved Transportation Model in CityGML</strong>. Anna Labetski, Stefan van Gerwen, Guus Tamminga, Hugo Ledoux and Jantien Stoter. <em>13th 3D GeoInfo Conference 2018</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-4(W10), ISPRS, October 2018, pp. 89&ndash;96. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W10-89-2018"><i class="ai ai-doi-square"></i></a> <a href="#bibLabetski2018" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLabetski2018" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Labetski2018,
+	author = {Anna Labetski and Stefan {van Gerwen} and Guus Tamminga and Hugo Ledoux and Jantien Stoter},
+	booktitle = {13th 3D GeoInfo Conference 2018},
+	month = {oct},
+	number = {W10},
+	pages = {89--96},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {A {P}roposal for an {I}mproved {T}ransportation {M}odel in {CityGML}},
+	volume = {XLII-4},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Preface</strong>. Ken Arroyo Ohori, Anna Labetski, Giorgio Agugiaro, Mila Koeva and Jantien Stoter. In Ken Arroyo Ohori, Anna Labetski, Giorgio Agugiaro, Mila Koeva and Jantien Stoter (eds.), <em>13th 3D GeoInfo Conference 2018</em>, ISPRS Archives XLII-4(W10), ISPRS, Delft, The Netherlands, October 2018, pp. 1&ndash;1. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.5194/isprs-archives-XLII-4-W10-1-2018"><i class="ai ai-doi-square"></i></a> <a href="#bibArroyo-Ohori18c" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori18c" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Arroyo-Ohori18c,
+	address = {Delft, The Netherlands},
+	author = {Ken {Arroyo Ohori} and Anna Labetski and Giorgio Agugiaro and Mila Koeva and Jantien Stoter},
+	booktitle = {13th 3D GeoInfo Conference 2018},
+	editor = {Ken {Arroyo Ohori} and Anna Labetski and Giorgio Agugiaro and Mila Koeva and Jantien Stoter},
+	month = {oct},
+	number = {W10},
+	pages = {1--1},
+	publisher = {ISPRS},
+	series = {ISPRS Archives},
+	title = {Preface},
+	volume = {XLII-4},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Preface</strong>. Ken Arroyo Ohori, Anna Labetski, Giorgio Agugiaro, Mila Koeva and Jantien Stoter. In Ken Arroyo Ohori, Anna Labetski, Giorgio Agugiaro, Mila Koeva and Jantien Stoter (eds.), <em>13th 3D GeoInfo Conference 2018</em>, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W6), ISPRS, Delft, The Netherlands, October 2018, pp. 1&ndash;1. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.5194/isprs-annals-IV-4-W6-1-2018"><i class="ai ai-doi-square"></i></a> <a href="#bibArroyo-Ohori18b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori18b" class="collapse" tabindex="-1"><pre class="bibtex">@incollection{Arroyo-Ohori18b,
+	address = {Delft, The Netherlands},
+	author = {Ken {Arroyo Ohori} and Anna Labetski and Giorgio Agugiaro and Mila Koeva and Jantien Stoter},
+	booktitle = {13th 3D GeoInfo Conference 2018},
+	editor = {Ken {Arroyo Ohori} and Anna Labetski and Giorgio Agugiaro and Mila Koeva and Jantien Stoter},
+	month = {oct},
+	number = {W6},
+	pages = {1--1},
+	publisher = {ISPRS},
+	series = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	title = {Preface},
+	volume = {IV-4},
+	year = {2018}
+}</pre></div></span></div>
+</section>
+<section id="type_inproceedings" class="filteredtopgroup">
+<h3>Conference articles<span id="filteredcount"></span></h3>
+<section id="type_inproceedings2019" class="filteredgroup">
+<h4>2019</h4><div class="filteredelement"><strong>GeoBIM Benchmark 2019: Design and Initial Results</strong>. F. Noardo, K. Arroyo Ohori, F. Biljecki, C. Ellul, L. Harrie, T. Krijnen and J. Stoter. <em>ISPRS-International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, ISPRS, 2019, pp. 1339-1346. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.5194/isprs-archives-XLII-2-W13-1339-2019"><i class="ai ai-doi-square"></i></a> <a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W13/1339/2019/"><i class="fas fa-external-link-square-alt"></i></a> <a href="#bibNoardo19a" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibNoardo19a" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Noardo19a,
+	author = {F. Noardo and K. Arroyo Ohori and F. Biljecki and C. Ellul and L. Harrie and T. Krijnen and J. Stoter},
+	booktitle = {ISPRS-International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+	number = {2/W13},
+	organization = {ISPRS},
+	pages = {1339-1346},
+	title = {{GeoBIM Benchmark 2019: Design and Initial Results}},
+	volume = {42},
+	year = {2019}
+}</pre></div></span></div>
+</section>
+<section id="type_inproceedings2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>Topological reconstruction of 3D city models with preservation of semantics</strong>. Stelios Vitalis, Ken Arroyo Ohori and Jantien Stoter. In A. Mansourian, P. Pilesj&ouml;, L. Harrie and R. von Lammeren (eds.), <em>Geospatial Technologies for All : short papers, posters and poster abstracts of the 21th AGILE Conference on Geographic Information Science</em>, Lund University, June 2018. Accessible through https://agile-online.org/index.php/conference/proceedings/proceedings-2018. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/svitalis/pubs/Topological_Reconstruction_AGILE_2018.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibVitalis18" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibVitalis18" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Vitalis18,
+	author = {Stelios Vitalis and Ken Arroyo Ohori and Jantien Stoter},
+	title = {Topological Reconstruction of {3D} City Models with preservation of semantics},
+	booktitle = {Geospatial Technologies for All : short papers, posters and poster abstracts of the 21th AGILE Conference on Geographic Information Science},
+	year = {2018},
+	editor = {Mansourian, A. and Pilesj{\"{o}}, P. and Harrie, L. and von Lammeren, R.},
+	month = {jun},
+	publisher = {Lund University},
+	note = {Accessible through https://agile-online.org/index.php/conference/proceedings/proceedings-2018}
+}</pre></div></span></div>
+</section>
+<section id="type_inproceedings2017" class="filteredgroup">
+<h4>2017</h4><div class="filteredelement"><strong>Towards an integration of GIS and BIM data: what are the geometric and topological issues?</strong>. K. Arroyo Ohori, F. Biljecki, A. Diakit&eacute;, T. Krijnen, H. Ledoux and J. Stoter. <em>ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.</em>, October 2017, pp. 1&ndash;8. <br /><span style="font-size: 15pt"> <a href="https://doi.org/10.5194/isprs-annals-IV-4-W5-1-2017"><i class="ai ai-doi-square"></i></a> <a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-4-W5/1/2017/isprs-annals-IV-4-W5-1-2017.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibArroyo-Ohori17b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibArroyo-Ohori17b" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{Arroyo-Ohori17b,
+	author = {Arroyo Ohori, K and Biljecki, F and Diakit{\'e}, A and Krijnen, T and Ledoux, H and Stoter, J},
+	booktitle = {ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.},
+	month = {oct},
+	pages = {1--8},
+	title = {{Towards an integration of GIS and BIM data: what are the geometric and topological issues?}},
+	volume = {IV-4-W5},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Generalising 3D Buildings from LoD2 to LoD1</strong>. Anna Labetski, Hugo Ledoux and Jantien Stoter. <em>GISRUK 2017 Proceedings</em>, Manchester, UK, 2017. <br /><span style="font-size: 15pt"> <a href="http://huckg.is/gisruk2017/GISRUK_2017_paper_92.pdf"><i class="fas fa-file-alt"></i></a> <a href="#biblabetski17" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="biblabetski17" class="collapse" tabindex="-1"><pre class="bibtex">@inproceedings{labetski17,
+	address = {Manchester, UK},
+	author = {Anna Labetski and Hugo Ledoux and Jantien Stoter},
+	booktitle = {GISRUK 2017 Proceedings},
+	title = {Generalising {3D} {B}uildings from {LoD2} to {LoD1}},
+	year = {2017}
+}</pre></div></span></div>
+</section>
+<section id="type_techreport" class="filteredtopgroup">
+<h3>Technical reports<span id="filteredcount"></span></h3>
+<section id="type_techreport2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>Modelling of semantically rich multi-LoD GIS data in 4D</strong>. Stelios Vitalis. Technical report 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01, 3D Geoinformation Group, Delft University of Technology, January 2018. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/pdfs/SteliosVitalisPhDProposal.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibVitalis2018PhDProposal" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibVitalis2018PhDProposal" class="collapse" tabindex="-1"><pre class="bibtex">@techreport{Vitalis2018PhDProposal,
+	author = {Vitalis, Stelios},
+	institution = {3D Geoinformation Group, Delft University of Technology},
+	month = {jan},
+	title = {Modelling of semantically rich multi-{LoD} {GIS} data in {4D}},
+	year = {2018}
+}</pre></div></span></div>
+</section>
+<section id="type_techreport2017" class="filteredgroup">
+<h4>2017</h4><div class="filteredelement"><strong>A framework for application-specific generalisation of buildings and roads in 3D city models</strong>. Anna Labetski. Technical report 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01 16&ndash;064 2015.01, 3D Geoinformation Group, Delft University of Technology, September 2017. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/alabetski/Publications/LabetskiPhDProposal.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibLabetski2017PhDProposal" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibLabetski2017PhDProposal" class="collapse" tabindex="-1"><pre class="bibtex">@techreport{Labetski2017PhDProposal,
+	author = {Labetski, Anna},
+	institution = {3D Geoinformation Group, Delft University of Technology},
+	month = {sep},
+	title = {A Framework for Application-Specific Generalisation of Buildings and Roads in {3D} City Models},
+	year = {2017}
+}</pre></div></span></div>
+</section>
+<section id="type_misc" class="filteredtopgroup">
+<h3>Others<span id="filteredcount"></span></h3>
+<section id="type_misc2019" class="filteredgroup">
+<h4>2019</h4><div class="filteredelement"><strong>Bepalen luchtverontreinging door verkeer met behulp van 3D-geo-informatie</strong>. Giulia Ceccarelli, Wessel de Jongh, Imke L&aacute;nsky, Jinglan Li, Konstantinos Mastorakis, Ravi Peters, Clara Garcia-S&aacute;nchez and Jantien Stoter. <em>Geo-Info</em> 4, 2019, pp. 34&ndash;39. <br /><span style="font-size: 15pt"> <a href="https://3d.bk.tudelft.nl/rypeters/pdfs/19_geoinfo_airquality.pdf"><i class="fas fa-file-alt"></i></a> <a href="#bibSynthesis19AirQuality" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibSynthesis19AirQuality" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Synthesis19AirQuality,
+	author = {Ceccarelli, Giulia and de Jongh, Wessel and L{\'{a}}nsky, Imke and Li, Jinglan and Mastorakis, Konstantinos and Peters, Ravi and Garcia-S{\'{a}}nchez, Clara and Stoter, Jantien},
+	journal = {Geo-Info},
+	number = {4},
+	pages = {34--39},
+	title = {Bepalen luchtverontreinging door verkeer met behulp van {3D}-geo-informatie},
+	year = {2019}
+}</pre></div></span></div>
+</section>
+<section id="type_misc2018" class="filteredgroup">
+<h4>2018</h4><div class="filteredelement"><strong>The search for the economic value of 3D geoinformation. interview with Jantien Stoter and Joep Crompvoets</strong>. Frederique Coumans. <em>GIM International</em> 10, October 2018. <br /><span style="font-size: 15pt"> <a href="#bibStoterCrompvoets2018" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoterCrompvoets2018" class="collapse" tabindex="-1"><pre class="bibtex">@misc{StoterCrompvoets2018,
+	author = {Frederique Coumans},
+	journal = {GIM International},
+	month = {October},
+	title = {The Search for the Economic Value of {3D} Geoinformation. Interview with {Jantien Stoter} and {Joep Crompvoets}},
+	volume = {10},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Geo en BIM maakt nog geen GeoBIM, Column in GeoInfo 2018-3, blz 21</strong>. J. Stoter. June 2018. <br /><span style="font-size: 15pt"> <a href="#bibStoter18ColumnGeoinfo_1" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter18ColumnGeoinfo_1" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Stoter18ColumnGeoinfo_1,
+	author = {J. Stoter},
+	month = {June},
+	title = {{Geo} en {BIM} maakt nog geen {GeoBIM}, {C}olumn in {GeoInfo} 2018-3, blz 21},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Geo plus BIM does not make GeoBIM, column in gim international</strong>. J. Stoter. July 2018. <br /><span style="font-size: 15pt"> <a href="#bibStoter18ColumnGIMInternational2018" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter18ColumnGIMInternational2018" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Stoter18ColumnGIMInternational2018,
+	author = {J. Stoter},
+	month = {July},
+	title = {{Geo} Plus {BIM} Does Not Make {GeoBIM}, Column in GIM international},
+	year = {2018}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Integratie BIM- en GIS-data</strong>. Abdoulaye Diakit&eacute;, Thomas Krijnen, Hugo Ledoux, Ken Arroyo Ohori, Friso Penninga and Jantien Stoter. <em>GIS magazine</em> 3, April/May 2018, pp. 21&ndash;25. <br /><span style="font-size: 15pt"> <a href="#bibDiakite18b" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibDiakite18b" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Diakite18b,
+	author = {Abdoulaye Diakit\'e and Thomas Krijnen and Hugo Ledoux and Ken {Arroyo Ohori} and Friso Penninga and Jantien Stoter},
+	journal = {GIS magazine},
+	month = {April/May},
+	pages = {21--25},
+	title = {Integratie {BIM}- en {GIS}-data},
+	volume = {3},
+	year = {2018}
+}</pre></div></span></div>
+</section>
+<section id="type_misc2017" class="filteredgroup">
+<h4>2017</h4><div class="filteredelement"><strong>Urban modelling in higher dimensions</strong>. A. Diemel J. Stoter. <em>TUD website</em>, December 2017. <br /><span style="font-size: 15pt"> <a href="#bibStoter17TUnews" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17TUnews" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Stoter17TUnews,
+	author = {J. Stoter, A. Diemel},
+	journal = {{TUD} website},
+	month = {December},
+	title = {Urban modelling in higher dimensions},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D-ondersteuning in het dso:droom of werkelijkheid?, Column in GeoInfo 2017-3, blz 28</strong>. J. Stoter. June 2017. <br /><span style="font-size: 15pt"> <a href="#bibStoter17ColumnGeoinfo_1" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17ColumnGeoinfo_1" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Stoter17ColumnGeoinfo_1,
+	author = {J. Stoter},
+	month = {June},
+	title = {{3D}-ondersteuning in het DSO:droom of werkelijkheid?, {C}olumn in {GeoInfo} 2017-3, blz 28},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>3D is cruciaal voor de nieuwe omgevingswet. Toch is het de Grote Onbekende.</strong>. BLOG Jantien Stoter. March 2017. <br /><span style="font-size: 15pt"> <a href="#bibStoter17BLOG" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter17BLOG" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Stoter17BLOG,
+	author = {BLOG Jantien Stoter},
+	month = {March},
+	title = {{3D} is cruciaal voor de nieuwe Omgevingswet. {Toch} is het de {Grote Onbekende.}},
+	year = {2017}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>Het Level of Detail van 3D geo-informatie: Een bekend maar nauwelijks onderzocht concept</strong>. Filip Biljecki, Hugo Ledoux and Jantien Stoter. <em>Geo-Info</em> 14(5), 2017, pp. 12&ndash;16. <br /><span style="font-size: 15pt"> <a href="#bibBiljecki17z" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibBiljecki17z" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Biljecki17z,
+	author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
+	journal = {Geo-Info},
+	number = {5},
+	pages = {12--16},
+	title = {Het {Level of Detail} van {3D} geo-informatie: {Een} bekend maar nauwelijks onderzocht concept},
+	volume = {14},
+	year = {2017}
+}</pre></div></span></div>
+</section>
+<section id="type_misc2016" class="filteredgroup">
+<h4>2016</h4><div class="filteredelement"><strong>3D weergave van uw omgeving. Interview met Jantien Stoter</strong>. Kadaster Nederland. <em>Terzake</em>, November 2016. <br /><span style="font-size: 15pt"> <a href="#bibStoterInterviewTerzake2016_2" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoterInterviewTerzake2016_2" class="collapse" tabindex="-1"><pre class="bibtex">@misc{StoterInterviewTerzake2016_2,
+	author = {Kadaster Nederland},
+	journal = {Terzake},
+	month = {November},
+	title = {{3D} weergave van uw omgeving. {Interview met Jantien Stoter}},
+	year = {2016}
+}</pre></div></span></div>
+<div class="filteredelement"><strong>The next step, Column in GeoInfo 2016-6, blz 19</strong>. J. Stoter. November 2016. <br /><span style="font-size: 15pt"> <a href="#bibStoter16ColumnGeoinfo_1" data-toggle="collapse"><i class="fas fa-caret-square-down"></i></a><div id="bibStoter16ColumnGeoinfo_1" class="collapse" tabindex="-1"><pre class="bibtex">@misc{Stoter16ColumnGeoinfo_1,
+	author = {J. Stoter},
+	month = {November},
+	title = {The next step, {C}olumn in {GeoInfo} 2016-6, blz 19},
+	year = {2016}
+}</pre></div></span></div>
+</section>
+
+</section></section></section></section></section></section></section>
+:ET

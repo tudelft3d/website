@@ -1,0 +1,143 @@
+I"�<h1>Rotterdam multi-LoDs CityGML buildings</h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-1.gif" style="max-height: 500px" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#short-description" id="markdown-toc-short-description">Short description</a></li>
+  <li><a href="#technical-details" id="markdown-toc-technical-details">Technical details</a></li>
+  <li><a href="#georeferencing-details" id="markdown-toc-georeferencing-details">Georeferencing details</a></li>
+  <li><a href="#semantics-details" id="markdown-toc-semantics-details">Semantics details</a></li>
+  <li><a href="#download" id="markdown-toc-download">Download</a></li>
+</ul>
+
+<hr />
+
+<h2 id="short-description">Short description</h2>
+
+<p>Surrounding area of the Up:Town building (one of the provided IFC model for this benchmark); it represents the Maritiem district in Rotterdam.</p>
+
+<p>This is an open data produced and provided by the Municipality of Rotterdam.</p>
+
+<p>Only buildings are included, and they are represented in 2 Levels of Details (LoDs): LoD1 (extruded building footprints), LoD2 (more detailed external surfaces of the buildings, with realistic roof shapes and different semantics for walls and roofs). Check the CityGML description in the benchmark website and related documentation to have more details.</p>
+
+<p>The textures for LoD2 are also present (in the updated version of the file 11/06/2019).</p>
+
+<p>The file was further checked, validated and improved through ‘3DcityDB’ and ‘Safe Software FME’ Validation tools, manual editing and processing through FME tools.</p>
+
+<p><strong>An improved and corrected version is published on 11th June 2019.</strong> Please, download and use this new version (at the end of this page).</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<p>Name of the file: <strong>RotterdamLOD12.gml</strong></p>
+
+<p>Used CityGML version:<strong> 2</strong></p>
+
+<p>Level(s) of Detail: <strong>LoD 1 &amp; LoD 2</strong> (in the same GML file)</p>
+
+<p>The geometries are all managed as<strong> MultiSurfaces.</strong></p>
+
+<h2 id="georeferencing-details">Georeferencing details</h2>
+
+<p>Coordinate reference system:<strong> EPSG: 28992 – Amersfoort / RD New</strong></p>
+
+<p>Bounding box coordinates:</p>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamSRSdetails.gif" style="max-height: 500px" /></div>
+</div>
+
+<p>Model orientations:</p>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamOrientation.gif" style="max-height: 500px" /></div>
+</div>
+
+<h2 id="semantics-details">Semantics details</h2>
+
+<p>Here, the entities included in the model are listed model (you can read the CityGML documentation for their full description):</p>
+
+<ul>
+  <li>core:CityModel</li>
+  <li>core:xalAddress</li>
+  <li>bldg:Buildings</li>
+  <li>bldg:BuildingInstallation</li>
+  <li>bldg:BuildingPart</li>
+  <li>bldg:ClosureSurface</li>
+  <li>bldg:GroundSurface</li>
+  <li>bldg:OuterCeilingSurface</li>
+  <li>bldg:RoofSurface</li>
+  <li>bldg:WallSurface</li>
+</ul>
+
+<h3 id="34-elements">3+4 Elements</h3>
+
+<p>In the following images and videos you can see the model (in the software Azul), with the classification (and hierarchies) of objects and <strong> attributes</strong>  of specific elements, to be used as reference while performing the Task 3.
+From these views you can also have a view about how the geometry looks like, in order to have a visual reference for testing your software.</p>
+
+<h4 id="lod-1-geometry">LoD 1 geometry</h4>
+
+<p><strong> Element 1</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig6.gif" title="Element 1	(in yellow)." />
+</div>
+<hr />
+<p><strong> Element 2 </strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig7.gif" title="Element 2	(in yellow)." />
+</div>
+<hr />
+<p><strong> Element 3</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig8.gif" title="Element 3	(in yellow)" />
+</div>
+
+<h4 id="lod-2-geometry">LoD 2 geometry</h4>
+
+<p><strong> Element 3</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig1.gif" title="Element 3	 (in yellow)." />
+</div>
+<hr />
+<p><strong> Element 4</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig2.gif" title="Element 4	 (in yellow)." />
+</div>
+<hr />
+<p><strong> Element 5</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig3.gif" title="Element 5 (in yellow)" />
+</div>
+<hr />
+<p><strong> Element 6 </strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamLOD12-Fig4.gif" title="Element 6 (in yellow)." />
+</div>
+<hr />
+
+<h3 id="grouping-relationships">Grouping relationships</h3>
+
+<p>Reference for checking the part-of relationships:</p>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/RotterdamGrouping.gif" style="max-height: 1000px" /></div>
+</div>
+
+<h3 id="video-of-the-lod-1-model">Video of the LoD 1 model</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8rJa00Z8Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="video-of-the-lod-2-model">Video of the LoD 2 model</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1O27Iuf8eBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<hr />
+<h2 id="download">Download</h2>
+
+<p>You can download the RotterdamLOD12.gml data (corrected version 11/06/2019) from this <a href="https://www.dropbox.com/s/jpo3dzcgi53nq2k/rotterdam_LoD1_LoD2.zip?dl=0"><strong>link</strong></a>.</p>
+
+<p>Please consider that you will access a .zip folder containing the GML file and the folder with the textures. <strong>You should download both.</strong></p>
+<hr />
+:ET

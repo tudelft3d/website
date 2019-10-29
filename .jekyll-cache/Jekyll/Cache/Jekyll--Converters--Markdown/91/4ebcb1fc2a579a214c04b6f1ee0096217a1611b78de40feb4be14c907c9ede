@@ -1,0 +1,20 @@
+I"�<p>The <a href="http://opengeospatial.org">Open Geospatial Consortium (OGC)</a> has recently released the results of the CityGML Quality Interoperability Experiment (QIE) as a public Engineering Report (<a href="https://portal.opengeospatial.org/files/?artifact_id=68821">the PDF</a>).</p>
+
+<p>The report is the result of several universities, organisations and companies working together in 2014 and 2015 to define data quality requirements for a general CityGML data specification, to create recommended implementation guidance for CityGML data, and to provide a suite of tools to carry out quality assurance on CityGML data. 
+The CityGML QIE improves the interoperability of CityGML data by removing some ambiguities from the current standard, and formally defining data quality requirements for a general CityGML data standard.</p>
+
+<p>A few from our group (Hugo Ledoux, Jantien Stoter, and Filip Biljecki) contributed to the experiment.
+We were in charge of the part concerned with the validation of the geometry.
+We have among others developed different unit tests that help software developers test if their implementation of the geometry is ISO1910-compliant (thus CityGML-compliant); these can be downloaded on <a href="https://github.com/tudelft3d/CityGML-QIE-3Dvalidation">this GitHub page</a>.</p>
+
+<p><img src="/img/2016/3dtest.jpg" alt="" /></p>
+
+<p>Our own implementation of a geometry validator, called val3dity, is freely available and can be used by everyone (its <a href="https://github.com/tudelft3d/val3dity">source code</a>, its <a href="http://geovalidation.bk.tudelft.nl/val3dity/">easy-to-use web interface</a>), and its <a href="https://github.com/tudelft3d/val3dity/releases">Windows EXE</a>).
+The 3D primitives of GML (<code class="highlighter-rouge">&lt;gml:Solid&gt;</code>, <code class="highlighter-rouge">&lt;gml:CompositeSurface&gt;</code>, or <code class="highlighter-rouge">&lt;gml:MultiSurface&gt;</code>) are what it was built for, but it can be used to validate any 3D primitive, also in other formats. 
+It accepts as input any GML files (or one of the formats built upon it, such as CityGML), <a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">OBJ</a>, and <a href="http://wias-berlin.de/software/tetgen/1.5/doc/manual/manual006.html#ff_poly">POLY</a>.
+It simply scans the file looking for the 3D primitives and validates these according to the rules in ISO19107 (all the rest is ignored). 
+In a OBJ file, each primitive will be validated according to the ISO 19107 rules.</p>
+
+<p>We plan to extend it with other (City)GML classes in the future, eg <code class="highlighter-rouge">&lt;gml:CompositeSolid&gt;</code> and <code class="highlighter-rouge">&lt;Building&gt;</code>, and to also validate the interactions between different classes, so that for instance two buildings do not overlap, that they touch the ground (and do not ‘float’ 10cm above it), and that the semantics attached to features is complete and structured.</p>
+
+:ET

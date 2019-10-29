@@ -1,0 +1,582 @@
+I"��<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#the-effect-of-real-void-decks-in-singapore-ventilation" id="markdown-toc-the-effect-of-real-void-decks-in-singapore-ventilation">The effect of real void decks in Singapore ventilation</a></li>
+  <li><a href="#estimation-of-the-impact-of-field-view-in-the-value-of-high-rise-buildings-flats" id="markdown-toc-estimation-of-the-impact-of-field-view-in-the-value-of-high-rise-buildings-flats">Estimation of the impact of field view in the value of high-rise-buildings flats</a></li>
+  <li><a href="#where-will-you-lose-your-hat-finding-the-windiest-street-in-the-netherlands" id="markdown-toc-where-will-you-lose-your-hat-finding-the-windiest-street-in-the-netherlands">Where will you lose your hat? Finding the windiest street in the Netherlands</a></li>
+  <li><a href="#storing-cityjson-to-nosql-databases-eg-mongodb" id="markdown-toc-storing-cityjson-to-nosql-databases-eg-mongodb">Storing CityJSON to NoSQL databases (e.g. MongoDB)</a></li>
+  <li><a href="#gis-based-integrated-modelling-of-building-stock-and-supply-networks-for-assessment-of-near-zero-energy-districts" id="markdown-toc-gis-based-integrated-modelling-of-building-stock-and-supply-networks-for-assessment-of-near-zero-energy-districts">GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts</a></li>
+  <li><a href="#compression-of-3d-city-models-on-the-web-for-visualisation" id="markdown-toc-compression-of-3d-city-models-on-the-web-for-visualisation">Compression of 3D city models on the web for visualisation</a></li>
+  <li><a href="#façade-parsing-from-textured-meshes" id="markdown-toc-façade-parsing-from-textured-meshes">Façade parsing from textured meshes</a></li>
+  <li><a href="#multidisciplinary-graduation-bk-studio-city-of-the-future" id="markdown-toc-multidisciplinary-graduation-bk-studio-city-of-the-future">Multidisciplinary graduation BK studio: City of the Future</a></li>
+  <li><a href="#improving-automatic-meshing-for-buildings" id="markdown-toc-improving-automatic-meshing-for-buildings">Improving automatic meshing for buildings</a></li>
+  <li><a href="#from-gis-to-3d-flow-simulations-in-urban-environments" id="markdown-toc-from-gis-to-3d-flow-simulations-in-urban-environments">From GIS to 3D flow simulations in urban environments</a></li>
+  <li><a href="#guesstimation-of-the-height-of-all-usa-buildings" id="markdown-toc-guesstimation-of-the-height-of-all-usa-buildings">Guesstimation of the height of all USA buildings</a></li>
+  <li><a href="#automatic-reconstruction-of-historical-3d-city-models" id="markdown-toc-automatic-reconstruction-of-historical-3d-city-models">Automatic reconstruction of historical 3D city models</a></li>
+  <li><a href="#modelling-tree-topology-effects-on-wind" id="markdown-toc-modelling-tree-topology-effects-on-wind">Modelling tree topology effects on wind</a></li>
+  <li><a href="#calculating-street-widths" id="markdown-toc-calculating-street-widths">Calculating street widths</a></li>
+  <li><a href="#sensor-standards-overview" id="markdown-toc-sensor-standards-overview">Sensor standards overview</a></li>
+  <li><a href="#moving-objects-on-the-web" id="markdown-toc-moving-objects-on-the-web">Moving objects on the Web</a></li>
+  <li><a href="#develop-a-framework-for-sharing-sensor-data" id="markdown-toc-develop-a-framework-for-sharing-sensor-data">Develop a framework for sharing sensor data</a></li>
+  <li><a href="#linked-data-extend-cityjson-with-machine-readable-semantics" id="markdown-toc-linked-data-extend-cityjson-with-machine-readable-semantics">Linked data: Extend CityJSON with machine-readable semantics</a></li>
+  <li><a href="#3d-digital-urban-regulations-to-use-geobim-for-building-permission-checks" id="markdown-toc-3d-digital-urban-regulations-to-use-geobim-for-building-permission-checks">3D digital urban regulations to use GeoBIM for building permission checks</a></li>
+  <li><a href="#extracting-information-from-bim-models-for-geobim-building-permission-use-case" id="markdown-toc-extracting-information-from-bim-models-for-geobim-building-permission-use-case">Extracting information from BIM models for GeoBIM building permission use case</a></li>
+  <li><a href="#develop-a-framework-to-handle-massive-cityjson-files" id="markdown-toc-develop-a-framework-to-handle-massive-cityjson-files">Develop a framework to handle massive CityJSON files</a></li>
+  <li><a href="#extraction-of-characteristics-of-buildings-from-aerial-imagery" id="markdown-toc-extraction-of-characteristics-of-buildings-from-aerial-imagery">Extraction of characteristics of buildings from aerial imagery</a></li>
+  <li><a href="#point-cloud-normal-estimation-based-on-the-3d-medial-axis-transform" id="markdown-toc-point-cloud-normal-estimation-based-on-the-3d-medial-axis-transform">Point cloud normal estimation based on the 3D medial axis transform</a></li>
+  <li><a href="#improvements-trees-bridges-viaducs-to-3dfier" id="markdown-toc-improvements-trees-bridges-viaducs-to-3dfier">Improvements (trees, bridges, viaducs) to 3dfier</a></li>
+  <li><a href="#3d-cadastre" id="markdown-toc-3d-cadastre">3D Cadastre</a></li>
+  <li><a href="#automatic-generalisation-of-depth-contours" id="markdown-toc-automatic-generalisation-of-depth-contours">Automatic generalisation of depth contours</a></li>
+  <li><a href="#snap-rounding-in-a-triangulation" id="markdown-toc-snap-rounding-in-a-triangulation">Snap rounding in a triangulation</a></li>
+  <li><a href="#learning-to-synthesize-detailed-3d-building-models" id="markdown-toc-learning-to-synthesize-detailed-3d-building-models">Learning to synthesize detailed 3D building models</a></li>
+  <li><a href="#outer-surface-extraction-for-complex-3d-models" id="markdown-toc-outer-surface-extraction-for-complex-3d-models">Outer surface extraction for complex 3D models</a></li>
+  <li><a href="#coupling-3d-city-models-with-ladybug-tools-for-environmental-analyses" id="markdown-toc-coupling-3d-city-models-with-ladybug-tools-for-environmental-analyses">Coupling 3D city models with Ladybug tools for environmental analyses</a></li>
+  <li><a href="#interaction-between-urban-heat-islands-and-semantic-3d-city-models" id="markdown-toc-interaction-between-urban-heat-islands-and-semantic-3d-city-models">Interaction between urban heat islands and semantic 3D city models</a></li>
+  <li><a href="#urban-metabolism-and-semantic-3d-city-models" id="markdown-toc-urban-metabolism-and-semantic-3d-city-models">Urban metabolism and semantic 3D city models</a></li>
+  <li><a href="#integrated-modelling-of-utility-networks-in-the-urban-environment" id="markdown-toc-integrated-modelling-of-utility-networks-in-the-urban-environment">Integrated modelling of utility networks in the urban environment</a></li>
+  <li><a href="#computation-of-spatial-extent-for-massive-point-cloud-datasets" id="markdown-toc-computation-of-spatial-extent-for-massive-point-cloud-datasets">Computation of spatial extent for massive point cloud datasets</a></li>
+  <li><a href="#semantic-feature-matching" id="markdown-toc-semantic-feature-matching">Semantic Feature Matching</a></li>
+  <li><a href="#dtm-filtering-for-photogrammetric-dsms" id="markdown-toc-dtm-filtering-for-photogrammetric-dsms">DTM Filtering for Photogrammetric DSM’s</a></li>
+</ul>
+
+<hr />
+<h2 id="the-effect-of-real-void-decks-in-singapore-ventilation">The effect of real void decks in Singapore ventilation</h2>
+<p>In tropical climates urban ventilation is key to improve pedestrian thermal comfort and air pollution exposure. Void decks are a common urban design used to enhance local street ventilation in compact urban areas. However, while improving thermal comfort and local air quality, void decks change pedestrian wind comfort as well. Some studies have explored the effect of void decks in idealized configurations, retrieving wind speeds enhanced up to two times at pedestrian level. Thus, understanding wind flows around void deck configurations is fundamental to optimize local urban designs towards concrete environmental goals.</p>
+
+<p>Within this MSc thesis, we will use the newly published cityjson 3D city model of Singapore to analyze wind flows around realistic void decks already existent within the urban area. The innovative aspect of the project resides in the combination of open data, cityjson and void deck geometries with computational fluid dynamic tools. The study will analyze changes in wind and temperature distributions accross the most common wind directions using the open source CFD libraries OpenFOAM.</p>
+
+<p>If you work on this topic, you can expect to learn all the fundamentals of CFD in urban environments and flow pattern physics around buildings (as in wind and temperature fields). Ideally, you could also explore the effects of void decks to potential dispersion releases, if time allows for it. The project will be done in collaboration with the NUS Urban Analytics Lab in Singapore.</p>
+
+<p><img src="img/Singapore3Dmodel.jpeg" alt="" width="600px" /></p>
+
+<p><strong>Contact:</strong> <a href="https://cgarcia-sanchez.com">Clara García-Sánchez</a></p>
+
+<h2 id="estimation-of-the-impact-of-field-view-in-the-value-of-high-rise-buildings-flats">Estimation of the impact of field view in the value of high-rise-buildings flats</h2>
+
+<p><img src="img/ga_ilir_2019.jpg" alt="" width="600px" /></p>
+
+<p>Cities have increasingly exhibited a vertical dimension which has long been neglected by mainstream urban economics and prevailing location theories. Recent studies have documented that both firms and households are prepared to pay more (known as price premiums) to be located on higher floors. Two key reasons for higher vertical location are namely ‘view’ and ‘status’ (being on top of others). To date, very little is known about how much these parameters contribute to the premium.
+In particular, in tall buildings design subdivision of floor plans is becoming complex to address different user preferences and to maximise views for higher economic returns, as different levels of a building offer different fields of view based, among the rest, on the impact of surrounding obstructing objects.
+Analyses based in 3D city models can help to better estimate the role of field of view in this context.</p>
+
+<p><strong>Contact:</strong> <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a> (3D Geoinformation), <a href="https://www.tudelft.nl/staff/i.nase/">Ilir Nase</a> (MBE)</p>
+
+<hr />
+
+<h2 id="where-will-you-lose-your-hat-finding-the-windiest-street-in-the-netherlands">Where will you lose your hat? Finding the windiest street in the Netherlands</h2>
+<p>Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns.</p>
+
+<p>In this MSc thesis we will use Netherlands wind maps and 3D city models to explore the correspondence between larger wind maps and local winds. The data inherent in 3D city models will be used to derive fundamental parameters that describe urban morphologies, such as skyview factor, length-to-width ratio, orientation or building density. Through these parameters we will classify diverse urban areas, and explore relations between the derived urban parameters and the local potential for wind enhancement or reduction over the Netherlands.</p>
+
+<p>If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models, how to convert a city object, city-parts into a machine-learnable representation, how various urban layouts influence wind distributions. Ideally, you would also explore how to scale up the operation to a whole country, and optionally you may also learn how to run Computational Fluid Dynamic (CFD) simulations for wind.</p>
+
+<p><img src="img/WindyStreetPicture.png" alt="" width="400px" /></p>
+
+<p><strong>Contact:</strong> <a href="https://cgarcia-sanchez.com">Clara García-Sánchez</a> and <a href="http://balazsdukai.com">Balázs Dukai</a>.</p>
+
+<hr />
+
+<h2 id="storing-cityjson-to-nosql-databases-eg-mongodb">Storing CityJSON to NoSQL databases (e.g. MongoDB)</h2>
+
+<p><img src="img/NOSQL.jpg" alt="" width="400px" /></p>
+
+<p>CityJSON has been proven to be an efficient way of storing 3D city models by using, on average, about 6x less space than CityGML files.
+Nevertheless, permanent storage and robust access of such big amount of data can better be managed through the use of databases, which ensure <a href="https://en.wikipedia.org/wiki/ACID">ACID</a> reliability.
+While 3DcityDB is already a way of mapping the CityGML data model to traditional SQL databases (e.g. PostGIS and ORACLE), modern web applications require more flexibility and use extensively NoSQL database to store data.
+In particular, MongoDB seems to work very well with JSON data.</p>
+
+<p>The focus of this thesis is to develop a way to store CityJSON in MongoDB (or other NoSQL databases) and evaluate the efficiency of such an approach.
+A prototype application might be required to be developed and/or support in <a href="https://github.com/tudelft3d/cjio">cjio</a> might be added as a result of this project.</p>
+
+<p>Knowledge of Python programming language is recommended.</p>
+
+<p><strong>Contact:</strong> <a href="https://3d.bk.tudelft.nl/hledoux">Hugo Ledoux</a> and <a href="http://3d.bk.tudelft.nl/svitalis">Stelios Vitalis</a>.</p>
+
+<hr />
+
+<h2 id="gis-based-integrated-modelling-of-building-stock-and-supply-networks-for-assessment-of-near-zero-energy-districts">GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts</h2>
+
+<p>This MSc thesis topic will be jointly supervised by staff of the 3D Geoinformation group (Dept. of Urbanism) and the Climate Design group (Dept. of Architectural Engineering and Technology). Ideally, two students (one for each research group) will work together, however focusing each on one of the following topics:</p>
+
+<p><img src="img/energy2019.jpg" alt="" width="600px" /></p>
+
+<p>For the Geomatics track, the focus will be on modelling the building stock and the (energy) supply networks of a district in an integrated GIS environment. CityGML and its extensions Energy ADE and Utility Network ADE will be considered for the purpose. At least a basic knowledge of CityGML is required for this topic.
+The focus of the energy track will be on developing a GIS-based Urban Energy Model (UEM) which simulates the building energy performance on the urban-scale. While the building  energy efficiency is getting greater attention, there is a lack of building energy simulation on the urban scale. The UEM has to be computationally efficient and simultaneously use a set of input parameters that is aggregated to a level which is proportional with the urban GIS data. This will make the model suited for the macro-level simulations. The data relates to the basic building information such as wall and window areas, shading coefficients, material properties, floor area, lighting density, internal heat production from appliances, plug loads, and occupancy schedules. 
+The above-mentioned GIS-model will be integrated with the UEM, as well as design algorithm, in order to extract suitable data to be used as input to the energy models. The GIS platform collected and synthesized the data and then will be used as the input of the UEM to get energy use of buildings in the area. The model will also be applied to evaluate the energy savings of desired retrofit scenarios.
+In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.</p>
+
+<p><strong>Contact:</strong> <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a> (3D Geoinformation), <a href="https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&amp;cHash=">Saleh Mohammadi</a> and <a href="https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&amp;cHash=">Sabine Jansen</a> (Climate Design group)</p>
+
+<hr />
+
+<h2 id="compression-of-3d-city-models-on-the-web-for-visualisation">Compression of 3D city models on the web for visualisation</h2>
+
+<p><img src="img/3dcmview.jpg" alt="" width="600px" /></p>
+
+<p>Three-dimensional city models are notoriously complex to visualise in a web-browser because they are usually rather large and the users would like to be able to explore the attributes (attached to different elements at different levels, eg to a building, to a window, etc.).</p>
+
+<p><a href="https://cesiumjs.org/">Cesium</a> partly solves the issue of having complex 3D city models in a browser, but the files are still rather large and attaching complex semantics/attributes is still not fully satisfactory.</p>
+
+<p>This thesis would explore new ways to solve these issues, and would especially explore the new <a href="https://google.github.io/draco/">Draco library</a>, which allows us to compress 3D meshes; <a href="https://cesium.com/blog/2018/04/09/draco-compression/">preliminary results</a> are promising.</p>
+
+<p>The work would involve testing this with more 3D city models, writing converter from CityJSON, and exploring how complex geometric primitives can be preserved (Draco assumes a simple mesh; buildings are often formed of solids) and how to attach semantics to the model (using .b3dm or others). We have implemented a <em>glTF</em> and <em>b3dm</em> conversion in <a href="https://github.com/tudelft3d/cjio">cjio</a>, but need thorough testing and improvements. However, it could serve as the starting point for the thesis.</p>
+
+<p>If you work on this topic, you can expect to learn how binary file formats work exactly (even write your own), about rendering 3D objects, how to use Cesium, certainly the ins and outs of CityJSON, and more.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a> and <a href="https://www.balazsdukai.com/">Balázs Dukai</a></p>
+
+<hr />
+
+<h2 id="façade-parsing-from-textured-meshes">Façade parsing from textured meshes</h2>
+
+<p><img src="img/facade_parsing.png" alt="" width="600px" /></p>
+
+<p>Recent advances in Structure from Motion (SfM) and Multi-View Stereo (MVS) enable generating textured meshes of large urban scenes. Many real-world applications (e.g., sun light simulation) require detailed semantic information of these models. This project aims at partitioning the façade models into semantically meaning regions, i.e., walls, doors, windows, chimneys, and balconies using state-of-the-art machine learning / deep learning techniques.</p>
+
+<p><strong>Required Skills</strong>: 
+Experiences in 3D mesh processing; Proficient in one programming language (e.g., C/C++ or Python); Attendance in courses (CS4220, or CS4240, or related online courses) on machine learning / deep learning.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/weixiao/">Weixiao GAO</a></p>
+
+<hr />
+
+<h2 id="multidisciplinary-graduation-bk-studio-city-of-the-future">Multidisciplinary graduation BK studio: City of the Future</h2>
+
+<p><img src="img/cityfuture.jpg" alt="" width="600px" /></p>
+
+<p>City of the Future is a multidisciplinary graduation studio focusing on the central question: how to design and develop in an integrated way a transformation area into an attractive future urban environment? It is motivated by urgent social / local issues varying among housing demand, social inclusiveness, new economy, climate adaptation, and the transitions in the areas of energy, mobility, circularity, automation and digitization.</p>
+
+<p>Students of different MSc tracks (thus Geomatics students are welcome) will be dealing with various matters (e.g. spatial, policy, energy, societal) sharing insights and perspectives about the multifaceted future challenges of urban environments.</p>
+
+<p><a href="https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/">–&gt; Webpage of the project</a></p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a></p>
+
+<hr />
+
+<h2 id="improving-automatic-meshing-for-buildings">Improving automatic meshing for buildings</h2>
+
+<p><img src="img/MeshConceptCFD.png" alt="" width="600px" />
+Computational fluid dynamic simulations require detailed meshes that can represent obstacles features accurately. In numerical simulations, the quality of the mesh can draw the line between good and poor results. Nowadays, mesh tools are general and they are not necessarily optimised for meshing entire cities, requiring large time investments to design and improve the mesh quality.</p>
+
+<p>This MSc project focuses on developing an algorithm that create the mesh automatically around buildings by specifying a limited number of parameters that define the grid cells sizes. The mesh will be generated from a top-up perspective, initially extruding the geometrical edges to create cell layers close to the buildings. The approach will be first tested in 2D single and multiple building geometries.</p>
+
+<p>Knowledge of programming in python is required.
+Following elective course GEO5013 is an advantage.</p>
+
+<p><strong>Contact:</strong> <a href="mailto:C.Garcia-Sanchez@tudelft.nl">Clara Garcia-Sanchez</a> and <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a></p>
+
+<hr />
+
+<h2 id="from-gis-to-3d-flow-simulations-in-urban-environments">From GIS to 3D flow simulations in urban environments</h2>
+
+<p><img src="img/WindFlowOklahoma.png" alt="" width="600px" /></p>
+
+<p>Changes in wind can largely affect the wind pattern within cities, leading to zones with high wind speeds and areas with flow stagnation. Wind distributions in urban area depend on heterogeneous city layouts and change with new constructions. A priori knowledge of winds within a certain urban area can help to develop strategies that improve pedestrian wind comfort, help urban designs and ameliorate urban air quality. However, the chain process from the use of GIS data, to the construction of a 3D city model enriched with diverse semantics that can be used in CFD simulations is complex.</p>
+
+<p>The present MSc project goal is to start from GIS databases to generate a water tight model with different semantics, to evaluate and to design a guideline that includes the model information required to perform wind flow simulations. The test case will be built around TU Delft campus, including semantics that differentiate between buildings, green and water areas.</p>
+
+<p>Knowledge of programming in python is required. 
+Following elective course GEO5013 is recommended.</p>
+
+<p><strong>Contact:</strong> <a href="mailto:C.Garcia-Sanchez@tudelft.nl">Clara Garcia-Sanchez</a></p>
+
+<hr />
+
+<h2 id="guesstimation-of-the-height-of-all-usa-buildings">Guesstimation of the height of all USA buildings</h2>
+
+<p><img src="img/zurich.png" alt="" width="600px" /></p>
+
+<p>The project <a href="https://github.com/opencitymodel/opencitymodel">Open City Model</a> by <a href="http://buildzero.org">BuildZero.Org</a> provides a height for each of the 125,192,184 buildings in the USA.
+They took the <a href="https://github.com/Microsoft/USBuildingFootprints">footprints from Microsoft</a> and estimated their heights.
+It can be seen that several buildings are at the same height, and the methodology they used is not documented.</p>
+
+<p>The aim of this project is to develop a methodology to improve their results, in particular using machine learning and the <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf">results we obtained for the Netherlands</a>.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a></p>
+
+<hr />
+
+<h2 id="automatic-reconstruction-of-historical-3d-city-models">Automatic reconstruction of historical 3D city models</h2>
+
+<p><img src="img/delft_1600.jpg" alt="" width="500px" /></p>
+
+<p>Several cities are currently attempting to reconstruct historial 3D models of their cities, see for instance <a href="https://www.stadsarchief.rotterdam.nl/rotterdam3d">Rotterdam before/during/after WWII</a>.
+As far I know, all the efforts have been made manually, by hiring several students to draw buildings from historical photos.</p>
+
+<p>The aim of the project is to investigate how historical 3D models of cities can be <em>automatically</em> reconstructed.
+The idea is to use <a href="https://www.topotijdreis.nl">2D topographic maps</a> and other sources (eg cadastre) and infer the height of buidings, <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf">maybe with machine learning</a>.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a></p>
+
+<hr />
+
+<h2 id="modelling-tree-topology-effects-on-wind">Modelling tree topology effects on wind</h2>
+
+<p><img src="img/FlowAroundTrees.png" alt="" /></p>
+
+<p>Urban landscapes incorporate vegetation elements that serve for different purposes. In open spaces trees can be used to ameliorate air quality, while in other locations they can help to mitigate heat island effects or to improve pedestrian wind comfort. Flow simulations in urban canopies usually oversight resolving tree structures. However, trees have been shown to always affect the wind flow, in some cases with non-negligible impacts.</p>
+
+<p>In this MSc thesis we will simulate explicitly the wind around diverse tree topologies. The results will be compared with standard approaches that approximate the drag imposed by the tree on the wind flow. The study goal is twofold: 1) we will analyze the effect of different tree shapes, and their impact on the flow structure; 2) we will evaluate the performance of  traditional drag approaches and explore potential improvements.</p>
+
+<p>Knowledge of programming in python is highly desirable.</p>
+
+<p><strong>Contact:</strong> <a href="mailto:C.Garcia-Sanchez@tudelft.nl">Clara Garcia-Sanchez</a></p>
+
+<hr />
+
+<h2 id="calculating-street-widths">Calculating street widths</h2>
+
+<p><img src="img/RoadWidthMScTopicFull.png" alt="" width="700px" /></p>
+
+<p>This project will be in partnership with researchers in the department of Urbanism examining the relationship between street design and automated vehicles. As part of this thesis you will examine ways to automatically calculate the width of roads (this is considered the total width including pedestrian walkways and cycling lanes). Part of this process will require you to find ways to automatically classify intersection areas as well as develop methods to automatically partition road segments.</p>
+
+<p>Knowledge of a programming language (preferably Python) is highly recommended.</p>
+
+<p><strong>Contact:</strong> <a href="mailto:a.labetski@tudelft.nl">Anna Labetski</a></p>
+
+<hr />
+
+<h2 id="sensor-standards-overview">Sensor standards overview</h2>
+
+<p>Create an overview of the standards landscape related to sensors and observations that explains the scope of each of these standards, their application to practical use cases, impact on Spatial Data Infrastructures and mechanisms by which they may be combined. 
+Are these standards, for example, overlapping in their application domain, or are they complementary? 
+Are there gaps that need to be addressed?</p>
+
+<p>Different standards organizations are working on standards related to sensors and the measurements they produce: <a href="https://www.iso.org/">ISO</a>, the <a href="http://www.opengeospatial.org">OGC</a>, the <a href="https://www.w3.org">W3C</a>, the <a href="https://www.ietf.org">IETF</a>, and countless non-standardized community or platform-specific protocols and formats. These standards range from mature to early development stage, and from low level communication IoT protocols to ontologies describing sensor semantics.</p>
+
+<p>This project is done in cooperation with <a href="https://www.geonovum.nl/">Geonovum</a>, the govermental organisation responsible for developing geo-standards.</p>
+
+<p><strong>Contact:</strong> <a href="l.vandenbrink@geonovum.nl">Linda van den Brink</a> and <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="moving-objects-on-the-web">Moving objects on the Web</h2>
+
+<p>Describing trajectories and paths of moving objects requires a different approach to describing static ones. Research how best to support Web applications that generate or use data concerning moving objects. Use cases include transportation, tourism, migration, location-based services, travel blogs and wildlife tracking. There is an OGC standard for <a href="http://www.opengeospatial.org/standards/movingfeatures">Moving features</a>, but the XML encoding is too complex and verbose - not lightweight enough to conduct, for example, enhanced (near) real-time operations involving moving objects, via the Web.</p>
+
+<p>This project is done in cooperation with <a href="https://www.geonovum.nl/">Geonovum</a>, the govermental organisation responsible for developing geo-standards.</p>
+
+<p><strong>Contact:</strong> <a href="l.vandenbrink@geonovum.nl">Linda van den Brink</a> and <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="develop-a-framework-for-sharing-sensor-data">Develop a framework for sharing sensor data</h2>
+
+<p><img src="img/slimmestad-alg.png" alt="" /></p>
+
+<p>The ISO/OGC standard <a href="http://www.opengeospatial.org/standards/om">Observations and Measurements</a> (O&amp;M) provides a model for the exchange of information about sensor observations. 
+It’s a rather concise and abstract model and it has always raised questions about how to create a profile in order to use it in practice. 
+A framework for this is needed.</p>
+
+<p>Creating a profile involves the definition of an information model that extends the <a href="http://portal.opengeospatial.org/files/?artifact_id=41579">abstract O&amp;M model</a>. 
+O&amp;M is defined in UML. 
+In addition, there is an XML-based exchange format, the <a href="http://portal.opengeospatial.org/files/?artifact_id=41510">O&amp;M GML encoding</a>, a <a href="https://portal.opengeospatial.org/files/64910">JSON implementation</a>, and a linked data based ontology called <a href="https://www.w3.org/TR/vocab-ssn/">Semantic Sensor Network ontology</a>. 
+All of these may play a role in the framework, but the central question of this MSc topic is how to create a working O&amp;M profile.</p>
+
+<p>A practical case for the study could be the <a href="https://www.basisregistratieondergrond.nl">Base Registry Underground</a>, which will contain a lot of sensor data such as groundwater measurements and soil quality observations.</p>
+
+<p>This project is done in cooperation with <a href="https://www.geonovum.nl/">Geonovum</a>, the govermental organisation responsible for developing geo-standards.</p>
+
+<p><strong>Contact:</strong> <a href="l.vandenbrink@geonovum.nl">Linda van den Brink</a> and <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="linked-data-extend-cityjson-with-machine-readable-semantics">Linked data: Extend CityJSON with machine-readable semantics</h2>
+
+<p><img src="img/ld.jpg" alt="" /></p>
+
+<p><a href="http://www.cityjson.org">CityJSON</a> is based on JavaScript Object Notation, a lightweight data-interchange format primarily used on the Web. 
+However, JSON is just syntax, without any machine-readable knowledge about the meaning (semantics) of the data. Currently, the only way to figure out what the data in a CityJSON file means (e.g. what is a building?) is to read the <a href="https://www.citygml.org">CityGML</a> specification (assuming you know where to find it), something only humans can do.</p>
+
+<p>The aim of this MSc project is to find out how to encode the meaning of CityJSON files in a machine-readable way, directly embedded or linked in the JSON document, and to discover what benefits (or disadvantages) this would bring. This could be done by creating a vocabulary which describes the keys that can be used in CityJSON, basically a CityGML vocabulary or (simple) ontology; and using <a href="https://json-ld.org/">JSON-LD</a> to map the keys in CityJSON to this vocabulary.</p>
+
+<p>The “LD” in JSON-LD stands for “<a href="https://www.w3.org/wiki/LinkedData">linked data</a>”. 
+Once CityJSON-LD is created, we effectively have a lightweight linked data format for CityGML. 
+But this is not a benefit in itself. 
+The project would go on to explore the advantages and disadvantages of working with CityJSON-LD, as opposed to just CityJSON.</p>
+
+<p>This project is done in cooperation with <a href="https://www.geonovum.nl/">Geonovum</a>, the govermental organisation responsible for developing geo-standards.</p>
+
+<p><strong>Contact:</strong> <a href="l.vandenbrink@geonovum.nl">Linda van den Brink</a> and <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="3d-digital-urban-regulations-to-use-geobim-for-building-permission-checks">3D digital urban regulations to use GeoBIM for building permission checks</h2>
+
+<p>The automation of urban regulation checks for the planning use case requires the urban regulations to be archived in a digital and spatial (3D) format.
+This project aims at the definition of an effective way to store those regulations digitally and spatially, for their use in checking urban regulations compliancy of new buildings through GeoBIM integrated information. The studied solution could start from extending <a href="https://www.citygmlwiki.org">CityGML</a>, employing <a href="https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/">INSPIRE</a> data model, or other available standards.
+In collaboration with <a href="http://www.eurosdr.net">EuroSDR</a> and <a href="https://www.kadaster.nl">Kadaster</a></p>
+
+<p><strong>Contact:</strong> <a href="https://3d.bk.tudelft.nl/fnoardo/">Francesca Noardo</a>, <a href="http://tudelft.nl/kenohori">Ken Arroyo Ohori</a> and <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="extracting-information-from-bim-models-for-geobim-building-permission-use-case">Extracting information from BIM models for GeoBIM building permission use case</h2>
+
+<p>The integration of geoinformation with BIM information can be very effective for automatically checking urban regulations. However, not all the information which is present in BIM is necessary for regulations checking. Moreover, BIMs designed in actual practice sometimes have different characteristics than the ones expected by academy. At the same time too much detail hinders data processing and designers are reluctant to share all the details about their designs.
+In this study, the aim is to understand which information is needed for checking some critical regulation where GeoBIM information can be useful, as it could be obtained from a sample of more complex BIMs modelled by designers and practitioners, and develop a tool to filter, derive/extract and generalise the required information to be used for the integration with a 3D city model and the checks of the selected regulations.
+In collaboration with <a href="http://www.eurosdr.net">EuroSDR</a> and <a href="https://www.kadaster.nl">Kadaster</a></p>
+
+<p><strong>Contact:</strong> <a href="https://3d.bk.tudelft.nl/fnoardo/">Francesca Noardo</a>, <a href="http://tudelft.nl/kenohori">Ken Arroyo Ohori</a> and <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="develop-a-framework-to-handle-massive-cityjson-files">Develop a framework to handle massive CityJSON files</h2>
+
+<p><img src="img/cityjson.jpg" alt="" width="200px" /></p>
+
+<p>As an alternative format for the <a href="https://www.citygml.org">CityGML</a> data model, we have recently developed <a href="http://www.cityjson.org">CityJSON</a>, it uses <a href="http://json.org">JavaScript Object Notation</a>.
+The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with).
+CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
+It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.</p>
+
+<p>While a CityJSON file is <a href="https://github.com/tudelft3d/cityjson/wiki/Compression-factor-for-a-few-open-CityGML-datasets">about 6X compacter</a> than the equivalent CityGML file, very large areas (like the <a href="https://www.businesslocationcenter.de/en/downloadportal">whole of city of Berlin</a>) are still problematic.</p>
+
+<p>The aim of this MSc project is to design a framework to deal with such massive CityJSON files.
+The potential solution is to design a tiling scheme, and find a way to make it work with a web-based viewer, eg <a href="https://cesiumjs.org/">Cesium</a> or <a href="https://threejs.org/">three.js</a>.
+There is an emerging standard about the tiling of 3D GIS datasets (<a href="https://github.com/AnalyticalGraphicsInc/3d-tiles">3D Tiles</a>), which should probably be reused/modified.</p>
+
+<p>Knowledge of Python and of web technologies (javascript; although that can be learned with the project) is enough.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a> and <a href="mailto:s.vitalis@tudelft.nl">Stelios Vitalis</a></p>
+
+<hr />
+
+<h2 id="extraction-of-characteristics-of-buildings-from-aerial-imagery">Extraction of characteristics of buildings from aerial imagery</h2>
+
+<p><img src="img/readaar.jpg" alt="" width="350px" /></p>
+
+<p>This project is done in cooperation with <a href="http://www.readar.com">Readar</a>.
+Readaar was founded in 2016 and extracts all kind of information from aerial imagery.
+To do this they combine remote sensing with machine learning.</p>
+
+<p>Readaar has already developed a method to generate point clouds and 3D building models from stereo imagery.
+The next step is to translate this into useful insights like:</p>
+
+<ul>
+  <li>how many solar panels can we fit on the roof,</li>
+  <li>what is the roof type,</li>
+  <li>how many floors does the building have.</li>
+</ul>
+
+<p>The focus of the student within this project will be on using the datasets to develop methods that extract (data mining) the insights that Readaar’s customers want to have.</p>
+
+<p><a href="https://readar.com/jobs/internship-deep-learning-on-aerial-imagery/">More information is found there.</a></p>
+
+<p><em>Contact:</em> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a> + <a href="mailto:svenbriels@readar.com">Sven Briels</a></p>
+
+<hr />
+
+<h2 id="point-cloud-normal-estimation-based-on-the-3d-medial-axis-transform">Point cloud normal estimation based on the 3D medial axis transform</h2>
+
+<p><img src="img/wrong_normal_orientation.png" alt="" width="400px" /></p>
+
+<p>Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR.
+While current point clouds are dense and offer an accurate representation of real-world objects and landscapes, they lack structure and semantics.</p>
+
+<p>The aim of this project is to properly <em>orient</em> a point cloud, ie to find an approximation of the normal at each point; this normal should point outwards.
+Surface normals are essential for different processing of a point cloud, eg visualisation, shadow analysis or segmentation.</p>
+
+<p>“Standard” methods, eg <a href="http://pointclouds.org/documentation/tutorials/normal_estimation.php">that function in PCL</a>, usually find the nearest points of a given point, fit a plane, and choose between the 2 possible normals (up or down) based on a viewpoint.
+The problem is that in practice, eg with the <a href="http://www.ahn.nl">AHN3 dataset</a>, we do not have that information.</p>
+
+<p>The topic involved building on our work with the <a href="https://3d.bk.tudelft.nl/projects/3dsm/">3D medial-axis transform (MAT)</a> and use the 3D MAT of a point cloud as a base to obtain high quality normals with a proper orientation.</p>
+
+<p>It is possible to use Python for this project, although some knowledge of C++ would surely help.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/rypeters">Ravi Peters</a> and <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a></p>
+
+<hr />
+
+<h2 id="improvements-trees-bridges-viaducs-to-3dfier">Improvements (trees, bridges, viaducs) to 3dfier</h2>
+
+<p><img src="img/3dfier.png" alt="" width="600px" /></p>
+
+<p>We have developed a software, <a href="https://github.com/tudelft3d/3dfier">3dfier</a>, to automatically construct 3D city models from 2D GIS datasets (e.g. topographical datasets) and LiDAR/pointcloud datasets.
+The software creates a 3D model by lifting every polygon to 3D, and the semantics of every polygon is used to perform the lifting.
+That is, water polygons are extruded to horizontal polygons, buildings to LOD1 blocks, roads as smooth surfaces, etc. Every polygon is triangulated (constrained Delaunay triangulation) and the lifted polygons are “stitched” together so that one digital surface model (DSM) is constructed.
+Our aim is to obtain one DSM that is error-free, i.e. no intersecting triangles, no holes (the surface is watertight), where buildings are integrated in the surface, etc.</p>
+
+<p>The aim of this MSc project is to further develop some lacking features of 3dfier, it could be one of the following:</p>
+
+<ol>
+  <li>adding 3D representation of trees by <em>iconisation</em>, ie by inserting a parametric template that has the general shape/dimension of a tree. This implies automatically finding this, and a good start is the methodology described in <a href="https://infoscience.epfl.ch/record/206788/files/paper.pdf">this paper (Section 4.2)</a></li>
+  <li>adding bridges and other man-made structures (such as viaducs) by first modelling them with <a href="http://www.esri.com/software/cityengine">Esri CityEngine</a> and then “stitching” them to the 3D model.</li>
+</ol>
+
+<p>These topics can be done with Python as a post-processing of 3dfier.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a> and <a href="mailto:t.j.f.commandeur@tudelft.nl">Tom Commandeur</a></p>
+
+<hr />
+
+<h2 id="3d-cadastre">3D Cadastre</h2>
+
+<p><img src="img/3DCadastre.png" alt="" width="700px" /></p>
+
+<p>Since more than 15 years, lots of studies have been done on 3D Cadastre to register multilevel ownership in a transparent and proper way.
+In 2016, we realised the first 3D cadastral situation <a href="https://3d.bk.tudelft.nl/news/2016/03/21/3DKadaster.html">3D cadastral registration</a> in the Netherlands.
+But still research is needed to develop a solution for 3D cadastral registration that covers all issues. An MSc thesis could focus on one of them, such as how to validate a 3D cadastral plan that was created from a BIM model? Traditionally, a 2D cadastral boundary is checked by surveyors in the field. What are the requirements for 3D cadastral boundaries? How can they be generated accordingly? And how can they be validated? How can a BIM model serve as input for this? Another issue is about how to maintain and exchange 3D data about property boundaries? And how to go beyond the limited visualisation and navigation possibilities of 3D PDF?</p>
+
+<p><em>Contact:</em> <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a> and <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a></p>
+
+<hr />
+
+<h2 id="automatic-generalisation-of-depth-contours">Automatic generalisation of depth contours</h2>
+
+<p><img src="img/bathycontours.png" alt="" width="500px" /></p>
+
+<p>For some years, we have been working on a novel method to automatically generate “good” depth-contours for hydrographic charts.
+Our latest results, based on the <a href="http://repository.tudelft.nl/view/ir/uuid%3A5977a99b-0875-44b4-abe1-09288bf2aed1/">MSc thesis of Ravi Peters</a> and published in that <a href="https://3d.bk.tudelft.nl/hledoux/pdfs/14_marinegeo.pdf">paper</a>, have been picked up by major companies who are implementing it.</p>
+
+<p>The aim of the proposed project is to improve the results.
+That is, we can at this moment generate smooth contours for most seabed types, but the generation is applied for the whole dataset and a human must decide when the results are okay.
+The student would have to focus on automatically applying the algorithms only where they are needed and design methods to assess when sufficiently good results have been achieved.</p>
+
+<p>The <a href="https://github.com/Ylannl/Surfonoi">code of the project</a> is in C++, but probably possible to make do with Python.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/hledoux">Hugo Ledoux</a> and <a href="http://tudelft.nl/rypeters">Ravi Peters</a></p>
+
+<hr />
+
+<h2 id="snap-rounding-in-a-triangulation">Snap rounding in a triangulation</h2>
+
+<p><img src="img/triangulation.png" alt="" width="500px" /></p>
+
+<p>The most common way to do edge-matching or to clean small inconsistencies within and between datasets is to apply snapping (point-to-point or point-to-line).
+However, simple snapping creates many problems, including topological changes and inconsistencies.
+Snap rounding extends this method in order to give robustness guarantees, but current implementations, such as <a href="http://doc.cgal.org/latest/Snap_rounding_2/index.html">the one in CGAL</a>, are <em>extremely</em> slow.
+Related to this, in the project <a href="https://github.com/tudelft3d/pprepair">pprepair</a>, we have previously used a constrained triangulation as a robust method to repair polygons and planar partitions.
+Using this approach topological errors are automatically fixed.
+We therefore believe that using a triangulation as a base structure is an intuitive and efficient way to optimize snap rounding, since we can perform simple snapping and recover from topological errors afterwards.</p>
+
+<p>The existing prototype (<a href="https://github.com/tudelft3d/pprepair">pprepair</a> that needs to be extended has been developed in C++, thus the knowledge of C++—or a strong desire to learn it—is necessary.</p>
+
+<p><strong>Contact:</strong> <a href="http://tudelft.nl/kenohori">Ken Arroyo Ohori</a></p>
+
+<hr />
+
+<h2 id="learning-to-synthesize-detailed-3d-building-models">Learning to synthesize detailed 3D building models</h2>
+
+<p><img src="img/synthesis.png" style="width: 400px;" /></p>
+
+<p>LoD1 or LoD2 building models can be relatively easily generated from building footprints and point cloud data. However, such models lack meaningful geometric detailed façade structures (e.g., doors, windows, and balconies), making them unsuitable for real-world applications such as visualization and simulation. The goal of this MSc thesis is to develop an algorithm that can automatically synthesize semantically meaningful façade details onto the given coarse models. The resulted models will have a plausible style conforming to the images of real-world buildings.</p>
+
+<p><strong>Required Skills</strong>: 
+Proficient in one programming language, either C/C++ or Python; experiences in mesh processing; willing to follow courses on machine learning (in particular Deep Learning) before or at the beginning of the project.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/liangliang/">Liangliang Nan</a></p>
+
+<hr />
+
+<h2 id="outer-surface-extraction-for-complex-3d-models">Outer surface extraction for complex 3D models</h2>
+
+<p><img src="img/repair_urban_models.png" style="width: 800px;" /></p>
+
+<p>The number of 3D building models is explosively increasing. These models can be easily obtained by applying state-of-the-art modeling/reconstruction techniques, or by manual creation using various software packages. It is quite common to observe errors and imperfections in these models, such as gaps, holes, self-intersections, duplicated geometry (e.g., double walls), non-manifold (e.g., more than two polygons meeting at the same edge). Applications, such as simulation, digital fabrication (e.g., 3D printing), and model editing tools, can only accept clean surface models as input, which restricts the existing models to visualization purpose only. It becomes extremely difficult to eliminate these flaws when a certain combination of them are present.</p>
+
+<p>In this project, we would like to develop robust algorithms and tools that can automatically resolve these commonly found issues in 3D models. We would expect the method to produce a closed surface representation of a building. With such a representation, a 3D building is partitioned into disjoint interior and exterior spaces without ambiguity.</p>
+
+<p><strong>Required Skills</strong>: 
+Proficient in one programming language (e.g., C/C++ or Python); experiences in mesh processing; machine learning (in particular Deep Learning) is a bonus.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/liangliang/">Liangliang Nan</a></p>
+
+<hr />
+
+<h2 id="coupling-3d-city-models-with-ladybug-tools-for-environmental-analyses">Coupling 3D city models with Ladybug tools for environmental analyses</h2>
+
+<p><img src="img/ga_ladybug.jpg" style="width: 600px;" /></p>
+
+<p>The MSc thesis will focus on interoperability between the Ladybug tools and CityGML-based 3D city models. The <a href="https://www.ladybug.tools/">Ladybug Tools</a> are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines.</p>
+
+<p>Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML <a href="http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE">Energy ADE</a> (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.</p>
+
+<p>The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug  tool(s) and to perform a mapping to the CityGML/Energy ADE data model. In addition, proper interfaces will have to be developed and tested by means of a concrete case study.
+This topic is available for up to <strong>two students</strong> (each one choosing a different application area).</p>
+
+<p>Prerequisites: Knowledge of CityGML and its ADE mechanism. A bonus is experience with the CityGML 3D City Database and the associated tools. A programming language of choice (e.g. Java or Python) will be used.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a> and <a href="https://3d.bk.tudelft.nl/jstoter/">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="interaction-between-urban-heat-islands-and-semantic-3d-city-models">Interaction between urban heat islands and semantic 3D city models</h2>
+
+<p><img src="img/ga_haagsehitte.jpg" style="width: 300px;" /></p>
+
+<p>This summer was exceptionally hot and the Netherlands suffered two consecutive heat waves, which had severe negative impacts on human health and the urban environment caused by drought. The department of Urbanism is running Netatmo weather station network with more than 100 stations all across the city of the Hague. This means there is a rich data set which allows to study the formation of the <strong>urban heat islands</strong> in relation to the direct, local built environment around these sensors.</p>
+
+<p>The MSc thesis will focus on investigating how a semantically enriched, CityGML-based <strong>3D city model</strong> can help in understanding and forecasting urban heat islands. Additionally, based on a real case study, the 3D city model will be used to analyse qualitatively and quantitatively how certain physical urban conditions can contribute to (reducing) the heat island effect.</p>
+
+<p>This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a> and Alexander Wandl</p>
+
+<hr />
+
+<h2 id="urban-metabolism-and-semantic-3d-city-models">Urban metabolism and semantic 3D city models</h2>
+
+<p><img src="img/ga_urbanmining.jpg" style="width: 500px;" /></p>
+
+<p>This thesis topic is connected to the Horizon 2020 Research Project REPAiR: Resource management in peri-urban areas, going beyond urban metabolism. The project has developed a 2D urban mining model of the Amsterdam metropolitan area.</p>
+
+<p>The MSc thesis will focus on defining and implementing a 3D “urban mining” model which will help to investigate and quantitatively describe where, when, and how many critical materials can be obtained (“extracted”) from existing, ageing cities/neighbourhoods in order to be directly reused or recycled in the context of circular economy. A CityGML-based 3D city model of a real case study area will represent the main source of integrated spatial and non-spatial information the 3D urban mining model will be implemented onto.</p>
+
+<p>This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a> and Alexander Wandl</p>
+
+<hr />
+
+<h2 id="integrated-modelling-of-utility-networks-in-the-urban-environment">Integrated modelling of utility networks in the urban environment</h2>
+
+<p><img src="img/ga_xander_network.jpg" style="width: 500px;" /></p>
+
+<p>In the framework of Smart Cities, the MSc thesis will focus on interoperability issues when it comes the heterogeneous utility networks (e.g. gas, water, electricity, sewage, district heating, telecommunications, etc.) that are found in the urban environment.
+Starting from a CityGML-based 3D city model, the Msc. thesis will focus on testing and further extending the Utility Network ADE (Application Domain Extension), based on a concrete case study which will be agreed upon with the student. A possible application area is in the energy sector, e.g. when it comes to coupling networks to specific simulation programs.
+The image shown here is taken from the <a href="https://repository.tudelft.nl/islandora/object/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9?collection=education">Msc thesis of Xander van den Duijn</a> (2018) and is an example - and a starting point - of the overall topic of the thesis proposed here.</p>
+
+<p>Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Architect are required. A bonus is experience of the CityGML 3D City Database and the associated tools.</p>
+
+<p><strong>Contact</strong>: <a href="https://3d.bk.tudelft.nl/gagugiaro/">Giorgio Agugiaro</a> and <a href="https://3d.bk.tudelft.nl/jstoter/">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="computation-of-spatial-extent-for-massive-point-cloud-datasets">Computation of spatial extent for massive point cloud datasets</h2>
+
+<p><img src="img/alphashape.png" alt="" /></p>
+
+<p>Given a (classified) LAS pointcloud, how to (re)generate its spatial extent?</p>
+
+<p>Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.</p>
+
+<p>A better solution is to use the alpha-shape of the set of points, but this is impossible with massive datasets (which are often very common in practice).</p>
+
+<p><em>Contact:</em> <a href="https://3d.bk.tudelft.nl/hledoux">Hugo Ledoux</a></p>
+
+<hr />
+
+<h2 id="semantic-feature-matching">Semantic Feature Matching</h2>
+
+<p><img src="img/tnosemantic.png" alt="" width="500px" /></p>
+
+<p>For large parts of the world, the available 3D geoinformation is limited, outdated or inaccurate. To cost-effectively obtain an up to date and high-resolution 3D (urban) environment model, automated 3D reconstruction techniques need to be applied on raw elevation and imagery sensor data, in order to find which features (vegetation, buildings, etc.) are present in the terrain and the representation of the relevant feature properties (tree species, roof type). Semantic model based feature matching is a reconstruction approach where a priori knowledge on the environment is used to represent and constrain a search space of possible feature models that can be found in the terrain.</p>
+
+<p>The key in this research is to devise semantic model representations and search algorithms that explore the search space and find instances of the semantic feature model that best match the available sensor data. The project will focus on encoding and using object relations (e.g. between a building and adjacent street) in semantic feature models to improve the correctness of the matches. The project is carried out in co-operation with <a href="https://www.tno.nl/nl/">TNO in The Hague</a>, where these techniques are applied in the field of gaming and simulation.</p>
+
+<p><em>Contact:</em> <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+
+<hr />
+
+<h2 id="dtm-filtering-for-photogrammetric-dsms">DTM Filtering for Photogrammetric DSM’s</h2>
+
+<p><img src="img/tnodtm.png" alt="" width="500px" /></p>
+
+<p>Although laser point clouds have become a common data resource for world modelling, photogrammetrically derived digital surface models are still widely used as the basis for a terrain modelling work flow. With current high resolution camera systems, highly detailed Digital Surface Models (DSM) can be obtained. Digital Terrain Model (DTM) filtering is used to remove features from the DSM and obtain a ground level elevation model. Although DTM filtering is a very basic step in terrain modelling, it is still a challenging task. One of the difficulties is the filtering of forested areas in hilly terrain, but also rough terrain is often not a trivial case.</p>
+
+<p>This research will aim at finding improved filtering and interpolation techniques to resolve the difficulties in DTM filtering for photogrammetrically derived DSM’s. The project is carried out in co-operation with <a href="https://www.tno.nl/nl/">TNO in The Hague</a>, where these techniques are applied in the field of gaming and simulation.</p>
+
+<p><em>Contact:</em> <a href="http://3d.bk.tudelft.nl/jstoter">Jantien Stoter</a></p>
+:ET

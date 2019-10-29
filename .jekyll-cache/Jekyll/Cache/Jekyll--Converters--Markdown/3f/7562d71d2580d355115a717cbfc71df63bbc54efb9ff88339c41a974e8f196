@@ -1,0 +1,17 @@
+I"'<p>We are happy to announce the public release of azul!</p>
+
+<p>azul is a viewer for CityGML files, developed for macOS. It supports loading multiple files, selecting objects by clicking them or selecting them in the sidebar, and browsing their attributes.</p>
+
+<p><img src="/img/2016/azul1.png" alt="" /><br /></p>
+
+<p>The software is released as open-source on <a href="https://github.com/tudelft3d/azul">Github</a>.
+You can download the source code and the app on its <a href="https://github.com/tudelft3d/azul">GitHub repository</a>, and download directly the app from the <a href="https://itunes.apple.com/app/azul/id1173239678?mt=12">App Store</a>.</p>
+
+<p>The tool was developed by our postdoc researcher <a href="http://tudelft.nl/kenohori">Ken Arroyo Ohori</a>.</p>
+
+<p>Feel free to check also <a href="https://3d.bk.tudelft.nl/code/">other open-source software packages</a> of our group.</p>
+
+<p><img src="/img/2016/azul2.png" alt="" /><br /><br />
+<img src="/img/2016/azul3.png" alt="" /><br /><br />
+<img src="/img/2016/azul4.png" alt="" /><br /></p>
+:ET

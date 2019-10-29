@@ -1,0 +1,169 @@
+I"}6<h1>Task 4 - Options for <strong>conversion:</strong> <strong>IFC to CityGML</strong> and <strong>CityGML to IFC</strong></h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/logoTask4.gif" style="max-height: 300px" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#what-is-tested" id="markdown-toc-what-is-tested">What is tested</a></li>
+  <li><a href="#summary-of-the-task" id="markdown-toc-summary-of-the-task">Summary of the Task</a></li>
+  <li><a href="#what-data-must-be-used" id="markdown-toc-what-data-must-be-used">What data must be used</a></li>
+  <li><a href="#how-is-the-task-organised-" id="markdown-toc-how-is-the-task-organised-">How is the task organised <!--and how long does it take to perform the task --></a></li>
+  <li><a href="#the-materials-participants-need" id="markdown-toc-the-materials-participants-need">The materials participants need</a></li>
+  <li><a href="#deliverables-for-task-4" id="markdown-toc-deliverables-for-task-4">Deliverables for Task 4</a></li>
+</ul>
+
+<hr />
+
+<h2 id="what-is-tested">What is tested</h2>
+
+<p>The <em>Task 4 - Options for conversions</em> will test conversion options (software and procedural)  of data from <strong>CityGML to IFC</strong> and <strong>IFC to CityGML</strong>.</p>
+
+<h3 id="software-performances">Software performances</h3>
+<p>Participants <strong>can choose the software they are more confident with</strong>.</p>
+
+<p>All kinds of software and tools are admitted (off-the shelf software, self-programmed tools, analysis software, and so on).</p>
+
+<p>A list of suggested software is published, together with the already tested ones, in the <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/software.html">software section</a> of this website.</p>
+
+<p>A long list of available software for managing CityGML files exists, and can be searched in the CityGML website, divided per <a href="http://www.citygmlwiki.org/index.php/Commercial_Software">commercial software</a>, <a href="http://www.citygmlwiki.org/index.php?title=Freeware">freeware</a> and <a href="http://www.citygmlwiki.org/index.php?title=Open_Source">open source</a>.</p>
+
+<h3 id="software--hardware-performances">Software + Hardware performances</h3>
+<p>A part of the investigation regards also the performances of the software in the used computer. Therefore, as important part of the results, participants are also asked to <strong>check the (approximated) required processing time for each step.</strong>
+For these results were not affected by third factors, participants are asked to <strong>close all the unnecessary processes, software and tools in the computer during the test.</strong></p>
+
+<p>Moreover, in ‘Section 3’ of the Results template, participants are asked to report the characteristics of the <strong>used computer.</strong></p>
+
+<p>In the case they need to change computer for different parts of the Task, they are asked to communicate this through e-mail (f.noardo@tudelft.nl). Otherwise, it will be assumed that the computer described at the beginning is used for the whole Task.</p>
+
+<h2 id="summary-of-the-task">Summary of the Task</h2>
+<p>The participants should apply the tested conversion procedure to the IFC (to be converted to CityGML) or to the CityGML files (to be converted to IFC).</p>
+
+<p>The employed workflow should be described in the <strong>results template provided for task 4</strong> (see following parts of this webpage):</p>
+<ul>
+  <li>In the case that an existing tool is being used, all the steps and settings performed to convert the model should be described, in every case when a completely automated procedure is not working;</li>
+  <li>In the case a self-programmed conversion procedure is being proposed, some documentation about it (papers, reports, web pages…) should be attached and all the necessary steps and settings should be described in detail to properly perform and, eventually, customize the procedure for obtaining a suitable result.</li>
+</ul>
+
+<h2 id="what-data-must-be-used">What data must be used</h2>
+
+<p>For performing this task, the data listed in the following parts will be used.
+In the case the tested software is not able to manage some of the data, participants can anyway deliver the results concerning the others.</p>
+
+<p>It is appreciated if, for each tested conversion, all the data in the same format are used (i.e. all the 3 CityGML files for conversions from CityGML to IFC, and all the 3 IFC files for conversions from IFC to CityGML)</p>
+
+<h3 id="citygml-data-conversion-citygml-to-ifc">CityGML data (conversion CityGML to IFC)</h3>
+<ul>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/rotterdamlod12.html">Rotterdam LoD 1 and 2 CityGML model</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/buildingslod3.html">Buildings in LoD 3 CityGML model</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/amsterdamgml.html">Amsterdam LoD 1 CityGML model</a></li>
+</ul>
+
+<p>Participants will be able to <strong>download</strong> these data and find the data <strong>descriptions</strong>, in the <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html">data section</a> of this website.</p>
+
+<h3 id="ifc-data-conversion-ifc-to-citygml">IFC data (conversion IFC to CityGML)</h3>
+<ul>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcmyran.html">Myran IFC model</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/uptown.html">Up:Town IFC model</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/savigliano.html">Savigliano model</a></li>
+  <li><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/ifcgeometries.html">Specific IFC geometries in both IFC 2x3 and IFC 4</a></li>
+</ul>
+
+<p>Participants will be able to download the <em>Myran</em> and <em>Up:Town</em> IFC models after you fill the <a href="https://francescanoardo.typeform.com/to/IbdpZD">registration form</a>.
+Participants will be able to <strong>download</strong> the other data and find the data <strong>descriptions</strong>, in the <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html">data section</a> of this website.</p>
+
+<p>The <em>Myran</em> and <em>Up:Town</em> IFC models are not open data. Therefore, we ask participants not to use them without permissions outside the project, please.</p>
+
+<h2 id="how-is-the-task-organised-">How is the task organised <!--and how long does it take to perform the task --></h2>
+<!--
+**The task will require, approximately, <mark>TIME</mark>, to be performed and deliver the required results.** -->
+
+<p>The task can be performed by filling a provided <strong>results template</strong> as web forms (using typeform.com). You can access it and begin your answer in a following section in this webpage.</p>
+
+<p>The results template is organised in 5 sections:</p>
+
+<p><em>Please, note that it is not necessary to fill all the questions if the software doesn’t have the needed functionalities.</em></p>
+
+<p><em>If <strong>processes, settings and any useful further detail is carefully described</strong> while using the first used data, it is possible to avoid repeating them, if nothing different has to be reported.</em></p>
+
+<ul>
+  <li>
+    <p><strong>Section 1</strong> - <em>Participant information</em> (This information has already been captured in the <a href="https://francescanoardo.typeform.com/to/IbdpZD">registration form</a>, here we only ask name and e-mail as reference. If something has changed, please communicate it at f.noardo@tudelft.nl).</p>
+  </li>
+  <li>
+    <p><strong>Section 2</strong> - <em>Tested software/tool</em> (asking details about the tested software)</p>
+  </li>
+  <li>
+    <p><strong>Section 3</strong> - <em>Computer hardware</em> used (asking details about the used computer for correctly comparing the performances of the different tools)</p>
+  </li>
+  <li>
+    <p><strong>Section 4</strong> - <em>The Task</em> (asking the description of the performed conversion)</p>
+  </li>
+  <li>
+    <p><strong>Section 5</strong> - <em>Finalisation</em> (participants can deliver eventual further information or comments, agree with the use of data and deliver the processed models, both in native formats and IFC, before submitting their results).</p>
+  </li>
+</ul>
+
+<p>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+
+<p>It is <strong>really recommended to have a look at the whole task before starting.</strong></p>
+
+<p>Participants can have the overall in-sight into the task through reading the <a href="https://www.dropbox.com/s/kmq43ljuzlsfhw1/Task4.pdf?dl=0">complete list of questions</a> and having a look at <a href="https://www.dropbox.com/s/sfx1se5qejrkc97/ExampleTask4_UpdatedForms.pdf?dl=0">an example of submitted template in its most up-to-date format</a>.</p>
+
+<p><em>(Please note that the <strong>online forms are made easier (and up-to-date) to be filled with respect to the word file!</strong>
+Our suggestion is to have a look at the whole task here and then do the tests while filling the online form. Thank you).</em></p>
+
+<p><strong>To begin and submit the online forms, an internet connection is needed. However, after it is loaded, no connection is necessary, and the form can stay open for long time, as long as te tab browser stay open (it won’t refresh), so that you can take your time for doing tests.</strong> See <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html">FAQ</a></p>
+
+<p>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+
+<p><strong>Please note that it is not possible to modify the submitted answers. In case this is necessary, you can e-mail the organisers to report the needed changes.</strong></p>
+
+<p><strong>If you test more than one software, you should submit one form per software (all of them will be stored and the information won’t be replaced</strong></p>
+
+<h3 id="structure-of-the-online-results-template">Structure of the online results template</h3>
+
+<p>This results template is not splitted in different ones, since the specific task requires a unique processing.</p>
+
+<p>However, participants are asked to submit as many templates as many data they will convert (they are supposed to be 3 per type of format).</p>
+
+<p>Again, <em>if <strong>processes, settings and any useful further detail is carefully described</strong> while using the first used data, it is possible to avoid repeating them, if nothing different has to be reported.</em></p>
+
+<p><strong>REMEMBER TO SUBMIT</strong>, by pushing “Submit” in the online form (an e-mail will notify you).</p>
+
+<h2 id="the-materials-participants-need">The materials participants need</h2>
+<p>Information and descriptions are all published in this website.</p>
+
+<h3 id="registration-form">Registration form</h3>
+<p>Contact us and register your participation to the benchmark, giving <strong>your personal details</strong> and declaring <strong>which tool</strong> you intend to test, for <strong>which Task</strong> through this <a href="https://francescanoardo.typeform.com/to/IbdpZD">registration form</a>.</p>
+
+<h3 id="data">Data</h3>
+<p>You are able to download the <em>CityGML open data</em> and the open <em>IFCgeometries.ifc</em> file from their respective <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/data.html">description page</a>
+Participants will be able to download the <em>Myran</em> and <em>Up:Town</em> IFC models after you fill the <a href="https://francescanoardo.typeform.com/to/IbdpZD">registration form</a>.</p>
+
+<p>The <em>Myran</em> and <em>Up:Town</em> IFC models are not open data. Therefore, we ask participants not to use them without permissions outside the project, please.</p>
+
+<h3 id="results-template">Results template</h3>
+<p>Begin to perform the Task and deliver results through the online <a href="https://francescanoardo.typeform.com/to/TALYPc">Results template for Task 4</a></p>
+
+<div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/TALYPc" style="width: 100%; height: 500px;"></div>
+<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=TALYPc&amp;utm_source=typeform.com-13384974-Pro&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+<h2 id="deliverables-for-task-4">Deliverables for Task 4</h2>
+
+<p><strong>REMEMBER TO DELIVER</strong>, through the last online form:</p>
+
+<ol>
+  <li>
+    <p>All the <strong>IFC or CityGML files</strong> (should be 3 for  CityGML to IFC conversions, or 5 for IFC to CityGML conversions, one per delivered template) resulting from the performed <strong>conversions</strong>;</p>
+  </li>
+  <li>
+    <p>All the answered <strong>results templates for task 4</strong> (should be 3 for  CityGML to IFC conversions, or 5 for IFC to CityGML conversions, one per converted file) by submitting the filled online forms (the word version of the template, completed with the open answers, descriptions and screenshots could also be attached, if necessary)</p>
+  </li>
+</ol>
+
+<p>In the case that some materials were not correctly delivered or some of your answers are not clear, you could be contacted by organisers for integrating your results or giving more explanations.</p>
+:ET

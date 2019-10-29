@@ -1,0 +1,21 @@
+I"�<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+  <iframe src="https://player.vimeo.com/video/181421237?byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<p><br /></p>
+
+<p>In the last few months, we have been working hard on <a href="https://github.com/tudelft3d/3dfier">3dfier</a>, our open-source software that takes 2D GIS datasets and “3dfies” them by lifting each polygon to 3D.
+The elevation is obtained from a point cloud (we support LAS/LAZ at this moment), and the semantics of every polygon is used to perform the lifting. 
+That is, water polygons are extruded to horizontal polygons, buildings to LOD1 blocks, roads as smooth surfaces, etc. 
+Every polygon is triangulated (constrained Delaunay triangulation) and the lifted polygons are “stitched” together so that one digital surface model (DSM) is constructed.</p>
+
+<p>The video above is from Delft, and was created with the open datasets <a href="https://www.pdok.nl/nl/producten/pdok-downloads/download-basisregistratie-grootschalige-topografie">BGT (large-scale topography, thus ~1:1k)</a> and <a href="https://www.pdok.nl/nl/ahn3-downloads">AHN3 (aerial LiDAR)</a>.</p>
+
+<p>Our aim is to obtain one DSM that is error-free, ie no intersecting triangles, no holes (the surface is watertight), where buildings are integrated in the surface, etc. 
+This surface will then be used as input in simulation software for instance.</p>
+
+<p>The code is in beta, although it is in our opinion usable. 
+If you use it, feedback is very much appreciated.
+This work is partly sponsored by Kadaster.</p>
+:ET

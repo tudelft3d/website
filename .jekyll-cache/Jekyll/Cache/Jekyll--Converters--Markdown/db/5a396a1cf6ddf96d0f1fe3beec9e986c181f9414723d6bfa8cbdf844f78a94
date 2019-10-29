@@ -1,0 +1,291 @@
+I"E<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/ams_smart_di/img/geobim.jpg" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
+  <li><a href="#project-partners" id="markdown-toc-project-partners">Project partners</a></li>
+  <li><a href="#connected-projects" id="markdown-toc-connected-projects">Connected projects</a></li>
+  <li><a href="#team" id="markdown-toc-team">Team</a></li>
+</ul>
+
+<hr />
+
+<h2 id="summary">Summary</h2>
+
+<p>The integration of data deriving from various kinds of sources is a fundamental issue for obtaining complete up-to-date and detailed city models for in-depth analysing the city, visualizing it ant supporting any kind of application.
+Prior in such integration is the integration of 3D city models, representing the urban environment in a multi-dimensional model, with data derived by construction design and management, as Building Information Models.
+A methodology for achieving the smart integration of these, and potentially other, source of data, through open standards and purposely developed tools, is being realised during this project.
+The results support city analysis, from the cooperation with researchers dealing with urban topics and interested stakeholders and end-users, collaborating within the network of the Amsterdam Institute for Advanced Metropolitan Solutions (AMS).</p>
+
+<h3 id="living-labs">Living labs</h3>
+
+<ul>
+  <li>Municipality of Almere and FLORIADE</li>
+</ul>
+
+<!--## Results
+
+.
+
+## Further Development
+
+-->
+
+<!-- ## Reports
+
+  1. The final report of the first phase of the project is found [here](https://3d.bk.tudelft.nl/pdfs/xxx). -->
+
+<!-- ## Open-source software -->
+
+<!--## Presentations
+
+### Kickoff meeting on 2018-05-18 in Delft
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQIBHL1kPQuQXAcPC0KpTeLNJCeSpvk2GC0jVs5-9M9dvmQ3ZYSfKLohd9yZdmWmR_iwZYZWjpJNNfu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
+### Progress meeting on 2018-07-11 in Delft
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSoc6X22aCw8VRb2_hSW0z84RFdBZH2958mL_T893bfg9vcgHtM_D-68kOMso7_slRJDilujDgExZTa/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
+-->
+
+<hr />
+
+<h2 id="project-partners">Project partners</h2>
+
+<div class="row">
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.ams-institute.org" title="AMS website"><img src="/projects/ams_smart_di/img/ams-logo.png" alt="AMS logo" style="max-height: 200px;" /></a></div>
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://www.almere.nl" title="Municipality of Almere website"><img src="/projects/ams_smart_di/img/Almere.png" alt="Almere Municipality logo" style="max-height: 200px;" /></a></div>
+</div>
+
+<hr />
+<h2 id="connected-projects">Connected projects</h2>
+
+<p><a href="https://3d.bk.tudelft.nl/projects/geobim/">GeoBIM</a></p>
+
+<p><a href="https://3d.bk.tudelft.nl/projects/eurosdr-geobim/">EuroSDR GeoBIM</a></p>
+
+<hr />
+
+<h2 id="team">Team</h2>
+
+<div class="row">
+    
+
+
+    
+
+    
+
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://tudelft.nl/kenohori"><img class="img-circle img-responsive" src="/img/staff/ken.jpg" alt="Ken  Arroyo Ohori photo" /></a>
+    
+
+
+    <h3>Ken  Arroyo Ohori<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://tudelft.nl/kenohori"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:k.ohori@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+            </div>
+        
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+        
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://noardo.eu"><img class="img-circle img-responsive" src="/img/staff/francesca.jpg" alt="Francesca  Noardo photo" /></a>
+    
+
+
+    <h3>Francesca  Noardo<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://noardo.eu"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:f.noardo@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/FrancescaNoardo"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+
+    
+
+    
+        
+    
+        
+    
+
+    
+
+    
+        
+    
+        
+    
+        
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+                
+    
+    <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
+    
+
+
+    <h3>Jantien  Stoter<br /><small>Professor</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/jstoter"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:j.e.stoter@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 81664"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/jantienstoter"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+            </div>
+        
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+:ET

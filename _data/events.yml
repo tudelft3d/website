@@ -1,4 +1,10 @@
 
+- name: GeoBIM benchmark workshop
+  description: Workshop about 3D city models, Building Information Models and their integration, with Results of the GeoBIM benchmark project.
+  image: GeoBIMws.gif
+  web: https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html
+  date: 2-3 December 2019
+  
 - name: FOSS4GNL
   description: Free and open-source for geospatial Dutch conference
   image: foss4gnl.jpg

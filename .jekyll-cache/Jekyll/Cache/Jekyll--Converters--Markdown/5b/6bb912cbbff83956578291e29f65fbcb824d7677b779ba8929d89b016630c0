@@ -1,0 +1,26 @@
+I"â<p>Earlier this summer, both Maya Tryfona and Yuxuan (Ethan) Kang successfully defended their MSc thesis work (in the programme <a href="http://geomatics.tudelft.nl">MSc Geomatics at TU Delft</a>). 
+Congratulations!</p>
+
+<p>Both worked with a multi-view stereo mesh of Amsterdam, as shown below.
+This 3D mesh was obtained by matching images taken from car driving around Amsterdam and of aerial photos of the same area.</p>
+
+<p>Maya investigated the birectional enrichment of this dataset with a 3D city model of the same area, and Yuxuan developed a methodology to straighten the surfaces (eg walls and roofs).</p>
+
+<iframe src="https://player.vimeo.com/video/146221307?color=ff9933" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<p><a href="https://vimeo.com/146221307">3D - Amsterdam</a> from <a href="https://vimeo.com/cyclomedia">CycloMedia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p><br />
+<strong>Maya Tryfona</strong>
+<br />Bidirectional enrichment of CityGML and Multi-View Stereo Mesh models
+<br /><a href="http://resolver.tudelft.nl/uuid:560bd9fb-7688-492f-b1c0-799644707be9">PDF thesis</a></p>
+
+<p><br />
+<strong>Yuxuan Kang</strong>
+<br />Straightening and simplifying a multi-view stereo mesh of a city
+<br /><a href="http://resolver.tudelft.nl/uuid:8f3a74c2-3264-4433-adc9-217dfa94754a">PDF thesis</a></p>
+
+<hr />
+
+<p><img src="/img/2017/mscmaya.jpg" alt="" />
+<img src="/img/2017/mscethan.jpg" alt="" /></p>
+:ET

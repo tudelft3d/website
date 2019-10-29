@@ -1,0 +1,64 @@
+I"e<div class="alert alert-danger" role="alert">2017-05-15: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
+<iframe src="https://player.vimeo.com/video/146221307?color=ff9933" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<p><a href="https://vimeo.com/146221307">3D - Amsterdam</a> from <a href="https://vimeo.com/cyclomedia">CycloMedia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<h2 id="automatic-generation-of-semantic-3d-city-models-from-3d-textured-meshes">Automatic generation of semantic 3D city models from 3D textured meshes</h2>
+
+<p>With laser-scanners and cameras mounted on cars and/or drones, it is possible to reconstruct automatically and quickly a 3D textured mesh of a city, such as that above from Amsterdam, created by <a href="http://www.cyclomedia.com">CycloMedia</a>.
+While such models admittedly look great, in practice they cannot be used in several applications because the urban features (eg buildings, trees, bridges, etc.) are not available, we only have one gigantic mesh of triangles with textures.</p>
+
+<p>The aim of the project is to develop new algorithms to automatically identify urban features in the mesh, and to construct a representation of these that is useful for different applications.
+One requirement is the “straightening” of some man-made features (eg walls in buildings) so that they are less noisy/bumpy, and another is that these objects should be semantically enriched by taking attributes/semantics coming from other (2D) datasets of the area.
+The project includes a theoretical part (design of algorithms) and a development part where a prototype will be built and tested with real-world datasets of different countries.</p>
+
+<p>The PhD position is funded by the Dutch company <a href="http://www.cyclomedia.com">CycloMedia</a> and by an <a href="https://itea3.org/project/ps-crimson.html">EU research project</a> involving several companies.
+The urban features will be used to support traffic, lighting, and safety applications.
+We expect the PhD student to collaborate with the staff at CycloMedia and other partners of the project.</p>
+
+<p>The project will take place in the 3D geoinformation group at TU Delft, and the PhD student will also have to work with the staff of CycloMedia (about 1-2 days/week, at their offices in Zaltbommel, the Netherlands).
+The supervisor will be <a href="https://3d.bk.tudelft.nl/jstoter">Prof. Jantien Stoter</a> and <a href="https://3d.bk.tudelft.nl/hledoux">Dr Hugo Ledoux</a>, and one from CycloMedia.</p>
+
+<p>The planned start date is during the summer 2017.</p>
+
+<h2 id="research-group">Research group</h2>
+
+<p>The <a href="https://3d.bk.tudelft.nl">3D geoinformation research group</a>, part of the <a href="http://www.bk.tudelft.nl/en">Faculty of Architecture and the Built Environment</a>, focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing and implementing better systems to model 3D cities, buildings and landscapes.
+It is a multidisciplinary group of about <a href="/about/">20 people</a>, including computer scientists, geomatics engineers, and geographers.
+It has a history of successful collaborations with the industry and the government: its research has led to <a href="https://github.com/tudelft3d">software</a>, standards and patents for the management of 3D geographic information.</p>
+
+<h2 id="doing-a-phd-at-tu-delft">Doing a PhD at TU Delft</h2>
+
+<p>At the Delft University of Technology, a PhD student is a full-time employee of the university who gets paid a salary, no extra funding is necessary.
+The gross salary is €2,191 per month for the 1st year, going up to €2,801 during the 4th year.
+TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.
+An International Children’s Centre offers childcare and an international primary school. Dual Career Services offers support to accompanying partners. Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.</p>
+
+<p>More information about doing a PhD at TU Delft and in the Netherlands can be found <a href="http://www.graduateschool.tudelft.nl">here</a> and <a href="http://www.studyinholland.nl/education-system/degrees/phd">there</a>.</p>
+
+<h2 id="job-requirements">Job requirements</h2>
+
+<p>Applicants should hold an MSc degree (or almost completed) in computer science, geoinformatics/geomatics, applied mathematics, or in a related discipline.
+They are expected to have good programming skills (C++ will be used), a good command of English (oral and written) and strong interest in 3D modelling and/or computational geometry.</p>
+
+<h2 id="how-to-apply">How to apply</h2>
+
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
+</div>
+
+<p>To apply, please submit:</p>
+
+<ul>
+  <li>a detailed CV and a letter of application,</li>
+  <li>the name of two referees,</li>
+  <li>copies of BSc/MSc diplomas and grades obtained,</li>
+  <li>proof of English competencies (if applicable),</li>
+  <li>MSc thesis or any publications you have authored (a URL to a PDF is fine).</li>
+</ul>
+
+<p>Please email your application material to Caro Coemans (<a href="mailto:hr-bk@tudelft.nl">hr-bk@tudelft.nl</a>) and refer to vacancy number <strong>BK2017/07</strong>.</p>
+
+<p>For more information about this position, please contact directly <a href="https://3d.bk.tudelft.nl/hledoux">Dr Hugo Ledoux</a> (<a href="mailto:h.ledoux@tudelft.nl">h.ledoux@tudelft.nl</a>).</p>
+
+:ET

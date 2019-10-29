@@ -1,0 +1,41 @@
+I"<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/culturalheritage/img/culturalheritage.gif" style="max-height: 300px" /></div>
+</div>
+
+<hr />
+
+<h2 id="summary">Summary</h2>
+
+<p>The relationship between the cultural value of architectural heritage and its spatial features is straightforward.</p>
+
+<p>3D spatial information systems are very effective to store such information and to support its analysis.</p>
+
+<p>Mainly two approaches are proposed by literature, notwithstanding the still existing challenges, and their integration is a powerful opportunity:</p>
+
+<ul>
+  <li>
+    <p>the Heritage Building Information Models (HBIMs)</p>
+  </li>
+  <li>
+    <p>or the archiving of the information in 3D city models.</p>
+  </li>
+</ul>
+
+<p>Many related issued need are object of study:</p>
+
+<p>1) How to suitably represent architectural heritage and historical cities in 3D city models?</p>
+
+<ul>
+  <li>What are the different needs for the cultural heritage representation in cities, in connection to the related use cases?</li>
+  <li>What information should be in each level of detail?</li>
+  <li>How to suitably generalise architectural models?</li>
+  <li>How can GIS tools and methods better support preservation?</li>
+</ul>
+
+<p>2) How the information from HBIM can integrate the representation of architectural heritage and historical cities?</p>
+
+<ul>
+  <li>How to use heritage GeoBIM for managing cultural heritage (maintenance, tourism and safety, preservation, historical and artistical analysis)?</li>
+</ul>
+
+:ET

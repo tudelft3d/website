@@ -1,0 +1,696 @@
+I"�F<p>The 3D geoinformation research group is part of the <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/">Department of Urbanism</a>, <a href="http://www.bk.tudelft.nl">Faculty of the Built Environment and Architecture</a> of the <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS, the Amsterdam Institute for Advanced Metropolitan Solutions</a>. 
+It focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
+These systems help in environmental modelling, urban planning, crisis management, automated cartographic generalisation, information modelling, modelling of the interior of buildings, etc.</p>
+
+<p>It is a multidisciplinary group (computer scientists, geomatics engineers, and geographers) composed of 4 permanent research staff and several PhD students, postdocs, and visitors.</p>
+
+<p>It has a history of successful collaborations with the industry and the government: its research has led to <a href="/code/">software</a> and international standards for the management of 3D geographic information.</p>
+
+<p>The staff of the group is active in several international organisations such as the <a href="http://www.opengeospatial.org">Open Geospatial Consortium</a>, <a href="http://www.eurosdr.net">EuroSDR</a>, and the <a href="http://www.isprs.org">International Society for Photogrammetry and Remote Sensing</a>.</p>
+
+<p>Our research funding mostly comes from the following organisations:</p>
+
+<div class="row">
+  <div class="col-sm-offset-1 col-sm-2 col-xs-4"><a href="https://erc.europa.eu"><img class="img-responsive" src="/img/partners/erc.svg" alt="ERC logo" style="height: 100px; margin: auto;" /></a></div>
+  <div class="col-sm-2 col-xs-4"><a href="https://www.nwo.nl"><img class="img-responsive" src="/img/partners/nwo.svg" alt="NWO logo" style="height: 100px; margin: auto;" /></a></div>
+  <div class="col-sm-2 col-xs-4"><a href="https://www.ams-institute.org"><img class="img-responsive" src="/img/partners/ams.svg" alt="AMS logo" style="height: 100px; margin: auto;" /></a></div>
+  <div class="col-sm-2 col-sm-offset-0 col-xs-offset-2 col-xs-4"><a href="https://www.kadaster.nl"><img class="img-responsive" src="/img/partners/kadaster.svg" alt="Kadaster logo" style="height: 100px; margin: auto;" /></a></div>
+  <div class="col-sm-2 col-xs-4"><a href="https://www.rijkswaterstaat.nl"><img class="img-responsive" src="/img/partners/rws.svg" alt="RWS logo" style="height: 100px; margin: auto;" /></a></div>
+</div>
+
+<hr />
+
+<section id="people">
+  <h2>Staff</h2>
+
+  
+
+  <div class="row">
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/gagugiaro"><img class="img-circle img-responsive" src="/img/staff/giorgio.jpg" alt="Giorgio  Agugiaro photo" /></a>
+    
+
+
+    <h3>Giorgio  Agugiaro<br /><small>Assistant-prof.</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/gagugiaro"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:g.agugiaro@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/vpvanaltena"><img class="img-circle img-responsive" src="/img/staff/vincent.jpg" alt="Vincent van Altena photo" /></a>
+    
+
+
+    <h3>Vincent van Altena<br /><small>PhD candidate (external)</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/vpvanaltena"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:vincent.altenavan@kadaster.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://tudelft.nl/kenohori"><img class="img-circle img-responsive" src="/img/staff/ken.jpg" alt="Ken  Arroyo Ohori photo" /></a>
+    
+
+
+    <h3>Ken  Arroyo Ohori<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://tudelft.nl/kenohori"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:k.ohori@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <img class="img-circle img-responsive" src="/img/staff/linda.png" alt="Linda van den Brink photo" />
+    
+
+
+    <h3>Linda van den Brink<br /><small>Researcher (external)</small></h3>
+
+    <p>
+    
+    
+        <a href="mailto:l.vandenbrink@geonovum.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/brinkwoman"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <img class="img-circle img-responsive" src="/img/staff/tom.jpg" alt="Tom  Commandeur photo" />
+    
+
+
+    <h3>Tom  Commandeur<br /><small>Researcher</small></h3>
+
+    <p>
+    
+    
+        <a href="mailto:t.j.f.commandeur@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://balazsdukai.com"><img class="img-circle img-responsive" src="/img/staff/balazs.jpg" alt="Balázs  Dukai photo" /></a>
+    
+
+
+    <h3>Balázs  Dukai<br /><small>Research software engineer</small></h3>
+
+    <p>
+    
+        <a href="http://balazsdukai.com"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:b.dukai@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/BalazsDukai"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/weixiao"><img class="img-circle img-responsive" src="/img/staff/weixiao.jpg" alt="Weixiao  Gao photo" /></a>
+    
+
+
+    <h3>Weixiao  Gao<br /><small>PhD candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/weixiao"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:w.gao-1@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/gsclara"><img class="img-circle img-responsive" src="/img/staff/clara.jpg" alt="Clara  García-Sánchez photo" /></a>
+    
+
+
+    <h3>Clara  García-Sánchez<br /><small>Assistant-prof.</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/gsclara"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:c.garcia-sanchez@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/gsclara_"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/bheester"><img class="img-circle img-responsive" src="/img/staff/bob.jpg" alt="Bob  Heester photo" /></a>
+    
+
+
+    <h3>Bob  Heester<br /><small>PhD candidate (external)</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/bheester"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:b.a.heester@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 6 52046328"><i class="fas fa-phone"></i></a>
+        
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <img class="img-circle img-responsive" src="/img/staff/margo.jpg" alt="Margo van der Helm photo" />
+    
+
+
+    <h3>Margo van der Helm<br /><small>Secretary</small></h3>
+
+    <p>
+    
+    
+        <a href="mailto:j.m.vanderhelm@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 81298"><i class="fas fa-phone"></i></a>
+        
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/jinhuang"><img class="img-circle img-responsive" src="/img/staff/jin.jpg" alt="Jin  Huang photo" /></a>
+    
+
+
+    <h3>Jin  Huang<br /><small>PhD candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/jinhuang"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:j.huang-1@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://patrick.janssen.name"><img class="img-circle img-responsive" src="/img/staff/patrick.jpg" alt="Patrick  Janssen photo" /></a>
+    
+
+
+    <h3>Patrick  Janssen<br /><small>Associate-prof. (external)</small></h3>
+
+    <p>
+    
+        <a href="http://patrick.janssen.name"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:patrick.janssen@nus.edu.sg"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/kavisha"><img class="img-circle img-responsive" src="/img/staff/kavisha.jpg" alt="  Kavisha photo" /></a>
+    
+
+
+    <h3>  Kavisha<br /><small>PhD candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/kavisha"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:k.kavisha@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://thomaskrijnen.com"><img class="img-circle img-responsive" src="/img/staff/thomas.png" alt="Thomas  Krijnen photo" /></a>
+    
+
+
+    <h3>Thomas  Krijnen<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://thomaskrijnen.com"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:mail@thomaskrijnen.com"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/aothms"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/alabetski"><img class="img-circle img-responsive" src="/img/staff/anna.png" alt="Anna  Labetski photo" /></a>
+    
+
+
+    <h3>Anna  Labetski<br /><small>PhD candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/alabetski"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:a.labetski@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/BigLabetski"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/hledoux"><img class="img-circle img-responsive" src="/img/staff/hugo.jpg" alt="Hugo  Ledoux photo" /></a>
+    
+
+
+    <h3>Hugo  Ledoux<br /><small>Associate-prof.</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/hledoux"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:h.ledoux@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 86114"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/hugoledoux"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/liangliang"><img class="img-circle img-responsive" src="/img/staff/liangliang.jpg" alt="Liangliang  Nan photo" /></a>
+    
+
+
+    <h3>Liangliang  Nan<br /><small>Assistant-prof.</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/liangliang"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:liangliang.nan@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://noardo.eu"><img class="img-circle img-responsive" src="/img/staff/francesca.jpg" alt="Francesca  Noardo photo" /></a>
+    
+
+
+    <h3>Francesca  Noardo<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://noardo.eu"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:f.noardo@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/FrancescaNoardo"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://tudelft.nl/rypeters"><img class="img-circle img-responsive" src="/img/staff/ravi.jpg" alt="Ravi  Peters photo" /></a>
+    
+
+
+    <h3>Ravi  Peters<br /><small>Postdoc</small></h3>
+
+    <p>
+    
+        <a href="http://tudelft.nl/rypeters"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:r.y.peters@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+    
+    
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="/img/staff/jantien.jpg" alt="Jantien  Stoter photo" /></a>
+    
+
+
+    <h3>Jantien  Stoter<br /><small>Professor</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/jstoter"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:j.e.stoter@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+        <a href="tel:+31 15 27 81664"><i class="fas fa-phone"></i></a>
+        
+        |
+        
+    
+    
+        <a href="https://twitter.com/jantienstoter"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        
+    
+    <a href="http://3d.bk.tudelft.nl/svitalis"><img class="img-circle img-responsive" src="/img/staff/stelios.jpg" alt="Stelios  Vitalis photo" /></a>
+    
+
+
+    <h3>Stelios  Vitalis<br /><small>PhD candidate</small></h3>
+
+    <p>
+    
+        <a href="http://3d.bk.tudelft.nl/svitalis"><i class="fas fa-home"></i></a>
+        
+        |
+        
+    
+    
+        <a href="mailto:s.vitalis@tudelft.nl"><i class="fas fa-envelope"></i></a>
+        
+        |
+        
+    
+    
+    
+        <a href="https://twitter.com/liberostelios"><i class="fab fa-twitter"></i></a>
+    
+    <br />
+    </p>
+      </div>
+    
+  </div>
+</section>
+
+<hr />
+
+<section name="people">
+  <h2>Former Staff</h2>
+
+  <a href="/about/formerstaff">List of former staff</a>
+
+</section>
+
+<hr />
+
+<section id="where">
+  <h2>Our offices</h2>
+
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.010 (building #8) <br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Faculty of the Built Environment <br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> and Architecture<br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> the Netherlands <br />
+    <i class="fas fa-map-marker-alt fa-fw fade"></i> <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/">How to get here</a>
+    <br />
+  </div>
+  <div class="col-md-8 col-sm-6 col-xs-12">
+    <div id="map"></div>
+  </div>
+</section>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiY2pnNnc1bDJkMjcxNzMzeGZjOGI4aW5ibyJ9.gonBY78tu7tCtqUAQr5YfA';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/kenohori/cim0i33ql00jmbjlw9l1pro1i',
+    center: [4.37036640026392, 52.004713684518933],
+    zoom: 13.5,
+    pitch: 60
+  });
+  map.addControl(new mapboxgl.NavigationControl());
+  var markers = {
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "description": "<h3>3D Geoinformation</h3><p>Room BG.West.010</p>",
+        "iconSize": [50, 50]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.37036640026392, 52.004713684518933]
+      }
+    }]
+  }
+  // add markers to map
+  markers.features.forEach(function(marker) {
+    // create a DOM element for the marker
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url(http://localhost:4000/img/map/marker.svg)';
+    el.style.width = marker.properties.iconSize[0] + 'px';
+    el.style.height = marker.properties.iconSize[1] + 'px';
+
+    el.addEventListener('click', function() {
+      var popup = new mapboxgl.Popup({closeOnClick: false})
+        .setLngLat(markers.features[0].geometry.coordinates)
+        .setHTML(markers.features[0].properties.description)
+        .addTo(map);
+    });
+
+    // add marker to map
+    new mapboxgl.Marker(el, {offset: [-marker.properties.iconSize[0] / 2, -marker.properties.iconSize[1] / 2]})
+      .setLngLat(markers.features[0].geometry.coordinates)
+      .addTo(map);
+  });
+</script>
+
+:ET

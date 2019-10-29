@@ -1,0 +1,104 @@
+I"�<h1>Amsterdam CityGML model LoD 1</h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/amsterdam-1.gif" style="max-height: 500px" /></div>
+</div>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#short-description" id="markdown-toc-short-description">Short description</a></li>
+  <li><a href="#technical-details" id="markdown-toc-technical-details">Technical details</a></li>
+  <li><a href="#georeferencing-details" id="markdown-toc-georeferencing-details">Georeferencing details</a></li>
+  <li><a href="#semantics-details" id="markdown-toc-semantics-details">Semantics details</a></li>
+  <li><a href="#download" id="markdown-toc-download">Download</a></li>
+</ul>
+
+<hr />
+
+<h2 id="short-description">Short description</h2>
+
+<p>This model represents the city of Amsterdam in CityGML, including all the entities for a seamless 3D city model (buildings, roads, vegetation, and so on).</p>
+
+<p>It was produced with the software 3dfier by the TUDelft 3D geoinformation group, and slightly modified for the purposes of the benchmark.</p>
+
+<p>The used Level of Detail (LoD) is 1. Check the CityGML description in the website and related documentation to have more details.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<p>Name of the file: <strong>Amsterdam.gml</strong></p>
+
+<p>Used CityGML version:<strong> 2</strong></p>
+
+<p>Level(s) of Detail: <strong>LoD 1</strong></p>
+
+<p>The geometries are all managed as<strong> MultiSurfaces.</strong></p>
+
+<h2 id="georeferencing-details">Georeferencing details</h2>
+
+<p>Coordinate reference system:<strong> EPSG: 7415 (Combined SRS for 3D data, based on Amersfoort / RD New system)</strong></p>
+
+<p>Envelope lowerCorner:</p>
+
+<p>E 116137.400</p>
+
+<p>N 481250.300</p>
+
+<p>H 0</p>
+
+<p>Envelope upperCorner:</p>
+
+<p>E 129664.253</p>
+
+<p>N 490288.900</p>
+
+<p>H 100</p>
+
+<h2 id="semantics-details">Semantics details</h2>
+
+<p>Here, the entities included in the model are listed model (you can read the CityGML documentation for their full description):</p>
+
+<ul>
+  <li>core:CityModel</li>
+  <li>LandUse</li>
+  <li>WaterBody</li>
+  <li>Road</li>
+  <li>bldg:Buildings</li>
+  <li>PlantCover</li>
+  <li>GenericCityObject</li>
+  <li>Bridge</li>
+</ul>
+
+<h3 id="4-elements">4 Elements</h3>
+
+<p>In the following images (in the software Azul), you can see the classification (and hierarchies) of specific elements, to be used as reference while performing the Task 3.
+From these views you can also have a view about how the geometry looks like, in order to have a visual reference for testing your software.</p>
+
+<p><strong> Element 1 - WaterBody</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/amsterdam-Fig2.gif" title="Element 1)	Waterbody (in yellow)." />
+</div>
+<hr />
+<p><strong> Element 2 - LandUse</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/amsterdam-Fig3.gif" title="Element 2)	LandUse (in yellow)." />
+</div>
+<hr />
+<p><strong> Element 3 - Building</strong></p>
+
+<p>For this element it is also possible to consider the attribute ‘measuredHeight’ (value 11.74 m)</p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/amsterdam-Fig4.gif" title="Element 3)	Building (in yellow)" />
+</div>
+<hr />
+<p><strong> Element 4 - PlantCover</strong></p>
+<div class="row">
+	<img class="img-responsive" src="/projects/geobim-benchmark/img/amsterdam-Fig5.gif" title="Element 4)	PlantCover (in yellow)." />
+</div>
+
+<hr />
+<h2 id="download">Download</h2>
+
+<p>You can download the amsterdam.gml data from this <a href="https://3d.bk.tudelft.nl/download/benchmark/Amsterdam_LoD1.zip"><strong>link</strong></a></p>
+<hr />
+:ET

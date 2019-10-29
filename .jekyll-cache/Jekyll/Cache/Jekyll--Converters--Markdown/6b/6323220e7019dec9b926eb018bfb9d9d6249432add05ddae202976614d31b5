@@ -1,0 +1,14 @@
+I"'<p><a href="https://github.com/tudelft3d/Random3Dcity">Random3Dcity</a> is a basic and experimental procedural modelling engine that is focused on constructing buildings in multiple LODs and in CityGML.</p>
+
+<p>A sample dataset (CityGML and OBJ) containing 900 buildings in multiple LODs can be obtained from <a href="https://3d.bk.tudelft.nl/biljecki/Random3Dcity.html">here</a>.</p>
+
+<h3 id="paper-and-attribution">Paper and attribution</h3>
+
+<p>The methodology is described in the paper below.
+If you plan to use the dataset to make a nice publication please cite the paper.</p>
+
+<p>Biljecki F, Ledoux H, Stoter J (2016): Generation of multi-LOD 3D city models in CityGML with the procedural modelling engine Random3Dcity. <em>ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.</em>, vol. IV-4/W1: 51-59. <a href="http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-4-W1/51/2016/isprs-annals-IV-4-W1-51-2016.pdf">PDF</a></p>
+
+<p>DOI: <a href="http://doi.org/10.5194/isprs-annals-IV-4-W1-51-2016">10.5194/isprs-annals-IV-4-W1-51-2016</a></p>
+
+:ET

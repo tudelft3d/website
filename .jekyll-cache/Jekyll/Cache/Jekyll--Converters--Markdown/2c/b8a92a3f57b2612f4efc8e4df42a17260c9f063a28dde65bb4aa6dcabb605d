@@ -1,0 +1,196 @@
+I"<p><img class="img-responsive" src="/projects/umnd/img/4dprojections.png" /></p>
+
+<hr />
+
+<h2 id="overview">Overview</h2>
+
+<p>Objects of more than three dimensions can be used to model geographic phenomena that occur in space, time and scale.
+For instance, a single 4D object can be used to represent the changes in a 3D object’s shape across time or all its optimal representations at various levels of detail.</p>
+
+<p>Higher-dimensional objects can be however unintuitive, and extracting meaningful information from them is a challenge.
+This research line aims to solve this problem by developing techniques to extract particular 3D city objects from a 4D model.</p>
+
+<hr />
+
+<h2 id="activities">Activities</h2>
+
+<ul class="posts">
+
+    
+
+    
+    <li class="activity"><span>27 Sep 2019</span> Presented paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>27 Sep 2019</span> Awarded Best Paper Award (Runner-up) for the paper: "A Data Structure to Incorporate Versioning in 3D City Models" at the 2019 3D GeoInfo Conference.</li>
+    
+
+    
+    <li class="activity"><span>25 Sep 2019</span> Presented paper: "EuroSDR GeoBIM Project a Study in Europe on how to use the Potentials of BIM and Geo Data in Practice" at the 2nd International IAG Workshop on BIM and GIS Integration.</li>
+    
+
+    
+    <li class="activity"><span>25 Sep 2019</span> Presented paper: "GeoBIM Benchmark 2019: Intermediate Results" at the 2nd International IAG Workshop on BIM and GIS Integration.</li>
+    
+
+    
+
+    
+    <li class="activity"><span>15 Jul 2019</span> Published paper: "The LandInfra standard and its role in solving the BIM-GIS quagmire"</li>
+    
+
+    
+    <li class="activity"><span>17 Jun 2019</span> Published paper: "CityJSON: a compact and easy-to-use encoding of the CityGML data model."</li>
+    
+
+    
+    <li class="activity"><span>29 May 2019</span> Published paper: "Harmonising the OGC Standards for the Built Environment: A CityGML Extension for LandInfra"</li>
+    
+
+    
+
+    
+    <li class="activity"><span>22 Jan 2019</span> Invited talk 'Improving the usability of 3D city models' by Hugo at the <a href="https://www.uni-muenster.de/Geoinformatics/en/GI-Forum/index.php">Universität Münster GI-Forum</a></li>
+    
+
+    
+
+    
+    <li class="activity"><span>02 Oct 2018</span> Organised the <a href="https://3dgeoinfo2018.nl">2018 3D GeoInfo Conference</a> in Delft.</li>
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>30 Sep 2018</span> Developed an up-to-date 3D building service covering whole of the Netherlands <a href="http://3dbag.bk.tudelft.nl">3D BAG</a>. Published via <a href="https://data.4tu.nl/repository/uuid:f1f9759d-024a-492a-b821-07014dd6131c">4TU Data Centre</a></li>
+    
+
+    
+    <li class="activity"><span>30 Sep 2018</span> Organised the pre-conference workshop "Automated reconstruction of 3D City Models and using them in urban applications" for the 2018 3D GeoInfo Conference in Delft.</li>
+    
+
+    
+    <li class="activity"><span>20 Sep 2018</span> Published book chapter: "Modeling Cities and Landscapes in 3D with CityGML"</li>
+    
+
+    
+    <li class="activity"><span>30 Aug 2018</span> Keynote at the <a href="http://giscience2018.rmit.melbourne/prof-dr-jantien-stoter/">GIScience conference</a> in Melbourne.</li>
+    
+
+    
+    <li class="activity"><span>24 Aug 2018</span> Open lecture at the <a href="http://https://www.arch.nus.edu.sg/activities/news-plus-events/events_ay1819_guestlectures_jantienstoter_230818/">National University of Singapore.</a>.</li>
+    
+
+    
+    <li class="activity"><span>02 Aug 2018</span> Published paper: "Processing BIM and GIS Models in Practice: Experiences and Recommendations from a GeoBIM Project in The Netherlands"</li>
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>29 Mar 2018</span> Published paper: "Essential Means for Urban Computing: Specification of Web-Based Computing Platforms for Urban Planning, a Hitchhiker’s Guide"</li>
+    
+
+    
+    <li class="activity"><span>21 Mar 2018</span> Invited talk 'CityJSON---A JSON-based implementation of the CityGML data model' by Hugo at the OGC meeting (Orléans, France)</li>
+    
+
+    
+    <li class="activity"><span>15 Mar 2018</span> (Co)organised a successfull international symposium on <a href="https://3d.bk.tudelft.nl/news/2018/03/14/pcp2018.html">Point Clouds Processing</a>.</li>
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>01 Jan 2018</span> Ken Arroyo Ohori officially started working on UMnD.</li>
+    
+
+    
+    <li class="activity"><span>30 Dec 2017</span> Jantien Stoter interviewed for ten years anniversary ERC <a href="http://tu-delft.instantmagazine.com/tu-delft/erc#!/home">ERC Anniversary interview</a>.</li>
+    
+
+    
+    <li class="activity"><span>27 Nov 2017</span> Invited talk 'CityGML (as an encoding) is dood, lang leven CityJSON!' by Hugo at the the Geonovum Springplank (Amersfoort, the Netherlands)</li>
+    
+
+    
+    <li class="activity"><span>24 Nov 2017</span> Invited presentation at the <a href=" https://geo-bim.org/europe/2017/pdf/presentation/Jantien-Stoter-bim-loket-geobim-2017-24-11.pdf">GeoBIM conference</a> in Amsterdam.</li>
+    
+
+    
+
+    
+    <li class="activity"><span>02 Nov 2017</span> Jantien Stoter nominated for personal Geo Prestige Award Professional <a href="https://www.geoinformatienederland.nl/nieuws/persbericht-geo-prestige-award-winnaars-bekend">Geo Prestige Professional Award</a>.</li>
+    
+
+    
+    <li class="activity"><span>17 Oct 2017</span> Published paper: "Towards an integration of GIS and BIM data: what are the geometric and topological issues?" in 3D Geoinfo 2017.</li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>03 Jul 2017</span> Published paper: "Visualising higher-dimensional space-time and space-scale objects as projections to R3".</li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="activity"><span>30 Mar 2017</span> We co-organised the <a href="http://www.eurosdr.net/workshops/identifying-economic-value-3d-geoinformation">EuroSDR workshop on economic value of 3D Geoinformation</a> at ICGC Barcelona</li>
+    
+
+    
+
+    
+    <li class="activity"><span>17 Mar 2017</span> We organised the technial meeting of the worldwide standardisation organisation of geographical information (OGC) in Delft (200+ participants) <a href="https://www.opengeospatial.org/event/1703tc">OGC TC Meeting Delft</a></li>
+    
+
+    
+    <li class="activity"><span>15 Mar 2017</span> We organised the <a href="https://www.geonovum.nl/over-geonovum/actueel/nationaal-3d-symposium-15-november">Symposium 3D urban modelling</a> with Prof Thomas H. Kolbe</li>
+    
+
+    
+
+    
+    <li class="activity"><span>02 Feb 2017</span> Jantien (PI) participated in working visit of Dutch delegation (industry, academia and government) to London.</li>
+    
+
+    
+    <li class="activity"><span>02 Feb 2017</span> The project was shown during the <a href="https://www.tudelft.nl/en/technology-transfer/development-innovation/research-exhibition-projects/3d-geoinformation-dataset/">Research Exhibition of Delft University of Technology</a> (175th anniversary).</li>
+    
+
+    
+
+    
+    <li class="activity"><span>25 Nov 2016</span> We organised the <a href="http://www.ams-institute.org/events/event/workshop-3d-geo-information-for-smart-urban-applications/">National 3D symposium</a> (150+ participants)</li>
+    
+
+    
+    <li class="activity"><span>01 Sep 2016</span> Jantien appointed as Principal Investigator at <a href="https://https://www.ams-institute.org">Amsterdam Institute of Advanced Matropolitan Solutions</a></li>
+    
+
+    
+
+</ul>
+:ET

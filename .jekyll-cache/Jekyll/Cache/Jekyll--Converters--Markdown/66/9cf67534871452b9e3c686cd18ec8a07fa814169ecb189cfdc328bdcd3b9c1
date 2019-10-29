@@ -1,0 +1,8 @@
+I"D<p>In this <a href="https://3d.bk.tudelft.nl/pdfs/18_georeferencing.pdf">report</a>, Abdoulaye Diakité studies how the geographic coordinates of a construction project should be integrated in its 3D model such that the information is kept in the context of a GIS application.
+The study covers the case of BIMs designed using the Autodesk Revit software and exported as IFC.
+Furthermore, the report describes the developed <a href="https://github.com/tudelft3d/IfcLocator">web service interface</a> which allows to visualise the geographic position associated with an IFC file and correct its Latitude/Longitude by picking a new location.
+The tool is based on the Cesium project allowing to visualise the process on a 3D globe.</p>
+
+<p><img src="/img/2018/GeoBIM1.png" /><br /><br />
+<img src="/img/2018/GeoBIM2.png" /><br /><br /></p>
+:ET

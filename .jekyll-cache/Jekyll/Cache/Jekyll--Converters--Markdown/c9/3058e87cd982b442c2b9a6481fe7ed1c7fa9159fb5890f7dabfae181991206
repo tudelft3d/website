@@ -1,0 +1,146 @@
+I"�<!--
+<h1>Benchmark events</h1>
+
+Within the GeoBIM benchmark initiative, two open events are about to be organised:
+
+A meeting (also web-meeting) between organisers and participants together for discussing the issues arose so far and proposing improvements to the materials and the on-going activities.
+
+A winter school for presenting the main results and training to GeoBIM.
+
+- - -
+
+* Table of Content
+{:toc}
+
+- - -
+-->
+<h2 id="eurosdr---ams-geobim-benchmark-workshop">EuroSDR - AMS GeoBIM benchmark workshop</h2>
+
+<p><em>Please, note that this is not an ISPRS event, although part of the research presented in the workshop are results of the GeoBIM benchmark, funded as Scientific initiative by ISPRS and co-funded by EuroSDR.</em></p>
+
+<p>The GeoBIM benchmark workshop will be held on next <strong>December 2nd/3rd</strong> to get insight into the <strong>GeoBIM benchmark results</strong> and explore in detail the <strong>related topics</strong>:</p>
+
+<ul>
+  <li>3D city models,</li>
+  <li>Building Information Models,</li>
+  <li>respective open standards (CityGML, CityJSON, IFC, and more),</li>
+  <li>GeoBIM use cases (automatic building permission issuing, asset management, energy simulations).</li>
+</ul>
+
+<h3 id="workshop-details">Workshop details:</h3>
+
+<p><strong><em>When</em></strong>: 2nd/3rd December 2019</p>
+
+<p><strong><em>Where</em></strong>: in the <a href="https://www.ams-institute.org">Amsterdam Institute for Advanced Metropolitan Solutions</a>, in Amsterdam, Kattenburgerstraat 5, Building 027W, 1018JA. <strong>12-minutes walking from Amsterdam Central Station.</strong> <a href="https://www.ams-institute.org/about-ams/address-contact-information/">See how to get there.</a></p>
+
+<p><strong><em>Participation Fee</em></strong>: 40€ including 2-days workshop, lunches and coffee breaks.</p>
+
+<p><strong><em>Programme and speakers</em></strong>: <a href="/projects/geobim-benchmark/WorkshopProgrammeSpeakers.pdf"><strong>Download the Detailed programme and Speakers here.</strong></a></p>
+
+<p>…………………………………………………………………………</p>
+
+<p>Register by the <strong>15th November</strong>: <a href="https://francescanoardo.typeform.com/to/qplW6H"><strong>Register now!</strong></a></p>
+
+<p>…………………………………………………………………………</p>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/Workshop_Website.gif" /></div>
+</div>
+
+<h3 id="join-us-everyone-is-welcome">Join us! Everyone is welcome!</h3>
+
+<p>…………………………………………………………………………</p>
+
+<p>Register by the <strong>15th November</strong>: <a href="https://francescanoardo.typeform.com/to/qplW6H"><strong>Register now!</strong></a></p>
+
+<p>…………………………………………………………………………</p>
+
+<div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/qplW6H" style="width: 100%; height: 500px;"></div>
+<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=qplW6H&amp;utm_source=typeform.com-13384974-Pro&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+<p><strong><em>List of possible hotels close to the venue:</em></strong></p>
+
+<p><a href="https://www.pensionhomeland.com/en/">Pension Homeland</a>, walking distance from AMS Institute: 150 m</p>
+
+<p><a href="https://www.motel-one.com/en/hotels/amsterdam/hotel-amsterdam-waterlooplein/">Motel 1</a>,  walking distance from AMS Institute: 1.2 km (15 min)</p>
+
+<p><a href="https://www.accorhotels.com/en/hotel-3044-ibis-amsterdam-centre-stopera/index.shtml">IBIS</a>,  walking distance from AMS Institute: 1.2 km (15 min)</p>
+
+<p><a href="https://www.lloyd.nl">Lloyd hotel</a>,  walking distance from AMS Institute: 1.6 km (20 min)</p>
+
+<p><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/amsterdam/amsch/hoteldetail">Holiday Inn Express</a>,  walking distance from AMS Institute: 1.1 km (13 min)</p>
+
+<hr />
+<hr />
+<h1>Other GeoBIM benchmark events</h1>
+
+<p>One more event was organised as part of the GeoBIM benchmark project: the <em>GeoBIM benchmark (web)meeting</em>.</p>
+
+<p>You can see some outcomes of the meeting in the following.</p>
+
+<h2 id="geobim-benchmark-webmeeting">GeoBIM benchmark (web)meeting</h2>
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/Meeting.gif" style="max-height: 500px" /></div>
+</div>
+
+<h3 id="when">When</h3>
+<p>on Monday, <strong>8th July 2019 h. 9.30 - <!--12.30--> 11.00 CET</strong></p>
+
+<h3 id="where">Where</h3>
+<p>at the <a href="https://3d.bk.tudelft.nl/about/#where"><strong>TU Delft</strong></a>, the Netherlands, room <strong>BG-west-350</strong>.</p>
+
+<p>Or around the world, joining it through the <strong>web</strong></p>
+
+<h3 id="what">What</h3>
+<p>14 people participated, and it was useful to share the issues found during the tests, usually common to many, and to discuss the Tasks and the challenges.</p>
+
+<p><a href="https://www.dropbox.com/s/trgogk2fgt283l7/GeoBIMbenchmark_meeting_minute-2.docx?dl=0">Minute</a></p>
+
+<!-- following the **link** (please, try to connect 15 minutes before the meeting):
+
+[Join the meeting by the web-platform 'Zoom'](https://lu-se.zoom.us/j/356618156)
+
+[Join the meeting by Skype for Business](https://lu-se.zoom.us/skype/356618156)
+
+
+### Agenda
+
+9.30 – 9.45	Welcome and Introduction round (who we are, our main interests, in life and in the benchmark)
+
+9.45 - 10.15 Introduction on the GeoBIM benchmark & Presentation of the intermediate results
+
+10.15 – 11.00	Presentation by participants (part I) about their experience with what they tested and main issues with the data and tools (10’ each):
+
+- The benchmark test (Task, Software, Data, Results)
+- Issues and suggestions
+- Plans
+
+*11.00 – 11.15	Coffee break*
+
+11.15 – 12.00	Presentation by participants (part II)
+
+12.00 – 12.25	Discussion:
+1. Other interesting tools to be tested
+2. How to help participation, how to fix/improve materials
+3. General thoughts about standardised data and interoperability
+4. discussion, feedbacks, plans for the future
+
+12.25 – 12.30 Conclusion
+
+### Join us!
+
+Through the **web** following the **link** (please, try to connect 15 minutes before the meeting):
+
+[Join the meeting by the web-platform 'Zoom'](https://lu-se.zoom.us/j/356618156)
+
+[Join the meeting by Skype for Business](https://lu-se.zoom.us/skype/356618156)
+
+The meeting is for free and everyone who is interested in the benchmark, participated in the tests and in the organisation of the benchmark or will participate in the tests is welcome!
+
+In order to help us with organisational issues, **please register**:
+
+<div class="typeform-widget" data-url="https://francescanoardo.typeform.com/to/QyLxrI" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=QyLxrI&utm_source=typeform.com-13384974-Pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+-->
+:ET

@@ -1,0 +1,103 @@
+I"¸<!--
+<div class="row">
+	<div class="col-md-4 col-md-offset-1 col-xs-6">
+		<img class="img-responsive" src="img/benchmark.png" />
+	</div>
+	<div class="col-md-6 col-md-offset-1 col-xs-6">
+		<h1>GeoBIM benchmark 2019</h1>
+	</div>
+</div>
+-->
+<h1>GeoBIM benchmark 2019</h1>
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="/projects/geobim-benchmark/img/logohome.gif" style="max-height: 300px" /></div>
+  
+  
+</div>
+
+<div class="well"><b>Recent news</b><br /><br />
+	
+  
+  	<p><small><span class="post-date">Oct 29</span></small> The EuroSDR/AMS-institute GeoBIM benchmark workshop is open for registrations (deadline 15th November). The workshop will be held on next December 2nd/3rd in Amsterdam to get insight into the GeoBIM benchmark results and explore in detail the related topics (3D city models, Building Information Models, respective open standards - CityGML, CityJSON, IFC, and more, GeoBIM use cases - automatic building permission issuing, asset management, energy simulations). Visit the 'event' page of this  website for more details.</p>
+  
+  	<p><small><span class="post-date">Sep 30</span></small> Last week we presented our work so far as a Keynote to the 3D Geoinfo 2019 Conference in Singapore, you can find the new presentation and the new papers in the 'presentations&amp;publications' section of the website. The submission of all the results is approaching, ONE MONTH IS LEFT. We are looking forward to that moment:-)</p>
+  
+  	<p><small><span class="post-date">Sep 05</span></small> ACCA software kindly offered us some trial and educational licenses of their software to be used within the benchmark! If anyone of you would like to make the test with an ACCA software, please contact f.noardo@tudelft.nl.</p>
+  
+  <a href="news.html">All news</a>
+</div>
+
+<p>The website and the FAQ section tries to answer possible doubts about the test and the data. Do you have more and would you like to talk about them or about found issues? You can register in this doodle: <a href="https://doodle.com/poll/fz6a6vvvz3dft5g9">Q&amp;A session about the GeoBIM benchmark</a> If a few people are interested, the session will be hold on 3rd October 2019 h.10.00-11.00 CET via web (we will publish the link to join).</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uXcGYA72IaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3>Reference study on software support for open standards of city and building models</h3>
+
+<p>This benchmark will investigate the available <strong>technical solutions</strong> to support research and activities related to GeoBIM, through the use of the <strong>open standards IFC</strong> (by buildingSMART) and <strong>CityGML</strong> (by OGC):</p>
+
+<p>.</p>
+
+<h4>1. What is the <strong>support for IFC</strong> within BIM (and other) software?</h4>
+
+<h4>2. What options for <strong>geo-referencing BIM</strong> data are available?</h4>
+
+<h4>3. What is the <strong>support for CityGML</strong> within GIS (and other) tools?</h4>
+
+<h4>4. What options for <strong>conversion (IFCâ†”CityGML)</strong> are available?</h4>
+<p>.</p>
+
+<h3 id="we-want-you">We want you</h3>
+
+<p><strong>You can be part</strong> of this scientific initiative!</p>
+
+<p>Take part in this benchmark activity by performing one or more tasks.</p>
+
+<div class="row">
+	<div class="col-md-3 col-xs-4">
+		<img class="img-responsive" src="img/puzzle.jpg" />
+	</div>
+	<div class="col-md-9 col-xs-8">
+		<p>Volunteers will be welcome to perform one or more tasks using the tools they are familiar with, <strong>contributing to build a common reference list of tools</strong> to be used for GeoBIM-related activities.</p>
+		<p>At least one <strong>scientific publication co-authored by both the benchmark proponents and volunteers</strong> will be written, and final results will be published on the website.</p>
+	</div>
+</div>
+
+<h3 id="how-to-participate">How to participate</h3>
+
+<div class="row">
+	<div class="col-xs-12">
+		<img class="img-responsive" src="img/howto.gif" />
+	</div>
+</div>
+
+<h4 id="register-to-this-link-to-participate"><a href="https://francescanoardo.typeform.com/to/IbdpZD"><strong>Register to this link</strong></a> to participate!</h4>
+
+<p>And browse the website to know all the details.</p>
+
+<p>Download the <a href="https://www.dropbox.com/s/2f6q7ckla9wm9e6/callGeoBIMbenchmark.pdf?dl=0">call for participation</a></p>
+
+<h3 id="if-you-only-want-to-be-up-to-date-about-geobim-benchmark-activities">If you only want to be up-to-date about GeoBIM benchmark activities</h3>
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+<div id="mc_embed_signup">
+<form action="https://tudelft.us20.list-manage.com/subscribe/post?u=66a8cb733c926f8b1f6d7948f&amp;id=671ef6a5b1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to GeoBIM benchmark mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="" />
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_66a8cb733c926f8b1f6d7948f_671ef6a5b1" tabindex="-1" value="" /></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+:ET

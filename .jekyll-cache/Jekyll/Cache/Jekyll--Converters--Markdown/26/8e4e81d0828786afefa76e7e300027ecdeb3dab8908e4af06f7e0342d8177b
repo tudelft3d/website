@@ -1,0 +1,108 @@
+I"°<div class="row">
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html">
+        <img src="/img/events/GeoBIMws.gif" />
+      </a>  
+      <div class="caption">
+        <h3>GeoBIM benchmark workshop</h3>
+        <p>Workshop about 3D city models, Building Information Models and their integration, with Results of the GeoBIM benchmark project.<br />
+        <i class="fas fa-calendar-alt"></i> 2-3 December 2019</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="https://foss4g.nl">
+        <img src="/img/events/foss4gnl.jpg" />
+      </a>  
+      <div class="caption">
+        <h3>FOSS4GNL</h3>
+        <p>Free and open-source for geospatial Dutch conference<br />
+        <i class="fas fa-calendar-alt"></i> 20 June 2019</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="/events/energy2018/">
+        <img src="/img/events/energyade.png" />
+      </a>  
+      <div class="caption">
+        <h3>Energy ADE workshop 2018</h3>
+        <p>Knowledge exchange event on Energy and the digital built environment 2018<br />
+        <i class="fas fa-calendar-alt"></i> 6 December 2018</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="/events/3dgeoinfo2018/">
+        <img src="/img/events/3dgeoinfo2018.jpg" />
+      </a>  
+      <div class="caption">
+        <h3>3D Geoinfo 2018</h3>
+        <p>13th 3D GeoInfo Conference<br />
+        <i class="fas fa-calendar-alt"></i> 1-2 October 2018</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="/events/pcp2018/">
+        <img src="/img/events/pcp2018.png" />
+      </a>  
+      <div class="caption">
+        <h3>Point cloud processing 2018</h3>
+        <p>1-day seminar on point clouds<br />
+        <i class="fas fa-calendar-alt"></i> 13 March 2018</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="http://www.opengeospatial.org/event/1703tc">
+        <img src="/img/events/ogc.png" />
+      </a>  
+      <div class="caption">
+        <h3>OGC TC/PC</h3>
+        <p>Open Geospatial Consortium Technical and Planning Committee<br />
+        <i class="fas fa-calendar-alt"></i> 20-24 March 2017</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="/events/3dvis2016/">
+        <img src="/img/events/3dviz2016.jpg" />
+      </a>  
+      <div class="caption">
+        <h3>3DViz 2016</h3>
+        <p>3D Visualisation Workshop<br />
+        <i class="fas fa-calendar-alt"></i> 27 September 2016</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="/events/udmv2015/">
+        <img src="/img/events/udmv2015.png" />
+      </a>  
+      <div class="caption">
+        <h3>UDMV 2015</h3>
+        <p>3rd Eurographics Workshop on Urban Data Modelling and Visualisation 2015<br />
+        <i class="fas fa-calendar-alt"></i> 23 November 2015</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+:ET
