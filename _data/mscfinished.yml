@@ -1,4 +1,12 @@
 
+- surname: Wu
+  name: Teng
+  title: Visibility Analysis in a Point Cloud based on the Medial Axis Transform
+  image: teng.png
+  year: 2019
+  github: https://github.com/nsalheb/CityGML2IFC
+  link: https://3d.bk.tudelft.nl/pdfs/P5Thesis_TengWu_4721020.pdf
+
 - surname: Salheb
   name: Nebras
   title: Automatic Conversion of CityGML to IFC
