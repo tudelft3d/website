@@ -15,16 +15,10 @@
 #   title: Computation of spatial extent of massive lidar datasets
 #   image: veenendaal.jpg
 
-
 - surname: de Groot  
   name: Rob
   title: Automatic reconstruction of trees from aerial lidar
   image: deGroot.png
-
-- surname: Salheb
-  name: Nebras
-  title: Automatic Conversion of CityGML to IFC
-  image: nebras.png
 
 - surname: van Heerden	  
   name: Natasja
