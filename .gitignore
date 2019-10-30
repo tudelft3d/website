@@ -1,6 +1,7 @@
 _site/*
 .DS_Store
 .jekyll-metadata
+.jekyll-cache/*
 *.cachedbib
 .bak
 .sav

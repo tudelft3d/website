@@ -1,5 +1,0 @@
-I"»<p>The new <a href="http://www.opengeospatial.org">OGC</a> standard IndoorGML, co-authored by among others <a href="http://3dgeoinfo.bk.tudelft.nl/szlatanova/">Sisi Zlatanova</a>, has been released (version 1.0) and is available for download <a href="http://docs.opengeospatial.org/is/14-005r3/14-005r3.html">there</a>.</p>
-
-<p>The OGC IndoorGML standard specifies a data model and XML schema for indoor spatial information. In contrast to several 3D building modelling standards such as CityGML, KML, and IFC, which deal with interior space of buildings from geometric, cartographic, and semantic viewpoints, IndoorGML intentionally focuses on modelling indoor spaces for navigation purposes.</p>
-
-:ET
