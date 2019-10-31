@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Potential research topics
+title:  Potential research orientation (GEO5010) topics
 permalink: /education/researchtopics/
 ---
 

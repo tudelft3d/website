@@ -28,7 +28,7 @@ permalink: /projects/geobim-benchmark/
   {% for news in sorted limit:3 %}
   	<p><small><span class="post-date">{{ news.date | date: "%b %d" }}</span></small> {{ news.news }}</p>
   {% endfor %}
-  <a href="/news.html">All news</a>
+  <a href="news.html">All news</a>
 </div>
 
 The website and the FAQ section tries to answer possible doubts about the test and the data. Do you have more and would you like to talk about them or about found issues? You can register in this doodle: [Q&A session about the GeoBIM benchmark](https://doodle.com/poll/fz6a6vvvz3dft5g9) If a few people are interested, the session will be hold on 3rd October 2019 h.10.00-11.00 CET via web (we will publish the link to join).
