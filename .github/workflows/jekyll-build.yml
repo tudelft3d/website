@@ -18,10 +18,10 @@ jobs:
     - name: Install dependencies
       run: |
         gem install jekyll parslet htmlentities
-    - name: jekyll build
-      run: jekyll build --trace
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
+    - name: jekyll build
+      run: jekyll build --trace
     - name: trigger update
       run: curl -L ${{ secrets.UPDATE_URL }}
