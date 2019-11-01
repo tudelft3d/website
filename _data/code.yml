@@ -23,7 +23,7 @@
   image: easy3d.jpg
 
 - name: PolyFit
-  description: Piecewise planar object (e.g., buildings) reconstruction from point clouds. Also available in [CGAL](https://cgal.geometryfactory.com/CGAL/doc/master/Polygonal_surface_reconstruction/index.html)
+  description: Piecewise planar object (e.g., buildings) reconstruction from point clouds. Also available in <a href="https://cgal.geometryfactory.com/CGAL/doc/master/Polygonal_surface_reconstruction/index.html" target="_blank">CGAL</a>
   github: https://github.com/LiangliangNan/PolyFit
   image: polyfit.jpg
   web: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
