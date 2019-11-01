@@ -11,11 +11,16 @@
   appstore: https://itunes.apple.com/app/azul/id1173239678?mt=12
   
 - name: AdTree
-  description: Reconstructing accurate and detailed 3D tree models from point clouds.
+  description: Reconstructing accurate and detailed 3D tree models from point clouds
   github: https://github.com/tudelft3d/adtree
   image: adtree.jpg
   web: https://www.mdpi.com/2072-4292/11/18/2074
   paper: https://3d.bk.tudelft.nl/liangliang/publications/2019/adtree/AdTree_RS-2019.pdf
+
+- name: Easy3D
+  description: A lightweight, easy-to-use, and efficient C++ library for processing and rendering 3D data
+  github: https://github.com/LiangliangNan/Easy3D/
+  image: easy3d.jpg
 
 - name: PolyFit
   description: Piecewise planar object (e.g., buildings) reconstruction from point clouds
