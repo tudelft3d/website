@@ -101,6 +101,14 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
   </div>
 </div>
 
+### Progress meeting on 2019-1-01 in Delft
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSM4w5ILL8RvvOjUuiCTS-lvnUBnYbZC8a5g6RRHs2TAZCQoilevhvtTV2EiesEH8_e8Prr2xQEf2dU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
 - - -
 
 # Project partners
