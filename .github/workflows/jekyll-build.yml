@@ -17,5 +17,6 @@ jobs:
       run: |
         gem install jekyll parslet htmlentities
     - name: build
-      run: |
-        jekyll build --trace
+      run: jekyll build --trace
+    - name: trigger update
+      run: curl -L {{secrets.UPDATE_URL}}
