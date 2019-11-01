@@ -19,10 +19,3 @@ jobs:
     - name: build
       run: |
         jekyll build --trace
-    - name: deploy website
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.host }}
-        username: ${{ secrets.username }}
-        key: ${{ secrets.private_key }}
-        script: whoami
