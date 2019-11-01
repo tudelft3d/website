@@ -19,4 +19,4 @@ jobs:
     - name: build
       run: jekyll build --trace
     - name: trigger update
-      run: curl -L {{secrets.UPDATE_URL}}
+      run: curl -L ${{ secrets.UPDATE_URL }}
