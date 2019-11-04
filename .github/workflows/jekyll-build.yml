@@ -1,6 +1,9 @@
 name: jekyll build
 
-on: [push]
+on: 
+  push:
+    branches: 
+    - master
 
 jobs:
   build:
@@ -12,10 +15,13 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-    - uses: actions/checkout@v1
     - name: Install dependencies
       run: |
         gem install jekyll parslet htmlentities
-    - name: build
-      run: |
-        jekyll build --trace
+    - uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: jekyll build
+      run: jekyll build --trace
+    - name: trigger update
+      run: curl -L ${{ secrets.UPDATE_URL }}
