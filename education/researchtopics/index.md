@@ -37,3 +37,15 @@ In this research the aim is:
 
 **Contact:** [Francesca Noardo](http://www.noardo.eu), [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis), [Ravi Peters](http://tudelft.nl/rypeters).
 
+
+## Checking dwellings and volumes in BIM
+
+![](img/UpTown5.gif){:width="400px"}
+
+Given a Building Information Model in Industry Foundation Classes (IFC) format, it is necessary to compute the number of dwellings in the building and the respective volumes, to check compliancy with the urban regulations.
+
+In this research, it is possible either to make a literature review on the topic and apply the found methods, or to develop a tool from scratch.
+
+Prior algorithmic knowlegde, recursion, graph concepts could be beneficial.
+
+**Contact:** [Francesca Noardo](http://www.noardo.eu), [Thomas Krijnen](http://thomaskrijnen.com/)
