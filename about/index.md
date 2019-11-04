@@ -56,7 +56,7 @@ Our research funding mostly comes from the following organisations:
   <h2>Our offices</h2>
 
   <div class="col-md-4 col-sm-6 col-xs-12">
-    <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.010 (building #8) <br>
+    <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550 (building #8) <br>
     <i class="fas fa-map-marker-alt fa-fw fade"></i> Faculty of the Built Environment <br>
     <i class="fas fa-map-marker-alt fa-fw fade"></i> and Architecture<br>
     <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br>
@@ -75,7 +75,7 @@ Our research funding mostly comes from the following organisations:
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/kenohori/cim0i33ql00jmbjlw9l1pro1i',
-    center: [4.37036640026392, 52.004713684518933],
+    center: [4.3697572,52.0056088],
     zoom: 13.5,
     pitch: 60
   });
@@ -90,7 +90,7 @@ Our research funding mostly comes from the following organisations:
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.37036640026392, 52.004713684518933]
+        "coordinates": [4.3697572,52.0056088]
       }
     }]
   }
@@ -111,7 +111,7 @@ Our research funding mostly comes from the following organisations:
     });
 
     // add marker to map
-    new mapboxgl.Marker(el, {offset: [-marker.properties.iconSize[0] / 2, -marker.properties.iconSize[1] / 2]})
+    new mapboxgl.Marker(el)
       .setLngLat(markers.features[0].geometry.coordinates)
       .addTo(map);
   });
