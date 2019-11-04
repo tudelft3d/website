@@ -47,27 +47,27 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 # Presentations
 
-### Kickoff meeting on 2018-05-18 in Delft
+### Progress meeting on 2019-11-01 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQIBHL1kPQuQXAcPC0KpTeLNJCeSpvk2GC0jVs5-9M9dvmQ3ZYSfKLohd9yZdmWmR_iwZYZWjpJNNfu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSM4w5ILL8RvvOjUuiCTS-lvnUBnYbZC8a5g6RRHs2TAZCQoilevhvtTV2EiesEH8_e8Prr2xQEf2dU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
 
-### Progress meeting on 2018-07-11 in Delft
+### Progress meeting on 2019-09-20 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSoc6X22aCw8VRb2_hSW0z84RFdBZH2958mL_T893bfg9vcgHtM_D-68kOMso7_slRJDilujDgExZTa/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTnpKN5Cyj0d9msC3qNzq0T2Uk4N3RwRy8qlmBj1dEYr7KKIkCfxnqxQUzazeaiQKBHMymlo0djVrdU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
 
-### Progress meeting on 2018-10-16 in Delft
+### Kickoff version 0.3 on 2019-07-05 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvamnAono1taAC4ZHLF80OieRhcKLxphNaE6YncJcQUbSlRcGW4UZ090xkAvEZiVOcS42jy2mA8vw7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0BS_nfIbHgZCsMzhz8PJU7KeBRgJDKI-2U9w4YVLh1m1pyezl_aPAcFHvgGuTGPozxDrUVVS6Tqcl/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
 
@@ -85,27 +85,27 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
   </div>
 </div>
 
-### Kickoff version 0.3 on 2019-07-05 in Delft
+### Progress meeting on 2018-10-16 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0BS_nfIbHgZCsMzhz8PJU7KeBRgJDKI-2U9w4YVLh1m1pyezl_aPAcFHvgGuTGPozxDrUVVS6Tqcl/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvamnAono1taAC4ZHLF80OieRhcKLxphNaE6YncJcQUbSlRcGW4UZ090xkAvEZiVOcS42jy2mA8vw7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
 
-### Progress meeting on 2019-09-20 in Delft
+### Progress meeting on 2018-07-11 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTnpKN5Cyj0d9msC3qNzq0T2Uk4N3RwRy8qlmBj1dEYr7KKIkCfxnqxQUzazeaiQKBHMymlo0djVrdU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSoc6X22aCw8VRb2_hSW0z84RFdBZH2958mL_T893bfg9vcgHtM_D-68kOMso7_slRJDilujDgExZTa/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
 
-### Progress meeting on 2019-01-01 in Delft
+### Kickoff meeting on 2018-05-18 in Delft
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSM4w5ILL8RvvOjUuiCTS-lvnUBnYbZC8a5g6RRHs2TAZCQoilevhvtTV2EiesEH8_e8Prr2xQEf2dU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQIBHL1kPQuQXAcPC0KpTeLNJCeSpvk2GC0jVs5-9M9dvmQ3ZYSfKLohd9yZdmWmR_iwZYZWjpJNNfu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
 
