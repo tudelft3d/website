@@ -10,6 +10,7 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+
 ## The effect of real void decks in Singapore ventilation
 In tropical climates urban ventilation is key to improve pedestrian thermal comfort and air pollution exposure. Void decks are a common urban design used to enhance local street ventilation in compact urban areas. However, while improving thermal comfort and local air quality, void decks change pedestrian wind comfort as well. Some studies have explored the effect of void decks in idealized configurations, retrieving wind speeds enhanced up to two times at pedestrian level. Thus, understanding wind flows around void deck configurations is fundamental to optimize local urban designs towards concrete environmental goals.  
 
@@ -20,6 +21,8 @@ If you work on this topic, you can expect to learn all the fundamentals of CFD i
 ![](img/Singapore3Dmodel.jpeg){:width="600px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com)
+
+- - -
 
 ## Estimation of the impact of field view in the value of high-rise-buildings flats
 

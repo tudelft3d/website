@@ -10,6 +10,7 @@ permalink: /education/researchtopics/
 {:toc}
 
 - - -
+
 ## A CityJSON loader for ParaView
 
 ![](img/paraview.png){:width="400px"}
@@ -22,6 +23,7 @@ Resources: [ParaView plugins how-to](https://www.paraview.org/Wiki/ParaView/Plug
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com)
 
+- - -
 
 ## Inferring the needed building permission from a 3D building model
 
@@ -37,6 +39,7 @@ In this research the aim is:
 
 **Contact:** [Francesca Noardo](http://www.noardo.eu), [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis), [Ravi Peters](http://tudelft.nl/rypeters).
 
+- - -
 
 ## Checking dwellings and volumes in BIM
 
