@@ -1,3 +1,37 @@
+- dataset: Vantaa
+  link: https://www.betaavoindata.fi/data/fi/dataset/vantaan-3d-rakennukset
+  country: Finland
+  building_lod: LoD1+LoD2
+  formats: CityGML, Sketchup, KML
+  year: 2017
+  texture: yes
+
+- dataset: Luxembourg
+  link: https://data.public.lu/en/datasets/5cf4e1230f7fb0030af0771a/
+  country: Luxembourg
+  building_lod: LoD1+LoD2.3
+  formats: CityGML
+  year: 2017
+  texture: no
+  notes: LoD1 is also available [at this link](https://data.public.lu/en/datasets/5cecd25a4384b06ad27e5c58/)
+
+- dataset: Potsdam
+  link: https://potsdam.opendatasoft.com/explore/dataset/3d-gebaudemodell-lod2-citygml/
+  country: Germany
+  building_lod: LoD2
+  formats: CityGML
+  year: 2018
+  texture: no
+
+- dataset: Namur
+  link: https://data.namur.be/explore/dataset/namur-3d-batiments-textures-par-dalle-de-200m/
+  country: Belgium
+  building_lod: LoD2
+  formats: CityGML, Sketchup
+  year: 2018
+  texture: yes
+  notes: Bridges and citadel available [here](https://data.namur.be/explore/dataset/namur-3d-citadelle-et-ponts/)
+
 - dataset: Singapore
   link:    https://github.com/ualsg/hdb3d-data
   country: Singapore
@@ -25,7 +59,6 @@
   year: 2019
   texture:  no
   # notes: 
-
 
 - dataset: American cities
   link:    https://github.com/opencitymodel/opencitymodel
@@ -121,7 +154,8 @@
   country: France
   building_lod: LoD2
   formats: CityGML
-  year: 2012
+  year: 2009, 2012, 2015
+  texture: yes
   classes:  Terrain, water
   
 - dataset: Montréal
