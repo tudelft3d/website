@@ -214,11 +214,11 @@
   # index: none
   description: It aims to further the scientific endeavor underpinning the development, implementation and use of Spatial Data Infrastructures (SDIs). These are defined as frameworks of technologies, data, policies, institutional arrangements, and people aimed at increasing the availability, understanding, and use of spatial data and services to support policy, business, research, and society at large.
 
-- name: ISPRS International Journal of Geo-Information (IJGI)
-  webpage: http://www.mdpi.com/journal/ijgi
-  index: ISI
-  description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
-  scirev: https://scirev.sc/journal/isprs-international-journal-of-geo-information/
+# - name: ISPRS International Journal of Geo-Information (IJGI)
+#   webpage: http://www.mdpi.com/journal/ijgi
+#   index: ISI
+#   description: ISPRS International Journal of Geo-Information (ISSN 2220-9964), an international scientific open access journal on geo-information, is jointly published by ISPRS and MDPI online quarterly.
+#   scirev: https://scirev.sc/journal/isprs-international-journal-of-geo-information/
 
 - name: ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
   webpage: http://www.isprs.org/isprsjournal/
