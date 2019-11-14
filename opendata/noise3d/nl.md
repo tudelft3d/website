@@ -1,14 +1,14 @@
 ---
 layout: page_noise3d
-title: 3D input data voor geluidssimulaties versie 0.2 (experimenteel)
+title: 3D input data voor geluidssimulaties versie 0.2 (experimenteel), opgeleverd in voorjaar 2019
 permalink: /opendata/noise3d/nl
 is_dutch: true
 ---
 
 ![](/img/projects/noise3d_banner.jpg)
 
-<div class="well"><b>Feedback Sessie op 12 juni 2019</b><br/><br/>
-	Op woensdag 12 juni 2019 organiseren we een feedback sessie bij het Kadaster in Rotterdam (13:30-16:00). Tijdens deze sessie zullen we uitleg geven over onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
+<div class="well"><b>Feedback Sessie op 6 februari 2020</b><br/><br/>
+	Op donderdag 6 februari 2020 organiseren we een feedback sessie over versie 0.3 (die momenteel in ontwikkeling is) bij het Kadaster in Rotterdam (10:00-12:00). Tijdens deze sessie zullen we uitleg geven over de stand van zaken van onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
 	U kunt zich <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">hier</a> aanmelden voor deze sessie.
 	</div>
 
@@ -19,11 +19,11 @@ is_dutch: true
 
 - - -
 ## Wat is 3D geluid NL? Introductie
-De afgelopen 2 jaar hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt alle modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties . Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
+De afgelopen 3 jaar hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt alle modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties. Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
 
 Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3d/" | prepend: site.baseurl  }}) te vinden.
 
-Op deze webpage stellen we voorbeeld data beschikbaar welke is gegenereerd met versie 0.2 van onze methode. Op deze versie ontvangen we graag feedback voor onze verdere ontwikkeling. 
+Op deze webpage stellen we voorbeeld data beschikbaar welke is gegenereerd met versie 0.2 van onze methode (welke gereed was in voorjaar 2019). Momenteel zijn we bezig met doorontwikkeling naar versie 0.3. Deze zal begin 2020 beschikbaar worden gesteld,
 
 
 ## Beschrijving test data versie 0.2
@@ -297,10 +297,6 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
   </tr>
 </table>
 
-
-## Feedback Formulier
-
-Voor vragen en feedback vragen we u dit [feedback formulier](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform) in te vullen.
 
 ## Disclaimer
 Het bestand 3D geluid NL versie 0.2 wordt uitsluitend ter beschikking gesteld voor testdoeleinden. Er kunnen geen rechten aan worden ontleend.
