@@ -1,3 +1,12 @@
+- dataset: Bordeaux
+  link: https://opendata.bordeaux-metropole.fr/explore/dataset/bati3d/information/
+  country: France
+  building_lod: LoD2
+  formats: 3DS
+  year: 2012
+  texture: yes
+  notes: Version without textures available [here](https://opendata.bordeaux-metropole.fr/explore/dataset/bati3d_nt/information/)
+
 - dataset: Vantaa
   link: https://www.betaavoindata.fi/data/fi/dataset/vantaan-3d-rakennukset
   country: Finland
