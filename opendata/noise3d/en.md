@@ -1,6 +1,6 @@
 ---
 layout: page_noise3d
-title: 3D input data for noise studies (experimental)
+title: 3D input data for noise studies (experimental), published in spring 2019
 permalink: /opendata/noise3d/en
 is_dutch: false
 ---
@@ -8,7 +8,7 @@ is_dutch: false
 ![](/img/projects/noise3d_banner.jpg)
 
 <div class="well"><b>Feedback Session on 12 June 2019</b><br/><br/>
-	On the Wednesday 12th of June 2019 we are organising a feedback session at the offices of the Kadaster in Rotterdam (13:30-16:00). During this session we will present our approach and we will recieve your feedback for further development.
+	At this moment we are further developing our methods to version 0.3. On Thursday 6th of February we are organising a feedback session at the offices of the Kadasterin Rotterdam (10:00-12:00). During this session we will present our updated approach and we will be happy recieve your feedback for further development.
 	
 	You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
 	</div>
@@ -21,11 +21,11 @@ is_dutch: false
 - - -
 ## What is 3D noise in the Netherlands? An introduction
 
-The past 2 years, we have investigated to automatically reconstruct 3D noise data in a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft. In this collaboration, we have investigated how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
+The past 3 years, we have investigated to automatically reconstruct 3D noise data in a collaboration of Rijkswaterstaat, RIVM, Kadaster and the 3D geoinformation research group from TU Delft. In this collaboration, we have investigated how 3D data on noise sources and the environment, as required in legally prescribed noise studies, can be automatically generated for the whole of the Netherlands from existing data such as the Key Register Addresses and Buildings (BAG), the Basic Register for Large-Scale Topography (BGT) and the airborne LiDAR point cloud covering the whole of The Netherlands (AHN). 
 
 This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }}).
 
-On this site we publish an example dataset that is generated using the current 0.2 version of our method. With this sample dataset interested parties have the possibility to review our results and send us feedback.
+On this site we publish an example dataset that is generated using the 0.2 version of our method in spring 2019. With this sample dataset interested parties have the possibility to review our results and send us feedback. At this moment we are further developing our methods to version 0.3. Results will be available beginning of 2020.
 
 ## Description test data version 0.2
 
