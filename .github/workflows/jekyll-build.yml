@@ -19,8 +19,6 @@ jobs:
       run: |
         gem install jekyll parslet htmlentities
     - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
     - name: jekyll build
       run: jekyll build --trace
     - name: trigger update
