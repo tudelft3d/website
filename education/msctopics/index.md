@@ -19,7 +19,7 @@ In the framework of this master thesis, you will work independently with a model
 
 This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich, Germany. The work will take place in Jülich, Germany. Experience in programming and a basic in German language is beneficial, but not essential.
 
-![](img/julich_01.tif){:width="600px"}
+![](img/julich_01.jpg){:width="600px"}
 
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
 
