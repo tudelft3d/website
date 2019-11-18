@@ -11,6 +11,20 @@ permalink: /education/msctopics/
 
 - - -
 
+## Utilization of alternative fuels in the transport sector and identification of their emission reduction potential regarding harmful air pollution
+
+The air quality in cities is one of the big topics of modern society. This air quality is affected form harmful emission like nitrogen oxides and particulate matter that are, in urban areas, mainly produced from the transport sector. A promising option besides changing the modal split or reducing mileages is the change to alternative fuels. To identify suitable application cases for alternative fuels, analyses to determine which vehicles are the main polluters in agglomerations are mandatory. 
+
+In the framework of this master thesis, you will work independently with a model developed at the Forschungszentrum Jülich that considers the mileages and resulting emissions of road transport, rail transport, inland waterway transport and air transport considering different fuels and conditions. Mileages and emissions are spatially presented in the results of the model. Your work will include development and extension of this model as well as the analysis of results for different future scenarios. The model is implemented in Python and QGIS is used to plot results.
+
+This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich, Germany. The work will take place in Jülich, Germany. Experience in programming and a basic in German language is beneficial, but not essential.
+
+![](img/julich_01.tif){:width="600px"}
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
+
+- - -
+
 ## The effect of real void decks in Singapore ventilation
 In tropical climates urban ventilation is key to improve pedestrian thermal comfort and air pollution exposure. Void decks are a common urban design used to enhance local street ventilation in compact urban areas. However, while improving thermal comfort and local air quality, void decks change pedestrian wind comfort as well. Some studies have explored the effect of void decks in idealized configurations, retrieving wind speeds enhanced up to two times at pedestrian level. Thus, understanding wind flows around void deck configurations is fundamental to optimize local urban designs towards concrete environmental goals.  
 
