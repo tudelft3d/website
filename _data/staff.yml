@@ -1,3 +1,12 @@
+
+- surname: Wu
+  name: Teng
+  title: Research software engineer
+  photo: teng.jpg
+  # homepage: 3d.bk.tudelft.nl/jinhuang
+  email: t.wu@tudelft.nl
+  # description: "Topic: 3D reconstruction and point cloud processing"
+
 - surname: Huang
   name: Jin
   title: PhD candidate
