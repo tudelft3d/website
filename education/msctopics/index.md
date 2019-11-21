@@ -25,19 +25,6 @@ This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich
 
 - - -
 
-## The effect of real void decks in Singapore ventilation
-In tropical climates urban ventilation is key to improve pedestrian thermal comfort and air pollution exposure. Void decks are a common urban design used to enhance local street ventilation in compact urban areas. However, while improving thermal comfort and local air quality, void decks change pedestrian wind comfort as well. Some studies have explored the effect of void decks in idealized configurations, retrieving wind speeds enhanced up to two times at pedestrian level. Thus, understanding wind flows around void deck configurations is fundamental to optimize local urban designs towards concrete environmental goals.  
-
-Within this MSc thesis, we will use the newly published cityjson 3D city model of Singapore to analyze wind flows around realistic void decks already existent within the urban area. The innovative aspect of the project resides in the combination of open data, cityjson and void deck geometries with computational fluid dynamic tools. The study will analyze changes in wind and temperature distributions accross the most common wind directions using the open source CFD libraries OpenFOAM. 
-
-If you work on this topic, you can expect to learn all the fundamentals of CFD in urban environments and flow pattern physics around buildings (as in wind and temperature fields). Ideally, you could also explore the effects of void decks to potential dispersion releases, if time allows for it. The project will be done in collaboration with the NUS Urban Analytics Lab in Singapore. 
-
-![](img/Singapore3Dmodel.jpeg){:width="600px"}
-
-**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com)
-
-- - -
-
 ## Estimation of the impact of field view in the value of high-rise-buildings flats
 
 ![](img/ga_ilir_2019.jpg){:width="600px"}
@@ -152,21 +139,6 @@ Knowledge of programming in python is required.
 Following elective course GEO5013 is an advantage.
 
 **Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## From GIS to 3D flow simulations in urban environments
-
-![](img/WindFlowOklahoma.png){:width="600px"}
-
-Changes in wind can largely affect the wind pattern within cities, leading to zones with high wind speeds and areas with flow stagnation. Wind distributions in urban area depend on heterogeneous city layouts and change with new constructions. A priori knowledge of winds within a certain urban area can help to develop strategies that improve pedestrian wind comfort, help urban designs and ameliorate urban air quality. However, the chain process from the use of GIS data, to the construction of a 3D city model enriched with diverse semantics that can be used in CFD simulations is complex.  
-
-The present MSc project goal is to start from GIS databases to generate a water tight model with different semantics, to evaluate and to design a guideline that includes the model information required to perform wind flow simulations. The test case will be built around TU Delft campus, including semantics that differentiate between buildings, green and water areas.
-
-Knowledge of programming in python is required. 
-Following elective course GEO5013 is recommended.
-
-**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)
 
 - - -
 
