@@ -1,3 +1,17 @@
+- surname: Garg
+  name: Chirag
+  title: Semantic 3D indoor scene abstraction/modeling from a single image
+  image: indoor.png
+
+- surname: Kaniouras
+  name: Pantelis
+  title: Road Detection from Remote Sensing Imagery
+  image: road.png
+
+- surname: Zhao
+  name: Yifang
+  title: Outer surface extraction for complex 3D models
+  image: outersurface.png
 
 - surname: Opsomer   
   name: Aviva
