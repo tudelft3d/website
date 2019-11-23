@@ -13,7 +13,7 @@
 - name: AdTree
   description: Reconstructing accurate and detailed 3D tree models from point clouds
   github: https://github.com/tudelft3d/adtree
-  image: adtree.jpg
+  image: adtree.png
   web: https://www.mdpi.com/2072-4292/11/18/2074
   paper: https://3d.bk.tudelft.nl/liangliang/publications/2019/adtree/AdTree_RS-2019.pdf
 
