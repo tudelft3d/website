@@ -13,6 +13,11 @@
   title: Updating and versioning of 3D city models
   image: mastorakis.png
 
+- surname: Staring
+  name: Karin
+  title: Comparison of storing CityJSON in differente databases and querying with GraphQL
+  image: karinstaring.jpg
+
 - surname: Zhao
   name: Yifang
   title: Outer surface extraction for complex 3D models
