@@ -47,6 +47,11 @@
   name: Panagiotis
   title: Coupling CityGML with ENVI-met
   image: arapakis.png
+  
+- surname: Wiersma  
+  name: Gabriella
+  title: Towards semantically harmonized government geodata
+  image: wiersma.png  
 
 # - surname: Veenendaal  
 #   name: Marc-Julien
