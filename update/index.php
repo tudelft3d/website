@@ -11,8 +11,11 @@ layout: default
 <h1>Git pull</h1>
 <pre><code>
 <?php
-	echo("$ git -C ".$repository_path." pull\n");
-	system("git -C ".$repository_path." pull 2>&1");
+	echo("$ git -C ".$repository_path." fetch\n");
+	system("git -C ".$repository_path." fetch 2>&1");
+
+	echo("$ git -C ".$repository_path." checkout origin/master\n");
+	system("git -C ".$repository_path." checkout origin/master 2>&1");
 ?>
 </code></pre>
 
