@@ -1,3 +1,12 @@
+- name: GISRUK 2020
+  url: http://london.gisruk.org/
+  place: London, UK
+  start: 2020-04-21
+  end: 2020-04-24
+  milestones:
+    - name: "Abstract Submission Deadline"
+      date: 2020-01-10
+
 - name: ICCCBE/W78 Joint Conference
   url: http://www.pcc.usp.br/icccbe-w78-2020
   place: São Paulo, Brazil
