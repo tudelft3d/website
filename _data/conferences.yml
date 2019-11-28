@@ -8,6 +8,12 @@
     - name: Abstract submission deadline
       date: 2020-04-22
 
+- name: AGILE 2020
+  url: https://agile-online.org/conference-2020
+  place: Chania, Crete, Greece
+  start: 2020-06-16
+  end: 2020-06-19
+
 - name: GISRUK 2020
   url: http://london.gisruk.org/
   place: London, UK
