@@ -1,3 +1,13 @@
+- name: 3D GeoInfo 2020
+  place: London, UK
+  start: 2020-09-08
+  end: 2020-09-11
+  milestones:
+    - name: Full paper submission deadline
+      date: 2020-04-06
+    - name: Abstract submission deadline
+      date: 2020-04-22
+
 - name: GISRUK 2020
   url: http://london.gisruk.org/
   place: London, UK
