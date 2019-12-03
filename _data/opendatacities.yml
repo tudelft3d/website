@@ -255,7 +255,7 @@
   year: 2016
   # texture:  No
   # notes: Released in 2015
-  formats: Shapefile, Geodatabase, AutoCAD, SketchUp
+  formats: Shapefile, ESRI Multipatch, AutoCAD, SketchUp
 
 - dataset: Boston
   link: http://www.bostonplans.org/3d-data-maps/3d-smart-model/3d-data-download
