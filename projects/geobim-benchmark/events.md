@@ -23,9 +23,9 @@ A winter school for presenting the main results and training to GeoBIM.
 
 *Please, note that this is not an ISPRS event, although part of the research presented in the workshop are results of the GeoBIM benchmark, funded as Scientific initiative by ISPRS and co-funded by EuroSDR.*
 
-***Streaming of second day is [live](https://www.youtube.com/watch?v=abhQsACc5aQ)!***
-
 ***Recording of the first day is [here](https://www.youtube.com/watch?v=24G8zAnK-e4&feature=youtu.be).***
+
+***Recording of the second day is [here](https://www.youtube.com/watch?v=abhQsACc5aQ).***
 
 The GeoBIM benchmark workshop will be held on next **December 2nd/3rd** to get insight into the **GeoBIM benchmark results** and explore in detail the **related topics**:
 

@@ -1,29 +1,3 @@
-- type: "GeoBIM benchmark workshop"
-  description: 3D city models, Building Information Models and their integration (interoperability and use cases) - 2nd-3rd December 2019 in Amsterdam. <a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html" class="alert-link">Info and registration (close 15th November)</a>
-
-# - type: "We are hosting FOSS4GNL!"
-#   description: It's on 20 June 2019, register and propose a talk -> <a href="https://foss4g.nl/" class="alert-link">foss4g.nl</a>
-
-# - type: "Tenure track available:"
-#   description: Assistant-professor 3D city modelling for urban applications (tenure track). <a href="/jobs/ud2017/" class="alert-link">More information</a>.
-
-# - type: "Upcoming event:"
-#   description: Point Cloud Processing 2018. <a href="/events/pcp2018" class="alert-link">More information</a>
-
-# - type: "Upcoming events:"
-#   description: <a href="https://3dgeoinfo2018.nl" class="alert-link">3D Geoinfo Conference 2018</a> and the <a href="https://3dgeoinfo2018.nl/workshop.html" class="alert-link">3D Geoinfo pre-conference workshop on Automated reconstruction of 3D City Models and using them in urban applications</a>
-
-# - type: "Postdoc available:"
-#   description: about the integration of Geo and BIM. <a href="/jobs/postdoc2017/" class="alert-link">More information</a>
-
-# - type: "New position available:"
-#   description: Assistant-professor 3D reconstruction for urban applications (tenure track). <a href="/jobs/ud/" class="alert-link">More information</a>.
-
-# - type: We are hiring again! 
-  # description: Postdoc position about 3D space subdivision for indoor navigation. <a href="/jobs/postdoc201503/" class="alert-link">More information</a>.
-
-# - type: We are hiring again! 
-  # description: Postdoc 
-
-# - type: 
-  # description: <a href="events/udmv2015/">We are organising the 3rd Eurographics Workshop on Urban Data Modelling and Visualisation on 23 November 2015.</a>
+# Example entry
+# - type: "Example title"
+#   description: This is the description
