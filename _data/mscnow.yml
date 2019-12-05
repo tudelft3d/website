@@ -1,3 +1,8 @@
+- surname: Mulder
+  name: Amber
+  title: Semantic Segmentation of RGB-Z Aerial Imagery Using Fully Convolutional Networks
+  image: amulder.jpeg
+
 - surname: van Liempt
   name:  Jordi
   title: Efficient web handling of CityJSON
