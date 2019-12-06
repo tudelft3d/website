@@ -673,7 +673,8 @@ In the last columns of the table that follows, some details about the used **met
 				<td> </tr>
 				<td>2</tr>
 			</tr>
-			<td>ESRI ArcGIS Pro (Data interoperability extension)</td>
+			<tr>
+				<td>ESRI ArcGIS Pro (Data interoperability extension)</td>
 				<td>Windows</tr>
 				<td> </tr>
 				<td>1</tr>
