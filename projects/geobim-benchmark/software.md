@@ -662,7 +662,6 @@ In the last columns of the table that follows, some details about the used **met
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
