@@ -669,15 +669,15 @@ In the last columns of the table that follows, some details about the used **met
 		<tbody>
 			<tr>
 				<td>ESRI ArcGIS (Data interoperability extension)</td>
-				<td>Windows</tr>
-				<td> </tr>
-				<td>2</tr>
+				<td>Windows</td>
+				<td> </td>
+				<td>2</td>
 			</tr>
 			<tr>
 				<td>ESRI ArcGIS Pro (Data interoperability extension)</td>
-				<td>Windows</tr>
-				<td> </tr>
-				<td>1</tr>
+				<td>Windows</td>
+				<td> </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
