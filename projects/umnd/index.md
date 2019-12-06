@@ -79,6 +79,7 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
 The following is the list of events that we participated in or organised related to the UMnD project:
 
 ### 2019
+- [EuroSDR - AMS GeoBIM benchmark workshop, Amsterdam, 2 and 3 December](https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html)
 - [3D GeoInfo 2019 Conference, Singapore, 26 and 27 September](https://www.3dgeoinfo2019.com/)
 - [2nd International IAG Workshop on BIM and GIS Integration, Singapore, 25 September](https://www.3dgeoinfo2019.com/bim-gis-workshop/)
 
