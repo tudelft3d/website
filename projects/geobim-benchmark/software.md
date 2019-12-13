@@ -6,14 +6,15 @@ permalink: /projects/geobim-benchmark/software.html
 
 <h1>Software, tools and procedures being tested</h1>
 
-In this page you can find a list of software to be tested / being tested / tested.
+In this page you can find the list of tested software.
 
+<!--
 This would inform about the progress of the benchmark, and would also guide participants in the choice of the tools to be tested.
 
 Notice that, even if the aim is to test the **highest possible number of software/tools/procedures**, the same software/tool/procedure can be tested **more than once**, especially for highly customisable tools (like Safe Software FME); this will allow testing replicability (see the [FAQ section](https://3d.bk.tudelft.nl/projects/geobim-benchmark/faq.html)).
 
 In addition, **you are free to test other tools, not in this list yet**. We will add them as soon as you will register your participation.
-
+-->
 In the last columns of the table that follows, some details about the used **method** to make the data work in the software (procedures, plugins, tools), when needed, are added, together with the **level of expertise** of the participant who tested it, following the scale:
 
 * 1 - *Very beginner user* (it is nearly the first time he/she use the software)
@@ -21,11 +22,8 @@ In the last columns of the table that follows, some details about the used **met
 * 3 - *Expert user* (knows very well the technical details and tricks)
 * 4 - *Developer of the tested software*
 
-To guide your choice, it is preferable to use **different methods** for the same tools, and that participants with **different levels of expertise** test the same tool.
 
-The software whose testing status is "in progress" are only provisionally linked to the specific task, but they could be used also for others. More specific information is added after the test is delivered.
-
-*Last update: 06th August 2019*
+*Last update: 06th December 2019*
 - - -
 
 * Table of Content
@@ -42,7 +40,6 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
@@ -51,194 +48,92 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<td>Autodesk Revit 2018</td>
 				<td>Windows 10/Home</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
 				<td>Autodesk Revit 2018</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Windows 10 Enterprise</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
 				<td>Autodesk Revit 2019</td>
 				<td>Windows 10/Home</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>3</td>
 			</tr>
 			<tr>
-				<td>Autodesk Revit</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Autodesk Revit 2019.2</td>
+				<td>Windows 10 Enterprise</td>
 				<td> - </td>
 				<td> </td>
 			</tr>
 			<tr>
-				<td>Autodesk Revit</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Autodesk Revit</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Autodesk Revit 2020</td>
+				<td>Windows 10 Pro</td>
 				<td> - </td>
 				<td> </td>
 			</tr>
 			<tr>
 				<td>Graphisoft ArchiCAD 22.0.0</td>
 				<td>Windows 10/Home</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>Vectorworks Designer 2019</td>
-				<td>Windows 10/Home</td>
-				<td>Results delivered</td>
-				<td> - </td>
-				<td>1</td>
-			</tr>
-			<tr>
-				<td>Solibrí Model Viewer 9.8.18</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>CSTB eveBIM 2.8</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>BimServer 1.5.138</td>
-				<td>macOS 10.13.6</td>
-				<td>Results delivered</td>
+				<td>Graphisoft ArchiCAD 22.0.0</td>
+				<td>Windows 10</td>
 				<td> - </td>
 				<td>2</td>
 			</tr>
 			<tr>
-				<td>BimServer</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Vectorworks Designer 2019</td>
+				<td>Windows 10/Home</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>Bentley Allplan</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>BimServer 1.5.138</td>
+				<td>macOS 10.13.6</td>
 				<td> - </td>
-				<td> </td>
+				<td>2</td>
 			</tr>
 			<tr>
-				<td>AECOsim</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Allplan</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>Autodesk Civil 3D</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
 				<td>ACCA Edificius</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
 				<td> </td>
 			</tr>
 			<tr>
-				<td>simplebim</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>Simplebim</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>Tekla</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>Solibri Office</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>Bentley Microstation</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Tekla Structures</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Bentley MicroStation + TerraSolid</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Construsoft Vico Office Suite</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Autodesk Autocad Architecture</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Autodesk Fusion</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>OpenDesignAlliance IFC SDK</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>HALE</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Solibri</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>DDS-CAD</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
@@ -251,28 +146,28 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>ESRI ArcGIS</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>ESRI ArcGIS Pro</td>
+				<td>Windows 10</td>
 				<td> - </td>
-				<td> </td>
+				<td>3</td>
 			</tr>
 			<tr>
-				<td>Bentley Map</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
+				<td>Bentley Map Enterprise</td>
+				<td>Windows 10 Home</td>
 				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>...</td>
+				<td>QGIS 3.4</td>
+				<td>Windows 10</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
@@ -285,21 +180,90 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Safe Software FME</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Safe Software FME 2019.2</td>
+				<td>Windows 10</td>
 				<td> - </td>
-				<td> </td>
+				<td>3</td>
 			</tr>
 			<tr>
-				<td>...</td>
+				<td>Safe Software FME 2019.1.3.1</td>
+				<td>Windows 10</td>
+				<td> - </td>
+				<td>3</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3>Analysis software</h3>
+<div class="table-responsive">
+	<table class="table table-hover table-striped table-condensed">
+		<thead>
+			<tr>
+				<th>Software & version</th>
+				<th>Operating system</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>ACCA PriMus-IFC</td>
+				<td>Windows 10 Home</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3>CAD & 3D modelling software</h3>
+<div class="table-responsive">
+	<table class="table table-hover table-striped table-condensed">
+		<thead>
+			<tr>
+				<th>Software & version</th>
+				<th>Operating system</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Autodesk AutoCAD Architecture</td>
+				<td>Windows 10 Home</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Bentley MicroStation + TerraSolid</td>
+				<td>Windows 10 Home</td>
+				<td> - </td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>FreeCAD 0.19</td>
+				<td>Windows 10 Education</td>
+				<td> - </td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>FreeCAD 0.18</td>
+				<td>Windows 10 Enterprise</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Trimble SketchUp</td>
+				<td>macOS Mojave</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
@@ -312,117 +276,46 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Autodesk Infraworks</td>
-			</tr>
-			<tr>
-				<td>ifcviewer</td>
-			</tr>
-			<tr>
-				<td>Trimble SketchUp 2019</td>
-				<td>macOS Mojave</td>
-				<td>Results delivered</td>
-				<td> - </td>
-				<td>1</td>
-			</tr>
-			<tr>
 				<td>KIT FZK Viewer 5.1</td>
 				<td>Windows 10 Pro</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>2</td>
 			</tr>
 			<tr>
 				<td>KIT FZK Viewer 5.1</td>
 				<td>Windows 10 Enterprise</td>
-				<td>Results delivered</td>
-				<td> - </td>
-				<td>1</td>
-			</tr>
-			<tr>
-				<td>FreeCAD 0.18</td>
-				<td>Windows 10 Enterprise 2016 LTSB</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
 				<td>BIM Vision 2.20.3</td>
 				<td>Windows 10 Enterprise 64-bit</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>KIT FZK Viewer 5.1</td>
+				<td>ACCA usBIM.viewer+</td>
+				<td>Windows 10 Home</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>Hexagon AB tridicon CityDiscoverer Light 15.10</td>
+				<td>CSTB eveBIM 2.10.0</td>
+				<td>Windows 7 Pro</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
+				<td>4</td>
 			</tr>
 			<tr>
-				<td>Gmbh VirtualcitySYSTEMS</td>
+				<td>CSTB eveBIM Viewer 2.4.2.201</td>
+				<td>Windows 10 Home</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Gmbh MOSS Computer Grafik Systeme</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>iTOWNS 2.11.1</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Solibri</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Sidefx Houdini</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Mobius Modeller (inhouse)</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td></td>
-			</tr>
-			<tr>
-				<td>eveBIM</td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
@@ -437,65 +330,22 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>CSTB eveBIM 2.8</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>Autodesk Revit</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Autodesk Revit 2020</td>
-				<td>Windows 10 Pro</td>
-				<td>Results delivered</td>
+				<td>Autodesk Revit 2019</td>
+				<td>Windows 7 Enterprise</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>ArchiCAD</td>
-			</tr>
-			<tr>
-				<td>Bentley Allplan</td>
-			</tr>
-			<tr>
-				<td>AECOsim Building Designer</td>
-			</tr>
-			<tr>
-				<td>Autodesk Civil 3D</td>
-			</tr>
-			<tr>
-				<td>ACCA Edificius</td>
-			</tr>
-			<tr>
-				<td>simplebim</td>
-			</tr>
-			<tr>
-				<td>Tekla</td>
-			</tr>
-			<tr>
-				<td>Bentley Microstation</td>
-			</tr>
-			<tr>
-				<td>Construsoft Vico Office Suite</td>
-			</tr>
-			<tr>
-				<td>Vectorworks</td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>Autodesk Revit 2020</td>
+				<td>Windows 10 Pro</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
@@ -508,97 +358,95 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Safe Software FME Desktop 2018.1</td>
+				<td>FME Desktop 2018.1</td>
 				<td>Windows 10 Enterprise</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>3</td>
 			</tr>
 			<tr>
-				<td>...</td>
+				<td>FME Desktop 2019.2</td>
+				<td>Windows 10</td>
+				<td> - </td>
+				<td>3</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
-<h3>Other software</h3>
+<h3>GIS tools</h3>
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Trimble SketchUP</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<td>ESRI ArcGIS Pro</td>
+				<td>Windows 10 Pro</td>
+				<td> - </td>
+				<td>2</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3>Georeferencing tools</h3>
+<div class="table-responsive">
+	<table class="table table-hover table-striped table-condensed">
+		<thead>
+			<tr>
+				<th>Software & version</th>
+				<th>Operating system</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>IfcGeoRefChecker</td>
+				<td>Windows 10 Enterprise</td>
+				<td> - </td>
+				<td>4</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+<h3>3D viewers & other software</h3>
+<div class="table-responsive">
+	<table class="table table-hover table-striped table-condensed">
+		<thead>
+			<tr>
+				<th>Software & version</th>
+				<th>Operating system</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>CSTB eveBIM 2.8</td>
+				<td>Windows 7 Professionnel</td>
+				<td> - </td>
+				<td>2</td>
 			</tr>
 			<tr>
-				<td>Cloud Compare</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Meshlab</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>AutoCAD</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Solibri</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>FME Desktop 2018.1</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Sidefx Houdini</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Mobius Modeller (inhouse)</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>FZK Viewer</td>
+				<td>Windows 10 Pro</td>
+				<td> - </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
@@ -613,7 +461,6 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
@@ -621,73 +468,79 @@ The software whose testing status is "in progress" are only provisionally linked
 		<tbody>
 			<tr>
 				<td>ESRI ArcGIS 10.2</td>
-				<td>Windows 10/Home</td>
-				<td>Results delivered</td>
+				<td>Windows 10/Home & Windows 8.1</td>
 				<td>Data interoperability tool</td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>ESRI ArcGIS</td>
+				<td>ESRI ArcGIS 10.5</td>
+				<td>Windows 7 Pro</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<td>2</td>
 			</tr>
 			<tr>
-				<td>ESRI CityEngine</td>
+				<td>ESRI ArcGIS Pro 2.4</td>
+				<td>Windows 10 Pro</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<td>2</td>
 			</tr>
 			<tr>
 				<td>QGIS 3.6</td>
 				<td>Windows 10/Home 64-bits</td>
-				<td>Results delivered</td>
 				<td>Conversion to CityJSON</td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>QGIS 2.18.14</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<td>QGIS 3.4</td>
+				<td>Windows 10 64-bits</td>
+				<td>Conversion to CityJSON</td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>QGIS</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<td>QGIS 3.6.3</td>
+				<td>MacOS Mojave</td>
+				<td>-</td>
+				<td>3</td>
 			</tr>
 			<tr>
-				<td>QGIS 3,4</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
+				<td>QGIS 3.4.8</td>
+				<td>Windows 10 Home</td>
+				<td>GMLAS (GDAL 3.0.2)</td>
+				<td>2</td>
+			</tr>			
 			<tr>
-				<td>Microstation</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Bentley Map</td>
-				<td> </td>
-				<td>SUGGESTED: TO BE TESTED</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>Bentley Map Enterprise V8i</td>
+				<td>Windows 10 Home</td>
+				<td>-</td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
+
+<h3>3D modelling software</h3>
+<div class="table-responsive">
+	<table class="table table-hover table-striped table-condensed">
+		<thead>
+			<tr>
+				<th>Software & version</th>
+				<th>Operating system</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>ESRI CityEngine 2019.1</td>
+				<td>Windows 10 Home</td>
+				<td> - </td>
+				<td>1</td>
+			</tr>
+			
+		</tbody>
+	</table>
+</div>
+
 
 <h3>ETL tools</h3>
 <div class="table-responsive">
@@ -696,21 +549,28 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Safe Software FME</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Safe Software FME 2019.0.1</td>
+				<td>Windows 10</td>
 				<td> - </td>
-				<td> </td>
+				<td>3</td>
 			</tr>
 			<tr>
-				<td>...</td>
+				<td>Safe Software FME 2019.2</td>
+				<td>Windows 10</td>
+				<td> - </td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>3DCityDB importer-exporter & 3DCityDB Web map client 4.0</td>
+				<td>Windows 10</td>
+				<td> - </td>
+				<td>3</td>
 			</tr>
 		</tbody>
 	</table>
@@ -723,7 +583,6 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
@@ -750,128 +609,46 @@ The software whose testing status is "in progress" are only provisionally linked
 		</thead>
 		<tbody>
 			<tr>
-				<td>Autodesk Infraworks</td>
-			</tr>
-			<tr>
-				<td>Azul</td>
-			</tr>
-			<tr>
-				<td>Sketch-up</td>
-			</tr>
-			<tr>
 				<td>KIT FZK Viewer 5.1</td>
 				<td>Windows 10 Pro</td>
-				<td>Results delivered</td>
 				<td> - </td>
-				<td>2</td>
+				<td>1/2</td>
 			</tr>
 			<tr>
-				<td>KIT FZK Viewer 5.1</td>
+				<td>1Spatial Elyx 3D 2.1</td>
 				<td>Windows 10 Pro</td>
-				<td>Results delivered</td>
-				<td> - </td>
-				<td>1</td>
-			</tr>
-			<tr>
-				<td>CSTB eveBIM 2.8</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>Safe Software FME Data Inspector 2018.1</td>
-				<td>macOS 10.14.3</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>3</td>
 			</tr>
 			<tr>
 				<td>Hexagon AB tridicon CityDiscoverer Light 15.10</td>
 				<td>Windows 10 Enterprise</td>
-				<td>Results delivered</td>
 				<td> - </td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>3DCityDB + CesiumJS</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>3DCityDB 4.2.0</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>3DCityDB</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Gmbh VirtualcitySYSTEMS</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>Safe Software FME Data Inspector 2018.1</td>
+				<td>macOS 10.14.3 & Windows 10 Enterprise</td>
 				<td> - </td>
-				<td> </td>
+				<td>3</td>
 			</tr>
 			<tr>
-				<td>Gmbh MOSS Computer Grafik Systeme</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>CSTB eveBIM 2.10</td>
+				<td>Windows 7 Pro</td>
 				<td> - </td>
-				<td> </td>
+				<td>4</td>
 			</tr>
 			<tr>
-				<td>iTOWNS 2.11.1</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>MOSS Computer Grafik Systeme Gmbh novaFACTORY 8.1.1.1</td>
+				<td>Windows 7 Pro</td>
 				<td> - </td>
-				<td> </td>
+				<td>3</td>
 			</tr>
 			<tr>
-				<td>Sidefx Houdini</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Mobius Modeller (inhouse)</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>HALE</td>
-				<td> </td>
-				<td>in progress</td>
+				<td>MOSS Computer Grafik Systeme Gmbh WEGA-3D 8.1.1.1</td>
+				<td>Windows 7 Pro</td>
 				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>Solibri</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>DDS-CAD</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>3</td>
 			</tr>
 		</tbody>
 	</table>
@@ -885,25 +662,28 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>ESRI ArcGIS</td>
+				<td>ESRI ArcGIS (Data interoperability extension)</td>
+				<td>Windows</td>
+				<td> </td>
+				<td>2</td>
 			</tr>
 			<tr>
-				<td>QGIS</td>
-			</tr>
-			<tr>
-				<td>...</td>
+				<td>ESRI ArcGIS Pro (Data interoperability extension)</td>
+				<td>Windows</td>
+				<td> </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
+<!--
 <h3>BIM software</h3>
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
@@ -932,6 +712,7 @@ The software whose testing status is "in progress" are only provisionally linked
 		</tbody>
 	</table>
 </div>
+-->
 
 <h3>ETL tools</h3>
 <div class="table-responsive">
@@ -940,7 +721,6 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
@@ -949,60 +729,70 @@ The software whose testing status is "in progress" are only provisionally linked
 			<tr>
 				<td>Safe Software FME 2018.1</td>
 				<td>Windows Pro 10</td>
-				<td>Results delivered</td>
-				<td> </td>
-				<td>X</td>
-			</tr>
-			<tr>
-				<td>Safe Software FME 2018.1</td>
-				<td>Windows Pro 10</td>
-				<td>Results delivered</td>
 				<td> </td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>Safe Software FME</td>
+				<td>Safe Software FME 2018.1</td>
+				<td>Windows 7 Enterprise</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> - </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
 			<tr>
-				<td>...</td>
+				<td>Safe Software FME Quick Translator 2019.0.2.0</td>
+				<td>Windows Pro 10</td>
+				<td> </td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Safe Software FME 2017</td>
+				<td>Windows Pro 10</td>
+				<td> </td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
-<h3>Other software</h3>
+<h3>3D viewers & other software</h3>
 <div class="table-responsive">
 	<table class="table table-hover table-striped table-condensed">
 		<thead>
 			<tr>
 				<th>Software & version</th>
 				<th>Operating system</th>
-				<th>Testing status</th>
 				<th>Used methods</th>
 				<th>Tester level of expertise</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>3DCityDB + CesiumJS</td>
+				<td>FZKViewer 5.1</td>
+				<td>Windows 10 Home</td>
 				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<td>1</td>
 			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3>Conversion tools</h3>
+<div class="table-responsive">
+	<table class="table table-hover table-striped table-condensed">
+		<thead>
 			<tr>
-				<td>PostgreSQL PostGIS</td>
-				<td> </td>
-				<td>in progress</td>
-				<td> </td>
-				<td> </td>
+				<th>Software & version</th>
+				<th>Operating system</th>
+				<th>Used methods</th>
+				<th>Tester level of expertise</th>
 			</tr>
+		</thead>
+		<tbody>
 			<tr>
-				<td>...</td>
+				<td>IFC2CityGML</td>
+				<td>Windows 10 Home</td>
+				<td> </td>
+				<td>4</td>
 			</tr>
 		</tbody>
 	</table>

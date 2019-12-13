@@ -1,3 +1,12 @@
+- research_line: [2]
+  description: "Stelios Vitalis presented about versioning of 3D city models at the <a href=\"https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html\">EuroSDR - AMS GeoBIM benchmark workshop</a>."
+  date: 2019-12-03
+- research_line: [2]
+  description: "Stelios Vitalis presented about CityGML support in software at the <a href=\"https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html\">EuroSDR - AMS GeoBIM benchmark workshop</a>."
+  date: 2019-12-02
+- research_line: [1]
+  description: "Anna Labetski presented about \"open\" geospatial standards at the <a href=\"https://3d.bk.tudelft.nl/projects/geobim-benchmark/events.html\">EuroSDR - AMS GeoBIM benchmark workshop</a>."
+  date: 2019-12-02
 - research_line: [1]
   description: "Anna Labetski completed a 2 month research visit at the <a href=\"https://www.sla.gov.sg\">Singapore Land Authority</a> with the Survey and Geomatics Division."
   date: 2019-10-18
