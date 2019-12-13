@@ -47,6 +47,14 @@ An important aspect is also keeping the generated 3D data up-to-date. The BAG an
 
 # Presentations
 
+### Progress meeting on 2019-12-13 in Delft
+
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQZLmcX1PZmY-c8b9ddKF3doQdyjaWxi2CGNk6DAQC_u8LfF7VYsji3IQpnuI1s_V9VOPZhZzpo_Pu8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
 ### Progress meeting on 2019-11-01 in Delft
 
 <div class="row">
