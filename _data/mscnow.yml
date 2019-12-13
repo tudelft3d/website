@@ -1,6 +1,6 @@
 - surname: Mulder
   name: Amber
-  title: Semantic Segmentation of RGB-Z Aerial Imagery Using Fully Convolutional Networks
+  title: Semantic Segmentation of RGB-Z Aerial Imagery Using Convolutional Neural Networks
   image: amulder.jpeg
 
 - surname: van Liempt
