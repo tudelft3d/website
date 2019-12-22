@@ -8,7 +8,7 @@ permalink: /projects/geobim-benchmark/participants.html
 
 The following people are the registered participants to the GeoBIM benchmark, Thank you!
 
-*Last update: 07th August 2019*
+*Last update: 22nd December 2019*
 
 - - -
 
@@ -33,46 +33,10 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 		</thead>
 		<tbody>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/rego.jpeg" style="max-height:100px;"/></div></td>
-				<td>Vinicius Cruvinel Rego</td>
-				<td> </td>
-				<td>Brazil</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/gissolution.gif" style="max-height:100px;"/></div></td>
-				<td>Rob van der Knaap</td>
-				<td>Gis-Solutions</td>
-				<td>The Netherlands</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Jose Luis Izkara</td>
-				<td>Tecnalia</td>
-				<td>Spain</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Iñaki Prieto</td>
-				<td>Tecnalia</td>
-				<td>Spain</td>
-			</tr>
-			<tr>
 				<td> </td>
 				<td>Leire Leoz</td>
 				<td>Tracasa</td>
 				<td>Spain</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Sotiris</td>
-				<td> </td>
-				<td>Greece</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/yao.jpg" style="max-height:100px;"/></div></td>
-				<td>Yepeng Yao</td>
-				<td> </td>
-				<td>Hong Kong</td>
 			</tr>
 			<tr>
 				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/lorenzo.jpg" style="max-height:100px;"/></div></td>
@@ -107,15 +71,9 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 		<tbody>
 			<tr>
 				<td> </td>
-				<td>Elisa Rolland</td>
+				<td>Estelle de Simone</td>
 				<td>CSTB</td>
 				<td>France</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/willkomm.jpg" style="max-height:100px;"/></div></td>
-				<td>Philipp Willkomm</td>
-				<td>M.O.S.S. Computer Grafik Systeme GmbH</td>
-				<td>Germany</td>
 			</tr>
 			<tr>
 				<td> </td>
@@ -128,6 +86,24 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Sean Morrish</td>
 				<td>ESRI, UCD, NYU</td>
 				<td>USA</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>Elisa Rolland</td>
+				<td>CSTB</td>
+				<td>France</td>
+			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/1spatial.png" style="max-height:100px;"/></div></td>
+				<td>Anne-Lise Poplavsky</td>
+				<td>1spatial</td>
+				<td>Belgium</td>
+			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/willkomm.jpg" style="max-height:100px;"/></div></td>
+				<td>Philipp Willkomm</td>
+				<td>M.O.S.S. Computer Grafik Systeme GmbH</td>
+				<td>Germany</td>
 			</tr>
 		</tbody>
 	</table>
@@ -148,64 +124,16 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 		</thead>
 		<tbody>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/patrick.jpg" style="max-height:100px;"/></div></td>
-				<td>Patrick Janssen</td>
-				<td>National University of Singapore</td>
-				<td>Singapore</td>
-			</tr>
-			<tr>
 				<td> </td>
-				<td>Jernej Tekavec</td>
-				<td>University of Ljubljana, Faculty of Civil and Geodetic Engineering</td>
-				<td>Slovenia</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Miguel Azenha</td>
-				<td>University of Minho</td>
-				<td>Portugal</td>
+				<td>Hendrik Görne</td>
+				<td>Dresden, University of Applied Sciences (HTW)</td>
+				<td>Germany</td>
 			</tr>
 			<tr>
 				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/dogus.JPG" style="max-height:100px;"/></div></td>
 				<td>Doğuş Güler</td>
 				<td>Instambul Technical University</td>
 				<td>Turkey</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Rudi Stouffs</td>
-				<td>National University of Singapore</td>
-				<td>Singapore</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/salman.jpg" style="max-height:100px;"/></div></td>
-				<td>Salman Khalili-Araghi</td>
-				<td>University of Toronto</td>
-				<td>Canada</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Mohsen Kalantari</td>
-				<td>University of Melbourne</td>
-				<td>Australia</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/salheb.jpg" style="max-height:100px;"/></div></td>
-				<td>Nebras Salheb</td>
-				<td>TU Delft (MSc Geomatics)</td>
-				<td>The Netherlands</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Amer Jbeili</td>
-				<td>Académie Libanaise des beaux-arts (student in Architecture)</td>
-				<td>Lebanon</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Nichersu Alexandru</td>
-				<td>EIFER</td>
-				<td>Germany</td>
 			</tr>
 			<tr>
 				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/jadidi.jpeg" style="max-height:100px;"/></div></td>
@@ -215,81 +143,33 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			</tr>
 			<tr>
 				<td> </td>
-				<td>Behnam Atazadeh</td>
-				<td>University of Melbourne</td>
-				<td>Australia</td>
+				<td>Tim Kaiser</td>
+				<td>Dresden University of Applied Sciences</td>
+				<td>Germany</td>
 			</tr>
 			<tr>
-				<td> </td>
-				<td>Qianbing Zhang</td>
-				<td>Monash University</td>
-				<td>Australia</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Cemal Özgür Kivilcim</td>
-				<td>Instambul Technical University</td>
-				<td>Turkey</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Carlos Carpegu</td>
-				<td>University of Salamanca</td>
-				<td>Spain</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/nwosu.jpg" style="max-height:100px;"/></div></td>
-				<td>Kelechi I. Nwosu</td>
-				<td>University of Nigeria</td>
-				<td>Nigeria</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Mohammed Jawaluddeen Sani</td>
-				<td>Universiti Teknologi Malaysia (UTM)</td>
-				<td>Nigeria</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Imuwahen Priscilla Aigbedion</td>
-				<td>Federal School of Surveying and Geoinformatics</td>
-				<td>Nigeria</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/degaetani.jpg" style="max-height:100px;"/></div></td>
-				<td>Carlo Iapige De Gaetani</td>
-				<td>Politecnico di Milano</td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/leoni.jpg" style="max-height:100px;"/></div></td>
+				<td>Cristina Leoni</td>
+				<td>Sapienza, Universitá di Roma</td>
 				<td>Italy</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/harshit.jpeg" style="max-height:100px;"/></div></td>
-				<td>Harshit</td>
-				<td>Indian Institute of Technology Roorkee</td>
-				<td>India</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/iyanu.jpg" style="max-height:100px;"/></div></td>
-				<td>Abidoye Ayodeji Iyanu</td>
-				<td>Obafemi Awolowo University Ife</td>
-				<td>Nigeria</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/stelios.jpeg" style="max-height:100px;"/></div></td>
-				<td>Stelios Vitalis</td>
-				<td>TU Delft</td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/salheb.jpg" style="max-height:100px;"/></div></td>
+				<td>Nebras Salheb</td>
+				<td>TU Delft (MSc Geomatics)</td>
 				<td>The Netherlands</td>
 			</tr>
 			<tr>
 				<td> </td>
-				<td>Francesco Di Stefano</td>
-				<td>Università Politecnica delle Marche</td>
-				<td>Italy</td>
+				<td>Ville-Pekka Soini</td>
+				<td>Geoinformatics MSc student Lund University</td>
+				<td>Sweden</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/liu.png" style="max-height:100px;"/></div></td>
-				<td>Xinyi Liu</td>
-				<td>Wuhan University</td>
-				<td>China</td>
+				<td> </td>
+				<td>Rudi Stouffs</td>
+				<td>National University of Singapore</td>
+				<td>Singapore</td>
 			</tr>
 			<tr>
 				<td> </td>
@@ -299,27 +179,21 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			</tr>
 			<tr>
 				<td> </td>
-				<td>Nannina Spanò</td>
-				<td>Politecnico di Torino</td>
-				<td>Italy</td>
+				<td>Jernej Tekavec</td>
+				<td>University of Ljubljana, Faculty of Civil and Geodetic Engineering</td>
+				<td>Slovenia</td>
 			</tr>
 			<tr>
-				<td> </td>
-				<td>Hendrik Görne</td>
-				<td>Dresden, University of Applied Sciences (HTW)</td>
-				<td>Germany</td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/jordi.jpg" style="max-height:100px;"/></div></td>
+				<td>Jordi van Liempt</td>
+				<td>Delft University of Technology</td>
+				<td>The Netherlands</td>
 			</tr>
 			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/WUT.png" style="max-height:100px;"/></div></td>
-				<td>Krzysztof Bakuła</td>
-				<td>Warsaw University of Technology</td>
-				<td>Poland</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Ihab Hijazi</td>
-				<td>Technical University of Munich, An-Najah National University</td>
-				<td>Germany, Palestine</td>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/stelios.jpeg" style="max-height:100px;"/></div></td>
+				<td>Stelios Vitalis</td>
+				<td>TU Delft</td>
+				<td>The Netherlands</td>
 			</tr>
 			<tr>
 				<td> </td>
@@ -375,6 +249,12 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 				<td>Geomatics MSc students TU Delft</td>
 				<td>The Netherlands</td>
 			</tr>
+			<tr>
+				<td> </td>
+				<td>Konrad Jarocki & Mark Huisjes</td>
+				<td>Geomatics MSc students TU Delft</td>
+				<td>The Netherlands</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
@@ -395,33 +275,15 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 		<tbody>
 			<tr>
 				<td> </td>
-				<td>Kate Noss</td>
-				<td>Ordnance Survey</td>
-				<td>United Kingdom</td>
+				<td>Helen Eriksson</td>
+				<td>Lantmäteriet and Lund University</td>
+				<td>Sweden</td>
 			</tr>
 			<tr>
 				<td> </td>
-				<td>Diana Moraru</td>
+				<td>Rollo Home</td>
 				<td>Ordnance Survey</td>
 				<td>United Kingdom</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/pla.JPG" style="max-height:100px;"/></div></td>
-				<td>Maria Pla</td>
-				<td>ICGC, Head Databases Department</td>
-				<td>Spain</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>Vasja Bric</td>
-				<td>Geodetic Institute of Slovenia</td>
-				<td>Slovenia</td>
-			</tr>
-			<tr>
-				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/gisl.jpg" style="max-height:100px;"/></div></td>
-				<td>Sebastjan Meža</td>
-				<td>Geodetic Institute of Slovenia</td>
-				<td>Slovenia</td>
 			</tr>
 			<tr>
 				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/ign.gif" style="max-height:100px;"/></div></td>
@@ -431,15 +293,21 @@ The following people are the registered participants to the GeoBIM benchmark, Th
 			</tr>
 			<tr>
 				<td> </td>
-				<td>Danny Hyam</td>
+				<td>Diana Moraru</td>
 				<td>Ordnance Survey</td>
 				<td>United Kingdom</td>
 			</tr>
 			<tr>
 				<td> </td>
-				<td>Helen Eriksson</td>
-				<td>Lantmäteriet and Lund University</td>
-				<td>Sweden</td>
+				<td>Kate Noss</td>
+				<td>Ordnance Survey</td>
+				<td>United Kingdom</td>
+			</tr>
+			<tr>
+				<td><div class="col-sm-12 col-xs-4"><img class="img-responsive" src="img/participants/pla.JPG" style="max-height:100px;"/></div></td>
+				<td>Maria Pla</td>
+				<td>ICGC, Head Databases Department</td>
+				<td>Spain</td>
 			</tr>
 		</tbody>
 	</table>
