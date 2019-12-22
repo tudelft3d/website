@@ -86,7 +86,7 @@ J. Tekavec, [5:46:25-5:55:34], [*Georeferencing with FME workbench*](/projects/g
 
 N. Sahleb [5:56:30-6:20:05], [*Options for conversions: IFC to CityGML and CityGML to IFC (GeoBIM benchmark Task 4)*](/projects/geobim-benchmark/ws_slides/14_Task4_Sahleb.pdf)
 
-N. Sahleb [6:20:05-6:38:27], [*Automatic Conversion of CityGML to IFC*](/projects/geobim-benchmark/ws_slides/15_CityGML2IFC_Sahleb.pdf)
+N. Sahleb [6:20:05-6:38:27], [*Automatic Conversion of CityGML to IFC*](/projects/geobim-benchmark/ws_slides/15_CityGMLtoIFC_Sahleb.pdf)
 
 H. Tauscher [6:40:00-6:54:35], *IFC2CityGML tool*
 
