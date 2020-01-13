@@ -78,7 +78,7 @@ S. Vitalis [2:51:30-3:19:20], [*Stop copying your files: versioning for 3D city 
 
 L. Harrie [4:12:00-4:45:50], [*Georeferencing BIM and IFC data: GeoBIM benchmark Task 2*](/projects/geobim-benchmark/ws_slides/13_Task2_Harrie.pdf)
 
-C. Ellul [4:45:50-4:50:50 and 5:09:04-5:26:00], *Demonstration about georeferencing IFC in Revit*
+C. Ellul [4:45:50-4:50:50 and 5:09:04-5:26:00], [*Demonstration about georeferencing IFC in Revit*](/projects/geobim-benchmark/ws_slides/13a_GeorefEx_Ellul.pdf)
 
 H. Gorne and T. Kaiser [4:52:25-5:08:22], *Demonstration IfcGeoRefChecker*
 
