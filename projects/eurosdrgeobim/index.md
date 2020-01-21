@@ -81,7 +81,11 @@ Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (201
 <p class="text-left">Second phase of the project. Use case <strong>building permission issuing</strong>: final workflow review in small working groups; further results of interviews in Municipalities. Second case study from France available, and more data are provided from the ICGC Catalunya. Use case <strong>assets and facility management</strong>: first results of the initial interviews with stakeholders.</p>
 </div>
 
-
+### 6th EuroSDR GeoBIM project meeting: 17-18 January 2020, Amsterdam (NL).
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="17-18/01/2020 Amsterdam (NL)"><img src="/projects/eurosdrgeobim/imgs/Meeting6.png" alt="6th Meeting EuroSDR GeoBIM partners" ></a></div>
+<p class="text-left">Final phase of the project. Use case <strong>building permission issuing</strong>: final workflow approved by municipalities; further progress in the national related activities. A specific project on this use case will follow within an extended European network. Use case <strong>assets and facility management</strong>: more results from a workshop in Italy and further interviews with stakeholders.</p>
+</div>
 
 ## Presentations
 
