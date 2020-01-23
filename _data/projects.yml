@@ -1,8 +1,29 @@
-- name: Architectural heritage information in 3D geospatial models
-  description: 3D city models and HGeoBIM for heritage
-  webpage: /projects/culturalheritage/
-  image: ch3.gif
+- name: GeoBIM Building Permission
+  description: Investigating the Automation of the Building Permission Issuing process through 3D GeoBIM information
+  webpage: /projects/rotterdamgeobim_bp/
+  funding: Municipality of Rotterdam
+  fundingurl: https://www.rotterdam.nl/english/
+  image: rotterdamBP.png
   start: 2019
+  
+
+# - name: European network for Digital Building permission project
+#  description: International collaboration project to address the digitisation of planning permission through GeoBIM and more information.
+#  webpage: /projects/EuropeanDigitalBuildingPermission/
+##  funding: EU MSC LEaDingFellows Postdocs Programme
+##  fundingurl: https://leadingfellows.eu
+#  image: ch3.gif
+ # start: 2020
+
+- name: Multisource Spatial data integration
+  description: Multisource Spatial data integration for smart city applications
+  webpage: /projects/leadingfellow/
+  funding: EU MSC LEaDingFellows Postdocs Programme
+  fundingurl: https://leadingfellows.eu
+  image: logoLF-2.png
+  start: 2020
+  
+
   
 - name: GeoBIM benchmark
   description: Reference study on software support for open standards of city and building models
@@ -42,7 +63,10 @@
   funding: AMS
   fundingurl: http://www.ams-institute.org
   image: sdi-ams.jpg
+  finished: true
+  end: 2020
   start: 2018
+  
 
 - name: Simulation-ready 3D city models
   description: Automatic reconstruction of simulation-ready 3D city models
@@ -120,6 +144,20 @@
   start: 2017
   image: cityjson.jpg
 
+- name: HERILAND
+  description: GIS for Heritage zoning and population dynamics
+  webpage: https://www.heriland.eu
+  funding: EU MSC
+  #fundingurl: http://www.isprs.org
+  image: HERILAND-LOGO.jpg
+  start: 2019
+  
+- name: Architectural heritage information in 3D geospatial models
+  description: 3D city models and HGeoBIM for heritage
+  webpage: /projects/culturalheritage/
+  image: ch3.gif
+  start: 2019
+  
 - name: Hidden Amsterdam
   description: "We help find 'hidden parts' of Amsterdam with 3D city models"
   webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
