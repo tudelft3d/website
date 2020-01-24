@@ -23,15 +23,16 @@ The aim of this development is on the one hand improving efficiency (once acquir
 
 ## Results
 
-We have now developed a first version of the workflow which automatically generates necessary 3D data about buildings, the noise reduction of the land use and the height of the terrain from the BAG, BGT and point clouds.
+In 2017 and 2018, we have now developed a first version of the workflow which automatically generates necessary 3D data about buildings, the noise reduction of the land use and the height of the terrain from the BAG, BGT and point clouds.
 The noise consultancy company DGMR has tested these files in their GeoMilieu noise simulation software. For this test, DGMR replaced the input files from a recently performed noise study with our files.
 This showed that the automated generated data achieve the same quality of the (partly) interactively generated input data.
+This 0.2 version of the data has been published in spring 2019.
 
 ## Further Development
 
 At this moment we are working on further developments. Here we look at different aspects.
 Firstly, we improve the current workflow by thinning out unnecessary detail in order not to unnecessarily burden the simulation, and adding more details where it is desirable.
-We also investigate the modelling and generation of bridges, a concept within noise studies for which different alternatives are currently being used and for which there is no standardised approach yet. We also examine with stakeholders and experts how the software (or prescribed calculation method) can be adjusted, so that optimisation can be obtained from a combination of 3D data on the one hand and improvement of the simulation software on the other hand.
+We also examine with stakeholders and experts how the software (or prescribed calculation method) can be adjusted, so that optimisation can be obtained from a combination of 3D data on the one hand and improvement of the simulation software on the other hand.
 In addition, we will investigate whether we can also standardise a number of other variables within the noise domain such as minimum vertical jumps to be modelled, generalisation of the data on land use (for noise attenuation) and generalisation of the front façade line of buildings.
 In addition to improving the workflow and standardising concepts, we look at how we can roll out the workflow for the whole of the Netherlands. For this, the method is implemented in the 3D production line of the Kadaster. This production line generates 3D topography from point clouds and 2D topographic datasets. The open software [3dfier](https://github.com/tudelft3d/3dfier) is part of this production line. To generate noise-specific 3D data, the functionality can be re-used.
 An important aspect is also keeping the generated 3D data up-to-date. The BAG and BGT represent changes in reality at most a few months later. The current version of AHN (version 3) was collected between 2014 and 2019. For more up-to-date point clouds, we can use points generated from aerial photographs, which are collected every year. The 3D production line of the Kadaster also includes the generation of point clouds from dense image matching for 3D modelling.
