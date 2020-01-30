@@ -4,6 +4,11 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+
+[PhD: Automation of urban flow simulations with 3D City Models](/jobs/phdcfd2020/)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [Postdoc Researcher: Integrating Geo and BIM](/jobs/postdoc2017/)
