@@ -3,6 +3,7 @@ layout: page_noise3d
 title: 3D input data voor geluidssimulaties versie 0.2 (experimenteel), opgeleverd in voorjaar 2019
 permalink: /opendata/noise3d/nl
 is_dutch: true
+map: true
 ---
 
 ![](/img/projects/noise3d_banner.jpg)
@@ -23,21 +24,22 @@ De afgelopen 3 jaar hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan
 
 Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3d/" | prepend: site.baseurl  }}) te vinden.
 
-Op deze webpage stellen we voorbeeld data beschikbaar welke is gegenereerd met versie 0.2 van onze methode (welke gereed was in voorjaar 2019). Momenteel zijn we bezig met doorontwikkeling naar versie 0.3. Deze zal begin 2020 beschikbaar worden gesteld,
 
-
-## Beschrijving test data versie 0.2
+## Beschrijving test data versie 0.3
 Onze methode heeft als doel om zo veel mogelijk detail en nauwkeurigheid te behouden, en tegelijkertijd de data klein te houden en deze te laten aansluiten om de huidige beschikbare geluidsimulatie software systemen. 
 
-Met versie 0.2 bieden we 3 input lagen aan voor geluid studies. Namelijk:
+Met versie 0.3 bieden we 3 input lagen aan voor geluid studies. Namelijk:
 1. Gebouwen
 2. Bodemvlakken met geluidreflectie- en absorptie waarden
 3. Hoogte-beschrijving van het terrein
 
 Deze 3 lagen zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN. De wijze waarop we dit hebben gedaan, is hieronder in meer detail beschreven. 
-We zijn ook bezig met het genereren van data voor bruggen en geluidschermen, maar deze maken geen deel uit van deze 0.2 data set.
 
-Voor deze test data zijn voorlopige keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën in de basisgegevens, hoogte-differentiatie tussen aansluitende gebouwdelen, minimale afmetingen, etc. Aan de hand van uw reacties kunnen deze instellingen in een volgende versie nog worden aangepast.
+De belangrijkste veranderingen ten opzichte van versie 0.2 zijn:
+* Sterk verbeterde LoD 1.3 gebouw modellen
+* Terrein opgeleverd als TIN in plaats van hoogtelijnen
+
+Voor deze test data zijn voorlopige keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën in de basisgegevens, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van uw reacties kunnen deze instellingen in een volgende versie nog worden aangepast.
 
 Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het product voor een testgebied ter beschikking gesteld aan potentiele eindgebruikers, met als doel om feedback te verzamelen. Het testgebied beslaat een deel van het Rijnmondgebied, om precies te zijn: de kaartbladen 37ez2, 37fz1, 37gn2 en 37hn1, waarbinnen een deel van de gemeentes Schiedam en Rotterdam vallen.
 
@@ -45,27 +47,26 @@ Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het pro
 
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
+
 ### Gebouwen
+
+<iframe src="{{ "lod13map.html" | prepend: site.baseurl }}" id="demo" class="w-full" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" style="height:400px; width:100%; border:none;"></iframe>
 
 Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee wordt de 2D informatie van de BAG-panden omgezet tot 3D blokvormen.
 
 Het modelleren van elke BAG pand met slechts een hoogte kan tot fouten leiden als een pand in werkelijkheid verschillende hoogtes heeft bijvoorbeeld in het geval van een kerk met toren of een huis met aanliggende garage. Daarom hebben we ook gekeken hoe we BAG panden met hoogtesprongen kunnen modelleren.
-Dit is de zogenaamde LoD1.3 representatie, dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen gebouwdelen als relevante hoogteverschillen tussen die gebouwdelen daar aanleiding toe geven.
+Dit is de zogenaamde LoD1.3 representatie, dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
+In versie 0.3 is een hoogtesprong relevant vanaf 3 meter, grofweg 1 verdieping. 
 
 Naast de LoD 1.3 gebouwen zijn ook LoD 1.0 gebouwen beschikbaar. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vind er dus geen opsplitsing plaats op basis van hoogtesprongen.
 
-De hoogte van de gebouwdelen is uitgedrukt in het 95-percentiel van alle AHN-punten die binnen dat gebouwdeel vallen. Daarmee wordt een goede schatting van de nokhoogte bereikt, zowel bij platte daken als bij schuine daken en wordt verstoring oor "uitsteeksels" zoals schoorstenen en ventilatiepijpen tegengegaan. Als extra informatie wordt ook het 75-percentiel van de hoogte van de puntenwolk meegeleverd.
-
-We stellen drie alternatieve data sets beschikbaar voor gebouwen (zie het plaatje hieronder):
-1. LoD1: ieder BAG pand heeft een enkele hoogte
-2. LoD1.3: zoals 1. En voor de gebouwen met hoogte sprongen die alleen gebouw-delen bevat met platte daken bevat wordt een LoD1.3 gemodelleerd. Hiervoor worden de oorspronkelijke BAG-polygonen opgedeeld en ieder deel krijgt een eigen hoogte. Gebouwen met een schuin dak worden als LoD1 gemodelleerd, ook als ze verschillende hoogtes bevatten. We doen dit omdat voor schuine daken we nog geen eenduidige methode gevonden hebben om voor alle soorten situaties goede representaties op te leveren.
-3. LoD1.3-experimenteel. Dit bestand bevat ook voor gebouwen met schuine daken die bestaan uit meerdere hoogtes een LoD1.3 representatie, om te laten zien hoe ver onze ontwikkeling op dit moment is. We zullen de komende maanden deze resultaten verbeteren.
+De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD 1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
 
 ![Sample area v0.2]({{ "building_lod.png" | prepend: site.baseurl }})
 
-Meer uitleg over de reconstructie van LoD1.3 staat uitgelegd in de volgende slides.
+<!-- Meer uitleg over de reconstructie van LoD1.3 staat uitgelegd in de volgende slides.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 
 ### Hoogtebeschrijving Terrein
 Voor de modellering van het hoogteverloop van de bodem vormt de BGT de basis. De grenslijnen tussen verschillende objecttypen in de BGT worden hiertoe verrijkt met hoogte-gegevens uit het AHN. Waar dit resulteert in overbodige hoogtelijnen, omdat deze geen wezenlijke verandering in het hoogteverloop teweeg brengen, zijn deze verwijderd om de tijd voor dataverwerking en geluidberekeningen te beperken. Ook kan het voorkomen dat er wel sprake is van hoogteverloop zonder dat er een overgang tussen BGT-objecttypen is. Voor die situaties is een TIN geconstrueerd van het hoogteverschil tussen het AHN en de met hoogte verrijkte BGT-data. Daar waar hoogteverschillen van meer dan 0,5m met het AHN zouden optreden zijn aanvullende hoogtelijnen gegenereerd en voorzien van de AHN hoogte.
@@ -189,7 +190,7 @@ Onderstaand het download overzicht.
   </tr>
   <tr>
     <td class="tg-pcvp">Gebouwen in LoD1.0</td>
-    <td class="tg-pcvp">Footprints van gebouwen met 1 hoogte per gebouw, berekend door zowel 75 percentile als 95 percentile van hoogtepunten die binnen het vlak vallen.</td>
+    <td class="tg-pcvp">Footprints van gebouwen met 1 hoogte per gebouw, berekend op basis van zowel het 75ste percentiel als 95ste percentiel van hoogtepunten die binnen het vlak vallen. Identiek aan versie 0.2.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
       <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
@@ -197,20 +198,10 @@ Onderstaand het download overzicht.
   </tr>
   <tr>
     <td class="tg-0pky">Gebouwen in LoD1.3</td>
-    <td class="tg-0pky">Footprints van gebouwen met een enkele hoogte per deel <em>building-part</em>. Footprints van gebouwen met 1 hoogte per gebouw, berekend door zowel 75 percentile als 95 percentile van hoogtepunten die binnen het vlak vallen. Voor schuine daken (<code>dak_type</code> is <code>2</code>) is een LoD1.0 model gegenereerd </td>
+    <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte).</td>
     <td class="tg-0pky">&lt;tile id&gt;_lod13_&lt;percentile&gt;</td>
     <td class="tg-0pky">
       <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">Gebouwen in LoD1.3 (experimentele versie)</td>
-    <td class="tg-pcvp">
-Footprints van gebouwen met een enkele hoogte per deel <em>building-part</em>. Footprints van gebouwen met 1 hoogte per gebouw, berekend door zowel 75 percentile als 95 percentile van hoogtepunten die binnen het vlak vallen.
-Ook voor gebouwen met schuine daken (<code>dak_type</code> is <code>2</code>), is een LoD1.3 representatie gemodelleerd.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_lod13_&lt;percentile&gt;_experimenteel</td>
-    <td class="tg-pcvp">
-      <a href="{{ "lod13_experimenteel.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
@@ -251,18 +242,23 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">hoogte_abs</td>
+    <td class="tg-0pky">h_dak</td>
     <td class="tg-0pky"><em>hoogte absolute</em> ten opzichte van NAP</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-pcvp">maaiveld_h</td>
+    <td class="tg-pcvp">h_maaiveld</td>
     <td class="tg-pcvp"><em>maaiveld hoogte</em> ten opzichte van NAP</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">maaiveld_p</td>
     <td class="tg-0pky">het <em>aantal maaiveld punten</em> dat gebruikt is om <code>maaiveld_h</code> te berekenen</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">is_complex</td>
+    <td class="tg-0pky">`1` als dit een complex gebouw betreft, dwz niet alle gedeteceerde daklijnen zijn meegenomen in  de reconstructie.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
