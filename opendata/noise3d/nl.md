@@ -52,15 +52,22 @@ Deze gegevens kunnen direct als input worden gebruikt in software die op basis v
 
 <iframe src="{{ "lod13map.html" | prepend: site.baseurl }}" id="demo" class="w-full" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" style="height:400px; width:100%; border:none;"></iframe>
 
-Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee wordt de 2D informatie van de BAG-panden omgezet tot 3D blokvormen.
+Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee wordt de 2D informatie van de BAG-panden omgezet tot 3D blokvormen. 
 
-Het modelleren van elke BAG pand met slechts een hoogte kan tot fouten leiden als een pand in werkelijkheid verschillende hoogtes heeft bijvoorbeeld in het geval van een kerk met toren of een huis met aanliggende garage. Daarom hebben we ook gekeken hoe we BAG panden met hoogtesprongen kunnen modelleren.
+Het modelleren van elk BAG pand met slechts een enkele hoogte (LoD 1.0) kan tot fouten leiden als een pand in werkelijkheid verschillende hoogtes heeft bijvoorbeeld in het geval van een kerk met toren of een huis met aanliggende garage. Daarom hebben we ook gekeken hoe we BAG panden met hoogtesprongen kunnen modelleren.
 Dit is de zogenaamde LoD1.3 representatie, dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
 In versie 0.3 is een hoogtesprong relevant vanaf 3 meter, grofweg 1 verdieping. 
 
 Naast de LoD 1.3 gebouwen zijn ook LoD 1.0 gebouwen beschikbaar. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vind er dus geen opsplitsing plaats op basis van hoogtesprongen.
 
 De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD 1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
+
+Op de gebouwen zijn de volgende opmerkingen van toepassing:
+1. Complexe gebouwen. Het LoD 1.3 reconstructie process werkt op basis van daklijnen die in de puntenwolk worden gedecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Bij deze complexe gebouwen zijn niet alle gedetecteerde lijnen meegenonen in de reconstructie waardoor de modellerings fout in theorie groter kan zijn.
+2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen een aantal attributen.
+3. In een voorwerkingstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomendheden in dit process zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Martkhal in Rotterdam).
+4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
+
 
 ![Sample area v0.2]({{ "building_lod.png" | prepend: site.baseurl }})
 
@@ -242,8 +249,13 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
   </tr>
   <tr>
     <td class="tg-0pky"></td>
+    <td class="tg-0pky">rmse</td>
+    <td class="tg-0pky"><em>Root mean square error</em> tussen het LoD1.3 model en de gedetecteerde dakpunten uit AHN3.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
     <td class="tg-0pky">h_dak</td>
-    <td class="tg-0pky"><em>hoogte absolute</em> ten opzichte van NAP</td>
+    <td class="tg-0pky"><em>hoogte van het dakdeel</em> ten opzichte van NAP</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
@@ -252,13 +264,8 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">maaiveld_p</td>
-    <td class="tg-0pky">het <em>aantal maaiveld punten</em> dat gebruikt is om <code>maaiveld_h</code> te berekenen</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
     <td class="tg-0pky">is_complex</td>
-    <td class="tg-0pky">`1` als dit een complex gebouw betreft, dwz niet alle gedeteceerde daklijnen zijn meegenomen in  de reconstructie.</td>
+    <td class="tg-0pky">`1` als dit een complex gebouw betreft, dwz niet alle gedeteceerde daklijnen zijn meegenomen in de reconstructie om de verwerkingstijd te beperken.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
