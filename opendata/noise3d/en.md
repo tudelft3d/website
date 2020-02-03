@@ -9,8 +9,8 @@ is_dutch: false
 
 <div class="well"><b>Feedback Session on 6th February 2020</b><br/><br/>
 	At this moment we are further developing our methods to version 0.3. On Thursday 6th of February we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00). During this session we will present our updated approach and we will be happy recieve your feedback for further development.
-	
 	You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
+	You can also give feedback via a <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform?usp=sf_link">web form</a> 
 	</div>
 	
 - - -
