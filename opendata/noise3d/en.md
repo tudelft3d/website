@@ -60,7 +60,7 @@ We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* an
 
 The height of each roofpart is computed by taking a percentile of the elevations points it contains. We offer both a 75th percentile and a 95th percentile variant.
 
-![Sample area v0.2]({{ "building_lod.png" | prepend: site.baseurl }})
+![Sample area v0.3]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
 More details about our LoD1.3 reconstruction method can be found in the following slideshow.
 
