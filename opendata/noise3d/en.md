@@ -40,7 +40,7 @@ With version 0.3 we deliver three input layers for 3D noise studies, namely
 These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.3 example dataset.
 
 The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below. We provide this test data in order to collect feedback that we will use for future developments where we plan to upscale the results to the whole of the Netherlands.
-For version 0.3 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
+For version 0.3 we have made initial choices regarding the simplification of the data, height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
 
 ![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
@@ -48,7 +48,7 @@ The input data can directly be used as input in software that implements the *St
 
 ### Building models (see the [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
 
-In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
+In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
 ![Sample area v0.3]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
@@ -56,7 +56,7 @@ In the current noise simulation practice each building, regardless of its roof s
 ### Terrain model
 For v0.3 we experimented with a Triangulated Irregular Network (TIN) for representing the terrain. A TIN is like a blanket of triangles tightly fit to the ground, excluding above-ground objects (buildings, trees etc.). In flat areas the triangles are usually larger, in areas with high relief the triangles are usually smaller, in order to achieve a good fit to the ground surface.
 
-For generating the triangulation we can choose the maximum allowed deviation from the true ground (as measured in the point cloud of AHN3). For the test data sets of v0.3, we choose *0.3*, *0.5*, *1.0* meters of deviation. This means for example that the *0.3m* TIN is guaranteed to be within 0.3 m of the true ground (as per AHN3). However, smaller errors mean more triangles and larger data sets, as you'll see in the downloads.
+For generating the triangulation we can choose the maximum allowed deviation from the true ground (as measured in the point cloud of AHN3). For the test data sets of v0.3, we choose respectively *0.3*, *0.5*, *1.0* meters of deviation. This means for example that the *0.3m* TIN is guaranteed to be within 0.3 m of the true ground (as per AHN3). However, smaller errors mean more triangles and larger data sets, as you'll see in the downloads.
 
 The reason for choosing a TIN instead of 3D lines is to be able to generate more accurate data more efficently. However we realize at least two current challanges with TINs. Firstly, the common noise calculation softwares in the Netherlands read terrain data only as 3D lines, secondly, common GIS software does not have native support for file formats that can store TINs efficiently.
 
@@ -139,7 +139,7 @@ Also for modelling noise-reflection and -absorption values, we use the BGT as ba
 
 ## Downloads
 
-The test data is available as *ESRI shape*.
+The 0.3 test data is available as *ESRI shape*.
 
 The following source data was used:
 * BGT: date 11-02-2019. <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
@@ -166,7 +166,7 @@ For the sample area we prepared the following data sets.
     <th class="tg-fymr">Download</th>
   </tr>
   <tr>
-    <td class="tg-pcvp">buildingd in LoD1.0</td>
+    <td class="tg-pcvp">building in LoD1. Same as in version 0.2</td>
     <td class="tg-pcvp">Building footprints with a single height value per building. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
@@ -185,7 +185,7 @@ For the sample area we prepared the following data sets.
 
 #### Terrain data
 
-We offer the TIN in three different formats, the 3D lines only as Shapefiles, for using them in your prefferred GIS applicaiton. In our experience reading the Shapefiles is most performant in ArcGIS, the GeoPackage in QGIS, the OBJ in Meshlab, Blender or FME.
+We offer the TIN in three different formats and three different simplifciation values, and the 3D lines only as Shapefiles, for using them in your prefferred GIS application. In our experience reading the Shapefiles is best performaning in ArcGIS, the GeoPackage in QGIS, the OBJ in Meshlab, Blender or FME.
 
 The 3D lines are primariliy meant for importing into the noise calculation software. Because the size of the 3D lines files are big, we also provide them chopped into quarters, as tiles.
 
