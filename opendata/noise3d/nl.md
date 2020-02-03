@@ -192,7 +192,7 @@ De volgende brondata is gebruikt:
     <td class="tg-pcvp">Footprints van gebouwen met 1 hoogte per gebouw, berekend op basis van zowel het 75ste percentiel als 95ste percentiel van hoogtepunten die binnen het vlak vallen. Identiek aan versie 0.2.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/gebouwen" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
@@ -200,7 +200,7 @@ De volgende brondata is gebruikt:
     <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte).</td>
     <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>

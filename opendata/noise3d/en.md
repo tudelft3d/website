@@ -174,7 +174,7 @@ For the sample area we prepared the following data sets.
     <td class="tg-pcvp">Building footprints with a single height value per building. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/gebouwen" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
@@ -182,7 +182,7 @@ For the sample area we prepared the following data sets.
     <td class="tg-0pky">Building footprints with a single height value per <em>building-part</em>. The height of the roofparts is computed as the 75th percentile of corresponding AHN3 elevation points.</td>
     <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
