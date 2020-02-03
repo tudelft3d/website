@@ -1,6 +1,6 @@
 ---
 layout: page_noise3d
-title: 3D input data for noise studies (experimental), published in January 2020
+title: 3D input data for noise studies version (0.3 February 2020)
 permalink: /opendata/noise3d/en
 is_dutch: false
 ---
@@ -47,24 +47,15 @@ For version 0.3 we have made initial choices regarding the simplification of the
 The input data can directly be used as input in software that implements the *Standaard Rekenmethode II van het RMG2012 (SRM2)* (i.e. the Dutch legally prescribed calculation method), like  GeoMilieu and WinHavik.
 
 ### Building models
+
+<iframe src="{{ "lod13map.html" | prepend: site.baseurl }}" id="demo" class="w-full" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" style="height:400px; width:100%; border:none;"></iframe>
+
 For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software [3dfier]{https://github.com/tudelft3d/3dfier}. This software converts 2D footprints into 3D block models.
-The heights of buildings are calculated as the 95-percentile of all AHN-points that fall within one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As additonal information, we also provide the 75-percentile.
 
 In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
-We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental* (see graphic below). 
-
-1. In the *LoD1.0* data set each building is modelled with a single height value. 
-2. In the *LoD1.3* data set the buildings with *only* horizontal roofparts are modelled with multiple heights. To achieve this the footprint is subdivided into several roofparts and each roofpart is assigned its own height. Buildings with slanted roofs are modelled with a single height.
-3. In the *LoD1.3 experimental* dataset, also the buildings with slanted roofparts are modelled with multiple heights. These buildings are the most difficult to model in *LoD1.3*, and these results are merely indicative of the current status of our LoD1.3 building reconstruction method. We intend to further improve this method in the near future.
-
-The height of each roofpart is computed by taking a percentile of the elevations points it contains. We offer both a 75th percentile and a 95th percentile variant.
-
 ![Sample area v0.3]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
-More details about our LoD1.3 reconstruction method can be found in the following slideshow.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Terrain model
 For v0.3 we experimented with a Triangulated Irregular Network (TIN) for representing the terrain. A TIN is like a blanket of triangles tightly fit to the ground, excluding above-ground objects (buildings, trees etc.). In flat areas the triangles are usually larger, in areas with high relief the triangles are usually smaller, in order to achieve a good fit to the ground surface.
@@ -179,27 +170,19 @@ For the sample area we prepared the following data sets.
     <th class="tg-fymr">Download</th>
   </tr>
   <tr>
-    <td class="tg-pcvp">building in LoD1.0</td>
+    <td class="tg-pcvp">buildingd in LoD1.0</td>
     <td class="tg-pcvp">Building footprints with a single height value per building. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
-    <td class="tg-0pky">building in LoD1.3</td>
-    <td class="tg-0pky">Building footprints with a single height value per <em>building-part</em>. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
+    <td class="tg-0pky">buildingd in LoD1.3</td>
+    <td class="tg-0pky">Building footprints with a single height value per <em>building-part</em>. The height of the roofparts is computed as the 75th percentile of corresponding AHN3 elevation points.</td>
     <td class="tg-0pky">&lt;tile id&gt;_lod13_&lt;percentile&gt;</td>
     <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">building in LoD1.3 (experimental version)</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_lod13_&lt;percentile&gt;_experimenteel</td>
-    <td class="tg-pcvp">
-      <a href="{{ "lod13_experimenteel.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
@@ -358,18 +341,23 @@ The table below describes the attributes of the *buildings* and *ground types* d
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">hoogte_abs</td>
-    <td class="tg-0pky"><em>hoogte absolute</em> or absolute height of the building (height measure from NAP)</td>
+    <td class="tg-0pky">rmse</td>
+    <td class="tg-0pky"><em>Root mean square error</em> between reconstructed LoD1.3 model and AHN3 points.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-pcvp">maaiveld_h</td>
+    <td class="tg-0pky">h_dak</td>
+    <td class="tg-0pky"><em>roof height</em> or absolute height of the roofpart (height measure from NAP)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-pcvp">h_maaiveld</td>
     <td class="tg-pcvp"><em>maaiveld hoogte</em> or absolute ground height of the building</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">maaiveld_p</td>
-    <td class="tg-0pky"><em>aantal maaiveld punten</em> or number of AHN points that were used for calculating the ground height. Note that a value below 3 might indicate an unreliable value for <code>maaiveld_h</code></td>
+    <td class="tg-0pky">is_complex</td>
+    <td class="tg-0pky">`1` if this is a complex building, meaning that not all the detected rooflines were used in the reconstruction process in order to limit processing times.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
@@ -408,7 +396,7 @@ The table below describes the attributes of the *buildings* and *ground types* d
 In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
 
 # Disclaimer
-The 3D noise data version 0.2 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
+The 3D noise data version 0.3 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
 
 ----
 # Project partners
