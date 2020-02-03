@@ -10,7 +10,7 @@ map: true
 
 <div class="well"><b>Feedback Sessie op 6 februari 2020</b><br/><br/>
 	Op donderdag 6 februari 2020 organiseren we een feedback sessie over versie 0.3 (die momenteel in ontwikkeling is) bij het Kadaster in Rotterdam (10:00-12:00). Tijdens deze sessie zullen we uitleg geven over de stand van zaken van onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
-	U kunt zich <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">hier</a> aanmelden voor deze sessie.
+	U kunt zich <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">hier</a> aanmelden voor deze sessie. U kunt ook feedback geven op de data via het feedback formulier <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform?usp=sf_link">hier</a> 
 	</div>
 
 - - -
