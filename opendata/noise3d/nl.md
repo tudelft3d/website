@@ -33,7 +33,9 @@ Met versie 0.3 bieden we 3 input lagen aan voor geluid studies. Namelijk:
 2. Bodemvlakken met geluidreflectie- en absorptie waarden
 3. Hoogte-beschrijving van het terrein
 
-Deze 3 lagen zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN. De wijze waarop we dit hebben gedaan, is hieronder in meer detail beschreven. 
+Daarnaast hebben we ook gekeken naar schermen en bruggen. Maar deze zijn geen onderdeel van de test data.
+
+De 3 lagen van de test data zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN. De wijze waarop we dit hebben gedaan, is hieronder in meer detail beschreven. 
 
 De belangrijkste veranderingen ten opzichte van versie 0.2 zijn:
 * Sterk verbeterde LoD 1.3 gebouw modellen (de LoD1 gebouwen zijn niet gewijzigd ten opzichte van versie 0.2)
@@ -56,7 +58,7 @@ Het modelleren van elk BAG pand met slechts een enkele hoogte, zoals opgeleverd 
 Dit is de zogenaamde LoD 1.3 representatie, dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
 In versie 0.3 is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde hebben we met het project team bepaald, maar kan nog veranderen op basis van feedback. 
 
-Voor de LoD1.3 gebouwen hebben we ook de ondergrondse delen van BAG panden zo goed als mogelijk verwijderd. Dit is nog werk-in-uitvoering en zal in een volgende versie worden verbeterd (deze verbetering zit dus nog niet in de LoD1-versie 0.2),
+Voor de LoD1.3 gebouwen hebben we ook de ondergrondse delen van BAG panden zo goed als mogelijk verwijderd. Dit is recent ontwikkelde functionaliteit en daarom nog werk-in-uitvoering. Het zal in een volgende versie worden verbeterd (op dit moment worden sommige bovengrondse gebouwen onterecht verwijderd).
 
 Naast de LoD 1.3 gebouwen zijn ook de LoD1 gebouwen nog beschikbaar van versie 0.2. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vindt er dus geen opsplitsing plaats op basis van hoogtesprongen.
 
@@ -65,7 +67,7 @@ De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten
 Op de LoD 1.3 gebouwen zijn de volgende opmerkingen van toepassing:
 1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie maar alleen de 400 langste lijnen. Hierdoor kan de modelleringsfout groter zijn (hier zullen we nog naar kijken).
 2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen dus de attributen die uit de BAG komen.
-3. In een voorwerkingsstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam). Dit proces moet nog verder worden geoptimaliseerd.
+3. In een voorwerkingsstap is gepoogd ondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam). Dit proces moet nog verder worden geoptimaliseerd.
 4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
 
 Zoals al eerder gemeld, zijn de LoD 1 gebouwen identiek aan versie 0.2.
@@ -168,7 +170,7 @@ Het 3D Geluidbestand versie 0.3 testbestand is beschikbaar in *ESRI shape*.
 
 De volgende brondata zijn gebruikt:
 * BGT: datum 11-02-2019. <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
-* BAG: datum 25-12-2019. Ondergrondse bouwwerken zijn verwijderd. Daarnaast zijn uit de BGT de overige bouwwerken met het type 'open loods' bijgevoegd. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
+* BAG: datum 25-12-2019. Ondergrondse bouwwerken zijn verwijderd (gaat nog niet overal goed). Daarnaast zijn uit de BGT de overige bouwwerken met het type 'open loods' bijgevoegd. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
 * AHN: versie 3, download via PDOK: [37ez2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37EZ2.LAZ), [37fz1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37FZ1.LAZ), [37gn2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37GN2.LAZ), [37hn1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37HN1.LAZ)
 
 #### Data gebouwen
@@ -198,7 +200,7 @@ De volgende brondata zijn gebruikt:
   </tr>
   <tr>
     <td class="tg-0pky">Gebouwen in LoD 1.3</td>
-    <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte). Open loodsen uit de BGT zijn ook toegevoegd. Ondergrondse delen van BAG panden zijn gepoogd te verwijderen </td>
+    <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte). Open loodsen uit de BGT zijn ook toegevoegd. Ondergrondse delen van BAG panden zijn verwijderd (gaat nog niet overal goed). </td>
     <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
       <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
