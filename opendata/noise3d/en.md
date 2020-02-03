@@ -1,14 +1,14 @@
 ---
 layout: page_noise3d
-title: 3D input data for noise studies (experimental), published in spring 2019
+title: 3D input data for noise studies (experimental), published in January 2020
 permalink: /opendata/noise3d/en
 is_dutch: false
 ---
 
 ![](/img/projects/noise3d_banner.jpg)
 
-<div class="well"><b>Feedback Session on 12 June 2019</b><br/><br/>
-	At this moment we are further developing our methods to version 0.3. On Thursday 6th of February we are organising a feedback session at the offices of the Kadasterin Rotterdam (10:00-12:00). During this session we will present our updated approach and we will be happy recieve your feedback for further development.
+<div class="well"><b>Feedback Session on 6th February 2020</b><br/><br/>
+	At this moment we are further developing our methods to version 0.3. On Thursday 6th of February we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00). During this session we will present our updated approach and we will be happy recieve your feedback for further development.
 	
 	You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
 	</div>
@@ -25,24 +25,24 @@ The past 3 years, we have investigated to automatically reconstruct 3D noise dat
 
 This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }}).
 
-On this site we publish an example dataset that is generated using the 0.2 version of our method in spring 2019. With this sample dataset interested parties have the possibility to review our results and send us feedback. At this moment we are further developing our methods to version 0.3. Results will be available beginning of 2020.
+On this site we publish an example dataset that is generated using the 0.3 version of our method in January 2020. With this sample dataset interested parties have the possibility to review our results and send us feedback. At this moment we are further developing our methods to version 1.0. Results will be available beginning of 2021.
 
-## Description test data version 0.2
+## Description test data version 0.3
 
 Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. 
 
-With version 0.2 we deliver three input layers for 3D noise studies, namely
+With version 0.3 we deliver three input layers for 3D noise studies, namely
 
 1. building models (gebouwen),
 2. ground types with noise reflection/absorption factors (bodemvlakken), and
-3. terrain (hoogtelijnen).
+3. terrain (TIN).
 
-These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.2 example dataset.
+These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.3 example dataset.
 
 The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below. We provide this test data in order to collect feedback that we will use for future developments where we plan to upscale the results to the whole of the Netherlands.
-For version 0.2 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
+For version 0.3 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
 
-![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
+![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
 The input data can directly be used as input in software that implements the *Standaard Rekenmethode II van het RMG2012 (SRM2)* (i.e. the Dutch legally prescribed calculation method), like  GeoMilieu and WinHavik.
 
@@ -66,8 +66,15 @@ More details about our LoD1.3 reconstruction method can be found in the followin
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-### Heights of the terrain
-For the representation of the height, we use the BGT and AHN as basis. The resulting 3D lines that do not significantly contribute to the terrain have been removed. We also added height lines in case a height-difference was detected in AHN but not represented by the BGT information.
+### Terrain model
+For v0.3 we experimented with a Triangulated Irregular Network (TIN) for representing the terrain. A TIN is like a blanket of triangles tightly fit to the ground, excluding above-ground objects (buildings, trees etc.). In flat areas the triangles are usually larger, in areas with high relief the triangles are usually smaller, in order to achieve a good fit to the ground surface.
+
+For generating the triangulation we can choose the maximum allowed deviation from the true ground (as measured in the point cloud of AHN3). For the test data sets of v0.3, we choose *0.3*, *0.5*, *1.0* meters of deviation. This means for example that the *0.3m* TIN is guaranteed to be within 0.3 m of the true ground (as per AHN3). However, smaller errors mean more triangles and larger data sets, as you'll see in the downloads.
+
+The reason for choosing a TIN instead of 3D lines is to be able to generate more accurate data more efficently. However we realize at least two current challanges with TINs. Firstly, the common noise calculation softwares in the Netherlands read terrain data only as 3D lines, secondly, common GIS software does not have native support for file formats that can store TINs efficiently.
+
+Therefore we provide the TINs also as 3D lines which in this case are the edges of the triangles, and provide the TINs in the common ESRI Shapefile and GeoPackage formats which are, although very inefficient, understood by most GIS software.
+
 
 ### Groundtypes with noise characteristcs
 Also for modelling noise-reflection and -absorption values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
