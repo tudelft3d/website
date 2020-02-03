@@ -50,7 +50,7 @@ Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het pro
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
 
-### Data over Gebouwen (zie ook de [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
+### Gebouw modellen (zie ook de [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
 
 Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee wordt de 2D informatie van de BAG-panden omgezet tot 3D blokvormen. 
 
@@ -65,9 +65,9 @@ Naast de LoD 1.3 gebouwen zijn ook de LoD1 gebouwen nog beschikbaar van versie 0
 De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
 
 Op de LoD 1.3 gebouwen zijn de volgende opmerkingen van toepassing:
-1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie maar alleen de 400 langste lijnen. Hierdoor kan de modelleringsfout groter zijn (hier zullen we nog naar kijken).
+1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie maar alleen de 400 langste lijnen. Hierdoor kan de modelleringsfout groter zijn (dit is een van aandachtspunten voor vervolgonderzoek).
 2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen dus de attributen die uit de BAG komen.
-3. In een voorwerkingsstap is gepoogd ondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam). Dit proces moet nog verder worden geoptimaliseerd.
+3. In een voorverwerkingsstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam). Dit proces moet nog verder worden geoptimaliseerd.
 4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
 
 Zoals al eerder gemeld, zijn de LoD 1 gebouwen identiek aan versie 0.2.
