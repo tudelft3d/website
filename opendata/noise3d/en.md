@@ -161,6 +161,8 @@ The following source data was used:
 
 For the sample area we prepared the following data sets.
 
+#### Building data
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
 .tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
@@ -175,22 +177,6 @@ For the sample area we prepared the following data sets.
     <th class="tg-fymr">Explanation</th>
     <th class="tg-fymr">File name</th>
     <th class="tg-fymr">Download</th>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">ground type</td>
-    <td class="tg-pcvp">Ground types classified by their noise reflecting property. Objects that are smaller than 6 square meters are merged into their neighbour and obtain the neighbour's reflectance property.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_bodemvlakken</td>
-    <td class="tg-pcvp">
-      <a href="{{ "bodemvlakken.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-    </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">terrain<br></td>
-    <td class="tg-0pky">Terrain modelled with 3D lines (not contour lines and not breaklines)</td>
-    <td class="tg-0pky">&lt;tile id&gt;_hoogtelijnen</td>
-    <td class="tg-0pky">
-      <a href="{{ "hoogtelijnen.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
   </tr>
   <tr>
     <td class="tg-pcvp">building in LoD1.0</td>
@@ -291,6 +277,48 @@ The 3D lines are primariliy meant for importing into the noise calculation softw
       <a href="{{ "lines_05m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m_tiles.zip</a><br/></td>
     <td class="tg-tin_shp" colspan="4">
       <a href="{{ "lines_1m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m_tiles.zip</a><br/></td>
+  </tr>
+</table></div>
+
+#### Ground type data
+
+The ground type data (bodemvlakken) is offered in three versions, *6 m2*, *12 m2* and *18 m2*. For instance in the *6 m2* version, the objects which area is less than 6 square meters are merged into their lagest neighbor, taking the ground property of their neighbor.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-wa1i" rowspan="2">Format</th>
+    <th class="tg-wa1i" colspan="3">Minimum object area</th>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">6 m2</td>
+    <td class="tg-wa1i">12 m2</td>
+    <td class="tg-wa1i">18 m2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_6.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m6/" | prepend: site.baseurl }}">tiles_bodemvlakken_6.shp.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_12.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m12/" | prepend: site.baseurl }}">tiles_bodemvlakken_12.shp.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_18.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m18/" | prepend: site.baseurl }}">tiles_bodemvlakken_18.shp.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">GeoPackage</td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_6.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m6/" | prepend: site.baseurl }}">tiles_bodemvlakken_6.gpkg.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_12.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m12/" | prepend: site.baseurl }}">tiles_bodemvlakken_12.gpkg.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_18.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m18/" | prepend: site.baseurl }}">tiles_bodemvlakken_18.gpkg.zip</a><br/></td>
   </tr>
 </table></div>
 
