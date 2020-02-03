@@ -165,12 +165,10 @@ Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende 
 
 Dit testbestand is beschikbaar in *ESRI shape*.
 
-De gebruikte bronbestanden zijn:
-* BGT: datum 11-02-2019, <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download bronbestanden]</a>
-* BAG: datum 25-02-2019, <a href="{{ "source_bag.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download bronbestanden]</a>
-* AHN: versie 3, download bronbestanden van PDOK: [37ez2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37EZ2.LAZ), [37fz1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37FZ1.LAZ), [37gn2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37GN2.LAZ), [37hn1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37HN1.LAZ)
-
-Onderstaand het download overzicht.
+De volgende brondata is gebruikt:
+* BGT: datum 11-02-2019. <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
+* BAG: datum 25-12-2019. Ondergrondse bouwwerken zijn verwijderd. Daarnaast zijn uit de BGT de overige bouwwerken met het type 'open loods' bijgevoegd. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
+* AHN: versie 3, download via PDOK: [37ez2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37EZ2.LAZ), [37fz1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37FZ1.LAZ), [37gn2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37GN2.LAZ), [37hn1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37HN1.LAZ)
 
 #### Data gebouwen
 
@@ -200,7 +198,7 @@ Onderstaand het download overzicht.
   <tr>
     <td class="tg-0pky">Gebouwen in LoD 1.3</td>
     <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte).</td>
-    <td class="tg-0pky">&lt;tile id&gt;_lod13_&lt;percentile&gt;</td>
+    <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
       <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
