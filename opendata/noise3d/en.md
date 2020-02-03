@@ -46,11 +46,7 @@ For version 0.3 we have made initial choices regarding the simplification of the
 
 The input data can directly be used as input in software that implements the *Standaard Rekenmethode II van het RMG2012 (SRM2)* (i.e. the Dutch legally prescribed calculation method), like  GeoMilieu and WinHavik.
 
-### Building models
-
-<iframe src="{{ "lod13map.html" | prepend: site.baseurl }}" id="demo" class="w-full" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" style="height:400px; width:100%; border:none;"></iframe>
-
-For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software [3dfier]{https://github.com/tudelft3d/3dfier}. This software converts 2D footprints into 3D block models.
+### Building models (see the [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
 
 In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
@@ -174,7 +170,7 @@ For the sample area we prepared the following data sets.
     <td class="tg-pcvp">Building footprints with a single height value per building. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/gebouwen" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
@@ -182,7 +178,7 @@ For the sample area we prepared the following data sets.
     <td class="tg-0pky">Building footprints with a single height value per <em>building-part</em>. The height of the roofparts is computed as the 75th percentile of corresponding AHN3 elevation points.</td>
     <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
