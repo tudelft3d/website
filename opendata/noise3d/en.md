@@ -73,7 +73,7 @@ For generating the triangulation we can choose the maximum allowed deviation fro
 
 The reason for choosing a TIN instead of 3D lines is to be able to generate more accurate data more efficently. However we realize at least two current challanges with TINs. Firstly, the common noise calculation softwares in the Netherlands read terrain data only as 3D lines, secondly, common GIS software does not have native support for file formats that can store TINs efficiently.
 
-Therefore we provide the TINs also as 3D lines which in this case are the edges of the triangles, and provide the TINs in the common ESRI Shapefile and GeoPackage formats which are, although very inefficient, understood by most GIS software.
+Therefore we provide the TINs also as 3D lines which in this case are the edges of the triangles, and provide the TINs in the common ESRI Shapefile and GeoPackage formats which are, although very inefficient for this purpose, understood by most GIS software.
 
 
 ### Groundtypes with noise characteristcs
@@ -218,6 +218,107 @@ For the sample area we prepared the following data sets.
   </tr>
 </table>
 
+#### Terrain data
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uzvj{font-weight:bold;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-g7sd{font-weight:bold;border-color:inherit;text-align:left;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-uzvj" rowspan="2">Geometry</th>
+    <th class="tg-uzvj" rowspan="2">Format</th>
+    <th class="tg-7btt" colspan="12">Error threshold</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt" colspan="4">0,3m</td>
+    <td class="tg-7btt" colspan="4">0,5m</td>
+    <td class="tg-7btt" colspan="4">1,0m</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj" rowspan="3">TIN</td>
+    <td class="tg-0pky">ESRI Shapefile</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">GeoPackage</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Wavefront OBJ</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+  </tr>
+  <tr>
+    <td class="tg-g7sd" rowspan="2">3D Lines</td>
+    <td class="tg-0pky">ESRI Shapefile</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+    <td class="tg-c3ow">37ez2</td>
+    <td class="tg-c3ow">37fz1</td>
+    <td class="tg-c3ow">37gn2</td>
+    <td class="tg-c3ow">37hn1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">ESRI Shapefile</td>
+    <td class="tg-c3ow">37ez2 tiles</td>
+    <td class="tg-c3ow">37fz1 tiles</td>
+    <td class="tg-c3ow">37gn2 tiles</td>
+    <td class="tg-c3ow">37hn1 tiles</td>
+    <td class="tg-c3ow">37ez2 tiles</td>
+    <td class="tg-c3ow">37fz1 tiles</td>
+    <td class="tg-c3ow">37gn2 tiles</td>
+    <td class="tg-c3ow">37hn1 tiles</td>
+    <td class="tg-c3ow">37ez2 tiles</td>
+    <td class="tg-c3ow">37fz1 tiles</td>
+    <td class="tg-c3ow">37gn2 tiles</td>
+    <td class="tg-c3ow">37hn1 tiles</td>
+  </tr>
+</table></div>
 
 ### Attributes
 
