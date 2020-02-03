@@ -79,7 +79,7 @@ Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als 
 
 Het TIN is berekend door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking (tov de oorspronkelijke AHN3 maaiveld punten) te overschrijden.
 
-We maken drie TIN bestanden beschikbaar met een ieder een verschillende maximale afwijking tussen het TIN en de AHN3 maaiveld punten. De de beschikbare bestanden hebben een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
+We maken drie TIN bestanden beschikbaar met ieder een verschillende maximale afwijking tussen het TIN en de AHN3 maaiveld punten. De de beschikbare bestanden hebben een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
 
 We zijn in versie 0.3 overgestapt van hoogtelijnen naar een TIN overgestapt omdat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden. We zijn ons daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
