@@ -41,7 +41,7 @@ De belangrijkste veranderingen ten opzichte van versie 0.2 zijn:
 
 Voor deze test data zijn voorlopige keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën in de basisgegevens, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van uw reacties kunnen deze instellingen in een volgende versie nog worden aangepast.
 
-Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het product voor een testgebied ter beschikking gesteld aan potentiele eindgebruikers, met als doel om feedback te verzamelen. Het testgebied beslaat een deel van het Rijnmondgebied, om precies te zijn: de kaartbladen 37ez2, 37fz1, 37gn2 en 37hn1, waarbinnen een deel van de gemeentes Schiedam en Rotterdam vallen.
+Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het product voor een testgebied ter beschikking gesteld aan potentiële eindgebruikers, met als doel om feedback te verzamelen. Het testgebied beslaat een deel van het Rijnmondgebied, om precies te zijn: de kaartbladen 37ez2, 37fz1, 37gn2 en 37hn1, waarbinnen een deel van de gemeentes Schiedam en Rotterdam vallen.
 
 ![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
@@ -61,9 +61,9 @@ Naast de LoD 1.3 gebouwen zijn ook LoD 1.0 gebouwen beschikbaar. Hierin heeft ie
 De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD 1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
 
 Op de gebouwen zijn de volgende opmerkingen van toepassing:
-1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenonen in de reconstructie. Hierdoor kan dat de modelleringsfout wat groter kan zijn.
+1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie. Hierdoor kan dat de modelleringsfout wat groter kan zijn.
 2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen een aantal attributen.
-3. In een voorwerkingstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomendheden in dit process zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Martkhal in Rotterdam).
+3. In een voorwerkingsstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam).
 4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
 5. De LoD 1.0 gebouwen zijn identiek aan versie 0.2.
 
@@ -75,18 +75,18 @@ Op de gebouwen zijn de volgende opmerkingen van toepassing:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 
 ### Hoogtebeschrijving Terrein
-Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoekjes. Het TIN is berekend op basis vand de maaiveld punten uit het AHN3. 
+Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoekjes. Het TIN is berekend op basis van de maaiveld punten uit het AHN3. 
 
-Het TIN is berekend door middel van een slime simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking (tov de oorspronkelijke AHN3 maaiveld punten) te overschrijden.
+Het TIN is berekend door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking (tov de oorspronkelijke AHN3 maaiveld punten) te overschrijden.
 
 We maken drie TIN bestanden beschikbaar met een ieder een verschillende maximale afwijking tussen het TIN en de AHN3 maaiveld punten. De de beschikbare bestanden hebben een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
 
-We zijn in versie 0.3 overgestapt van hoogtelijnen naar een TIN overgestapt omdat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gerandeerd kan worden. We zijn ons daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software en 2) dat er geen standaard efficient bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
+We zijn in versie 0.3 overgestapt van hoogtelijnen naar een TIN overgestapt omdat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden. We zijn ons daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
 Daarom bieden we de TIN ook aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het ESRI Shapefile formaat en het GeoPackage formaat.
 
 ### Bodemgebieden
-Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de BGT. Bodemgebieden kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluidberekeningen verwerkt). Aansluitende bodemgebieden met dezelfde akoestische eigenschappen worden samengevoegd. Vervolgens wordt de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
+Ook voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de BGT. Bodemgebieden kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt). Aansluitende bodemgebieden met dezelfde akoestische eigenschappen worden samengevoegd. Vervolgens wordt de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -205,9 +205,9 @@ De volgende brondata is gebruikt:
 
 #### Data terrein
 
-Het TIN is beschikbaar in drie verschillende bestandsformaten. Shapefiles worden aangereaden voor ArcGIS, GeoPackage in QGIS, en het OBJ formaat in 3D viewers zoals Meshlab, Blender en FME.
+Het TIN is beschikbaar in drie verschillende bestandsformaten. Shapefiles worden aangeraden voor ArcGIS, GeoPackage in QGIS, en het OBJ formaat in 3D viewers zoals Meshlab, Blender en FME.
 
-The 3D lijnbestanden zijn hoofdzakelijk bedoelt om te kunnen importeren in geluid modellerings software. Vanwege de bestandsgrootte hebben we deze opgesplitst in 4 tegels.
+The 3D lijnbestanden zijn hoofdzakelijk bedoelt om te kunnen importeren in geluid simulatie software. Vanwege de bestandsgrootte hebben we deze opgesplitst in 4 tegels.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
@@ -373,7 +373,7 @@ In de attributen van de gebouwen is de volgende informatie opgenomen:
   <tr>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">is_complex</td>
-    <td class="tg-0pky">`1` als dit een complex gebouw betreft, dwz niet alle gedeteceerde daklijnen zijn meegenomen in de reconstructie om de verwerkingstijd te beperken.</td>
+    <td class="tg-0pky">`1` als dit een complex gebouw betreft, dwz niet alle gedetecteerde daklijnen zijn meegenomen in de reconstructie om de verwerkingstijd te beperken.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
