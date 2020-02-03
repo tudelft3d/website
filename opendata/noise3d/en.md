@@ -73,7 +73,7 @@ For generating the triangulation we can choose the maximum allowed deviation fro
 
 The reason for choosing a TIN instead of 3D lines is to be able to generate more accurate data more efficently. However we realize at least two current challanges with TINs. Firstly, the common noise calculation softwares in the Netherlands read terrain data only as 3D lines, secondly, common GIS software does not have native support for file formats that can store TINs efficiently.
 
-Therefore we provide the TINs also as 3D lines which in this case are the edges of the triangles, and provide the TINs in the common ESRI Shapefile and GeoPackage formats which are, although very inefficient, understood by most GIS software.
+Therefore we provide the TINs also as 3D lines which in this case are the edges of the triangles, and provide the TINs in the common ESRI Shapefile and GeoPackage formats which are, although very inefficient for this purpose, understood by most GIS software.
 
 
 ### Groundtypes with noise characteristcs
@@ -218,6 +218,81 @@ For the sample area we prepared the following data sets.
   </tr>
 </table>
 
+#### Terrain data
+
+We offer the TIN in three different formats, the 3D lines only as Shapefiles, for using them in your prefferred GIS applicaiton. In our experience reading the Shapefiles is most performant in ArcGIS, the GeoPackage in QGIS, the OBJ in Meshlab, Blender or FME.
+
+The 3D lines are primariliy meant for importing into the noise calculation software. Because the size of the 3D lines files are big, we also provide them chopped into quarters, as tiles.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
+.tg td{font-family:sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:middle}
+.tg .tg-tin_shp{text-align:center;vertical-align:middle; background-color: #ecf0f1;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-wa1i" rowspan="2">Geometry</th>
+    <th class="tg-wa1i" rowspan="2">Format</th>
+    <th class="tg-amwm" colspan="12">Error threshold</th>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="4">0,3m</td>
+    <td class="tg-amwm" colspan="4">0,5m</td>
+    <td class="tg-amwm" colspan="4">1,0m</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i" rowspan="3">TIN</td>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_03m.shp.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.shp.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_05m.shp.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.shp.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_1m.shp.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.shp.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">GeoPackage</td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "tin_03m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.gpkg.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "tin_05m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.gpkg.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "tin_1m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.gpkg.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Wavefront OBJ</td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_03m.obj.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.obj.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_05m.obj.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.obj.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_1m.obj.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.obj.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i" rowspan="2">3D Lines</td>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "lines_03m.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">lines_03m.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "lines_05m.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "lines_1m.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "lines_03m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">lines_03m_tiles.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "lines_05m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m_tiles.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "lines_1m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m_tiles.zip</a><br/></td>
+  </tr>
+</table></div>
 
 ### Attributes
 
