@@ -67,6 +67,7 @@ Op de gebouwen zijn de volgende opmerkingen van toepassing:
 2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen een aantal attributen.
 3. In een voorwerkingstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomendheden in dit process zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Martkhal in Rotterdam).
 4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
+5. De LoD 1.0 gebouwen zijn identiek aan versie 0.2.
 
 
 ![Sample area v0.2]({{ "building_lod.png" | prepend: site.baseurl }})
@@ -200,7 +201,7 @@ Onderstaand het download overzicht.
     <td class="tg-pcvp">Footprints van gebouwen met 1 hoogte per gebouw, berekend op basis van zowel het 75ste percentiel als 95ste percentiel van hoogtepunten die binnen het vlak vallen. Identiek aan versie 0.2.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
@@ -208,7 +209,7 @@ Onderstaand het download overzicht.
     <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte).</td>
     <td class="tg-0pky">&lt;tile id&gt;_lod13_&lt;percentile&gt;</td>
     <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
