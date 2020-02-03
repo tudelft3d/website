@@ -9,9 +9,9 @@ map: true
 ![](/img/projects/noise3d_banner.jpg)
 
 <div class="well"><b>Feedback Sessie op 6 februari 2020</b><br/><br/>
-	Op donderdag 6 februari 2020 organiseren we een feedback sessie over versie 0.3 (die momenteel in ontwikkeling is) bij het Kadaster in Rotterdam (10:00-12:00). Tijdens deze sessie zullen we uitleg geven over de stand van zaken van onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
+	Op donderdag 6 februari 2020 organiseren we een feedback sessie over versie 0.3 (beschikbaar via deze webpage) bij het Kadaster in Rotterdam (10:00-12:00). Tijdens deze sessie zullen we uitleg geven over de stand van zaken van onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
 	U kunt zich <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">hier</a> aanmelden voor deze sessie. 
-	U kunt ook feedback geven op de data via het feedback formulier <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform?usp=sf_link">hier</a> 
+	U kunt ook feedback geven op de data via het <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform?usp=sf_link">feedback formulier</a> 
 	</div>
 
 - - -
@@ -20,14 +20,13 @@ map: true
 {:toc}
 
 - - -
-## Wat is 3D geluid NL? Introductie
-De afgelopen 3 jaar hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt alle modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties. Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
+## Wat is 3D geluidbestand NL? Introductie
+De afgelopen 3 jaar hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties. Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
 
 Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3d/" | prepend: site.baseurl  }}) te vinden.
 
-
 ## Beschrijving test data versie 0.3
-Onze methode heeft als doel om zo veel mogelijk detail en nauwkeurigheid te behouden, en tegelijkertijd de data klein te houden en deze te laten aansluiten om de huidige beschikbare geluidsimulatie software systemen. 
+Onze methode heeft als doel om zo veel mogelijk detail en nauwkeurigheid te behouden, en tegelijkertijd het data-volume klein te houden en deze te laten aansluiten op de huidige beschikbare geluidsimulatie software systemen. 
 
 Met versie 0.3 bieden we 3 input lagen aan voor geluid studies. Namelijk:
 1. Gebouwen
@@ -37,10 +36,10 @@ Met versie 0.3 bieden we 3 input lagen aan voor geluid studies. Namelijk:
 Deze 3 lagen zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN. De wijze waarop we dit hebben gedaan, is hieronder in meer detail beschreven. 
 
 De belangrijkste veranderingen ten opzichte van versie 0.2 zijn:
-* Sterk verbeterde LoD 1.3 gebouw modellen
+* Sterk verbeterde LoD 1.3 gebouw modellen (de LoD1 gebouwen zijn niet gewijzigd ten opzichte van versie 0.2)
 * Terrein opgeleverd als TIN in plaats van hoogtelijnen
 
-Voor deze test data zijn voorlopige keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën in de basisgegevens, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van uw reacties kunnen deze instellingen in een volgende versie nog worden aangepast.
+Voor deze test data zijn voorlopige keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van uw reacties kunnen deze instellingen in een volgende versie worden aangepast.
 
 Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het product voor een testgebied ter beschikking gesteld aan potentiële eindgebruikers, met als doel om feedback te verzamelen. Het testgebied beslaat een deel van het Rijnmondgebied, om precies te zijn: de kaartbladen 37ez2, 37fz1, 37gn2 en 37hn1, waarbinnen een deel van de gemeentes Schiedam en Rotterdam vallen.
 
@@ -49,24 +48,27 @@ Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het pro
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
 
-### Gebouwen (zie ook de [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
+### Data over Gebouwen (zie ook de [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
 
 Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee wordt de 2D informatie van de BAG-panden omgezet tot 3D blokvormen. 
 
-Het modelleren van elk BAG pand met slechts een enkele hoogte (LoD 1.0) kan tot fouten leiden als een pand in werkelijkheid verschillende hoogtes heeft bijvoorbeeld in het geval van een kerk met toren of een huis met aanliggende garage. Daarom hebben we ook gekeken hoe we BAG panden met hoogtesprongen kunnen modelleren.
+Het modelleren van elk BAG pand met slechts een enkele hoogte, zoals opgeleverd bij versie 0.2 (LoD 1) kan tot fouten leiden als een pand in werkelijkheid verschillende hoogtes heeft bijvoorbeeld in het geval van een kerk met toren of een huis met aanliggende garage. Daarom hebben we voor versie 0.3 gekeken hoe we BAG panden met hoogtesprongen kunnen modelleren.
 Dit is de zogenaamde LoD 1.3 representatie, dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
-In versie 0.3 is een hoogtesprong relevant vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. 
+In versie 0.3 is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde hebben we met het project team bepaald, maar kan nog veranderen op basis van feedback. 
 
-Naast de LoD 1.3 gebouwen zijn ook LoD 1.0 gebouwen beschikbaar. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vind er dus geen opsplitsing plaats op basis van hoogtesprongen.
+Voor de LoD1.3 gebouwen hebben we ook de ondergrondse delen van BAG panden zo goed als mogelijk verwijderd. Dit is nog werk-in-uitvoering en zal in een volgende versie worden verbeterd (deze verbetering zit dus nog niet in de LoD1-versie 0.2),
 
-De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD 1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
+Naast de LoD 1.3 gebouwen zijn ook de LoD1 gebouwen nog beschikbaar van versie 0.2. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vindt er dus geen opsplitsing plaats op basis van hoogtesprongen.
 
-Op de gebouwen zijn de volgende opmerkingen van toepassing:
-1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie. Hierdoor kan dat de modelleringsfout wat groter kan zijn.
-2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen een aantal attributen.
-3. In een voorwerkingsstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam).
+De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
+
+Op de LoD 1.3 gebouwen zijn de volgende opmerkingen van toepassing:
+1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie. Hierdoor kan de modelleringsfout groter zijn (hier zullen we nog naar kijken).
+2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen dus de attributen die uit de BAG komen.
+3. In een voorwerkingsstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam). Dit proces moet nog verder worden geoptimaliseerd.
 4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
-5. De LoD 1.0 gebouwen zijn identiek aan versie 0.2.
+
+Zoals al eerder gemeld, zijn de LoD 1 gebouwen identiek aan versie 0.2.
 
 
 ![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
@@ -80,9 +82,9 @@ Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als 
 
 Het TIN is berekend door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking (tov de oorspronkelijke AHN3 maaiveld punten) te overschrijden.
 
-We maken drie TIN bestanden beschikbaar met ieder een verschillende maximale afwijking tussen het TIN en de AHN3 maaiveld punten. De de beschikbare bestanden hebben een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
+We stellen drie TIN bestanden beschikbaar met ieder een verschillende maximale afwijking tussen het TIN en de AHN3 maaiveld punten. De beschikbare bestanden hebben een maximale afwijking van respectievelijk *0.3*, *0.5*, en *1.0* meter. Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
 
-We zijn in versie 0.3 overgestapt van hoogtelijnen naar een TIN overgestapt omdat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden. We zijn ons daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
+We zijn in versie 0.3 van hoogtelijnen naar een TIN overgestapt omdat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden. We zijn ons daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
 Daarom bieden we de TIN ook aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het ESRI Shapefile formaat en het GeoPackage formaat.
 
