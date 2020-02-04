@@ -60,9 +60,9 @@ In versie 0.3 is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat gr
 
 Voor de LoD1.3 gebouwen hebben we ook de ondergrondse delen van BAG panden zo goed als mogelijk verwijderd. Dit is recent ontwikkelde functionaliteit en daarom nog werk-in-uitvoering. Het zal in een volgende versie worden verbeterd (op dit moment worden sommige bovengrondse gebouwen onterecht verwijderd).
 
-Naast de LoD 1.3 gebouwen zijn ook de LoD1 gebouwen nog beschikbaar van versie 0.2. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vindt er dus geen opsplitsing plaats op basis van hoogtesprongen.
+Naast de LoD 1.3 gebouwen zijn ook de LoD1 gebouwen nog beschikbaar van versie 0.2. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vindt er dus geen opsplitsing plaats op basis van hoogtesprongen. De hoogtes in dit LoD1 bestand zijn berekend voor het 75-percentiel en het 95-percentiel.
 
-De hoogte van de dakdelen is uitgedrukt in het 75-percentiel van alle AHN-punten die binnen dat dakdeel vallen. Als extra informatie wordt in de LoD1 representatie ook het 95-percentiel van de hoogte van de puntenwolk meegeleverd.
+De hoogte van de LoD 1.3 dakdelen is uitgedrukt in het 70-percentiel van alle AHN-punten die binnen dat dakdeel vallen.
 
 Op de LoD 1.3 gebouwen zijn de volgende opmerkingen van toepassing:
 1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie maar alleen de 400 langste lijnen. Hierdoor kan de modelleringsfout groter zijn (dit is een van aandachtspunten voor vervolgonderzoek).
@@ -200,7 +200,7 @@ De volgende brondata zijn gebruikt:
   </tr>
   <tr>
     <td class="tg-0pky">Gebouwen in LoD 1.3</td>
-    <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 75ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte). Open loodsen uit de BGT zijn ook toegevoegd. Ondergrondse delen van BAG panden zijn verwijderd (gaat nog niet overal goed). </td>
+    <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 70ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte). Open loodsen uit de BGT zijn ook toegevoegd. Ondergrondse delen van BAG panden zijn verwijderd (gaat nog niet overal goed). </td>
     <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
       <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
@@ -328,7 +328,7 @@ De bodemvlakken zijn beschikbaar in 3 varianten ieder met een andere minimale ob
 
 ### Attributen
 
-In de attributen van de gebouwen is de volgende informatie opgenomen:
+In de attributen van de LodD1.3 gebouwen is de volgende informatie opgenomen:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
