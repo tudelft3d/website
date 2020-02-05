@@ -20,12 +20,12 @@
 - name: Easy3D
   description: A lightweight, easy-to-use, and efficient C++ library for processing and rendering 3D data
   github: https://github.com/LiangliangNan/Easy3D/
-  image: easy3d.jpg
+  image: easy3d.png
 
 - name: PolyFit
   description: Piecewise planar object (e.g., buildings) reconstruction from point clouds. Also available in <a href="https://cgal.geometryfactory.com/CGAL/doc/master/Polygonal_surface_reconstruction/index.html" target="_blank">CGAL</a>
   github: https://github.com/LiangliangNan/PolyFit
-  image: polyfit.jpg
+  image: polyfit.png
   web: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
   paper: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-ICCV2017.pdf
   video: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-video.mp4
@@ -33,7 +33,7 @@
 - name: MVStudio
   description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution
   github: https://github.com/LiangliangNan/MVStudio
-  image: mvstudio.jpg
+  image: mvstudio.png
 
 - name: 3dfier
   description: Takes 2D GIS datasets and "3dfies" them by lifting each polygon to its height (obtained with LiDAR)
