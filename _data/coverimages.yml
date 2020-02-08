@@ -16,7 +16,7 @@
 #   description: "CityGML official homepage: help, tips, datasets, etc."
 #   webpage: https://www.citygml.org
 
-- image: umnd.jpg
+- image: umnd.png
   description: Urban modelling in higher dimensions
   webpage: https://3d.bk.tudelft.nl/projects/umnd/
 
@@ -36,7 +36,7 @@
   description: Design and implementation of an SDI for integrated environmental modelling in 3D
   webpage: http://www.3d4em.nl
 
-- image: geo5d.png
+- image: geo5d.svg
   description: 5D geo-modelling
   webpage: /projects/geo5d/
 
@@ -44,7 +44,7 @@
   description: 3DSM
   webpage: /projects/3dsm/
 
-- image: geobim.jpg
+- image: geobim.png
   description: GeoBIM
   webpage: /projects/geobim/
 
@@ -66,7 +66,7 @@
   description: A CityGML viewer for Mac
   webpage: https://github.com/tudelft3d/azul
 
-- image: polyfit.jpg
+- image: polyfit.png
   description: Piecewise planar object (e.g., buildings) reconstruction from point clouds.
   webpage: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
 

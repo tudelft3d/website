@@ -1,3 +1,21 @@
+
+- surname: Jong-Lansbergen
+  van: de
+  name: Martine
+  title: Secretary
+  photo: martine.jpg
+  email: m.m.m.dejong-lansbergen@tudelft.nl
+  phone: "+31 15 27 82540"
+
+
+- surname: Meerburg
+  name: Erik  
+  title: teacher (external)
+  photo: erik.jpg
+  email: e.s.meerburg@tudelft.nl
+  twitter: geogoeroe
+
+
 - surname: Valese
   name: Maria
   title: PhD candidate
@@ -115,15 +133,6 @@ She works towards the **integration of multi-source spatial data**, in particula
   email: w.gao-1@tudelft.nl
   # phone: "+31 6 52046328"
 
-
-- surname: Heester
-  name: Bob
-  title: PhD candidate (external)
-  photo: bob.jpg
-  email: b.a.heester@tudelft.nl
-  phone: "+31 6 52046328"
-  homepage: 3d.bk.tudelft.nl/bheester
-  description: "Integration of GIS and BIM thought the use of Blockchain technology"
 
 - surname: Vitalis
   name: Stelios

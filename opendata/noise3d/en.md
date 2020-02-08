@@ -1,16 +1,16 @@
 ---
 layout: page_noise3d
-title: 3D input data for noise studies (experimental), published in spring 2019
+title: 3D input data for noise studies version (0.3 February 2020)
 permalink: /opendata/noise3d/en
 is_dutch: false
 ---
 
 ![](/img/projects/noise3d_banner.jpg)
 
-<div class="well"><b>Feedback Session on 12 June 2019</b><br/><br/>
-	At this moment we are further developing our methods to version 0.3. On Thursday 6th of February we are organising a feedback session at the offices of the Kadasterin Rotterdam (10:00-12:00). During this session we will present our updated approach and we will be happy recieve your feedback for further development.
-	
+<div class="well"><b>Feedback Session on 6th February 2020</b><br/><br/>
+	At this moment we are further developing our methods to version 0.3. On Thursday 6th of February we are organising a feedback session at the offices of the Kadaster in Rotterdam (10:00-12:00). During this session we will present our updated approach and we will be happy recieve your feedback for further development.
 	You can register using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">this form</a>.
+	You can also give feedback via a <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform?usp=sf_link">web form</a> 
 	</div>
 	
 - - -
@@ -25,49 +25,43 @@ The past 3 years, we have investigated to automatically reconstruct 3D noise dat
 
 This is an ongoing project that was started in 2017. A more detailed project description can be found [here]({{ "/projects/noise3d/" | prepend: site.baseurl  }}).
 
-On this site we publish an example dataset that is generated using the 0.2 version of our method in spring 2019. With this sample dataset interested parties have the possibility to review our results and send us feedback. At this moment we are further developing our methods to version 0.3. Results will be available beginning of 2020.
+On this site we publish an example dataset that is generated using the 0.3 version of our method in January 2020. With this sample dataset interested parties have the possibility to review our results and send us feedback. At this moment we are further developing our methods to version 1.0. Results will be available beginning of 2021.
 
-## Description test data version 0.2
+## Description test data version 0.3
 
 Our method aims to achieve high detail and accuracy, while keeping the resulting files small and adhering to the requirements and limitations of the currently available noise simulation software on the market. 
 
-With version 0.2 we deliver three input layers for 3D noise studies, namely
+With version 0.3 we deliver three input layers for 3D noise studies, namely
 
 1. building models (gebouwen),
 2. ground types with noise reflection/absorption factors (bodemvlakken), and
-3. terrain (hoogtelijnen).
+3. terrain (TIN).
 
-These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.2 example dataset.
+These three input layers were generated fully automatically from the public BAG, BGT and AHN3 datasets and are explained in more detail below. We also investigated noise barriers (geluidsschermen) and bridges (bruggen), however these are not part of the v0.3 example dataset.
 
 The study area of the sample dataset spans the *37ez2*, *37fz1*, *37gn2*, and *37hn1* AHN tiles nearby the city of Rotterdam as illustrated below. We provide this test data in order to collect feedback that we will use for future developments where we plan to upscale the results to the whole of the Netherlands.
-For version 0.2 we have made initial choices regarding the simplification of the data , height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
+For version 0.3 we have made initial choices regarding the simplification of the data, height-differences between connecting building parts, minimimum sizes of details etc. Based on the feedback we can adjust these parameters in a next release.
 
-![Sample area v0.2]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
+![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
 The input data can directly be used as input in software that implements the *Standaard Rekenmethode II van het RMG2012 (SRM2)* (i.e. the Dutch legally prescribed calculation method), like  GeoMilieu and WinHavik.
 
-### Building models
-For the buildings, the BAG is used as basis. The heights of buildings have been calculated using the AHN-point cloud and the software [3dfier]{https://github.com/tudelft3d/3dfier}. This software converts 2D footprints into 3D block models.
-The heights of buildings are calculated as the 95-percentile of all AHN-points that fall within one building polygon. This is a good estimation of the roof ridge both for flat roofs and slanted roofs. Outliers such as points that fall on chimneys will be filtered out. As additonal information, we also provide the 75-percentile.
+### Building models (see the [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
 
-In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1.0*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
+In the current noise simulation practice each building, regardless of its roof shape, is modelled with a single height level. The resulting block-shaped building representation is called *LoD1*. Modelling a building with only a single height can lead to large errors in the modelled height in case the building in reality consists of different parts that each have a very different height. Therefore, we have investigated how to automatically create building models in which multiple height levels are possible, i.e. using the *LoD1.3* representation.
 
-We offer three alternative data sets with building models, *LoD1.0*, *LoD1.3* and *LoD1.3 experimental* (see graphic below). 
+![Sample area v0.3]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
-1. In the *LoD1.0* data set each building is modelled with a single height value. 
-2. In the *LoD1.3* data set the buildings with *only* horizontal roofparts are modelled with multiple heights. To achieve this the footprint is subdivided into several roofparts and each roofpart is assigned its own height. Buildings with slanted roofs are modelled with a single height.
-3. In the *LoD1.3 experimental* dataset, also the buildings with slanted roofparts are modelled with multiple heights. These buildings are the most difficult to model in *LoD1.3*, and these results are merely indicative of the current status of our LoD1.3 building reconstruction method. We intend to further improve this method in the near future.
 
-The height of each roofpart is computed by taking a percentile of the elevations points it contains. We offer both a 75th percentile and a 95th percentile variant.
+### Terrain model
+For v0.3 we experimented with a Triangulated Irregular Network (TIN) for representing the terrain. A TIN is like a blanket of triangles tightly fit to the ground, excluding above-ground objects (buildings, trees etc.). In flat areas the triangles are usually larger, in areas with high relief the triangles are usually smaller, in order to achieve a good fit to the ground surface.
 
-![Sample area v0.2]({{ "building_lod.png" | prepend: site.baseurl }})
+For generating the triangulation we can choose the maximum allowed deviation from the true ground (as measured in the point cloud of AHN3). For the test data sets of v0.3, we choose respectively *0.3*, *0.5*, *1.0* meters of deviation. This means for example that the *0.3m* TIN is guaranteed to be within 0.3 m of the true ground (as per AHN3). However, smaller errors mean more triangles and larger data sets, as you'll see in the downloads.
 
-More details about our LoD1.3 reconstruction method can be found in the following slideshow.
+The reason for choosing a TIN instead of 3D lines is to be able to generate more accurate data more efficently. However we realize at least two current challanges with TINs. Firstly, the common noise calculation softwares in the Netherlands read terrain data only as 3D lines, secondly, common GIS software does not have native support for file formats that can store TINs efficiently.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+Therefore we provide the TINs also as 3D lines which in this case are the edges of the triangles, and provide the TINs in the common ESRI Shapefile and GeoPackage formats which are, although very inefficient for this purpose, understood by most GIS software.
 
-### Heights of the terrain
-For the representation of the height, we use the BGT and AHN as basis. The resulting 3D lines that do not significantly contribute to the terrain have been removed. We also added height lines in case a height-difference was detected in AHN but not represented by the BGT information.
 
 ### Groundtypes with noise characteristcs
 Also for modelling noise-reflection and -absorption values, we use the BGT as basis. Neighbouring polygons with same values have been aggregated, small areas have been eliminated and boundaries have been simplified. 
@@ -145,14 +139,16 @@ Also for modelling noise-reflection and -absorption values, we use the BGT as ba
 
 ## Downloads
 
-The test data is available as *ESRI shape*.
+The 0.3 test data is available as *ESRI shape*.
 
 The following source data was used:
-* BGT: date 11-02-2019, <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
-* BAG: date 25-02-2019, <a href="{{ "source_bag.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
+* BGT: date 11-02-2019. <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
+* BAG: date 25-12-2019. We removed the underground buildings and included some objects from BGT's Overigbouwwerk layer. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
 * AHN: version 3, download tiles from PDOK: [37ez2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37EZ2.LAZ), [37fz1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37FZ1.LAZ), [37gn2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37GN2.LAZ), [37hn1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37HN1.LAZ)
 
 For the sample area we prepared the following data sets.
+
+#### Building data
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -170,47 +166,140 @@ For the sample area we prepared the following data sets.
     <th class="tg-fymr">Download</th>
   </tr>
   <tr>
-    <td class="tg-pcvp">ground type</td>
-    <td class="tg-pcvp">Ground types classified by their noise reflecting property. Objects that are smaller than 6 square meters are merged into their neighbour and obtain the neighbour's reflectance property.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_bodemvlakken</td>
-    <td class="tg-pcvp">
-      <a href="{{ "bodemvlakken.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-    </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">terrain<br></td>
-    <td class="tg-0pky">Terrain modelled with 3D lines (not contour lines and not breaklines)</td>
-    <td class="tg-0pky">&lt;tile id&gt;_hoogtelijnen</td>
-    <td class="tg-0pky">
-      <a href="{{ "hoogtelijnen.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">building in LoD1.0</td>
+    <td class="tg-pcvp">building in LoD1. Same as in version 0.2</td>
     <td class="tg-pcvp">Building footprints with a single height value per building. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof.</td>
     <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
     <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
   <tr>
-    <td class="tg-0pky">building in LoD1.3</td>
-    <td class="tg-0pky">Building footprints with a single height value per <em>building-part</em>. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.0.</td>
-    <td class="tg-0pky">&lt;tile id&gt;_lod13_&lt;percentile&gt;</td>
+    <td class="tg-0pky">buildingd in LoD1.3</td>
+    <td class="tg-0pky">Building footprints with a single height value per <em>building-part</em>. The height of the roofparts is computed as the 75th percentile of corresponding AHN3 elevation points.</td>
+    <td class="tg-0pky">lod13</td>
     <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">building in LoD1.3 (experimental version)</td>
-    <td class="tg-pcvp">Bulding footprints with a single height value per <em>building-part</em>. The height of the building model is computed as the 75th and 95th percentile of the points that are part of the roof. If the building has slanted roof surfaces (<code>dak_type</code> is <code>2</code>), then it is reconstructed in LoD1.3.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_lod13_&lt;percentile&gt;_experimenteel</td>
-    <td class="tg-pcvp">
-      <a href="{{ "lod13_experimenteel.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
+      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
       </td>
   </tr>
 </table>
 
+#### Terrain data
+
+We offer the TIN in three different formats and three different simplifciation values, and the 3D lines only as Shapefiles, for using them in your prefferred GIS application. In our experience reading the Shapefiles is best performaning in ArcGIS, the GeoPackage in QGIS, the OBJ in Meshlab, Blender or FME.
+
+The 3D lines are primariliy meant for importing into the noise calculation software. Because the size of the 3D lines files are big, we also provide them chopped into quarters, as tiles.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
+.tg td{font-family:sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:middle}
+.tg .tg-tin_shp{text-align:center;vertical-align:middle; background-color: #ecf0f1;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-wa1i" rowspan="2">Geometry</th>
+    <th class="tg-wa1i" rowspan="2">Format</th>
+    <th class="tg-amwm" colspan="12">Error threshold</th>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="4">0,3m</td>
+    <td class="tg-amwm" colspan="4">0,5m</td>
+    <td class="tg-amwm" colspan="4">1,0m</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i" rowspan="3">TIN</td>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_03m.shp.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.shp.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_05m.shp.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.shp.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_1m.shp.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.shp.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">GeoPackage</td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "tin_03m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.gpkg.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "tin_05m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.gpkg.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "tin_1m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.gpkg.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Wavefront OBJ</td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_03m.obj.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.obj.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_05m.obj.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.obj.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "tin_1m.obj.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.obj.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i" rowspan="2">3D Lines</td>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "lines_03m.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">lines_03m.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "lines_05m.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m.zip</a><br/></td>
+    <td class="tg-baqh" colspan="4">
+      <a href="{{ "lines_1m.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "lines_03m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">lines_03m_tiles.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "lines_05m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m_tiles.zip</a><br/></td>
+    <td class="tg-tin_shp" colspan="4">
+      <a href="{{ "lines_1m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m_tiles.zip</a><br/></td>
+  </tr>
+</table></div>
+
+#### Ground type data
+
+The ground type data (bodemvlakken) is offered in three versions, *6 m2*, *12 m2* and *18 m2*. For instance in the *6 m2* version, the objects which area is less than 6 square meters are merged into their lagest neighbor, taking the ground property of their neighbor.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-wa1i" rowspan="2">Format</th>
+    <th class="tg-wa1i" colspan="3">Minimum object area</th>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">6 m2</td>
+    <td class="tg-wa1i">12 m2</td>
+    <td class="tg-wa1i">18 m2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ESRI Shapefile</td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_6.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m6/" | prepend: site.baseurl }}">tiles_bodemvlakken_6.shp.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_12.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m12/" | prepend: site.baseurl }}">tiles_bodemvlakken_12.shp.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_18.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m18/" | prepend: site.baseurl }}">tiles_bodemvlakken_18.shp.zip</a><br/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">GeoPackage</td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_6.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m6/" | prepend: site.baseurl }}">tiles_bodemvlakken_6.gpkg.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_12.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m12/" | prepend: site.baseurl }}">tiles_bodemvlakken_12.gpkg.zip</a><br/></td>
+    <td class="tg-nrix">
+      <a href="{{ "tiles_bodemvlakken_18.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m18/" | prepend: site.baseurl }}">tiles_bodemvlakken_18.gpkg.zip</a><br/></td>
+  </tr>
+</table></div>
 
 ### Attributes
 
@@ -248,18 +337,23 @@ The table below describes the attributes of the *buildings* and *ground types* d
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">hoogte_abs</td>
-    <td class="tg-0pky"><em>hoogte absolute</em> or absolute height of the building (height measure from NAP)</td>
+    <td class="tg-0pky">rmse</td>
+    <td class="tg-0pky"><em>Root mean square error</em> between reconstructed LoD1.3 model and AHN3 points.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-pcvp">maaiveld_h</td>
+    <td class="tg-0pky">h_dak</td>
+    <td class="tg-0pky"><em>roof height</em> or absolute height of the roofpart (height measure from NAP)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-pcvp">h_maaiveld</td>
     <td class="tg-pcvp"><em>maaiveld hoogte</em> or absolute ground height of the building</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">maaiveld_p</td>
-    <td class="tg-0pky"><em>aantal maaiveld punten</em> or number of AHN points that were used for calculating the ground height. Note that a value below 3 might indicate an unreliable value for <code>maaiveld_h</code></td>
+    <td class="tg-0pky">is_complex</td>
+    <td class="tg-0pky">`1` if this is a complex building, meaning that not all the detected rooflines were used in the reconstruction process in order to limit processing times.</td>
   </tr>
   <tr>
     <td class="tg-0pky"></td>
@@ -298,7 +392,7 @@ The table below describes the attributes of the *buildings* and *ground types* d
 In case of questions or comments about the data please fill out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform).
 
 # Disclaimer
-The 3D noise data version 0.2 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
+The 3D noise data version 0.3 is only made available for testing purposes. No rights can be obtained from the data. None of the parties involved can be hold responsible for damage that is caused by using the data.
 
 ----
 # Project partners
