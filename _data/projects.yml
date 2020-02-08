@@ -6,14 +6,12 @@
   image: rotterdamBP.png
   start: 2019
   
-
-# - name: European network for Digital Building permission project
+#- name: European network for Digital Building permission project
 #  description: International collaboration project to address the digitisation of planning permission through GeoBIM and more information.
-#  webpage: /projects/EuropeanDigitalBuildingPermission/
-##  funding: EU MSC LEaDingFellows Postdocs Programme
-##  fundingurl: https://leadingfellows.eu
-#  image: ch3.gif
- # start: 2020
+#  webpage: /projects/eunet_bp/
+#  funding: EU MSC LEaDingFellows Postdocs Programme
+#  image: eunet_bp.png
+#  start: 2020
 
 - name: Multisource Spatial data integration
   description: Multisource Spatial data integration for smart city applications
@@ -156,7 +154,7 @@
   description: 3D city models and HGeoBIM for heritage
   webpage: /projects/culturalheritage/
   image: ch3.gif
-  start: 2019
+  start: 2018
   
 - name: Hidden Amsterdam
   description: "We help find 'hidden parts' of Amsterdam with 3D city models"
