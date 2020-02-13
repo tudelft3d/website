@@ -24,7 +24,10 @@ The PhD candidate will use and modify open source software in development within
 These models should serve as input for performing predictions of wind, temperature, and dispersion in evolving cities. 
 Low and high-fidelity fluid dynamic simulations are envisioned within the research, as well as the postprocessing of local wind and temperature measurements acquired in urban experimental campaigns.
 
-The project will take place in the 3D geoinformation group under the supervision of [Dr Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/) and [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux).
+The project will take place in the [3D geoinformation group at TU Delft](https://3d.bk.tudelft.nl) under the supervision of [Dr Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/) and [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux).
+
+The 3D geoinformation group currently has also an open [PhD position on '3D city models for energy applications']({{ '/jobs/phdenergy2020/' | relative_url }}). 
+Candidates may apply to both positions with one application (and identify their preference). 
 
 
 ## Research group
@@ -57,9 +60,9 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 
 ## How to apply
 
-<!-- <div class="alert alert-info" role="alert">
-Deadline to apply is 8 January 2018 at 12:00 (Amsterdam time).
-</div> -->
+<div class="alert alert-info" role="alert">
+Deadline to apply is 31 March 2020 at 23:00 (Amsterdam time).
+</div>
 
 <!-- <div class="alert alert-danger" role="alert">
 Deadline has passed, you can't apply anymore.
