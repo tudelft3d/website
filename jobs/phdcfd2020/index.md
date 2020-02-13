@@ -26,9 +26,6 @@ Low and high-fidelity fluid dynamic simulations are envisioned within the resear
 
 The project will take place in the [3D geoinformation group at TU Delft](https://3d.bk.tudelft.nl) under the supervision of [Dr Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/) and [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux).
 
-The 3D geoinformation group currently has also an open [PhD position on '3D city models for energy applications']({{ '/jobs/phdenergy2020/' | relative_url }}). 
-Candidates may apply to both positions with one application (and identify their preference). 
-
 
 ## Research group
 
@@ -82,3 +79,5 @@ Please email your application material to Jeannine Wellink (HR Advisor) (<hr-bk@
 
 For more information about this position, please contact directly [Dr Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/) (<mailto:c.garcia-sanchez@tudelft.nl>).
 
+The 3D geoinformation group currently has also an open [PhD position on '3D city models for energy applications']({{ '/jobs/phdenergy2020/' | relative_url }}). 
+Candidates may apply to both positions with one application (and identify their preference). 

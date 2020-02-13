@@ -31,9 +31,6 @@ Cooperation with energy experts from TU Delft or other universities and equivale
 The PhD will take place in the [3D geoinformation group at TU Delft](https://3d.bk.tudelft.nl) under the supervision of [Dr Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Prof Jantien Stoter](https://3d.bk.tudelft.nl/jstoter). 
 Possibility to spend time as a visiting researcher in other peer institutes (either in the Netherlands or abroad) is also included.
 
-The 3D geoinformation group currently has also an open [PhD position on 'Automation of urban flow simulations with 3D City Models']({{ '/jobs/phdcfd2020/' | relative_url }}). 
-Candidates may apply to both positions with one application (and identify their preference). 
-
 
 ## Research group
 
@@ -88,3 +85,5 @@ Please email your application material to Jeannine Wellink (HR Advisor) (<hr-bk@
 
 For more information about this position, please contact directly [Dr Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (<mailto:g.agugiaro@tudelft.nl>).
 
+The 3D geoinformation group currently has also an open [PhD position on 'Automation of urban flow simulations with 3D City Models']({{ '/jobs/phdcfd2020/' | relative_url }}). 
+Candidates may apply to both positions with one application (and identify their preference). 
