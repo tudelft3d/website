@@ -9,6 +9,10 @@ permalink: /jobs/
 
 - - -
 
+[PhD: 3D city models for energy applications](/jobs/phdenergy2020/)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [Postdoc Researcher: Integrating Geo and BIM](/jobs/postdoc2017/)
