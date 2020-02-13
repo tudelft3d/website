@@ -5,7 +5,7 @@ permalink: /jobs/phdcfd2020/
 ---
 
 <div class="row">
-	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/banner.jpg" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/banner.jpg" }}"></div>
 </div>
 
 - - - 
