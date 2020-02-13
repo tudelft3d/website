@@ -57,14 +57,14 @@ The starting date is in consultation with the candidate.
 ## Doing a PhD at TU Delft
 
 At the Delft University of Technology, a PhD student is a full-time employee of the university who gets paid a salary, no extra funding is necessary.
-The gross salary is €2,174 per month for the 1st year, going up to €2,779 during the 4th year.
+The gross salary is €2,325 per month for the 1st year, going up to €2,972 during the 4th year.
 TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.
 An International Children’s Centre offers childcare and an international primary school. Dual Career Services offers support to accompanying partners. Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
 
 More information about doing a PhD at TU Delft and in the Netherlands can be found [here](http://www.graduateschool.tudelft.nl) and [there](http://www.studyinholland.nl/education-system/degrees/phd).
 
-## How to apply
 
+## How to apply
 
 <div class="alert alert-info" role="alert">
 Deadline to apply is 31 March 2020 at 23:00 (Amsterdam time).
@@ -74,15 +74,17 @@ Deadline to apply is 31 March 2020 at 23:00 (Amsterdam time).
 Deadline has passed, you can't apply anymore.
 </div> -->
 
-To apply, please submit: 
+Your application should contain (these should be compiled into a single pdf file named: lastname_firstname_vacancynumber.pdf):
 
-- a detailed CV and a letter of application,
-- the name of two referees,
-- copies of BSc/MSc diplomas and grades obtained,
-- proof of English competencies (if applicable),
-- MSc thesis or any publications you have authored (a URL to a PDF is fine).
+  - a detailed CV including a list of peer-reviewed publicatons;
+  - a letter of application, stating your motivation for this position;
+  - name of three references, with contact information.
+  - proof of English competencies (if applicable),
+  - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
-Please email your application material to Caro Coemans (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2020-13__.
+Incomplete applications will not be considered.
+
+Please email your application material to Jeannine Wellink (HR Advisor) (<hr-bk@tudelft.nl>) and refer to vacancy number __BK2020-02__.
 
 For more information about this position, please contact directly [Dr Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (<mailto:g.agugiaro@tudelft.nl>).
 
