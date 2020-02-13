@@ -78,7 +78,7 @@ Your application should contain (these should be compiled into a single pdf file
 
   - a detailed CV including a list of peer-reviewed publicatons;
   - a letter of application, stating your motivation for this position;
-  - name of three references, with contact information.
+  - name of two references, with contact information.
   - proof of English competencies (if applicable),
   - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
