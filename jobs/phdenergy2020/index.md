@@ -73,7 +73,7 @@ Deadline has passed, you can't apply anymore.
 
 Your application should contain (these should be compiled into a single pdf file named: lastname_firstname_vacancynumber.pdf):
 
-  - a detailed CV including a list of peer-reviewed publicatons;
+  - a detailed CV including a list of publications;
   - a letter of application, stating your motivation for this position;
   - name of two references, with contact information.
   - proof of English competencies (if applicable),
