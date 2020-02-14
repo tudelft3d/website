@@ -541,3 +541,5 @@ This research will aim at finding improved filtering and interpolation technique
 ![](img/sweep_geometry.png){:width="500px"}
 
 Software libraries for computational geometry underpin a lot of our research, but an in-depth comparison of how these different software libraries behave in terms of performance and robustness is not available. For example, the feasability of multi-disciplinary use of geometry in BIM/GIS integration and automated thermal analysis of IFC building models is largely shaped by the characteristics of the algorithmns offered in open source libraries such as CGAL and Open CASCADE. This research project is an opportunity to publish something novel, useful and relevant to many disciplines.
+
+*Contact:* [Thomas Krijnen](mail@thomaskrijnen.com)
