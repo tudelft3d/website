@@ -535,3 +535,9 @@ Although laser point clouds have become a common data resource for world modelli
 This research will aim at finding improved filtering and interpolation techniques to resolve the difficulties in DTM filtering for photogrammetrically derived DSM’s. The project is carried out in co-operation with [TNO in The Hague](https://www.tno.nl/nl/), where these techniques are applied in the field of gaming and simulation.
 
 *Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+## Performance and robustness of software libraries for computuational geometry
+
+![](img/sweep_geometry.png){:width="500px"}
+
+Software libraries for computational geometry underpin a lot of our research, but an in-depth comparison of how these different software libraries behave in terms of performance and robustness is not available. For example, the feasability of multi-disciplinary use of geometry in BIM/GIS integration and automated thermal analysis of IFC building models is largely shaped by the characteristics of the algorithmns offered in open source libraries such as CGAL and Open CASCADE. This research project is an opportunity to publish something novel, useful and relevant to many disciplines.
