@@ -20,6 +20,12 @@ permalink: /synthesis/
         {% if i.report %}
           <small><a href="{{ i.report }}"><i class="fas fa-book" title="report"></i></a></small>
         {% endif %}
+        {% if i.presentation %}
+		      <small><a href="{{ i.presentation }}"><i class="fas fa-image" title="presentation"></i></a></small>
+        {% endif %}
+        {% if i.code %}
+		      <small><a href="{{ i.code }}"><i class="fab fa-github" title="code"></i></a></small>
+        {% endif %}
         <h4>
         {% for j in i.students %}
         {{ j.name }}<br />
