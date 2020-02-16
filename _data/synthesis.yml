@@ -1,0 +1,46 @@
+- title: Urban Horizon
+  year: 2018
+  students:
+    - name: Vasileios Bouzas
+    - name: Geert Jan (Rob) de Groot
+    - name: Melika Sajadian
+    - name: Nikolaos Tzounakos
+    - name: Teng Wu
+  code: https://github.com/tudelft3d/UrbanHorizon
+  report: https://3d.bk.tudelft.nl/pdfs/synthesis/2018_skyview_report.pdf
+  img: 2018_skyview.png
+
+- title: Digitizing Real-World Scenes from Images
+  year: 2018
+  students: 
+    - name: Takis Arapakis
+    - name: Natasja van Heerden
+    - name: Guillermo Rodriguez-Mon Barrera
+    - name: Qu Wang
+    - name: Xin Wang
+  report: https://3d.bk.tudelft.nl/pdfs/synthesis/2018_floriade_report.pdf
+  presentation: https://3d.bk.tudelft.nl/pdfs/synthesis/2018_floriade_presentation.pdf
+  poster: https://3d.bk.tudelft.nl/pdfs/synthesis/2018_floriade_poster.pdf
+  img: 2018_floriade.png
+
+- title: Influence of 3D City Layout on Air Quality
+  year: 2019
+  students:
+    - name: Konstantinos Mastorakis
+    - name: Wessel de Jongh
+    - name: Giulia Ceccarelli
+    - name: Imke Lánský
+    - name: Jinglan Li
+  report: https://3d.bk.tudelft.nl/pdfs/synthesis/2019_airquality_report.pdf
+  img: 2019_airquality.png
+
+- title: 3D city modeling for automated verification of safety compliance rules
+  year: 2019
+  students:
+    - name: Vasileios Alexandridis
+    - name: Felix Dahle
+    - name: Amber Mulder
+    - name: Gabriella Wiersma
+    - name: Yifang Zhao
+  report: https://3d.bk.tudelft.nl/pdfs/synthesis/2019_chimneys_report.pdf
+  img: 2019_chimneys.png
