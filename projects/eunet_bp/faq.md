@@ -23,3 +23,8 @@ permalink: /projects/eunet_bp/faq.html
 
 ### *PLEASE NOTE THAT THE PAGE IS UNDER CONSTRUCTION*
 
+## Who can join?
+
+People working towards the same aims, in line with the interests and commitments of the network.
+
+## ...

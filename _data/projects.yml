@@ -6,12 +6,12 @@
   image: rotterdamBP.png
   start: 2019
   
-#- name: European network for Digital Building permission project
-#  description: International collaboration project to address the digitisation of planning permission through GeoBIM and more information.
-#  webpage: /projects/eunet_bp/
+- name: European network for Digital Building permission project
+  description: International collaboration project to address the digitization of planning permits.
+  webpage: /projects/eunet_bp/
 #  funding: EU MSC LEaDingFellows Postdocs Programme
-#  image: eunet_bp.png
-#  start: 2020
+  image: eunet-bp.png
+  start: 2020
 
 - name: Multisource Spatial data integration
   description: Multisource Spatial data integration for smart city applications

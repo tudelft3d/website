@@ -24,5 +24,12 @@ permalink: /projects/eunet_bp/events.html
 ### *PLEASE NOTE THAT THE PAGE IS UNDER CONSTRUCTION*
 
 
-## Kick-off workshop
-Bergamo (Italy), 29th May 2020 **Save the date!**
+## Kick-off workshop - Brescia (Italy), 29th May 2020 
+
+Kick-off meeting of the partners.
+
+## Workshop event - Delft (The Netherlands), 2021
+
+Workshop about research, policies and practice in the Digital Building Permits domain. *A call for presentation will be advertised.*
+
+**Check the website and [subscribe to the newsletter](https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermission) to stay informed**
