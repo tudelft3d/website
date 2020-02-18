@@ -34,7 +34,7 @@ Possibility to spend time as a visiting researcher in other peer institutes (eit
 
 ## Research group
 
-The [3D geoinformation research group](https://3d.bk.tudelft.nl), part of the [Faculty of the Built Environment and Architecture](http://www.bk.tudelft.nl/en) at the [Delft University of Technology](http://www.tudelft.nl), focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes.
+The [3D geoinformation research group](https://3d.bk.tudelft.nl), part of the [Faculty of the Built Environment and Architecture](https://www.tudelft.nl/en/architecture-and-the-built-environment/) at the [Delft University of Technology](http://www.tudelft.nl), focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes.
 It is a multidisciplinary group of around [20 people](/about/), including computer scientists, geomatics engineers, and geographers; 5 of them are tenured staff (1 professor, 1 associate-professor, and 3 assistant-professor).
 It has a history of successful collaborations with the industry and the government: its research has led to [open source](https://github.com/tudelft3d) [software](https://github.com/tudelft3d), standards, and patents for the management of 3D geographic information.
 
@@ -73,10 +73,10 @@ Deadline has passed, you can't apply anymore.
 
 Your application should contain (these should be compiled into a single pdf file named: lastname_firstname_vacancynumber.pdf):
 
-  - a detailed CV including a list of publications;
-  - a letter of application, stating your motivation for this position;
-  - name of two references, with contact information.
-  - proof of English competencies (if applicable),
+  - A detailed CV including a list of publications;
+  - A letter of application, stating your motivation for this position;
+  - Name of two references, with contact information.
+  - Proof of English competencies (if applicable),
   - MSc thesis or any publications you have authored (a URL to a PDF is fine).
 
 Incomplete applications will not be considered.
