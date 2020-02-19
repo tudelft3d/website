@@ -79,5 +79,9 @@ The objective of the Ministry of Economic Affairs and Communications is to provi
 
 ###  ...
 
+## Private companies and agencies
 
+### Cogital
+
+Cogital is a Digital Agency for the AEC, supporting customers in their Digital Transformation.  Customers include JLL, Rhomberg Construction, Qatar Public Works Authority - amongst others.  We help our customers re-invent a skater built environment though digital technology.
 
