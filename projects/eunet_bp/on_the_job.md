@@ -28,8 +28,8 @@ permalink: /projects/eunet_bp/on_the_job.html
 We met for the first time to initiate the network: get to know and discussion of aims and relevant topics of the collaboration.
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet_bp/img/1-Amsterdam17-01-2020/Ams-17-1-20_b.jpg" }}" style="max-height: 200px"></div>
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet_bp/img/1-Amsterdam17-01-2020/Ams-17-1-20_c.jpg" }}" style="max-height: 200px"></div>
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet_bp/img/1-Amsterdam17-01-2020/Ams-17-1-20_a.jpg" }}" style="max-height: 200px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet_bp/img/1-Amsterdam17-01-2020/Ams-17-1-20_b.JPG" }}" style="max-height: 200px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet_bp/img/1-Amsterdam17-01-2020/Ams-17-1-20_c.JPG" }}" style="max-height: 200px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet_bp/img/1-Amsterdam17-01-2020/Ams-17-1-20_a.JPG" }}" style="max-height: 200px"></div>
 </div>
 

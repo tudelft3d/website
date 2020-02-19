@@ -41,6 +41,10 @@ Working for the integration of BIM models and geographic information system to f
 
 ### Università di Brescia (Italy)
 
+Expert in BIM implementation in public administration for exchange information requirements, model and code checking; BIM-enabled design management; building energy modelling and IoT-based asset management, procedural aspects of virtual reality implementation in collaborative design reviews; IoT-enabled construction management.
+
+Working for the integration of BIM and IoT systems for use cases for public administrations and SME construction companies to promote digital innovation in process engineering.
+
 ### Lund University (Sweden)
 
 ### University College London (UK)
@@ -55,6 +59,13 @@ All types of specialists and experts who perform the entire range of tests for B
 
 Working for shortening the time spent on the licensing process, which is a good development for both the municipality and the developers. The experts can focus more on the more important issues by making certain checks automatically.
 
+### [Institut Cartogràfic i Geològic de Catalunya (ICGC) (Catalunya)](https://www.icgc.cat/en/)
+
+The Institut Cartogràfic i Geològic de Catalunya (ICGC) has competences on Geodesy, Cartography and Spatial Data Infrastructure of Catalonia, and also on the actions related to the awareness, survey and provide information about the soil and subsoil. Related to GeoBIM, the main interest is to warranty the interoperability between BIM data produced by the Catalan Government and GIS data produced and updated by ICGC, and to ensure that workflows where both data are required, as Building Permit Procedure, can be successfully implemented and executed.
+
+### [Estonian Ministry of Economic Affairs and Communications (Estonia)](https://mkm.ee/en/objectives-activities/construction-and-housing-sector)
+
+The objective of the Ministry of Economic Affairs and Communications is to provide a suitable legislative, economic and safe environment that fosters the development of the Estonian construction and housing sector ensured by efficient legislative drafting, standardisation and support programmes. The ministry is developing the e-construction platform to connect data and services related to the built environment. This includes a fully digital building permit process for the whole of Estonia. A BIM-based building permit process will be launched in 2021.
 
 ###  ...
 
