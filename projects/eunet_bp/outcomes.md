@@ -6,7 +6,7 @@ permalink: /projects/eunet_bp/outcomes.html
 
 
 
-<h1>European network for Digital Building Permission</h1>
+<h1>European network for Digital Building Permits</h1>
 
 
 <div class="row">
@@ -22,3 +22,6 @@ permalink: /projects/eunet_bp/outcomes.html
 - - -
 
 ### *PLEASE NOTE THAT THE PAGE IS UNDER CONSTRUCTION*
+
+
+Here, all the outcomes of the network activities will be shared (publications, tools, guidelines and more).

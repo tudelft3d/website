@@ -33,3 +33,4 @@ Kick-off meeting of the partners.
 Workshop about research, policies and practice in the Digital Building Permits domain. *A call for presentation will be advertised.*
 
 **Check the website and [subscribe to the newsletter](https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermission) to stay informed**
+

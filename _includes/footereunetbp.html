@@ -1,0 +1,127 @@
+<hr>
+
+<footer>
+	<!-- <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fas fa-rss"></i></a> -->
+	<a href="https://twitter.com/EUnet4DBP"><i class="fab fa-twitter"></i></a> 
+  <!-- <a href="https://github.com/tudelft3d"><i class="fab fa-github"></i></a> 
+	<a href="{{ "/about/#where" | prepend: site.baseurl }}"><i class="fas fa-map-marker-alt"></i></a> -->
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/bootstrap.js" | prepend: site.baseurl }}"></script>
+<!-- <script src="{{ "/assets/js/holder.js" | prepend: site.baseurl }}"></script> -->
+<script src="{{ "/assets/js/jquery.eqheight.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/jquery.mark.min.js" | prepend: site.baseurl }}"></script>
+<script>
+  $(document).ready(function() {
+{% if page.scrollspy %}
+    $("#small-filter").keyup(function(){
+      var filter = $(this).val();
+      if (filter.length < 2) {
+        $(".filteredgroup").each(function(){
+          $(this).fadeIn();
+          $(this).find(".filteredelement").each(function(){
+            $(this).unmark();
+            $(this).fadeIn();
+          });
+        });
+        return;
+      }
+      $("#filter").val(filter);
+      $(".filteredgroup").each(function(){
+        var count = 0;
+        $(this).find(".filteredelement").each(function(){
+          $(this).unmark();
+          window.filterhits = 0;
+          $(this).mark(filter, {"separateWordSearch": false,
+            "done": function(counter){
+              if (counter > 0) {
+                window.filterhits = counter;
+              }
+            }
+          });
+          if (window.filterhits == 0 && filter.length > 0) {
+            $(this).fadeOut();
+          } else {
+            $(this).fadeIn();
+            count++;
+          }
+        });
+        if (count > 0) {
+          // $(this).find("#filteredcount").text(" (" + count + ")")
+          $(this).fadeIn();
+        } else {
+          $(this).fadeOut();
+        }
+      });
+    });
+
+    $("#filter").keyup(function(){
+      var filter = $(this).val();
+      $("#small-filter").val(filter);
+      $(".filteredgroup").each(function(){
+        var count = 0;
+        $(this).find(".filteredelement").each(function(){
+          $(this).unmark();
+          window.filterhits = 0;
+          $(this).mark(filter, {"separateWordSearch": false,
+            "done": function(counter){
+              if (counter > 0) {
+                window.filterhits = counter;
+              }
+            }
+          });
+          if (window.filterhits == 0 && filter.length > 0) {
+            $(this).fadeOut();
+          } else {
+            $(this).fadeIn();
+            count++;
+          }
+        });
+        if (count > 0) {
+          // $(this).find("#filteredcount").text(" (" + count + ")")
+          $(this).fadeIn();
+        } else {
+          $(this).fadeOut();
+        }
+      });
+    });
+{% else %}
+    $(".row").eqHeight(".column");
+{% endif %}
+{% if page.filter %}
+    $("#filter").keyup(function(){
+      var filter = $(this).val();
+      $(".filteredgroup").each(function(){
+        var count = 0;
+        $(this).find(".filteredelement").each(function(){
+          $(this).unmark();
+          window.filterhits = 0;
+          $(this).mark(filter, {"separateWordSearch": false,
+            "done": function(counter){
+              if (counter > 0) {
+                window.filterhits = counter;
+              }
+            }
+          });
+          if (window.filterhits == 0 && filter.length > 0) {
+            $(this).fadeOut();
+          } else {
+            $(this).fadeIn();
+            count++;
+          }
+        });
+        if (count > 0) {
+          // $(this).find("#filteredcount").text(" (" + count + ")")
+          $(this).fadeIn();
+        } else {
+          $(this).fadeOut();
+        }
+      });
+    });
+{% endif %}
+  });
+</script>

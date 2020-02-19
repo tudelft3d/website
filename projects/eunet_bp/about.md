@@ -6,7 +6,7 @@ permalink: /projects/eunet_bp/about.html
 
 
 
-<h1>European Network for Digital Building Permission</h1>
+<h1>European Network for Digital Building Permits</h1>
 
 
 <div class="row">

@@ -45,11 +45,21 @@ Expert in BIM implementation in public administration for exchange information r
 
 Working for the integration of BIM and IoT systems for use cases for public administrations and SME construction companies to promote digital innovation in process engineering.
 
+### University of Ljubljana (Slovenia)
+
+The team from the Chair of geoinformatics has competences in GIS data and processes modelling (using standards such as UML), 3D geospatial data modelling by integrating various data sources, real property information systems and geospatial data support for decision making.
+ 
+Working for 3D-geospatial data and processes modelling, including the integration of BIM models and geographic information system, to facilitate the whole process from building permit issuing to cadastral registration.
+
+
 ### Lund University (Sweden)
+
+### HafenCity Universität Hamburg (D)
 
 ### University College London (UK)
 
-### University of Ljubljana (Slovenia)
+### ...
+
 
 ## Governmental Institutions
 
