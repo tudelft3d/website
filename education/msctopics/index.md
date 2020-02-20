@@ -48,23 +48,6 @@ If you work on this topic, you can expect to learn about flow patterns (as in wi
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Balázs Dukai](http://balazsdukai.com).
 
-- - -
-
-## Storing CityJSON to NoSQL databases (e.g. MongoDB)
-
-![](img/NOSQL.jpg){:width="400px"}
-
-CityJSON has been proven to be an efficient way of storing 3D city models by using, on average, about 6x less space than CityGML files.
-Nevertheless, permanent storage and robust access of such big amount of data can better be managed through the use of databases, which ensure [ACID](https://en.wikipedia.org/wiki/ACID) reliability.
-While 3DcityDB is already a way of mapping the CityGML data model to traditional SQL databases (e.g. PostGIS and ORACLE), modern web applications require more flexibility and use extensively NoSQL database to store data.
-In particular, MongoDB seems to work very well with JSON data.
-
-The focus of this thesis is to develop a way to store CityJSON in MongoDB (or other NoSQL databases) and evaluate the efficiency of such an approach.
-A prototype application might be required to be developed and/or support in [cjio](https://github.com/tudelft3d/cjio) might be added as a result of this project.
-
-Knowledge of Python programming language is recommended.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
 
 - - -
 
@@ -80,24 +63,6 @@ The above-mentioned GIS-model will be integrated with the UEM, as well as design
 In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.
 
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Saleh Mohammadi](https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&cHash=) and [Sabine Jansen](https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&cHash=) (Climate Design group)
-
-- - -
-
-## Compression of 3D city models on the web for visualisation
-
-![](img/3dcmview.jpg){:width="600px"}
-
-Three-dimensional city models are notoriously complex to visualise in a web-browser because they are usually rather large and the users would like to be able to explore the attributes (attached to different elements at different levels, eg to a building, to a window, etc.).
-
-[Cesium](https://cesiumjs.org/) partly solves the issue of having complex 3D city models in a browser, but the files are still rather large and attaching complex semantics/attributes is still not fully satisfactory.
-
-This thesis would explore new ways to solve these issues, and would especially explore the new [Draco library](https://google.github.io/draco/), which allows us to compress 3D meshes; [preliminary results](https://cesium.com/blog/2018/04/09/draco-compression/) are promising.
-
-The work would involve testing this with more 3D city models, writing converter from CityJSON, and exploring how complex geometric primitives can be preserved (Draco assumes a simple mesh; buildings are often formed of solids) and how to attach semantics to the model (using .b3dm or others). We have implemented a *glTF* and *b3dm* conversion in [cjio](https://github.com/tudelft3d/cjio), but need thorough testing and improvements. However, it could serve as the starting point for the thesis.
-
-If you work on this topic, you can expect to learn how binary file formats work exactly (even write your own), about rendering 3D objects, how to use Cesium, certainly the ins and outs of CityJSON, and more.  
-
-**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Balázs Dukai](https://www.balazsdukai.com/)
 
 - - -
 
@@ -139,20 +104,6 @@ Knowledge of programming in python is required.
 Following elective course GEO5013 is an advantage.
 
 **Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## Guesstimation of the height of all USA buildings
-
-![](img/zurich.png){:width="600px"}
-
-The project [Open City Model](https://github.com/opencitymodel/opencitymodel) by [BuildZero.Org](http://buildzero.org) provides a height for each of the 125,192,184 buildings in the USA.
-They took the [footprints from Microsoft](https://github.com/Microsoft/USBuildingFootprints) and estimated their heights.
-It can be seen that several buildings are at the same height, and the methodology they used is not documented.
-
-The aim of this project is to develop a methodology to improve their results, in particular using machine learning and the [results we obtained for the Netherlands](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf).
-
-**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -282,50 +233,6 @@ In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://w
 
 - - -
 
-## Develop a framework to handle massive CityJSON files
-
-![](img/cityjson.jpg){:width="200px"}
-
-As an alternative format for the [CityGML](https://www.citygml.org) data model, we have recently developed [CityJSON](http://www.cityjson.org), it uses [JavaScript Object Notation](http://json.org).
-The aim of CityJSON is to offer an alternative to the GML encoding of CityGML, which can be verbose and complex (and thus rather frustrating to work with).
-CityJSON aims at being easy-to-use, both for reading datasets, and for creating them.
-It was designed with programmers in mind, so that tools and APIs supporting it can be quickly built.
-
-While a CityJSON file is [about 6X compacter](https://github.com/tudelft3d/cityjson/wiki/Compression-factor-for-a-few-open-CityGML-datasets) than the equivalent CityGML file, very large areas (like the [whole of city of Berlin](https://www.businesslocationcenter.de/en/downloadportal)) are still problematic.
-
-The aim of this MSc project is to design a framework to deal with such massive CityJSON files.
-The potential solution is to design a tiling scheme, and find a way to make it work with a web-based viewer, eg [Cesium](https://cesiumjs.org/) or [three.js](https://threejs.org/).
-There is an emerging standard about the tiling of 3D GIS datasets ([3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles)), which should probably be reused/modified.
-
-Knowledge of Python and of web technologies (javascript; although that can be learned with the project) is enough.
-
-**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Stelios Vitalis](mailto:s.vitalis@tudelft.nl)
-
-- - -
-
-## Extraction of characteristics of buildings from aerial imagery
-
-![](img/readaar.jpg){:width="350px"}
-
-This project is done in cooperation with [Readar](http://www.readar.com).
-Readaar was founded in 2016 and extracts all kind of information from aerial imagery.
-To do this they combine remote sensing with machine learning.
-
-Readaar has already developed a method to generate point clouds and 3D building models from stereo imagery.
-The next step is to translate this into useful insights like:
-
-  - how many solar panels can we fit on the roof,
-  - what is the roof type,
-  - how many floors does the building have.
-
-The focus of the student within this project will be on using the datasets to develop methods that extract (data mining) the insights that Readaar's customers want to have.
-
-[More information is found there.](https://readar.com/jobs/internship-deep-learning-on-aerial-imagery/)
-
-*Contact:* [Hugo Ledoux](http://tudelft.nl/hledoux) + [Sven Briels](mailto:svenbriels@readar.com)
-
-- - -
-
 ## Point cloud normal estimation based on the 3D medial axis transform
 
 ![](img/wrong_normal_orientation.png){:width="400px"}
@@ -344,26 +251,6 @@ The topic involved building on our work with the [3D medial-axis transform (MAT)
 It is possible to use Python for this project, although some knowledge of C++ would surely help.
 
 **Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## Improvements (trees, bridges, viaducs) to 3dfier
-
-![](img/3dfier.png){:width="600px"}
-
-We have developed a software, [3dfier](https://github.com/tudelft3d/3dfier), to automatically construct 3D city models from 2D GIS datasets (e.g. topographical datasets) and LiDAR/pointcloud datasets.
-The software creates a 3D model by lifting every polygon to 3D, and the semantics of every polygon is used to perform the lifting.
-That is, water polygons are extruded to horizontal polygons, buildings to LOD1 blocks, roads as smooth surfaces, etc. Every polygon is triangulated (constrained Delaunay triangulation) and the lifted polygons are "stitched" together so that one digital surface model (DSM) is constructed.
-Our aim is to obtain one DSM that is error-free, i.e. no intersecting triangles, no holes (the surface is watertight), where buildings are integrated in the surface, etc.
-
-The aim of this MSc project is to further develop some lacking features of 3dfier, it could be one of the following:
-
-  1. adding 3D representation of trees by *iconisation*, ie by inserting a parametric template that has the general shape/dimension of a tree. This implies automatically finding this, and a good start is the methodology described in [this paper (Section 4.2)](https://infoscience.epfl.ch/record/206788/files/paper.pdf)
-  2. adding bridges and other man-made structures (such as viaducs) by first modelling them with [Esri CityEngine](http://www.esri.com/software/cityengine) and then "stitching" them to the 3D model.
-
-These topics can be done with Python as a post-processing of 3dfier.
-
-**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Tom Commandeur](mailto:t.j.f.commandeur@tudelft.nl)
 
 - - -
 
