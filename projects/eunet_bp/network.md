@@ -27,7 +27,7 @@ permalink: /projects/eunet_bp/network.html
 
 ## Research Institutes
 
-### [Group 3D Geoinformation - Delft University of Technology. Delft (The Netherlands)](https://3d.bk.tudelft.nl)
+### [3D Geoinformation - Delft University of Technology. Delft (The Netherlands)](https://3d.bk.tudelft.nl)
 
 Expert in 3D city models and related standards (CityGML, CityJSON...); GeoBIM and spatial data integration; Industry Foundation Classes (IFC) standard; BIM (in particular: geometry representation and validation).
 
@@ -57,6 +57,8 @@ Working for 3D-geospatial data and processes modelling, including the integratio
 ### HafenCity Universität Hamburg (D)
 
 ### University College London (UK)
+
+GeoBIM research focusses on full lifecycle modelling – including: reality capture and sensor enabling for new and existing buildings and infrastructure; the use of geospatial data for planning and construction site safety and management; data management standards and protocols for handover from construction to operational building phases; the use of geoBIM for facilities and asset management.  The role of geospatial (location-enabled data from BIM, GIS or other sources) as an underpinning integrator  is  seen as key in order to enable interoperability of sensor data, demographics, traffic information, pedestrian movement data and so forth, all required to facilitate smart city operation and decision making.
 
 ### ...
 
