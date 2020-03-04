@@ -17,10 +17,12 @@ permalink: /education/
   * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49106): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
   * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49111): Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
   * [GEO5013](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50539): 3D city modelling for urban applications
+  * GEO5015: Modelling wind and dispersion in urban environments
 
 <h2>Other courses we are teaching</h2>
 
-  * BK4ON5: GIS-supported urban design specialist
+  * [BK6ON5](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48823): Ontwerpen 5 Gebieds(her)ontwikkeling in het Metropolitane Landschap
+  * [BK4AC2](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48774): AC2 – Empirische Onderzoekstechnieken voor Bouwkunde
 
 - - -
 
