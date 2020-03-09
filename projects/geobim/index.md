@@ -120,7 +120,7 @@ Although it is at a very early stage, the tool is already able to provide an int
     <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
     <p>
         <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
-        <i class="fas fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:mail@ken.mx">mail@ken.mx</a><br />
         <br />
         <br />
     </p>

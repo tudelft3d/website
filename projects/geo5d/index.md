@@ -498,7 +498,7 @@ The complete list of publications of the project is available <a href="publicati
       <h3>Ken Arroyo Ohori <small>PhD candidate</small></h3>
       <p>
           <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
-          <i class="fas fa-envelope"></i> <a href="mailto:g.a.k.arroyoohori@tudelft.nl">g.a.k.arroyoohori@tudelft.nl</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:mail@ken.mx">mail@ken.mx</a><br />
           <br />
           <br />
       </p>

@@ -219,7 +219,7 @@ The automation of urban regulation checks for the planning use case requires the
 This project aims at the definition of an effective way to store those regulations digitally and spatially, for their use in checking urban regulations compliancy of new buildings through GeoBIM integrated information. The studied solution could start from extending [CityGML](https://www.citygmlwiki.org), employing [INSPIRE](https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/) data model, or other available standards.
 In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
 
-**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
 
@@ -229,7 +229,7 @@ The integration of geoinformation with BIM information can be very effective for
 In this study, the aim is to understand which information is needed for checking some critical regulation where GeoBIM information can be useful, as it could be obtained from a sample of more complex BIMs modelled by designers and practitioners, and develop a tool to filter, derive/extract and generalise the required information to be used for the integration with a 3D city model and the checks of the selected regulations.
 In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
 
-**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](http://tudelft.nl/kenohori) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
 
@@ -296,7 +296,7 @@ We therefore believe that using a triangulation as a base structure is an intuit
 
 The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that needs to be extended has been developed in C++, thus the knowledge of C++---or a strong desire to learn it---is necessary.
 
-**Contact:** [Ken Arroyo Ohori](http://tudelft.nl/kenohori)
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
 
 - - -
 
