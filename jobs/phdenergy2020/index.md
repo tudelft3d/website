@@ -53,7 +53,7 @@ The starting date is in consultation with the candidate.
 
 ## Doing a PhD at TU Delft
 
-At the Delft University of Technology, a PhD student is a full-time employee of the university who gets paid a salary, no extra funding is necessary.
+At the Delft University of Technology, a PhD student is a full-time employee of the university who gets paid a salary; no extra funding is necessary, and no tuition fees need to be paid.
 The gross salary is €2,325 per month for the 1st year, going up to €2,972 during the 4th year.
 TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.
 An International Children’s Centre offers childcare and an international primary school. Dual Career Services offers support to accompanying partners. Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities.
