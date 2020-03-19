@@ -17,6 +17,9 @@ permalink: /education/
   * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49106): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
   * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49111): Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
   * [GEO5013](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50539): 3D city modelling for urban applications
+
+<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we will start teaching from the 2020-2021 academic year</h2>
+
   * GEO5015: Modelling wind and dispersion in urban environments
 
 <h2>Other courses we are teaching</h2>
