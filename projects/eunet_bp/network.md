@@ -60,12 +60,16 @@ Working for 3D-geospatial data and processes modelling, including the integratio
 
 GeoBIM research focusses on full lifecycle modelling – including: reality capture and sensor enabling for new and existing buildings and infrastructure; the use of geospatial data for planning and construction site safety and management; data management standards and protocols for handover from construction to operational building phases; the use of geoBIM for facilities and asset management.  The role of geospatial (location-enabled data from BIM, GIS or other sources) as an underpinning integrator  is  seen as key in order to enable interoperability of sensor data, demographics, traffic information, pedestrian movement data and so forth, all required to facilitate smart city operation and decision making.
 
-### Institute of Construction Management and Digital Engineering (ICoM) (D)
+### [Institute of Construction Management and Digital Engineering (ICoM) (D)](www.icom.uni-hannover.de)
 
 The Institute of Construction Management and Digital Engineering (ICoM) resides in the Faculty of Civil Engineering and Geodesy at Leibniz Universität Hannover, Germany. There are four main research and working group topics at the ICoM: Methodologies and digital solutions in the AEC sector (e.g. process optimization, VR/AR applications, intelligent modelling and model automatization), management of major projects (e.g. reduction of multidimensional complexity with digital solutions, resilient infrastructure systems), digital construction (e.g. integrative fabrication, qualification approaches, generative fabrication). Coordinating the “Masterplan BIM for research” (funded by Federal Ministry of the Interior, Building and Community, Germany) and is involved in various activities with other federal ministries.  
  
 ICoM has various research projects running and is executing digital respectively BIM-based approaches in all life cycle phases of buildings and all modes of ground infrastructure. Funded by the Niedersachsen Ministry of Economic Affairs, Employment, Transport and Digitalisation, ICoM develops a model-based digital building permit for the state (project runtime: 1.1.2020-31.12.2020.) It is part of the buildingSMART network and heads the BIM-Cluster in the state of Lower Saxony (Niedersachsen).
 
+### [Belgian Building Research Institute (Belgium)](https://www.bbri.be/homepage/index.cfm)
+
+The Digital Construction division from the BBRI has competences in BIM technologies, including modelling, classification and standards, IFC, plugins developments and AR/VR.
+Working on all subjects concerning BIM through various Belgian and European research projects, the BBRI main goal is to perform scientific and technical research for the benefit of its members, supply technical information, assistance and advice, and contribute to the general innovation and development in the construction sector. The BBRI is also involved in Building Smart and the European Committee for Standardization.
 
 ### ...
 
@@ -85,6 +89,8 @@ The Institut Cartogràfic i Geològic de Catalunya (ICGC) has competences on Geo
 ### [Estonian Ministry of Economic Affairs and Communications (Estonia)](https://mkm.ee/en/objectives-activities/construction-and-housing-sector)
 
 The objective of the Ministry of Economic Affairs and Communications is to provide a suitable legislative, economic and safe environment that fosters the development of the Estonian construction and housing sector ensured by efficient legislative drafting, standardisation and support programmes. The ministry is developing the e-construction platform to connect data and services related to the built environment. This includes a fully digital building permit process for the whole of Estonia. A BIM-based building permit process will be launched in 2021.
+
+
 
 ###  ...
 
