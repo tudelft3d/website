@@ -126,7 +126,7 @@ The following is the list of events that we participated in or organised related
 
 ## Data Management Plan
 
-The project's data management plan is available [here](/projects/umnd/dmp)
+The project's data management plan is available [here](/projects/umnd/dmp.html)
 
 - - -
 
