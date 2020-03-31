@@ -71,6 +71,12 @@ ICoM has various research projects running and is executing digital respectively
 The Digital Construction division from the BBRI has competences in BIM technologies, including modelling, classification and standards, IFC, plugins developments and AR/VR.
 Working on all subjects concerning BIM through various Belgian and European research projects, the BBRI main goal is to perform scientific and technical research for the benefit of its members, supply technical information, assistance and advice, and contribute to the general innovation and development in the construction sector. The BBRI is also involved in Building Smart and the European Committee for Standardization.
 
+### Istanbul Technical University (Turkey)
+ 
+The researchers have experience on the topics of geographic information systems (GIS) based modeling, spatial decision support systems, and land administration.
+ 
+The research being carried out in Geomatics Engineering Department focuses on creating a reformative framework including the use of digital building models (formatted in IFC, CityGML, CityJSON, etc.) for both building permit processes and 3D registration of property ownership as well as updating 3D digital twin city databases in Turkey.
+
 ### ...
 
 
@@ -100,3 +106,7 @@ The objective of the Ministry of Economic Affairs and Communications is to provi
 
 Cogital is a Digital Agency for the AEC, supporting customers in their Digital Transformation.  Customers include JLL, Rhomberg Construction, Qatar Public Works Authority - amongst others.  We help our customers re-invent a skater built environment though digital technology.
 
+### Synecon oy
+
+-Process co-creation with cities and tech companies 
+-Development of training modules.
