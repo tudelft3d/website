@@ -1,5 +1,5 @@
 - name: 3D GeoInfo 2020
-  place: London, UK
+  place: online
   start: 2020-09-08
   end: 2020-09-11
   milestones:
@@ -8,26 +8,26 @@
     - name: Abstract submission deadline
       date: 2020-04-22
 
-- name: AGILE 2020
+- name: <s>AGILE 2020 - cancelled</s>
   url: https://agile-online.org/conference-2020
   place: Chania, Crete, Greece
   start: 2020-06-16
   end: 2020-06-19
 
-- name: GISRUK 2020
-  url: http://london.gisruk.org/
-  place: London, UK
-  start: 2020-04-21
-  end: 2020-04-24
-  milestones:
-    - name: "Abstract Submission Deadline"
-      date: 2020-01-10
+# - name: GISRUK 2020 (postponed)
+#   url: http://london.gisruk.org/
+#   place: London, UK
+#   start: 2020-04-21
+#   end: 2020-04-24
+#   milestones:
+#     - name: "Abstract Submission Deadline"
+#       date: 2020-01-10
 
-- name: ICCCBE/W78 Joint Conference
+- name: ICCCBE/W78 Joint Conference (postponed)
   url: http://www.pcc.usp.br/icccbe-w78-2020
   place: São Paulo, Brazil
-  start: 2020-06-02
-  end: 2020-06-04
+  start: 2020-08-18
+  end: 2020-08-20
 
 - name: GISRUK 2019
   url: http://www.newcastle.gisruk.org/
@@ -238,7 +238,7 @@
   start: 2017-09-04
   end: 2017-09-08
 
-- name: XXIVth ISPRS Congress
+- name: XXIVth ISPRS Congress (postponed)
   url: http://www.isprs2020-nice.science
   place: Nice, France
   start: 2021-07-04
