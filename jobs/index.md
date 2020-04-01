@@ -4,12 +4,17 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
-
+<span class="label label-danger">closed</span>
+<del>
 [PhD: Automation of urban flow simulations with 3D City Models](phdcfd2020/)
+</del>
 
 - - -
 
+<span class="label label-danger">closed</span>
+<del>
 [PhD: 3D city models for energy applications](phdenergy2020/)
+</del>
 
 - - -
 

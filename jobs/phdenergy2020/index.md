@@ -4,6 +4,8 @@ title:  PhD position vacancy
 permalink: /jobs/phdenergy2020/
 ---
 
+<div class="alert alert-danger" role="alert">2020-04-01: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/enercities.jpg" }}"></div>
 </div>
@@ -63,13 +65,13 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 Deadline to apply is 31 March 2020 at 23:00 (Amsterdam time).
-</div>
-
-<!-- <div class="alert alert-danger" role="alert">
-Deadline has passed, you can't apply anymore.
 </div> -->
+
+<div class="alert alert-danger" role="alert">
+Deadline has passed, you can't apply anymore.
+</div>
 
 Your application should contain (these should be compiled into a single pdf file named: lastname_firstname_vacancynumber.pdf):
 
