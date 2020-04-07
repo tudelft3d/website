@@ -4,6 +4,12 @@
   github: https://github.com/tudelft3d/cjio
   image: cjio.png
 
+- name: ninja
+  description: A browser viewer and editor for CityJSON files
+  web: https://ninja.cityjson.org/
+  github: https://github.com/cityjson/ninja
+  image: ninja.png
+
 - name: azul
   description: A fast 3D city model viewer for macOS
   github: https://github.com/tudelft3d/azul
