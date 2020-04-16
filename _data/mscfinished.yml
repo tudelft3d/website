@@ -1,4 +1,13 @@
 
+- surname: de Groot  
+  name: Rob
+  title: Automatic construction of 3D tree models in multiple levels of detail from airborne LiDAR data
+  image: deGroot.png
+  year: 2020
+  github: https://github.com/RobbieG91/TreeConstruction
+  link: http://resolver.tudelft.nl/uuid:3e169fc7-5336-4742-ab9b-18c158637cfe
+
+
 - surname: Wu
   name: Teng
   title: Visibility Analysis in a Point Cloud based on the Medial Axis Transform
