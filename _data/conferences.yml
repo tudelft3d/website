@@ -1,12 +1,13 @@
 - name: 3D GeoInfo 2020
   place: online
+  url: https://www.ucl.ac.uk/3dgeoinfo/
   start: 2020-09-08
   end: 2020-09-11
   milestones:
     - name: Full paper submission deadline
-      date: 2020-04-06
+      date: 2020-04-27
     - name: Abstract submission deadline
-      date: 2020-04-22
+      date: 2020-05-13
 
 - name: <s>AGILE 2020 - cancelled</s>
   url: https://agile-online.org/conference-2020
