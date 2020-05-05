@@ -9,8 +9,8 @@ permalink: /education/
 <h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in the 2019-2020 academic year</h2>
 
   * [GEO1002](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48846): Geographical information systems & cartography
-  * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49099): 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i></a>
-  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49105): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i></a>
+  * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49099): 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i> (open course)</a>
+  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49105): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i> (open course)</a>
   * [GEO1016](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50504): Photogrammetry and 3D computer vision
   * [GEO1101](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49104): Synthesis project
   * [GEO2010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49107): Thesis preparation
