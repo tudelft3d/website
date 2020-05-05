@@ -391,11 +391,13 @@ Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Ar
 
 ![](img/alphashape.png)
 
-Given a (classified) LAS pointcloud, how to (re)generate its spatial extent?
+Given a raw LAS pointcloud datasets, how to generate its [spatial extent (a polygon)](https://3d.bk.tudelft.nl/courses/backup/geo1015/2019/les/13/)?
 
 Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
+A better solution is to use the alpha-shape of the set of points, or similar complex structures.
+The problem we would be tackling here is: how to do this for a dataset of say 800M points? It doesn't fit in memory, so what can we do?
 
-A better solution is to use the alpha-shape of the set of points, but this is impossible with massive datasets (which are often very common in practice).
+Done in collaboration with [Deltares](https://www.deltares.nl).
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 
 
