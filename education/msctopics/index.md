@@ -432,3 +432,23 @@ This research will aim at finding improved filtering and interpolation technique
 Software libraries for computational geometry underpin a lot of our research, but an in-depth comparison of how these different software libraries behave in terms of performance and robustness is not available. For example, the feasability of multi-disciplinary use of geometry in BIM/GIS integration and automated thermal analysis of IFC building models is largely shaped by the characteristics of the algorithmns offered in open source libraries such as CGAL and Open CASCADE. This research project is an opportunity to publish something novel, useful and relevant to many disciplines.
 
 *Contact:* [Thomas Krijnen](mail@thomaskrijnen.com)
+
+---
+
+## CityRest: RESTful access + streaming of 3D city models
+
+![](img/draco.gif){:width="300px"}
+
+[CityJSON](https://cityjson.org) was developed to improve on the weaknesses of the XML-encoding of [CityGML](http://www.citygml.org/).
+One of the major one is that CityGML files cannot be used on the web, they are often too big and too complex.
+
+CityJSON fixed this (6X more compact and [ninja](https://ninja.cityjson.org/) shows a proof-of-concept), and this MSc topic will explore solutions and architectures to offer a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) web access to datasets, and also the possibility to *stream* them to a viewer (eg ninja; image above is from [Draco](https://cesium.com/blog/2018/04/09/draco-compression/)).
+
+There is a newly developed standard that promises to do this: [OGC API--Features](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html) (this is "WFS3" but with a new name).
+Most of the demos are for simple 2D geometries, complex features of a 3D city model are not clearly supported (eg textures, 2+ geometries, several LoDs, etc.).
+
+I have built a quick [proof-of-concept and a proposal](https://github.com/hugoledoux/cityjson_ogcapi) (see also the [demo](http://hugoledoux.pythonanywhere.com/)), and this project would bring this further by investigating how to support streaming, how to setup the server (right now it is simple and "cheap").
+The aim would be to host most [publicly available 3D city models](https://3d.bk.tudelft.nl/opendata/opencities/) on such a server, and benchmark what would be the "optimal" solution.
+A bit ambitious, I know.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
