@@ -23,13 +23,14 @@ permalink: /projects/eunet_bp/events.html
 
 # Next
 
-## Kick-off workshop - Brescia (Italy), 29th May 2020 
+## Kick-off workshop - Digital@home, 29th May 2020 
 
-Kick-off meeting of the partners. We will meet in Brescia (Italy) to discuss and better define our structure, our strategy and next activities. If you would like to be part of the network and join, [contact us](f.noardo@tudelft.nl).
-
-## Conference Application of digital information from plans and rules in services for building permits and construction -  Malmö (Sweden), 27th-28th May 2020
+Kick-off meeting of the partners. We will meet through the web (due to international circumstances) to discuss and better define our structure, our strategy and next activities. If you would like to be part of the network and join, [contact us](f.noardo@tudelft.nl).
 
 # Future
+
+## Conference Application of digital information from plans and rules in services for building permits and construction -  Malmö (Sweden)
+
 
 ## Workshop event - Delft (The Netherlands), 2021
 
