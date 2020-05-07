@@ -425,7 +425,7 @@ This research will aim at finding improved filtering and interpolation technique
 
 *Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
-## Performance and robustness of software libraries for computuational geometry
+## Performance and robustness of software libraries for computational geometry
 
 ![](img/sweep_geometry.png){:width="500px"}
 
