@@ -457,6 +457,8 @@ A bit ambitious, I know.
 
 ## Where do I turn? Investigate modeling of road networks in CityJSON, with implicit geometries
 
+![](img/ComplexInterchangesVisualisation.png){:width="700px"}
+
 Roads are supported by CityJSON, but there is minimal support for road networks so far.
 As part of a previous [thesis](http://resolver.tudelft.nl/uuid:ebfc48f8-4704-47d3-9654-cd00c765e0af), we have intestigated the requirements for complete roads representation for certain use cases.
 
