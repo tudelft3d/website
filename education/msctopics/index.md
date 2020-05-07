@@ -452,3 +452,21 @@ The aim would be to host most [publicly available 3D city models](https://3d.bk.
 A bit ambitious, I know.
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
+
+---
+
+## Where do I turn? Investigate modeling of road networks in CityJSON, with implicit geometries
+
+Roads are supported by CityJSON, but there is minimal support for road networks so far.
+As part of a previous [thesis](http://resolver.tudelft.nl/uuid:ebfc48f8-4704-47d3-9654-cd00c765e0af), we have intestigated the requirements for complete roads representation for certain use cases.
+
+In this thesis, the goal is to further refine the requirements to conclude to a concrete representation of road networks.
+The point of the thesis is to utilise all possible mechanisms that CityJSON offers to store semantics of roads in the most efficient ways (e.g. geometry instancing, geometry semantics).
+How will we store the network?
+Can we imply the 3D geometry of roads from simple networks?
+Can we store all necessary information with the existing functionality of CityJSON or is more necessary?
+
+We are in the process of producing some sample road datasets.
+As part of the project, you'll have to experiment with multiple representations, create variations, find interesting parties and evaluate the best way to have roads in CityJSON.
+
+*Contact:* [Anna Labetski](https://3d.bk.tudelft.nl/alabetski/) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
