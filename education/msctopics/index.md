@@ -25,6 +25,20 @@ This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich
 
 - - -
 
+## Coupling 3D city models with Ladybug tools for environmental analyses
+
+<img src="img/ga_ladybug.jpg" style="width: 600px;"/>
+
+The MSc thesis will focus on interoperability between the Ladybug tools and semantic 3D city models encoded in CityJSON and extended with the Energy ADE. The [Ladybug Tools](https://www.ladybug.tools/) are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines. The thesis builds upon a previous [MSc thesis] (https://repository.tudelft.nl/islandora/object/uuid:fb35db7c-9af8-488c-8d0b-263b138d8fd3) completed in 2020.
+
+Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML [Energy ADE](http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE) (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.
+
+The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug tool(s) and to perform a mapping to underlying CityGML/Energy ADE data models. In addition, proper interfaces will have to be developed and tested by means of a concrete case study. This topic is available for up to *two students* (each one choosing a different application area).
+
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+- - -
+
 ## Where will you lose your hat? Finding the windiest street in the Netherlands
 Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns. 
 
@@ -313,51 +327,6 @@ In this project, we would like to develop robust algorithms and tools that can a
 Proficient in one programming language (e.g., C/C++ or Python); experiences in mesh processing; machine learning (in particular Deep Learning) is a bonus.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
-
-- - -
-
-## Coupling 3D city models with Ladybug tools for environmental analyses
-
-<img src="img/ga_ladybug.jpg" style="width: 600px;"/>
-
-The MSc thesis will focus on interoperability between the Ladybug tools and CityGML-based 3D city models. The [Ladybug Tools](https://www.ladybug.tools/) are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines.
-
-Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML [Energy ADE](http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE) (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.
-
-The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug  tool(s) and to perform a mapping to the CityGML/Energy ADE data model. In addition, proper interfaces will have to be developed and tested by means of a concrete case study.
-This topic is available for up to **two students** (each one choosing a different application area).
-
-Prerequisites: Knowledge of CityGML and its ADE mechanism. A bonus is experience with the CityGML 3D City Database and the associated tools. A programming language of choice (e.g. Java or Python) will be used.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-
-- - -
-
-## Interaction between urban heat islands and semantic 3D city models
-
-<img src="img/ga_haagsehitte.jpg" style="width: 300px;"/>
-
-This summer was exceptionally hot and the Netherlands suffered two consecutive heat waves, which had severe negative impacts on human health and the urban environment caused by drought. The department of Urbanism is running Netatmo weather station network with more than 100 stations all across the city of the Hague. This means there is a rich data set which allows to study the formation of the **urban heat islands** in relation to the direct, local built environment around these sensors.
-
-The MSc thesis will focus on investigating how a semantically enriched, CityGML-based **3D city model** can help in understanding and forecasting urban heat islands. Additionally, based on a real case study, the 3D city model will be used to analyse qualitatively and quantitatively how certain physical urban conditions can contribute to (reducing) the heat island effect.
-
-This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Alexander Wandl
-
-- - -
-
-## Urban metabolism and semantic 3D city models
-
-<img src="img/ga_urbanmining.jpg" style="width: 500px;"/>
-
-This thesis topic is connected to the Horizon 2020 Research Project REPAiR: Resource management in peri-urban areas, going beyond urban metabolism. The project has developed a 2D urban mining model of the Amsterdam metropolitan area.
-
-The MSc thesis will focus on defining and implementing a 3D “urban mining” model which will help to investigate and quantitatively describe where, when, and how many critical materials can be obtained (“extracted”) from existing, ageing cities/neighbourhoods in order to be directly reused or recycled in the context of circular economy. A CityGML-based 3D city model of a real case study area will represent the main source of integrated spatial and non-spatial information the 3D urban mining model will be implemented onto.
-
-This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Alexander Wandl
 
 - - -
 
