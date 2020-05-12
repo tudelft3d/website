@@ -67,17 +67,7 @@
   name: Felix
   title: Automatic change detection in maps using RGB images and point clouds
   image: felix.png
-
-- surname: Wang	  
-  name: Xin
-  title: Urban Environment Simulation based on CityGML with Energy ADE and Ladybug
-  image: wang.png
-
-- surname: Arapakis	  
-  name: Panagiotis
-  title: Coupling CityGML with ENVI-met
-  image: arapakis.png
-  
+ 
 - surname: Wiersma  
   name: Gabriella
   title: Towards semantically harmonized government geodata
