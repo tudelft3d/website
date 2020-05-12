@@ -20,7 +20,8 @@ permalink: /education/
 
 <h2>Future changes</h2>
 
-* [GEO1001](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52685): Sensing Technologies and Mathematics for Geomatics
+Updated course now taught by us:
+* [GEO1001](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52685): Sensing technologies and mathematics for geomatics (from the 2020-2021 academic year)
 
 GEO5013: 3D city modelling for urban applications is no longer taught.
 Its contents are split into:
