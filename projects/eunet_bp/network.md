@@ -110,3 +110,8 @@ Cogital is a Digital Agency for the AEC, supporting customers in their Digital T
 
 -Process co-creation with cities and tech companies 
 -Development of training modules.
+
+### BIM Academy
+
+BIM Academy boosts BIM methodology, Lean Construction and IPD processes across all stakeholders participating in all life cycle phases of construction.
+The connection of an automated CityXML to IFC and vice versa will open a series of possible services to add the 3D model effort made in each project to be implemented in the managing of the cities and territories.
