@@ -427,3 +427,22 @@ We are in the process of producing some sample road datasets.
 As part of the project, you'll have to experiment with multiple representations, create variations, find interesting parties and evaluate the best way to have roads in CityJSON.
 
 *Contact:* [Anna Labetski](https://3d.bk.tudelft.nl/alabetski/) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
+
+---
+
+## Automatic repair of 3D city models
+
+![](img/repairorientation.gif){:width="300px"}
+
+Most 3D city models that are publicly available contain so many geometric errors (self-intersections, missing faces, duplicate vertices, etc.) that [they are more or less unusable in practice](https://speakerdeck.com/hugoledoux/how-useful-are-current-3d-city-models).
+
+The aim of this project is to __automatically__ repair 3D city models, we can focus on the [publicly available models](https://3d.bk.tudelft.nl/opendata/opencities/) so there is plenty of data to play with.
+While repair is a very-complex issue (if all cases are to be handled), this project will target the most common errors, and fix them. 
+The [val3dity server](http://geovalidation.bk.tudelft.nl/val3dity/) has been logging all the validation reports for the last 4 years, so a starting point will be to analyse those and focus on what is most easy and has an impact.
+Duplicate points and non-planar surfaces are pretty easy to solve; and for single polygons we [already have working code (prepair)](https://github.com/tudelft3d/prepair).
+After that, more complex operators (eg [those from CGAL](https://doc.cgal.org/latest/Polygon_mesh_processing/index.html)) could be used.
+
+The project is difficult to be done in Python, C++ is necessary (but it's a great way to improve!).
+CityJSON files will be used, you will not have to deal with (the pain of parsing) CityGML files, I promise.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
