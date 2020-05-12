@@ -11,6 +11,19 @@ permalink: /education/msctopics/
 
 - - -
 
+## Testing and extension of a GIS-supported design tool for new urban development areas
+
+![](img/ga_giscity_2020.jpg){:width="600px"}
+
+The thesis builds upon work carried out in a previous MSc [thesis] (http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e) - check out the [video](https://www.youtube.com/watch?v=cPYT5_cFIgw)! - in which a first prototype of a geodata-supported design tool for new urban development areas was created. The tool is coupled with semantic 3D city models as a source of integrated spatial and non-spatial information.
+The thesis will focus first on thoroughly testing the existing tool and will then implement new functionalities. Possible examples are the computation of KPIs for urban analyses, 3D web-based visualisation and interaction interfaces, as well as scenarios management. The precise development focus of the thesis will be agreed upon with the student.
+
+The research will be carried out on a selected case study and in cooperation with the Cross Domain-City of the Future graduation [studio] (https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/), which focuses on how to design and develop in an integrated way a transformation area into an attractive future urban environment.
+
+**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Roberto Cavallo](https://www.tudelft.nl/en/staff/r.cavallo) 
+
+- - -
+
 ## Utilization of alternative fuels in the transport sector and identification of their emission reduction potential regarding harmful air pollution
 
 The air quality in cities is one of the big topics of modern society. This air quality is affected form harmful emission like nitrogen oxides and particulate matter that are, in urban areas, mainly produced from the transport sector. A promising option besides changing the modal split or reducing mileages is the change to alternative fuels. To identify suitable application cases for alternative fuels, analyses to determine which vehicles are the main polluters in agglomerations are mandatory. 
@@ -21,7 +34,7 @@ This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich
 
 ![](img/julich_01.jpg){:width="600px"}
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
+**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
 
 - - -
 
@@ -78,20 +91,6 @@ Recent advances in Structure from Motion (SfM) and Multi-View Stereo (MVS) enabl
 Experiences in 3D mesh processing; Proficient in one programming language (e.g., C/C++ or Python); Attendance in courses (CS4220, or CS4240, or related online courses) on machine learning / deep learning. 
 
 **Contact**: [Weixiao GAO](https://3d.bk.tudelft.nl/weixiao/)
-
-- - -
-
-## Multidisciplinary graduation BK studio: City of the Future
-
-![](img/cityfuture.jpg){:width="600px"}
-
-City of the Future is a multidisciplinary graduation studio focusing on the central question: how to design and develop in an integrated way a transformation area into an attractive future urban environment? It is motivated by urgent social / local issues varying among housing demand, social inclusiveness, new economy, climate adaptation, and the transitions in the areas of energy, mobility, circularity, automation and digitization.
-
-Students of different MSc tracks (thus Geomatics students are welcome) will be dealing with various matters (e.g. spatial, policy, energy, societal) sharing insights and perspectives about the multifaceted future challenges of urban environments.
-
-[--> Webpage of the project](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/)
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
 - - -
 
