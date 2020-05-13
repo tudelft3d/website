@@ -26,13 +26,17 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 
 ## Exploring efficient ways to visualize and handle large data sets
 
-Diverse processes in urban simulations, such as high-fidelity Computational Fluid Dynamic (CFD) simulations and the reconstruction of accurate 3D city models relay in the usability of very large datasets. This applications focused in realistic urban scenarios can be dealing with number of data points that lay in the hundreds of millions. The visualization and usability of these large datasets is a common problem that we face often at present and in the future, and determining efficient ways to deal with it would be of paramount importance. 
-
-In this MSc thesis we will explore the existent techniques to deal with such problems, and build up from them to analyze and potentially develop additional strategies that ease this challenge. The application results from the thesis can largely impact fields of geomatics, CFD communities as well as 3D data visualization.
-
-If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models and multiple tools for visualization used for 3D city models and CFD results. Programming experience and interest is an advantage for this topic, since parallelization of the processes might be needed to improve the usability of large scale data. 
-
 ![](img/Qcontour3_Q035-10_U3.png){:width="400px"}
+
+Diverse processes in urban simulations, such as high-fidelity Computational Fluid Dynamic (CFD) simulations and the reconstruction of accurate 3D city models relay in the usability of very large datasets. 
+This applications focused in realistic urban scenarios can be dealing with number of data points that lay in the hundreds of millions. 
+The visualization and usability of these large datasets is a common problem that we often face, and determining efficient ways to deal with it would be of paramount importance. 
+
+In this MSc thesis we will explore the existing techniques to deal with such problems, and build up from them to analyze and potentially develop additional strategies that ease this challenge. 
+The application results from the thesis can largely impact fields of geomatics, CFD communities as well as 3D data visualization.
+
+If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models and multiple tools for visualization used for 3D city models and CFD results. 
+Programming experience is an advantage for this topic, since parallelization of the processes might be needed to improve the usability of large scale data. 
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
