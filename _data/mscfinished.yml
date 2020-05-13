@@ -7,6 +7,12 @@
   github: https://github.com/RobbieG91/TreeConstruction
   link: http://resolver.tudelft.nl/uuid:3e169fc7-5336-4742-ab9b-18c158637cfe
 
+- surname: Wang  
+  name: Xin
+  title: Using CityGML Energy ADE data in Honeybee
+  image: wang.png
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:fb35db7c-9af8-488c-8d0b-263b138d8fd3
 
 - surname: Wu
   name: Teng
@@ -15,6 +21,13 @@
   year: 2019
   github: https://github.com/twut/geoflow-nodes
   link: https://3d.bk.tudelft.nl/pdfs/P5Thesis_TengWu_4721020.pdf
+
+- surname: Arapakis
+  name: Panagiotis
+  title: "The use of digital models in microclimatic studies: First steps in coupling CityGML with ENVI-met"
+  image: arapakis.png
+  year: 2019
+  link: http://resolver.tudelft.nl/uuid:03ab695a-dc68-403a-b934-c810f087df42
 
 - surname: Salheb
   name: Nebras

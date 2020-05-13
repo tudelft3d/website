@@ -11,6 +11,19 @@ permalink: /education/msctopics/
 
 - - -
 
+## Testing and extension of a GIS-supported design tool for new urban development areas
+
+![](img/ga_giscity_2020.jpg){:width="600px"}
+
+The thesis builds upon work carried out in a previous MSc [thesis](http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e) - check out the [video](https://www.youtube.com/watch?v=cPYT5_cFIgw)! - in which a first prototype of a geodata-supported design tool for new urban development areas was created. The tool is coupled with semantic 3D city models as a source of integrated spatial and non-spatial information.
+The thesis will focus first on thoroughly testing the existing tool and will then implement new functionalities. Possible examples are the computation of KPIs for urban analyses, 3D web-based visualisation and interaction interfaces, as well as scenarios management. The precise development focus of the thesis will be agreed upon with the student.
+
+The research will be carried out on a selected case study and in cooperation with the Cross Domain-City of the Future graduation [studio](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/), which focuses on how to design and develop in an integrated way a transformation area into an attractive future urban environment.
+
+**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Roberto Cavallo](https://www.tudelft.nl/en/staff/r.cavallo) 
+
+- - -
+
 ## Utilization of alternative fuels in the transport sector and identification of their emission reduction potential regarding harmful air pollution
 
 The air quality in cities is one of the big topics of modern society. This air quality is affected form harmful emission like nitrogen oxides and particulate matter that are, in urban areas, mainly produced from the transport sector. A promising option besides changing the modal split or reducing mileages is the change to alternative fuels. To identify suitable application cases for alternative fuels, analyses to determine which vehicles are the main polluters in agglomerations are mandatory. 
@@ -21,19 +34,21 @@ This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich
 
 ![](img/julich_01.jpg){:width="600px"}
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
+**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
 
 - - -
 
-## Estimation of the impact of field view in the value of high-rise-buildings flats
+## Coupling 3D city models with Ladybug tools for environmental analyses
 
-![](img/ga_ilir_2019.jpg){:width="600px"}
+<img src="img/ga_ladybug.jpg" style="width: 600px;"/>
 
-Cities have increasingly exhibited a vertical dimension which has long been neglected by mainstream urban economics and prevailing location theories. Recent studies have documented that both firms and households are prepared to pay more (known as price premiums) to be located on higher floors. Two key reasons for higher vertical location are namely ‘view’ and ‘status’ (being on top of others). To date, very little is known about how much these parameters contribute to the premium.
-In particular, in tall buildings design subdivision of floor plans is becoming complex to address different user preferences and to maximise views for higher economic returns, as different levels of a building offer different fields of view based, among the rest, on the impact of surrounding obstructing objects.
-Analyses based in 3D city models can help to better estimate the role of field of view in this context.
+The MSc thesis will focus on interoperability between the Ladybug tools and semantic 3D city models encoded in CityJSON and extended with the Energy ADE. The [Ladybug Tools](https://www.ladybug.tools/) are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines. The thesis builds upon a previous [MSc thesis](https://repository.tudelft.nl/islandora/object/uuid:fb35db7c-9af8-488c-8d0b-263b138d8fd3) completed in 2020.
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Ilir Nase](https://www.tudelft.nl/staff/i.nase/) (MBE)
+Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML [Energy ADE](http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE) (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.
+
+The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug tool(s) and to perform a mapping to underlying CityGML/Energy ADE data models. In addition, proper interfaces will have to be developed and tested by means of a concrete case study. This topic is available for up to *two students* (each one choosing a different application area).
+
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
 - - -
 
@@ -62,7 +77,7 @@ The focus of the energy track will be on developing a GIS-based Urban Energy Mod
 The above-mentioned GIS-model will be integrated with the UEM, as well as design algorithm, in order to extract suitable data to be used as input to the energy models. The GIS platform collected and synthesized the data and then will be used as the input of the UEM to get energy use of buildings in the area. The model will also be applied to evaluate the energy savings of desired retrofit scenarios.
 In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Saleh Mohammadi](https://www.tudelft.nl/en/staff/saleh.mohammadi/?no_cache=1&cHash=) and [Sabine Jansen](https://www.tudelft.nl/en/staff/s.c.jansen/?no_cache=1&cHash=) (Climate Design group)
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Michiel Freemouw](https://www.tudelft.nl/en/staff/m.a.fremouw/) (Climate Design and Sustainability group)
 
 - - -
 
@@ -76,20 +91,6 @@ Recent advances in Structure from Motion (SfM) and Multi-View Stereo (MVS) enabl
 Experiences in 3D mesh processing; Proficient in one programming language (e.g., C/C++ or Python); Attendance in courses (CS4220, or CS4240, or related online courses) on machine learning / deep learning. 
 
 **Contact**: [Weixiao GAO](https://3d.bk.tudelft.nl/weixiao/)
-
-- - -
-
-## Multidisciplinary graduation BK studio: City of the Future
-
-![](img/cityfuture.jpg){:width="600px"}
-
-City of the Future is a multidisciplinary graduation studio focusing on the central question: how to design and develop in an integrated way a transformation area into an attractive future urban environment? It is motivated by urgent social / local issues varying among housing demand, social inclusiveness, new economy, climate adaptation, and the transitions in the areas of energy, mobility, circularity, automation and digitization.
-
-Students of different MSc tracks (thus Geomatics students are welcome) will be dealing with various matters (e.g. spatial, policy, energy, societal) sharing insights and perspectives about the multifaceted future challenges of urban environments.
-
-[--> Webpage of the project](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/)
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
 - - -
 
@@ -346,62 +347,15 @@ Proficient in one programming language (e.g., C/C++ or Python); experiences in m
 
 - - -
 
-## Coupling 3D city models with Ladybug tools for environmental analyses
-
-<img src="img/ga_ladybug.jpg" style="width: 600px;"/>
-
-The MSc thesis will focus on interoperability between the Ladybug tools and CityGML-based 3D city models. The [Ladybug Tools](https://www.ladybug.tools/) are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines.
-
-Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML [Energy ADE](http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE) (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.
-
-The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug  tool(s) and to perform a mapping to the CityGML/Energy ADE data model. In addition, proper interfaces will have to be developed and tested by means of a concrete case study.
-This topic is available for up to **two students** (each one choosing a different application area).
-
-Prerequisites: Knowledge of CityGML and its ADE mechanism. A bonus is experience with the CityGML 3D City Database and the associated tools. A programming language of choice (e.g. Java or Python) will be used.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-
-- - -
-
-## Interaction between urban heat islands and semantic 3D city models
-
-<img src="img/ga_haagsehitte.jpg" style="width: 300px;"/>
-
-This summer was exceptionally hot and the Netherlands suffered two consecutive heat waves, which had severe negative impacts on human health and the urban environment caused by drought. The department of Urbanism is running Netatmo weather station network with more than 100 stations all across the city of the Hague. This means there is a rich data set which allows to study the formation of the **urban heat islands** in relation to the direct, local built environment around these sensors.
-
-The MSc thesis will focus on investigating how a semantically enriched, CityGML-based **3D city model** can help in understanding and forecasting urban heat islands. Additionally, based on a real case study, the 3D city model will be used to analyse qualitatively and quantitatively how certain physical urban conditions can contribute to (reducing) the heat island effect.
-
-This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Alexander Wandl
-
-- - -
-
-## Urban metabolism and semantic 3D city models
-
-<img src="img/ga_urbanmining.jpg" style="width: 500px;"/>
-
-This thesis topic is connected to the Horizon 2020 Research Project REPAiR: Resource management in peri-urban areas, going beyond urban metabolism. The project has developed a 2D urban mining model of the Amsterdam metropolitan area.
-
-The MSc thesis will focus on defining and implementing a 3D “urban mining” model which will help to investigate and quantitatively describe where, when, and how many critical materials can be obtained (“extracted”) from existing, ageing cities/neighbourhoods in order to be directly reused or recycled in the context of circular economy. A CityGML-based 3D city model of a real case study area will represent the main source of integrated spatial and non-spatial information the 3D urban mining model will be implemented onto.
-
-This MSc thesis will be jointly supervised by the 3D Geoinformation group and the group of Environmental Technology and Design.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and Alexander Wandl
-
-- - -
-
 ## Integrated modelling of utility networks in the urban environment
 
 <img src="img/ga_xander_network.jpg" style="width: 500px;"/>
 
 In the framework of Smart Cities, the MSc thesis will focus on interoperability issues when it comes the heterogeneous utility networks (e.g. gas, water, electricity, sewage, district heating, telecommunications, etc.) that are found in the urban environment.
-Starting from a CityGML-based 3D city model, the Msc. thesis will focus on testing and further extending the Utility Network ADE (Application Domain Extension), based on a concrete case study which will be agreed upon with the student. A possible application area is in the energy sector, e.g. when it comes to coupling networks to specific simulation programs.
-The image shown here is taken from the [Msc thesis of Xander van den Duijn](https://repository.tudelft.nl/islandora/object/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9?collection=education) (2018) and is an example - and a starting point - of the overall topic of the thesis proposed here.
+Starting from a CityGML-based 3D city model, the Msc. thesis will focus on testing the Utility Network ADE (Application Domain Extension) and compare it to existing or newly proposed standards (IMKL or MUDDI), based on a concrete case study which will be agreed upon with the student. 
+The image shown here is taken from a previous [thesis](https://repository.tudelft.nl/islandora/object/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9?collection=education) and serves as example - and starting point - of the overall topic of the thesis proposed here.
 
-Prerequisites: Knowledge of CityGML and its ADE mechanism, FME and Enterprise Architect are required. A bonus is experience of the CityGML 3D City Database and the associated tools.
-
-**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
+**Contacts**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 - - -
 
@@ -490,3 +444,22 @@ We are in the process of producing some sample road datasets.
 As part of the project, you'll have to experiment with multiple representations, create variations, find interesting parties and evaluate the best way to have roads in CityJSON.
 
 *Contact:* [Anna Labetski](https://3d.bk.tudelft.nl/alabetski/) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
+
+---
+
+## Automatic repair of 3D city models
+
+![](img/repairorientation.gif){:width="300px"}
+
+Most 3D city models that are publicly available contain so many geometric errors (self-intersections, missing faces, duplicate vertices, etc.) that [they are more or less unusable in practice](https://speakerdeck.com/hugoledoux/how-useful-are-current-3d-city-models).
+
+The aim of this project is to __automatically__ repair 3D city models, we can focus on the [publicly available models](https://3d.bk.tudelft.nl/opendata/opencities/) so there is plenty of data to play with.
+While repair is a very-complex issue (if all cases are to be handled), this project will target the most common errors, and fix them. 
+The [val3dity server](http://geovalidation.bk.tudelft.nl/val3dity/) has been logging all the validation reports for the last 4 years, so a starting point will be to analyse those and focus on what is most easy and has an impact.
+Duplicate points and non-planar surfaces are pretty easy to solve; and for single polygons we [already have working code (prepair)](https://github.com/tudelft3d/prepair).
+After that, more complex operators (eg [those from CGAL](https://doc.cgal.org/latest/Polygon_mesh_processing/index.html)) could be used.
+
+The project is difficult to be done in Python, C++ is necessary (but it's a great way to improve!).
+CityJSON files will be used, you will not have to deal with (the pain of parsing) CityGML files, I promise.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
