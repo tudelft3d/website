@@ -213,6 +213,20 @@ This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), t
 
 - - -
 
+## Inferring the needed building permission from a 3D building model
+
+![](img/dormersrotterdam.png){:width="400px"}
+
+In the Municipality of Rotterdam the building regulations are very different if a construction work on a roof is a dormer, an additional floor, or something else. It can be difficult to figure out what regulations apply for a given construction plan. To make this easier the municipality of Rotterdam would like to offer a tool that can automatically determine what permits are needed, given a 3D geometry of the building plans. The tool should be able to infer what kind of object is designed and provide to the designer the needed regulations and constraints.
+
+In this research the aim is:
+- to build a web application that can read an LoD2 CityJSON model of the current situation and allows the user to modify the building with the desired modifications;
+- to develop a method that can infer what kind of object was designed in the web application (only objects on the roof will be considered) and deliver the related regulations accordingly.
+
+**Contact:** [Francesca Noardo](http://www.noardo.eu), [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis), [Ravi Peters](http://tudelft.nl/rypeters), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken).
+
+- - -
+
 ## 3D digital urban regulations to use GeoBIM for building permission checks
 
 The automation of urban regulation checks for the planning use case requires the urban regulations to be archived in a digital and spatial (3D) format.
@@ -223,13 +237,17 @@ In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://w
 
 - - -
 
-## Extracting information from BIM models for GeoBIM building permission use case
+## Extracting building/storey/dwelling/room shapes from a BIM models
 
-The integration of geoinformation with BIM information can be very effective for automatically checking urban regulations. However, not all the information which is present in BIM is necessary for regulations checking. Moreover, BIMs designed in actual practice sometimes have different characteristics than the ones expected by academy. At the same time too much detail hinders data processing and designers are reluctant to share all the details about their designs.
-In this study, the aim is to understand which information is needed for checking some critical regulation where GeoBIM information can be useful, as it could be obtained from a sample of more complex BIMs modelled by designers and practitioners, and develop a tool to filter, derive/extract and generalise the required information to be used for the integration with a 3D city model and the checks of the selected regulations.
-In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
+![](img/UpTown5.gif){:width="400px"}
 
-**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+Given a Building Information Model in Industry Foundation Classes (IFC) format, it is necessary to extract useful information for automatic processes, such as the building envelope, number of dwellings, storeys or rooms in the building and the respective volumes and dimensions, for example to support compliancy check with the urban regulations.
+
+Prior algorithmic knowlegde, recursion, graph concepts could be beneficial.
+
+In collaboration with Municipality of Rotterdam.
+
+**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken), [Thomas Krijnen](http://thomaskrijnen.com/) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
 
