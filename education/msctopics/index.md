@@ -10,6 +10,33 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## Online Tool for Urban Computational Fluid Dynamics Simulations Set-Up validation.
+
+Performing computational fluid dynamics (CFD) simulations in urban environments entails many pre-run set-up features that can have a drastic impact in the simulations performance. For example, the extension of the domain should be large enough to limit blockage around the buildings, or the mesh resolution should be refined enough to ensure the flow results grid independence. Many of these pre-run processes can be partially automatic, and tools that quickly check if the simulation set-up respects the CFD guidelines can be developed.
+
+In this MSc thesis we will develop online tools that allow to import CFD set-ups from users and check their correctness with respect with the most up to data CFD guidelines developed by the wind engineering community. The application will analyze the set-up and report back to the user with potential improvements, if needed. 
+
+If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations, as well as online tool developments. Programming experience and interest is an advantage for this topic, since the work will require to implement online scripts for the checks in the simulations set-ups. 
+
+![](img/DomainandDirectionandMeshClean.png){:width="400px"}
+
+**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
+
+- - -
+
+## Exploring efficient ways to visualize and handle large data sets
+
+Diverse processes in urban simulations, such as high-fidelity Computational Fluid Dynamic (CFD) simulations and the reconstruction of accurate 3D city models relay in the usability of very large datasets. This applications focused in realistic urban scenarios can be dealing with number of data points that lay in the hundreds of millions. The visualization and usability of these large datasets is a common problem that we face often at present and in the future, and determining efficient ways to deal with it would be of paramount importance. 
+
+In this MSc thesis we will explore the existent techniques to deal with such problems, and build up from them to analyze and potentially develop additional strategies that ease this challenge. The application results from the thesis can largely impact fields of geomatics, CFD communities as well as 3D data visualization.
+
+If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models and multiple tools for visualization used for 3D city models and CFD results. Programming experience and interest is an advantage for this topic, since parallelization of the processes might be needed to improve the usability of large scale data. 
+
+![](img/Qcontour3_Q035-10_U3.png){:width="400px"}
+
+**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+- - -
 
 ## Testing and extension of a GIS-supported design tool for new urban development areas
 
