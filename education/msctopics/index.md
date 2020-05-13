@@ -14,9 +14,9 @@ permalink: /education/msctopics/
 
 Performing computational fluid dynamics (CFD) simulations in urban environments entails many pre-run set-up features that can have a drastic impact in the simulations performance. For example, the extension of the domain should be large enough to limit blockage around the buildings, or the mesh resolution should be refined enough to ensure the flow results grid independence. Many of these pre-run processes can be partially automatic, and tools that quickly check if the simulation set-up respects the CFD guidelines can be developed.
 
-In this MSc thesis we will develop web application that allows to import CFD set-ups from users and check their correctness with respect with the most up to data CFD guidelines developed by the wind engineering community. The application will analyze the set-up and report back to the user with potential improvements, if needed. 
+In this MSc thesis we will develop a web application that allows to import CFD set-ups from users and check their compatibility with the most up to data CFD guidelines developed by the wind engineering community. The application will analyze the set-up and report back to the user with potential improvements, if needed. 
 
-If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations, as well as online tool developments. Programming experience and interest is an advantage for this topic, since the work will require to implement online scripts for the checks in the simulations set-ups. 
+If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations, as well as web development. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python) and the web interface (in HTML and JavaScript). 
 
 ![](img/DomainandDirectionandMeshClean.png){:width="400px"}
 
