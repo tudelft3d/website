@@ -1,4 +1,17 @@
+## Automatic generalisation of depth contours
 
+![](img/bathycontours.png){:width="500px"}
+
+For some years, we have been working on a novel method to automatically generate "good" depth-contours for hydrographic charts.
+Our latest results, based on the [MSc thesis of Ravi Peters](http://repository.tudelft.nl/view/ir/uuid%3A5977a99b-0875-44b4-abe1-09288bf2aed1/) and published in that [paper](https://3d.bk.tudelft.nl/hledoux/pdfs/14_marinegeo.pdf), have been picked up by major companies who are implementing it.
+
+The aim of the proposed project is to improve the results.
+That is, we can at this moment generate smooth contours for most seabed types, but the generation is applied for the whole dataset and a human must decide when the results are okay.
+The student would have to focus on automatically applying the algorithms only where they are needed and design methods to assess when sufficiently good results have been achieved.
+
+The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but probably possible to make do with Python.
+
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters)
 
 
 ## DTM Filtering for Photogrammetric DSM’s

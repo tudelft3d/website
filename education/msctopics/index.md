@@ -218,6 +218,23 @@ In collaboration with Municipality of Rotterdam.
 
 - - -
 
+## Improving the automatic LoD2 building reconstruction from AHN3
+
+![](img/lod2-add-spheres.jpg){:width="800px"}
+
+We have a working method to automatically reconstruct LoD2.2/LoD1.3 buildings from the AHN3 point cloud that we are using to construct LoD2 building models for the whole of the Netherlands. These models will for example be used as input data for noise simulation, and will be available as open data as part of the next version of our [3D BAG dataset](http://3dbag.bk.tudelft.nl).
+
+The aim of this project will be to improve/extend the method with one or several of the following items:
+
+* The detection of primitive shapes in roof structures such as speheres and cones. Currently the method can only detect planes. If we also detect other types of primitive we will be able to create more accurate models.
+* Making the method work without requiring a building footprint as input (next to the point cloud). Currently the method 'forces' the boundary of the model to exactly follow the BAG footprint. However, these are not always accurate and may include underground parts of the building that we would like to ignore.
+
+Programming required, C++ recommended.
+
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
+
+- - -
+
 ## Point cloud normal estimation based on the 3D medial axis transform
 
 ![](img/wrong_normal_orientation.png){:width="400px"}
@@ -258,23 +275,6 @@ However, there is still a gap between research and practice. In this research yo
 The idea is explained in [this](https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts04e/TS04E_stoter_ho_et_al_10503_abs.pdf) short paper
 
 *Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## Automatic generalisation of depth contours
-
-![](img/bathycontours.png){:width="500px"}
-
-For some years, we have been working on a novel method to automatically generate "good" depth-contours for hydrographic charts.
-Our latest results, based on the [MSc thesis of Ravi Peters](http://repository.tudelft.nl/view/ir/uuid%3A5977a99b-0875-44b4-abe1-09288bf2aed1/) and published in that [paper](https://3d.bk.tudelft.nl/hledoux/pdfs/14_marinegeo.pdf), have been picked up by major companies who are implementing it.
-
-The aim of the proposed project is to improve the results.
-That is, we can at this moment generate smooth contours for most seabed types, but the generation is applied for the whole dataset and a human must decide when the results are okay.
-The student would have to focus on automatically applying the algorithms only where they are needed and design methods to assess when sufficiently good results have been achieved.
-
-The [code of the project](https://github.com/Ylannl/Surfonoi) is in C++, but probably possible to make do with Python.
-
-**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux) and [Ravi Peters](http://tudelft.nl/rypeters)
 
 - - -
 
