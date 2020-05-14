@@ -4,6 +4,10 @@ title:  Potential MSc topics
 permalink: /education/msctopics/
 ---
 
+<div class="alert alert-success text-center" role="alert">
+  <b>Heads up!</b> Theses done in our group should follow the <a href="https://3d.bk.tudelft.nl/courses/geo2020/openscience/">requirements for open science</a>.
+</div>
+
 - - -
 
 * Table of Content
