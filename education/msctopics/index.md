@@ -403,7 +403,7 @@ As part of the project, you'll have to experiment with multiple representations,
 
 ## Automatic repair of 3D city models
 
-![](img/repairorientation.gif){:width="300px"}
+![](img/repairorientation.gif){:width="400px"}
 
 Most 3D city models that are publicly available contain so many geometric errors (self-intersections, missing faces, duplicate vertices, etc.) that [they are more or less unusable in practice](https://speakerdeck.com/hugoledoux/how-useful-are-current-3d-city-models).
 
@@ -417,3 +417,24 @@ The project is difficult to be done in Python, C++ is necessary (but it's a grea
 CityJSON files will be used, you will not have to deal with (the pain of parsing) CityGML files, I promise.
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+---
+
+## How to construct one __seamless__ TIN from all the AHN3 points in NL?
+
+![](img/bigtin.jpg){:width="300px"}
+
+The AHN3 dataset contains a lot of points (should be close to 1 trillion when completed), and while these are useful, some applications would benefit from having a TIN.
+You learned how to create a Delaunay TIN in GEO1015, but what you did was for small datasets that fit in memory.
+
+The aim of this project is to construct __one seamless TIN__ of all the (ground) points in AHN3.
+Tiling is possible, but perhaps more interesting would be to use the [streaming ideas of Isenburg and friends](https://www.cs.unc.edu/~isenburg/papers/ilss-scdt-06.pdf); see also the [GEO1015 lesson 12](https://3d.bk.tudelft.nl/courses/backup/geo1015/2019/les/12/).
+Their code is working but not open-source, only works with float (Dutch EPSG:28992 gets truncated...) and is not working.
+The idea is to modify their code and implement own, and release this as open-source.
+
+Ideally, at the end it would be nice to press "enter", and in one shoot a gigantic TIN is created.
+
+While Python is theoretically possible (the problem is not speed, but managing the size of the dataset so that at one point only a fraction of it is in memory), it's better if C++ was used.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
+
