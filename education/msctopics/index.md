@@ -251,7 +251,7 @@ In this research the aim is:
 - to build a web application that can read an LoD2 CityJSON model of the current situation and allows the user to modify the building with the desired modifications;
 - to develop a method that can infer what kind of object was designed in the web application (only objects on the roof will be considered) and deliver the related regulations accordingly.
 
-**Contact:** [Francesca Noardo](http://www.noardo.eu), [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis), [Ravi Peters](http://tudelft.nl/rypeters), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken).
+**Contact:** [Francesca Noardo](http://www.noardo.eu) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
 
 - - -
 
@@ -275,7 +275,7 @@ Prior algorithmic knowlegde, recursion, graph concepts could be beneficial.
 
 In collaboration with Municipality of Rotterdam.
 
-**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken), [Thomas Krijnen](http://thomaskrijnen.com/) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/)
 
 - - -
 
