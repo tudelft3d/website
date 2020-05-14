@@ -243,9 +243,9 @@ It is possible to use Python for this project, although some knowledge of C++ wo
 
 ![](img/nwb.jpg){:width="700px"}
 
-The National Road Dataset (Nationaal Wegen Bestand, NWB) has plans to convert their [2D road network into 3D](https://nationaalwegenbestand.nl/nieuws/hoogte-informatie-toegevoegd-aan-nwb-voor-omgevingswet) by developing automated reconstruction algorithms based on LiDAR data (AHN). This is specifically challenging at the location of tunnels, bridges, viadutcs etc. This research will help in this work by developing algorithms to reconstruct the 3D NWB for the whole Netherlands.
+The National Road Dataset (Nationaal Wegen Bestand, NWB) will convert their [2D road network into 3D](https://nationaalwegenbestand.nl/nieuws/hoogte-informatie-toegevoegd-aan-nwb-voor-omgevingswet) by developing automated reconstruction algorithms based on LiDAR data (AHN). This is specifically challenging at the location of tunnels, bridges, viadutcs etc. This research will help in this work by developing algorithms to reconstruct the 3D NWB for the whole Netherlands.
 
-*Contact:* [Ravi Peters](http://tudelft.nl/rypeters)[Jantien](http://3d.bk.tudelft.nl/jstoter)
+*Contact:* [Ravi Peters](http://tudelft.nl/rypeters) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 - - -
 
 ## 3D Cadastre
