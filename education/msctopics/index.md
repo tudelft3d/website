@@ -180,71 +180,6 @@ Knowledge of a programming language (preferably Python) is highly recommended.
 
 - - -
 
-## Sensor standards overview
-
-Create an overview of the standards landscape related to sensors and observations that explains the scope of each of these standards, their application to practical use cases, impact on Spatial Data Infrastructures and mechanisms by which they may be combined. 
-Are these standards, for example, overlapping in their application domain, or are they complementary? 
-Are there gaps that need to be addressed? 
-
-Different standards organizations are working on standards related to sensors and the measurements they produce: [ISO](https://www.iso.org/), the [OGC](http://www.opengeospatial.org), the [W3C](https://www.w3.org), the [IETF](https://www.ietf.org), and countless non-standardized community or platform-specific protocols and formats. These standards range from mature to early development stage, and from low level communication IoT protocols to ontologies describing sensor semantics.
-
-This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
-
-**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - -
-
-## Moving objects on the Web
-
-Describing trajectories and paths of moving objects requires a different approach to describing static ones. Research how best to support Web applications that generate or use data concerning moving objects. Use cases include transportation, tourism, migration, location-based services, travel blogs and wildlife tracking. There is an OGC standard for [Moving features](http://www.opengeospatial.org/standards/movingfeatures), but the XML encoding is too complex and verbose - not lightweight enough to conduct, for example, enhanced (near) real-time operations involving moving objects, via the Web.
-
-This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
-
-**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - -
-
-## Develop a framework for sharing sensor data
-
-![](img/slimmestad-alg.png)
-
-The ISO/OGC standard [Observations and Measurements](http://www.opengeospatial.org/standards/om) (O&M) provides a model for the exchange of information about sensor observations. 
-It’s a rather concise and abstract model and it has always raised questions about how to create a profile in order to use it in practice. 
-A framework for this is needed.
-
-Creating a profile involves the definition of an information model that extends the [abstract O&M model](http://portal.opengeospatial.org/files/?artifact_id=41579). 
-O&M is defined in UML. 
-In addition, there is an XML-based exchange format, the [O&M GML encoding](http://portal.opengeospatial.org/files/?artifact_id=41510), a [JSON implementation](https://portal.opengeospatial.org/files/64910), and a linked data based ontology called [Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/). 
-All of these may play a role in the framework, but the central question of this MSc topic is how to create a working O&M profile.
-
-A practical case for the study could be the [Base Registry Underground](https://www.basisregistratieondergrond.nl), which will contain a lot of sensor data such as groundwater measurements and soil quality observations. 
-
-This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
-
-**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - -
-
-## Linked data: Extend CityJSON with machine-readable semantics
-
-![](img/ld.jpg)
-
-[CityJSON](http://www.cityjson.org) is based on JavaScript Object Notation, a lightweight data-interchange format primarily used on the Web. 
-However, JSON is just syntax, without any machine-readable knowledge about the meaning (semantics) of the data. Currently, the only way to figure out what the data in a CityJSON file means (e.g. what is a building?) is to read the [CityGML](https://www.citygml.org) specification (assuming you know where to find it), something only humans can do. 
-
-The aim of this MSc project is to find out how to encode the meaning of CityJSON files in a machine-readable way, directly embedded or linked in the JSON document, and to discover what benefits (or disadvantages) this would bring. This could be done by creating a vocabulary which describes the keys that can be used in CityJSON, basically a CityGML vocabulary or (simple) ontology; and using [JSON-LD](https://json-ld.org/) to map the keys in CityJSON to this vocabulary. 
-
-The "LD" in JSON-LD stands for "[linked data](https://www.w3.org/wiki/LinkedData)". 
-Once CityJSON-LD is created, we effectively have a lightweight linked data format for CityGML. 
-But this is not a benefit in itself. 
-The project would go on to explore the advantages and disadvantages of working with CityJSON-LD, as opposed to just CityJSON.
-
-This project is done in cooperation with [Geonovum](https://www.geonovum.nl/), the govermental organisation responsible for developing geo-standards.
-
-**Contact:** [Linda van den Brink](l.vandenbrink@geonovum.nl) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - -
-
 ## Inferring the needed building permission from a 3D building model
 
 ![](img/dormersrotterdam.png){:width="400px"}
@@ -310,9 +245,10 @@ It is possible to use Python for this project, although some knowledge of C++ wo
 
 Since more than 15 years, lots of studies have been done on 3D Cadastre to register multilevel ownership in a transparent and proper way.
 In 2016, we realised the first 3D cadastral situation [3D cadastral registration]( https://3d.bk.tudelft.nl/news/2016/03/21/3DKadaster.html) in the Netherlands.
-But still research is needed to develop a solution for 3D cadastral registration that covers all issues. An MSc thesis could focus on one of them, such as how to validate a 3D cadastral plan that was created from a BIM model? Traditionally, a 2D cadastral boundary is checked by surveyors in the field. What are the requirements for 3D cadastral boundaries? How can they be generated accordingly? And how can they be validated? How can a BIM model serve as input for this? Another issue is about how to maintain and exchange 3D data about property boundaries? And how to go beyond the limited visualisation and navigation possibilities of 3D PDF?
+However, there is still a gap between research and practice. In this research you will analyse how a Level of Detail Framework, that defines specifc solutions for specific 3d cadatsre problems may help to close the 3D cadastre research-to-practice gap.
+The idea is explained in [this]{https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts04e/TS04E_stoter_ho_et_al_10503_abs.pdf} short paper
 
-*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
@@ -405,28 +341,6 @@ Done in collaboration with [Deltares](https://www.deltares.nl).
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 
 
 - - -
-
-## Semantic Feature Matching
-
-![](img/tnosemantic.png){:width="500px"}
-
-For large parts of the world, the available 3D geoinformation is limited, outdated or inaccurate. To cost-effectively obtain an up to date and high-resolution 3D (urban) environment model, automated 3D reconstruction techniques need to be applied on raw elevation and imagery sensor data, in order to find which features (vegetation, buildings, etc.) are present in the terrain and the representation of the relevant feature properties (tree species, roof type). Semantic model based feature matching is a reconstruction approach where a priori knowledge on the environment is used to represent and constrain a search space of possible feature models that can be found in the terrain. 
-
-The key in this research is to devise semantic model representations and search algorithms that explore the search space and find instances of the semantic feature model that best match the available sensor data. The project will focus on encoding and using object relations (e.g. between a building and adjacent street) in semantic feature models to improve the correctness of the matches. The project is carried out in co-operation with [TNO in The Hague](https://www.tno.nl/nl/), where these techniques are applied in the field of gaming and simulation.
-
-*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-
-- - -
-
-## DTM Filtering for Photogrammetric DSM’s
-
-![](img/tnodtm.png){:width="500px"}
-
-Although laser point clouds have become a common data resource for world modelling, photogrammetrically derived digital surface models are still widely used as the basis for a terrain modelling work flow. With current high resolution camera systems, highly detailed Digital Surface Models (DSM) can be obtained. Digital Terrain Model (DTM) filtering is used to remove features from the DSM and obtain a ground level elevation model. Although DTM filtering is a very basic step in terrain modelling, it is still a challenging task. One of the difficulties is the filtering of forested areas in hilly terrain, but also rough terrain is often not a trivial case.
-
-This research will aim at finding improved filtering and interpolation techniques to resolve the difficulties in DTM filtering for photogrammetrically derived DSM’s. The project is carried out in co-operation with [TNO in The Hague](https://www.tno.nl/nl/), where these techniques are applied in the field of gaming and simulation.
-
-*Contact:* [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 ## Performance and robustness of software libraries for computational geometry
 
