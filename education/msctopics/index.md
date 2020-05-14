@@ -299,29 +299,23 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 - - -
 
-## Learning to synthesize detailed 3D building models
+## Instance segmentation of trees from point clouds
 
-<img src="img/synthesis.png" style="width: 400px;"/>
+![](img/tree_instances.png)
 
-LoD1 or LoD2 building models can be relatively easily generated from building footprints and point cloud data. However, such models lack meaningful geometric detailed façade structures (e.g., doors, windows, and balconies), making them unsuitable for real-world applications such as visualization and simulation. The goal of this MSc thesis is to develop an algorithm that can automatically synthesize semantically meaningful façade details onto the given coarse models. The resulted models will have a plausible style conforming to the images of real-world buildings.
+Amazing techniques (e.g., [AdTree](https://github.com/tudelft3d/adtree)) have been recently proposed to 
+reconstruct 3D models of real-world trees in great details. These methods assume that the tree instances 
+have been segmented from the massive point clouds. However, good quality segmentation of individual trees 
+is typically achieved by tedious manual work in practice. The automatic segmentation still remains an open problem. 
 
-**Required Skills**: 
-Proficient in one programming language, either C/C++ or Python; experiences in mesh processing; willing to follow courses on machine learning (in particular Deep Learning) before or at the beginning of the project.
-
-**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
-
-- - -
-
-## Outer surface extraction for complex 3D models
-
-<img src="img/repair_urban_models.png" style="width: 800px;"/>
-
-The number of 3D building models is explosively increasing. These models can be easily obtained by applying state-of-the-art modeling/reconstruction techniques, or by manual creation using various software packages. It is quite common to observe errors and imperfections in these models, such as gaps, holes, self-intersections, duplicated geometry (e.g., double walls), non-manifold (e.g., more than two polygons meeting at the same edge). Applications, such as simulation, digital fabrication (e.g., 3D printing), and model editing tools, can only accept clean surface models as input, which restricts the existing models to visualization purpose only. It becomes extremely difficult to eliminate these flaws when a certain combination of them are present. 
-
-In this project, we would like to develop robust algorithms and tools that can automatically resolve these commonly found issues in 3D models. We would expect the method to produce a closed surface representation of a building. With such a representation, a 3D building is partitioned into disjoint interior and exterior spaces without ambiguity.
+The aim of this thesis project is to develop a method to automatically and precisely locate and identify
+individual trees in the scan of a large urban area (the TU Delft campus, for instance), allowing for 
+unified processing of all the trees in the covered area. The result of the instance segmentation can be used in
+various applications, e.g., detailed 3D modeling and identification of tree species.
 
 **Required Skills**: 
-Proficient in one programming language (e.g., C/C++ or Python); experiences in mesh processing; machine learning (in particular Deep Learning) is a bonus.
+Proficient in one programming language (e.g., Python or C/C++); interested and willing to follow courses in machine 
+learning (in particular Deep Learning).
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
