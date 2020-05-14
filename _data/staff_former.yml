@@ -1,3 +1,15 @@
+- surname: Commandeur
+  name: Tom
+  title: Researcher
+  photo: tom.jpg
+  email: t.j.f.commandeur@tudelft.nl
+  period: 2016-2020
+  current: --
+  projects:
+    - name: noise3d
+      role: Researcher
+
+
 - surname: Diakité
   name: Abdoulaye
   title: Postdoc

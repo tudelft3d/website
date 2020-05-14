@@ -185,15 +185,6 @@ She works towards the **integration of multi-source spatial data**, in particula
   # description: "Topic: An interdisciplinary investigation on using spatial-temporal research in new testament exegesis"
   # pagetext: I am an bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam at eum ad veniam dolorem excepturi odit, in, voluptatibus, ut, autem ipsam. Pariatur vitae, consectetur! Consectetur, aut cum laboriosam nihil.
 
-- surname: Commandeur
-  name: Tom
-  title: Researcher
-  photo: tom.jpg
-  email: t.j.f.commandeur@tudelft.nl
-  projects:
-    - name: noise3d
-      role: Researcher
-
 - surname: Kavisha
   title: PhD candidate
   photo: kavisha.jpg
