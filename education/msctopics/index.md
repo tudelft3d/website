@@ -383,7 +383,7 @@ Potentially in collaboration with [Geonovum](https://www.geonovum.nl/).
 
 ---
 
-## Where do I turn? Investigate modeling of road networks in CityJSON, with implicit geometries
+## Where do I turn? Investigate modelling of road networks in CityJSON, with implicit geometries
 
 ![](img/ComplexInterchangesVisualisation.png){:width="700px"}
 
