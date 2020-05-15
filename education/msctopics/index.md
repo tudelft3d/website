@@ -436,3 +436,26 @@ While Python is theoretically possible (the problem is not speed, but managing t
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
 
+---
+
+## Infer the number of floors for all buildings in NL
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T2Y7oo3iB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The [Basisregistraties Adressen en Gebouwen (BAG)](https://www.kadaster.nl/bag) is the most detailed, openly available data set on buildings and addresses in the Netherlands. 
+It contains information about each address in a building, such as its current use, construction date or registration status. 
+The 2D polygons in the BAG represent the footprint of the building as the projection of the roof’s outline.
+
+What it lacks, and that is wanted by several practitioners, is the __number of floors__ in a given building.
+While this sounds easy (if *h* is the [height of the building](http://3dbag.bk.tudelft.nl/), then *#floors = math.floor(h/3)*, right?), in practice it is a lot more messy.
+
+The aim of this project is to dive into that topic and solve it once and for all.
+You could use the real shape of the roof (to be extracted from AHN3), year-of-construction, and other attributes that are available.
+Furthermore, several municipalities have collected the number of floors for buildings, and those datasets could be used as ground truth, or as training for machine learning.
+
+We would like to run this for the whole country and integrate this new attribute in our [3D BAG service](http://3dbag.bk.tudelft.nl/).
+
+Programming in Python is sufficient. 
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
+
