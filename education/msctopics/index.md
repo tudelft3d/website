@@ -154,6 +154,8 @@ As far I know, all the efforts have been made manually, by hiring several studen
 The aim of the project is to investigate how historical 3D models of cities can be *automatically* reconstructed.
 The idea is to use [2D topographic maps](https://www.topotijdreis.nl) and other sources (eg cadastre) and infer the height of buidings, [maybe with machine learning](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf).
 
+Potentially in collaboration with [Gemeente Rotterdam](https://www.stadsarchief.rotterdam.nl).
+
 **Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
@@ -375,6 +377,8 @@ I have built a quick [proof-of-concept and a proposal](https://github.com/hugole
 The aim would be to host most [publicly available 3D city models](https://3d.bk.tudelft.nl/opendata/opencities/) on such a server, and benchmark what would be the "optimal" solution.
 A bit ambitious, I know.
 
+Potentially in collaboration with [Geonovum](https://www.geonovum.nl/).
+
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
 
 ---
@@ -434,6 +438,8 @@ Ideally, at the end it would be nice to press "enter", and in one shoot a gigant
 
 While Python is theoretically possible (the problem is not speed, but managing the size of the dataset so that at one point only a fraction of it is in memory), it's better if C++ was used.
 
+Potentially in collaboration with the [RIVM](https://www.rivm.nl/).
+
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
 
 ---
@@ -455,7 +461,9 @@ Furthermore, several municipalities have collected the number of floors for buil
 
 We would like to run this for the whole country and integrate this new attribute in our [3D BAG service](http://3dbag.bk.tudelft.nl/).
 
-Programming in Python is sufficient. 
+Potentially in collaboration with [Deltares](https://www.deltares.nl/en/).
+
+Programming in Python and SQL is sufficient. 
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
 
