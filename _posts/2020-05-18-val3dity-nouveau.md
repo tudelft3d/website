@@ -14,7 +14,7 @@ v2.2 adds:
 
   1. support for [IndoorGML datasets](http://indoorgml.net/), not just the geometries but specific validation tests for the primal-dual consistency were added
   2. support for [GeometryTemplates in CityJSON](https://www.cityjson.org/specs/#geometry-templates)
-  3. a completely revamped JSON error report and a [report browwer](http://geovalidation.bk.tudelft.nl/val3dity/browser/)
+  3. a completely revamped JSON error report and a [report browser](http://geovalidation.bk.tudelft.nl/val3dity/browser/)
   4. code must now be compiled against CGAL5, easier to install and compile for everyone
   5. CityGML support is deprecated. This is the last version that will support CityGML, it will be removed it from v2.3+. Most errors/issues reported have to do with a faulty parser of CityGML, and not with val3dity itself. I (Hugo) cannot justify spending 100s of hours fixing the parser, I tried hard but this not possible anymore. If someone wants to do it then great I am willing to help them, but I will not invest time on this anymore. Just upgrade your files to CityJSON (https://www.cityjson.org/help/users/conversion/), I'll always maintain a full CityJSON parser!
 
