@@ -10,7 +10,7 @@ date: 2020-05-18 14:51
 [val3dity](https://github.com/tudelft3d/val3dity) v2.2 has been released!
 It allows us to verify whether a 3D primitive (solid, multi-surface, composite-solid, etc) respects the definition as given in [ISO 19107](http://www.iso.org/iso/catalogue_detail.htm?csnumber=26012).
 
-v2.2 adds:
+Main changes:
 
   1. support for [IndoorGML datasets](http://indoorgml.net/), not just the geometries but specific validation tests for the primal-dual consistency were added
   2. support for [GeometryTemplates in CityJSON](https://www.cityjson.org/specs/#geometry-templates)
