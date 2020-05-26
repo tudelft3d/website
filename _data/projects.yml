@@ -8,9 +8,9 @@
   
 - name: European network for Digital Building permission project
   description: International collaboration project to address the digitization of planning permits.
-  webpage: /projects/eunet_bp/
+  webpage: /projects/eunet4dbp/
 #  funding: EU MSC LEaDingFellows Postdocs Programme
-  image: eunet-bp.png
+  image: eunet4dbp.png
   start: 2020
 
 - name: Multisource Spatial data integration

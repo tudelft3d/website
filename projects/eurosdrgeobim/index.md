@@ -45,6 +45,14 @@ Noardo, F., Ellul, C., Harrie, L., Overland, I., Shariat, M., Arroyo Ohori, K., 
 
 Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (2019). [EuroSDR GeoBIM project: a study in Europe on how to use the potentials of BIM and geo data in practice](https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019). 3DGeoInfo2019 Conference, Singapore - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences IV-4(W8) 2019. https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019
 
+- - -
+
+## Project outcomes
+
+[**Integrated workflow using GeoBIM information for building permit process**.](/projects/eurosdrgeobim/WorkflowDescription.pdf) Workflow proposed for using GeoBIM information for the “Building permits issuing” use case, as resulting from the EuroSDR GeoBIM project. Some studies were used as base for the development of this workflow (Noardo et al., 2019; Noardo et al., 2019a - *Please, cite also one of them when referring to this*) together with the working sessions with the participation of all the partners during the project meetings. Moreover, it was reviewed later within Municipalities (e.g. Rotterdam, Den Haag, Amsterdam, some municipalities in Sweden).
+
+[Presentation explaining the workflow and the use of GeoBIM for Planning/Building Permits](/projects/eurosdrgeobim/GeoBIMBuildingPermits.pptx) by L. Harrie, C. Ellul, EuroSDR Eduserve course, [GeoBIM - Basic Principles and Use Cases](http://www.eurosdr.net/sites/default/files/images/inline/eduserv2020_geobim.pdf)
+
  - - -
 
 ## Project meetings
@@ -89,10 +97,15 @@ Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (201
 
 ## Presentations
 
-<!--
+
+
 ### Presentation at the [GEOBIM conference](https://geo-bim.org/europe/index.html) 11-12 November 2019 in Amsterdam
 
-...-->
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<script async class="speakerdeck-embed" data-id="1971c440aba64d60816c45ff702afdb2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+  </div>
+</div>
 
 ### Presentation at the [3D Geoinfo 2019 conference](https://www.3dgeoinfo2019.com) 23rd-27th September 2019, Singapore
 
@@ -184,6 +197,7 @@ Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (201
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/smartdi-ams/" title="Smart data integration for urban applications"><img src=" /img/projects/sdi-ams.jpg" alt="Smart data integration for urban applications" style="max-height: 200px;"></a></div>
 
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/eunet4dbp/" title="European network for Digital Building Permit (EUnet4DBP)"><img src=" /img/projects/eunet4dbp.png" alt="Smart data integration for urban applications" style="max-height: 200px;"></a></div>
 </div>
 
 - - -
