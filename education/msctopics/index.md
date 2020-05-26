@@ -14,7 +14,7 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
-## Modelling wind flows around beach housing to promote dune formation for flood protection.
+## Modelling wind flows around beach housing to promote dune formation for flood protection
 
 ‘Building with Nature’ is an innovative approach in coastal engineering & design, where natural forces are employed to improve flood protection. Along sandy shores, like the Netherlands, the dunes are the first line of defense; and they need sediment transport by the wind to grow along with sea level rise. However, more and more beaches are urbanized, affecting the sediment flow to the dunes. Computational fluid dynamic (CFD) simulations can give a better insight in the wind and turbulence around built objects, specifically to predict what urban configurations promote wind-driven sediment flow to the dunes. 
 
