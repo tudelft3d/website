@@ -14,6 +14,18 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## Modelling wind flows around beach housing to promote dune formation for flood protection.
+
+‘Building with Nature’ is an innovative approach in coastal engineering & design, where natural forces are employed to improve flood protection. Along sandy shores, like the Netherlands, the dunes are the first line of defense; and they need sediment transport by the wind to grow along with sea level rise. However, more and more beaches are urbanized, affecting the sediment flow to the dunes. Computational fluid dynamic (CFD) simulations can give a better insight in the wind and turbulence around built objects, specifically to predict what urban configurations promote wind-driven sediment flow to the dunes. 
+
+In this MSc thesis we will simulate wind patterns around beach housing via CFD modelling to investigate what type of urban configurations perform best to contribute to the sediment flow to the dunes. The study goal is twofold: 1) we will analyze the effect of several types of urban beach configurations in perpendicular and parallel wind conditions; 2) we will evaluate their performance and create a feedback loop with the design parameters to explore potential improvements. Results will contribute to a preliminary set of urban layouts that will be tested by scaled models on the beach in spring 2021. The thesis will be part of the ShoreScape research project (TU Delft & University of Twente 2017-2022, funded by NWO)  
+
+![Image 1: example of CFD modelling of beach house on poles (Van Onselen, 2018); Image 2: Field experiment with scale models of beach houses on the beach of The Hague (Van Bergen, 2019)](DunesPlot.png){:width="400px"}
+
+**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Janneke van Bergen] (J.vanBergen@tudelft.nl).
+
+- - -
+
 ## Web application for Urban Computational Fluid Dynamics Simulations Set-Up validation.
 
 Performing computational fluid dynamics (CFD) simulations in urban environments entails many pre-run set-up features that can have a drastic impact in the simulations performance. For example, the extension of the domain should be large enough to limit blockage around the buildings, or the mesh resolution should be refined enough to ensure the flow results grid independence. Many of these pre-run processes can be partially automatic, and tools that quickly check if the simulation set-up respects the CFD guidelines can be developed.
