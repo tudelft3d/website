@@ -20,7 +20,7 @@ permalink: /education/msctopics/
 
 In this MSc thesis we will simulate wind patterns around beach housing via CFD modelling to investigate what type of urban configurations perform best to contribute to the sediment flow to the dunes. The study goal is twofold: 1) we will analyze the effect of several types of urban beach configurations in perpendicular and parallel wind conditions; 2) we will evaluate their performance and create a feedback loop with the design parameters to explore potential improvements. Results will contribute to a preliminary set of urban layouts that will be tested by scaled models on the beach in spring 2021. The thesis will be part of the ShoreScape research project (TU Delft & University of Twente 2017-2022, funded by NWO)  
 
-![Image 1: example of CFD modelling of beach house on poles (Van Onselen, 2018); Image 2: Field experiment with scale models of beach houses on the beach of The Hague (Van Bergen, 2019)](DunesPlot.png){:width="400px"}
+![](DunesPlot.png){:width="400px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Janneke van Bergen] (J.vanBergen@tudelft.nl).
 
