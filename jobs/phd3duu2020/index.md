@@ -4,6 +4,16 @@ title:  PhD position vacancy
 permalink: /jobs/phd3duu2020/
 ---
 
+<!--
+<div class="alert alert-danger" role="alert">2020-07-11: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+-->
+
+
+<figure class="image">
+  <img src="img/ai_urban.jpg" width="600" alt="Image by [S. Kanti](https://www.analyticsinsight.net/author/kanti/)">
+</figure>
+
+- - - 
 
 
 ## 3D understanding and modeling based on AI
