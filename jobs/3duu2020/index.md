@@ -27,7 +27,7 @@ Each position has roles in both research and education:
 2) **Education**. An important aim of the DAI-Labs is to increase the capacity and quality of AI education at TU Delft. The PhDs will be offered an extra year (in contrast with the normal 4-year PhD program at TU Delft) to contribute to the education of AI (e.g., helping to teach and prepare new courses). 
 
 
-The PhD will take place in the [3D Geoinformation Research Group](https://3d.bk.tudelft.nl) at TU Delft under the supervision of assistant professor [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/) and associate professor [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux). 
+The two PhD positions will take place in the [3D Geoinformation Research Group](https://3d.bk.tudelft.nl) at TU Delft under the supervision of assistant professor [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/), and associate professor [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) or professor [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/). 
 
 
 ## Job requirements
