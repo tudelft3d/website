@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  PhD position vacancy
-permalink: /jobs/phd3duu2020/
+permalink: /jobs/3duu2020/
 ---
 
 <!--
