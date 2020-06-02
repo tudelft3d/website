@@ -4,7 +4,7 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
-[PhD: 3D understanding and modeling based on AI](phd3duu2020/) <span class="label label-danger"> (open until July 10, 2020) </span>
+[PhD: 3D understanding and modeling based on AI](3duu2020/) <span class="label label-danger"> (open until July 10, 2020) </span>
 
 - - -
 
