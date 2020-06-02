@@ -10,7 +10,7 @@ permalink: /jobs/3duu2020/
 
 
 <figure class="image">
-  <img src="img/ai_urban.jpg" width="600" alt="Image by [S. Kanti](https://www.analyticsinsight.net/author/kanti/)">
+  <img src="img/ai_urban.jpg" width="600" alt="Image by [S. Kanti](https://www.analyticsinsight.net/author/kanti/)" title="Image by [S. Kanti](https://www.analyticsinsight.net/author/kanti/)">
 </figure>
 
 - - - 
