@@ -21,6 +21,7 @@ permalink: /projects/eunet4dbp/
   
 </div>
 
+Network of researchers and stakeholders aiming at the definition of a common strategy for the digitization of the building permit issuing process.
 
 
 <div class="well"><b>Recent news</b><br/><br/>
