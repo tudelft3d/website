@@ -53,6 +53,10 @@ Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (201
 
 [Presentation explaining the workflow and the use of GeoBIM for Planning/Building Permits](/projects/eurosdrgeobim/GeoBIMBuildingPermits.pptx) by L. Harrie, C. Ellul, EuroSDR Eduserve course, [GeoBIM - Basic Principles and Use Cases](http://www.eurosdr.net/sites/default/files/images/inline/eduserv2020_geobim.pdf)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s8dIodS5YtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3vtJMomuNzk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  - - -
 
 ## Project meetings
