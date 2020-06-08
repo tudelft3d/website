@@ -84,12 +84,14 @@ And browse the website to know all the details.
 Download the [call for participation](https://www.dropbox.com/s/2f6q7ckla9wm9e6/callGeoBIMbenchmark.pdf?dl=0)
 -->
 
-#### To be up-to-date about the European Network for Digital Building Permission activities:
+#### [Subscribe to the newsletter](https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermits) to be up-to-date about the European Network for Digital Building Permission activities:
 
 
 <!-- Begin Signup Form -->
 
- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermission" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermission', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Subscribe to the newsletter by entering your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+        
+        
          
 
 <!--End mc_embed_signup-->
