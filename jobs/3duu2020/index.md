@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  PhD position vacancy
+title:  Two PhD vacancies
 permalink: /jobs/3duu2020/
 ---
 
