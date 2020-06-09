@@ -68,7 +68,7 @@ To apply, please prepare
 
 - a detailed CV including a list of publications. Please highlight examples of projects and achievements that demonstrate your relevant competencies;
 - a 1-page motivation letter addressing your interests and describing how your experience and plans fit with the advertised position;
-- name of two references, with contact information;
+- name of two references, with contact information (recommendation letters not required);
 - MSc thesis or any publications you have authored (a URL to a PDF is fine);
 - proof of experiences (e.g., transcript of records) in subjects such as computer vision, machine/deep learning, linear algebra, calculus, and numerical/convex/discrete optimization.
 
