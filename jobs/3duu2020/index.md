@@ -48,7 +48,7 @@ The host research group, i.e., [3D Geoinformation Research Group](https://3d.bk.
 
 ## Doing a PhD at TU Delft
 
-TU Delft offers [DAI-Lab](https://www.tudelft.nl/en/ai/research/ai-labs-talent-recruitment/) PhD candidates a 5-year contract (as opposed to the normal 4-years), with an official go/no go progress assessment after one year. Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from € 2325 per month in the first year to € 3123 in the fifth year. As a PhD candidate, you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff, and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related research skills. The TU Delft offers a customizable compensation package, discounts on health insurance and sport memberships, and a monthly work cost contribution. For international applicants, we offer the Coming to Delft Service and Partner Career Advice to assist you with your relocation.     
+TU Delft offers [DAI-Lab](https://www.tudelft.nl/en/ai/research/ai-labs-talent-recruitment/) PhD candidates a 5-year contract (as opposed to the normal 4-years), with an official go/no go progress assessment after one year. Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from € 2325 per month in the first year to € 3217 in the fifth year. As a PhD candidate, you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff, and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related research skills. The TU Delft offers a customizable compensation package, discounts on health insurance and sport memberships, and a monthly work cost contribution. For international applicants, we offer the Coming to Delft Service and Partner Career Advice to assist you with your relocation.     
 
 More information about doing a PhD at TU Delft and in the Netherlands can be found [here](http://www.graduateschool.tudelft.nl) and [there](http://www.studyinholland.nl/education-system/degrees/phd).
 
@@ -72,9 +72,9 @@ To apply, please prepare
 - MSc thesis or any publications you have authored (a URL to a PDF is fine);
 - proof of experiences (e.g., transcript of records) in subjects such as computer vision, machine/deep learning, linear algebra, calculus, and numerical/convex/discrete optimization.
 
-All documents should be in PDF format and are archived into a single ZIP file named: *lastname\_firstname\_3DUU.zip*.
+All documents should be in PDF format and are archived into a single ZIP file named: *LastName\_FirstName\_TUD00240.zip*.
 
 
-Please email your application material to both *Jeannine Wellink* (HR Advisor) (<hr-bk@tudelft.nl>) and *Liangliang Nan* (<liangliang.nan@tudelft.nl>) and refer to vacancy number __BK2020-3DUU__ in your email title.
+Please email your application material to both *Jeannine Wellink* (HR Advisor) (<hr-bk@tudelft.nl>) and *Liangliang Nan* (<liangliang.nan@tudelft.nl>) and refer to vacancy number __TUD00240__ in your email title.
 
 For more information about this position, please contact directly Dr. [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/) (<mailto:liangliang.nan@tudelft.nl>).
