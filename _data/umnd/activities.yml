@@ -1,3 +1,6 @@
+- research_line: [1]
+  description: "Published paper: \"Flood damage cost estimation in 3D based on an indicator modelling framework\""
+  date: 2020-06-16
 - research_line: [1, 2, 3]
   description: "Article published in the <a href=\"https://www.gim-international.com/magazine/business-guide-2020\">GIM International Magazine: Business Guide 2020</a>."
   date: 2020-03-18
