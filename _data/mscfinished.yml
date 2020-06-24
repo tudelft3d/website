@@ -1,4 +1,12 @@
 
+- surname: Lánský
+  name:  Imke
+  title: Height inference for all USA building footprints in the absence of height data
+  image: lansky.png
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:ddcae7d1-6cc8-42a7-8c1d-a922ec7551f0
+  github: https://github.com/ImkeLansky/USA-BuildingHeightInference
+
 - surname: de Groot  
   name: Rob
   title: Automatic construction of 3D tree models in multiple levels of detail from airborne LiDAR data
