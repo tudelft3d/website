@@ -236,6 +236,31 @@ In collaboration with Municipality of Rotterdam.
 
 - - -
 
+
+## Quality control and fusion of point cloud datasets in the Netherlands
+
+![](img/ahn3vsDIM.gif){:width="800px"}
+
+There are several point cloud datasets available in the Netherlands. Apart from the well known AHN, the Dutch Kadaster maintains a national one derived from aerial imagery, and also some municipalities maintain their own point cloud (for example Rotterdam) as well as some commercial companies. These point clouds have different qualities, eg due to different acquisition techniques. And they have different acquisition dates and different update intervals. Typically the points clouds with higher quality are less often updated. 
+
+For many applications it makes sense to use a combination of several point clouds: the highest quality point cloud where it is not outdated and the lower quality point cloud where there have been changes. The two point cloud applications that could be looked at are 1) reconstructed buildings and 2) terrain model (TIN).
+
+The aims of this project would be to
+
+* gain insight in the faults that occur in the different point clouds. Both consider general characteristics (eg. point density, noise, shadow, occlusion, vegetation penetration), but also some dataset specific problems. For instance in the image above we observe a part of the roof of a house that is several meters higher than it should be. Were does that error come from?
+
+* Research what are the implications of combining different point clouds to get eg. a building/terrain dataset that is both as detailed as possible and as up-to-date as possible. It is possible to also involve other datasets like the BAG that have information on when buildings are modified. 
+
+and possibly:
+
+* How to prevent issues like the one in the image above? This  might involve looking into dense image matching techniques.
+
+The project would likely require doing change detection for between the various point clouds for large areas on our linux server. 
+
+**Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
+
+- - -
+
 ## Improving the automatic LoD2 building reconstruction from AHN3
 
 ![](img/lod2-add-spheres.jpg){:width="800px"}
