@@ -1,0 +1,44 @@
+
+
+/******************************************************************************************
+* ReadStepFile diagnostics.
+* Date:                           Mon May 27 16:20:35 2019
+* Produced by:                    The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013
+* Module:                         EDMstepFileFactory/EDMstandAlone
+* Host:                           QUERALBS
+* Database:                       C:\Users\ADMINL~1\AppData\Local\Temp\cfc33c42-7d8b-4321-b97d-0f04b8124c98\13d26f62-5f24-4306-91e0-b369de0c6b74\ifc
+* Database version:               5507
+* Database creation date:         Mon May 27 16:20:34 2019
+* Model to populate:              DataRepository.ifcimport
+* Header model to populate:       
+* Step file name:                 Myran.ifc
+* EDMuser:                        sdai-user
+* EDMgroup:                       sdai-group
+* License ID and type:            5605 : Permanent license. Expiry date: 
+* EDMstepFileFactory options:     010201000002
+******************************************************************************************/
+
+/* 337388 */ #588608= IFCCARTESIANPOINT((0
+-----------------------------------------^
+*** Recoverable Error: Inconsistency: REAL expected - INTEGER found. *** on line 337388.
+                                          ,0
+-------------------------------------------^
+*** Recoverable Error: Inconsistency: REAL expected - INTEGER found. *** on line 337388.
+                                            ,0
+---------------------------------------------^
+*** Recoverable Error: Inconsistency: REAL expected - INTEGER found. *** on line 337388.
+                                              
+
+------------------------------------------------------------------------------------------------
+ Operation terminated with error: Error/warning during STEP File read operation.
+
+
+Fatal errors...........: 0
+Recoverable errors.....: 3
+Warnings...............: 0
+Info...................: 0
+total..................: 3
+Lines..................: 522718
+
+------------------------------------------------------------------------------------------------
+

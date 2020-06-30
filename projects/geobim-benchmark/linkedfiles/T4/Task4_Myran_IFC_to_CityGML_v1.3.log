@@ -1,0 +1,1183 @@
+2019-11-26 00:18:56|   0.7|  0.7|INFORM|FME 2019.2.0.0 (20191105 - Build 19801 - WIN64)
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME_HOME is 'C:\Apps\FME2019.2\'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Database Edition (node locked-crc)
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Serial Number: 0
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Permanent License.
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Machine host name is: kenobi
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|START - ProcessID: 112044, peak process memory usage: 31452 kB, current process memory usage: 31352 kB
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Apps\FME2019.2\fme.exe' `C:/Users/dhintz/Dropbox (Safe Software Inc.)/DeanSafe/Projects/_StrategicProjects/GeoBIM/Task4_Conversion/FMEworkspaces\wb-xlate-1574756333843_69644' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{18baa44c-f906-4142-8c8a-49cc5a357c3d}' `LOG_TIMINGS' `Yes'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\dhintz\AppData\Roaming\Safe Software\FME\'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for formats are : C:\Apps\FME2019.2\datasources;C:\Users\dhintz\AppData\Roaming\Safe Software\FME\FME Store\Formats;C:\Users\dhintz\Documents\FME\Formats
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for transformers are : C:\Users\dhintz\AppData\Roaming\Safe Software\FME\Packages\19801-win64\transformers;C:\Apps\FME2019.2\transformers;C:\Users\dhintz\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\dhintz\Documents\FME\CoordinateSystems
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\dhintz\Documents\FME\CoordinateSystemExceptions
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\dhintz\Documents\FME\CoordinateSystemGridOverrides
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\dhintz\Documents\FME\CsmapTransformationExceptions
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\dhintz\Documents\FME\TransformerCategories
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|Mapping File Identifier is: Myran_IFC_to_CityGML
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task4_Conversion\FMEworkspaces'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\dhintz\AppData\Local\Temp', set from environment variable `TEMP'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Apps\FME2019.2\'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task4_Conversion\FMEworkspaces/'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Task4_Myran_IFC_to_CityGML_v1.3.fmw'
+2019-11-26 00:18:56|   0.7|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.2.0.0'
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|System Status: 364.92 GB of disk space available in the FME temporary folder (C:\Users\dhintz\AppData\Local\Temp)
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 18362)
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|FME Platform: WIN64
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Locale: en_US
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|FME Configuration: Process limit is 15.88 GB of physical memory
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 47.63 GB of virtual memory
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 35.72 GB of virtual memory
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Creating writer for format: 
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Creating reader for format: 
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding IFC Reader with keyword IFC_1
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding IFC Reader with keyword IFC_2
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Creating reader for format: Industry Foundation Class STEP/XML Files (IFC)
+2019-11-26 00:18:56|   0.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `IFC'
+2019-11-26 00:18:56|   0.9|  0.0|INFORM|Loaded module 'IFC' from file 'C:\Apps\FME2019.2\plugins/ifc/ifc.dll'
+2019-11-26 00:18:57|   1.3|  0.4|INFORM|FME API version of module 'IFC' matches current internal version (3.8 20190820)
+2019-11-26 00:18:57|   1.3|  0.0|INFORM|Detected IFC version IFC 2x3.
+2019-11-26 00:18:57|   1.3|  0.0|INFORM|IfcSpace instances will have no geometry.
+2019-11-26 00:18:58|   2.8|  1.6|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2019-11-26 00:18:58|   2.8|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Apps\FME2019.2\plugins/LogCount_func.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'TextEncoderFactory' from file 'C:\Apps\FME2019.2\plugins/TextEncoderFactory.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'GQueryFactory' from file 'C:\Apps\FME2019.2\plugins/GQueryFactory.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'GeometryBuilderFactory' from file 'C:\Apps\FME2019.2\plugins/GeometryBuilderFactory.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Apps\FME2019.2\plugins/Geometry_func.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'StringReplacerFactory' from file 'C:\Apps\FME2019.2\plugins/StringReplacerFactory.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|Loaded module 'AttributeFilterFactory' from file 'C:\Apps\FME2019.2\plugins/AttributeFilterFactory.dll'
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'AttributeFilterFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   2.9|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:58|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|... Last line repeated 2 times ...
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.0|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|... Last line repeated 4 times ...
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|Loaded module 'TransformPointCloud_func' from file 'C:\Apps\FME2019.2\plugins/TransformPointCloud_func.dll'
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'TransformPointCloud_func' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Apps\FME2019.2\plugins/InspectorFactory.dll'
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20190820)
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|IFC: Plane angle unit determined to be degrees.
+2019-11-26 00:18:59|   3.1|  0.0|INFORM|IFC: Length unit determined to be 'MILLIMETER'. One 'MILLIMETER' is 0.001 meters
+2019-11-26 00:18:59|   3.4|  0.3|WARN  |IfcRepresentation instances with Representation Identifier 'FootPrint' are being skipped
+2019-11-26 00:18:59|   3.4|  0.0|WARN  |IfcRepresentation instances with Representation Identifier 'Axis' are being skipped
+2019-11-26 00:19:00|   4.6|  1.2|INFORM|IFC: 2092 objects read
+2019-11-26 00:19:00|   4.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader IFC_1[IFC] set to `IFC_COORDSYS_0' as read from input data
+2019-11-26 00:19:00|   4.6|  0.0|INFORM|Coordinate System `IFC_COORDSYS_0' parameters: CS_NAME=`IFC_COORDSYS_0' DT_NAME=`WGS84' ORG_LAT=`59.33199999972223' ORG_LNG=`18.06499999972222' PROJ=`AZMED' QUAD=`1' UNIT=`MILLIMETER' X_OFF=`0.0' Y_OFF=`0.0'
+2019-11-26 00:19:01|   5.1|  0.5|INFORM|Reading source feature # 2500
+2019-11-26 00:19:01|   5.2|  0.1|INFORM|Creating reader for format: Industry Foundation Class STEP/XML Files (IFC)
+2019-11-26 00:19:01|   5.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `IFC'
+2019-11-26 00:19:01|   5.2|  0.0|INFORM|FME API version of module 'IFC' matches current internal version (3.8 20190820)
+2019-11-26 00:19:01|   5.2|  0.0|INFORM|Detected IFC version IFC 2x3.
+2019-11-26 00:19:01|   5.2|  0.0|INFORM|IFC: CSG solid geometries will be evaluated in the reader
+2019-11-26 00:19:02|   7.0|  1.7|INFORM|IFC: Plane angle unit determined to be degrees.
+2019-11-26 00:19:02|   7.0|  0.0|INFORM|IFC: Length unit determined to be 'MILLIMETER'. One 'MILLIMETER' is 0.001 meters
+2019-11-26 00:19:02|   7.0|  0.0|INFORM|Predefined coordinate system `IFC_COORDSYS_0' () matches dataset coordinate system 
+2019-11-26 00:19:04|   8.1|  1.1|WARN  |Error encountered while copying traits to generated solids. Some solid components may be missing traits, appearances, measures or attributes
+2019-11-26 00:19:10|  14.7|  6.6|WARN  |... Last line repeated 4 times ...
+2019-11-26 00:19:10|  14.7|  0.0|WARN  |Logging limit reached for the preceding message. Further instances of this message will not be logged
+2019-11-26 00:19:25|  29.8| 15.1|INFORM|IFC: 2092 objects read
+2019-11-26 00:19:25|  29.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader IFC_2[IFC] set to `IFC_COORDSYS_0' as read from input data
+2019-11-26 00:19:25|  29.8|  0.0|INFORM|Coordinate System `IFC_COORDSYS_0' parameters: CS_NAME=`IFC_COORDSYS_0' DT_NAME=`WGS84' ORG_LAT=`59.33199999972223' ORG_LNG=`18.06499999972222' PROJ=`AZMED' QUAD=`1' UNIT=`MILLIMETER' X_OFF=`0.0' Y_OFF=`0.0'
+2019-11-26 00:19:25|  29.8|  0.0|WARN  |Geometry instance was modified, the geometry definition will be instantiated
+2019-11-26 00:19:28|  32.5|  2.7|WARN  |ConvertGeometry_6_GeometryPartExtractor_3_GQuery_Extract (GQueryFactory): The Geometry Part XQuery matched no parts; no action will be performed. Further warnings will be suppressed
+2019-11-26 00:19:52|  56.7| 24.3|INFORM|Reading source feature # 5000
+2019-11-26 00:19:53|  58.0|  1.3|INFORM|FME Configuration: Using FME Reprojection Engine
+2019-11-26 00:19:53|  58.3|  0.3|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'IFC_COORDSYS_0' -> 'EPSG:3013', and is not guaranteed to remain the same in future releases of FME
+2019-11-26 00:19:53|  58.3|  0.0|INFORM|Reprojector: Using transformation `SWEREF99_to_WGS84,Inverse(Geocentric,EPSG:1879)' when reprojecting from IFC_COORDSYS_0 to EPSG:3013
+2019-11-26 00:19:53|  58.4|  0.2|INFORM|Creating writer for format: CityGML
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CITYGML'
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|Loaded module 'CITYGML' from file 'C:\Apps\FME2019.2\plugins/CITYGML.dll'
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20190820)
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|FME Configuration: Destination coordinate system set to `EPSG:3013'
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|Coordinate System `EPSG:3013' parameters: CS_NAME=`SWEREF-99-15-45' DESC_NM=`SWEREF 99 15 45' DT_NAME=`SWEREF99' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`65.56666666666666' MAX_LNG=`17.416666666666668' MIN_LAT=`60.03333333333333' MIN_LNG=`13.216666666666667' PARM1=`15.75' PROJ=`TM' QUAD=`1' SCL_RED=`1' SOURCE=`National Land Survey of Sweden' UNIT=`METER' X_OFF=`150000'
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20190820)
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|Writer `CITYGML_1' of type `CITYGML' using group definition keyword `CITYGML_1_DEF'
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20190820)
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|URI 'CityGML.xsd' mapped to 'file:///C:/Apps/FME2019.2/xml/schemas/CityGML/CityGML/2.0/CityGML.xsd'
+2019-11-26 00:19:53|  58.5|  0.0|INFORM|Parsing schema document 'file:///C:/Apps/FME2019.2/xml/schemas/CityGML/CityGML/2.0/CityGML.xsd' ...
+2019-11-26 00:19:53|  58.6|  0.0|INFORM|A <schemaLocation> in the uri-map is overriding the namespace 'http://www.w3.org/1999/xlink' xsd location from '../xlink/xlinks.xsd' to 'xlink.xsd'
+2019-11-26 00:19:54|  58.7|  0.1|INFORM|Using XSD semantics configuration file 'file:///C:/Apps/FME2019.2/xml/CityGML/CityGML_config.xml'.
+2019-11-26 00:19:54|  59.4|  0.7|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2019-11-26 00:19:54|  59.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2019-11-26 00:19:54|  59.4|  0.0|INFORM|Loaded module 'XML' from file 'C:\Apps\FME2019.2\plugins/XML.dll'
+2019-11-26 00:19:54|  59.4|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20190820)
+2019-11-26 00:19:54|  59.4|  0.0|INFORM|Opening the XML reader with source dataset 'C:\Users\dhintz\AppData\Local\Temp\FME_1574756394603_112044.xfmap'
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|The XML Reader is using xfMap 'C:\Apps\FME2019.2\xml\CityGML\CityGML_meta_schema_xfmap.xml'
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2019-11-26 00:19:54|  59.5|  0.0|INFORM|Parsing XML document 'C:\Users\dhintz\AppData\Local\Temp\FME_1574756394603_112044.xfmap'
+2019-11-26 00:19:55|  59.9|  0.4|INFORM|MULTI_READER(MULTI_READER): Done reading 5194 features from 2 readers
+2019-11-26 00:19:55|  59.9|  0.0|INFORM|Emptying factory pipeline
+2019-11-26 00:19:55|  59.9|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 5194 input feature(s), wrote 5194 output feature(s): 5194 matched merge filters, 4462 were routed to output, 732 could not be routed.
+2019-11-26 00:19:55|  59.9|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 732 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBeam (IFC_2) Splitter (TeeFactory): Cloned 71 input feature(s) into 71 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBeam_IFC_2 Feature Counter -1 232 (TeeFactory): Cloned 71 input feature(s) into 71 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBuilding (IFC_2) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBuilding_IFC_2 Feature Counter -1 77 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBuildingElementProxy (IFC_2) Splitter (TeeFactory): Cloned 984 input feature(s) into 984 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBuildingElementProxy_IFC_2 Feature Counter -1 148 (TeeFactory): Cloned 984 input feature(s) into 984 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcBuildingStorey (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcColumn (IFC_2) Splitter (TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcColumn_IFC_2 Feature Counter -1 258 (TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcCovering (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcCurtainWall (IFC_2) Splitter (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcCurtainWall_IFC_2 Feature Counter -1 350 (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcDoor (IFC_2) Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcDoor_IFC_2 Feature Counter -1 173 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcFlowSegment (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcFlowTerminal (IFC_2) Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcFlowTerminal_IFC_2 Feature Counter -1 124 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcFurnishingElement (IFC_2) Splitter (TeeFactory): Cloned 37 input feature(s) into 37 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcFurnishingElement_IFC_2 Feature Counter -1 149 (TeeFactory): Cloned 37 input feature(s) into 37 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcMember (IFC_2) Splitter (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcMember_IFC_2 Feature Counter -1 263 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcOpeningElement (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  59.9|  0.0|STATS |IfcPlate (IFC_2) Splitter (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcPlate_IFC_2 Feature Counter -1 96 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcProject (IFC_2) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcProject_IFC_2 Feature Counter -1 460 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcRailing (IFC_2) Splitter (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcRailing_IFC_2 Feature Counter -1 260 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcRoof (IFC_2) Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcRoof_IFC_2 Feature Counter -1 299 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcSite (IFC_2) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcSite_IFC_2 Feature Counter -1 373 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcSlab (IFC_2) Splitter (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcSlab_IFC_2 Feature Counter -1 335 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcStair (IFC_2) Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcStair_IFC_2 Feature Counter -1 293 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcStairFlight (IFC_2) Splitter (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcStairFlight_IFC_2 Feature Counter -1 261 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcWall (IFC_2) Splitter (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcWall_IFC_2 Feature Counter -1 285 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcWallStandardCase (IFC_2) Splitter (TeeFactory): Cloned 186 input feature(s) into 186 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcWallStandardCase_IFC_2 Feature Counter -1 273 (TeeFactory): Cloned 186 input feature(s) into 186 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcWindow (IFC_2) Splitter (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcWindow_IFC_2 Feature Counter -1 97 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcTypeObject (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |QuantitySetDefinition (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |PropertySetDefinition (IFC_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcBeam (IFC_1) Splitter (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |IfcBeam_IFC_1 Feature Counter -1 36 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |BinaryEncoder_OUTPUT Feature Counter -1 69 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |BinaryEncoder_2_OUTPUT Feature Counter -1 71 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |AttributeExposer (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |AttributeExposer_OUTPUT Feature Counter -1 72 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |VariableSetter (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |VariableSetter_OUTPUT Feature Counter -1 67 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |VariableSetter_2 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |VariableSetter_2 OUTPUT Transformer Output Nuker (TeeFactory): Cloned 2597 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4 Input Input Collector (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Input1574756335 Input Splitter (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Input Feature Counter 1 16 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 277 input feature(s) into 277 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 478 input feature(s) into 478 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Orientor (TeeFactory): Cloned 478 input feature(s) into 478 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Orientor_Rejector (TestFactory): Tested 478 input feature(s) -- 0 feature(s) passed and 478 feature(s) failed
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 478 input feature(s) into 478 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 478 input feature(s) into 478 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Deaggregator (DeaggregateFactory): Split 478 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 478 aggregate(s)
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Deaggregator (DeaggregateFactory): 478 non-aggregate input features were routed through the factory
+2019-11-26 00:19:55|  60.0|  0.0|STATS |ConvertGeometry_4_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 478 input feature(s) into 478 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.1|STATS |ConvertGeometry_4_Aggregator (AggregateFactory): Combined 0 input feature(s) into 38 output feature(s), including 0 singleton(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |ConvertGeometry_4_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |ConvertGeometry_4_GeometryRefiner_3 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |ConvertGeometry_4_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |ConvertGeometry_4_Output1574756335 Output Collector (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |ConvertGeometry_4 Output Output Renamer/Nuker (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |ConvertGeometry_4_Output Feature Counter -1 87 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |AttributeRenamer_2_OUTPUT Feature Counter -1 89 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2 Input Input Collector (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_Input1574756335 Input Splitter (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_Input Feature Counter 0 7 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_AttributeExposer_2 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_VariableRetriever_5 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_AttributeExposer_12 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_Output1574756335 Output Collector (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2 Output Output Renamer/Nuker (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |GetGrandParentID_2_Output Feature Counter -1 410 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8 Input Input Collector (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8_Input1574756335 Input Splitter (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8_Input Feature Counter 3 12 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8_AttributeExposer (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.1|  0.0|STATS |CityGMLattributeRefiner_8_AttributeRemover_5 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |CityGMLattributeRefiner_8_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |CityGMLattributeRefiner_8_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |CityGMLattributeRefiner_8_Output1574756335 Output Collector (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |CityGMLattributeRefiner_8 Output Output Renamer/Nuker (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |CityGMLattributeRefiner_8_Output Feature Counter -1 428 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry Input Input Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Input1574756335 Input Splitter (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Input Feature Counter 1 16 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 204 input feature(s) into 204 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 204 input feature(s) into 204 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Orientor (TeeFactory): Cloned 204 input feature(s) into 204 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Orientor_Rejector (TestFactory): Tested 204 input feature(s) -- 0 feature(s) passed and 204 feature(s) failed
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 204 input feature(s) into 204 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 204 input feature(s) into 204 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Deaggregator (DeaggregateFactory): Split 204 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 210 aggregate(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Deaggregator (DeaggregateFactory): 198 non-aggregate input features were routed through the factory
+2019-11-26 00:19:55|  60.2|  0.0|STATS |ConvertGeometry_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 210 input feature(s) into 210 output feature(s)
+2019-11-26 00:19:55|  60.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-gMmQCB\inspector.ffs'
+2019-11-26 00:19:55|  60.5|  0.3|STATS |ConvertGeometry_Aggregator (AggregateFactory): Combined 0 input feature(s) into 199 output feature(s), including 0 singleton(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_GeometryRefiner_3 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_Output1574756335 Output Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry Output Output Renamer/Nuker (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_Output Feature Counter -1 281 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9 Input Input Collector (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Input1574756335 Input Splitter (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Input Feature Counter 1 16 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Orientor (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Orientor_Rejector (TestFactory): Tested 38 input feature(s) -- 0 feature(s) passed and 38 feature(s) failed
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Deaggregator (DeaggregateFactory): Split 38 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 38 aggregate(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Deaggregator (DeaggregateFactory): 38 non-aggregate input features were routed through the factory
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Aggregator (AggregateFactory): Combined 0 input feature(s) into 4 output feature(s), including 0 singleton(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_GeometryRefiner_3 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Output1574756335 Output Collector (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9 Output Output Renamer/Nuker (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |ConvertGeometry_9_Output Feature Counter -1 242 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |GeometryPartExtractor_3_EXTRACTED Feature Counter -1 337 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |Sampler (SamplingFactory): Sampled 13 of 17 feature(s)
+2019-11-26 00:19:55|  60.5|  0.0|STATS |Sampler_Sampled (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:19:55|  60.6|  0.0|STATS |Sampler_SAMPLED Feature Counter -1 345 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:19:55|  60.6|  0.0|STATS |Sampler_NOT_SAMPLED Feature Counter -1 339 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:19:55|  60.6|  0.0|STATS |Sampler_2 (SamplingFactory): Sampled 1 of 4 feature(s)
+2019-11-26 00:19:55|  60.6|  0.0|STATS |Sampler_2_Sampled (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  60.6|  0.0|STATS |Sampler_2_SAMPLED Feature Counter -1 344 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:55|  60.6|  0.0|STATS |Sampler_2_NOT_SAMPLED Feature Counter -1 346 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:19:59|  64.4|  3.9|STATS |SolidBuilder_SOLID Feature Counter -1 342 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:59|  64.4|  0.0|STATS |SolidBuilder_<REJECTED> Feature Counter -1 2147746133 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:59|  64.4|  0.0|STATS |GeometryCoercer_3_COERCED Feature Counter -1 334 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.4|  0.0|STATS |Deaggregator (DeaggregateFactory): Split 17 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 17 aggregate(s)
+2019-11-26 00:19:59|  64.4|  0.0|STATS |Deaggregator (DeaggregateFactory): 17 non-aggregate input features were routed through the factory
+2019-11-26 00:19:59|  64.4|  0.0|STATS |Deaggregator_DEAGGREGATED Feature Counter -1 331 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |Aggregator (AggregateFactory): Combined 0 input feature(s) into 17 output feature(s), including 0 singleton(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |Aggregator_AGGREGATE Feature Counter -1 332 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GeometryRefiner_3 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GeometryRefiner_3_OUTPUT Feature Counter -1 343 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |BinaryEncoder_5_OUTPUT Feature Counter -1 306 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeExposer_4 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeExposer_4_OUTPUT Feature Counter -1 307 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |VariableRetriever_4 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |VariableRetriever_4_OUTPUT Feature Counter -1 188 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter <lt>EMPTY<gt> Transformer Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter <lt>MISSING<gt> Transformer Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter <lt>NULL<gt> Transformer Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter_<lt>UNFILTERED<gt> Feature Counter -1 196 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter_IfcRoof Feature Counter -1 197 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeFilter_IfcStair Feature Counter -1 292 (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeRenamer_6_OUTPUT Feature Counter -1 192 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4 Input Input Collector (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_Input1574756335 Input Splitter (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_Input Feature Counter 0 7 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_AttributeExposer_2 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_VariableRetriever_5 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_AttributeExposer_12 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_Output1574756335 Output Collector (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4 Output Output Renamer/Nuker (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |GetGrandParentID_4_Output Feature Counter -1 195 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4 INPUT Input Collector (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_INPUT1574756335 Input Splitter (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_INPUT Feature Counter 2 6 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_GeometryPropertySetter_Tester (TestFactory): Tested 12 input feature(s) -- 12 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_GeometryPropertySetter_Outputter (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLGeometrySetter_4_OUTPUT Feature Counter -1 391 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4 Input Input Collector (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_Input1574756335 Input Splitter (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_Input Feature Counter 3 12 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_AttributeExposer (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_AttributeRemover_5 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_Output1574756335 Output Collector (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4 Output Output Renamer/Nuker (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |CityGMLattributeRefiner_4_Output Feature Counter -1 393 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |AttributeCreator_7_OUTPUT Feature Counter -1 445 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |ConvertGeometry_10 Input Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |ConvertGeometry_10_Input1574756335 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |ConvertGeometry_10_Input Feature Counter 1 16 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |ConvertGeometry_10_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:19:59|  64.5|  0.0|STATS |ConvertGeometry_10_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 9 input feature(s) into 9 output feature(s)
+2019-11-26 00:20:00|  64.6|  0.1|WARN  |ConvertGeometry_10_GeometryCoercer_3 (GQueryFactory): The Geometry Part XQuery matched no parts; no action will be performed. Further warnings will be suppressed
+2019-11-26 00:20:03|  67.7|  3.1|STATS |ConvertGeometry_10_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 2054 input feature(s) into 2054 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Orientor (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Orientor_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 2054 input feature(s) into 2054 output feature(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Deaggregator (DeaggregateFactory): Split 2054 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 2054 aggregate(s)
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Deaggregator (DeaggregateFactory): 2054 non-aggregate input features were routed through the factory
+2019-11-26 00:20:03|  67.7|  0.0|STATS |ConvertGeometry_10_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 2054 input feature(s) into 2054 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10_Aggregator (AggregateFactory): Combined 0 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10_GeometryRefiner_3 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10_Output1574756335 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10 Output Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |ConvertGeometry_10_Output Feature Counter -1 360 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |BinaryEncoder_11_OUTPUT Feature Counter -1 362 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |AttributeExposer_11 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |AttributeExposer_11_OUTPUT Feature Counter -1 365 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |VariableRetriever_10 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |VariableRetriever_10_OUTPUT Feature Counter -1 366 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |AttributeRenamer_5_OUTPUT Feature Counter -1 377 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8 Input Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_Input1574756335 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_Input Feature Counter 0 7 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_AttributeExposer_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_VariableRetriever_5 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_AttributeExposer_12 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_Output1574756335 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8 Output Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |GetGrandParentID_8_Output Feature Counter -1 359 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2 INPUT Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_INPUT1574756335 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_INPUT Feature Counter 2 6 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_GeometryPropertySetter_Tester (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_GeometryPropertySetter_Outputter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLGeometrySetter_2_OUTPUT Feature Counter -1 401 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLattributeRefiner_9 Input Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLattributeRefiner_9_Input1574756335 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLattributeRefiner_9_Input Feature Counter 3 12 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.8|  0.0|STATS |CityGMLattributeRefiner_9_AttributeExposer (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_AttributeRemover_5 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_Output1574756335 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9 Output Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_9_Output Feature Counter -1 413 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |AttributeCreator_OUTPUT Feature Counter -1 469 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |AttributeRenamer_7_OUTPUT Feature Counter -1 194 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |FeatureMerger_2 (ReferenceFactory): Total Results: 3 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |FeatureMerger_2_MERGED Feature Counter -1 190 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |FeatureMerger_2_<REJECTED> Feature Counter -1 2147877047 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5 Input Input Collector (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_Input1574756335 Input Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_Input Feature Counter 0 7 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_AttributeExposer_2 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_VariableRetriever_5 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_AttributeExposer_12 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_Output1574756335 Output Collector (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5 Output Output Renamer/Nuker (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |GetGrandParentID_5_Output Feature Counter -1 193 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter INPUT Input Collector (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_INPUT1574756335 Input Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_INPUT Feature Counter 2 6 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_GeometryPropertySetter_Tester (TestFactory): Tested 3 input feature(s) -- 3 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_GeometryPropertySetter_Outputter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLGeometrySetter_OUTPUT Feature Counter -1 389 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3 Input Input Collector (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_Input1574756335 Input Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_Input Feature Counter 3 12 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_AttributeExposer (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_AttributeRemover_5 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_Output1574756335 Output Collector (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3 Output Output Renamer/Nuker (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |CityGMLattributeRefiner_3_Output Feature Counter -1 390 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |AttributeCreator_6_OUTPUT Feature Counter -1 444 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8 Input Input Collector (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_Input1574756335 Input Splitter (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_Input Feature Counter 1 16 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 545 input feature(s) into 545 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 545 input feature(s) into 545 output feature(s)
+2019-11-26 00:20:03|  67.9|  0.0|STATS |ConvertGeometry_8_Orientor (TeeFactory): Cloned 545 input feature(s) into 545 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Orientor_Rejector (TestFactory): Tested 545 input feature(s) -- 0 feature(s) passed and 545 feature(s) failed
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 545 input feature(s) into 545 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 545 input feature(s) into 545 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Deaggregator (DeaggregateFactory): Split 545 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 545 aggregate(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Deaggregator (DeaggregateFactory): 545 non-aggregate input features were routed through the factory
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 545 input feature(s) into 545 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Aggregator (AggregateFactory): Combined 0 input feature(s) into 13 output feature(s), including 0 singleton(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_GeometryRefiner_3 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Output1574756335 Output Collector (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8 Output Output Renamer/Nuker (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_8_Output Feature Counter -1 243 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |BinaryEncoder_7_OUTPUT Feature Counter -1 312 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |AttributeExposer_6 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |AttributeExposer_6_OUTPUT Feature Counter -1 313 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |VariableRetriever_6 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |VariableRetriever_6_OUTPUT Feature Counter -1 238 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |Tester_5 (TestFactory): Tested 13 input feature(s) -- 6 feature(s) passed and 7 feature(s) failed
+2019-11-26 00:20:03|  68.0|  0.0|STATS |Tester_5_PASSED Feature Counter -1 241 (TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |Tester_5_FAILED Feature Counter -1 249 (TeeFactory): Cloned 7 input feature(s) into 7 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |GeometryRemover_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |GeometryRemover_2_OUTPUT Feature Counter -1 474 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |AttributeCreator_10_OUTPUT Feature Counter -1 416 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2 Input Input Collector (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Input1574756335 Input Splitter (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Input Feature Counter 1 16 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 138 input feature(s) into 138 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|WARN  |ConvertGeometry_2_GeometryCoercer_3 (GQueryFactory): The Geometry Part XQuery matched no parts; no action will be performed. Further warnings will be suppressed
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 134 input feature(s) into 134 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Orientor (TeeFactory): Cloned 134 input feature(s) into 134 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Orientor_Rejector (TestFactory): Tested 134 input feature(s) -- 0 feature(s) passed and 134 feature(s) failed
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 134 input feature(s) into 134 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 134 input feature(s) into 134 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Deaggregator (DeaggregateFactory): Split 138 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 138 aggregate(s)
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Deaggregator (DeaggregateFactory): 138 non-aggregate input features were routed through the factory
+2019-11-26 00:20:03|  68.0|  0.0|STATS |ConvertGeometry_2_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 138 input feature(s) into 138 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2_Aggregator (AggregateFactory): Combined 0 input feature(s) into 69 output feature(s), including 0 singleton(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2_GeometryRefiner_3 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2_Output1574756335 Output Collector (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2 Output Output Renamer/Nuker (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_2_Output Feature Counter -1 91 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |AttributeRenamer_OUTPUT Feature Counter -1 424 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10 Input Input Collector (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_Input1574756335 Input Splitter (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_Input Feature Counter 3 12 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_AttributeExposer (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_AttributeRemover_5 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_Output1574756335 Output Collector (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10 Output Output Renamer/Nuker (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLattributeRefiner_10_Output Feature Counter -1 418 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |AttributeCreator_12_OUTPUT Feature Counter -1 482 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7 INPUT Input Collector (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_INPUT1574756335 Input Splitter (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_INPUT Feature Counter 2 6 (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_GeometryPropertySetter_Tester (TestFactory): Tested 107 input feature(s) -- 107 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_GeometryPropertySetter_Outputter (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |CityGMLGeometrySetter_7_OUTPUT Feature Counter -1 378 (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |AttributeCreator_2_OUTPUT Feature Counter -1 415 (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_3 Input Input Collector (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.1|  0.0|STATS |ConvertGeometry_3_Input1574756335 Input Splitter (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Input Feature Counter 1 16 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 461 input feature(s) into 461 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 461 input feature(s) into 461 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Orientor (TeeFactory): Cloned 461 input feature(s) into 461 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Orientor_Rejector (TestFactory): Tested 461 input feature(s) -- 0 feature(s) passed and 461 feature(s) failed
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 461 input feature(s) into 461 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 461 input feature(s) into 461 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Deaggregator (DeaggregateFactory): Split 461 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 477 aggregate(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Deaggregator (DeaggregateFactory): 445 non-aggregate input features were routed through the factory
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 477 input feature(s) into 477 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Aggregator (AggregateFactory): Combined 0 input feature(s) into 238 output feature(s), including 0 singleton(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_GeometryRefiner_3 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Output1574756335 Output Collector (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3 Output Output Renamer/Nuker (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |ConvertGeometry_3_Output Feature Counter -1 276 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |BinaryEncoder_3_OUTPUT Feature Counter -1 301 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |AttributeExposer_2 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |AttributeExposer_2_OUTPUT Feature Counter -1 302 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |VariableRetriever_2 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |VariableRetriever_2_OUTPUT Feature Counter -1 275 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |Tester (TestFactory): Tested 238 input feature(s) -- 223 feature(s) passed and 15 feature(s) failed
+2019-11-26 00:20:03|  68.2|  0.0|STATS |Tester_PASSED Feature Counter -1 274 (TeeFactory): Cloned 223 input feature(s) into 223 output feature(s)
+2019-11-26 00:20:03|  68.2|  0.0|STATS |Tester_FAILED Feature Counter -1 294 (TeeFactory): Cloned 15 input feature(s) into 15 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.2|STATS |FeatureMerger_3 (ReferenceFactory): Total Results: 3 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |FeatureMerger_3_MERGED Feature Counter -1 244 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |FeatureMerger_3_<REJECTED> Feature Counter -1 2147877092 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |BinaryEncoder_8_OUTPUT Feature Counter -1 315 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |AttributeExposer_7 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |AttributeExposer_7_OUTPUT Feature Counter -1 316 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |VariableRetriever_7 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  68.4|  0.0|STATS |VariableRetriever_7_OUTPUT Feature Counter -1 245 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:20:03|  68.5|  0.0|STATS |ConvertGeometry_12 Input Input Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:20:03|  68.5|  0.0|STATS |ConvertGeometry_12_Input1574756335 Input Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:20:03|  68.5|  0.0|STATS |ConvertGeometry_12_Input Feature Counter 1 16 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:20:03|  68.5|  0.0|STATS |ConvertGeometry_12_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:20:03|  68.5|  0.0|STATS |ConvertGeometry_12_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 202 input feature(s) into 202 output feature(s)
+2019-11-26 00:20:29|  95.0| 26.6|INFORM|Sorting 1344 features...
+2019-11-26 00:20:30|  95.0|  0.0|INFORM|Constructing donuts from 1344 features...
+2019-11-26 00:20:36| 101.8|  6.7|INFORM|Sorting 1344 features...
+2019-11-26 00:20:36| 101.8|  0.0|INFORM|Constructing donuts from 1344 features...
+2019-11-26 00:20:44| 109.4|  7.6|WARN  |ConvertGeometry_12_GeometryCoercer_3 (GQueryFactory): The Geometry Part XQuery matched no parts; no action will be performed. Further warnings will be suppressed
+2019-11-26 00:21:42| 168.7| 59.3|STATS |ConvertGeometry_12_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 42288 input feature(s) into 42288 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 302 input feature(s) into 302 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Orientor (TeeFactory): Cloned 302 input feature(s) into 302 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Orientor_Rejector (TestFactory): Tested 302 input feature(s) -- 0 feature(s) passed and 302 feature(s) failed
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 302 input feature(s) into 302 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 302 input feature(s) into 302 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 42288 input feature(s) into 42288 output feature(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Deaggregator (DeaggregateFactory): Split 42590 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 42590 aggregate(s)
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Deaggregator (DeaggregateFactory): 42590 non-aggregate input features were routed through the factory
+2019-11-26 00:21:42| 168.7|  0.0|STATS |ConvertGeometry_12_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 42590 input feature(s) into 42590 output feature(s)
+2019-11-26 00:21:43| 169.6|  0.9|STATS |ConvertGeometry_12_Aggregator (AggregateFactory): Combined 0 input feature(s) into 24 output feature(s), including 0 singleton(s)
+2019-11-26 00:21:43| 169.6|  0.0|STATS |ConvertGeometry_12_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.6|  0.0|STATS |ConvertGeometry_12_GeometryRefiner_3 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.6|  0.0|STATS |ConvertGeometry_12_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.6|  0.0|STATS |ConvertGeometry_12_Output1574756335 Output Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.6|  0.0|STATS |ConvertGeometry_12 Output Output Renamer/Nuker (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.6|  0.0|STATS |ConvertGeometry_12_Output Feature Counter -1 113 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |BinaryEncoder_10_OUTPUT Feature Counter -1 321 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |AttributeExposer_9 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |AttributeExposer_9_OUTPUT Feature Counter -1 322 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |VariableRetriever_9 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |VariableRetriever_9_OUTPUT Feature Counter -1 111 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |AttributeRenamer_10_OUTPUT Feature Counter -1 114 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |Tester_7 (TestFactory): Tested 24 input feature(s) -- 0 feature(s) passed and 24 feature(s) failed
+2019-11-26 00:21:43| 169.7|  0.0|STATS |Tester_7_PASSED Feature Counter -1 115 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |Tester_7_FAILED Feature Counter -1 117 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10 Input Input Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_Input1574756335 Input Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_Input Feature Counter 0 7 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_AttributeExposer_2 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_VariableRetriever_5 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_AttributeExposer_12 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_Output1574756335 Output Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10 Output Output Renamer/Nuker (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |GetGrandParentID_10_Output Feature Counter -1 116 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12 INPUT Input Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_INPUT1574756335 Input Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_INPUT Feature Counter 2 6 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_GeometryPropertySetter_Tester (TestFactory): Tested 24 input feature(s) -- 24 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_GeometryPropertySetter_Outputter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_12_OUTPUT Feature Counter -1 384 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11 INPUT Input Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_INPUT1574756335 Input Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_INPUT Feature Counter 2 6 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_GeometryPropertySetter_Tester (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_GeometryPropertySetter_Outputter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLGeometrySetter_11_OUTPUT Feature Counter -1 382 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7 Input Input Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_Input1574756335 Input Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_Input Feature Counter 3 12 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_AttributeExposer (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_AttributeRemover_5 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_Output1574756335 Output Collector (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7 Output Output Renamer/Nuker (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |CityGMLattributeRefiner_7_Output Feature Counter -1 421 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |AttributeCreator_3_OUTPUT Feature Counter -1 422 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |ConvertGeometry_5 Input Input Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:43| 169.7|  0.0|STATS |ConvertGeometry_5_Input1574756335 Input Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Input Feature Counter 1 16 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 511 input feature(s) into 511 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 898 input feature(s) into 898 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Orientor (TeeFactory): Cloned 898 input feature(s) into 898 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Orientor_Rejector (TestFactory): Tested 898 input feature(s) -- 0 feature(s) passed and 898 feature(s) failed
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 898 input feature(s) into 898 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 898 input feature(s) into 898 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Deaggregator (DeaggregateFactory): Split 898 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 898 aggregate(s)
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Deaggregator (DeaggregateFactory): 898 non-aggregate input features were routed through the factory
+2019-11-26 00:21:43| 169.8|  0.0|STATS |ConvertGeometry_5_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 898 input feature(s) into 898 output feature(s)
+2019-11-26 00:21:45| 171.5|  1.7|STATS |ConvertGeometry_5_Aggregator (AggregateFactory): Combined 0 input feature(s) into 62 output feature(s), including 0 singleton(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |ConvertGeometry_5_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |ConvertGeometry_5_GeometryRefiner_3 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |ConvertGeometry_5_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |ConvertGeometry_5_Output1574756335 Output Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |ConvertGeometry_5 Output Output Renamer/Nuker (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |ConvertGeometry_5_Output Feature Counter -1 160 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |BinaryEncoder_4_OUTPUT Feature Counter -1 303 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |AttributeExposer_3 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |AttributeExposer_3_OUTPUT Feature Counter -1 304 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |VariableRetriever_3 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |VariableRetriever_3_OUTPUT Feature Counter -1 161 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |AttributeRenamer_13_OUTPUT Feature Counter -1 165 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |Tester_2 (TestFactory): Tested 62 input feature(s) -- 62 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:21:45| 171.5|  0.0|STATS |Tester_2_PASSED Feature Counter -1 164 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID Input Input Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_Input1574756335 Input Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_Input Feature Counter 0 7 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_AttributeExposer_2 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_VariableRetriever_5 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_AttributeExposer_12 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_Output1574756335 Output Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID Output Output Renamer/Nuker (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |GetGrandParentID_Output Feature Counter -1 163 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6 INPUT Input Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_INPUT1574756335 Input Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_INPUT Feature Counter 2 6 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_GeometryPropertySetter_Tester (TestFactory): Tested 62 input feature(s) -- 62 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_GeometryPropertySetter_Outputter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLGeometrySetter_6_OUTPUT Feature Counter -1 388 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2 Input Input Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_Input1574756335 Input Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_Input Feature Counter 3 12 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_AttributeExposer (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_AttributeRemover_5 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.5|  0.0|STATS |CityGMLattributeRefiner_2_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_2_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_2_Output1574756335 Output Collector (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_2 Output Output Renamer/Nuker (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_2_Output Feature Counter -1 439 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |AttributeCreator_5_OUTPUT Feature Counter -1 440 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6 Input Input Collector (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Input1574756335 Input Splitter (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Input Feature Counter 1 16 (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Orientor (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Orientor_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Deaggregator (DeaggregateFactory): Split 0 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 0 aggregate(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Aggregator (AggregateFactory): Combined 0 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_GeometryRefiner_3 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Output1574756335 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6 Output Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |ConvertGeometry_6_Output Feature Counter -1 351 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |FeatureMerger (ReferenceFactory): Total Results: 0 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |FeatureMerger_MERGED Feature Counter -1 277 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |FeatureMerger_<REJECTED> Feature Counter -1 2147877134 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |AttributeRenamer_4_OUTPUT Feature Counter -1 279 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3 Input Input Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_Input1574756335 Input Splitter (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_Input Feature Counter 0 7 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_AttributeExposer_2 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_VariableRetriever_5 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_AttributeExposer_12 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_Output1574756335 Output Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3 Output Output Renamer/Nuker (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |GetGrandParentID_3_Output Feature Counter -1 280 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5 INPUT Input Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_INPUT1574756335 Input Splitter (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_INPUT Feature Counter 2 6 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_GeometryPropertySetter_Tester (TestFactory): Tested 199 input feature(s) -- 199 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_GeometryPropertySetter_Outputter (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLGeometrySetter_5_OUTPUT Feature Counter -1 397 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_6 Input Input Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_6_Input1574756335 Input Splitter (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.6|  0.0|STATS |CityGMLattributeRefiner_6_Input Feature Counter 3 12 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_AttributeExposer (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_AttributeRemover_5 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_Output1574756335 Output Collector (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6 Output Output Renamer/Nuker (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |CityGMLattributeRefiner_6_Output Feature Counter -1 449 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |AttributeCreator_9_OUTPUT Feature Counter -1 450 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |ConvertGeometry_11 Input Input Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |ConvertGeometry_11_Input1574756335 Input Splitter (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |ConvertGeometry_11_Input Feature Counter 1 16 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |ConvertGeometry_11_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:21:45| 171.7|  0.0|STATS |ConvertGeometry_11_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 1334 input feature(s) into 1334 output feature(s)
+2019-11-26 00:21:52| 179.2|  7.5|WARN  |ConvertGeometry_11_GeometryCoercer_3 (GQueryFactory): The Geometry Part XQuery matched no parts; no action will be performed. Further warnings will be suppressed
+2019-11-26 00:22:21| 208.9| 29.7|STATS |ConvertGeometry_11_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 24218 input feature(s) into 24218 output feature(s)
+2019-11-26 00:22:21| 208.9|  0.0|STATS |ConvertGeometry_11_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 626 input feature(s) into 626 output feature(s)
+2019-11-26 00:22:21| 208.9|  0.0|STATS |ConvertGeometry_11_Orientor (TeeFactory): Cloned 626 input feature(s) into 626 output feature(s)
+2019-11-26 00:22:21| 208.9|  0.0|STATS |ConvertGeometry_11_Orientor_Rejector (TestFactory): Tested 626 input feature(s) -- 0 feature(s) passed and 626 feature(s) failed
+2019-11-26 00:22:21| 208.9|  0.0|STATS |ConvertGeometry_11_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 626 input feature(s) into 626 output feature(s)
+2019-11-26 00:22:22| 208.9|  0.0|STATS |ConvertGeometry_11_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:22| 208.9|  0.0|STATS |ConvertGeometry_11_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 626 input feature(s) into 626 output feature(s)
+2019-11-26 00:22:22| 208.9|  0.0|STATS |ConvertGeometry_11_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 24218 input feature(s) into 24218 output feature(s)
+2019-11-26 00:22:22| 208.9|  0.0|STATS |ConvertGeometry_11_Deaggregator (DeaggregateFactory): Split 24844 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 24844 aggregate(s)
+2019-11-26 00:22:22| 208.9|  0.0|STATS |ConvertGeometry_11_Deaggregator (DeaggregateFactory): 24844 non-aggregate input features were routed through the factory
+2019-11-26 00:22:22| 208.9|  0.0|STATS |ConvertGeometry_11_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 24844 input feature(s) into 24844 output feature(s)
+2019-11-26 00:22:22| 209.5|  0.6|INFORM|ConvertGeometry_11_Aggregator (AggregateFactory): Group 500 / 1021: Finished processing group 500 / 1021
+2019-11-26 00:22:23| 210.2|  0.7|INFORM|ConvertGeometry_11_Aggregator (AggregateFactory): Group 1021 / 1021: Finished processing group 1021 / 1021
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11_Aggregator (AggregateFactory): Combined 0 input feature(s) into 1021 output feature(s), including 0 singleton(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11_GeometryRefiner_3 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11_Output1574756335 Output Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11 Output Output Renamer/Nuker (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |ConvertGeometry_11_Output Feature Counter -1 139 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |BinaryEncoder_9_OUTPUT Feature Counter -1 318 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |AttributeExposer_8 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |AttributeExposer_8_OUTPUT Feature Counter -1 319 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |VariableRetriever_8 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |VariableRetriever_8_OUTPUT Feature Counter -1 135 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |AttributeRenamer_9_OUTPUT Feature Counter -1 137 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |Tester_6 (TestFactory): Tested 1021 input feature(s) -- 0 feature(s) passed and 1021 feature(s) failed
+2019-11-26 00:22:23| 210.2|  0.0|STATS |Tester_6_PASSED Feature Counter -1 138 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |Tester_6_FAILED Feature Counter -1 141 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9 Input Input Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_Input1574756335 Input Splitter (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_Input Feature Counter 0 7 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_AttributeExposer_2 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_VariableRetriever_5 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_AttributeExposer_12 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_Output1574756335 Output Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9 Output Output Renamer/Nuker (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |GetGrandParentID_9_Output Feature Counter -1 140 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3 INPUT Input Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_INPUT1574756335 Input Splitter (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_INPUT Feature Counter 2 6 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_GeometryPropertySetter_Tester (TestFactory): Tested 1021 input feature(s) -- 1021 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_GeometryPropertySetter_Outputter (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLGeometrySetter_3_OUTPUT Feature Counter -1 443 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner Input Input Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_Input1574756335 Input Splitter (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_Input Feature Counter 3 12 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_AttributeExposer (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_AttributeRemover_5 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_Output1574756335 Output Collector (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner Output Output Renamer/Nuker (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.2|  0.0|STATS |CityGMLattributeRefiner_Output Feature Counter -1 434 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |AttributeCreator_4_OUTPUT Feature Counter -1 435 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |GeometryRemover (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |GeometryRemover_OUTPUT Feature Counter -1 400 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |AttributeCreator_11_OUTPUT Feature Counter -1 461 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7 Input Input Collector (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Input1574756335 Input Splitter (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Input Feature Counter 1 16 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_GeometryPartExtractor_3_Splitter (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_GeometryPartExtractor_3_EXTRACTED Feature Counter 1 25 (TeeFactory): Cloned 239 input feature(s) into 239 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_SurfaceBuilder_SURFACE Feature Counter 1 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_SurfaceBuilder_<REJECTED> Feature Counter 1 21 (TeeFactory): Cloned 249 input feature(s) into 249 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Orientor (TeeFactory): Cloned 249 input feature(s) into 249 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Orientor_Rejector (TestFactory): Tested 249 input feature(s) -- 0 feature(s) passed and 249 feature(s) failed
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Orientor_ORIENTED Feature Counter 1 22 (TeeFactory): Cloned 249 input feature(s) into 249 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Orientor_<REJECTED> Feature Counter 1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_GeometryCoercer_3_COERCED Feature Counter 1 12 (TeeFactory): Cloned 249 input feature(s) into 249 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_GeometryCoercer_3_UNTOUCHED Feature Counter 1 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Deaggregator (DeaggregateFactory): Split 249 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 0 line(s), 0 point(s), and 249 aggregate(s)
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Deaggregator (DeaggregateFactory): 249 non-aggregate input features were routed through the factory
+2019-11-26 00:22:23| 210.3|  0.0|STATS |ConvertGeometry_7_Deaggregator_DEAGGREGATED Feature Counter 1 14 (TeeFactory): Cloned 249 input feature(s) into 249 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.2|STATS |ConvertGeometry_7_Aggregator (AggregateFactory): Combined 0 input feature(s) into 149 output feature(s), including 0 singleton(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |ConvertGeometry_7_Aggregator_AGGREGATE Feature Counter 1 13 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |ConvertGeometry_7_GeometryRefiner_3 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |ConvertGeometry_7_GeometryRefiner_3_OUTPUT Feature Counter 1 11 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |ConvertGeometry_7_Output1574756335 Output Collector (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |ConvertGeometry_7 Output Output Renamer/Nuker (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |ConvertGeometry_7_Output Feature Counter -1 240 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |BinaryEncoder_6_OUTPUT Feature Counter -1 309 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |AttributeExposer_5 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |AttributeExposer_5_OUTPUT Feature Counter -1 310 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |VariableRetriever_5 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |VariableRetriever_5_OUTPUT Feature Counter -1 233 (TeeFactory): Cloned 149 input feature(s) into 149 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Tester_4 (TestFactory): Tested 156 input feature(s) -- 0 feature(s) passed and 156 feature(s) failed
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Tester_4_PASSED Feature Counter -1 236 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Tester_4_FAILED Feature Counter -1 248 (TeeFactory): Cloned 156 input feature(s) into 156 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6 Input Input Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_Input1574756335 Input Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_Input Feature Counter 0 7 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_AttributeExposer_2 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_VariableRetriever_5 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_AttributeExposer_12 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_Output1574756335 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6 Output Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_6_Output Feature Counter -1 235 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |AttributeRenamer_3_OUTPUT Feature Counter -1 324 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |AttributeExposer_10 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |AttributeExposer_10_OUTPUT Feature Counter -1 325 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7 Input Input Collector (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_Input1574756335 Input Splitter (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_Input Feature Counter 0 7 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_BinaryEncoder_3_OUTPUT Feature Counter 0 12 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_AttributeExposer_2 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_AttributeExposer_2_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_VariableRetriever_5 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_VariableRetriever_5_OUTPUT Feature Counter 0 8 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_BinaryDecoder_OUTPUT Feature Counter 0 15 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_AttributeExposer_12 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_AttributeExposer_12_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_Output1574756335 Output Collector (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7 Output Output Renamer/Nuker (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |GetGrandParentID_7_Output Feature Counter -1 237 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10 INPUT Input Collector (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_INPUT1574756335 Input Splitter (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_INPUT Feature Counter 2 6 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_AttributeCreator_OUTPUT Feature Counter 2 7 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_GeometryPropertySetter_Tester (TestFactory): Tested 159 input feature(s) -- 159 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_GeometryPropertySetter_Outputter (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_GeometryPropertySetter_SET Feature Counter 2 8 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_GeometryPropertySetter_<REJECTED> Feature Counter 2 2147745797 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_OUTPUT1574756335 Output Collector (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10 OUTPUT Output Renamer/Nuker (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLGeometrySetter_10_OUTPUT Feature Counter -1 395 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5 Input Input Collector (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_Input1574756335 Input Splitter (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_Input Feature Counter 3 12 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_AttributeExposer (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_AttributeExposer_OUTPUT Feature Counter 3 13 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_AttributeCreator_5_OUTPUT Feature Counter 3 6 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_AttributeRemover_5 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_AttributeRemover_5_OUTPUT Feature Counter 3 5 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_StringReplacer_2_OUTPUT Feature Counter 3 10 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_Output1574756335 Output Collector (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5 Output Output Renamer/Nuker (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CityGMLattributeRefiner_5_Output Feature Counter -1 396 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |AttributeCreator_8_OUTPUT Feature Counter -1 447 (TeeFactory): Cloned 159 input feature(s) into 159 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CoordinateSystemRemover (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |CoordinateSystemRemover_OUTPUT Feature Counter -1 470 (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Scaler_ScalerInput (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Scaler_Input (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Scaler (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Scaler_Rejector (TestFactory): Tested 1588 input feature(s) -- 0 feature(s) passed and 1588 feature(s) failed
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Scaler_PointCloudScaler (TestFactory): Tested 1588 input feature(s) -- 0 feature(s) passed and 1588 feature(s) failed
+2019-11-26 00:22:23| 210.5|  0.0|STATS |Scaler_SCALED Feature Counter -1 429 (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Scaler_<REJECTED> Feature Counter -1 472 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Offsetter_OffsetterInput (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Offsetter_Offsetter (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Offsetter_Rejector (TestFactory): Tested 1588 input feature(s) -- 0 feature(s) passed and 1588 feature(s) failed
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Offsetter_PointCloudOffsetter (TestFactory): Tested 1588 input feature(s) -- 0 feature(s) passed and 1588 feature(s) failed
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Offsetter_OFFSET Feature Counter -1 430 (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Offsetter_<REJECTED> Feature Counter -1 471 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |CoordinateSystemSetter (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |CoordinateSystemSetter_OUTPUT Feature Counter -1 409 (TeeFactory): Cloned 1588 input feature(s) into 1588 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter (TestFactory): Tested 1588 input feature(s) -- 1588 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_BlankFilter (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter <BLANK> Transformer Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter <UNFILTERED> Transformer Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter Door Splitter (TeeFactory): Cloned 62 input feature(s) into 124 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter WallSurface Splitter (TeeFactory): Cloned 199 input feature(s) into 398 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_GroundSurface Feature Counter -1 452 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_Window Feature Counter -1 398 (TeeFactory): Cloned 107 input feature(s) into 107 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_IntBuildingInstallation Feature Counter -1 402 (TeeFactory): Cloned 183 input feature(s) into 183 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_BuildingFurniture Feature Counter -1 403 (TeeFactory): Cloned 1021 input feature(s) into 1021 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_Door_0_y+zPxMl8La0= Feature Counter -1 404 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_Door_1_i+CSoREfWLA= Feature Counter -1 455 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_RoofSurface Feature Counter -1 451 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_FloorSurface Feature Counter -1 437 (TeeFactory): Cloned 12 input feature(s) into 12 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_BuildingInstallation Feature Counter -1 412 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_WallSurface_0_BNGe1C/Vrgk= Feature Counter -1 431 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |FeatureTypeFilter_WallSurface_1_rf2BEAXiF9E= Feature Counter -1 457 (TeeFactory): Cloned 199 input feature(s) into 199 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Stored 261 feature(s) to FME feature store file `C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-gMmQCB\inspector.ffs'
+2019-11-26 00:22:23| 210.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-gMmQCB\inspector.fsi'
+2019-11-26 00:22:23| 210.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-gMmQCB\inspector.fsi'
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1590 input feature(s), wrote 1590 output feature(s): 0 matched merge filters, 1590 were routed to output, 0 could not be routed.
+2019-11-26 00:22:23| 210.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2019-11-26 00:22:23| 210.6|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-11-26 00:22:23| 210.6|  0.0|INFORM|GlobalVariable statistics output suppressed -- 5158 global variables active
+2019-11-26 00:22:46| 233.3| 22.7|INFORM|XML Validation: Starting schema validation for 'C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task4_Conversion\output\Myran-CityGML-LOD4_safe_v1.3.gml'
+2019-11-26 00:22:46| 233.3|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2019-11-26 00:22:46| 233.3|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2019-11-26 00:22:46| 233.3|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2019-11-26 00:22:46| 233.3|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2019-11-26 00:22:46| 233.3|  0.0|INFORM|The uri-map document 'C:\Apps\FME2019.2\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2019-11-26 00:22:46| 233.4|  0.0|INFORM|A <schemaLocation> in the uri-map is overriding the namespace 'http://www.w3.org/1999/xlink' xsd location from '../xlink/xlinks.xsd' to 'xlink.xsd'
+2019-11-26 00:22:51| 238.3|  4.9|INFORM|XMLValidationFactory: Finished parsing '95.104' MB in document 'C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task4_Conversion\output\Myran-CityGML-LOD4_safe_v1.3.gml'
+2019-11-26 00:22:53| 240.5|  2.2|INFORM|XML Validation: '0' warning(s) found.
+2019-11-26 00:22:53| 240.5|  0.0|INFORM|XML Validation: '0' fatal error(s) and '0' error(s) in 'C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task4_Conversion\output\Myran-CityGML-LOD4_safe_v1.3.gml'
+2019-11-26 00:22:54| 241.4|  1.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.4|  0.0|INFORM|Feature output statistics for `CITYGML' writer using keyword `CITYGML_1':
+2019-11-26 00:22:54| 241.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.4|  0.0|STATS |                               Features Written
+2019-11-26 00:22:54| 241.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.4|  0.0|STATS |Building                                                                     1
+2019-11-26 00:22:54| 241.4|  0.0|STATS |BuildingFurniture                                                         1021
+2019-11-26 00:22:54| 241.4|  0.0|STATS |CityModel                                                                    1
+2019-11-26 00:22:54| 241.4|  0.0|STATS |Door                                                                        62
+2019-11-26 00:22:54| 241.4|  0.0|STATS |FloorSurface                                                                12
+2019-11-26 00:22:54| 241.4|  0.0|STATS |GroundSurface                                                                1
+2019-11-26 00:22:54| 241.4|  0.0|STATS |IntBuildingInstallation                                                    183
+2019-11-26 00:22:54| 241.5|  0.0|STATS |RoofSurface                                                                  3
+2019-11-26 00:22:54| 241.5|  0.0|STATS |WallSurface                                                                199
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Window                                                                     107
+2019-11-26 00:22:54| 241.5|  0.0|STATS |==============================================================================
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Total Features Written                                                    1590
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.5|  0.0|STATS |                            Features Read Summary
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcBeam                                                                    142
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcBuilding                                                                  2
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcBuildingElementProxy                                                   1968
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcBuildingStorey                                                            6
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcColumn                                                                  156
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcCovering                                                                 98
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcCurtainWall                                                              44
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcDoor                                                                    124
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcFlowSegment                                                               6
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcFlowTerminal                                                             48
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcFurnishingElement                                                        74
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcMember                                                                  476
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcOpeningElement                                                          344
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcPlate                                                                   138
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcProject                                                                   2
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcRailing                                                                  26
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcRoof                                                                      6
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcSite                                                                      2
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcSlab                                                                     34
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcStair                                                                     6
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcStairFlight                                                               8
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcTypeObject                                                              972
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcWall                                                                     26
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcWallStandardCase                                                        372
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IfcWindow                                                                   76
+2019-11-26 00:22:54| 241.5|  0.0|STATS |PropertySetDefinition                                                       38
+2019-11-26 00:22:54| 241.5|  0.0|STATS |==============================================================================
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Total Features Read                                                       5194
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.5|  0.0|STATS |                           Features Written Summary
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Building                                                                     1
+2019-11-26 00:22:54| 241.5|  0.0|STATS |BuildingFurniture                                                         1021
+2019-11-26 00:22:54| 241.5|  0.0|STATS |CityModel                                                                    1
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Door                                                                        62
+2019-11-26 00:22:54| 241.5|  0.0|STATS |FloorSurface                                                                12
+2019-11-26 00:22:54| 241.5|  0.0|STATS |GroundSurface                                                                1
+2019-11-26 00:22:54| 241.5|  0.0|STATS |IntBuildingInstallation                                                    183
+2019-11-26 00:22:54| 241.5|  0.0|STATS |RoofSurface                                                                  3
+2019-11-26 00:22:54| 241.5|  0.0|STATS |WallSurface                                                                199
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Window                                                                     107
+2019-11-26 00:22:54| 241.5|  0.0|STATS |==============================================================================
+2019-11-26 00:22:54| 241.5|  0.0|STATS |Total Features Written                                                    1590
+2019-11-26 00:22:54| 241.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-26 00:22:54| 241.6|  0.0|INFORM|Translation was SUCCESSFUL with 11 warning(s) (1590 feature(s) output)
+2019-11-26 00:22:54| 241.7|  0.1|INFORM|FME Session Duration: 3 minutes 58.3 seconds. (CPU: 209.0s user, 31.9s system)
+2019-11-26 00:22:54| 241.7|  0.0|INFORM|END - ProcessID: 112044, peak process memory usage: 949912 kB, current process memory usage: 201284 kB

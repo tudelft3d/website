@@ -1,0 +1,190 @@
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|FME 2019.2.0.0 (20191105 - Build 19801 - WIN64)
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|FME_HOME is 'C:\Apps\FME2019.2\'
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|FME Database Edition (node locked-crc)
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|Serial Number: 0
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|Permanent License.
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|Machine host name is: kenobi
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|START - ProcessID: 98340, peak process memory usage: 30232 kB, current process memory usage: 30136 kB
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Apps\FME2019.2\fme.exe' `C:/Users/dhintz/Dropbox (Safe Software Inc.)/DeanSafe/Projects/_StrategicProjects/GeoBIM/Task2_IFCgeoreferencing/FMEworkspaces\wb-xlate-1574210902900_42512' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{a434e19b-e8e3-4088-a44d-e7dffeac081d}' `LOG_TIMINGS' `Yes'
+2019-11-19 16:48:27|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\dhintz\AppData\Roaming\Safe Software\FME\'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for formats are : C:\Apps\FME2019.2\datasources;C:\Users\dhintz\AppData\Roaming\Safe Software\FME\FME Store\Formats;C:\Users\dhintz\Documents\FME\Formats
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\dhintz\AppData\Roaming\Safe Software\FME\Packages\19801-win64\transformers;C:\Apps\FME2019.2\transformers;C:\Users\dhintz\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\dhintz\Documents\FME\CoordinateSystems
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\dhintz\Documents\FME\CoordinateSystemExceptions
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\dhintz\Documents\FME\CoordinateSystemGridOverrides
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\dhintz\Documents\FME\CsmapTransformationExceptions
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\dhintz\Documents\FME\TransformerCategories
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task2_IFCgeoreferencing\FMEworkspaces'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\dhintz\AppData\Local\Temp', set from environment variable `TEMP'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Apps\FME2019.2\'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\dhintz\Dropbox (Safe Software Inc.)\DeanSafe\Projects\_StrategicProjects\GeoBIM\Task2_IFCgeoreferencing\FMEworkspaces/'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Myran_ReadIFC.fmw'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.2.0.0'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|System Status: 373.27 GB of disk space available in the FME temporary folder (C:\Users\dhintz\AppData\Local\Temp)
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 18362)
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Platform: WIN64
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Locale: en_US
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Process limit is 15.88 GB of physical memory
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 47.63 GB of virtual memory
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 35.72 GB of virtual memory
+2019-11-19 16:48:27|   0.1|  0.1|INFORM|Creating writer for format: NULL (Nothing)
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Apps\FME2019.2\plugins/NULL.dll'
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20190820)
+2019-11-19 16:48:27|   0.1|  0.0|INFORM|Creating reader for format: 
+2019-11-19 16:48:27|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2019-11-19 16:48:27|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding IFC Reader with keyword IFC_1
+2019-11-19 16:48:27|   0.2|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2019-11-19 16:48:27|   0.2|  0.0|INFORM|Creating reader for format: Industry Foundation Class STEP/XML Files (IFC)
+2019-11-19 16:48:27|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `IFC'
+2019-11-19 16:48:27|   0.2|  0.0|INFORM|Loaded module 'IFC' from file 'C:\Apps\FME2019.2\plugins/ifc/ifc.dll'
+2019-11-19 16:48:27|   0.5|  0.3|INFORM|FME API version of module 'IFC' matches current internal version (3.8 20190820)
+2019-11-19 16:48:27|   0.5|  0.0|INFORM|Detected IFC version IFC 2x3.
+2019-11-19 16:48:28|   1.7|  1.2|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20190820)
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20190820)
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Apps\FME2019.2\plugins/LogCount_func.dll'
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20190820)
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|Loaded module 'TransformPointCloud_func' from file 'C:\Apps\FME2019.2\plugins/TransformPointCloud_func.dll'
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|FME API version of module 'TransformPointCloud_func' matches current internal version (3.8 20190820)
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Apps\FME2019.2\plugins/InspectorFactory.dll'
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20190820)
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|IFC: Plane angle unit determined to be degrees.
+2019-11-19 16:48:28|   1.7|  0.0|INFORM|IFC: Length unit determined to be 'MILLIMETER'. One 'MILLIMETER' is 0.001 meters
+2019-11-19 16:48:29|   2.8|  1.1|INFORM|IFC: 2092 objects read
+2019-11-19 16:48:29|   2.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader IFC_1[IFC] set to `IFC_COORDSYS_0' as read from input data
+2019-11-19 16:48:29|   2.8|  0.0|INFORM|Coordinate System `IFC_COORDSYS_0' parameters: CS_NAME=`IFC_COORDSYS_0' DT_NAME=`WGS84' ORG_LAT=`59.33199999972223' ORG_LNG=`18.06499999972222' PROJ=`AZMED' QUAD=`1' UNIT=`MILLIMETER' X_OFF=`0.0' Y_OFF=`0.0'
+2019-11-19 16:48:29|   2.8|  0.0|WARN  |Offset function given a Z Offset value for a 2 dimensional feature. Forcing 3D and offsetting from z = 0.  
+2019-11-19 16:48:29|   2.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-essYRS\inspector.ffs'
+2019-11-19 16:48:30|   3.3|  0.5|WARN  |Geometry instance was modified, the geometry definition will be instantiated
+2019-11-19 16:48:41|  14.7| 11.5|INFORM|Reading source feature # 2500
+2019-11-19 16:48:41|  15.1|  0.4|INFORM|MULTI_READER(MULTI_READER): Done reading 2597 features from 1 readers
+2019-11-19 16:48:41|  15.1|  0.0|INFORM|Emptying factory pipeline
+2019-11-19 16:48:41|  15.1|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 2597 input feature(s), wrote 2597 output feature(s): 2597 matched merge filters, 2597 were routed to output, 0 could not be routed.
+2019-11-19 16:48:41|  15.1|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBeam (IFC_1) Splitter (TeeFactory): Cloned 71 input feature(s) into 71 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBeam_IFC_1 Feature Counter -1 36 (TeeFactory): Cloned 71 input feature(s) into 71 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBuilding (IFC_1) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBuilding_IFC_1 Feature Counter -1 40 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBuildingElementProxy (IFC_1) Splitter (TeeFactory): Cloned 984 input feature(s) into 984 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBuildingElementProxy_IFC_1 Feature Counter -1 41 (TeeFactory): Cloned 984 input feature(s) into 984 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBuildingStorey (IFC_1) Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcBuildingStorey_IFC_1 Feature Counter -1 42 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcColumn (IFC_1) Splitter (TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcColumn_IFC_1 Feature Counter -1 43 (TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcCovering (IFC_1) Splitter (TeeFactory): Cloned 49 input feature(s) into 49 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcCovering_IFC_1 Feature Counter -1 44 (TeeFactory): Cloned 49 input feature(s) into 49 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcCurtainWall (IFC_1) Splitter (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcCurtainWall_IFC_1 Feature Counter -1 45 (TeeFactory): Cloned 22 input feature(s) into 22 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcDoor (IFC_1) Splitter (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcDoor_IFC_1 Feature Counter -1 46 (TeeFactory): Cloned 62 input feature(s) into 62 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcFlowSegment (IFC_1) Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcFlowSegment_IFC_1 Feature Counter -1 47 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcFlowTerminal (IFC_1) Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcFlowTerminal_IFC_1 Feature Counter -1 48 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcFurnishingElement (IFC_1) Splitter (TeeFactory): Cloned 37 input feature(s) into 37 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcFurnishingElement_IFC_1 Feature Counter -1 49 (TeeFactory): Cloned 37 input feature(s) into 37 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcMember (IFC_1) Splitter (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcMember_IFC_1 Feature Counter -1 50 (TeeFactory): Cloned 238 input feature(s) into 238 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcOpeningElement (IFC_1) Splitter (TeeFactory): Cloned 172 input feature(s) into 172 output feature(s)
+2019-11-19 16:48:41|  15.1|  0.0|STATS |IfcOpeningElement_IFC_1 Feature Counter -1 51 (TeeFactory): Cloned 172 input feature(s) into 172 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcPlate (IFC_1) Splitter (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcPlate_IFC_1 Feature Counter -1 52 (TeeFactory): Cloned 69 input feature(s) into 69 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcProject (IFC_1) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcProject_IFC_1 Feature Counter -1 53 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcRailing (IFC_1) Splitter (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcRailing_IFC_1 Feature Counter -1 54 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcRoof (IFC_1) Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcRoof_IFC_1 Feature Counter -1 55 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcSite (IFC_1) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcSite_IFC_1 Feature Counter -1 32 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcSlab (IFC_1) Splitter (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcSlab_IFC_1 Feature Counter -1 56 (TeeFactory): Cloned 17 input feature(s) into 17 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcStair (IFC_1) Splitter (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcStair_IFC_1 Feature Counter -1 57 (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcStairFlight (IFC_1) Splitter (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcStairFlight_IFC_1 Feature Counter -1 58 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcWall (IFC_1) Splitter (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcWall_IFC_1 Feature Counter -1 60 (TeeFactory): Cloned 13 input feature(s) into 13 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcWallStandardCase (IFC_1) Splitter (TeeFactory): Cloned 186 input feature(s) into 186 output feature(s)
+2019-11-19 16:48:42|  15.1|  0.0|STATS |IfcWallStandardCase_IFC_1 Feature Counter -1 61 (TeeFactory): Cloned 186 input feature(s) into 186 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |IfcWindow (IFC_1) Splitter (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |IfcWindow_IFC_1 Feature Counter -1 62 (TeeFactory): Cloned 38 input feature(s) into 38 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |IfcTypeObject (IFC_1) Splitter (TeeFactory): Cloned 486 input feature(s) into 486 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |IfcTypeObject_IFC_1 Feature Counter -1 59 (TeeFactory): Cloned 486 input feature(s) into 486 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |QuantitySetDefinition (IFC_1) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |QuantitySetDefinition_IFC_1 Feature Counter -1 64 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |PropertySetDefinition (IFC_1) Splitter (TeeFactory): Cloned 19 input feature(s) into 19 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |PropertySetDefinition_IFC_1 Feature Counter -1 63 (TeeFactory): Cloned 19 input feature(s) into 19 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_ScalerInput (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_Input (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_Rejector (TestFactory): Tested 2597 input feature(s) -- 0 feature(s) passed and 2597 feature(s) failed
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_PointCloudScaler (TestFactory): Tested 2597 input feature(s) -- 0 feature(s) passed and 2597 feature(s) failed
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_SCALED Feature Counter -1 35 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_<REJECTED> Feature Counter -1 2147680287 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Scaler_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Offsetter_OffsetterInput (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Offsetter_Offsetter (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Offsetter_Rejector (TestFactory): Tested 2597 input feature(s) -- 710 feature(s) passed and 1887 feature(s) failed
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Offsetter_PointCloudOffsetter (TestFactory): Tested 1887 input feature(s) -- 0 feature(s) passed and 1887 feature(s) failed
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Offsetter_OFFSET Feature Counter -1 38 (TeeFactory): Cloned 1887 input feature(s) into 1887 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |Offsetter_<REJECTED> Feature Counter -1 69 (TeeFactory): Cloned 710 input feature(s) into 710 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |CoordinateSystemSetter (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:42|  15.2|  0.0|STATS |CoordinateSystemSetter_OUTPUT Feature Counter -1 39 (TeeFactory): Cloned 2597 input feature(s) into 2597 output feature(s)
+2019-11-19 16:48:46|  20.0|  4.8|STATS |Stored 2597 feature(s) to FME feature store file `C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-essYRS\inspector.ffs'
+2019-11-19 16:48:46|  20.0|  0.0|INFORM|Saving spatial index into file 'C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-essYRS\inspector.fsi'
+2019-11-19 16:48:46|  20.0|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\dhintz\AppData\Local\Temp\wb-inspectors-essYRS\inspector.fsi'
+2019-11-19 16:48:46|  20.0|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2019-11-19 16:48:46|  20.0|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:46|  20.0|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2019-11-19 16:48:46|  20.0|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-11-19 16:48:46|  20.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-19 16:48:46|  20.0|  0.0|STATS |                            Features Read Summary
+2019-11-19 16:48:46|  20.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcBeam                                                                     71
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcBuilding                                                                  1
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcBuildingElementProxy                                                    984
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcBuildingStorey                                                            3
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcColumn                                                                   78
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcCovering                                                                 49
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcCurtainWall                                                              22
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcDoor                                                                     62
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcFlowSegment                                                               3
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcFlowTerminal                                                             24
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcFurnishingElement                                                        37
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcMember                                                                  238
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcOpeningElement                                                          172
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcPlate                                                                    69
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcProject                                                                   1
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcRailing                                                                  13
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcRoof                                                                      3
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcSite                                                                      1
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcSlab                                                                     17
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcStair                                                                     3
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcStairFlight                                                               4
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcTypeObject                                                              486
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcWall                                                                     13
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcWallStandardCase                                                        186
+2019-11-19 16:48:46|  20.0|  0.0|STATS |IfcWindow                                                                   38
+2019-11-19 16:48:46|  20.0|  0.0|STATS |PropertySetDefinition                                                       19
+2019-11-19 16:48:46|  20.0|  0.0|STATS |==============================================================================
+2019-11-19 16:48:46|  20.0|  0.0|STATS |Total Features Read                                                       2597
+2019-11-19 16:48:46|  20.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-19 16:48:46|  20.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-19 16:48:46|  20.0|  0.0|STATS |                           Features Written Summary
+2019-11-19 16:48:46|  20.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-19 16:48:46|  20.0|  0.0|STATS |==============================================================================
+2019-11-19 16:48:46|  20.0|  0.0|STATS |Total Features Written                                                       0
+2019-11-19 16:48:46|  20.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-11-19 16:48:46|  20.0|  0.0|INFORM|Translation was SUCCESSFUL with 2 warning(s) (0 feature(s) output)
+2019-11-19 16:48:46|  20.0|  0.0|INFORM|FME Session Duration: 19.9 seconds. (CPU: 16.5s user, 3.5s system)
+2019-11-19 16:48:46|  20.0|  0.0|INFORM|END - ProcessID: 98340, peak process memory usage: 334876 kB, current process memory usage: 128308 kB
