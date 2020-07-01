@@ -14,6 +14,42 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+
+## Towards true 3D noise calculations
+
+![](img/3d_noise_software.png){:width="400px"}
+
+The current implementations of noise calculation software simplify the environment into cross sections and 2D calculations. Such simplifications were necessary at the times when these software were created in order to make the calculations computationally feasible. Since then both hardware and algorithms evolved, potentially opening the door toward true 3D noise calculations.
+
+The aim is to investigate how could we create a modern, efficient, true 3D noise calculation software, and if the added complexity is justified by the improved accuracy. Special attention needs to be given to make sure that noise experts are able to verify the correctness of the software.
+
+This is a software focused project, in which you can expect to explore the geometry of sound propagation, 3D computations, data structures, learn the details of the European noise assessment method (CNOSSOS-EU) and/or the Dutch method.
+
+This topic continues the work of the synthesis project *3D noise simulation based on advanced input data using automatically generated TINs* and is closely related to our research on [Automated reconstruction of 3D input data for noise studies](https://3d.bk.tudelft.nl/projects/noise3d/).
+
+Potentially in collaboration with [RIVM](https://www.rivm.nl/) and/or [RWS](https://www.rijkswaterstaat.nl/).
+
+**Contact:** [Balázs Dukai](http://balazsdukai.com/) and someone
+
+- - - 
+
+## How much detail is too much for 3D noise calculations?
+
+![](img/3d_noise_data.png){:width="400px"}
+
+People generally assume that more detail leads to higher accuracy, also in noise calculations. However, there is no clear consensus on what is sufficient or superfluous when it comes to the geometric detail of input data. This makes it difficult to create a standardized input data set for noise calculations. 
+
+The aim is to find out to what extent does the inclusion of more data detail improve the 3D noise calculations while staying computationally feasible. We are particularly interested in the geometric detail in terrain, buildings, ground types, bridges, noise barriers and any other object prescribed by the noise calculation method.
+
+This is a data driven project in which you can expect to run many noise calculations, explore and investigate data sets, create your own data sets, learn the details of the European noise assessment method (CNOSSOS-EU) and/or the Dutch method.
+
+This topic continues the work of the synthesis project *3D noise simulation based on advanced input data using automatically generated TINs* and is closely related to our research on [Automated reconstruction of 3D input data for noise studies](https://3d.bk.tudelft.nl/projects/noise3d/).
+
+Potentially in collaboration with [RIVM](https://www.rivm.nl/) and/or [RWS](https://www.rijkswaterstaat.nl/).
+
+**Contact:** [Balázs Dukai](http://balazsdukai.com/) and someone
+
+- - -
 ## Modelling wind flows around beach housing to promote dune formation for flood protection
 
 ‘Building with Nature’ is an innovative approach in coastal engineering & design, where natural forces are employed to improve flood protection. Along sandy shores, like the Netherlands, the dunes are the first line of defense; and they need sediment transport by the wind to grow along with sea level rise. However, more and more beaches are urbanized, affecting the sediment flow to the dunes. Computational fluid dynamic (CFD) simulations can give a better insight in the wind and turbulence around built objects, specifically to predict what urban configurations promote wind-driven sediment flow to the dunes. 
