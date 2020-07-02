@@ -47,4 +47,6 @@ Have a great summer all, you deserve it! 🤩😎
 </div>
 
 ![]({{ site.baseurl }}/img/2020/defense_lansky.jpg)
+![]({{ site.baseurl }}/img/2020/defense_vanliempt)
+![]({{ site.baseurl }}/img/2020/defense_yifang)
 <!-- ![]({{ site.baseurl }}/img/2020/defense_lansky) -->
