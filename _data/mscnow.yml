@@ -47,16 +47,6 @@
   name: Maria
   title: Comparison of remotely sensed and OpenStreetMap registered dams
   image: Moscholaki.png
-
-- surname: Oostwegel   
-  name: Laurens
-  title: Benchmarking the Microsoft Hololens as a device for emergency response
-  image: laurens.png
-
-- surname: Dahle   
-  name: Felix
-  title: Automatic change detection in maps using RGB images and point clouds
-  image: felix.png
  
 - surname: Wiersma  
   name: Gabriella

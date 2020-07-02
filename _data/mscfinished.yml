@@ -1,3 +1,17 @@
+- surname: Oostwegel   
+  name: Laurens
+  title: Benchmarking the Microsoft Hololens as a device for emergency response
+  year: 2020
+  image: laurens.png
+  link: https://3d.bk.tudelft.nl/pdfs/P5_LaurensOostwegel_4284887.pdf
+
+- surname: Dahle   
+  name: Felix
+  title: Automatic change detection in maps using RGB images and point clouds
+  year: 2020
+  image: felix.png
+  link: https://3d.bk.tudelft.nl/pdfs/P5_Dahle.pdf
+
 - surname: Mulder
   name: Amber
   title: Semantic Segmentation of RGB-Z Aerial Imagery Using Convolutional Neural Networks
