@@ -1,3 +1,11 @@
+- surname: Kaniouras
+  name: Pantelis
+  title: Road Detection from Remote Sensing Imagery
+  image: 2020_PantelisKaniouras.jpg
+  year: 2020
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A21fc20a8-455d-4583-9698-4fea04516f03?collection=education
+  github: https://github.com/ntelo007/road_detection_mtl
+  
 - surname: Oostwegel   
   name: Laurens
   title: Indoor positioning using augmented reality
@@ -68,14 +76,14 @@
 - surname: Ai
   name: Zhiwei
   title: Semantic Segmentation of Large-scale Urban Scenes from Point Clouds
-  image: understanding.jpg
+  image: 2019_ZhiweiAi.jpg
   year: 2019
   link: http://resolver.tudelft.nl/uuid:a9cedaac-42ae-4cb0-9c14-67bab8e96a6d
 
 - surname: Du  
   name: Shenglan
   title: Accurate, Detailed and Automatic Tree Modelling from Point Clouds
-  image: tree_ShenglanDu.jpg
+  image: 2019_ShenglanDu.jpg
   year: 2019
   link: http://resolver.tudelft.nl/uuid:675ee438-3dc9-43c8-a7a7-f3b8807c583f
   github: https://github.com/tudelft3d/adtree
@@ -119,14 +127,14 @@
 - surname: Tzounakos    
   name: Nikolaos 
   title: Robust interior-exterior classification for 3d models
-  image: interior_exterior.jpg
+  image: 2019_NikolaosTzounakos.jpg
   year: 2019
   link: http://resolver.tudelft.nl/uuid:9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b
   
 - surname: Bouzas   
   name: Vasileios
   title: Structure-aware building mesh simplification
-  image: simplification.jpg
+  image: 2019_VasileiosBouza.jpg
   year: 2019
   link: http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
 

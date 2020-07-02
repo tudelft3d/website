@@ -13,11 +13,6 @@
   title: Semantic 3D indoor scene modeling from a single image
   image: indoor.jpg
 
-- surname: Kaniouras
-  name: Pantelis
-  title: Road Detection from Remote Sensing Imagery
-  image: road.png
-
 - surname: Mastorakis
   name: Konstantinos
   title: Updating and versioning of 3D city models
