@@ -203,6 +203,8 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Postdoc
     - name: sdi-ams
       role: Postdoc
+    - name: i3s
+      role: Postdoc
   # phone: +31 15 27 85154
 
 - surname: Brink
@@ -275,6 +277,8 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Professor
     - name: 3dbag
       role: Professor
+    - name: i3s
+      role: Professor
 
 - surname: Nan
   name: Liangliang
@@ -293,3 +297,6 @@ Thomas built an engaging community around a widely used open source project, [If
   homepage: thomaskrijnen.com
   email: mail@thomaskrijnen.com
   twitter: aothms
+  projects:
+    - name: i3s
+      role: Postdoc

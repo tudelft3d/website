@@ -1,3 +1,11 @@
+- name: IFC/CityGML/I3S
+  description: Converting IFC to CityGML and I3S
+  funding: esri
+  fundingurl: https://www.esri.com/
+  webpage: /projects/i3s/
+  image: i3s.png
+  start: 2020
+
 - name: GeoBIM Building Permission
   description: Investigating the Automation of the Building Permission Issuing process through 3D GeoBIM information
   webpage: /projects/rotterdamgeobim_bp/
@@ -20,8 +28,6 @@
   fundingurl: https://leadingfellows.eu
   image: logoLF-2.png
   start: 2020
-  
-
   
 - name: GeoBIM benchmark
   description: Reference study on software support for open standards of city and building models
