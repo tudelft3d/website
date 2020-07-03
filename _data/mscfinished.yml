@@ -1,3 +1,11 @@
+- surname: Garg
+  name: Chirag
+  title: Indoor 3D Reconstruction from a Single Image
+  image: 2020_ChiragGarg.jpg
+  year: 2020
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A70f42eb0-241a-46a2-8bf8-87d89bea26b0?collection=education
+  github: https://github.com/cgarg-tud/GeomAwareLoss
+  
 - surname: Kaniouras
   name: Pantelis
   title: Road Detection from Remote Sensing Imagery
