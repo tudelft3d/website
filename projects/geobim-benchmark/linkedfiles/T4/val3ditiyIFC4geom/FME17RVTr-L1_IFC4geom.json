@@ -1,0 +1,1154 @@
+{
+  "all_errors": [
+    902
+  ],
+  "dataset_errors": [],
+  "features": [
+    {
+      "errors": [],
+      "id": "gml_e5278b56-c164-498d-8680-a88762c99ae5 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_e3db0823-3699-4613-9fbc-c2535d3bc19c ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_c51f21c5-5121-4d78-86c0-e8b28430f6f6 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_5083be4f-08e3-4b2f-b093-def9ffe896b3 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_2843df5c-ce38-4497-8f0a-c2ada62340b2 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_4d3507bf-17bd-4163-a48a-f50ae657ba7d ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_9191f783-4e7b-4a9d-ad78-d01f98ede6af ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_95fbcdc2-e118-4938-b1ad-20fe714a773a ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_1a3fece2-00e7-4f26-ab8f-f33b590c1f66 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_0a5d8362-ff7d-4cd2-a899-e9c86ea52843 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_57dabf31-6924-4b7c-978e-8ebc2aa089a7 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_42393bc1-cacc-4da8-81da-f9d304ee1447 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_385a57db-00cd-4253-a7bb-ac53e03fe508 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_05f57b95-eac5-45a6-9361-efffbbdc104b ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_ea8a2eda-33bc-4e49-b37a-a7de34c75827 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_ed56aaa0-bf92-4d78-ba5e-e5f42bd4dd57 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_83d7aeba-9f34-4401-9cb6-434561ddede6 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_08bba314-fdfe-45af-a074-42ba489f75b2 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_58134382-2d99-44f2-88b8-31dcb67d02f1 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_5c718c98-9058-4cb0-ba4e-33108daf3894 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_fdb6e1c7-a11f-4147-a4f6-3364461f114f ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_7a214ee8-89e4-4ff3-94b0-6388bd6e09d8 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_936b1d47-e882-430a-a78d-f0eebc975a39 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_836657cd-90fb-42f7-8233-e7ca8eec49b4 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_3a3aedb5-af37-41fc-82eb-1dc5b4f6b721 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_f1a99057-ecc5-4bae-a0e7-c998d5a72b70 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_c92b0b85-56b7-4b4f-b9a4-c10b691f81ee ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_ff4a1bf8-ac55-41a5-9b77-d1d70a9674a6 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_e3133c06-0d66-4edc-8b2a-14316e2bdaac ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_eec878d8-760b-4b60-928b-beb0b16c27b4 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_94bc60c0-eac7-4312-83b4-e1a20ed829a1 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_0679138b-58d9-45e7-9d4a-04e26427902d ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_eb835330-507c-48d4-862a-31dcbf69b6bc ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_dde4ab9f-d73d-4644-bca3-8f93f0c04afd ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_a3d1f76c-869e-4603-88f7-f02e674469ef ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_63500cf5-d659-4985-94a1-ae5738209716 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_8690de6e-1e46-4d9d-96b6-79b05bf4f775 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_4a976fd6-e545-4311-bd59-23daa783e05d ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_39e7c5c1-0a6c-4f22-b73e-9fde8917605c ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_8b10bb9e-5a63-4b2f-a89d-b4988ad4fcff ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_960de514-57af-4e1c-a394-c9c9bce2db84 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_e4a32552-1f51-40c1-83ff-2dac712512f3 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_e3f4cca9-4e1e-4056-94f7-e3eaaf949240 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_35024a4c-d73b-4465-a263-2405de609170 ",
+      "primitives": [
+        {
+          "errors": [
+            {
+              "code": 902,
+              "description": "EMPTY_PRIMITIVE",
+              "id": "",
+              "info": "empty Solid, contains no points and/or surfaces",
+              "type": "Error"
+            }
+          ],
+          "id": "MISSING_ID_0",
+          "numberfaces": 0,
+          "numbershells": 1,
+          "numbervertices": 0,
+          "type": "Solid",
+          "validity": false
+        }
+      ],
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "gml_aeeb0b06-07aa-4354-9a87-c1cd5466e6ce ",
+      "primitives": [
+        {
+          "id": "MISSING_ID_0",
+          "numberfaces": 12,
+          "numbervertices": 8,
+          "type": "MultiSurface",
+          "validity": true
+        }
+      ],
+      "type": "Building",
+      "validity": true
+    }
+  ],
+  "features_overview": [
+    {
+      "total": 45,
+      "type": "Building",
+      "valid": 1
+    }
+  ],
+  "input_file": "/var/www/geovalidation/val3dity/uploads/Ville-Pekka_Soini_-_T4_SpecificIFC4geometries_FME2017RVT_CityGML2_VSoini.gml",
+  "input_file_type": "CityGML",
+  "parameters": {
+    "overlap_tol": -1.0,
+    "planarity_d2p_tol": 0.01,
+    "planarity_n_tol": 20.0,
+    "snap_tol": 0.001
+  },
+  "primitives_overview": [
+    {
+      "total": 44,
+      "type": "Solid",
+      "valid": 0
+    },
+    {
+      "total": 1,
+      "type": "MultiSurface",
+      "valid": 1
+    }
+  ],
+  "time": "Thu Jul  2 11:31:19 2020 CEST",
+  "type": "val3dity_report",
+  "val3dity_version": "2.2.0",
+  "validity": false
+}
