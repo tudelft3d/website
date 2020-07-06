@@ -1,3 +1,11 @@
+- surname: van Liempt
+  name:  Jordi
+  title: "CityJSON: does (file) size matter?"
+  year: 2020
+  image: vanliempt.jpg
+  github: https://github.com/jliempt/CityJSON-does-file-size-matter-
+  link: https://repository.tudelft.nl/islandora/object/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education
+
 - surname: Zhao
   name: Yifang
   title: Outer Surface Extraction for Complex 3D Building Models
