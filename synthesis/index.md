@@ -26,6 +26,9 @@ permalink: /synthesis/
         {% if i.code %}
 		      <small><a href="{{ i.code }}"><i class="fab fa-github" title="code"></i></a></small>
         {% endif %}
+        {% if i.video %}
+          <small><a href="{{ i.video }}"><i class="fab fa-youtube" title="video"></i></a></small>
+        {% endif %}
         <h4>
         {% for j in i.students %}
         {{ j.name }}<br />
