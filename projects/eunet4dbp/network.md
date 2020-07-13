@@ -74,6 +74,14 @@ The researchers have experience on the topics of geographic information systems 
  
 The research being carried out in Geomatics Engineering Department focuses on creating a reformative framework including the use of digital building models (formatted in IFC, CityGML, CityJSON, etc.) for both building permit processes and 3D registration of property ownership as well as updating 3D digital twin city databases in Turkey.
 
+### [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/)
+
+NTNU is a university with main profile in science and technology. It has an international focus, with headquarters in Trondheim and campuses in Ålesund and Gjøvik.
+ 
+Use of BIM and digitalisataion is an expanding domain at Department of Civil and Environmental Engineering. We offer BIM related course at bachelor-, master- and PhD level.  We offer a 2 year mater program in Digital construction processes.
+
+People: [Eilif Hjelseth](https://www.ntnu.edu/employees/eilif.hjelseth)
+
 ### ...
 
 
