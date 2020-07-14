@@ -5,6 +5,12 @@
   image: vanliempt.jpg
   github: https://github.com/jliempt/CityJSON-does-file-size-matter-
   link: https://repository.tudelft.nl/islandora/object/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education
+  
+- surname: Wiersma  
+  name: Gabriella
+  title: Towards the linking of geospatial government data: A study on the semantic harmonisation between data from Dutch geo-registries
+  year: 2020
+  image: wiersma.png 
 
 - surname: Zhao
   name: Yifang
