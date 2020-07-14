@@ -14,8 +14,8 @@ layout: default
 	echo("$ git -C ".$repository_path." fetch\n");
 	system("git -C ".$repository_path." fetch 2>&1");
 
-	echo("$ git -C ".$repository_path." checkout origin/master\n");
-	system("git -C ".$repository_path." checkout origin/master 2>&1");
+	echo("$ git -C ".$repository_path." checkout origin/main\n");
+	system("git -C ".$repository_path." checkout origin/main 2>&1");
 ?>
 </code></pre>
 
