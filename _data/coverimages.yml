@@ -1,4 +1,11 @@
 # Projects
+- image: meshannotation_square.jpg
+  description: "Semantic 3D urban mesh benchmark"
+  webpage: /projects/meshannotation/
+
+- image: mesh2lod_square.jpg
+  description: "Automatic generation of semantic 3D city models from 3D textured meshes"
+  webpage: /projects/mesh2lod/
 
 - image: 3dbag_square.jpg
   description: "3D Basisregistratie Adressen en Gebouwen"

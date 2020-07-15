@@ -1,3 +1,11 @@
+- name: Semantic 3D urban mesh benchmark
+  description: Build benchmark data sets for semantic 3D urban meshes and an annotation platform.
+  webpage: /projects/meshannotation/
+  image: meshannotation_square.jpg
+  funding: EuroSDR
+  fundingurl: http://www.eurosdr.net/
+  start: 2019
+
 - name: IFC/CityGML/I3S
   description: Converting IFC to CityGML and I3S
   funding: esri
@@ -44,6 +52,14 @@
   funding: Korean gov
   fundingurl: http://www.inous.net/sub/Organization.html
   start: 2018
+
+  name: CityMesh2LoD
+  description: Automatic generation of semantic 3D city models from 3D textured meshes
+  webpage: /projects/mesh2lod/
+  image: mesh2lod_square.jpg
+  funding: CycloMedia
+  fundingurl: http://www.cyclomedia.com
+  start: 2017
 
 - name: 3D BAG
   description: 3D version of the BAG data set

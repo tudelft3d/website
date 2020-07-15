@@ -137,9 +137,14 @@ She works towards the **integration of multi-source spatial data**, in particula
   title: PhD candidate
   photo: weixiao.jpg
   homepage: 3d.bk.tudelft.nl/weixiao
+    projects:
+    - name: mesh2lod
+      role: PhD Candidate
+    - name: meshannotation
+      role: PhD Candidate
   description: "Topic: Automatic generation of semantic 3D city models from 3D textured meshes. Working in collaboration with [CycloMedia](https://www.cyclomedia.com)."
   email: w.gao-1@tudelft.nl
-  # phone: "+31 6 52046328"
+  # phone: "+31 6 4483248"
 
 
 - surname: Vitalis
@@ -230,6 +235,10 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Associate-prof.
     - name: inous
       role: Associate-prof.
+    - name: mesh2lod
+      role: Associate-prof.
+	- name: meshannotation
+      role: Associate-prof.
 
 
 - surname: Peters
@@ -279,12 +288,19 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Professor
     - name: i3s
       role: Professor
+	- name: meshannotation
+      role: Professor
 
 - surname: Nan
   name: Liangliang
   title: Assistant-prof.
   photo: liangliang.jpg
   homepage: 3d.bk.tudelft.nl/liangliang
+    projects:
+    - name: mesh2lod
+      role: Assistant-prof.
+	- name: meshannotation
+      role: Assistant-prof.
   email: liangliang.nan@tudelft.nl
 
 - surname: Krijnen
