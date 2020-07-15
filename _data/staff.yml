@@ -137,7 +137,7 @@ She works towards the **integration of multi-source spatial data**, in particula
   title: PhD candidate
   photo: weixiao.jpg
   homepage: 3d.bk.tudelft.nl/weixiao
-    projects:
+  projects:
     - name: mesh2lod
       role: PhD Candidate
     - name: meshannotation
@@ -296,7 +296,7 @@ She works towards the **integration of multi-source spatial data**, in particula
   title: Assistant-prof.
   photo: liangliang.jpg
   homepage: 3d.bk.tudelft.nl/liangliang
-    projects:
+  projects:
     - name: mesh2lod
       role: Assistant-prof.
 	- name: meshannotation
