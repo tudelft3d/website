@@ -45,9 +45,7 @@ This project has received funding from [EuroSDR](http://www.eurosdr.net/).
     {% include project_team.html project_name='meshannotation' %} 
 </div>
 
-<br> 
-<br> 
-
-Ziqian Ni <br> 
-Mels Smit <br>
-Charalampos Chatzidiakos <br>
+## Student Helper
+Ziqian Ni, assists in software development, from 2019-07 to 2019-09. <br> 
+Mels Smit, assists in mesh annotation, from 2020-07 to 2020-09. <br>
+Charalampos Chatzidiakos, assists in mesh annotation, from 2020-07 to 2020-09. <br>
