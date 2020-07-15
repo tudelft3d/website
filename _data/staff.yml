@@ -300,7 +300,7 @@ She works towards the **integration of multi-source spatial data**, in particula
     - name: mesh2lod
       role: Assistant-prof.
     - name: meshannotation
-      role: Assistant-prof.
+      role: Assistant-prof
   email: liangliang.nan@tudelft.nl
 
 - surname: Krijnen

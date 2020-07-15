@@ -45,6 +45,9 @@ This project has received funding from [EuroSDR](http://www.eurosdr.net/).
     {% include project_team.html project_name='meshannotation' %} 
 </div>
 
+<br> 
+<br> 
+
 Ziqian Ni <br> 
 Mels Smit <br>
 Charalampos Chatzidiakos <br>
