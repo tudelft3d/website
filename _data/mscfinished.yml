@@ -1,3 +1,12 @@
+
+- surname: Opsomer   
+  name: Aviva
+  title: Exploring the effects of void decks on urban ventilation in Singapore
+  year: 2020
+  link: http://resolver.tudelft.nl/uuid:97304da6-8938-48eb-8117-ca53321b1e34
+  image: Opsomer.jpg
+
+
 - surname: van Liempt
   name:  Jordi
   title: "CityJSON: does (file) size matter?"
@@ -10,18 +19,19 @@
   name: Gabriella
   title: "Towards the linking of geospatial government data: A study on the semantic harmonisation between data from Dutch geo-registries"
   year: 2020
-  image: wiersma.png 
+  link: http://resolver.tudelft.nl/uuid:f02e513c-bbb4-4b19-813b-4b5a062725d0
+  image: wiersma.jpg 
 
 - surname: Zhao
   name: Yifang
-  title: Outer Surface Extraction for Complex 3D Building Models
+  title: Outer surface extraction for complex 3D building models
   image: 2020_YifangZhao.jpg
   year: 2020
   link: https://repository.tudelft.nl/islandora/object/uuid%3Ab0dac42c-6d7a-4dbf-a11b-ce851d573862?collection=education 
   
 - surname: Garg
   name: Chirag
-  title: Indoor 3D Reconstruction from a Single Image
+  title: Indoor 3D reconstruction from a single image
   image: 2020_ChiragGarg.jpg
   year: 2020
   link: https://repository.tudelft.nl/islandora/object/uuid%3A70f42eb0-241a-46a2-8bf8-87d89bea26b0?collection=education
@@ -29,7 +39,7 @@
   
 - surname: Kaniouras
   name: Pantelis
-  title: Road Detection from Remote Sensing Imagery
+  title: Road detection from remote sensing imagery
   image: 2020_PantelisKaniouras.jpg
   year: 2020
   link: https://repository.tudelft.nl/islandora/object/uuid%3A21fc20a8-455d-4583-9698-4fea04516f03?collection=education
@@ -51,7 +61,7 @@
 
 - surname: Mulder
   name: Amber
-  title: Semantic Segmentation of RGB-Z Aerial Imagery Using Convolutional Neural Networks
+  title: Semantic segmentation of RGB-Z aerial imagery using convolutional neural networks
   image: amulder.jpeg
   year: 2020
   link: http://resolver.tudelft.nl/uuid:b936953b-4c73-4ce1-a897-7da4287ff79a
@@ -81,7 +91,7 @@
 
 - surname: Wu
   name: Teng
-  title: Visibility Analysis in a Point Cloud based on the Medial Axis Transform
+  title: Visibility analysis in a point cloud based on the medial axis transform
   image: teng.png
   year: 2019
   github: https://github.com/twut/geoflow-nodes

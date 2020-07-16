@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  X MSc theses defences!
+title:  10 new MSc theses defences!
 categories: news
 date: 2020-06-24 14:37
 ---
 
-We've recently had busy weeks with X students finishing their [MSc Geomatics](http://geomatics.tudelft.nl) theses with our group! 🎉🥳
+We've recently had busy weeks with 10 students finishing their [MSc Geomatics](http://geomatics.tudelft.nl) theses with our group! 🎉🥳
+
+Some were done at the university (we had to get dressed and go out the door, bizarre...) and some were done online.
 
 Research titles and links to the final results can be explored below, followed by photos of some very happy and relieved students.
 
@@ -17,7 +19,16 @@ Have a great summer all, you deserve it! 🤩😎
 
 <div class="row">
 {% for i in msc %}
-{% if i.surname == 'Lánský' or i.surname == 'Mulder' %}
+{% if i.surname == 'Lánský' 
+   or i.surname == 'Mulder' 
+   or i.surname == 'van Liempt' 
+   or i.surname == 'Wiersma' 
+   or i.surname == 'Zhao' 
+   or i.surname == 'Dahle' 
+   or i.surname == 'Oostwegel' 
+   or i.surname == 'Garg' 
+   or i.surname == 'Opsomer' 
+   or i.surname == 'Kaniouras' %}
 {% if i.year == 2020 %}
   <div class="col-sm-4 col-xs-6">
     <div class="thumbnail">
@@ -47,6 +58,6 @@ Have a great summer all, you deserve it! 🤩😎
 </div>
 
 ![]({{ site.baseurl }}/img/2020/defense_lansky.jpg)
-![]({{ site.baseurl }}/img/2020/defense_vanliempt)
-![]({{ site.baseurl }}/img/2020/defense_yifang)
+![]({{ site.baseurl }}/img/2020/defense_vanliempt.jpg)
+![]({{ site.baseurl }}/img/2020/defense_yifang.jpg)
 <!-- ![]({{ site.baseurl }}/img/2020/defense_lansky) -->
