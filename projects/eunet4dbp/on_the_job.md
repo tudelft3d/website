@@ -73,7 +73,7 @@ Third part: a stimulating and fruitful brainstorming about **ambitions**, **requ
 
 The three pillars for the issue were considered: **Technology - Process - Rules and requirements**.
 
-The results (to be further processed and published soon) will be the solid base to plan activities and next steps.
+The [results](/projects/eunet4dbp/img/2-Digital-29-05-2020/Results.pdf) (to be further processed and published soon) will be the solid base to plan activities and next steps.
 
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/2-Digital-29-05-2020/wordcloudTechnology.png" }}" style="max-height: 300px"></div>
