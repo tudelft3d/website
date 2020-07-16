@@ -2,7 +2,7 @@
 layout: post
 title:  10 new MSc theses defences!
 categories: news
-date: 2020-06-24 14:37
+date: 2020-07-16 14:19
 ---
 
 We've recently had busy weeks with 10 students finishing their [MSc Geomatics](http://geomatics.tudelft.nl) theses with our group! 🎉🥳
