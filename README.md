@@ -5,7 +5,7 @@
 
 Website for the [3D geoinformation group](http://3dgeoinfo.bk.tudelft.nl) at [TU Delft](http://www.tudelft.nl). Uses [Jekyll](http://www.jekyllrb.com) to generate static pages.
 
-If you change something, push it to the repository and in your browser go to `https://3d.bk.tudelft.nl/update/` to update the version on the server. *Never* run this file directly. If you must do so, use the Jekyll generated version that will be put inside the _site folder.
+If you change something, push it to the repository. The website will be updated after ~5 minutes. If you need to update the website manually, ask around for the *secret* update script.
 
 
 ## References
