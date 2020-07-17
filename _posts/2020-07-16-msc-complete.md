@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  10 new MSc theses defences!
+title:  10 new MSc thesis defenses!
 categories: news
 date: 2020-07-16 14:19
 ---
