@@ -46,6 +46,9 @@
 - research_line: [3]
   description: "Presented paper: \"GeoBIM Benchmark 2019: Intermediate Results\" at the 2nd International IAG Workshop on BIM and GIS Integration."
   date: 2019-09-25
+- research_line: [1, 2]
+  description: "The first stable version of our <a href=\"https://plugins.qgis.org/plugins/CityJSON-loader/\">CityJSON loader</a> plugin for QGIS is officially accepted in the QGIS plugins' repository."
+  date: 2019-08-07
 - research_line: [2]
   description: "Published paper: \"Incorporating Topological Representation in 3D City Models\""
   date: 2019-08-02
