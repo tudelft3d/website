@@ -184,7 +184,7 @@ class TextParser < Parslet::Parser
 	rule(:word) { (pseudoletter | bracketedtext).repeat(1).as(:word) }
 	rule(:pseudoletter) { specialletter.as(:specialletter) | letter.as(:letter) }
 	rule(:pseudoletterpreservecase) { specialletter.as(:specialletterpreservecase) | letter.as(:letterpreservecase) }
-	rule(:letter) { match['a-zA-Z0-9\-_:;+=/.*,?~&()%#'] }
+	rule(:letter) { match['a-zA-Zα-ωΑ-ΩἸί0-9\-_:;+=/.*,?~&()%#»'] }
 	rule(:bracketedletter) { str("{") >> letter >> str("}") }
 	rule(:specialletter) { speciallyencodedletter | escapedletter | letterwithmodifier }
 	rule(:speciallyencodedletter) { str('---') | str('--') | str('``') | str('`') | str('\'\'') | str('\'') }
