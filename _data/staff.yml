@@ -40,6 +40,14 @@
   photo: jordi.jpg
   email: j.n.h.vanliempt@tudelft.nl
 
+- surname: Du
+  name: Shenglan
+  title: PhD candidate
+  photo: shenglan.png
+  homepage: 3d.bk.tudelft.nl/shenglandu
+  #email: 
+  description: "My interests involve machine learning, urban modeling, and 3D geodata analysis, and 3D understanding."
+
 - surname: Huang
   name: Jin
   title: PhD candidate
