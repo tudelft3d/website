@@ -48,6 +48,14 @@
   #email: 
   description: "My interests involve machine learning, urban modeling, and 3D geodata analysis, and 3D understanding."
 
+- surname: Pađen
+  name: Ivan
+  title: PhD candidate
+  photo: paden.png
+  homepage: 3d.bk.tudelft.nl/ipaden
+  email: i.paden@tudelft.nl 
+  description: "Topic: the automation of urban flow simulations with 3D city models"
+
 - surname: Huang
   name: Jin
   title: PhD candidate
