@@ -34,6 +34,12 @@
   email: t.wu@tudelft.nl
   # description: "Topic: 3D reconstruction and point cloud processing"
 
+- surname: van Liempt
+  name: Jordi
+  title: Research software engineer
+  photo: jordi.jpg
+  email: j.n.h.vanliempt@tudelft.nl
+
 - surname: Huang
   name: Jin
   title: PhD candidate
