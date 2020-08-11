@@ -9,7 +9,7 @@ date: 2020-08-11 09:40
   <tr>
     <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/shenglan.png" | prepend: site.baseurl }}"></td>
     <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/jordi.jpg" | prepend: site.baseurl }}"></td>
-    <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/paden.png" | prepend: site.baseurl }}"></td>
+    <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/paden.jpg" | prepend: site.baseurl }}"></td>
   </tr>
  </table>
 <br>
