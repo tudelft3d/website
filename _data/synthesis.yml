@@ -11,6 +11,18 @@
   video: https://www.youtube.com/watch?v=KCOMRW0mWrE
   img: 2020_ahn3.jpg
 
+- title:  3D noise simulation
+  year: 2020
+  students:
+    - name: Constatijn Dinklo 
+    - name: Denis Gianelli
+    - name: Laurens van Rijssel 
+    - name: Maarit Prusti
+    - name: Nadine Hobeika 
+  report: https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf
+  code: https://github.com/tudelft3d/geo1101.2020.3dnoise
+  video: https://www.youtube.com/channel/UCaV2nzwMT3JmuDZCTm-00TQ
+  img: 2020_noise.jpg
 
 - title: Urban Horizon
   year: 2018
@@ -43,7 +55,7 @@
     - name: Konstantinos Mastorakis
     - name: Wessel de Jongh
     - name: Giulia Ceccarelli
-    - name: Imke Lánský
+    - name: Imke Lánský
     - name: Jinglan Li
   report: https://3d.bk.tudelft.nl/pdfs/synthesis/2019_airquality_report.pdf
   img: 2019_airquality.png
