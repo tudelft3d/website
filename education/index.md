@@ -8,6 +8,7 @@ permalink: /education/
 
 <h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in the 2019-2020 academic year</h2>
 
+  * [GEO1001](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52685): Mathematics & Sensing Technologies for Geomatics <a href="https://3d.bk.tudelft.nl/courses/geo1001/"><i class="fas fa-home"></i> (open course)</a>
   * [GEO1002](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48846): Geographical information systems & cartography
   * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49099): 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i> (open course)</a>
   * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49105): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i> (open course)</a>
@@ -16,16 +17,11 @@ permalink: /education/
   * [GEO2010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49107): Thesis preparation
   * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49106): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
   * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49111): Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
-  * [GEO5013](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50539): 3D city modelling for urban applications
+  <!-- * [GEO5013](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=50539): 3D city modelling for urban applications -->
+  * [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747): Geomatics as support for energy applications
 
 <h2>Future changes</h2>
 
-New course:
-  * [GEO1001](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52685): Sensing technologies and mathematics for Geomatics
-
-GEO5013: 3D city modelling for urban applications is no longer taught.
-Its contents are split into:
-  * [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747): Geomatics as support for energy applications (from the 2020-2021 academic year)
   * GEO5015: Modelling wind and dispersion in urban environments (from the 2021-2022 academic year)
 
 <h2>Other courses we are teaching</h2>
