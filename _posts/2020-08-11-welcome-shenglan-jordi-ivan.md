@@ -13,7 +13,6 @@ date: 2020-08-11 09:40
   </tr>
  </table>
 <br>
-
 Shenglan Du and Ivan Pađen have just joined our research group as PhD students, and Jordi van Liempt as a researcher.
 
 Shenglan's interests involve machine learning, urban modeling, and 3D geodata analysis, and 3D understanding. She will be working on 3D understanding and modeling based on AI, part of the [3DUU lab](https://www.tudelft.nl/en/ai/3duu/).
