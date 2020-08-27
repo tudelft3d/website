@@ -239,8 +239,14 @@
   start: 2017-09-04
   end: 2017-09-08
 
-- name: XXIVth ISPRS Congress (postponed)
-  url: http://www.isprs2020-nice.science
+- name: XXIVth ISPRS Congress (virtual event)
+  url: http://www.isprs2020-nice.com/
+  place: online
+  start: 2020-08-31
+  end: 2020-09-02
+
+- name: XXIVth ISPRS Congress (postponed in person event)
+  url: http://www.isprs2020-nice.com/
   place: Nice, France
   start: 2021-07-04
   end: 2021-07-10
