@@ -30,7 +30,7 @@ Our research funding mostly comes from the following organisations:
 <section id="people">
   <h2>Staff</h2>
 
-  {% assign members = site.data.staff | sort: 'surname' %}
+  {% assign members = site.data.staff | sort_natural: 'surname' %}
 
   <div class="row">
     {% for member in members %}
