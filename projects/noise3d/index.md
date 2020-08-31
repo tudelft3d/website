@@ -25,8 +25,10 @@ The aim of this development is on the one hand improving efficiency (once acquir
 
 In 2017 and 2018, we have developed a first version of the workflow which automatically generates necessary 3D data about buildings, the noise reduction of the land use and the height of the terrain from the BAG, BGT and point clouds.
 The noise consultancy company DGMR has tested these files in their GeoMilieu noise simulation software. For this test, DGMR replaced the input files from a recently performed noise study with our files.
-This showed that the automated generated data achieve the same quality of the (partly) interactively generated input data.\
-The 0.2 version of the data has been published in spring 2019.\
+This showed that the automated generated data achieve the same quality of the (partly) interactively generated input data.
+
+The 0.2 version of the data has been published in spring 2019.
+
 The 0.3 version of the data has been published in spring 2020 and is available for download [here]({{ "/opendata/noise3d/en.html" | prepend: site.baseurl }}).
 
 ## Further Development
