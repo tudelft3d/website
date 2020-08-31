@@ -46,7 +46,7 @@ permalink: /3dtalks/
       <td style="white-space: nowrap;">{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      <td>{{ i.room }}</td>
+      <td>{{ i.room | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td style="white-space: nowrap;">{{ i.time }}</td>
     </tr>
   {% endif %}  
