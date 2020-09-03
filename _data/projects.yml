@@ -21,6 +21,8 @@
   fundingurl: https://www.rotterdam.nl/english/
   image: rotterdamBP.png
   start: 2019
+  end: 2020
+  finished: true
   
 - name: European network for Digital Building permission project
   description: International collaboration project to address the digitization of planning permits.
@@ -44,6 +46,8 @@
   funding: ISPRS + EuroSDR
   fundingurl: http://www.isprs.org
   start: 2019
+  end: 2020
+  finished: true
 
 - name: iNous
   description: Building an Eco-System for Indoor Spatial Information
@@ -76,6 +80,7 @@
   funding: EuroSDR + 11 NMAs
   fundingurl: http://www.eurosdr.net
   start: 2017
+  end: 2020
 
 - name: Smart data integration for urban applications
   description: 3D Data interoperability for smart cities

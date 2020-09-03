@@ -45,11 +45,14 @@ Noardo, F., Ellul, C., Harrie, L., Overland, I., Shariat, M., Arroyo Ohori, K., 
 
 Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (2019). [EuroSDR GeoBIM project: a study in Europe on how to use the potentials of BIM and geo data in practice](https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019). 3DGeoInfo2019 Conference, Singapore - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences IV-4(W8) 2019. https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019
 
+
 - - -
 
 ## Project outcomes
 
-[**Integrated workflow using GeoBIM information for building permit process**.](/projects/eurosdrgeobim/WorkflowDescription.pdf) Workflow proposed for using GeoBIM information for the “Building permits issuing” use case, as resulting from the EuroSDR GeoBIM project. Some studies were used as base for the development of this workflow (Noardo et al., 2019; Noardo et al., 2019a - *Please, cite also one of them when referring to this*) together with the working sessions with the participation of all the partners during the project meetings. Moreover, it was reviewed later within Municipalities (e.g. Rotterdam, Den Haag, Amsterdam, some municipalities in Sweden).
+Noardo, Francesca, Behan, Avril, Bucher, Benedicte, Devys, Emmanuel, Ellul, Claire, Harrie, Lars, … Stoter, Jantien. (2020, July 16). [EuroSDR GeoBIM project - Integrated Workflow using GeoBIM information for building permit process (Version 1).](http://doi.org/10.5281/zenodo.3948493) Zenodo. http://doi.org/10.5281/zenodo.3948493
+
+Workflow proposed for using GeoBIM information for the “Building permits issuing” use case, as resulting from the EuroSDR GeoBIM project. Some studies were used as base for the development of this workflow (Noardo et al., 2019; Noardo et al., 2019a - *Please, cite also one of them when referring to this*) together with the working sessions with the participation of all the partners during the project meetings. Moreover, it was reviewed later within Municipalities (e.g. Rotterdam, Den Haag, Amsterdam, some municipalities in Sweden).
 
 [Presentation explaining the workflow and the use of GeoBIM for Planning/Building Permits](/projects/eurosdrgeobim/GeoBIMBuildingPermits.pptx) by L. Harrie, C. Ellul, EuroSDR Eduserve course, [GeoBIM - Basic Principles and Use Cases](http://www.eurosdr.net/sites/default/files/images/inline/eduserv2020_geobim.pdf)
 
