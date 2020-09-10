@@ -36,9 +36,9 @@ map: true
       <div class="row">
         <div class="col-xs-4">
           <div style="font-size: larger;">
-            <a href="https://twitter.com/tudelft3d"><i class="fab fa-twitter"></i> Twitter</a><br /> 
-            <a href="https://www.youtube.com/channel/UCbK2N4c3QyhGLvjx1Xx2lRw"><i class="fab fa-youtube"></i> Youtube</a><br /> 
-            <a href="https://github.com/tudelft3d"><i class="fab fa-github"></i> Github</a>
+            <a href="https://twitter.com/tudelft3d"><i class="fab fa-twitter fa-fw"></i> Twitter</a><br /> 
+            <a href="https://www.youtube.com/channel/UCbK2N4c3QyhGLvjx1Xx2lRw"><i class="fab fa-youtube fa-fw"></i> Youtube</a><br /> 
+            <a href="https://github.com/tudelft3d"><i class="fab fa-github fa-fw"></i> Github</a>
           </div>
         </div>
         <div class="col-xs-8">
