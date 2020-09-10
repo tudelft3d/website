@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GeoBIM for Building Permission in Rotterdam
+title: GeoBIM for Building Permit in Rotterdam
 permalink: /projects/rotterdamgeobim_bp/
 ---
 
@@ -54,6 +54,20 @@ Started October 2019
 
 - - -
 
+## Publications
+
+Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Tezerdi, H., and Stoter, J.: [GEOBIM FOR DIGITAL BUILDING PERMIT PROCESS: LEARNING FROM A CASE STUDY IN ROTTERDAM](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/VI-4-W1-2020/151/2020/), ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., VI-4/W1-2020, 151–158, https://doi.org/10.5194/isprs-annals-VI-4-W1-2020-151-2020, 2020.
+
+
+- - -
+
+## Presentations
+
+### Presentation to the 3D GeoInfo 2020 conference - BIM GIS Integration Workshop, 8th September 2020.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/upUlaOkI2-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- - -
 
 
 <div class="row">
