@@ -1,3 +1,6 @@
+- research_line: [1, 2, 3]
+  description: "Presented paper: \"CityJSON + web = ninja\" at the 2020 3D GeoInfo Conference."
+  date: 2020-09-10
 - research_line: [1]
   description: "Utilised as one of the references for the Dutch network modelling proposal for roads, \"Conceptueel model netwerken\" by the Ministerie van Infrastructuur en Waterstaat"
   date: 2020-07-03
