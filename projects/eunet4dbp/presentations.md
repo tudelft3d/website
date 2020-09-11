@@ -21,4 +21,9 @@ Image by [Michal Jarmoluk](https://pixabay.com/users/jarmoluk-143740/?utm_source
 
 - - -
 
-### Presentations about the network will come soon..
+### Presentation of the paper "Integrating Expertise, Goals and Data for Digital Building Permits - the EUnet4DBP".
+
+By Giada Malacarne - [3D Geoinfo 2020 Conference](https://www.ucl.ac.uk/3dgeoinfo/) *11th September 2020*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jcRu-pse2Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

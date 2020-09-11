@@ -22,7 +22,7 @@ Image by [diapicard](https://pixabay.com/users/diapicard-1729295/?utm_source=lin
 
 - - -
 
-### Initial outcomes will be available soon..
+### Publications
 
 
-Here, all the outcomes of the network activities will be shared (publications, tools, guidelines and more).
+Noardo, F., Malacarne, G., Mastrolembo Ventura, S., Tagliabue, L. C., Ciribini, A. L. C., Ellul, C., Guler, D., Harrie, L., Senger, L., Waha, A., and Stoter, J.: [INTEGRATING EXPERTISES AND AMBITIONS FOR DATA-DRIVEN DIGITAL BUILDING PERMITS – THE EUNET4DBP](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIV-4-W1-2020/103/2020/), Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIV-4/W1-2020, 103–110, https://doi.org/10.5194/isprs-archives-XLIV-4-W1-2020-103-2020, 2020.
