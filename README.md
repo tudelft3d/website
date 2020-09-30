@@ -1,4 +1,4 @@
-# website
+# Website
 
 ![jekyll build](https://github.com/tudelft3d/website/workflows/jekyll%20build/badge.svg)
 
@@ -26,7 +26,7 @@ For professional publications (such as GIM International) please use `@misc`.
 
 ## Code, projects, homepage images, etc.
 
-Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related mages should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
+Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related images should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
 
 
 ## Adding blog/news posts
