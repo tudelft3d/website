@@ -1,4 +1,4 @@
-# website
+# Website
 
 ![jekyll build](https://github.com/tudelft3d/website/workflows/jekyll%20build/badge.svg)
 
@@ -48,7 +48,7 @@ To write markdown and see right-away the result, use that very handy [website](h
 To add images, you must them in the folder `/img/2015/myimg.jpg` and then add them with 
 
 ```
-Bla bla bla 
+Bla bla bla.....
 
 ![]({{ site.baseurl }}/img/2015/myimg.jpg)
 ```
