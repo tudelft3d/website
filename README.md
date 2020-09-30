@@ -8,7 +8,7 @@ Website for the [3D geoinformation group](http://3dgeoinfo.bk.tudelft.nl) at [TU
 If you change something, push it to the repository. The website will be updated after ~5 minutes. If you need to update the website manually, ask around for the *secret* update script.
 
 
-## References
+## References About
 
 The first author of a paper should put the paper in the `all.bib` file in the `pubs/` folder. 
 
@@ -24,12 +24,12 @@ The following fields can be used:
 For professional publications (such as GIM International) please use `@misc`. 
 
 
-## Code, projects, homepage images, etc.
+## Codes, Projects, Homepage Images, etc.
 
 Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related mages should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
 
 
-## Adding blog/news posts
+## Adding Blog/news Posts
 
 Each blog/news post is a [Markdown](http://daringfireball.net/projects/markdown/syntax) file in `_posts`. When creating one, just copy the structure of the other ones, the naming convention for the files must be followed and each file should have a header of this form:
 
