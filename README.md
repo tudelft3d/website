@@ -26,7 +26,7 @@ For professional publications (such as GIM International) please use `@misc`.
 
 ## Code, projects, homepage images, etc.
 
-Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related mages should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
+Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related images should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
 
 
 ## Adding blog/news posts
@@ -52,3 +52,7 @@ Bla bla bla
 
 ![]({{ site.baseurl }}/img/2015/myimg.jpg)
 ```
+
+## Contributing to repository
+
+This is a research group website. So, in general we're not looking for external contributions. However, if you spot something serious, please contact us or post an issue. Spammy pull requests (eg changing formatting on this README) will be closed, marked as invalid/spam and users reported for abuse.
