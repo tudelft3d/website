@@ -55,4 +55,6 @@ Bla bla bla
 
 ## Contributing to repository
 
-This is a research group website. So, in general we're not looking for external contributions. However, if you spot something serious, please contact us or post an issue. Spammy pull requests (eg changing formatting on this README) will be closed, marked as invalid/spam and users reported for abuse.
+This is a research group website. So, in general we're not looking for external contributions. However, if you spot something serious, please contact us or post an issue.
+
+Clearly spammy pull requests (eg changing formatting on this README) will be closed, marked as invalid/spam (no T-shirt for you!) and users reported for abuse.
