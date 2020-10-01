@@ -1,4 +1,4 @@
-# website
+# website:
 
 ![jekyll build](https://github.com/tudelft3d/website/workflows/jekyll%20build/badge.svg)
 
@@ -8,7 +8,7 @@ Website for the [3D geoinformation group](http://3dgeoinfo.bk.tudelft.nl) at [TU
 If you change something, push it to the repository. The website will be updated after ~5 minutes. If you need to update the website manually, ask around for the *secret* update script.
 
 
-## References
+## References:
 
 The first author of a paper should put the paper in the `all.bib` file in the `pubs/` folder. 
 
@@ -26,10 +26,10 @@ For professional publications (such as GIM International) please use `@misc`.
 
 ## Code, projects, homepage images, etc.
 
-Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related mages should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
+Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related images should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
 
 
-## Adding blog/news posts
+## Adding blog/news posts:
 
 Each blog/news post is a [Markdown](http://daringfireball.net/projects/markdown/syntax) file in `_posts`. When creating one, just copy the structure of the other ones, the naming convention for the files must be followed and each file should have a header of this form:
 
@@ -45,7 +45,7 @@ author: John Smith
 
 To write markdown and see right-away the result, use that very handy [website](http://dillinger.io). 
 
-To add images, you must them in the folder `/img/2015/myimg.jpg` and then add them with 
+To add images, you must have them in the folder `/img/2015/myimg.jpg` and then add them with 
 
 ```
 Bla bla bla 
