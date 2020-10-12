@@ -57,6 +57,6 @@ If you agree on the roles and expected contributions listed in the previous FAQ 
 
 ## Contacts
 
-To have more information, you can contact [Francesca Noardo](f.noardo@tudelft.nl) or [Giada Malacarne](giada.malacarne@frunhofer.it)
+To have more information, you can contact [Francesca Noardo](mailto:f.noardo@tudelft.nl) or [Giada Malacarne](mailto:giada.malacarne@frunhofer.it)
 
 ## ...
