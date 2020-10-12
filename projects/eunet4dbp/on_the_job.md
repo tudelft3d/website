@@ -21,12 +21,21 @@ Image by [Tumisu](https://pixabay.com/users/Tumisu-148124/?utm_source=link-attri
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/2-Digital-29-05-2020/Hi.png" }}" style="max-height: 400px"></div>
 </div>
 
+
 - - -
 
 * Table of Content
 {:toc}
 
 - - -
+
+
+### Expected outcomes
+
+As a first step we will share our knowledge about the topic and the available tools we know, trying to integrate them in a seamless framework and workflow and understand where the main gaps are, to be addressed in future research projects.
+
+The network is supposed to produce mainly open and possibly flexible solutions, to be shared among the partners.
+
 
 ## Digital Kick-off Meeting, 29/05/2020
 

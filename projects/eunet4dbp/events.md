@@ -26,18 +26,66 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 
 **Check the website and [subscribe to the newsletter](https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermission) to stay informed**
 
-## International Workshop on Digital Building Permit - Delft (The Netherlands), 25-26 March 2021
+## I EUnet4DBP International workshop on Digital Building Permit
 
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/Delft2021.png" }}" style="max-height: 500px"></div>
+
+### Purposes of the workshop
+
+- Meet an intersectoral and multidisciplinary audience and not-only-scientific committee dealing with the digital building permit topic
+
+- Present and describe valuable work about the digital building permit;
+
+- Getting and exchange constructive feedbacks from the reviewers and the audience.
+
+### Venue and programme
+
+**Dates:** Thu 25th - Fri 26th March 2021
+
+**Venue:** It will be a digital event
+
+-----
+
+### Submit your work
+
+Registration forms and submission platforms will be available soon.
+
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/SubmTable.png" }}" style="max-height: 500px"></div>
   
-Workshop about research, policies and practice in the Digital Building Permits domain.
+  
+  
+As you could notice in the table, given the great diversity of allowed contributions, an abstract will be the object of the submission, containing in addition the links to self-archived materials (papers, code, data and so on).
 
-*A call for presentation will be advertised soon.*
+Papers can be presented to the conference either if already published by a journal (preferably open access) or stored within open preprint repositories (e.g. arxive.org).
 
-Full possibility of both “in presence” and online meeting for registered people.
+The object of the submissions will be accessible to external public (hopefully participating to the event) to read and access and possibly provide review, comments and feedback.
+
+
+###  “Not only Scientific” committee
+
+Each presented work will be reviewed by people in different kinds of affiliations (to raise different kinds of questions).
+
+Reviewers are supposed to be present to the presentation of the reviewed work and prepare questions to feed the discussion at the event.
+
+
+### Publication possibilities
 
 
 
+Publication of the abstracts in a book (e.g. EuroSDR report), in order to have space also for non-research material, which would be a substantial part here.
+
+If a sufficient number of high-quality original papers will be presented (i.e. not yet published in a journal but only as a pre-print), we'll explore the possibility for a Journal Special Issue of selected works.
+
+[If the Special Issue won't be realized, this wouldn't prevent the authors to publish the pre-print works elsewhere (after using the event to promote their work and get feedback).]
+
+The idea is to avoid the dilemma:
+*“Do I waste this very good work for a conference?" vs "Is it worth to go to a conference if there won’t be follow-up publications?”*
+
+
+### Registration forms and submission platforms will be available soon!
+
+- - -
+- - -
 
 # Future
 
