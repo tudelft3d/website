@@ -540,3 +540,27 @@ The aim of this project is to implement an import process for CityJSON in Unity 
 Programming knowledge in C# (for Unity) or C++ (for Unreal Engine) is required, although scripting and scene manipulation could be done with Python or the engine's graphical tools.
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
+
+---
+
+## Building floor count determination by Convolutional Neural Network
+
+![](https://3d.bk.tudelft.nl/ken/temp/floors-counting.jpg){:width="300px"}
+
+Accurately knowing the number of floors of a building is an important factor when assessing the built environment. However, there is no accurate global dataset that contains this information. Simple techniques like diving the total building height by an average height per floor are sometimes used, but this obtains merely an approximation.
+
+In collaboration with the company [Superworld](https://www.superworld.nl), the idea is to develop a method that uses images (eg Google Street View) and a base map (eg BAG in the Netherlands) to automatically derive the number of floors in a building using Convolutional Neural Networks (CNN). 
+
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
+
+---
+
+## Creation of a sample dataset of construction of additional floors on top of existing building
+
+![](https://3d.bk.tudelft.nl/ken/temp/floors-addition.jpg){:width="300px"}
+
+Additional floors are sometimes added to buildings for various reasons, such as redensification. However, this is a complex process subject to technical and legal issues.
+
+In collaboration with the company [Superworld](https://www.superworld.nl), the idea is to develop a method that uses publicly available datasets (eg BAG) and building permit applications in order to create a reference dataset containing all buildings where a vertical extension or a construction on top of an existing building have been conducted. Such a dataset can then be used to give a confidence factor for the feasibility of an extension to an existing building.
+
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
