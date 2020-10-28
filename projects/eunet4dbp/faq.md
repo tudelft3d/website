@@ -28,6 +28,9 @@ Image by [Arek Socha](https://pixabay.com/users/qimono-1962238/?utm_source=link-
 
 People working towards the same aims, in line with the interests and commitments of the network.
 
+People from academia as well as from practice and companies or governmental and public entities are welcome.
+
+
 ## What are the **advantages** of joining the EUnet4DBP?
 
 - Collaboration with diverse actors and stakeholders to integrate the needed expertise

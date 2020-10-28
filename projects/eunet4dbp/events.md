@@ -44,6 +44,14 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 
 **Venue:** It will be a digital event
 
+### Organizers
+
+Francesca Noardo (3D geoinfo - Delft University of Technology) - [f.noardo@tudelft.nl](mailto:f.noardo@tudelft.nl)
+
+Giada Malacarne (Fraunhofer Italy)
+
+Silvia Mastrolembo Ventura (Università di Brescia)
+
 -----
 
 ### Submit your work
@@ -82,7 +90,12 @@ The idea is to avoid the dilemma:
 *“Do I waste this very good work for a conference?" vs "Is it worth to go to a conference if there won’t be follow-up publications?”*
 
 
-### Registration forms and submission platforms will be available soon!
+### [> > > > Register here your attendance to the event < < < <](https://tudelft3d.typeform.com/to/K4jC66Tr)
+
+### [> > > > > Submit your work here < < < < <]() 
+
+## Deadline: 8th January 2021
+
 
 - - -
 - - -
