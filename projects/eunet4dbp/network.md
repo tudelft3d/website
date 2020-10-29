@@ -212,7 +212,7 @@ The State of Geneva manage the Territory of Geneva and the Building Permit instr
 
 ####  ...
 
-### Private companies and professionals
+## Private companies and professionals
 
 #### **Cogital (UK)**
 
@@ -250,7 +250,7 @@ The connection of an automated CityXML to IFC and vice versa will open a series 
 
 #### Matteo Mandrile (Italy)
 
-### Supporting organizations
+## Supporting organizations
 
 #### [EuroSDR](http://www.eurosdr.net)
 
