@@ -30,6 +30,8 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/Delft2021.png" }}" style="max-height: 500px"></div>
 
+.
+
 ### Purposes of the workshop
 
 - Meet an intersectoral and multidisciplinary audience and not-only-scientific committee dealing with the digital building permit topic
@@ -54,14 +56,14 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 -----
 
-### Submit your work
+### [Submit](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) your work
 
-Registration forms and submission platforms will be available soon.
 
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/SubmTable.png" }}" style="max-height: 500px"></div>
   
   
-  
+.
+
 As you could notice in the table, given the great diversity of allowed contributions, an abstract will be the object of the submission, containing in addition the links to self-archived materials (papers, code, data and so on).
 
 Papers can be presented to the conference either if already published by a journal (preferably open access) or stored within open preprint repositories (e.g. arxive.org).
@@ -92,9 +94,9 @@ The idea is to avoid the dilemma:
 
 ### [> > > > Register here your attendance to the event < < < <](https://tudelft3d.typeform.com/to/K4jC66Tr)
 
-### [> > > > > Submit your work here < < < < <]() 
+### [> > > > > Submit your work here < < < < <](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) 
 
-## Deadline: 8th January 2021
+### Deadline: 8th January 2021
 
 
 - - -
