@@ -58,6 +58,8 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 ### [Submit](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) your work
 
+#### Please, **remember to indicate in the abstract** what kind of contribution you intend to submit:
+
 
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/SubmTable.png" }}" style="max-height: 500px"></div>
   
