@@ -27,3 +27,9 @@ By Giada Malacarne - [3D Geoinfo 2020 Conference](https://www.ucl.ac.uk/3dgeoinf
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jcRu-pse2Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+### Presentation of the "European Network for Digital Building Permit (EUnet4DBP)".
+
+By Francesca Noardo - [buildingSMART Virtual Summit 2020 - Regulatory Room Session 2 - "Show and Tell"](https://summit.buildingsmart.org/s/virtual-summit/home) *2nd November 2020*
+
+<script async class="speakerdeck-embed" data-id="bb50242e06e64144a1d1a2ac449ee3f2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
