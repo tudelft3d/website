@@ -5,13 +5,23 @@ permalink: /about/
 map: true
 ---
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>We are aware that the correct name is "Faculty of Architecture and the Built Environment". We swapped the names has a silent protest against the fact that many at the faculty omit the "and the Built Environment" part, and that this reflects little attention that is spent on non-architecture research groups and projects.</p>
+    </li>
+  </ol>
+</div>
+
+
 <div class="row">
   <div class="col-sm-6">
     <h3>What</h3>
 
-    The 3D geoinformation research group is part of the <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/">Department of Urbanism</a>, <a href="http://www.bk.tudelft.nl">Faculty of the Built Environment and Architecture</a> of the <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. 
+    The 3D geoinformation research group is part of the <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/">Department of Urbanism</a>, <a href="http://www.bk.tudelft.nl">Faculty of the Built Environment and Architecture</a><sup id="fnref:1"><a href="#fn:1" class="footnote">*</a></sup> of the <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. 
     It focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
     These systems help in environmental modelling, urban planning, crisis management, automated cartographic generalisation, information modelling, modelling of the interior of buildings, etc.
+
 
     It is a multidisciplinary group (computer scientists, geomatics engineers, and geographers) composed of 4 permanent research staff and several PhD students, postdocs, and visitors.
 
@@ -43,8 +53,7 @@ map: true
         </div>
         <div class="col-xs-8">
           <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550 (building #8) <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> Faculty of the Built Environment <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> and Architecture<br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> BK-City <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>
@@ -107,6 +116,7 @@ map: true
   </div>
 </div>
 
+
 - - - 
 
 <section id="people">
@@ -131,4 +141,6 @@ map: true
   <a href="{{ "/about/formerstaff" | prepend: site.baseurl }}">List of former staff</a>
 
 </section>
+
+
 
