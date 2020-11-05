@@ -110,7 +110,7 @@ She works towards the **integration of multi-source spatial data**, in particula
 
 - surname: Dukai
   name: Balázs
-  title: Research software engineer
+  title: R&D engineer
   photo: balazs.jpg
   email: b.dukai@tudelft.nl
   twitter: BalazsDukai
@@ -128,15 +128,23 @@ She works towards the **integration of multi-source spatial data**, in particula
   description: |+
     Currently working on:
 
+     — [3D Basisvoorziening](https://www.pdok.nl/3D%20Basisvoorziening)
+
      — [Automated reconstruction of 3D input data for noise studies](https://3d.bk.tudelft.nl/projects/noise3d/)
 
+     — The 3D BAG data set, see [3dbag.bk.tudelft.nl](http://3dbag.bk.tudelft.nl/)
+
+     — [CityJSON reader for FME](https://github.com/safesoftware/fme-CityJSON)
+
+     — CityJSON in Python with [cjio](https://github.com/cityjson/cjio)
+
+     — [Export from PostgreSQL to CityJSON](https://github.com/cityjson/cjio_dbexport)
+
+     — [Scalable vector data processing](https://github.com/tudelft3d/tile-processor)
+
+    Previously:
+
      — [A geodesign decision support environment](http://h2020repair.eu/gdse-software-package/) for ressource management in peri-urban areas
-
-     — Automated generation of a 3D BAG data set, see [3dbag.bk.tudelft.nl](http://3dbag.bk.tudelft.nl/)
-
-     — Improving our 3D reconstruction software [3dfier](https://github.com/tudelft3d/3dfier)
-
-     Previously:
 
      — Developed [confdist](https://github.com/balazsdukai/confdist) for computing transcriptional edit distances between pairs of words
 
