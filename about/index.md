@@ -52,8 +52,8 @@ map: true
           </div>
         </div>
         <div class="col-xs-8">
-          <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550 (building #8) <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> BK-City <br>
+          <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550 <br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> BK-City (building #8) <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>
