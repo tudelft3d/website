@@ -8,7 +8,7 @@ map: true
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>We are aware that the correct name is "Faculty of Architecture and the Built Environment". We swapped the names has a silent protest against the fact that many at the faculty omit the "and the Built Environment" part, and that this reflects little attention that is spent on non-architecture research groups and projects.</p>
+      <p>We are aware that the correct name is <i>Faculty of Architecture and the Built Environment</i>.<br><br>We swapped the names to silently protest against the fact that many omit the <i>"and the Built Environment"</i> and ignore non-architecture research groups and projects.</p>
     </li>
   </ol>
 </div>
