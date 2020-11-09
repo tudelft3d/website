@@ -56,9 +56,9 @@ Started October 2019
 
 ## Publications
 
-Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Tezerdi, H., and Stoter, J.: [GEOBIM FOR DIGITAL BUILDING PERMIT PROCESS: LEARNING FROM A CASE STUDY IN ROTTERDAM](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/VI-4-W1-2020/151/2020/), ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., VI-4/W1-2020, 151–158, https://doi.org/10.5194/isprs-annals-VI-4-W1-2020-151-2020, 2020.
+Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Tezerdi, H., Stoter, J.: [GEOBIM FOR DIGITAL BUILDING PERMIT PROCESS: LEARNING FROM A CASE STUDY IN ROTTERDAM](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/VI-4-W1-2020/151/2020/), ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., VI-4/W1-2020, 151–158, https://doi.org/10.5194/isprs-annals-VI-4-W1-2020-151-2020, 2020.
 
-
+Noardo, F., wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. (Pre-print). [Investigating the automation of building permit checks through 3D GeoBIM information](https://arxiv.org/abs/2011.03117), arXiv:2011.03117.
 - - -
 
 ## Presentations
