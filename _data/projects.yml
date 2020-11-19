@@ -23,7 +23,7 @@
   image: i3s.png
   start: 2020
 
-- name: GeoBIM Building Permission
+- name: GeoBIM Building Permit
   description: Investigating the Automation of the Building Permission Issuing process through 3D GeoBIM information
   webpage: /projects/rotterdamgeobim_bp/
   funding: Municipality of Rotterdam
@@ -36,7 +36,6 @@
 - name: European network for Digital Building permission project
   description: International collaboration project to address the digitization of planning permits.
   webpage: /projects/eunet4dbp/
-#  funding: EU MSC LEaDingFellows Postdocs Programme
   image: eunet4dbp.png
   start: 2020
 
@@ -83,6 +82,7 @@
   fundingurl: http://www.eurosdr.net
   start: 2017
   end: 2020
+  finished: true
 
 - name: Smart data integration for urban applications
   description: 3D Data interoperability for smart cities

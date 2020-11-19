@@ -45,6 +45,7 @@ Noardo, F., Ellul, C., Harrie, L., Overland, I., Shariat, M., Arroyo Ohori, K., 
 
 Noardo, F., Ellul, C., Harrie, L., Olsson, P., Arroyo Ohori, K., Stoter, J. (2019). [EuroSDR GeoBIM project: a study in Europe on how to use the potentials of BIM and geo data in practice](https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019). 3DGeoInfo2019 Conference, Singapore - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences IV-4(W8) 2019. https://doi.org/10.5194/isprs-archives-XLII-4-W15-53-2019
 
+Ellul, C., Noardo, F., Harrie, L., & Stoter, J. (2020). [The EuroSDR GeoBIM Project-Developing Case Studies for the Use of GeoBIM in Practice](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIV-4-W1-2020/33/2020/) The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 44, 33-40. DOI:10.5194/isprs-archives-XLIV-4-W1-2020-33-2020
 
 - - -
 
@@ -99,7 +100,14 @@ Workflow proposed for using GeoBIM information for the “Building permits issui
 ### 6th EuroSDR GeoBIM project meeting: 17-18 January 2020, Amsterdam (NL).
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="17-18/01/2020 Amsterdam (NL)"><img src="/projects/eurosdrgeobim/imgs/Meeting6.png" alt="6th Meeting EuroSDR GeoBIM partners" ></a></div>
-<p class="text-left">Final phase of the project. Use case <strong>building permission issuing</strong>: final workflow approved by municipalities; further progress in the national related activities. A specific project on this use case will follow within an extended European network. Use case <strong>assets and facility management</strong>: more results from a workshop in Italy and further interviews with stakeholders.</p>
+<p class="text-left">Final phase of the project. Use case <strong>building permission issuing</strong>: final workflow approved by municipalities; further progress in the national related activities. A specific project on this use case will follow within an extended European network (see the [EUnet4DBP](https://3d.bk.tudelft.nl/projects/eunet4dbp/)). Use case <strong>assets and facility management</strong>: more results from a workshop in Italy and further interviews with stakeholders.</p>
+</div>
+
+### 7th EuroSDR GeoBIM project meeting: 12 November 2020, Web-meeting.
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="12/11/2020 Web-meeting"><img src="/projects/eurosdrgeobim/imgs/Meeting7.png" alt="7th Meeting EuroSDR GeoBIM partners" ></a></div>
+<p class="text-left">Final meeting of the project. Many related initiatives are ongoing and planned in the participants' countries. The sharing of experiences and exchange about relevant outcomes as well as on main challenges will follow beyond the end of the project as well, as object of another collaboration of the EuroSDR 3D SIG.</p>
 </div>
 
 ## Presentations
