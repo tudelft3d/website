@@ -1,3 +1,6 @@
+- research_line: [1]
+  description: "Published paper: \"Built Environmental Correlates of Cycling Accidents Involving Fatalities and Serious Injuries in London, UK\""
+  date: 2020-11-19
 - research_line: [1, 2, 3]
   description: "Presented paper: \"CityJSON + web = ninja\" at the 2020 3D GeoInfo Conference."
   date: 2020-09-10
