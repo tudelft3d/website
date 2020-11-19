@@ -21,6 +21,8 @@ permalink: /projects/eunet4dbp/
   
 </div>
 
+
+
 Network of researchers and stakeholders **aiming at the definition of a common strategy for the digitization of the building permit issuing process**, with advantages to interoperability, procedures and data optimization, standardization and good implementations.
 
 
@@ -52,3 +54,4 @@ The title is  *“European network for digital building permits”* since we agr
 
 <div class="typeform-widget" data-url="https://form.typeform.com/to/nQPWVQXl" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=nQPWVQXl&utm_source=typeform.com-01D8JX62W8ZKQH5MX624AX7W7R-pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
+> Last update: 19th November 2020 

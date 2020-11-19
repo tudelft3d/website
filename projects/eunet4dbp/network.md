@@ -32,7 +32,7 @@ Working for the integration of 3D (geo)information systems for use cases, throug
 
 *People: Francesca Noardo, Jantien Stoter*
 
-#### **Fraunhofer Italia Research (Italy)**
+#### **[Fraunhofer Italia Research (Italy)](https://www.fraunhofer.it/it/i-nostri-servizi/process-engineering-in-construction.html)**
 
 Experts in BIM implementation in public administration; BIM requirements analysis to accomplish the building permit procedure; Statistical content/information/data analysis of building permit documentation; BIM asset development for public administration.
 
@@ -40,7 +40,7 @@ Working for the integration of BIM models and geographic information system to f
 
 *People: Giada Malacarne*
 
-#### **Università di Brescia (Italy)**
+#### **[Università di Brescia (Italy)](https://en.unibs.it/)**
 
 Expert in BIM implementation in public administration for exchange information requirements, model and code checking; BIM-enabled design management; building energy modelling and IoT-based asset management, procedural aspects of virtual reality implementation in collaborative design reviews; IoT-enabled construction management.
 
@@ -80,7 +80,9 @@ Continous exchange with other stakeholders is provided through membership and pa
 
 *People: Lennart Senger*
 
-#### **Bauhaus University Weimar (Germany)**
+#### **[Bauhaus-Universität Weimar (Germany)](https://www.uni-weimar.de/en/civil-engineering/chairs/construction-engineering-and-management/)**
+
+The chair of construction engineering and management at Bauhaus-Universität Weimar considers various topics regarding Building Information Modeling. Especially the digital transformation in construction and building permitting are examined since several years. The expertise in building permitting is focused on as-is investigations and implementation possibilities of building information models. Processes and organizational structuring within authorities is part of projects as well as manual and automated model checking.
 
 *People: Judith Fauth*
 
@@ -112,7 +114,7 @@ NTNU is a university with main profile in science and technology. It has an inte
  
 Use of BIM and digitalisataion is an expanding domain at Department of Civil and Environmental Engineering. We offer BIM related course at bachelor-, master- and PhD level.  We offer a 2 year mater program in Digital construction processes.
 
-*People: [Eilif Hjelseth](https://www.ntnu.edu/employees/eilif.hjelseth)*
+*People: Eilif Hjelseth*
 
 #### ...
 
@@ -151,7 +153,6 @@ The Institut Cartogràfic i Geològic de Catalunya (ICGC) has competences on Geo
 
 *People: Nancy Niemann, Ivar Overland*
 
-
 #### **Swiss Federal Office of Topography (swisstopo) (Switzerland)**
 
 *People: Maria Klonner*
@@ -180,11 +181,9 @@ The objective of the Ministry of Economic Affairs and Communications is to provi
 
 *People: Jaan Saar*
 
-
 #### **Bundesanstalt für Immobilienaufgaben (Germany)**
 
 *People: Milena Feustel*
-
 
 #### **CSTB (France)**
 
@@ -239,6 +238,12 @@ As city planner, we help our clients create vibrant places where communities and
 
 *People: Antero Hirvensalo*
 
+#### **[Sova3D Ltd.](https://kunta3d.com)**
+
+Sova3D Ltd. develop 3D web-based city models and BIM based processess on top of it.
+
+*People: Petri Kokko*
+
 #### **BIM Academy (Spain)**
 
 BIM Academy boosts BIM methodology, Lean Construction and IPD processes across all stakeholders participating in all life cycle phases of construction.
@@ -258,4 +263,4 @@ The connection of an automated CityXML to IFC and vice versa will open a series 
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-
+> Last update: 19th November 2020 
