@@ -63,7 +63,7 @@ Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. (Pre-print). [Inve
 
 ## The tool
 
-See the tool code and documentation in [github](https://github.com/twut/ GEOBIM_Tool)
+See the tool code and documentation in [github](https://github.com/twut/GEOBIM_Tool)
 
 ## Reports
 
