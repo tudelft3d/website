@@ -98,6 +98,14 @@ The idea is to avoid the dilemma:
 
 ### [> > > > > Submit your work here < < < < <](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) 
 
+#### Recommended structure for the submission:
+
+- Kind of contribution (A1/A2/B1/B2/C)
+- Title
+- Abstract (approximately 1-2 pages, with pictures if needed, and a few relevant references)
+- Links to relevant resources, i.e. (based on the kind of contribution presented): complete paper/s that will be presented; websites containing further information; tools; data (if necessary).
+
+
 ### Deadline: 8th January 2021
 
 
