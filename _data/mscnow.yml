@@ -23,3 +23,74 @@
   name: Natasja
   title: Integration of 3D city model and BIM for microclimate simulations
   image: natasja.PNG
+
+
+- surname: Chatzidiakos
+  name: Charalampos
+  title: How should roads be modelled in 3D City Models?
+  image: 7012f198422c-road_intersection.png
+
+- surname: Chen
+  name: Zhaiyu
+  title: Polygonal Mesh Reconstruction from Point Clouds with Deep Implicit Fields
+  image: 64798c59903b-sog_teaser_Fig1.gif
+
+- surname: Dinklo
+  name: Constantijn
+  title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
+  image: 3ccebc69c5d0-P1_foto.JPG
+
+- surname: Doan
+  name: Truc Quynh
+  title: Test and extension of a GIS-supported design tool for new urban development areas
+  image: 6d46b544141-QuynhDoan_5025923_thesis_in_one_image.jpg
+
+- surname: Hobeika
+  name: Nadine
+  title: Interaction between wind flows and beach housing to promote dune formation
+  image: 7d8153118aa6-draft_image_02.png
+
+- surname: de Jong
+  name: Maarten
+  title: One TIN for all AHN3 points with Streaming Delaunay Triangulation
+  image: 0ae54f8d219-anim.gif
+
+- surname: Kenesei
+  name: Kristof
+  title: Converting the national road network (NWB) from 2D into 3D
+  image: 3bdb605851f0-thumbnail.png
+
+- surname: Li
+  name: Xiaoai
+  title: 'CityREST: CityJSON in a database + RESTful access'
+  image: 9c424a9b1de-draco400.gif
+
+- surname: Lumban Gaol
+  name: Yustisi Ardhitasari
+  title: Machine Learning Approach for Satellite-Derived Bathymetry with Minimal In-situ Data
+  image: 38ba5f429ccd-201015_usvi.png
+
+- surname: Morlighem
+  name: Camille
+  title: Automatic reconstruction of historical 3D city models
+  image: 9398977ec02f-rotterdam.JPG
+
+- surname: Papageorgiou
+  name: Manos
+  title: Point cloud classification with supervised deep learning algorithms for automatic reconstruction of LoD2 3D city models
+  image: 9e375dbdb8-400x400.png
+
+- surname: Roy
+  name: Ellie
+  title: Inferring the number of floors of all buildings in the Netherlands
+  image: 15c4ff03b7e4-p1_image.jpg
+
+- surname: Stevers
+  name: Anna Vera
+  title: Modelling wind around beach housing for dune formation
+  image: 82f852014991-visualization.0008.png
+
+- surname: Wu
+  name: Jialun
+  title: A CityJSON extension to store city information towards the automation of building permit
+  image: 0f55910db963-research_image1.png
