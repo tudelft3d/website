@@ -102,7 +102,7 @@ The idea is to avoid the dilemma:
 
 - Kind of contribution (A1/A2/B1/B2/C)
 - Title
-- Abstract (approximately 1-2 pages, with pictures if needed, and a few relevant references)
+- Abstract (approximately 5000 characters including spaces, with pictures if needed, and a few relevant references)
 - Links to relevant resources, i.e. (based on the kind of contribution presented): complete paper/s that will be presented; websites containing further information; tools; data (if necessary).
 
 

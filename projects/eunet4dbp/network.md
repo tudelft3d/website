@@ -137,10 +137,6 @@ Working for shortening the time spent on the licensing process, which is a good 
 
 *People: Jekaterina Masjagutova*
 
-#### **City of Hamburg (Germany)**
-
-*People: Walter Thorsten*
-
 ### National Mapping and Cadastral Agencies
 
 #### **[Institut Cartogràfic i Geològic de Catalunya (ICGC) (Catalunya)](https://www.icgc.cat/en/)**
@@ -180,6 +176,10 @@ The Institut Cartogràfic i Geològic de Catalunya (ICGC) has competences on Geo
 The objective of the Ministry of Economic Affairs and Communications is to provide a suitable legislative, economic and safe environment that fosters the development of the Estonian construction and housing sector ensured by efficient legislative drafting, standardisation and support programmes. The ministry is developing the e-construction platform to connect data and services related to the built environment. This includes a fully digital building permit process for the whole of Estonia. A BIM-based building permit process will be launched in 2021.
 
 *People: Jaan Saar*
+
+#### **Ministry of urban Development and housing - Hamburg (Germany)**
+
+*People: Thorsten Walter*
 
 #### **Bundesanstalt für Immobilienaufgaben (Germany)**
 
@@ -263,4 +263,4 @@ The connection of an automated CityXML to IFC and vice versa will open a series 
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-> Last update: 19th November 2020 
+> Last update: 2nd Dicember 2020 
