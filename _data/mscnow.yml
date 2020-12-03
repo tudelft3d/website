@@ -1,13 +1,7 @@
-
 - surname: Vogiatzis
   name: Anastasios 
   title: Railway object mapping using imagery and point clouds
   image: vogiatzis.jpg
-
-- surname: Staring
-  name: Karin
-  title: Comparison of storing CityJSON in differente databases and querying with GraphQL
-  image: karinstaring.jpg
 
 - surname: Fratzeskou  
   name: Christina

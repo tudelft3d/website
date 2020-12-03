@@ -1,3 +1,10 @@
+- surname: Staring
+  name: Karin
+  year: 2020
+  title: Comparison of storing CityJSON in differente databases and querying with GraphQL
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A7f9209f7-248f-4c93-9ba3-5866655e6040
+  image: karinstaring.jpg
+
 - surname: Mastorakis
   name: Konstantinos
   title: An integrative workflow for 3D city model versioning
