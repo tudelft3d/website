@@ -32,6 +32,11 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 
 .
 
+Event co-organized and supported by
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/logos/SuppOrgLogos.png" }}" style="max-height: 500px"></div>
+
+.
+
 ### Purposes of the workshop
 
 - Meet an intersectoral and multidisciplinary audience and not-only-scientific committee dealing with the digital building permit topic
@@ -45,6 +50,8 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 **Dates:** Thu 25th - Fri 26th March 2021
 
 **Venue:** It will be a digital event
+
+**Fee:** It will be a free event
 
 ### Organizers
 
@@ -106,7 +113,7 @@ The idea is to avoid the dilemma:
 - Links to relevant resources, i.e. (based on the kind of contribution presented): complete paper/s that will be presented; websites containing further information; tools; data (if necessary).
 
 
-### Deadline: 8th January 2021
+### Deadline: 15th January 2021
 
 
 - - -

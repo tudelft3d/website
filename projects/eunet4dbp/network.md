@@ -175,7 +175,7 @@ The Institut Cartogràfic i Geològic de Catalunya (ICGC) has competences on Geo
 
 The objective of the Ministry of Economic Affairs and Communications is to provide a suitable legislative, economic and safe environment that fosters the development of the Estonian construction and housing sector ensured by efficient legislative drafting, standardisation and support programmes. The ministry is developing the e-construction platform to connect data and services related to the built environment. This includes a fully digital building permit process for the whole of Estonia. A BIM-based building permit process will be launched in 2021.
 
-*People: Jaan Saar*
+*People: Jaan Saar, Liilian Valison, Christopher-Robin Raitviir*
 
 #### **Ministry of urban Development and housing - Hamburg (Germany)**
 
@@ -185,9 +185,10 @@ The objective of the Ministry of Economic Affairs and Communications is to provi
 
 *People: Milena Feustel*
 
+<!--
 #### **CSTB (France)**
 
-*People: Souheil Soubra*
+*People: Souheil Soubra* -->
 
 #### **[Etat de Genève](https://www.ge.ch/) (Switzerland)**
 
