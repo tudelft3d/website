@@ -209,18 +209,6 @@ Knowledge of programming in python is highly desirable.
 
 - - -
 
-## Calculating street widths
-
-![](img/RoadWidthMScTopicFull.png){:width="700px"}
-
-This project will be in partnership with researchers in the department of Urbanism examining the relationship between street design and automated vehicles. As part of this thesis you will examine ways to automatically calculate the width of roads (this is considered the total width including pedestrian walkways and cycling lanes). Part of this process will require you to find ways to automatically classify intersection areas as well as develop methods to automatically partition road segments. 
-
-Knowledge of a programming language (preferably Python) is highly recommended.
-
-**Contact:** [Anna Labetski](mailto:a.labetski@tudelft.nl)
-
-- - -
-
 ## Inferring the needed building permission from a 3D building model
 
 ![](img/dormersrotterdam.png){:width="400px"}
@@ -440,26 +428,6 @@ A bit ambitious, I know.
 Potentially in collaboration with [Geonovum](https://www.geonovum.nl/).
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
-
----
-
-## Where do I turn? Investigate modelling of road networks in CityJSON, with implicit geometries
-
-![](img/ComplexInterchangesVisualisation.png){:width="700px"}
-
-Roads are supported by CityJSON, but there is minimal support for road networks so far.
-As part of a previous [thesis](http://resolver.tudelft.nl/uuid:ebfc48f8-4704-47d3-9654-cd00c765e0af), we have intestigated the requirements for complete roads representation for certain use cases.
-
-In this thesis, the goal is to further refine the requirements to conclude to a concrete representation of road networks.
-The point of the thesis is to utilise all possible mechanisms that CityJSON offers to store semantics of roads in the most efficient ways (e.g. geometry instancing, geometry semantics).
-How will we store the network?
-Can we imply the 3D geometry of roads from simple networks?
-Can we store all necessary information with the existing functionality of CityJSON or is more necessary?
-
-We are in the process of producing some sample road datasets.
-As part of the project, you'll have to experiment with multiple representations, create variations, find interesting parties and evaluate the best way to have roads in CityJSON.
-
-*Contact:* [Anna Labetski](https://3d.bk.tudelft.nl/alabetski/) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
 
 ---
 
