@@ -1,3 +1,94 @@
+
+
+
+## Infer the number of floors for all buildings in NL
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T2Y7oo3iB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The [Basisregistraties Adressen en Gebouwen (BAG)](https://www.kadaster.nl/bag) is the most detailed, openly available data set on buildings and addresses in the Netherlands. 
+It contains information about each address in a building, such as its current use, construction date or registration status. 
+The 2D polygons in the BAG represent the footprint of the building as the projection of the roof’s outline.
+
+What it lacks, and that is wanted by several practitioners, is the __number of floors__ in a given building.
+While this sounds easy (if *h* is the [height of the building](http://3dbag.bk.tudelft.nl/), then *#floors = math.floor(h/3)*, right?), in practice it is a lot more messy.
+
+The aim of this project is to dive into that topic and solve it once and for all.
+You could use the real shape of the roof (to be extracted from AHN3), year-of-construction, and other attributes that are available.
+Furthermore, several municipalities have collected the number of floors for buildings, and those datasets could be used as ground truth, or as training for machine learning.
+
+We would like to run this for the whole country and integrate this new attribute in our [3D BAG service](http://3dbag.bk.tudelft.nl/).
+
+Potentially in collaboration with [Deltares](https://www.deltares.nl/en/).
+
+Programming in Python and SQL is sufficient. 
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
+
+---
+
+
+## How to construct one __seamless__ TIN from all the AHN3 points in NL?
+
+![](img/bigtin.jpg){:width="300px"}
+
+The AHN3 dataset contains a lot of points (should be close to 1 trillion when completed), and while these are useful, some applications would benefit from having a TIN.
+You learned how to create a Delaunay TIN in GEO1015, but what you did was for small datasets that fit in memory.
+
+The aim of this project is to construct __one seamless TIN__ of all the (ground) points in AHN3.
+Tiling is possible, but perhaps more interesting would be to use the [streaming ideas of Isenburg and friends](https://www.cs.unc.edu/~isenburg/papers/ilss-scdt-06.pdf); see also the [GEO1015 lesson 12](https://3d.bk.tudelft.nl/courses/backup/geo1015/2019/les/12/).
+Their code is working but not open-source, only works with float (Dutch EPSG:28992 gets truncated...) and is not working.
+The idea is to modify their code and implement own, and release this as open-source.
+
+Ideally, at the end it would be nice to press "enter", and in one shoot a gigantic TIN is created.
+
+While Python is theoretically possible (the problem is not speed, but managing the size of the dataset so that at one point only a fraction of it is in memory), it's better if C++ was used.
+
+Potentially in collaboration with the [RIVM](https://www.rivm.nl/).
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Balázs Dukai](http://balazsdukai.com)
+
+
+
+## CityRest: RESTful access + streaming of 3D city models
+
+![](img/draco.gif){:width="300px"}
+
+[CityJSON](https://cityjson.org) was developed to improve on the weaknesses of the XML-encoding of [CityGML](http://www.citygml.org/).
+One of the major one is that CityGML files cannot be used on the web, they are often too big and too complex.
+
+CityJSON fixed this (6X more compact and [ninja](https://ninja.cityjson.org/) shows a proof-of-concept), and this MSc topic will explore solutions and architectures to offer a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) web access to datasets, and also the possibility to *stream* them to a viewer (eg ninja; image above is from [Draco](https://cesium.com/blog/2018/04/09/draco-compression/)).
+
+There is a newly developed standard that promises to do this: [OGC API--Features](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html) (this is "WFS3" but with a new name).
+Most of the demos are for simple 2D geometries, complex features of a 3D city model are not clearly supported (eg textures, 2+ geometries, several LoDs, etc.).
+
+I have built a quick [proof-of-concept and a proposal](https://github.com/hugoledoux/cityjson_ogcapi) (see also the [demo](http://hugoledoux.pythonanywhere.com/)), and this project would bring this further by investigating how to support streaming, how to setup the server (right now it is simple and "cheap").
+The aim would be to host most [publicly available 3D city models](https://3d.bk.tudelft.nl/opendata/opencities/) on such a server, and benchmark what would be the "optimal" solution.
+A bit ambitious, I know.
+
+Potentially in collaboration with [Geonovum](https://www.geonovum.nl/).
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
+
+- - -
+
+## Automatic reconstruction of historical 3D city models
+
+![](img/delft_1600.jpg){:width="500px"}
+
+
+Several cities are currently attempting to reconstruct historial 3D models of their cities, see for instance [Rotterdam before/during/after WWII](https://www.stadsarchief.rotterdam.nl/rotterdam3d).
+As far I know, all the efforts have been made manually, by hiring several students to draw buildings from historical photos.
+
+The aim of the project is to investigate how historical 3D models of cities can be *automatically* reconstructed.
+The idea is to use [2D topographic maps](https://www.topotijdreis.nl) and other sources (eg cadastre) and infer the height of buidings, [maybe with machine learning](https://3d.bk.tudelft.nl/hledoux/pdfs/17_ceus_3dnoelevation.pdf).
+
+Potentially in collaboration with [Gemeente Rotterdam](https://www.stadsarchief.rotterdam.nl).
+
+**Contact:** [Hugo Ledoux](http://tudelft.nl/hledoux)
+
+---
+
+
 ## Automatic generalisation of depth contours
 
 ![](img/bathycontours.png){:width="500px"}
