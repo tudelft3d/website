@@ -1,3 +1,14 @@
+- name: 3D GeoInfo 2021
+  place: online
+  url: https://3dgeoinfo2021.github.io/
+  start: 2021-10-11
+  end: 2021-10-14
+  milestones:
+    - name: Full paper submission deadline
+      date: 2021-04-12
+    - name: Abstract submission deadline
+      date: 2021-04-12
+
 - name: 3D GeoInfo 2020
   place: online
   url: https://www.ucl.ac.uk/3dgeoinfo/
