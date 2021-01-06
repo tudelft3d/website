@@ -55,12 +55,13 @@ Deze gegevens kunnen direct als input worden gebruikt in software die op basis v
 De dataset met gebouwen bestaat uit 2D polygonen met een hoogte tot waar deze polygonen kunnen worden opgetrokken.
 Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee kan de 2D informatie van de BAG-panden omgezet worden tot 3D blokvormen. We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG polygonen), zodat de gebruiker zelf de optimale referentiehoogte kan kiezen.
 
-3D BAG panden zijn ook met eventuele hoogtesprongen worden gemodelleerd. 
-Dit is de zogenaamde LoD 1.3 representatie. Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
+3D BAG panden zijn met eventuele hoogtesprongen gemodelleerd. 
+Dit is de zogenaamde [LoD 1.3 representatie]{https://3d.bk.tudelft.nl/lod/}. 
+Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
 In deze versie is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde kan nog veranderen op basis van feedback. 
 Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
 
-Deze gebouwmodellen maken ook deel uit van de generieke 3D Basisvoorziening van het Kadaster en zijn hier te vinden, namelijk het bestand 3D hoogtestatistieken gebouwen.
+Deze gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Kadaster, namelijk het bestand 3D hoogtestatistieken gebouwen.
 Meer informatie over de gegenereerde gebouwmodellen en hun attributen is te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
 
 ![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
