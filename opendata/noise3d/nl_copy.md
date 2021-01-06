@@ -52,26 +52,16 @@ Deze gegevens kunnen direct als input worden gebruikt in software die op basis v
 
 ### Gebouw modellen (zie ook de [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
 
-Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee wordt de 2D informatie van de BAG-panden omgezet tot 3D blokvormen. 
+De dataset met gebouwen bestaat uit 2D polygonen met een hoogte tot waar deze polygonen kunnen worden opgetrokken.
+Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee kan de 2D informatie van de BAG-panden omgezet worden tot 3D blokvormen. We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG polygonen), zodat de gebruiker zelf de optimale referentiehoogte kan kiezen.
 
-Het modelleren van elk BAG pand met slechts een enkele hoogte, zoals opgeleverd bij versie 0.2 (LoD 1) kan tot fouten leiden als een pand in werkelijkheid verschillende hoogtes heeft bijvoorbeeld in het geval van een kerk met toren of een huis met aanliggende garage. Daarom hebben we voor versie 0.3 gekeken hoe we BAG panden met hoogtesprongen kunnen modelleren.
-Dit is de zogenaamde LoD 1.3 representatie, dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
-In versie 0.3 is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde hebben we met het project team bepaald, maar kan nog veranderen op basis van feedback. 
+3D BAG panden zijn ook met eventuele hoogtesprongen worden gemodelleerd. 
+Dit is de zogenaamde LoD 1.3 representatie. Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
+In deze versie is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde kan nog veranderen op basis van feedback. 
+Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
 
-Voor de LoD1.3 gebouwen hebben we ook de ondergrondse delen van BAG panden zo goed als mogelijk verwijderd. Dit is recent ontwikkelde functionaliteit en daarom nog werk-in-uitvoering. Het zal in een volgende versie worden verbeterd (op dit moment worden sommige bovengrondse gebouwen onterecht verwijderd).
-
-Naast de LoD 1.3 gebouwen zijn ook de LoD1 gebouwen nog beschikbaar van versie 0.2. Hierin heeft ieder BAG pand slechts een enkele hoogte waarde, en vindt er dus geen opsplitsing plaats op basis van hoogtesprongen. De hoogtes in dit LoD1 bestand zijn berekend voor het 75-percentiel en het 95-percentiel.
-
-De hoogte van de LoD 1.3 dakdelen is uitgedrukt in het 70-percentiel van alle AHN-punten die binnen dat dakdeel vallen.
-
-Op de LoD 1.3 gebouwen zijn de volgende opmerkingen van toepassing:
-1. Complexe gebouwen. Het LoD 1.3 reconstructie proces werkt op basis van daklijnen die in de puntenwolk worden gedetecteerd. Als het aantal lijnen hoog is, neemt de verwerkingstijd van de LoD 1.3 reconstructie sterk toe. Gebouwen met een hoog aantal gedetecteerde lijnen (meer dan 400) zijn daarom als 'complex' aangemerkt met het `is_complex` attribuut. Om de verwerkingstijd laag te houden zijn bij deze 'complexe' gebouwen niet alle gedetecteerde lijnen meegenomen in de reconstructie maar alleen de 400 langste lijnen. Hierdoor kan de modelleringsfout groter zijn (dit is een van aandachtspunten voor vervolgonderzoek).
-2. Naast de BAG panden zijn in deze versie ook de overige bouwwerken met het type 'open loods' uit de BGT meegenomen. Deze objecten missen dus de attributen die uit de BAG komen.
-3. In een voorverwerkingsstap is gepoogd ondergrondse panden (zoals ondergrondse parkeergarages) uit de BAG te filteren. Door onvolkomenheden in dit proces zijn echter ook een aantal bovengrondse gebouwen uitgefilterd (voorbeeld: de Markthal in Rotterdam). Dit proces moet nog verder worden geoptimaliseerd.
-4. Als er geen hoogtepunten en/of dakvlakken voor een gebouw zijn gedetecteerd is de dakhoogte op `0` gezet. Zie ook het `dak_type` attribuut.
-
-Zoals al eerder gemeld, zijn de LoD 1 gebouwen identiek aan versie 0.2.
-
+Deze gebouwmodellen maken ook deel uit van de generieke 3D Basisvoorziening van het Kadaster en zijn hier te vinden, namelijk het bestand 3D hoogtestatistieken gebouwen.
+Meer informatie over de gegenereerde gebouwmodellen en hun attributen is te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
 
 ![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
