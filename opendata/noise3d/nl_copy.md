@@ -21,35 +21,30 @@ map: true
 {:toc}
 
 - - -
-## Wat is 3D geluidbestand NL? Introductie
+## Wat is 3D geluidbestand NL?
 De afgelopen jaren hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties. Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
 
 Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3d/" | prepend: site.baseurl  }}) te vinden.
-Begin 2020 zijn de resultaten besproken met het werkveld en is besloten om de data voor deze 3 thema's voor heel Nederland te genereren en beschikbaar te stellen via [PDOK]{https://www.pdok.nl} (het geo-portal van de overheid)
+Begin 2020 zijn de resultaten (versie 0.3) besproken met het werkveld en is besloten om de data voor deze 3 thema's voor heel Nederland te genereren en beschikbaar te stellen via [PDOK]{https://www.pdok.nl} (het geo-portal van de overheid).
+Dat is de afgelopen maanden gerealiseerd, waarbij kleine verbeteringen zijn doorgevoerd die hebben geleid tot versie 0.3.1.
 
-Deze pagina bevat een beschrijving van deze data
+Deze pagina bevat een beschrijving van de data die via PDOK beschikbaar is gesteld.
 
 ## Beschrijving 3D Geluid data versie 0.3.1
-Onze methode heeft als doel om zo veel mogelijk detail en nauwkeurigheid te behouden, en tegelijkertijd het data-volume klein te houden en deze te laten aansluiten op de huidige beschikbare geluidsimulatie software systemen. 
 
-Met versie 0.3 bieden we 3 input lagen aan voor geluid studies. Namelijk:
+Met versie 0.3.1 bieden we 3 input lagen aan voor geluid studies. Namelijk:
 1. Gebouwen
 2. Bodemvlakken met geluidreflectie- en absorptie waarden
 3. Hoogte-beschrijving van het terrein
 
-Daarnaast hebben we ook gekeken naar schermen en bruggen. Maar deze zijn geen onderdeel van de test data.
+Daarnaast hebben we ook gekeken naar schermen en bruggen. Maar deze zijn geen onderdeel van deze versie..
 
-De 3 lagen van de test data zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN. De wijze waarop we dit hebben gedaan, is hieronder in meer detail beschreven. 
+De 3 lagen van de test data zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN.
 
-De belangrijkste veranderingen ten opzichte van versie 0.2 zijn:
-* Sterk verbeterde LoD 1.3 gebouw modellen (de LoD1 gebouwen zijn niet gewijzigd ten opzichte van versie 0.2)
-* Terrein opgeleverd als TIN in plaats van hoogtelijnen
+Voor deze data zijn keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van ervaring kunnen deze instellingen in een volgende versie worden aangepast.
 
-Voor deze test data zijn voorlopige keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van uw reacties kunnen deze instellingen in een volgende versie worden aangepast.
-
-Voordat de 3D input data wordt opgeschaald tot landsdekkend niveau wordt het product voor een testgebied ter beschikking gesteld aan potentiële eindgebruikers, met als doel om feedback te verzamelen. Het testgebied beslaat een deel van het Rijnmondgebied, om precies te zijn: de kaartbladen 37ez2, 37fz1, 37gn2 en 37hn1, waarbinnen een deel van de gemeentes Schiedam en Rotterdam vallen.
-
-![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
+<!--
+%![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
