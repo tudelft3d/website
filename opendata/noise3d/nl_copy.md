@@ -44,7 +44,8 @@ De 3 lagen van de test data zijn volledig automatisch gegenereerd op basis van B
 Voor deze data zijn keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van ervaring kunnen deze instellingen in een volgende versie worden aangepast.
 
 <!--
-%![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
+![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
+-->
 
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
