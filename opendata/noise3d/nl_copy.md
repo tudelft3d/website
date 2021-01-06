@@ -62,7 +62,7 @@ In deze versie is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat g
 Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
 
 Deze gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Kadaster, namelijk het bestand 3D hoogtestatistieken gebouwen.
-Meer informatie over de gegenereerde gebouwmodellen en hun attributen is te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
+Meer informatie over de gegenereerde gebouwmodellen en hun attributen is dan ook te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
 
 ![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
