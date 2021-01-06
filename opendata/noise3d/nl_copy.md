@@ -1,6 +1,6 @@
 ---
 layout: page_noise3d
-title: 3D input data voor geluidssimulaties versie 0.3 (Februari 2020)
+title: 3D input data voor geluidssimulaties versie 0.3.1 (2020)
 permalink: /opendata/noise3d/nl_copy
 is_dutch: true
 map: true
@@ -22,11 +22,14 @@ map: true
 
 - - -
 ## Wat is 3D geluidbestand NL? Introductie
-De afgelopen 3 jaar hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties. Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
+De afgelopen jaren hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan de automatische reconstructie van 3D input data voor geluidssimulaties. Hierbij wordt gebruik gemaakt van landsdekkende gegevensbronnen zoals de BGT, de BAG en het AHN en wordt modelinformatie van de fysieke ruimte gegenereerd die nodig is voor het uitvoeren van geluidssimulaties. Het bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
 
 Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3d/" | prepend: site.baseurl  }}) te vinden.
+Begin 2020 zijn de resultaten besproken met het werkveld en is besloten om de data voor deze 3 thema's voor heel Nederland te genereren en beschikbaar te stellen via [PDOK]{https://www.pdok.nl} (het geo-portal van de overheid)
 
-## Beschrijving test data versie 0.3
+Deze pagina bevat een beschrijving van deze data
+
+## Beschrijving 3D Geluid data versie 0.3.1
 Onze methode heeft als doel om zo veel mogelijk detail en nauwkeurigheid te behouden, en tegelijkertijd het data-volume klein te houden en deze te laten aansluiten op de huidige beschikbare geluidsimulatie software systemen. 
 
 Met versie 0.3 bieden we 3 input lagen aan voor geluid studies. Namelijk:
