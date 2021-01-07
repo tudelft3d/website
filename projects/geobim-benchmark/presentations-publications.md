@@ -23,15 +23,15 @@ permalink: /projects/geobim-benchmark/presentations-publications.html
 
 **Paper presented to the GeoSpatialWeek 2019 conference, Enschede, 13rd June 2019:**
 
-Noardo, F., Arroyo Ohori, K., Biljecki, F., Krijnen, T., Ellul, C., Harrie, L., Stoter, J. (2019). [GeoBIM benchmark 2019: design and initial results](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W13/1339/2019/). International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, XLII-2/W13, 1339-1346, 2019.
+Noardo, F., Arroyo Ohori, K., Biljecki, F., Krijnen, T., Ellul, C., Harrie, L., Stoter, J. (2019). [GeoBIM benchmark 2019: design and initial results](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W13/1339/2019/). *ISPRS - International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences*, XLII-2/W13, 1339-1346, 2019.
 
 **Paper (invited as a Keynote) to the 3D Geoinfo 2019 conference - 2nd International IAG Workshop on BIM and GIS integration, 25th September 2019:**
 
-Noardo, F., Biljecki, F., Agugiaro, G., Arroyo Ohori, K.,  Ellul, C., Harrie, L., Stoter, J. (2019). [GeoBIM Benchmark 2019: Intermediate Results](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W15/47/2019). 14th 3D GeoInfo Conference 2019, ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-4(W8), 2019. 
+Noardo, F., Biljecki, F., Agugiaro, G., Arroyo Ohori, K.,  Ellul, C., Harrie, L., Stoter, J. (2019). [GeoBIM Benchmark 2019: Intermediate Results](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W15/47/2019). 14th 3D GeoInfo Conference 2019, *ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences* IV-4(W8), 2019. 
 
 **Paper presented to the XXIV ISPRS Congress (2020 edition), 1st September 2020**
 
-Noardo, F., Ohori, K. A., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Kokla, M., Stoter, J. (2020). [The ISPRS-EuroSDR GeoBIM benchmark 2019.](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B5-2020/227/2020/) The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, XLIII-B5-2020, 227-233, 2020.
+Noardo, F., Ohori, K. A., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Kokla, M., Stoter, J. (2020). [The ISPRS-EuroSDR GeoBIM benchmark 2019.](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B5-2020/227/2020/) *ISPRS - International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences*, XLIII-B5-2020, 227-233, 2020.
 
 **ISPRS Scientific Initiative 2019 - Final Report**
 
@@ -39,16 +39,16 @@ Noardo, F., Ohori, K. A., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Kokl
 
 ### Final papers
 
-Noardo, F.; Harrie, L.; Arroyo Ohori, K.; Biljecki, F.; Ellul, C.; Krijnen, T.; Eriksson, H.; Guler, D.; Hintz, D.; Jadidi, M.A.; Pla, M.; Sanchez, S.; Soini, V.-P.; Stouffs, R.; Tekavec, J.; Stoter, J. (2020). [Tools for BIM-GIS Integration (IFC Georeferencing and Conversions): Results from the GeoBIM Benchmark 2019.](https://www.mdpi.com/2220-9964/9/9/502) ISPRS Int. J. Geo-Inf. 2020, 9, 502.
+Noardo, F.; Harrie, L.; Arroyo Ohori, K.; Biljecki, F.; Ellul, C.; Krijnen, T.; Eriksson, H.; Guler, D.; Hintz, D.; Jadidi, M.A.; Pla, M.; Sanchez, S.; Soini, V.-P.; Stouffs, R.; Tekavec, J.; Stoter, J. (2020). [Tools for BIM-GIS Integration (IFC Georeferencing and Conversions): Results from the GeoBIM Benchmark 2019.](https://www.mdpi.com/2220-9964/9/9/502) *ISPRS International Journal of Geo-Information* 2020, 9, 502.
 
-Noardo, F., Thomas Krijnen, T., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Eriksson, H., Polia, L., Salheb, N., Tauscher, H., van Liempt, J., Goerne, H., Hintz, D., Kaiser, T., Leoni, C., Warchol, A., Stoter, J. (Pre-print). [Reference study of IFC software support: the GeoBIM benchmark 2019 -- Part I.](https://arxiv.org/abs/2007.10951)
-Arxiv.
+Noardo, F., Thomas Krijnen, T., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Eriksson, H., Polia, L., Salheb, N., Tauscher, H., van Liempt, J., Goerne, H., Hintz, D., Kaiser, T., Leoni, C., Warchol, A., Stoter, J. (2021). [Reference study of IFC software support: the GeoBIM benchmark 2019 -- Part I.](https://onlinelibrary.wiley.com/doi/10.1111/tgis.12709)
+*Transactions in GIS*.
 
-Noardo, F., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Eriksson, H., van Liempt, J., Pla, M., Ruiz, A., Hintz, D., Krueger, N., Leoni, C., Leoz, L., Moraru, D., Vitalis, S., Willkomm, P., Stoter, J.(Pre-print). [Reference study of CityGML software support: the GeoBIM benchmark 2019 -- Part II.](https://arxiv.org/abs/2007.10938 )
-Arxiv.
+Noardo, F., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Eriksson, H., van Liempt, J., Pla, M., Ruiz, A., Hintz, D., Krueger, N., Leoni, C., Leoz, L., Moraru, D., Vitalis, S., Willkomm, P., Stoter, J.(Pre-print). [Reference study of CityGML software support: the GeoBIM benchmark 2019 -- Part II.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12710)
+*Transactions in GIS*.
+
 
 ### Datasets
-
 
 Noardo, Francesca, Arroyo Ohori, Ken, Biljecki, Filip, Ellul, Claire, Harrie, Lars, Krijnen, Thomas, & Stoter, Jantien. (2020). [Reports about the software behaviour delivered within the GeoBIM benchmark 2019 - Task 1](https://zenodo.org/record/3964445) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3964445
 
