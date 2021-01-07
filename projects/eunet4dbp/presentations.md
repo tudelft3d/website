@@ -32,4 +32,5 @@ By Giada Malacarne - [3D Geoinfo 2020 Conference](https://www.ucl.ac.uk/3dgeoinf
 
 By Francesca Noardo - [buildingSMART Virtual Summit 2020 - Regulatory Room Session 2 - "Show and Tell"](https://summit.buildingsmart.org/s/virtual-summit/home) *2nd November 2020*
 
-<script async class="speakerdeck-embed" data-id="bb50242e06e64144a1d1a2ac449ee3f2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<iframe src="https://player.vimeo.com/video/484445011" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/484445011">Regulatory Room Session 2 - EU network for digital building permits, EUNET4DBP - Francesca Noardo</a> from <a href="https://vimeo.com/user94789481">buildingSMART International</a> on <a href="https://vimeo.com">Vimeo</a>.</p>)
