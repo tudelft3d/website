@@ -146,6 +146,8 @@
   funding: STW
   fundingurl: http://www.stw.nl
   start: 2015
+  end: 2019
+  finished: true
 
 - name: 3D4EM
   description: Design and implementation of an SDI for integrated environmental modelling in 3D
@@ -154,6 +156,8 @@
   fundingurl: http://www.stw.nl
   image: 3d4em.jpg
   start: 2015
+  end: 2019
+  finished: true
 
 - name: 3DSM
   description: Point cloud modelling with the 3D Medial Axis Transform
