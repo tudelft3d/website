@@ -98,7 +98,7 @@ GeoBIM research focusses on full lifecycle modelling – including: reality capt
 The Digital Construction division from the BBRI has competences in BIM technologies, including modelling, classification and standards, IFC, plugins developments and AR/VR.
 Working on all subjects concerning BIM through various Belgian and European research projects, the BBRI main goal is to perform scientific and technical research for the benefit of its members, supply technical information, assistance and advice, and contribute to the general innovation and development in the construction sector. The BBRI is also involved in Building Smart and the European Committee for Standardization.
 
-*People: François Robberts*
+*People: Niki Cauberg*
 
 #### **Istanbul Technical University (Turkey)**
  
@@ -116,6 +116,15 @@ Use of BIM and digitalisataion is an expanding domain at Department of Civil and
 
 *People: Eilif Hjelseth*
 
+#### **[University of Minho](https://www.uminho.pt/EN/Pages/default.aspx) (Portugal)**
+
+We are coordinating of EMJMD [BIM A+](www.bimaplus.org). Our fields of interest alingn with digital building permits.
+
+*People: Miguel Azenha*
+
+#### **[Ruhr-Universität Bochum](https://www.inf.bi.rub.de)**
+
+
 #### ...
 
 
@@ -130,6 +139,12 @@ All types of specialists and experts who perform the entire range of tests for B
 Working for shortening the time spent on the licensing process, which is a good development for both the municipality and the developers. The experts can focus more on the more important issues by making certain checks automatically.
 
 *People: Hasim Tezerdi*
+
+#### **[Municipality of Bladel (The Netherlands)](https://www.bladel.nl/)**
+
+The municipality of Bladel strongly encourages digitalization of governance processes.
+
+*People: Milan Bor*
 
 #### **Municipality of Merano (Italy)**
 
@@ -252,6 +267,26 @@ The connection of an automated CityXML to IFC and vice versa will open a series 
 
 *People: Ignasi Perez Arnal*
 
+#### **[SIA Architects](https://www.sia-arch.eu/) (Belgium)**
+
+We are an architectural firm created in 1995 and currently based in Belgium. We believe in collaboration as an engine of innovation and we are oriented towards new digital horizons to face new challenges in the field of architecture.
+
+*People: Gregorio Saura*
+
+
+#### **[Autodesk](https://www.autodesk.com/) (USA)**
+
+Autodesk creates software for AEC professionals.
+
+*People: Emmanuel Di Giacomo*
+
+#### **[DBA Group](https://www.dbagroup.it/en/) (Italy, Slovenia)**
+
+DBA GROUP is an indipendent holding (group of companies) specialized in  Consultancy,  Architectures,  Engineering  and  Project Management services  and  ICT solutions  focused on lifecycle management for building and mission critical infrastructure.
+
+*People: Franco Coin*
+
+
 ### Freelance Architects, designers and BIM experts
 
 #### Matteo Mandrile (Italy)
@@ -264,4 +299,4 @@ The connection of an automated CityXML to IFC and vice versa will open a series 
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-> Last update: 2nd Dicember 2020 
+> Last update: 8th January 2021

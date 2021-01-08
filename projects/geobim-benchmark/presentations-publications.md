@@ -41,7 +41,7 @@ Noardo, F., Ohori, K. A., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Kokl
 
 Noardo, F.; Harrie, L.; Arroyo Ohori, K.; Biljecki, F.; Ellul, C.; Krijnen, T.; Eriksson, H.; Guler, D.; Hintz, D.; Jadidi, M.A.; Pla, M.; Sanchez, S.; Soini, V.-P.; Stouffs, R.; Tekavec, J.; Stoter, J. (2020). [Tools for BIM-GIS Integration (IFC Georeferencing and Conversions): Results from the GeoBIM Benchmark 2019.](https://www.mdpi.com/2220-9964/9/9/502) *ISPRS International Journal of Geo-Information* 2020, 9, 502.
 
-Noardo, F., Thomas Krijnen, T., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Eriksson, H., Polia, L., Salheb, N., Tauscher, H., van Liempt, J., Goerne, H., Hintz, D., Kaiser, T., Leoni, C., Warchol, A., Stoter, J. (2021). [Reference study of IFC software support: the GeoBIM benchmark 2019 -- Part I.](https://onlinelibrary.wiley.com/doi/10.1111/tgis.12709)
+Noardo, F., Krijnen, T., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Eriksson, H., Polia, L., Salheb, N., Tauscher, H., van Liempt, J., Goerne, H., Hintz, D., Kaiser, T., Leoni, C., Warchol, A., Stoter, J. (2021). [Reference study of IFC software support: the GeoBIM benchmark 2019 -- Part I.](https://onlinelibrary.wiley.com/doi/10.1111/tgis.12709)
 *Transactions in GIS*.
 
 Noardo, F., Arroyo Ohori, K., Biljecki, F., Ellul, C., Harrie, L., Krijnen, T., Eriksson, H., van Liempt, J., Pla, M., Ruiz, A., Hintz, D., Krueger, N., Leoni, C., Leoz, L., Moraru, D., Vitalis, S., Willkomm, P., Stoter, J.(Pre-print). [Reference study of CityGML software support: the GeoBIM benchmark 2019 -- Part II.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12710)
