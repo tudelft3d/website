@@ -56,12 +56,12 @@ Deze gegevens kunnen direct als input worden gebruikt in software die op basis v
 De dataset met gebouwen bestaat uit 2D polygonen met een hoogte tot waar deze polygonen kunnen worden opgetrokken.
 Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van punten wolken. 
 Hiermee kan de 2D informatie van de BAG-panden omgezet worden tot 3D blokvormen. 
-We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG polygonen), zodat de gebruiker zelf de optimale referentiehoogte kan kiezen.
+We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG polygonen), zodat de gebruiker zelf de optimale referentiehoogte kan kiezen voor het optrekken.
 
 3D BAG panden zijn met eventuele hoogtesprongen gemodelleerd.
-Dit is de zogenaamde [LoD 1.3 representatie]{https://3d.bk.tudelft.nl/lod/}. 
+Dit is de zogenaamde [LoD 1.3 representatie](https://3d.bk.tudelft.nl/lod/). 
 Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
-Er is een uitzondering gemaakt voor kassen, extreem grote gebouwen en panden die nieuwer zijn dan AHN. Deze gebouwen zijn in zijn geheel opgetrokken; zonder hoogtesprongen, de zogenaamde LoD1.2 representatie. 
+Er is een uitzondering gemaakt voor kassen, extreem grote gebouwen en panden die nieuwer zijn dan AHN. Deze gebouwen zijn in zijn geheel opgetrokken; zonder eventuele hoogtesprongen te modelleren, de zogenaamde LoD1.2 representatie. 
 
 In deze versie is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde kan nog veranderen op basis van feedback. 
 Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
@@ -70,33 +70,35 @@ De gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Ka
 Meer informatie over de gegenereerde gebouwmodellen en hun attributen is dan ook te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
 
 Voor geluidsimulaties is een attribuut toegevoegd (kwaliteits_klasse) die aangeeft in hoeverre kan worden gegarandeerd dat het model goed genoeg is voor geluidsimulaties.
-Er zijn 3 mogelijke waarden: keep (het model is te gebruiken); discard (het model is niet te gebruiken); review (de kwaliteit moet worden gecontroleerd).
+Er zijn 3 mogelijke waarden: 
+* keep (het model is te gebruiken). Dat geldt voor ongeveer 98% van de gebouwen; 
+* discard (het model is niet te gebruiken), minder dan 1%; 
+* review (de kwaliteit moet worden gecontroleerd), ongeveer 1%.
+
 Deze waarden worden bepaald aan de hand van twee criteria:
-* validiteit van de 2D polygoon. Indien een model niet valide is (dat wil seggen geomatrische fouten bevat), krijgt het de waarde 'discard'
-* actualiteit, met 3 opties: AHN is actueel en consitent met de BAG (keep); het BAG pand is nieuwer dan de punten wolk (discard); het AHN en BAG zijn ongeveer van hetzelfde tijdstip (review).
-* nauwkeurigheid op basis van beschikbare punten wolk per gebouw. Hierbij wordt voor ieder model het percentage oppervlakte berekend waar punten worden gevonden. Een gebouw krijgt de waarde "keep", als dit percentage groter is dan 50%. In alle andere gevallen 'review'.
+* validiteit van de 2D polygoon. Indien een 2D polygoon niet valide is (dat wil seggen geometrische fouten bevat), krijgt het de waarde 'discard'.
+* actualiteit, met 3 opties: 
+	* AHN is actueel en consistent met de BAG (keep); 
+	* het BAG pand is nieuwer dan de punten wolk (discard) en kan dus geen hoogte krijgen; 
+	* het AHN en BAG zijn ongeveer van hetzelfde tijdstip (review).
+* nauwkeurigheid op basis van beschikbare punten per gebouw. Hierbij wordt voor ieder model het percentage oppervlakte berekend waar punten worden gevonden. Een gebouw krijgt de waarde "keep", als dit percentage groter is dan 50%. In alle andere gevallen krijgt het model de waarde 'review'.
 
-![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
-
-<!-- Meer uitleg over de reconstructie van LoD 1.3 staat uitgelegd in de volgende slides.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTooIsoh8wN8nbd_xv4YOgo0blfdm7dSG4NSpIvgL5meQ4yz4YiL1n3TGjvdpJea20x1e6r-E0woeDc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 
 ### Hoogtebeschrijving Terrein
-Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoeken. Het TIN is berekend op basis van de maaiveld punten uit het AHN3.
-Hierbij zijn de hoogtes op de rand van tiles (d.w.z. kaartbladen) naar elkaar toegerekend zodat er geen artifacten ontstaan. 
-Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
-De beschikbare bestanden hebben daarom een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. 
+Voor versie 0.3.1 hebben we een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoeken. Het TIN is berekend op basis van de maaiveld punten uit het AHN3.
+Hierbij zijn de hoogtes op de randen van tiles (d.w.z. kaartbladen) naar elkaar toegerekend zodat er geen artifacten ontstaan (minieme hoogteverschillen). 
+Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme. Hierbij zijn  vlakke gebieden in het terrein met minder driehoeken gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
+De beschikbare bestanden hebben een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. 
 <!-- welke afwijkingsdrempel is gebruikt? -->
 
-We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
-We zijn ons er daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
+We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster proces is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
+We zijn ons er van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
 Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat.
 Vanwege de omvang hebben we iedere tile opgeknipt in 9 delen.
 Attributen???
 
-In een [proof of concept]{https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf} hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd.
+In een [proof of concept]{https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf} hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd. Dit is een mogelijke toekomstige ontwikkeling.
 
 ### Bodemvlakken
 Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de Basis Registratie Grootschalige Topografie.
@@ -105,13 +107,13 @@ Bodemvlakken voor geluidsimulaties kennen geen hoogte-informatie (die wordt via 
 Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
 <!-- what parameters were used? -->
 
-Er kunnen objecten zijn die een klein beteje kleiner zijn dan de gebruikte drempelwaarde. Dit komt doordat deze in eerste instantie net groot genoeg waren om te worden behouden. Maar dat ze kleiner zijn geworden in het daaropvolgenbde proces waarbij details uit polygoongrenzen worden verwijderd.
-Er zijn enkele objecten met bodemfactor NULL omdat het voor deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
+Er kunnen objecten zijn die een klein beteje kleiner zijn dan de gebruikte drempelwaarde. Dit komt doordat deze in eerste instantie net groot genoeg waren om te worden behouden, maar dat ze kleiner zijn geworden in het daaropvolgenbde proces waarbij details uit polygoongrenzen worden verwijderd.
+Er zijn enkele objecten met bodemfactor NULL omdat deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
 <!-- small remnants of polygons? -->
 
 Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
 
-Welke datum van de BGT is gebruikt?
+Welke datum van de BGT is gebruikt?????
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
