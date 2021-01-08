@@ -26,7 +26,7 @@ De afgelopen jaren hebben Kadaster, RWS, TU Delft, RIVM en IPO samengewerkt aan 
 3D geluidbestand NL bevat een beschrijving van het hoogteverloop van het terrein, de eigenschappen van het bodemoppervlak en de geometrie van gebouwen.
 
 Meer uitleg over ons project dat startte in 2017, is [hier]({{ "/projects/noise3d/" | prepend: site.baseurl  }}) te vinden.
-Begin 2020 zijn de resultaten (versie 0.3) besproken met het werkveld en is besloten om de data voor deze 3 thema's voor heel Nederland te genereren en beschikbaar te stellen via [PDOK]{https://www.pdok.nl} (het geo-portal van de overheid).
+Begin 2020 zijn de resultaten (versie 0.3) besproken met het werkveld en is besloten om de data voor deze 3 thema's voor heel Nederland te genereren en beschikbaar te stellen via [PDOK](https://www.pdok.nl) (het geo-portal van de overheid).
 Dat is de afgelopen maanden gerealiseerd, waarbij kleine verbeteringen zijn doorgevoerd die hebben geleid tot versie 0.3.1.
 
 Deze pagina bevat een beschrijving van de data die via PDOK beschikbaar is gesteld.
