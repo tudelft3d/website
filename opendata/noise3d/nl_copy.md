@@ -38,7 +38,7 @@ Met versie 0.3.1 bieden we 3 input lagen aan voor geluid studies. Namelijk:
 2. Bodemvlakken met geluidreflectie- en absorptie waarden
 3. Hoogte-beschrijving van het terrein
 
-Daarnaast hebben we ook gekeken naar schermen en bruggen. Maar deze zijn geen onderdeel van deze versie..
+Daarnaast hebben we ook gekeken naar schermen en bruggen. Maar deze zijn geen onderdeel van deze versie.
 
 De 3 lagen van de test data zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN.
 
