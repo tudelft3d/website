@@ -50,7 +50,7 @@ Voor deze data zijn keuzes gemaakt ten aanzien van vereenvoudiging van geometrie
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
 
-### Gebouw modellen (zie ook de [3D webviewer]
+### Gebouw modellen
 
 De dataset met gebouwen bestaat uit 2D polygonen met een hoogte tot waar deze polygonen kunnen worden opgetrokken.
 Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van punten wolken. 
@@ -76,17 +76,30 @@ Meer informatie over de gegenereerde gebouwmodellen en hun attributen is dan ook
 
 ### Hoogtebeschrijving Terrein
 Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoeken. Het TIN is berekend op basis van de maaiveld punten uit het AHN3.
+Hierbij zijn de hoogtes op de rand van tiles (d.w.z. kaartbladen) naar elkaar toegerekend zodat er geen artifacten ontstaan. 
+Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
+De beschikbare bestanden hebben daarom een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. 
+<!-- welke afwijkingsdrempel is gebruikt?
 
-Het TIN is berekend door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten).
+We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
+We zijn ons er daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
-We stellen drie TIN bestanden beschikbaar met ieder een verschillende maximale afwijking tussen het TIN en de AHN3 maaiveld punten. De beschikbare bestanden hebben een maximale afwijking van respectievelijk *0.3*, *0.5*, en *1.0* meter. Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
+Daarom bieden we de TIN ook aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat.
 
-We zijn in versie 0.3 van hoogtelijnen naar een TIN overgestapt omdat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden. We zijn ons er daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
+In een [proof of concept]{https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf} hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd.
 
-Daarom bieden we de TIN ook aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het ESRI Shapefile formaat en het GeoPackage formaat.
+### Bodemvlakken
+Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de Basis Registratie Grootschalige Topografie.
+Alle vlakken op maaiveld uit de BGT zijn daarbij omgezet in hetzij refelecterend hetzij absorberend volgens de tabel hieronder.
+Bodemvlakken voor geluidsimulaties kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt).
+Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
+<!-- what parameters were used?
 
-### Bodemgebieden
-Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de BGT. Bodemgebieden kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt). Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
+Er kunnen objecten zijn die een klein beteje kleiner zijn dan de gebruikte drempelwaarde. Dit komt doordat deze in eerste instantie net groot genoeg waren om te worden behouden. Maar dat ze kleiner zijn geworden in het daaropvolgenbde proces waarbij details uit polygoongrenzen worden verwijderd.
+Er zijn enkele objecten met bodemfactor NULL omdat het voor deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
+<!-- small remnants of polygons?
+
+Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -159,14 +172,12 @@ Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppe
   </tr>
 </table>
 
-## Downloads
-
-Het 3D Geluidbestand versie 0.3 testbestand is beschikbaar in *ESRI shape*.
+## Gebruikte brondata
 
 De volgende brondata zijn gebruikt:
 * BGT: datum 11-02-2019. <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
-* BAG: datum 25-12-2019. Ondergrondse bouwwerken zijn verwijderd (gaat nog niet overal goed). Daarnaast zijn uit de BGT de overige bouwwerken met het type 'open loods' bijgevoegd. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
-* AHN: versie 3, download via PDOK: [37ez2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37EZ2.LAZ), [37fz1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37FZ1.LAZ), [37gn2](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37GN2.LAZ), [37hn1](https://geodata.nationaalgeoregister.nl/ahn3/extract/ahn3_laz/C_37HN1.LAZ)
+* BAG: datum 25-12-2019. Ondergrondse bouwwerken zijn verwijderd. Daarnaast zijn uit de BGT de overige bouwwerken met het type 'open loods' bijgevoegd. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
+* AHN: versie 3, download via PDOK
 
 #### Data gebouwen
 
