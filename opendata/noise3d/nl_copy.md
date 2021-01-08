@@ -2,7 +2,7 @@
 layout: page_noise3d
 title: 3D input data voor geluidssimulaties versie 0.3.1 (2020)
 permalink: /opendata/noise3d/nl_copy
-<!-- is_dutch: true -->
+is_dutch: true
 map: true
 ---
 
