@@ -28,7 +28,7 @@ The PhD student will have to design and develop new data structures (eg based on
 Furthermore, a prototype download service that generates 3D datasets tailored to specific applications will be explored, eg [WFS](http://www.opengeospatial.org/standards/wfs) for 3D objects and massive triangulations.
 
 The project will take place in the 3D geoinformation group under the supervision of [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) and [Dr Hugo Ledoux](http://www.tudelft.nl/hledoux).
-It is fully funded by the Dutch Technology Foundation ([STW](http://www.stw.nl)), and it is part of a [large project in the Netherlands](http://www.3d4em.nl) in which 3 universities and 11 organisations are involved.
+It is fully funded by the Dutch Technology Foundation ([STW](http://www.stw.nl)), and it is part of a [large project in the Netherlands](https://3d4em.netlify.app/) in which 3 universities and 11 organisations are involved.
 We expect the PhD student to collaborate with the other researchers and practitioners involved in the project.
 
 
