@@ -98,7 +98,7 @@ Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de dri
 Vanwege de omvang hebben we iedere tile opgeknipt in 9 delen.
 Attributen???
 
-In een [proof of concept]{https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf} hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd. Dit is een mogelijke toekomstige ontwikkeling.
+In een [proof of concept]9https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf) hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd. Dit is een mogelijke toekomstige ontwikkeling.
 
 ### Bodemvlakken
 Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de Basis Registratie Grootschalige Topografie.
