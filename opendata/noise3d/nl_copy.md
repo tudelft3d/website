@@ -68,6 +68,13 @@ Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
 De gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Kadaster, namelijk het bestand 3D hoogtestatistieken gebouwen.
 Meer informatie over de gegenereerde gebouwmodellen en hun attributen is dan ook te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
 
+Voor geluidsimulaties is een attribuut toegevoegd (kwaliteits_klasse) die aangeeft in hoeverre kan worden gegarandeerd dat het model goed genoeg is voor geluidsimulaties.
+Er zijn 3 mogelijke waarden: keep (het model is te gebruiken); discard (het model is niet te gebruiken); review (de kwaliteit moet worden gecontroleerd).
+Deze waarden worden bepaald aan de hand van twee criteria:
+* validiteit van de 2D polygoon. Indien een model niet valide is (dat wil seggen geomatrische fouten bevat), krijgt het de waarde 'discard'
+* actualiteit, met 3 opties: AHN is actueel en consitent met de BAG (keep); het BAG pand is nieuwer dan de punten wolk (discard); het AHN en BAG zijn ongeveer van hetzelfde tijdstip (review).
+* nauwkeurigheid op basis van beschikbare punten wolk per gebouw. Hierbij wordt voor ieder model het percentage oppervlakte berekend waar punten worden gevonden. Een gebouw krijgt de waarde "keep", als dit percentage groter is dan 50%. In alle andere gevallen 'review'.
+
 ![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
 
 <!-- Meer uitleg over de reconstructie van LoD 1.3 staat uitgelegd in de volgende slides.
@@ -84,13 +91,15 @@ De beschikbare bestanden hebben daarom een maximale afwijking van *0.3*, *0.5*, 
 We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
 We zijn ons er daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
-Daarom bieden we de TIN ook aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat.
+Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat.
+Vanwege de omvang hebben we iedere tile opgeknipt in 9 delen.
+Attributen???
 
 In een [proof of concept]{https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf} hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd.
 
 ### Bodemvlakken
 Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppervlakten wordt gebruik gemaakt van de geometrie en thematische informatie in de Basis Registratie Grootschalige Topografie.
-Alle vlakken op maaiveld uit de BGT zijn daarbij omgezet in hetzij refelecterend hetzij absorberend volgens de tabel hieronder.
+Alle vlakken op maaiveld uit de BGT zijn daarbij omgezet in hetzij refelecterend (waarde 0) hetzij absorberend (waarde 1) volgens de tabel hieronder.
 Bodemvlakken voor geluidsimulaties kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt).
 Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
 <!-- what parameters were used? -->
@@ -100,6 +109,8 @@ Er zijn enkele objecten met bodemfactor NULL omdat het voor deze objecten geen B
 <!-- small remnants of polygons? -->
 
 Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
+
+Welke datum van de BGT is gebruikt?
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
@@ -169,253 +180,6 @@ Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
   <tr>
     <td class="tg-0pky">Waterdeel (alles)</td>
     <td class="tg-0pky">reflecterend</td>
-  </tr>
-</table>
-
-## Gebruikte brondata
-
-De volgende brondata zijn gebruikt:
-* BGT: datum 11-02-2019. <a href="{{ "source_bgt.zip" | prepend: "/download/noise3d/v02/" | prepend: site.baseurl }}">[download source data]</a>
-* BAG: datum 25-12-2019. Ondergrondse bouwwerken zijn verwijderd. Daarnaast zijn uit de BGT de overige bouwwerken met het type 'open loods' bijgevoegd. <a href="{{ "bag_plus_overigbouwwerk.zip" | prepend: "/download/noise3d/v03/source/" | prepend: site.baseurl }}">[download source data]</a>
-* AHN: versie 3, download via PDOK
-
-#### Data gebouwen
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border:none;}
-.tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-pcvp{border-color:inherit;text-align:left;vertical-align:top;background-color: #ecf0f1;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-fymr">Klasse</th>
-    <th class="tg-fymr">Uitleg</th>
-    <th class="tg-fymr">Bestandsnaam</th>
-    <th class="tg-fymr">Download</th>
-  </tr>
-  <tr>
-    <td class="tg-pcvp">Gebouwen in LoD1.0</td>
-    <td class="tg-pcvp">Footprints van gebouwen met 1 hoogte per gebouw, berekend op basis van zowel het 75ste percentiel als 95ste percentiel van hoogtepunten die binnen het vlak vallen. Identiek aan versie 0.2.</td>
-    <td class="tg-pcvp">&lt;tile id&gt;_lod10_&lt;percentile&gt;</td>
-    <td class="tg-pcvp">
-      <a href="{{ "lod10.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Gebouwen in LoD 1.3</td>
-    <td class="tg-0pky">Footprints van gebouwen opgesplitst in dakdelen. Ieder dakdeel heeft een eigen hoogte gebaseerd op het 70ste percentiel van hoogtepunten punten die binnen het dakdeel vallen. De mininimale hoogtesprong tussen dakdelen is 3 meter (ongeveer 1 verdiepingshoogte). Open loodsen uit de BGT zijn ook toegevoegd. Ondergrondse delen van BAG panden zijn verwijderd (gaat nog niet overal goed). </td>
-    <td class="tg-0pky">lod13</td>
-    <td class="tg-0pky">
-      <a href="{{ "lod13.zip" | prepend: "/download/noise3d/v03/gebouwen/" | prepend: site.baseurl }}">[ESRI Shapefile]</a><br/>
-      </td>
-  </tr>
-</table>
-
-#### Data hoogte van het terrein
-
-Het TIN is beschikbaar in drie verschillende bestandsformaten en voor drie verschillende uitduinngswaarden (0.3m, 0.5m en 1m). Shapefiles worden aangeraden voor ArcGIS, GeoPackage in QGIS, en het OBJ formaat in 3D viewers zoals Meshlab, Blender en FME.
-
-De 3D lijnbestanden zijn hoofdzakelijk bedoeld om direct te kunnen importeren in geluid simulatie software. Vanwege de bestandsgrootte hebben we deze opgesplitst in 4 tegels.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
-.tg td{font-family:sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-baqh{text-align:center;vertical-align:middle}
-.tg .tg-tin_shp{text-align:center;vertical-align:middle; background-color: #ecf0f1;}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
-<div class="tg-wrap"><table class="tg">
-  <tr>
-    <th class="tg-wa1i" rowspan="2">Geometrie</th>
-    <th class="tg-wa1i" rowspan="2">Bestands formaat</th>
-    <th class="tg-amwm" colspan="12">Maximale afwijking</th>
-  </tr>
-  <tr>
-    <td class="tg-amwm" colspan="4">0,3m</td>
-    <td class="tg-amwm" colspan="4">0,5m</td>
-    <td class="tg-amwm" colspan="4">1,0m</td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i" rowspan="3">TIN</td>
-    <td class="tg-0lax">ESRI Shapefile</td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "tin_03m.shp.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.shp.zip</a><br/></td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "tin_05m.shp.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.shp.zip</a><br/></td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "tin_1m.shp.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.shp.zip</a><br/></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">GeoPackage</td>
-    <td class="tg-baqh" colspan="4">
-      <a href="{{ "tin_03m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.gpkg.zip</a><br/></td>
-    <td class="tg-baqh" colspan="4">
-      <a href="{{ "tin_05m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.gpkg.zip</a><br/></td>
-    <td class="tg-baqh" colspan="4">
-      <a href="{{ "tin_1m.gpkg.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.gpkg.zip</a><br/></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Wavefront OBJ</td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "tin_03m.obj.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">tin_03m.obj.zip</a><br/></td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "tin_05m.obj.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">tin_05m.obj.zip</a><br/></td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "tin_1m.obj.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">tin_1m.obj.zip</a><br/></td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i" rowspan="2">3D Lijnen</td>
-    <td class="tg-0lax">ESRI Shapefile</td>
-    <td class="tg-baqh" colspan="4">
-      <a href="{{ "lines_03m.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">lines_03m.zip</a><br/></td>
-    <td class="tg-baqh" colspan="4">
-      <a href="{{ "lines_05m.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m.zip</a><br/></td>
-    <td class="tg-baqh" colspan="4">
-      <a href="{{ "lines_1m.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m.zip</a><br/></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">ESRI Shapefile</td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "lines_03m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e03m/" | prepend: site.baseurl }}">lines_03m_tiles.zip</a><br/></td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "lines_05m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e05m/" | prepend: site.baseurl }}">lines_05m_tiles.zip</a><br/></td>
-    <td class="tg-tin_shp" colspan="4">
-      <a href="{{ "lines_1m_tiles.zip" | prepend: "/download/noise3d/v03/tin/e1m/" | prepend: site.baseurl }}">lines_1m_tiles.zip</a><br/></td>
-  </tr>
-</table></div>
-
-#### Data bodemvlakken
-
-De bodemvlakken zijn beschikbaar in 3 varianten ieder met een andere minimale object grootte: *6 m2*, *12 m2* en *18 m2*. Bij de *6 m2* variant, zijn bijvoorbeeld de objecten met een oppervlakte van minder dan 6 vierkante meter samengevoegd met het grootste aangrenzende object.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
-<div class="tg-wrap"><table class="tg">
-  <tr>
-    <th class="tg-wa1i" rowspan="2">Format</th>
-    <th class="tg-wa1i" colspan="3">Minimum object area</th>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">6 m2</td>
-    <td class="tg-wa1i">12 m2</td>
-    <td class="tg-wa1i">18 m2</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">ESRI Shapefile</td>
-    <td class="tg-nrix">
-      <a href="{{ "tiles_bodemvlakken_6.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m6/" | prepend: site.baseurl }}">tiles_bodemvlakken_6.shp.zip</a><br/></td>
-    <td class="tg-nrix">
-      <a href="{{ "tiles_bodemvlakken_12.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m12/" | prepend: site.baseurl }}">tiles_bodemvlakken_12.shp.zip</a><br/></td>
-    <td class="tg-nrix">
-      <a href="{{ "tiles_bodemvlakken_18.shp.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m18/" | prepend: site.baseurl }}">tiles_bodemvlakken_18.shp.zip</a><br/></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">GeoPackage</td>
-    <td class="tg-nrix">
-      <a href="{{ "tiles_bodemvlakken_6.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m6/" | prepend: site.baseurl }}">tiles_bodemvlakken_6.gpkg.zip</a><br/></td>
-    <td class="tg-nrix">
-      <a href="{{ "tiles_bodemvlakken_12.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m12/" | prepend: site.baseurl }}">tiles_bodemvlakken_12.gpkg.zip</a><br/></td>
-    <td class="tg-nrix">
-      <a href="{{ "tiles_bodemvlakken_18.gpkg.zip" | prepend: "/download/noise3d/v03/bodemvlakken/m18/" | prepend: site.baseurl }}">tiles_bodemvlakken_18.gpkg.zip</a><br/></td>
-  </tr>
-</table></div>
-
-### Attributen
-
-In de attributen van de LodD1.3 gebouwen is de volgende informatie opgenomen:
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border:none;}
-.tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-pcvp{border-color:inherit;text-align:left;vertical-align:top;background-color: #ecf0f1;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-fymr">Feature</th>
-    <th class="tg-fymr">Attribuut</th>
-    <th class="tg-fymr">Uitleg</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Gebouwen</td>
-    <td class="tg-0pky">bag_id</td>
-    <td class="tg-0pky">unieke <code>identificatie</code> in BAG-panden</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-pcvp">dak_type</td>
-    <td class="tg-pcvp">type of the roof of building<br>
-      <code>2</code> – dak met tenminste één schuin vlak<br>
-      <code>1</code> – dak met meerdere (en alleen maar) horizontale vlakken<br>
-      <code>0</code> – dak met enkel een horizontaal vlak<br>
-      <code>-1</code> – geen AHN-data beschikbaar binnen de gebouwomtrek<br>
-      <code>-2</code> – wel AHN-data beschikbaar, maar er is geen dakoppervlak gedetecteerd
-      </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">rmse</td>
-    <td class="tg-0pky"><em>Root mean square error</em> tussen het LoD 1.3 model en de gedetecteerde dakpunten uit AHN3.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">h_dak</td>
-    <td class="tg-0pky"><em>hoogte van het dakdeel</em> ten opzichte van NAP</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-pcvp">h_maaiveld</td>
-    <td class="tg-pcvp"><em>maaiveld hoogte</em> ten opzichte van NAP</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">is_complex</td>
-    <td class="tg-0pky">`1` als dit een complex gebouw betreft, dwz niet alle gedetecteerde daklijnen zijn meegenomen in de reconstructie om de verwerkingstijd te beperken.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-pcvp">ahn_geldig</td>
-    <td class="tg-pcvp">Codering waarmee aangegeven wordt of de hoogte actueel is<br>
-      <code>1</code> – gebouw is gebouwd <b>nadat</b> de AHN-puntenwolk is ingewonnen<br>
-      <code>0</code> – gebouw is gebouwd <b>voordat</b> de AHN-puntenwolk is ingewonnen
-    </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" style="border-bottom-width:0.5px"></td>
-    <td class="tg-0pky" style="border-bottom-width:0.5px">ahn_datum</td>
-    <td class="tg-0pky" style="border-bottom-width:0.5px">inwindatum van de AHN-puntenwolk ter plaatse van het gebouw</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Bodemgebieden</td>
-    <td class="tg-0pky">uuid</td>
-    <td class="tg-0pky">unieke identificatie van het object</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" style="border-bottom-width:0.5px"></td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">bodemfactor</td>
-    <td class="tg-pcvp" style="border-bottom-width:0.5px">omschrijving van de bodemeigenschappen ("reflecterend" of "absorberend"), op basis van de BGT-classificatie, zoals aangegeven in bovenstaande tabel.<br>
-      <code>0</code> – reflecterende bodem <br>
-      <code>1</code> – absorberende bodem
-    </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Hoogtebeschrijving terrein</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-0pky">In dit bestand zijn geen attributen aanwezig.</td>
   </tr>
 </table>
 
