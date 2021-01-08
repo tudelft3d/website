@@ -50,18 +50,22 @@ Voor deze data zijn keuzes gemaakt ten aanzien van vereenvoudiging van geometrie
 Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
 
 
-### Gebouw modellen (zie ook de [3D webviewer]({{ "lod13map.html" | prepend: site.baseurl }}))
+### Gebouw modellen (zie ook de [3D webviewer]
 
 De dataset met gebouwen bestaat uit 2D polygonen met een hoogte tot waar deze polygonen kunnen worden opgetrokken.
-Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van de AHN-puntenwolk. Hiermee kan de 2D informatie van de BAG-panden omgezet worden tot 3D blokvormen. We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG polygonen), zodat de gebruiker zelf de optimale referentiehoogte kan kiezen.
+Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toekenning van gebouwhoogtes gebeurt aan de hand van punten wolken. 
+Hiermee kan de 2D informatie van de BAG-panden omgezet worden tot 3D blokvormen. 
+We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG polygonen), zodat de gebruiker zelf de optimale referentiehoogte kan kiezen.
 
-3D BAG panden zijn met eventuele hoogtesprongen gemodelleerd. 
+3D BAG panden zijn met eventuele hoogtesprongen gemodelleerd.
 Dit is de zogenaamde [LoD 1.3 representatie]{https://3d.bk.tudelft.nl/lod/}. 
 Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
+Er is een uitzondering gemaakt voor kassen, extreem grote gebouwen en panden die nieuwer zijn dan AHN. Deze gebouwen zijn in zijn geheel opgetrokken; zonder hoogtesprongen, de zogenaamde LoD1.2 representatie. 
+
 In deze versie is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde kan nog veranderen op basis van feedback. 
 Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
 
-Deze gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Kadaster, namelijk het bestand 3D hoogtestatistieken gebouwen.
+De gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Kadaster, namelijk het bestand 3D hoogtestatistieken gebouwen.
 Meer informatie over de gegenereerde gebouwmodellen en hun attributen is dan ook te vinden in de productspecificaties van de [3D Basisvoorziening]{ https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen}
 
 ![dak types]({{ "building_lod_v03.png" | prepend: site.baseurl }})
