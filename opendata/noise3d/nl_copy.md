@@ -79,7 +79,7 @@ Voor versie 0.3 hebben een Triangulated Irregular Network (TIN) gegenereerd als 
 Hierbij zijn de hoogtes op de rand van tiles (d.w.z. kaartbladen) naar elkaar toegerekend zodat er geen artifacten ontstaan. 
 Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme, waarbij vlakke gebieden in het terrein met minder driehoeken worden gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
 De beschikbare bestanden hebben daarom een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. 
-<!-- welke afwijkingsdrempel is gebruikt?
+<!-- welke afwijkingsdrempel is gebruikt? -->
 
 We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster process is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
 We zijn ons er daarbij wel van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
@@ -93,11 +93,11 @@ Voor de modellering van akoestisch reflecterende en akoestisch absorberende oppe
 Alle vlakken op maaiveld uit de BGT zijn daarbij omgezet in hetzij refelecterend hetzij absorberend volgens de tabel hieronder.
 Bodemvlakken voor geluidsimulaties kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt).
 Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
-<!-- what parameters were used?
+<!-- what parameters were used? -->
 
 Er kunnen objecten zijn die een klein beteje kleiner zijn dan de gebruikte drempelwaarde. Dit komt doordat deze in eerste instantie net groot genoeg waren om te worden behouden. Maar dat ze kleiner zijn geworden in het daaropvolgenbde proces waarbij details uit polygoongrenzen worden verwijderd.
 Er zijn enkele objecten met bodemfactor NULL omdat het voor deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
-<!-- small remnants of polygons?
+<!-- small remnants of polygons? -->
 
 Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
 
