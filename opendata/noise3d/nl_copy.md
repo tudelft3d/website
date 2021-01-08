@@ -188,7 +188,7 @@ Welke datum van de BGT is gebruikt?????
 
 
 ## Disclaimer
-Het bestand 3D geluid NL versie 0.3 wordt uitsluitend ter beschikking gesteld voor testdoeleinden. Er kunnen geen rechten aan worden ontleend.
+Het bestand 3D geluid NL versie 0.3.1 wordt ter beschikking gesteld als beta bestand. Er kunnen geen rechten aan worden ontleend.
 
 Geen van de partijen die betrokken zijn bij de totstandkoming kan aansprakelijk worden gesteld voor eventuele schade die voortvloeit uit het gebruik van de data. 
 
