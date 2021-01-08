@@ -61,7 +61,7 @@ We hebben verschillende referentiehoogtes berekend (en toegevoegd aan de BAG pol
 3D BAG panden zijn met eventuele hoogtesprongen gemodelleerd.
 Dit is de zogenaamde [LoD 1.3 representatie](https://3d.bk.tudelft.nl/lod/). 
 Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven.
-Er is een uitzondering gemaakt voor kassen, extreem grote gebouwen en panden die nieuwer zijn dan AHN. Deze gebouwen zijn in zijn geheel opgetrokken; zonder eventuele hoogtesprongen te modelleren, de zogenaamde LoD1.2 representatie. 
+Er is een uitzondering gemaakt voor zowel kassen als panden die nieuwer zijn dan AHN. Deze gebouwen zijn in zijn geheel opgetrokken; zonder eventuele hoogtesprongen te modelleren, de zogenaamde LoD1.2 representatie. 
 
 In deze versie is gekozen om een hoogtesprong te modelleren vanaf 3 meter, wat grofweg de hoogte van 1 bouwlaag is. Deze drempelwaarde kan nog veranderen op basis van feedback. 
 Voor deze gebouwen hebben we de ondergrondse delen van BAG panden verwijderd.
@@ -81,7 +81,7 @@ Deze waarden worden bepaald aan de hand van twee criteria:
 	* AHN is actueel en consistent met de BAG (keep); 
 	* het BAG pand is nieuwer dan de punten wolk (discard) en kan dus geen hoogte krijgen; 
 	* het AHN en BAG zijn ongeveer van hetzelfde tijdstip (review).
-* nauwkeurigheid op basis van beschikbare punten per gebouw. Hierbij wordt voor ieder model het percentage oppervlakte berekend waar punten worden gevonden. Een gebouw krijgt de waarde "keep", als dit percentage groter is dan 50%. In alle andere gevallen krijgt het model de waarde 'review'.
+* nauwkeurigheid op basis van beschikbare punten per gebouw. Hierbij wordt voor ieder model het percentage oppervlakte berekend waar punten worden gevonden. Een gebouw krijgt de waarde "keep", als dit percentage groter is dan 50%. In alle andere gevallen krijgt het gebouw-model de waarde 'review'.
 
 
 ### Hoogtebeschrijving Terrein
