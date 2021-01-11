@@ -1,7 +1,7 @@
 ---
 layout: page_noise3d
 title: 3D input data for noise studies version (0.3 February 2020)
-permalink: /opendata/noise3d/en_copy
+permalink: /opendata/noise3d/v0.3.1/en
 is_dutch: false
 ---
 
