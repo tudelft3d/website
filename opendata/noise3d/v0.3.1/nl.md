@@ -90,6 +90,7 @@ Hierbij zijn de hoogtes op de randen van tiles (d.w.z. kaartbladen) naar elkaar 
 Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme. Hierbij zijn  vlakke gebieden in het terrein met minder driehoeken gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
 De beschikbare bestanden hebben een maximale afwijking van *0.3*, *0.5*, en *1.0* meter. 
 <!-- welke afwijkingsdrempel is gebruikt? -->
+<!-- BD: we used 0.3m -->
 
 We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster proces is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
 We zijn ons er van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
@@ -98,6 +99,7 @@ Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de dri
 Vanwege de omvang hebben we iedere tile opgeknipt in 9 delen.
 
 **Attributen???**
+<!-- BD: The TIN doesn't have any attributes -->
 
 In een [proof of concept](http://resolver.tudelft.nl/uuid:9e83e3c1-0d7b-4026-a34c-2fbb61aaec2c) hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd. Dit is een mogelijke toekomstige ontwikkeling.
 
@@ -107,6 +109,7 @@ Alle vlakken op maaiveld uit de BGT zijn daarbij omgezet in hetzij reflecterend 
 Bodemvlakken voor geluidsimulaties kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt).
 Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (6, 12 of 18 m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
 <!-- what parameters were used? -->
+<!-- BD: I would say 12m2, but Tony generated the final data and he knows the parameter that he set in the workbench. -->
 
 Er kunnen objecten zijn die een klein beetje kleiner zijn dan de gebruikte drempelwaarde. Dit komt doordat deze in eerste instantie net groot genoeg waren om te worden behouden, maar dat ze kleiner zijn geworden in het daaropvolgende proces waarbij details uit polygoongrenzen worden verwijderd.
 Er zijn enkele objecten met bodemfactor NULL omdat deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
@@ -115,6 +118,7 @@ Er zijn enkele objecten met bodemfactor NULL omdat deze objecten geen BGT eigens
 Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
 
 **Welke datum van de BGT is gebruikt?????**
+<!-- BD: To be honest, I only have a guess (2018). Since Tony generated the final data, he knows it. -->
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
