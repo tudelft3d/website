@@ -105,7 +105,7 @@ Alle vlakken op maaiveld uit de BGT zijn daarbij omgezet in hetzij reflecterend 
 Bodemvlakken voor geluidsimulaties kennen geen hoogte-informatie (die wordt via de hoogtelijnen in de geluid-berekeningen verwerkt).
 Aansluitende bodemgebieden met dezelfde akoestische eigenschappen zijn samengevoegd. Vervolgens is de geometrie vereenvoudigd door kleine oppervlakten (kleiner dan 12m2) met eigenschappen die afwijken van de aangrenzende vlakken buiten beschouwing te laten en ook vormpunten te verwijderen die tot onnodige detaillering zouden leiden. Hierbij is een tolerantie van 15 cm in de ligging van een lijn aangehouden.
 
-![Sample area v0.3]({{ "bodemvlakken.png" | prepend: site.baseurl }})
+![Sample area v0.3]({{ "bodemvlakken_metannotatie.png" | prepend: site.baseurl }})
 
 Er kunnen objecten zijn die een klein beetje kleiner zijn dan de gebruikte drempelwaarde. Dit komt doordat deze in eerste instantie net groot genoeg waren om te worden behouden, maar dat ze kleiner zijn geworden in het daaropvolgende proces waarbij details uit polygoongrenzen worden verwijderd.
 Er zijn enkele objecten met bodemfactor NULL omdat deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
