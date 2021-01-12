@@ -1,3 +1,12 @@
+- surname: Ibrahimli
+  name: Nail
+  title: PhD candidate
+  photo: nail.png
+  homepage: 3d.bk.tudelft.nl/nibrahimli
+  email: n.ibrahimli@tudelft.nl 
+  #twitter: _add_twitter_
+  description: "Learning-based 3D reconstruction of urban objects"
+
 - surname: Leon Sánchez
   name: Camilo Alexander
   title: PhD candidate
@@ -5,7 +14,6 @@
   #homepage: 3d.bk.tudelft.nl/cleonsanchez (still to be defined)
   email: c.a.leondanchez@tudelft.nl
   #twitter: _add_twitter_
-
 
 - surname: Jong-Lansbergen
   van: de
