@@ -1,5 +1,5 @@
 ---
-layout: page_noise3d
+layout: page
 title: 3D input data voor geluidssimulaties versie 0.3.1 (2020)
 permalink: /opendata/noise3d/v0.3.1/nl
 is_dutch: true
@@ -93,7 +93,7 @@ De beschikbare bestanden zijn gegenereerd met een drempelwaarde van 0.3m.
 We zijn in versie 0.3 van lijnen naar een TIN overgestapt om de hoogte van het terrein te beschrijven. De reden hiervan is dat het volledig automatisch genereren van een TIN een beduidend robuuster proces is waarbij tevens een hogere kwaliteit van het eindresultaat gegarandeerd kan worden.
 We zijn ons er van bewust dat een TIN 1) niet direct ingelezen kan worden in de huidige simulatie software (alleen door de TIN om te zetten naar lijnen) en 2) dat er geen standaard efficiënt bestandsformaat voor TINs bestaat dat door GIS programma's ingelezen kan worden.
 
-Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat.
+Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat waarbij iedere vertex een hoogtewaarde heeft.
 Vanwege de omvang hebben we iedere tile opgeknipt in 9 delen.
 De TIN heeft geen attributen.
 
