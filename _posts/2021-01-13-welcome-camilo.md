@@ -5,7 +5,7 @@ categories: news
 date: 2021-01-13 17:55
 ---
 
-<img class="img-circle img-responsive" src="{{ "/img/staff/camilo.png" | prepend: site.baseurl }}">
+<img class="img-circle img-responsive" src="{{ "/img/staff/camilo.jpg" | prepend: site.baseurl }}">
 
 Camilo Leon is a new PhD candidate from Colombia in our group and joined our research group as PhD Candidate.
 
