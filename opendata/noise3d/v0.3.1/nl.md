@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3D input data voor geluidssimulaties versie 0.3.1 (2020)
+title: 3D input data voor geluidssimulaties versie 0.3.1
 permalink: /opendata/noise3d/v0.3.1/nl
 is_dutch: true
 map: true
