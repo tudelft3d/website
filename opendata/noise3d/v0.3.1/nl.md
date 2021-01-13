@@ -58,6 +58,8 @@ Voor de modellering van de gebouwen is gebruik gemaakt van BAG panden. De toeken
 Hiermee kan de 2D informatie van de BAG-panden omgezet worden tot 3D blokvormen. 
 We hebben verschillende referentiehoogtes berekend en toegevoegd aan de BAG polygonen, zodat de gebruiker zelf de optimale referentiehoogte kan kiezen voor het optrekken.
 
+![Buildings v0.3]({{ "building_lod_v031.png" | prepend: site.baseurl }})
+
 3D BAG panden zijn met eventuele hoogtesprongen gemodelleerd.
 Dit is de zogenaamde [LoD 1.3 representatie](https://3d.bk.tudelft.nl/lod/). 
 Dat wil zeggen dat er binnen ieder BAG-pand onderscheid gemaakt wordt tussen dakdelen als relevante hoogteverschillen tussen die dakdelen daar aanleiding toe geven zoals in het geval van een kerk met toren of een huis met aanliggende garage.
@@ -85,7 +87,7 @@ Deze waarden worden bepaald aan de hand van drie criteria:
 
 
 ### Hoogtebeschrijving Terrein
-![TIN v0.3]({{ "tin.png" | prepend: site.baseurl }})
+![TIN v0.3]({{ "TIN.png" | prepend: site.baseurl }})
 Voor versie 0.3.1 hebben we een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoeken. Het TIN is berekend op basis van de maaiveld punten uit het AHN3.
 Hierbij zijn de hoogtes op de randen van tiles (d.w.z. kaartbladen) naar elkaar toegerekend zodat er geen artifacten ontstaan (minieme hoogteverschillen). 
 Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme. Hierbij zijn  vlakke gebieden in het terrein met minder driehoeken gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
