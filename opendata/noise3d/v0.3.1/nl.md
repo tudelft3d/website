@@ -116,9 +116,7 @@ Er kunnen objecten zijn die een klein beetje kleiner zijn dan de gebruikte dremp
 Er zijn enkele objecten met bodemfactor NULL omdat deze objecten geen BGT eigenschappen hebben die kunnen worden omgezet in een geluidseigenschap. Bijvoorbeeld de OnbegroeidTerreindeel BGT klasse met de waarde 'in transitie' voor het fysiekVoorkomen attribuut.
 <!-- small remnants of polygons? -->
 
-Bodemvlakken zijn beschikbaar in het GeoPackage formaat.
-
-**Welke datum van de BGT is gebruikt?????**
+De Bodemvlakken zijn gebaseerd op de BGT met peildatum 1 januari 2020 en beschikbaar in het GeoPackage formaat.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;}
