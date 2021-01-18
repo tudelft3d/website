@@ -53,6 +53,14 @@ Event co-organized and supported by
 
 **Fee:** It will be a free event
 
+### Important dates
+
+- Deadline for abstract submission - 22nd January 2021
+
+- Notification of abstract acceptance - 5th March 2021
+
+- Workshop - 25th-26th March 2021
+
 ### Organizers
 
 Francesca Noardo (3D geoinfo - Delft University of Technology) - [f.noardo@tudelft.nl](mailto:f.noardo@tudelft.nl)
