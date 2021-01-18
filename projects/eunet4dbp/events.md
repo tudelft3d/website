@@ -113,7 +113,7 @@ The idea is to avoid the dilemma:
 - Links to relevant resources, i.e. (based on the kind of contribution presented): complete paper/s that will be presented; websites containing further information; tools; data (if necessary).
 
 
-### Deadline: 15th January 2021
+### Deadline: 22nd January 2021
 
 
 - - -

@@ -54,7 +54,9 @@ Working for the integration of BIM and IoT systems for use cases for public admi
 
 #### **[TNO](http://tno.nl) (The Netherlands)**
 
-*People: Rob Roef, Ijsbrand van Straalen, Rizal Sebastian, Bart Luiten, Michel Bohms, Wim van der Poel, Kristian Helmholt*
+The TNO team has a focus on automatic code checking based on BIM models. The team combines the expertise of open standard BIM technology, data management, artificial intelligence, design of buildings and building regulations. The team has developed an ecosystem of autonomously operating BIM applications in the cloud to perform code checking on basis of digital robotization called BIM Bots. To make an introduction of this ecosystem possible on the market, the team is performing a market analysis.
+
+*People: Rob Roef, Ijsbrand van Straalen, Rizal Sebastian, Wim van der Poel, Kristian Helmholt*
 
 #### **University of Ljubljana (Slovenia)**
 
@@ -286,6 +288,12 @@ DBA GROUP is an indipendent holding (group of companies) specialized in  Consult
 
 *People: Franco Coin*
 
+#### **[ZWEI Consulting / SEMOS Education](https://zweiconsult.ch) (North Macedonia)**
+
+ZWEI Ltd is consulting company that works in the field of new technologies in AEC fields, particularly BIM. At the moment, our company works for Automatic Code Compliance Check Engine for Dubai Emirate. Our CEO is involved as a lecturer on various topics such as BIM software for different disciplines.
+
+*People: Trajche Stojanov*
+
 
 ### Freelance Architects, designers and BIM experts
 
@@ -299,4 +307,4 @@ DBA GROUP is an indipendent holding (group of companies) specialized in  Consult
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-> Last update: 8th January 2021
+> Last update: 18th January 2021
