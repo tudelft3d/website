@@ -48,8 +48,7 @@ Voor deze data zijn keuzes gemaakt ten aanzien van vereenvoudiging van geometrie
 ![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
 -->
 
-Deze gegevens kunnen direct als input worden gebruikt in software die op basis van Standaard Rekenmethode II van het RMG2012 (SRM2) rekent, zoals GeoMilieu en WinHavik.
-
+Deze gegevens kunnen worden gebruikt voor Standaard Rekenmethode II van het RMG2012 (SRM2).
 
 ### Gebouw modellen
 
@@ -71,6 +70,8 @@ Voor deze gebouwen hebben we ook eventuele ondergrondse delen (of anderszins nie
 De gebouwmodellen maken deel uit van de generieke 3D Basisvoorziening van het Kadaster, namelijk het bestand 3D hoogtestatistiek gebouwen.
 Meer informatie over de gegenereerde gebouwmodellen en hun attributen is dan ook te vinden in de productspecificaties van de [3D Basisvoorziening](https://docs.geostandaarden.nl/3dbv/prod/#x3d-hoogtestatistieken-gebouwen).
 
+In deze specificaties is de actualiteit van huidige versie van de 3D gebouw-modellen aangeven (zie Tabel 1 in sectie 3).
+
 Voor geluidsimulaties is een attribuut toegevoegd (kwaliteits_klasse) die aangeeft in hoeverre kan worden gegarandeerd dat het model goed genoeg is voor geluidsimulaties.
 Er zijn 3 mogelijke waarden: 
 1. keep (het model is te gebruiken). Dat geldt voor ongeveer 98% van de gebouwen; 
@@ -90,7 +91,7 @@ Deze waarden worden bepaald aan de hand van drie criteria:
 
 ![TIN v0.3]({{ "TIN.png" | prepend: site.baseurl }})
 
-Voor versie 0.3.1 hebben we een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoeken. Het TIN is berekend op basis van de maaiveld punten uit het AHN3.
+Voor versie 0.3.1 hebben we een Triangulated Irregular Network (TIN) gegenereerd als representatie voor het terrein. Met een TIN worden de hoogtevariaties in het terrein gemodelleerd met een netwerk van driehoeken. Het TIN is berekend op basis van de maaiveld punten uit het AHN3. 
 Hierbij zijn de hoogtes op de randen van tiles (d.w.z. kaartbladen) naar elkaar toegerekend zodat er geen artifacten ontstaan (minieme hoogteverschillen). 
 Daarnaast is er een filtering toegepast door middel van een slim simplificatie algoritme. Hierbij zijn  vlakke gebieden in het terrein met minder driehoeken gemodelleerd dan gebieden met veel variatie in de hoogte. Het aantal driehoeken wordt hierbij geminimaliseerd, zonder een vooraf ingestelde maximale afwijking te overschrijden (tov de oorspronkelijke AHN3 maaiveld punten). Een grotere afwijking leidt tot een kleiner bestand met minder en grotere driehoeken.
 De beschikbare bestanden zijn gegenereerd met een drempelwaarde van 0.3m.
@@ -101,6 +102,8 @@ We zijn ons er van bewust dat een TIN 1) niet direct ingelezen kan worden in de 
 Daarom bieden we de TIN aan aan als een verzameling van 3D lijnsegmenten (de driehoekszijden) in het GeoPackage formaat waarbij iedere vertex een hoogtewaarde heeft.
 Vanwege de omvang hebben we iedere tile opgeknipt in 9 delen.
 De TIN heeft geen attributen.
+
+AHN3, waarop de TIN is gebaseerd is ingewonnen tussen 2014 en 2019, zie [hier]{https://www.ahn.nl/kwaliteitsbeschrijving}
 
 In een [proof of concept](http://resolver.tudelft.nl/uuid:9e83e3c1-0d7b-4026-a34c-2fbb61aaec2c) hebben we in het kader van een studenten project laten zien dat een geluidsberekening (volgens CNOSSOS-EU richtlijnen) in principe ook direct op een TIN kan worden uitgevoerd. Dit is een mogelijke toekomstige ontwikkeling.
 
