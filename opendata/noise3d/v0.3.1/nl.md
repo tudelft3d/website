@@ -6,16 +6,6 @@ is_dutch: true
 map: true
 ---
 
-![](/img/projects/noise3d_banner.jpg)
-
-<!--
-<div class="well"><b>Feedback Sessie op 6 februari 2020</b><br/><br/>
-	Op donderdag 6 februari 2020 organiseren we een feedback sessie over versie 0.3 (beschikbaar via deze webpage) bij het Kadaster in Rotterdam (10:00-12:00). Tijdens deze sessie zullen we uitleg geven over de stand van zaken van onze methode en ontvangen we graag uw feedback voor onze verdere ontwikkelingen.
-	U kunt zich <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlVlcyZ-vCFcH5KYUKeSWgd7MX7t0msp4dL3wnKpD0fiHAPg/viewform">hier</a> aanmelden voor deze sessie. 
-	U kunt ook feedback geven op de data via het <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgWxv-5xdSWcEAxmmu6tnzwlc9fw6N-wHQuJLnnSNJv2NCtg/viewform?usp=sf_link">feedback formulier</a> 
-	</div>
--->
-- - -
 
 * Table of Content
 {:toc}
@@ -44,9 +34,6 @@ De drie lagen zijn volledig automatisch gegenereerd op basis van BAG, BGT en AHN
 
 Voor deze data zijn keuzes gemaakt ten aanzien van vereenvoudiging van geometrieën, hoogte-differentiatie tussen aansluitende dakdelen, minimale afmetingen, etc. Aan de hand van ervaring kunnen deze instellingen in een volgende versie worden aangepast.
 
-<!--
-![Sample area v0.3]({{ "testarea_v02_extent.png" | prepend: site.baseurl }})
--->
 
 Deze gegevens kunnen worden gebruikt voor Standaard Rekenmethode II van het RMG2012 (SRM2).
 
@@ -203,6 +190,3 @@ Geen van de partijen die betrokken zijn bij de totstandkoming kan aansprakelijk 
 
 ![logos]({{ "logos3Dgeluid.png" | prepend: site.baseurl }})
 
-
-<!--{% include noise3d/partners.html %}
--->
