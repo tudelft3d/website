@@ -37,6 +37,7 @@ permalink: /3dtalks/
     <td>Title</td>
     <td style="white-space: nowrap;">Room (at <a href="http://www.tudelft.nl/en/about-tu-delft/contact-and-accessibility/housing-tu-delft/accessibility/building-8/">BK-City</a>)</td>
     <td>Time</td>
+    <td>Slides</td>
   </tr>
 
   {% for i in talks %}
@@ -48,6 +49,9 @@ permalink: /3dtalks/
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.room | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td style="white-space: nowrap;">{{ i.time }}</td>
+      {% if i.ppt %}
+        <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/{{ i.ppt }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
+      {% endif %}
     </tr>
   {% endif %}  
   {% endfor %}
