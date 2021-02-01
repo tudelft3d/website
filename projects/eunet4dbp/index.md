@@ -28,6 +28,16 @@ Network of researchers and stakeholders **aiming at the definition of a common s
 
 The title is  *“European network for digital building permits”* since we agreed that for the moment we are mainly focussed on Europe and we are strongly related to European state of art. Although this, we are open to any other Country to join the network as well!
 
+------
+------
+
+**ANNOUNCEMENT:** The **Regulatory Room of buildingSMART International** is currently working on a **survey** to better understand the role of openBIM in the regulatory process.
+The Regulatory Room is responsible for considering ways to improve how our industry interacts with the regulatory authorities and other requirements and are keen to hear from you: [**TAKE THE SURVEY NOW**](https://www.buildingsmart.org/standards/calls-for-participation/regulatory-room-survey/)
+
+------
+------
+
+
 <div class="well"><b>Recent news</b><br/><br/>
 	{% assign sorted = site.data.eunet4dbp_news | sort: 'date' | reverse %}
   {% for news in sorted limit:3 %}
