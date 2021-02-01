@@ -1,4 +1,11 @@
-
+- name: 3DUU
+  description: AI-lab on 3D Urban Understanding
+  funding: TU Delft
+  fundingurl: https://www.tudelft.nl/en/ai
+  webpage: https://www.tudelft.nl/en/ai/3duu
+  image: 3duu.png
+  start: 2020
+  
 - name: iNous
   description: Building an eco-system for indoor spatial information
   funding: Korean government
