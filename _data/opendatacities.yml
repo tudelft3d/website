@@ -1,3 +1,11 @@
+- dataset: Bogotá
+  link: http://portal.ideca.gov.co/dataset/mapa-de-referencia
+  country: Colombia 
+  building_lod: LoD1
+  formats: GeoPackage, PostgreSQL, GeoDataBase
+  year: 2019
+  texture: no
+
 - dataset: Bordeaux
   link: https://opendata.bordeaux-metropole.fr/explore/dataset/bati3d/information/
   country: France
