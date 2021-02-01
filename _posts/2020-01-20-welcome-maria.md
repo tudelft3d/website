@@ -7,7 +7,7 @@ date: 2020-01-20 11:56
 
 <img class="img-circle img-responsive" src="{{ "/img/staff/maria.jpg" | prepend: site.baseurl }}">
 
-Maria Valese is a new PhD Candidate in our group and at the Chair of Heritage and Values in the Department of AE+T in the Faculty of Architecture and Built Environments.
+Maria Valese is a new PhD Candidate in our group and at the Chair of Heritage and Values in the Department of Architectural Engineering + Technology.
 
 She studied Sciences of Architecture at the Politecnico di Torino and gained her MA in Architecture UE at La Sapienza - Università di Roma with a thesis on environmental, energetic and architectural renovation of an Italian historical village located in the Unesco Cilento Geopark, focusing on the use of GIS tool in planning.
 

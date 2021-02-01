@@ -9,7 +9,7 @@ map: true
   <div class="col-sm-6">
     <h3>What</h3>
 
-    The 3D geoinformation research group is part of the <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/departments/urbanism/">Department of Urbanism</a>, <a href="http://www.bk.tudelft.nl">Faculty of the Built Environment and Architecture</a> of the <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. 
+    The 3D geoinformation research group is part of the <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. 
     It focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
     These systems help in environmental modelling, urban planning, crisis management, automated cartographic generalisation, information modelling, modelling of the interior of buildings, etc.
 
@@ -42,9 +42,8 @@ map: true
           </div>
         </div>
         <div class="col-xs-8">
-          <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550 (building #8) <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> Faculty of the Built Environment <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> and Architecture<br>
+          <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550<br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> Building 8 (BK City) <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br>
           <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>

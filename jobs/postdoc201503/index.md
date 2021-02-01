@@ -22,7 +22,7 @@ We expect the PhD student to collaborate actively with the other researchers and
 
 ## Research group
 
-The 3D geoinformation research group, part of the [Faculty of Architecture and the Built Environment](http://www.bk.tudelft.nl/en), focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing and implementing better systems to model 3D cities, buildings and landscapes.
+The 3D geoinformation research group, part of the [Delft University of Technology](https://www.tudelft.nl/en/), focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing and implementing better systems to model 3D cities, buildings and landscapes.
 It is a multidisciplinary group of around [12 people](/about/), including computer scientists, geomatics engineers, and geographers.
 It has a history of successful collaborations with the industry and the government: its research has led to [software](https://github.com/tudelft3d), standards and patents for the management of 3D geographic information.
 

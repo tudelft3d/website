@@ -13,5 +13,5 @@ L.tileLayer('//stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}' + (L.Browser
 }).addTo(map);
 
 var marker = L.marker([52.004713,4.370334]).addTo(map);
-marker.bindPopup("<b>Faculty of Architecture & the Built Environment<br>Julianalaan 134, 2628BL Delft</b>").openPopup();
+marker.bindPopup("<b>Building 8 (BK City)<br>Julianalaan 134, 2628BL Delft</b>").openPopup();
 

@@ -43,7 +43,7 @@ A candidate must have
 
 ## Research group
 
-The host research group, i.e., [3D Geoinformation Research Group](https://3d.bk.tudelft.nl), is part of the [Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/architecture-and-the-built-environment/) at [Delft University of Technology](https://www.tudelft.nl/en/) and focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes. It is a multidisciplinary group of around [20 people](https://3d.bk.tudelft.nl/about/#people), including computer scientists, geomatics engineers, and geographers. It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://3d.bk.tudelft.nl/code/), standards, and patents for the management of 3D geographic information.
+The host research group, i.e., [3D Geoinformation Research Group](https://3d.bk.tudelft.nl), is part of the [Delft University of Technology](https://www.tudelft.nl/en/) and focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes. It is a multidisciplinary group of around [20 people](https://3d.bk.tudelft.nl/about/#people), including computer scientists, geomatics engineers, and geographers. It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://3d.bk.tudelft.nl/code/), standards, and patents for the management of 3D geographic information.
 
 
 ## Doing a PhD at TU Delft
