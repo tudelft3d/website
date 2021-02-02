@@ -12,7 +12,7 @@ permalink: /education/
   * [GEO1002](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52403): Geographical information systems (GIS) and cartography
   * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52687): 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i> (open course)</a>
   * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52692): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i> (open course)</a>
-  * [GEO1016](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52684): Photogrammetry and 3D computer vision
+  * [GEO1016](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52684): Photogrammetry and 3D computer vision <a href="https://3d.bk.tudelft.nl/courses/geo1016/"><i class="fas fa-home"></i> (open course)</a>
   * [GEO1101](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52691): Synthesis project
   * [GEO2010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52694): Thesis preparation
   * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52693): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
