@@ -4,6 +4,8 @@ title:  Cities/regions around the world with open datasets
 permalink: /opendata/opencities/
 ---
 
+If you know of any other open datasets please contribute them <a href="https://github.com/tudelft3d/website/blob/main/_data/opendatacities.yml">here</a>!
+
 {% assign ds = site.data.opendatacities | sort: 'dataset' %}
 
 <div class="table-responsive">
