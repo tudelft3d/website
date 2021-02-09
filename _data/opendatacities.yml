@@ -197,6 +197,17 @@
   texture:   No
   notes: "[Article with details](https://phowo.ifp.uni-stuttgart.de/publications/phowo15/330Kolbe.pdf)"
   
+- dataset: Ingolstadt (by research project)
+  link: https://github.com/savein/lod3-road-space-models
+  country: Germany
+  building_lod: LoD3
+  formats: CityGML
+  year: 2020
+  acquisition: manually modeled based on MLS
+  classes:  Buildings
+  texture:   Yes
+  notes: "[LoD3 Modeling Guide](https://creating-citygml-datasets.readthedocs.io/en/latest/creation-guidelines/lod3-models-based-on-point-clouds.html)"
+  
 - dataset: New York City (by DoITT)
   link: http://www1.nyc.gov/site/doitt/initiatives/3d-building.page
   country: United States
