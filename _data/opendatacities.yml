@@ -204,7 +204,7 @@
   formats: CityGML
   year: 2020
   acquisition: manually modeled based on MLS
-  classes:  Buildings
+  classes:  mainly buildings
   texture:   Yes
   notes: "[LoD3 Modeling Guide](https://creating-citygml-datasets.readthedocs.io/en/latest/creation-guidelines/lod3-models-based-on-point-clouds.html)"
   
