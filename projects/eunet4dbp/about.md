@@ -64,9 +64,11 @@ Support the wide adoption of **interoperable** technologies based on open standa
 
 ## Principles
 
+To be accepted and respected in order to be part of the network.
+
 ### Commitment to share
 
-We share our knowledge, our experiences, our ideas with the other members of the network in order to turn our Vision into reality. 
+We share our knowledge, our experiences, our ideas with the other members of the network in order to turn our Vision into reality.
 
 ### Commitment to openness
 
@@ -74,11 +76,15 @@ We support the development of open formats, open standards and interoperable sof
 
 ### Commitment to be collaborative
 
-We voluntarily collaborate with others to grow the network impacts on the digital transformation of the built environment. 
+We voluntarily collaborate with others to grow the network impacts on the digital transformation of the built environment.
+
+### Commitment to be ethic
+
+We work together in a fair environment, giving credits correctly to single participants and to the network, and keeping as confidential any un-published shared material.
 
 ### Commitment to be practical
 
-We develop tools and methods that address the real needs of current and future the users. 
+We develop tools and methods that address the real needs of current and future users. 
 
 ### Commitment to be innovative
 
@@ -86,4 +92,4 @@ We believe in innovation as the only way to improve the quality of our present a
 
 ### Commitment to be competent
 
-We lead activities that require our competencies .
+We lead activities that require our competences.

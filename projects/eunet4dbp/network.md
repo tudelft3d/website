@@ -225,6 +225,12 @@ The State of Geneva manage the Territory of Geneva and the Building Permit instr
 
 *People: Nicholas Nisbet*
 
+#### **Gaiurb - Urbanismo e Habitação, EM (Portugal)**
+
+Develop and implement plans and policies
+focuses on achieving a quality urban environment
+for Vila Nova de Gaia, working in partnership
+with the Municipality and the community
 
 
 ####  ...
@@ -262,6 +268,14 @@ Sova3D Ltd. develop 3D web-based city models and BIM based processess on top of 
 
 *People: Petri Kokko*
 
+
+#### **Lumoin**
+
+We are a project finance fintech.
+
+*People: Veikko Eeva*
+
+
 #### **BIM Academy (Spain)**
 
 BIM Academy boosts BIM methodology, Lean Construction and IPD processes across all stakeholders participating in all life cycle phases of construction.
@@ -294,6 +308,11 @@ ZWEI Ltd is consulting company that works in the field of new technologies in AE
 
 *People: Trajche Stojanov*
 
+#### **[Future Insight](https://futureinsight.nl/)**
+
+Future Insight is a young Dutch software development company. We provide innovative open solutions for organizing the living environment. For example with our Clearly collaboration tool and our full service open 3D Digital Twins. For this group the development our open BIM services most relevant. We use them for example for the automated BIM based permit checking project in Estonia where they will also be combined with the 3D Digital Twin.
+
+*People: Rick Klooster*
 
 ### Freelance Architects, designers and BIM experts
 
