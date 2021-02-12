@@ -88,6 +88,12 @@ The chair of construction engineering and management at Bauhaus-Universität Wei
 
 *People: Judith Fauth*
 
+#### **Ruhr University Bochum (Germany)**
+
+The Chair of Computing in Engineering at the Ruhr University Bochum has been working on innovative concepts for the implementation of Building Information Modeling for many years. One focus is the development of digital approaches for the automated checking of building permits using digital building models. For this purpose, on the one hand, requirements for the digital building models have been specified so that adequate information is available for the digital checking tools. On the other hand, digital checking workflows were implemented by integrating existing standards. Currently, concepts are being developed to enable an automated transformation of building codes into standardized digital inspection rules.
+
+*People: André Vonthron*
+
 #### **University College London (UK)**
 
 GeoBIM research focusses on full lifecycle modelling – including: reality capture and sensor enabling for new and existing buildings and infrastructure; the use of geospatial data for planning and construction site safety and management; data management standards and protocols for handover from construction to operational building phases; the use of geoBIM for facilities and asset management.  The role of geospatial (location-enabled data from BIM, GIS or other sources) as an underpinning integrator  is  seen as key in order to enable interoperability of sensor data, demographics, traffic information, pedestrian movement data and so forth, all required to facilitate smart city operation and decision making.
