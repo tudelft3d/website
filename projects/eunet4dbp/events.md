@@ -110,6 +110,8 @@ The idea is to avoid the dilemma:
 
 
 ### [> > > > Register here your attendance to the event < < < <](https://tudelft3d.typeform.com/to/K4jC66Tr)
+Please, notice that the **MAXIMUM NUMBER OF ATTENDANTS HAS BEEN REACHED.** If you fill the form anyway, we could recontact you in case of any new place.
+Otherwise, you will still be able to follow the event and interact by commenting through the **youtube streaming**. <!-- written on 23-2-21-->
 
 ### [> > > > > Submit your work here < < < < <](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) 
 
