@@ -8,12 +8,14 @@
   description: A browser viewer and editor for CityJSON files
   web: https://ninja.cityjson.org/
   github: https://github.com/cityjson/ninja
+  paper: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/VI-4-W1-2020/167/2020/
   image: ninja.png
 
 - name: azul
   description: A fast 3D city model viewer for macOS
   github: https://github.com/tudelft3d/azul
   image: azul.png
+  paper: https://doi.org/10.1111/tgis.12673
   appstore: https://itunes.apple.com/app/azul/id1173239678?mt=12
   
 - name: AdTree
@@ -45,6 +47,7 @@
   description: Takes 2D GIS datasets and "3dfies" them by lifting each polygon to its height (obtained with LiDAR)
   github: https://github.com/tudelft3d/3dfier
   video: https://vimeo.com/181421237
+  paper: http://dx.doi.org/10.21105/joss.02866
   image: 3dfier.png
 
 - name: pprepair
@@ -93,7 +96,7 @@
   github: https://github.com/tudelft3d/val3dity
   image: val3dity.png
   web: http://geovalidation.bk.tudelft.nl/val3dity
-  paper: http://3dgeoinfo.bk.tudelft.nl/hledoux/pdfs/13_cacaie.pdf
+  paper: http://dx.doi.org/10.1186/s40965-018-0043-x
 
 # - name: MATAHN
 #   description: Because your house is always located at the junction of four AHN2 tiles. MATAHN is a user-friendly way to download parts of the AHN2 datasets, we take care of the hassle of tiles.
