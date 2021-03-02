@@ -83,7 +83,7 @@ permalink: /opendata/
 
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <a href="sum3d"><img src="{{ "/img/code/sum3d.png" | prepend: site.baseurl }}"/></a>
+      <a href="sum3d/index.html"><img src="{{ "/img/code/sum3d.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>SUM Helsinki
         <br/>
