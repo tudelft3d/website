@@ -17,7 +17,7 @@
 - name: Semantic 3D urban mesh benchmark
   description: Build benchmark data sets for semantic 3D urban meshes and an annotation platform.
   webpage: /projects/meshannotation/
-  image: meshannotation_square.jpg
+  image: sum_fuse.png
   funding: EuroSDR
   fundingurl: http://www.eurosdr.net/
   start: 2019

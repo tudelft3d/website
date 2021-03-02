@@ -1,3 +1,7 @@
+- name: 3D Annotator
+  description: 3D mesh annotation tool for labelling urban scenes. 
+  github: https://github.com/tudelft3d/3D_Urban_Mesh_Annotator
+  image: meshannotation_square.jpg
 
 - name: cjio
   description: Python CLI to process and manipulate CityJSON files

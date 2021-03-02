@@ -79,6 +79,19 @@ permalink: /opendata/
       </div>
     </div>
   </div>
+
+
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <a href="sum3d"><img src="{{ "/img/code/sum3d.png" | prepend: site.baseurl }}"/></a>
+      <div class="caption">
+        <h3>SUM Helsinki
+        <br/>
+        </h3>
+        <p>A benchmark dataset of semantic urban meshes in Helsinki (Finland). The meshes are available in PLY format.</p>
+      </div>
+    </div>
+  </div>  
   
 </div>
 
