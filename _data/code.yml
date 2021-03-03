@@ -1,6 +1,7 @@
 - name: 3D Annotator
   description: 3D mesh annotation tool for labelling urban scenes. 
   github: https://github.com/tudelft3d/3D_Urban_Mesh_Annotator
+  paper: https://arxiv.org/abs/2103.00355
   image: meshannotation_square.jpg
 
 - name: cjio
@@ -41,6 +42,12 @@
   web: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/polyfit.html
   paper: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-ICCV2017.pdf
   video: https://3d.bk.tudelft.nl/liangliang/publications/2017/polyfit/PolyFit-video.mp4
+
+- name: sum3d
+  description: Semantic Urban Meshes in Helsinki (Finland)
+  data: https://3d.bk.tudelft.nl/opendata/sum/
+  paper: https://arxiv.org/abs/2103.00355
+  image: sum3d.png
 
 - name: MVStudio
   description: An integrated SfM (Structure from Motion) and MVS (Multi-View Stereo) solution

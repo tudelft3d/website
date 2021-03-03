@@ -22,3 +22,14 @@ The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and
 ---
 ## Download:
 https://3d.bk.tudelft.nl/opendata/sum/
+
+## Citation
+If you use SUM-Helsinki in a scientific work, we kindly ask you to cite it:
+`
+@Article{gao2021sum,
+  author  = {Weixiao, GAO and Liangliang, Nan and Bas, Boom and Hugo, Ledoux},
+  title   = {SUM: A Benchmark Dataset of Semantic Urban Meshes},
+  journal = {arXiv preprint arXiv:2103.00355},
+  year    = {2021}
+}
+`
