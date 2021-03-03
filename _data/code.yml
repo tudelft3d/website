@@ -1,10 +1,9 @@
-- name: SUM Annotator
+- name: 3D Mesh Annotator
   description: 3D mesh annotation tool for labelling semantics of urban scenes. 
   github: https://github.com/tudelft3d/3D_Urban_Mesh_Annotator
   data: https://3d.bk.tudelft.nl/opendata/sum/
   paper: https://arxiv.org/abs/2103.00355
   video: https://youtu.be/qQyQt960mFA
-  video: https://youtu.be/YrfQmLY1N_4
   image: meshannotation_square.jpg
 
 - name: cjio
