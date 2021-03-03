@@ -83,7 +83,13 @@ We also evaluated the performance of semantic segmentation with different amount
 ## Citation
 If you use SUM-Helsinki in a scientific work, we kindly ask you to cite it:
 
-{% imbiber projects/meshannotation/sum3d.bib groupby:classthenyear idswithprefix:type_ %}
+@Article{gao2021sum,
+  author  = {Weixiao, GAO and Liangliang, Nan and Bas, Boom and Hugo, Ledoux},
+  title   = {SUM: A Benchmark Dataset of Semantic Urban Meshes},
+  journal = {arXiv preprint arXiv:2103.00355},
+  year    = {2021}
+}
+
 
 ## Funding
 
