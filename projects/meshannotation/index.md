@@ -19,14 +19,23 @@ permalink: /projects/meshannotation/
 - - -
 
 ## Summary
-We introduce a new benchmark dataset of semantic urban meshes which covers about 4 km<sup>2</sup> in Helsinki (Finland), with six classes: *ground*, *building*, *vegetation*, *water*, *vehicle*, and *boat*. 
+<div class="row featurette">
+  <div class="col-md-7">
+    <p>We introduce a new benchmark dataset of semantic urban meshes which covers about 4 km<sup>2</sup> in Helsinki (Finland), with six classes: <font color=#CD853F><b>Ground</b></font>, <font color=#00FF00><b>Vegetation</b></font>, <font color=#FFE600><b>Building</b></font>, <font color=#00FFFF><b>Water</b></font>, <font color=#FF00FF><b>Vehicle</b></font>, and <font color=#000099><b>Boat</b></font>.</p>
+    <p>We have used <a href="https://www.hel.fi/helsinki/en/administration/information/general/3d/3d">Helsinki 3D</a> textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely <a href="https://www.bentley.com/en/products/brands/contextcapture">ContextCapture</a>. The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
+  </div>
+  <div class="col-md-5">
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+    <img class="img-responsive" src="{{ "img/hel_map.jpg" }}">
+    <p style="text-align: right;">Figure 2: Selected area of Helsinki </p>
+    </div>
+  </div>
+</div>
 
-We have used [Helsinki 3D](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. 
-The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely [ContextCapture](https://www.bentley.com/en/products/brands/contextcapture). The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles.   
 
   <!---<img src="img/hel_map.jpg">
   <img src="img/mesh_overview.png">--->
-
+  <!---
 <div class="col-sm-6 col-xs-6"><img class="img-responsive" src="{{ "img/hel_map.jpg" }}"></div>
 <p style="text-align: center;">Figure 2: Selected area of Helsinki </p>
 <div class="col-sm-6 col-xs-6"></div>
@@ -138,3 +147,4 @@ This project has received funding from [EuroSDR](http://www.eurosdr.net/) and su
 **Ziqian Ni**, assists in software development, from 2019-07 to 2019-09. <br> 
 **Mels Smit**, assists in mesh annotation, from 2020-07 to 2020-09. <br>
 **Charalampos Chatzidiakos**, assists in mesh annotation, from 2020-07 to 2020-09. <br>
+--->
