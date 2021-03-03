@@ -80,10 +80,9 @@ permalink: /opendata/
     </div>
   </div>
 
-
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <a href="https://3d.bk.tudelft.nl/opendata/sum/"><img src="{{ "/img/code/sum3d.png" | prepend: site.baseurl }}"/></a>
+      <a href="https://3d.bk.tudelft.nl/projects/meshannotation/#data-download"><img src="{{ "/img/code/sum3d.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>SUM Helsinki
         <br/>
