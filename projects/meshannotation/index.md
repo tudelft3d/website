@@ -21,7 +21,7 @@ permalink: /projects/meshannotation/
 ## Summary
 We introduce a new benchmark dataset of semantic urban meshes which covers about 4 km<sup>2</sup> in Helsinki (Finland), with six classes: *ground*, *building*, *vegetation*, *water*, *vehicle*, and *boat*. 
 
-**Data download:** [SUM Helsinki 3D](https://3d.bk.tudelft.nl/opendata/sum3d/) 
+**Data download:** [SUM Helsinki 3D](https://3d.bk.tudelft.nl/opendata/sum3d/sum3dpage.html) 
 
 We have used [Helsinki 3D](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. 
 The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely [ContextCapture](https://www.bentley.com/en/products/brands/contextcapture). The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles.   
