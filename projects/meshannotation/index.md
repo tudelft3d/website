@@ -30,7 +30,7 @@ permalink: /projects/meshannotation/
     <p> The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive " width="80%" height="80%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive " width="90%" height="90%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: center;">Figure 2: Selected area of Helsinki </p>
   </div>
 </div>
@@ -51,7 +51,7 @@ permalink: /projects/meshannotation/
 ## Data Download
 The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and our [3D Annotator](https://github.com/tudelft3d/3D_Urban_Mesh_Annotator). We also provide the sampled point clouds with semantics, colours and corresponding face ids in two sampling density (refer to surface area): 30 pts/m<sup>2</sup> and  300 pts/m<sup>2</sup>. In addition, we only provide the data in PLY format, and the semantic classes and colours are defined as follows:
 
-{:class="table table-bordered table-hover table-responsive table-sm"}
+{:class="table table-bordered table-hover table-responsive table-sm" style="width: auto;"}
 | Labels | Semantics    |    RGB       |
 | :-----:| :----------: | :----------: |
 | -1     | unclassified | 0  , 0  , 0  |
