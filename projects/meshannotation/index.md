@@ -10,7 +10,7 @@ permalink: /projects/meshannotation/
 
 <div class="col-sm-12 col-xs-12">
     <center>
-    <img class="img-responsive"  height="80%" src="{{ "img/mesh_overview.jpg" }}">
+    <img class="img-responsive" width="50%" height="50%" src="{{ "img/mesh_overview.jpg" }}">
     </center>
     <p style="text-align: center;">Figure 1: Overview of the semantic urban mesh benchmark. Left: the textured meshes. Right: the ground truth meshes.</p>
 </div>
@@ -24,13 +24,13 @@ permalink: /projects/meshannotation/
 
 ## Summary
 <div class="row featurette">
-  <div class="col-md-5">
+  <div class="col-md-7">
     <p>We introduce a new benchmark dataset of semantic urban meshes which covers about 4 km<sup>2</sup> in Helsinki (Finland), with six classes: <span style="color: #CD853F"><b>Ground</b></span>, <span style="color: #00FF00"><b>Vegetation</b></span>, <span style="color: #FFE600"><b>Building</b></span>, <span style="color: #00FFFF"><b>Water</b></span>, <span style="color: #FF00FF"><b>Vehicle</b></span>, and <span style="color: #000099"><b>Boat</b></span>.</p>
     <p>We have used <a href="https://www.hel.fi/helsinki/en/administration/information/general/3d/3d">Helsinki 3D</a> textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely <a href="https://www.bentley.com/en/products/brands/contextcapture">ContextCapture</a>. The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
   </div>
-  <div class="col-md-7">
+  <div class="col-md-5">
     <center>
-    <img class="featurette-image img-responsive " width="60%" height="60%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive " width="40%" height="40%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 2: Selected area of Helsinki </p>
   </div>
@@ -53,7 +53,7 @@ permalink: /projects/meshannotation/
     <p><b>Download link:</b> <a href="https://3d.bk.tudelft.nl/opendata/sum/">SUM Helsinki 3D</a> </p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive" height="60%" src="{{ "img/label_table.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive"width="50%" height="50%" src="{{ "img/label_table.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
   </div>
 </div>
 
@@ -90,7 +90,7 @@ We sample the mesh into coloured point clouds with a density of about 30 pts/m<s
 <div class="col-md-12">
   <center>
     <img class="featurette-image img-responsive" src="{{ "img/table_comparision.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
-  <\center>
+  </center>
 <p style="text-align: center;">Table 2: Comparison of various semantic segmentation methods on the new benchmark dataset. The results reported in this table are per-class IoU (%), mean IoU (mIoU, %), Overall Accuracy (OA, %), mean class Accuracy (mAcc, %), mean F1 score (mF1, %), and the running times for training and testing (minutes). The running times of RF-MRF and the baseline (ours) methods also include feature computation. </p>
 </div>
 
@@ -99,7 +99,7 @@ We sample the mesh into coloured point clouds with a density of about 30 pts/m<s
     <p>We also evaluated the performance of semantic segmentation with different amounts of input training data on our baseline approach and <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf">KPConv</a> with the intention of understanding the required amount of data to obtain decent results. We found that we only need about 7% of the training dataset (which covers about 0.23 km<sub>2</sub>) to achieve the acceptable and robust results compared to 33% (which covers about 1.0km<sub>2</sub>) for KPConv. </p>
   </div>
   <div class="col-md-7">
-    <img class="featurette-image img-responsive" height="80%" src="{{ "img/train_increase.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive"  width="50%" height="50%" src="{{ "img/train_increase.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: center;">Figure 6: Effect of the amount of input training data on the performance of our baseline method and KPConv.</p>
   </div>
 </div>
