@@ -69,9 +69,8 @@ We sample the mesh into coloured point clouds with a density of about 30 pts/m<s
 We also evaluated the performance of semantic segmentation with different amounts of input training data on our baseline approach and [KPConv](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf) with the intention of understanding the required amount of data to obtain decent results. We found that we only need about 7% of the training dataset (which covers about 0.23 km<sub>2</sub>) to achieve the acceptable and robust results compared to 33% (which covers about 1.0km<sub>2</sub>) for KPConv.
 
 
-<div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/train_increase.png" }}"></div>
+<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/train_increase.png" }}"></div>
 <p style="text-align: center;">Figure 7: Effect of the amount of input training data on the performance of our baseline method and KPConv.</p>
-
 
 
 ## Video Demo
