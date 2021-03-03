@@ -30,7 +30,7 @@ permalink: /projects/meshannotation/
     <p> The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive " width="60%" height="60%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive " width="80%" height="80%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: left;">Figure 2: Selected area of Helsinki </p>
   </div>
 </div>
@@ -49,8 +49,9 @@ permalink: /projects/meshannotation/
 ## Data Download
 The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and our [3D Annotator](https://github.com/tudelft3d/3D_Urban_Mesh_Annotator). We also provide the sampled point clouds with semantics, colours and corresponding face ids in two sampling density (refer to surface area): 30 pts/m<sup>2</sup> and  300 pts/m<sup>2</sup>. In addition, we only provide the data in PLY format, and the semantic classes and colours are defined as follows:
 
+{:class="table table-bordered"}
 | Labels | Semantics    |    RGB       |
-| :-----:| :----------: | :----------:|
+| :-----:| :----------: | :----------: |
 | -1     | unclassified | 0  , 0  , 0  |
 | 1      | ground       | 170, 85 , 0  |
 | 2      | vegetation   | 0  , 255, 0  |
@@ -58,6 +59,8 @@ The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and
 | 4      | water        | 0  , 255, 255|
 | 5      | car          | 255, 0  , 255|
 | 6      | boat         | 0  , 0  , 153|
+
+---
 
 **Download link:** [SUM Helsinki 3D](https://3d.bk.tudelft.nl/opendata/sum/) 
 
@@ -89,7 +92,7 @@ To perform the semantic segmentation task, we randomly select 40 tiles from the 
 
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" width="70%" height="70%"  src="{{ "img/data_split.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="80%" height="80%"  src="{{ "img/data_split.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 6: Overview of the data used in our experiment. Left: The distribution of the training, test, and validation dataset. Right: Semantic categories of training (including validation data) and test dataset.</p>
 </div>
@@ -108,7 +111,7 @@ We also evaluated the performance of semantic segmentation with different amount
 
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" width="70%" height="70%" src="{{ "img/train_increase.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/train_increase.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 7: Effect of the amount of input training data on the performance of our baseline method and KPConv.</p>
 </div>
