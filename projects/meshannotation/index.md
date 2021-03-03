@@ -8,8 +8,12 @@ permalink: /projects/meshannotation/
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/meshannotation.jpg" }}"></div>
 </div>--->
 
-<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/mesh_overview.jpg" }}"></div>
-<p style="text-align: center;">Figure 1: Overview of the semantic urban mesh benchmark. Left: the textured meshes. Right: the ground truth meshes.</p>
+<div class="col-sm-12 col-xs-12">
+    <center>
+    <img class="img-responsive"  width="80%" height="80%" src="{{ "img/mesh_overview.jpg" }}">
+    </cener>
+    <p style="text-align: center;">Figure 1: Overview of the semantic urban mesh benchmark. Left: the textured meshes. Right: the ground truth meshes.</p>
+</div>
 
 - - -
 
@@ -25,7 +29,9 @@ permalink: /projects/meshannotation/
     <p>We have used <a href="https://www.hel.fi/helsinki/en/administration/information/general/3d/3d">Helsinki 3D</a> textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely <a href="https://www.bentley.com/en/products/brands/contextcapture">ContextCapture</a>. The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
   </div>
   <div class="col-md-6">
-    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <center>
+    <img class="featurette-image img-responsive " width="50%" height="50%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    </cener>
     <p style="text-align: center;">Figure 2: Selected area of Helsinki </p>
   </div>
 </div>
