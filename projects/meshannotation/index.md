@@ -25,7 +25,7 @@ permalink: /projects/meshannotation/
     <p>We have used <a href="https://www.hel.fi/helsinki/en/administration/information/general/3d/3d">Helsinki 3D</a> textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely <a href="https://www.bentley.com/en/products/brands/contextcapture">ContextCapture</a>. The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
   </div>
   <div class="col-md-6">
-    <img class="featurette-image img-responsive" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: center;">Figure 2: Selected area of Helsinki </p>
   </div>
 </div>
@@ -48,17 +48,7 @@ permalink: /projects/meshannotation/
     <p><b>Download link:</b> <a href="https://3d.bk.tudelft.nl/opendata/sum/">SUM Helsinki 3D</a> </p>
   </div>
   <div class="col-md-5">
-
-| Labels | Semantics    |    RGB       |
-| :-----:| :----------: | :----------: |
-| -1     | unclassified | 0  , 0  , 0  |
-| 1      | ground       | 170, 85 , 0  |
-| 2      | vegetation   | 0  , 255, 0  |
-| 3      | building     | 255, 255, 0  |
-| 4      | water        | 0  , 255, 255|
-| 5      | car          | 255, 0  , 255|
-| 6      | boat         | 0  , 0  , 153|
-
+    <img class="featurette-image img-responsive" src="{{ "img/label_table.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
   </div>
 </div>
 
