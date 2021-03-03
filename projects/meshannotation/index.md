@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SUM A Benchmark Dataset of Semantic Urban Meshes
+title: "SUM: A Benchmark Dataset of Semantic Urban Meshes"
 permalink: /projects/meshannotation/
 ---
 
@@ -21,8 +21,6 @@ permalink: /projects/meshannotation/
 ## Summary
 We introduce a new benchmark dataset of semantic urban meshes which covers about 4 km<sup>2</sup> in Helsinki (Finland), with six classes: *ground*, *building*, *vegetation*, *water*, *vehicle*, and *boat*. 
 
-**Data download:** [SUM Helsinki 3D](https://3d.bk.tudelft.nl/opendata/sum3d/sum3dpage.html) 
-
 We have used [Helsinki 3D](https://www.hel.fi/helsinki/en/administration/information/general/3d/3d) textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. 
 The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely [ContextCapture](https://www.bentley.com/en/products/brands/contextcapture). The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles.   
 
@@ -39,6 +37,12 @@ The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2
 <p style="text-align: center;">Figure 4: The labelled mesh (part of our dataset). </p>
 
 - - -
+
+## Data Download
+
+**Data download:** [SUM Helsinki 3D](https://3d.bk.tudelft.nl/opendata/sum/) 
+
+- - - 
 
 ## Labelling Workflow
 Rather than manually labelling each individual triangle face of the raw meshes, we design a semi-automatic mesh labelling framework to accelerate the labelling process. Firstly, we over-segment the input meshes into a set of planar segments. To acquire the first ground truth data, we manually annotate the mesh (with segments) that is selected with the highest feature diversity. Then, we add the first labelled mesh into the training dataset for the supervised classification. Specifically, we use the segment-based features as input for the classifier, and the output is a pre-labelled mesh dataset. We then use the mesh annotation tool to manually refine the pre-labelled mesh according to feature diversity. In addition, the new refined mesh will be added to the training dataset in order to improve the automatic classification accuracy incrementally.
@@ -80,14 +84,17 @@ We also evaluated the performance of semantic segmentation with different amount
 
 
 ## Citation
+
 If you use SUM-Helsinki in a scientific work, we kindly ask you to cite it:
 
-@Article{gao2021sum,
-  author  = {Weixiao, GAO and Liangliang, Nan and Bas, Boom and Hugo, Ledoux},
-  title   = {SUM: A Benchmark Dataset of Semantic Urban Meshes},
-  journal = {arXiv preprint arXiv:2103.00355},
-  year    = {2021}
+<div class="filteredelement"><strong> SUM: A Benchmark Dataset of Semantic Urban Meshes </strong>. Weixiao Gao, Liangliang Nan, Bas Boom and Hugo Ledoux<em> arXiv preprint arXiv:2103.00355</em>. 2021 <br/><a href="https://arxiv.org/abs/2103.00355"><i class="fas fa-external-link-alt"></i> PDF</a> <a href="#myref" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a> <div id="myref" class="collapse" tabindex="-1"><pre class="bibtex">@misc{sum2021,
+author = {Weixiao Gao and Liangliang Nan and Bas Boom and Hugo Ledoux},
+title = {SUM: A Benchmark Dataset of Semantic Urban Meshes},
+year={2021},
+eprint={2103.00355},
+archivePrefix={arXiv},
 }
+</pre></div></div>
 
 
 ## Funding
