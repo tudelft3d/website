@@ -25,8 +25,8 @@ permalink: /projects/meshannotation/
     <p>We have used <a href="https://www.hel.fi/helsinki/en/administration/information/general/3d/3d">Helsinki 3D</a> textured meshes as input and annotated them as a benchmark dataset of semantic urban meshes. The Helsinki's raw dataset covers about 12 km<sup>2</sup> and was generated in 2017 from oblique aerial images that have about a 7.5 cm ground sampling distance (GSD) using an off-the-shelf commercial software namely <a href="https://www.bentley.com/en/products/brands/contextcapture">ContextCapture</a>. The entire region of Helsinki is split into tiles, and each of them covers about 250 m<sup>2</sup>. As shown in the figures below, we have selected the central region of Helsinki as the study area, which includes 64 tiles. </p>
   </div>
   <div class="col-md-5">
-    <div align="center" class="embed-responsive embed-responsive-1by1">
-    <img class="img-responsive" src="{{ "img/hel_map.jpg" }}">
+    <div align="center" class="embed-responsive">
+    <img class="featurette-image img-responsive" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="helsinki_map">
     <p style="text-align: right;">Figure 2: Selected area of Helsinki </p>
     </div>
   </div>
