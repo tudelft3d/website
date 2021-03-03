@@ -26,9 +26,11 @@ https://3d.bk.tudelft.nl/opendata/sum/
 ## Citation
 If you use SUM-Helsinki in a scientific work, we kindly ask you to cite it:
 
-@Article{gao2021sum,
-  author  = {Weixiao, GAO and Liangliang, Nan and Bas, Boom and Hugo, Ledoux},
-  title   = {SUM: A Benchmark Dataset of Semantic Urban Meshes},
-  journal = {arXiv preprint arXiv:2103.00355},
-  year    = {2021}
+<div class="filteredelement"><strong> SUM: A Benchmark Dataset of Semantic Urban Meshes </strong>. Weixiao Gao, Liangliang Nan, Bas Boom and Hugo Ledoux<em> arXiv preprint arXiv:2103.00355</em>. 2021 <br/><a href="https://arxiv.org/abs/2103.00355"><i class="fas fa-external-link-alt"></i> PDF</a> <a href="#myref" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a> <div id="myref" class="collapse" tabindex="-1"><pre class="bibtex">@misc{sum2021,
+author = {Weixiao Gao and Liangliang Nan and Bas Boom and Hugo Ledoux},
+title = {SUM: A Benchmark Dataset of Semantic Urban Meshes},
+year={2021},
+eprint={2103.00355},
+archivePrefix={arXiv},
 }
+</pre></div></div>

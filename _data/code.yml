@@ -45,7 +45,7 @@
 
 - name: sum3d
   description: Semantic Urban Meshes in Helsinki (Finland)
-  data: https://3d.bk.tudelft.nl/opendata/sum/
+  data: https://3d.bk.tudelft.nl/opendata/sum3d/
   paper: https://arxiv.org/abs/2103.00355
   image: sum3d.png
 
