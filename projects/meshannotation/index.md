@@ -31,7 +31,7 @@ permalink: /projects/meshannotation/
   </div>
   <div class="col-md-5">
     <img class="featurette-image img-responsive " width="80%" height="80%" src="{{ "img/hel_map.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
-    <p style="text-align: left;">Figure 2: Selected area of Helsinki </p>
+    <p style="text-align: center;">Figure 2: Selected area of Helsinki </p>
   </div>
 </div>
 
@@ -46,10 +46,12 @@ permalink: /projects/meshannotation/
    </div>
 </div>
 
+- - -
+
 ## Data Download
 The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and our [3D Annotator](https://github.com/tudelft3d/3D_Urban_Mesh_Annotator). We also provide the sampled point clouds with semantics, colours and corresponding face ids in two sampling density (refer to surface area): 30 pts/m<sup>2</sup> and  300 pts/m<sup>2</sup>. In addition, we only provide the data in PLY format, and the semantic classes and colours are defined as follows:
 
-{:class="table table-bordered"}
+{:class="table table-bordered table-hover table-responsive table-sm"}
 | Labels | Semantics    |    RGB       |
 | :-----:| :----------: | :----------: |
 | -1     | unclassified | 0  , 0  , 0  |
@@ -64,6 +66,8 @@ The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and
 
 **Download link:** [SUM Helsinki 3D](https://3d.bk.tudelft.nl/opendata/sum/) 
 
+- - -
+
 ## Labelling Workflow
 Rather than manually labelling each individual triangle face of the raw meshes, we design a semi-automatic mesh labelling framework to accelerate the labelling process. Firstly, we over-segment the input meshes into a set of planar segments. To acquire the first ground truth data, we manually annotate the mesh (with segments) that is selected with the highest feature diversity. Then, we add the first labelled mesh into the training dataset for the supervised classification. Specifically, we use the segment-based features as input for the classifier, and the output is a pre-labelled mesh dataset. We then use the mesh annotation tool to manually refine the pre-labelled mesh according to feature diversity. In addition, the new refined mesh will be added to the training dataset in order to improve the automatic classification accuracy incrementally.
 
@@ -77,6 +81,8 @@ Rather than manually labelling each individual triangle face of the raw meshes, 
 
 Following the proposed framework, a total of 19,080,325 triangle faces have been labelled, which took around **400** working hours. Compared with a triangle-based manual approach, we estimate that our framework saved us more than **600** hours of manual labour.
 
+- - -
+
 ## Comparison of Existing 3D Urban Benchmark Datasets
 Urban datasets can be captured with different sensors and be reconstructed with different methods, and the resulting datasets will have different properties. The input of the semantic labelling process can be raw or pre-processed urban datasets such as the pre-labelled results of semantic segmentation. Regardless of the input data, it still needs to be manually checked and annotated with a labelling tool, which involves selecting a correct semantic label from a predefined list for each triangle (or point, depending on the dataset) by users. In addition, some interactive approaches can make the labelling process semi-manual. However, unlike our proposed approach, the labelling work of most of 3D benchmark data does not take full advantage of pre-processing steps like over-segmentation and semantic segmentation on 3D data, and interactive annotation in the 3D space.  
  
@@ -87,6 +93,8 @@ Urban datasets can be captured with different sensors and be reconstructed with 
     <p style="text-align: center;">Table 1: Comparison of existing 3D urban benchmark datasets.</p>
 </div>
 
+- - -
+
 ## Data Split
 To perform the semantic segmentation task, we randomly select 40 tiles from the annotated 64 tiles of Helsinki as training data, 12 tiles as test data, and 12 tiles as validation data. For each of the six semantic categories, we compute the total area in the training and test dataset to show the class distribution.
 
@@ -96,6 +104,8 @@ To perform the semantic segmentation task, we randomly select 40 tiles from the 
     </center>
     <p style="text-align: center;">Figure 6: Overview of the data used in our experiment. Left: The distribution of the training, test, and validation dataset. Right: Semantic categories of training (including validation data) and test dataset.</p>
 </div>
+
+- - -
 
 ## Evaluation
 We sample the mesh into coloured point clouds with a density of about 30 pts/m<sup>2</sup> as input for the competing deep learning methods. To evaluate and compare with the current state-of-the-art 3D deep learning methods that can be applied to large-scale urban dataset, we select five representative approaches ([PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf), [PointNet++](https://ai.berkeley.edu/~ee290t/fa18/readings/point-net++-guibas.pdf), [SPG](http://openaccess.thecvf.com/content_cvpr_2018/papers/Landrieu_Large-Scale_Point_Cloud_CVPR_2018_paper.pdf), [KPConv](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf), and [RandLA-Net](http://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_RandLA-Net_Efficient_Semantic_Segmentation_of_Large-Scale_Point_Clouds_CVPR_2020_paper.pdf)), and we perform the experiment on an NVIDIA GEFORCE GTX 1080Ti GPU. In addition, we also compare with the [joint RF-MRF](https://www.sciencedirect.com/science/article/pii/S0924271616301812?casa_token=dFyuttETI9gAAAAA:lRmrFeYuGZisXbi9WAKuTL9FS_H0XZQmgzPIgB9FZ395rRxOqHWMQas2AqzXn6Pcp8n7gHdaA9k), which is the only method that directly takes the mesh as input and without using GPU for computation. The hyper-parameters of all the competing methods are tuned to achieve the best results we could acquire. We achieve about **93.0%** overall accuracy and **66.2%** mIoU. Specifically, our approach outperforms RF-MRF with a margin of about 5.3% mIoU, and other deep learning methods from 0.7% to 28.1% mIoU.
@@ -116,6 +126,7 @@ We also evaluated the performance of semantic segmentation with different amount
     <p style="text-align: center;">Figure 7: Effect of the amount of input training data on the performance of our baseline method and KPConv.</p>
 </div>
 
+- - -
 
 ## Video Demo
 <iframe src="https://player.vimeo.com/video/518579204" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -123,6 +134,8 @@ We also evaluated the performance of semantic segmentation with different amount
 ---
 
 <iframe src="https://player.vimeo.com/video/518669528" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+- - -
 
 ## Citation
 
@@ -136,6 +149,8 @@ eprint={2103.00355},
 archivePrefix={arXiv},
 }
 </pre></div></div>
+
+- - -
 
 ## Funding
 
