@@ -95,7 +95,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     9.20 - 9.25 Nicholas Nisbet - buildingSMART and its role in the EUnet4DBP	
     
 
-*9.35 - 10.30* --	**Session 1: Empowerment of public officers** [chair: André Vonthron]
+*9.35 - 10.30* --	**Session 1: Empowerment of public officers** [chair: Miguel Azenha]
 
     9.35 - 9.55	Eilif Hjelseth	- The need for an integrating approach for developing digital building permit solutions
     
@@ -109,7 +109,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 ***Andrea Fronk** is the Director of Bimfactory Srl, a consultancy firm based in Milan and Brescia (Italy). He is a certified BIM and Project Manager and he works by supporting the digital transformation of the AECO Sector. He worked in 2014 as scientific assistant in Fraunhofer IEC, as part of the Process Construction Engineering research team; then, from 2015 to 2019, he worked as Partner and BIM Coordinator with DVision Architecture, a design firm based in Brescia (Italy). He is member of the Management Board of Assobim, a non-profit organization active in the dissemination of BIM in Italy, and he has been a member of the BIM User Group Italy since 2018. He participates as a speaker at various conferences and has published several articles relating to BIM and digitization.*
 
-*11.15 - 12.15*	-- **Session 2a - International experiences with digital building permit**	[chair: Miguel Azenha]
+*11.15 - 12.15*	-- **Session 2a - International experiences with digital building permit**	[chair: IJsbrand van Straalen]
 
     11.15 - 11.35 Ophélie Vincendon - Digital Building Permit in the State of Geneva
     
@@ -121,14 +121,14 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *13.00 - 13.30*	-- **Session 2b - International experiences with digital building permit**	[chair: Francesca Noardo]
 
-    13.00 - 13.15 André Vonthron - Integration of Building Information Modelling into the process of building permits in Germany
+    13.00 - 13.15 José Granja - Concept for process towards automated building permits in Portugal
     
     13.15 - 13.30 Perola Olsson -  Exchange of digital information in the building permission process in Sweden – some previous and possible future studies
 				
 		
 
 
-*13.35-14.10* -- **Session 3a - Process 1** [chair: IJsbrand van Straalen]
+*13.35-14.10* -- **Session 3a - Process 1** [chair: Jernej Tekavec]
 
 	13.35-13.50 Manuel Garramone - 	Analysis of the digital building permit requirements inside a BIM environment	
 	
@@ -138,7 +138,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 	
 *14.25-14.40*	*Coffee break*	
 					
-*14.40-15.35* -- **Session 3b - Process 2** [chair: Jernej Tekavec]
+*14.40-15.35* -- **Session 3b - Process 2** [chair:  Lars Harrie]
 
 	14.40-14.55 Silvia Costa - Digital Building Permit and Small Sized Local Authorities in Italy
     
@@ -164,36 +164,36 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *9.00-9.05* 	**Welcome and introduction** [Francesca Noardo]				
 					
-*9.05-10.15*	**Session 4 - Rules and requirements** [chair: Lars Harrie]
+*9.05-10.15*	**Session 4 - Rules and requirements** [chair: Fulvio Re Cecconi]
 
-    9.05-9.20 José Granja - Concept for process towards automated building permits in Portugal
+    9.05-9.20 André Vonthron - Integration of Building Information Modelling into the process of building permits in Germany
     
-    9.20-9.35	Nicholas Nisbet - Normative, Definitive and Descriptive Knowledge
+    9.20-9.35 Nicholas Nisbet - Normative, Definitive and Descriptive Knowledge
     
-    9.35-9.50	Eilif Hjelseth - Hidden challenges in development of digital solutions for processing of building regulations
+    9.35-9.50 Eilif Hjelseth - Hidden challenges in development of digital solutions for processing of building regulations
     
-    9.50-10.10	Beidi Li - A reasoning-based approach for checking performance-based codes in digital building permit processes
+    9.50-10.10 Beidi Li - A reasoning-based approach for checking performance-based codes in digital building permit processes
     
 					
 *10.10-10.30*	**Interactive activity maturity model - Rules and requirements** [chair: Giada Malacarne]
 					
 *10.30-10.40	Coffee break*				
 					
-*10.40-12.30*	**Session 5 - Technology** [chair: Jernej Tekavec]
+*10.40-12.30*	**Session 5 - Technology** [chair: André Vonthron]
 
     10.40-11.00	Francesca Noardo - GeoBIM for the digitalization of building permit checks.
     
     11.00-11.25 Marco Rognoni - Automated Code Checking in the Epermit BIM Process
     
-    11.25-11.50	Matteo Mandrile	- BIM as multiscale facilitator for built environment analysis
+    11.25-11.45	Matteo Mandrile	- BIM as multiscale facilitator for built environment analysis
     
-    11.50-12.15 Ijsbrand van Straalen -	Development of a New Eco System for Automatic Code Checking based on BIM Bots Technology
+    11.45-12.10 Ijsbrand van Straalen -	Development of a New Eco System for Automatic Code Checking based on BIM Bots Technology
     
-    12.15-12.30 Franco Coin - OpenBIM and DBP – the state of the art and future projects
+    12.10-12.25 Franco Coin - OpenBIM and DBP – the state of the art and future projects
 
-*12.30-12.50*	**Interactive activity maturity model - Technology** [chair: Giada Malacarne]
+*12.25-12.45*	**Interactive activity maturity model - Technology** [chair: Giada Malacarne]
 
-*12.50-13.30	Lunch*
+*12.45-13.30	Lunch*
 
 *13.30-14.30* **Panel session "protech disruption – the evolving context for Digital Permitting"**	[chair: Alain Waha]	
 					
