@@ -76,7 +76,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 -----
 
-### Preliminary programme
+### Programme
 
 #### 25th March 2021 (CET)
 
