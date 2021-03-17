@@ -128,13 +128,13 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 		
 
 
-*13.35-14.10* -- **Session 3a - Process 1** [chair: Jernej Tekavec]
+*13.35-14.10* -- **Session 3a - Process 1** [chair: Dogus Guler]
 
 	13.35-13.50 Manuel Garramone - 	Analysis of the digital building permit requirements inside a BIM environment	
 	
 	13.50-14.05	Giada Malacarne	- Combining BIM and GIS for the digitalization of the building permit process in small municipalities: the GEOBIMM project
 	
-	14.05-14.25	Dogus Guler - A Workflow Containing Digital Building Permit for Turkey
+	14.05-14.25	Judith Fauth - About determination of building permitability
 	
 *14.25-14.40*	*Coffee break*	
 					
@@ -142,7 +142,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 	14.40-14.55 Silvia Costa - Digital Building Permit and Small Sized Local Authorities in Italy
     
-    14.55-15.15 Judith Fauth - About determination of building permitability
+    14.55-15.15 Dogus Guler - A Workflow Containing Digital Building Permit for Turkey
     
     15.15-15.35	Giada Malacarne	- BIM for public authorities: Basic research for the standardized implementation of BIM in the building permit process
     
