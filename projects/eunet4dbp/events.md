@@ -82,7 +82,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *8.30-9.00 -- The platform is open and the network lounge accessible*
 
-*9.00 - 9.30*  -- **Welcome and introduction** [chair: Francesca Noardo]
+*9.00 - 9.30*  -- **Welcome and introduction** - *chair: Francesca Noardo* [*youtube streaming*](https://www.youtube.com/watch?v=44ZuFn3te_Y)
 
     9.00 - 9.05 Francesca Noardo - Intro/welcome
     
@@ -95,7 +95,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     9.20 - 9.25 Nicholas Nisbet - buildingSMART and its role in the EUnet4DBP	
     
 
-*9.35 - 10.30* --	**Session 1: Empowerment of public officers** [chair: Miguel Azenha]
+*9.35 - 10.30* --	**Session 1: Empowerment of public officers** - *chair: Miguel Azenha* [*youtube streaming*](https://www.youtube.com/watch?v=RBo4Q74aYZ8)
 
     9.35 - 9.55	Eilif Hjelseth	- The need for an integrating approach for developing digital building permit solutions
     
@@ -105,11 +105,11 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
 *10.30 -10.45	Coffee break*			
 				
-*10.45 - 11.15*	-- **Keynote 1** [Andrea Fronk](https://www.linkedin.com/in/andrea-fronk-27271886/) (Bimfactory Srl)- The challenges of Digital Building Permits
+*10.45 - 11.15*	-- **Keynote 1** [Andrea Fronk](https://www.linkedin.com/in/andrea-fronk-27271886/) (Bimfactory Srl)- The challenges of Digital Building Permits [*youtube streaming*](https://www.youtube.com/watch?v=bnzTP5yNkCc)
 
 ***Andrea Fronk** is the Director of Bimfactory Srl, a consultancy firm based in Milan and Brescia (Italy). He is a certified BIM and Project Manager and he works by supporting the digital transformation of the AECO Sector. He worked in 2014 as scientific assistant in Fraunhofer IEC, as part of the Process Construction Engineering research team; then, from 2015 to 2019, he worked as Partner and BIM Coordinator with DVision Architecture, a design firm based in Brescia (Italy). He is member of the Management Board of Assobim, a non-profit organization active in the dissemination of BIM in Italy, and he has been a member of the BIM User Group Italy since 2018. He participates as a speaker at various conferences and has published several articles relating to BIM and digitization.*
 
-*11.15 - 12.15*	-- **Session 2a - International experiences with digital building permit**	[chair: IJsbrand van Straalen]
+*11.15 - 12.15*	-- **Session 2a - International experiences with digital building permit**	- *chair: IJsbrand van Straalen*  [*youtube streaming*](https://www.youtube.com/watch?v=bnzTP5yNkCc)
 
     11.15 - 11.35 Ophélie Vincendon - Digital Building Permit in the State of Geneva
     
@@ -119,7 +119,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
 *12.15-13.00*	Lunch	
 
-*13.00 - 13.30*	-- **Session 2b - International experiences with digital building permit**	[chair: Francesca Noardo]
+*13.00 - 13.30*	-- **Session 2b - International experiences with digital building permit**	- *chair: Francesca Noardo* [*youtube streaming*](https://www.youtube.com/watch?v=1231bgycWYs)
 
     13.00 - 13.15 José Granja - Concept for process towards automated building permits in Portugal
     
@@ -128,7 +128,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 		
 
 
-*13.35-14.10* -- **Session 3a - Process 1** [chair: Dogus Guler]
+*13.35-14.10* -- **Session 3a - Process 1** - *chair: Dogus Guler* [*youtube streaming*](https://www.youtube.com/watch?v=d1z_buHvtcA)
 
 	13.35-13.50 Manuel Garramone - 	Analysis of the digital building permit requirements inside a BIM environment	
 	
@@ -138,7 +138,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 	
 *14.25-14.40*	*Coffee break*	
 					
-*14.40-15.35* -- **Session 3b - Process 2** [chair:  Lars Harrie]
+*14.40-15.35* -- **Session 3b - Process 2** - *chair:  Lars Harrie* [*youtube streaming*](https://www.youtube.com/watch?v=SSDvP_49mCA)
 
 	14.40-14.55 Silvia Costa - Digital Building Permit and Small Sized Local Authorities in Italy
     
@@ -150,7 +150,9 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *15.55-16.00*	**Closing** [chair: Francesca Noardo]
 
-*16.00-17.00 The network lounge will remain open.*
+*16.00-16.30 Speed networking in the lounge*
+
+*16.30-17.00 The network lounge will remain open.*
 
 
 
@@ -162,9 +164,9 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *8.30-9.00 -- The platform is open and the network lounge accessible*
 
-*9.00-9.05* 	**Welcome and introduction** [Francesca Noardo]				
+*9.00-9.05* 	**Welcome and introduction** [Francesca Noardo]	[*youtube streaming*](https://www.youtube.com/watch?v=FFJ4BicZCPU)
 					
-*9.05-10.15*	**Session 4 - Rules and requirements** [chair: Fulvio Re Cecconi]
+*9.05-10.15*	**Session 4 - Rules and requirements** - *chair: Fulvio Re Cecconi* 
 
     9.05-9.20 André Vonthron - Integration of Building Information Modelling into the process of building permits in Germany
     
@@ -175,11 +177,11 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     9.50-10.10 Beidi Li - A reasoning-based approach for checking performance-based codes in digital building permit processes
     
 					
-*10.10-10.30*	**Interactive activity maturity model - Rules and requirements** [chair: Giada Malacarne]
+*10.10-10.30*	**Interactive activity maturity model - Rules and requirements** - *chair: Giada Malacarne*
 					
 *10.30-10.40	Coffee break*				
 					
-*10.40-12.30*	**Session 5 - Technology** [chair: André Vonthron]
+*10.40-12.30*	**Session 5 - Technology** - *chair: André Vonthron* [*youtube streaming*](https://www.youtube.com/watch?v=o6jWMVBXTjA)
 
     10.40-11.00	Francesca Noardo - GeoBIM for the digitalization of building permit checks.
     
@@ -191,13 +193,13 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
     12.10-12.25 Franco Coin - OpenBIM and DBP – the state of the art and future projects
 
-*12.25-12.45*	**Interactive activity maturity model - Technology** [chair: Giada Malacarne]
+*12.25-12.45*	**Interactive activity maturity model - Technology** - *chair: Giada Malacarne*
 
 *12.45-13.30	Lunch*
 
-*13.30-14.30* **Panel session "protech disruption – the evolving context for Digital Permitting"**	[chair: Alain Waha]	
+*13.30-14.30* **Panel session "protech disruption – the evolving context for Digital Permitting"**	- *chair: Alain Waha*	 [*youtube streaming*](https://www.youtube.com/watch?v=BcHBFyFC5B4)
 					
-*14.30-15.15*	**Concluding remarks**	[chair: Francesca Noardo]		
+*14.30-15.15*	**Concluding remarks**	- *chair: Francesca Noardo*	
 
 		14.30-14.45	Giada Malacarne - Results from interactive activites on maturity models
 		
