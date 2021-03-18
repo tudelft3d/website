@@ -123,7 +123,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
     13.00 - 13.15 José Granja - Concept for process towards automated building permits in Portugal
     
-    13.15 - 13.30 Perola Olsson -  Exchange of digital information in the building permission process in Sweden – some previous and possible future studies
+    13.15 - 13.30 Lars Harrie -  Exchange of digital information in the building permission process in Sweden – some previous and possible future studies
 				
 		
 
