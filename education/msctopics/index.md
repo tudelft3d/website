@@ -50,17 +50,6 @@ Potentially in collaboration with [RIVM](https://www.rivm.nl/) and/or [RWS](http
 **Contact:** [Balázs Dukai](http://balazsdukai.com/) and someone
 
 - - -
-## Modelling wind flows around beach housing to promote dune formation for flood protection
-
-‘Building with Nature’ is an innovative approach in coastal engineering & design, where natural forces are employed to improve flood protection. Along sandy shores, like the Netherlands, the dunes are the first line of defense; and they need sediment transport by the wind to grow along with sea level rise. However, more and more beaches are urbanized, affecting the sediment flow to the dunes. Computational fluid dynamic (CFD) simulations can give a better insight in the wind and turbulence around built objects, specifically to predict what urban configurations promote wind-driven sediment flow to the dunes. 
-
-In this MSc thesis we will simulate wind patterns around beach housing via CFD modelling to investigate what type of urban configurations perform best to contribute to the sediment flow to the dunes. The study goal is twofold: 1) we will analyze the effect of several types of urban beach configurations in perpendicular and parallel wind conditions; 2) we will evaluate their performance and create a feedback loop with the design parameters to explore potential improvements. Results will contribute to a preliminary set of urban layouts that will be tested by scaled models on the beach in spring 2021. The thesis will be part of the ShoreScape research project (TU Delft & University of Twente 2017-2022, funded by NWO)  
-
-![](img/DunesPlot.png){:width="400px"}
-
-**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Janneke van Bergen](J.vanBergen@tudelft.nl).
-
-- - -
 
 ## Web application for Urban Computational Fluid Dynamics Simulations Set-Up validation.
 
@@ -73,24 +62,6 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 ![](img/DomainandDirectionandMeshClean.png){:width="400px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
-
-- - -
-
-## Exploring efficient ways to visualize and handle large data sets
-
-![](img/Qcontour3_Q035-10_U3.png){:width="400px"}
-
-Diverse processes in urban simulations, such as high-fidelity Computational Fluid Dynamic (CFD) simulations and the reconstruction of accurate 3D city models relay in the usability of very large datasets. 
-This applications focused in realistic urban scenarios can be dealing with number of data points that lay in the hundreds of millions. 
-The visualization and usability of these large datasets is a common problem that we often face, and determining efficient ways to deal with it would be of paramount importance. 
-
-In this MSc thesis we will explore the existing techniques to deal with such problems, and build up from them to analyze and potentially develop additional strategies that ease this challenge. 
-The application results from the thesis can largely impact fields of geomatics, CFD communities as well as 3D data visualization.
-
-If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models and multiple tools for visualization used for 3D city models and CFD results. 
-Programming experience is an advantage for this topic, since parallelization of the processes might be needed to improve the usability of large scale data. 
-
-**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
 - - -
 
@@ -132,20 +103,6 @@ Particular attention will be paid to energy-related topics in order verify how a
 The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug tool(s) and to perform a mapping to underlying CityGML/Energy ADE data models. In addition, proper interfaces will have to be developed and tested by means of a concrete case study. This topic is available for up to *two students* (each one choosing a different application area).
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
-
-- - -
-
-## Where will you lose your hat? Finding the windiest street in the Netherlands
-Wind speeds in small scale regional maps are commonly used to derive wind harvesting potential. Sometimes, these type of maps can also be used to infer the wind speed on the city level. However, we do not know yet how do such interpolated wind speeds correspond to real wind speeds in an urban setting, since the landscape and building structures largely modify the flow patterns. 
-
-In this MSc thesis we will use Netherlands wind maps and 3D city models to explore the correspondence between larger wind maps and local winds. The data inherent in 3D city models will be used to derive fundamental parameters that describe urban morphologies, such as skyview factor, length-to-width ratio, orientation or building density. Through these parameters we will classify diverse urban areas, and explore relations between the derived urban parameters and the local potential for wind enhancement or reduction over the Netherlands. 
-
-If you work on this topic, you can expect to learn about flow patterns (as in wind), geometric operations on 3D city models, how to convert a city object, city-parts into a machine-learnable representation, how various urban layouts influence wind distributions. Ideally, you would also explore how to scale up the operation to a whole country, and optionally you may also learn how to run Computational Fluid Dynamic (CFD) simulations for wind.
-
-![](img/WindyStreetPicture.png){:width="400px"}
-
-**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Balázs Dukai](http://balazsdukai.com).
-
 
 - - -
 
