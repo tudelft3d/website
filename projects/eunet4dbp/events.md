@@ -90,7 +90,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
     9.10 - 9.15 Jantien Stoter - The EuroSDR and its role in the EUnet4DBP 
     
-    9.15 - 9.20 Angelo Ciribini - The EU-BIM and its role in the EUnet4DBP
+    9.15 - 9.20 Angelo Ciribini - The EUnet4DBP and the European BIM Scenario
     
     9.20 - 9.25 Nicholas Nisbet - buildingSMART and its role in the EUnet4DBP	
     
@@ -198,6 +198,15 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 *12.45-13.30	Lunch*
 
 *13.30-14.30* **Panel session "protech disruption – the evolving context for Digital Permitting"**	- *chair: Alain Waha*	 [*youtube streaming*](https://www.youtube.com/watch?v=BcHBFyFC5B4)
+
+		Panelists:
+		
+		Jamie Holmes (VU City)
+		
+		David WeirMcCall (Epic Games)
+		
+		Greg Demchak (Bentley Digital Innovation Lab)
+	
 					
 *14.30-15.15*	**Concluding remarks**	- *chair: Francesca Noardo*	
 
