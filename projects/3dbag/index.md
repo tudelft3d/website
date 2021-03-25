@@ -5,7 +5,7 @@ permalink: /projects/3dbag/
 ---
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/3dbag.jpg" }}"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/3dbag_viewer.png" }}"></div>
 </div>
 
 - - -
