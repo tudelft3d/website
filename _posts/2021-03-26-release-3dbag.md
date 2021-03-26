@@ -10,19 +10,19 @@ The 3D BAG is an up-to-date data set containing 3D building models of the Nether
 
 The 3D BAG is also a place for experiments. It is a medium for testing ideas as we do in the 3D geoinformation research group. Based on experiences with the data, we are constantly improving our methods, and by providing our own service we retain full control over the whole process from input data, pre-processing and reconstruction to querying and using the reconstructed 3D data in urban applications. This allows us to develop, test and release improvements, or even break things, as we see best.
 
-Main features:¶
+Main features:
 
-    - Three levels of detail. Pick the most suitable LoD for your application from the available LoD1.2, LoD1.3 and LoD2.2.
+* Three levels of detail. Pick the most suitable LoD for your application from the available LoD1.2, LoD1.3 and LoD2.2.
 
-    - Both 2D and 3D. Besides the 3D models, we also offer the 2D projections of their roof surfaces with associated height references.
+* Both 2D and 3D. Besides the 3D models, we also offer the 2D projections of their roof surfaces with associated height references.
 
-    - Underground and overlapping buildings and building parts removed. The completely underground and overlapping buildings (eg one building "floating" above another) are excluded from the reconstruction. Buildings with parts under the terrain have their underground parts cut off.
+* Underground and overlapping buildings and building parts removed. The completely underground and overlapping buildings (eg one building "floating" above another) are excluded from the reconstruction. Buildings with parts under the terrain have their underground parts cut off.
 
-    - Fall back to a simple model for problematic input. Buildings with glass roofs, especially greenhouses, have an inconsistent point cloud in the AHN. For these buildings, that usually have a very simple shape anyways, we fall back to a simplified 3D model in order to generate usable models.
+* Fall back to a simple model for problematic input. Buildings with glass roofs, especially greenhouses, have an inconsistent point cloud in the AHN. For these buildings, that usually have a very simple shape anyways, we fall back to a simplified 3D model in order to generate usable models.
 
-    - Quality control integrated. We run our 3D models through val3dity, so that you don't need to validate the 3D data yourself.
+* Quality control integrated. We run our 3D models through val3dity, so that you don't need to validate the 3D data yourself.
 
-    - Available in several formats. CityJSON, GeoPackage, Wavefront OBJ, PostgreSQL, WMS, WFS.
+* Available in several formats. CityJSON, GeoPackage, Wavefront OBJ, PostgreSQL, WMS, WFS.
 
 ![]({{ site.baseurl }}/projects/3dbag/img/3dbag_viewer.png)
 
