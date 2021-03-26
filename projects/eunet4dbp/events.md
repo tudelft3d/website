@@ -97,7 +97,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *9.35 - 10.30* --	**Session 1: Empowerment of public officers** - *chair: Miguel Azenha* [*youtube streaming*](https://www.youtube.com/watch?v=RBo4Q74aYZ8)
 
-    9.35 - 9.55	Eilif Hjelseth	- The need for an integrating approach for developing digital building permit solutions
+    9.35 - 9.55	Eilif Hjelseth	- Hidden challenges in development of digital solutions for processing of building regulations
     
     9.55 - 10.15 Lennart Senger - Development of an implementation strategy for municipalities to enhance computerized building permits
     
@@ -172,7 +172,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
     9.20-9.35 Nicholas Nisbet - Normative, Definitive and Descriptive Knowledge
     
-    9.35-9.50 Eilif Hjelseth - Hidden challenges in development of digital solutions for processing of building regulations
+    9.35-9.50 Beidi Li - The need for an integrating approach for developing digital building permit solutions
     
     9.50-10.10 Beidi Li - A reasoning-based approach for checking performance-based codes in digital building permit processes
     
@@ -181,7 +181,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 					
 *10.30-10.40	Coffee break*				
 					
-*10.40-12.30*	**Session 5 - Technology** - *chair: André Vonthron* [*youtube streaming*](https://www.youtube.com/watch?v=o6jWMVBXTjA)
+*10.40-12.30*	**Session 5 - Technology** - *chair: Jernej Tekavec* [*youtube streaming*](https://www.youtube.com/watch?v=o6jWMVBXTjA)
 
     10.40-11.00	Francesca Noardo - GeoBIM for the digitalization of building permit checks.
     
@@ -201,9 +201,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 		Panelists:
 		
-		Jamie Holmes (VU City)
-		
-		David WeirMcCall (Epic Games)
+		Paul Oesten-Creasy (VU City)
 		
 		Greg Demchak (Bentley Digital Innovation Lab)
 	
