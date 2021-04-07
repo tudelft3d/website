@@ -112,7 +112,7 @@ We sample the mesh into coloured point clouds with a density of about 30 pts/m<s
 
 <div class="col-md-12">
   <center>
-    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/table_comparision.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/table_comparision_new.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
   </center>
 <p style="text-align: center;">Table 2: Comparison of various semantic segmentation methods on the new benchmark dataset. The results reported in this table are per-class IoU (%), mean IoU (mIoU, %), Overall Accuracy (OA, %), mean class Accuracy (mAcc, %), mean F1 score (mF1, %), and the running times for training and testing (minutes). The running times of RF-MRF and the baseline (ours) methods also include feature computation. </p>
 </div>
