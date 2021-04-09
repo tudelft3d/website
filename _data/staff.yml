@@ -39,6 +39,9 @@
   homepage: 3d.bk.tudelft.nl/jvliempt
   email: j.n.h.vanliempt@tudelft.nl
   description: "I have joined the group in August 2020 after having graduated from the MSc Geomatics. My graduation topic is on [the compression of CityJSON](https://repository.tudelft.nl/islandora/object/uuid%3A4aad07f4-8f64-46b1-aad3-3d4abe36c5bf). Currently I am mostly involved with projects around the [3D Basisvoorziening](https://www.pdok.nl/3d-basisvoorziening) (interoperability of 3D city models) and [3D BAG](https://3d.bk.tudelft.nl/projects/3dbag/) (3D tiles web viewer)."
+  projects:
+    - name: 3dbag
+      role: Developer
 
 - surname: Du
   name: Shenglan
@@ -188,6 +191,8 @@ She works towards the **integration of multi-source spatial data**, in particula
   projects:
     - name: umnd
       role: PhD Candidate
+    - name: 3dbag
+      role: Developer
   # phone: "+31 15 27 81298"
 
 - surname: Helm
@@ -254,8 +259,6 @@ She works towards the **integration of multi-source spatial data**, in particula
   projects:
     - name: umnd
       role: Associate-prof.
-    - name: 3dbag
-      role: Associate-prof.
     - name: inous
       role: Associate-prof.
     - name: mesh2lod
@@ -275,6 +278,8 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Postdoc
     - name: noise3d
       role: Researcher
+    - name: 3dbag
+      role: Developer
 
 - surname: Stoter
   name: Jantien

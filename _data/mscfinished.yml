@@ -139,6 +139,7 @@
   year: 2019
   github: https://github.com/nsalheb/CityGML2IFC
   link: https://3d.bk.tudelft.nl/pdfs/Nebras_Salheb_%20P5.pdf
+  paper: https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIV-4-W1-2020/127/2020/
 
 - surname: Ai
   name: Zhiwei
@@ -228,6 +229,7 @@
   title: Urban building energy modeling using 3D city model and minimizing uncertainty through Bayesian inference
   image: wang.jpg
   link: http://resolver.tudelft.nl/uuid:bc0d7164-be60-485a-ad7d-f7a049a3851d
+  paper: https://doi.org/10.1080/19401493.2020.1729862
   year: 2018
 
 - surname: Griffioen

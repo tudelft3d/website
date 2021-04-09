@@ -90,14 +90,14 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
     9.10 - 9.15 Jantien Stoter - The EuroSDR and its role in the EUnet4DBP 
     
-    9.15 - 9.20 Angelo Ciribini - The EU-BIM and its role in the EUnet4DBP
+    9.15 - 9.20 Angelo Ciribini - The EUnet4DBP and the European BIM Scenario
     
     9.20 - 9.25 Nicholas Nisbet - buildingSMART and its role in the EUnet4DBP	
     
 
 *9.35 - 10.30* --	**Session 1: Empowerment of public officers** - *chair: Miguel Azenha* [*youtube streaming*](https://www.youtube.com/watch?v=RBo4Q74aYZ8)
 
-    9.35 - 9.55	Eilif Hjelseth	- The need for an integrating approach for developing digital building permit solutions
+    9.35 - 9.55	Eilif Hjelseth	- Hidden challenges in development of digital solutions for processing of building regulations
     
     9.55 - 10.15 Lennart Senger - Development of an implementation strategy for municipalities to enhance computerized building permits
     
@@ -172,7 +172,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
     9.20-9.35 Nicholas Nisbet - Normative, Definitive and Descriptive Knowledge
     
-    9.35-9.50 Eilif Hjelseth - Hidden challenges in development of digital solutions for processing of building regulations
+    9.35-9.50 Beidi Li - The need for an integrating approach for developing digital building permit solutions
     
     9.50-10.10 Beidi Li - A reasoning-based approach for checking performance-based codes in digital building permit processes
     
@@ -181,7 +181,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 					
 *10.30-10.40	Coffee break*				
 					
-*10.40-12.30*	**Session 5 - Technology** - *chair: André Vonthron* [*youtube streaming*](https://www.youtube.com/watch?v=o6jWMVBXTjA)
+*10.40-12.30*	**Session 5 - Technology** - *chair: Jernej Tekavec* [*youtube streaming*](https://www.youtube.com/watch?v=o6jWMVBXTjA)
 
     10.40-11.00	Francesca Noardo - GeoBIM for the digitalization of building permit checks.
     
@@ -198,6 +198,13 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 *12.45-13.30	Lunch*
 
 *13.30-14.30* **Panel session "protech disruption – the evolving context for Digital Permitting"**	- *chair: Alain Waha*	 [*youtube streaming*](https://www.youtube.com/watch?v=BcHBFyFC5B4)
+
+		Panelists:
+		
+		Paul Oesten-Creasy (VU City)
+		
+		Greg Demchak (Bentley Digital Innovation Lab)
+	
 					
 *14.30-15.15*	**Concluding remarks**	- *chair: Francesca Noardo*	
 
