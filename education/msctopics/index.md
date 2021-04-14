@@ -23,7 +23,7 @@ In this MSc thesis we will apply the already developed immersed boundary method 
 
 If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations. You will also work with real experimental wind and turbulence data recorded in wind tunnels. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python). 
 
-![](img/DomainandDirectionandMeshClean.png){:width="400px"}
+![](img/ToMeshOrNotToMesh.jpeg){:width="400px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
 
