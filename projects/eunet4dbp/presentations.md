@@ -33,4 +33,8 @@ By Giada Malacarne - [3D Geoinfo 2020 Conference](https://www.ucl.ac.uk/3dgeoinf
 By Francesca Noardo - [buildingSMART Virtual Summit 2020 - Regulatory Room Session 2 - "Show and Tell"](https://summit.buildingsmart.org/s/virtual-summit/home) *2nd November 2020*
 
 <iframe src="https://player.vimeo.com/video/484445011" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/484445011">Regulatory Room Session 2 - EU network for digital building permits, EUNET4DBP - Francesca Noardo</a> from <a href="https://vimeo.com/user94789481">buildingSMART International</a> on <a href="https://vimeo.com">Vimeo</a>.</p>)
+<p><a href="https://vimeo.com/484445011">Regulatory Room Session 2 - EU network for digital building permits, EUNET4DBP - Francesca Noardo</a> from <a href="https://vimeo.com/user94789481">buildingSMART International</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+### Presentation ["3D geoinformation & GeoBIM - a challenge for the surveying profession"](https://drive.google.com/file/d/1kpETbhWGhgakbDEO7bYSRhrNyE_rCosH/view?usp=sharing)
+
+by Anka Lisec, Jernej Tekavec - Geokolloquium at TU Graz *31st March 2021*
