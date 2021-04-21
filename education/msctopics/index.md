@@ -23,7 +23,7 @@ In this MSc thesis we will apply the automatic meshers available in OpenFOAM (Sn
 
 If you work on this topic, you can expect to learn about mesh generation aligned with CFD best practice guidelines, set-ups and flow simulations. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python). 
 
-![](img/MeshEWI.jpg){:width="600px"}
+![](img/MeshEWI.jpg){:width="400px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
 
@@ -35,7 +35,7 @@ In this MSc thesis we will apply the already developed immersed boundary method 
 
 If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations. You will also work with real experimental wind and turbulence data recorded in wind tunnels. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python). 
 
-![](img/ToMeshOrNotToMesh.jpg){:width="600px"}
+![](img/ToMeshOrNotToMesh.jpg){:width="800px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
 
