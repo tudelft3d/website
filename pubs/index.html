@@ -4,6 +4,13 @@ title: Publications
 permalink: /pubs/
 ---
 
+{% assign parameters = "" | split: ',' %}
+{% for member in site.data.staff %}
+	{% if member.uuid %}
+		{% assign parameter = 'author=' | append: member.uuid %}
+		{% assign parameters = parameters | push: parameter %}
+	{% endif %}
+{% endfor %}
 
-<div class="alert alert-warning text-center" role="alert">Our publications are now <a href="https://research.tudelft.nl/en/organisations/3d-geo-information/publications/">on the TU Delft research website</a>.</div>
+<div class="alert alert-warning text-center" role="alert">Our publications are now <a href="https://research.tudelft.nl/en/publications/?format=&{{ parameters | join: '&' }}&nofollow=true">on the TU Delft research website</a>.</div>
 

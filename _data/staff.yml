@@ -82,6 +82,7 @@
   homepage: 3d.bk.tudelft.nl/gsclara
   email: c.garcia-sanchez@tudelft.nl
   twitter: gsclara_
+  uuid: 13b768b1-a213-48de-a15d-2cecea86b246
 
 - surname: Agugiaro
   name: Giorgio
@@ -94,7 +95,7 @@
   Some of his research topics deal for example with the development of an information model to manage and exchange semantically-enriched multi-resolution 3D data for urban energy planning.
   Having a semantic 3D virtual city model as background, the idea is to foster software integration to allow complex urban system simulation and close (or reduce) the gap between geo-information and simulation.
   He is currently chair of the [ISPRS Technical Commission 4 WG 10 (Advanced Geospatial Applications for Smart Cities and Regions)](http://www2.isprs.org/commissions/comm4/wg10.html) and national representative for Austria of the Urban Data Management Society (UDMS)."
-
+  uuid: 1e5e67d1-609f-43ca-8cae-9a6ff3e33a8e
 
 - surname: Noardo
   name: Francesca
@@ -111,6 +112,7 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Postdoc
     - name: sdi-ams
       role: Postdoc
+  uuid: 46f3d244-e694-4c99-8de1-568bdc80d602
 
 - surname: Dukai
   name: Balázs
@@ -153,7 +155,7 @@ She works towards the **integration of multi-source spatial data**, in particula
      — Developed [confdist](https://github.com/balazsdukai/confdist) for computing transcriptional edit distances between pairs of words
 
      — Developed a testing framework and documentation for our 3D geometry validation software [val3dity](http://geovalidation.bk.tudelft.nl/val3dity/)
-
+  uuid: d723f7ae-52dd-4a0c-a0e7-bd3d9cb996c4
 
 
 - surname: Janssen
@@ -194,6 +196,7 @@ She works towards the **integration of multi-source spatial data**, in particula
     - name: 3dbag
       role: Developer
   # phone: "+31 15 27 81298"
+  uuid: 4107d441-1aa1-43df-9467-b0274bb5f1ff
 
 - surname: Helm
   van: van der
@@ -214,6 +217,7 @@ She works towards the **integration of multi-source spatial data**, in particula
   projects:
     - name: umnd
       role: PhD Candidate
+  uuid: a89ef52f-fe91-490e-b6fa-df879548abde
 
 - surname: Altena
   van: van
@@ -224,6 +228,7 @@ She works towards the **integration of multi-source spatial data**, in particula
   homepage: 3d.bk.tudelft.nl/vpvanaltena
   # description: "Topic: An interdisciplinary investigation on using spatial-temporal research in new testament exegesis"
   # pagetext: I am an bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam at eum ad veniam dolorem excepturi odit, in, voluptatibus, ut, autem ipsam. Pariatur vitae, consectetur! Consectetur, aut cum laboriosam nihil.
+  uuid: 984034d0-4ca6-4d6e-9467-4b4e02aad8ae
 
 - surname: Arroyo Ohori
   name: Ken
@@ -238,6 +243,7 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Postdoc
     - name: i3s
       role: Postdoc
+  uuid: f2122c66-ace9-4f79-9e69-6822a0c33fc7
   # phone: +31 15 27 85154
 
 - surname: Brink
@@ -247,6 +253,7 @@ She works towards the **integration of multi-source spatial data**, in particula
   photo: linda.png
   email: l.vandenbrink@geonovum.nl
   twitter: brinkwoman
+  uuid: 2e1206cf-1d46-43d9-a8df-3d0dc251b052
 
 - surname: Ledoux
   name: Hugo
@@ -265,7 +272,7 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Associate-prof.
     - name: meshannotation
       role: Associate-prof.
-
+  uuid: 51e8cf2f-0266-421f-970f-71466b50d886
 
 - surname: Peters
   name: Ravi
@@ -280,6 +287,7 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Researcher
     - name: 3dbag
       role: Developer
+  uuid: bccb5c45-3830-4d45-83ea-9676a093ee6b
 
 - surname: Stoter
   name: Jantien
@@ -317,6 +325,7 @@ She works towards the **integration of multi-source spatial data**, in particula
       role: Professor
     - name: meshannotation
       role: Professor
+  uuid: 1f6b45c5-44ba-4745-a730-d5d3e627e3db
 
 - surname: Nan
   name: Liangliang
@@ -329,6 +338,7 @@ She works towards the **integration of multi-source spatial data**, in particula
     - name: meshannotation
       role: Assistant-prof
   email: liangliang.nan@tudelft.nl
+  uuid: d3a367ae-869e-481d-96ff-b1961b6d64c9
 
 - surname: Krijnen
   name: Thomas
@@ -343,3 +353,4 @@ Thomas built an engaging community around a widely used open source project, [If
   projects:
     - name: i3s
       role: Postdoc
+  uuid: 46479252-d254-4e9d-b3a9-b8b8c5ffe928
