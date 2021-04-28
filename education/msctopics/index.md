@@ -293,7 +293,7 @@ In 2016, we realised the first 3D cadastral situation [3D cadastral registration
 However, there is still a gap between research and practice. In this research you will analyse how a Level of Detail Framework, that defines specifc solutions for specific 3d cadatsre problems may help to close the 3D cadastre research-to-practice gap.
 The idea is explained in [this](https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts04e/TS04E_stoter_ho_et_al_10503.pdf) short paper
 
-*Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) and [Hugo Ledoux](http://tudelft.nl/hledoux)
+*Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) 
 
 - - -
 
@@ -357,21 +357,7 @@ The image shown here is taken from a previous [thesis](https://repository.tudelf
 
 **Contacts**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
-- - -
 
-## Computation of spatial extent for massive point cloud datasets
-
-![](img/alphashape.png)
-
-Given a raw LAS pointcloud datasets, how to generate its [spatial extent (a polygon)](https://3d.bk.tudelft.nl/courses/backup/geo1015/2019/les/13/)?
-
-Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
-A better solution is to use the alpha-shape of the set of points, or similar complex structures.
-The problem we would be tackling here is: how to do this for a dataset of say 800M points? It doesn't fit in memory, so what can we do?
-
-Done in collaboration with [Deltares](https://www.deltares.nl).
-
-*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 
 
 - - -
 
@@ -441,3 +427,22 @@ Additional floors are sometimes added to buildings for various reasons, such as 
 In collaboration with the company [Superworld](https://www.superworld.nl), the idea is to develop a method that uses publicly available datasets (eg BAG) and building permit applications in order to create a reference dataset containing all buildings where a vertical extension or a construction on top of an existing building have been conducted. Such a dataset can then be used to give a confidence factor for the feasibility of an extension to an existing building.
 
 **Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
+
+- - -
+
+
+## Space lidar to estimate the height of all buildings in the world?
+
+![](img/icesat2_buildings.png){:width="300px"}
+
+By using the recent LiDAR [satellite ICESat-2](https://icesat-2.gsfc.nasa.gov/) data, one can potentially measure the height of buildings, see [those very recent results](https://iopscience.iop.org/article/10.1088/2634-4505/abf820).
+
+The problem is that the data is very sparse (kilometres with no data) and thus a global coverage is difficult.
+
+The projects aims at reimplementing, and perhaps improve, the methodology above (eg filtering and classification of the points) and build a training dataset that could be used to train a machine learning network (similar to [this MSc thesis last year of Imke Lánský](https://repository.tudelft.nl/islandora/object/uuid:ddcae7d1-6cc8-42a7-8c1d-a922ec7551f0?collection=education)).
+
+The idea is to use the [3DBAG dataset](https://3dbag.nl) as a start, and see how this can be applied to other areas.
+
+This topic would be in collaboration with [Deltares](https://www.deltares.nl) (Maarten Pronk, who gave the guest lecture in GEO1015), and thus the [Julia programming language](https://julialang.org/) is preferred (since they already have some code to help you start). 
+
+- - - 

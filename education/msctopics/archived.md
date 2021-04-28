@@ -1,5 +1,18 @@
+## Computation of spatial extent for massive point cloud datasets
 
+![](img/alphashape.png)
 
+Given a raw LAS pointcloud datasets, how to generate its [spatial extent (a polygon)](https://3d.bk.tudelft.nl/courses/backup/geo1015/2019/les/13/)?
+
+Finding the bounding-box (or the convex hull, or with a raster solution) is in most cases not sufficient, as the image above shows.
+A better solution is to use the alpha-shape of the set of points, or similar complex structures.
+The problem we would be tackling here is: how to do this for a dataset of say 800M points? It doesn't fit in memory, so what can we do?
+
+Done in collaboration with [Deltares](https://www.deltares.nl).
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 
+
+---
 
 ## Infer the number of floors for all buildings in NL
 
