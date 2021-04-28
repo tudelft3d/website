@@ -445,4 +445,6 @@ The idea is to use the [3DBAG dataset](https://3dbag.nl) as a start, and see how
 
 This topic would be in collaboration with [Deltares](https://www.deltares.nl) (Maarten Pronk, who gave the guest lecture in GEO1015), and thus the [Julia programming language](https://julialang.org/) is preferred (since they already have some code to help you start). 
 
+**Contact**: [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
 - - - 
