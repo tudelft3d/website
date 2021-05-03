@@ -36,6 +36,13 @@ As a first step we will share our knowledge about the topic and the available to
 
 The network is supposed to produce mainly open and possibly flexible solutions, to be shared among the partners.
 
+## Regular meetings 
+
+The EUnet4DBP organizes bi-monthly internal meetings aimed at getting to know the new comers, share updates on on-going activities, new projects, coming events and initiatives.
+
+The activities organized within the EUnet4DBP framework are also decided and discussed within those meetings.
+
+Meetings dates: 20th November 2020; 12th February 2021; 7th May 2021
 
 ## Digital Kick-off Meeting, 29/05/2020
 

@@ -33,6 +33,22 @@ The objects in such integrated digital map will be reciprocally harmonised to be
 
 This is a two-years project, from January 2020 to December 2021.
 
+<!--
+ - - -
+ 
+ ### Results
+ 
+ #### Data readiness and practice investigation
+ 
+ Noardo F, Arroyo Ohori K, Krijnen T, Stoter J. [An Inspection of IFC Models from Practice.](https://doi.org/10.3390/app11052232) Applied Sciences. 2021; 11(5):2232.  
+ 
+ #### Ontologies for data integration
+ 
+
+
+ #### Data harmonization
+ 
+ -->
  - - -
 
 
@@ -54,6 +70,8 @@ This project has received funding from the European Union’s Horizon 2020 resea
 
 <div class="row">
 
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/RotterdamGeoBIMBuildingPermission/" title="GeoBIM Building Permission in Rotterdam"><img src=" /img/projects/eunet4dbp.png" alt="European network for Digital Building Permits" style="max-height: 200px;"></a></div>
+ 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/RotterdamGeoBIMBuildingPermission/" title="GeoBIM Building Permission in Rotterdam"><img src=" /img/projects/rotterdamBP.png" alt="GeoBIM Building Permission in Rotterdam" style="max-height: 200px;"></a></div>
   
     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/geobim-benchmark/" title="GeoBIM benchmark 2019"><img src=" /img/projects/benchmark.png" alt="GeoBIM benchmark 2019" style="max-height: 200px;"></a></div>

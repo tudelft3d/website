@@ -10,9 +10,9 @@ permalink: /projects/eunet4dbp/events.html
 
 **Check the website and [subscribe to the newsletter of the EUnet4DBP](https://tinyletter.com/EuropeanNetwork4DigitalBuildingPermission) to stay informed about future organized events**
 
-<!--
+
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/events.jpg" }}" style="max-height: 100px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/events.jpg" }}" style="max-height: 200px"></div>
 </div>
 
 Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=818202) from [Pixabay](https://pixabay.com) 
@@ -24,15 +24,32 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 
 - - -
 
-# Next
 
--->
+### Next
 
-## I EUnet4DBP International workshop on Digital Building Permit
+## [Building Digital Twin International Congress](https://buildingdigitaltwin.org/vision-and-mission/)
 
+Organized by: BIM Academy
 
+- - -
 
+### Past
 
+- - -
+
+## [I EUnet4DBP International workshop on Digital Building Permit](https://drive.google.com/file/d/1K27fql7wqaPlupHJp7mf8V227wpbp7xK/view?usp=sharing)
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/1eunet4dbpws.jpg" }}" style="max-height: 250px"></div>
+</div>
+
+Digital event, Thu 25th - Fri 26th March 2021
+
+Organized by: EUnet4DBP, EuroSDR, buildingSMART, EU-BIM
+
+[Click here to access the event details with links to presentations and youtube recordings](https://drive.google.com/file/d/1K27fql7wqaPlupHJp7mf8V227wpbp7xK/view?usp=sharing)
+
+<!--
 Event co-organized and supported by
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/logos/SuppOrgLogos.png" }}" style="max-height: 50px"></div>
 
@@ -56,7 +73,7 @@ Event co-organized and supported by
 - Getting and exchange constructive feedbacks from the reviewers and the audience.
 
 
-<!--
+
 ### Important dates
 
 - Deadline for abstract submission - 22nd January 2021
@@ -64,7 +81,7 @@ Event co-organized and supported by
 - Notification of abstract acceptance - 5th March 2021
 
 - Workshop - 25th-26th March 2021
--->
+
 
 ### Organizers
 
@@ -97,7 +114,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 
 *9.35 - 10.30* --	**Session 1: Empowerment of public officers** - *chair: Miguel Azenha* [*youtube streaming*](https://www.youtube.com/watch?v=RBo4Q74aYZ8)
 
-- 9.35 - 9.55	Eilif Hjelseth	- Hidden challenges in development of digital solutions for processing of building regulations
+- 9.35 - 9.55	Eilif Hjelseth	- [Hidden challenges in development of digital solutions for processing of building regulations](https://drive.google.com/file/d/1EP1kPOLwnT1Tcb61DPdtjPo6Qe3TQdEh/view?usp=sharing)
     
 - 9.55 - 10.15 Lennart Senger - [Development of an implementation strategy for municipalities to enhance computerized building permits](https://drive.google.com/file/d/1tkHrKZwLm1zo7fSqpJOGlZ5GW9bNmLcF/view?usp=sharing)
     
@@ -107,7 +124,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
 				
 *10.45 - 11.15*	-- **Keynote 1** [Andrea Fronk](https://www.linkedin.com/in/andrea-fronk-27271886/) (Bimfactory Srl)- [The challenges of Digital Building Permits](https://drive.google.com/file/d/1_rZKitmUJuaHMzDDu-T7th11GfmCmYkT/view?usp=sharing) [*youtube streaming*](https://www.youtube.com/watch?v=bnzTP5yNkCc)
 
-<!--***Andrea Fronk** is the Director of Bimfactory Srl, a consultancy firm based in Milan and Brescia (Italy). He is a certified BIM and Project Manager and he works by supporting the digital transformation of the AECO Sector. He worked in 2014 as scientific assistant in Fraunhofer IEC, as part of the Process Construction Engineering research team; then, from 2015 to 2019, he worked as Partner and BIM Coordinator with DVision Architecture, a design firm based in Brescia (Italy). He is member of the Management Board of Assobim, a non-profit organization active in the dissemination of BIM in Italy, and he has been a member of the BIM User Group Italy since 2018. He participates as a speaker at various conferences and has published several articles relating to BIM and digitization.*-->
+***Andrea Fronk** is the Director of Bimfactory Srl, a consultancy firm based in Milan and Brescia (Italy). He is a certified BIM and Project Manager and he works by supporting the digital transformation of the AECO Sector. He worked in 2014 as scientific assistant in Fraunhofer IEC, as part of the Process Construction Engineering research team; then, from 2015 to 2019, he worked as Partner and BIM Coordinator with DVision Architecture, a design firm based in Brescia (Italy). He is member of the Management Board of Assobim, a non-profit organization active in the dissemination of BIM in Italy, and he has been a member of the BIM User Group Italy since 2018. He participates as a speaker at various conferences and has published several articles relating to BIM and digitization.*
 
 *11.15 - 12.15*	-- **Session 2a - International experiences with digital building permit**	- *chair: IJsbrand van Straalen*  [*youtube streaming*](https://www.youtube.com/watch?v=bnzTP5yNkCc)
 
@@ -172,7 +189,7 @@ Silvia Mastrolembo Ventura (Università di Brescia)
     
 - 9.20-9.35 Nicholas Nisbet - Normative, Definitive and Descriptive Knowledge
     
-- 9.35-9.50 Beidi Li - The need for an integrating approach for developing digital building permit solutions
+- 9.35-9.50 Beidi Li - [The need for an integrating approach for developing digital building permit solutions](https://drive.google.com/file/d/1jQ1LHs2Nwn5nwE6fCFQCSptg57F_5hQz/view?usp=sharing)
     
 - 9.50-10.10 Beidi Li - [A reasoning-based approach for checking performance-based codes in digital building permit processes](https://drive.google.com/file/d/1dHeXlXSWPeNegNXWs4w9HhpJmRv25KVf/view?usp=sharing)
     
@@ -214,23 +231,23 @@ Panelists: *Paul Oesten-Creasy (VU City)* - *Greg Demchak (Bentley Digital Innov
 
 
 
-<!-- 
+
 -----
 
 
 
 ### [Register here your attendance to the event](https://tudelft3d.typeform.com/to/K4jC66Tr)
 Please, notice that the **MAXIMUM NUMBER OF ATTENDANTS HAS BEEN REACHED.** If you fill the form anyway, we could recontact you in case of any new place.
-Otherwise, you will still be able to follow the event and interact by commenting through the **youtube streaming**. written on 23-2-21-->
+Otherwise, you will still be able to follow the event and interact by commenting through the **youtube streaming**. written on 23-2-21
 
 
 -------
 -------
 -------
 
-<!--
+
 ### [Submit](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) your work
--->
+
 ### (Expired) Call for contributions
 
 #### Expired Deadline: 22nd January 2021
@@ -271,8 +288,8 @@ The idea is to avoid the dilemma:
 *“Do I waste this very good work for a conference?" vs "Is it worth to go to a conference if there won’t be follow-up publications?”*
 
 
-<!--
-### [Submit your work here](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) -->
+
+### [Submit your work here](https://urldefense.proofpoint.com/v2/url?u=https-3A__easychair.org_conferences_-3Fconf-3D1eunet4dbpws&d=DwIEaQ&c=XYzUhXBD2cD-CornpT4QE19xOJBbRy-TBPLK0X9U2o8&r=9lj68NRwH2kD3NSP1LVoVT9X95NrhPGMHJOVDvBOqjQ&m=m6yP0LlmWOFo8fHFg72655rpI2AGtPlFntDqM5ddaf0&s=BYHLbDoJvGapAh-0PqeTJJxGrdM6RDuwfbcAqiYPtwg&e=) 
 
 #### Recommended structure for the submission:
 
@@ -281,7 +298,6 @@ The idea is to avoid the dilemma:
 - Abstract (approximately 5000 characters including spaces, with pictures if needed, and a few relevant references)
 - Links to relevant resources, i.e. (based on the kind of contribution presented): complete paper/s that will be presented; websites containing further information; tools; data (if necessary).
 
-<!--
 ### Deadline: 22nd January 2021
 -->
 <!--
@@ -295,8 +311,4 @@ The idea is to avoid the dilemma:
 -->
 
 
-<!--
-# Past
 
-## 
--->

@@ -48,7 +48,7 @@ Working for the integration of BIM and IoT systems for use cases for public admi
 
 *People: Silvia Mastrolembo Ventura, Angelo Ciribini, Lavinia Tagliabue*
 
-#### **Politecnico di Milano (Italy)**
+#### **[Politecnico di Milano (Italy)](https://www.abc.polimi.it)**
 
 *People: Fulvio Re Cecconi*
 
@@ -132,6 +132,11 @@ We are coordinating of EMJMD [BIM A+](www.bimaplus.org). Our fields of interest 
 
 #### **[Ruhr-Universität Bochum](https://www.inf.bi.rub.de)**
 
+#### **[Northumbria University](https://www.northumbria.ac.uk)**
+
+Northumbria University is one of the leading universities in the UK engaged in research and knowledge exchange activities in digital construction.
+
+*People: Bimal Kumar*
 
 #### ...
 
@@ -320,9 +325,21 @@ Future Insight is a young Dutch software development company. We provide innovat
 
 *People: Rick Klooster*
 
+#### **[EiPM](http://www.eipm.es)**
+
+We encourage, help and support our clients and costumers to lead the digital transformation in the assets management and construction industry through Building Information Modelling (BIM), Virtual Design Construction (VDC) and Project Information Management (PIM), and technologies such as Big Data, Artifical Intelligence, applying Lean principles focused in: Information Exchange Governance, and openDATA domains.
+
+*People: Pep Coll*
+
+#### **[IFCWebServer.org](https://ifcwebserver.org/)**
+
+IFCWebServer is an Open BIM Server and online viewer based on IFC standard and the only graph  platform for BIM models. It supports QA/QC and Automatic Code Compliance Checking for BIM models based on IFC standard
+
+*People: Ali Ismail*
+
 ### Freelance Architects, designers and BIM experts
 
-#### Matteo Mandrile (Italy)
+#### [Matteo Mandrile (Italy)](https://www.linkedin.com/in/matteo-mandrile/)
 
 ## Supporting organizations
 
@@ -332,4 +349,4 @@ Future Insight is a young Dutch software development company. We provide innovat
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-> Last update: 18th January 2021
+> Last update: 3rd May 2021

@@ -27,12 +27,7 @@ Network of researchers and stakeholders **aiming at the definition of a common s
 
 
 The title is  *“European network for digital building permits”* since we agreed that for the moment we are mainly focussed on Europe and we are strongly related to European state of art. Although this, we are open to any other Country to join the network as well!
-
-------
-------
-
-**ANNOUNCEMENT:** The **Regulatory Room of buildingSMART International** is currently working on a **survey** to better understand the role of openBIM in the regulatory process.
-The Regulatory Room is responsible for considering ways to improve how our industry interacts with the regulatory authorities and other requirements and are keen to hear from you: [**TAKE THE SURVEY NOW**](https://www.buildingsmart.org/standards/calls-for-participation/regulatory-room-survey/)
+We are happy to involve also participants from Dubai and Korea.
 
 ------
 ------
@@ -64,4 +59,4 @@ The Regulatory Room is responsible for considering ways to improve how our indus
 
 <div class="typeform-widget" data-url="https://form.typeform.com/to/nQPWVQXl" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=nQPWVQXl&utm_source=typeform.com-01D8JX62W8ZKQH5MX624AX7W7R-pro&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
-> Last update: 18th January 2021
+> Last update: 3rd May 2021
