@@ -448,3 +448,16 @@ This topic would be in collaboration with [Deltares](https://www.deltares.nl) (M
 **Contact**: [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
 - - - 
+
+## Something with streaming TINs for massive datasets
+
+![](https://raw.githubusercontent.com/mdjong1/sstvis/main/figures/anim.gif){:width="300px"}
+
+The AHN3 dataset contains a lot of points (600+ billions), and while these are useful on their own, some applications would benefit from having a TIN, isocontours, objects extracted from them, etc.
+
+You learned in GEO1015 how to create a Delaunay TIN, and for massive ones the theory about [streaming geometries](https://www.cs.unc.edu/~isenburg/papers/ilss-scdt-06.pdf) was explained.
+
+The aim of this project is to extend the work already done ([sst](https://github.com/hugoledoux/sst/) + one ongoing MSc thesis about simplification) and do *something* with all those points.
+Exactly what I am not sure yet, but if you like the challenge of dealing with several billions of points, then we can find a good topic. Isolines extraction, or gridding, or improving the code and scale to the whole of the Netherlands are potential examples.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
