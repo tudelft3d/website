@@ -357,7 +357,7 @@ Proficient in one programming language, either C/C++ or Python; willing to follo
 
 ![](img/curve_network.png)
 
-3D building models have become more and more popular in recent years, which are typically obtained by standard photogrammetry or computer vision pipelines. These models are often represented by dense triangular meshes consisting of piecewise smooth surfaces. The boundaries of the piecewise smooth surfaces naturally form a curve network, which conveys the high-level geometric and topological structure of the building. Thus the curve network of a building mesh more has the potential for further processing of the model, such as piecewise smooth segmentation and simplification.
+3D building models have become more and more popular in recent years, which are typically obtained by standard photogrammetry or computer vision pipelines. These models are often represented by dense triangular meshes consisting of piecewise smooth surfaces. The boundaries of the piecewise smooth surfaces naturally form a curve network, which conveys the high-level geometric and topological structure of the building. Thus the curve network of a building mesh has the potential to guide further processing of the model, such as piecewise smooth segmentation and simplification.
 This MSc thesis project aims at developing a novel methodology for extracting curve networks from MVS building meshes and exploring the potential of the curve networks for piecewise smooth segmentation and/or the simplification of the models. 
 
 **Required Skills**: 
