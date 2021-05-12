@@ -329,21 +329,42 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 ![](img/tree_instances.png)
 
-Amazing techniques (e.g., [AdTree](https://github.com/tudelft3d/adtree)) have been recently proposed to 
-reconstruct 3D models of real-world trees in great details. These methods assume that the tree instances 
-have been segmented from the massive point clouds. However, good quality segmentation of individual trees 
-is typically achieved by tedious manual work in practice. The automatic segmentation still remains an open problem. 
+Amazing techniques (e.g., [AdTree](https://github.com/tudelft3d/adtree)) have been recently proposed to reconstruct 3D models of real-world trees in great detail. These methods assume that the tree instances have been segmented from the massive point clouds. However, good quality segmentation of individual trees is typically achieved by tedious manual work in practice. The automatic segmentation still remains an open problem. 
 
-The aim of this thesis project is to develop a method to automatically and precisely locate and identify
-individual trees in the scan of a large urban area (the TU Delft campus, for instance), allowing for 
-unified processing of all the trees in the covered area. The result of the instance segmentation can be used in
-various applications, e.g., detailed 3D modeling and identification of tree species.
+The aim of this thesis project is to develop a method to automatically and precisely locate and identify individual trees in the scan of a large urban area (the TU Delft campus, for instance), allowing for unified processing of all the trees in the covered area. The result of the instance segmentation can be used in various applications, e.g., detailed 3D modeling and identification of tree species.
 
 **Required Skills**: 
-Proficient in one programming language (e.g., Python or C/C++); interested and willing to follow courses in machine 
-learning (in particular Deep Learning).
+Proficient in one programming language (e.g., Python or C/C++); interested and willing to follow courses in machine learning (in particular Deep Learning).
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+- - -
+
+## Synthesizing semantically meaningful building details 
+
+![](img/synthesis.png)
+
+LoD1 or LoD2 building models can be relatively easily generated from building footprints and point cloud data. Such models lack meaningful detailed façade structures (e.g., doors, windows, and balconies) and therefore they are not suitable for some real-world applications such as virtual reality. The goal of this MSc thesis is to develop an algorithm that can automatically enrich the realism of given coarse building models by synthesizing semantically meaningful façade details onto the coarse models. The resulting models should have a plausible appearance, e.g., conforming to design rules or images of real-world buildings.
+
+**Required Skills**:
+Proficient in one programming language, either C/C++ or Python; willing to follow courses in machine learning (in particular deep learning) before or at the beginning of the project; experiences in mesh processing is a plus.
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+- - -
+
+## Curve network extraction for MVS building meshes
+
+![](img/curve_network.png)
+
+3D building models have become more and more popular in recent years, which are typically obtained by standard photogrammetry or computer vision pipelines. These models are often represented by dense triangular meshes consisting of piecewise smooth surfaces. The boundaries of the piecewise smooth surfaces naturally form a curve network, which conveys the high-level geometric and topological structure of the building. Thus the curve network of a building mesh more has the potential for further processing of the model, such as piecewise smooth segmentation and simplification.
+This MSc thesis project aims at developing a novel methodology for extracting curve networks from MVS building meshes and exploring the potential of the curve networks for piecewise smooth segmentation and/or the simplification of the models. 
+
+**Required Skills**: 
+(1) Proficient in one programming language (e.g., Python or C/C++).  (2) It would be very interesting to explore learning-based approaches, so you are expected to follow courses in machine learning (in particular deep learning) before or at the beginning of the project.
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
 
 - - -
 
