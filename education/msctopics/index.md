@@ -368,6 +368,26 @@ This MSc thesis project aims at developing a novel methodology for extracting cu
 
 - - -
 
+## Image-guided automatic artistic route finding
+
+![](img/route.png)
+
+Creating artistic routes requires tedious user interaction and is often not friendly for non-artist users. This project aims at automating artistic route creation by image abstraction and deformable shape matching. The research questions are going to be answered:
+
+* How to extract abstracted, expressive, clean, and continuous lines/curves from an image? 
+* How can the abstracted image be used to guide route-finding (from a road network or a vectorized map) so that the resulting route is as faithfully as possible to the extracted image lines/curves?
+* How to keep the route as simple and smooth as possible, and how to minimize repeated pathways (which sometimes cannot be avoided)?
+* How to quantitatively measure the similarity between the generated route and the abstracted image, and how to evaluate the aesthetic quality of the generated route?
+* How to incorporate user preferences into route creation, e.g., a desired total length, preferred start point and/or endpoint, and must-have route segment?
+
+**Required Skills**: 
+(1) Proficient in C++ programming. (2) Familiar with graph theory and computational geometry.
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+
+- - -
+
 ## Integrated modelling of utility networks in the urban environment
 
 <img src="img/ga_xander_network.jpg" style="width: 500px;"/>
