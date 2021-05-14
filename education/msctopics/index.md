@@ -375,7 +375,7 @@ This MSc thesis project aims at developing a novel methodology for extracting cu
 Creating artistic routes requires tedious user interaction and is often not friendly for non-artist users. This project aims at automating artistic route creation by image abstraction and deformable shape matching. The research questions are going to be answered:
 
 * How to extract abstracted, expressive, clean, and continuous lines/curves from an image? 
-* How can the abstracted image be used to guide route-finding (from a road network or a vectorized map) so that the resulting route is as faithfully as possible to the extracted image lines/curves?
+* How can the abstracted image be used to guide route-finding (from a road network or a vectorized map) so that the resulting route is as faithful as possible to the extracted image lines/curves?
 * How to keep the route as simple and smooth as possible, and how to minimize repeated pathways (which sometimes cannot be avoided)?
 * How to quantitatively measure the similarity between the generated route and the abstracted image, and how to evaluate the aesthetic quality of the generated route?
 * How to incorporate user preferences into route creation, e.g., a desired total length, preferred start point and/or endpoint, and must-have route segment?
