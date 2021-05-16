@@ -358,7 +358,7 @@ You must discuss your ideas with the supervisor before this topic can be offered
 
 - - -
 
-## Image-guided automatic artistic route finding
+## Image-guided artistic route finding
 
 ![](img/route.png)
 
