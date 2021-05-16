@@ -323,20 +323,6 @@ The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) that n
 
 **Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
 
-- - -
-
-## Instance segmentation of trees from point clouds
-
-![](img/tree_instances.png)
-
-Amazing techniques (e.g., [AdTree](https://github.com/tudelft3d/adtree)) have been recently proposed to reconstruct 3D models of real-world trees in great detail. These methods assume that the tree instances have been segmented from the massive point clouds. However, good quality segmentation of individual trees is typically achieved by tedious manual work in practice. The automatic segmentation still remains an open problem. 
-
-The aim of this thesis project is to develop a method to automatically and precisely locate and identify individual trees in the scan of a large urban area (the TU Delft campus, for instance), allowing for unified processing of all the trees in the covered area. The result of the instance segmentation can be used in various applications, e.g., detailed 3D modeling and identification of tree species.
-
-**Required Skills**: 
-Proficient in one programming language (e.g., Python or C/C++); interested and willing to follow courses in machine learning (in particular Deep Learning).
-
-**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 - - -
 
@@ -344,10 +330,13 @@ Proficient in one programming language (e.g., Python or C/C++); interested and w
 
 ![](img/synthesis.png)
 
-LoD1 or LoD2 building models can be relatively easily generated from building footprints and point cloud data. Such models lack meaningful detailed façade structures (e.g., doors, windows, and balconies) and therefore they are not suitable for some real-world applications such as virtual reality. The goal of this MSc thesis is to develop an algorithm that can automatically enrich the realism of given coarse building models by synthesizing semantically meaningful façade details onto the coarse models. The resulting models should have a plausible appearance, e.g., conforming to design rules or images of real-world buildings.
+LoD2 building models can now be easily generated from footprints and point cloud data (e.g., [3D BAG](http://3dbag.bk.tudelft.nl)). Such models lack meaningful facade structures (e.g., doors, windows, and balconies) and thus not suitable for some real-world applications such as virtual reality. The goal of this project is to enrich the realism of given coarse models. In this project, we want to synthesize semantically meaningful facade and roof details onto existing LoD2 models. The resulting models should have a plausible appearance (e.g., conforming to design rules or images of real-world buildings).
 
 **Required Skills**:
-Proficient in one programming language, either C/C++ or Python; willing to follow courses in machine learning (in particular deep learning) before or at the beginning of the project; experiences in mesh processing is a plus.
+(1) Proficient in programming (C++ preferred). (2) It would be interesting to explore learning-based approaches, so you may need to follow courses in machine learning (e.g., deep learning) before or at the beginning of the project. (3) Experience in mesh processing is a plus.
+
+<span style="color:red"> <strong> Attention</strong>:
+You must discuss your ideas with the supervisor before this topic can be offered to you.</span>
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
@@ -357,14 +346,15 @@ Proficient in one programming language, either C/C++ or Python; willing to follo
 
 ![](img/curve_network.png)
 
-3D building models have become more and more popular in recent years, which are typically obtained by standard photogrammetry or computer vision pipelines. These models are often represented by dense triangular meshes consisting of piecewise smooth surfaces. The boundaries of the piecewise smooth surfaces naturally form a curve network, which conveys the high-level geometric and topological structure of the building. Thus the curve network of a building mesh has the potential to guide further processing of the model, such as piecewise smooth segmentation and simplification.
-This MSc thesis project aims at developing a novel methodology for extracting curve networks from MVS building meshes and exploring the potential of the curve networks for piecewise smooth segmentation and/or the simplification of the models. 
+MVS (multi-view stereo) building models have become more and more popular in recent years, typically obtained by standard photogrammetry or computer vision pipelines. These models are dense triangular meshes consisting of piecewise smooth surfaces. The boundaries of the smooth regions naturally form a curve network that conveys the high-level topological structure of the building. This project aims at extracting curve networks from MVS building models and exploring how the extracted curve networks can be used for processing of the models, e.g., piecewise smooth segmentation and simplification.
 
 **Required Skills**: 
-(1) Proficient in one programming language (e.g., Python or C/C++).  (2) It would be very interesting to explore learning-based approaches, so you are expected to follow courses in machine learning (in particular deep learning) before or at the beginning of the project.
+(1) Proficient in programming (C++ preferred). (2) It would be interesting to explore learning-based approaches, so you may need to follow courses in machine learning (e.g., deep learning) before or at the beginning of the project. (3) Experience in mesh processing is a plus.
+
+<span style="color:red"> <strong> Attention</strong>:
+You must discuss your ideas with the supervisor before this topic can be offered to you.</span>
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
-
 
 - - -
 
@@ -372,16 +362,19 @@ This MSc thesis project aims at developing a novel methodology for extracting cu
 
 ![](img/route.png)
 
-Creating artistic routes requires tedious user interaction and is often not friendly for non-artist users. This project aims at automating artistic route creation by image abstraction and deformable shape matching. The research questions are going to be answered:
+Creating artistic routes requires tedious user interaction and is not friendly for non-artist users. This project aims at automating artistic route creation by image abstraction and deformable shape matching. The research questions to be answered:
 
 * How to extract abstracted, expressive, clean, and continuous lines/curves from an image? 
-* How can the abstracted image be used to guide route-finding (from a road network or a vectorized map) so that the resulting route is as faithful as possible to the extracted image lines/curves?
-* How to keep the route as simple and smooth as possible, and how to minimize repeated pathways (which sometimes cannot be avoided)?
-* How to quantitatively measure the similarity between the generated route and the abstracted image, and how to evaluate the aesthetic quality of the generated route?
-* How to incorporate user preferences into route creation, e.g., a desired total length, preferred start point and/or endpoint, and must-have route segment?
+* How can the abstracted image be used to guide route-finding such that the resulting route is as faithful/close as possible to the extracted image lines/curves?
+* How to keep the route as smooth as possible? How to minimize repeated pathways (which sometimes are unavoidable)?
+* How to evaluate the faithfulness of the generated route (e.g., quantitatively measure the similarity between the route and the abstracted image)? How to evaluate the aesthetic quality of the generated route?
+* How to incorporate user preferences into route creation, e.g., a desired total length, preferred start point and endpoint, and must-have route segment(s)?
 
 **Required Skills**: 
-(1) Proficient in C++ programming. (2) Familiar with graph theory and computational geometry.
+(1) Proficient in programming (C++ preferred). (2) Familiar with graph theory and computational geometry.
+
+<span style="color:red"> <strong> Attention</strong>:
+You must discuss your ideas with the supervisor before this topic can be offered to you.</span>
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
