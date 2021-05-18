@@ -47,9 +47,9 @@ The goal of the thesis is to develop a plugin for QGIS 3 to interact with the op
 ![](img/3dcdb_qgis_mini.jpg){:width="800px"}
 
 The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
-Attendance of elective course GEO5014 in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
 
-Contact: [Camilo Leon Sanchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
+Contact: [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
 
 - - -
 
