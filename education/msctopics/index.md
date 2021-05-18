@@ -15,6 +15,44 @@ permalink: /education/msctopics/
 
 - - -
 
+## Heating energy demand of the Dutch building stock with the help of the 3D BAG 2.0
+
+The [3D BAG 2.0](https://3dbag.nl/en/viewer), a dataset containing LoD2 geometries of buildings of the whole Netherlands, has been recently released by the 3D Geoinformation group. The scope of this thesis is to test the suitability of the 3D BAG to estimate the energy demand of residential buildings. In this thesis, the energy demand computation will be based on the quasi-static energy-balance method and will implemement a Python-based subset of the specifications defined by the recently introduced Dutch norm [NTA8800](https://www.gebouwenergieprestatie.nl/).
+
+![](img/3dbag_nta8800_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Building Energy Epidemiology](https://www.tudelft.nl/bk/over-faculteit/afdelingen/management-in-the-built-environment/organisatie/leerstoelen/building-energy-epidemiology) group at TU Delft. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation Group), [Paula van den Brom](https://online-learning.tudelft.nl/instructors/paula-van-den-brom/) (Building Energy Epidemiology group)
+
+- - -
+
+## Dynamic energy simulations based on the 3D BAG 2.0 
+
+The 3DGeoinformation has recently released the [3D BAG 2.0](https://3dbag.nl/en/viewer), a dataset containing LoD2 buildings of the whole Netherlands. [CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB) is the reference database for CityGML data (and its Energy ADE extension) where input AND output data will be stored.
+The scope of this thesis is to link these three elements in order to allow for a seamless flow of information and perform energy simulations in CitySim. More specifically, the thesis will focus on (further) developing a Python-based bidirectional interface to feed/retrieve data between the 3DCityDB and CitySim.
+
+![](img/3dcdb_citysim_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended , as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3DGeoinformation Group) and [Jérôme Kämpf](https://www.idiap.ch/en/people/directory/750) (Idiap).
+
+- - -
+
+## Development of a QGIS plugin for the CityGML 3D City Database
+
+The goal of the thesis is to develop a plugin for QGIS 3 to interact with the open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB, PostgreSQL/PostGIS version), which is the reference database implementation of the CityGML data model. The plugin will facilitate interaction with the 3D City Database from within QGIS, enabling the user to visualise 3D geometries and to edit attributes of all features (e.g. buildings, bridges, roads, etc.) contained in the database.
+
+![](img/3dcdb_qgis_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
+Attendance of elective course GEO5014 in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+Contact: [Camilo Leon Sanchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
+
+- - -
+
 ## Optimizing building mesh designs for computational fluid dynamics using machine learning. 
 
 Since one of the major burdens when performing computational fluid dynamic simulations (CFD) is to set up a good mesh, improving the current capabilities to mesh automatically complex geometries would have a large impact for the computational fluid dynamics community. This task becomes really essential when geometries are complex, such as high resolution level of detail buildings, and severals hundreds of simulations need to be run to quantify uncertainties.  
@@ -27,6 +65,8 @@ If you work on this topic, you can expect to learn about mesh generation aligned
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
 
+- - -
+
 ## To mesh or not to mesh: immersed boundary methods and porosity in OpenFOAM.
 
 One of the major burdens when performing computational fluid dynamic simulations (CFD) is to set up a good mesh. This task becomes really time consuming when geometries are complex, such as high resolution buildings. There are a few strategies to avoid the usage of an explicit mesh, but using immersed boundary methods or porosity definitions which in a very general description allow to construct regular meshes and represent the buildings through forces. 
@@ -38,6 +78,8 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 ![](img/ToMeshOrNotToMesh.jpg){:width="800px"}
 
 **Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
+
+- - -
 
 ## Towards true 3D noise calculations
 
@@ -102,20 +144,6 @@ The research will be carried out on a selected case study and in cooperation wit
 
 - - -
 
-## Utilization of alternative fuels in the transport sector and identification of their emission reduction potential regarding harmful air pollution
-
-The air quality in cities is one of the big topics of modern society. This air quality is affected form harmful emission like nitrogen oxides and particulate matter that are, in urban areas, mainly produced from the transport sector. A promising option besides changing the modal split or reducing mileages is the change to alternative fuels. To identify suitable application cases for alternative fuels, analyses to determine which vehicles are the main polluters in agglomerations are mandatory. 
-
-In the framework of this master thesis, you will work independently with a model developed at the Forschungszentrum Jülich that considers the mileages and resulting emissions of road transport, rail transport, inland waterway transport and air transport considering different fuels and conditions. Mileages and emissions are spatially presented in the results of the model. Your work will include development and extension of this model as well as the analysis of results for different future scenarios. The model is implemented in Python and QGIS is used to plot results.
-
-This project is done in cooperation with Forschungszentrum Jülich GmbH, Jülich, Germany. The work will take place in Jülich, Germany. Experience in programming and a basic in German language is beneficial, but not essential.
-
-![](img/julich_01.jpg){:width="600px"}
-
-**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Janos Breuer](https://www.fz-juelich.de/SharedDocs/Kontaktdaten/Mitarbeiter/B/Breuer_ja_breuer_fz_juelich_de.html?nn=557474) (Forschungszentrum Jülich, Germany)
-
-- - -
-
 ## Coupling 3D city models with Ladybug tools for environmental analyses
 
 <img src="img/ga_ladybug.jpg" style="width: 600px;"/>
@@ -130,21 +158,6 @@ The students’ task will consist in choosing (together with the supervisors) a 
 
 - - -
 
-## GIS-based integrated modelling of building stock and supply networks for assessment of near-zero energy districts
-
-This MSc thesis topic will be jointly supervised by staff of the 3D Geoinformation group (Dept. of Urbanism) and the Climate Design group (Dept. of Architectural Engineering and Technology). Ideally, two students (one for each research group) will work together, however focusing each on one of the following topics:
-
-![](img/energy2019.jpg){:width="600px"}
-
-For the Geomatics track, the focus will be on modelling the building stock and the (energy) supply networks of a district in an integrated GIS environment. CityGML and its extensions Energy ADE and Utility Network ADE will be considered for the purpose. At least a basic knowledge of CityGML is required for this topic.
-The focus of the energy track will be on developing a GIS-based Urban Energy Model (UEM) which simulates the building energy performance on the urban-scale. While the building  energy efficiency is getting greater attention, there is a lack of building energy simulation on the urban scale. The UEM has to be computationally efficient and simultaneously use a set of input parameters that is aggregated to a level which is proportional with the urban GIS data. This will make the model suited for the macro-level simulations. The data relates to the basic building information such as wall and window areas, shading coefficients, material properties, floor area, lighting density, internal heat production from appliances, plug loads, and occupancy schedules. 
-The above-mentioned GIS-model will be integrated with the UEM, as well as design algorithm, in order to extract suitable data to be used as input to the energy models. The GIS platform collected and synthesized the data and then will be used as the input of the UEM to get energy use of buildings in the area. The model will also be applied to evaluate the energy savings of desired retrofit scenarios.
-In case only one or more than 2 students are interested in this MSc thesis, specific arrangements will be made together with the supervisors.
-
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation), [Michiel Freemouw](https://www.tudelft.nl/en/staff/m.a.fremouw/) (Climate Design and Sustainability group)
-
-- - -
-
 ## Improving automatic meshing for buildings
 
 ![](img/MeshConceptCFD.png){:width="600px"}
@@ -156,7 +169,6 @@ Knowledge of programming in python is required.
 Following elective course GEO5013 is an advantage.
 
 **Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
 
 - - -
 
@@ -378,7 +390,6 @@ You must discuss your ideas with the supervisor before this topic can be offered
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
-
 - - -
 
 ## Integrated modelling of utility networks in the urban environment
@@ -390,8 +401,6 @@ Starting from a CityGML-based 3D city model, the Msc. thesis will focus on testi
 The image shown here is taken from a previous [thesis](https://repository.tudelft.nl/islandora/object/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9?collection=education) and serves as example - and starting point - of the overall topic of the thesis proposed here.
 
 **Contacts**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-
-
 
 - - -
 
@@ -463,7 +472,6 @@ In collaboration with the company [Superworld](https://www.superworld.nl), the i
 **Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
 
 - - -
-
 
 ## Space lidar to estimate the height of all buildings in the world?
 
