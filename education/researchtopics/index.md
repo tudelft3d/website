@@ -11,22 +11,6 @@ permalink: /education/researchtopics/
 
 - - -
 
-## A client-side CityJSON validator in JavaScript
-
-![](img/v-cjio.png){:width="400px"}
-
-[CityJSON schemas](https://www.cityjson.org/schemas/) allow us to verify whether a given CityJSON file is conform to the specifications.
-
-While it's possible to get the schemas, and use a generic [JSON Schema validator](https://json-schema.org/implementations.html#validators), it's pretty tedious.
-
-[cjio](https://github.com/cityjson/cjio) has a `validate` operator, but it should be installed.
-
-All that to say that a web-based validator where a user can just drag'n'drop a CityJSON file and have it validated against the schemas would be useful.
-Something like the [glTF validator](https://github.khronos.org/glTF-Validator/).
-
-You'd learn about JSON Schemas, JavaScript, etc.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
 ## Add support for CityJSON in BlueSky
 
