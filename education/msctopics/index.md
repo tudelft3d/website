@@ -15,6 +15,20 @@ permalink: /education/msctopics/
 
 - - -
 
+## Development and Testing of the Energy Extension for CityJSON (v1.x)
+
+In the current time, there are some freeware simulation software tools to perform different energy simulation of buildings (SimStadt, CitySim), which support 3D City Models as input data and will produce results and exported following the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf). The purpose of this master thesis is to design the Energy Extension to the main core of CityJSON v.1.x so it supports the storage of energy data of cases such as space heating energy demand or solar irradiation values to mention some. It has been documented that CityJSON Extensions and less flexible than CityGML ADEs so it is expected to identify and evaluate the existing limitations and if thay would mean critical losses. 
+
+![](img/CityJSON+Energy.png){:width="800px"}
+
+It is desirable in this thesis to work in the consumption of this new datasets for visualization or analysis in existing software such as [Azul](https://github.com/tudelft3d/azul).
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) 
+
+- - -
+
 ## Heating energy demand of the Dutch building stock with the help of the 3D BAG 2.0
 
 The [3D BAG 2.0](https://3dbag.nl/en/viewer), a dataset containing LoD2 geometries of buildings of the whole Netherlands, has been recently released by the 3D Geoinformation group. The scope of this thesis is to test the suitability of the 3D BAG to estimate the energy demand of residential buildings. In this thesis, the energy demand computation will be based on the quasi-static energy-balance method and will implemement a Python-based subset of the specifications defined by the recently introduced Dutch norm [NTA8800](https://www.gebouwenergieprestatie.nl/).
@@ -49,7 +63,7 @@ The goal of the thesis is to develop a plugin for QGIS 3 to interact with the op
 The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
 Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
 
-Contact: [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
+Contact: [Camilo León-Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
 
 - - -
 
