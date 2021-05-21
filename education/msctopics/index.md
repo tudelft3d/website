@@ -435,20 +435,6 @@ CityJSON files will be used, you will not have to deal with (the pain of parsing
 
 ---
 
-## Investigate the use of CityJSON in (serious) games
-
-![](https://media.indiedb.com/images/groups/1/23/22129/UE4Interface_5.jpg){:width="300px"}
-
-Modern game engines, such as Unity and Unreal Engine, allow to create eye-appealing visualisations and provide tools to conduct basic analysis, such as solar potential estimation or rough flood analysis. By importing CityJSON in such an application users could explore the urban environment in a more emerging and easy way.
-
-The aim of this project is to implement an import process for CityJSON in Unity or Unreal Engine. Then, you would have to explore the possibilities that such a technology offer when utilised with 3D city model data.
-
-Programming knowledge in C# (for Unity) or C++ (for Unreal Engine) is required, although scripting and scene manipulation could be done with Python or the engine's graphical tools.
-
-*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis/)
-
----
-
 ## Building floor count determination by Convolutional Neural Network
 
 ![](https://3d.bk.tudelft.nl/ken/temp/floors-counting.jpg){:width="300px"}
