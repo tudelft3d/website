@@ -1,4 +1,15 @@
 
+
+## 3D digital urban regulations to use GeoBIM for building permission checks
+
+The automation of urban regulation checks for the planning use case requires the urban regulations to be archived in a digital and spatial (3D) format.
+This project aims at the definition of an effective way to store those regulations digitally and spatially, for their use in checking urban regulations compliancy of new buildings through GeoBIM integrated information. The studied solution could start from extending [CityGML](https://www.citygmlwiki.org), employing [INSPIRE](https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/) data model, or other available standards.
+In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://www.kadaster.nl)
+
+**Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
+
+- - -
+
 ## Investigate the use of CityJSON in (serious) games
 
 ![](https://media.indiedb.com/images/groups/1/23/22129/UE4Interface_5.jpg){:width="300px"}
