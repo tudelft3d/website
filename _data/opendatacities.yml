@@ -1,3 +1,12 @@
+- dataset: Estonia
+  link: https://geoportaal.maaamet.ee/eng/Download-3D-data-p837.html
+  country: Estonia
+  building_lod: LoD1+LoD2
+  formats: Geodatabase, CityGML, OBJ
+  year: 2021
+  texture: no
+  notes: Updated frequently
+
 - dataset: Bogotá
   link: http://portal.ideca.gov.co/dataset/mapa-de-referencia
   country: Colombia 
