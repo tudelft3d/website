@@ -229,7 +229,7 @@ In collaboration with Municipality of Rotterdam.
 - - -
 
 
-## Quality control and fusion of point cloud datasets in the Netherlands
+## Quality control and fusion of point cloud datasets in the Netherlands for building reconstruction
 
 ![](img/ahn3vsDIM.gif){:width="800px"}
 
@@ -245,9 +245,7 @@ The aims of this project would be to
 
 and possibly:
 
-* How to prevent issues like the one in the image above? This  might involve looking into dense image matching techniques.
-
-The project would likely require doing change detection for between the various point clouds for large areas on our linux server. 
+* How to prevent issues like the one in the image above? Can we smartly combine/fuse several point clouds to fix such issues?
 
 **Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
 
@@ -268,37 +266,6 @@ Programming required, C++ recommended.
 
 **Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
 
-- - -
-
-## Point cloud normal estimation based on the 3D medial axis transform
-
-![](img/wrong_normal_orientation.png){:width="400px"}
-
-Point clouds, unstructured collections of 3D points in space, are nowadays collected with different acquisition methods, eg photogrammetry and LiDAR.
-While current point clouds are dense and offer an accurate representation of real-world objects and landscapes, they lack structure and semantics.
-
-The aim of this project is to properly *orient* a point cloud, ie to find an approximation of the normal at each point; this normal should point outwards.
-Surface normals are essential for different processing of a point cloud, eg visualisation, shadow analysis or segmentation.
-
-"Standard" methods, eg [that function in PCL](http://pointclouds.org/documentation/tutorials/normal_estimation.php), usually find the nearest points of a given point, fit a plane, and choose between the 2 possible normals (up or down) based on a viewpoint.
-The problem is that in practice, eg with the [AHN3 dataset](http://www.ahn.nl), we do not have that information.
-
-The topic involved building on our work with the [3D medial-axis transform (MAT)](https://3d.bk.tudelft.nl/projects/3dsm/) and use the 3D MAT of a point cloud as a base to obtain high quality normals with a proper orientation.
-
-It is possible to use Python for this project, although some knowledge of C++ would surely help.
-
-**Contact:** [Ravi Peters](http://tudelft.nl/rypeters) and [Hugo Ledoux](http://tudelft.nl/hledoux)
-
-- - -
-
-## Converting the national road network (NWB) from 2D into 3D
-
-![](img/nwb.jpg){:width="700px"}
-
-The National Road Dataset (Nationaal Wegen Bestand, NWB) will convert their [2D road network into 3D](https://nationaalwegenbestand.nl/nieuws/hoogte-informatie-toegevoegd-aan-nwb-voor-omgevingswet) by developing automated reconstruction algorithms based on LiDAR data (AHN). This is specifically challenging at the location of tunnels, bridges, viadutcs etc. This research will help in this work by developing algorithms to reconstruct the 3D NWB for the whole Netherlands. This research will be done in collaboration with the governmental authorities that are responsible for the NWB: the Nationale Databank Wegverkeergegevens (NDW) and Rijkswaterstaat, Water, Verkeer en Leefomgeving (Water, Traffic and Environment). 
-
-*Contact:* [Ravi Peters](http://tudelft.nl/rypeters) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
-- - -
 
 ## 3D Cadastre
 
