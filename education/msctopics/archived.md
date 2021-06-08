@@ -9,6 +9,16 @@ In collaboration with [EuroSDR](http://www.eurosdr.net) and [Kadaster](https://w
 **Contact:** [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Jantien Stoter](http://3d.bk.tudelft.nl/jstoter)
 
 - - -
+## Reconstructing indoor 3D models from floor plans and LiDAR point clouds 
+
+![](img/3Dfloor.png){:width="700px"}
+
+Some cities have acquired floor plans of individual living units in buildings. These floor plans are desribed with their 2D geometries and a floor number.
+In this research you will develop and implement an algorithm that combines the floor plans with LiDAR point clouds (AHN) to reconstruct 3D building models including their indoor living untis.
+
+*Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) and ..........)
+
+--------
 
 ## Investigate the use of CityJSON in (serious) games
 
