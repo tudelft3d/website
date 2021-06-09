@@ -470,7 +470,7 @@ The student would be expected to take a machine learning and/or deep learning co
 
 ## Developing methods for edge-matching with customisable heuristics (geometric, topological and semantic)
 
-![](img/BBG.png){:width="500px"}
+![](img/BBG.png){:width="300px"}
 
 The methodology will be studied from a use case of Statistics Netherlands (CBS).
 
@@ -482,4 +482,4 @@ These automatically generated planar partitions will inevitably have some differ
 The challenge is on developing a method for describing and detecting important categorization and delineation issues, based on deviations from earlier versions of the BBG and developing (semi) automated solutions to solve these issues, in order to minimize the required manual post-processing. This also includes solving gaps, overlaps and disconnections, in the context of the neighboring areas.
 There are different heuristics feasible, an important one being the combination size and the nature of the deviating area. In such a heuristic, small differences in size combined with a less important categorization difference (e.g. street and living area) are of less importance than a big difference in size and an important difference (e.g. forest vs living area). 
  
-**Contacts:** [Jantien Stoter](https://3d.bk.tudelft.nl/jledoux) + [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
+**Contacts:** [Jantien Stoter](https://3d.bk.tudelft.nl/jledoux) + [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/) + someone at [CBS](https://www.cbs.nl/en-gb)
