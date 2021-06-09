@@ -448,3 +448,22 @@ The aim of this project is to extend the work already done ([sst](https://github
 Exactly what I am not sure yet, but if you like the challenge of dealing with several billions of points, then we can find a good topic. Isolines extraction, or gridding, or improving the code and scale to the whole of the Netherlands are potential examples.
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+
+- - - 
+
+## Filling the gaps in aerial point clouds with deep learning
+
+![](img/bk-deepsdf.jpg){:width="500px"}
+
+Because of the way they are collected, aerial point cloud datasets acquired with lidar often contain areas with no measurements.
+This occurs mostly for building façades and other vertical surfaces (eg in dormers), but other features can be affected.
+The gaps in the datasets are problematic for the processing of point cloud, for instance automatic reconstruction algorithms can fail or output 3D models with several artefacts.
+
+The aim of this research project is to design and implement methods to complete aerial point clouds datasets such as the AHN3 dataset (that is fill those gaps).
+The idea is to investigate how new developments in deep learning (specifically DeepSDF, [see article](https://arxiv.org/abs/1901.05103)) and to adapt it to aerial point clouds.
+The focus would be in the first place on buildings, so that their regularity and verticality could be exploited.
+
+The student would be expected to take a machine learning and/or deep learning course as elective.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) + [Ravi Peters](http://tudelft.nl/rypeters) + [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/)
