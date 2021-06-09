@@ -457,11 +457,11 @@ Exactly what I am not sure yet, but if you like the challenge of dealing with se
 ![](img/church-deepsdf.png){:width="500px"}
 
 Because of the way they are collected, aerial point cloud datasets acquired with lidar often contain areas with no measurements due to occlusion effects.
-This occurs for building façades and other vertical surfaces (eg in dormers), but also other surfaces next to tall structures such as a church tower (see right part image above).
+This occurs for building façades and other vertical surfaces (e.g., in dormers), but also other surfaces next to tall structures such as a church tower (see right part image above).
 The gaps in the datasets are problematic for the processing of point cloud, for instance automatic reconstruction algorithms can fail or output 3D models with several artefacts (see left part image above).
 
 The aim of this research project is to design and implement methods to complete aerial point clouds datasets such as the AHN3 dataset (that is fill those gaps).
-The idea is to investigate how new developments in deep learning (specifically DeepSDF, [see article](https://arxiv.org/abs/1901.05103) and [code](https://github.com/facebookresearch/DeepSDF)) and to adapt it to aerial point clouds.
+The idea is to investigate how new developments in deep learning (specifically [DeepSDF](https://github.com/facebookresearch/DeepSDF), and [ShapeInversion](https://junzhezhang.github.io/projects/ShapeInversion/)) and to adapt it to aerial point clouds.
 The focus would be in the first place on buildings, so that their regularity and verticality could be exploited.
 
 The student would be expected to take a machine learning and/or deep learning course as elective.
