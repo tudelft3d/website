@@ -492,7 +492,7 @@ There are different heuristics feasible, an important one being the combination 
 
 ## Enrich the 3DBAG with the "material type" for each surface
 
-![](img/surface_type.png){:width="500px"}
+![](img/surface_type.jpg){:width="500px"}
 
 The [3D BAG](https://3dbag.nl) contains the geometry of all buildings in the Netherlands, and some attributes are attached to these.
 
