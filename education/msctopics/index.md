@@ -468,6 +468,9 @@ The student would be expected to take a machine learning and/or deep learning co
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) + [Ravi Peters](http://tudelft.nl/rypeters) + [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/)
 
+
+- - - 
+
 ## Developing methods for edge-matching with customisable heuristics (geometric, topological and semantic)
 
 ![](img/BBG.png){:width="300px"}
@@ -483,3 +486,22 @@ The challenge is on developing a method for describing and detecting important c
 There are different heuristics feasible, an important one being the combination size and the nature of the deviating area. In such a heuristic, small differences in size combined with a less important categorization difference (e.g. street and living area) are of less importance than a big difference in size and an important difference (e.g. forest vs living area). 
  
 **Contacts:** [Jantien Stoter](https://3d.bk.tudelft.nl/jledoux) + [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/) + someone at [CBS](https://www.cbs.nl/en-gb)
+
+
+- - - 
+
+## Enrich the 3DBAG with the "material type" for each surface
+
+![](img/surface_type.png){:width="500px"}
+
+The [3D BAG](https://3dbag.nl) contains the geometry of all buildings in the Netherlands, and some attributes are attached to these.
+
+To increase the usefulness of the datasets, it would be useful if the *material* of each surface was known. 
+For instance: (1) architects and spatial planners would like to know if a roof/surface is made of bricks, tar, green/vegetation, solar panels; (2) engineers working with CFD simulations have similar needs, the type can help better simulation the wind in a city.
+
+The aim of this project is to enrich the surfaces of the 3D BAG with certain material types (what these are will need to be determined) and use the [aerial photos openly available on PDOK](https://www.pdok.nl/introductie/-/article/luchtfoto-pdok) and/or the AHN3 properties (eg # of returns, intensity, etc.) to obtain the results. 
+One issue is that the aerial photos are nadir photos, and the façades are often not visible; the project will try to solve this with perhaps other datasets or by using solely AHN3.
+
+I assume that since it's a classification problem, machine learning will be used.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
