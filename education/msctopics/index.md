@@ -228,44 +228,17 @@ In collaboration with Municipality of Rotterdam.
 
 - - -
 
+## Semantic labeling of roof top structures in 3D BAG
 
-## Quality control and fusion of point cloud datasets in the Netherlands for building reconstruction
+![](img/ahn3Dbag.png){:width="400px"}
 
-![](img/ahn3vsDIM.gif){:width="800px"}
-
-There are several point cloud datasets available in the Netherlands. Apart from the well known AHN, the Dutch Kadaster maintains a national one derived from aerial imagery, and also some municipalities maintain their own point cloud (for example Rotterdam) as well as some commercial companies. These point clouds have different qualities, eg due to different acquisition techniques. And they have different acquisition dates and different update intervals. Typically the points clouds with higher quality are less often updated. 
-
-For many applications it makes sense to use a combination of several point clouds: the highest quality point cloud where it is not outdated and the lower quality point cloud where there have been changes. The two point cloud applications that could be looked at are 1) reconstructed buildings and 2) terrain model (TIN).
-
-The aims of this project would be to
-
-* gain insight in the faults that occur in the different point clouds. Both consider general characteristics (eg. point density, noise, shadow, occlusion, vegetation penetration), but also some dataset specific problems. For instance in the image above we observe a part of the roof of a house that is several meters higher than it should be. Were does that error come from?
-
-* Research what are the implications of combining different point clouds to get eg. a building/terrain dataset that is both as detailed as possible and as up-to-date as possible. It is possible to also involve other datasets like the BAG that have information on when buildings are modified. 
-
-and possibly:
-
-* How to prevent issues like the one in the image above? Can we smartly combine/fuse several point clouds to fix such issues?
-
-**Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
-
-- - -
-
-## Improving the automatic LoD2 building reconstruction from AHN3
-
-![](img/lod2-add-spheres.jpg){:width="800px"}
-
-We have a working method to automatically reconstruct LoD2.2/LoD1.3 buildings from the AHN3 point cloud that we are using to construct LoD2 building models for the whole of the Netherlands. These models will for example be used as input data for noise simulation, and will be available as open data as part of the next version of our [3D BAG dataset](http://3dbag.bk.tudelft.nl).
-
-The aim of this project will be to improve/extend the method with one or several of the following items:
-
-* The detection of primitive shapes in roof structures such as speheres and cones. Currently the method can only detect planes. If we also detect other types of primitive we will be able to create more accurate models.
-* Making the method work without requiring a building footprint as input (next to the point cloud). Currently the method 'forces' the boundary of the model to exactly follow the BAG footprint. However, these are not always accurate and may include underground parts of the building that we would like to ignore.
+With the 3D BAG we have LoD2.2 building models for the whole of the Netherlands. Unfortunately the semantics of these models is still very simplistic (only a very basic classification of wall/roof/floor surfaces is present). The goal of this project would be to develop an automatic method to semantically enrich these models by detecting and labeling rooftop structures such as chimneys, A/C units and dormers. This is useful for applications such as optimally placing solar panels.
 
 Programming required, C++ recommended.
 
 **Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
 
+- - -
 
 ## 3D Cadastre
 
