@@ -505,3 +505,15 @@ One issue is that the aerial photos are nadir photos, and the façades are often
 I assume that since it's a classification problem, machine learning will be used.
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+
+---
+
+## Update 3D BAG from different point clouds
+
+![](img/ahn3Dbag.png){:width="500px"}
+
+The [3D BAG](https://3dbag.nl) contains the geometry of all buildings in the Netherlands.
+The models are reconstructed from building-polygons (BAG) and AHN3, which is a point cloud obtained by airborne LiDAR technology. Now [AHN4](https://www.ahn.nl/ahn-4) is becoming available, the question is how to best update 3D BAG. AHN4 is of a more recent date, but it also has other characteristics than AHN3 such as higher point density and different occlusion (and the occasional lack of points on black roofs) in urban areas. In addition, some municipalities acquire their own point clouds on a yearly basis, with yet other characteristics. The aim of this MSc is to develop a methodology to automatically update the 3D BAG on a regular basis by combining different point clouds while using the strengths of each height source to obtain the most detailed and up to date 3D BAG models.
+
+**Contacts:** [Jantien Stoter](https://3d.bk.tudelft.nl/jledoux) + [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
