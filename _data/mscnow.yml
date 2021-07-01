@@ -29,11 +29,6 @@
   title: How should roads be modelled in 3D City Models?
   image: 7012f198422c-road_intersection.png
 
-- surname: Chen
-  name: Zhaiyu
-  title: Polygonal Mesh Reconstruction from Point Clouds with Deep Implicit Fields
-  image: 64798c59903b-sog_teaser_Fig1.gif
-
 - surname: Dinklo
   name: Constantijn
   title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines

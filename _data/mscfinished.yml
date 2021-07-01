@@ -1,4 +1,11 @@
-
+- surname: Chen
+  name: Zhaiyu
+  title: Learning to Reconstruct Compact Building Models from Point Clouds
+  link: https://repository.tudelft.nl/islandora/object/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887?collection=education
+  image: 2021_ZhaiyuChen.jpg
+  github: https://github.com/chenzhaiyu/points2poly
+  year: 2021
+          
 - surname: Morlighem
   name: Camille
   title: "Automatic reconstruction of 3D city models from historical maps"
