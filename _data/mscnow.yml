@@ -59,11 +59,6 @@
   title: 'CityREST: CityJSON in a database + RESTful access'
   image: 9c424a9b1de-draco400.jpg
 
-- surname: Lumban Gaol
-  name: Yustisi Ardhitasari
-  title: Machine Learning Approach for Satellite-Derived Bathymetry with Minimal In-situ Data
-  image: 38ba5f429ccd-201015_usvi.png
-
 - surname: Papageorgiou
   name: Manos
   title: Point cloud classification with supervised deep learning algorithms for automatic reconstruction of LoD2 3D city models

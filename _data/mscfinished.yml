@@ -1,3 +1,11 @@
+- surname: Lumban Gaol
+  name: Yustisi Ardhitasari
+  title: Convolutional neural networks for satellite-derived bathymetry
+  link: https://3d.bk.tudelft.nl/ken/files/21_dita.pdf
+  image: 2021_Dita.png
+  github: https://github.com/yustisiardhitasari/sdbcnn
+  year: 2021
+
 - surname: Chen
   name: Zhaiyu
   title: Learning to Reconstruct Compact Building Models from Point Clouds
