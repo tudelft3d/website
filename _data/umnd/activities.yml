@@ -1,3 +1,6 @@
+- research_line: [2, 3]
+  description: "Presented at the ISPRS TC IV Webinar Series 'State-of-the-art in Spatial Information Science', presentation titled: 'CityJSON, a JSON-based encoding for storing 3D city models'"
+  date: 2021-07-01
 - research_line: [1]
   description: "Published paper: \"Built Environmental Correlates of Cycling Accidents Involving Fatalities and Serious Injuries in London, UK\""
   date: 2020-11-19
