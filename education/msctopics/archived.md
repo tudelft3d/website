@@ -1,4 +1,42 @@
+- - -
 
+## Space lidar to estimate the height of all buildings in the world?
+
+![](img/icesat2_buildings.png){:width="300px"}
+
+By using the recent LiDAR [satellite ICESat-2](https://icesat-2.gsfc.nasa.gov/) data, one can potentially measure the height of buildings, see [those very recent results](https://iopscience.iop.org/article/10.1088/2634-4505/abf820).
+
+The problem is that the data is very sparse (kilometres with no data) and thus a global coverage is difficult.
+
+The projects aims at reimplementing, and perhaps improve, the methodology above (eg filtering and classification of the points) and build a training dataset that could be used to train a machine learning network (similar to [this MSc thesis last year of Imke Lánský](https://repository.tudelft.nl/islandora/object/uuid:ddcae7d1-6cc8-42a7-8c1d-a922ec7551f0?collection=education)).
+
+The idea is to use the [3DBAG dataset](https://3dbag.nl) as a start, and see how this can be applied to other areas.
+
+This topic would be in collaboration with [Deltares](https://www.deltares.nl) (Maarten Pronk, who gave the guest lecture in GEO1015), and thus the [Julia programming language](https://julialang.org/) is preferred (since they already have some code to help you start). 
+
+**Contact**: [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+
+- - -
+
+## Automatic repair of 3D city models
+
+![](img/repairorientation.gif){:width="400px"}
+
+Most 3D city models that are publicly available contain so many geometric errors (self-intersections, missing faces, duplicate vertices, etc.) that [they are more or less unusable in practice](https://speakerdeck.com/hugoledoux/how-useful-are-current-3d-city-models).
+
+The aim of this project is to __automatically__ repair 3D city models, we can focus on the [publicly available models](https://3d.bk.tudelft.nl/opendata/opencities/) so there is plenty of data to play with.
+While repair is a very-complex issue (if all cases are to be handled), this project will target the most common errors, and fix them. 
+The [val3dity server](http://geovalidation.bk.tudelft.nl/val3dity/) has been logging all the validation reports for the last 4 years, so a starting point will be to analyse those and focus on what is most easy and has an impact.
+Duplicate points and non-planar surfaces are pretty easy to solve; and for single polygons we [already have working code (prepair)](https://github.com/tudelft3d/prepair).
+After that, more complex operators (eg [those from CGAL](https://doc.cgal.org/latest/Polygon_mesh_processing/index.html)) could be used.
+
+The project is difficult to be done in Python, C++ is necessary (but it's a great way to improve!).
+CityJSON files will be used, you will not have to deal with (the pain of parsing) CityGML files, I promise.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+- - -
 
 ## 3D digital urban regulations to use GeoBIM for building permission checks
 
