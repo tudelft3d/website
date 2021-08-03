@@ -9,7 +9,7 @@
 - name: CFD+LoDs
   description: Exploring the impact of level of detail and semantic 3D city models in Computational Fluid Dynamic Simulations
   funding: TU Delft
-  webpage: projects/cfd+lods
+  webpage: /projects/cfd+lods
   image: U1-U2_2mheight.png
   start: 2019
   
