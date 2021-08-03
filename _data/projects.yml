@@ -5,6 +5,13 @@
   webpage: https://www.tudelft.nl/en/ai/3duu
   image: 3duu.png
   start: 2020
+
+- name: CFD+LoDs
+  description: AI-lab on 3D Urban Understanding
+  funding: TU Delft
+  webpage: projects/cfd+lods
+  image: U1-U2_2mheight.png
+  start: 2019
   
 - name: iNous
   description: Building an eco-system for indoor spatial information
