@@ -7,7 +7,7 @@
   start: 2020
 
 - name: CFD+LoDs
-  description: AI-lab on 3D Urban Understanding
+  description: Exploring the impact of level of detail and semantic 3D city models in Computational Fluid Dynamic Simulations
   funding: TU Delft
   webpage: projects/cfd+lods
   image: U1-U2_2mheight.png
