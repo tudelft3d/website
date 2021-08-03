@@ -5,7 +5,7 @@ permalink: /projects/cfd+lods/
 ---
 
 <div class="row">
-  <div class="col-md-12 col-xs-12"><img class="img-responsive" src="{{ "LoDsCFDbanner.jpg" }}"></div>
+  <div class="col-md-12 col-xs-12"><img class="img-responsive" src="{{ "banner.jpg" }}"></div>
 </div>
 
 - - -
@@ -28,7 +28,7 @@ The rightmost figure presents the comparison of wind flow results in the form or
 An abstract has been accepted at the 3dgeoinformation conference in 2021, and a full paper is currently under preparation.
 
 <i class="fas fa-file-pdf">
-  <a href="Garcia-Sanchez_etal_3Dgeoinfor2021.pdf">Garcia-Sanchez_etal_3Dgeoinfo2021.pdf</a>
+  <a href="Garcia-Sanchez_etal_3Dgeoinfo2021.pdf">3dgeoinfo2021.pdf</a>
 </i>
 
 
