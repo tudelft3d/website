@@ -37,11 +37,15 @@ permalink: /projects/meshannotation/
 
 <div class="row featurette">
     <div class="col-md-12">
-    <img class="featurette-image img-responsive" src="{{ "img/texture_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <center>
+    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/texture_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    </center>
     <p style="text-align: center;">Figure 3: Part of the semantic urban mesh benchmark dataset shown as a texture mesh. </p>
     </div>
    <div class="col-md-12">
-    <img class="featurette-image img-responsive" src="{{ "img/semantic_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <center>
+    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/semantic_zooms_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    </center>
     <p style="text-align: center;">Figure 4: Part of the semantic urban mesh benchmark dataset, showing the semantic classes (unclassified regions are in black). </p>
    </div>
 </div>
@@ -79,7 +83,7 @@ Rather than manually labelling each individual triangle face of the raw meshes, 
 
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" width="70%" height="70%" src="{{ "img/labeling_workflow.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/labeling_workflow.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 5: The pipeline of the labelling workflow</p>
 </div>
@@ -127,7 +131,7 @@ We also evaluate the performance of semantic segmentation with different amounts
 
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/train_increases.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/train_increases.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 7: Effect of the amount of training data on the performance of the initial segmentation method used in the semi-automatic annotation. We repeated the same experiment ten times for each set of training areas and presented the mean performance</p>
 </div>
