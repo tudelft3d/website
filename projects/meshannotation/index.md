@@ -10,7 +10,7 @@ permalink: /projects/meshannotation/
 
 <div class="col-sm-12 col-xs-12">
     <center>
-    <img class="img-responsive" width="80%" height="80%" src="{{ "img/mesh_overview.jpg" }}">
+    <img class="img-responsive" width="80%" height="80%" src="{{ "img/mesh_overview.png" }}">
     </center>
     <p style="text-align: center;">Figure 1: Overview of the semantic urban mesh benchmark. Left: the textured meshes. Right: the ground truth meshes.</p>
 </div>
@@ -37,11 +37,11 @@ permalink: /projects/meshannotation/
 
 <div class="row featurette">
     <div class="col-md-12">
-    <img class="featurette-image img-responsive" src="{{ "img/texture_zoom_in.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" src="{{ "img/texture_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: center;">Figure 3: Part of the semantic urban mesh benchmark dataset shown as a texture mesh. </p>
     </div>
    <div class="col-md-12">
-    <img class="featurette-image img-responsive" src="{{ "img/semantic_zoom_in.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" src="{{ "img/semantic_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: center;">Figure 4: Part of the semantic urban mesh benchmark dataset, showing the semantic classes (unclassified regions are in black). </p>
    </div>
 </div>
@@ -94,7 +94,7 @@ Urban datasets can be captured with different sensors and be reconstructed with 
  
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" src="{{ "img/table_benchmarks.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" src="{{ "img/table_benchmark.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Table 1: Comparison of existing 3D urban benchmark datasets.</p>
 </div>
@@ -106,7 +106,7 @@ To perform the semantic segmentation task, we randomly select 40 tiles from the 
 
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" width="80%" height="80%"  src="{{ "img/data_split.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="80%" height="80%"  src="{{ "img/data_splits.jpg" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 6: Overview of the data used in our experiment. Left: The distribution of the training, test, and validation dataset. Right: Semantic categories of training (including validation data) and test dataset.</p>
 </div>
@@ -118,7 +118,7 @@ We sample the mesh into coloured point clouds with a density of about 30 pts/m<s
 
 <div class="col-md-12">
   <center>
-    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/table_comparision_new.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="80%" height="80%" src="{{ "img/table_comparision.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
   </center>
 <p style="text-align: center;">Table 2: Comparison of various semantic segmentation methods on the new benchmark dataset. The results reported in this table are per-class IoU (%), mean IoU (mIoU, %), Overall Accuracy (OA, %), mean class Accuracy (mAcc, %), mean F1 score (mF1, %), and the running times for training and testing (minutes). The running times of SPG include both feature computation and graph construction, and RF-MRF and our baseline method include feature computation. We repeated the same experiment ten times and presented the mean performance. </p>
 </div>
@@ -127,7 +127,7 @@ We also evaluate the performance of semantic segmentation with different amounts
 
 <div class="col-md-12">
     <center>
-    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/train_increase.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
+    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/train_increases.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     </center>
     <p style="text-align: center;">Figure 7: Effect of the amount of training data on the performance of the initial segmentation method used in the semi-automatic annotation. We repeated the same experiment ten times for each set of training areas and presented the mean performance</p>
 </div>
