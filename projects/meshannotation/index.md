@@ -36,16 +36,12 @@ permalink: /projects/meshannotation/
 </div>
 
 <div class="row featurette">
-    <div class="col-md-12">
-    <center>
+    <div class="col-md-6">
     <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/texture_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
-    </center>
     <p style="text-align: center;">Figure 3: Part of the semantic urban mesh benchmark dataset shown as a texture mesh. </p>
     </div>
-   <div class="col-md-12">
-    <center>
-    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/semantic_zooms_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
-    </center>
+   <div class="col-md-6">
+    <img class="featurette-image img-responsive" width="50%" height="50%" src="{{ "img/semantic_zoom_in.png" | prepend: site.baseurl }}" alt="Generic placeholder image">
     <p style="text-align: center;">Figure 4: Part of the semantic urban mesh benchmark dataset, showing the semantic classes (unclassified regions are in black). </p>
    </div>
 </div>
