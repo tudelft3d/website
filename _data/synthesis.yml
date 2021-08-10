@@ -1,4 +1,4 @@
-- title: Tree Reconstruction from a Point Cloud using an L-system
+- title: Tree Reconstruction from a Point Cloud using L-system
   year: 2021
   students:
     - name: Daniel Dobson 
@@ -8,6 +8,7 @@
     - name: Jasper van der Vaart
     - name: Ziyan Wu
   report: https://repository.tudelft.nl/islandora/object/uuid%3Aee9937c0-34e9-4ff3-9ee9-a5305bdeb0a0?collection=education
+  video: https://www.youtube.com/watch?v=j7Kgj9l1xEA
   img: 2021_cobra.jpg
 
 - title:  AHN3 DTM/DSM improvements
