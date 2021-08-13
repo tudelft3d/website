@@ -1,3 +1,15 @@
+- title: Finding the plastic hotspots with (GIS) data
+  year: 2021
+  students:
+    - name: Lisa Geers 
+    - name: Pinelopi-Eirini Kountouri
+    - name: Katrin Meschin
+    - name: Konstantinos Pantelios
+    - name: Androniki Pavlidou
+    - name: Simon Pena Pereira
+  report: https://repository.tudelft.nl/islandora/object/uuid%3A00de81ee-ef54-41d5-a846-9b2c9da9546f?collection=education
+  img: 2021_plastic_gis.jpg
+
 - title: Tree Reconstruction from a Point Cloud using L-system
   year: 2021
   students:
