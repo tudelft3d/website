@@ -5,7 +5,7 @@
   formats: CityJSON, OBJ, dump PostgreSQL
   year: 2021
   texture: no
-  notes: add 10M+ buildings in the Netherlands
+  notes: all 10M+ buildings in the Netherlands
 
 - dataset: Japan (PLATEAU)
   link: https://www.geospatial.jp/ckan/dataset/plateau
