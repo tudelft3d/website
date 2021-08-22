@@ -155,7 +155,7 @@ volume = {179},
 pages = {108-120},
 year={2021},
 issn = {0924-2716},
-doi = {https://doi.org/10.1016/j.isprsjprs.2021.07.008},
+doi = {10.1016/j.isprsjprs.2021.07.008},
 url = {https://www.sciencedirect.com/science/article/pii/S0924271621001854},
 }
 </pre></div></div>
