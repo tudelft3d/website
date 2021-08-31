@@ -71,7 +71,7 @@ All of our source code will be available on GitHub.
 
 **Source Code 1:** [Urban Mesh Annotation Tool](https://github.com/tudelft3d/3D_Urban_Mesh_Annotator).
 
-**Source Code 2:** Semantic Urban Mesh Segmentation (**Coming in August 2021**)<!--[Semantic Urban Mesh Segmentation](https://3d.bk.tudelft.nl/projects/meshannotation/)-->, which includes our initial segmentation method and other competing methods. 
+**Source Code 2:** Semantic Urban Mesh Segmentation (**Coming soon**)<!--[Semantic Urban Mesh Segmentation](https://3d.bk.tudelft.nl/projects/meshannotation/)-->, which includes our initial segmentation method and other competing methods. 
 - - -
 
 ## Labelling Workflow
