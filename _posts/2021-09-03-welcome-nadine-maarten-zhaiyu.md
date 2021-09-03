@@ -15,6 +15,6 @@ date: 2021-09-03 09:40
 <br>
 Nadine Hobeika and Maarten Pronk have just joined our research group as PhD students, and Zhaiyu Chen as a researcher.
 
-Nadine's topic focuses on developing a CFD-based tool to assess ventilation design strategies in a fast pace and Maarten is focusing on generating an accurate global terrain model using sparse spaceborne LiDAR. 
+Nadine's topic focuses on developing a CFD-based tool to assess ventilation design strategies in a fast pace, Maarten is focusing on generating an accurate global terrain model using sparse spaceborne LiDAR, and Zhaiyu will work on optimal integration of AHN 3/4 with application in 3D building modelling.
 
 Welcome Nadine, Maarten, and Zhaiyu, and good luck!
