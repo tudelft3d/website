@@ -7,6 +7,20 @@
   #twitter: _add_twitter_
   description: "Learning-based 3D reconstruction of urban objects"
 
+- surname: Hobeika
+  name: Nadine
+  title: PhD candidate
+  photo: nadine.png
+  homepage: 3d.bk.tudelft.nl/nhobeika
+  email: n.hobeika@tudelft.nl
+  description: "Data-driven design tool for healthy indoor spaces."
+
+- surname: Chen
+  name: Zhaiyu
+  title: Research software engineer
+  photo: zhaiyu.png
+  email: zhaiyu.chen@tudelft.nl
+
 - surname: Leon Sánchez
   name: Camilo Alexander
   title: PhD candidate
