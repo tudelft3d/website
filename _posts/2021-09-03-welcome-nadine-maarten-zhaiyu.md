@@ -1,0 +1,20 @@
+---
+layout: post
+title:  Welcome Nadine, Maarten, and Zhaiyu!
+categories: news
+date: 2021-09-03 09:40
+---
+
+<table>
+  <tr>
+    <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/nadine.png" | prepend: site.baseurl }}"></td>
+    <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/maarten.jpg" | prepend: site.baseurl }}"></td>
+    <td valign="top"><img class="img-circle img-responsive" src="{{ "/img/staff/zhaiyu.png" | prepend: site.baseurl }}"></td>
+  </tr>
+ </table>
+<br>
+Nadine Hobeika and Maarten Pronk have just joined our research group as PhD students, and Zhaiyu Chen as a researcher.
+
+Nadine's topic focuses on developing a CFD-based tool to assess ventilation design strategies in a fast pace and Maarten is focusing on generating an accurate global terrain model using sparse spaceborne LiDAR. 
+
+Welcome Nadine, Maarten, and Zhaiyu, and good luck!
