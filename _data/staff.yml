@@ -19,7 +19,9 @@
   name: Zhaiyu
   title: Research software engineer
   photo: zhaiyu.png
+  homepage: 3d.bk.tudelft.nl/zhaiyuchen
   email: zhaiyu.chen@tudelft.nl
+  description: "My research involves optimal integration of [AHN](https://www.ahn.nl/) 3/4 point clouds with its application in 3D building modelling. I graduated cum laude from MSc Geomatics at TU Delft, with the thesis [Learning to Reconstruct Compact Building Models from Point Clouds](http://resolver.tudelft.nl/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887)."
 
 - surname: Leon Sánchez
   name: Camilo Alexander
