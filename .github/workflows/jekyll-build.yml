@@ -11,10 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6.x
+    - name: Set up Ruby
+      run: apt install ruby-full
     - name: Install dependencies
       run: |
         gem install jekyll parslet htmlentities
