@@ -18,6 +18,8 @@ jobs:
         gem install --user-install jekyll parslet htmlentities
     - uses: actions/checkout@v1
     - name: jekyll build
-      run: jekyll build --trace
+      run: |
+        export PATH=home/runner/.gem/ruby/2.7.0/bin/:$PATH
+        jekyll build --trace
     - name: trigger update
       run: curl -L ${{ secrets.UPDATE_URL }}
