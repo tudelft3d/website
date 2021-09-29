@@ -15,7 +15,7 @@ jobs:
       run: sudo apt install ruby-full
     - name: Install dependencies
       run: |
-        gem install jekyll parslet htmlentities
+        gem install --user-install jekyll parslet htmlentities
     - uses: actions/checkout@v1
     - name: jekyll build
       run: jekyll build --trace
