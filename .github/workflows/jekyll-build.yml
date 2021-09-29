@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Set up Ruby
-      run: apt install ruby-full
+      run: sudo apt install ruby-full
     - name: Install dependencies
       run: |
         gem install jekyll parslet htmlentities
