@@ -52,15 +52,15 @@ permalink: /projects/meshannotation/
 The mesh data can be visualized in [MeshLab](http://meshlab.sourceforge.net) and our [Urban Mesh Annotation Tool](https://github.com/tudelft3d/3D_Urban_Mesh_Annotator). We also provide the sampled point clouds with semantics, colours and corresponding face ids in three sampling density (refer to surface area): 10 pts/m<sup>2</sup>, 30 pts/m<sup>2</sup> and  300 pts/m<sup>2</sup>. In addition, we only provide the data in PLY format, and the semantic classes and colours are defined as follows:
 
 {:class="table table-bordered table-hover table-responsive table-sm" style="width: auto;"}
-| Labels | Semantics    |    RGB       |
-| :-----:| :----------: | :----------: |
-| -1     | unclassified | 0  , 0  , 0  |
-| 1      | terrain       | 170, 85 , 0  |
-| 2      | high vegetation   | 0  , 255, 0  |
-| 3      | building     | 255, 255, 0  |
-| 4      | water        | 0  , 255, 255|
-| 5      | car          | 255, 0  , 255|
-| 6      | boat         | 0  , 0  , 153|
+| Labels | Semantics        |    RGB       |
+| :-----:| :----------:     | :----------: |
+| 0      | unclassified     | 0  , 0  , 0  |
+| 1      | terrain          | 170, 85 , 0  |
+| 2      | high vegetation  | 0  , 255, 0  |
+| 3      | building         | 255, 255, 0  |
+| 4      | water            | 0  , 255, 255|
+| 5      | car              | 255, 0  , 255|
+| 6      | boat             | 0  , 0  , 153|
 
 ---
 
