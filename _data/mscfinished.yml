@@ -6,6 +6,14 @@
   github: https://github.com/Gallon229/Building-permit
   year: 2021
 
+- surname: van Heerden	  
+  name: Natasja
+  title: Integration of 3D city model and BIM for microclimate simulations
+  image: natasja.PNG
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A630d57be-5660-4971-84c2-83bf12b1d204?collection=education
+  github: https://github.com/Natasja1992/ifc-citygml-2-envi
+  year: 2021
+  
 - surname: de Jong
   name: Maarten
   title: Simplification of massive TINs with the streaming geometries paradigm
