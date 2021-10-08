@@ -10,7 +10,7 @@ permalink: /projects/eunet4dbp/network.html
 
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/map1.png" }}" style="max-height: 500px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/Map.png" }}" style="max-height: 500px"></div>
 </div>
 
 
@@ -137,6 +137,7 @@ We are coordinating of EMJMD [BIM A+](www.bimaplus.org). Our fields of interest 
 Northumbria University is one of the leading universities in the UK engaged in research and knowledge exchange activities in digital construction.
 
 *People: Bimal Kumar*
+
 
 #### ...
 
@@ -336,6 +337,20 @@ We encourage, help and support our clients and costumers to lead the digital tra
 IFCWebServer is an Open BIM Server and online viewer based on IFC standard and the only graph  platform for BIM models. It supports QA/QC and Automatic Code Compliance Checking for BIM models based on IFC standard
 
 *People: Ali Ismail*
+
+#### **[Cype](http://www.cype.com/)**
+
+CYPE is a Spanish research intensive SME dedicated to the development of technical software for Architecture, Engineering and Construction professionals. CYPE develops solutions based in Open BIM technology for many different areas: energy efficiency, structures, architecture, building facilities, urban planning, cost estimation, etc. CYPE is currently developing a solution to automate the building permit process based in BIM models.
+
+#### **[Xinaps](https://verifi3d.xinaps.com/)**
+
+"MODEL CHECKING IN THE CLOUD
+Data validation in the construction industry is challenging.Projects are complex and involve a lot of collaboration and communication. The complexity of the projects and the amount of stakeholders lead to a rising demand for using Common Data Environments (CDE) and better model coordination between teams. 
+
+Verifi3D simplifies the data validation process and keeps all project participants up to date at all times. You don’t need to have years of experience in the construction industry to use Verifi3D – you just get all your data, real-time in one platform."
+
+#### **[digitAEC Matters](https://digitaec.com/)**
+SME focused on supporting digitization and digitalization of architecture, engineering, and construction.
 
 ### Freelance Architects, designers and BIM experts
 

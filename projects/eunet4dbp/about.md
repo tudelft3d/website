@@ -8,13 +8,13 @@ permalink: /projects/eunet4dbp/about.html
 
 <h1>European Network for Digital Building Permits (EUnet4DBP)</h1>
 
-
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/VAR.png" }}" style="max-height: 300px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/VAR.png" }}" style="max-height: 500px"></div>
 </div>
 
-*The 3 key ambitions of the EUnet4DBP, plus the parallel one regarding Empowerment of public officers, are described in the coloured boxes in the image, in connection with the requirements allowing their achievement towards the central vision of automatic and digital building permit.*
+ 
 - - -
+
 
 * Table of Content
 {:toc}
@@ -61,6 +61,40 @@ Support to rule interpretation and information requirements in becoming as **sim
 ### Goal 3
 
 Support the wide adoption of **interoperable** technologies based on open standards.
+
+## The EUnet4DBP Ambitions
+
+<div class="row">
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/AeR.png" }}" style="max-height: 500px"></div>
+</div>
+
+
+
+## The identified Requirements to reach the EUnet4DBP ambitions
+
+r1	--	Digitalize the mindset of public officers	
+
+r2	--	A roadmap and a change framework towards a fully digital building permit process	
+
+r3	--	Normative text should be interpretable	
+
+r4	--	Machine readable building codes	
+
+r5	--	Several kinds of data can be involved in the process (GIS, BIM, etc), with related clear information requirements.
+
+r6	--	Understanding the necessary process steps	
+
+r7	--	Alignment across Europe and beyond in Scope and Ambition
+
+r8	--	Standardization	
+
+r9	--	Common Dictionaries	
+
+r10	--	Modelling conventions and guidelines	
+
+r11	--	Interoperability and APIs
+
+
 
 ## Principles
 

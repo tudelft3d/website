@@ -27,13 +27,15 @@ Image by [Christine Schmidt](https://pixabay.com/users/Buecherwurm_65-777471/?ut
 
 ### Next
 
-## [Building Digital Twin International Congress](https://buildingdigitaltwin.org/vision-and-mission/)
 
-Organized by: BIM Academy
 
 - - -
 
 ### Past
+
+## [Building Digital Twin International Congress](https://buildingdigitaltwin.org/vision-and-mission/)
+
+Organized by: BIM Academy
 
 - - -
 

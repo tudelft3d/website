@@ -42,7 +42,7 @@ The EUnet4DBP organizes bi-monthly internal meetings aimed at getting to know th
 
 The activities organized within the EUnet4DBP framework are also decided and discussed within those meetings.
 
-Meetings dates: 20th November 2020; 12th February 2021; 7th May 2021
+Meetings dates: 20th November 2020; 12th February 2021; 7th May 2021; 24th September 2021
 
 ## Digital Kick-off Meeting, 29/05/2020
 
