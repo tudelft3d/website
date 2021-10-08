@@ -15,24 +15,24 @@ permalink: /projects/rotterdamgeobim_bp/
 
 - - -
 
+# Rotterdam project - Part 1
+
+October 2019 - July 2020
+
 ## Summary
 
 **3D information and 3D models** can give an extremely valuable contribution to support the municipalities in the **building permits issuing process**.
 
-This project intends to accomplish the unofficial collaboration carried out between the 3D geoinformation group at the Delft University of Technology and the Municipality of Rotterdam (team H. Tezerdi, R. Manbodh) within the [EuroSDR GeoBIM project](https://3d.bk.tudelft.nl/projects/eurosdr-geobim/), in the investigation of the GeoBIM 'building permission issuing' use case. 
+This project intended to accomplish the unofficial collaboration carried out between the 3D geoinformation group at the Delft University of Technology and the Municipality of Rotterdam within the [EuroSDR GeoBIM project](https://3d.bk.tudelft.nl/projects/eurosdr-geobim/), in the investigation of the GeoBIM 'building permission issuing' use case. 
 
-GeoBIM is intended as the integrated information from the geospatial domain and the Building Information Models.
+GeoBIM was intended as the integrated information from the geospatial domain and the Building Information Models.
 
-The automation of the regulation checks is further explored by this project. In particular, two regulations were chosen for having potentially higher advantages by the system, and higher compliance and effective assessment urgency. These are analysed and translated to more formal languages within workshops and sessions in collaboration with the municipality officers usually devoted to the interpretation of such rules.
+The automation of the regulation checks was further explored by this project. In particular, two regulations were chosen for having potentially higher advantages by the system, and higher compliance and effective assessment urgency. These are analysed and translated to more formal languages within workshops and sessions in collaboration with the municipality officers usually devoted to the interpretation of such rules.
 n or data required to fulfil the task, as available for the municipality.
 
-A tool will be implemented, allowing the automatic or semi-automatic checks of the compliancy to the selected regulations using a BIM model and a 3D city model as input.
+A tool was implemented, allowing the automatic or semi-automatic checks of the compliancy to the selected regulations using a BIM model and a 3D city model as input.
 
-The continuous feedback and exchange will guarantee the developed methodology to be close enough to the practice needs in order to be actually employed in the municipalities workflows.
-
-A further outcome of this project will be a list of guidelines and recommendations, addressed to designers and city modelers, to be followed when building the 3D city models and the building information models involved in the procedure, in order the automation to be successful.
-
-October 2019 - July 2020
+The continuous feedback and exchange guaranteed the developed methodology to be close enough to the practice needs in order to be actually employed in the municipalities workflows.
 
  - - -
 
@@ -65,6 +65,7 @@ Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. (Pre-print). [Inve
 
 See the tool code and documentation in [github](https://github.com/twut/GEOBIM_Tool)
 
+
 ## Reports
 
 Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. [Deliverable 1 - Report about background and initial analysis to support the development of a tool automating the process of regulations checks in building permission issuing.](/projects/rotterdamgeobim_bp/Deliverable1_v2.pdf)
@@ -80,6 +81,41 @@ Table summarizing the progress reached for each of the tasks involved in the pro
 ### Presentation to the 3D GeoInfo 2020 conference - BIM GIS Integration Workshop, 8th September 2020.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/upUlaOkI2-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Rotterdam project - Part 2
+
+January 2021 - July 2021
+
+## Summary
+
+This second part of the project had two main objectives.
+
+First was making the tool developed in the previous part more user-friendly, by developing a web interface through which using it.
+
+Second objective was the improvement of the integration of BIM with geoinformation to improve automation in the checking of the considered regulations.
+
+The developments in the two directions were finally merged in one only improved web-based tool.
+
+
+
+- - -
+
+## The tool
+
+See the tool code and documentation in [github](https://github.com/tudelft3d/GeoBIM-building-permit-tool)
+
+- - -
+
+## Reports
+
+Noardo, F., Hobeika, N., van Liempt, J., Arroyo Ohori, K., Krijnen, T., Vitalis, S., Stoter, J. [GeoBIM for Building Permit in Rotterdam: Phase 2.](/projects/rotterdamgeobim_bp/GeoBIMBP-Phase2.pdf)
+
+
+
+
+
+
 
 - - -
 
