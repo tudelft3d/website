@@ -1,8 +1,8 @@
 - dataset: Netherlands 3D BAG
   link: https://3dbag.nl
-  country: the Netherldans
+  country: the Netherlands
   building_lod: LoD1+LoD2
-  formats: CityJSON, OBJ, dump PostgreSQL
+  formats: CityJSON, GPKG, OBJ, dump PostgreSQL
   year: 2021
   texture: no
   notes: all 10M+ buildings in the Netherlands
