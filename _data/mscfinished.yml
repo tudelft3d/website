@@ -1,3 +1,20 @@
+
+- surname: Kenesei
+  name: Kristof
+  title: Constructing a digital 3D road network for The Netherlands
+  image: 3bdb605851f0-thumbnail.png
+  link: http://resolver.tudelft.nl/uuid:2a987bdc-82e1-4d82-92ea-fecd17e6c567
+  github: https://github.com/kriskenesei/geo2020-modules
+  year: 2021
+
+- surname: Papageorgiou
+  name: Manos
+  title: Semantic segmentation of the AHN dataset with the Random Forest Classifier
+  image: 9e375dbdb8-400x400.png
+  link: http://resolver.tudelft.nl/uuid:699fb934-4d4b-4cf1-a115-75dcb79fbebb
+  github: https://github.com/MPa-TUDelft/Semantic-segmentation-of-the-AHN-dataset-with-the-Random-Forest-Classifier
+  year: 2021
+
 - surname: Hobeika
   name: Nadine
   title: CFD, sensitivity analysis and optimisation to promote the formation of dunes
