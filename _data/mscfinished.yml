@@ -1,3 +1,26 @@
+- surname: Hobeika
+  name: Nadine
+  title: CFD, sensitivity analysis and optimisation to promote the formation of dunes
+  image: 7d8153118aa6-draft_image_02.png
+  link: http://resolver.tudelft.nl/uuid:40a081bc-e32c-4c01-ab4b-ad71a1057c70
+  github: 
+  year: 2021
+
+- surname: Stevers
+  name: Anna Vera
+  title: The effects of beach house configurations on dune-ward sediment transport
+  image: 82f852014991-visualization.0008.png
+  link: http://resolver.tudelft.nl/uuid:d85b5773-f511-4bdf-91a8-496107c8faba
+  year: 2021
+
+- surname: de Jongh
+  name: Wessel
+  title: Urban morphological analysis for wind potential
+  image: Wessel.png
+  link: http://resolver.tudelft.nl/uuid:fdbff288-fede-4796-9972-54627af0db77
+  github: https://github.com/CodeWessel/windystreet
+  year: 2021
+
 - surname: Wu
   name: Jialun
   title: A CityJSON extension to store city information towards the automation of building permit
