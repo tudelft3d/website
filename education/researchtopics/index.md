@@ -11,22 +11,6 @@ permalink: /education/researchtopics/
 
 - - -
 
-## Implement a cjio operator to de-triangulate CityJSON files 
-
-![](img/cjtri.jpg){:width="400px"}
-
-Files containing objects that are triangulated are often easier work with (the triangle is the primitive for visualisation, and the resulting geometries do not contain inner rings) but some use-cases are hindered by the amount of surfaces.
-
-The aim of this project is simple: add an [cjio](https://github.com/cityjson/cjio) operator that will de-triangulate (or un-triangulate?) a given CityJSON files, and allows us to store a new file where the same information is stored coplanar triangles are merged into polygons (potentially with inner rings).
-
-Textures and materials (if any) also need to be handled.
-
-If successful, the new operator would be added to cjio. All coding is in Python.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
-
-- - - 
-
 ## Add support for CityJSON in BlueSky
 
 ![](img/bluesky.jpg){:width="400px"}
