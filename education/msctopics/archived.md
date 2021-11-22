@@ -1,5 +1,45 @@
 - - -
 
+## Dynamic energy simulations based on the 3D BAG 2.0 
+
+The 3DGeoinformation has recently released the [3D BAG 2.0](https://3dbag.nl/en/viewer), a dataset containing LoD2 buildings of the whole Netherlands. [CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB) is the reference database for CityGML data (and its Energy ADE extension) where input AND output data will be stored.
+The scope of this thesis is to link these three elements in order to allow for a seamless flow of information and perform energy simulations in CitySim. More specifically, the thesis will focus on (further) developing a Python-based bidirectional interface to feed/retrieve data between the 3DCityDB and CitySim.
+
+![](img/3dcdb_citysim_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended , as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3DGeoinformation Group) and [Jérôme Kämpf](https://www.idiap.ch/en/people/directory/750) (Idiap).
+
+- - -
+
+## Development of a QGIS plugin for the CityGML 3D City Database
+
+The goal of the thesis is to develop a plugin for QGIS 3 to interact with the open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB, PostgreSQL/PostGIS version), which is the reference database implementation of the CityGML data model. The plugin will facilitate interaction with the 3D City Database from within QGIS, enabling the user to visualise 3D geometries and to edit attributes of all features (e.g. buildings, bridges, roads, etc.) contained in the database.
+
+![](img/3dcdb_qgis_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+Contact: [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
+
+- - -
+
+## Development and Testing of the Energy Extension for CityJSON (v1.x)
+
+In the current time, there are some freeware simulation software tools to perform different energy simulation of buildings (SimStadt, CitySim), which support 3D City Models as input data and will produce results and exported following the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf). The purpose of this master thesis is to design the Energy Extension to the main core of CityJSON v.1.x so it supports the storage of energy data of cases such as space heating energy demand or solar irradiation values to mention some. It has been documented that CityJSON Extensions and less flexible than CityGML ADEs so it is expected to identify and evaluate the existing limitations and if thay would mean critical losses. 
+
+![](img/CityJSON+Energy.png){:width="800px"}
+
+It is desirable in this thesis to work in the consumption of this new datasets for visualization or analysis in existing software such as [Azul](https://github.com/tudelft3d/azul).
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) 
+
+- - -
+
 ## Space lidar to estimate the height of all buildings in the world?
 
 ![](img/icesat2_buildings.png){:width="300px"}
