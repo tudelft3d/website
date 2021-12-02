@@ -52,3 +52,13 @@
   name: Irène
   title: Integrating 3D data into a CNN for RGB aerial images to detect roof superstructures
   image: irene.jpg
+
+- surname: Keurentjes
+  name: Lisa
+  title: Automatic repair of 3D city models
+  image: 9ba90df526de-repair.gif
+
+- surname: Wu
+  name: Ziyan
+  title: Retrieving building height of the whole Netherlands from ICESat-2 data
+  image: 3ff27b27c567-482f2771dd90c94d2c2a4793035e83b.png
