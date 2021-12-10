@@ -165,7 +165,14 @@
   year: 2020
   image: vanliempt.jpg
   github: https://github.com/jliempt/CityJSON-does-file-size-matter-
-  link: https://repository.tudelft.nl/islandora/object/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education
+  link: https://repository.tudelft.nl/islandora/object/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education  
+
+- surname: Ceccarelli
+  name:  Giulia
+  title: "Semantic segmentation of point clouds with the 3D medial axis transform"
+  year: 2020
+  image: ceccarelli.jpg
+  link: http://resolver.tudelft.nl/uuid:85973c1e-1798-4fae-9790-3d1bab9476e1
   
 - surname: Wiersma  
   name: Gabriella
