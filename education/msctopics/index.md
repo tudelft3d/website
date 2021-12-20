@@ -148,20 +148,6 @@ Following elective course GEO5013 is an advantage.
 
 - - -
 
-## Modelling tree topology effects on wind
-
-![](img/FlowAroundTrees.png)
-
-Urban landscapes incorporate vegetation elements that serve for different purposes. In open spaces trees can be used to ameliorate air quality, while in other locations they can help to mitigate heat island effects or to improve pedestrian wind comfort. Flow simulations in urban canopies usually oversight resolving tree structures. However, trees have been shown to always affect the wind flow, in some cases with non-negligible impacts.
-
-In this MSc thesis we will simulate explicitly the wind around diverse tree topologies. The results will be compared with standard approaches that approximate the drag imposed by the tree on the wind flow. The study goal is twofold: 1) we will analyze the effect of different tree shapes, and their impact on the flow structure; 2) we will evaluate the performance of  traditional drag approaches and explore potential improvements.
-
-Knowledge of programming in python is highly desirable.
-
-**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl)
-
-- - -
-
 ## Inferring the needed building permission from a 3D building model
 
 ![](img/dormersrotterdam.png){:width="400px"}
