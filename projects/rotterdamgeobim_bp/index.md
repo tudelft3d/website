@@ -15,11 +15,11 @@ permalink: /projects/rotterdamgeobim_bp/
 
 - - -
 
-# Rotterdam project - Part 1
+## Part 1: Preliminary investigation and a tool using IFC geometry to check the Rotterdam regulations
 
 October 2019 - July 2020
 
-## Summary
+### Summary
 
 **3D information and 3D models** can give an extremely valuable contribution to support the municipalities in the **building permits issuing process**.
 
@@ -36,16 +36,16 @@ The continuous feedback and exchange guaranteed the developed methodology to be 
 
  - - -
 
-## Workshops in the Gemeente Rotterdam
+### Workshops in the Gemeente Rotterdam
 
-### 1st Workshop: 16th October 2019.
+#### 1st Workshop: 16th October 2019.
 
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="16/10/2019 Workshop 1"><img src="/projects/rotterdamgeobim_bp/imgs/workshop1.png" alt="Building dimensions and parking spaces design in city regulations" ></a></div>
 <p class="text-left">First workshop in the Municipality of Rotterdam, with the Municipality officers and experts about the building permission issuing process. The aim of the workshop was the understanding of the involved regulations (building dimensions and parking spaces design) by clarifying their correct interpretation with the help of the expert technicians. </p>
 </div>
 
-### 2nd Workshop: 5th November 2019.
+#### 2nd Workshop: 5th November 2019.
 
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:table-cell;"><a title="05/11/2019 Workshop 2"><img src="/projects/rotterdamgeobim_bp/imgs/workshop2.png" alt="External experts involved in building permission issuing project" ></a></div>
@@ -54,19 +54,18 @@ The continuous feedback and exchange guaranteed the developed methodology to be 
 
 - - -
 
-## Publications
+### Publications
 
 Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Tezerdi, H., Stoter, J.: [GEOBIM FOR DIGITAL BUILDING PERMIT PROCESS: LEARNING FROM A CASE STUDY IN ROTTERDAM](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/VI-4-W1-2020/151/2020/), ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., VI-4/W1-2020, 151–158, https://doi.org/10.5194/isprs-annals-VI-4-W1-2020-151-2020, 2020.
 
-Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. (Pre-print). [Investigating the automation of building permit checks through 3D GeoBIM information](https://arxiv.org/abs/2011.03117), arXiv:2011.03117.
-- - -
+Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. (2022). [IFC models for semi-automating common planning checks for building permits](https://doi.org/10.1016/j.autcon.2021.104097). Automation in constructions, 134, 104097.
 
-## The tool
+### The tool
 
 See the tool code and documentation in [github](https://github.com/twut/GEOBIM_Tool)
 
 
-## Reports
+### Reports
 
 Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. [Deliverable 1 - Report about background and initial analysis to support the development of a tool automating the process of regulations checks in building permission issuing.](/projects/rotterdamgeobim_bp/Deliverable1_v2.pdf)
 
@@ -76,18 +75,18 @@ Noardo, F., Wu, T., Arroyo Ohori, K., Krijnen, T., Stoter, J. [Annex I
 Table summarizing the progress reached for each of the tasks involved in the project and proposals for future steps.](/projects/rotterdamgeobim_bp/AnnexI-ProjectProgress.pdf)
 
 
-## Presentations
+### Presentations
 
-### Presentation to the 3D GeoInfo 2020 conference - BIM GIS Integration Workshop, 8th September 2020.
+#### Presentation to the 3D GeoInfo 2020 conference - BIM GIS Integration Workshop, 8th September 2020.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/upUlaOkI2-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Rotterdam project - Part 2
+## Part 2: the web-based tool and effective use of GeoBIM data
 
 January 2021 - July 2021
 
-## Summary
+### Summary
 
 This second part of the project had two main objectives.
 
@@ -101,13 +100,20 @@ The developments in the two directions were finally merged in one only improved 
 
 - - -
 
-## The tool
+### The tool
 
 See the tool code and documentation in [github](https://github.com/tudelft3d/GeoBIM-building-permit-tool)
 
+Access the web-based tool [here](http://godzilla.bk.tudelft.nl/geobim-tool/viewer)
+
+#### Video tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LzFUSJdmsl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 - - -
 
-## Reports
+### Reports
 
 Noardo, F., Hobeika, N., van Liempt, J., Arroyo Ohori, K., Krijnen, T., Vitalis, S., Stoter, J. [GeoBIM for Building Permit in Rotterdam: Phase 2.](/projects/rotterdamgeobim_bp/GeoBIMBP-Phase2.pdf)
 
@@ -128,7 +134,7 @@ Noardo, F., Hobeika, N., van Liempt, J., Arroyo Ohori, K., Krijnen, T., Vitalis,
 - - -
 
 
-## Connected projects
+### Connected projects
 
 <div class="row">
 

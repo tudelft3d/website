@@ -21,7 +21,7 @@ permalink: /projects/leadingfellow/
 
 A huge amount of spatial information, 2D and 3D is nowadays available, from many valuable sources (3D city models, Building Information Models, cadastral maps, sensor data, and so on). However, their suitable territorial continuity enabling smart cities analysis is still a challenge.
 
-This project was awarder within the [EU Marie Slodowska Curie cofund ‘LEAding Fellows’](https://leadingfellows.eu/) Postdoc Programme.
+This project was awarder within the [EU Marie Slodowska Curie cofund ‘LEading Fellows’](https://leadingfellows.eu/) Postdoc Programme.
 
 The project *‘Multisource Spatial data integration for smart city applications’* aims at the automatic generation of a harmonised 3D map from the integration and improvement of existing spatial information, to be effective support of specific smart cities-related use cases.
 
@@ -33,22 +33,25 @@ The objects in such integrated digital map will be reciprocally harmonised to be
 
 This is a two-years project, from January 2020 to December 2021.
 
-<!--
  - - -
  
- ### Results
+### Results
  
- #### Data readiness and practice investigation
+Noardo F. [Multisource spatial data integration for use cases applications.](https://www.preprints.org/manuscript/202112.0286) Preprint in Preprints, 2021.
  
- Noardo F, Arroyo Ohori K, Krijnen T, Stoter J. [An Inspection of IFC Models from Practice.](https://doi.org/10.3390/app11052232) Applied Sciences. 2021; 11(5):2232.  
  
- #### Ontologies for data integration
+#### Data readiness and practice investigation
  
+Noardo F., Arroyo Ohori K., Krijnen T., Stoter J. [An Inspection of IFC Models from Practice.](https://doi.org/10.3390/app11052232) Applied Sciences. 2021; 11(5):2232.
+ 
+Noardo F., Malacarne G. [Digital building permit: a state of play - I EUnet4DBP International workshop on Digital Building Permit.](http://www.eurosdr.net/sites/default/files/uploaded_files/eurosdr_eunet4dbp.pdf) EuroSDR report. 2021
 
-
- #### Data harmonization
+Noardo F., Wu T., Arroyo Ohori K., Krijnen T., Stoter J. [IFC models for semi-automating common planning checks for building permits](https://www.sciencedirect.com/science/article/pii/S0926580521005483). Automation in Construction 134, 2022, pp. 104097.
  
- -->
+#### Ontologies for data integration
+ 
+E. Colucci, M. Kokla and F. Noardo. [Ontology-based data mapping to support planning in historical urban centres.](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B4-2021/39/2021/)  The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2021, pp. 39–45. 
+
  - - -
 
 
@@ -79,8 +82,7 @@ This project has received funding from the European Union’s Horizon 2020 resea
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/smartdi-ams/" title="Smart data integration for urban applications"><img src=" /img/projects/sdi-ams.jpg" alt="Smart data integration for urban applications" style="max-height: 200px;"></a></div>
 
   <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/culturalheritage/" title="Architectural heritage information in 3D geospatial models"><img src=" /img/projects/ch3.gif" alt="Architectural heritage information in 3D geospatial models" style="max-height: 200px;"></a></div>
-  
-     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="display:table-cell; padding: 20px;"><a href="https://3d.bk.tudelft.nl/projects/geobim/" title="GeoBIM"><img src=" /img/projects/geobim.jpg" alt="GeoBIM" style="max-height: 200px;"></a></div>
+
      
 </div>
 

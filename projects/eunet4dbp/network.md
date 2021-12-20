@@ -82,11 +82,6 @@ Continous exchange with other stakeholders is provided through membership and pa
 
 *People: Lennart Senger*
 
-#### **[Bauhaus-Universität Weimar (Germany)](https://www.uni-weimar.de/en/civil-engineering/chairs/construction-engineering-and-management/)**
-
-The chair of construction engineering and management at Bauhaus-Universität Weimar considers various topics regarding Building Information Modeling. Especially the digital transformation in construction and building permitting are examined since several years. The expertise in building permitting is focused on as-is investigations and implementation possibilities of building information models. Processes and organizational structuring within authorities is part of projects as well as manual and automated model checking.
-
-*People: Judith Fauth*
 
 #### **Ruhr University Bochum (Germany)**
 
@@ -138,6 +133,9 @@ Northumbria University is one of the leading universities in the UK engaged in r
 
 *People: Bimal Kumar*
 
+#### **King Abdelaziz University**
+
+*People: Obaid Al Jobaly*
 
 #### ...
 
@@ -352,6 +350,14 @@ Verifi3D simplifies the data validation process and keeps all project participan
 #### **[digitAEC Matters](https://digitaec.com/)**
 SME focused on supporting digitization and digitalization of architecture, engineering, and construction.
 
+#### **[RIB software](https://www.rib-software.com/en/home)**
+
+The company RIB Software SE has been developing technical innovations for the construction sector since 1961. In the period from Dec 2021 to Nov 2024, RIB Software is lead partner of the research project „iECO“ (intelligent Empowerment of Construction Industry) which is funded by the German Federal Ministry for Economic Affairs and Climate Action. A consortium of eleven partners will create a GaiaX-based data space for the construction industry that looks at the entire building lifecycle. One subarea is the consideration of building permitting and its integration.
+
+*People: Judith Fauth*
+
+
+
 ### Freelance Architects, designers and BIM experts
 
 #### [Matteo Mandrile (Italy)](https://www.linkedin.com/in/matteo-mandrile/)
@@ -364,4 +370,4 @@ SME focused on supporting digitization and digitalization of architecture, engin
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-> Last update: 3rd May 2021
+> Last update: 20th December 2021

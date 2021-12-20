@@ -39,7 +39,7 @@ Organized by: BIM Academy
 
 - - -
 
-## [I EUnet4DBP International workshop on Digital Building Permit](https://drive.google.com/file/d/1K27fql7wqaPlupHJp7mf8V227wpbp7xK/view?usp=sharing)
+## [I EUnet4DBP International workshop on Digital Building Permit - 1EUnet4DBPws](https://drive.google.com/file/d/1K27fql7wqaPlupHJp7mf8V227wpbp7xK/view?usp=sharing)
 
 <div class="row">
   <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/1eunet4dbpws.jpg" }}" style="max-height: 250px"></div>
@@ -50,6 +50,8 @@ Digital event, Thu 25th - Fri 26th March 2021
 Organized by: EUnet4DBP, EuroSDR, buildingSMART, EU-BIM
 
 [Click here to access the event details with links to presentations and youtube recordings](https://drive.google.com/file/d/1K27fql7wqaPlupHJp7mf8V227wpbp7xK/view?usp=sharing)
+
+A report about the workshop was published by EuroSDR: Noardo, Malacarne 2021. [Digital building permit: a state of play](http://www.eurosdr.net/sites/default/files/uploaded_files/eurosdr_eunet4dbp.pdf)
 
 <!--
 Event co-organized and supported by
