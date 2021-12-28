@@ -37,7 +37,7 @@ Pedestrian wind and thermal comfort still remain an important topic in the devel
 
 Within this MSc thesis we will exploit the capabilities of open-source tools such as [uDALES](https://github.com/uDALES/u-dales) to predict wind and thermal comfort in real urban scenarios. The initial set-up focuses on using part of the Clementi neighbourhood in Singapore, which was already set-up by previous MSc thesis to run RANS simulations in [Opsomer](https://repository.tudelft.nl/islandora/object/uuid%3A97304da6-8938-48eb-8117-ca53321b1e34?collection=education). Consider the demanding computational capabilities required by LES, this area can be potentially reduced, or other test cases can be also explored. 
 
-**Contact:** [Clara Garcia-Sanchez](C.Garcia-Sanchez@tudelft.nl), [Hugo Ledoux](H.Ledoux@tudelft.nl)
+**Contact:** [Clara Garcia-Sanchez](C.Garcia-Sanchez@tudelft.nl), [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
 
 
 - - -
