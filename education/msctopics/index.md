@@ -13,8 +13,36 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+- - -
+
+## Using urban morphology to optimize biking and running routes in cities?
+
+
+RIVM monitoring tool [NSL tool](https://www.nsl-monitoring.nl/), provides information regarding air pollution in streets for the most areas in the Netherlands. The tool uses urban morphology along other parameters to estimate local air quality. 
+
+![](img/De_Jongh.png){:width="800px"}
+
+Within this MSc thesis we will exploit urban morphologies and NSL monitoring to optimize running and biking paths within Netherlands urban areas. For that oprn source tools such as [momepy](http://docs.momepy.org/en/stable/), and previously developed approaches such as [de Jongh thesis](http://resolver.tudelft.nl/uuid:fdbff288-fede-4796-9972-54627af0db77) (see image attached) will be explored. 
+
+**Contact:** [Clara Garcia-Sanchez](C.Garcia-Sanchez@tudelft.nl), [Hugo Ledoux](H.Ledoux@tudelft.nl)
+
 
 - - -
+
+## Predicting pedestrian wind comfort and thermal comfort with Large-Eddy Simulations in uDALES
+
+Pedestrian wind and thermal comfort still remain an important topic in the development of future urban scenarios. Considering the current climate change conditions, with increased frequency in heat waves and extreme weather events, the way we design our cities can further impact their resilience and comfort. Computational fluid dynamics (CFD) approaches can help us improving and adapting future and current urban designs to maximize sustainability and comfort. To maximize the predictability capabilities approaches such as Large-Eddy Simulations [LES](https://en.wikipedia.org/wiki/Large_eddy_simulation) can be used to resolve most of the urban scales and model uniquely the small scales. 
+
+![](img/Opsomer.png){:width="800px"}
+
+Within this MSc thesis we will exploit the capabilities of open-source tools such as [uDALES](https://github.com/uDALES/u-dales) to predict wind and thermal comfort in real urban scenarios. The initial set-up focuses on using part of the Clementi neighbourhood in Singapore, which was already set-up by previous MSc thesis to run RANS simulations in [Opsomer](https://repository.tudelft.nl/islandora/object/uuid%3A97304da6-8938-48eb-8117-ca53321b1e34?collection=education). Consider the demanding computational capabilities required by LES, this area can be potentially reduced, or other test cases can be also explored. 
+
+**Contact:** [Clara Garcia-Sanchez](C.Garcia-Sanchez@tudelft.nl), [Hugo Ledoux](H.Ledoux@tudelft.nl)
+
+
+- - -
+
+
 
 ## Heating energy demand of the Dutch building stock with the help of the 3D BAG 2.0
 
