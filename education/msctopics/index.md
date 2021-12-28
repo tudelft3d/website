@@ -57,7 +57,7 @@ The thesis is a collaboration between the 3DGeoinformation group and the [Buildi
 
 - - -
 
-## Optimizing building mesh designs for computational fluid dynamics using machine learning. 
+## Optimizing building mesh designs for computational fluid dynamics using machine learning 
 
 Since one of the major burdens when performing computational fluid dynamic simulations (CFD) is to set up a good mesh, improving the current capabilities to mesh automatically complex geometries would have a large impact for the computational fluid dynamics community. This task becomes really essential when geometries are complex, such as high resolution level of detail buildings, and severals hundreds of simulations need to be run to quantify uncertainties.  
 
@@ -71,7 +71,7 @@ If you work on this topic, you can expect to learn about mesh generation aligned
 
 - - -
 
-## To mesh or not to mesh: immersed boundary methods and porosity in OpenFOAM.
+## To mesh or not to mesh: immersed boundary methods and porosity in OpenFOAM
 
 One of the major burdens when performing computational fluid dynamic simulations (CFD) is to set up a good mesh. This task becomes really time consuming when geometries are complex, such as high resolution buildings. There are a few strategies to avoid the usage of an explicit mesh, but using immersed boundary methods or porosity definitions which in a very general description allow to construct regular meshes and represent the buildings through forces. 
 
