@@ -23,7 +23,7 @@ RIVM monitoring tool [NSL tool](https://www.nsl-monitoring.nl/), provides inform
 
 Within this MSc thesis we will exploit urban morphologies and NSL monitoring to optimize running and biking paths within Netherlands urban areas. For that oprn source tools such as [momepy](http://docs.momepy.org/en/stable/), and previously developed approaches such as [de Jongh thesis](http://resolver.tudelft.nl/uuid:fdbff288-fede-4796-9972-54627af0db77) (see image attached) will be explored. 
 
-**Contact:** [Clara Garcia-Sanchez](C.Garcia-Sanchez@tudelft.nl), [Hugo Ledoux](H.Ledoux@tudelft.nl)
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
 - - -
 
@@ -75,7 +75,7 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 
 ![](img/ToMeshOrNotToMesh.jpg){:width="800px"}
 
-**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
+**Contact:** [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
 
 - - -
 
@@ -125,7 +125,7 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 
 ![](img/DomainandDirectionandMeshClean.png){:width="400px"}
 
-**Contact:** [Clara García-Sánchez](https://cgarcia-sanchez.com) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
+**Contact:** [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara) and [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis).
 
 - - -
 
