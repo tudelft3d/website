@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MSc thesis won the KNVI/KIVI Thesis Awards for Computing and Information Science
+title: KNVI/KIVI Thesis Awards for Computing and Information Science
 categories: news
 date: 2021-11-29 10:00
 ---
