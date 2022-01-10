@@ -1,5 +1,16 @@
 
 
+- surname: Brink
+  name: Linda
+  van: van den
+  title: Researcher (external)
+  photo: linda.png
+  email: l.vandenbrink@geonovum.nl
+  twitter: brinkwoman
+  uuid: 2e1206cf-1d46-43d9-a8df-3d0dc251b052
+  period: 2017-2021
+  current: "[Geonovum](https://www.geonovum.nl/)"
+
 - surname: Liempt
   van: van
   name: Jordi

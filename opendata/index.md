@@ -45,19 +45,6 @@ permalink: /opendata/
  
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <a href="3dfier"><img src="{{ "/img/code/3dfier.png" | prepend: site.baseurl }}"/></a>
-      <div class="caption">
-        <h3>Dutch 3D city models
-        <br/>
-        </h3>
-        <p>Created with <a href="https://github.com/tudelft3d/3dfier">3dfier</a>, available in OBJ, CityGML, and IMGeo.</p>
-      </div>
-    </div>
-  </div>  
- 
-  
-  <div class="col-sm-4 col-md-3">
-    <div class="thumbnail">
       <a href="random3dcity"><img src="{{ "/img/code/random3dcity.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>Procedural multi-LoD data
