@@ -5,7 +5,7 @@ categories: news
 date: 2021-11-29 10:00
 ---
 
-Our MSc student Zhaiyu Chen recently received the first prize in the prestigious KNVI/KIVI Thesis Awards for Computing
+Our MSc student Zhaiyu Chen recently received the first prize (€3,000) in the prestigious KNVI/KIVI Thesis Awards for Computing
 and Information Science.
 
 <img src="{{ site.baseurl }}/img/2021/zhaiyu_thesis.png" width="800px" />
