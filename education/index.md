@@ -19,7 +19,7 @@ permalink: /education/
   * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57090): Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
   * [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57093): Geomatics as support for energy applications
   * [GEO5015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57094): Modelling wind and dispersion in urban environments
-  * [GEO5017](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59785): Machine Learning for the Built Environment
+  * [GEO5017](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59785): Machine Learning for the Built Environment <a href="https://3d.bk.tudelft.nl/courses/geo5017/"><i class="fas fa-home"></i> (open course)</a>
 
 <h2>Other courses we are teaching</h2>
 
