@@ -42,4 +42,4 @@ The tool could be a Python package (and potentially use [click] (https://click.p
 
 And online tool hosted somewehere (by using the Python framework [flask] (https://flask.palletsprojects.com/en/2.0.x/)) would be an alternative.
 
-**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) and [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden)
