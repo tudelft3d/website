@@ -31,7 +31,7 @@ Generating blocks for CFD meshes is quite a trivial task that still takes quite 
 
 **Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika)
 
-## Generate automati
+## Tool for automatic collection and set-up of 3D point clouds
 
 ![](img/3d_pointclouds.png){:width="400px"}
 
@@ -42,4 +42,4 @@ The tool could be a Python package (and potentially use [click] (https://click.p
 
 And online tool hosted somewehere (by using the Python framework [flask] (https://flask.palletsprojects.com/en/2.0.x/)) would be an alternative.
 
-**Contact:** [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden)
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
