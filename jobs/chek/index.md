@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Vacancy: Software developer or Research position
+title:  Vacancy Software developer or Research position
 permalink: /jobs/chek/
 ---
 
