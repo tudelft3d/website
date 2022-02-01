@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Vacancy: Software developer or Research position on: Digitalisation of Building Permit Checks by GeoBIM approaches.
+title:  Vacancy: Software developer or Research position
 permalink: /jobs/chek/
 ---
 
