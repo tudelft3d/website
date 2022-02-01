@@ -16,16 +16,18 @@ permalink: /jobs/chek/
 
 In the recently awarded Horizon Europe project CHEK (CHANGE TOOLKIT FOR DIGITAL BUILDING PERMIT (DBP)) 19 partners across Europe will develop an innovative kit of both methodological and technical tools to digitise building permitting and automated compliance checks for new building designs as well as for renovations in European urban areas. The CHEK consortium consists of a multidisciplinary team covering GIS, BIM, municipal processes and planning, data integration and standardisation and is a multisectoral mix of research & education, AEC- and software-companies, governmental institutions, and international standardisation organisations (OGC and BuildingSmart).
 To perform our tasks in this project, [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl) has two open positions that build on our previous GeoBIM work and on our DBP related activities.
+
 Apart from coordination and dissemination of the project results, our research group is responsible for the development of:
-•	validators for BIM and 3D GIS data.
-•	a georeferencer for BIM data.
-•	a BIM to Geo converter.
-•	a technical-scientific course on digital building permit checking.
+- validators for BIM and 3D GIS data.
+- a georeferencer for BIM data.
+- a BIM to Geo converter.
+- a technical-scientific course on digital building permit checking.
+
 We are also involved in the following tasks:
-•	Interpretation and formalisation of regulations and encoding them into a machine-readable format.
-•	Definition of the level of information needed for rule checking and model preparation.
-•	Representation of required design information according to open BIM and open geospatial standards.
-•	Development of a Geo to BIM converter.
+- Interpretation and formalisation of regulations and encoding them into a machine-readable format.
+- Definition of the level of information needed for rule checking and model preparation.
+- Representation of required design information according to open BIM and open geospatial standards.
+- Development of a Geo to BIM converter.
 To support these tasks, we are looking for two candidates who can be either a first stage or a recognised researcher, or a scientific developer.
 
 Here you can find a few links to earlier related work done in our group:
@@ -33,15 +35,18 @@ Here you can find a few links to earlier related work done in our group:
 - [European Network for Digital Building Permits](https://3d.bk.tudelft.nl/projects/eunet4dbp/)
 
 - [IFC/CityGML/I3S](https://3d.bk.tudelft.nl/projects/i3s/)
+
 - [GeoBIM for Building Permit in Rotterdam](https://3d.bk.tudelft.nl/projects/rotterdamgeobim_bp/)
+
 - [GeoBIM benchmark]( https://3d.bk.tudelft.nl/projects/geobim-benchmark/)
-- [IFC in practice: an inspection of practitioners’ models]( https://doi.org/10.3390/app11052232) Francesca Noardo, Ken Arroyo Ohori, Thomas Krijnen and Jantien Stoter. Applied Science 11(5), March 2021. ISSN: 2076–3417. 
+
+- [IFC in practice: an inspection of practitioners’ models](https://doi.org/10.3390/app11052232) Francesca Noardo, Ken Arroyo Ohori, Thomas Krijnen and Jantien Stoter. Applied Science 11(5), March 2021. ISSN: 2076–3417. 
 
 - [IFC models for semi-automating common planning checks for building permits]( https://www.sciencedirect.com/science/article/pii/S0926580521005483?via%3Dihub) Francesca Noardo, Teng Wu, Ken Arroyo Ohori, Thomas Krijnen and Jantien Stoter. Automation in Construction 134, 2022, pp. 104097.
 
 - [Unveiling the actual progress of digital building permit: getting awareness through a critical state of the art review.](https://doi.org/10.20944/preprints202110.0392.v2) Francesca Noardo, Dogus Guler, Judith Fauth, Giada Malacarne, Silvia Mastrolembo Ventura, Miguel Azenha, Per-Ola Olsson and Lennart Senger. Preprint in Preprints, 2021. 
 
-- [Val3dity]( https://github.com/tudelft3d/val3dity): Software to validate 3D primitives according to the international standard ISO19107.
+- [Val3dity](https://github.com/tudelft3d/val3dity): Software to validate 3D primitives according to the international standard ISO19107.
 
 ## Research group
 The positions are embedded in the [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl), part of the [Delft University of Technology](http://www.tudelft.nl)
