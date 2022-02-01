@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Vacancy: Software developer or Research position on: Digitalisation of Building Permit Checks by GeoBIM approaches.
-permalink: /jobs/chek/2022/
+permalink: /jobs/chek/
 ---
 
 <div class="alert alert-danger" role="alert"> Deadline to apply is 28th of February 2022</div>
