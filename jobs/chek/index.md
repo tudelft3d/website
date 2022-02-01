@@ -7,7 +7,7 @@ permalink: /jobs/chek/
 <div class="alert alert-danger" role="alert"> Deadline to apply is 28th of February 2022</div>
 
 <div class="row">
-	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "dbp.png" }}"></div>
+	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "DBP.png" }}"></div>
 </div>
 
 - - - 
