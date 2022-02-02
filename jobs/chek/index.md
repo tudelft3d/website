@@ -40,6 +40,8 @@ Here you can find a few links to earlier related work done in our group:
 
 - [GeoBIM benchmark]( https://3d.bk.tudelft.nl/projects/geobim-benchmark/)
 
+- [GeoBIM: Bridgng the gap between Geo and BIM](https://3d.bk.tudelft.nl/projects/geobim/) Project with Technical University of Eindhoven and several partners in The Netherlands. This work has been published in [this article](https://www.mdpi.com/2220-9964/7/8/311/htm) (including **georeferencing of BIM models**)
+
 - [IFC in practice: an inspection of practitioners’ models](https://doi.org/10.3390/app11052232) Francesca Noardo, Ken Arroyo Ohori, Thomas Krijnen and Jantien Stoter. Applied Science 11(5), March 2021. ISSN: 2076–3417. 
 
 - [IFC models for semi-automating common planning checks for building permits]( https://www.sciencedirect.com/science/article/pii/S0926580521005483?via%3Dihub) Francesca Noardo, Teng Wu, Ken Arroyo Ohori, Thomas Krijnen and Jantien Stoter. Automation in Construction 134, 2022, pp. 104097.
