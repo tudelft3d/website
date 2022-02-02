@@ -86,4 +86,4 @@ Please note:
 - Incomplete applications will not be processed
 - Acquisition in response to this vacancy is not appreciated
 
-For more information about this position, please contact directly [Prof dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) (<mailto:j.stoter@tudelft.nl>).
+For more information about this position, please contact directly [Prof dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) (<mailto:j.e.stoter@tudelft.nl>).
