@@ -61,7 +61,7 @@ Applicants should hold an MSc (for early stage researcher; software developer) o
 Applicants are expected to have good programming skills, a good command of English (oral and written) and experience in 3D modelling, BIM and/or computational geometry, preferably from a programming perspective. Experience with C/C++ is beneficial.
 The candidate should also have an affinity with working in multi‐disciplinary teams in an international oriented environment.
 
-## Doing a PhD at TU Delft
+## What we offer
 
 Salary scale 10 or 11; depending on the working experience and education level of the candidate.
 The UFO profile ranges from Researcher 4 (VSNU-CAO scale 10, salary between € 2.846 and € 4.490, FT) to Researcher 3 (scale 11, salary between € 3.821 and € 5.230, FT).
