@@ -14,8 +14,8 @@ permalink: /jobs/chek/
 
 ## Digitalisation of Building Permit Checks by GeoBIM approaches
 
-In the recently awarded Horizon Europe project CHEK (CHANGE TOOLKIT FOR DIGITAL BUILDING PERMIT (DBP)) 19 partners across Europe will develop an innovative kit of both methodological and technical tools to digitise building permitting and automated compliance checks for new building designs as well as for renovations in European urban areas. The CHEK consortium consists of a multidisciplinary team covering GIS, BIM, municipal processes and planning, data integration and standardisation and is a multisectoral mix of research & education, AEC- and software-companies, governmental institutions, and international standardisation organisations (OGC and BuildingSmart).
-To perform our tasks in this project, [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl) has two open positions for 3 years that build on our previous GeoBIM work and on our DBP related activities.
+In the recently awarded Horizon Europe project CHEK (CHANGE TOOLKIT FOR DIGITAL BUILDING PERMIT (DBP)), 19 partners across Europe will develop an innovative kit of both methodological and technical tools to digitise building permitting and automated compliance checks for new building designs as well as for renovations in European urban areas. The CHEK consortium consists of a multidisciplinary team covering GIS, BIM, municipal processes and planning, data integration and standardisation and is a multisectoral mix of research & education, AEC- and software-companies, governmental institutions, and international standardisation organisations (OGC and BuildingSmart).
+To perform our tasks in this project, the [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl) has two open positions for 3 years that build on our previous GeoBIM work and on our DBP related activities.
 
 Apart from coordination and dissemination of the project results, our research group is responsible for the development of:
 - validators for BIM (IFC) and 3D GIS data (CityJSON/CityGML).
@@ -52,13 +52,13 @@ Here you can find a few links to earlier related work done in our group:
 
 ## Research group
 The positions are embedded in the [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl), part of the [Delft University of Technology](http://www.tudelft.nl)
-The group focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is a multidisciplinary group of around 20 people(/about/),, including computer scientists, geomatics engineers, and geographers; 5 of them are tenured staff (1 professor, 1 associate-professor, and 3 assistant-professor). It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://github.com/tudelft3d), [standards](https://www.cityjson.org), [3D open data](https://3dbag.nl/en/viewer) and patents for the management of 3D geographic information and Building Information Models.
+The group focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is [a multidisciplinary group of around 25 people](/about/), including computer scientists, geomatics engineers, and geographers; 5 of them are tenured staff (1 professor, 1 associate-professor, and 3 assistant-professors). It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://github.com/tudelft3d), [standards](https://www.cityjson.org), [3D open data](https://3dbag.nl/en/viewer) and patents for the management of 3D geographic information and Building Information Models.
 
 ## Job requirements
 <!-- 600 char --> 
 
-Applicants should hold an MSc (for early stage researcher; software developer) or PhD degree (for senior researcher) in geoinformatics/geomatics, computer science, applied mathematics, or in a related discipline.
-Applicants are expected to have good programming skills, a good command of English (oral and written) and experience in 3D modelling, BIM and/or computational geometry, preferably from a programming perspective. Experience with C/C++ is beneficial.
+Applicants should hold an MSc (for early stage researcher; software developer) or a PhD degree (for senior researcher) in geoinformatics/geomatics, computer science, applied mathematics, or in a related discipline.
+Applicants are expected to have good programming skills, a good command of English (oral and written) and experience in 3D modelling, BIM and/or computational geometry, preferably from a programming perspective. Experience with C++ is beneficial.
 The candidate should also have an affinity with working in multi‐disciplinary teams in an international oriented environment.
 
 ## What we offer
