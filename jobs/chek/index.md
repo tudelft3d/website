@@ -18,15 +18,15 @@ In the recently awarded Horizon Europe project CHEK (CHANGE TOOLKIT FOR DIGITAL 
 To perform our tasks in this project, [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl) has two open positions for 3 years that build on our previous GeoBIM work and on our DBP related activities.
 
 Apart from coordination and dissemination of the project results, our research group is responsible for the development of:
-- validators for BIM and 3D GIS data.
+- validators for BIM (IFC) and 3D GIS data (CityJSON/CityGML).
 - a georeferencer for BIM data.
 - a BIM to Geo converter.
 - a technical-scientific course on digital building permit checking.
 
 We are also involved in the following tasks:
 - Interpretation and formalisation of regulations and encoding them into a machine-readable format.
-- Definition of the level of information needed for rule checking and model preparation.
-- Representation of required design information according to open BIM and open geospatial standards.
+- Definition of the level of information need for rule checking and model preparation.
+- Representation of required design information according to OpenBIM and open geospatial standards.
 - Development of a Geo to BIM converter.
 To support these tasks, we are looking for two candidates who can be either a first stage or a recognised researcher, or a scientific developer.
 
