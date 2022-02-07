@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two new positions available: Software developer or Junior/Senior Research position (postdoc)"
+title: "Two new positions available: Software developer or Junior(postdoc)/Senior Research position"
 categories: news
 date: 2022-02-04 11:37
 ---
