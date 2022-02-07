@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Vacancy Software developer or Research position
+title:  Vacancy Software developer or Research position (postdoc or senior researcher)
 permalink: /jobs/chek/
 ---
 
@@ -28,7 +28,7 @@ We are also involved in the following tasks:
 - Definition of the level of information need for rule checking and model preparation.
 - Representation of required design information according to OpenBIM and open geospatial standards.
 - Development of a Geo to BIM converter.
-To support these tasks, we are looking for two candidates who can be either a first stage or a recognised researcher, or a scientific developer.
+To support these tasks, we are looking for two candidates who can be either a first stage (postdoc) researcher, a recognised researcher, or a scientific developer.
 
 Here you can find a few links to earlier related work done in our group:
 
