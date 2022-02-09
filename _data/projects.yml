@@ -60,6 +60,8 @@
   fundingurl: https://leadingfellows.eu
   image: logoLF-2.png
   start: 2020
+  end: 2021
+  finished: true
   
 - name: GeoBIM benchmark
   description: Reference study on software support for open standards of city and building models
@@ -202,6 +204,8 @@
   webpage: /projects/culturalheritage/
   image: ch3.gif
   start: 2018
+  end: 2021
+  finished: true
   
 - name: Hidden Amsterdam
   description: "We help find 'hidden parts' of Amsterdam with 3D city models"

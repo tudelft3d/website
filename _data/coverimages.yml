@@ -1,4 +1,13 @@
 # Projects
+
+- image: breathe-lab.jpg
+  description: "BREATHE lab"
+  webpage: https://3d.bk.tudelft.nl/gsclara/
+
+- image: 3duu.png
+  description: "AI-lab on 3D Urban Understanding"
+  webpage: https://www.tudelft.nl/en/ai/3duu
+
 - image: sum_fuse.png
   description: "Semantic 3D urban mesh benchmark"
   webpage: /projects/meshannotation/
@@ -27,13 +36,13 @@
   description: Urban modelling in higher dimensions
   webpage: https://3d.bk.tudelft.nl/projects/umnd/
 
-- image: haf.png
-  description: We help find 'hidden parts' of Amsterdam with 3D city models
-  webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
+# - image: haf.png
+#   description: We help find 'hidden parts' of Amsterdam with 3D city models
+#   webpage: http://www.ams-institute.org/solution/hidden-amsterdam/
 
-- image: cartoon.png
-  description: A national 3D geoinformation dataset for urban applications
-  webpage: http://www.dig-it.tudelft.nl/#project/14
+# - image: cartoon.png
+#   description: A national 3D geoinformation dataset for urban applications
+#   webpage: http://www.dig-it.tudelft.nl/#project/14
 
 - image: val3dity.png
   description: Quality control of 3D city models

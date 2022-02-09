@@ -1,4 +1,25 @@
+- surname: Dukai
+  name: Balázs
+  title: R&D engineer
+  photo: balazs.jpg
+  email: balazs@balazsdukai.me
+  twitter: BalazsDukai
+  github: github.com/balazsdukai
+  homepage: balazsdukai.me
+  current: 3dgi.nl
+  period: 2018-2022
+  uuid: d723f7ae-52dd-4a0c-a0e7-bd3d9cb996c4
 
+- surname: Brink
+  name: Linda
+  van: van den
+  title: Researcher (external)
+  photo: linda.png
+  email: l.vandenbrink@geonovum.nl
+  twitter: brinkwoman
+  uuid: 2e1206cf-1d46-43d9-a8df-3d0dc251b052
+  period: 2017-2021
+  current: "[Geonovum](https://www.geonovum.nl/)"
 
 - surname: Liempt
   van: van
@@ -112,12 +133,12 @@
 
 - surname: Biljecki
   name: Filip
-  title: "[PhD](http://filip.biljecki.com/phd.html)" 
+  title: "[PhD](https://filipbiljecki.com/phd.html)" 
   photo: filip.jpg
   # email: f.biljecki@tudelft.nl
   twitter: fbiljecki
   period: 2014-2017
-  current: "[postdoc at National University of Singapore](http://filip.biljecki.com)"
+  current: "[assistant-prof at National University of Singapore](https://ual.sg)"
 
 - surname: Du
   name: Xin
