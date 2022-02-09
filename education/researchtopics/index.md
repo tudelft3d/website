@@ -13,7 +13,7 @@ permalink: /education/researchtopics/
 
 ## Add support for CityJSON in BlueSky
 
-![](img/bluesky.jpg){:width="400px"}
+![](img/bluesky_uam.png){:width="400px"}
 
 [BlueSky](https://github.com/TUDelft-CNS-ATM/bluesky) is an open Air Traffic Simulator that is being actively used to perform research on Air Traffic Management and Air Traffic Flows. It would be extremely beneficial for such simulations to take advantage of 3D city models by adding support for [CityJSON](https://www.cityjson.org/) loading.
 
