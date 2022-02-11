@@ -1,3 +1,15 @@
+- research_line: [1, 2, 3]
+  description: "Awarded the Geospatial World Excellence Award at GWF 2021 for developing the 3D BAG platform."
+  date: 2021-11-02
+- research_line: [1, 2, 3]
+  description: "Awarded the Outstanding paper: 3D Processing & Visualization title in 3D Geoinfo 2021, for participating in Clara et al's publication 'The impact of level of detail in 3D city models for CFD-based wind flow simulations'."
+  date: 2021-10-14
+- research_line: [2]
+  description: "Presented at FOSS 4G 2021, Buenos Aires a presentation titled: 'CityJSON: 3D city models for everyone'."
+  date: 2021-09-30
+- research_line: [2]
+  description: "Presented at FOSS 4G 2021, Buenos Aires a presentation titled: 'A fast web 3D viewer for 11 million buildings'."
+  date: 2021-09-29
 - research_line: [2, 3]
   description: "Presented at the ISPRS TC IV Webinar Series 'State-of-the-art in Spatial Information Science', presentation titled: 'CityJSON, a JSON-based encoding for storing 3D city models'"
   date: 2021-07-01

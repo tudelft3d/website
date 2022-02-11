@@ -78,6 +78,10 @@ If successful, the 4D approach opens a new horizon for modelling parametrisable 
 
 The following is the list of events that we participated in or organised related to the UMnD project:
 
+### 2021
+- [Geospatial World Forum 2021, Amsterdam, 20 - 22 October](https://geospatialworldforum.org/2021/)
+- [FOSS4G 2021, Buenos Aires (Online), 27 September - 2 October](https://2021.foss4g.org/)
+
 ### 2020
 - [3D GeoInfo 2020 Conference, Online, 09 - 11 September](https://www.ucl.ac.uk/3dgeoinfo/)
 
