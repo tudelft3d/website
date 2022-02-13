@@ -332,3 +332,11 @@ The [3D BAG](https://3dbag.nl) contains the geometry of all buildings in the Net
 The models are reconstructed from building-polygons (BAG) and AHN3, which is a point cloud obtained by airborne LiDAR technology. Now [AHN4](https://www.ahn.nl/ahn-4) is becoming available, the question is how to best update 3D BAG. AHN4 is of a more recent date, but it also has other characteristics than AHN3 such as higher point density and different occlusion (and the occasional lack of points on black roofs) in urban areas. In addition, some municipalities acquire their own point clouds on a yearly basis, with yet other characteristics. The aim of this MSc is to develop a methodology to automatically update the 3D BAG on a regular basis by combining different point clouds while using the strengths of each height source to obtain the most detailed and up to date 3D BAG models.
 
 **Contacts:** [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) + [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
+
+- - -
+## Correcting global elevation models for canopy and infrastructure using Machine Learning
+![](img/dsm2dtm.png){:width="400px"}
+
+Most current Global Elevation Models (GDEM) are Digital Surface Models (DSM) and not Digital Terrain Models (DTM). There have been multiple publications correcting DSMs to (pseudo)DTMs, such as MERIT for the SRTM dataset. Lately such efforts apply Machine Learning (ML) to do these corrections, like CoastalDEM and FABDEM. However, these examples are vague about the exact methods used and their results contains artefacts. The aim of this MSc is to find a way (preferably using Deep Learning (DL)) to recognise surface features, starting with the AHN4 DSM and DTM as training data. The student would be expected to take a machine learning and/or deep learning course as elective and should be fluent in either Python or Julia.
+
+**Contacts:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
