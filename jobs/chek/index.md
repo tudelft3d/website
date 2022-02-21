@@ -15,7 +15,7 @@ permalink: /jobs/chek/
 ## Digitalisation of Building Permit Checks by GeoBIM approaches
 
 In the recently awarded Horizon Europe project CHEK (CHANGE TOOLKIT FOR DIGITAL BUILDING PERMIT (DBP)), 19 partners across Europe will develop an innovative kit of both methodological and technical tools to digitise building permitting and automated compliance checks for new building designs as well as for renovations in European urban areas. The CHEK consortium consists of a multidisciplinary team covering GIS, BIM, municipal processes and planning, data integration and standardisation and is a multisectoral mix of research & education, AEC- and software-companies, governmental institutions, and international standardisation organisations (OGC and BuildingSmart).
-To perform our tasks in this project, the [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl) has two open positions for 3 years that build on our previous GeoBIM work and on our DBP related activities.
+To perform our tasks in this project, the [3D Geoinformation research group, Section Urban Data Science](https://3d.bk.tudelft.nl) has two open positions for 1-3 years that build on our previous GeoBIM work and on our DBP related activities.
 
 Apart from coordination and dissemination of the project results, our research group is responsible for the development of:
 - validators for BIM (IFC) and 3D GIS data (CityJSON/CityGML).
