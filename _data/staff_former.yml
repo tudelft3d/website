@@ -1,3 +1,31 @@
+- surname: Noardo
+  name: Francesca
+  title: Postdoc
+  photo: francesca.jpg
+  email: f.noardo@tudelft.nl
+  twitter: FrancescaNoardo
+  homepage: noardo.eu
+  period: 2018-2022
+  description: "She is a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).
+She works towards the **integration of multi-source spatial data**, in particular, detailed 3D models (from survey or from design), **in interoperable 3D maps**, having semantics from open standards and correct geometry.
+"
+  projects:
+    - name: esdr-geobim
+      role: Postdoc
+    - name: sdi-ams
+      role: Postdoc
+  uuid: 46f3d244-e694-4c99-8de1-568bdc80d602
+
+- surname: Chen
+  name: Zhaiyu
+  title: Research software engineer
+  photo: zhaiyu.png
+  homepage: 3d.bk.tudelft.nl/zhaiyuchen
+  email: zhaiyu.chen@tudelft.nl
+  description: "My research involves optimal integration of [AHN](https://www.ahn.nl/) 3/4 point clouds with its application in 3D building modelling. I graduated cum laude from MSc Geomatics at TU Delft, with the thesis [Learning to Reconstruct Compact Building Models from Point Clouds](http://resolver.tudelft.nl/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887)."
+  current: "PhD student at [TU Munich](https://www.asg.ed.tum.de/sipeo/team/)"
+  period: 2021-2022
+
 - surname: Dukai
   name: Balázs
   title: R&D engineer
@@ -6,7 +34,7 @@
   twitter: BalazsDukai
   github: github.com/balazsdukai
   homepage: balazsdukai.me
-  current: 3dgi.nl
+  current: "[3dgi.nl](https://3dgi.nl)"
   period: 2018-2022
   uuid: d723f7ae-52dd-4a0c-a0e7-bd3d9cb996c4
 
@@ -33,12 +61,11 @@
   name: Thomas
   title: Postdoc
   photo: thomas.png
-  homepage: thomaskrijnen.com
+  homepage: "[thomaskrijnen.com](http://thomaskrijnen.com)"
   email: mail@thomaskrijnen.com
   period: 2019-2021
-  current: thomaskrijnen.com
+  current: "[thomaskrijnen.com](http://thomaskrijnen.com)"
   twitter: aothms
-
 
 
 - surname: Wu

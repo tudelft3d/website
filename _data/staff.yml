@@ -15,14 +15,6 @@
   email: n.hobeika@tudelft.nl
   description: "Data-driven design tool for healthy indoor spaces."
 
-- surname: Chen
-  name: Zhaiyu
-  title: Research software engineer
-  photo: zhaiyu.png
-  homepage: 3d.bk.tudelft.nl/zhaiyuchen
-  email: zhaiyu.chen@tudelft.nl
-  description: "My research involves optimal integration of [AHN](https://www.ahn.nl/) 3/4 point clouds with its application in 3D building modelling. I graduated cum laude from MSc Geomatics at TU Delft, with the thesis [Learning to Reconstruct Compact Building Models from Point Clouds](http://resolver.tudelft.nl/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887)."
-
 - surname: Leon Sánchez
   name: Camilo Alexander
   title: PhD candidate
@@ -102,22 +94,6 @@
   He is currently chair of the [ISPRS Technical Commission 4 WG 10 (Advanced Geospatial Applications for Smart Cities and Regions)](http://www2.isprs.org/commissions/comm4/wg10.html) and national representative for Austria of the Urban Data Management Society (UDMS)."
   uuid: 1e5e67d1-609f-43ca-8cae-9a6ff3e33a8e
 
-- surname: Noardo
-  name: Francesca
-  title: Postdoc
-  photo: francesca.jpg
-  email: f.noardo@tudelft.nl
-  twitter: FrancescaNoardo
-  homepage: noardo.eu
-  description: "She is a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).
-She works towards the **integration of multi-source spatial data**, in particular, detailed 3D models (from survey or from design), **in interoperable 3D maps**, having semantics from open standards and correct geometry.
-"
-  projects:
-    - name: esdr-geobim
-      role: Postdoc
-    - name: sdi-ams
-      role: Postdoc
-  uuid: 46f3d244-e694-4c99-8de1-568bdc80d602
 
 - surname: Janssen
   name: Patrick
