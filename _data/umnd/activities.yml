@@ -1,3 +1,6 @@
+- research_line: [1, 2, 3]
+  description: "Presented \"3D Building Metrics for Urban Morphology\" at the <a href=\"https://ual.sg/\">Urban Analytics Lab</a> Seminar Series at the National University of Singapore"
+  date: 2022-03-11
 - research_line: [1, 2]
   description: "Published paper: \"From road centrelines to carriageways—A reconstruction algorithm\""
   date: 2022-02-22
