@@ -1,4 +1,3 @@
-
 - surname: van Rijssel
   name: Laurens
   title: Generating consistent triangular terrain elevation data for noise modelling
@@ -13,6 +12,13 @@
   github: https://github.com/ellieroy/no-floors-inference-NL
   image: 15c4ff03b7e4-p1_image.jpg
   year: 2022
+
+- surname: Alhoz
+  name: Khaled
+  title: ISO 19650 Information Management for buildings and civil engineering projects on WebGIS
+  link: http://resolver.tudelft.nl/uuid:306f0b94-2827-4aa0-90df-66110ee5a484
+  image: khaled.png
+  year: 2021
 
 - surname: Giannelli
   name: Denis
@@ -187,7 +193,7 @@
   name:  Giulia
   title: "Semantic segmentation of point clouds with the 3D medial axis transform"
   year: 2020
-  image: ceccarelli.jpg
+  image: ceccarelli.png
   link: http://resolver.tudelft.nl/uuid:85973c1e-1798-4fae-9790-3d1bab9476e1
   
 - surname: Wiersma  
