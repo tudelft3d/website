@@ -9,6 +9,8 @@ permalink: /jobs/
 [Developer or Researcher: Digitalisation of Building Permit Checks by GeoBIM approaches](chek/)
 </del>
 
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [PhD: 3D understanding and modeling based on AI](3duu2020/) 
