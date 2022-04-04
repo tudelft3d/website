@@ -334,9 +334,26 @@ The models are reconstructed from building-polygons (BAG) and AHN3, which is a p
 **Contacts:** [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) + [Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)
 
 - - -
+
 ## Correcting global elevation models for canopy and infrastructure using Machine Learning
 ![](img/dsm2dtm.png){:width="400px"}
 
 Most current Global Elevation Models (GDEM) are Digital Surface Models (DSM) and not Digital Terrain Models (DTM). There have been multiple publications correcting DSMs to (pseudo)DTMs, such as MERIT for the SRTM dataset. Lately such efforts apply Machine Learning (ML) to do these corrections, like CoastalDEM and FABDEM. However, these examples are vague about the exact methods used and their results contains artefacts. The aim of this MSc is to find a way (preferably using Deep Learning (DL)) to recognise surface features, starting with the AHN4 DSM and DTM as training data. The student would be expected to take a machine learning and/or deep learning course as elective and should be fluent in either Python or Julia.
 
 **Contacts:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
+
+
+- - - 
+
+## Modern metadata for CityJSON
+![](img/metadata_balou.jpg){:width="400px"}
+
+The standard [CityJSON](https://cityjson.org)--developed by us!--has some support for metadata. First [its core has a few useful properties](https://www.cityjson.org/specs/1.1.1/#metadata), and second there is an Extension (the [MetadataExtended Extension](https://github.com/cityjson/metadata-extended)) where most of the ISO19115 properties can be used.
+The issue is that ISO19115 is being replaced in practice by [The SpatioTemporal Asset Catalog (STAC) specification](https://stacspec.org/) and by the [OGC API -- Records](https://github.com/opengeospatial/ogcapi-records/).
+Those are targeted at imagery and (mostly) other 2D datasets.
+The aim of the project is to see how these can be modified (if necessary) so that 3D city models in CityJSON be indexed/searched, and how CityJSON needs to be modified.
+The project is quite exploratory, and will necessitate to build a prototype on the web where the ideas are demonstrated; see [this page for some relevant links](https://www.cityjson.org/experimental/restful/) and work done by other MSc Geomatics students.
+This projects fits in the new vision of the OGC to be "cloud-native", see that [interesting blog post](https://www.ogc.org/blog/4609).
+Why the photo of the dog? Because I thought everyone would skip reading this if they see "metadata" in the title...
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
