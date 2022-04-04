@@ -4,7 +4,10 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<span class="label label-danger">closed</span>
+<del>
 [Developer or Researcher: Digitalisation of Building Permit Checks by GeoBIM approaches](chek/)
+</del>
 
 <span class="label label-danger">closed</span>
 <del>
