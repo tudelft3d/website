@@ -13,6 +13,7 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+
 - - -
 
 ## Using urban morphology to optimize biking and running routes in cities?
@@ -357,3 +358,46 @@ This projects fits in the new vision of the OGC to be "cloud-native", see that [
 Why the photo of the dog? Because I thought everyone would skip reading this if they see "metadata" in the title...
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+- - -
+
+## Multi-view Semantic Stereo
+
+**Multi-view stereo** infers the dense 3D geometry from a set of calibrated image views. It is one of the main components of 3D reconstruction pipelines. Since 2015, deep learning has been increasingly used to solve several 3D vision problems due to its predominating performance, and since 2017 learning-based multi-view stereo problems become a hot topic due to the robustness of CNN to scene variations.
+
+**Semantic segmentation**  is the task of clustering parts of an image/pointcloud together which belong to the same object class. It is a form of pixel-level/point-level prediction because each pixel/point in an image/pointcloud is classified according to a category.
+
+### **Goal**
+The goal of this project is semantically aware 3D reconstruction from a visual set of content images.
+
+![High abstraction](./img/semantic3D.png)
+
+### **Main Challenge:**
+
+The main challenge of the project will be semantically aware regularization of pointcloud. As we know that walls are tended to be planar structures, trees are having more scattered and complex geometry, using these semantics and a priori knowledge we can more accurately reconstruct the 3D geometry of the urban scenes via semantic regularizations.
+
+Before contacting us, please refer to this [link](https://drive.google.com/file/d/13ucANuv5LjrrmtbgQYrmZTUqkHrYXRgP/view) for more details if you are considering.
+
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+
+- - -
+
+## Multi-view Styled Stereo
+
+**Multi-view stereo** infers the dense 3D geometry from a set of calibrated image views. It is one of the main components of 3D reconstruction pipelines. Since 2015, deep learning has been increasingly used to solve several 3D vision problems due to its predominating performance, and since 2017 learning-based multi-view stereo problems become a hot topic due to the robustness of CNN to scene variations.
+
+**Neural Style Transfer** In fine art, especially painting, humans have mastered the skill to create unique visual experiences through composing a complex interplay between the content and style of an image.    There are Deep Learning methods that are using neural representations to composite content and style of arbitrary images, providing a neural algorithm for the creation of artistic images.
+
+### **Goal**
+The goal of this project is styled dense 3D reconstruction from a visual set of content images and a style image.
+
+![High abstraction](./img/MVS_style.drawio.png)
+
+### **Main Challenge:**
+
+The main challenge of the project will be having style consistency across the views and having consistent styled 3D reconstruction.
+
+Before contacting us, please refer to this [link](https://drive.google.com/file/d/1vBMtEDKUTEQL-8KvJiaNvPHjtosBp0RM/view) for more details if you are considering.
+
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
