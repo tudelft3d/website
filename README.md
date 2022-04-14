@@ -37,6 +37,22 @@ Bla bla bla
 ![]({{ site.baseurl }}/img/2015/myimg.jpg)
 ```
 
+## Testing locally
+It can be handy to test the website locally before you commit and push any changes to github. For this you need to have a working Ruby installation. You can then install jekyll and the required dependencies with:
+```
+gem install jekyll parslet htmlentities webrick
+```
+
+Then, clone this repository and run `jekyll serve`:
+```
+git clone https://github.com/tudelft3d/website.git
+cd website
+jekyll serve
+```
+Then follow the instruction printed in the terminal for you to open the website locally.
+
+**Note**: if you have an M1 mac there may be some difficulties with running jekyll. To fix this you can install a separate ruby environment as described here: http://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/.
+
 ## Contributing to repository
 
 This is a research group website. So, in general we're not looking for external contributions. However, if you spot something serious, please contact us or post an issue.
