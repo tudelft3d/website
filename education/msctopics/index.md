@@ -14,6 +14,19 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## Infer the building type from the 3DBAG 
+
+The 3DBAG contains the geometries of buildings for the whole Netherlands. The scope of this thesis is to infer the building type using as main sources the 3DBAG and the BAG datasets using feature engineering as well as machine learning.
+
+![](img/BuildingTypeInfer.png){:width="300px"}
+
+Recent studies such as the [3D Building Metrics](https://github.com/tudelft3d/3d-building-metrics) calculate some metrics from 3D objects that could potentially be used as features for a ML algorithm. In this thesis, the student is expected to use the open data available in the Netherlands to extract features that can lead to infer the building type of a construction based on the TABULA project specification for the Netherlands.
+
+Programming skills in python and SQL are required. Before picking the topic, please contact us!
+
+**Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
 
 ## (Further) Development of a QGIS plugin for the CityGML 3D City Database
 
