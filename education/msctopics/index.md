@@ -23,12 +23,28 @@ The plugin in meant to facilitate interaction with the 3D City Database from wit
 ![](img/3dcdb_qgis_mini.jpg){:width="800px"}
 
 The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered. 
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2022) is recommended (but not obligatory), as a deep insight in the CityGML standard and the 3D City Database will be provided. 
 
-You will be requested to programm in Python and (a bit) in PL/pgSQL.
+You will programm in Python and (a bit) in PL/pgSQL.
 Before picking the topic, please contact us!
 
-Contact: [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
+Contact: Giorgio Agugiaro (https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
+## Urban energy simulations linking CitySim with the 3DCityDB 
+
+[CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB) is the reference database for CityGML data (and its Energy ADE extension) where input AND output data will be stored.
+The scope of this thesis is to build upon, test and extend the functionalities of a first prototype developed in a MSc thesis scheduled to finish in June 2022. The goal is to allow for a seamless flow of information and perform energy simulations in CitySim. More specifically, the thesis will focus on (further) developing a Python-based bidirectional interface and add a GUI to feed/retrieve data between the 3DCityDB and CitySim.
+
+![](img/3dcdb_citysim_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+You will programm in Python and in PL/pgSQL.
+Before picking the topic, please contact us!
+
+**Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
 
 - - -
 
