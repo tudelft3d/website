@@ -14,6 +14,20 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+
+## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+
+The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
+
+![](img/CityJSON+Energy.png){:width="800px"}
+
+It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
 ## Infer the building type from the 3DBAG 
 
 The 3DBAG contains the geometries of buildings for the whole Netherlands. The scope of this thesis is to infer the building type using as main sources the 3DBAG and the BAG datasets using feature engineering as well as machine learning.
@@ -33,7 +47,8 @@ Programming skills in python and SQL are required. Before picking the topic, ple
 ## (Further) Development of a QGIS plugin for the CityGML 3D City Database
 
 The goal of the thesis is to extend and further improve a plugin for QGIS 3 to interact with the open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB, PostgreSQL/PostGIS version), which is the reference database implementation of the CityGML data model. A first version of the plugin has been developed during a MSc thesis which is scheduled to finish in June 2022.
-The plugin in meant to facilitate interaction with the 3D City Database from within QGIS, enabling the user to visualise 2D/3D geometries and to edit attributes of all features (e.g. buildings, bridges, roads, etc.) contained in the database.
+
+The plugin is meant to facilitate interaction with the 3D City Database from within QGIS, enabling the user to visualise 2D/3D geometries and to edit attributes of all features (e.g. buildings, bridges, roads, etc.) contained in the database.
 
 ![](img/3dcdb_qgis_mini.jpg){:width="800px"}
 
@@ -43,7 +58,7 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 You will programm in Python and (a bit) in PL/pgSQL.
 Before picking the topic, please contact us!
 
-Contact: Giorgio Agugiaro (https://3d.bk.tudelft.nl/gagugiaro/)
+Contact: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
 - - -
 
