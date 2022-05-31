@@ -13,6 +13,22 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+- - -
+
+## (Further) Development of a QGIS plugin for the CityGML 3D City Database
+
+The goal of the thesis is to extend and further improve a plugin for QGIS 3 to interact with the open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB, PostgreSQL/PostGIS version), which is the reference database implementation of the CityGML data model. A first version of the plugin has been developed during a MSc thesis which is scheduled to finish in June 2022.
+The plugin in meant to facilitate interaction with the 3D City Database from within QGIS, enabling the user to visualise 2D/3D geometries and to edit attributes of all features (e.g. buildings, bridges, roads, etc.) contained in the database.
+
+![](img/3dcdb_qgis_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2021) is highly recommended, as many relevant topics needed for this thesis will be covered. 
+
+You will be requested to programm in Python and (a bit) in PL/pgSQL.
+Before picking the topic, please contact us!
+
+Contact: [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/) & Giorgio Agugiaro (3D Geoinformation Group), [Claus Nagel](https://github.com/clausnagel) (Virtual City Systems)
 
 - - -
 
