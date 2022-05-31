@@ -22,6 +22,8 @@ The 3DBAG contains the geometries of buildings for the whole Netherlands. The sc
 
 Recent studies such as the [3D Building Metrics](https://github.com/tudelft3d/3d-building-metrics) calculate some metrics from 3D objects that could potentially be used as features for a ML algorithm. In this thesis, the student is expected to use the open data available in the Netherlands to extract features that can lead to infer the building type of a construction based on the TABULA project specification for the Netherlands.
 
+The building type information plays a relevant role for energy simulation tools since they can be used to overcome the lack of data of the 3DBAG regarding building physics such as construction materials. 
+
 Programming skills in python and SQL are required. Before picking the topic, please contact us!
 
 **Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
