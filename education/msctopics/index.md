@@ -404,7 +404,7 @@ Before contacting us, please refer to this [link](https://drive.google.com/file/
 
 ---
 
-### Supporting earthquake risk assessment by 3D city models
+## Supporting earthquake risk assessment by 3D city models
 ![](img/earthquake.png)
 
 Earthquake risk assessment models predict the probability of buildings being damaged due to earthquakes. These models make use of building typologies that describe the cluster of buildings with similar seismic vulnerabilities. The recent advances in digital transformation of the built environment presented new opportunities to conduct earthquake risk studies at individual building level instead of clustering similar buildings. Such a change in the risk modeling would have a tremendous effect on the studies related to finding collapse vulnerable buildings before a destructive earthquake.
@@ -412,5 +412,13 @@ In this thesis, the MSc student will investigate how the required parameters def
 
 **Contact:** [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/), in collaboration with Ihsan Bal, Professor in Earthquake Resistant Structures, Hanze University of Applied Sciences Groningen & Research Centre for Built Environment NoorderRuimte.
 
+---
 
+## Reconstructing 3D apartment units from legal apartment drawings 
+![](img/apartment.png)
+
+Ownership rights concerning apartments are registered by The Netherland’s Cadastre (Kadaster) in deeds that divide complete apartment complexes into individual units, the so called ‘splitsingsaktes’.  These (originally analague) deeds contain floor plans that show how the units are divided per floor. Kadaster is interested in converting these scanned 2D floor plans into 3D geometries. These 3D geometries represent the 3D boundaries of an apartment unit and can be used to subdivide individual buildings into apartment units.
+Up till now, a pipeline was developed to vectorize the information from the 2D floor plans. The end results are 2D polygons describing the separate floors. To obtain the 3D geometry, the original building geometry needs to be reconstructed. This includes scaling and georeferencing the 2D polygon results, as well as finding ways to properly position the different floors of an apartment complex in 3D. The main research focus will be on the reconstruction of the apartment units. Questions to address are: What (additional) information would be needed to georeference and scale the floor plans? Can information be obtained from the textual part of the deed for this? What would be proper ways to position building floor plans in 3D? Could the story heights be estimated?
+
+**Contact:** [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/), in collaboration with Kadaster
 
