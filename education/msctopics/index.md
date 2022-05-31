@@ -214,20 +214,6 @@ In this research the aim is:
 
 - - -
 
-## Extracting building/storey/dwelling/room shapes from a BIM models
-
-![](img/UpTown5.gif){:width="400px"}
-
-Given a Building Information Model in Industry Foundation Classes (IFC) format, it is necessary to extract useful information for automatic processes, such as the building envelope, number of dwellings, storeys or rooms in the building and the respective volumes and dimensions, for example to support compliancy check with the urban regulations.
-
-Prior algorithmic knowlegde, recursion, graph concepts could be beneficial.
-
-In collaboration with Municipality of Rotterdam.
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken) and [Francesca Noardo](https://3d.bk.tudelft.nl/fnoardo/)
-
-- - -
-
 ## Semantic labeling of roof top structures in 3D BAG
 
 ![](img/ahn3Dbag.png){:width="400px"}
@@ -289,31 +275,6 @@ The image shown here is taken from a previous [thesis](https://repository.tudelf
 Software libraries for computational geometry underpin a lot of our research, but an in-depth comparison of how these different software libraries behave in terms of performance and robustness is not available. For example, the feasability of multi-disciplinary use of geometry in BIM/GIS integration and automated thermal analysis of IFC building models is largely shaped by the characteristics of the algorithmns offered in open source libraries such as CGAL and Open CASCADE. This research project is an opportunity to publish something novel, useful and relevant to many disciplines.
 
 *Contact:* [Thomas Krijnen](mail@thomaskrijnen.com)
-
-
----
-
-## Building floor count determination by Convolutional Neural Network
-
-![](https://3d.bk.tudelft.nl/ken/temp/floors-counting.jpg){:width="300px"}
-
-Accurately knowing the number of floors of a building is an important factor when assessing the built environment. However, there is no accurate global dataset that contains this information. Simple techniques like diving the total building height by an average height per floor are sometimes used, but this obtains merely an approximation.
-
-In collaboration with the company [Superworld](https://www.superworld.nl), the idea is to develop a method that uses images (eg Google Street View) and a base map (eg BAG in the Netherlands) to automatically derive the number of floors in a building using Convolutional Neural Networks (CNN). 
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
-
----
-
-## Creation of a sample dataset of construction of additional floors on top of existing building
-
-![](https://3d.bk.tudelft.nl/ken/temp/floors-addition.jpg){:width="300px"}
-
-Additional floors are sometimes added to buildings for various reasons, such as redensification. However, this is a complex process subject to technical and legal issues.
-
-In collaboration with the company [Superworld](https://www.superworld.nl), the idea is to develop a method that uses publicly available datasets (eg BAG) and building permit applications in order to create a reference dataset containing all buildings where a vertical extension or a construction on top of an existing building have been conducted. Such a dataset can then be used to give a confidence factor for the feasibility of an extension to an existing building.
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
 
 - - - 
 
