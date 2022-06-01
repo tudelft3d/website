@@ -54,8 +54,8 @@ Generating blocks for CFD meshes is quite a trivial task that still takes quite 
 When reconstructing automatically the geometries of urban scenarios (eg all the buildings with the terrain), the first step is to collect the necessary point clouds for the area of interest. 
 This process is generally done mostly manual, which can require a few hours of work to have the optimal location extension and point cloud density. 
 With this research assignment we would like to develop an (online) tool that automatically collects the desired point cloud in the Netherlands based on municipalities and/or areas of interest. 
-The tool could be a Python package (and potentially use [click] (https://click.palletsprojects.com/en/8.0.x/) that fetches the AHN3 tile required from [PDOK-AHN] (https://app.pdok.nl/ahn3-downloadpage/) and could for instance filter the appropriate LAS classes and/or thin the datasets.
+The tool could be a Python package (and potentially use [click](https://click.palletsprojects.com/en/8.0.x/)) that fetches the AHN3 tile required from [PDOK-AHN](https://app.pdok.nl/ahn3-downloadpage/) and could for instance filter the appropriate LAS classes and/or thin the datasets.
 
-And online tool hosted somewehere (by using the Python framework [flask] (https://flask.palletsprojects.com/en/2.0.x/)) would be an alternative.
+And online tool hosted somewehere (by using the Python framework [flask](https://flask.palletsprojects.com/en/2.0.x/)) would be an alternative.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) and [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden)
