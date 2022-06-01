@@ -214,13 +214,13 @@ In this research the aim is:
 
 - - -
 
-## Semantic labeling of roof top structures in 3D BAG
+## Semantically enriching the 3D BAG
 
 ![](img/ahn3Dbag.png){:width="400px"}
 
-With the 3D BAG we have LoD2.2 building models for the whole of the Netherlands. Unfortunately the semantics of these models is still very simplistic (only a very basic classification of wall/roof/floor surfaces is present). The goal of this project would be to develop an automatic method to semantically enrich these models by detecting and labeling rooftop structures such as chimneys, A/C units and dormers. This is useful for applications such as optimally placing solar panels.
+With the 3D BAG we have LoD2.2 building models for the whole of the Netherlands. Unfortunately the semantics of these models is still very simplistic (only a very basic classification of wall/roof/floor surfaces is present). The goal of this project would be to develop an automatic method to semantically enrich these models by labeling rooftop structures such as chimneys, A/C units and dormers and/or detecting facade elements such as doors and and windows. This is to be achieved by analysing the geometry of the existing 3D BAG models, the source point cloud and/or (oblique) aerial photographs.
 
-Programming required, C++ recommended.
+Programming required in python/C++.
 
 **Contact:** [Ravi Peters](http://tudelft.nl/rypeters)
 
