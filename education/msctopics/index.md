@@ -32,9 +32,13 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 The 3DBAG contains the geometries of buildings for the whole Netherlands. The scope of this thesis is to infer the building type using as main sources the 3DBAG and the BAG datasets using feature engineering as well as machine learning.
 
-Recent studies such as [3D Building Metrics](https://github.com/tudelft3d/3d-building-metrics) or [Global Building Morphology Indicators](https://www.sciencedirect.com/science/article/pii/S0198971522000539) calculate some metrics from buildings that could potentially be used as features for a ML algorithm. In this thesis, the student is expected to use the open data available in the Netherlands to extract features that can lead to infer the building type of a construction based on the TABULA project specification for the NL.
+Recent studies such as [3D Building Metrics](https://github.com/tudelft3d/3d-building-metrics) or [Global Building Morphology Indicators](https://www.sciencedirect.com/science/article/pii/S0198971522000539) calculate some metrics from buildings that could potentially be used as features for a ML algorithm. This type of metrics can classify correctly the building type? In this thesis, the student is expected to use the open data available in the Netherlands to extract features that can lead to infer the building type of a construction based on the TABULA project specification for the NL.
+
+The building type information plays a relevant role for energy simulation tools since they can be used to overcome the lack of data of the 3DBAG regarding building physics such as construction materials.
+
 ![](img/BuildingTypeInfer.png){:width="300px"}
-The building type information plays a relevant role for energy simulation tools since they can be used to overcome the lack of data of the 3DBAG regarding building physics such as construction materials. As an open question, what type of building is the one from the image, stand alone, semi-detached, terraced, porch, gallery, etc.? Each of them have diferent characteristics but some of them share several.
+
+As an open question, what type of building is the one from the above image?, stand alone, semi-detached, terraced, porch, gallery, none, etc. Each of them have diferent characteristics but some of them share several.
 
 Programming skills in python and SQL are required. Before picking the topic, please contact us!
 
