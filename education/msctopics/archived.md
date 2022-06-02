@@ -1,3 +1,16 @@
+
+- - -
+
+## Correcting global elevation models for canopy and infrastructure using Machine Learning
+![](img/dsm2dtm.png){:width="400px"}
+
+Most current Global Elevation Models (GDEM) are Digital Surface Models (DSM) and not Digital Terrain Models (DTM). There have been multiple publications correcting DSMs to (pseudo)DTMs, such as MERIT for the SRTM dataset. Lately such efforts apply Machine Learning (ML) to do these corrections, like CoastalDEM and FABDEM. However, these examples are vague about the exact methods used and their results contains artefacts. The aim of this MSc is to find a way (preferably using Deep Learning (DL)) to recognise surface features, starting with the AHN4 DSM and DTM as training data. The student would be expected to take a machine learning and/or deep learning course as elective and should be fluent in either Python or Julia.
+
+**Contacts:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
+
+
+
+
 ## Building floor count determination by Convolutional Neural Network
 
 ![](https://3d.bk.tudelft.nl/ken/temp/floors-counting.jpg){:width="300px"}
