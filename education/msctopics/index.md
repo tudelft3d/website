@@ -458,3 +458,20 @@ But I don't know, this would be for you to tell me if this is indeed the case.
 The project can be done with Python, scikit-learn, and crunching of many (3D) data about cities.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+- - - 
+
+## How can 3D alpha wrapping be best used to repair buildings?
+![](img/cgal_3d_alpha_wrapping.png){:width="600px"}
+
+The CGAL project has just released, in beta version, a new package: [3D alpha wrapping](https://cgal.geometryfactory.com/CGAL/doc/master/Alpha_wrap_3/index.html#Chapter_3D_Alpha_wrapping), which can be used to repair pretty much any 3D input.
+It guarantees that you'll obtain a 2-manifold that is "watertight" and free of intersections.
+
+As can be seen in the figure above (taken from their website), it works by *refining* the surface (and uses the alpha-shape concept) and thus to recover sharp edges (very frequent in 3D buildings) many Steiner points are added and we obtain a lot of triangles (which takes a lot of time to run, and those are unwanted).
+
+The project would be to explore how we can either modify this algorithm so that it performs good for 3D buildings, or how can we post-process the output and remove points and/or simplify the mesh.
+One application of those repaired 3D models is that we can use them for CFD simulations, so we could focus on that application. Or be generic, this can be discussed.
+
+The project must be done in C++ using CGAL.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
