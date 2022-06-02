@@ -72,7 +72,7 @@ map: true
         "features": [{
           "type": "Feature",
           "properties": {
-            "description": "<h3>3D Geoinformation</h3><p>Room BG.West.010</p>",
+            "description": "<h3>3D Geoinformation</h3><p>Room BG.West.550</p>",
             "iconSize": [50, 50]
           },
           "geometry": {
