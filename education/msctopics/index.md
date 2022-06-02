@@ -444,7 +444,7 @@ Up till now, a pipeline was developed to vectorize the information from the 2D f
 - - - 
 
 ## Estimating noise pollution with machine learning?
-![](img/noise.png){:width="400px"}
+![](img/noise.png){:width="300px"}
 
 The government needs to produce so-called "noise maps", that is maps showing where the noise levels are higher than a certain threshold that is considered for the well-being and health of citizens ([site of RIVM on the topic](https://www.rivm.nl/geluid)).
 These maps are created by using models of the noise, and not by measuring the values everywhere.
