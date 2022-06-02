@@ -26,7 +26,7 @@ Our [3D Geoinformation research group](https://3d.bk.tudelft.nl) has an open 1-y
 
 ## Research group
 The Geoinformation research group, Section Urban Data Science, [Delft University of Technology](http://www.tudelft.nl) focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is a [a multidisciplinary group of around 25 people](https://3d.bk.tudelft.nl/about/), including computer scientists, geomatics engineers, and geographers. The group has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://github.com/tudelft3d), [standards](https://www.cityjson.org), [3D open data](https://3d.bk.tudelft.nl/opendata/) and patents for the management of 3D geographic information and Building Information Models.
-The researcher will work in close collaboration with 3DGI, the partner organization of the 3D Geoinformation research group in the Proof of Concept project. 3DGI is the organization that is responsible for the update and maintenance of the 3D BAG service. 
+The researcher will work in close collaboration with 3DGI, the partner organisation in the Proof of Concept project responsible for the update and maintenance of the 3D BAG service. 
 
 ## Job requirements
 <!-- 600 char --> 
