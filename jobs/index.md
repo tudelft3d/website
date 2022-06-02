@@ -4,6 +4,10 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+[Postdoc or Junior Researcher 'Automated 3D building reconstruction from aerial photography’](3dbagpoc2022/)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [Developer or Researcher: Digitalisation of Building Permit Checks by GeoBIM approaches](chek/)
