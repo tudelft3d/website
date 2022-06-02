@@ -441,3 +441,20 @@ Up till now, a pipeline was developed to vectorize the information from the 2D f
 
 **Contact:** [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/), in collaboration with Kadaster
 
+- - - 
+
+## Estimating noise pollution with machine learning?
+![](img/noise.png){:width="400px"}
+
+The government needs to produce so-called "noise maps", that is maps showing where the noise levels are higher than a certain threshold that is considered for the well-being and health of citizens ([site of RIVM on the topic](https://www.rivm.nl/geluid)).
+These maps are created by using models of the noise, and not by measuring the values everywhere.
+These models are rather complex, and preparing and collecting the (3D) data necessary are time-consuming and intensive tasks (see [a recent project by the 3d geoinformation group](https://doi.org/10.1016/j.compenvurbsys.2019.101424), and [a Synthesis project in 2020](https://github.com/Constantijn-Dinklo/3D_Noise_Modelling/blob/master/documentation/Final_report_Synthesis_project.pdf)). 
+
+The aim of this MSc thesis is to learn from those models (and/or samples collected on the ground) and to build a model with machine learning that will predict the noise pollution in an area.
+
+I think that features related to the urban morphology (density of buildings, height of buildings, wideness of streets, etc), the distance to noise sources (roads, factories, etc), and vegetation could be good predictors.
+But I don't know, this would be for you to tell me if this is indeed the case.
+
+The project can be done with Python, scikit-learn, and crunching of many (3D) data about cities.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
