@@ -16,7 +16,7 @@ permalink: /jobs/3dbagpoc2022/
 
 We are looking for a researcher at Postdoc or MSc level to improve and extend our algorithms for automated large scale 3D building reconstruction to benefit from image based height data acquired using eg. photogrammetry.
 
-## Job descrption
+## Job description
 
 In our ERC Urban Modelling in Higher dimensions project we developed a technique to automatically reconstruct detailed 3D models of buildings from aerial LiDAR data and building footprints. The solution has been applied to generate 3D models for all 10 million buildings in The Netherlands at Levels of Detail 1.2, 1.3 and 2.2. This [3D BAG](https://3dbag.nl) dataset is available as open data and it is widely adopted across different industries and organisations.
 
