@@ -62,4 +62,4 @@ Please note:
 - Incomplete applications will not be processed
 - Acquisition in response to this vacancy is not appreciated
 
-For more information about this position, please contact directly [Dr Ravi Peters]{https://3d.bk.tudelft.nl/rypeters/}  (<mailto:r.y.peters@tudelft.nl>) or [Prof dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) (<mailto:j.e.stoter@tudelft.nl>).
+For more information about this position, please contact directly [Dr Ravi Peters](https://3d.bk.tudelft.nl/rypeters/)  ([r.y.peters@tudelft.nl](<mailto:r.y.peters@tudelft.nl>)) or [Prof dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) ([j.e.stoter@tudelft.nl](mailto:j.e.stoter@tudelft.nl>)).
