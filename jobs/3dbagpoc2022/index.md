@@ -18,7 +18,7 @@ We are looking for a researcher at Postdoc or MSc level to improve and extend ou
 
 ## Job description
 
-In our ERC Urban Modelling in Higher dimensions project we developed a technique to automatically reconstruct detailed 3D models of buildings from aerial LiDAR data and building footprints. The solution has been applied to generate 3D models for all 10 million buildings in The Netherlands at Levels of Detail 1.2, 1.3 and 2.2. This [3D BAG](https://3dbag.nl) dataset is available as open data and it is widely adopted across different industries and organisations. See also [this paper]{https://repository.tudelft.nl/islandora/object/uuid%3A2f82cab7-8626-4ae0-a4b7-44c5503ed70f?collection=research}.
+In our Urban Modelling in Higher dimensions project, fubded by the European Research Council, we developed a technique to automatically reconstruct detailed 3D models of buildings from aerial LiDAR data and building footprints. The solution has been applied to generate 3D models for all 10 million buildings in The Netherlands at Levels of Detail 1.2, 1.3 and 2.2. This [3D BAG](https://3dbag.nl) dataset is available as open data and it is widely adopted across different industries and organisations. See also [this paper]{https://repository.tudelft.nl/islandora/object/uuid%3A2f82cab7-8626-4ae0-a4b7-44c5503ed70f?collection=research}.
 
 Recently the European Commission  awarded our proposal to further develop and extend our service that generates and provides 3D building models for very large areas (3DBAG).  This Proof of Concept project aims to expand the prototype as well as the countrywide 3D dataset as a long-term, reliable, up-to-date and user-friendly service.
 
