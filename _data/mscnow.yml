@@ -1,3 +1,13 @@
+- surname: Pavlidou  
+  name: Androniki
+  title: Integrated modeling of utility networks in the urban environment
+  image: 2021_androniki.png
+
+- surname: Veselý  
+  name: Ondrej
+  title: Building massing generation using GAN trained on Dutch 3D city models
+  image: 2021_ondrej.png
+
 - surname: Pantelios  
   name: Konstantinos
   title: Development of a QGIS plugin for the CityGML 3D City Database
