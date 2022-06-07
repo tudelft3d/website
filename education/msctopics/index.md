@@ -458,6 +458,8 @@ As can be seen in the figure above (taken from their website), it works by *refi
 The project would be to explore how we can either modify this algorithm so that it performs good for 3D buildings, or how can we post-process the output and remove points and/or simplify the mesh.
 One application of those repaired 3D models is that we can use them for CFD simulations, so we could focus on that application. Or be generic, this can be discussed.
 
+Also, how the semantics of surfaces could be preserved from the input, or inferred for the output, is another aspect of the research.
+
 The project must be done in C++ using CGAL.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
