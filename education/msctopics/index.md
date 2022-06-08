@@ -334,7 +334,7 @@ One issue is that the aerial photos are nadir photos, and the façades are often
 
 I assume that since it's a classification problem, machine learning will be used.
 
-*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Lukas Beuster]( https://3d.bk.tudelft.nl/lbeuster)
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster)
 
 
 ---
