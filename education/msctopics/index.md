@@ -329,12 +329,12 @@ The [3D BAG](https://3dbag.nl) contains the geometry of all buildings in the Net
 To increase the usefulness of the datasets, it would be useful if the *material* of each surface was known. 
 For instance: (1) architects and spatial planners would like to know if a roof/surface is made of bricks, tar, green/vegetation, solar panels; (2) engineers working with CFD simulations have similar needs, the type can help better simulation the wind in a city.
 
-The aim of this project is to enrich the surfaces of the 3D BAG with certain material types (what these are will need to be determined) and use the [aerial photos openly available on PDOK](https://www.pdok.nl/introductie/-/article/luchtfoto-pdok) and/or the AHN3 properties (eg # of returns, intensity, etc.) to obtain the results. 
+The aim of this project is to enrich the surfaces of the 3D BAG with certain material types (what these are will need to be determined) by using [aerial photos openly available on PDOK](https://www.pdok.nl/introductie/-/article/luchtfoto-pdok), [street-view photos (of Amsterdam, which are openly available)](https://amsterdam.github.io/projects/open-panorama/), and/or the AHN3 properties (eg # of returns, intensity, etc.) to obtain the results. 
 One issue is that the aerial photos are nadir photos, and the façades are often not visible; the project will try to solve this with perhaps other datasets or by using solely AHN3.
 
 I assume that since it's a classification problem, machine learning will be used.
 
-*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Lukas Beuster]( https://3d.bk.tudelft.nl/lbeuster)
 
 
 ---
