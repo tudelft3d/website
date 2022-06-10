@@ -58,10 +58,10 @@
   title: An energy extension for CityJSON
   image: ozge.jpg
 
-- surname: Dong
-  name: Haoyang
-  title: Triangulation-based snap rounding
-  image: haoyang.png
+# - surname: Dong
+#   name: Haoyang
+#   title: Triangulation-based snap rounding
+#   image: haoyang.png
 
 - surname: Apra
   name: Irène
@@ -77,3 +77,8 @@
   name: Ziyan
   title: Retrieving building height of the whole Netherlands from ICESat-2 data
   image: 3ff27b27c567-482f2771dd90c94d2c2a4793035e83b.png
+
+- surname: Dobson
+  name: Daniël
+  title: Counting the number of floors of a building from street level images using deep learning
+  image: daniel.jpg
