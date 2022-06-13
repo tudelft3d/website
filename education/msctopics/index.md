@@ -483,3 +483,49 @@ Sufficient daylight is an essential aspect of building performance and is a key 
 For more information about this project, please refer to [this document](https://www.dropbox.com/s/iii4bcf33zxvcvh/MSc_Topic_Window_Reconstruction.pdf?dl=1).
 
 **Contact:** [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/), [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd).
+
+
+---
+## Image-guided automatic artistic route finding
+![](img/route_finding.png)
+
+Creating artistic routes requires tedious user interaction and is not friendly for 
+non-artist users. This project aims at automating artistic route creation by image 
+abstraction and deformable shape matching. 
+The research questions to be answered (you don't have to answer them all):
+
+* How to extract abstracted, expressive, clean, and continuous lines/curves from an image?
+* How can the abstracted image be used to guide route-finding such that the resulting route 
+is as faithful/close as possible to the extracted image lines/curves?
+* How to keep the route as smooth as possible? How to minimize repeated pathways (which 
+sometimes are unavoidable)?
+* How to evaluate the faithfulness of the generated route (e.g., quantitatively measure 
+the similarity between the route and the abstracted image)? How to evaluate the aesthetic 
+quality of the generated route?
+* How to incorporate user preferences into route creation, e.g., a desired total length, 
+preferred start point and endpoint, and must-have route segment(s)?
+
+**Required skills**:
+(1) Proficient in programming (C++ preferred but Python also fine). (2) Familiar with graph theory and computational geometry.
+
+[//]: # (<span style="color:red"> <strong> Attention</strong>:)
+[//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+
+---
+## Reconstructing permanent structures of textureless indoor scenes from multi-view images
+
+![](img/textureless_indoor.png)
+
+Reconstructing 3D models of permanent structures of indoor scenes has many applications, e.g., renovation, navigation, and room layout design and planning. Traditionally methods require dedicated devices (e.g., laser scanners) to capture the indoor environments, which is only affordable to very limited users.  They also require carefully positioning a scanner and registering the point clouds obtained at different locations. Recently developed image-based methods (i.e., MVS and its variants) are successful in the reconstruction of large-scale outdoor environments, but the major obstacle to applying such methods to indoor scenes is the lack of rich textures in indoor scenes, and thus insufficient image correspondences can be established derive 3D geometry. This project focuses on exploring piece-wise planar prior knowledge about indoor scenes to achieve patch (i.e., planar region) correspondences between images. The core is to extend the existing multi-view theoretical framework to incorporate piecewise planar constraints in the reconstruction pipeline. The developed technique will enable the 3D surface reconstruction of not only texture-less indoor scenes but also low-texture piecewise planar objects in general.
+
+**Required Skills**:
+(1) Proficient and enthusiastic in programming. (2) Familiar with the theory of photogrammetry/3DV and experience in geometry processing.
+<span style="color:red"> <strong> 
+
+[//]: # (Attention</strong>:)
+[//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
