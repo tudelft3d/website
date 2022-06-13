@@ -1,3 +1,9 @@
+
+- surname: Meschin
+  name: Katrin
+  title: Forest structure estimation from ICESat-2 radiometric profiles using canopy gap probability
+  image: 2022_meschin.png
+
 - surname: Pavlidou  
   name: Androniki
   title: Integrated modeling of utility networks in the urban environment
@@ -59,7 +65,7 @@
   image: ozge.jpg
 
 # - surname: Dong
-#   name: Haoyang
+  # name: Haoyang
 #   title: Triangulation-based snap rounding
 #   image: haoyang.png
 
@@ -70,7 +76,7 @@
 
 - surname: Keurentjes
   name: Lisa
-  title: Automatic repair of 3D city models
+  title: A framework for automatic repair of 3D city models
   image: 9ba90df526de-repair.gif
 
 - surname: Wu
