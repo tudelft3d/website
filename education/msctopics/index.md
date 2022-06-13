@@ -15,6 +15,36 @@ permalink: /education/msctopics/
 
 - - -
 
+## Coupled and decoupled simulations of urban wind flow for indoor natural ventilation modelling
+
+Urban wind flow is an important factor in the efficiency of the indoor natural ventilation, which is becoming a really essential ventilation strategy under the current pandemic life environment.
+To model natural ventilation in buildings, running Computational Fluid Dynamics (CFD) simulations is not so straightforward because two levels of wind flow are present in the computational domain.
+Researchers usually rely on decoupled simulations of urban wind flow and indoor ventilation.
+This means that the urban wind flow is modelled first and then relevant values near the openings of the studied building are used to later model the indoor ventilation.
+However, recently with the increase of computational power, there is a rise in the use of coupled simulations where outdoor and indoor air are modelled together.
+
+![](img/Outdoor-Indoor_ventilation.jpg){:width="800px"}
+
+In this MSc thesis, we will try to compare the results of the two approaches and try to validate them with an existing case study. The results could show us if there is a need for a more computationally expensive coupled simulation, or if there are available approaches that allow us to represent accurately outdoor conditions by just imposing appropriate boundary conditions. If you choose this topic, you can expect to learn about indoor ventilation, the level of detail needed in the urban area surrounding the building of interest, and validation CFD simulations. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python or any other language you prefer).
+
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)
+
+
+## What is the effect of footprint uncertainty in CFD simulations?
+
+The reconstruction of urban environments strongly depends on the quality of the input data that is used. The first and essential input data is the footprints that are normally used to elevate the buildings afterwards, manually or , preferably, automatically. 
+
+In this MSc thesis the goal is to explore what are the consequences in Computational Fluid Dynamic simulations (CFD) when footprint data is biased. An example of the types of bias is included in the figure, however to define more accurately these biases we will use real world footprints and tangible uncertainties already included in the raw data. Part of the project would consider the probability approach used to represent that uncertainty. 
+
+![](img/footprint_UQ.jpg){:width="800px"}
+
+If you choose this topic, you can expect to learn about outdoor wind flows and uncertainty quantification. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python or any other language you prefer).
+
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden)
+
+
 ## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
 
 The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
