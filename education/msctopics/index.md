@@ -487,7 +487,7 @@ For more information about this project, please refer to [this document](https:/
 
 ---
 ## Image-guided automatic artistic route finding
-![](img/route_finding.png)
+![](img/route_finding.png){:width="600px"}
 
 Creating artistic routes requires tedious user interaction and is not friendly for 
 non-artist users. This project aims at automating artistic route creation by image 
@@ -517,7 +517,7 @@ preferred start point and endpoint, and must-have route segment(s)?
 ---
 ## Reconstructing permanent structures of textureless indoor scenes from multi-view images
 
-![](img/textureless_indoor.png)
+![](img/textureless_indoor.png){:width="600px"}
 
 Reconstructing 3D models of permanent structures of indoor scenes has many applications, e.g., renovation, navigation, and room layout design and planning. Traditionally methods require dedicated devices (e.g., laser scanners) to capture the indoor environments, which is only affordable to very limited users.  They also require carefully positioning a scanner and registering the point clouds obtained at different locations. Recently developed image-based methods (i.e., MVS and its variants) are successful in the reconstruction of large-scale outdoor environments, but the major obstacle to applying such methods to indoor scenes is the lack of rich textures in indoor scenes, and thus insufficient image correspondences can be established derive 3D geometry. This project focuses on exploring piece-wise planar prior knowledge about indoor scenes to achieve patch (i.e., planar region) correspondences between images. The core is to extend the existing multi-view theoretical framework to incorporate piecewise planar constraints in the reconstruction pipeline. The developed technique will enable the 3D surface reconstruction of not only texture-less indoor scenes but also low-texture piecewise planar objects in general.
 
