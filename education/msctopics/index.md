@@ -570,3 +570,20 @@ Reconstructing 3D models of permanent structures of indoor scenes has many appli
 [//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+
+---
+## Semi-Supervised Semantic Segmentation of 3D Point Clouds
+
+![](img/pc_segmentation.png)
+
+Point cloud-based semantic segmentation has received much attention, which aims to assign each point in the urban scene a semantic label (e.g., building, vegetation, street, window). A number of learning-based works have made fruitful attempts in fully supervised point cloud semantic segmentation tasks. However, acquiring ground truth semantic labels of 3D point for such tasks usually requires massive human annotation and thus is very expensive in practice. The goal of this project is to answer the question: Can we learn a point cloud semantic segmentation model from only partially annotated points, and still achieve good performance compared to fully supervised models? The student will explore and adapt various models for semi-supervised/un-supervised point cloud semantic segmentation. The student will also get hands-on experience with real world datasets such as AHN3 and AHN4.
+
+**Required Skills**:
+(1) Proficient in Python programming. (2) Familiar with the theories of machine learning and deep learning. (3) Having prior experiences in deep learning for image / point cloud processing is recommended but not mandatory.
+<span style="color:red"> <strong> 
+
+[//]: # (Attention</strong>:)
+[//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
+
+**Contact**: [Shenglan Du](https://3d.bk.tudelft.nl/shenglandu/)
