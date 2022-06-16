@@ -526,8 +526,8 @@ For more information about this project, please refer to [this document](https:/
 
 **Contact:** [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/), [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd).
 
-
 ---
+
 ## Image-guided automatic artistic route finding
 ![](img/route_finding.png){:width="600px"}
 
@@ -555,8 +555,8 @@ preferred start point and endpoint, and must-have route segment(s)?
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
-
 ---
+
 ## Reconstructing permanent structures of textureless indoor scenes from multi-view images
 
 ![](img/textureless_indoor.png){:width="600px"}
@@ -572,8 +572,8 @@ Reconstructing 3D models of permanent structures of indoor scenes has many appli
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
-
 ---
+
 ## Semi-Supervised Semantic Segmentation of 3D Point Clouds
 
 ![](img/pc_segmentation.png)
@@ -588,6 +588,7 @@ Point cloud-based semantic segmentation has received much attention, which aims 
 [//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
 
 **Contact**: [Shenglan Du](https://3d.bk.tudelft.nl/shenglandu/)
+
 - - -
 
 ## How to best interpolate space lidar to create terrains?
