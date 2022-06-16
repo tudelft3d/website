@@ -516,6 +516,7 @@ The project must be done in C++ using CGAL.
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
 - - -
+
 ## Automatic reconstruction of window boundaries for efficient daylight simulation.
 ![](img/window.png){:width="600px"}
 Sufficient daylight is an essential aspect of building performance and is a key factor in users' satisfaction and well-being. Although there are studies on optimizing the performance of newly designed buildings, few studies are conducted on the methods to improve the performance of the existing buildings. The geometrical model is an essential part of daylight simulation. These models are commonly constructed with point-by-point field measurement and manual modeling in CAD environments, such as Rhinoceros and SketchUp. This workflow is costly for many buildings and projects and is a practical barrier to accurate daylight simulations and informed refurbishment decisions. Results from the novel techniques in light-weight polygonal reconstruction of various objects from dense scanned indoor point clouds have been promising and are expected to automate reconstruction tasks in relevant domains in the future, such as daylight. However, reconstruction of the window boundaries is still a challenge.
@@ -587,3 +588,17 @@ Point cloud-based semantic segmentation has received much attention, which aims 
 [//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
 
 **Contact**: [Shenglan Du](https://3d.bk.tudelft.nl/shenglandu/)
+- - -
+
+## How to best interpolate space lidar to create terrains?
+
+![](img/icesat_gedi.png){:width="300px"}
+
+As you saw during the [GEO1015 guest lecture (Maarten Pronk, Deltares)](https://www.youtube.com/watch?v=s9cVQSHrPgM), space lidar datasets, [ICESat-2](https://icesat-2.gsfc.nasa.gov/) and [GEDI](https://gedi.umd.edu/), have very sparse distribution (often kilometres with no data) and thus a global coverage is difficult.
+
+The aim of this thesis is to develop an interpolation method that will work for such datasets.
+We're thinking of using machine learning and also use auxiliary datasets that are available globally, combined with interpolation methods you learned during GEO1015.
+
+Project can be done in Python.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
