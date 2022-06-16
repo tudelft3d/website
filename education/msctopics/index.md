@@ -597,7 +597,7 @@ Point cloud-based semantic segmentation has received much attention, which aims 
 As you saw during the [GEO1015 guest lecture (Maarten Pronk, Deltares)](https://www.youtube.com/watch?v=s9cVQSHrPgM), space lidar datasets, [ICESat-2](https://icesat-2.gsfc.nasa.gov/) and [GEDI](https://gedi.umd.edu/), have very sparse distribution (often kilometres with no data) and thus a global coverage is difficult.
 
 The aim of this thesis is to develop an interpolation method that will work for such datasets.
-We're thinking of using machine learning and also use auxiliary datasets that are available globally, combined with interpolation methods you learned during GEO1015.
+We're thinking of using machine learning (maybe inpainting, see this (repository from a student from last year)[https://github.com/chenzhaiyu/ahninpainter]) and also use auxiliary datasets that are available globally, combined with interpolation methods you learned during GEO1015.
 
 Project can be done in Python.
 
