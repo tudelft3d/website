@@ -30,7 +30,7 @@ Expert in 3D city models and related standards (CityGML, CityJSON...); GeoBIM an
 
 Working for the integration of 3D (geo)information systems for use cases, through open standards and open (and F.A.I.R.) technologies.
 
-*People: Francesca Noardo, Jantien Stoter*
+*People: Jantien Stoter*
 
 #### **[Fraunhofer Italia Research (Italy)](https://www.fraunhofer.it/it/i-nostri-servizi/process-engineering-in-construction.html)**
 
@@ -125,15 +125,15 @@ We are coordinating of EMJMD [BIM A+](www.bimaplus.org). Our fields of interest 
 
 *People: Miguel Azenha*
 
-#### **[Ruhr-Universität Bochum](https://www.inf.bi.rub.de)**
+#### **[Ruhr-Universität Bochum (Germany)](https://www.inf.bi.rub.de)**
 
-#### **[Northumbria University](https://www.northumbria.ac.uk)**
+#### **[Northumbria University (UK)](https://www.northumbria.ac.uk)**
 
 Northumbria University is one of the leading universities in the UK engaged in research and knowledge exchange activities in digital construction.
 
 *People: Bimal Kumar*
 
-#### **King Abdelaziz University**
+#### **King Abdelaziz University (Saudi Arabia)**
 
 *People: Obaid Al Jobaly*
 
@@ -272,14 +272,14 @@ As city planner, we help our clients create vibrant places where communities and
 
 *People: Antero Hirvensalo*
 
-#### **[Sova3D Ltd.](https://kunta3d.com)**
+#### **[Sova3D Ltd. (Finland)](https://kunta3d.com)**
 
 Sova3D Ltd. develop 3D web-based city models and BIM based processess on top of it.
 
 *People: Petri Kokko*
 
 
-#### **Lumoin**
+#### **Lumoin (Finland)**
 
 We are a project finance fintech.
 
@@ -318,13 +318,13 @@ ZWEI Ltd is consulting company that works in the field of new technologies in AE
 
 *People: Trajche Stojanov*
 
-#### **[Future Insight](https://futureinsight.nl/)**
+#### **[Future Insight (the Netherlands)](https://futureinsight.nl/)**
 
 Future Insight is a young Dutch software development company. We provide innovative open solutions for organizing the living environment. For example with our Clearly collaboration tool and our full service open 3D Digital Twins. For this group the development our open BIM services most relevant. We use them for example for the automated BIM based permit checking project in Estonia where they will also be combined with the 3D Digital Twin.
 
 *People: Rick Klooster*
 
-#### **[EiPM](http://www.eipm.es)**
+#### **[EiPM (Spain)](http://www.eipm.es)**
 
 We encourage, help and support our clients and costumers to lead the digital transformation in the assets management and construction industry through Building Information Modelling (BIM), Virtual Design Construction (VDC) and Project Information Management (PIM), and technologies such as Big Data, Artifical Intelligence, applying Lean principles focused in: Information Exchange Governance, and openDATA domains.
 
@@ -336,26 +336,44 @@ IFCWebServer is an Open BIM Server and online viewer based on IFC standard and t
 
 *People: Ali Ismail*
 
-#### **[Cype](http://www.cype.com/)**
+#### **[Cype (Spain)](http://www.cype.com/)**
 
 CYPE is a Spanish research intensive SME dedicated to the development of technical software for Architecture, Engineering and Construction professionals. CYPE develops solutions based in Open BIM technology for many different areas: energy efficiency, structures, architecture, building facilities, urban planning, cost estimation, etc. CYPE is currently developing a solution to automate the building permit process based in BIM models.
 
-#### **[Xinaps](https://verifi3d.xinaps.com/)**
+*People: Ane Ferreira, Pablo Gilabert*
 
-"MODEL CHECKING IN THE CLOUD
-Data validation in the construction industry is challenging.Projects are complex and involve a lot of collaboration and communication. The complexity of the projects and the amount of stakeholders lead to a rising demand for using Common Data Environments (CDE) and better model coordination between teams. 
+#### **[Xinaps (The Netherlands)](https://verifi3d.xinaps.com/)**
 
-Verifi3D simplifies the data validation process and keeps all project participants up to date at all times. You don’t need to have years of experience in the construction industry to use Verifi3D – you just get all your data, real-time in one platform."
+We developed a user-driven, easy-to-use Software as a Service (SaaS) solution that enables users to validate data, visualize models and report flaws in real-time in the late design and pre-construction stage.
 
-#### **[digitAEC Matters](https://digitaec.com/)**
+*People: Hugh Geoghegan*
+
+#### **[digitAEC Matters (Romania)](https://digitaec.com/)**
 SME focused on supporting digitization and digitalization of architecture, engineering, and construction.
 
-#### **[RIB software](https://www.rib-software.com/en/home)**
+#### **[RIB software (Germany)](https://www.rib-software.com/en/home)**
 
 The company RIB Software SE has been developing technical innovations for the construction sector since 1961. In the period from Dec 2021 to Nov 2024, RIB Software is lead partner of the research project „iECO“ (intelligent Empowerment of Construction Industry) which is funded by the German Federal Ministry for Economic Affairs and Climate Action. A consortium of eleven partners will create a GaiaX-based data space for the construction industry that looks at the entire building lifecycle. One subarea is the consideration of building permitting and its integration.
 
 *People: Judith Fauth*
 
+#### **[Bimtech NGO (Romania)](https://www.bimtech.ro)**
+
+Registered on 2016 in Romania as a not for profit association, on the short name BIMtech with the scope and mission of adopting BIM practices on the country.
+
+#### **[Opinion Builders Ltd. (Hungary)](http://opinionbuilders.com/)**
+
+Opinion Builders Ltd. is a Hungarian company offering integrated architectural, engineering, urban design, and open BIM solutions to clients. We believe technology and continuous learning are key to finding the best answer to a design challenge. We consider it important to utilize the latest technologies, as we are committed to promoting it to accelerate the digitalization of the construction industry. Our innovative approach and commitment allow us to engage in research and developments regarding automated BIM-based solutions such as digital building permit and automated code checking.
+
+*People: C. Toth Ilona*
+
+#### **[ARKCON (Finland)](https://arkcon.fi)**
+
+ARKCON and Insinööritoimisto Kallinen Ltd services focus on construction sector and
+real estate consultancy, training, marketing and sales.
+Expertise in BIM, hospital projects and export projects.
+
+*People: Anna-Riitta Kallinen*
 
 
 ### Freelance Architects, designers and BIM experts
@@ -370,4 +388,6 @@ The company RIB Software SE has been developing technical innovations for the co
 
 #### [buildingSMART Regulatory Room](https://www.buildingsmart.org/standards/rooms/regulatory/)
 
-> Last update: 20th December 2021
+#### [Open Geospatial Consortium](https://www.ogc.org)
+
+> Last update: 22nd June 2021
