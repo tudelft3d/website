@@ -10,7 +10,7 @@ permalink: /projects/eunet4dbp/network.html
 
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/Map.png" }}" style="max-height: 500px"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "/projects/eunet4dbp/img/Map_.png" }}" style="max-height: 500px"></div>
 </div>
 
 
