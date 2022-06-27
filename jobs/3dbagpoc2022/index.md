@@ -4,7 +4,7 @@ title:  Postdoc or Junior Researcher 'Automated 3D building reconstruction from 
 permalink: /jobs/3dbagpoc2022/
 ---
 
-<div class="alert alert-danger" role="alert"> Deadline to apply is 26th of June 2022</div>
+<div class="alert alert-danger" role="alert">2022-06-27: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "cover-landscape.png" }}"></div>
