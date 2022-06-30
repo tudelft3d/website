@@ -83,11 +83,6 @@
   title: A framework for automatic repair of 3D city models
   image: 9ba90df526de-repair.gif
 
-- surname: Wu
-  name: Ziyan
-  title: Retrieving building height of the whole Netherlands from ICESat-2 data
-  image: 3ff27b27c567-482f2771dd90c94d2c2a4793035e83b.png
-
 - surname: Dobson
   name: Daniël
   title: Counting the number of floors of a building from street level images using deep learning

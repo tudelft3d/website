@@ -1,3 +1,11 @@
+- surname: Wu
+  name: Ziyan
+  title: "Estimating building height from ICESat-2 data: The case of the Netherlands"
+  image: 3ff27b27c567-482f2771dd90c94d2c2a4793035e83b.png
+  github: https://github.com/Ziyan-Wu/master_thesis2022
+  link: http://resolver.tudelft.nl/uuid:bb13b322-1ad8-48d1-9baf-89f539e18adf
+  year: 2022
+
 - surname: van der Horst
   name: Noortje
   title: Procedural Modelling of Tree Growth Using Multi-temporal Point Clouds
