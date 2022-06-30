@@ -1,3 +1,35 @@
+- surname: Langhorst
+  name: Lars
+  title: Predicting sedimentation in Lake Alajuela
+  image: 2022_lars.jpg
+  github: https://github.com/LMarinusL/MorphologyPredictor
+  link: https://3d.bk.tudelft.nl/ken/files/22_lars.pdf
+  year: 2022
+
+- surname: van der Vaart
+  name: Jasper
+  title: Automatic building feature detection and reconstruction in IFC models
+  image: 2022_jasper.jpg
+  github: https://github.com/jaspervdv/IFC_ApartmentDetection
+  link: https://3d.bk.tudelft.nl/ken/files/22_jasper.pdf
+  year: 2022
+
+- surname: Tufan
+  name: Özge
+  title: Development and testing of the CityJSON Energy Extension for space heating demand calculation
+  image: 2022_ozge.jpg
+  github: https://github.com/ozgetufan/cjenergy
+  link: https://3d.bk.tudelft.nl/ken/files/22_ozge.pdf
+  year: 2022
+
+- surname: Apra
+  name: Irène
+  title: Semantic segmentation of roof superstructures
+  image: 2022_irene.jpg
+  github: https://github.com/iapra/height-data-preparation
+  link: https://3d.bk.tudelft.nl/ken/files/22_irene.pdf
+  year: 2022
+
 - surname: Wu
   name: Ziyan
   title: "Estimating building height from ICESat-2 data: The case of the Netherlands"

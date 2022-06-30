@@ -53,31 +53,6 @@
   title: A web-based Visual Programming Language using WebAssembly
   image: jos.png
 
-- surname: Langhorst
-  name: Lars
-  title: Sedimentation modelling for the Alhajuela reservoir
-  image: lars2.png
-
-- surname: van der Vaart
-  name: Jasper
-  title: Automatically detecting floors, rooms and apartments from IFC models
-  image: jasper.jpg
-
-- surname: Tufan
-  name: Özge
-  title: An energy extension for CityJSON
-  image: ozge.jpg
-
-# - surname: Dong
-  # name: Haoyang
-#   title: Triangulation-based snap rounding
-#   image: haoyang.png
-
-- surname: Apra
-  name: Irène
-  title: Integrating 3D data into a CNN for RGB aerial images to detect roof superstructures
-  image: irene.jpg
-
 - surname: Keurentjes
   name: Lisa
   title: A framework for automatic repair of 3D city models
