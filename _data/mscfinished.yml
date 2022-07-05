@@ -54,6 +54,13 @@
   image: 2022_Linjun.png
   year: 2022
 
+- surname: Caceres Tocora
+  name: Camilo
+  title: Automated Semantic Segmentation of Aerial Imagery using Synthetic Data
+  link: http://resolver.tudelft.nl/uuid:677ad184-1169-45b3-a31b-bcb7239dd451
+  image: 2022_Camilo.png
+  year: 2022
+
 - surname: van Rijssel
   name: Laurens
   title: Generating consistent triangular terrain elevation data for noise modelling
