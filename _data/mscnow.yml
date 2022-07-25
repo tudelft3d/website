@@ -7,26 +7,6 @@
   name: Katrin
   title: Forest structure estimation from ICESat-2 radiometric profiles using canopy gap probability
   image: 2022_meschin.png
-
-- surname: Pavlidou  
-  name: Androniki
-  title: Integrated modeling of utility networks in the urban environment
-  image: 2021_androniki.png
-
-- surname: Veselý  
-  name: Ondrej
-  title: Building massing generation using GAN trained on Dutch 3D city models
-  image: 2021_ondrej.png
-
-- surname: Pantelios  
-  name: Konstantinos
-  title: Development of a QGIS plugin for the CityGML 3D City Database
-  image: 2021_Konstantinos.png
-  
-- surname: Jin
-  name: Yuzhen
-  title: Dynamic energy simulations based on the 3D BAG 2.0
-  image: 2021_Yuzhen.png
   
 - surname: Fun
   name: Runnan

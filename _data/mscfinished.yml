@@ -1,3 +1,34 @@
+- surname: Pantelios  
+  name: Kostantinos
+  title: Development of a QGIS plugin for the CityGML 3D City Database
+  image: 2021_Konstantinos.png
+  github: https://github.com/Konstantinos-Pantelios/3DCityDB-QGIS-Loader
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Afb532bef-81b9-482b-921a-e7ce907cb544
+  year: 2022 
+
+- surname: Pavlidou  
+  name: Androniki
+  title: Integrated modeling of utility networks in the urban environment
+  image: 2021_androniki.png
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A81549126-bbb9-49d5-bc46-d050a2463c6d
+  year: 2022  
+  
+- surname: Veselý  
+  name: Ondrej
+  title: Building massing generation using GAN trained on Dutch 3D city models
+  image: 2021_ondrej.png
+  github: https://github.com/ondrej-vesely/massingGAN
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A27085fd4-654a-4748-92d0-61563fe6040c
+  year: 2022 
+
+- surname: Jin
+  name: Yuzhen
+  title: Dynamic energy simulations based on the 3D BAG 2.0
+  image: 2021_Yuzhen.png
+  github: https://github.com/yuzhenjin3000/Dynamic-energy-simulations-based-on-the-3D-BAG-2.0
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A3ae123bd-cae4-45b2-be48-27ffe5cab980
+  year: 2022  
+
 - surname: Langhorst
   name: Lars
   title: Predicting sedimentation in Lake Alajuela
