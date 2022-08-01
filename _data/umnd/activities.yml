@@ -1,4 +1,7 @@
 - research_line: [1, 2, 3]
+  description: "Published paper: \"3D building metrics for urban morphology\""
+  date: 2022-08-01
+- research_line: [1, 2, 3]
   description: "Presented \"3D Building Metrics for Urban Morphology\" at the <a href=\"https://ual.sg/\">Urban Analytics Lab</a> Seminar Series at the National University of Singapore"
   date: 2022-03-11
 - research_line: [1, 2]
