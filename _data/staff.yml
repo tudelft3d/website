@@ -143,19 +143,6 @@
   email: j.m.vanderhelm@tudelft.nl
   phone: "+31 15 27 81298"
 
-- surname: Labetski
-  name: Anna
-  title: PhD candidate
-  photo: anna.png
-  homepage: 3d.bk.tudelft.nl/alabetski
-  email: a.labetski@tudelft.nl
-  twitter: BigLabetski
-  description: "Topic: Generalisation of 3D City Models, working on the [UMnD project](https://3d.bk.tudelft.nl/projects/umnd/).<br><br>I have an HBA in Human Geography and GIS from the University of Toronto and an MSc in Geospatial Analysis from University College London. <br><br>My interests include: Cartographic Generalisation, Levels of Detail, Transportation Networks, Active Transportation, and Metadata (automation, storage and update)."
-  projects:
-    - name: umnd
-      role: PhD Candidate
-  uuid: a89ef52f-fe91-490e-b6fa-df879548abde
-
 - surname: Altena
   van: van
   name: Vincent
@@ -267,7 +254,6 @@
       role: Assistant-prof
   email: liangliang.nan@tudelft.nl
   uuid: d3a367ae-869e-481d-96ff-b1961b6d64c9
-
 
 - surname: Pronk
   name: Maarten
