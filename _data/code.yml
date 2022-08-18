@@ -1,3 +1,16 @@
+
+- name: City3D
+  description: Large-scale building reconstruction from airborne lidar point clouds
+  github: https://github.com/tudelft3d/city3d
+  paper: https://doi.org/10.3390/rs14092254
+  image: city3d.png
+
+- name: City4CFD
+  description: Automatic reconstruction of 3D city geometries tailored for microscale urban flow simulations
+  github: https://github.com/tudelft3d/city4cfd
+  paper: https://www.frontiersin.org/articles/10.3389/fbuil.2022.899332
+  image: city4cfd.png
+
 - name: 3D Mesh Annotator
   description: 3D mesh annotation tool for labelling semantics of urban scenes. 
   github: https://github.com/tudelft3d/3D_Urban_Mesh_Annotator
