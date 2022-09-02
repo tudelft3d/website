@@ -1,18 +1,3 @@
-- surname: Labetski
-  name: Anna
-  title: PhD candidate
-  photo: anna.png
-  period: 2016-2022
-  current: "data scientist at [Ordnance Survey](https://www.ordnancesurvey.co.uk)"
-  homepage: 3d.bk.tudelft.nl/alabetski
-  email: a.labetski@tudelft.nl
-  twitter: BigLabetski
-  description: "Topic: Generalisation of 3D City Models, working on the [UMnD project](https://3d.bk.tudelft.nl/projects/umnd/).<br><br>I have an HBA in Human Geography and GIS from the University of Toronto and an MSc in Geospatial Analysis from University College London. <br><br>My interests include: Cartographic Generalisation, Levels of Detail, Transportation Networks, Active Transportation, and Metadata (automation, storage and update)."
-  projects:
-    - name: umnd
-      role: PhD Candidate
-  uuid: a89ef52f-fe91-490e-b6fa-df879548abde
-
 - surname: Noardo
   name: Francesca
   title: Postdoc
