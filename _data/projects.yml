@@ -36,6 +36,8 @@
   webpage: /projects/i3s/
   image: i3s.png
   start: 2020
+  end: 2021
+  finished: true
 
 - name: GeoBIM Building Permit
   description: Investigating the Automation of the Building Permission Issuing process through 3D GeoBIM information
