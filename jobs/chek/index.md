@@ -4,7 +4,7 @@ title:  Vacancy Software developer or Research position (postdoc or senior resea
 permalink: /jobs/chek/
 ---
 
-<div class="alert alert-danger" role="alert"> Deadline to apply is 28th of February 2022</div>
+<div class="alert alert-danger" role="alert">As of February 28, 2022 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "DBP.png" }}"></div>
