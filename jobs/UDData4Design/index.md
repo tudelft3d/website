@@ -84,6 +84,6 @@ To apply, please submit:
 - maximum 2 pages with 1) a research statement with your vision on research directions of this position; 2) a teaching statement with your vision and ambitions for education
 - the name of three references, with contact information.
 
-For more information about this position, please contact directly [Prof dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) 9{j.e.stoter@tudelft.nl](<mailto:j.e.stoter@tudelft.nl>)).
+For more information about this position, please contact directly [Prof dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) ([j.e.stoter@tudelft.nl](<mailto:j.e.stoter@tudelft.nl>)).
 
 
