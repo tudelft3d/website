@@ -23,10 +23,12 @@ How to work with open data and tools to design buildings, landscapes and urban a
 Secondly, our students need to gain data literacy to understand how FAIR data and digital technologies can guide the design of sustainable urban areas.
 This will help them to use open data about the built environment to their full potential in urban/landscape design and related planning and decision-making processes, and at the same time have a responsible and critical standpoint.
 
-The educational tasks of the position are more particularly:
+The task of the Assistant Professor is to develop innovative education solutions to:
 - to integrate the use of FAIR urban, geo-based data into design education within the BSc Architecture ('Bouwkunde') and the MSc tracks Urbanism and Landscape Architecture
 - to help our students to develop technical skills: how to find, prepare and use FAIR data about the built environment for sustainable urban/landscape design? How to perform data analysis and simulations to study the impact of urban and landscape designs on e.g. accessibility, spatial integration, noise, water/flooding, wind comfort, daylight/shadow, energy.
 - to help students gain understanding of the opportunities and challenges of open urban data and digitalisation in studies on sustainable urbanisation.
+
+Other staff will help to give the developed edcuation.
 
 ### We are looking for an Assistant Professor 
 ....with a relevant background to tackle these urban data challenges in our design research and education. 
