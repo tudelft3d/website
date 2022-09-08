@@ -4,7 +4,7 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
-[Assistant-professor: Urban Data for Design](3dbagpoc2022/)
+[Assistant-professor: Urban Data for Design](UDData4Design/)
 
 - - -
 
