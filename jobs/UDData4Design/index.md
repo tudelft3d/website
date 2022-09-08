@@ -40,7 +40,7 @@ The specific focus area of the position will be further detailed by the selected
 The position will be embedded in the [3D geoinformation research group](https://3d.bk.tudelft.nl), Section Urban Data Science part of the [Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/architecture-and-the-built-environment).
 The Section focuses on governance and technologies underpinning open geo-data and the integration with Building Information Models and aims at designing, developing, and implementing open data and open source solutions to model cities, buildings, and landscapes in 3D for environmental and urban studies. Open Science is an important principle of our research.
 The section UDS is also the main provider of education in the MSc Geomatics, hosted in the same Faculty. 
-It is a multidisciplinary group of about [20 people](/about/), including computer scientists, geomatics engineers, and geographers.
+It is a multidisciplinary group of about [20 people](https://3d.bk.tudelft.nl/about/#people), including computer scientists, geomatics engineers, and geographers.
 It has a history of successful collaborations with the industry and the government: its research has led to [software](https://github.com/tudelft3d), standards and patents for the management of 3D geographic information.
 
 
