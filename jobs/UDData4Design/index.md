@@ -4,10 +4,6 @@ title:  Vacancy Assistant Professor Urban Data for Design
 permalink: /jobs/UDData4Design/
 ---
 
-
-## Vacancy Assistant Professor Urban Data for Design
-
-
 Urban data and digitalisation are essential instruments to face the complexity of contemporary interdisciplinary sustainable urbanisation challenges, such as the energy transition, the transition towards a circular built environment, and the transformation towards just, resilient, inclusive, and healthy cities. 
 We are looking for an Assistant Professor whose research and teaching will focus on how FAIR (Findable, Accessible, Interoperable and Reusable) urban, geo-based data and Open Science can steer and guide sustainable urbanisation, as part of studies on urban change processes.  
 The position will bridge the domains of geo data science on the one hand and urban and landscape design on the other hand.
