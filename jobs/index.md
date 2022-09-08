@@ -4,12 +4,13 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+[Assistant-professor: Urban Data for Design](3dbagpoc2022/)
 
 - - -
 
 <span class="label label-danger">closed</span>
 <del>
-[Postdoc or Junior Researcher 'Automated 3D building reconstruction from aerial photography’](3dbagpoc2022/)
+[Postdoc or Junior Researcher: Automated 3D building reconstruction from aerial photography](3dbagpoc2022/)
 </del>
 
 - - -
@@ -51,7 +52,7 @@ permalink: /jobs/
 
 <span class="label label-danger">closed</span>
 <del>
-[Assistant-professor 3D city modelling for urban applications (tenure track)](ud2017/)
+[Assistant-professor" 3D city modelling for urban applications (tenure track)](ud2017/)
 </del>
 
 - - -
@@ -65,7 +66,7 @@ permalink: /jobs/
 
 <span class="label label-danger">closed</span> 
 <del>
-[Assistant-professor 3D reconstruction for urban applications (tenure track)](ud/)
+[Assistant-professor: 3D reconstruction for urban applications (tenure track)](ud/)
 </del>
 
 - - -
