@@ -28,7 +28,7 @@ The task of the Assistant Professor is to develop innovative education solutions
 - to help our students to develop technical skills: how to find, prepare and use FAIR data about the built environment for sustainable urban/landscape design? How to perform data analysis and simulations to study the impact of urban and landscape designs on e.g. accessibility, spatial integration, noise, water/flooding, wind comfort, daylight/shadow, energy.
 - to help students gain understanding of the opportunities and challenges of open urban data and digitalisation in studies on sustainable urbanisation.
 
-Other staff will help to give the developed edcuation.
+Other staff will help to develop education materials and to provide the education.
 
 ### We are looking for an Assistant Professor 
 ....with a relevant background to tackle these urban data challenges in our design research and education. 
