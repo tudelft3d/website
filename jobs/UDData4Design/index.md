@@ -5,7 +5,7 @@ permalink: /jobs/UDData4Design/
 ---
 
 <div class="row">
-	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "urbanapplications.jpg" }}"></div>
+	<div class="col-md-6 col-sm-8 col-xs-12"><img class="img-responsive" src="{{ "urbanapplications.jpg" }}"></div>
 </div>
 
 Urban data and digitalisation are essential instruments to face the complexity of contemporary interdisciplinary sustainable urbanisation challenges, such as the energy transition, the transition towards a circular built environment, and the transformation towards just, resilient, inclusive, and healthy cities. 
