@@ -8,7 +8,7 @@ permalink: /jobs/
 
 - - -
 
-[Data and Software Engineer for Urban Applications](DataSoftwareEngineer2022)
+[Data and Software Engineer for Urban Applications](DataSoftwareEngineer2022/)
 
 - - -
 
