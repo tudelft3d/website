@@ -60,6 +60,7 @@ Deadline to apply is 23rd of October 2022.
 </div> -->
 
 You can apply via this [webpage](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=8465&jobTitle=Data%20and%20Software%20Engineer%20for%20Urban%20Applications)
+
 To apply, please submit:
 - a letter of application and a detailed CV
 - a list of top 3 of your past experiences/activities (projects, software development etc ) related to this job
