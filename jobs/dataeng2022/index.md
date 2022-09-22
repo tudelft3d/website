@@ -9,7 +9,7 @@ permalink: /jobs/dataeng2022/
   <img src="code.png" width="600">
 </figure>
 
-### We are looking for a Data and Software Engineer
+
 The 3D Geoinformation research group, Section Urban Data Science is looking for a Data&Software engineer to support our research and education in which we develop and use FAIR data and software solutions for sustainable urban development (i.e. meeting the principles of Findability, Accessibility, Interoperability, and Reusability).
 In our work, we integrate and analyse open geo-datasets from many different sources, we reconstruct open 3D data for urban applications, and develop, contribute to and use open-source software.
 For example, a notable dataset that we have generated from open data sets is the [3D BAG](www.3dbag.nl), an open data service containing automatically reconstructed 3D models of all 10 million buildings in the Netherlands.
