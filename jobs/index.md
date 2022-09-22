@@ -8,6 +8,10 @@ permalink: /jobs/
 
 - - -
 
+[Data and Software Engineer for Urban Applications](DataSoftwareEngineer2022)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [Postdoc or Junior Researcher: Automated 3D building reconstruction from aerial photography](3dbagpoc2022/)
