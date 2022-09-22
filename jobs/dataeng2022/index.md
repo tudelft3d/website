@@ -10,13 +10,15 @@ permalink: /jobs/dataeng2022/
 </figure>
 
 
-The 3D Geoinformation research group, Section Urban Data Science is looking for a Data&Software engineer to support our research and education in which we develop and use FAIR data and software solutions for sustainable urban development (i.e. meeting the principles of Findability, Accessibility, Interoperability, and Reusability).
+We are looking for a data and software engineer to support our research and education in which we develop and use FAIR data and software solutions for sustainable urban development (i.e. meeting the principles of FAIR:  Findability, Accessibility, Interoperability, and Reusability).
 In our work, we integrate and analyse open geo-datasets from many different sources, we reconstruct open 3D data for urban applications, and develop, contribute to and use open-source software.
 For example, a notable dataset that we have generated from open data sets is the [3D BAG](www.3dbag.nl), an open data service containing automatically reconstructed 3D models of all 10 million buildings in the Netherlands.
 Other examples of open source software that we have developed are 3dfier, azul, City3D, AdTree, City4CFD, cjio, Easy3D, PolyFit, QGIS-CityJSON, val3dity, QGIS-3DCityDB-Loader and numerous smaller ones (written in C++, Python, and Rust). 
 The code of these software solutions -- which have often found their way to implementations in practice -- can be found at [here](https://3d.bk.tudelft.nl/code/) and [here](https://github.com/tudelft3d/).
 
-Good software as well as maintenance and improvement of our generated data is a crucial component of research reproducibility as well as making the software and data usable in urban applications. Therefore, we are looking for a Data&Software engineer to help us maintain, further develop, and update our open data and open-source software solutions. An important task of the candidate will be to make these data and tools better accessible to be used in research and education on sustainable urban development. 
+Good software as well as maintenance and improvement of our generated data is a crucial component of research reproducibility as well as making the software and data usable in urban applications. 
+Therefore, we are looking for a data and software engineer to help us maintain, further develop, and update our open data and open-source software solutions. 
+An important task of the candidate will be to make these data and tools better accessible to be used in research and education on sustainable urban development. 
 
 The envisioned tasks of this job are, among others:
 
@@ -30,9 +32,9 @@ This might include adding features to existing software, fixing bugs, or buildin
 ## Research group
 
 The position will be embedded in the [3D geoinformation research group](https://3d.bk.tudelft.nl), Section Urban Data Science part of the [Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/architecture-and-the-built-environment).
-The group focuses on technologies underpinning open geo-data and the integration with Building Information Models and aims at designing, developing, and implementing open data and open source solutions to model cities, buildings, and landscapes in 3D for environmental and urban studies.
+The group focuses on technologies underpinning open geo-data and the integration with Building Information. Models and aims at designing, developing, and implementing open data and open source solutions to model cities, buildings, and landscapes in 3D for environmental and urban studies.
 Open Science is an important principle of our research.
-We are also the main provider of education in the [MSc Geomatics](http://geomatics.tudelft.nl)
+We are also the main provider of education in the [MSc Geomatics](http://geomatics.tudelft.nl).
 It is a multidisciplinary group of about [25 people](https://3d.bk.tudelft.nl/about/#people), including computer scientists, geomatics engineers, and geographers.
 It has a history of successful collaborations with the industry and the government: its research has led to [software](https://github.com/tudelft3d), standards and patents for the management of 3D geographic information.
 
