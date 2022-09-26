@@ -87,8 +87,7 @@ Similarly to the 3D Basisvoorziening, the LoD1.3 models in the 3D Geluid data we
 This project has received funding from the European Research Council (ERC) under the European Unions Horizon2020 Research & Innovation Programme (grant agreement no. 677312 UMnD: Urban modelling in higher dimensions).
 
 ### 2022-2024
-This project has received funding from the European Research Council (ERC) Horizon Europe for future development programme as a proof of concept project.
-
+This project has received funding from the European Research Council (ERC) under the Horizon Europe Research & Innovation Programme (grant agreement no. 101068452 3DBAG: detailed 3D Building models Automatically Generated for very large areas).
 - - -
 
 ## Partners
