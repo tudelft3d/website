@@ -9,6 +9,7 @@ We wanted to give a small gift to our alumni who left us during the pandemic and
 The gift is a wooden card with an artistic interpretation of our office on the front and a small thank you note on the back. 
 Our doctorate student [Nail Ibrahimli](https://3d.bk.tudelft.nl/nail) has used an AI-based optimization technique where he takes two images— our office's point cloud rendering and a reference artistic painting image and blends them together so that the resulting image looks like the office image, with similar brush strokes, color palette, and painting technique of the artist.
 We have used the works of Vincent Van Gogh, Frida Kahlo, Wassily Kandinsky, Katsushika Hokusai, William Turner, Edvard Munch, Francis Picabia, Heinrich Campendonk, Isaac Abrams as reference images.
+If you hover over the office images, you will see the original picture!
 
 > ![Woodencards_office](/img/2022/office_art_v3/wooden_cards.jpg) <br>
 > Collection of wooden cards
