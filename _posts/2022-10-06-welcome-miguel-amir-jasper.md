@@ -13,6 +13,6 @@ date: 2022-10-06 12:20
   </tr>
  </table>
 <br>
-Amir Hakin and Jasper van der Vaart have just joined our research group as researchers, and Miguel Martin as a Postdoc.
+Amir Hakim and Jasper van der Vaart have just joined our research group as researchers, and Miguel Martin as a Postdoc.
 
 Welcome Miguel, Amir, and Jasper, and good luck!
