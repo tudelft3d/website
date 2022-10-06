@@ -11,7 +11,7 @@ permalink: /jobs/refmap/
 
 We are looking for a researcher (Postdoc) to explore a multi-fidelity framework in CFD simulations that exploits the accuracy of LES and the efficiency (plus geometrical complexity) of RANS. 
 
-## Multi-fidelity uncertainty quanftication for urban flows: from simple to realistic geometries
+## Multi-fidelity uncertainty quantification for urban flows: from simple to realistic geometries
 
 The last decades there has been a growing interest in urban flows, linked to an increase attraction to the exploitation of the urban air space. Some contributions have focused on evaluating the impact of urban layouts on airflows, specifically looking at wind, heat and pollution dispersion. In this position, the researcher will explore multi-fidelity techniques (that combine low and high-fidelity CFD simulations) to improve numerical predictions in urban environments, specifically addressing uncertainties related to turbulence modeling, geometry simplification and changing inflow conditions.
 
