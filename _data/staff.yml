@@ -48,12 +48,7 @@
   phone: "+31 15 27 82540"
 
 
-- surname: Meerburg
-  name: Erik  
-  title: teacher data and tools
-  photo: Erik.jpg
-  email: e.s.meerburg@tudelft.nl
-  twitter: geogoeroe
+
 
 - surname: Du
   name: Shenglan
@@ -158,20 +153,9 @@
   email: j.m.vanderhelm@tudelft.nl
   phone: "+31 15 27 81298"
 
-- surname: Altena
-  van: van
-  name: Vincent
-  title: PhD candidate (external)
-  photo: vincent.jpg
-  email: vincent.altenavan@kadaster.nl
-  homepage: 3d.bk.tudelft.nl/vpvanaltena
-  # description: "Topic: An interdisciplinary investigation on using spatial-temporal research in new testament exegesis"
-  # pagetext: I am an bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam at eum ad veniam dolorem excepturi odit, in, voluptatibus, ut, autem ipsam. Pariatur vitae, consectetur! Consectetur, aut cum laboriosam nihil.
-  uuid: 984034d0-4ca6-4d6e-9467-4b4e02aad8ae
-
 - surname: Arroyo Ohori
   name: Ken
-  title: Postdoc
+  title: Lecturer/researcher
   photo: ken.jpg
   homepage: 3d.bk.tudelft.nl/ken
   email: mail@ken.mx
@@ -204,20 +188,6 @@
       role: Associate-prof.
   uuid: 51e8cf2f-0266-421f-970f-71466b50d886
 
-- surname: Peters
-  name: Ravi
-  title: Postdoc
-  photo: ravi.jpg
-  homepage: tudelft.nl/rypeters
-  email: r.y.peters@tudelft.nl
-  projects:
-    - name: umnd
-      role: Postdoc
-    - name: noise3d
-      role: Researcher
-    - name: 3dbag
-      role: Developer
-  uuid: bccb5c45-3830-4d45-83ea-9676a093ee6b
 
 - surname: Stoter
   name: Jantien

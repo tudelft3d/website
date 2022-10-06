@@ -1,3 +1,44 @@
+- surname: Altena
+  van: van
+  name: Vincent
+  title: PhD candidate (external)
+  photo: vincent.jpg
+  email: vincent.altenavan@kadaster.nl
+  homepage: 3d.bk.tudelft.nl/vpvanaltena
+  # description: "Topic: An interdisciplinary investigation on using spatial-temporal research in new testament exegesis"
+  # pagetext: I am an bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam at eum ad veniam dolorem excepturi odit, in, voluptatibus, ut, autem ipsam. Pariatur vitae, consectetur! Consectetur, aut cum laboriosam nihil.
+  uuid: 984034d0-4ca6-4d6e-9467-4b4e02aad8ae
+  period: 2018-2022
+  current: "[Kadaster](https://www.kadaster.nl)"
+
+
+- surname: Meerburg
+  name: Erik  
+  title: teacher data and tools
+  photo: Erik.jpg
+  email: e.s.meerburg@tudelft.nl
+  twitter: geogoeroe
+  period: 2020-2022
+  current: "[B3Partners](https://www.b3partners.nl)"
+
+
+- surname: Peters
+  name: Ravi
+  title: Postdoc
+  photo: ravi.jpg
+  homepage: tudelft.nl/rypeters
+  email: r.y.peters@tudelft.nl
+  projects:
+    - name: umnd
+      role: Postdoc
+    - name: noise3d
+      role: Researcher
+    - name: 3dbag
+      role: Developer
+  uuid: bccb5c45-3830-4d45-83ea-9676a093ee6b
+  period: 2014-2022
+  current: "[3dgi.nl](https://3dgi.nl)"
+
 - surname: Noardo
   name: Francesca
   title: Postdoc
