@@ -4,6 +4,10 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+[Postdoc or Junior Researcher on ‘Multi-fidelity uncertainty quantification for urban flows: from simple to realistic geometries’](refmap/)
+
+- - -
+
 [Data and Software Engineer for Urban Applications](dataeng2022/)
 
 - - -
