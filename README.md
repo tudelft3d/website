@@ -42,6 +42,7 @@ It can be handy to test the website locally before you commit and push any chang
 ```
 gem install jekyll parslet htmlentities webrick
 ```
+Instructions to install jekyll on Windows can be found [here](https://jekyllrb.com/docs/installation/windows).
 
 Then, clone this repository and run `jekyll serve`:
 ```
