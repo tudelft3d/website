@@ -4,6 +4,8 @@ title:  Vacancy Assistant Professor Urban Data for Design
 permalink: /jobs/UDData4Design/
 ---
 
+<div class="alert alert-danger" role="alert">2022-10-09: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <div class="row">
 	<div class="col-md-6 col-sm-8 col-xs-12"><img class="img-responsive" src="{{ "urbanapplications.jpg" }}"></div>
 </div>

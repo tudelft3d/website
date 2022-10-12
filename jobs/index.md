@@ -12,14 +12,17 @@ permalink: /jobs/
 
 - - -
 
+<span class="label label-danger">closed</span>
+<del>
 [Assistant-professor: Urban Data for Design](UDData4Design/)
+</del>
 
 - - -
 
 <span class="label label-danger">closed</span>
 <del>
 [Postdoc or Junior Researcher: Automated 3D building reconstruction from aerial photography](3dbagpoc2022/)
-</del>
+
 
 - - -
 
