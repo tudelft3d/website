@@ -99,5 +99,5 @@ For this element it is also possible to consider the attribute 'measuredHeight' 
 --------------------------
 ## Download
 
-You can download the amsterdam.gml data from this [**link**](https://3d.bk.tudelft.nl/download/benchmark/Amsterdam_LoD1.zip)
+You can download the amsterdam.gml data from this [**link**](https://3d.bk.tudelft.nl/opendata/benchmark/Amsterdam_LoD1.zip)
  - - -

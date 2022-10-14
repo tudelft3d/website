@@ -145,7 +145,7 @@ Reference for checking the part-of relationships:
 ## Download
 
 
-You can download the RotterdamLOD12.gml data (corrected version 11/06/2019) from this [**link**](https://www.dropbox.com/s/jpo3dzcgi53nq2k/rotterdam_LoD1_LoD2.zip?dl=0).
+You can download the RotterdamLOD12.gml data (corrected version 11/06/2019) from this [**link**](https://zenodo.org/record/7186279#.Y0frMC8Rq7c).
 
-Please consider that you will access a .zip folder containing the GML file and the folder with the textures. **You should download both.**
+
  - - -
