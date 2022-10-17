@@ -264,4 +264,37 @@
   photo: xiaoxin.jpg
   homepage: 3s.whu.edu.cn/info/1027/1754.htm
   email: X.Mi@tudelft.nl
+ 
+- surname: Martin
+  name: Miguel
+  title: Research fellow
+  photo: miguel.jpg
+  homepage: 3d.bk.tudelft.nl/mmartin
+  email: M.Martin@tudelft.nl
+  description: "I am Marie Curie postdoctoral research fellow under the supervision of [TU Delft](https://www.tudelft.nl/) and [CMU](https://www.cmu.edu/). 
+  My research focuses on physically-based modelling of interactions between buildings and their outdoor environment.<br/><br/>
   
+  Before joining TU Delft, I was research engineer at the [Masdar Institute of Science and Technology](https://www.ku.ac.ae/institute/masdar-institute) in Abu Dhabi (United Arab Emirates).
+  Then, I was full-time Ph.D student at the [National University of Singapore](https://www.nus.edu.sg/) where I was granted the [President's Graduate Fellowship](https://fass.nus.edu.sg/prospective-students/graduate/research/scholarships/presidents-graduate-fellowship).
+  After receiving my Ph.D., I worked as postdoctoral research scholar at the [Berkeley Education Alliance for Research in Singapore](https://bears.berkeley.edu/) under the SinBerBEST 2 Theme D project.<br/><br/>
+
+  The Marie Curie action is a three-year project called Smart City Innovations and Experiments using New Climate and Energy Simulations (SCIENCES) and supervised by [Prof. Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/), [Assist. Prof. Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), and [Prof. Mario Berges](https://www.cmu.edu/cee/people/faculty/berges.html). 
+  In this project, I am looking for solutions to (1) improve simulations of air pollutants in urban areas, (2) co-simulate statistical and physically-based urban microclimate models, and (3) generate physically-based models from 3D city models and Internet-of-Things.
+  Based on these solutions, it is aimed at proving that physically-based urban microclimate models could easily be integrated into digital twin platforms for the development of climate-neutral and smart cities."
+
+- surname: Hakim
+  name: Amir
+  title: Scientific Software Developer and Researcher
+  photo: amir.jpg
+  homepage: 3d.bk.tudelft.nl/ahakim
+  email: S.Hakim@tudelft.nl
+  description: "CHEK (change toolkit for digital building permit)"
+
+- surname: van der Vaart
+  name: Jasper
+  title: Scientific Software Developer and Researcher
+  photo: jasper.jpg
+  homepage: 3d.bk.tudelft.nl/jvdvaart
+  email: J.A.J.vanderVaart@tudelft.nl
+  description: "CHEK (change toolkit for digital building permit)"
+ 
