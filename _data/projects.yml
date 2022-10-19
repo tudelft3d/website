@@ -1,3 +1,15 @@
+- name: CHEK
+  description: Change Toolkit For Digital Building Permit
+  webpage: /projects/chek/
+  image: chek_logo.png
+  funding: ERC
+  fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
+  start: 2017
+
+
+
+
+
 - name: 3D BAG
   description: detailed 3D Building models Automatically Generated for very large areas
   webpage: /projects/3dbag/
