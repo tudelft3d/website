@@ -37,3 +37,54 @@ The toolkit of methods and technology provided by CHEK will support municipaliti
 </div>
 
 This project has received funding from the European Union’s Horizon Europe programme under Grant Agreement No.101058559
+
+- - -
+## Team
+
+<div class="row">
+
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
+    <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
+    <p>
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:mail@ken.mx">mail@ken.mx</a><br />
+        <br />
+        <br />
+    </p>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      <a href="https://3d.bk.tudelft.nl/ahakim"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/amir.jpg" alt="Amir Hakim photo" /></a>
+    <h3>Amir Hakim<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
+    <p>
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/ahakim">3d.bk.tudelft.nl/ahakim</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:S.Hakim@tudelft.nl">S.Hakim@tudelft.nl</a><br />
+        <br />
+        <br />
+    </p>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+        <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien Stoter photo" /></a>
+      <h3>Jantien Stoter<br /><small>Professor (TUD)</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/jstoter">3d.bk.tudelft.nl/jstoter</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-phone"></i> <a href="tel:+31 15 27 81664">+31 15 27 81664</a><br />
+          <i class="fab fa-twitter"></i> <a href="https://twitter.com/jantienstoter">@jantienstoter</a><br />
+      </p>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jasper.jpg" alt="Jasper van der Vaart photo" /></a>
+    <h3>Jasper van der Vaart<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
+    <p>
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/jvdvaart/">3d.bk.tudelft.nl/jvdvaart/</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:J.A.J.vanderVaart@tudelft.nl">J.A.J.vanderVaart@tudelft.nl</a><br />
+        <br />
+        <br />
+    </p>
+  </div>
+
+</div>
