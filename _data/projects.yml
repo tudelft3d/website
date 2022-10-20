@@ -1,7 +1,7 @@
 - name: CHEK
   description: Change Toolkit For Digital Building Permit
   webpage: /projects/chek/
-  image: img/chek_logo.jpg
+  image: chek_logo.jpg
   funding: Horizon Europe
   fundingurl: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en
   start: 2022
