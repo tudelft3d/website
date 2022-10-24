@@ -5,6 +5,9 @@ permalink: /jobs/dataeng2022/
 ---
 
 
+<div class="alert alert-danger" role="alert">2022-10-24: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
+
 <figure class="image">
   <img src="code.png" width="600">
 </figure>
@@ -64,9 +67,11 @@ It has a history of successful collaborations with the industry and the governme
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 Deadline to apply is 23rd of October 2022.
-</div>
+</div> -->
+
+<div class="alert alert-danger" role="alert">2022-10-24: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 You can apply via this [webpage](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=8465&jobTitle=Data%20and%20Software%20Engineer%20for%20Urban%20Applications).
 

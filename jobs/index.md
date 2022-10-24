@@ -8,7 +8,10 @@ permalink: /jobs/
 
 - - -
 
+<span class="label label-danger">closed</span>
+<del>
 [Data and Software Engineer for Urban Applications](dataeng2022/)
+</del>
 
 - - -
 
