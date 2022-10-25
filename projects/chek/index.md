@@ -18,7 +18,7 @@ permalink: /projects/chek/
 
 Building permits are mainly issued today through a manual, document-based process. This results in low accuracy, low transparency, and low efficiency which leads to delays and errors in planning, design and construction. In order to accelerate the digitalization of building permit procedures, several initiatives have been developed. However, none of these have led to a complete transition to digital building permit processes in municipalities.
 
-[CHEK]{https://chekdbp.eu} is an EU funded project that aims to remove barriers to municipalities adopting digital building permit processes through the development, connection, and alignment of scalable solutions that address regulatory and policy contexts, ensure open standards and interoperability (geospatial and BIM), eliminate knowledge gaps through education, improve municipal processes, and implement technology.
+[CHEK](https://chekdbp.eu) is an EU funded project that aims to remove barriers to municipalities adopting digital building permit processes through the development, connection, and alignment of scalable solutions that address regulatory and policy contexts, ensure open standards and interoperability (geospatial and BIM), eliminate knowledge gaps through education, improve municipal processes, and implement technology.
 
 In order to accomplish this, CHEK will provide both methodological and technical tools for digitalizing building permits and automating compliance checks on building designs and renovations across Europe. Having modular and standard solutions will enable replicability in different countries and contexts.
 
