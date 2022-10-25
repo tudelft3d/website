@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  Weixiao Gao won the 2nd prize in the CLGE Young Surveyors' Contest
