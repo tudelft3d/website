@@ -8,6 +8,9 @@ _site/**
 .sav
 .ini
 update/index.php
+.bundle/
+vendor/
+Gemfile.lock
 
 all.bib.bak
 all.bib.sav
