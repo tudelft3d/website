@@ -1,3 +1,11 @@
+- name: SCIENCES
+  description: Smart City Innovations and Experiments using New Climate and Energy Simulations
+  webpage: /projects/sciences/
+  image: sciences.jpg
+  funding: Marie Sklodowska Curie Actions
+  fundingurl: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships
+  start: 2022
+
 - name: CHEK
   description: Change Toolkit For Digital Building Permit
   webpage: /projects/chek/
