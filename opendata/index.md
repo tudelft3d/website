@@ -37,7 +37,7 @@ permalink: /opendata/
         <h3>3D city models in CityJSON
         <br/>
         </h3>
-        <p>Several 3D cities are available in CityJSON</p>
+        <p>Several CityJSON example datasets</p>
       </div>
     </div>
   </div>
@@ -57,12 +57,12 @@ permalink: /opendata/
 
   <div class="col-sm-4 col-md-3">
     <div class="thumbnail">
-      <a href="http://3dbag.bk.tudelft.nl"><img src="{{ "/img/code/3dbag.png" | prepend: site.baseurl }}"/></a>
+      <a href="http://3dbag.nl"><img src="{{ "/img/code/3dbag.png" | prepend: site.baseurl }}"/></a>
       <div class="caption">
         <h3>3D BAG
         <br/>
         </h3>
-        <p>The 3D BAG is a register of addresses and buildings of the Netherlands, including building height information and related quality metrics.</p>
+        <p>All the 10M buildings in the Netherlands in LoD1.2, LoD1.3, and LoD2.2!</p>
       </div>
     </div>
   </div>
