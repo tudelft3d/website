@@ -15,7 +15,7 @@
   start: 2022
 
 - name: 3D BAG
-  description: detailed 3D Building models Automatically Generated for very large areas
+  description: Detailed 3D Building models Automatically Generated for very large areas
   webpage: /projects/3dbag/
   image: 3dbag_square_2.jpg
   funding: ERC
@@ -44,6 +44,8 @@
   webpage: /projects/inous/
   image: inous.png
   start: 2018
+  end: 2021
+  finished: true
 
 - name: Semantic 3D urban mesh benchmark
   description: Build benchmark data sets for semantic 3D urban meshes and an annotation platform.
@@ -135,9 +137,9 @@
   funding: AMS
   fundingurl: http://www.ams-institute.org
   image: simwind.jpg
-  finished: true
-  end: 2017
   start: 2016
+  end: 2017
+  finished: true
 
 - name: Noise 3D
   description: Automated reconstruction of 3D input data for noise studies
@@ -169,9 +171,9 @@
   funding: STW
   fundingurl: http://www.stw.nl
   image: geo5d.png
-  finished: true
   start: 2011
   end: 2017
+  finished: true
 
 - name: SIMs3D
   description: Smart 3D indoor models to support crisis management in large public buildings.
@@ -206,8 +208,8 @@
 - name: CityJSON
   description: JSON-based implementation of CityGML, easy-to-use and compact
   webpage: http://www.cityjson.org
-  start: 2017
   image: cityjson.jpg
+  start: 2017
 
 - name: HERILAND
   description: GIS for Heritage zoning and population dynamics
