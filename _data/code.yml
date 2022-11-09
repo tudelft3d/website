@@ -1,4 +1,10 @@
 
+- name: Geoflow
+  description: Large-scale automatic building reconstruction from airborne point clouds used for 3DBAG
+  github: https://github.com/geoflow3d/geoflow-bundle/
+  paper: https://doi.org/10.14358/PERS.21-00032R2
+  image: city3d.png
+
 - name: City3D
   description: Large-scale building reconstruction from airborne lidar point clouds
   github: https://github.com/tudelft3d/city3d
