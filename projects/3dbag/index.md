@@ -96,9 +96,23 @@ This project has received funding from the European Research Council (ERC) under
 <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://3dgi.xyz"><img src="/img/partners/3dgi.png" alt="3DGI logo" ></a></div>
 </div>
 
+## Supporting organisations
+These organisations supported the ERC Proof of Concept proposal with a support letter.
+
+<div class="row">
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.eneco.nl/"><img src="/img/partners/eneco.png" alt="Eneco logo" ></a></div>
+<div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rom3d.nl/"><img src="/img/partners/rom3d.png" alt="ROM3D logo" ></a></div>
+ <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://amsterdam.nl/"><img src="/img/partners/amsterdam.png" alt="Gemeente Amsterdam logo" ></a></div>
+ <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.geonovum.nl/"><img src="/img/partners/geonovum.png" alt="Geonovum logo" ></a></div>
+ <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://vng.nl/"><img src="/img/partners/vng.svg" alt="VNG logo" ></a></div>
+ <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.kadaster.nl/"><img src="/img/partners/kadaster.svg" alt="Kadaster logo" ></a></div>
+ <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.rivm.nl/"><img src="/img/partners/rivm.png" alt="RIVM logo" ></a></div>
+ <div style="padding:5px" class="col-md-4 col-sm-4 col-xs-8"><a href="https://www.avt.at/"><img src="/img/partners/avt.png" alt="AVT logo" ></a></div>
+</div>
+
 <!-- - - - 
 
-## Team
+
 
 <div class="row">
     {% include project_team.html project_name='3dbag' %} 
