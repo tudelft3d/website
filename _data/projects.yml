@@ -77,7 +77,7 @@
   
 - name: European network for Digital Building permission project
   description: International collaboration project to address the digitization of planning permits.
-  webpage: /projects/eunet4dbp/
+  webpage: https://eu4dbp.net
   image: eunet4dbp.png
   start: 2020
 
@@ -156,6 +156,8 @@
   fundingurl: https://erc.europa.eu/funding-and-grants/funding-schemes/starting-grants
   image: umnd.jpg
   start: 2016
+  end: 2022
+  finished: true
 
 - name: 3D Nederland
   description: "Automatic reconstruction of the whole of the Netherlands: LOD1 buildings + terrain"
