@@ -1,3 +1,14 @@
+
+- surname: Hurkmans
+  name: Robin
+  title: "Efficient Solar Potential Estimation of 3D Buildings: 3D BAG as use case"
+  image: hurkmans.jpg
+  link: http://resolver.tudelft.nl/uuid:0d6fe201-5676-48c0-850f-942d1ee9a353
+  github: https://github.com/robinjo78/solarBAG
+  year: 2022
+
+
+
 - surname: Fratzeskou  
   name: Christina
   title: From GIS to 3D flow simulations in urban environments
@@ -5,7 +16,6 @@
   github: https://github.com/cfratz/set_nonUniform_z0
   link: http://resolver.tudelft.nl/uuid:a603d34f-997c-4fa2-8538-db018f5b6fec
   year: 2022
-
 
 - surname: Fu
   name: Runnan
