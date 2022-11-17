@@ -1,6 +1,6 @@
 
 - name: Geoflow (3DBAG)
-  description: Large-scale automatic building reconstruction tool used to generate <a href="https:3dbag.nl">3DBAG</a>
+  description: Large-scale automatic building reconstruction tool used to generate <a href="https://3dbag.nl">3DBAG</a>
   github: https://github.com/geoflow3d/geoflow-bundle/
   paper: https://doi.org/10.14358/PERS.21-00032R2
   image: geoflow.png

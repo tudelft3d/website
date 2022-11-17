@@ -6,7 +6,7 @@ permalink: /opendata/random3dcity/
 
 [Random3Dcity](https://github.com/tudelft3d/Random3Dcity) is a basic and experimental procedural modelling engine that is focused on constructing buildings in multiple LODs and in CityGML.
 
-A sample dataset (CityGML and OBJ) containing 900 buildings in multiple LODs can be obtained from [here](https://3d.bk.tudelft.nl/biljecki/Random3Dcity.html).
+A sample dataset (CityGML and OBJ) containing 900 buildings in multiple LODs can be obtained from [here](https://filipbiljecki.com/code/Random3Dcity.html).
 
 ### Paper and attribution
 
