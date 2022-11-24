@@ -424,7 +424,7 @@ The main challenge of the project will be semantically aware regularization of p
 
 Before contacting us, please refer to this [link](https://drive.google.com/file/d/13ucANuv5LjrrmtbgQYrmZTUqkHrYXRgP/view) for more details if you are considering.
 
-**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 
 - - -
@@ -446,7 +446,7 @@ The main challenge of the project will be having style consistency across the vi
 
 Before contacting us, please refer to this [link](https://drive.google.com/file/d/1vBMtEDKUTEQL-8KvJiaNvPHjtosBp0RM/view) for more details if you are considering.
 
-**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 ---
 
