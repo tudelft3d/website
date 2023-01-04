@@ -8,7 +8,6 @@
   year: 2022
 
 
-
 - surname: Fratzeskou  
   name: Christina
   title: From GIS to 3D flow simulations in urban environments
@@ -140,6 +139,7 @@
   link: http://resolver.tudelft.nl/uuid:6de4255c-ab2b-49c2-a282-ed779de092a1
   github: https://github.com/ellieroy/no-floors-inference-NL
   image: 15c4ff03b7e4-p1_image.jpg
+  paper: https://doi.org/10.1080/13658816.2022.2160454
   year: 2022
 
 - surname: Alhoz

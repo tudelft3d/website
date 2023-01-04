@@ -25,10 +25,10 @@
   title: A web-based Visual Programming Language using WebAssembly
   image: jos.png
 
-- surname: Keurentjes
-  name: Lisa
-  title: A framework for automatic repair of 3D city models
-  image: 9ba90df526de-repair.gif
+# - surname: Keurentjes
+#   name: Lisa
+#   title: A framework for automatic repair of 3D city models
+#   image: 9ba90df526de-repair.gif
 
 - surname: Dobson
   name: Daniël
