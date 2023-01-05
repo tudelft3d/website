@@ -275,16 +275,6 @@
   texture:   No
   notes: "[2010](https://denhaag.dataplatform.nl/#/data/756d6fe7-f334-4ced-af13-61d612d92b1a) model also available. It contains terrain intersection curves!"
 
-- dataset: Dutch cities
-  link:    https://3d.bk.tudelft.nl/opendata/3dfier/
-  country: Netherlands
-  building_lod: LoD1
-  formats: CityGML, OBJ, IMGeo
-  year: 2016
-  classes:  Terrain and many other
-  texture:  no
-  notes: A few Dutch cities generated with 3dfier
-
 - dataset: Cambridge
   link: http://www.cambridgema.gov/GIS/3D/3ddata/3ddatadownloadmap
   country: UK

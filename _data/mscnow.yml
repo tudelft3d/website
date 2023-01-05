@@ -14,15 +14,6 @@
   title: Forest structure estimation from ICESat-2 radiometric profiles using canopy gap probability
   image: 2022_meschin.png
   
-- surname: Hurkmans
-  name: Robin
-  title: Efficient solar potential estimation of large 3D city models
-  image: hurkmans.jpg
-
-- surname: Fratzeskou  
-  name: Christina
-  title: From GIS to 3D flow simulations in urban environments
-  image: Fratzeskou.png
 
 - surname: Dinklo
   name: Constantijn
@@ -34,10 +25,10 @@
   title: A web-based Visual Programming Language using WebAssembly
   image: jos.png
 
-- surname: Keurentjes
-  name: Lisa
-  title: A framework for automatic repair of 3D city models
-  image: 9ba90df526de-repair.gif
+# - surname: Keurentjes
+#   name: Lisa
+#   title: A framework for automatic repair of 3D city models
+#   image: 9ba90df526de-repair.gif
 
 - surname: Dobson
   name: Daniël

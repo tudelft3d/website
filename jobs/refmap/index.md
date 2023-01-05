@@ -5,6 +5,9 @@ permalink: /jobs/refmap/
 ---
 
 
+<div class="alert alert-danger" role="alert">2022-11-15: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
+
 <figure class="image">
   <img src="refmap.png" width="600">
 </figure>
@@ -45,9 +48,13 @@ The researcher will work in close collaboration with the framework under the REF
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 Deadline to apply is 31st of October 2022.
 </div>
+ -->
+
+<div class="alert alert-danger" role="alert">2022-11-15: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 
 You can apply via this [webpage](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=8693&jobTitle=Postdoc%20or%20Junior%20Researcher%20on%20%E2%80%98Multi-fidelity%20uncertainty%20quantification%20for%20urban%20flows%3A%20from%20simple%20to%20realistic%20geometries%E2%80%99.).
 

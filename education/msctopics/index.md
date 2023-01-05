@@ -68,43 +68,6 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 **Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
 
-- - -
-## Infer the building type from the 3DBAG 
-
-The 3DBAG contains the geometries of buildings for the whole Netherlands. The scope of this thesis is to infer the building type using as main sources the 3DBAG and the BAG datasets using feature engineering as well as machine learning.
-
-Recent studies such as [3D Building Metrics](https://github.com/tudelft3d/3d-building-metrics) or [Global Building Morphology Indicators](https://www.sciencedirect.com/science/article/pii/S0198971522000539) calculate some metrics from buildings that could potentially be used as features for a ML algorithm. This type of metrics can classify correctly the building type? In this thesis, the student is expected to use the open data available in the Netherlands to extract features that can lead to infer the building type of a construction based on the TABULA project specification for the NL.
-
-The building type information plays a relevant role for energy simulation tools since they can be used to overcome the lack of data of the 3DBAG regarding building physics such as construction materials.
-
-![](img/BuildingTypeInfer.png){:width="300px"}
-
-As an open question, what type of building is the one from the above image?, stand alone, semi-detached, terraced, porch, gallery, none, etc. Each of them have diferent characteristics but some of them share several.
-
-Programming skills in python and SQL are required. Before picking the topic, please contact us!
-
-**Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
-
-- - -
-
-## (Further) Development of a QGIS plugin for the CityGML 3D City Database
-
-The goal of the thesis is to extend and further improve a plugin for QGIS 3 to interact with the open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB, PostgreSQL/PostGIS version), which is the reference database implementation of the CityGML data model. A first version of the plugin has been developed during a MSc thesis which is scheduled to finish in June 2022.
-
-The plugin is meant to facilitate interaction with the 3D City Database from within QGIS, enabling the user to visualise 2D/3D geometries and to edit attributes of all features (e.g. buildings, bridges, roads, etc.) contained in the database.
-
-![](img/3dcdb_qgis_mini.jpg){:width="800px"}
-
-The thesis is a collaboration between the 3DGeoinformation group and [Virtual City Systems](https://vc.systems/en/) in Germany, one of the companies developing the 3D City Database. 
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2022) is recommended (but not obligatory), as a deep insight in the CityGML standard and the 3D City Database will be provided. 
-
-You will programm in Python and (a bit) in PL/pgSQL.
-Before picking the topic, please contact us!
-
-Contact: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
 ## Urban energy simulations linking CitySim with the 3DCityDB 
 
 [CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB) is the reference database for CityGML data (and its Energy ADE extension) where input AND output data will be stored.
@@ -118,8 +81,6 @@ You will programm in Python and in PL/pgSQL.
 Before picking the topic, please contact us!
 
 **Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
-
-- - -
 
 ## Using urban morphology to optimize biking and running routes in cities?
 
@@ -424,7 +385,7 @@ The main challenge of the project will be semantically aware regularization of p
 
 Before contacting us, please refer to this [link](https://drive.google.com/file/d/13ucANuv5LjrrmtbgQYrmZTUqkHrYXRgP/view) for more details if you are considering.
 
-**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 
 - - -
@@ -446,7 +407,7 @@ The main challenge of the project will be having style consistency across the vi
 
 Before contacting us, please refer to this [link](https://drive.google.com/file/d/1vBMtEDKUTEQL-8KvJiaNvPHjtosBp0RM/view) for more details if you are considering.
 
-**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 ---
 
