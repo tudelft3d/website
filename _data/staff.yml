@@ -74,14 +74,6 @@
   email: j.huang-1@tudelft.nl
   description: "Topic: 3D reconstruction and point cloud processing"
 
-- surname: Yang
-  name: Zexin
-  title: PhD candidate (external)
-  photo: zexin.png
-  #homepage: 3d.bk.tudelft.nl/zexin
-  email: zexinyang@tongji.edu.cn
-  description: "Topic: Urban scene understanding from point clouds"
-
 - surname: García-Sánchez
   name: Clara
   title: Assistant-prof.
