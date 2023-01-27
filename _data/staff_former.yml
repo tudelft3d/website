@@ -1,3 +1,12 @@
+- surname: Yang
+  name: Zexin
+  title: PhD candidate (external)
+  photo: zexin.png
+  #homepage: 3d.bk.tudelft.nl/zexin
+  email: zexinyang@tongji.edu.cn
+  description: "Topic: Urban scene understanding from point clouds"
+  current: "PhD student at [Tongji Univ.](https://en.tongji.edu.cn/)"
+
 - surname: Altena
   van: van
   name: Vincent
