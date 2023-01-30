@@ -229,23 +229,6 @@ The idea is explained in [this](https://www.fig.net/resources/proceedings/fig_pr
 
 - - -
 
-## Snap rounding in a triangulation
-
-![](img/triangulation.png){:width="500px"}
-
-The most common way to do merge adjoining datasets from different sources or to clean small inconsistencies within and between datasets is to apply snapping (point-to-point or point-to-line).
-Snap rounding extends this method in order to give robustness guarantees, like a minimum distance between points or points to lines, but current implementations, such as [the one in CGAL](http://doc.cgal.org/latest/Snap_rounding_2/index.html), are *extremely* slow.
-Related to this, in the project [pprepair](https://github.com/tudelft3d/pprepair), we have previously used a constrained triangulation as a robust method to repair polygons and planar partitions.
-Using this approach topological errors are automatically fixed.
-We think that using a triangulation as a base structure is an intuitive and efficient way to optimize snap rounding, since we can perform simple snapping and recover from topological errors afterwards.
-
-The existing prototype ([pprepair](https://github.com/tudelft3d/pprepair) has been developed in C++, and the best libraries are also in C++, so knowledge of C++---or a strong desire to learn it---is necessary.
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
-
-
-- - -
-
 ## Integrated modelling of utility networks in the urban environment
 
 <img src="img/ga_xander_network.jpg" style="width: 500px;"/>
@@ -276,8 +259,8 @@ The AHN3 dataset contains a lot of points (600+ billions), and while these are u
 
 You learned in GEO1015 how to create a Delaunay TIN, and for massive ones the theory about [streaming geometries](https://www.cs.unc.edu/~isenburg/papers/ilss-scdt-06.pdf) was explained.
 
-The aim of this project is to extend the work already done ([sst](https://github.com/hugoledoux/sst/) + one ongoing MSc thesis about simplification) and do *something* with all those points.
-Exactly what I am not sure yet, but if you like the challenge of dealing with several billions of points, then we can find a good topic. Isolines extraction, or gridding, or improving the code and scale to the whole of the Netherlands are potential examples.
+The aim of this project is to extend the work already done ([sst](https://github.com/hugoledoux/sst/) + one [MSc thesis about simplification](http://resolver.tudelft.nl/uuid:e7df1d5a-8819-40aa-a3d1-1f6d50b8a39e)) and to add new operators useful for practitioners.
+Exactly what I am not sure yet, but if you like the challenge of dealing with several billions of points, then we can find a good topic. The main ones are creating grids with interpolation and isolines extraction.
 
 *Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
@@ -549,21 +532,6 @@ Point cloud-based semantic segmentation has received much attention, which aims 
 [//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
 
 **Contact**: [Shenglan Du](https://3d.bk.tudelft.nl/shenglandu/)
-
-- - -
-
-## How to best interpolate space lidar to create terrains?
-
-![](img/icesat_gedi.png){:width="300px"}
-
-As you saw during the [GEO1015 guest lecture (Maarten Pronk, Deltares)](https://www.youtube.com/watch?v=s9cVQSHrPgM), space lidar datasets, [ICESat-2](https://icesat-2.gsfc.nasa.gov/) and [GEDI](https://gedi.umd.edu/), have very sparse distribution (often kilometres with no data) and thus a global coverage is difficult.
-
-The aim of this thesis is to develop an interpolation method that will work for such datasets.
-We're thinking of using machine learning (maybe inpainting, see this [repository from a student from last year](https://github.com/chenzhaiyu/ahninpainter) and also use auxiliary datasets that are available globally, combined with interpolation methods you learned during GEO1015.
-
-Project can be done in Python.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
 
 - - -
 
