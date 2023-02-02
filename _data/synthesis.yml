@@ -2,10 +2,10 @@
 - title: "CJDB: A simple and efficient data model to store CityJSON in a database"
   year: 2022
   students:
-    - name: Leon Powałka 
     - name: Yuduan Cai 
     - name: Siebren Meines 
     - name: Chris Poon 
+    - name: Leon Powałka 
     - name: Yitong Xia 
     - name: Lan Yan   
   report: http://resolver.tudelft.nl/uuid:9f30a507-fda3-4d73-aa32-bb7900cb04d0
