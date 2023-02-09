@@ -38,7 +38,7 @@ Bla bla bla
 ```
 
 ## Testing locally
-It can be handy to test the website locally before you commit and push any changes to github.  For this you need to install Jekyll which requires a working Ruby installation. 
+It can be handy to test the website locally before you commit and push any changes to github. For this you need to install Jekyll which requires a working Ruby installation. 
 
 Instructions to install jekyll on Windows can be found [here](https://jekyllrb.com/docs/installation/windows).
 
