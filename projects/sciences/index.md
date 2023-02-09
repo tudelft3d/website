@@ -5,7 +5,7 @@ permalink: /projects/sciences/
 ---
 
 <div class="row">
-  <div class="col-sm-14 col-xs-14"><img class="img-responsive" src="{{ img/projects/sciences.jpg }}"></div>
+  <div class="col-sm-14 col-xs-14"><img class="img-responsive" src="{{ "/img/projects/sciences.jpg" }}"></div>
 </div>
 
 - - -
