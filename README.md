@@ -38,21 +38,30 @@ Bla bla bla
 ```
 
 ## Testing locally
-It can be handy to test the website locally before you commit and push any changes to github. For this you need to have a working Ruby installation. You can then install jekyll and the required dependencies with:
-```
-gem install jekyll parslet htmlentities webrick
-```
+It can be handy to test the website locally before you commit and push any changes to github.  For this you need to install Jekyll which requires a working Ruby installation. 
+
 Instructions to install jekyll on Windows can be found [here](https://jekyllrb.com/docs/installation/windows).
 
-Then, clone this repository and run `jekyll serve`:
+Instructions to install jekyll on Mac can be found [here](https://jekyllrb.com/docs/installation/macos/).
+
+**Note**: if you have an M1 mac there may be some difficulties with running jekyll. To fix this you can install a separate ruby environment as described [here]( http://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/).
+
+Then you can then install the required dependencies with:
+
+```bash
+gem install parslet htmlentities webrick
 ```
+
+Then, clone this repository and run `jekyll serve`:
+
+```bash 
 git clone https://github.com/tudelft3d/website.git
 cd website
 jekyll serve
 ```
-Then follow the instruction printed in the terminal for you to open the website locally.
 
-**Note**: if you have an M1 mac there may be some difficulties with running jekyll. To fix this you can install a separate ruby environment as described here: http://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/.
+Then follow the instructions printed in the terminal for you to open the website locally.
+
 
 ## Contributing to repository
 
