@@ -47,9 +47,6 @@
   email: m.m.m.dejong-lansbergen@tudelft.nl
   phone: "+31 15 27 82540"
 
-
-
-
 - surname: Du
   name: Shenglan
   title: PhD candidate
@@ -305,3 +302,12 @@
   homepage: 3d.bk.tudelft.nl/dvdheide
   email: D.H.vanderHeide-1@tudelft.nl
   description: "the Integral Height System of the Netherlands"
+
+- surname: Stavropoulou
+  name: Gina
+  title: Data Engineer
+  photo: gina.jpeg
+  homepage: 3d.bk.tudelft.nl/gstavropoulou
+  email: G.Stavropoulou-1@tudelft.nl
+  description: "My work in the group mainly focuses on the maintenance and further development of the 3DBAG.
+                I also engineer where engineering is needed."
