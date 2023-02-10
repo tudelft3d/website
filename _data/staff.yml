@@ -301,7 +301,13 @@
   photo: daan.jpg
   homepage: 3d.bk.tudelft.nl/dvdheide
   email: D.H.vanderHeide-1@tudelft.nl
-  description: "the Integral Height System of the Netherlands"
+  description: "I am a PhD candidate working for both TU Delft and the Rijkswaterstaat (Ministry of Infrastructure) on the <b> Integral Height System of the Netherlands (IHN)<\b>. 
+  My research focuses on merging open data point clouds collected in the Netherlands, to build an accurate representation of the country, similar to the National Elevation Dataset of the USGS. 
+  The subjects include investigating the effects of merging, co-registration, mutation detection, and maintaining elevation datasets.<br/><br/>
+
+  At the Rijkswaterstaat I work in the Central Information Department. Here I examine geodata collected by current infrastructure projects, before updating chart systems such as the DTB and BGT. 
+  As my department is undergoing the data transition, I am responsible for automating and innovating processes using point clouds and remote sensing datasets through the use of FME, Python, and Google Earth Engine.
+"
 
 - surname: Stavropoulou
   name: Gina
