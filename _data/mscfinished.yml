@@ -1,3 +1,18 @@
+- surname: Feenstra
+  name: Jos
+  title: Geofront: directly accessible GIS tools using a web-based visual programming language
+  image: jos.png
+  year: 2022
+  link: https://3d.bk.tudelft.nl/ken/files/22_jos.pdf
+  github: https://github.com/thegeofront/thegeofront.github.io
+
+- surname: Dobson
+  name: Daniël
+  title: Floor count from street view imagery using learning-based façade parsing
+  image: daniel.png
+  year: 2023
+  link: https://3d.bk.tudelft.nl/ken/files/23_daniel.pdf
+  github: https://github.com/Dobberzoon/Facade2Floorcount
 
 - surname: Bachert
   name: Carolin
