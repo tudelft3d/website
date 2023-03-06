@@ -317,3 +317,11 @@
   email: G.Stavropoulou@tudelft.nl
   description: "My work in the group mainly focuses on the maintenance and further development of the 3DBAG.
                 I also engineer where engineering is needed."
+
+- surname: Patil
+  name: Akshay
+  title: postdoc
+  photo: akshay.jpg
+  homepage: 3d.bk.tudelft.nl/apatil
+  email: a.patil-2@tudelft.nl
+  description: "Postdoc: CFD techniques to study flows within urban environments and quantify the uncertainties in these predictions."
