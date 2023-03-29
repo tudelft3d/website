@@ -131,18 +131,7 @@ This project has received funding from the European Union’s Horizon Europe pro
 
 <div class="row">
 
-  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
-    <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
-    <p>
-        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
-        <i class="fas fa-envelope"></i> <a href="mailto:mail@ken.mx">mail@ken.mx</a><br />
-        <br />
-        <br />
-    </p>
-  </div>
-
-  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-3 col-sm-3 col-xs-6">
       <a href="https://3d.bk.tudelft.nl/ahakim"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/amir.jpg" alt="Amir Hakim photo" /></a>
     <h3>Amir Hakim<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
     <p>
@@ -153,7 +142,29 @@ This project has received funding from the European Union’s Horizon Europe pro
     </p>
   </div>
 
-  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+  <div class="col-md-3 col-sm-3 col-xs-6">
+      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jasper.jpg" alt="Jasper van der Vaart photo" /></a>
+    <h3>Jasper van der Vaart<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
+    <p>
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/jvdvaart/">3d.bk.tudelft.nl/jvdvaart/</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:J.A.J.vanderVaart@tudelft.nl">J.A.J.vanderVaart@tudelft.nl</a><br />
+        <br />
+        <br />
+    </p>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
+      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
+    <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
+    <p>
+        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/ken">3d.bk.tudelft.nl/ken</a><br />
+        <i class="fas fa-envelope"></i> <a href="mailto:mail@ken.mx">mail@ken.mx</a><br />
+        <br />
+        <br />
+    </p>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
         <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien Stoter photo" /></a>
       <h3>Jantien Stoter<br /><small>Professor (TUD)</small></h3>
       <p>
@@ -164,15 +175,6 @@ This project has received funding from the European Union’s Horizon Europe pro
       </p>
   </div>
 
-  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-      <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jasper.jpg" alt="Jasper van der Vaart photo" /></a>
-    <h3>Jasper van der Vaart<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
-    <p>
-        <i class="fas fa-home"></i> <a href="https://3d.bk.tudelft.nl/jvdvaart/">3d.bk.tudelft.nl/jvdvaart/</a><br />
-        <i class="fas fa-envelope"></i> <a href="mailto:J.A.J.vanderVaart@tudelft.nl">J.A.J.vanderVaart@tudelft.nl</a><br />
-        <br />
-        <br />
-    </p>
-  </div>
+  
 
 </div>
