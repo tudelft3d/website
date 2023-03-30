@@ -54,6 +54,7 @@ Deadline to apply is 24th of April 2022.
 </div> -->
 
 You can apply via this [webpage](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=11452&jobTitle=Junior%20or%20Postdoc%20Researcher%20for%20the%20development%20of%20GeoBIM%20based%20solutions%20for%20Digital%20Building%20Permit%20Checking)
+
 Your application should contain:
 
 Please submit the following documents via the applications portal:
