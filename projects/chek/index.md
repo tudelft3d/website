@@ -54,8 +54,11 @@ We are also involved in the following tasks:
 <br>
 
 The IfcEnvelopeExtractor enables users to automatically extract the building envelope of an IFC- model and convert it to a CityJSON model. This allows designs to be easily analyzed on a city scale without the need for manual conversion. This is one of the steps required to close the gap between architecture/BIM and city scale models.
-The software is able to extract multiple different LoD (Level of Detail) envelopes from an IFC-model. The actual LoDs it is able to extract is dependent on the accuracy and validity of the input model. The tool utilizes three different extraction methods that can be used on progressively more accurate models. Lower detail envelopes (LoD 0.0 & 1.0) can be extracted only based on the vertices present in a model. Middle level detail envelopes (Lod 0.2, 1.2, 1.3, 2.2) can be extracted based on the model’s roofing structures. High level detail envelopes (Lod 3.2) can be extracted based on the model’s objects that are part of the building envelope. This final extraction step only functions on well-constructed models, but yields an accurate result that allows for overhang and underpasses. These features are often only present in models that are made manually. 
-The included image shows a demo model of AutoDesk Revit that was used as input, and the resulting constructed envelopes. 
+
+The software is able to extract multiple different LoD (Level of Detail) envelopes from an IFC-model. The actual LoDs it is able to extract is dependent on the accuracy and validity of the input model. The tool utilizes three different extraction methods that can be used on progressively more accurate models. Lower detail envelopes (LoD 0.0 & 1.0) can be extracted only based on the vertices present in a model. Middle level detail envelopes (Lod 0.2, 1.2, 1.3, 2.2) can be extracted based on the model’s roofing structures. High level detail envelopes (Lod 3.2) can be extracted based on the model’s objects that are part of the building envelope. This final extraction step only functions on well-constructed models, but yields an accurate result that allows for overhang and underpasses. These features are often only present in models that are made manually.
+
+The included image shows a demo model of AutoDesk Revit that was used as input, and the resulting constructed envelopes.
+
 The next steps that are planned for the development of the software are:
 
 -	Addition of semantic window and door data
@@ -84,8 +87,10 @@ The plugin can be downloaded free of charge at the [Autodesk App Store](https://
   <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/RhinoCityJSON.JPG" }}"></div>
 </div>
 <br>
-The Rhino CityJSON plugin enables the user to import CityJSON data into grasshopper. It converses the data stored in the CityJSON file to data that can be read, written and manipulated by native grasshopper components. This allows users to bring data from models at a city scale into software environments with which they are familiar. The plugin also allows the data to be baked into Rhino 3D without losing any of its semantic data. This is one of the steps required to close the gap between architecture/BIM and city scale models. It reinforces this together with the new Revit plugin and the already established Blender plugin. 
-The included image shows a close-up of an imported 3D-BAG tile baked to Rhino 3D. In the window on the right the semantic data can be seen that is related to the highlighted building. 
+The Rhino CityJSON plugin enables the user to import CityJSON data into grasshopper. It converses the data stored in the CityJSON file to data that can be read, written and manipulated by native grasshopper components. This allows users to bring data from models at a city scale into software environments with which they are familiar. The plugin also allows the data to be baked into Rhino 3D without losing any of its semantic data. This is one of the steps required to close the gap between architecture/BIM and city scale models. It reinforces this together with the new Revit plugin and the already established Blender plugin.
+
+The included image shows a close-up of an imported 3D-BAG tile baked to Rhino 3D. In the window on the right the semantic data can be seen that is related to the highlighted building.
+
 The next steps that are planned for the development of the plugin are:
 
 -	Improve accuracy of vertex placement
