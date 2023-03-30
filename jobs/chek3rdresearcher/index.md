@@ -25,7 +25,7 @@ We are also involved in the following tasks:
 - Representation of data according to open BIM and open geospatial standards
 - Development of a Geo to BIM converter
 
-To support the current TU Delft CHEK [research team](https://3d.bk.tudelft.nl/projects/chek/) we have a two-years open junior or senior (postdoc) research position in our [3D Geoinformation research group](https://3d.bk.tudelft.nl/), Section Urban Data Science, Faculty of Architecture and the Built Environment.
+To support the current TU Delft CHEK [research team](https://3d.bk.tudelft.nl/projects/chek/) we have opened a two-years junior or senior (postdoc) research position in our [3D Geoinformation research group](https://3d.bk.tudelft.nl/), Section Urban Data Science, Faculty of Architecture and the Built Environment.
 Depending on the profile of the candidate, the candidate will contribute to one or several of the above tasks.
 
 
