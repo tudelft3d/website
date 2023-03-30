@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Vacancy Junior or Postdoc Researcher for the development of GeoBIM based solutions for Digital Building Permit Checking
-permalink: /jobs/chek/
+permalink: /jobs/chek3rdresearcher/
 ---
 
 <div class="row">
