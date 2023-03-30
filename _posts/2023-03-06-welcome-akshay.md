@@ -6,7 +6,6 @@ date: 2023-03-06 09:47
 ---
 
 <img class="img-circle img-responsive" src="{{ "/img/staff/akshay.jpg" | prepend: site.baseurl }}">
-
 Akshay has joined our group as a post-doctoral researcher.
 
 He studied Civil & Environmental Engineering at the University of Pune in India to obtain his B.E. He then moved to the Delft University of Technology (TUD) at the CiTG faculty to study Environmental Fluid Mechanics, where he worked mainly on developing and applying Computational Fluid Dynamics (CFD) for tsunami interactions with sea walls and wave overtopping predictions in shallow coastal environments. While at TUD, he briefly visited the University of Western Australia as part of his MSc. thesis research. 
