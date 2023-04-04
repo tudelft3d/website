@@ -1,8 +1,10 @@
 - surname: Mi
   name: Xiaoxin  
-  title: PhD candidate (external)
+  title: PhD candidate
   photo: xiaoxin.jpg
   homepage: 3s.whu.edu.cn/info/1027/1754.htm
+  period: 2022-2023
+  current: "Finishing her PhD at [Wuhan University](https://en.whu.edu.cn/)"
   #email: X.Mi@tudelft.nl
 
 - surname: Yang
