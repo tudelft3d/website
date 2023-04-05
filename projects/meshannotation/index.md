@@ -184,4 +184,5 @@ This project has received funding from [EuroSDR](http://www.eurosdr.net/) and su
 **Ziqian Ni**, assists in software development, from 2019-07 to 2019-09. <br> 
 **Mels Smit**, assists in mesh annotation, from 2020-07 to 2020-09. <br>
 **Charalampos Chatzidiakos**, assists in mesh annotation, from 2020-07 to 2020-09. <br>
-
+**Michele Giampaolo**, assists in mesh annotation, from 2023-03 to 2023-06. <br>
+**Sharath Chandra Madanu**, assists in mesh annotation, from 2023-03 to 2023-06. <br>
