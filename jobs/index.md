@@ -4,7 +4,10 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<span class="label label-danger">closed</span>
+<del>
 [Junior or Postdoc Researcher: Development of GeoBIM based solutions for Digital Building Permit Checking](chek3rdresearcher/)
+</del>
 
 - - -
 

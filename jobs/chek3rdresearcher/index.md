@@ -4,6 +4,8 @@ title:  Vacancy Junior or Postdoc Researcher for the development of GeoBIM based
 permalink: /jobs/chek3rdresearcher/
 ---
 
+<div class="alert alert-danger" role="alert">As of April 25, 2022 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "DBP.png" }}"></div>
 </div>
