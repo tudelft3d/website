@@ -28,10 +28,10 @@
   title: Correcting global elevation models for canopy and infrastructure using convolutional neural networks
   image: haoyang.png
 
-- surname: Dinklo
-  name: Constantijn
-  title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
-  image: 3ccebc69c5d0-P1_foto.JPG
+# - surname: Dinklo
+#   name: Constantijn
+#   title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
+#   image: 3ccebc69c5d0-P1_foto.JPG
 
 - surname: Yan
   name: Lan
