@@ -1,3 +1,11 @@
+- surname: Meschin
+  name: Katrin
+  title: Canopy gap fraction estimation from ICESat-2 ATL08 product
+  image: 2022_meschin.png
+  link: http://resolver.tudelft.nl/uuid:4c44f0fb-bd69-44d8-8ba9-6ae0b9584828
+  github: https://github.com/Mschn-k/MSc_thesis
+  year: 2023
+
 - surname: Feenstra
   name: Jos
   title: "Geofront: directly accessible GIS tools using a web-based visual programming language"
