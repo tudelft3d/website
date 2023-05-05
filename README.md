@@ -1,6 +1,6 @@
 # website
 
-![jekyll build](https://github.com/tudelft3d/website/workflows/jekyll%20build/badge.svg)
+[![jekyll build](https://github.com/tudelft3d/website/actions/workflows/jekyll-build.yml/badge.svg)](https://github.com/tudelft3d/website/actions/workflows/jekyll-build.yml)
 
 
 Website for the [3D geoinformation group](http://3dgeoinfo.bk.tudelft.nl) at [TU Delft](http://www.tudelft.nl). Uses [Jekyll](http://www.jekyllrb.com) to generate static pages.
