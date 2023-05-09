@@ -218,14 +218,14 @@
 
 - surname: Nan
   name: Liangliang
-  title: Assistant-prof.
+  title: Associate-prof.
   photo: liangliang.jpg
   homepage: 3d.bk.tudelft.nl/liangliang
   projects:
     - name: mesh2lod
-      role: Assistant-prof.
+      role: Associate-prof.
     - name: meshannotation
-      role: Assistant-prof
+      role: Associate-prof
   email: liangliang.nan@tudelft.nl
   uuid: d3a367ae-869e-481d-96ff-b1961b6d64c9
 
