@@ -41,21 +41,6 @@ In this MSc thesis, we will try to compare the results of the two approaches and
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)
 
-
-## What is the effect of footprint uncertainty in CFD simulations?
-
-The reconstruction of urban environments strongly depends on the quality of the input data that is used. The first and essential input data is the footprints that are normally used to elevate the buildings afterwards, manually or , preferably, automatically. 
-
-In this MSc thesis the goal is to explore what are the consequences in Computational Fluid Dynamic simulations (CFD) when footprint data is biased. An example of the types of bias is included in the figure, however to define more accurately these biases we will use real world footprints and tangible uncertainties already included in the raw data. Part of the project would consider the probability approach used to represent that uncertainty. 
-
-![](img/footprint_UQ.jpg){:width="800px"}
-
-If you choose this topic, you can expect to learn about outdoor wind flows and uncertainty quantification. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python or any other language you prefer).
-
-
-**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden)
-
-
 ## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
 
 The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
@@ -149,20 +134,6 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 
 - - -
 
-## Web application for Urban Computational Fluid Dynamics Simulations Set-Up validation.
-
-Performing computational fluid dynamics (CFD) simulations in urban environments entails many pre-run set-up features that can have a drastic impact in the simulations performance. For example, the extension of the domain should be large enough to limit blockage around the buildings, or the mesh resolution should be refined enough to ensure the flow results grid independence. Many of these pre-run processes can be partially automatic, and tools that quickly check if the simulation set-up respects the CFD guidelines can be developed.
-
-In this MSc thesis we will develop a web application that allows to import CFD set-ups from users and check their compatibility with the most up to data CFD guidelines developed by the wind engineering community. The application will analyze the set-up and report back to the user with potential improvements, if needed. 
-
-If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations, as well as web development. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python) and the web interface (in HTML and JavaScript). 
-
-![](img/DomainandDirectionandMeshClean.png){:width="400px"}
-
-**Contact:** [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara).
-
-- - -
-
 ## Extension of a GIS-supported design tool for new urban development areas
 
 The thesis builds upon work carried out in previous MSc theses (e.g. [this](http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e), check out the [video](https://www.youtube.com/watch?v=cPYT5_cFIgw) ) in which a first prototype of a geodata-supported design tool for new urban development areas was created. The tool is coupled with semantic 3D city models as a source of integrated spatial and non-spatial information.
@@ -187,20 +158,6 @@ Particular attention will be paid to energy-related topics in order verify how a
 The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug tool(s) and to perform a mapping to underlying CityGML/Energy ADE data models. In addition, proper interfaces will have to be developed and tested by means of a concrete case study. This topic is available for up to *two students* (each one choosing a different application area).
 
 **Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
-
-- - -
-
-## Improving automatic meshing for buildings
-
-![](img/MeshConceptCFD.png){:width="600px"}
-Computational fluid dynamic simulations require detailed meshes that can represent obstacles features accurately. In numerical simulations, the quality of the mesh can draw the line between good and poor results. Nowadays, mesh tools are general and they are not necessarily optimised for meshing entire cities, requiring large time investments to design and improve the mesh quality.
-
-This MSc project focuses on developing an algorithm that create the mesh automatically around buildings by specifying a limited number of parameters that define the grid cells sizes. The mesh will be generated from a top-up perspective, initially extruding the geometrical edges to create cell layers close to the buildings. The approach will be first tested in 2D single and multiple building geometries.
-
-Knowledge of programming in python is required.
-Following elective course GEO5013 is an advantage.
-
-**Contact:** [Clara Garcia-Sanchez](mailto:C.Garcia-Sanchez@tudelft.nl) and [Hugo Ledoux](http://tudelft.nl/hledoux)
 
 - - -
 
