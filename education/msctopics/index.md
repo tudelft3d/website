@@ -26,6 +26,8 @@ If you choose this topic, you can expect to learn about UHI and urban morphology
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster/)
 
+- - -
+
 ## Coupled and decoupled simulations of urban wind flow for indoor natural ventilation modelling
 
 Urban wind flow is an important factor in the efficiency of the indoor natural ventilation, which is becoming a really essential ventilation strategy under the current pandemic life environment.
@@ -41,6 +43,8 @@ In this MSc thesis, we will try to compare the results of the two approaches and
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)
 
+- - -
+
 ## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
 
 The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
@@ -52,6 +56,8 @@ It is expected that this implementation will include the development of a softwa
 Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
 
 **Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
 
 ## Urban energy simulations linking CitySim with the 3DCityDB 
 
@@ -66,6 +72,8 @@ You will programm in Python and in PL/pgSQL.
 Before picking the topic, please contact us!
 
 **Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
 
 ## Using urban morphology to optimize biking and running routes in cities?
 
