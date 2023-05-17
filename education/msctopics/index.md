@@ -13,6 +13,24 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+## Random City Engine 
+
+The ability to generate a stochastic [random] urban landscape can enable a wide range of engineering activities: testing processing code, prototyping building characterisation codes, parameter dimensionality reduction for Computational Fluid Dynamics [CFD] studies, and animation/gaming sectors. 
+
+In this MSc thesis, you will work on procedural modelling of 3D cities using a three-fold approach: 
+
+- Literature Review: Explore the existing literature to determine the parameters of interest necessary to characterise the urban landscapes using limited number of parametric inputs.  Here the central focus is to capture the essential “ingredients” required to generate a synthetic cityscape that is similar to real cities (similar heights of buildings and distribution) 
+
+- Stochastic Characterisation: In this step, you will develop a code to study the 3DBAG dataset and stochastically characterise various cities. Using the parameters of interest found in the literature review, a probabilistic characterisation should be developed. 
+
+- Procedural Modelling: Using the probabilistic characterisations formulated in the second step, you will implement a model to procedurally create new cities that are stochastically similar to the cities analysed in the second step. Here you will validate the method extensively by testing input parameters such as sampling size, clustering, canopy density,  etc. 
+
+Skills required: Python programming + GEO1004.
+
+![](img/randomCityEngine.png){:width="800px"}
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Akshay Patil](https://3d.bk.tudelft.nl/apatil/)
+
 ## Visualizing tiled 3D data on the web
 
 Vector-based maps, like the open-source [MapLibre](https://maplibre.org), have been established as the de-facto standard in the industry for world-wide map data visualization.
