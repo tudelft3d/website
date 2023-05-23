@@ -13,6 +13,22 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+## Coral Reef Complexity
+
+Corals [cnidarians] provide a safe and nutrient-rich environment for various aquatic organisms to coexist, significantly enhancing local biodiversity. However, global coral reef health has been in decline over the past few decades due to increased ocean acidification. Consequently, there is a growing scientific interest in understanding the life cycle of corals. One aspect of coral reefs is the connection between coral reef complexity and coral health. From a hydrodynamic perspective, there is growing evidence that the coral complexity [i.e., fractal dimension] acts to increase the mass transfer rate that enables the growth of coral communities; both isolated coral reefs, and collective communities (Monismith, 2006).
+
+In this MSc thesis you will work on spatially characterising the coral reef communities using  urban geoinformation tools to provide conventional metrics such as clustering, dimension, roughness, etc. These metrics can be used to understand any correlations between the health of the coral reef and the spatial characteristics. Additionally, characterising the spatial features of coral reefs can enable flow simulations to better understand the hydrodynamics as shown in the figure below. The thesis will broadly consist of the following three steps:
+
+- Literature review: A thorough literature survey to understand the state of the art for characterising coral reef complexity and its connection to coral health.
+- Data curation: Database search for coral reef point clouds (yes, we scan corals!) that are freely available. A good starting point would be USGS [https://cmgds.marine.usgs.gov/data-releases/datarelease/10.5066-P93RIIG9/], The Smithsonians digitisation collection [https://3d.si.edu/corals].
+- Algorithm development: Develop independent morphology algorithms to characterise individual coral and coral reefs similar to urban planning metrics. A good starting point would be the metrics you implemented for GEO1004, Homework 02.  e.g., EUBUCCO [https://github.com/ai4up/eubucco], 3D-Building metrics [https://github.com/tudelft3d/3d-building-metrics] 
+
+Skills required: Python programming and GEO1004
+
+![](img/coral.png){:width="800px"}
+
+**Contact:** [Akshay Patil](https://3d.bk.tudelft.nl/apatil/), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
 ## Random City Engine 
 
 The ability to generate a stochastic [random] urban landscape can enable a wide range of engineering activities: testing processing code, prototyping building characterisation codes, parameter dimensionality reduction for Computational Fluid Dynamics [CFD] studies, and animation/gaming sectors. 
