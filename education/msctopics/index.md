@@ -77,6 +77,14 @@ If you choose this topic, you can expect to learn about UHI and urban morphology
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster/)
 
 - - -
+## Development on quality assessment of point cloud datasets
+Rijkswaterstaat is transitioning into a data-driven organization, with 3D point cloud data playing a crucial role in the work processes and digital twin vision. The focus of this MSc thesis is to research the possibilities for validating the quality of point clouds received from large infrastructure projects like for instance the Moerdijkbrug or tunnels in the area of Rotterdam. If you choose this topic, you will work in the Department of Advice and Validation of Geodata, with access to real-life data products and the opportunity to contribute to the digital twin & Intergal Heightdataset of the Netherlands (IHN) research projects.
+
+Programming experience and interest is an advantage for this topic. Your work might require to implement source code for the analysis on different point clouds (in C++, Python or any other language you prefer).
+
+![](img/IHN_mscthesis.PNG){:width="800px"}
+
+**Contact:** [Daan van der Heide](https://3d.bk.tudelft.nl/dvdheide/)
 
 ## Coupled and decoupled simulations of urban wind flow for indoor natural ventilation modelling
 
