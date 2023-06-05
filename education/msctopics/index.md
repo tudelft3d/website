@@ -78,9 +78,9 @@ If you choose this topic, you can expect to learn about UHI and urban morphology
 
 - - -
 ## Development on quality assessment of point cloud datasets
-Rijkswaterstaat is transitioning into a data-driven organization, with 3D point cloud data playing a crucial role in the work processes and digital twin vision. The focus of this MSc thesis is to research the possibilities for validating the quality of point clouds received from large infrastructure projects like for instance the Moerdijkbrug or tunnels in the area of Rotterdam. If you choose this topic, you will work in the Department of Advice and Validation of Geodata, with access to real-life data products and the opportunity to contribute to the digital twin & Intergal Heightdataset of the Netherlands (IHN) research projects.
+Rijkswaterstaat is transitioning into a data-driven organization, with 3D point cloud data playing a crucial role in the work processes and digital twin vision. The focus of this MSc thesis is to research the possibilities for validating the quality of point clouds received from large infrastructure projects like the Moerdijkbridge zone or tunnels in the area of Rotterdam. The effectiveness of the current research project, which focuses on merging different 3D point clouds into the Integrated Heightdataset of the Netherlands (IHN), relies on the validation process as a key component. Hence if you choose this topic, you will have the opportunity to work for the Department of Advice and Validation of Geodata at Rijkswaterstaat, with access to numerous amount of elevation data products and the opportunity to contribute to the digital twin & IHN research projects.
 
-Programming experience and interest is an advantage for this topic. Your work might require to implement source code for the analysis on different point clouds (in C++, Python or any other language you prefer).
+Programming experience and interest is an advantages for this topic. Your work might require to implement source code for the analysis on different large point clouds (in C++, Python or any other language you prefer).
 
 ![](img/IHN_mscthesis.PNG){:width="800px"}
 
