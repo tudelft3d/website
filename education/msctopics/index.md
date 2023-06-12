@@ -13,6 +13,38 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+## Text Guided 3D Editting of Architectural Models
+
+Architecture is a complex field that requires a lot of effort and time to create detailed models that can be used for planning and visualization. Editing the geometry of such models can be a time-consuming and challenging task. The emergence of modern generative AI methods has opened up new possibilities in the field of architecture. The use of AI tools can enable architects and designers to make changes quickly and efficiently. However, the use of AI methods in the field of architecture is still in its infancy. The proposed project aims to explore the potential of modern generative AI methods in the field of architecture by developing a tool that can perform geometry editing using text prompts. The project will leverage the power of Clip, Diffusion, and MVS/NeRF/Neural Rendering to create a text-guided geometry/radiance/implicit fields editing tool. The tool will be tested on built scenes and/or architectural models to enable it to make changes to the model based on text prompts accurately. The resulting source code will be made available open source to maximize the educational value.
+
+The aim of the project is to explore the idea that may allow strong geometrical changes to be made to architectural models with ease, including changing window shapes, roof shapes, and structural styles such as ancient roman or Parthenon. The project aims to develop a text-guided geometry/radiance fields editing tool that can be used to make significant changes to architectural/built models conditioned on the text prompts.
+
+![](img/Text2Arch.jpg){:width="800px"}
+
+
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/)
+
+
+## Enhancing 3D City Models with Neural Representations
+The availability of high-resolution aerial images and point clouds has revolutionized the creation of 3D city models. However, these models often suffer from noise and lack fine geometric details that are clearly visible in the images. This project proposes a novel approach to address this limitation by avoiding premature reduction of the triangulated 3D point cloud into a height field or surface mesh. Instead, student will propose a neural representation of the 3D city model as an implicit, continuous occupancy field, utilizing learned multi-modal embeddings of the point cloud and ortho-photos/nadir views.
+
+The main objective of this project is to demonstrate that this neural representation enables the extraction of high-quality Digital Surface Models (DSMs) with accurate building reconstruction. The reconstructed models will capture intricate roof details, exhibit smooth surfaces. Additionally, student will leverage segmentation tools to explore the potential of extracting local information from image embeddings. Moreover, student will aim to learn local geometric priors from point clouds to enhance point cloud completeness and enable fine-grained DSM reconstruction.
+
+By adopting this innovative approach, we anticipate significant improvements in the quality of 3D city models, providing more detailed and accurate representations of urban environments. The results obtained from this project will contribute to advancements in urban planning, architecture, and various applications requiring precise 3D city models.
+
+### **Goal**
+The goal of the project is to develop a novel approach for enhancing the quality of 3D city models by utilizing neural representations and multi-modal embeddings. The project aims to demonstrate that this approach enables the extraction of high-quality Digital Surface Models (DSMs) with accurate building reconstruction, capturing intricate details, smooth surfaces. Additionally, the project seeks to explore the extraction of local information from image embeddings and learn geometric priors from point clouds to improve point cloud completeness and fine-grained DSM reconstruction.
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/Enhance3D.png" alt="High abstraction" width="300" height="300" />
+</div>
+
+Before contacting us, please refer to this [link](https://drive.google.com/file/d/1dgsqIuxNvuWPBWCYpBgnJ5JXSYNnbamP/view) for more details if you are considering.
+
+
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Ken Arroyo Ohori](http://3d.bk.tudelft.nl/ken)
+
+
 ## Coral Reef Complexity
 
 Corals [cnidarians] provide a safe and nutrient-rich environment for various aquatic organisms to coexist, significantly enhancing local biodiversity. However, global coral reef health has been in decline over the past few decades due to increased ocean acidification. Consequently, there is a growing scientific interest in understanding the life cycle of corals. One aspect of coral reefs is the connection between coral reef complexity and coral health. From a hydrodynamic perspective, there is growing evidence that the coral complexity [i.e., fractal dimension] acts to increase the mass transfer rate that enables the growth of coral communities; both isolated coral reefs, and collective communities (Monismith, 2006).
