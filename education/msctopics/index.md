@@ -22,6 +22,9 @@ The aim of the project is to explore the idea that may allow strong geometrical 
 ![](img/Text2Arch.jpg){:width="800px"}
 
 
+Before contacting, please refer to this [link](https://drive.google.com/file/d/1AekjE8v41nRjfj1UoXd4OcqXzROCLoas/view) for more details if you are considering.
+
+
 **Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/)
 
 
@@ -569,22 +572,3 @@ This MSc these aims to evaluate the suitability of the 3D BAG to support the aut
 **Contact:** [Giorgia Giardina ](https://www.tudelft.nl/en/ceg/about-faculty/departments/geoscience-engineering/sections/geo-engineering/staff/academic-staff/giardina-g) + [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 
-
-- - -
-
-## Mesh reconstruction and indoor ventilation from images
-
-**Multi-View Stereo** infers the dense 3D geometry from a set of calibrated image views. It is one of the main components of 3D reconstruction pipelines. Since 2015, deep learning has been increasingly used to solve several 3D vision problems due to its predominating performance, and since 2017 learning-based multi-view stereo problems has become a hot topic due to the robustness of CNN to scene variations.
-
-**Neural Radiance Fields**  is a method that achieves state-of-the-art results for synthesizing novel views of complex scenes by optimizing an underlying continuous volumetric scene function using a set of input views.
-
-### **Goal**
-This project is divided in two parts. First, it will address the challenge of reconstructing 3D indoor scenes from a set of images. Current photogrammetry approaches have shown accurate and complete reconstruction results on textured objects while struggling with man-made textureless planar environments like man-made spaces. The main goal of this project is to incorporate planar constraints into the learning-based 3D reconstruction pipeline where the final output will be complete and accurate mesh. The second objective of this project is to use the reconstructed mesh furniture to run an indoor ventilation CFD simulation and evaluate the results with the reconstructed mesh.
-
-
-![High abstraction](./img/manhattan_sdf.png)
-
-
-Before contacting us, please refer to this [link](https://drive.google.com/file/d/1X820ZjlahRRdEbcqB2rH6t31gX3ZYoqb/view) for more details if you are considering.
-
-**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)
