@@ -116,7 +116,7 @@ Programming experience and interest is an advantages for this topic. Your work m
 
 ![](img/IHN_mscthesis.PNG){:width="800px"}
 
-**Contact:** [Daan van der Heide](https://3d.bk.tudelft.nl/dvdheide/)
+**Contact:** [Daan van der Heide](https://3d.bk.tudelft.nl/dvdheide/),  [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 ## Coupled and decoupled simulations of urban wind flow for indoor natural ventilation modelling
 
