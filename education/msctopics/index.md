@@ -488,7 +488,7 @@ For more information about this project, please refer to [this document](https:/
 ---
 
 ## Image-guided automatic artistic route finding
-![](img/route_finding.png){:width="600px"}
+![](img/route.png){:width="600px"}
 
 Creating artistic routes requires tedious user interaction and is not friendly for 
 non-artist users. This project aims at automating artistic route creation by image 
@@ -505,6 +505,9 @@ the similarity between the route and the abstracted image)? How to evaluate the 
 quality of the generated route?
 * How to incorporate user preferences into route creation, e.g., a desired total length, 
 preferred start point and endpoint, and must-have route segment(s)?
+
+**Note**: a preliminary research has been done in 2023 (see [here](http://resolver.tudelft.nl/uuid:11e9b0c2-5d67-475a-8653-71c7afe03dad)).
+This project will explore more intelligent and elegant solutions.
 
 **Required skills**:
 (1) Proficient in programming (C++ preferred but Python also fine). (2) Familiar with graph theory and computational geometry.
