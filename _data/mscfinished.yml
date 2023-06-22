@@ -1,3 +1,11 @@
+- surname: Zhang
+  name: Fengyan
+  title: Snap rounding polygons with a triangulation
+  image: 2023_zhang.jpg
+  github: https://github.com/zfengyan/snapoly
+  link: https://3d.bk.tudelft.nl/ken/files/23_fengyan.pdf
+  year: 2023
+
 - surname: Powalka
   name: Leon
   title: Image-guided automatic artistic route finding
