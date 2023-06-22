@@ -509,9 +509,6 @@ preferred start point and endpoint, and must-have route segment(s)?
 **Required skills**:
 (1) Proficient in programming (C++ preferred but Python also fine). (2) Familiar with graph theory and computational geometry.
 
-[//]: # (<span style="color:red"> <strong> Attention</strong>:)
-[//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
-
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 ---
@@ -524,7 +521,22 @@ Reconstructing 3D models of permanent structures of indoor scenes has many appli
 
 **Required Skills**:
 (1) Proficient and enthusiastic in programming. (2) Familiar with the theory of photogrammetry/3DV and experience in geometry processing.
-<span style="color:red"> <strong> 
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+---
+
+## BuildingNet: a multi-modality, feature-rich, large-scale, and detailed 3D building dataset
+
+![](img/building_net.jpg){:width="600px"}
+
+Deep learning research has facilitated significant advancements in large-scale urban scene understanding and reconstruction. However, current methods are limited to a coarse level of scene perception and 3D reconstruction. To bridge this gap and propel research and applications to the next level, fine-grained understanding and 3D reconstruction of urban buildings are necessary. Unfortunately, the lack of suitable datasets for training powerful neural networks hinders progress in this area.
+This research aims to address this gap by introducing BuildingNet, a multi-modality, feature-rich, large-scale, and detailed 3D building dataset. BuildingNet encompasses 3D building models at LoD3+ level, corresponding point clouds, multi-view images, camera parameters, and wireframe models for several expansive urban scenes. Additionally, BuildingNet provides fine-grained annotations at the semantic, instance, and part levels for all modalities.
+By providing these multi-modal data sources and rich correspondences between different modalities, BuildingNet will catalyze deep learning-based research in urban scene understanding and enable highly automated and detailed 3D building reconstruction.
+
+**Required Skills**:
+Proficient and enthusiastic in 3D modeling, machine learning, and programming.
+<span style="color:red"> <strong>
 
 [//]: # (Attention</strong>:)
 [//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
