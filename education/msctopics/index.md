@@ -14,6 +14,17 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## The effects of building model automatic reconstruction methods for CFD simulations
+
+The digitalization of the architecture and the build environment means that there is a new wealth of digital data that can help generate city scale models. However, not all these sources allow for models to be created of the same quality. The effects of different quality or alternatively abstracted models on CFD has been sparsely evaluated. Even more rare is the evaluation of models that fall outside of the established LoD frameworks e.g., voxelated and marching cubed models.
+ 
+In this thesis these different models and their effects on CFD simulations will be evaluated. Based on these results it might be possible to do suggestions or set up rules to describe viable models that can be used for CFD processing. Extensions to other parts of City analysis could be made as well if desired.
+
+![](img/BIM_CFD.gif){:width="800px"}
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/)
+
+- - -
 ## Linking Urban Heat Island effects with 3D urban morphology
 
 With the increase in urbanization and gentifrication the Urban Heat Island (UHI) effect is becoming a priority concern for many cities and municipalities. As such several studies have been recently published linking urban morphology and plausible UHI remedies such as green roofs, for example. 
