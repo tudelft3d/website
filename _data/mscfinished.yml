@@ -1,3 +1,26 @@
+- surname: Zhang
+  name: Fengyan
+  title: Snap rounding polygons with a triangulation
+  image: 2023_zhang.jpg
+  github: https://github.com/zfengyan/snapoly
+  link: https://3d.bk.tudelft.nl/ken/files/23_fengyan.pdf
+  year: 2023
+
+- surname: Powalka
+  name: Leon
+  title: Image-guided automatic artistic route finding
+  image: 2023_LeonPowalka.jpg
+  link: http://resolver.tudelft.nl/uuid:11e9b0c2-5d67-475a-8653-71c7afe03dad
+  year: 2023
+
+- surname: Yan
+  name: Lan
+  title: Extraction of Exterior Building Envelopes from Building Information Models
+  image: lanyan.png
+  link: https://3d.bk.tudelft.nl/ken/files/23_lan.pdf
+  github: https://github.com/tudelft3d/Building_Envelope
+  year: 2023
+
 - surname: Meschin
   name: Katrin
   title: Canopy gap fraction estimation from ICESat-2 ATL08 product

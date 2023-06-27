@@ -1,8 +1,3 @@
-- surname: Powalka
-  name: Leon
-  title: Image-guided automatic artistic route finding
-  image: 2023_LeonPowalka.jpg
-  
 - surname: Poon
   name: Hoi-Kang (Chris)
   title: Inferring the residential building type from 3DBAG
@@ -18,11 +13,6 @@
   title: Urban computational fluid dynamics simulations set-up validations
   image: 2023_hengelmolen.jpg
 
-- surname: Zhang
-  name: Fengyan
-  title: Snap rounding in a triangulation
-  image: 2023_zhang.jpg
-
 - surname: Dong
   name: Haoyang
   title: Correcting global elevation models for canopy and infrastructure using convolutional neural networks
@@ -32,11 +22,6 @@
 #   name: Constantijn
 #   title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
 #   image: 3ccebc69c5d0-P1_foto.JPG
-
-- surname: Yan
-  name: Lan
-  title: Extraction of building envelope from IFC
-  image: lanyan.png
 
 - surname: Xia
   name: Yitong

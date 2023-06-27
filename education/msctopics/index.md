@@ -13,6 +13,91 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
+## Text Guided 3D Editting of Architectural Models
+
+Architecture is a complex field that requires a lot of effort and time to create detailed models that can be used for planning and visualization. Editing the geometry of such models can be a time-consuming and challenging task. The emergence of modern generative AI methods has opened up new possibilities in the field of architecture. The use of AI tools can enable architects and designers to make changes quickly and efficiently. However, the use of AI methods in the field of architecture is still in its infancy. The proposed project aims to explore the potential of modern generative AI methods in the field of architecture by developing a tool that can perform geometry editing using text prompts. The project will leverage the power of Clip, Diffusion, and MVS/NeRF/Neural Rendering to create a text-guided geometry/radiance/implicit fields editing tool. The tool will be tested on built scenes and/or architectural models to enable it to make changes to the model based on text prompts accurately. The resulting source code will be made available open source to maximize the educational value.
+
+The aim of the project is to explore the idea that may allow strong geometrical changes to be made to architectural models with ease, including changing window shapes, roof shapes, and structural styles such as ancient roman or Parthenon. The project aims to develop a text-guided geometry/radiance fields editing tool that can be used to make significant changes to architectural/built models conditioned on the text prompts.
+
+![](img/Text2Arch.jpg){:width="800px"}
+
+
+Before contacting, please refer to this [link](https://drive.google.com/file/d/1AekjE8v41nRjfj1UoXd4OcqXzROCLoas/view) for more details if you are considering.
+
+
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/)
+
+
+## Enhancing 3D City Models with Neural Representations
+The availability of high-resolution aerial images and point clouds has revolutionized the creation of 3D city models. However, these models often suffer from noise and lack fine geometric details that are clearly visible in the images. This project proposes a novel approach to address this limitation by avoiding premature reduction of the triangulated 3D point cloud into a height field or surface mesh. Instead, student will propose a neural representation of the 3D city model as an implicit, continuous occupancy field, utilizing learned multi-modal embeddings of the point cloud and ortho-photos/nadir views.
+
+The main objective of this project is to demonstrate that this neural representation enables the extraction of high-quality Digital Surface Models (DSMs) with accurate building reconstruction. The reconstructed models will capture intricate roof details, exhibit smooth surfaces. Additionally, student will leverage segmentation tools to explore the potential of extracting local information from image embeddings. Moreover, student will aim to learn local geometric priors from point clouds to enhance point cloud completeness and enable fine-grained DSM reconstruction.
+
+By adopting this innovative approach, we anticipate significant improvements in the quality of 3D city models, providing more detailed and accurate representations of urban environments. The results obtained from this project will contribute to advancements in urban planning, architecture, and various applications requiring precise 3D city models.
+
+### **Goal**
+The goal of the project is to develop a novel approach for enhancing the quality of 3D city models by utilizing neural representations and multi-modal embeddings. The project aims to demonstrate that this approach enables the extraction of high-quality Digital Surface Models (DSMs) with accurate building reconstruction, capturing intricate details, smooth surfaces. Additionally, the project seeks to explore the extraction of local information from image embeddings and learn geometric priors from point clouds to improve point cloud completeness and fine-grained DSM reconstruction.
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/Enhance3D.png" alt="High abstraction" width="300" height="300" />
+</div>
+
+Before contacting us, please refer to this [link](https://drive.google.com/file/d/1dgsqIuxNvuWPBWCYpBgnJ5JXSYNnbamP/view) for more details if you are considering.
+
+
+**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Ken Arroyo Ohori](http://3d.bk.tudelft.nl/ken)
+
+
+## Coral Reef Complexity
+
+Corals [cnidarians] provide a safe and nutrient-rich environment for various aquatic organisms to coexist, significantly enhancing local biodiversity. However, global coral reef health has been in decline over the past few decades due to increased ocean acidification. Consequently, there is a growing scientific interest in understanding the life cycle of corals. One aspect of coral reefs is the connection between coral reef complexity and coral health. From a hydrodynamic perspective, there is growing evidence that the coral complexity [i.e., fractal dimension] acts to increase the mass transfer rate that enables the growth of coral communities; both isolated coral reefs, and collective communities (Monismith, 2006).
+
+In this MSc thesis you will work on spatially characterising the coral reef communities using  urban geoinformation tools to provide conventional metrics such as clustering, dimension, roughness, etc. These metrics can be used to understand any correlations between the health of the coral reef and the spatial characteristics. Additionally, characterising the spatial features of coral reefs can enable flow simulations to better understand the hydrodynamics as shown in the figure below. The thesis will broadly consist of the following three steps:
+
+- Literature review: A thorough literature survey to understand the state of the art for characterising coral reef complexity and its connection to coral health.
+- Data curation: Database search for coral reef point clouds (yes, we scan corals!) that are freely available. A good starting point would be USGS [https://cmgds.marine.usgs.gov/data-releases/datarelease/10.5066-P93RIIG9/], The Smithsonians digitisation collection [https://3d.si.edu/corals].
+- Algorithm development: Develop independent morphology algorithms to characterise individual coral and coral reefs similar to urban planning metrics. A good starting point would be the metrics you implemented for GEO1004, Homework 02.  e.g., EUBUCCO [https://github.com/ai4up/eubucco], 3D-Building metrics [https://github.com/tudelft3d/3d-building-metrics] 
+
+Skills required: Python programming and GEO1004
+
+![](img/coral.png){:width="800px"}
+
+**Contact:** [Akshay Patil](https://3d.bk.tudelft.nl/apatil/), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+## Random City Engine 
+
+The ability to generate a stochastic [random] urban landscape can enable a wide range of engineering activities: testing processing code, prototyping building characterisation codes, parameter dimensionality reduction for Computational Fluid Dynamics [CFD] studies, and animation/gaming sectors. 
+
+In this MSc thesis, you will work on procedural modelling of 3D cities using a three-fold approach: 
+
+- Literature Review: Explore the existing literature to determine the parameters of interest necessary to characterise the urban landscapes using limited number of parametric inputs.  Here the central focus is to capture the essential “ingredients” required to generate a synthetic cityscape that is similar to real cities (similar heights of buildings and distribution) 
+
+- Stochastic Characterisation: In this step, you will develop a code to study the 3DBAG dataset and stochastically characterise various cities. Using the parameters of interest found in the literature review, a probabilistic characterisation should be developed. 
+
+- Procedural Modelling: Using the probabilistic characterisations formulated in the second step, you will implement a model to procedurally create new cities that are stochastically similar to the cities analysed in the second step. Here you will validate the method extensively by testing input parameters such as sampling size, clustering, canopy density,  etc. 
+
+Skills required: Python programming + GEO1004.
+
+![](img/randomCityEngine.png){:width="800px"}
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Akshay Patil](https://3d.bk.tudelft.nl/apatil/)
+
+## Visualizing tiled 3D data on the web
+
+Vector-based maps, like the open-source [MapLibre](https://maplibre.org), have been established as the de-facto standard in the industry for world-wide map data visualization.
+There is a robust toolchain for creating, styling and visualizing 2D data (through vector tiles) but no standardized way to do so in 3D.
+
+In this MSc thesis you will investigate the possibility of integrating (true) 3D data in MapLibre, by potentially integrating an existing open standard like 3D Tiles to MapLibre GL JS.
+The topic can be focused to either the data processing and management part (evaluating different standards, developing a solution to create tiled sources of 3D data) or the visualization part (extending MapLibre GL JS to incorporate some existing format, like 3D tiles).
+
+Knowledge of programming in either Python (for data processing) or JavaScript/TypeScript (preferably with WebGL or three.js) is required for this thesis.
+
+**Contact:** [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis), [Ken Arroyo Ohori](https://ken.mx)
+
+This thesis is in collaboration with TomTom.
+
+![](img/landmarks-3d.png){:width="800px"}
+
 - - -
 ## The effects of building model automatic reconstruction methods for CFD simulations
 
@@ -38,6 +123,14 @@ If you choose this topic, you can expect to learn about UHI and urban morphology
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster/)
 
 - - -
+## Development on quality assessment of point cloud datasets
+Rijkswaterstaat is transitioning into a data-driven organization, with 3D point cloud data playing a crucial role in the work processes and digital twin vision.The effectiveness of the current research project, which focuses on merging different 3D point clouds into the Integrated Heightdataset of the Netherlands (IHN), relies on the validation process as a key component. Therefore the focus of this MSc thesis is to research the possibilities for validating the quality of point clouds received from large infrastructure projects like the Moerdijkbridge zone or tunnels in the area of Rotterdam. If you choose this topic, you will have the opportunity to work for the Department of Advice and Validation of Geodata at Rijkswaterstaat, with access to numerous amount of elevation data products and the opportunity to contribute to the digital twin & IHN research projects.
+
+Programming experience and interest is an advantages for this topic. Your work might require to implement source code for the analysis on different large point clouds (in C++, Python or any other language you prefer).
+
+![](img/IHN_mscthesis.PNG){:width="800px"}
+
+**Contact:** [Daan van der Heide](https://3d.bk.tudelft.nl/dvdheide/),  [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 ## Coupled and decoupled simulations of urban wind flow for indoor natural ventilation modelling
 
@@ -406,7 +499,7 @@ For more information about this project, please refer to [this document](https:/
 ---
 
 ## Image-guided automatic artistic route finding
-![](img/route_finding.png){:width="600px"}
+![](img/route.png){:width="600px"}
 
 Creating artistic routes requires tedious user interaction and is not friendly for 
 non-artist users. This project aims at automating artistic route creation by image 
@@ -424,28 +517,42 @@ quality of the generated route?
 * How to incorporate user preferences into route creation, e.g., a desired total length, 
 preferred start point and endpoint, and must-have route segment(s)?
 
+**Note**: a preliminary research has been done in 2023 (see [here](http://resolver.tudelft.nl/uuid:11e9b0c2-5d67-475a-8653-71c7afe03dad)).
+This project will explore more intelligent and elegant solutions.
+
 **Required skills**:
 (1) Proficient in programming (C++ preferred but Python also fine). (2) Familiar with graph theory and computational geometry.
-
-[//]: # (<span style="color:red"> <strong> Attention</strong>:)
-[//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 ---
 
-## Reconstructing permanent structures of textureless indoor scenes from multi-view images
+## Reconstructing permanent indoor structures from multi-view images
 
 ![](img/textureless_indoor.png){:width="600px"}
 
-Reconstructing 3D models of permanent structures of indoor scenes has many applications, e.g., renovation, navigation, and room layout design and planning. Traditionally methods require dedicated devices (e.g., laser scanners) to capture the indoor environments, which is only affordable to very limited users.  They also require carefully positioning a scanner and registering the point clouds obtained at different locations. Recently developed image-based methods (i.e., MVS and its variants) are successful in the reconstruction of large-scale outdoor environments, but the major obstacle to applying such methods to indoor scenes is the lack of rich textures in indoor scenes, and thus insufficient image correspondences can be established derive 3D geometry. This project focuses on exploring piece-wise planar prior knowledge about indoor scenes to achieve patch (i.e., planar region) correspondences between images. The core is to extend the existing multi-view theoretical framework to incorporate piecewise planar constraints in the reconstruction pipeline. The developed technique will enable the 3D surface reconstruction of not only texture-less indoor scenes but also low-texture piecewise planar objects in general.
+Reconstructing 3D models of permanent structures of indoor scenes has many applications, e.g., renovation, navigation, and room layout design and planning. Traditionally methods require dedicated devices (e.g., laser scanners) to capture the indoor environments, which is only affordable to very limited users.  They also require carefully positioning a scanner and registering the point clouds obtained at different locations. Recently developed image-based methods (i.e., MVS and its variants) are successful in the reconstruction of large-scale outdoor environments, but the major obstacle to applying such methods to indoor scenes is the lack of rich textures in indoor scenes, and thus insufficient image correspondences can be established to derive 3D geometry. This project focuses on exploring piece-wise planar prior knowledge about indoor scenes to achieve patch (i.e., planar region) correspondences between images. The core is to extend the existing multi-view theoretical framework to incorporate piecewise planar constraints in the reconstruction pipeline. The developed technique will enable the 3D surface reconstruction of not only texture-less indoor scenes but also low-texture piecewise planar objects in general.
 
-**Required Skills**:
-(1) Proficient and enthusiastic in programming. (2) Familiar with the theory of photogrammetry/3DV and experience in geometry processing.
-<span style="color:red"> <strong> 
+**Required skills**:
+(1) Proficient in programming. (2) Enthusiastic about 3DV modeling and geometry processing.
 
-[//]: # (Attention</strong>:)
-[//]: # (You must discuss your ideas with the supervisor before this topic can be offered to you.</span>)
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+---
+
+## BuildingBlocks: Enhancing 3D urban understanding and reconstruction with a comprehensive multi-modal dataset
+
+![](img/building_blocks.jpg){:width="600px"}
+
+Deep learning research has facilitated significant advancements in large-scale urban scene understanding and reconstruction. However, current methods are limited to coarse levels of scene perception and 3D reconstruction. To bridge this gap and propel research and applications to the next level, fine-grained understanding and 3D reconstruction of urban buildings are necessary. Unfortunately, the lack of suitable datasets for training powerful neural networks hinders progress in this area.
+
+This research aims to bridge this gap by introducing BuildingBlocks, a multi-modal, feature-rich, large-scale, and detailed 3D building dataset. BuildingBlocks encompasses 3D building models at LoD3+ levels, corresponding point clouds, multi-view images, camera parameters, and wireframe models for several expansive urban scenes, with fine-grained annotations at the semantic, instance, and part levels for all modalities.
+With these multi-modal data sources and rich correspondences between different modalities, this project will benchmark state-of-the-art methods and develop novel techniques for highly automated and detailed 3D building reconstruction.
+
+In short, BuildingBlocks will provide a valuable resource for advancing research in deep learning-based urban understanding and 3D reconstruction, enabling fine-grained analysis and detailed modeling of urban buildings for various applications.
+
+**Required skills**:
+(1) Proficient in programming. (2) Enthusiastic about 3D modeling and deep learning.
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
@@ -490,22 +597,3 @@ This MSc these aims to evaluate the suitability of the 3D BAG to support the aut
 **Contact:** [Giorgia Giardina ](https://www.tudelft.nl/en/ceg/about-faculty/departments/geoscience-engineering/sections/geo-engineering/staff/academic-staff/giardina-g) + [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 
-
-- - -
-
-## Mesh reconstruction and indoor ventilation from images
-
-**Multi-View Stereo** infers the dense 3D geometry from a set of calibrated image views. It is one of the main components of 3D reconstruction pipelines. Since 2015, deep learning has been increasingly used to solve several 3D vision problems due to its predominating performance, and since 2017 learning-based multi-view stereo problems has become a hot topic due to the robustness of CNN to scene variations.
-
-**Neural Radiance Fields**  is a method that achieves state-of-the-art results for synthesizing novel views of complex scenes by optimizing an underlying continuous volumetric scene function using a set of input views.
-
-### **Goal**
-This project is divided in two parts. First, it will address the challenge of reconstructing 3D indoor scenes from a set of images. Current photogrammetry approaches have shown accurate and complete reconstruction results on textured objects while struggling with man-made textureless planar environments like man-made spaces. The main goal of this project is to incorporate planar constraints into the learning-based 3D reconstruction pipeline where the final output will be complete and accurate mesh. The second objective of this project is to use the reconstructed mesh furniture to run an indoor ventilation CFD simulation and evaluate the results with the reconstructed mesh.
-
-
-![High abstraction](./img/manhattan_sdf.png)
-
-
-Before contacting us, please refer to this [link](https://drive.google.com/file/d/1X820ZjlahRRdEbcqB2rH6t31gX3ZYoqb/view) for more details if you are considering.
-
-**Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)

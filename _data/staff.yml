@@ -30,8 +30,8 @@
   email: n.hobeika@tudelft.nl
   description: "Data-driven design tool for healthy indoor spaces."
 
-- surname: Leon Sánchez
-  name: Camilo Alexander
+- surname: León-Sánchez
+  name: Camilo
   title: PhD candidate
   photo: camilo.jpg
   homepage: 3d.bk.tudelft.nl/cleon
@@ -196,7 +196,7 @@
   I am fulfilling/have fulfilled several roles in the Open Geospatial Consortium and the European Spatial Data Research association.
   I am a member of the editorial boards of several journals: [CEUS](http://www.journals.elsevier.com/computers-environment-and-urban-systems/), the [Geography Journal](http://www.hindawi.com/journals/geography/) and the [International Journal of 3D Information Modelling](http://www.irma-international.org/journal/international-journal-information-modeling-ij3dim/41967/)"
   pagetext: These are my publications since 2013. My older publications can be seen [here](https://pure.tudelft.nl/portal/en/persons/je-stoter(1f6b45c5-44ba-4745-a730-d5d3e627e3db)/publications.html).
-  photo: jantien.jpg
+  photo: jantienstoter.jpg
   email: j.e.stoter@tudelft.nl
   phone: +31 15 27 81664
   twitter: jantienstoter
@@ -245,7 +245,13 @@
   photo: lukas.jpg
   homepage: 3d.bk.tudelft.nl/lbeuster
   email: l.r.n.beuster@tudelft.nl
-  description: "Urban morphology and urban-heat island"
+  description: "I am an early stage researcher specializing in geographic data science and GIS. 
+  Currently, I hold research positions at the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/) and the 3D Geoinformation research group at TU Delft. 
+  My research focuses on climate resilience, remote sensing, and urban morphology.<br/><br/>
+  
+  My current work involves exploring sensor coverage in Amsterdam, addressing data gaps for analyzing environmental phenomena like the urban heat island (UHI) effect. 
+  I am also investigating the role of additional data sources, such as remote sensing and mobile sensing platforms, in improving coverage. 
+  Additionally, I am interested in the potential of using contextual data and urban morphology to enhance sensor coverage and make data-driven decisions."
 
 - surname: Martin
   name: Miguel

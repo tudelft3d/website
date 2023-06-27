@@ -11,6 +11,20 @@ permalink: /education/researchtopics/
 
 - - -
 
+
+## Add CityJSON export to QGIS plugin 
+
+![](img/qgis-cityjson.jpg){:width="400px"}
+
+The current [QGIS CityJSON plugin](https://github.com/cityjson/cityjson-qgis-plugin), developed by us, can only import CityJSON files to QGIS.
+
+This project would add an **export** function to it, or at least explore how it could be done and start the work.
+
+All coding is in Python.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+
 ## Implement a cjio operator to de-triangulate CityJSON files 
 
 ![](img/cjtri.jpg){:width="400px"}
