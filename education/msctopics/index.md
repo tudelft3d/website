@@ -15,6 +15,38 @@ permalink: /education/msctopics/
 
 - - -
 
+## Adding support for CityGML 3.0 to the 3DCityDB-Tools plugin for QGIS
+
+The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). It currently supports the 3DCityDB 4.x. The next 3DCityDB v. 5.0 will introduce support CityGML 3.0. 
+The scope of this thesis is to extend to QGIS plugin in order to add support for the new version of the 3DCityDB, thus facilitating user's interaction with geodata adhering to the CityGML 3.0 standard. 
+
+![](img/3dcdb5-qgis_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and [virtualcitysystem GmbH](https://vc.systems/en/) in Germany. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2023) is suggesged, as relevant topics needed for this thesis will be covered.
+
+You will programm in Python and in PL/pgSQL.
+Before picking the topic, please contact us!
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
+## Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS
+
+[CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB).
+The scope of this thesis is to extend to QGIS plugin in order to allow for data preparation, run CitySim's energy simulations, collect and analyse of the simulation results from within QGIS by developing a GUI dialog and extending a bidirectional interface between the two software packages. A python-based first prototype of the interface was already partially developed in a thesis completed in June 2022. The ultimate goal is to allow for a seamless flow of information and to perform energy simulations in CitySim exploting the added value of a semantic 3D city model encoded using the CityGML data model.
+
+![](img/3dcdb-tools_citysim_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2023) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+You will programm in Python and in PL/pgSQL.
+Before picking the topic, please contact us!
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
 ## Text Guided 3D Editting of Architectural Models
 
 Architecture is a complex field that requires a lot of effort and time to create detailed models that can be used for planning and visualization. Editing the geometry of such models can be a time-consuming and challenging task. The emergence of modern generative AI methods has opened up new possibilities in the field of architecture. The use of AI tools can enable architects and designers to make changes quickly and efficiently. However, the use of AI methods in the field of architecture is still in its infancy. The proposed project aims to explore the potential of modern generative AI methods in the field of architecture by developing a tool that can perform geometry editing using text prompts. The project will leverage the power of Clip, Diffusion, and MVS/NeRF/Neural Rendering to create a text-guided geometry/radiance/implicit fields editing tool. The tool will be tested on built scenes and/or architectural models to enable it to make changes to the model based on text prompts accurately. The resulting source code will be made available open source to maximize the educational value.
