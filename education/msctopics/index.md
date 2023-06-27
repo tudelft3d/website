@@ -105,6 +105,8 @@ The digitalization of the architecture and the build environment means that ther
  
 In this thesis these different models and their effects on CFD simulations will be evaluated. Based on these results it might be possible to do suggestions or set up rules to describe viable models that can be used for CFD processing. Extensions to other parts of City analysis could be made as well if desired.
 
+If you choose this topic you can expect to work with building models, voxelization and computational fluid dynamic simulations performed with OpenFOAM. 
+
 ![](img/BIM_CFD.gif){:width="800px"}
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/)
