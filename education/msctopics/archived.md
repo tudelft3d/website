@@ -1,3 +1,44 @@
+## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+
+The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
+
+![](img/CityJSON+Energy.png){:width="800px"}
+
+It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Extension of a GIS-supported design tool for new urban development areas
+
+The thesis builds upon work carried out in previous MSc theses (e.g. [this](http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e), check out the [video](https://www.youtube.com/watch?v=cPYT5_cFIgw) ) in which a first prototype of a geodata-supported design tool for new urban development areas was created. The tool is coupled with semantic 3D city models as a source of integrated spatial and non-spatial information.
+The thesis will focus first on testing the existing tool and will then implement new functionalities. Possible examples are the computation of KPIs for urban analyses, 3D web-based visualisation and interaction interfaces, as well as scenarios management. The precise development focus of the thesis will be agreed upon with the student.
+
+![](img/ga_giscity_2020.jpg){:width="600px"}
+
+The research will be carried out on a selected case study and in cooperation with the Cross Domain-City of the Future graduation [studio](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/), which focuses on how to design and develop in an integrated way a transformation area into an attractive future urban environment.
+
+**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Roberto Cavallo](https://www.tudelft.nl/en/staff/r.cavallo)
+
+- - -
+
+## Coupling 3D city models with Ladybug tools for environmental analyses
+
+<img src="img/ga_ladybug.jpg" style="width: 600px;"/>
+
+The MSc thesis will focus on interoperability between the Ladybug tools and semantic 3D city models encoded in CityJSON and extended with the Energy ADE. The [Ladybug Tools](https://www.ladybug.tools/) are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines. The thesis builds upon a previous [MSc thesis](https://repository.tudelft.nl/islandora/object/uuid:fb35db7c-9af8-488c-8d0b-263b138d8fd3) completed in 2020.
+
+Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML [Energy ADE](http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE) (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.
+
+The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug tool(s) and to perform a mapping to underlying CityGML/Energy ADE data models. In addition, proper interfaces will have to be developed and tested by means of a concrete case study. This topic is available for up to *two students* (each one choosing a different application area).
+
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+- - -
+
 ## (Further) Development of a QGIS plugin for the CityGML 3D City Database
 
 The goal of the thesis is to extend and further improve a plugin for QGIS 3 to interact with the open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB, PostgreSQL/PostGIS version), which is the reference database implementation of the CityGML data model. A first version of the plugin has been developed during a MSc thesis which is scheduled to finish in June 2022.
@@ -13,6 +54,8 @@ You will program in Python and (a bit) in PL/pgSQL.
 Before picking the topic, please contact us!
 
 Contact: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
 
 ## Infer the building type from the 3DBAG 
 
@@ -32,9 +75,6 @@ Programming skills in python and SQL are required. Before picking the topic, ple
 
 - - -
 
-
-- - -
-
 ## Correcting global elevation models for canopy and infrastructure using Machine Learning
 ![](img/dsm2dtm.png){:width="400px"}
 
@@ -42,8 +82,7 @@ Most current Global Elevation Models (GDEM) are Digital Surface Models (DSM) and
 
 **Contacts:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
 
-
-
+- - -
 
 ## Building floor count determination by Convolutional Neural Network
 
@@ -55,7 +94,7 @@ In collaboration with the company [Superworld](https://www.superworld.nl), the i
 
 **Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
 
----
+- - -
 
 ## Creation of a sample dataset of construction of additional floors on top of existing building
 
@@ -67,7 +106,7 @@ In collaboration with the company [Superworld](https://www.superworld.nl), the i
 
 **Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken)
 
----
+- - -
 
 ## Extracting building/storey/dwelling/room shapes from a BIM models
 
