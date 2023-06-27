@@ -13,40 +13,6 @@ permalink: /education/msctopics/
 * Table of Content
 {:toc}
 
-- - -
-
-## Adding support for CityGML 3.0 to the 3DCityDB-Tools plugin for QGIS
-
-The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). It currently supports the 3DCityDB 4.x. The next 3DCityDB v. 5.0 will introduce support CityGML 3.0. 
-The scope of this thesis is to extend to QGIS plugin in order to add support for the new version of the 3DCityDB, thus facilitating user's interaction with geodata adhering to the CityGML 3.0 standard. 
-
-![](img/3dcdb5-qgis_mini.jpg){:width="800px"}
-
-The thesis is a collaboration between the 3DGeoinformation group and [virtualcitysystem GmbH](https://vc.systems/en/) in Germany. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2023) is suggesged, as relevant topics needed for this thesis will be covered.
-
-You will programm in Python and in PL/pgSQL.
-Before picking the topic, please contact us!
-
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
-## Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS
-
-[CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB).
-The scope of this thesis is to extend to QGIS plugin in order to allow for data preparation, run CitySim's energy simulations, collect and analyse of the simulation results from within QGIS by developing a GUI dialog and extending a bidirectional interface between the two software packages. A python-based first prototype of the interface was already partially developed in a thesis completed in June 2022. The ultimate goal is to allow for a seamless flow of information and to perform energy simulations in CitySim exploting the added value of a semantic 3D city model encoded using the CityGML data model.
-
-![](img/3dcdb-tools_citysim_mini.jpg){:width="800px"}
-
-The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2023) is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-You will programm in Python and in PL/pgSQL.
-Before picking the topic, please contact us!
-
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
 ## Text Guided 3D Editting of Architectural Models
 
 Architecture is a complex field that requires a lot of effort and time to create detailed models that can be used for planning and visualization. Editing the geometry of such models can be a time-consuming and challenging task. The emergence of modern generative AI methods has opened up new possibilities in the field of architecture. The use of AI tools can enable architects and designers to make changes quickly and efficiently. However, the use of AI methods in the field of architecture is still in its infancy. The proposed project aims to explore the potential of modern generative AI methods in the field of architecture by developing a tool that can perform geometry editing using text prompts. The project will leverage the power of Clip, Diffusion, and MVS/NeRF/Neural Rendering to create a text-guided geometry/radiance/implicit fields editing tool. The tool will be tested on built scenes and/or architectural models to enable it to make changes to the model based on text prompts accurately. The resulting source code will be made available open source to maximize the educational value.
@@ -55,11 +21,12 @@ The aim of the project is to explore the idea that may allow strong geometrical 
 
 ![](img/Text2Arch.jpg){:width="800px"}
 
+
 Before contacting, please refer to this [link](https://drive.google.com/file/d/1AekjE8v41nRjfj1UoXd4OcqXzROCLoas/view) for more details if you are considering.
+
 
 **Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/)
 
-- - -
 
 ## Enhancing 3D City Models with Neural Representations
 The availability of high-resolution aerial images and point clouds has revolutionized the creation of 3D city models. However, these models often suffer from noise and lack fine geometric details that are clearly visible in the images. This project proposes a novel approach to address this limitation by avoiding premature reduction of the triangulated 3D point cloud into a height field or surface mesh. Instead, student will propose a neural representation of the 3D city model as an implicit, continuous occupancy field, utilizing learned multi-modal embeddings of the point cloud and ortho-photos/nadir views.
@@ -77,9 +44,9 @@ The goal of the project is to develop a novel approach for enhancing the quality
 
 Before contacting us, please refer to this [link](https://drive.google.com/file/d/1dgsqIuxNvuWPBWCYpBgnJ5JXSYNnbamP/view) for more details if you are considering.
 
+
 **Contact:** [Nail Ibrahimli](https://3d.bk.tudelft.nl/nibrahimli/), [Ken Arroyo Ohori](http://3d.bk.tudelft.nl/ken)
 
-- - -
 
 ## Coral Reef Complexity
 
@@ -96,8 +63,6 @@ Skills required: Python programming and GEO1004
 ![](img/coral.png){:width="800px"}
 
 **Contact:** [Akshay Patil](https://3d.bk.tudelft.nl/apatil/), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
-
-- - -
 
 ## Random City Engine 
 
@@ -117,8 +82,6 @@ Skills required: Python programming + GEO1004.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Akshay Patil](https://3d.bk.tudelft.nl/apatil/)
 
-- - -
-
 ## Visualizing tiled 3D data on the web
 
 Vector-based maps, like the open-source [MapLibre](https://maplibre.org), have been established as the de-facto standard in the industry for world-wide map data visualization.
@@ -136,7 +99,19 @@ This thesis is in collaboration with TomTom.
 ![](img/landmarks-3d.png){:width="800px"}
 
 - - -
+## The effects of building model automatic reconstruction methods for CFD simulations
 
+The digitalization of the architecture and the build environment means that there is a new wealth of digital data that can help generate city scale models. However, not all these sources allow for models to be created of the same quality. The effects of different quality or alternatively abstracted models on CFD has been sparsely evaluated. Even more rare is the evaluation of models that fall outside of the established LoD frameworks e.g., voxelated and marching cubed models.
+ 
+In this thesis these different models and their effects on CFD simulations will be evaluated. Based on these results it might be possible to do suggestions or set up rules to describe viable models that can be used for CFD processing. Extensions to other parts of City analysis could be made as well if desired.
+
+If you choose this topic you can expect to work with building models, voxelization and computational fluid dynamic simulations performed with OpenFOAM. 
+
+![](img/BIM_CFD.gif){:width="800px"}
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/)
+
+- - -
 ## Linking Urban Heat Island effects with 3D urban morphology
 
 With the increase in urbanization and gentifrication the Urban Heat Island (UHI) effect is becoming a priority concern for many cities and municipalities. As such several studies have been recently published linking urban morphology and plausible UHI remedies such as green roofs, for example. 
@@ -150,7 +125,6 @@ If you choose this topic, you can expect to learn about UHI and urban morphology
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster/)
 
 - - -
-
 ## Development on quality assessment of point cloud datasets
 Rijkswaterstaat is transitioning into a data-driven organization, with 3D point cloud data playing a crucial role in the work processes and digital twin vision.The effectiveness of the current research project, which focuses on merging different 3D point clouds into the Integrated Heightdataset of the Netherlands (IHN), relies on the validation process as a key component. Therefore the focus of this MSc thesis is to research the possibilities for validating the quality of point clouds received from large infrastructure projects like the Moerdijkbridge zone or tunnels in the area of Rotterdam. If you choose this topic, you will have the opportunity to work for the Department of Advice and Validation of Geodata at Rijkswaterstaat, with access to numerous amount of elevation data products and the opportunity to contribute to the digital twin & IHN research projects.
 
@@ -172,7 +146,38 @@ However, recently with the increase of computational power, there is a rise in t
 
 In this MSc thesis, we will try to compare the results of the two approaches and try to validate them with an existing case study. The results could show us if there is a need for a more computationally expensive coupled simulation, or if there are available approaches that allow us to represent accurately outdoor conditions by just imposing appropriate boundary conditions. If you choose this topic, you can expect to learn about indoor ventilation, the level of detail needed in the urban area surrounding the building of interest, and validation CFD simulations. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python or any other language you prefer).
 
+
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)
+
+- - -
+
+## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+
+The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
+
+![](img/CityJSON+Energy.png){:width="800px"}
+
+It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Urban energy simulations linking CitySim with the 3DCityDB 
+
+[CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB) is the reference database for CityGML data (and its Energy ADE extension) where input AND output data will be stored.
+The scope of this thesis is to build upon, test and extend the functionalities of a first prototype developed in a MSc thesis scheduled to finish in June 2022. The goal is to allow for a seamless flow of information and perform energy simulations in CitySim. More specifically, the thesis will focus on (further) developing a Python-based bidirectional interface and add a GUI to feed/retrieve data between the 3DCityDB and CitySim.
+
+![](img/3dcdb_citysim_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+You will programm in Python and in PL/pgSQL.
+Before picking the topic, please contact us!
+
+**Contact:** [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
 
 - - -
 
@@ -211,7 +216,7 @@ The thesis is a collaboration between the 3DGeoinformation group and the [Buildi
 You will programm in Python and (a bit) in PL/pgSQL.
 Before picking the topic, please contact us!
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation Group)
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation Group), [Paula van den Brom](https://online-learning.tudelft.nl/instructors/paula-van-den-brom/) (Building Energy Epidemiology group)
 
 - - -
 
@@ -240,6 +245,33 @@ If you work on this topic, you can expect to learn about CFD best practice guide
 ![](img/ToMeshOrNotToMesh.jpg){:width="800px"}
 
 **Contact:** [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
+
+- - -
+
+## Extension of a GIS-supported design tool for new urban development areas
+
+The thesis builds upon work carried out in previous MSc theses (e.g. [this](http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e), check out the [video](https://www.youtube.com/watch?v=cPYT5_cFIgw) ) in which a first prototype of a geodata-supported design tool for new urban development areas was created. The tool is coupled with semantic 3D city models as a source of integrated spatial and non-spatial information.
+The thesis will focus first on testing the existing tool and will then implement new functionalities. Possible examples are the computation of KPIs for urban analyses, 3D web-based visualisation and interaction interfaces, as well as scenarios management. The precise development focus of the thesis will be agreed upon with the student.
+
+![](img/ga_giscity_2020.jpg){:width="600px"}
+
+The research will be carried out on a selected case study and in cooperation with the Cross Domain-City of the Future graduation [studio](https://www.tudelft.nl/en/education/programmes/masters/architecture-urbanism-and-building-sciences/msc-architecture-urbanism-and-building-sciences/master-tracks/architecture/programme/studios/city-of-the-future/), which focuses on how to design and develop in an integrated way a transformation area into an attractive future urban environment.
+
+**Contacts:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Roberto Cavallo](https://www.tudelft.nl/en/staff/r.cavallo) 
+
+- - -
+
+## Coupling 3D city models with Ladybug tools for environmental analyses
+
+<img src="img/ga_ladybug.jpg" style="width: 600px;"/>
+
+The MSc thesis will focus on interoperability between the Ladybug tools and semantic 3D city models encoded in CityJSON and extended with the Energy ADE. The [Ladybug Tools](https://www.ladybug.tools/) are a collection of free applications that support environmental design and education. They are among the most comprehensive, connecting 3D Computer-Aided Design (CAD) interfaces to a host of validated simulation engines. The thesis builds upon a previous [MSc thesis](https://repository.tudelft.nl/islandora/object/uuid:fb35db7c-9af8-488c-8d0b-263b138d8fd3) completed in 2020.
+
+Particular attention will be paid to energy-related topics in order verify how and to which extent the CityGML [Energy ADE](http://www.citygmlwiki.org/index.php/CityGML_Energy_ADE) (Application Domain Extension) can be used to deliver and store additional energy-related data needed by the Ladybug tools.
+
+The students’ task will consist in choosing (together with the supervisors) a specific application covered by a Ladybug tool, to analyse the software and data requirements of the selected Ladybug tool(s) and to perform a mapping to underlying CityGML/Energy ADE data models. In addition, proper interfaces will have to be developed and tested by means of a concrete case study. This topic is available for up to *two students* (each one choosing a different application area).
+
+**Contact**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
 - - -
 
