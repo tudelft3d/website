@@ -1,3 +1,10 @@
+- surname: Mbwanda
+  name: Tendai
+  title: Further Development of a QGIS plugin for the CityGML 3D City Database
+  image: 2023_tendai.png
+  link: http://resolver.tudelft.nl/uuid:6786ac5c-b61d-4e17-8501-e3cf2c7a9577
+  year: 2023
+
 - surname: Zhang
   name: Fengyan
   title: Snap rounding polygons with a triangulation
