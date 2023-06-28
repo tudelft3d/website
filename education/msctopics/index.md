@@ -15,6 +15,19 @@ permalink: /education/msctopics/
 
 - - -
 
+## New topic from Daniele
+
+Thffggskgnjrngorngoignoinrgoirg
+
+![](img/topic_picture.jpg){:width="800px"}
+
+Kjnsdfijsbgibribner
+
+**Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
+
+
+- - -
+
 ## Adding support for CityGML 3.0 to the 3DCityDB-Tools plugin for QGIS
 
 The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). It currently supports the 3DCityDB 4.x. The next 3DCityDB v. 5.0 will introduce support CityGML 3.0. 
