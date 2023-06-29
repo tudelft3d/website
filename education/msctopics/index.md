@@ -15,13 +15,20 @@ permalink: /education/msctopics/
 
 - - -
 
-## New topic from Daniele
+## Investigating Predictive Modeling for Land Use Planning and Management 
 
-Thffggskgnjrngorngoignoinrgoirg
+This graduation project focuses on predictive modelling and its role in land use planning and management. This project aims to provide valuable insights into future land use planning by exploring various factors that influence land use change and evaluating the effectiveness of different modelling approaches. In this MSc thesis, you will delve into the physical, environmental, and socio-economic factors that shape land use patterns. By analysing the impacts of land use policies, you will contribute to the foundation of effective decision-making processes in sustainable land management.
+
+Key objectives of this project include, among others:
+1.	Identifying the factors that significantly influence land use change: You will investigate a range of physical, environmental, and socio-economic factors and their relationship with land use dynamics making as much as possible use of open data. This analysis will contribute to understanding the underlying drivers of land use change.
+2.	Evaluating different modelling approaches: Considering the varying scale and resolution of land use and other spatial data, you will explore and compare different modelling techniques. This analysis will help identify the most suitable algorithms for specific land use tasks.
+3.	Assessing the performance of predictive algorithms: By comparing the performance of different algorithms, you will assess their accuracy, efficiency, and applicability to land use prediction. This evaluation will provide insights into the strengths and limitations of each approach.
+   
+Prerequisites: QGIS, Proficiency in programming languages such as R or Python and knowledge of machine learning concepts.
+
 
 ![](img/topic_picture.jpg){:width="800px"}
 
-Kjnsdfijsbgibribner
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 
