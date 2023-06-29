@@ -27,10 +27,6 @@ Key objectives of this project include, among others:
    
 Prerequisites: QGIS, Proficiency in programming languages such as R or Python and knowledge of machine learning concepts.
 
-
-![](img/topic_picture.jpg){:width="800px"}
-
-
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 
 
@@ -48,9 +44,6 @@ Key objectives of this project include, among others:
 Prototype development and evaluation: Using appropriate software tools, you will develop a functional prototype of the planning support system. You will then evaluate its usability, functionality, and effectiveness through user feedback and case study applications.
 
 Prerequisites: Proficiency in GIS and software development (e.g., QGIS, R, Python) and understanding of nature-based solutions and urban/landscape planning.
-
-![](img/topic_picture.jpg){:width="800px"}
-
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 
