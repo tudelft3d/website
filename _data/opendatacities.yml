@@ -363,3 +363,12 @@
   texture:  No
   notes : 
   formats: KMZ
+
+- dataset: Calgary
+  link: https://data.calgary.ca/Base-Maps/3D-Buildings-Citywide/cchr-krqg
+  country: Canada
+  building_lod: LoD2
+  year: 2023
+  texture:  No
+  notes : 
+  formats: GDB, KMZ, Shapefile
