@@ -1,3 +1,11 @@
+- surname: Dong
+  name: Haoyang
+  title: "Correcting global elevation models for canopy and infrastructure using a residual U-Net"
+  image: haoyang.png
+  link: http://resolver.tudelft.nl/uuid:8a314c3d-81ad-45e4-9b78-a00a3dae0a86
+  github: https://github.com/AkiGoat/DSM2DTM-ResUNet
+  year: 2023  
+
 - surname: Mbwanda
   name: Tendai
   title: Further Development of a QGIS plugin for the CityGML 3D City Database
