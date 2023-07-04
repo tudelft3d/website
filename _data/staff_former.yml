@@ -1,3 +1,12 @@
+- surname: Janssen
+  name: Patrick
+  title: Associate-prof. (external)
+  photo: patrick.jpg
+  homepage: patrick.janssen.name
+  # description: "[Homepage at the National University of Singapore](http://www.arch.nus.edu.sg/people/cv/pj.htm)"
+  #email: patrick.janssen@nus.edu.sg
+  #address: "Dept of Architecture, National University of Singapore, Singapore 117566"
+
 - surname: Mi
   name: Xiaoxin  
   title: PhD candidate
