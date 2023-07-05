@@ -18,6 +18,6 @@ jobs:
           bundler-cache: true
           ruby-version: '3.1'
       - name: jekyll build
-        run: jekyll build --trace
+        run: bundle exec jekyll build --trace
       - name: trigger update
         run: curl -L ${{ secrets.UPDATE_URL }}
