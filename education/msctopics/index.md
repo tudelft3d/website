@@ -498,6 +498,49 @@ The project must be done in C++ using CGAL.
 
 - - -
 
+
+## Automatic generation of digital twins for heritage buildings 
+
+![](img/digital_twin.jpg){:width="600px"}
+
+**Background and aim**:
+The geometrical model is an essential part of daylight simulation in existing buildings. These models are commonly constructed with point-by-point field measurement and manual modeling in CAD environments, such as Rhinoceros and Sketchup. This workflow is costly for many buildings and projects and is a practical barrier to accurate daylight simulations and informed refurbishment decisions. Results from the novel techniques in point-cloud semantic segmentation (e.g., with convolutional neural networks) and light-weight polygonal reconstruction of various objects from scanned indoor point clouds have been promising and are expected to automate reconstruction tasks in relevant domains in the future, such as daylight. The goal of this project is to (semi-) automatically reconstruct the digital twin of a historic building and to evaluate the received daylight based on the requirements of heritage preservation.
+
+**Research question**:
+How to build digital twins for heritage buildings automatically with minimum onsite cost?
+
+**Methods**:
+Literature search to find potential pipelines and techniques for surface reconstruction. Numerical ray-tracing simulation.
+(potentially) a few site visits for data acquisition.
+
+**Final results**: (a) Pipelines, algorithms, and workflows for automatic modeling of building interior for daylight simulation. (b) Software prototype for practitioners (optional).
+
+**Contact:** [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd), [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Uta Pottgiesser](https://www.tudelft.nl/bk/over-faculteit/hoogleraren/prof-dr-ing-uta-pottgiesser), and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
+
+- - -
+
+## Urban building daylight modeling – improving city models 
+
+![](img/daylight.jpg){:width="600px"}
+
+**Background and aim**:
+Decarbonization and improvement of the building stock cannot be realistically planned without considering the existing buildings. Decision-makers need accurate models on different levels of granularity for different types of decision-making. A crucial aspect of building performance is the availability of natural light in indoor spaces which has a direct impact on users' well-being and comfort, as well as its influence on reducing electric lighting consumption.
+The aim of this project is an urban-level assessment of buildings in terms of their daylight performance.
+LOD2 geometry and typical material properties will be used as the key inputs and Radiance as the simulation engine.
+
+**Research question**:
+To what extent do the existing building stock meet the requirements for daylight availability?
+How to efficiently model the existing building stock in urban level?
+
+**Methods**:
+General literature search to find potential pipelines and techniques, and to understand city-level geometry data models (CityGML). Numerical simulation of daylight.
+
+**Final results**: (a) Urban-level assessments of buildings daylight availability, or visual comfort. (b) Suggestions for policy-makers to improve daylight availability in existing buildings. (c) Suggestions (and implementation) for improving CityGML data model and its Application Domain Extension (ADE).
+
+**Contact:** [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd), [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), and [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/).
+
+- - -
+
 ## Automatic reconstruction of window boundaries for efficient daylight simulation.
 ![](img/window.png){:width="600px"}
 Sufficient daylight is an essential aspect of building performance and is a key factor in users' satisfaction and well-being. Although there are studies on optimizing the performance of newly designed buildings, few studies are conducted on the methods to improve the performance of the existing buildings. The geometrical model is an essential part of daylight simulation. These models are commonly constructed with point-by-point field measurement and manual modeling in CAD environments, such as Rhinoceros and SketchUp. This workflow is costly for many buildings and projects and is a practical barrier to accurate daylight simulations and informed refurbishment decisions. Results from the novel techniques in light-weight polygonal reconstruction of various objects from dense scanned indoor point clouds have been promising and are expected to automate reconstruction tasks in relevant domains in the future, such as daylight. However, reconstruction of the window boundaries is still a challenge.
