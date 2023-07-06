@@ -1,3 +1,11 @@
+- surname: Visser
+  name: Fabian
+  title: "Neural Surface Reconstruction and Stylization"
+  image: 2023_fabian.png
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A7f8ef49b-7c9c-4281-bd93-b921d9b28d49
+  github: https://github.com/fabisser/stylesdf
+  year: 2023  
+
 - surname: Dong
   name: Haoyang
   title: "Correcting global elevation models for canopy and infrastructure using a residual U-Net"
