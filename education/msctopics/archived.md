@@ -1,3 +1,45 @@
+
+- - - 
+
+## Enrich the 3DBAG with the "material type" for each surface
+
+![](img/surface_type.jpg){:width="500px"}
+
+The [3D BAG](https://3dbag.nl) contains the geometry of all buildings in the Netherlands, and some attributes are attached to these.
+
+To increase the usefulness of the datasets, it would be useful if the *material* of each surface was known. 
+For instance: (1) architects and spatial planners would like to know if a roof/surface is made of bricks, tar, green/vegetation, solar panels; (2) engineers working with CFD simulations have similar needs, the type can help better simulation the wind in a city.
+
+The aim of this project is to enrich the surfaces of the 3D BAG with certain material types (what these are will need to be determined) by using [aerial photos openly available on PDOK](https://www.pdok.nl/introductie/-/article/luchtfoto-pdok), [street-view photos (of Amsterdam, which are openly available)](https://amsterdam.github.io/projects/open-panorama/), and/or the AHN3 properties (eg # of returns, intensity, etc.) to obtain the results. 
+One issue is that the aerial photos are nadir photos, and the façades are often not visible; the project will try to solve this with perhaps other datasets or by using solely AHN3.
+
+I assume that since it's a classification problem, machine learning will be used.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) & [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster)
+
+
+--- 
+
+## Random City Engine 
+
+The ability to generate a stochastic [random] urban landscape can enable a wide range of engineering activities: testing processing code, prototyping building characterisation codes, parameter dimensionality reduction for Computational Fluid Dynamics [CFD] studies, and animation/gaming sectors. 
+
+In this MSc thesis, you will work on procedural modelling of 3D cities using a three-fold approach: 
+
+- Literature Review: Explore the existing literature to determine the parameters of interest necessary to characterise the urban landscapes using limited number of parametric inputs.  Here the central focus is to capture the essential “ingredients” required to generate a synthetic cityscape that is similar to real cities (similar heights of buildings and distribution) 
+
+- Stochastic Characterisation: In this step, you will develop a code to study the 3DBAG dataset and stochastically characterise various cities. Using the parameters of interest found in the literature review, a probabilistic characterisation should be developed. 
+
+- Procedural Modelling: Using the probabilistic characterisations formulated in the second step, you will implement a model to procedurally create new cities that are stochastically similar to the cities analysed in the second step. Here you will validate the method extensively by testing input parameters such as sampling size, clustering, canopy density,  etc. 
+
+Skills required: Python programming + GEO1004.
+
+![](img/randomCityEngine.png){:width="800px"}
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Akshay Patil](https://3d.bk.tudelft.nl/apatil/)
+
+---
+
 ## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
 
 The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
