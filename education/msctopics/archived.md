@@ -1046,3 +1046,21 @@ Connecting and visualizing real-time sensors with point cloud. Used for analysis
 Augmented Reality is an emerging technology in visualisation and perseption of digital worlds. City models could be benefited from such a technology, as users could better explore and understand the data that are integrated in such a virtual model of a city. This project is about the development of a visualization application on Microsoft Hololens platform, exploring potential benefits and issues of such an application and the potential use cases for future use. The application should focus on the visualisation of geometry and attributes of a city model. The implementation will be done through the use of the Unity 3D engine and the C# programming language.
 
 *Contact:* [Stelios Vitalis](http://3d.bk.tudelft.nl/svitalis)
+
+- - -
+
+## Visualizing tiled 3D data on the web
+
+Vector-based maps, like the open-source [MapLibre](https://maplibre.org), have been established as the de-facto standard in the industry for world-wide map data visualization.
+There is a robust toolchain for creating, styling and visualizing 2D data (through vector tiles) but no standardized way to do so in 3D.
+
+In this MSc thesis you will investigate the possibility of integrating (true) 3D data in MapLibre, by potentially integrating an existing open standard like 3D Tiles to MapLibre GL JS.
+The topic can be focused to either the data processing and management part (evaluating different standards, developing a solution to create tiled sources of 3D data) or the visualization part (extending MapLibre GL JS to incorporate some existing format, like 3D tiles).
+
+Knowledge of programming in either Python (for data processing) or JavaScript/TypeScript (preferably with WebGL or three.js) is required for this thesis.
+
+**Contact:** [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis), [Ken Arroyo Ohori](https://ken.mx)
+
+This thesis is in collaboration with TomTom.
+
+![](img/landmarks-3d.png){:width="800px"}
