@@ -1,3 +1,11 @@
+- surname: Xia
+  name: Yitong
+  title: "A data-driven approach to add openings to 3D BAG LOD2 building models"
+  image: 2023_yitong2.png
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Aeaff38b9-65f4-4c1c-8cec-aebd8fc4b18f
+  github: https://github.com/YitongXia/LOD3-Model
+  year: 2023  
+
 - surname: Visser
   name: Fabian
   title: "Neural Surface Reconstruction and Stylization"
