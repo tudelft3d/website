@@ -27,8 +27,10 @@ This graduation project focuses on two aspects of the Barcode:
 The Department of Urbanism collaborates with the City of Utrecht in the [New European Bauhaus](https://new-european-bauhaus.europa.eu/index_en) project. Therefore, the graduation student may be able to interact with researchers and creatives across Europe.
 
 ![](img/de_utrechtse_barcode2.jpg){:height="250"}
-![](img/10_minutes.jpg){:height="250"} ![](img/barcode_scheme.jpg){:height="250"}
-
+<p float="left">
+![](img/10_minutes.jpg){:height="250"}
+![](img/barcode_scheme.jpg){:height="250"}
+</p>
    
 Prerequisites: QGIS, Proficiency in programming languages such as R.
 
