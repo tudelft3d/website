@@ -10,8 +10,30 @@ permalink: /education/msctopics/
 
 - - -
 
-* Table of Content
+* Table of Contents
 {:toc}
+
+- - -
+
+## The Utrecht – BARCODE  - Between Planning, Modelling, and Participation: modelling and communicating the effects of urban densification
+
+Michael Batty (2022) recently stated, “Despite a wide array of new tools embodying different theories, the gulf between planning theory and practice remains. … for this, the challenge is for model-builders and users to work in practice and for practitioners to work with theory”.
+In this spirit, the proposed graduation projects focus on further developing the Utrecht BARCODE. The Utrecht BARCODE is a planning tool developed by the city planning department, and part of the is the Ruimtelijke Strategie Utrecht (RSU 2040, which quantifies and communicates the spatial needs of a growing city to develop a sustainable, just and healthy way using the 10-minute city concept. Policymakers acclaim the BARCODE for its clear and quantitative communication and practitioners for the simple way of visualising the complexity of future urban development needs.
+
+This graduation project focuses on two aspects of the Barcode:
+-	The first concerns i) streamlining and increasing the automation of calculating and visualisation of the Barcode for existing Areas; and ii) calculating the project’s effect on the Barcode of an area and its 10-minute catchment area.
+-	The second involves i) developing a four-by-four block-wide 3D model of the city that allows illustrating potential changes according to the 10-minute city project and ii) developing and implementing a switchboard that allows different users to choose their priorities, which are then displayed in the 3D model.
+
+The Department of Urbanism collaborates with the City of Utrecht in the [New European Bauhaus](https://new-european-bauhaus.europa.eu/index_en) project. Therefore, the graduation student may be able to interact with researchers and creatives across Europe.
+
+![](img/de_utrechtse_barcode.jpg){:width="800px"}
+![](img/10_minutes.jpg){:width="800px"} ![](img/barcode_scheme.jpg){:width="800px"}
+
+   
+Prerequisites: QGIS, Proficiency in programming languages such as R or Python and knowledge of machine learning concepts.
+
+**Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/); [Alex Wandl](https://www.tudelft.nl/en/staff/a.wandl/?cHash=842e397ae7c998ecc880d440e2a0ccf0)
+
 
 - - -
 
