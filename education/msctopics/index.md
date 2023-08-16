@@ -26,11 +26,11 @@ This graduation project focuses on two aspects of the Barcode:
 
 The Department of Urbanism collaborates with the City of Utrecht in the [New European Bauhaus](https://new-european-bauhaus.europa.eu/index_en) project. Therefore, the graduation student may be able to interact with researchers and creatives across Europe.
 
-![](img/de_utrechtse_barcode.jpg){:width="800px"}
-![](img/10_minutes.jpg){:width="800px"} ![](img/barcode_scheme.jpg){:width="800px"}
+![](img/de_utrechtse_barcode2.jpg){:height="250"}
+![](img/10_minutes.jpg){:height="250"} ![](img/barcode_scheme.jpg){:height="250"}
 
    
-Prerequisites: QGIS, Proficiency in programming languages such as R or Python and knowledge of machine learning concepts.
+Prerequisites: QGIS, Proficiency in programming languages such as R.
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/); [Alex Wandl](https://www.tudelft.nl/en/staff/a.wandl/?cHash=842e397ae7c998ecc880d440e2a0ccf0)
 
