@@ -15,6 +15,22 @@ permalink: /education/msctopics/
 
 - - -
 
+## Automatic creation of detailed building energy models from 3DBAG
+
+The aim of this project is to develop a procedure from which a sequence of detailed building energy models can be automatically created from the 3DBAG. From the models, it should be possible to estimate the energy consumed by buildings at the neighbourhood scale using the EnergyPlus simulation program (<a href="https://energyplus.net/">here</a>). The procedure should be implemented in Python.
+This project is a continuity of another MSc thesis on inferring the residential building type from 3DBAG (<a href="https://3d.bk.tudelft.nl/education/#theses">here</a>). From the outcomes of this MSc thesis, it will be expected to:
+1. Identify material properties, internal heat gains, and HVAC systems for each type of buildings;
+2. Include these information in EnergyPlus template files;
+3. Automatically create a sequence of detailed building energy models from EnergyPlus template files and 3DBAG;
+4. Perform simulations (in sequence or in parallel) to assess the energy consume by buildings at the neighbourhood scale and evaluate retrofitting strategies.
+
+![](img/eplus_3DBAG.png)
+
+The prerequisites for this project are basic knowledge in building physics and programming skills in Python.
+
+**Contact:** [Dr. Miguel Martin](https://3d.bk.tudelft.nl/mmartin/); [Camilo Leon-Sanchez](https://3d.bk.tudelft.nl/cleon/)
+
+
 ## The Utrecht – BARCODE  - Between Planning, Modelling, and Participation: modelling and communicating the effects of urban densification
 
 Michael Batty (2022) recently stated, “Despite a wide array of new tools embodying different theories, the gulf between planning theory and practice remains. … for this, the challenge is for model-builders and users to work in practice and for practitioners to work with theory”.
