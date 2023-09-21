@@ -39,9 +39,9 @@
 
 - surname: Powalka
   name: Leon
-  title: Image-guided automatic artistic route finding
+  title: Shape-guided artistic route finding
   image: 2023_LeonPowalka.jpg
-  link: http://resolver.tudelft.nl/uuid:11e9b0c2-5d67-475a-8653-71c7afe03dad
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A11e9b0c2-5d67-475a-8653-71c7afe03dad
   year: 2023
 
 - surname: Yan
@@ -191,7 +191,7 @@
 - surname: van der Horst
   name: Noortje
   title: Procedural Modelling of Tree Growth Using Multi-temporal Point Clouds
-  link: http://resolver.tudelft.nl/uuid:d284c33a-7297-4509-81e1-e183ed6cca3c
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Ad284c33a-7297-4509-81e1-e183ed6cca3c
   github: https://github.com/NoortjevanderHorst/treegrowthmodelling
   image: 2022_Noortje.png
   year: 2022
@@ -199,7 +199,7 @@
 - surname: Wang
   name: Linjun
   title: Detailed Facade Reconstruction for Manhattan-world Buildings
-  link: http://resolver.tudelft.nl/uuid:1581231d-6109-44b2-ab57-bbbea3e08642
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A1581231d-6109-44b2-ab57-bbbea3e08642
   github: https://github.com/fiodccobw/3DFacade
   image: 2022_Linjun.png
   year: 2022
@@ -518,14 +518,14 @@
   title: Semantic Segmentation of Large-scale Urban Scenes from Point Clouds
   image: 2019_ZhiweiAi.jpg
   year: 2019
-  link: http://resolver.tudelft.nl/uuid:a9cedaac-42ae-4cb0-9c14-67bab8e96a6d
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Aa9cedaac-42ae-4cb0-9c14-67bab8e96a6d?collection=education
 
 - surname: Du  
   name: Shenglan
   title: Accurate, Detailed and Automatic Tree Modelling from Point Clouds
   image: 2019_ShenglanDu.jpg
   year: 2019
-  link: http://resolver.tudelft.nl/uuid:675ee438-3dc9-43c8-a7a7-f3b8807c583f
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A675ee438-3dc9-43c8-a7a7-f3b8807c583f?collection=education
   github: https://github.com/tudelft3d/adtree
   paper: https://doi.org/10.3390/rs11182074
 
@@ -570,14 +570,14 @@
   title: Robust interior-exterior classification for 3d models
   image: 2019_NikolaosTzounakos.jpg
   year: 2019
-  link: http://resolver.tudelft.nl/uuid:9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b
+  link: https://repository.tudelft.nl/islandora/object/uuid%3A9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b?collection=education
   
 - surname: Bouzas   
   name: Vasileios
   title: Structure-aware building mesh simplification
   image: 2019_VasileiosBouza.jpg
   year: 2019
-  link: http://resolver.tudelft.nl/uuid:a0faf1a6-9815-4828-9186-a4a16119c71c
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Aa0faf1a6-9815-4828-9186-a4a16119c71c?collection=education
   github: https://github.com/VasileiosBouzas/MeshPolygonization
   paper: https://doi.org/10.1016/j.isprsjprs.2020.07.010
 
