@@ -155,7 +155,8 @@
   homepage: 3d.bk.tudelft.nl/hledoux
   email: h.ledoux@tudelft.nl
   phone: +31 15 27 86114
-  twitter: hugoledoux
+  # twitter: hugoledoux
+  mastodon: https://fosstodon.org/@hugoledoux
   projects:
     - name: umnd
       role: Associate-prof.

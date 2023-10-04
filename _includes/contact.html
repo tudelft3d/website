@@ -19,24 +19,36 @@
     <p>
     {% if include.person.homepage %}
         <a href="http://{{ include.person.homepage }}"><i class="fas fa-home"></i></a>
-        {% if include.person.email or include.person.phone or include.person.twitter %}
+        {% if include.person.email or include.person.phone or include.person.twitter or include.person.mastodon or include.person.linkedin %}
         |
         {% endif %}
     {% endif %}
     {% if include.person.email %}
         <a href="mailto:{{ include.person.email }}"><i class="fas fa-envelope"></i></a>
-        {% if include.person.phone or include.person.twitter %}
+        {% if include.person.phone or include.person.twitter or include.person.mastodon or include.person.linkedin %}
         |
         {% endif %}
     {% endif %}
     {% if include.person.phone %}
         <a href="tel:{{ include.person.phone }}"><i class="fas fa-phone"></i></a>
-        {% if include.person.twitter %}
+        {% if include.person.twitter or include.person.mastodon or include.person.linkedin %}
         |
         {% endif %}
     {% endif %}
     {% if include.person.twitter %}
         <a href="https://twitter.com/{{ include.person.twitter }}"><i class="fab fa-twitter"></i></a>
+        {% if include.person.mastodon or include.person.linkedin %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.person.mastodon %}
+        <a href="{{ include.person.mastodon }}"><i class="fab fa-mastodon"></i></a>
+        {% if include.person.linkedin %}
+        |
+        {% endif %}
+    {% endif %}
+    {% if include.person.linkedin %}
+        <a href="{{ include.person.linkedin }}"><i class="fab fa-linkedin"></i></a>
     {% endif %}
     <br/>
     </p>
