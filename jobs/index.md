@@ -4,6 +4,11 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<span class="label label-alert">Open</span>
+[Junior or Postdoc Researcher: Development Urban Digital Twins to support co-creation of Positive Energy Districts](digitwins4peds/)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [Junior or Postdoc Researcher: Development of GeoBIM based solutions for Digital Building Permit Checking](chek3rdresearcher/)
@@ -35,7 +40,7 @@ permalink: /jobs/
 <span class="label label-danger">closed</span>
 <del>
 [Postdoc or Junior Researcher: Automated 3D building reconstruction from aerial photography](3dbagpoc2022/)
-
+</del>
 
 - - -
 
