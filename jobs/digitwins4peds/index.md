@@ -18,9 +18,7 @@ Deadline to apply is 19 November 2023.
 - - - 
 
 ## Job description
-
 In the upcoming **DigiTwins4PEDs** (“Utilisation of Urban Digital Twins to co-create flexible Positive Energy systems for Districts”) project, embedded within the European DUT (Driving Urban Transitions) framework, nine European partners from Germany, Austria, Poland and the Netherlands will develop new research methods and implementation strategies to foster the realisation of PEDs (Positive Energy Districts). The strong involvement of citizens in these PEDs is crucial to push forward the energy transition of their communities and take more informed decisions. To support this participation process, new energy simulation and visualisation tools using Urban Digital Twins will be developed and adapted. In particular, the research topics to be addressed are:
-
 
 - How and to which extent can Urban Digital Twins contribute to accelerating the realisation of PEDs?
 - How can Urban Digital Twins support participatory planning?
@@ -38,7 +36,7 @@ The main tasks, to be carried out in co-operation with the other project partner
 To support the research work of the TU Delft team, we have opened a 2.5-year research position in our 3D Geoinformation research group, section Urban Data Science, Department of Urbanism, Faculty of Architecture and the Built Environment. The candidate is expected to contribute to the above tasks and lead some of them.
 
 
-## Research group --
+## Research group
 The [3D Geoinformation group](https://3d.bk.tudelft.nl/) focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is a multidisciplinary group of around 25 people, including computer scientists, geomatics engineers, and geographers; 6 of them are tenured staff (1 professor, 2 associate professors, and 3 assistant professors). The group has a history of successful collaborations with industry and government in the past: its research has led to open source software, standards, and patents for the management of 3D geographic information and Building Information Models.
 
 ## Job requirements
