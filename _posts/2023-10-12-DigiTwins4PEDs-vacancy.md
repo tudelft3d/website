@@ -13,6 +13,6 @@ date: 2023-10-12 08:00
 
 We are looking for a new colleague who will work with us in the recently funded EU project **Urban Digital Twins to support co-creation of Positive Energy Districts**.
 
-Deadline to apply is 2023-10-19.
+Deadline to apply is 19 November 2023.
 
 Details are available on this [page]({{ "/jobs/digitwins4peds/" | prepend: site.baseurl }}).
