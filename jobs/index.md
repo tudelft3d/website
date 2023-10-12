@@ -4,7 +4,6 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
-<span class="label label-alert">open</span>
 [Junior or Postdoc Researcher: Urban Digital Twins to support co-creation of Positive Energy Districts](digitwins4peds/)
 
 - - -
