@@ -3,6 +3,10 @@ layout: page
 title:  Vacancy Junior or Postdoc Researcher on Urban Digital Twins to support co-creation of Positive Energy Districts
 permalink: /jobs/digitwins4peds/
 ---
+<div class="alert alert-info" role="alert">
+Deadline to apply is 19 November 2023.
+</div>
+
 <!--
 <div class="alert alert-danger" role="alert">As of 19 November, 2023 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
