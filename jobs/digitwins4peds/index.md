@@ -70,7 +70,7 @@ Your application dossier should contain:
 - Contact details of two references with contact information (recommendation letters from them are not required at this stage).
 
 Please note:
-- You can apply online. We will not process applications sent by email and/or post.
+- You can apply only online. We will not process applications sent by email and/or post.
 - A pre-Employment screening can be part of the selection procedure.
 - Please do not contact us for unsolicited services.
 
