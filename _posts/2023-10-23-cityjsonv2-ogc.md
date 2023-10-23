@@ -9,7 +9,7 @@ date: 2023-10-23 10:04
 
 We're happy to announce that the latest version of CityJSON is now officially an OGC standard!
 
-Thanks to all who supported [Geonovum](https://www.geonovum.nl) and us in the process 🙏
+Thanks to all who supported [Geonovum](https://www.geonovum.nl), [3DGI](https://3dgi.xyz), and us in the process 🙏
 
 [<i class="fas fa-external-link-alt"></i> CityJSON Community Standard (document 20-072r5)](https://docs.ogc.org/cs/20-072r5/20-072r5.html)
 
