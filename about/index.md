@@ -7,17 +7,14 @@ map: true
 
 <div class="row">
   <div class="col-sm-6">
-    <h3>What</h3>
+    <h3>Our Group</h3>
 
-    The 3D geoinformation research group is part of the <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. 
-    It focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
-    These systems help in environmental modelling, urban planning, crisis management, automated cartographic generalisation, information modelling, modelling of the interior of buildings, etc.
 
-    It is a multidisciplinary group (computer scientists, geomatics engineers, and geographers) composed of 4 permanent research staff and several PhD students, postdocs, and visitors.
+    The 3D geoinformation research group is part of Section Urban Data Science , <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. 
 
-    It has a history of successful collaborations with the industry and the government: its research has led to <a href="{{ "/code/" |  prepend: site.baseurl }}">software</a> and international standards for the management of 3D geographic information.
-
-    The staff of the group is active in several international organisations such as the <a href="http://www.opengeospatial.org">Open Geospatial Consortium</a>, <a href="http://www.eurosdr.net">EuroSDR</a>, and the <a href="http://www.isprs.org">International Society for Photogrammetry and Remote Sensing</a>.
+    The group focuses on technologies underpinning 3D geo-data and the integration with Building Information Models (BIMs) and aims at designing, developing, and implementing open data and open source solutions to model cities, buildings, and landscapes in 3D for environmental and urban studies. Open Science is an important principle of our research. We are also the main provider of education in the <a href="https://www.tudelft.nl/onderwijs/opleidingen/masters/geomatics/msc-geomatics">MSc Geomatics</a>. 
+    
+    It is a multidisciplinary group of about <a href="https://3d.bk.tudelft.nl/about/#people">25 people</a>, including computer scientists, geomatics engineers, and geographers. It has a history of successful collaborations with the industry and the government: its research has led to <a href="{{ "/code/" |  prepend: site.baseurl }}">software</a> and international standards for the management of 3D geographic information. The staff of the group is active in several international organisations such as the <a href="https://www.ogc.org">Open Geospatial Consortium</a>, <a href="http://www.eurosdr.net">EuroSDR</a>, and the <a href="https://www.isprs.org">International Society for Photogrammetry and Remote Sensing</a>. Nationally we have strong links to <a href="https://www.kadaster.nl/">Kadaster</a> and <a href="https://www.geonovum.nl/">Geonovum</a>.
 
     Our research funding mostly comes from the following organisations:
 
@@ -31,7 +28,7 @@ map: true
   </div>
   <div class="col-sm-6">
     <section id="where">
-      <h3>Where</h3>
+      <h3>Our Location</h3>
 
       <div class="row">
         <div class="col-xs-4">
@@ -109,7 +106,7 @@ map: true
 - - - 
 
 <section id="people">
-  <h2>Who</h2>
+  <h2>Our Staff</h2>
 
   {% assign members = site.data.staff | better_sort: 'surname' %}
 
