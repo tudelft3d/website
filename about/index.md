@@ -28,7 +28,7 @@ map: true
       <div class="col-xs-4"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.svg" | prepend: site.baseurl }}" alt="ERC logo" style="height: 100px; margin: auto;" /></a></div>
       <div class="col-xs-4"><a href="https://www.nwo.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.svg" | prepend: site.baseurl }}" alt="NWO logo" style="height: 100px; margin: auto;" /></a></div>
       <div class="col-xs-4"><a href="https://www.ams-institute.org"><img class="img-responsive" src="{{ "/img/partners/ams.svg" | prepend: site.baseurl }}" alt="AMS logo" style="height: 100px; margin: auto;" /></a></div>
-      <div class="col-xs-offset-2 col-xs-4"><a href="https://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.svg" | prepend: site.baseurl }}" alt="Kadaster logo" style="height: 100px; margin: auto;" /></a></div>
+      <div class="col-xs-4"><a href="https://www.kadaster.nl"><img class="img-responsive" src="{{ "/img/partners/kadaster.svg" | prepend: site.baseurl }}" alt="Kadaster logo" style="height: 100px; margin: auto;" /></a></div>
       <div class="col-xs-4"><a href="https://www.rijkswaterstaat.nl"><img class="img-responsive" src="{{ "/img/partners/rws.svg" | prepend: site.baseurl }}" alt="RWS logo" style="height: 100px; margin: auto;" /></a></div>
       <div class="col-xs-4"><a href="https://www.rijksoverheid.nl/"><img class="img-responsive" src="{{ "/img/partners/rijksoverheid.jpg" | prepend: site.baseurl }}" alt="Rijksoverheid logo" style="height: 100px; margin: auto;" /></a></div>
     </div>
