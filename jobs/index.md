@@ -4,8 +4,17 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<!--
 <span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+[title of the job](link to webpage)
+-->
+
+- - -
+
+<span class="label label-danger">closed</span>
+<del>
 [Junior or Postdoc Researcher: Urban Digital Twins to support co-creation of Positive Energy Districts](digitwins4peds/)
+</del>
 
 - - -
 
