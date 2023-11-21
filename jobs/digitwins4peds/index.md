@@ -3,13 +3,15 @@ layout: page
 title:  Vacancy Junior or Postdoc Researcher on Urban Digital Twins to support co-creation of Positive Energy Districts
 permalink: /jobs/digitwins4peds/
 ---
+<!--
 <div class="alert alert-info" role="alert">
 Deadline to apply is 19 November 2023.
 </div>
+-->
 
-<!--
 <div class="alert alert-danger" role="alert">As of 19 November, 2023 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
+<!--
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "xxxx.jpg" }}"></div>
 </div>
@@ -53,7 +55,7 @@ Applicants should:
 ## What we offer
 Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities (based on scale 10: € 3.226,00 - € 5.090,00). The employment contract is offered for 2,5 years. The position is open for 38-40 hours per week. The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 
-For international applicants, TU Delft has the [Coming to Delft Service] (https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/nederland-tu-delft/support-for-international-employees). This service provides information for new international employees to help you prepare the relocation and to settle in the Netherlands. The Coming to Delft Service offers a [Dual Career Programme](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/coming-to-the-netherlands-tu-delft/support-for-international-employees/at-tu-delft/dual-career-programme) for partners and they organise events to expand your (social) network.
+For international applicants, TU Delft has the [Coming to Delft Service](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/nederland-tu-delft/support-for-international-employees). This service provides information for new international employees to help you prepare the relocation and to settle in the Netherlands. The Coming to Delft Service offers a [Dual Career Programme](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/coming-to-the-netherlands-tu-delft/support-for-international-employees/at-tu-delft/dual-career-programme) for partners and they organise events to expand your (social) network.
 
 ## How to apply
 
