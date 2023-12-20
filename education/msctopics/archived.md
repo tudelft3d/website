@@ -40,20 +40,6 @@ Skills required: Python programming + GEO1004.
 
 ---
 
-## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
-
-The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis which is schedule to finish in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
-
-![](img/CityJSON+Energy.png){:width="800px"}
-
-It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
-
-- - -
-
 ## Extension of a GIS-supported design tool for new urban development areas
 
 The thesis builds upon work carried out in previous MSc theses (e.g. [this](http://resolver.tudelft.nl/uuid:844b92d4-aa22-4ae7-b6c3-3b563dd3318e), check out the [video](https://www.youtube.com/watch?v=cPYT5_cFIgw) ) in which a first prototype of a geodata-supported design tool for new urban development areas was created. The tool is coupled with semantic 3D city models as a source of integrated spatial and non-spatial information.
