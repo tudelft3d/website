@@ -119,6 +119,19 @@ Before picking the topic, please contact us!
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
 - - -
+## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+
+The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis finished in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
+
+![](img/CityJSON+Energy.png){:width="800px"}
+
+It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
 
 ## Text Guided 3D Editting of Architectural Models
 
