@@ -1,3 +1,14 @@
+- title: Integrate and store 3D roads and terrain for navigation purposes
+  year: 2023
+  students:
+    - name: Dimitris Mouzadikis
+    - name: Puti Nabila Riyadi
+    - name: Georgios Konstantinos (Akis) Nestoras
+    - name: Longxiang Xu
+    - name: Na Liu
+    - name: Stein Köbben
+  report: http://resolver.tudelft.nl/uuid:20fc9968-890b-4d36-a59e-c05bd474d4aa
+  img: 2023_tomtom.png
 
 - title: "CJDB: A simple and efficient data model to store CityJSON in a database"
   year: 2022
