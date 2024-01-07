@@ -275,9 +275,9 @@
   texture:   No
   notes: "[2010](https://denhaag.dataplatform.nl/#/data/756d6fe7-f334-4ced-af13-61d612d92b1a) model also available. It contains terrain intersection curves!"
 
-- dataset: Cambridge
+- dataset: Cambridge, MA
   link: http://www.cambridgema.gov/GIS/3D/3ddata/3ddatadownloadmap
-  country: UK
+  country: USA
   building_lod: LoD1
   # year: 2013
   texture:  No
