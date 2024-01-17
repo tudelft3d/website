@@ -6,19 +6,19 @@ permalink: /education/
 
 <section id="courses"></section>
 
-<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching in the 2022-2023 academic year</h2>
+<h2><a href="http://www.geomatics.tudelft.nl">MSc Geomatics</a> courses we are teaching</h2>
 
-  * [GEO1002](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60411): Geographical information systems (GIS) and cartography
-  * [GEO1004](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60601): 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i> (open course)</a>
-  * [GEO1015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60599): Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i> (open course)</a>
-  * [GEO1016](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60600): Photogrammetry and 3D computer vision <a href="https://3d.bk.tudelft.nl/courses/geo1016/"><i class="fas fa-home"></i> (open course)</a>
-  * [GEO1101](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60604): Synthesis project
-  * [GEO2011](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60605): Thesis preparation
-  * [GEO2020](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60606): Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
-  * [GEO5010](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60608): Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
-  * [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400): Geomatics as support for energy applications
-  * [GEO5015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60404): Modelling wind and dispersion in urban environments
-  * [GEO5017](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60607): Machine Learning for the Built Environment <a href="https://3d.bk.tudelft.nl/courses/geo5017/"><i class="fas fa-home"></i> (open course)</a>
+  * GEO1002: Geographical information systems (GIS) and cartography
+  * GEO1004: 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i> (open course)</a>
+  * GEO1015: Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i> (open course)</a>
+  * GEO1016: Photogrammetry and 3D computer vision <a href="https://3d.bk.tudelft.nl/courses/geo1016/"><i class="fas fa-home"></i> (open course)</a>
+  * GEO1101: Synthesis project
+  * GEO2011: Thesis preparation
+  * GEO2020: Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
+  * GEO5010: Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
+  * GEO5014: Geomatics as support for energy applications
+  * GEO5015: Modelling wind and dispersion in urban environments
+  * GEO5017: Machine Learning for the Built Environment <a href="https://3d.bk.tudelft.nl/courses/geo5017/"><i class="fas fa-home"></i> (open course)</a>
 
 <!-- <h2>Other courses we are teaching</h2>
 
