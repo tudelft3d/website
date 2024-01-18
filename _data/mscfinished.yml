@@ -6,6 +6,12 @@
   github: https://github.com/ipanagiotidou/CasMVSNet_pl
   year: 2023  
 
+- surname: Kan
+  name: Leo
+  title: "Spatial Height Prediction of ICESat-2 Satellite Data using Random Forest Regression"
+  image: Kan.png
+  github: https://github.com/leowlk/RF_Terrain
+  year: 2023
 
 - surname: Xia
   name: Yitong
@@ -379,6 +385,14 @@
   title: Comparison of remotely sensed and OpenStreetMap registered dams
   link: https://repository.tudelft.nl/islandora/object/uuid%3A03bd4cce-6852-4784-b192-05cd02bd2106?collection=education
   image: Moscholaki.png
+
+- surname: Alexandridis
+  name: Vasileios
+  year: 2020
+  title: Automatic detection of waterbeds in shallow muddy water bodies in the Netherlands using green LiDAR
+  link: https://repository.tudelft.nl/islandora/object/uuid%3Aacbd73bf-3547-456b-8f9d-4b72d5b7b54a?collection=education
+  image: Alexandridis.png
+  github: https://github.com/VasilisAle/Bathymetric_Pointcloud
 
 - surname: Staring
   name: Karin
