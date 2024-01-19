@@ -1,3 +1,11 @@
+- surname: Hengelmolen
+  name: Maren
+  title: "Urban computational fluid dynamics simulations set-up validations"
+  image: 2023_hengelmolen.jpg
+  link: http://resolver.tudelft.nl/uuid:4bfbc01f-1681-4640-9b00-c1a800a4f74d
+  github: https://github.com/MarenHengelmolen/thesis
+  year: 2024
+
 - surname: Panagiotidou
   name: Ioanna
   title: "Semantically-Guided 3D Building Facade Reconstruction: A Learning-Based MVS Approach"

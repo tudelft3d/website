@@ -3,17 +3,12 @@
   title: Inferring the residential building type from 3DBAG
   image: 2023_HKPoon.png
   
-- surname: Hengelmolen
-  name: Maren
-  title: Urban computational fluid dynamics simulations set-up validations
-  image: 2023_hengelmolen.jpg
+- surname: Dinklo
+  name: Constantijn
+  title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
+  image: 3ccebc69c5d0-P1_foto.JPG
 
-# - surname: Dinklo
-#   name: Constantijn
-#   title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
-#   image: 3ccebc69c5d0-P1_foto.JPG
-
-# - surname: Keurentjes
-#   name: Lisa
-#   title: A framework for automatic repair of 3D city models
-#   image: 9ba90df526de-repair.gif
+- surname: Keurentjes
+  name: Lisa
+  title: A framework for automatic repair of 3D city models
+  image: 9ba90df526de-repair.gif
