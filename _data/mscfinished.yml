@@ -16,10 +16,11 @@
 
 - surname: Kan
   name: Leo
-  title: "Spatial Height Prediction of ICESat-2 Satellite Data using Random Forest Regression"
+  title: "Spatial height prediction of ICESat-2 satellite data using random forest regression"
   image: Kan.png
+  link: http://resolver.tudelft.nl/uuid:50e2609e-644d-4241-b3f2-a17f204d2c06
   github: https://github.com/leowlk/RF_Terrain
-  year: 2023
+  year: 2024
 
 - surname: Xia
   name: Yitong
