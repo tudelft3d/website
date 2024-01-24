@@ -22,3 +22,23 @@
   name: Lisa
   title: A framework for automatic repair of 3D city models
   image: 9ba90df526de-repair.gif
+
+- surname: Wei
+  name: Qiuxian
+  title: Multi-levels of details terrain continuity under constraining of roads
+  image: qiuxian.jpg
+
+- surname: Li
+  name: Sitong
+  title: Enhancing 3D Model for Urban Area with Neural Representations
+  image: sitong.jpg
+
+- surname: Feng
+  name: Yingxin
+  title: Text-guided editing of 3D models with generative AI
+  image: yingxin.png
+
+- surname: Rao
+  name: Chengzhi
+  title: Constructing a digital 3D road network in 3D city models by using open access data
+  image: chengzhi.png
