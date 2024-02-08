@@ -12,6 +12,8 @@ url: "https://3d.bk.tudelft.nl" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+future: true #-- to allow news to be visible even if the date is in the future (with timezone it's messy)
+
 kramdown:
   hard_wrap:      false
   toc_levels:     2..2
