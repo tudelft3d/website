@@ -2,7 +2,7 @@
 layout: post
 title: "DEI event: Speed Survey Card Game!"
 categories: news
-date: 2024-02-08 12:00
+date: 2024-02-08 10:00
 ---
 In the 3D GeoInformation Group we are committed to making our workplace diverse, equitable, and inclusive. On January 12, we had our latest DEI event: the Speed-Survey Card Game. The game was designed to follow a speed-dating format but was aimed at asking piercing questions on the various aspects of DEI. The idea was to create a comfortable and open space for participants to explore and discuss complex topics in a straightforward and impactful manner.
 
