@@ -1,6 +1,42 @@
 
 - - - 
 
+## Filling the gaps in aerial point clouds with deep learning
+
+![](img/church-deepsdf.png){:width="500px"}
+
+Because of the way they are collected, aerial point cloud datasets acquired with lidar often contain areas with no measurements due to occlusion effects.
+This occurs for building façades and other vertical surfaces (e.g., in dormers), but also other surfaces next to tall structures such as a church tower (see right part image above).
+The gaps in the datasets are problematic for the processing of point cloud, for instance automatic reconstruction algorithms can fail or output 3D models with several artefacts (see left part image above).
+
+The aim of this research project is to design and implement methods to complete aerial point clouds datasets such as the AHN3 dataset (that is fill those gaps).
+The idea is to investigate how new developments in deep learning (specifically [DeepSDF](https://github.com/facebookresearch/DeepSDF), and [ShapeInversion](https://junzhezhang.github.io/projects/ShapeInversion/)) and to adapt it to aerial point clouds.
+The focus would be in the first place on buildings, so that their regularity and verticality could be exploited.
+
+The student would be expected to take a machine learning and/or deep learning course as elective.
+
+*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) + [Ravi Peters](http://tudelft.nl/rypeters) + [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/)
+
+- - -
+
+## Coral Reef Complexity
+
+Corals [cnidarians] provide a safe and nutrient-rich environment for various aquatic organisms to coexist, significantly enhancing local biodiversity. However, global coral reef health has been in decline over the past few decades due to increased ocean acidification. Consequently, there is a growing scientific interest in understanding the life cycle of corals. One aspect of coral reefs is the connection between coral reef complexity and coral health. From a hydrodynamic perspective, there is growing evidence that the coral complexity [i.e., fractal dimension] acts to increase the mass transfer rate that enables the growth of coral communities; both isolated coral reefs, and collective communities (Monismith, 2006).
+
+In this MSc thesis you will work on spatially characterising the coral reef communities using  urban geoinformation tools to provide conventional metrics such as clustering, dimension, roughness, etc. These metrics can be used to understand any correlations between the health of the coral reef and the spatial characteristics. Additionally, characterising the spatial features of coral reefs can enable flow simulations to better understand the hydrodynamics as shown in the figure below. The thesis will broadly consist of the following three steps:
+
+- Literature review: A thorough literature survey to understand the state of the art for characterising coral reef complexity and its connection to coral health.
+- Data curation: Database search for coral reef point clouds (yes, we scan corals!) that are freely available. A good starting point would be USGS [https://cmgds.marine.usgs.gov/data-releases/datarelease/10.5066-P93RIIG9/], The Smithsonians digitisation collection [https://3d.si.edu/corals].
+- Algorithm development: Develop independent morphology algorithms to characterise individual coral and coral reefs similar to urban planning metrics. A good starting point would be the metrics you implemented for GEO1004, Homework 02.  e.g., EUBUCCO [https://github.com/ai4up/eubucco], 3D-Building metrics [https://github.com/tudelft3d/3d-building-metrics] 
+
+Skills required: Python programming and GEO1004
+
+![](img/coral.png){:width="800px"}
+
+**Contact:** [Akshay Patil](https://3d.bk.tudelft.nl/apatil/), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+- - - 
+
 ## Enrich the 3DBAG with the "material type" for each surface
 
 ![](img/surface_type.jpg){:width="500px"}
