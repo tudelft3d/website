@@ -136,3 +136,9 @@
   image: lod2plus.png
   paper: http://doi.org/10.1080/13658816.2015.1072201
   thesis: http://repository.tudelft.nl/view/ir/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634/
+
+- name: 3DBM
+  description: 3D Building Metrics. Elevating geometric analysis for urban morphology, solar potential, CFD etc to the next level.
+  github: https://github.com/tudelft3d/3d-building-metrics
+  image: 3dbm.png
+  paper: https://doi.org/10.1080/13658816.2022.2103818
