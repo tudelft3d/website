@@ -138,7 +138,13 @@
   thesis: http://repository.tudelft.nl/view/ir/uuid:b22a2b93-4a0a-4aa7-8e3b-6e08e0027634/
 
 - name: 3DBM
-  description: 3D Building Metrics. Elevating geometric analysis for urban morphology, solar potential, CFD etc to the next level.
+  description: Elevating geometric analysis for urban morphology, solar potential, CFD etc to the next level.
   github: https://github.com/tudelft3d/3d-building-metrics
   image: 3dbm.png
   paper: https://doi.org/10.1080/13658816.2022.2103818
+
+- name: Carriageway Creator
+  description: Create carriageways from centerlines using OSM and areal datasets.
+  github: https://github.com/tudelft3d/carriageways-creator
+  image: CC.png
+  paper: https://doi.org/10.1371/journal.pone.0262801
