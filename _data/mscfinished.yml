@@ -1,3 +1,11 @@
+- surname: Poon
+  name: Hoi-Kang (Chris)
+  title: Inferring the residential building type from 3DBAG
+  image: 2023_HKPoon.png
+  link: http://resolver.tudelft.nl/uuid:3ef77acb-b38b-4fa5-9b1e-31813b00b739
+  github: https://github.com/tudelft3d/ML_bldg_type
+  year: 2024
+  
 - surname: Hengelmolen
   name: Maren
   title: "Urban computational fluid dynamics simulations set-up validations"
