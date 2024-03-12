@@ -14,10 +14,41 @@ permalink: /education/msctopics/
 {:toc}
 
 - - -
+## Urban microclimate simulations using vegetation
+
+The aim of this project is to use the OpenFoam solver created by the ETH Zurich to perform simulations of urban microclimates at the neighbourhood scale to test several vegetation models ([here](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)). Simulations should be performed over the university campus of TU Delft using the City4CFD as an input for building geometry.
+From the outcomes of this MSc thesis, it will be expected to:
+1. Generate the simulation domain and meshing from a set of buildings that can be selected in the 3DBAG;
+2. Specify boundary conditions from weather data;
+3. Perform simulations on a test case located in the university campus of TU Delft;
+4. Study the outdoor air temperature resulting from various vegetation models that are specified in the urbanMicroclimateFoam solver.
+
+![](img/urbanMicroclimateFoam_vegetation.png){:width="500px"}
+
+The prerequisites for this project are basic knowledge in CFD simulations, programming skills in C/C++, and experience in using Unix operating system.
+
+*Contact:* [Miguel Martin](https://miguelmartin.org/) & [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+
+
+## Urban microclimate simulations @ TU Delft
+
+
+The aim of this project is to use the OpenFoam solver created by the ETH Zurich to perform simulations of urban microclimates at the neighbourhood scale ([here](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)). Simulations should be performed over the university campus of TU Delft using the City4CFD as an input for building geometry.
+From the outcomes of this MSc thesis, it will be expected to:
+1. Generate the simulation domain and meshing from a set of buildings that can be selected in the 3DBAG
+2. Specify boundary conditions from weather data;
+3. Perform simulations on a test case located in the university campus of TU Delft; and
+4. Study the various output variables that can be obtained from the urbanMicroclimateFoam solver.
+
+![](img/urbanMicroclimateFoam_TUDelft.png){:width="500px"}
+
+The prerequisites for this project are basic knowledge in CFD simulations, programming skills in C/C++, and experience in using Unix operating system.
+
+*Contact:* [Miguel Martin](https://miguelmartin.org/) & [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
 
 ## Synthetic population distributions of housing units for modeling economic segregation 
 
-![](img/segue.jpg){:width="500px"}
+
 
 The aim of this thesis project is to investigate economic segregation in cities by creating synthetic distributions of housing units across the Netherlands. 
 
