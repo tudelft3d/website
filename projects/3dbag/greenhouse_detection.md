@@ -5,7 +5,13 @@ permalink: /projects/3dbag/greenhouse_detection
 ---
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses1.png" }}"></div>
+  <div class="col-sm-12 col-xs-12">
+  <figure>
+    <img class="img-responsive" src="{{ "img/greenhouses1.png" }}">
+    <figcaption>Figure 1:  a) AHN3 ground (green) and building (building) classes b) Heightfield c) Reconstruction result 
+    </figcaption>
+  </figure>
+  </div>
 </div>
 
 - - -
@@ -25,7 +31,13 @@ The effect of these cases in the 3DBAG pipeline is two-fold. Firstly, the recons
 ---
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses2.png" }}"></div>
+  <div class="col-sm-12 col-xs-12">
+    <figure>
+    <img class="img-responsive" src="{{ "img/greenhouses2.png" }}">
+    <figcaption>Figure 2. Left: Footprint of a greenhouse, Right: problematic reconstruction due to the effect of the glass roof
+    </figcaption>
+  </figure>
+  </div>
 </div>
 
 - - -
