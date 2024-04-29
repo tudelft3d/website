@@ -48,7 +48,13 @@ The effect of these cases in the 3DBAG pipeline is two-fold. Firstly, the recons
 In order to identify such cases, we have developed a simple, effective solution to correctly identify glass roofs using the rasterized point clouds and the building polygons. For each raster cell we estimate the probability of it belonging to a glass roof based on the amount of “ground” vs “non-ground” point and its location with regards to the building polygon. (Fig.3) 
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses3.jpg" }}"></div>
+  <div class="col-sm-12 col-xs-12">
+      <figure>
+    <img class="img-responsive" src="{{ "img/greenhouses3.png" }}">
+    <figcaption>Left: Scatter plot of ground and non-ground points, Right: Probability that the grid-cell is concrete roof vs glass-roof.
+    </figcaption>
+  </figure>
+  </div>
 </div>
 
 - - -
