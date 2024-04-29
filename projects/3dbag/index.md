@@ -1,6 +1,6 @@
 ---
 layout: page
-title: detailed 3D Building models Automatically Generated for very large areas (3D BAG)
+title: Detailed 3D Building models Automatically Generated for very large areas (3D BAG)
 permalink: /projects/3dbag/
 ---
 
