@@ -5,7 +5,7 @@ permalink: /projects/3dbag/greenhouse_detection
 ---
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses1.jpg" }}"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses1.png" }}"></div>
 </div>
 
 - - -
@@ -25,14 +25,14 @@ The effect of these cases in the 3DBAG pipeline is two-fold. Firstly, the recons
 ---
 
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses1.jpg" }}"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses1.png" }}"></div>
 </div>
 
 - - -
 
 - - -
 <div class="row">
-  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses2.jpg" }}"></div>
+  <div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "img/greenhouses2.png" }}"></div>
 </div>
 
 - - -
