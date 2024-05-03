@@ -35,30 +35,33 @@ The [3D geoinformation research group](https://3d.bk.tudelft.nl) focuses on the 
 
 ## Doing a PhD at TU Delft
 
-At the Delft University of Technology, a PhD student is a full-time employee of the university who gets paid a salary, no extra funding is necessary.
-The gross salary is €2,125 per month for the 1st year, going up to €2,717 during the 4th year.
-TU Delft also offers an attractive benefits package, including a flexible work week and the option of assembling a customised compensation and benefits package.
-More information about doing a PhD at TU Delft and in the Netherlands can be found [here](http://www.phd.tudelft.nl) and [there](http://www.studyinholland.nl/education-system/degrees/phd).
+Doctoral candidates will be offered a 4-year period of employment in principle, but in the form of 2 employment contracts. An initial 1,5 year contract with an official go/no go progress assessment within 15 months. Followed by an additional contract for the remaining 2,5 years assuming everything goes well and performance requirements are met.
 
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities, increasing from € 2770 per month in the first year to € 3539 in the fourth year. As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
+
+The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
+
+For international applicants, TU Delft has the Coming to Delft Service. This service provides information for new international employees to help you prepare the relocation and to settle in the Netherlands. The Coming to Delft Service offers a Dual Career Programme for partners and they organise events to expand your (social) network.
 
 ## Job requirements
 
-•	MSc degree (or almost completed) in computer science, geoinformatics/geomatics, engineering, or related discipline.
-•	Background in at least two of the following domains: structure & infrastructure modelling, algorithmic decision-making, transportation engineering, uncertainty quantification, geo-data analytics, machine learning, and optimization.
-•	Experience with data-driven and/or deep learning approaches and/or algorithmic decision-making,
-•	Interest in applying AI in infrastructure networks;
-•	Good programming skills in Python;
-•	Familiarity with deep learning frameworks such as Pytorch and Tensorflow (preferred); 
-•	Excellent oral and written communication skills in English proven by a minimum score of 100 in TOEFL or IELTS of 7.0 per sub-skill (writing, reading, listening, speaking). For more details please check the [Graduate Schools Admission Requirements](https://www.tudelft.nl/onderwijs/opleidingen/phd/admission). 
-•	Ability to work in a team, take initiatives, and be results-oriented.
+- MSc degree (or almost completed) in computer science, geoinformatics/geomatics, engineering, or related discipline.
+- Background in at least two of the following domains: structure & infrastructure modelling, algorithmic decision-making, transportation engineering, uncertainty quantification, geo-data analytics, machine learning, and optimization.
+- Experience with data-driven and/or deep learning approaches and/or algorithmic decision-making,
+- Interest in applying AI in infrastructure networks;
+- Good programming skills in Python;
+- Familiarity with deep learning frameworks such as Pytorch and Tensorflow (preferred); 
+- Excellent oral and written communication skills in English proven by a minimum score of 100 in TOEFL or IELTS of 7.0 per sub-skill (writing, reading, listening, speaking). For more details please check the [Graduate Schools Admission Requirements](https://www.tudelft.nl/onderwijs/opleidingen/phd/admission). 
+- Ability to work in a team, take initiatives, and be results-oriented.
 
 ## How to apply
 
-•	Detailed CV - highlight examples of projects and/or achievements that demonstrate skills relevant to the advertised position;
-•	Motivation letter (no more than 600 words) addressing your interests and describing how your experience and plans fit with the position;
-•	Contact information for two references (letters not required at this stage);
-•	MSc thesis (if finished) and, if applicable, one or two notable publications you have co-authored;
-•	Undergraduate and graduate transcripts  (if finished).
+You can apply via [this webpage](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=5953&nPostingTargetId=17476&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&languageSelect=UK&mask=external), where you will be requested to submit: 
+- Detailed CV - highlight examples of projects and/or achievements that demonstrate skills relevant to the advertised position;
+- Motivation letter (no more than 600 words) addressing your interests and describing how your experience and plans fit with the position;
+- Contact information for two references (letters not required at this stage);
+- MSc thesis (if finished) and, if applicable, one or two notable publications you have co-authored;
+- Undergraduate and graduate transcripts  (if finished).
 
 The position will remain open until May 29th, 2024. Applicants are encouraged to apply as soon as possible, because screening of applications and interviews with candidates may begin before the deadline. The starting date is 15th of August or 1st of September 2024.
 
