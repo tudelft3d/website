@@ -12,9 +12,7 @@ permalink: /jobs/
 - - -
 
 <span class="label label-danger">open</span>
-<del>
 [PhD Position in Data- and AI-driven Transportation Infrastructure Life-Cycle Extension](PhD2024_NGF/)
-</del>
 
 - - -
 
