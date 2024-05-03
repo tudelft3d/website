@@ -8,9 +8,7 @@ permalink: /jobs/PhD2024_NGF/
 
 
 <div class="row">
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/3.png" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/4.png" | prepend: site.baseurl }}"></div>
-  <div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/2.png" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/plaatje.png" | prepend: site.baseurl }}"></div>
 </div>
 
 - - - 
@@ -26,7 +24,7 @@ This PhD research will investigate how optimal inspection and maintenance strate
 
 The candidate's background can further motivate directions of this PhD project in coordination with supervisors and stakeholders.
 
-The PhD candidate will combine expertise on geo-data, digital twins, and algorithmic decision-making. She/he/they will be supervised by Jantien Stoter (3D Geoinformation Group) and Charalampos Andriotis (AiDAPT Lab). The candidate will work as part of a team within the groups, closely collaborating with researchers, engineers, and stakeholders associated with the City of Amsterdam and the Amsterdam Institute of Advanced Metropolitan Solutions. The research will be carried out in the context of the National Growth Fund project “Future proof living environment”. The position is funded for a duration of 4 years, during which the candidate will undertake research on their PhD topic and  contribute to the research agenda of the research groups, also dependent on the interest of the candidate.
+The PhD candidate will combine expertise on geo-data, digital twins, and algorithmic decision-making. She/he/they will be supervised by [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (3D Geoinformation) and [Dr Charalampos Andriotis](https://www.cpandriotis.com) (AiDAPT Lab). The candidate will work as part of a team within the groups, closely collaborating with researchers, engineers, and stakeholders associated with the City of Amsterdam and the [Amsterdam Institute of Advanced Metropolitan Solutions](https://www.ams-institute.org). The research will be carried out in the context of the National Growth Fund project “Future proof living environment”. The position is funded for a duration of 4 years, during which the candidate will undertake research on their PhD topic and  contribute to the research agenda of the research groups, also dependent on the interest of the candidate.
 
 
 ## Research groups
