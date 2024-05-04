@@ -11,6 +11,11 @@ permalink: /jobs/
 
 - - -
 
+<span class="label label-danger">open</span>
+[PhD Position in Data- and AI-driven Transportation Infrastructure Life-Cycle Extension](PhD2024_NGF/)
+
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [Junior or Postdoc Researcher: Urban Digital Twins to support co-creation of Positive Energy Districts](digitwins4peds/)
