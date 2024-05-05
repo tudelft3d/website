@@ -7,7 +7,7 @@ permalink: /jobs/PhD2024_NGF/
 
 
 <div class="row">
-	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "img/plaatje.png" | prepend: site.baseurl }}"></div>
+	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "plaatje.png" | prepend: site.baseurl }}"></div>
 </div>
 
 - - - 
