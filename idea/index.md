@@ -20,9 +20,13 @@ In recent years, our group has made significant steps into enhancing our collect
 
 # Inception
 In 2023, during a Women's Day celebration, all the women scientists of our group gave short presentations on their research work, which were followed by a discussion about the systematic challenges faced by women scientist in academia. These shared experiences inspired us to team up 
-in order to first educate ourselves more in depth on such matters and then to gradually make our workplace safe for everyone. Thus, the IDEA taskforce was born through our collective need to improve our research group's commitment to these IDEA-ls (pun intended!).
+in order to first educate ourselves more in depth on such matters and then to gradually make our workplace safe for everyone. 
 
 <!-- Some of our motivation also stems from our observation that many of us are trained to be researchers within academia. Still, inadequate (and sometimes completely absent) training is centrally provided as part of the hiring process for a researcher [Nadine: I don't follow your point in the last 2 sentences]. Additionally, academia's hierarchical structure and power distribution limit democratic decision-making. By discussing these and other pressing issues pervasive within most academic institutions, our motivation is to re-educate ourselves and make small but consistent changes in the right direction. -->
+
+Thus, the IDEA taskforce was born through our collective need to improve our research group's commitment to these IDEA-ls (pun intended!).
+
+
 
 # Past actions
 
@@ -33,7 +37,7 @@ in order to first educate ourselves more in depth on such matters and then to gr
 
 # We are not experts!
 
-While our taskforce continuously advocates for IDEA topics, we acknowledge that we are not experts in these fields. Our events are "handmade" by us and there is a lot of prior work and studying involved to make sure that we approach each topic respectfully and with the attention it deserves. To make sure that we remain aligned with the values of our group, we regularly seek feedback and support from them. This input has helped us improve and learn a lot about how to effect the most positive change with small but impactful actions. 
+While our taskforce continuously advocates for IDEA topics, we acknowledge that we are not experts in these fields. Our events are "handmade" by us and there is a lot of prior work and studying involved to make sure that we approach each topic respectfully and with the attention it deserves. To make sure that we remain aligned with the values of our group, we regularly seek feedback and support from them. This input has helped us improve and learn a lot about how to bring the most positive change with small but impactful actions. 
 
 <!-- # Resources -->
 
