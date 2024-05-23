@@ -35,6 +35,8 @@ Thus, the IDEA taskforce was born through our collective need to improve our res
 
 <a href="{{ "/news/2024/03/28/womens-day-quiz.html" | prepend: site.baseurl }}">Women's Day Quiz</a>
 
+<a href="{{ "/news/2024/05/23/speed-survey-department-lunch.html" | prepend: site.baseurl }}">Department Lunch Speed Survey</a>
+
 # We are not experts!
 
 While our taskforce continuously advocates for IDEA topics, we acknowledge that we are not experts in these fields. Our events are "handmade" by us and there is a lot of prior work and studying involved to make sure that we approach each topic respectfully and with the attention it deserves. To make sure that we remain aligned with the values of our group, we regularly seek feedback and support from them. This input has helped us improve and learn a lot about how to bring the most positive change with small but impactful actions. 
