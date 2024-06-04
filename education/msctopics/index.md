@@ -557,35 +557,6 @@ For more information about this project, please refer to [this document](https:/
 
 ---
 
-## Image-guided automatic artistic route finding
-![](img/route.png){:width="600px"}
-
-Creating artistic routes requires tedious user interaction and is not friendly for 
-non-artist users. This project aims at automating artistic route creation by image 
-abstraction and deformable shape matching. 
-The research questions to be answered (you don't have to answer them all):
-
-* How to extract abstracted, expressive, clean, and continuous lines/curves from an image?
-* How can the abstracted image be used to guide route-finding such that the resulting route 
-is as faithful/close as possible to the extracted image lines/curves?
-* How to keep the route as smooth as possible? How to minimize repeated pathways (which 
-sometimes are unavoidable)?
-* How to evaluate the faithfulness of the generated route (e.g., quantitatively measure 
-the similarity between the route and the abstracted image)? How to evaluate the aesthetic 
-quality of the generated route?
-* How to incorporate user preferences into route creation, e.g., a desired total length, 
-preferred start point and endpoint, and must-have route segment(s)?
-
-**Note**: a preliminary research has been done in 2023 (see [here](http://resolver.tudelft.nl/uuid:11e9b0c2-5d67-475a-8653-71c7afe03dad)).
-This project will explore more intelligent and elegant solutions.
-
-**Required skills**:
-(1) Proficient in programming (C++ preferred but Python also fine). (2) Familiar with graph theory and computational geometry.
-
-**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
-
----
-
 ## Reconstructing permanent indoor structures from multi-view images
 
 ![](img/textureless_indoor.png){:width="600px"}
