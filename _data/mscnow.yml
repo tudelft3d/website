@@ -37,3 +37,14 @@
   name: Chengzhi
   title: Constructing a digital 3D road network in 3D city models by using open access data
   image: chengzhi.png
+ 
+- surname: Chi
+  name: Zhang
+  title: A learning-based MVS boosted by diffusion model 
+  image: zhangchi.png
+
+- surname: Monte
+  name: Serenic
+  title: Creating a benchmark for large urban objects using low resolution models
+  image: serenic.png
+  
