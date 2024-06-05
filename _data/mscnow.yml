@@ -47,4 +47,9 @@
   name: Serenic
   title: Creating a benchmark for large urban objects using low resolution models
   image: serenic.png
+
+- surname: Madanu
+  name: Sharath Chandra
+  title: A Confidence-aware Deep Learning Framework for Refining Laser-scanned Point Cloud Classification
+  image: 2024_sharath_msc.png
   
