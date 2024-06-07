@@ -4,11 +4,11 @@ title:  PhD position vacancy
 permalink: /jobs/PhD2024_NGF/
 ---
 
-
-
 <div class="row">
 	<div class="col-sm-4 hidden-xs nopadding"><img class="img-responsive" src="{{ "plaatje.png" | prepend: site.baseurl }}"></div>
 </div>
+
+<div class="alert alert-danger" role="alert">As of 30 May, 2024 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 - - - 
 
