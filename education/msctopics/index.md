@@ -27,8 +27,12 @@ We recommend you look at the [current work](https://github.com/jaspervdv/IFC_Bui
 
 **Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
 
+- - -
+
 ## Influential geometric parameters for indoor ventilation
+
 ![](img/parametric_room.gif){:width="700px"}
+
 Different geometrical design parameters impact the ventilation airflow in a room differently.
 Researchers have typically studied the room's height, the dimension and position of the inlet and outlet of mechanical ventilation, and the ratio of window-to-volume-of-room.
 However, most studies evaluate the ventilation efficiency of the room from the volumetric perspective of the room rather than from the perspective of breathing individuals.
@@ -37,6 +41,8 @@ Optimising the design of a room based on the most sensitive parameters for an in
 In this thesis, you can expect to work with parametric generation of 3D geometry, CFD simulations, OpenFoam, and optimisation algorithms.
 
 **Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+
+- - -
 
 ## (Further) Developing a polyhedral mesher for CFD geometries
 
@@ -56,8 +62,6 @@ The project would involve the further development of the mesher (and its potenti
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
 
-
-
 - - -
 
 ## Urban microclimate simulations using vegetation
@@ -75,9 +79,9 @@ The prerequisites for this project are basic knowledge in CFD simulations, progr
 
 *Contact:* [Miguel Martin](https://miguelmartin.org/) & [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
 
+- - -
 
 ## Urban microclimate simulations @ TU Delft
-
 
 The aim of this project is to use the OpenFoam solver created by the ETH Zurich to perform simulations of urban microclimates at the neighbourhood scale ([here](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)). Simulations should be performed over the university campus of TU Delft using the City4CFD as an input for building geometry.
 From the outcomes of this MSc thesis, it will be expected to:
@@ -92,9 +96,9 @@ The prerequisites for this project are basic knowledge in CFD simulations, progr
 
 *Contact:* [Miguel Martin](https://miguelmartin.org/) & [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
 
+- - -
+
 ## Synthetic population distributions of housing units for modeling economic segregation 
-
-
 
 The aim of this thesis project is to investigate economic segregation in cities by creating synthetic distributions of housing units across the Netherlands. 
 
@@ -135,7 +139,6 @@ The prerequisites for this project are basic knowledge in building physics and p
 
 - - -
 
-
 ## The Utrecht – BARCODE  - Between Planning, Modelling, and Participation: modelling and communicating the effects of urban densification
 
 Michael Batty (2022) recently stated, “Despite a wide array of new tools embodying different theories, the gulf between planning theory and practice remains. … for this, the challenge is for model-builders and users to work in practice and for practitioners to work with theory”.
@@ -154,7 +157,6 @@ Prerequisites: QGIS, Proficiency in programming languages such as R.
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/); [Alex Wandl](https://www.tudelft.nl/en/staff/a.wandl/?cHash=842e397ae7c998ecc880d440e2a0ccf0)
 
-
 - - -
 
 ## Investigating Predictive Modeling for Land Use Planning and Management 
@@ -170,7 +172,6 @@ Key objectives of this project include, among others:
 Prerequisites: QGIS, Proficiency in programming languages such as R or Python and knowledge of machine learning concepts.
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
-
 
 - - -
 
@@ -192,17 +193,34 @@ Prerequisites: Proficiency in GIS and software development (e.g., QGIS, R, Pytho
 
 - - -
 
+## ...Too cool to be true? Cooling demand based on the (enriched) semantic 3D city model of Rotterdam
 
-## Adding support for CityGML 3.0 to the 3DCityDB-Tools plugin for QGIS
+![](img/digitwins4peds_img.jpg){:width="800px"}
 
-The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). It currently supports the 3DCityDB 4.x. The next 3DCityDB v. 5.0 will introduce support CityGML 3.0. 
-The scope of this thesis is to extend to QGIS plugin in order to add support for the new version of the 3DCityDB, thus facilitating user's interaction with geodata adhering to the CityGML 3.0 standard. 
+This thesis is embedded within the European project [DigiTwins4PEDs](https://digitwins4peds.eu), which investigates how Urban Digital Twins can be exploited to foster the trasformation of urban districts into PEDs (Positive Energy Districts).
+As the municipality of Rotterdam is one of the project partners, the topic of the thesis will be to investigate how the energy demand for cooling can be computed for the building stock using the CityGML-based 3D city model of Rotterdam. Further activities encompass the (contribution to the) enrichment of the current city model with relevant energy-related data, the analysis on how accurate the computed values can be, and how to present them.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2024) is _highly_ suggested, as relevant topics needed for this thesis will be covered.
+
+You will programm mainly in Python, and you will interact with the 3DCityDB using a bit of PL/pgSQL, too.
+Before picking the topic, please contact us!
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
+
+## Development of the *client-side* part of the 3DCityDB-Tools plugin for QGIS to support CityGML 3.0 data
+
+The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). For the upcoming new 3DCityDB v.5.0, which introduces support for CityGML 3.0., a MSc thesis is already investigating and developing the (PostgreSQL-based) server-side part of the plugin.
+  
+The scope of this thesis is build upon it and to develop the client-side part of the plugin, thus facilitating the user's interaction with CityGML 3.0 data in the database using the usual QGIS GUI, instead of writing SQL commands. 
 
 ![](img/3dcdb5_qgis_mini.jpg){:width="800px"}
 
-The thesis is a collaboration between the 3DGeoinformation group and [virtualcitysystem GmbH](https://vc.systems/en/) in Germany. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2023) is suggesged, as relevant topics needed for this thesis will be covered.
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2024) is _highly_ suggested, as relevant topics needed for this thesis will be covered.
 
-You will programm in Python and in PL/pgSQL.
+You will programm mainly in Python, you will learn how to use the Qt libraries, and you will need to use (a bit of) PL/pgSQL, too.
 Before picking the topic, please contact us!
 
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
@@ -383,18 +401,6 @@ However, there is still a gap between research and practice. In this research yo
 The idea is explained in [this](https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts04e/TS04E_stoter_ho_et_al_10503.pdf) short paper
 
 *Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) 
-
-- - -
-
-## Integrated modelling of utility networks in the urban environment
-
-<img src="img/ga_xander_network.jpg" style="width: 500px;"/>
-
-In the framework of Smart Cities, the MSc thesis will focus on interoperability issues when it comes the heterogeneous utility networks (e.g. gas, water, electricity, sewage, district heating, telecommunications, etc.) that are found in the urban environment.
-Starting from a CityGML-based 3D city model, the Msc. thesis will focus on testing the Utility Network ADE (Application Domain Extension) and compare it to existing or newly proposed standards (IMKL or MUDDI), based on a concrete case study which will be agreed upon with the student. 
-The image shown here is taken from a previous [thesis](https://repository.tudelft.nl/islandora/object/uuid:fed24b16-cf95-4fa0-a109-ece6e91b61e9?collection=education) and serves as example - and starting point - of the overall topic of the thesis proposed here.
-
-**Contacts**: [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 
 - - -
 
