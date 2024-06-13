@@ -126,6 +126,20 @@ map: true
   </div>
 </section>
 
+- - -
+<section id="visiting people">
+  <h2>Academic visitors</h2>
+
+  {% assign members = site.data.staff_visiting | better_sort: 'surname' %}
+
+  <div class="row">
+    {% for member in members %}
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        {% include contact.html person=member role=member.title %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
 - - - 
 
 <section name="people">
