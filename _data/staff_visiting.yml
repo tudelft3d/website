@@ -4,3 +4,10 @@
   photo: sabrina.jpeg
   email: s.sacco@tudelft.nl
   description: "WHAT IF? - A convivial approach to AI for empowering citizens in urban cultural heritage enhancement processes."
+
+- surname: Wu
+  name: Yijie
+  title: PhD candidate
+  photo: yijie.jpg
+  email: y.w.wu-1@tudelft.nl
+  description: "Lightweight 3D building reconstruction, decomposition, and abstraction from reality capture data."
