@@ -17,29 +17,30 @@ permalink: /education/msctopics/
 
 ## Developing an open-source GIS pipeline tailored for FastEddy
 
-Within the past year, we have been actively collaborating with the National Center for Atmospheric Research (NCAR) which recently developed Fast Eddy, a resident GPU code, that is capable of running large urban microclimate simulations with high efficiency. Our collaboration aims to develop an open-source GIS pipeline that allows the automatic reconstruction of urban environments that can be swiftly prepared and used within their Fast Eddy framework. 
+![](img/NCAR_GISpipe.gif){:width="800px"}
 
-The MSc thesis will entail the full chain of the tailored automatic reconstruction (related to the work performed within GEO1004) starting by exploring the impact that the different projections available within their boundary software (WRF,https://www.mmm.ucar.edu/models/wrf) can have, the available footprint and point cloud data in the areas of interest, and finishing by the translation into the language that FastEddy uses (netcdf,https://www.unidata.ucar.edu/software/netcdf/). The thesis does NOT include running their fluid dynamics code. 
+Within the past year, we have been actively collaborating with the National Center for Atmospheric Research (NCAR) which recently developed [Fast Eddy](https://ral.ucar.edu/fasteddy), a resident GPU code, that is capable of running large urban microclimate simulations with high efficiency. Our collaboration aims to develop an open-source GIS pipeline that allows the automatic reconstruction of urban environments that can be swiftly prepared and used within their Fast Eddy framework. 
+
+The MSc thesis will entail the full chain of the tailored automatic reconstruction (related to the work performed within GEO1004) starting by exploring the impact that the different projections available within their boundary software [WRF](https://www.mmm.ucar.edu/models/wrf) can have, the available footprint and point cloud data in the areas of interest, and finishing by the translation into the language that FastEddy uses [netcdf](https://www.unidata.ucar.edu/software/netcdf/). The thesis does NOT include running their fluid dynamics code. 
 
 
 If you choose this topic, you can expect to learn about automatic geometry reconstruction and GIS data handling. Programming experience and interest is an advantage for this topic. Your work might require to implement source code (in C++ or Python or any other language you prefer).
-
-![](img/NCAR_GISpipe.gif){:width="800px"}
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
 
 - - - 
 
-## Adding trees in City4CFD
+## Adding trees to City4CFD
+
+![](img/automaticTree_city4CFD.jpg){:width="800px"}
 
 [City4CFD](https://github.com/tudelft3d/City4CFD) is an open-source tool that automatically reconstructs 3D city geometries tailored for microscale urban flow simulations. Its capabilities include reconstruction at multiple levels of detail, as well as including semantic surfaces, best practice guidelines set-up, and even multi-level geometry based on distance from point of interest.
 
-This MSc thesis aims to add to City4CFD the automatic reconstruction of trees, this would facilitate their use within microclimate urban flow simulations with OpenFOAM. To start this topic, you would need to delve into the work from [De Groot 2020](https://repository.tudelft.nl/islandora/object/uuid%3A3e169fc7-5336-4742-ab9b-18c158637cfe), and explore how his approach to reconstruct trees at a different level of detail could be improved and implemented within City4CFD.
+This MSc thesis aims to add to City4CFD the automatic reconstruction of trees, this would facilitate their use within microclimate urban flow simulations with OpenFOAM. To start this topic, you would need to delve into the work from [De Groot (2020)](https://repository.tudelft.nl/islandora/object/uuid%3A3e169fc7-5336-4742-ab9b-18c158637cfe) ([with code](https://github.com/RobbieG91/TreeConstruction)), and explore how his approach to reconstruct trees at a different level of detail could be improved and implemented within City4CFD.
 
 If you choose this topic, you can expect to learn about automatic geometry reconstruction and GIS data handling. To run CFD for testing can be optional. Programming experience and interest is an advantage for this topic. Your work will require the implementation of source code (in C++ preferably, but Python or others could be used).
 
-![](img/automaticTree_city4CFD.jpg){:width="800px"}
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
