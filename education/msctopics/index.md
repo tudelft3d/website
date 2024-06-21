@@ -274,12 +274,39 @@ Before picking the topic, please contact us!
 
 - - -
 ## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+![](img/CityJSONEnergyExtension.png){:width="800px"}
 
-The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis finished in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
+The thesis aims to improve the current version of the CityJSON Energy Extension, which partially maps the CityGML Energy ADE KIT profile. It is expected to support the latest version of [CityJSON](https://www.cityjson.org/).
 
-![](img/CityJSON+Energy.png){:width="800px"}
+The CityJSON extension is expected to support several energy applications as its counterpart, the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does. 
 
-It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
+This implementation is expected to include the development of a software tool to translate the data between the CityJSON and the [3DCityDB](https://github.com/3dcitydb/3dcitydb-suite).
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered. [Özge Tufan](https://github.com/ozgetufan/cjenergy/) and [Carolin Bachert](https://www.mdpi.com/2220-9964/13/4/121) work are the suggested starting literature review for this topic.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Accuracy assesment of in-house urban energy building simulation tool 
+![](img/UBES_PhDCamiloEvaluation.png){:width="800px"}
+
+The aim of this MSc thesis is the evaluation of the output of an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
+
+The scope of the research is to asses the accuracy of the results obtained by the UBES while computing the energy demand of buildings while pointing possible source of errors in the workflow. It is expected to use other existing UBES in this research such as [SimStadt](https://simstadt.hft-stuttgart.de/), [CitySim](http://www.kaemco.ch/download.php), [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com/) or [EnergyPlus](https://energyplus.net), to mention some.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Development of a Graphical User Interface for Visualizing Building Energy Data
+![](img/GUI_EnergyApplications.png){:width="800px"}
+
+The scope of this MSc thesis is the design and development of a web-based Graphical User Interface (GUI) that enables the interaction with an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
+
+Within its functionalities, the GUI should allow 3D visualization of semantic 3D city models (3DCM) and generate graphs and plots that aggregate the output of the simulation tool. Data are managed in a 3DCityDB instance that supports the Energy ADE.
 
 Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
 
