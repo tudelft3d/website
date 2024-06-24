@@ -15,7 +15,6 @@ permalink: /education/msctopics/
 
 - - -
 
-<<<<<<< HEAD
 ## Developing an open-source GIS pipeline tailored for FastEddy
 
 ![](img/NCAR_GISpipe.gif){:width="800px"}
@@ -31,7 +30,7 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 
 
 - - - 
-=======
+
 ## Water (level) detection with ICESat-2 measurements
 
 ![](img/water_profile){:width="600px"}
@@ -61,7 +60,6 @@ The [project has open-source code](https://github.com/kylelo/Diff-DEM), Python c
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
 
 - - -
->>>>>>> dec557a4 (Add icesat-2 topic)
 
 ## Adding trees to City4CFD
 
