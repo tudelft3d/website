@@ -45,6 +45,20 @@ The method(s) should be able to scale to the full ICESat-2 dataset (1 PB), and t
 
 **Contact:** [Maarten Pronk](https://www.evetion.nl/) + [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
+- - -
+
+
+## Filling the massive gaps in space lidar datasets with a diffusion model
+
+![](img/icesat_gedi.png){:width="300px"}
+
+As you saw during the GEO1015 lecture of Maarten Pronk, space lidar datasets, [ICESat-2](https://icesat-2.gsfc.nasa.gov/) and [GEDI](https://gedi.umd.edu/), have very sparse distribution (often kilometres with no data) and thus a global coverage is difficult.
+
+The aim of this thesis is to test, compare to others, and further develop the deep learning diffusion model presented [in this paper](https://doi.org/10.1109/LGRS.2024.3403835).
+
+The [project has open-source code](https://github.com/kylelo/Diff-DEM), Python can be used.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
 
 - - -
 >>>>>>> dec557a4 (Add icesat-2 topic)
