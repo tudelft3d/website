@@ -15,6 +15,7 @@ permalink: /education/msctopics/
 
 - - -
 
+<<<<<<< HEAD
 ## Developing an open-source GIS pipeline tailored for FastEddy
 
 ![](img/NCAR_GISpipe.gif){:width="800px"}
@@ -30,6 +31,23 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 
 
 - - - 
+=======
+## Water (level) detection with ICESat-2 measurements
+
+![](img/water_profile){:width="600px"}
+
+ICESat-2, a spaceborne lidar system, can measure terrain elevations every 0.7m along its ground track.
+As such, it can be seen as a profiling lidar, drawing cross-sections over the Earth.
+When combined with a water mask, it can also be used to measure water levels.
+For this topic we will investigate automatic water (level) detection methods, making use of the multiple return pattern that ICESat-2 exhibits over strong reflectors such as water (see figure).
+If successful, we could update and expand mangrove and wetland maps (which are now based on optical imagery) critical for conservation purposes and carbon stock models.
+The method(s) should be able to scale to the full ICESat-2 dataset (1 PB), and therefore ideally be implemented in the Julia programming language (if you know C++ and Python it's not very difficult to learn Julia, we can help).
+
+**Contact:** [Maarten Pronk](https://www.evetion.nl/) + [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+
+- - -
+>>>>>>> dec557a4 (Add icesat-2 topic)
 
 ## Adding trees to City4CFD
 
