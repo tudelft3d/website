@@ -33,7 +33,7 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 
 ## Water (level) detection with ICESat-2 measurements
 
-![](img/water_profile){:width="600px"}
+![](img/water_profile.png){:width="600px"}
 
 ICESat-2, a spaceborne lidar system, can measure terrain elevations every 0.7m along its ground track.
 As such, it can be seen as a profiling lidar, drawing cross-sections over the Earth.
