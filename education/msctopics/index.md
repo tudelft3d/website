@@ -12,6 +12,92 @@ permalink: /education/msctopics/
 
 * Table of Contents
 {:toc}
+- - -
+
+## Building point cloud completion
+
+![](img/buildingpcc.png){:width="800px"}
+The goal of this research is to develop a building point cloud completion method based on deep learning. 
+We will provide datasets, backbone networks, and ready-made ideas to facilitate students' successful completion of this project. 
+Your task is to improve and enhance existing methods to meet the requirements of building point cloud completion. 
+You will learn about cutting-edge deep learning methods for point cloud completion and their applications in the field of geoinformation. 
+The results of this research can be published in high-quality journals or conference papers. 
+Students are free to choose an additional co-supervisor. 
+Participants in this project can choose from the following three research directions:
+1. Develop a structure-aware method.
+2. Develop a multi-modality method.
+3. Develop a learning-based up-sampling method.
+
+**Requirements:** 1) Experiences in point cloud processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+
+
+- - -
+
+## Urban mesh segmentation
+
+![](img/urbanmeshseg.png){:width="800px"}
+The aim of this research is to develop instance or semantic segmentation methods for urban meshes. 
+We will equip students with datasets, annotation tools, backbone networks, and pre-formulated ideas to facilitate the successful completion of this project. 
+Your task is to enhance the performance of existing 3D segmentation methods to achieve better results on urban textured mesh data. 
+You will learn about the most advanced deep learning techniques for 3D semantic segmentation tasks and/or interactive 3D annotation strategies. 
+The outcomes of this research are eligible for publication in high-quality journals or conference proceedings. 
+Additionally, students have the freedom to choose an additional co-supervisor. 
+Participants in this project can select from the following three research directions:
+1. Develop automatic or interactive instance segmentation methods for urban objects.
+2. Develop semantic segmentation methods for urban meshes and their textures.
+3. 3)	Develop a local adaptive receptive filed approach for 3D semantic segmentation of urban scenes.
+
+**Requirements:** 1) Experiences in mesh processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+
+
+- - -
+
+## Spatial intelligence for applications in semantic 3D city models
+
+![](img/spatialsmart.png){:width="800px"}
+The goal of this research is to develop spatial intelligence applications for semantic 3D city models. 
+We will provide datasets and research guidelines to facilitate students' successful completion of the project. 
+Your task is to develop prototypes of algorithms related to applications based on 3D city models. 
+You will learn about cutting-edge spatial intelligence computing methods and their applications in semantic 3D urban models. 
+The findings from this study can be published in high-quality journals or conference papers. 
+Additionally, students have the option to choose a secondary supervisor. 
+Participants in this project can choose from the following four research directions:
+1. Develop a method for arranging solar panels on roofs to enhance solar potential estimation.
+2. Create prototypes for semantic-based automatic geometric measurements.
+3. Develop a routing method for pedestrian or vehicle navigation using 3D maps.
+4. Design a language model for interpreting or editing 3D city models.
+
+**Requirements:** 1) Experiences in 3D city models analysis and processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of spatial analysis or computational geometry or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+
+
+- - -
+
+## 3D reconstruction for urban objects
+
+![](img/3drecons_urban_objs.png){:width="800px"}
+The objective of this research is to develop 3D model reconstruction methods tailored for urban infrastructure. 
+We will provide datasets, relevant algorithms, and a clear research guidelines to ensure the successful completion of this project by students. 
+Your task is to enhance existing 3D reconstruction algorithms to accommodate various types of urban objects. 
+You will learn about state-of-the-art 3D reconstruction techniques and their applications in urban environments. 
+The outcomes of this research may be published in high-quality journals or presented at conferences. 
+Additionally, students have the freedom to choose a secondary supervisor. 
+Participants in this project can select from the following two research directions:
+1. Develop a method to reconstruct linear urban objects such as electric pole, wind turbine or wires.
+2. Develop a method to reconstruct or generalize road surface from urban meshes.
+
+**Requirements:** 1) Experiences in 3D reconstruction. 2) Proficient in C++ programming.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+
 
 - - -
 
