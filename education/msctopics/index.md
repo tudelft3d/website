@@ -50,7 +50,7 @@ Additionally, students have the freedom to choose an additional co-supervisor.
 Participants in this project can select from the following three research directions:
 1. Develop automatic or interactive instance segmentation methods for urban objects.
 2. Develop semantic segmentation methods for urban meshes and their textures.
-3. 3)	Develop a local adaptive receptive filed approach for 3D semantic segmentation of urban scenes.
+3. Develop a local adaptive receptive filed approach for 3D semantic segmentation of urban scenes.
 
 **Requirements:** 1) Experiences in mesh processing. 
 2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
