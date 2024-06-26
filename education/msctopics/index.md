@@ -17,6 +17,7 @@ permalink: /education/msctopics/
 ## Building point cloud completion
 
 ![](img/buildingpcc.png){:width="800px"}
+
 The goal of this research is to develop a building point cloud completion method based on deep learning. 
 We will provide datasets, backbone networks, and ready-made ideas to facilitate students' successful completion of this project. 
 Your task is to improve and enhance existing methods to meet the requirements of building point cloud completion. 
@@ -39,6 +40,7 @@ Participants in this project can choose from the following three research direct
 ## Urban mesh segmentation
 
 ![](img/urbanmeshseg.png){:width="800px"}
+
 The aim of this research is to develop instance or semantic segmentation methods for urban meshes. 
 We will equip students with datasets, annotation tools, backbone networks, and pre-formulated ideas to facilitate the successful completion of this project. 
 Your task is to enhance the performance of existing 3D segmentation methods to achieve better results on urban textured mesh data. 
@@ -61,6 +63,7 @@ Participants in this project can select from the following three research direct
 ## Spatial intelligence for applications in semantic 3D city models
 
 ![](img/spatialsmart.png){:width="800px"}
+
 The goal of this research is to develop spatial intelligence applications for semantic 3D city models. 
 We will provide datasets and research guidelines to facilitate students' successful completion of the project. 
 Your task is to develop prototypes of algorithms related to applications based on 3D city models. 
@@ -84,6 +87,7 @@ Participants in this project can choose from the following four research directi
 ## 3D reconstruction for urban objects
 
 ![](img/3drecons_urban_objs.png){:width="800px"}
+
 The objective of this research is to develop 3D model reconstruction methods tailored for urban infrastructure. 
 We will provide datasets, relevant algorithms, and a clear research guidelines to ensure the successful completion of this project by students. 
 Your task is to enhance existing 3D reconstruction algorithms to accommodate various types of urban objects. 
