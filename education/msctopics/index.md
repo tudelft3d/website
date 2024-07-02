@@ -32,7 +32,7 @@ Participants in this project can choose from the following three research direct
 **Requirements:** 1) Experiences in point cloud processing. 
 2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
 
-**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
 
 - - -
@@ -55,7 +55,7 @@ Participants in this project can select from the following three research direct
 **Requirements:** 1) Experiences in mesh processing. 
 2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
 
-**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
 
 - - -
@@ -79,7 +79,7 @@ Participants in this project can choose from the following four research directi
 **Requirements:** 1) Experiences in 3D city models analysis and processing. 
 2) Proficiency in Python or C++ programming. 3) Knowledge of spatial analysis or computational geometry or deep learning.
 
-**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
 
 - - -
@@ -100,7 +100,7 @@ Participants in this project can select from the following two research directio
 
 **Requirements:** 1) Experiences in 3D reconstruction. 2) Proficient in C++ programming.
 
-**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao)
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
 
 - - -
