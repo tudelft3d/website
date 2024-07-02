@@ -28,7 +28,7 @@
   name: Ioanna
   title: "Semantically-Guided 3D Building Facade Reconstruction: A Learning-Based MVS Approach"
   image: 2023_Ioanna.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A6b3a4d29-45f6-4432-ac31-67ceae7dd75a
+  link: https://repository.tudelft.nl/record/uuid%3A6b3a4d29-45f6-4432-ac31-67ceae7dd75a
   github: https://github.com/ipanagiotidou/CasMVSNet_pl
   year: 2023  
 
@@ -44,7 +44,7 @@
   name: Yitong
   title: "A data-driven approach to add openings to 3D BAG LOD2 building models"
   image: 2023_yitong2.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Aeaff38b9-65f4-4c1c-8cec-aebd8fc4b18f
+  link: https://repository.tudelft.nl/record/uuid%3Aeaff38b9-65f4-4c1c-8cec-aebd8fc4b18f
   github: https://github.com/YitongXia/LOD3-Model
   year: 2023  
 
@@ -52,7 +52,7 @@
   name: Fabian
   title: "Neural Surface Reconstruction and Stylization"
   image: 2023_fabian.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A7f8ef49b-7c9c-4281-bd93-b921d9b28d49
+  link: https://repository.tudelft.nl/record/uuid%3A7f8ef49b-7c9c-4281-bd93-b921d9b28d49
   github: https://github.com/fabisser/stylesdf
   year: 2023  
 
@@ -83,7 +83,7 @@
   name: Leon
   title: Shape-guided artistic route finding
   image: 2023_LeonPowalka.jpg
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A11e9b0c2-5d67-475a-8653-71c7afe03dad
+  link: https://repository.tudelft.nl/record/uuid%3A11e9b0c2-5d67-475a-8653-71c7afe03dad
   year: 2023
 
 - surname: Yan
@@ -148,7 +148,7 @@
   title: Modelling tree topology effects on wind
   image: Fu.png
   github: https://github.com/furunnan/Tree_Topo_Effects_on_Wind
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A557e824d-a088-4cf4-8fe5-c98f5b893057?collection=education 
+  link: https://repository.tudelft.nl/record/uuid%3A557e824d-a088-4cf4-8fe5-c98f5b893057?collection=education 
   year: 2022
 
 - surname: Pantelios  
@@ -156,21 +156,21 @@
   title: Development of a QGIS plugin for the CityGML 3D City Database
   image: 2021_Konstantinos.png
   github: https://github.com/Konstantinos-Pantelios/3DCityDB-QGIS-Loader
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Afb532bef-81b9-482b-921a-e7ce907cb544
+  link: https://repository.tudelft.nl/record/uuid%3Afb532bef-81b9-482b-921a-e7ce907cb544
   year: 2022 
   
 - surname: Prusti
   name: Maarit
   title: How could BIM support the digital building permit process in the Netherlands?
   image: 2022_MaaritPrusti.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A33b125b5-d902-4432-9043-2ceb10f2e53e?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A33b125b5-d902-4432-9043-2ceb10f2e53e?collection=education
   year: 2022 
 
 - surname: Pavlidou  
   name: Androniki
   title: Integrated modeling of utility networks in the urban environment
   image: 2021_androniki.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A81549126-bbb9-49d5-bc46-d050a2463c6d
+  link: https://repository.tudelft.nl/record/uuid%3A81549126-bbb9-49d5-bc46-d050a2463c6d
   year: 2022  
   
 - surname: Veselý  
@@ -178,7 +178,7 @@
   title: Building massing generation using GAN trained on Dutch 3D city models
   image: 2021_ondrej.png
   github: https://github.com/ondrej-vesely/massingGAN
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A27085fd4-654a-4748-92d0-61563fe6040c
+  link: https://repository.tudelft.nl/record/uuid%3A27085fd4-654a-4748-92d0-61563fe6040c
   year: 2022 
 
 - surname: Jin
@@ -186,7 +186,7 @@
   title: Dynamic energy simulations based on the 3D BAG 2.0
   image: 2021_Yuzhen.png
   github: https://github.com/yuzhenjin3000/Dynamic-energy-simulations-based-on-the-3D-BAG-2.0
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A3ae123bd-cae4-45b2-be48-27ffe5cab980
+  link: https://repository.tudelft.nl/record/uuid%3A3ae123bd-cae4-45b2-be48-27ffe5cab980
   year: 2022  
 
 - surname: Langhorst
@@ -233,7 +233,7 @@
 - surname: van der Horst
   name: Noortje
   title: Procedural Modelling of Tree Growth Using Multi-temporal Point Clouds
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Ad284c33a-7297-4509-81e1-e183ed6cca3c
+  link: https://repository.tudelft.nl/record/uuid%3Ad284c33a-7297-4509-81e1-e183ed6cca3c
   github: https://github.com/NoortjevanderHorst/treegrowthmodelling
   image: 2022_Noortje.png
   year: 2022
@@ -241,7 +241,7 @@
 - surname: Wang
   name: Linjun
   title: Detailed Facade Reconstruction for Manhattan-world Buildings
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A1581231d-6109-44b2-ab57-bbbea3e08642
+  link: https://repository.tudelft.nl/record/uuid%3A1581231d-6109-44b2-ab57-bbbea3e08642
   github: https://github.com/fiodccobw/3DFacade
   image: 2022_Linjun.png
   year: 2022
@@ -351,7 +351,7 @@
   name: Natasja
   title: Integration of 3D city model and BIM for microclimate simulations
   image: natasja.PNG
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A630d57be-5660-4971-84c2-83bf12b1d204?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A630d57be-5660-4971-84c2-83bf12b1d204?collection=education
   github: https://github.com/Natasja1992/ifc-citygml-2-envi
   year: 2021
   
@@ -384,7 +384,7 @@
 - surname: Chen
   name: Zhaiyu
   title: Learning to Reconstruct Compact Building Models from Point Clouds
-  link: https://repository.tudelft.nl/islandora/object/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887?collection=education
+  link: https://repository.tudelft.nl/record/uuid:e33e7fa1-118e-41d8-904f-5f03eb36e887?collection=education
   image: 2021_ZhaiyuChen.jpg
   github: https://github.com/chenzhaiyu/points2poly
   paper: https://doi.org/10.1016/j.isprsjprs.2022.09.017
@@ -410,14 +410,14 @@
   name: Maria
   year: 2020
   title: Comparison of remotely sensed and OpenStreetMap registered dams
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A03bd4cce-6852-4784-b192-05cd02bd2106?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A03bd4cce-6852-4784-b192-05cd02bd2106?collection=education
   image: Moscholaki.png
 
 - surname: Alexandridis
   name: Vasileios
   year: 2020
   title: Automatic detection of waterbeds in shallow muddy water bodies in the Netherlands using green LiDAR
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Aacbd73bf-3547-456b-8f9d-4b72d5b7b54a?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3Aacbd73bf-3547-456b-8f9d-4b72d5b7b54a?collection=education
   image: Alexandridis.png
   github: https://github.com/VasilisAle/Bathymetric_Pointcloud
 
@@ -425,7 +425,7 @@
   name: Karin
   year: 2020
   title: Comparison of storing CityJSON in differente databases and querying with GraphQL
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A7f9209f7-248f-4c93-9ba3-5866655e6040
+  link: https://repository.tudelft.nl/record/uuid%3A7f9209f7-248f-4c93-9ba3-5866655e6040
   image: karinstaring.jpg
 
 - surname: Mastorakis
@@ -448,7 +448,7 @@
   title: "Knowledge sharing on Q&A fora: challenges of automated interaction analysis"
   year: 2020
   image: ruben2020.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A67053d30-51ae-47d9-a474-7070c73274a5
+  link: https://repository.tudelft.nl/record/uuid%3A67053d30-51ae-47d9-a474-7070c73274a5
 
 - surname: van Liempt
   name:  Jordi
@@ -456,7 +456,7 @@
   year: 2020
   image: vanliempt.jpg
   github: https://github.com/jliempt/CityJSON-does-file-size-matter-
-  link: https://repository.tudelft.nl/islandora/object/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education  
+  link: https://repository.tudelft.nl/record/uuid:4aad07f4-8f64-46b1-aad3-3d4abe36c5bf?collection=education  
 
 - surname: Ceccarelli
   name:  Giulia
@@ -477,14 +477,14 @@
   title: Outer surface extraction for complex 3D building models
   image: 2020_YifangZhao.jpg
   year: 2020
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Ab0dac42c-6d7a-4dbf-a11b-ce851d573862?collection=education 
+  link: https://repository.tudelft.nl/record/uuid%3Ab0dac42c-6d7a-4dbf-a11b-ce851d573862?collection=education 
   
 - surname: Garg
   name: Chirag
   title: Indoor 3D reconstruction from a single image
   image: 2020_ChiragGarg.jpg
   year: 2020
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A70f42eb0-241a-46a2-8bf8-87d89bea26b0?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A70f42eb0-241a-46a2-8bf8-87d89bea26b0?collection=education
   github: https://github.com/cgarg-tud/GeomAwareLoss
   
 - surname: Kaniouras
@@ -492,7 +492,7 @@
   title: Road detection from remote sensing imagery
   image: 2020_PantelisKaniouras.jpg
   year: 2020
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A21fc20a8-455d-4583-9698-4fea04516f03?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A21fc20a8-455d-4583-9698-4fea04516f03?collection=education
   github: https://github.com/ntelo007/road_detection_mtl
   
 - surname: Oostwegel   
@@ -568,14 +568,14 @@
   title: Semantic Segmentation of Large-scale Urban Scenes from Point Clouds
   image: 2019_ZhiweiAi.jpg
   year: 2019
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Aa9cedaac-42ae-4cb0-9c14-67bab8e96a6d?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3Aa9cedaac-42ae-4cb0-9c14-67bab8e96a6d?collection=education
 
 - surname: Du  
   name: Shenglan
   title: Accurate, Detailed and Automatic Tree Modelling from Point Clouds
   image: 2019_ShenglanDu.jpg
   year: 2019
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A675ee438-3dc9-43c8-a7a7-f3b8807c583f?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A675ee438-3dc9-43c8-a7a7-f3b8807c583f?collection=education
   github: https://github.com/tudelft3d/adtree
   paper: https://doi.org/10.3390/rs11182074
 
@@ -584,7 +584,7 @@
   title: 3D City Models in the Context of Urban Mining
   image: ruben.png
   year: 2019
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A0fd2ffec-f25a-4391-be68-e816cc2611dd
+  link: https://repository.tudelft.nl/record/uuid%3A0fd2ffec-f25a-4391-be68-e816cc2611dd
 
 - surname: Garcia Gonzalez    
   name: Francisco Gabriel
@@ -620,14 +620,14 @@
   title: Robust interior-exterior classification for 3d models
   image: 2019_NikolaosTzounakos.jpg
   year: 2019
-  link: https://repository.tudelft.nl/islandora/object/uuid%3A9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3A9a8ebd7a-b807-4b7f-a9f6-cce73cc5315b?collection=education
   
 - surname: Bouzas   
   name: Vasileios
   title: Structure-aware building mesh simplification
   image: 2019_VasileiosBouza.jpg
   year: 2019
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Aa0faf1a6-9815-4828-9186-a4a16119c71c?collection=education
+  link: https://repository.tudelft.nl/record/uuid%3Aa0faf1a6-9815-4828-9186-a4a16119c71c?collection=education
   github: https://github.com/VasileiosBouzas/MeshPolygonization
   paper: https://doi.org/10.1016/j.isprsjprs.2020.07.010
 
@@ -709,7 +709,7 @@ for the pairwise registration of mobile laser scanning point clouds"
   name: Jan
   title: "3D noise modeling for outdoor music events in the built environment"
   image: jtkate.png
-  link: https://repository.tudelft.nl/islandora/object/uuid%3Aa1663ff7-d6a4-410c-80fa-5fc8654fd5c6
+  link: https://repository.tudelft.nl/record/uuid%3Aa1663ff7-d6a4-410c-80fa-5fc8654fd5c6
   year: 2017
 
 - surname: Staats
