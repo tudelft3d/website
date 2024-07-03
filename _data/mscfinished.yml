@@ -1,3 +1,26 @@
+- surname: Wei
+  name: Qiuxian
+  title: Multi-levels of detail terrain construction for navigation
+  image: qiuxian.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/24_qiuxian.pdf
+  year: 2024
+
+- surname: Li
+  name: Sitong
+  title: Enhancing 3D model for urban area with neural representations
+  image: sitong.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/24_sitong.pdf
+  year: 2024
+  github: https://github.com/StoneLee0917/DSM-with-nueral-representation-
+
+- surname: Feng
+  name: Yingxin
+  title: 3D building model edit with generative AI
+  image: yingxin.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/24_yingxin.pdf
+  year: 2024
+  github: https://github.com/fengyingxin/MSc-Thesis
+
 - surname: Koster
   name: Gabriela
   title: Designing a Dutch building energy simulation tool using semantic 3D city models
