@@ -15,6 +15,40 @@ permalink: /education/msctopics/
 
 - - -
 
+## Citizen Voices in Climate Action: Developing digital platforms for citizen engagement in climate planning and design
+
+Municipalities worldwide are developing plans and strategies to deal with increasing climate risks. Many of these interventions require citizen support and active participation, e.g., adopting solar PV panels or green roofs or increasing biodiversity in private backyards. Other strategies require people to change their behaviour and social norms. There is, therefore, a need to meaningfully engage citizens in climate strategies. Digital tools provide a means to do so with the potential to reach a large number of citizens. In this context, the [Citizen Voice Initiative](https://zenodo.org/records/12169892) has developed several prototypes for citizen engagement in urban planning and design: (1) [Citizens meet Climate (CmC)](https://zenodo.org/records/12183035): A digital participatory platform to empower citizens to take climate action and (2) [BIO-CiVo](https://zenodo.org/records/12180644): A digital platform to support citizens in improving neighbourhood biodiversity. Navigate through the prototypes: 
+
+[CmC](https://tinyurl.com/PrototypeCmC)
+
+![](img/CmC.png){:width="800px"}
+
+[BIO-CiVo-Evaluation Tool](https://edu.nl/geeax), and [BIO-CiVo-Building Tool](https://edu.nl/96erf)
+
+![](img/BIO-CiVo-2.png){:width="800px"}
+
+The MSc thesis will develop these prototypes into real platforms. This entails (1) translating the prototypes from Figma to URL in a static form and (2) progressively developing the interactive features, which include e.g., maps (present in all prototypes), the use of different types of spatial data (climate data in the CmC prototype) and 3D environment (BIO-CiVo-Building).
+
+If you choose this topic, you can expect to learn about citizen engagement, web development, and spatial data handling. Programming experience and interest are advantages of this topic.
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Juliana Goncalves](https://www.tudelft.nl/staff/j.e.goncalves/)
+
+## Revealing energy inequalities in The Netherlands
+
+With technological advances and decreasing prices, solar energy is a key technology in the urban energy transition. The current policy focus on increasing the overall installed capacity via financial mechanisms has overshadowed energy justice considerations, leading to inequalities in solar energy adoption. This pattern of inequality is bound to deepen as financial mechanisms continue to be the preferred policy choice for other energy transition interventions, such as heat pumps or renovation incentives.
+
+The MSc thesis will delve into questions of energy justice through the use of spatial data. To start the topic, you will delve into the work by [Kraaijvanger et al., (2023)](https://www.sciencedirect.com/science/article/pii/S2214629623003055#sec6), which reveals socio-spatial inequalities in the transition to solar energy in The Hague, The Netherlands. You will extend their work in one of these two directions (1) go beyond solar PV to look into heat pumps and renovation incentives, or (2) go beyond The Hague and create a map of energy inequalities in The Netherlands. The direction depends on your interests as well as on data availability.
+
+If you choose this topic, you can expect to learn about spatial justice, energy transition technologies, and spatial analysis.
+
+![](img/Topic2.jpeg){:width="800px"}
+
+Figure: (a) Spatial distribution of the four access groups across the The Hague per PC5 zone. A short description of the characteristics of each group/cluster is provided in the legend presented in the top left of the figure. (b) The upper table in Figure b provides the mean values of the clusters for each of the indicators. This is compared with the average values for the respective indicator observed in the city. The lower table in Figure b presents the adoption rate across each cluster. The adoption rate (%) is defined as the percentage of residential buildings with solar PV systems ([Kraaijvanger et al., 2023](https://www.sciencedirect.com/science/article/pii/S2214629623003055#sec6)).
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Juliana Goncalves](https://www.tudelft.nl/staff/j.e.goncalves/)
+
+- - -
+
 ## Developing an open-source GIS pipeline tailored for FastEddy
 
 ![](img/NCAR_GISpipe.gif){:width="800px"}
