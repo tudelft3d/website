@@ -1,8 +1,3 @@
-- surname: Koster
-  name: Gabriela
-  title: Designing a Dutch building energy simulation tool using semantic 3D city models
-  image: 2024GabrielaKosterv2_200.png
-  
 - surname: Shen
   name: Qiwei
   title: Automatic segmentation of plant organs from point clouds
@@ -10,28 +5,13 @@
 
 - surname: Xu
   name: Longxiang
-  title: Multi-view consistent line segment detection
-  image: 2024_LongxiangXu.jpg
+  title: Large-scale, High-resolution Urban solar potential analysis through semantic 3D city models
+  image: 2024_XuLongxiangSolar.png
   
 - surname: Keurentjes
   name: Lisa
   title: A framework for automatic repair of 3D city models
   image: 9ba90df526de-repair.gif
-
-- surname: Wei
-  name: Qiuxian
-  title: Multi-levels of details terrain continuity under constraining of roads
-  image: qiuxian.jpg
-
-- surname: Li
-  name: Sitong
-  title: Enhancing 3D Model for Urban Area with Neural Representations
-  image: sitong.jpg
-
-- surname: Feng
-  name: Yingxin
-  title: Text-guided editing of 3D models with generative AI
-  image: yingxin.png
 
 - surname: Rao
   name: Chengzhi

@@ -12,6 +12,96 @@ permalink: /education/msctopics/
 
 * Table of Contents
 {:toc}
+- - -
+
+## Building point cloud completion
+
+![](img/buildingpcc.png){:width="800px"}
+
+The goal of this research is to develop a building point cloud completion method based on deep learning. 
+We will provide datasets, backbone networks, and ready-made ideas to facilitate students' successful completion of this project. 
+Your task is to improve and enhance existing methods to meet the requirements of building point cloud completion. 
+You will learn about cutting-edge deep learning methods for point cloud completion and their applications in the field of geoinformation. 
+The results of this research can be published in high-quality journals or conference papers. 
+Students are free to choose an additional co-supervisor. 
+Participants in this project can choose from the following three research directions:
+1. Develop a structure-aware method.
+2. Develop a multi-modality method.
+3. Develop a learning-based up-sampling method.
+
+**Requirements:** 1) Experiences in point cloud processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+
+- - -
+
+## Urban mesh segmentation
+
+![](img/urbanmeshseg.png){:width="800px"}
+
+The aim of this research is to develop instance or semantic segmentation methods for urban meshes. 
+We will equip students with datasets, annotation tools, backbone networks, and pre-formulated ideas to facilitate the successful completion of this project. 
+Your task is to enhance the performance of existing 3D segmentation methods to achieve better results on urban textured mesh data. 
+You will learn about the most advanced deep learning techniques for 3D semantic segmentation tasks and/or interactive 3D annotation strategies. 
+The outcomes of this research are eligible for publication in high-quality journals or conference proceedings. 
+Additionally, students have the freedom to choose an additional co-supervisor. 
+Participants in this project can select from the following three research directions:
+1. Develop automatic or interactive instance segmentation methods for urban objects.
+2. Develop semantic segmentation methods for urban meshes and their textures.
+3. Develop a local adaptive receptive filed approach for 3D semantic segmentation of urban scenes.
+
+**Requirements:** 1) Experiences in mesh processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+
+- - -
+
+## Spatial intelligence for applications in semantic 3D city models
+
+![](img/spatialsmart.png){:width="800px"}
+
+The goal of this research is to develop spatial intelligence applications for semantic 3D city models. 
+We will provide datasets and research guidelines to facilitate students' successful completion of the project. 
+Your task is to develop prototypes of algorithms related to applications based on 3D city models. 
+You will learn about cutting-edge spatial intelligence computing methods and their applications in semantic 3D urban models. 
+The findings from this study can be published in high-quality journals or conference papers. 
+Additionally, students have the option to choose a secondary supervisor. 
+Participants in this project can choose from the following four research directions:
+1. Develop a method for arranging solar panels on roofs to enhance solar potential estimation.
+2. Create prototypes for semantic-based automatic geometric measurements.
+3. Develop a routing method for pedestrian or vehicle navigation using 3D maps.
+4. Design a language model for interpreting or editing 3D city models.
+
+**Requirements:** 1) Experiences in 3D city models analysis and processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of spatial analysis or computational geometry or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+
+- - -
+
+## 3D reconstruction for urban objects
+
+![](img/3drecons_urban_objs.png){:width="800px"}
+
+The objective of this research is to develop 3D model reconstruction methods tailored for urban infrastructure. 
+We will provide datasets, relevant algorithms, and a clear research guidelines to ensure the successful completion of this project by students. 
+Your task is to enhance existing 3D reconstruction algorithms to accommodate various types of urban objects. 
+You will learn about state-of-the-art 3D reconstruction techniques and their applications in urban environments. 
+The outcomes of this research may be published in high-quality journals or presented at conferences. 
+Additionally, students have the freedom to choose a secondary supervisor. 
+Participants in this project can select from the following two research directions:
+1. Develop a method to reconstruct linear urban objects such as electric pole, wind turbine or wires.
+2. Develop a method to reconstruct or generalize road surface from urban meshes.
+
+**Requirements:** 1) Experiences in 3D reconstruction. 2) Proficient in C++ programming.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
 
 - - -
 
@@ -64,6 +154,36 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 
 
 - - - 
+
+## Water (level) detection with ICESat-2 measurements
+
+![](img/water_profile.png){:width="600px"}
+
+ICESat-2, a spaceborne lidar system, can measure terrain elevations every 0.7m along its ground track.
+As such, it can be seen as a profiling lidar, drawing cross-sections over the Earth.
+When combined with a water mask, it can also be used to measure water levels.
+For this topic we will investigate automatic water (level) detection methods, making use of the multiple return pattern that ICESat-2 exhibits over strong reflectors such as water (see figure).
+If successful, we could update and expand mangrove and wetland maps (which are now based on optical imagery) critical for conservation purposes and carbon stock models.
+The method(s) should be able to scale to the full ICESat-2 dataset (1 PB), and therefore ideally be implemented in the Julia programming language (if you know C++ and Python it's not very difficult to learn Julia, we can help).
+
+**Contact:** [Maarten Pronk](https://www.evetion.nl/) + [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+- - -
+
+
+## Filling the massive gaps in space lidar datasets with a diffusion model
+
+![](img/icesat_gedi.png){:width="300px"}
+
+As you saw during the GEO1015 lecture of Maarten Pronk, space lidar datasets, [ICESat-2](https://icesat-2.gsfc.nasa.gov/) and [GEDI](https://gedi.umd.edu/), have very sparse distribution (often kilometres with no data) and thus a global coverage is difficult.
+
+The aim of this thesis is to test, compare to others, and further develop the deep learning diffusion model presented [in this paper](https://doi.org/10.1109/LGRS.2024.3403835).
+
+The [project has open-source code](https://github.com/kylelo/Diff-DEM), Python can be used.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Maarten Pronk](https://evetion.nl)
+
+- - -
 
 ## Adding trees to City4CFD
 
@@ -308,12 +428,39 @@ Before picking the topic, please contact us!
 
 - - -
 ## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+![](img/CityJSONEnergyExtension.png){:width="800px"}
 
-The goal of the thesis is to extend and further improve the current development of the CityJSON Energy Extension. The existing implementation is the result of a MSc Thesis finished in June 2022. The CityJSON extension is expected to support several energy applications as its counterpart the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does.
+The thesis aims to improve the current version of the CityJSON Energy Extension, which partially maps the CityGML Energy ADE KIT profile. It is expected to support the latest version of [CityJSON](https://www.cityjson.org/).
 
-![](img/CityJSON+Energy.png){:width="800px"}
+The CityJSON extension is expected to support several energy applications as its counterpart, the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does. 
 
-It is expected that this implementation will include the development of a software tool to translate the data from the CityJSON and CityGML encoding formats.
+This implementation is expected to include the development of a software tool to translate the data between the CityJSON and the [3DCityDB](https://github.com/3dcitydb/3dcitydb-suite).
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered. [Özge Tufan](https://github.com/ozgetufan/cjenergy/) and [Carolin Bachert](https://www.mdpi.com/2220-9964/13/4/121) work are the suggested starting literature review for this topic.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Accuracy assesment of EnergyBAG (in-house urban energy building simulation tool)
+![](img/UBES_PhDCamiloEvaluation.png){:width="800px"}
+
+The aim of this MSc thesis is the evaluation of the output EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
+
+The scope of the research is to asses the accuracy of the results obtained by the UBES while computing the energy demand of buildings while pointing possible source of errors in the workflow. It is expected to use other existing UBES in this research such as [SimStadt](https://simstadt.hft-stuttgart.de/), [CitySim](http://www.kaemco.ch/download.php), [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com/) or [EnergyPlus](https://energyplus.net), to mention some.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Development of a Graphical User Interface for EnergyBAG in-house urban energy building simulation tool)
+![](img/GUI_EnergyApplications.png){:width="800px"}
+
+The scope of this MSc thesis is the design and development of a web-based Graphical User Interface (GUI) that enables the interaction with EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
+
+Within its functionalities, the GUI should allow 3D visualization of semantic 3D city models (3DCM) and generate graphs and plots that aggregate the output of the simulation tool. Data are managed in a 3DCityDB instance that supports the Energy ADE.
 
 Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
 
@@ -398,21 +545,6 @@ Pedestrian wind and thermal comfort still remain an important topic in the devel
 Within this MSc thesis we will exploit the capabilities of open-source tools such as [uDALES](https://github.com/uDALES/u-dales) to predict wind and thermal comfort in real urban scenarios. The initial set-up focuses on using part of the Clementi neighbourhood in Singapore, which was already set-up by previous MSc thesis to run RANS simulations in [Opsomer](https://repository.tudelft.nl/islandora/object/uuid%3A97304da6-8938-48eb-8117-ca53321b1e34?collection=education). Considering the demanding computational capabilities required by LES, this area can be potentially reduced, or other test cases can be also explored. Attendance of elective course [GEO5015](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57094) in Q4 or similar CFD knowledge is required. 
 
 **Contact:** [Clara Garcia-Sanchez](http://3d.bk.tudelft.nl/gsclara), [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden)
-
-- - -
-
-## Heating energy demand of the Dutch building stock with the help of the 3D BAG 2.0
-
-The [3D BAG 2.0](https://3dbag.nl/en/viewer), a dataset containing LoD2 geometries of buildings of the whole Netherlands, has been recently released by the 3D Geoinformation group. The scope of this thesis is to test the suitability of the 3D BAG to estimate the energy demand of residential buildings. In this thesis, the energy demand computation will be based on the quasi-static energy-balance method and will implemement a Python-based subset of the specifications defined by the recently introduced Dutch norm [NTA8800](https://www.gebouwenergieprestatie.nl/).
-
-![](img/3dbag_nta8800_mini.jpg){:width="800px"}
-
-The thesis is a collaboration between the 3DGeoinformation group and the [Building Energy Epidemiology](https://www.tudelft.nl/bk/over-faculteit/afdelingen/management-in-the-built-environment/organisatie/leerstoelen/building-energy-epidemiology) group at TU Delft. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2022) is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-You will programm in Python and (a bit) in PL/pgSQL.
-Before picking the topic, please contact us!
-
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (3D Geoinformation Group)
 
 - - -
 
