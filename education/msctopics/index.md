@@ -283,30 +283,6 @@ The prerequisites for this project are basic knowledge in CFD simulations, progr
 
 - - -
 
-## Synthetic population distributions of housing units for modeling economic segregation 
-
-The aim of this thesis project is to investigate economic segregation in cities by creating synthetic distributions of housing units across the Netherlands. 
-
-You would join a EU research project team [SEGUE](https://www.erc-segue.nl/) at BK and the theories/skills you have learned during your MSc Geomatics would be used to help them. 
-
-You would have to produce realistic distributions of housing units in small areas (therefore creating synthetic data), which would then be used as input for a simulation model of economic segregation that is being developed in the project.
-
-The research will explore the feasibility of accessing and integrating the [BAG](https://www.pdok.nl/introductie/-/article/basisregistratie-adressen-en-gebouwen-ba-1) and [WOZ-waarde](https://www.rijksoverheid.nl/onderwerpen/waardering-onroerende-zaken-woz/vraag-en-antwoord/hoe-weet-ik-wat-de-woz-waarde-van-mijn-huis-is) (estimation of the values of houses) datasets, and then proceed to develop realistic distributions that resemble the existing distribution of apartment sizes and values in Dutch cities, within different spatial grids. The thesis will also examine the potential for modifying these distributions to create scenarios with varying levels of economic inequality. 
-
-Some references that are relevant: 
-
-  1. [Generation of Synthetic Populations in Social Simulations: A Review of Methods and Practices](http://doi.org/10.18564/jasss.4762)
-  2. [Space Matters: Extending Sensitivity Analysis to Initial Spatial Conditions in Geosimulation Models](http://doi.org/10.18564/jasss.4136)
-  3. [Parcel Manager: A parcel reshaping model incorporating design rules of residential development](http://doi.org/10.1111/tgis.12970)
-
-This thesis would allow you to learn about urban planning, policy-making, and economic segregation. 
-
-Programming in Python is sufficient.
-
-*Contact:* [Clémentine Cottineau](https://clementinecttn.github.io/) (assistant-prof Urbanism) & [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) 
-
-- - -
-
 ## Automatic creation of detailed building energy models from 3DBAG
 
 The aim of this project is to develop a procedure from which a sequence of detailed building energy models can be automatically created from the 3DBAG. From the models, it should be possible to estimate the energy consumed by buildings at the neighbourhood scale using the EnergyPlus simulation program (<a href="https://energyplus.net/">here</a>). The procedure should be implemented in Python.
