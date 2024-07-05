@@ -1,3 +1,17 @@
+- surname: Chi
+  name: Zhang
+  title: A learning-based MVS boosted by diffusion model 
+  image: zhangchi.png
+  link: https://repository.tudelft.nl/record/uuid:02a605e4-ebb1-4f5d-b7c8-7ef32baa82b1
+  year: 2024
+
+- surname: Monté
+  name: Sérénic
+  title: Creating a benchmark for large urban objects using low resolution models
+  image: serenic.png
+  link: https://repository.tudelft.nl/record/uuid:47fbe5bb-fdf2-44b4-8aa0-19d16385f781
+  year: 2024
+
 - surname: Wei
   name: Qiuxian
   title: Multi-levels of detail terrain construction for navigation
