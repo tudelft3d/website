@@ -800,25 +800,4 @@ In short, BuildingBlocks will provide a valuable resource for advancing research
 
 - - -
 
-## Using 3D BAG to create a national subsidence vulnerability map
-
-![](img/vulnerability.png)
-
-Land subsidence is causing damage to buildings and infrastructure all over the world. This is a serious problem in the Netherlands too, where a large proportion of the country is subjected to ground settlements. Satellite-based maps can nowadays provide information on ground displacements at regional and national scale. For an accurate assessment of building vulnerability to settlements, data on ground displacements need to be integrated with information on building location and geometry.
-
-This MSc thesis aims to integrate current maps of ground displacements at national scale with the 3D BAG, which contains the geometries of buildings for the whole Netherlands. The main objective is to assess the suitability of the 3D BAG to support the estimation of building vulnerability to large scale subsidence. A background/interest in remote sensing and coding is required.
-
-**Contact:** [Giorgia Giardina ](https://www.tudelft.nl/en/ceg/about-faculty/departments/geoscience-engineering/sections/geo-engineering/staff/academic-staff/giardina-g) + [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-
-- - -
-
-## Using 3D BAG to develop finite element models of buildings at regional scale
-![](img/finite_element.png)
-
-Assessing the building response to external actions is a crucial component of improving urban resilience to hazards like earthquakes, subsidence, landslides. Due to the complexity of the interaction between structures, ground and external loading, advanced computational models are needed to simulate the behaviour of buildings. However, the creation of individual models for this computation, especially when analysing large areas simultaneously, is a very time-consuming task.
-
-This MSc these aims to evaluate the suitability of the 3D BAG to support the automated creation of building Finite Element models on regional scale. The 3D BAG is based on LoD2.2 buildings models and contains basic information on building geometries that are currently being enriched with additional features on structural typologies and construction material. The main objective of this project is to develop an algorithm that can use the information included in the 3D BAG to guide the geometry definition and mesh creation of a large number of different buildings. A background/interest in computational modelling and coding is required.
-
-**Contact:** [Giorgia Giardina ](https://www.tudelft.nl/en/ceg/about-faculty/departments/geoscience-engineering/sections/geo-engineering/staff/academic-staff/giardina-g) + [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-
 
