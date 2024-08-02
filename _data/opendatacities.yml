@@ -372,3 +372,13 @@
   texture:  No
   notes : 
   formats: GDB, KMZ, Shapefile
+
+- dataset: Auvergne-Rhône-Alpes
+  link: https://ids.craig.fr/geocat/srv/fre/catalog.search#/metadata/2c2a81c6-9d26-40d1-b909-b075f4d88f1c
+  country: France
+  building_lod: LoD2/LoD3
+  year: 2021
+  texture: Yes
+  notes: 10 zones spread accross Auvergne-Rhône-Alpes french region including historical town center and area of activity.
+  formats: CityGML, CityJSON, COLLADA, ESRI File GDB, OBJ
+  
