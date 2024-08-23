@@ -14,6 +14,38 @@ permalink: /education/msctopics/
 {:toc}
 - - -
 
+## Creation of planar partitions from mismatched datasets
+
+![](img/pp.png){:width="800px"}
+
+Many GIS applications are based around a planar partition of polygons—a set of polygons covering the map with no overlaps and no gaps between them. For example, most 3D city models are built by raising polygons representing building footprints, roads, water bodies, etc. to different heights according to different rules.
+
+However, good planar partition datasets are relatively rare. For many countries and cities, there’s only linear data for many features (e.g. roads, railways, rivers, etc). In other cases, the different features come from different sources and do not fit neatly together. Finally, there’s also data that is missing altogether and can only be computed based on the gaps in other data using more complex rules (e.g. roads from the space between parcels or terrain from the remainder of all other features.
+
+The goal of this thesis would be to create a robust method to create planar partitions from multiple datasets based on customisable rules (e.g. line buffers, priority lists, Boolean set ops, etc).
+
+**Requirements**: proficiency in programming, preferably with C++.
+
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
+
+- - -
+
+## Different heuristics for CGAL polygon repair
+
+![](img/inout.svg){:width="500px"}
+
+Invalid polygons are a common headache for GIS practitioners. There are a number of methods and tools to deal with them, including the new [Polygon repair](https://doc.cgal.org/6.0-beta1/Polygon_repair/index.html) package of CGAL.
+
+Included in that package, so far there’s only one repair method based on the odd-even rule. This works by starting from the exterior of the polygon and every time that a line is crossed one switches from the exterior to the interior of the polygon and vice versa. However, this is not a one-size-fits-all problem and it would be best to have several repair methods based on different heuristics, such as Boolean set union (merger of all rings into one shape) or difference (inner rings should always carve out holes in the polygon).
+
+The goal of this thesis would be to investigate what other heuristics  are useful in practice and to implement them.
+
+**Requirements**: proficiency in C++ programming, some familiarity with CGAL would be desirable.
+
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
+
+- - -
+
 ## (Semi-)automatic modeling of indoor building 3D models for daylight simulation with Lidar enabled mobile devices
 
 ![](img/iphonescan.png){:width="800px"}
@@ -23,6 +55,8 @@ This project investigates the use of Lidar-enabled low-cost devices to automate 
 **Requirements:** Practical knowledge of Python or C++ and familiarity with geometric data structures. Knowledge of indoor daylight simulation is a plus, but an interest is a must. Experience or interest in the Swift programming language is also beneficial.
 
 **Contact:** [Nima Forouzandeh](https://www.tudelft.nl/en/staff/n.forouzandeh/), [Eleonora Brembilla](https://www.tudelft.nl/en/staff/e.brembilla/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/).
+
+- - -
 
 ## Building point cloud completion
 
@@ -593,7 +627,7 @@ The idea is explained in [this](https://www.fig.net/resources/proceedings/fig_pr
 
 Software libraries for computational geometry underpin a lot of our research, but an in-depth comparison of how these different software libraries behave in terms of performance and robustness is not available. For example, the feasability of multi-disciplinary use of geometry in BIM/GIS integration and automated thermal analysis of IFC building models is largely shaped by the characteristics of the algorithmns offered in open source libraries such as CGAL and Open CASCADE. This research project is an opportunity to publish something novel, useful and relevant to many disciplines.
 
-*Contact:* [Thomas Krijnen](mail@thomaskrijnen.com)
+*Contact:* [Thomas Krijnen](mail@thomaskrijnen.com) or [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
 
 - - - 
 
