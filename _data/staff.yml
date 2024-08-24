@@ -235,17 +235,21 @@ I am a member of the editorial boards of several journals [CEUS](http://www.jour
 
 - surname: Beuster
   name: Lukas  
-  title: Research fellow
+  title: PhD candidate
   photo: lukas.jpg
   homepage: 3d.bk.tudelft.nl/lbeuster
   email: l.r.n.beuster@tudelft.nl
   description: "I am an early stage researcher specializing in geographic data science and GIS. 
-  Currently, I hold research positions at the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/) and the 3D Geoinformation research group at TU Delft. 
-  My research focuses on climate resilience, remote sensing, and urban morphology.<br/><br/>
+  I am currently splitting my time between the 3D Geoinformation research group at TU Delft, the [Senseable City Lab](https://senseable.mit.edu/) at MIT and the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/). 
+  My PhD research focuses on scalable solutions for urban climate change adaptation and is anchored in the broader themes of climate resilience, remote sensing, and assessments of urban morphology.<br/><br/>
   
-  My current work involves exploring sensor coverage in Amsterdam, addressing data gaps for analyzing environmental phenomena like the urban heat island (UHI) effect. 
-  I am also investigating the role of additional data sources, such as remote sensing and mobile sensing platforms, in improving coverage. 
-  Additionally, I am interested in the potential of using contextual data and urban morphology to enhance sensor coverage and make data-driven decisions."
+  My current work explores the role of shade in mitigating urban heat stress. 
+  Urban heat is a growing challenge as cities warm faster than rural areas, often surpassing the 1.5°C goal of the Paris Climate Accords. 
+  Traditional strategies may not fully address this, so urban planners must explore alternatives like shading, which can effectively reduce Mean Radiant Temperature (MRT), a key factor in outdoor thermal comfort. 
+  While planners and designers can’t control all climate variables, they can influence shading through urban design, which is under-researched for large cities. 
+  My PhD project aims to measure shade at scale, assess the impact of buildings and trees, and evaluate how well cities provide shade where it’s most needed.<br/><br/>
+
+  In addition to my interest in shade, I am also investigating the role of additional data sources, such as remote sensing and mobile sensing platforms, in improving the availability and coverage of urban climate data."
 
 - surname: Martin
   name: Miguel
