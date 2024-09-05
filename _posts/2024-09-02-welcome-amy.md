@@ -9,5 +9,6 @@ date: 2024-09-02 10:00
 
 
 Amy has recently joined our research group as a PhD candidate. Her research will be focused on data- and AI-driven transportation infrastructure life-cycle extension.
+This is a joined PhD research with the [AiDAPT Lab](https://www.tudelft.nl/ai/aidapt)
 
 Welcome, Amy!
