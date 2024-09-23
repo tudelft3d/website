@@ -10,7 +10,7 @@ permalink: /jobs/
 -->
 
 <span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
-[PhD Position - High-resolution Reconstruction and Urban CFD Simulations for the Digital Twin of the Earth (UrbanAIR)](urbanAIR)
+[PhD Position - High-resolution Reconstruction and Urban CFD Simulations for the Digital Twin of the Earth (UrbanAIR)](urbanAIR/)
 
 - - -
 
