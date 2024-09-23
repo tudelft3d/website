@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "High-resolution Reconstruction and Urban CFD Simulations for the Digital Twin of the Earth (UrbanAIR)"
-permalink: /jobs/urbanAIR
+permalink: /jobs/urbanAIR/
 ---
 
 <figure class="image">
