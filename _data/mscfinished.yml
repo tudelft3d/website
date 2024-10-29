@@ -1,3 +1,10 @@
+- surname: Rao
+  name: Chengzhi
+  title: Reconstructing a high-detailed 2D areal representation of road network from OSM data
+  image: chengzhi.png
+  link: https://3d.bk.tudelft.nl/ken/files/24_chengzhi.pdf
+  year: 2024
+
 - surname: Chi
   name: Zhang
   title: A learning-based MVS boosted by diffusion model 
