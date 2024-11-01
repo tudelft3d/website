@@ -1,3 +1,11 @@
+- surname: Shen
+  name: Qiwei
+  title: Plant Skeleton Extraction and Stem-leaf Segmentation
+  image: 2024_QiweiShen.jpg
+  link: https://resolver.tudelft.nl/uuid:42ae723f-4924-402c-9d8a-992f70f21bf4
+  github: https://github.com/qiweishen/Plant2Skeleton
+  year: 2024
+
 - surname: Rao
   name: Chengzhi
   title: Reconstructing a high-detailed 2D areal representation of road network from OSM data
