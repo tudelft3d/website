@@ -1,3 +1,35 @@
+- surname: Keurentjes
+  name: Lisa
+  title: A framework for automatic repair of 3D city models
+  image: 9ba90df526de-repair.gif
+  link: https://resolver.tudelft.nl/uuid:b5de420d-e0a2-4265-8bac-e7ae12f75e8c
+  github: https://github.com/Lkeurentjes/AUTOr3pair
+  year: 2024
+
+- surname: Post
+  name: Oliver
+  title: "The City Stack: A morphology-based city analysis and generation framework"
+  image: post.png
+  link: https://repository.tudelft.nl/record/uuid:d6dc629c-c75e-4578-b1a1-8ac741133751
+  github: https://github.com/OliverJPost/CityStack
+  year: 2024
+
+- surname: Brouwer  
+  name: Gees
+  title: "Automated data-driven generation of 3D coral reef models: Assessing and integrating empirical data sources"
+  image: brouwer.png
+  link: https://resolver.tudelft.nl/uuid:4893ca9e-5cce-42ba-8ded-7cff98258cce
+  github: https://github.com/GGBRW/CoralGenerator
+  year: 2024
+
+- surname: Mantas 
+  name: Dimitris
+  title: "CNN-based roofing material segmentation using aerial imagery and LiDAR data fusion"
+  image: mantas.png
+  link: https://resolver.tudelft.nl/uuid:c463e920-61e6-40c5-89e9-25354fadf549
+  github: https://github.com/DimitrisMantas/RoofSense
+  year: 2024
+
 - surname: Shen
   name: Qiwei
   title: Plant Skeleton Extraction and Stem-leaf Segmentation

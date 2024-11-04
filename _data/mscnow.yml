@@ -7,12 +7,7 @@
   name: Longxiang
   title: Large-scale, High-resolution Urban solar potential analysis through semantic 3D city models
   image: 2024_XuLongxiangSolar.png
-  
-- surname: Keurentjes
-  name: Lisa
-  title: A framework for automatic repair of 3D city models
-  image: 9ba90df526de-repair.gif
- 
+   
 - surname: Madanu
   name: Sharath Chandra
   title: A Confidence-aware Deep Learning Framework for Refining Laser-scanned Point Cloud Classification
