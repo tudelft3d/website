@@ -61,9 +61,9 @@
 - surname: Liu
   name: Liu
   isbn: 978-94-92516-93-0
-  pdf: https://repository.tudelft.nl/islandora/object/uuid:b5097b45-9fad-4bda-8c12-1b569e6eaf6f/datastream/OBJ/download
+  pdf: https://repository.tudelft.nl/file/File_3c5628ff-3a6f-42a2-a771-f5d30ad11a43
   title: "Indoor Semantic Modelling for Routing: The Two-Level Routing Approach for Indoor Navigation"
-  doi: http://resolver.tudelft.nl/uuid:b5097b45-9fad-4bda-8c12-1b569e6eaf6f
+  doi: https://resolver.tudelft.nl/uuid:40873d8a-b698-4bd1-a9a5-4803989ba537
   year: 2017
   image: liu.jpg
 
