@@ -1,3 +1,17 @@
+- surname: Tsai
+  name: Bing-Shiuan
+  title: "3DCityDB-Tools plugin for QGIS: Adding server-side support to 3DCityDB v. 5.0"
+  image: 2024_bs_tsai.png
+  link: https://repository.tudelft.nl/record/uuid:5992ba24-8618-48d7-9e24-28839b5da16b
+  github: https://github.com/bsttsai/3DCityDB-Tools-for-QGIS_beta/tree/thesis_final
+  year: 2024
+
+- surname: Xu
+  name: Longxiang
+  title: Large-scale, High-resolution Urban solar potential analysis through semantic 3D city models
+  image: 2024_XuLongxiangSolar.png
+  year: 2024
+
 - surname: Madanu
   name: Sharath Chandra
   title: A Confidence-aware Deep Learning Framework for Refining Laser-scanned Point Cloud Classification
