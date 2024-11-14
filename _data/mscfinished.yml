@@ -1,3 +1,11 @@
+- surname: Madanu
+  name: Sharath Chandra
+  title: A Confidence-aware Deep Learning Framework for Refining Laser-scanned Point Cloud Classification
+  image: 2024_sharath_msc.png
+  link: https://repository.tudelft.nl/record/uuid:e6ab08b9-a4d9-4e9c-86ec-3805631cf998
+  github: https://github.com/AutumnMoon00/RefineNet
+  year: 2024
+
 - surname: Keurentjes
   name: Lisa
   title: A framework for automatic repair of 3D city models
