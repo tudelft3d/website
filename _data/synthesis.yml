@@ -1,3 +1,29 @@
+
+- title: "Shady Amsterdam: Identifying the shady places and routes of Amsterdam"
+  year: 2024
+  students:
+    - name: Jessica Monahan 
+    - name: Victoria Tsalapati 
+    - name: Haohua Gan 
+    - name: Yan Gao 
+    - name: Citra Andinasari 
+  report: https://resolver.tudelft.nl/uuid:1878b296-b888-4043-a9a6-9050ab3e5723
+  code: https://github.com/jsscmnhn/shady_amsterdam
+  img: 2024_shady.jpg
+
+- title: "Delft3D development report"
+  year: 2024
+  students:
+    - name: Adhisye Rahmawati 
+    - name: Ákos Sárkány 
+    - name: Hyeji Joh 
+    - name: Lars Boertjes 
+    - name: Rafal Tarczynski 
+    - name: Xueheng Li   
+  report: https://resolver.tudelft.nl/uuid:d2ef319a-b69b-4d35-a69b-f3168573fbeb
+  code: https://github.com/akossarkany/Delft3D
+  img: 2024_delft3d.jpg
+
 - title: Integrate and store 3D roads and terrain for navigation purposes
   year: 2023
   students:
