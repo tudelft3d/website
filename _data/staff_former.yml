@@ -1,3 +1,30 @@
+- surname: Wu
+  name: Yijie
+  period: 2024
+  title: Visiting PhD candidate (University of Hong Kong)
+  photo: yijie.jpg
+  email: yijiewu@connect.hku.hk
+  homepage: https://www.researchgate.net/profile/Yijie-Wu-2
+  #current: 
+
+- surname: Grieco
+  name: Benedetta
+  period: 2024
+  title: Visiting Researcher (University of Naples Federico II)
+  photo: benedetta.jpg
+  email: benedettagrieco99@gmail.com
+  linkedin: https://www.linkedin.com/in/benedetta-grieco-8b6246283
+  #current: 
+
+- surname: Ding
+  name: Jialei
+  period: 2024
+  title: Visiting PhD candidate (University of Cambridge)
+  photo: jialei.jpeg
+  email: jd916@cam.ac.uk
+  linkedin: https://www.linkedin.com/in/jialei-ding/
+ #current: 
+ 
 - surname: Janssen
   name: Patrick
   title: Associate-prof. (external)
@@ -294,6 +321,8 @@ She works towards the **integration of multi-source spatial data**, in particula
   email: p.nourian@tudelft.nl
   photo: pirouz.png
   current: "[assistant-prof at TU Delft](https://sites.google.com/site/pirouznourian/about-me)"
+
+
 
 
 

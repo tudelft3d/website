@@ -6,30 +6,6 @@
   linkedin: https://www.linkedin.com/in/sabrina-sacco-4b1733289/
   description: "WHAT IF? - A convivial approach to AI for empowering citizens in urban cultural heritage enhancement processes."
 
-- surname: Wu
-  name: Yijie
-  title: PhD candidate (University of Hong Kong)
-  photo: yijie.jpg
-  email: yijiewu@connect.hku.hk
-  homepage: https://www.researchgate.net/profile/Yijie-Wu-2
-  description: "Lightweight 3D building reconstruction, decomposition, and abstraction from reality capture data."
-
-- surname: Grieco
-  name: Benedetta
-  title: Researcher (University of Naples Federico II)
-  photo: benedetta.jpg
-  email: benedettagrieco99@gmail.com
-  linkedin: https://www.linkedin.com/in/benedetta-grieco-8b6246283
-  description: "Graduated in Architecture at the Federico II of Naples, I currently carry out a period of research as an internship at the Dutch university TUDelft. "
-
-- surname: Ding
-  name: Jialei
-  title: PhD candidate (University of Cambridge)
-  photo: jialei.jpeg
-  email: jd916@cam.ac.uk
-  linkedin: https://www.linkedin.com/in/jialei-ding/
-  description: "Working on automatic generation of 3D models of roads using segmented images and photogrammetry."
-
 - surname: Manzano Sevillano
   name: Álvaro
   title: PhD candidate (Technical University of Madrid)
@@ -37,4 +13,12 @@
   email: Manzano@microflown.com
   linkedin: https://www.linkedin.com/in/alvaro-manzano-sevillano/
   description: ""
+
+- surname: Tunga Akın
+  name: Alper
+  title: PhD candidate (Karadeniz Technical University)
+  photo: alper.jpg
+  email: A.T.Akin@tudelft.nl
+  linkedin: https://www.linkedin.com/in/alper-tunga-akin-54928b147/
+  description: "My current research encloses data quality assessment and data improvement in 3D city models using knowledge graph approaches."
 
