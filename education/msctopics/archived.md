@@ -1,3 +1,61 @@
+- - -
+
+## Adding trees to City4CFD
+
+![](img/automaticTree_city4CFD.jpg){:width="800px"}
+
+[City4CFD](https://github.com/tudelft3d/City4CFD) is an open-source tool that automatically reconstructs 3D city geometries tailored for microscale urban flow simulations. Its capabilities include reconstruction at multiple levels of detail, as well as including semantic surfaces, best practice guidelines set-up, and even multi-level geometry based on distance from point of interest.
+
+This MSc thesis aims to add to City4CFD the automatic reconstruction of trees, this would facilitate their use within microclimate urban flow simulations with OpenFOAM. To start this topic, you would need to delve into the work from [De Groot (2020)](https://repository.tudelft.nl/islandora/object/uuid%3A3e169fc7-5336-4742-ab9b-18c158637cfe) ([with code](https://github.com/RobbieG91/TreeConstruction)), and explore how his approach to reconstruct trees at a different level of detail could be improved and implemented within City4CFD.
+
+If you choose this topic, you can expect to learn about automatic geometry reconstruction and GIS data handling. To run CFD for testing can be optional. Programming experience and interest is an advantage for this topic. Your work will require the implementation of source code (in C++ preferably, but Python or others could be used).
+
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+- - -
+
+## 3D reconstruction for urban objects
+
+![](img/3drecons_urban_objs.png){:width="800px"}
+
+The objective of this research is to develop 3D model reconstruction methods tailored for urban infrastructure. 
+We will provide datasets, relevant algorithms, and a clear research guidelines to ensure the successful completion of this project by students. 
+Your task is to enhance existing 3D reconstruction algorithms to accommodate various types of urban objects. 
+You will learn about state-of-the-art 3D reconstruction techniques and their applications in urban environments. 
+The outcomes of this research may be published in high-quality journals or presented at conferences. 
+Additionally, students have the freedom to choose a secondary supervisor. 
+Participants in this project can select from the following two research directions:
+1. Develop a method to reconstruct linear urban objects such as electric pole, wind turbine or wires.
+2. Develop a method to reconstruct or generalize road surface from urban meshes.
+
+**Requirements:** 1) Experiences in 3D reconstruction. 2) Proficient in C++ programming.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+- - -
+
+## Building point cloud completion
+
+![](img/buildingpcc.png){:width="800px"}
+
+The goal of this research is to develop a building point cloud completion method based on deep learning. 
+We will provide datasets, backbone networks, and ready-made ideas to facilitate students' successful completion of this project. 
+Your task is to improve and enhance existing methods to meet the requirements of building point cloud completion. 
+You will learn about cutting-edge deep learning methods for point cloud completion and their applications in the field of geoinformation. 
+The results of this research can be published in high-quality journals or conference papers. 
+Students are free to choose an additional co-supervisor. 
+Participants in this project can choose from the following three research directions:
+1. Develop a structure-aware method.
+2. Develop a multi-modality method.
+3. Develop a learning-based up-sampling method.
+
+**Requirements:** 1) Experiences in point cloud processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+- - -
+
 ## Synthetic population distributions of housing units for modeling economic segregation 
 
 The aim of this thesis project is to investigate economic segregation in cities by creating synthetic distributions of housing units across the Netherlands. 
