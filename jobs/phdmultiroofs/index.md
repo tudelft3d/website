@@ -3,14 +3,16 @@ layout: page
 title:  PhD position vacancy
 permalink: /jobs/phdmultiroofs/
 ---
-
+<!-- 
 <figure class="image">
   <img src="cover.jpg" width="600">
-</figure>
+</figure> -->
+
+![](cover.jpg)
 
 ## 3D Reconstruction and modelling of roofs in European cities 
 
-### Teaser: Are you passionate about urban innovation, advanced 3D modeling, and impactful European research? Join the EU-funded "MultiRoofs" project, and shape the European cities’ skyline of tomorrow!
+> Are you passionate about urban innovation, advanced 3D model.ing, and impactful European research? Join the EU-funded "MultiRoofs" project, and shape the European cities’ skyline of tomorrow!
 
 The overall goal of this fully-funded PhD position is to support the researchers and practitioners in the project "MultiRoofs" by designing and implementing algorithms for the 3D reconstruction of buildings and for the classification of roofs.
 
