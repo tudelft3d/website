@@ -14,13 +14,13 @@ The overall goal of this fully-funded PhD position is to support the researchers
 
 
 MultiRoofs (**Multi**functional **Roof**scapes for smart, green and just urban densification) is an EU-project that aims to enable public authorities to increase the multifunctional use of rooftops in their urban areas.
-The project is composed of 25+ partners in Western Europe (includingRotterdam, Paris, Dublin, Brussels, , companies, and universities) and it is an extension of a prototype developed in Rotterdam, the Netherlands ([see details](https://mvrdv.com/news/4290/mvrdv-launches-roofscape-a-new-software-to-help-reimagine-rotterdams-rooftops)).
+The project is composed of 25+ partners in Western Europe (including Rotterdam, Paris, Dublin, Brussels, companies, and universities) and it is an extension of a prototype developed in Rotterdam, the Netherlands ([see details](https://mvrdv.com/news/4290/mvrdv-launches-roofscape-a-new-software-to-help-reimagine-rotterdams-rooftops)).
 
 The backbone of the current prototype is the [3DBAG](https://3dbag.nl), a dataset containing automatically reconstructed 3D models of all 10M+ buildings in the Netherlands; this dataset is (jointly) developed and maintained by our research group.
 
 The tasks of the PhD candidate are:
 
-* modify the [algorithms for the reconstruction of the 3D buildings](https://github.com/3DBAG/roofer) so that other datasets can be used (aerial imagery, lidar with different densities, coarser footprints, etc.) to reconstruct 3D models of other European cities.
+* modify the [algorithms for the reconstruction of the 3D buildings](https://github.com/3DBAG/roofer) so that other source datasets can be used (aerial imagery, lidar with different densities, coarser footprints, etc.) to reconstruct 3D models of other European cities
 * improve the algorithms to reconstruct [LoD3.0](https://3d.bk.tudelft.nl/lod/) models, ie dormers and chimneys and other objects relevant to roofs should be identified and modelled
 * develop a solution for a better regularisation and symmetry of the dormers (one current weakness)
 * work on workflows to (better) categorise the roofs for the different uses identified by the project partners.
@@ -37,10 +37,10 @@ The position will be embedded in the [3D geoinformation research group](https://
 It focuses on the technologies underpinning geographical information systems (GIS) and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
 
 
-It is a multidisciplinary group (computer scientists, geomatics/mechanical/aerospace engineers, and geographers) composed of 7 permanent research staff, several PhD students, postdocs, and visitors.
+It is a multidisciplinary group (computer scientists, geomatics/mechanical/aerospace engineers, and geographers) composed of 8 permanent research staff, several PhD students, postdocs, and visitors.
 
 
-It has a history of successful collaborations with the industry and the government: its research has led to [software](https://github.com/tudelft3d) and standards for the management of 3D geographic information.
+It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://github.com/tudelft3d) and [open standards](https://www.cityjson.org) for the management of 3D geographic information.
 
 
 We cover several aspects of 3D geoinformation: 3D reconstruction, analysis, CFD, energy
