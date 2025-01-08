@@ -35,24 +35,16 @@ The project will take place in the [3D geoinformation group at TU Delft](https:/
 
 ## Research group
 
-The position will be embedded in the [3D geoinformation research group](https://3d.bk.tudelft.nl) at the [Delft University of Technology](https://tudelft.nl).
+The [3D geoinformation research group](https://3d.bk.tudelft.nl) at the [Delft University of Technology](https://tudelft.nl) focuses on advancing the technologies and algorithms essential for (3D) geographical information systems (GIS). 
+Our mission is to design, develop, and implement cutting-edge systems for modeling 3D buildings, cities, and landscapes.
 
+We are a multidisciplinary team comprised of computer scientists, geomatics, mechanical and aerospace engineers, and geographers. 
+Our group includes 8 permanent research staff, along with numerous PhD students, postdocs, and visiting scholars. 
+This diversity allows us to address 3D urban challenges from various perspectives, process and analyse raw data, and apply our findings to real-world applications like wind and energy consumption modeling in urban environments.
 
-It focuses on the technologies underpinning geographical information systems (GIS) and aims at designing, developing, and implementing better systems to model 3D cities, buildings, and landscapes.
-
-
-It is a multidisciplinary group (computer scientists, geomatics/mechanical/aerospace engineers, and geographers) composed of 8 permanent research staff, several PhD students, postdocs, and visitors.
-
-
-It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://github.com/tudelft3d) and [open standards](https://www.cityjson.org) for the management of 3D geographic information.
-
-
-We cover several aspects of 3D geoinformation: 3D reconstruction, analysis, CFD, energy
-
-
-<!-- TODO: this section is incomplete! -->
-
-
+Our group has a strong track record of successful collaborations with both industry and government entities. 
+Our research has resulted in several widely-used [open-source software projects](https://github.com/tudelft3d) and has resulted in the international open standard [CityJSON](https://www.cityjson.org). 
+We have notably developed and we continue to co-maintain the award-winning [3DBAG](https://3dbag.nl), an open dataset comprising all 10 million+ 3D buildings in the Netherlands.
 
 
 ## Job requirements
