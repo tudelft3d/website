@@ -80,11 +80,12 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 
 ## What we offer
 
-* Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities. The salary is min. €2.872,- to max. € 3.670,- gross per month. Besides the salary you also receive an annual holiday payment of 8% and an end of year bonus payment of 8.3%. 
-* The position has a fixed-term contract of 4 years.
-* As a PhD candidate you will be enrolled in the TU Delft Graduate School. The TU Delft Graduate School provides an inspiring research environment with an excellent team of supervisors, academic staff and a mentor. The Doctoral Education Programme is aimed at developing your transferable, discipline-related and research skills.
-* The TU Delft offers a customisable compensation package, a discount on health insurance and sport memberships, and a monthly work costs contribution. Flexible work schedules can be arranged.
-* For international applicants we offer the Coming to Delft Service and Partner Career Advice to assist you with your relocation. An International Children's Centre offers childcare and there is an international primary school.
+* Salary and benefits are in accordance with the **Collective Labour Agreement for Dutch Universities**. The gross monthly salary ranges from **€2,872 to €3,670**, accompanied by an **8% annual holiday allowance** and an **8.3% end-of-year bonus**.
+* The position is offered on **a fixed-term, four-year contract**.
+* As a PhD candidate, you will join the **TU Delft Graduate School**, benefiting from a dynamic research environment and personal guidance from a team of supervisors, academic staff, and a mentor. The **Doctoral Education Programme** is aimed at developing your transferable, domain-specific expertise and research skills.
+* The TU Delft offers a customizable compensation package, a discount on health insurance and sport memberships, a monthly work expense contribution and flexible work schedule.
+* For international applicants  we offer comprehensive relocation support through  the **Coming to Delft Service** and the **Partner Career Advice**. An International Children's Centre offers childcare and there is an international primary school.
+
 
 ## How to apply
 
