@@ -18,16 +18,25 @@ The overall goal of this fully-funded PhD position is to support the researchers
 
 
 MultiRoofs (**Multi**functional **Roof**scapes for smart, green and just urban densification) is an EU-project that aims to enable public authorities to increase the multifunctional use of rooftops in their urban areas.
-The project is composed of 25+ partners in Western Europe (including Rotterdam, Paris, Dublin, Brussels, companies, and universities) and it is an extension of a prototype developed in Rotterdam, the Netherlands ([see details](https://mvrdv.com/news/4290/mvrdv-launches-roofscape-a-new-software-to-help-reimagine-rotterdams-rooftops)).
+The project is composed of 25+ industry and academic partners in Western Europe (including Rotterdam, Paris, Dublin, Brussels) and it is an extension of a prototype developed in Rotterdam, the Netherlands ([see details](https://mvrdv.com/news/4290/mvrdv-launches-roofscape-a-new-software-to-help-reimagine-rotterdams-rooftops)).
 
 The backbone of the current prototype is the [3DBAG](https://3dbag.nl), a dataset containing automatically reconstructed 3D models of all 10M+ buildings in the Netherlands; this dataset is (jointly) developed and maintained by our research group.
 
-The tasks of the PhD candidate are:
+The main goals of the PhD candidate will include:
 
-* modify the [algorithms for the reconstruction of the 3D buildings](https://github.com/3DBAG/roofer) so that other source datasets can be used (aerial imagery, lidar with different densities, coarser footprints, etc.) to reconstruct 3D models of other European cities
-* improve the algorithms to reconstruct [LoD3.0](https://3d.bk.tudelft.nl/lod/) models, ie dormers and chimneys and other objects relevant to roofs should be identified and modelled
-* develop a solution for a better regularisation and symmetry of the dormers (one current weakness)
-* work on workflows to (better) categorise the roofs for the different uses identified by the project partners.
+* **Enhancing 3D Building Reconstruction Algorithms**:
+Refine and adapt existing [3D building reconstruction algorithms](https://github.com/3DBAG/roofer) to incorporate additional data sources, such as aerial imagery, lidar datasets with varying densities, and coarser building footprints, enabling the generation of 3D models for various European cities.
+
+* **Advancing LoD3.0 Model Reconstruction:**
+Improve algorithms to support detailed [LoD3.0](https://3d.bk.tudelft.nl/lod/) models by identifying and modeling roof structures such as dormers, chimneys, and other significant architectural elements.
+
+* **Improving Dormer Reconstruction:**
+Create robust techniques for  better regularisation and symmetry of dormers (a current limitation).
+
+* **Optimizing Roof Categorization Workflows:**
+Design improved workflows for categorizing roofs according to the various use cases defined by project partners.
+
+
 
 The project will take place in the [3D geoinformation group at TU Delft](https://3d.bk.tudelft.nl) under the supervision of [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Prof. Jantien Stoter](https://3d.bk.tudelft.nl/jstoter)
 
