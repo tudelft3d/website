@@ -87,7 +87,7 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Application deadline: **Monday 3rd of March 2025**.
+Application deadline: <b>Monday 3rd of March 2025</b>.
 </div>
 
 <!-- TODO: add deadline -->
