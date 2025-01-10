@@ -58,7 +58,7 @@ We have notably developed and we continue to co-maintain the award-winning [3DBA
 
 ## Job requirements
 
-We are looking for one highly motivated candidate who holds an MSc degree (or is almost completed) in geomatics/civil/aerospace/environmental engineering, geoinformatics, computer science, or in a related discipline. 
+We are looking for one highly motivated candidate who holds, or will complete by July 1st, an MSc degree  in geomatics/civil/aerospace/environmental engineering, geoinformatics, computer science, or in a related discipline. 
 
 The candidate is expected to have:
 
