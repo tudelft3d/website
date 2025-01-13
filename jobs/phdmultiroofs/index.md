@@ -95,8 +95,12 @@ You can apply via this [webpage](https://3d.bk.tudelft.nl)
 
 
 To apply, please submit:
-* A letter of application (maximum 1 page) and a detailed curriculum vitae. Those should contain examples that prove your previous work related to the position (projects, experience, software, research, publications).
+
+* Motivation letter (maximum 1 page) addressing your interests and describing how your experience and plans fit with the position
+* Detailed CV, it should contain examples that prove your previous work related to the position (projects, experience, software, research, publications)
+* Undergraduate and graduate transcripts
 * The names of two references, with contact information (letters not required at this stage).
+
 
 For more information about this position, please contact directly [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter).
 
