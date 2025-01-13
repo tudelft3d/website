@@ -72,11 +72,11 @@ The starting date is in consultation with the candidate, and we aim at **1 July 
 
 ## What we offer
 
-* Salary and benefits are in accordance with the **Collective Labour Agreement for Dutch Universities**. The gross monthly salary ranges from **€2,872 to €3,670**, accompanied by an **8% annual holiday allowance** and an **8.3% end-of-year bonus**.
-* The position is offered on **a fixed-term, four-year contract**.
-* As a PhD candidate, you will join the **TU Delft Graduate School**, benefiting from a dynamic research environment and personal guidance from a team of supervisors, academic staff, and a mentor. The **Doctoral Education Programme** is aimed at developing your transferable, domain-specific expertise and research skills.
+* Salary and benefits are in accordance with the *Collective Labour Agreement for Dutch Universities*. The gross monthly salary ranges from **€2,872 to €3,670**, accompanied by an 8% annual holiday allowance and an 8.3% end-of-year bonus.
+* The position is offered on *a fixed-term, four-year contract*.
+* As a PhD candidate, you will join the [TU Delft Graduate School](http://www.graduateschool.tudelft.nl), benefiting from a dynamic research environment and personal guidance from a team of supervisors, academic staff, and a mentor. The *Doctoral Education Programme* is aimed at developing your transferable, domain-specific expertise and research skills.
 * The TU Delft offers a customizable compensation package, a discount on health insurance and sport memberships, a monthly work expense contribution and flexible work schedule.
-* For international applicants  we offer comprehensive relocation support through  the **Coming to Delft Service** and the **Partner Career Advice**. An International Children's Centre offers childcare and there is an international primary school.
+* For international applicants  we offer comprehensive relocation support through the *Coming to Delft Service* and the *Partner Career Advice*. An International Children's Centre offers childcare and there is an international primary school.
 
 More information about doing a PhD at TU Delft and in the Netherlands can be found [here](http://www.graduateschool.tudelft.nl) and [there](https://www.studyinnl.org/dutch-education/phd).
 
