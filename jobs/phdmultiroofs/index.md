@@ -84,12 +84,10 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Application deadline: <b>Monday 3 March 2025</b>.
+Application deadline: <b>Sunday 2 March 2025 23:59</b>.
 </div>
 
-<!-- TODO: add deadline -->
-
-You can apply via this [webpage](https://3d.bk.tudelft.nl)
+You can apply via the [official TU Delft webpage](https://careers.tudelft.nl/job/Delft-PhD-Position-3D-Reconstruction-and-Modelling-of-Roofs-in-European-Cities-2628-CD/811227802/).
 
 <!-- TODO: add URL to apply -->
 
