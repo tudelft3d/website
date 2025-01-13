@@ -10,7 +10,7 @@ permalink: /jobs/phdmultiroofs/
 
 ![](cover.jpg)
 
-## 3D Reconstruction and modelling of roofs in European cities 
+## 3D reconstruction and modelling of roofs in European cities 
 
 > Are you passionate about urban innovation, advanced 3D model.ing, and impactful European research? Join the EU-funded "MultiRoofs" project, and shape the European cities’ skyline of tomorrow!
 
