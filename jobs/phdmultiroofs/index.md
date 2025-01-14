@@ -12,7 +12,7 @@ permalink: /jobs/phdmultiroofs/
 
 ## 3D reconstruction and modelling of roofs in European cities 
 
-> Are you passionate about urban innovation, advanced 3D model.ing, and impactful European research? Join the EU-funded "MultiRoofs" project, and shape the European cities’ skyline of tomorrow!
+> Are you passionate about urban innovation, advanced 3D modelling, and impactful European research? Join the EU-funded "MultiRoofs" project, and shape the European cities’ skyline of tomorrow!
 
 The overall goal of this fully-funded PhD position is to support the researchers and practitioners in the project **"MultiRoofs"** by designing and implementing algorithms for the 3D reconstruction of buildings and for the classification of roofs.
 
@@ -84,12 +84,10 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Application deadline: <b>Sunday 2 March 2025 23:59</b>.
+  Application deadline: <b>Sunday 2 March 2025 23:59</b>.
 </div>
 
 You can apply via the [official TU Delft webpage](https://careers.tudelft.nl/job/Delft-PhD-Position-3D-Reconstruction-and-Modelling-of-Roofs-in-European-Cities-2628-CD/811227802/).
-
-<!-- TODO: add URL to apply -->
 
 
 To apply, please submit:
