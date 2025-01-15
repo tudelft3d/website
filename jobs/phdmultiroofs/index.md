@@ -100,4 +100,8 @@ To apply, please submit:
 
 For more information about this position, please contact directly [Dr Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux) and [Dr Jantien Stoter](https://3d.bk.tudelft.nl/jstoter).
 
+## Funding
+
+[![](./logo_multiroofs.png){:width="400px"}](https://nweurope.eu/)
+
 
