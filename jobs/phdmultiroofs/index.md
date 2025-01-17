@@ -26,7 +26,7 @@ The main goals of the PhD candidate will include:
 * **Enhancing 3D building reconstruction algorithms**:
 Refine and adapt existing [3D building reconstruction algorithms](https://github.com/3DBAG/roofer) to incorporate additional data sources, such as aerial imagery, lidar datasets with varying densities, and coarser building footprints, enabling the generation of 3D models for various European cities.
 
-* **Advancing lod3.0 model reconstruction:**
+* **Advancing LoD3.0 model reconstruction:**
 Improve algorithms to support detailed [LoD3.0 models](https://3d.bk.tudelft.nl/lod/) by identifying and modelling roof structures such as dormers, chimneys, and other significant architectural elements.
 
 * **Improving dormer reconstruction:**
