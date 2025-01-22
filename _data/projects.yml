@@ -1,3 +1,11 @@
+- name: TurboCor
+  description: Turbulence over Coral Reefs
+  webpage: /projects/turbocor/
+  image: turbocor.png
+  funding: NWO-Computing Time on National Computing Facilities
+  fundingurl: https://www.nwo.nl/en/calls/computing-time-on-national-computing-facilities
+  start: 2023
+
 - name: RefMAP
   description: Reducing Environmental Footprint through transformative Multi-scale Aviation Planning
   webpage: /projects/refmap/
