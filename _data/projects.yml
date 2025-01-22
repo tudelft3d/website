@@ -1,3 +1,11 @@
+- name: RefMAP
+  description: Reducing Environmental Footprint through transformative Multi-scale Aviation Planning
+  webpage: /projects/refmap/
+  image: refmap.png
+  funding: Horizon Europe
+  fundingurl: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en
+  start: 2023
+
 - name: SCIENCES
   description: Smart City Innovations and Experiments using New Climate and Energy Simulations
   webpage: /projects/sciences/
