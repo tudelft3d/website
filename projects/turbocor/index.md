@@ -16,7 +16,7 @@ permalink: /projects/turbocor/
 - - -
 ## Summary
 
-TurboCor is an indepdent project mainly supported by NWO-Snellius computing grant that aims to better understand the hydrodynamics within morphologically complex coral reef boundary layers. The central idea is to apply scale-resolving computational methods to study the effect of simple and complex coral reef hydrodynamics at a scale never studied before.
+TurboCor is an independent project mainly supported by NWO-Snellius computing grant that aims to better understand the hydrodynamics within morphologically complex coral reef boundary layers. The central idea is to apply scale-resolving computational methods to study the effect of simple and complex coral reef hydrodynamics at a scale never studied before.
 
 - - -
 ## Work in progress
