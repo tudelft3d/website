@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Turbulence over Coral Reegs
+title: Turbulence over Coral Reefs
 permalink: /projects/turbocor/
 ---
 
