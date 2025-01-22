@@ -57,7 +57,7 @@ Software Citation: Patil, A., & Garcia-Sanchez, C. (2024). riskMap - An OpenFOAM
 
 To enable highly accurate simulations using scale-resolving computational frameworks around complex objects, the object needs to be "immersed" within the solver. To efficiently do this we developed a highly scalable Message-Passing-Interface (MPI) Fortran based signed-distance-field (SDF) generator that scales for billions of grid points with minimal memory overheads. As seen in the figure above, the solver accurately calculates the distance from the object using an object-local distance calculation and parallelisation algorithm developed as part of the [GenSDF](https://github.com/AkshayPatil1994/GenSDF) software. This tool has been extensively used in many projects that are currently under review. 
 
-Pre-print: [GenSDF: An MPI-Fortran Based Signed-Distance-Field Generator for Computational Fluid Dynamics Applications](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5042856)
+Pre-print: [GenSDF: An MPI-Fortran Based Signed-Distance-Field Generator for Computational Fluid Dynamics Applications](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5042856)  
 Software: [GenSDF-GitHub Repository](https://github.com/AkshayPatil1994/GenSDF)
 
 ### Fake it till you make it: Swift Method to acvhieve a transition to Turbulence
@@ -69,7 +69,7 @@ Software: [GenSDF-GitHub Repository](https://github.com/AkshayPatil1994/GenSDF)
 
 One of the important aspects of simulating scale-resolving turbulent flows is the need to reduce the spin-up time when using periodic pressure driven channel flows. To that end, we developed a rather simple computational method that generates the initial conditions for pressure-driven channel flows that speeds up the convergence to a statistically stationary flow state by a factor of 5-10 when compared with exisiting community practices. Our method is domain size agnostic and gives a relatively more consistent transition to a turbulent state when compared with other alternatives. This reduction in the spin-up time directly reduces the computational cost and environmental footprint for increasing flow Reynolds numbers. 
 
-Pre-print: [Fake it Till You Make it: Synthetic Turbulence to Achieve Swift Converged Turbulence Statistics in a Pressure-Driven Channel Flow](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5101082)
+Pre-print: [Fake it Till You Make it: Synthetic Turbulence to Achieve Swift Converged Turbulence Statistics in a Pressure-Driven Channel Flow](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5101082)  
 Software: [GenIC](https://github.com/AkshayPatil1994/Synthetic-Eddy-Method-KCX2013)
 
 - - -
