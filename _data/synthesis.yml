@@ -9,6 +9,7 @@
     - name: Citra Andinasari 
   report: https://resolver.tudelft.nl/uuid:1878b296-b888-4043-a9a6-9050ab3e5723
   code: https://github.com/jsscmnhn/shady_amsterdam
+  dataset: https://doi.org/10.4121/8b65d25b-c68f-4e88-b239-27ea90eaf149.v1
   img: 2024_shady.jpg
 
 - title: "Delft3D development report"
