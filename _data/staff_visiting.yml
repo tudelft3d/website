@@ -1,11 +1,3 @@
-- surname: Sacco
-  name: Sabrina
-  title: PhD candidate (University of Naples Federico II)
-  photo: sabrina.jpeg
-  email: sabrina.sacco@unina.it
-  linkedin: https://www.linkedin.com/in/sabrina-sacco-4b1733289/
-  description: "WHAT IF? - A convivial approach to AI for empowering citizens in urban cultural heritage enhancement processes."
-
 - surname: Manzano Sevillano
   name: Álvaro
   title: PhD candidate (Technical University of Madrid)
@@ -21,4 +13,12 @@
   email: A.T.Akin@tudelft.nl
   linkedin: https://www.linkedin.com/in/alper-tunga-akin-54928b147/
   description: "My current research encloses data quality assessment and data improvement in 3D city models using knowledge graph approaches."
+
+- surname: Orabona
+  name: Manuel
+  title: PhD candidate (University of Naples Federico II)
+  photo: manuel.jpg
+  email:  M.O.orabona@tudelft.nl
+  linkedin: https://www.linkedin.com/in/manuelorabona/
+  description: "Developing a GeoAI Model for the Identification and Assessment of Peri-Urban Fringe Areas"
 
