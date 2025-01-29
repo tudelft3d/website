@@ -29,7 +29,7 @@ TurboCor is an independent project mainly supported by NWO-Snellius computing gr
 
 This study used a synthetically generated coral reef over flat topography with varying reef height and density to understand the in-canopy turbulence dynamics. Using a turbulence-resolving computational framework, we found that most of the turbulent kinetic energy dissipation is confined to a region below the top of the reef and above the Stokes boundary layer. The results also suggest that most of the vertical Reynolds stress peaks within this region positively contribute to the down-gradient momentum flux during the forward phase of the wave cycle. These findings shed light on the physical relationships between in-canopy flow and morphologically complex coral reefs, thereby motivating a further need to explore the hydrodynamics of such flows using a scale-resolving computational framework.
 
-Publication Status: In Review (Contact <a href="mailto:a.l.patil@tudelft.nl">a.l.patil@tudelft.nl</a> for a pre-print)  
+Pre-print: [Hydrodynamics of In-Canopy Flow in Synthetically Generated Coral Reefs Under Oscillatory Wave Motion](https://arxiv.org/abs/2501.16891)  
 Software: [Turbocor-GitHub Repository](https://github.com/AkshayPatil1994/turbocor) 
 
 ### Comparative Hydrodynamic Characterization of Coral Reefs
@@ -41,7 +41,7 @@ Software: [Turbocor-GitHub Repository](https://github.com/AkshayPatil1994/turboc
 
 This study addresses this knowledge gap using a turbulence-resolving computational framework based on the volume-penalizing immersed boundary method (vIBM). Comparing the serial, staggered, and stochastic arrangements of various coral roughness types we observe that massive corals and cylinders lead to a similar hydrodynamics response and the effect of dispersive stresses can introduce a large difference when stochastic coral reefs are considered. These observations highlight the importance of better understanding the hydrodynamics of complex coral reef geometries, emphasizing the need for further studies on this aspect of coral reef hydrodynamics. This work will be presented/published as part of the [Coastal Dynamics 2025](https://coastaldynamics25.web.ua.pt/) meeting in Portugal.
 
-Pre-print: In Review (Contact <a href="mailto:a.l.patil@tudelft.nl">a.l.patil@tudelft.nl</a> for a pre-print)   
+Pre-print: [A Comparative Hydrodynamic Characterization of the Flow Through Regular and Stochastically Generated Synthetic Coral Reefs Over Flat Topography](https://arxiv.org/abs/2501.15237)   
 Software: [GenSDF-GitHub Repository](https://github.com/AkshayPatil1994/GenSDF)
 
 ### Dispersive Stresses in coral-like boundary layers
