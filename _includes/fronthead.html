@@ -33,8 +33,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   <script type="text/javascript">
-      var coverLinks = [{% for cover in site.data.coverimages %}"{{ cover.webpage }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-      var coverImages = [{% for cover in site.data.coverimages %}"{{ "/img/cover/" | append: cover.image | prepend: site.baseurl }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var coverLinks = [{% for cover in site.data.projects %}"{{ cover.webpage }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var coverImages = [{% for cover in site.data.projects %}"{{ "/img/projects/" | append: cover.image | prepend: site.baseurl }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
   </script>
 
 </head>
