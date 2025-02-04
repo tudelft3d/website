@@ -5,12 +5,14 @@
 
 Website for the [3D geoinformation group](http://3dgeoinfo.bk.tudelft.nl) at [TU Delft](http://www.tudelft.nl). Uses [Jekyll](http://www.jekyllrb.com) to generate static pages.
 
-If you change something, push it to the repository. The website will be updated after ~5 minutes. If you need to update the website manually, ask around for the *secret* update script.
+If you change something, push it to the repository. The website will be updated after ~5 minutes. If afterwards you still do not see the changes on the website try cleaning your cache.
+
+ If you need to update the website manually, ask around for the *secret* update script.
 
 
 ## Code, projects, homepage images, etc.
 
-Add the details of a new project/code/staff in `_data/` in the YAML (.yml) file. The related images should go in the appropriate folder in `img/`. Pages will be generated automatically from these.
+Add the details of a new project/code/staff in `_data/` in the corresponding YAML (.yml) file. Pages will be generated automatically from these. The related images should go in the appropriate folder in `img/`. The images of the staff members should be *200x200px*. The images for projects should be *square*. 
 
 
 ## Adding blog/news posts
