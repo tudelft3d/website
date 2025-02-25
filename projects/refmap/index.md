@@ -46,6 +46,7 @@ Additionally, our research aims to achieve the following:
 
 Using a low-fidelity simulation framework (i.e., OpenFOAM) we simulated the flow around two urban areas, namely, the Delft University of Technology Campus (seen above) and the city of Den Haag to better understand the risk associated with drone operations. As seen in the figure above, using a relatively simple modelling framework, we are able to quantify the impact of using two different geometric levels of details (LoD) i.e., LoD1.2 (industry standard) and LoD2.2, to illustrate the systematic under-performance of LoD1.2 when compared against LoD2.2. As part of this work, we developed a simple tool [riskMap](https://github.com/AkshayPatil1994/riskMap).
 
+Pre-print: [Impact of Varying Geometric Levels of Detail in Multi-Direction Urban Rans Simulations Tailored for Urban Air-Mobility](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5122636) 
 Software Citation: Patil, A., & Garcia-Sanchez, C. (2024). riskMap - An OpenFOAM utility to compute directionally averaged risk metrics for RANS simulations (Version 0.1.0) [Computer software]. https://doi.org/10.5281/zenodo.11207890
 
 ### Scalable Signed-Distance-Field (SDF) Generator
@@ -71,6 +72,16 @@ One of the important aspects of simulating scale-resolving turbulent flows is th
 
 Pre-print: [Fake it Till You Make it: Synthetic Turbulence to Achieve Swift Converged Turbulence Statistics in a Pressure-Driven Channel Flow](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5101082)  
 Software: [GenIC](https://github.com/AkshayPatil1994/Synthetic-Eddy-Method-KCX2013)
+
+### High-Fidelity simulation around Delft University of Technology campus
+
+<div class="row">
+  <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/TUDCampus.gif" }}"></div>
+</div>
+<br>
+
+Urban air mobility (UAM) operations in complex urban environments are highly sensitive to wind fluctuations, requiring a detailed understanding of the anticipated risk due to high wind and turbulence levels. This study simulates turbulent flow around a scaled wind tunnel model of a dense urban landscape using a scale resolving simulation framework. By analysing exceedance probabilities across different forcing conditions, we quantify the risk associated with extreme wind events that could affect UAM operations. The findings provide insights into urban wind dynamics and inform risk-aware planning for safe and reliable urban flight corridors.
+
 
 - - -
 ## Funding
