@@ -3,6 +3,8 @@ layout: page
 title:  PhD position vacancy
 permalink: /jobs/phdmultiroofs/
 ---
+
+<div class="alert alert-danger" role="alert">2025-03-10: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 <!-- 
 <figure class="image">
   <img src="cover.jpg" width="600">
@@ -83,8 +85,8 @@ More information about doing a PhD at TU Delft and in the Netherlands can be fou
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
-  Application deadline: <b>Sunday 2 March 2025 23:59</b>.
+<div class="alert alert-danger" role="alert">
+  Deadline has passed, you can't apply anymore.  
 </div>
 
 You can apply via the [official TU Delft webpage](https://careers.tudelft.nl/job/Delft-PhD-Position-3D-Reconstruction-and-Modelling-of-Roofs-in-European-Cities-2628-CD/811227802/).

@@ -9,8 +9,10 @@ permalink: /jobs/
 [title of the job](link to webpage)
 -->
 
-<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+<span class="label label-danger">closed</span>
+<del>
 [PhD Position: Reconstruction and modelling of roofs in European cities](phdmultiroofs/)
+</del>
 
 - - -
 
