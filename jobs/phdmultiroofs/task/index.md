@@ -37,8 +37,8 @@ We sampled four buildings on the TUDelft campus from the [3DBAG](https://3dbag.n
 
 - Don't spend more than 4-5 hours on this task. We are looking for a simple solution.
 - Don't use libraries that solve the entire task for you.
-- Don't read or implement the entire specifications for the Wavefront OBJ files (eg for the textures). It is not necessary, stick to the file given.
-- Choose the language you prefer, and please document your code.
+- Don't read or implement the entire specifications for the Wavefront OBJ files (eg for the textures). It is not necessary, stick to the files given.
+- Do choose the language you prefer, and please document your code.
 - Do use libraries for the geometric operations or to handle input/output, if you want. 
 However, you should be able to explain how these operations work at a low level.
 - Do feel free to take shortcuts and to simplify the problem further, if necessary.
@@ -48,11 +48,11 @@ However, you should be able to explain how these operations work at a low level.
 - the source code, 
 - instructions to compile and run it
 
-Ideally create a GitHub repository, add us ([@hugoledoux](https://github.com/hugoledoux/) + [@GinaStavropoulou](https://github.com/GinaStavropoulou/)) as collaborator, and email us the URL.
-You can alternatively email us a zip.
+Ideally create a GitHub repository, add us ([@hugoledoux](https://github.com/hugoledoux/) + [@GinaStavropoulou](https://github.com/GinaStavropoulou/)) as collaborators, and email us the URL.
+You can alternatively email us a ZIP.
 
 
-Submit this Wednesday 2 April 2025 before 9:00.
+**Submit this before Wednesday 2 April 2025 9:00.**
 
 Then, at the second interview, you should give a quick technical presentation of up to 10 minutes explaining how your program works (you can prepare slides and share your screen if you want), the engineering choices you made while programming, and how it could be improved (given more time). 
 We will ask you a few questions about it. 
