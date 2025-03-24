@@ -1,3 +1,12 @@
+- surname: Huang
+  name: Jin
+  doi: https://doi.org/10.4233/uuid:7406712d-7bc3-4565-9291-53f62f1e8758
+  month: March
+  pdf: https://repository.tudelft.nl/record/uuid:7406712d-7bc3-4565-9291-53f62f1e8758
+  title: Structure-aware 3D Building Reconstruction
+  year: 2025
+  image: jin.jpg
+
 - surname: Gao
   name: Weixiao
   doi: https://doi.org/10.4233/uuid:75ffb577-05a6-465f-8d71-92fb3e3f960c
