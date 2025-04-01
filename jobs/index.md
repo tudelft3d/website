@@ -9,7 +9,7 @@ permalink: /jobs/
 [title of the job](link to webpage)
 -->
 
-<span class="label label-danger">open</span>
+<span class="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
 <del>
 [PostDoc Position: High-Resolution Reconstruction and Urban CFD (UrbanAIR) ](urbanAIR_postdoc/)
 </del>
