@@ -38,6 +38,7 @@ The researcher will be part of the UrbanAIR project, funded by the European Unio
 - Has an affinity with working in multi‐disciplinary teams in an international oriented environment.
 
 ## What we offer
+- Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities. The salary is min. €3.378,- to max. € 5.331,- gross per month. Besides the salary you also receive an annual holiday payment of 8% and an end of year bonus payment of 8.3%.
 - The position has a fixed-term contract of 3 years.
 - The TU Delft offers a customisable compensation package, a discount on health insurance and sport memberships, and a monthly work costs contribution. Flexible work schedules can be arranged.
 - For international applicants we offer the Coming to Delft Service and Partner Career Advice to assist you with your relocation. An International Children's Centre offers childcare and there is an international primary school.
