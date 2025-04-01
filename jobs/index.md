@@ -9,6 +9,12 @@ permalink: /jobs/
 [title of the job](link to webpage)
 -->
 
+<span class="label label-danger">open</span>
+<del>
+[PostDoc Position: High-Resolution Reconstruction and Urban CFD (UrbanAIR) ](urbanAIR_postdoc/)
+</del>
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [PhD Position: Reconstruction and modelling of roofs in European cities](phdmultiroofs/)
