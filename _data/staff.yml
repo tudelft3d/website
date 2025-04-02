@@ -159,6 +159,8 @@
       role: Associate-prof.
     - name: meshannotation
       role: Associate-prof.
+    - name: multiroofs
+      role: Associate-prof.      
   uuid: 51e8cf2f-0266-421f-970f-71466b50d886
 
 
@@ -200,6 +202,9 @@
       role: Professor
     - name: meshannotation
       role: Professor
+    - name: multiroofs
+      role: Professor      
+
   uuid: 1f6b45c5-44ba-4745-a730-d5d3e627e3db
 
 - surname: Nan
@@ -307,6 +312,9 @@
   linkedin: https://linkedin.com/in/gina-stavropoulou/
   description: "My work in the group mainly focuses on the maintenance and further development of the 3DBAG.
                 I also engineer where engineering is needed."
+  projects:
+    - name: multiroofs
+      role: Data engineer                
 
 - surname: Patil
   name: Akshay
