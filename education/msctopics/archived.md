@@ -1,5 +1,48 @@
 - - -
 
+## The effect of different LoDs of indoor geometry from IFC models for ventilation applications
+![](img/roomextractions-01.jpg){:width="530px"}
+To conduct Computational Fluid Dynamics (CFD) simulations for indoor ventilation, a 3D model of the room is essential.
+Automating the reconstruction of room geometries for these simulations can significantly enhance efficiency for architects and engineers, allowing them to focus on optimising ventilation solutions.
+The level of detail in the reconstructed room model is a critical factor, yet there is no standard definition of LoD for indoor ventilation simulations.
+
+This MSc thesis aims to explore the relevant levels of detail for indoor ventilation applications.
+You can expect to work with IFC models, voxelisation techniques, and indoor CFD simulations.
+We recommend you look at the [current work](https://github.com/jaspervdv/IFC_BuildingEnvExtractor) for exterior LoD abstraction of IFC models.
+
+**Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+
+- - -
+
+## Influential geometric parameters for indoor ventilation
+
+![](img/parametric_room.gif){:width="700px"}
+
+Different geometrical design parameters impact the ventilation airflow in a room differently.
+Researchers have typically studied the room's height, the dimension and position of the inlet and outlet of mechanical ventilation, and the ratio of window-to-volume-of-room.
+However, most studies evaluate the ventilation efficiency of the room from the volumetric perspective of the room rather than from the perspective of breathing individuals.
+Optimising the design of a room based on the most sensitive parameters for an individual is still an important step in enhancing the design of rooms for better ventilation at the breathing level.
+
+In this thesis, you can expect to work with parametric generation of 3D geometry, CFD simulations, OpenFoam, and optimisation algorithms.
+
+**Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+
+## Coupled and decoupled simulations of urban wind flow for indoor natural ventilation modelling
+
+Urban wind flow is an important factor in the efficiency of the indoor natural ventilation, which is becoming a really essential ventilation strategy under the current pandemic life environment.
+To model natural ventilation in buildings, running Computational Fluid Dynamics (CFD) simulations is not so straightforward because two levels of wind flow are present in the computational domain.
+Researchers usually rely on decoupled simulations of urban wind flow and indoor ventilation.
+This means that the urban wind flow is modelled first and then relevant values near the openings of the studied building are used to later model the indoor ventilation.
+However, recently with the increase of computational power, there is a rise in the use of coupled simulations where outdoor and indoor air are modelled together.
+
+![](img/Outdoor-Indoor_ventilation.jpg){:width="800px"}
+
+In this MSc thesis, we will try to compare the results of the two approaches and try to validate them with an existing case study. The results could show us if there is a need for a more computationally expensive coupled simulation, or if there are available approaches that allow us to represent accurately outdoor conditions by just imposing appropriate boundary conditions. If you choose this topic, you can expect to learn about indoor ventilation, the level of detail needed in the urban area surrounding the building of interest, and validation CFD simulations. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python or any other language you prefer).
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika/)
+
+- - -
+
 ## Adding trees to City4CFD
 
 ![](img/automaticTree_city4CFD.jpg){:width="800px"}
