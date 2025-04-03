@@ -34,7 +34,7 @@ The researcher will be part of the UrbanAIR project, funded by the European Unio
 - Holds an PhD degree (or almost completed) in aerospace engineering, mechanical engineering, geoinformatics/geomatics, computer science, applied mathematics, or in a related engineering discipline.
 - Has experience in computational fluid dynamics, machine learning, 3D modelling, preferably from a programming perspective.
 - Has good software development skills. Experience with C++ is beneficial.
-- Has excellent oral and written communication skills. See [requirements](https://www.tudelft.nl/onderwijs/opleidingen/phd/admission) at TUDelft.
+- Has excellent oral and written communication skills.
 - Has an affinity with working in multi‐disciplinary teams in an international oriented environment.
 
 ## What we offer
