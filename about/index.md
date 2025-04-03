@@ -8,22 +8,17 @@ map: true
 <div class="row">
   <div class="col-sm-6">
     <h3>Our Group</h3>
-
     <p>
     The 3D geoinformation research group is part of Section Urban Data Science , <a href="http://www.tudelft.nl">Delft University of Technology</a>, and is affiliated with <a href="http://www.ams-institute.org">AMS</a>, the Amsterdam Institute for Advanced Metropolitan Solutions. </p>
     <p>
-
     The group focuses on technologies underpinning 3D geo-data and the integration with Building Information Models (BIMs) and aims at designing, developing, and implementing open data and open source solutions to model cities, buildings, and landscapes in 3D for environmental and urban studies. Open Science is an important principle of our research. We are also the main provider of education in the <a href="https://www.tudelft.nl/onderwijs/opleidingen/masters/geomatics/msc-geomatics">MSc Geomatics</a>. 
     </p>
     <p>
-    
     It is a multidisciplinary group of about <a href="https://3d.bk.tudelft.nl/about/#people">25 people</a>, including computer scientists, geomatics engineers, and geographers. It has a history of successful collaborations with the industry and the government: its research has led to <a href="{{ "/code/" |  prepend: site.baseurl }}">software</a> and international standards for the management of 3D geographic information. The staff of the group is active in several international organisations such as the <a href="https://www.ogc.org">Open Geospatial Consortium</a>, <a href="http://www.eurosdr.net">EuroSDR</a>, and the <a href="https://www.isprs.org">International Society for Photogrammetry and Remote Sensing</a>. Nationally we have strong links to <a href="https://www.kadaster.nl/">Kadaster</a> and <a href="https://www.geonovum.nl/">Geonovum</a>.
     </p>
     <p>
-
     Our research funding mostly comes from the following organisations:
     </p>
-
     <div class="row">
       <div class="col-xs-4"><a href="https://erc.europa.eu"><img class="img-responsive" src="{{ "/img/partners/erc.svg" | prepend: site.baseurl }}" alt="ERC logo" style="height: 100px; margin: auto;" /></a></div>
       <div class="col-xs-4"><a href="https://www.nwo.nl"><img class="img-responsive" src="{{ "/img/partners/nwo.svg" | prepend: site.baseurl }}" alt="NWO logo" style="height: 100px; margin: auto;" /></a></div>
@@ -36,7 +31,6 @@ map: true
   <div class="col-sm-6">
     <section id="where">
       <h3>Our Location</h3>
-
       <div class="row">
         <div class="col-xs-4">
           <div style="font-size: larger;">
@@ -62,10 +56,10 @@ map: true
       </div>
     </section>
     <script>
-      mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiY2pnNnc1bDJkMjcxNzMzeGZjOGI4aW5ibyJ9.gonBY78tu7tCtqUAQr5YfA';
+      mapboxgl.accessToken = 'pk.eyJ1IjoieWxhbm5sIiwiYSI6ImNrNjB6MDdkZzBjYWgzbG1idnNtY2NwN3oifQ.Tcrga-SiNjx2Sy6Sr8JrUQ';
       var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/kenohori/cim0i33ql00jmbjlw9l1pro1i',
+        style: 'mapbox://styles/ylannl/ck6528mj226nu1io7q2qf4nam',
         center: [4.3697572,52.0056088],
         zoom: 13.5,
         pitch: 60
@@ -109,14 +103,10 @@ map: true
     </script>
   </div>
 </div>
-
 - - - 
-
 <section id="people">
   <h2>Our Staff</h2>
-
   {% assign members = site.data.staff | better_sort: 'surname' %}
-
   <div class="row">
     {% for member in members %}
       <div class="col-md-3 col-sm-4 col-xs-6">
@@ -125,13 +115,10 @@ map: true
     {% endfor %}
   </div>
 </section>
-
 - - -
 <section id="visiting people">
   <h2>Academic visitors</h2>
-
   {% assign members = site.data.staff_visiting | better_sort: 'surname' %}
-
   <div class="row">
     {% for member in members %}
       <div class="col-md-3 col-sm-4 col-xs-6">
@@ -141,11 +128,8 @@ map: true
   </div>
 </section>
 - - - 
-
 <section name="people">
   <h2>Former staff</h2>
-
   <a href="{{ "/about/formerstaff" | prepend: site.baseurl }}">List of former staff</a>
-
 </section>
 
