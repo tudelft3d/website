@@ -4,6 +4,8 @@ title:  "Revealing Urban Waste Dynamics from Images with AI"
 permalink: /jobs/postdoc_cleancity_2025/
 ---
 
+<div class="alert alert-danger" role="alert">2025-02-10: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 #### Are you passionate about AI, urban sustainability, and real-world impact? Join the "Clean Inner City" initiative as a postdoc and revolutionize urban waste management!
 
 ### Job description
@@ -75,6 +77,10 @@ The Coming to Delft Service offers a [Dual Career Programme](https://www.tudelft
 for partners and they organise events to expand your (social) network. 
 
 ### Application procedure
+
+<div class="alert alert-danger" role="alert">
+  Deadline has passed, you can't apply anymore.  
+</div>
 
 Are you interested in this vacancy? Please apply **no later than 9 February 2025** via the application button in 
 [this page](https://careers.tudelft.nl/job/Delft-Revealing-Urban-Waste-Dynamics-from-Images-with-AI-2628-CD/809508002/) 

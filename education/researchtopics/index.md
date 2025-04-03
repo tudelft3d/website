@@ -65,14 +65,6 @@ You'll improve your programming skills in the process and learn a lot about mani
 
 **Contact:** [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis)
 
-## Automate generating blockMesh files for OpenFOAM
-
-![](img/block_basic.png){:width="400px"}
-
-Generating blocks for CFD meshes is quite a trivial task that still takes quite some manual effort resulting in wasted time. The assignment’s objective is to automatically generate the [OpenFOAM](https://openfoam.org/) blockMesh dictionary based on some user defined parameters (such as number of blocks, size of domain, etc.). It could be through Shell or Python, but optimally it will be an online Javascript application, similar to this [example] (https://turfjs.org).
-
-**Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika)
-
 ## Tool for automatic collection and set-up of 3D point clouds
 
 ![](img/3d_pointclouds.png){:width="400px"}

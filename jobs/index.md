@@ -9,6 +9,10 @@ permalink: /jobs/
 [title of the job](link to webpage)
 -->
 
+<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+[PostDoc Position: High-Resolution Reconstruction and Urban CFD (UrbanAIR)](urbanAIR2/)
+- - -
+
 <span class="label label-danger">closed</span>
 <del>
 [PhD Position: Reconstruction and modelling of roofs in European cities](phdmultiroofs/)
@@ -16,8 +20,10 @@ permalink: /jobs/
 
 - - -
 
-<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+<span class="label label-danger">closed</span>
+<del>
 [Postdoc Position - Revealing Urban Waste Dynamics from Images with AI](postdoc_cleancity_2025/)
+</del>
 
 - - -
 

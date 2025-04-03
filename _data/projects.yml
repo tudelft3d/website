@@ -1,3 +1,11 @@
+- name: MultiRoofs
+  description: Multifunctional Roofscapes for smart, green and just urban densification
+  webpage: /projects/multiroofs/
+  image: multiroofs.jpg
+  funding: Interreg North-West Europe (NWE)
+  fundingurl: https://www.nweurope.eu/
+  start: 2024
+
 - name: TurboCor
   description: Turbulence over Coral Reefs
   webpage: /projects/turbocor/
