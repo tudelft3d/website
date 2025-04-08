@@ -8,3 +8,13 @@
   name: Lotte
   title: "Reconstructing 3D apartment models from 2D notarial deeds"
   image: 2025_LottedeNiet.jpeg
+
+- surname: Iliopoulos
+  name: Giorgos
+  title: "(Semi-)automatic modeling of indoor building 3D models for daylight simulation with LiDAR-enabled mobile devices"
+  image: 2025_Giorgos.jpg
+
+- surname: Boertjes
+  name: Lars
+  title: "Segmentation of oblique aerial imagery using SAM to improve 3D mesh construction"
+  image: 2025_Lars.jpg
