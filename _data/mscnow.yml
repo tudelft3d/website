@@ -4,6 +4,11 @@
   image: 2025_adhisye.jpg
 
   
+- surname: Derian
+  name: Der
+  title: "Pointcloud harmonisation based on roadmarkings as benchmarks"
+  image: website_RM_cover.png
+  
 - surname: de Niet
   name: Lotte
   title: "Reconstructing 3D apartment models from 2D notarial deeds"
