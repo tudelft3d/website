@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DigiTwins4PEDs (Utilization of Urban Digital Twins to co-create flexible positive energy districts)
+title: DigiTwins4PEDs (Utilization of Urban Digital Twins to co-create flexible Positive Energy Districts)
 permalink: /projects/digitwins4peds/
 ---
 
@@ -16,7 +16,7 @@ permalink: /projects/digitwins4peds/
 - - -
 ## Summary
 
-The main concept of the [DigiTwins4PEDs](https://digitwins4peds.eu/) project is to use Urban Digital Twins as a digital representation of the real world, opening up a wide range of possibilities for modeling the energy aspects of cities. This innovative approach aims to create a platform for residents and stakeholders to exchange information, enabling them to visualize various PED scenarios before their actual implementation.
+The main idea of the [DigiTwins4PEDs](https://digitwins4peds.eu/) project is to use Urban Digital Twins as a digital representation of the real world, opening up a wide range of possibilities for modeling the energy aspects of cities. This innovative approach aims to create a platform for residents and stakeholders to exchange information, enabling them to visualize various PED scenarios before their actual implementation. The project started in autumn 2023 and is planned to finish in spring 2026.
 
 - - -
 ## Our role in the project
