@@ -1,3 +1,10 @@
+- name: EnergyBAG
+  description: Enhance of energy applications through semantic 3D city models and open data
+  webpage: /projects/EnergyBAG/
+  image: EnergyBAG.png
+  funding: TU Delft
+  start: 2020
+
 - name: DigiTwins4PEDs
   description: Utilization of Urban Digital Twins to co-create flexible Positive Energy Districts
   webpage: /projects/digitwins4peds/
