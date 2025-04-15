@@ -30,7 +30,7 @@ WP4 Leader (“Integration of Urban Digital Twin into the co-creation process fo
 <div style="padding:5px" class="col-md-4 col-sm-6 col-xs-8"><img src="img/logos_funding.jpg" alt="Funding agencies" ></div>
 </div>
 
-The project funded by the European Commission under the Horizon Europe Partnership scheme. The DUT Call 2022 also contributes to the Urban Transition Mission of Mission Innovation as part of the MICall 2022 initiative.
+The project is funded by the European Commission under the Horizon Europe Partnership scheme. The DUT Call 2022 also contributes to the Urban Transition Mission of Mission Innovation as part of the MICall 2022 initiative.
 
 - - -
 
