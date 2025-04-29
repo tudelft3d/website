@@ -265,14 +265,6 @@
   In this project, I am looking for solutions to (1) improve simulations of air pollutants in urban areas, (2) co-simulate statistical and physically-based urban microclimate models, and (3) generate physically-based models from 3D city models and Internet-of-Things.
   Based on these solutions, it is aimed at proving that physically-based urban microclimate models could easily be integrated into digital twin platforms for the development of climate-neutral and smart cities."
 
-- surname: Hakim
-  name: Amir
-  title: Scientific Software Developer and Researcher
-  photo: amir.jpg
-  homepage: 3d.bk.tudelft.nl/ahakim
-  email: S.Hakim@tudelft.nl
-  description: "CHEK (change toolkit for digital building permit)"
-
 - surname: van der Vaart
   name: Jasper
   title: Scientific Software Developer and Researcher
@@ -295,7 +287,7 @@
   photo: daan.jpg
   homepage: 3d.bk.tudelft.nl/dvdheide
   email: D.H.vanderHeide-1@tudelft.nl
-  description: "I am a PhD candidate working for both TU Delft and the Rijkswaterstaat (Ministry of Infrastructure) on the Integral Height System of the Netherlands (IHN). 
+  description: "I am a PhD candidate working for both TU Delft and the Rijkswaterstaat (Ministry of Infrastructure) on the Integral Height System of the Netherlands (IHN).
   My research focuses on merging open data point clouds collected in the Netherlands, to build an accurate representation of the country, similar to the National Elevation Dataset of the USGS. 
   The subjects include investigating the effects of merging, co-registration, mutation detection, and maintaining elevation datasets.<br/><br/>
 
