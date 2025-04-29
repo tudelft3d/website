@@ -1,3 +1,18 @@
+- name: EnergyBAG
+  description: Enhance of energy applications through semantic 3D city models and open data
+  webpage: /projects/EnergyBAG/
+  image: EnergyBAG.png
+  funding: TU Delft
+  start: 2020
+
+- name: DigiTwins4PEDs
+  description: Utilization of Urban Digital Twins to co-create flexible Positive Energy Districts
+  webpage: /projects/digitwins4peds/
+  image: digitwins4peds.jpg
+  funding: Driving Urban Transition (DUT) Call 2022
+  fundingurl: https://dutpartnership.eu/funding-opportunities/dut_call_2022/
+  start: 2023
+
 - name: MultiRoofs
   description: Multifunctional Roofscapes for smart, green and just urban densification
   webpage: /projects/multiroofs/
