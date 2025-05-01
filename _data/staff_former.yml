@@ -126,9 +126,7 @@
   homepage: noardo.eu
   period: 2018-2022
   current: "project manager at [OGC](https://www.ogc.org)"
-  description: "She is a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).
-She works towards the **integration of multi-source spatial data**, in particular, detailed 3D models (from survey or from design), **in interoperable 3D maps**, having semantics from open standards and correct geometry.
-"
+  description: "She is a postdoc researcher in the [3D geoinformation group](https://3d.bk.tudelft.nl/) at the Delft University of Technology, and a research fellow of the [Amsterdam Institute for Advanced Metropolitan Solutions (AMS)](https://www.ams-institute.org/member/francesca-noardo/).\n She works towards the **integration of multi-source spatial data**, in particular, detailed 3D models (from survey or from design), **in interoperable 3D maps**, having semantics from open standards and correct geometry.\n"
   projects:
     - name: esdr-geobim
       role: Postdoc
