@@ -5,7 +5,7 @@ permalink: /jobs/phd_2025_renodat/
 ---
 <!-- -->
 <div class="alert alert-info" role="alert">
-Deadline to apply is Sunday 15 June 2025.
+Deadline to apply is 15 June 2025.
 </div>
 <!-- -->
 
