@@ -1,3 +1,23 @@
+
+## (Further) Developing a polyhedral mesher for CFD geometries
+
+![](img/rovo.jpg){:width="700px"}
+
+[snappyHexMesh](https://www.openfoam.com/documentation/guides/latest/doc/guide-meshing-snappyhexmesh.html) is the mesher that is usually used with OpenFOAM.
+It creates hexahedral meshes, and works fine in practice.
+
+However, polyhedral meshes, and in particular those based on the 3D Voronoi diagram, are gathering attention because they have better properties for certain applications. 
+
+Some research groups and companies are working on this ([VoroCrust](https://vorocrust.sandia.gov/) + [Cadence.com](https://community.cadence.com/cadence_blogs_8/b/cfd/posts/voronoi-diagrams-in-cfd-mesh-generation)) but the code is not open-source.
+
+Last summer we have started---using CGAL---a Voronoi mesher tailored for the output of [City4CFD](https://github.com/tudelft3d/City4CFD), our in-house tool for the automatic reconstruction of 3D city geometries.
+The images above are from some buildings around BK-City.
+
+The project would involve the further development of the mesher (and its potential integration with City4CFD), and its testing in a CFD context.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+
+
 - - -
 
 ## The effect of different LoDs of indoor geometry from IFC models for ventilation applications
