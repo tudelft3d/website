@@ -89,14 +89,14 @@ While our taskforce continuously advocates for IDEA topics, we acknowledge that 
     </p>
   </div>
 
-  <!-- <div class="col-md-4 col-sm-4 col-xs-6">
-        <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien Stoter photo" /></a>
-      <h3>Jantien Stoter<br /><small>Professor </small></h3>
+  <div class="col-md-4 col-sm-4 col-xs-6">
+        <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/amy.jpg" alt="Amy Sterrenberg photo" /></a>
+      <h3>Amy Sterrenberg<br /><small>PhD Researcher </small></h3>
       <p>
-          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/jstoter">3d.bk.tudelft.nl/jstoter</a><br />
-          <i class="fas fa-envelope"></i> <a href="mailto:j.e.stoter@tudelft.nl">j.e.stoter@tudelft.nl</a><br />
+          <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/asterrenberg">3d.bk.tudelft.nl/asterrenberg</a><br />
+          <i class="fas fa-envelope"></i> <a href="A.G.E.Sterrenberg@tudelft.nl">A.G.E.Sterrenberg@tudelft.nl</a><br />
       </p>
-  </div> -->
+  </div>
  
   <div class="col-md-4 col-sm-4 col-xs-6">
         <a href="http://3d.bk.tudelft.nl/selyamani"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/siham.jpg" alt="Siham photo" /></a>
