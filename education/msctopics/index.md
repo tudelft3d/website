@@ -425,20 +425,6 @@ If you choose this topic you can expect to work with building models, voxelizati
 
 - - -
 
-## Linking Urban Heat Island effects with 3D urban morphology
-
-With the increase in urbanization and gentifrication the Urban Heat Island (UHI) effect is becoming a priority concern for many cities and municipalities. As such several studies have been recently published linking urban morphology and plausible UHI remedies such as green roofs, for example. 
-
-In this MSc thesis we will combine for the first time three sources of data: landsat imagery, city measurements for air temperature and the results from a brand new open-source tool that automatically computes Global Building Morphology Indicators (GBMI). The first goal of the project is to link temperature data and GBMI results and analyse the sensitivity of the different indicators to UHI scenarios in Amsterdam city. The second goal would be to generalize the tool application to other cities with diverse morphology to further analyze its predictability capabilities in relation to UHI effects and potential solutions.
-
-If you choose this topic, you can expect to learn about UHI and urban morphology analysis. Programming experience and interest is an advantage for this topic. Your work might require to implement source code for the analysis of the set-ups (in C++ or Python or any other language you prefer).
-
-![](img/UHI_UM.jpg){:width="800px"}
-
-**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster/)
-
-- - -
-
 ## Development on quality assessment of point cloud datasets
 Rijkswaterstaat is transitioning into a data-driven organization, with 3D point cloud data playing a crucial role in the work processes and digital twin vision.The effectiveness of the current research project, which focuses on merging different 3D point clouds into the Integrated Heightdataset of the Netherlands (IHN), relies on the validation process as a key component. Therefore the focus of this MSc thesis is to research the possibilities for validating the quality of point clouds received from large infrastructure projects like the Moerdijkbridge zone or tunnels in the area of Rotterdam. If you choose this topic, you will have the opportunity to work for the Department of Advice and Validation of Geodata at Rijkswaterstaat, with access to numerous amount of elevation data products and the opportunity to contribute to the digital twin & IHN research projects.
 
