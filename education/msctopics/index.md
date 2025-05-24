@@ -46,18 +46,6 @@ The goal of this thesis would be to investigate what other heuristics  are usefu
 
 - - -
 
-## (Semi-)automatic modeling of indoor building 3D models for daylight simulation with Lidar enabled mobile devices
-
-![](img/iphonescan.png){:width="800px"}
-
-This project investigates the use of Lidar-enabled low-cost devices to automate daylight modeling in existing indoor spaces. A digital room model is crucial for daylight experts in design and retrofit decisions, with geometrical representation being a key element. Emerging technologies like Lidar can reduce the manual labor in model preparation. The research question is: "How can Lidar-enabled low-cost devices automate daylight modeling for indoor spaces?" The project includes a general API and literature search to identify potential contributions, numerical simulation of daylight, and error quantification by comparing ground truth data with (semi-)automatic results. The outcome will be a (semi-)automated pipeline for geometry acquisition and daylight simulation preparation, along with an error analysis. A Lidar-enabled iPhone device will be provided for the experiments in this project.
-
-**Requirements:** Practical knowledge of Python or C++ and familiarity with geometric data structures. Knowledge of indoor daylight simulation is a plus, but an interest is a must. Experience or interest in the Swift programming language is also beneficial.
-
-**Contact:** [Nima Forouzandeh](https://www.tudelft.nl/en/staff/n.forouzandeh/), [Eleonora Brembilla](https://www.tudelft.nl/en/staff/e.brembilla/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/).
-
-- - -
-
 ## Urban mesh segmentation
 
 ![](img/urbanmeshseg.png){:width="800px"}
