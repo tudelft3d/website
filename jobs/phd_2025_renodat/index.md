@@ -42,7 +42,7 @@ The [3D Geoinformation group](https://3d.bk.tudelft.nl/) at TU Delft will be inv
 
 To support the research work of the TU Delft team, we have opened a 4-year PhD position in our 3D Geoinformation research group, section Urban Data Science, Department of Urbanism, Faculty of Architecture and the Built Environment. This PhD candidate is expected to contribute to the above tasks.
 
-Another PhD position will open for the RenoDAT project at TU Delft, in the section Real Estate Management, Department of Management of the Built Environment, Faculty of Architecture and the Built Environment. Both PhDs will collaborate to contribute to the project  overarching goals.
+[Another PhD position](https://careers.tudelft.nl/job/Delft-PhD-in-Scaling-Renovation-Passports-through-Responsible-Business-Models-and-Management-Learning-2628-CD/821496202/) has been opened for the RenoDAT project at TU Delft, in the section Real Estate Management, Department of Management of the Built Environment, Faculty of Architecture and the Built Environment. Both PhDs will collaborate to contribute to the project  overarching goals.
 
 
 ## Research group
