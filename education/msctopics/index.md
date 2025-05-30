@@ -14,6 +14,23 @@ permalink: /education/msctopics/
 {:toc}
 - - -
 
+## IFC in PostgreSQL/PostGIS
+
+![](img/ifcsql.png){:width="800px"}
+
+The Industry Foundation Classes (IFC) schema is a widely used open standard for Building Information Modeling (BIM). IFC data mostly rely on files for storage, but storing such data in databases has the potential to improve the handling multiple - possibly very large - datasets, performing therefore spatial and non-spatial queries and integrating them with other systems.
+ 
+Database implementations of IFC exist, such as the one inside BIMserver, but perhaps the most interesting one is [IfcSQL](https://github.com/IfcSharp/IfcSQL), which currently runs only on Microsoft SQL Server. However, Microsoft SQL is not open and provides very limited spatial functionalities (e.g. no 3D support at all), which means that only very basic spatial queries can be run – and limited to 2D.
+ 
+Two are the main goals of this thesis: the first one is to port the database schema of IfcSQL to PostgreSQL/PostGIS. The second one is to investigate how the spatial functionalities of PostGIS can be exploited for IfcSQL, either directly at database level (e.g. via PL/pgSQL functions) or by developing a python-based interface.
+The usability of the developed solution will be tested in the context of water infrastructure management use cases and in collaboration with the University of Padua, Italy, and the development team of IfcSQL.
+ 
+**Requirements**: GEO1006 and GEO1004, suggested: GEO5014
+ 
+**Contact persons**: [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
 ## Creation of planar partitions from mismatched datasets
 
 ![](img/pp.png){:width="800px"}
