@@ -1,3 +1,31 @@
+## ...Too cool to be true? Cooling demand based on the (enriched) semantic 3D city model of Rotterdam
+![](img/digitwins4peds_img.jpg){:width="800px"}
+
+This thesis is embedded within the European project [DigiTwins4PEDs](https://digitwins4peds.eu), which investigates how Urban Digital Twins can be exploited to foster the trasformation of urban districts into PEDs (Positive Energy Districts).
+As the municipality of Rotterdam is one of the project partners, the topic of the thesis will be to investigate how the energy demand for cooling can be computed for the building stock using the CityGML-based 3D city model of Rotterdam. Further activities encompass the (contribution to the) enrichment of the current city model with relevant energy-related data, the analysis on how accurate the computed values can be, and how to present them.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2024) is _highly_ suggested, as relevant topics needed for this thesis will be covered.
+
+You will programm mainly in Python, and you will interact with the 3DCityDB using a bit of PL/pgSQL, too.
+Before picking the topic, please contact us!
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+
+## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
+![](img/CityJSONEnergyExtension.png){:width="800px"}
+
+The thesis aims to improve the current version of the CityJSON Energy Extension, which partially maps the CityGML Energy ADE KIT profile. It is expected to support the latest version of [CityJSON](https://www.cityjson.org/).
+
+The CityJSON extension is expected to support several energy applications as its counterpart, the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does. 
+
+This implementation is expected to include the development of a software tool to translate the data between the CityJSON and the [3DCityDB](https://github.com/3dcitydb/3dcitydb-suite).
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered. [Özge Tufan](https://github.com/ozgetufan/cjenergy/) and [Carolin Bachert](https://www.mdpi.com/2220-9964/13/4/121) work are the suggested starting literature review for this topic.
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+
 ## Automatic reconstruction of window boundaries for efficient daylight simulation.
 ![](img/window.png){:width="600px"}
 Sufficient daylight is an essential aspect of building performance and is a key factor in users' satisfaction and well-being. Although there are studies on optimizing the performance of newly designed buildings, few studies are conducted on the methods to improve the performance of the existing buildings. The geometrical model is an essential part of daylight simulation. These models are commonly constructed with point-by-point field measurement and manual modeling in CAD environments, such as Rhinoceros and SketchUp. This workflow is costly for many buildings and projects and is a practical barrier to accurate daylight simulations and informed refurbishment decisions. Results from the novel techniques in light-weight polygonal reconstruction of various objects from dense scanned indoor point clouds have been promising and are expected to automate reconstruction tasks in relevant domains in the future, such as daylight. However, reconstruction of the window boundaries is still a challenge.
