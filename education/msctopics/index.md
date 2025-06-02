@@ -15,6 +15,21 @@ permalink: /education/msctopics/
 
 - - -
 
+## Integration of 3DcityDB + Energy ADE into a Solar Potential Analysis Engine
+![](img/ImageSolarPotential3DCityDBEnergyADE2.png){:width="800px"}
+
+This MSc thesis topic builds upon the work in Longxiang Xu’s MSc thesis project, [“High-resolution, large-scale, and fast calculation of solar irradiance with 3D City Models”](https://repository.tudelft.nl/record/uuid:d97174a3-3e1b-4e64-8de0-33a6ec2c48b2). Therefore, it is planned to extend, review, and update current functionalities, and to add new ones. Among the new functionalities expected are:
+•⁠  ⁠Provide support for loading CityObjects into the simulation scene via a 3DcityDB instance.
+•⁠  ⁠Enable writing results to a 3DCityDB + Energy ADE instance.
+•⁠  ⁠Allow selection of CityObjects for simulation (i.e., computing the solar potential of a selected building within a scene).
+•⁠  ⁠Generation of appearances based on the simulation results and export them to a 3DcityDB instance.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered. Proficiency in programming is a plus, preferably C++. Before picking the topic, please contact us!
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), 
+
+- - -
+
 ## Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam
 ![](img/digitwins4peds_img.jpg){:width="800px"}
 
