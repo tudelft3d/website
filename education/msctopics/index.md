@@ -12,6 +12,22 @@ permalink: /education/msctopics/
 
 * Table of Contents
 {:toc}
+
+- - -
+
+## Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam
+![](img/digitwins4peds_img.jpg){:width="800px"}
+
+This thesis is embedded within the European project [DigiTwins4PEDs](https://digitwins4peds.eu), which investigates how Urban Digital Twins can be exploited to foster the trasformation of urban districts into PEDs (Positive Energy Districts).
+As the municipality of Rotterdam is one of the project partners, the topic of the thesis will be to investigate how different scenarios of energy demand for heating _and_ cooling can be computed and managed for the building stock using the CityGML-based 3D city model of Rotterdam. Additionally, a "smart" and systematic way to deal with scenarios (data, metadata, results, etc.) will have to be developed within the thesis.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered.
+
+You will programm mainly in Python, and you will interact with the 3DCityDB using a bit of PL/pgSQL, too.
+Before picking the topic, please contact us!
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), 
+
 - - -
 
 ## IFC in PostgreSQL/PostGIS
@@ -83,7 +99,6 @@ Participants in this project can select from the following three research direct
 
 **Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
 
-
 - - -
 
 ## Spatial intelligence for applications in semantic 3D city models
@@ -106,7 +121,6 @@ Participants in this project can choose from the following four research directi
 2) Proficiency in Python or C++ programming. 3) Knowledge of spatial analysis or computational geometry or deep learning.
 
 **Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
-
 
 - - -
 
@@ -157,7 +171,6 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
-
 - - - 
 
 ## Water (level) detection with ICESat-2 measurements
@@ -174,7 +187,6 @@ The method(s) should be able to scale to the full ICESat-2 dataset (1 PB), and t
 **Contact:** [Maarten Pronk](https://www.evetion.nl/) + [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
 - - -
-
 
 ## Filling the massive gaps in space lidar datasets with a diffusion model
 
@@ -218,7 +230,6 @@ In this thesis, you can expect to work with parametric generation of 3D geometry
 **Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
 
 - - -
-
 
 ## Urban microclimate simulations using vegetation
 
@@ -284,7 +295,6 @@ The Department of Urbanism collaborates with the City of Utrecht in the [New Eur
 
 ![](img/barcode_img.jpg){:height="400"}
 
-   
 Prerequisites: QGIS, Proficiency in programming languages such as R.
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/); [Alex Wandl](https://www.tudelft.nl/en/staff/a.wandl/?cHash=842e397ae7c998ecc880d440e2a0ccf0)
@@ -322,35 +332,17 @@ Prerequisites: Proficiency in GIS and software development (e.g., QGIS, R, Pytho
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 
-
 - - -
-
-## ...Too cool to be true? Cooling demand based on the (enriched) semantic 3D city model of Rotterdam
-
-![](img/digitwins4peds_img.jpg){:width="800px"}
-
-This thesis is embedded within the European project [DigiTwins4PEDs](https://digitwins4peds.eu), which investigates how Urban Digital Twins can be exploited to foster the trasformation of urban districts into PEDs (Positive Energy Districts).
-As the municipality of Rotterdam is one of the project partners, the topic of the thesis will be to investigate how the energy demand for cooling can be computed for the building stock using the CityGML-based 3D city model of Rotterdam. Further activities encompass the (contribution to the) enrichment of the current city model with relevant energy-related data, the analysis on how accurate the computed values can be, and how to present them.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2024) is _highly_ suggested, as relevant topics needed for this thesis will be covered.
-
-You will programm mainly in Python, and you will interact with the 3DCityDB using a bit of PL/pgSQL, too.
-Before picking the topic, please contact us!
-
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
 
 ## Development of the *client-side* part of the 3DCityDB-Tools plugin for QGIS to support CityGML 3.0 data
 
-The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). For the upcoming new 3DCityDB v.5.0, which introduces support for CityGML 3.0., a MSc thesis is already investigating and developing the (PostgreSQL-based) server-side part of the plugin.
+The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). For the new 3DCityDB v.5.0, which introduces support for CityGML 3.0., a MSc thesis has already investigated and developed the (PostgreSQL-based) server-side part of the plugin.
   
 The scope of this thesis is build upon it and to develop the client-side part of the plugin, thus facilitating the user's interaction with CityGML 3.0 data in the database using the usual QGIS GUI, instead of writing SQL commands. 
 
 ![](img/3dcdb5_qgis_mini.jpg){:width="800px"}
 
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2024) is _highly_ suggested, as relevant topics needed for this thesis will be covered.
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered.
 
 You will programm mainly in Python, you will learn how to use the Qt libraries, and you will need to use (a bit of) PL/pgSQL, too.
 Before picking the topic, please contact us!
@@ -366,26 +358,12 @@ The scope of this thesis is to extend to QGIS plugin in order to allow for data 
 
 ![](img/3dcdb-tools_citysim_mini.jpg){:width="800px"}
 
-The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=60400) in Q5 (September 2023) is highly recommended, as many relevant topics needed for this thesis will be covered.
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
 
 You will programm in Python and in PL/pgSQL.
 Before picking the topic, please contact us!
 
-**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-## (Further) Development and Testing of the Energy Extension for CityJSON (v1.x)
-![](img/CityJSONEnergyExtension.png){:width="800px"}
-
-The thesis aims to improve the current version of the CityJSON Energy Extension, which partially maps the CityGML Energy ADE KIT profile. It is expected to support the latest version of [CityJSON](https://www.cityjson.org/).
-
-The CityJSON extension is expected to support several energy applications as its counterpart, the [CityGML Energy ADE](https://opengeospatialdata.springeropen.com/track/pdf/10.1186/s40965-018-0042-y.pdf) does. 
-
-This implementation is expected to include the development of a software tool to translate the data between the CityJSON and the [3DCityDB](https://github.com/3dcitydb/3dcitydb-suite).
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered. [Özge Tufan](https://github.com/ozgetufan/cjenergy/) and [Carolin Bachert](https://www.mdpi.com/2220-9964/13/4/121) work are the suggested starting literature review for this topic.
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
 
 - - -
 
@@ -396,9 +374,9 @@ The aim of this MSc thesis is the evaluation of the output EnergyBAG, an in-hous
 
 The scope of the research is to asses the accuracy of the results obtained by the UBES while computing the energy demand of buildings while pointing possible source of errors in the workflow. It is expected to use other existing UBES in this research such as [SimStadt](https://simstadt.hft-stuttgart.de/), [CitySim](http://www.kaemco.ch/download.php), [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com/) or [EnergyPlus](https://energyplus.net), to mention some.
 
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
 
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
 - - -
 
@@ -409,9 +387,9 @@ The scope of this MSc thesis is the design and development of a web-based Graphi
 
 Within its functionalities, the GUI should allow 3D visualization of semantic 3D city models (3DCM) and generate graphs and plots that aggregate the output of the simulation tool. Data are managed in a 3DCityDB instance that supports the Energy ADE.
 
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
 
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
 
 - - -
 
