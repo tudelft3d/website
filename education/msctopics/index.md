@@ -51,11 +51,11 @@ The usability of the developed solution will be tested in the context of water i
 
 ![](img/pp.png){:width="800px"}
 
-Many GIS applications are based around a planar partition of polygons—a set of polygons covering the map with no overlaps and no gaps between them. For example, most 3D city models are built by raising polygons representing building footprints, roads, water bodies, etc. to different heights according to different rules.
+Many GIS applications are based around a planar partition of polygons—a set of polygons covering the map with no overlaps and no gaps between them. For example, 3D city models are generally built by raising polygons representing building footprints, roads, water bodies, etc. to different heights according to different rules.
 
 However, good planar partition datasets are relatively rare. For many countries and cities, there’s only linear data for many features (e.g. roads, railways, rivers, etc). In other cases, the different features come from different sources and do not fit neatly together. Finally, there’s also data that is missing altogether and can only be computed based on the gaps in other data using more complex rules (e.g. roads from the space between parcels or terrain from the remainder of all other features.
 
-The goal of this thesis would be to create a robust method to create planar partitions from multiple datasets based on customisable rules (e.g. line buffers, priority lists, Boolean set ops, etc).
+The goal of this thesis would be to create a robust method to create planar partitions from multiple datasets based on customisable rules (e.g. line buffers, priority lists, Boolean set ops, etc). Another possibility would be a narrower thesis focussing on creating more detailed data for only one of these types, such as in [this thesis](https://3d.bk.tudelft.nl/ken/files/24_chengzhi.pdf).
 
 **Requirements**: proficiency in programming, preferably with C++.
 
@@ -71,7 +71,7 @@ Invalid polygons are a common headache for GIS practitioners. There are a number
 
 Included in that package, so far there’s only one repair method based on the odd-even rule. This works by starting from the exterior of the polygon and every time that a line is crossed one switches from the exterior to the interior of the polygon and vice versa. However, this is not a one-size-fits-all problem and it would be best to have several repair methods based on different heuristics, such as Boolean set union (merger of all rings into one shape) or difference (inner rings should always carve out holes in the polygon).
 
-The goal of this thesis would be to investigate what other heuristics  are useful in practice and to implement them.
+The goal of this thesis would be to investigate what other heuristics are useful in practice and to implement them.
 
 **Requirements**: proficiency in C++ programming, some familiarity with CGAL would be desirable.
 
