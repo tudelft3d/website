@@ -14,7 +14,7 @@ permalink: /education/
   * GEO1016: Photogrammetry and 3D computer vision <a href="https://3d.bk.tudelft.nl/courses/geo1016/"><i class="fas fa-home"></i> (open course)</a>
   * GEO1101: Synthesis project
   * GEO2011: Thesis preparation
-  * GEO2020: Thesis <a href="https://3d.bk.tudelft.nl/courses/geo2020/"><i class="fas fa-home"></i></a>
+  * GEO2021: Thesis <a href="https://geomatics.bk.tudelft.nl/geo2021/"><i class="fas fa-home"></i></a>
   * GEO5010: Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
   * GEO5014: Geomatics as support for energy applications
   * GEO5015: Modelling wind and dispersion in urban environments
