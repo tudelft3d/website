@@ -15,12 +15,12 @@ permalink: /education/msctopics/
 
 - - -
 
-## Integration of 3DcityDB + Energy ADE into a Solar Potential Analysis Engine
+## Integration of 3DcityDB + Energy ADE 2.0 into a Solar Potential Analysis Engine
 ![](img/ImageSolarPotential3DCityDBEnergyADE2.png){:width="800px"}
 
 This MSc thesis topic builds upon the work in Longxiang Xu’s MSc thesis project, [“High-resolution, large-scale, and fast calculation of solar irradiance with 3D City Models”](https://repository.tudelft.nl/record/uuid:d97174a3-3e1b-4e64-8de0-33a6ec2c48b2). Therefore, it is planned to extend, review, and update current functionalities, and to add new ones. Among the new functionalities expected are:
 •⁠  ⁠Provide support for loading CityObjects into the simulation scene via a 3DcityDB instance.
-•⁠  ⁠Enable writing results to a 3DCityDB + Energy ADE instance.
+•⁠  ⁠Enable writing results to a 3DCityDB + Energy ADE 2.0 instance.
 •⁠  ⁠Allow selection of CityObjects for simulation (i.e., computing the solar potential of a selected building within a scene).
 •⁠  ⁠Generation of appearances based on the simulation results and export them to a 3DcityDB instance.
 
