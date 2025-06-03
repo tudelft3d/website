@@ -217,34 +217,6 @@ The [project has open-source code](https://github.com/kylelo/Diff-DEM), Python c
 
 - - - 
 
-## The effect of different LoDs of indoor geometry from IFC models for ventilation applications
-![](img/roomextractions-01.jpg){:width="530px"}
-To conduct Computational Fluid Dynamics (CFD) simulations for indoor ventilation, a 3D model of the room is essential. 
-Automating the reconstruction of room geometries for these simulations can significantly enhance efficiency for architects and engineers, allowing them to focus on optimising ventilation solutions. 
-The level of detail in the reconstructed room model is a critical factor, yet there is no standard definition of LoD for indoor ventilation simulations.
-
-This MSc thesis aims to explore the relevant levels of detail for indoor ventilation applications. 
-You can expect to work with IFC models, voxelisation techniques, and indoor CFD simulations.
-We recommend you look at the [current work](https://github.com/jaspervdv/IFC_BuildingEnvExtractor) for exterior LoD abstraction of IFC models.
-
-**Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
-
-- - -
-
-## Influential geometric parameters for indoor ventilation
-
-![](img/parametric_room.gif){:width="700px"}
-
-Different geometrical design parameters impact the ventilation airflow in a room differently.
-Researchers have typically studied the room's height, the dimension and position of the inlet and outlet of mechanical ventilation, and the ratio of window-to-volume-of-room.
-However, most studies evaluate the ventilation efficiency of the room from the volumetric perspective of the room rather than from the perspective of breathing individuals.
-Optimising the design of a room based on the most sensitive parameters for an individual is still an important step in enhancing the design of rooms for better ventilation at the breathing level.
-
-In this thesis, you can expect to work with parametric generation of 3D geometry, CFD simulations, OpenFoam, and optimisation algorithms.
-
-**Contact:** [Nadine Hobeika](https://3d.bk.tudelft.nl/nhobeika), [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
-
-- - -
 
 ## Urban microclimate simulations using vegetation
 
