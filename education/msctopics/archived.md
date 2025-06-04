@@ -1308,3 +1308,26 @@ Knowledge of programming in either Python (for data processing) or JavaScript/Ty
 This thesis is in collaboration with TomTom.
 
 ![](img/landmarks-3d.png){:width="800px"}
+
+
+## Spatial intelligence for applications in semantic 3D city models
+
+![](img/spatialsmart.png){:width="800px"}
+
+The goal of this research is to develop spatial intelligence applications for semantic 3D city models. 
+We will provide datasets and research guidelines to facilitate students' successful completion of the project. 
+Your task is to develop prototypes of algorithms related to applications based on 3D city models. 
+You will learn about cutting-edge spatial intelligence computing methods and their applications in semantic 3D urban models. 
+The findings from this study can be published in high-quality journals or conference papers. 
+Additionally, students have the option to choose a secondary supervisor. 
+Participants in this project can choose from the following four research directions:
+1. Develop a method for arranging solar panels on roofs to enhance solar potential estimation.
+2. Create prototypes for semantic-based automatic geometric measurements.
+3. Develop a routing method for pedestrian or vehicle navigation using 3D maps.
+4. Design a language model for interpreting or editing 3D city models.
+
+**Requirements:** 1) Experiences in 3D city models analysis and processing. 
+2) Proficiency in Python or C++ programming. 3) Knowledge of spatial analysis or computational geometry or deep learning.
+
+**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
