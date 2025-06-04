@@ -269,53 +269,15 @@ The prerequisites for this project are basic knowledge in building physics and p
 
 - - -
 
-## The Utrecht – BARCODE  - Between Planning, Modelling, and Participation: modelling and communicating the effects of urban densification
+## Developing an open-source Multifunctional Green Infrastructure Planning Support System
 
-Michael Batty (2022) recently stated, “Despite a wide array of new tools embodying different theories, the gulf between planning theory and practice remains. … for this, the challenge is for model-builders and users to work in practice and for practitioners to work with theory”.
-In this spirit, the proposed graduation projects focus on further developing the Utrecht BARCODE. The Utrecht BARCODE is a planning tool developed by the city planning department, and part of the is the Ruimtelijke Strategie Utrecht (RSU 2040, which quantifies and communicates the spatial needs of a growing city to develop a sustainable, just and healthy way using the 10-minute city concept. Policymakers acclaim the BARCODE for its clear and quantitative communication and practitioners for the simple way of visualising the complexity of future urban development needs.
+Urban areas face increasing pressure to address multiple environmental and social challenges simultaneously, including climate change adaptation, biodiversity loss, social inequality, and public health concerns. Traditional infrastructure planning approaches often address these issues in isolation, leading to inefficient resource allocation and missed opportunities for synergistic solutions.
+Multifunctional Green-Blue Infrastructure (GBI) offers a nature-based approach that can simultaneously deliver multiple ecosystem services across different spatial scales. However, current planning processes lack integrated digital tools that can effectively guide stakeholders through collaborative decision-making while ensuring equitable distribution of benefits and addressing diverse societal needs.
+The primary objective of this research  is to develop an innovative interactive geospatial planning support system that facilitates collaborative evidence-based decision-making for multifunctional green-blue infrastructure implementation in urban areas.
+If you are interested in this topic, you can expect to learn about **advanced geospatial technologies and methodologies** including **multi-criteria spatial analysis**, **web-based GIS development**, and **spatial decision support system design**.
+Through this interdisciplinary approach, you will gain valuable experience in **translating complex spatial analysis into accessible decision-making tools**, preparing you for careers in smart city development, environmental consulting, urban planning technology, or spatial data science with a focus on sustainability and social equity.
 
-This graduation project focuses on two aspects of the Barcode:
--	The first concerns i) streamlining and increasing the automation of calculating and visualisation of the Barcode for existing Areas; and ii) calculating the project’s effect on the Barcode of an area and its 10-minute catchment area.
--	The second involves i) developing a four-by-four block-wide 3D model of the city that allows illustrating potential changes according to the 10-minute city project and ii) developing and implementing a switchboard that allows different users to choose their priorities, which are then displayed in the 3D model.
-
-The Department of Urbanism collaborates with the City of Utrecht in the [New European Bauhaus](https://new-european-bauhaus.europa.eu/index_en) project. Therefore, the graduation student may be able to interact with researchers and creatives across Europe.
-
-![](img/barcode_img.jpg){:height="400"}
-
-Prerequisites: QGIS, Proficiency in programming languages such as R.
-
-**Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/); [Alex Wandl](https://www.tudelft.nl/en/staff/a.wandl/?cHash=842e397ae7c998ecc880d440e2a0ccf0)
-
-- - -
-
-## Investigating Predictive Modeling for Land Use Planning and Management 
-
-This graduation project focuses on predictive modelling and its role in land use planning and management. This project aims to provide valuable insights into future land use planning by exploring various factors that influence land use change and evaluating the effectiveness of different modelling approaches. In this MSc thesis, you will delve into the physical, environmental, and socio-economic factors that shape land use patterns. By analysing the impacts of land use policies, you will contribute to the foundation of effective decision-making processes in sustainable land management.
-
-Key objectives of this project include, among others:
-
-1.	Identifying the factors that significantly influence land use change: You will investigate a range of physical, environmental, and socio-economic factors and their relationship with land use dynamics making as much as possible use of open data. This analysis will contribute to understanding the underlying drivers of land use change.
-2.	Evaluating different modelling approaches: Considering the varying scale and resolution of land use and other spatial data, you will explore and compare different modelling techniques. This analysis will help identify the most suitable algorithms for specific land use tasks.
-3.	Assessing the performance of predictive algorithms: By comparing the performance of different algorithms, you will assess their accuracy, efficiency, and applicability to land use prediction. This evaluation will provide insights into the strengths and limitations of each approach.
-   
-Prerequisites: QGIS, Proficiency in programming languages such as R or Python and knowledge of machine learning concepts.
-
-**Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
-
-- - -
-
-## Designing a Nature-Based Solutions Planning Support System
-
-This project aims to develop an innovative tool that facilitates the integration and implementation of nature-based solutions in urban planning processes. In this MSc thesis, you will delve into the field of nature-based solutions, which involve using nature-inspired approaches to address various environmental challenges while providing social and economic benefits. Your objective will be to design a planning support system that enables decision-makers and stakeholders to identify, evaluate, and prioritize nature-based solutions for different contexts.
-
-Key objectives of this project include, among others:
-
-1.	Literature review and best practices analysis: You will conduct an in-depth review of existing literature and case studies related to nature-based solutions. By analysing successful examples, you will identify key design principles and considerations for the planning support system.
-2.	System architecture and interface design: Based on the identified design principles, you will develop a conceptual architecture and user-friendly interface for the planning support system. This system should facilitate data integration, analysis, visualization, and decision-making related to nature-based solutions.
-3.	Integration of spatial and non-spatial data: You will explore methods for integrating diverse data types, including spatial data (e.g., land cover, ecosystem services) and non-spatial data (e.g., socio-economic indicators, climate data). The system should enable data-driven analysis and decision-making processes.
-Prototype development and evaluation: Using appropriate software tools, you will develop a functional prototype of the planning support system. You will then evaluate its usability, functionality, and effectiveness through user feedback and case study applications.
-
-Prerequisites: Proficiency in GIS and software development (e.g., QGIS, R, Python) and understanding of nature-based solutions and urban/landscape planning.
+Prerequisites: Proficiency in GIS and software development (e.g., QGIS, R, Python) and understanding of/interest in GBI and urban/landscape planning.
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 
