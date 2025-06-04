@@ -118,7 +118,7 @@ Participants in this project can select from the following three research direct
 
 ## 3D Reconstruction for Man-Made Urban Linear Objects
 
-![](img/urban_linear.png){:width="800px"}
+![](img/urban_linear.jpg){:width="800px"}
 
 The objective of this research is to develop a deep learning-based 3D wireframe reconstruction method tailored for man-made urban linear objects. 
 We will provide datasets, relevant algorithms, and clear research guidelines to ensure successful project completion by students. 
