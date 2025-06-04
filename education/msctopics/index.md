@@ -272,8 +272,10 @@ The prerequisites for this project are basic knowledge in building physics and p
 ## Developing an open-source Multifunctional Green Infrastructure Planning Support System
 
 Urban areas face increasing pressure to address multiple environmental and social challenges simultaneously, including climate change adaptation, biodiversity loss, social inequality, and public health concerns. Traditional infrastructure planning approaches often address these issues in isolation, leading to inefficient resource allocation and missed opportunities for synergistic solutions.
+
 Multifunctional Green-Blue Infrastructure (GBI) offers a nature-based approach that can simultaneously deliver multiple ecosystem services across different spatial scales. However, current planning processes lack integrated digital tools that can effectively guide stakeholders through collaborative decision-making while ensuring equitable distribution of benefits and addressing diverse societal needs.
 The primary objective of this research  is to develop an innovative interactive geospatial planning support system that facilitates collaborative evidence-based decision-making for multifunctional green-blue infrastructure implementation in urban areas.
+
 If you are interested in this topic, you can expect to learn about **advanced geospatial technologies and methodologies** including **multi-criteria spatial analysis**, **web-based GIS development**, and **spatial decision support system design**.
 Through this interdisciplinary approach, you will gain valuable experience in **translating complex spatial analysis into accessible decision-making tools**, preparing you for careers in smart city development, environmental consulting, urban planning technology, or spatial data science with a focus on sustainability and social equity.
 
