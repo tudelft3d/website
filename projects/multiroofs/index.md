@@ -17,7 +17,7 @@ permalink: /projects/multiroofs/
 ## Summary
 
 MultiRoofs aims to enable public authorities to increase the multifunctional use of rooftops in their urban areas. 
-The project is composed of 25+ industry and academic partners in Western Europe (including Rotterdam, Paris, Dublin, Brussels) and it is an extension of a [prototype developed by MVRDV in Rotterdam](https://mvrdv.com/news/4290/mvrdv-launches-roofscape-a-new-software-to-help-reimagine-rotterdams-rooftops), the Netherlands.
+The project is composed of 25+ industry and academic partners in Western Europe (including Rotterdam, Paris, Dublin, Brussels) and it is an extension of a [prototype developed by MVRDV in Rotterdam](https://mvrdv.com/news/4290/mvrdv-launches-roofscape-a-new-software-to-help-reimagine-rotterdams-rooftops), the Netherlands which is based on our [3DBAG](www.3dbag.nl) solution.
 
 - - -
 ## Our role in the project
