@@ -30,77 +30,54 @@ map: true
   </div>
   <div class="col-sm-6">
     <section id="where">
-      <h3>Our Location</h3>
+      <h3>Where to find us</h3>
       <div class="row">
+       <div class="col-xs-8">
+          <i class="fas fa-map-marker-alt fa-fw"></i> Room BG.West.550<br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> Faculty of Architecture,  TU Delft<br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134<br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> The Netherlands<br><br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i> <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/"> How to get here</a><br>
+          <i class="fas fa-map-marker-alt fa-fw fade"></i>
+        </div>
         <div class="col-xs-4">
-          <div style="font-size: larger;">
-            <a href="https://twitter.com/tudelft3d"><i class="fab fa-twitter fa-fw"></i> Twitter</a><br /> 
-            <a href="https://www.youtube.com/channel/UCbK2N4c3QyhGLvjx1Xx2lRw"><i class="fab fa-youtube fa-fw"></i> Youtube</a><br /> 
-            <a href="https://github.com/tudelft3d"><i class="fab fa-github fa-fw"></i> Github</a>
+          <div style="font-size: 2rem;">
+          <a href="https://github.com/tudelft3d"><i class="fab fa-github fa-fw"></i> GitHub</a><br />
+            <a href="https://www.linkedin.com/company/3d-geoinformation-group"><i class="fab fa-linkedin fa-fw"></i> Linkedin</a><br />
+            <a href="https://www.youtube.com/channel/UCbK2N4c3QyhGLvjx1Xx2lRw"><i class="fab fa-youtube fa-fw"></i> YouTube</a><br /> 
+            
           </div>
         </div>
-        <div class="col-xs-8">
-          <i class="fas fa-map-marker-alt fa-fw">     </i> Room BG.West.550<br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> Building 8 (BK City) <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft University of Technology <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> Julianalaan 134 <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> Delft 2628BL<br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> the Netherlands <br>
-          <i class="fas fa-map-marker-alt fa-fw fade"></i> <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/">How to get here</a>
-          <br />
-        </div>
+
         <div class="col-xs-12">
-          <br />
           <div id="map"></div>
         </div>
       </div>
     </section>
-    <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoieWxhbm5sIiwiYSI6ImNrNjB6MDdkZzBjYWgzbG1idnNtY2NwN3oifQ.Tcrga-SiNjx2Sy6Sr8JrUQ';
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/ylannl/ck6528mj226nu1io7q2qf4nam',
-        center: [4.3697572,52.0056088],
-        zoom: 13.5,
-        pitch: 60
-      });
-      map.addControl(new mapboxgl.NavigationControl());
-      var markers = {
-        "type": "FeatureCollection",
-        "features": [{
-          "type": "Feature",
-          "properties": {
-            "description": "<h3>3D Geoinformation</h3><p>Room BG.West.550</p>",
-            "iconSize": [50, 50]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [4.3697572,52.0056088]
-          }
-        }]
-      }
-      // add markers to map
-      markers.features.forEach(function(marker) {
-        // create a DOM element for the marker
-        var el = document.createElement('div');
-        el.className = 'marker';
-        el.style.backgroundImage = 'url({{ site.url }}{{ site.baseurl }}/img/map/marker.svg)';
-        el.style.width = marker.properties.iconSize[0] + 'px';
-        el.style.height = marker.properties.iconSize[1] + 'px';
+<script>
 
-        el.addEventListener('click', function() {
-          var popup = new mapboxgl.Popup({closeOnClick: false})
-            .setLngLat(markers.features[0].geometry.coordinates)
-            .setHTML(markers.features[0].properties.description)
-            .addTo(map);
-        });
+  maptilersdk.config.apiKey = '2dYabeYkcrcV251vBirk';
 
-        // add marker to map
-        new mapboxgl.Marker(el)
-          .setLngLat(markers.features[0].geometry.coordinates)
-          .addTo(map);
-      });
-    </script>
+  var map = new maptilersdk.Map({
+      container: 'map',
+      style: maptilersdk.MapStyle.BASIC.LIGHT,
+      center: [4.3697572, 52.0056088],
+      zoom: 16,
+      pitch: 60
+    });
+
+  // Add a marker
+  new maptilersdk.Marker({
+          color: "#00A6D6"
+        })
+    .setLngLat([4.3697572, 52.0056088])
+    .addTo(map);
+
+
+  
+
+</script>
   </div>
 </div>
 - - - 
