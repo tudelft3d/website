@@ -14,8 +14,10 @@ permalink: /jobs/
 [PhD Position in 3D Geoinformation for Building Renovation Passports and Energy Transition](phd_2025_renodat/)
 - - -
 
-<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+<span class="label label-danger">closed</span>
+<del>
 [PostDoc Position: High-Resolution Reconstruction and Urban CFD (UrbanAIR)](urbanAIR2/)
+</del>
 - - -
 
 <span class="label label-danger">closed</span>
