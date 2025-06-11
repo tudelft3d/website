@@ -4,6 +4,8 @@ title:  "High-resolution Reconstruction and Urban CFD Simulations for the Digita
 permalink: /jobs/urbanAIR2/
 ---
 
+<div class="alert alert-danger" role="alert">2025-04-28: The application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <figure class="image">
   <img src="urbanAIR.png" width="600">
 </figure>
@@ -45,8 +47,8 @@ The researcher will be part of the UrbanAIR project, funded by the European Unio
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
-Deadline to apply is 27th of April 2025.
+<div class="alert alert-danger" role="alert">
+  Deadline has passed, you can't apply anymore.  
 </div>
 
 You can apply via this [webpage](https://careers.tudelft.nl/job/Delft-Postdoc-High-Resolution-Reconstruction-and-Urban-CFD-%28UrbanAIR%29-2628-CD/817228302/)
