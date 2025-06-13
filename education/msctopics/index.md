@@ -642,4 +642,22 @@ In short, BuildingBlocks will provide a valuable resource for advancing research
 
 - - -
 
+## Holistic indoor scene understanding and reconstruction
+
+![](img/holistic.jpg){:width="600px"}
+
+This project is for MSc students interested in cutting-edge 3D vision and scene understanding. 
+
+Holistic indoor scene reconstruction from a single image (or a few images), especially using implicit representations, pushes the boundaries of what machines can perceive from minimal input. 
+This project explores high-fidelity recovery of both objects and complex room geometries, enabling applications in robotics, AR/VR, and smart environments. 
+Whether your interest lies in detailed shape modeling, occlusion-aware perception, or efficient scene approximation, there’s ample room for innovation. 
+You can choose to focus on the full reconstruction pipeline or zoom in on specific aspects like scene layout understanding or surface reconstruction. 
+This topic provides a solid foundation for research that is both technically rigorous and highly relevant to emerging real-world applications.
+
+**Required skills**:
+(1) Enthusiastic about 3D modeling and deep learning. (2) Proficient in programming. 
+
+**Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+
+- - -
 
