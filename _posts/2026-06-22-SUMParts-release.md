@@ -32,6 +32,51 @@ Our new paper on urban mesh segmentation has been accepted at CVPR 2025:
   <img src="{{ site.baseurl }}/img/2025/sumparts_overview.png" width="800px" alt="SUM Parts Dataset Visualization"/>
 </a>
 
+<p style="text-align: justify;">
+From left to right: textured mesh, face-based and texture-based annotations. Classes include unclassified
+<img src="{{ site.baseurl }}/img/2025/icons/unclassified.png" alt="unclassified" style="height:0.8em; vertical-align:middle">,
+terrain
+<img src="{{ site.baseurl }}/img/2025/icons/terrain.png" alt="terrain" style="height:0.8em; vertical-align:middle">,
+high vegetation
+<img src="{{ site.baseurl }}/img/2025/icons/high_vegetation.png" alt="high vegetation" style="height:0.8em; vertical-align:middle">,
+water
+<img src="{{ site.baseurl }}/img/2025/icons/water.png" alt="water" style="height:0.8em; vertical-align:middle">,
+car
+<img src="{{ site.baseurl }}/img/2025/icons/car.png" alt="car" style="height:0.8em; vertical-align:middle">,
+boat
+<img src="{{ site.baseurl }}/img/2025/icons/boat.png" alt="boat" style="height:0.8em; vertical-align:middle">,
+wall
+<img src="{{ site.baseurl }}/img/2025/icons/wall.png" alt="wall" style="height:0.8em; vertical-align:middle">,
+roof surface
+<img src="{{ site.baseurl }}/img/2025/icons/roof_surface.png" alt="roof surface" style="height:0.8em; vertical-align:middle">,
+facade surface
+<img src="{{ site.baseurl }}/img/2025/icons/facade_surface.png" alt="facade surface" style="height:0.8em; vertical-align:middle">,
+chimney
+<img src="{{ site.baseurl }}/img/2025/icons/chimney.png" alt="chimney" style="height:0.8em; vertical-align:middle">,
+dormer
+<img src="{{ site.baseurl }}/img/2025/icons/dormer.png" alt="dormer" style="height:0.8em; vertical-align:middle">,
+balcony
+<img src="{{ site.baseurl }}/img/2025/icons/balcony.png" alt="balcony" style="height:0.8em; vertical-align:middle">,
+roof installation
+<img src="{{ site.baseurl }}/img/2025/icons/roof_installation.png" alt="roof installation" style="height:0.8em; vertical-align:middle">,
+window
+<img src="{{ site.baseurl }}/img/2025/icons/window.png" alt="window" style="height:0.8em; vertical-align:middle">,
+door
+<img src="{{ site.baseurl }}/img/2025/icons/door.png" alt="door" style="height:0.8em; vertical-align:middle">,
+low vegetation
+<img src="{{ site.baseurl }}/img/2025/icons/low_vegetation.png" alt="low vegetation" style="height:0.8em; vertical-align:middle">,
+impervious surface
+<img src="{{ site.baseurl }}/img/2025/icons/impervious_surface.png" alt="impervious surface" style="height:0.8em; vertical-align:middle">,
+road
+<img src="{{ site.baseurl }}/img/2025/icons/road.png" alt="road" style="height:0.8em; vertical-align:middle">,
+road marking
+<img src="{{ site.baseurl }}/img/2025/icons/road_marking.png" alt="road marking" style="height:0.8em; vertical-align:middle">,
+cycle lane
+<img src="{{ site.baseurl }}/img/2025/icons/cycle_lane.png" alt="cycle lane" style="height:0.8em; vertical-align:middle">,
+and sidewalk
+<img src="{{ site.baseurl }}/img/2025/icons/sidewalk.png" alt="sidewalk" style="height:0.8em; vertical-align:middle">.
+</p>
+
 ### Project Resources
 - **Project**: [SUM Parts Benchmarks](https://tudelft3d.github.io/SUMParts/)
 - **Code**: [GitHub](https://github.com/tudelft3d/SUM-Parts-Benchmarking-Part-Level-Semantic-Segmentation-of-Urban-Meshes.git)
