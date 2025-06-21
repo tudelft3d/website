@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SUM Parts Accepted at CVPR 2025
+title: 🎉SUM Parts Accepted at CVPR 2025🎉
 categories: news
 date: 2025-06-22 10:00
 ---
