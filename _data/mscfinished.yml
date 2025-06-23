@@ -1,4 +1,12 @@
 
+- surname: Monahan
+  name: Jessica
+  title: "Cool by Design. SOLFD: Extending SOLWEIG for Urban Design Decision-Making on Outdoor Thermal Comfort"
+  link: https://resolver.tudelft.nl/uuid:02dbba26-0535-4c05-a39b-e5b09c3d0712
+  github: https://github.com/jsscmnhn/SOLWEIG_SOLFD
+  image: 2025_monahan.png
+  year: 2025
+
 - surname: Baba
   name: Hidemichi
   title: "FlatCityBuf: A new cloud-optimised CityJSON format"
