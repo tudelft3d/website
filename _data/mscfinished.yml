@@ -1,4 +1,19 @@
+- surname: Zhao
+  name: Xiaduo
+  title: "Structure guided roof heightmap completion"
+  link: https://resolver.tudelft.nl/uuid:7ffafb9f-2c91-4ee0-9f02-6a597d438214
+  github: https://github.com/xdzhaooo/msc_roof_completion
+  image: 2025_zhao.png
+  year: 2025
 
+- surname: Gan
+  name: Haohua
+  title: "Exploration of algorithms for extracting wireframe models from man-made urban linear object point clouds"
+  link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
+  github: https://github.com/Ganbusier/final_thesis
+  image: 2025_gan.png
+  year: 2025
+  
 - surname: Monahan
   name: Jessica
   title: "Cool by Design. SOLFD: Extending SOLWEIG for Urban Design Decision-Making on Outdoor Thermal Comfort"

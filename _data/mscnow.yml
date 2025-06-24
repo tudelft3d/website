@@ -24,15 +24,6 @@
   title: "Segmentation of oblique aerial imagery using SAM to improve 3D mesh construction"
   image: 2025_Lars.jpg
 
-- surname: Gan
-  name: Haohua
-  title: "3D reconstruction of linear urban objects from aerial lidar point clouds"
-  image: Haohua_2025.png
-
-- surname: Zhao
-  name: Xiaduo
-  title: "Reconstructing Complete Roof Geometries from Sparse and Incomplete Point Cloud Data"
-  image: Xiaduo_2025.png
 
 - surname: Cheng
   name: Hsin-Yu
