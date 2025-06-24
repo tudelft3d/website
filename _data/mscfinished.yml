@@ -1,3 +1,18 @@
+- surname: de Niet
+  name: Lotte
+  title: "Reconstructing legal 3D apartment models from 2D division drawings"
+  image: 2025_LottedeNiet.jpeg
+  link: https://3d.bk.tudelft.nl/ken/files/25_lotte.pdf
+  github: https://github.com/lottedeniet/Thesis_reconstructing_3D_BIM_Legal_models
+  year: 2025
+
+- surname: Boertjes
+  name: Lars
+  title: "Selective image region focus for efficient 3D building reconstruction using SAM in oblique aerial imagery"
+  image: 2025_Lars.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/25_lars.pdf
+  year: 2025
+
 - surname: Zhao
   name: Xiaduo
   title: "Structure guided roof heightmap completion"
