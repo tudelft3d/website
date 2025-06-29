@@ -5,7 +5,7 @@ permalink: /projects/energyade2/
 ---
 
 <div class="row">
-  <div class="col-sm-8 col-xs-8"><p align="center"><img class="img-responsive" src="{{ "img/cover.jpg" }}" width="600"></p></div>
+  <div class="col-sm-8 col-xs-8"><p align="center"><img class="img-responsive" src="{{ "img/cover.jpg" }}" width="700"></p></div>
 </div>
 
 - - -
