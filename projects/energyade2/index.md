@@ -5,7 +5,7 @@ permalink: /projects/energyade2/
 ---
 
 <div class="row">
-  <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/cover.jpg" }}"></div>
+  <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/cover.jpg" }}" ></div>
 </div>
 
 - - -
@@ -53,33 +53,33 @@ Willing to join? Get in contact!
 
 </div>  
   
-# Main contributors 
+## Main contributors 
 
 <table align="center">
   <tr>
-    <td align="center" valign="middle"><img src="logos/tudelft_logo.png" width="150"></td>
-    <td align="center" valign="middle"><img src="logos/hft_logo.png" width="150"></td>
-    <td align="center" valign="middle"><img src="logos/tum_logo.png" width="150"></td>
-    <td align="center" valign="middle"><img src="logos/rwth_logo.png" width="150"></td>
-    <td align="center" valign="middle"><img src="logos/idiap_logo.png" width="150"></td>
+    <td align="center" valign="middle"><img src="img/tudelft_logo.png" width="150"></td>
+    <td align="center" valign="middle"><img src="img/hft_logo.png" width="150"></td>
+    <td align="center" valign="middle"><img src="img/tum_logo.png" width="150"></td>
+    <td align="center" valign="middle"><img src="img/rwth_logo.png" width="150"></td>
+    <td align="center" valign="middle"><img src="img/idiap_logo.png" width="150"></td>
   </tr>
 </table>
 
-# Early testers and technology enthusiasts
+## Early testers and technology enthusiasts
 
 <table align="center">
   <tr>
-    <td align="center" valign="middle"><img src="logos/uni_antwerpen_logo.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/irec_logo.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/infosolutions_logo.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/upwroc_logo.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/fbk_logo.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/ait_logo.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/uni_antwerpen_logo.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/irec_logo.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/infosolutions_logo.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/upwroc_logo.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/fbk_logo.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/ait_logo.png" width="100"></td>
   </tr>
   <tr>
-    <td align="center" valign="middle"><img src="logos/rotterdam.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/stuttgart.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/wien.png" width="100"></td>
-    <td align="center" valign="middle"><img src="logos/wroclaw.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/rotterdam.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/stuttgart.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/wien.png" width="100"></td>
+    <td align="center" valign="middle"><img src="img/wroclaw.png" width="100"></td>
   </tr>
 </table>
