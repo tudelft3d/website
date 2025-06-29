@@ -45,9 +45,9 @@ Willing to join? Get in contact!
     <h3>Giorgio Agugiaro<br /><small>Assistant Professor (TUD)</small></h3>
     <p>
         <a href="https://3d.bk.tudelft.nl/gagugiaro"><i class="fas fa-home"></i></a>
-        <a href="mailto:g.agugiaro@tudelft.nl"><i class="fas fa-envelope"></i></a><br />
-        <br />
-        <br />
+        <a href="mailto:g.agugiaro@tudelft.nl"><i class="fas fa-envelope"></i></a><br/>
+        <br/>
+        <br/>
     </p>
   </div>
 
@@ -55,6 +55,7 @@ Willing to join? Get in contact!
   
 ## Main contributors 
 
+<br/><br/>
 <table align="center">
   <tr>
     <td align="center" valign="middle"><img src="img/tudelft_logo.png" width="150"></td>
@@ -64,9 +65,11 @@ Willing to join? Get in contact!
     <td align="center" valign="middle"><img src="img/idiap_logo.png" width="150"></td>
   </tr>
 </table>
+<br/><br/>
 
 ## Early testers and technology enthusiasts
 
+<br/><br/>
 <table align="center">
   <tr>
     <td align="center" valign="middle"><img src="img/uni_antwerpen_logo.png" width="100"></td>
@@ -83,3 +86,4 @@ Willing to join? Get in contact!
     <td align="center" valign="middle"><img src="img/wroclaw.png" width="100"></td>
   </tr>
 </table>
+<br/><br/>
