@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Energy ADE 2.0 
+title:
 permalink: /projects/energyade2/
 ---
 
 <div class="row">
-  <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/cover.jpg" }}" ></div>
+  <div class="col-sm-8 col-xs-8"><p align="center"><img class="img-responsive" src="{{ "img/cover.jpg" }}" width="600"></p></div>
 </div>
 
 - - -
