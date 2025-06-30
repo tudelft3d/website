@@ -28,7 +28,7 @@ The Energy ADE 2.0 extends [CityGML 2.0](https://portal.ogc.org/files/?artifact_
 - - -
 ## Our role in the project
 
-Development of the Energy ADE 2.0 has originally started in spring 2024 within the European project [DigiTwins4PEDs](https://3d.bk.tudelft.nl/projects/digitwins4peds/), in which TU Delft was leading a Work Package task specifically dedicated to updating the conceptual model od the Energy ADE, and teaming up with HFT Stuttgart for its software implementation. However, several new contributors, early testers, and technology enthusiasts have since joined on a volunteer basis.
+Development of the Energy ADE 2.0 has originally started in spring 2024 within the European project [DigiTwins4PEDs](https://3d.bk.tudelft.nl/projects/digitwins4peds/), in which TU Delft was leading a Work Package task specifically dedicated to updating the conceptual model of the Energy ADE, and teaming up with HFT Stuttgart for its software implementation. However, several new contributors, early testers, and technology enthusiasts have since joined on a volunteer basis.
 
 The Energy ADE 2.0 is now being collaboratively developed with the goal to become fully **open-source starting from September 2025**.
 
