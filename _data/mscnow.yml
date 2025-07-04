@@ -3,36 +3,15 @@
   title: "...Too cool to be true? Cooling demand based on the (enriched) semantic 3D city model of Rotterdam"
   image: 2025_adhisye.jpg
 
-  
 - surname: Derian
   name: Der
   title: "Pointcloud harmonisation based on roadmarkings as benchmarks"
   image: 2025_Der_Derian_RM_cover.png
   
-- surname: de Niet
-  name: Lotte
-  title: "Reconstructing 3D apartment models from 2D notarial deeds"
-  image: 2025_LottedeNiet.jpeg
-
 - surname: Iliopoulos
   name: Giorgos
   title: "(Semi-)automatic modeling of indoor building 3D models for daylight simulation with LiDAR-enabled mobile devices"
   image: 2025_Giorgos.jpg
-
-- surname: Boertjes
-  name: Lars
-  title: "Segmentation of oblique aerial imagery using SAM to improve 3D mesh construction"
-  image: 2025_Lars.jpg
-
-- surname: Gan
-  name: Haohua
-  title: "3D reconstruction of linear urban objects from aerial lidar point clouds"
-  image: Haohua_2025.png
-
-- surname: Zhao
-  name: Xiaduo
-  title: "Reconstructing Complete Roof Geometries from Sparse and Incomplete Point Cloud Data"
-  image: Xiaduo_2025.png
 
 - surname: Cheng
   name: Hsin-Yu

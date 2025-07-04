@@ -1,3 +1,50 @@
+- surname: de Niet
+  name: Lotte
+  title: "Reconstructing legal 3D apartment models from 2D division drawings"
+  image: 2025_LottedeNiet.jpeg
+  link: https://3d.bk.tudelft.nl/ken/files/25_lotte.pdf
+  github: https://github.com/lottedeniet/Thesis_reconstructing_3D_BIM_Legal_models
+  year: 2025
+
+- surname: Boertjes
+  name: Lars
+  title: "Selective image region focus for efficient 3D building reconstruction using SAM in oblique aerial imagery"
+  image: 2025_Lars.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/25_lars.pdf
+  year: 2025
+
+- surname: Zhao
+  name: Xiaduo
+  title: "Structure guided roof heightmap completion"
+  link: https://resolver.tudelft.nl/uuid:7ffafb9f-2c91-4ee0-9f02-6a597d438214
+  github: https://github.com/xdzhaooo/msc_roof_completion
+  image: 2025_zhao.png
+  year: 2025
+
+- surname: Gan
+  name: Haohua
+  title: "Exploration of algorithms for extracting wireframe models from man-made urban linear object point clouds"
+  link: https://resolver.tudelft.nl/uuid:148178a4-f7ce-4f09-b4bd-267e4d7f15bc
+  github: https://github.com/Ganbusier/final_thesis
+  image: 2025_gan.png
+  year: 2025
+  
+- surname: Monahan
+  name: Jessica
+  title: "Cool by Design. SOLFD: Extending SOLWEIG for Urban Design Decision-Making on Outdoor Thermal Comfort"
+  link: https://resolver.tudelft.nl/uuid:02dbba26-0535-4c05-a39b-e5b09c3d0712
+  github: https://github.com/jsscmnhn/SOLWEIG_SOLFD
+  image: 2025_monahan.png
+  year: 2025
+
+- surname: Baba
+  name: Hidemichi
+  title: "FlatCityBuf: A new cloud-optimised CityJSON format"
+  image: 2025_baba.png
+  link: https://resolver.tudelft.nl/uuid:6727c979-5e46-4fe0-9349-a7803e825d02
+  github: https://github.com/HideBa/flatcitybuf
+  year: 2025
+
 - surname: Tsai
   name: Bing-Shiuan
   title: "3DCityDB-Tools plugin for QGIS: Adding server-side support to 3DCityDB v. 5.0"

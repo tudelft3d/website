@@ -1,3 +1,10 @@
+- name: Energy ADE 2.0
+  description: A CityGML-based data model for Urban Energy Modelling
+  webpage: /projects/energyade2/
+  image: energyade2.jpg
+  funding: Various
+  start: 2024
+
 - name: EnergyBAG
   description: Enhance of energy applications through semantic 3D city models and open data
   webpage: /projects/EnergyBAG/

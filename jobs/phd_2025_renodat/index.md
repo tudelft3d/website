@@ -3,15 +3,15 @@ layout: page
 title:  Vacancy for a PhD Position in 3D geoinformation for building renovation passports and energy transition
 permalink: /jobs/phd_2025_renodat/
 ---
-<!-- -->
+<!--
 <div class="alert alert-info" role="alert">
 Deadline to apply is 15 June 2025.
 </div>
-<!-- -->
-
-<!--
-<div class="alert alert-danger" role="alert">As of 15 June 2025 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 -->
+
+
+<div class="alert alert-danger" role="alert">As of 15 June 2025 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 
 <!--
 <div class="row">
@@ -76,9 +76,11 @@ For more information about this position, please contact directly [Dr. Giorgio A
 
 ## How to apply
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 Deadline to apply is 15 June 2025.
-</div>
+</div> -->
+
+<div class="alert alert-danger" role="alert">As of 15 June 2025 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 
 You can apply via this [webpage](https://careers.tudelft.nl/job/Delft-PhD-Position-in-3D-Geoinformation-for-Building-Renovation-Passports-and-Energy-Transition-2628-CD/819649602/) clicking on the "Apply now" button at the end of the page.
 
