@@ -344,3 +344,11 @@
 
 Background: 
 I graduated from TU Delft in July 2023 with an MSc degree in Building Technology, with a thesis focused on Deep Generative AI for multi-objective optimization of structures. Following graduation, I gained over a year of industry experience as a Computational Designer and Architect-Engineer with a strong focus on computational design, AI and sustainability across various architectural and structural design projects, as well as research & development (R&D)."
+
+- surname: Baba
+  name: Hidemichi
+  title: PhD candidate
+  photo: hidemichi.png
+  homepage: hideba.notion.site/me
+  email: hbbaba@tudelft.nl
+  description: "I am a PhD candidate working on 3D city model reconstruction using heterogeneous datasets and developing environments that facilitate the integration and use of reconstructed models in real-world applications."
