@@ -2,12 +2,7 @@
   name: Adhisye
   title: "...Too cool to be true? Cooling demand based on the (enriched) semantic 3D city model of Rotterdam"
   image: 2025_adhisye.jpg
-
-- surname: Derian
-  name: Der
-  title: "Pointcloud harmonisation based on roadmarkings as benchmarks"
-  image: 2025_Der_Derian_RM_cover.png
-  
+ 
 - surname: Iliopoulos
   name: Giorgos
   title: "(Semi-)automatic modeling of indoor building 3D models for daylight simulation with LiDAR-enabled mobile devices"
