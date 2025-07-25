@@ -15,6 +15,23 @@ permalink: /education/msctopics/
 
 - - -
 
+## Integration of CityJSON into CitySim for neighbourhood-scale building energy simulation
+![](img/CityJSON_CitySim.png){:width="800px"}
+
+This MSc topic suggest to incorporate the CityJSON format into the CitySim simulation engine to assess the heating and/or cooling consumed by buildings at the neighbourhood scale. Neighbourhoods in the Netherlands will be considered as case studies to test the integration of CityJSON into CitySim. 
+From the outcomes of this MSc thesis, it will be expected to:
+1. Select various neighbourhoods in the Netherlands from the 3DBAG platform ;
+2. Extract the corresponding CityJSON files of each neighbourhood;
+3. Extend the source code of CitySim so that urban building energy models can be generated from CityJSON files with several level of details;
+4. Find a way to incorporate materials, internal heat gains, and HVAC systems of each buildings to perform energy simulations using CitySim (i.e. from CityJSON directly or from a database); and
+5. Run building energy simulations of each neighbourhood and analyse the results through several level of details.
+
+The prerequisites for this project are basic knowledge in building physics, programming skills in C/C++, and experience in using Unix operating system.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Miguel Martin](https://3d.bk.tudelft.nl/mmartin/),
+
+- - -
+
 ## Integration of 3DcityDB + Energy ADE 2.0 into a Solar Potential Analysis Engine
 ![](img/ImageSolarPotential3DCityDBEnergyADE2.png){:width="800px"}
 
