@@ -29,10 +29,23 @@ a:focus {
   text-decoration: none;
 }
 
-/*#frontimggrid img {*/
-  /*object-fit: contain;*/
-  /*height: 345px;*/
-/*}*/
+#frontimggrid .col-sm-4 {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+@media (max-width: 768px) {
+  #frontimggrid .col-xs-4 {
+    height: 120px;
+    overflow: hidden;
+  }
+
+  #frontimggrid .col-xs-4 img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
 
 .jumbotron {
   text-align: center;

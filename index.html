@@ -47,13 +47,13 @@ title: 3D geoinformation at TU Delft
     <div class="col-sm-8">
       <div id="frontimggrid" class="row">
         
-        <!-- merry xmas -->
-        <!-- <img class="img-responsive" src="{{ "/img/2023/merryxmas.jpg" | prepend: site.baseurl }}"/> -->
 
         <script type="text/javascript">
           var randomIndexUsed = [];
           var counter = 0;
           var numberOfImages = 9;
+          var frontImageGrid = document.getElementById('frontimggrid');
+          
           while (counter < numberOfImages) {
             var randomIndex;
             var coverLink;
@@ -64,9 +64,27 @@ title: 3D geoinformation at TU Delft
             if (randomIndexUsed.indexOf(randomIndex) == "-1") {
               coverLink = coverLinks[randomIndex];
               coverImage = coverImages[randomIndex];
-              document.write('<div class="col-sm-4 col-xs-4">');
-              document.write('<a href="' + coverLink + '"><img class="img-responsive" style="padding-top: 15px; padding-bottom: 15px;" src="' + coverImage + '"></a>');
-              document.write('</div>');
+              
+              // Create elements instead of using document.write()
+              var colDiv = document.createElement('div');
+              colDiv.className = 'col-sm-4 col-xs-4';
+              colDiv.style.height = 'auto';
+              
+              var linkElement = document.createElement('a');
+              linkElement.href = coverLink;
+              
+              var imgElement = document.createElement('img');
+              imgElement.className = 'img-responsive';
+              imgElement.style.paddingTop = '15px';
+              imgElement.style.paddingBottom = '15px';
+              imgElement.style.maxHeight = '300px';
+              imgElement.style.objectFit = 'cover';
+              imgElement.src = coverImage;
+              
+              linkElement.appendChild(imgElement);
+              colDiv.appendChild(linkElement);
+              frontImageGrid.appendChild(colDiv);
+              
               randomIndexUsed.push(randomIndex);
               counter++;
             }
