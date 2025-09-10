@@ -1,6 +1,6 @@
-- name: Energy ADE 2.0
-  description: A CityGML-based data model for Urban Energy Modelling
-  webpage: /projects/energyade2/
+- name: Energy ADE
+  description: A CityGML-based open data model for Urban Energy Modelling
+  webpage: /projects/energyade/
   image: energyade2.jpg
   funding: Various
   start: 2024
