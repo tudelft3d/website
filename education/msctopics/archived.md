@@ -26,29 +26,6 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 **Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
 
 
-## Automatic reconstruction of window boundaries for efficient daylight simulation.
-![](img/window.png){:width="600px"}
-Sufficient daylight is an essential aspect of building performance and is a key factor in users' satisfaction and well-being. Although there are studies on optimizing the performance of newly designed buildings, few studies are conducted on the methods to improve the performance of the existing buildings. The geometrical model is an essential part of daylight simulation. These models are commonly constructed with point-by-point field measurement and manual modeling in CAD environments, such as Rhinoceros and SketchUp. This workflow is costly for many buildings and projects and is a practical barrier to accurate daylight simulations and informed refurbishment decisions. Results from the novel techniques in light-weight polygonal reconstruction of various objects from dense scanned indoor point clouds have been promising and are expected to automate reconstruction tasks in relevant domains in the future, such as daylight. However, reconstruction of the window boundaries is still a challenge.
-
-***Goal***: develop a method for automatic detection of window boundaries from laser scans, to further enrich an existing LoD2 model capturing the permanent structure of an indoor scene. The resulted models will be applied for daylight simulation using existing techniques.
-For more information about this project, please refer to [this document](https://www.dropbox.com/s/iii4bcf33zxvcvh/MSc_Topic_Window_Reconstruction.pdf?dl=1).
-
-**Contact:** [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/), [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd).
-
-- - -
-
-## (Semi-)automatic modeling of indoor building 3D models for daylight simulation with Lidar enabled mobile devices
-
-![](img/iphonescan.png){:width="800px"}
-
-This project investigates the use of Lidar-enabled low-cost devices to automate daylight modeling in existing indoor spaces. A digital room model is crucial for daylight experts in design and retrofit decisions, with geometrical representation being a key element. Emerging technologies like Lidar can reduce the manual labor in model preparation. The research question is: "How can Lidar-enabled low-cost devices automate daylight modeling for indoor spaces?" The project includes a general API and literature search to identify potential contributions, numerical simulation of daylight, and error quantification by comparing ground truth data with (semi-)automatic results. The outcome will be a (semi-)automated pipeline for geometry acquisition and daylight simulation preparation, along with an error analysis. A Lidar-enabled iPhone device will be provided for the experiments in this project.
-
-**Requirements:** Practical knowledge of Python or C++ and familiarity with geometric data structures. Knowledge of indoor daylight simulation is a plus, but an interest is a must. Experience or interest in the Swift programming language is also beneficial.
-
-**Contact:** [Nima Forouzandeh](https://www.tudelft.nl/en/staff/n.forouzandeh/), [Eleonora Brembilla](https://www.tudelft.nl/en/staff/e.brembilla/), [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/).
-
-- - -
-
 ## (Further) Developing a polyhedral mesher for CFD geometries
 
 ![](img/rovo.jpg){:width="700px"}
