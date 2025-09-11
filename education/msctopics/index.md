@@ -572,28 +572,6 @@ The project must be done in C++ using CGAL.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
-- - -
-
-
-## Automatic generation of digital twins for heritage buildings 
-
-![](img/digital_twin.jpg){:width="600px"}
-
-**Background and aim**:
-The geometrical model is an essential part of daylight simulation in existing buildings. These models are commonly constructed with point-by-point field measurement and manual modeling in CAD environments, such as Rhinoceros and Sketchup. This workflow is costly for many buildings and projects and is a practical barrier to accurate daylight simulations and informed refurbishment decisions. Results from the novel techniques in point-cloud semantic segmentation (e.g., with convolutional neural networks) and light-weight polygonal reconstruction of various objects from scanned indoor point clouds have been promising and are expected to automate reconstruction tasks in relevant domains in the future, such as daylight. The goal of this project is to (semi-) automatically reconstruct the digital twin of a historic building and to evaluate the received daylight based on the requirements of heritage preservation.
-
-**Research question**:
-How to build digital twins for heritage buildings automatically with minimum onsite cost?
-
-**Methods**:
-Literature search to find potential pipelines and techniques for surface reconstruction. Numerical ray-tracing simulation.
-(potentially) a few site visits for data acquisition.
-
-**Final results**: (a) Pipelines, algorithms, and workflows for automatic modeling of building interior for daylight simulation. (b) Software prototype for practitioners (optional).
-
-**Contact:** [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd), [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Uta Pottgiesser](https://www.tudelft.nl/bk/over-faculteit/hoogleraren/prof-dr-ing-uta-pottgiesser), and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-
-- - -
 
 ## Urban building daylight modeling – improving city models 
 
