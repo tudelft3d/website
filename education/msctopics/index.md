@@ -15,15 +15,14 @@ permalink: /education/msctopics/
 
 - - -
 
-## City Energy Analyst & CityGML integration
+## Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas
 
-[City Energy Analyst -CEA-](https://www.cityenergyanalyst.com) is an open source urban building energy modelling (UBEM) platform developed by the Chair of Architecture and Building Systems at ETH Zurich. CEA helps to analyse the effects of building retrofits, land-use planning, district heating and cooling and renewable energy on the future costs, emissions and energy consumption of neighbourhoods and districts. Currently, CEA works with a simplified geometrical representation of buildings. The purpose of this master thesis is to bring support to CEA for CityGML data by means of the 3DCityDB with the [Energy ADE v2.0](https://github.com/tudelft3d/Energy_ADE).
-
+Urban building energy modeling (UBEM) can be a powerful tool to contribute to building energy performance and renewable integration in urban areas. Due to the complexity of modeling whole cities, building geometries in UBEM are typically simplified to reduce the computational expense of simulations. The goal of this thesis is to assess the impact of level of detail (LOD) in building models, and roof shape in particular, on UBEM simulations. The student will work with the software tool [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com). CEA uses shapefiles as inputs, which significantly simplifies building geometries into extruded polygons (LOD1, see below). The student will explore the implementation of the CityGML CityGML data by means of the 3DCityDB with the [Energy ADE v2.0](https://github.com/tudelft3d/Energy_ADE). The results of this thesis will contribute to a better understanding the tradeoffs in input simplification in large scale simulations and the resulting predicted energy performance and solar potential in urban areas.
 ![](img/CityGML2CEA.png){:width="800px"}
 
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly suggested but not mandatory. Prerequisites for this project is good programming skills (Python, SQL) and good understanding UML, specially of the CityGML data model.
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly suggested. Prerequisites for this project is good programming skills (Python, SQL) and good understanding UML, specially of the CityGML data model.
 
-**Contact:** [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b), [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/)
+**Contact:** [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/), [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b)
 
 - - -
 
