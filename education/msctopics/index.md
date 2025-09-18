@@ -15,6 +15,18 @@ permalink: /education/msctopics/
 
 - - -
 
+## City Energy Analyst & CityGML integration
+
+[City Energy Analyst -CEA-](https://www.cityenergyanalyst.com) is an open source urban building energy modelling (UBEM) platform developed by the Chair of Architecture and Building Systems at ETH Zurich. CEA helps to analyse the effects of building retrofits, land-use planning, district heating and cooling and renewable energy on the future costs, emissions and energy consumption of neighbourhoods and districts. Currently, CEA works with a simplified geometrical representation of buildings. The purpose of this master thesis is to bring support to CEA for CityGML data by means of the 3DCityDB with the [Energy ADE v2.0](https://github.com/tudelft3d/Energy_ADE).
+
+![](img/CityGML2CEA.png){:width="800px"}
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly suggested but not mandatory. Prerequisites for this project is good programming skills (Python, SQL) and good understanding UML, specially of the CityGML data model.
+
+**Contact:** [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b), [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/)
+
+- - -
+
 ## Integration of CityJSON into CitySim for neighbourhood-scale building energy simulation
 ![](img/CityJSON_CitySim.png){:width="800px"}
 
