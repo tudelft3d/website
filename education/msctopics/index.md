@@ -341,7 +341,7 @@ Before picking the topic, please contact us!
 
 - - -
 
-## Accuracy assesment of EnergyBAG (in-house urban energy building simulation tool)
+## Accuracy assessment of EnergyBAG (in-house urban energy building simulation tool)
 ![](img/UBES_PhDCamiloEvaluation.png){:width="800px"}
 
 The aim of this MSc thesis is the evaluation of the output EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
@@ -354,7 +354,7 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 - - -
 
-## Development of a Graphical User Interface for EnergyBAG in-house urban energy building simulation tool)
+## Development of a Graphical User Interface for EnergyBAG (in-house urban energy building simulation tool)
 ![](img/GUI_EnergyApplications.png){:width="800px"}
 
 The scope of this MSc thesis is the design and development of a web-based Graphical User Interface (GUI) that enables the interaction with EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
