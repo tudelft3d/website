@@ -112,7 +112,7 @@ As part of the technical-scientific course on digital building permit checking, 
 The two modules were:
 
 - Module 5 - 3D city modelling: background and standards [(slides)](https://3d.bk.tudelft.nl/ken/files/25_chek_workshop1.pdf)
-- Module 6 - Creation of {3D} city models and {GeoBIM} integration [(slides)](https://3d.bk.tudelft.nl/ken/files/25_chek_workshop2.pdf)
+- Module 6 - Creation of 3D city models and GeoBIM integration [(slides)](https://3d.bk.tudelft.nl/ken/files/25_chek_workshop2.pdf)
 
 - - -
 ## Activities
