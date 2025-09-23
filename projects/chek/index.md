@@ -30,6 +30,7 @@ CHEK will enable the development and uptake of digital methods and tools for bui
 The toolkit of methods and technology provided by CHEK will support municipalities in the transformation towards DBP. The toolkit will consist of (1) a digitally-enabled building permitting process (2) standardised interoperable solutions for data exchange, processing and analysis; (3) training; (4) adapted technology. These will be ready to scale up for application across Europe (5).
 
 - - -
+
 ## Our role in the project
 Besides being the coordinator, the 3D Geoinformation research group is responsible for the development of:
 - validators for BIM (IFC) and 3D GIS data (CityJSON/CityGML).
@@ -45,27 +46,22 @@ We are also involved in the following tasks:
 - Development of a Geo to BIM converter.
 
 - - -
-## Work in progress
-### IfcEnvelopeExtractor
+## Deliverables
+
+### BIM2Geo converter (IfcEnvelopeExtractor)
 
 <div class="row">
   <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/EnvExtractor.gif" }}"></div>
 </div>
 <br>
 
-The IfcEnvelopeExtractor enables users to automatically extract the building envelope of an IFC- model and convert it to a CityJSON model. This allows designs to be easily analyzed on a city scale without the need for manual conversion. This is one of the steps required to close the gap between architecture/BIM and city scale models.
+The IfcEnvelopeExtractor enables users to automatically convert an IFC model to a CityJSON model. This allows designs to be easily analyzed on a city scale without the need for manual conversion. This is one of the steps required to close the gap between architecture/BIM and city scale models.
 
-The software is able to extract multiple different LoD (Level of Detail) envelopes from an IFC-model. The actual LoDs it is able to extract is dependent on the accuracy and validity of the input model. The tool utilizes three different extraction methods that can be used on progressively more accurate models. Lower detail envelopes (LoD 0.0 & 1.0) can be extracted only based on the vertices present in a model. Middle level detail envelopes (Lod 0.2, 1.2, 1.3, 2.2) can be extracted based on the model’s roofing structures. High level detail envelopes (Lod 3.2) can be extracted based on the model’s objects that are part of the building envelope. This final extraction step only functions on well-constructed models, but yields an accurate result that allows for overhang and underpasses. These features are often only present in models that are made manually.
+The software is able to extract multiple different LoDs (Levels of Detail) from an IFC model. The actual LoDs it is able to extract is dependent on the accuracy and validity of the input model. The tool utilizes five different extraction methods that can be used on progressively more accurate models. Lower detail envelopes (LoD 0.0 and 1.0 exteriors) can be extracted only based on the vertices present in a model. Middle level detail envelopes (LoD 0.2, 0.3 and 0.4* roof structures, as well as LoD 1.2, 1.3 and 2.2 exteriors) can be extracted based on the model’s roofing geometry. High LoD models (LoD 0.2 and 3.2 storeys) can be obtained from selected parts of the outer shell geometry, very high LoD models (LoD 3.2 exteriors) can be extracted based on the model’s complete outer shell geometry, and interior geometries can be obtained from the IfcSpaces in the model.
 
 The included image shows a demo model of AutoDesk Revit that was used as input, and the resulting constructed envelopes.
 
-The next steps that are planned for the development of the software are:
-
--	Addition of semantic window and door data
--	Addition of interior spaces
--	Addition of semantic data to the Lod 3+ extraction
-
-The software tool and an in-depth explanation of its workings can be found [here](https://github.com/jaspervdv/IFC_BuildingEnvExtractor).
+The software tool and an in-depth explanation of its workings can be found [here](https://github.com/jaspervdv/IFC_BuildingEnvExtractor) and the final report is available [here](https://3d.bk.tudelft.nl/pdfs/BIM2GEO_Converter.pdf).
 
 ### CityJSON Importer plugin for Revit
 
@@ -98,9 +94,25 @@ The next steps that are planned for the development of the plugin are:
 -	Add texture support
 -	Add export to CityJSON functionality 
 
-### IFC georeferencing tool
+### IFC georeferencing tool (IfcGref)
 
-The project team is currently working on the development and testing of a tool that can be used for post-processing to adjust IFC files in CHEK. 
+<div class="row">
+  <div class="col-sm-8 col-xs-8"><img class="img-responsive" src="{{ "img/ifcgref.png" }}"></div>
+</div>
+<br>
+
+IfcGref is a Flask-based tool, accessible at provides a comprehensive solution for designers, engineers, and software developers for georeferencing. IfcGref supports georeferencing operations starting from IFC 4, ensuring backward compatibility with earlier versions. The tool utilizes IfcMapConversion, incorporating attributes like SourceCRS, TargetCRS, and other key parameters to enable accurate coordinate transformations.
+
+The tool can be accessed [here](https://ifcgref.bk.tudelft.nl) and its source code is available [here](https://github.com/tudelft3d/ifcgref).
+
+### CHEK DBP Workshop Digital Transformation in Building Permits
+
+As part of the technical-scientific course on digital building permit checking, we taught two modules at the CHEK DBP Workshop Digital Transformation in Building Permits in Guimarães, Portugal.
+
+The two modules were:
+
+- Module 5 - 3D city modelling: background and standards [(slides)](https://3d.bk.tudelft.nl/ken/files/25_chek_workshop1.pdf)
+- Module 6 - Creation of {3D} city models and {GeoBIM} integration [(slides)](https://3d.bk.tudelft.nl/ken/files/25_chek_workshop2.pdf)
 
 - - -
 ## Activities
@@ -136,7 +148,7 @@ This project has received funding from the European Union’s Horizon Europe pro
 
 <div class="row">
 
-  <div class="col-md-4 col-sm-4 col-xs-6">
+  <div class="col-md-3 col-sm-3 col-xs-6">
       <a href="https://3d.bk.tudelft.nl/ahakim"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/amir.jpg" alt="Amir Hakim photo" /></a>
     <h3>Amir Hakim<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
     <p>
@@ -147,7 +159,7 @@ This project has received funding from the European Union’s Horizon Europe pro
     </p>
   </div>
 
-  <div class="col-md-4 col-sm-4 col-xs-6">
+  <div class="col-md-3 col-sm-3 col-xs-6">
       <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jasper.jpg" alt="Jasper van der Vaart photo" /></a>
     <h3>Jasper van der Vaart<br /><small>Scientific Software Developer and Researcher (TUD)</small></h3>
     <p>
@@ -158,7 +170,7 @@ This project has received funding from the European Union’s Horizon Europe pro
     </p>
   </div>
 
-  <div class="col-md-4 col-sm-4 col-xs-6">
+  <div class="col-md-3 col-sm-3 col-xs-6">
       <a href="https://3d.bk.tudelft.nl/ken"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ken.jpg" alt="Ken Arroyo Ohori photo" /></a>
     <h3>Ken Arroyo Ohori<br /><small>Postdoc (TUD)</small></h3>
     <p>
@@ -169,7 +181,7 @@ This project has received funding from the European Union’s Horizon Europe pro
     </p>
   </div>
 
-  <div class="col-md-4 col-sm-4 col-xs-6">
+  <div class="col-md-3 col-sm-3 col-xs-6">
         <a href="http://3d.bk.tudelft.nl/jstoter"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/jantien.jpg" alt="Jantien Stoter photo" /></a>
       <h3>Jantien Stoter<br /><small>Professor (TUD)</small></h3>
       <p>
@@ -180,13 +192,32 @@ This project has received funding from the European Union’s Horizon Europe pro
       </p>
   </div>
  
-  <div class="col-md-4 col-sm-4 col-xs-6">
+  <div class="col-md-3 col-sm-3 col-xs-6">
         <a href="http://3d.bk.tudelft.nl/selyamani"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/siham.jpg" alt="Siham photo" /></a>
       <h3>Siham EL Yamani<br /><small>Postdoctoral Researcher</small></h3>
       <p>
           <i class="fas fa-home"></i> <a href="http://3d.bk.tudelft.nl/selyamani">3d.bk.tudelft.nl/selyamani</a><br />
           <i class="fas fa-envelope"></i> <a href="mailto:S.E.ElYamani@tudelft.nl">S.E.ElYamani@tudelft.nl</a><br />
           <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/selyamani">linkedin.com/in/selyamani</a><br />
+      </p>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
+        <a href="http://3d.bk.tudelft.nl/selyamani"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/alper.jpg" alt="Alper photo" /></a>
+      <h3>Alper Tunga Akın<br /><small>Guest Researcher</small></h3>
+      <p>
+          <i class="fas fa-envelope"></i> <a href="mailto:A.T.Akin@tudelft.nl">A.T.Akin@tudelft.nl</a><br />
+          <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/alper-tunga-akin-54928b147/">linkedin.com/in/alper-tunga-akin-54928b147</a><br />
+      </p>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
+        <a href="http://3d.bk.tudelft.nl/selyamani"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/ziya.jpg" alt="Ziya photo" /></a>
+      <h3>Ziya Usta<br /><small>Guest Researcher</small></h3>
+      <p>
+          <i class="fas fa-home"></i> <a href="http://ziyausta.github.io/">ziyausta.github.io</a><br />
+          <i class="fas fa-envelope"></i> <a href="mailto:ziyausta@artvin.edu.tr">ziyausta@artvin.edu.tr</a><br />
+          <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ziya-usta-704706191/">https://www.linkedin.com/in/ziya-usta-704706191</a><br />
       </p>
   </div>
   
