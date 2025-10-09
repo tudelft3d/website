@@ -29,7 +29,7 @@ We presented eight publications covering diverse aspects of 3D geoinformation:
 
 <br>
 
-Additionally, our colleague **Clara García-Sánchez** delivered a keynote speech sharing insights on advancing 3D modeling techniques for with a focus on urban flow simulations.
+Additionally, our colleague **Clara García-Sánchez** delivered a keynote speech sharing insights on advancing 3D modeling techniques with a focus on urban flow simulations.
 
 <br>
 
