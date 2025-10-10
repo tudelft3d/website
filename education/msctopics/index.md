@@ -26,22 +26,6 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 **Contact:** [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/), [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b)
 
-- - -
-
-## Integration of CityJSON into CitySim for neighbourhood-scale building energy simulation
-![](img/CityJSON_CitySim.png){:width="800px"}
-
-This MSc topic suggest to incorporate the CityJSON format into the CitySim simulation engine to assess the heating and/or cooling consumed by buildings at the neighbourhood scale. Neighbourhoods in the Netherlands will be considered as case studies to test the integration of CityJSON into CitySim. 
-From the outcomes of this MSc thesis, it will be expected to:
-1. Select various neighbourhoods in the Netherlands from the 3DBAG platform ;
-2. Extract the corresponding CityJSON files of each neighbourhood;
-3. Extend the source code of CitySim so that urban building energy models can be generated from CityJSON files with several level of details;
-4. Find a way to incorporate materials, internal heat gains, and HVAC systems of each buildings to perform energy simulations using CitySim (i.e. from CityJSON directly or from a database); and
-5. Run building energy simulations of each neighbourhood and analyse the results through several level of details.
-
-The prerequisites for this project are basic knowledge in building physics, programming skills in C/C++, and experience in using Unix operating system.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/), [Miguel Martin](https://3d.bk.tudelft.nl/mmartin/),
 
 - - -
 
@@ -146,21 +130,7 @@ Participants in this project can select from the following three research direct
 
 - - -
 
-## 3D Reconstruction for Man-Made Urban Linear Objects
 
-![](img/urban_linear.jpg){:width="800px"}
-
-The objective of this research is to develop a deep learning-based 3D wireframe reconstruction method tailored for man-made urban linear objects. 
-We will provide datasets, relevant algorithms, and clear research guidelines to ensure successful project completion by students. 
-Your task will be to adapt existing 3D reconstruction algorithms for various urban linear objects such as pylons, wind turbines, lamp poles, or lattice towers. 
-You will learn state-of-the-art 3D reconstruction techniques and their urban applications. 
-Research outcomes may be published in high-quality journals or presented at conferences.
-
-**Requirements:** 1) Experiences in 3D reconstruction and deep learning. 2) Proficient in Python or C++ programming.
-
-**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
-
-- - -
 
 ## Citizen Voices in Climate Action: Developing digital platforms for citizen engagement in climate planning and design
 
@@ -211,20 +181,7 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 
 - - - 
 
-## Water (level) detection with ICESat-2 measurements
 
-![](img/water_profile.png){:width="600px"}
-
-ICESat-2, a spaceborne lidar system, can measure terrain elevations every 0.7m along its ground track.
-As such, it can be seen as a profiling lidar, drawing cross-sections over the Earth.
-When combined with a water mask, it can also be used to measure water levels.
-For this topic we will investigate automatic water (level) detection methods, making use of the multiple return pattern that ICESat-2 exhibits over strong reflectors such as water (see figure).
-If successful, we could update and expand mangrove and wetland maps (which are now based on optical imagery) critical for conservation purposes and carbon stock models.
-The method(s) should be able to scale to the full ICESat-2 dataset (1 PB), and therefore ideally be implemented in the Julia programming language (if you know C++ and Python it's not very difficult to learn Julia, we can help).
-
-**Contact:** [Maarten Pronk](https://www.evetion.nl/) + [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
-
-- - -
 
 ## Filling the massive gaps in space lidar datasets with a diffusion model
 
@@ -568,22 +525,6 @@ The project can be done with Python, scikit-learn, and crunching of many (3D) da
 
 - - - 
 
-## How can 3D alpha wrapping be best used to repair buildings?
-![](img/cgal_3d_alpha_wrapping.png){:width="600px"}
-
-The CGAL project has just released, in beta version, a new package: [3D alpha wrapping](https://cgal.geometryfactory.com/CGAL/doc/master/Alpha_wrap_3/index.html#Chapter_3D_Alpha_wrapping), which can be used to repair pretty much any 3D input.
-It guarantees that you'll obtain a 2-manifold that is "watertight" and free of intersections.
-
-As can be seen in the figure above (taken from their website), it works by *refining* the surface (and uses the alpha-shape concept) and thus to recover sharp edges (very frequent in 3D buildings) many Steiner points are added and we obtain a lot of triangles (which takes a lot of time to run, and those are unwanted).
-
-The project would be to explore how we can either modify this algorithm so that it performs good for 3D buildings, or how can we post-process the output and remove points and/or simplify the mesh.
-One application of those repaired 3D models is that we can use them for CFD simulations, so we could focus on that application. Or be generic, this can be discussed.
-
-Also, how the semantics of surfaces could be preserved from the input, or inferred for the output, is another aspect of the research.
-
-The project must be done in C++ using CGAL.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
 
 ## Urban building daylight modeling – improving city models 
@@ -657,4 +598,3 @@ This topic provides a solid foundation for research that is both technically rig
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 - - -
-
