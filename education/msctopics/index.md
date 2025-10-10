@@ -601,7 +601,7 @@ This topic provides a solid foundation for research that is both technically rig
 
 ## Detecting and Mapping Sidewalks from Street-Level Imagery Using AI
 
-![](img/img/mapillary_pavement.jpeg){:width="600px"}
+![](img/mapillary_pavement.jpeg){:width="600px"}
 
 Authoritative and openly available sidewalk datasets are rare, even though sidewalks are fundamental to walkability, accessibility, and public life. 
 This lack of data limits research on human-scale environmental exposure (e.g., heat, noise, and air pollution), as well as urban planning, accessibility studies, and mobility modelling.
