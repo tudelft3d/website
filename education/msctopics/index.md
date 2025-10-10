@@ -598,3 +598,28 @@ This topic provides a solid foundation for research that is both technically rig
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 - - -
+
+## Detecting and Mapping Sidewalks from Street-Level Imagery Using AI
+
+![](img/img/mapillary_pavement.jpeg){:width="600px"}
+
+Authoritative and openly available sidewalk datasets are rare, even though sidewalks are fundamental to walkability, accessibility, and public life. 
+This lack of data limits research on human-scale environmental exposure (e.g., heat, noise, and air pollution), as well as urban planning, accessibility studies, and mobility modelling.
+With the growing availability of open street-level imagery (Mapillary, KartoView) and advances in computer vision (e.g., DINO v3, SAM, Depth Anything), it has become possible to automatically detect and map sidewalks from imagery. 
+Datasets such as Global Streetscapes (2024), which contains over 10 million labelled images across 688 cities, provide a valuable foundation for this work.
+
+The goal of this MSc thesis is to develop and test a workflow to detect sidewalks and derive their geometry (as linestrings or polygons) from street-level imagery using deep learning methods. 
+The workflow will be validated in selected cities where authoritative datasets exist, and the resulting data may contribute to open data initiatives such as OpenStreetMap.
+
+You will:
+- Collect and filter open street-level imagery from platforms such as Mapillary and KartoView.
+- Use foundation models for semantic segmentation and depth estimation to identify sidewalks.
+- Derive geometric representations and assess positional accuracy.
+- Compare results with available authoritative datasets.
+
+This project combines computer vision, spatial data processing, and open data applications to address a key global data gap in urban research.
+
+**Required skills**:
+Experience with Python + having done the ML course.
+
+**Contact:** [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
