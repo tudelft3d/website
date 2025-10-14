@@ -9,6 +9,12 @@ permalink: /jobs/
 [title of the job](link to webpage)
 -->
 
+<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+<!-- <span class="label label-danger">closed</span> -->
+<del>
+[Postdoc position in 3D Geoinformation for Energy Data and Flexibility Management for PEDs](flexpeds/)
+</del>
+
 
 <span class="label label-danger">closed</span>
 <del>
