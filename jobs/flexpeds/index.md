@@ -30,7 +30,7 @@ The research topics to be addressed in the project are:
 - How can specific, user-friendly dashboards be developed in order to facilitate the interaction of different stakeholders (e.g. municipal authorities, energy providers, citizens, etc.) with the Urban Digital Twins?
 
 The [3D Geoinformation group](https://3d.bk.tudelft.nl) at TU Delft will be involved in several tasks dealing with technical aspects aimed at the development of data integration services for energy data management and flexibility in city districts. The main tasks of TU Delft, to be carried out in co-operation with the other project partners, will be:
-- Investigation on and analysis of spatial and non-spatial data and requirements of the software tools to be used and integrated in the resulting “FlexPEDs” software platform to be developed within the project
+- Investigation on and analysis of spatial and non-spatial data and requirements of the software tools to be used and integrated in the resulting “FlexPED” software platform to be developed within the project
 - Extension/update of the CityGML new [Energy Application Domain Extension (ADE)](https://github.com/tudelft3d/Energy_ADE) to deal with energy data coming from industrial sites, and further development of the data model to better align with energy-related data from BIM models and standards (e.g. gbXML)
 - Development of OGC-compliant APIs to deliver real-time, 3D, and cross-sectoral urban data to the UDT platform in a private and secure manner. This will include, for example, the implementation of the SensorThings API, which will stream real-time AI-generated forecasts into a FROST server.
 
@@ -64,7 +64,7 @@ Deadline to apply is 16 November 2025.
 
 You can apply via this [webpage](https://careers.tudelft.nl/job/Delft-Postdoc-in-3D-Geoinformation-for-Energy-Data-and-Flexibility-Management-for-PEDs-2628-CD/1329353557/)
 
-Are you interested in this vacancy? Please apply no later than 16 November 2025 providing the following documents:
+Are you interested in this vacancy? Please apply **no later than 16 November 2025** providing the following documents:
 - A detailed CV, containing examples that prove your previous work related to the position (projects, experience, software, research, publications)
 - A motivation letter (max 1 page) explaining your interest in the research topics to be addressed and describing how you fit in the advertised position
 - A list of (up to) 5 publications that best relate to this job offer
