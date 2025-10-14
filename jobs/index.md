@@ -14,7 +14,7 @@ permalink: /jobs/
 <del>
 [Postdoc position in 3D Geoinformation for Energy Data and Flexibility Management for PEDs](flexpeds/)
 </del>
-
+- - -
 
 <span class="label label-danger">closed</span>
 <del>
@@ -32,7 +32,6 @@ permalink: /jobs/
 <del>
 [PhD Position: Reconstruction and modelling of roofs in European cities](phdmultiroofs/)
 </del>
-
 - - -
 
 <span class="label label-danger">closed</span>
