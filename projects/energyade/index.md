@@ -18,7 +18,7 @@ permalink: /projects/energyade/
 
 The **CityGML Energy Application Domain Extension** (or, in short: **Energy ADE**) offers an open and standardised data model to facilitate multi-scale Urban Energy Modelling applications.
 
-The current version is based on and builds upon the first version of the [Energy ADE](https://www.citygmlwiki.org/index.php/CityGML_Energy_ADE), released in 2018, which has been already used in several national and international projects, mainly focusing on the simulation and computation of the building energy performance based on the integration of semantic 3D city models and other sources of information.
+The current version, which still in active development, is based on and builds mainly upon the first version of the [Energy ADE](https://www.citygmlwiki.org/index.php/CityGML_Energy_ADE), released in 2018, which has been already used in several national and international projects, primarily focusing on the simulation and computation of the building energy performance based on the integration of semantic 3D city models and other sources of information.
 
 The technological innovations and the experiences and feedback collected since its release have contributed to forge several new ideas to improve and update the Energy ADE. Since 2024, work has been going on to harmonise and implement such ideas, towards a new and updated Energy ADE.
 
