@@ -1,7 +1,15 @@
+- name: RenoDAT
+  description: Accelerating building RENOvation and decarbonization through DATa integration
+  webpage: /projects/renodat/
+  image: renodat.jpg
+  funding: NWO
+  fundingurl: https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant/kic-2020-2023/mission-driven-calls-kic-2020-2023/digitalisation-of-energy-renovations-in-the-built-environment
+  start: 2025
+
 - name: Energy ADE
   description: A CityGML-based open data model for Urban Energy Modelling
   webpage: /projects/energyade/
-  image: energyade2.jpg
+  image: energyade.jpg
   funding: Various
   start: 2024
 
