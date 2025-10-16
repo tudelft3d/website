@@ -27,7 +27,7 @@ WP1 Leader (“Data requirements & Data Governance for the Renovation Passport")
 - - -
 ## Funding
 
-The project is funded by the Dutch Research Counsil [(NWO)](https://www.nwo.nl/en), in the framework of the Research programme on [Digitalisation of Energy Renovations in the Built Environment] (https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant/kic-2020-2023/mission-driven-calls-kic-2020-2023/digitalisation-of-energy-renovations-in-the-built-environment), Mission-driven call [(KIC 2020-2023)](https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant/kic-2020-2023/mission-driven-calls-kic-2020-2023).
+The project is funded by the Dutch Research Counsil [(NWO)](https://www.nwo.nl/en), in the framework of the Research programme on [Digitalisation of Energy Renovations in the Built Environment](https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant/kic-2020-2023/mission-driven-calls-kic-2020-2023/digitalisation-of-energy-renovations-in-the-built-environment), Mission-driven call [(KIC 2020-2023)](https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant/kic-2020-2023/mission-driven-calls-kic-2020-2023).
 
 <div class="row">
 <div style="padding:5px" class="col-md-10 col-sm-10 col-xs-10"><img src="img/nwo_logo.jpg" alt="Funding agencies" ></div>
