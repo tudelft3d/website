@@ -17,10 +17,4 @@ Their work embodies the spirit of Open Science by creating valuable, reusable re
 
 ![]({{ site.baseurl }}/img/2025/openscience_award.jpg)
 
-<div style="display: inline-block; vertical-align: top;">
-  <div class="thumbnail" style="padding: 15px;">
-    <a href="https://repository.tudelft.nl/record/uuid:7406712d-7bc3-4565-9291-53f62f1e8758"><img src="{{ "/phd/jin.jpg" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
-  </div>
-</div>
-
 
