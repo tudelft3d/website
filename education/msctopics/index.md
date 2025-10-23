@@ -198,23 +198,6 @@ The [project has open-source code](https://github.com/kylelo/Diff-DEM), Python c
 - - - 
 
 
-## Urban microclimate simulations using vegetation
-
-The aim of this project is to use the OpenFoam solver created by the ETH Zurich to perform simulations of urban microclimates at the neighbourhood scale to test several vegetation models ([here](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)). Simulations should be performed over the university campus of TU Delft using the City4CFD as an input for building geometry.
-From the outcomes of this MSc thesis, it will be expected to:
-1. Generate the simulation domain and meshing from a set of buildings that can be selected in the 3DBAG;
-2. Specify boundary conditions from weather data;
-3. Perform simulations on a test case located in the university campus of TU Delft;
-4. Study the outdoor air temperature resulting from various vegetation models that are specified in the urbanMicroclimateFoam solver.
-
-![](img/urbanMicroclimateFoam_vegetation.png){:width="500px"}
-
-The prerequisites for this project are basic knowledge in CFD simulations, programming skills in C/C++, and experience in using Unix operating system.
-
-*Contact:* [Miguel Martin](https://miguelmartin.org/) & [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
-
-- - -
-
 ## Urban microclimate simulations @ TU Delft
 
 The aim of this project is to use the OpenFoam solver created by the ETH Zurich to perform simulations of urban microclimates at the neighbourhood scale ([here](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)). Simulations should be performed over the university campus of TU Delft using the City4CFD as an input for building geometry.
@@ -324,32 +307,6 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 - - -
 
-
-## The effects of building model automatic reconstruction methods for CFD simulations
-
-The digitalization of the architecture and the build environment means that there is a new wealth of digital data that can help generate city scale models. However, not all these sources allow for models to be created of the same quality. The effects of different quality or alternatively abstracted models on CFD has been sparsely evaluated. Even more rare is the evaluation of models that fall outside of the established LoD frameworks e.g., voxelated and marching cubed models.
- 
-In this thesis these different models and their effects on CFD simulations will be evaluated. Based on these results it might be possible to do suggestions or set up rules to describe viable models that can be used for CFD processing. Extensions to other parts of City analysis could be made as well if desired.
-
-If you choose this topic you can expect to work with building models, voxelization and computational fluid dynamic simulations performed with OpenFOAM. 
-
-![](img/BIM_CFD.gif){:width="800px"}
-
-**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Jasper van der Vaart](https://3d.bk.tudelft.nl/jvdvaart/)
-
-- - -
-
-## Using urban morphology to optimize biking and running routes in cities?
-
-RIVM monitoring tool [NSL tool](https://www.nsl-monitoring.nl/), provides information regarding air pollution in streets for the most areas in the Netherlands. The tool uses urban morphology along other parameters to estimate local air quality. 
-
-![](img/De_Jongh.png){:width="400px"}
-
-Within this MSc thesis we will exploit urban morphologies and NSL monitoring to optimize running and biking paths within Netherlands urban areas. For that open source tools such as [momepy](http://docs.momepy.org/en/stable/), and previously developed approaches such as [de Jongh thesis](http://resolver.tudelft.nl/uuid:fdbff288-fede-4796-9972-54627af0db77) (see image attached) will be explored. 
-
-**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
-
-- - -
 
 ## Predicting pedestrian wind comfort and thermal comfort with Large-Eddy Simulations in uDALES
 
