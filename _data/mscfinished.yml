@@ -1,3 +1,11 @@
+- surname: Alting
+  name: Noah
+  title: "From point clouds to porous crowns: A scalable approach for CFD-ready urban tree reconstruction"
+  image: noah.png
+  link: https://resolver.tudelft.nl/uuid:adc9c299-b8f7-4854-b004-dcf2393d06fb
+  github: https://github.com/NoahAlting/CFTree
+  year: 2025
+
 - surname: Auliyaa Bainus 
   name: Der Derian
   title: "Pointcloud harmonisation based on roadmarkings as benchmarks"
