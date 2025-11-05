@@ -17,7 +17,8 @@ permalink: /education/
   * GEO2021: Thesis <a href="https://geomatics.bk.tudelft.nl/geo2021/"><i class="fas fa-home"></i></a>
   * GEO5010: Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
   * GEO5014: Geomatics as support for energy applications
-  * GEO5015: Modelling wind and dispersion in urban environments
+  * GEO5015: Modelling wind and dispersion in urban environments 
+  * GEO5016: Geomatics in Practice (Internship)  <a href="https://geomatics.bk.tudelft.nl/geo5016/"><i class="fas fa-home"></i> (open course)</a>
   * GEO5017: Machine Learning for the Built Environment <a href="https://3d.bk.tudelft.nl/courses/geo5017/"><i class="fas fa-home"></i> (open course)</a>
 
 <!-- <h2>Other courses we are teaching</h2>
