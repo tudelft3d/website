@@ -77,3 +77,13 @@ The tool could be a Python package (and potentially use [click](https://click.pa
 And online tool hosted somewehere (by using the Python framework [flask](https://flask.palletsprojects.com/en/2.0.x/)) would be an alternative.
 
 **Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) and [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden)
+
+
+## Automatic underpass height estimation from oblique images
+
+![](img/overhang.png){:width="400px"}
+
+For the 3DBAG project we are working on the addition of underpasses to the 3D building models. This assignment is about determining the correct height of building underpasses from oblique images. Ideally the approach should be automatic and robust so that we can scale it to the national level for the production of the 3DBAG dataset in the future.
+
+**Contact:** [Gina Stavropoulou](https://3d.bk.tudelft.nl/gstavropoulou/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) in collaboration with the company that maintains the 3DBAG with us (3DGI)[https://3dgi.xyz]
+
