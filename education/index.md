@@ -12,7 +12,7 @@ permalink: /education/
   * GEO1004: 3D modelling of the built environment <a href="https://3d.bk.tudelft.nl/courses/geo1004/"><i class="fas fa-home"></i> (open course)</a>
   * GEO1015: Digital terrain modelling <a href="https://3d.bk.tudelft.nl/courses/geo1015/"><i class="fas fa-home"></i> (open course)</a>
   * GEO1016: Photogrammetry and 3D computer vision <a href="https://3d.bk.tudelft.nl/courses/geo1016/"><i class="fas fa-home"></i> (open course)</a>
-  * GEO1101: Synthesis project
+  * GEOIT1501: Synthesis project <a href="https://geomatics.bk.tudelft.nl/geoit1501/"><i class="fas fa-home"></i></a>
   * GEO2011: Thesis preparation
   * GEO2021: Thesis <a href="https://geomatics.bk.tudelft.nl/geo2021/"><i class="fas fa-home"></i></a>
   * GEO5010: Research assignment <a href="https://3d.bk.tudelft.nl/courses/geo5010/"><i class="fas fa-home"></i></a>
