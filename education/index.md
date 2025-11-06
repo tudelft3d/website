@@ -20,6 +20,7 @@ permalink: /education/
   * GEO5015: Modelling wind and dispersion in urban environments 
   * GEO5016: Geomatics in Practice (Internship)  <a href="https://geomatics.bk.tudelft.nl/geo5016/"><i class="fas fa-home"></i> (open course)</a>
   * GEO5017: Machine Learning for the Built Environment <a href="https://3d.bk.tudelft.nl/courses/geo5017/"><i class="fas fa-home"></i> (open course)</a>
+  * GEO5019: Geomatics Studio (special topic) <a href="https://geomatics.bk.tudelft.nl/geo5019/"><i class="fas fa-home"></i> (open course)</a>
 
 <!-- <h2>Other courses we are teaching</h2>
 
@@ -111,6 +112,3 @@ We have a [list of potential topics](msctopics).
 </div>
 
 {% endfor %}
-
-
-
