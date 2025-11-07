@@ -11,8 +11,8 @@ Camilo's PhD thesis is entitled *Enhancing urban energy applications through sem
 
 Congratulations, Dr. León Sánchez 🎉
 
-![]({{ site.baseurl }}/img/2025/Leon_PhD1.jpg)
 ![]({{ site.baseurl }}/img/2025/Leon_PhD2.jpg)
+![]({{ site.baseurl }}/img/2025/Leon_PhD1.jpg)
 
 
 <div style="display: inline-block; vertical-align: top;">
