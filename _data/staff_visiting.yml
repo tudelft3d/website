@@ -6,31 +6,6 @@
   linkedin: https://www.linkedin.com/in/alvaro-manzano-sevillano/
   description: ""
 
-- surname: Tunga Akın
-  name: Alper
-  title: PhD candidate (Karadeniz Technical University)
-  photo: alper.jpg
-  email: A.T.Akin@tudelft.nl
-  linkedin: https://www.linkedin.com/in/alper-tunga-akin-54928b147/
-  description: "My current research encloses data quality assessment and data improvement in 3D city models using knowledge graph approaches."
-
-- surname: Orabona
-  name: Manuel
-  title: PhD candidate (University of Naples Federico II)
-  photo: manuel.jpg
-  email:  M.O.orabona@tudelft.nl
-  linkedin: https://www.linkedin.com/in/manuelorabona/
-  description: "Developing a GeoAI Model for the Identification and Assessment of Peri-Urban Fringe Areas"
-
-- surname: Usta
-  name: Ziya
-  title: Postdoc researcher (Artvin Coruh University)
-  photo: ziya.jpg
-  email:  ziyausta@artvin.edu.tr
-  linkedin: https://www.linkedin.com/in/ziya-usta-704706191/
-  homepage: ziyausta.github.io/
-  description: "Working on web-based management of large scale 3d geospatial data."
-
 - surname: Maurya
   name: Priyadarshi
   title: PhD Researcher (University School for Advanced Studies IUSS Pavia)
