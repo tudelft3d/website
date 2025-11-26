@@ -4,13 +4,14 @@ title:  Vacancy Postdoc Researcher on 3D Geoinformation for Energy Data and Flex
 permalink: /jobs/flexpeds/
 ---
 
+<!--
 <div class="alert alert-info" role="alert">
 Deadline to apply is 16 November 2025.
 </div>
-
-<!--
-<div class="alert alert-danger" role="alert">As of 16 November 2025 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
 -->
+
+<div class="alert alert-danger" role="alert">As of 16 November 2025 the application deadline has passed, it is not possible to apply anymore. We thank all the applicants for their interest.</div>
+
 <!--
 <div class="row">
 	<div class="col-sm-12 col-xs-12"><img class="img-responsive" src="{{ "xxxx.jpg" }}"></div>
@@ -58,9 +59,14 @@ Will you need to relocate to the Netherlands for this job? TU Delft is committed
 
 ## How to apply
 
+<!--
 <div class="alert alert-info" role="alert">
 Deadline to apply is 16 November 2025.
 </div>
+-->
+
+<div class="alert alert-danger" role="alert">The deadline has passed, you can't apply anymore.</div>
+
 
 You can apply via this [webpage](https://careers.tudelft.nl/job/Delft-Postdoc-in-3D-Geoinformation-for-Energy-Data-and-Flexibility-Management-for-PEDs-2628-CD/1329353557/)
 

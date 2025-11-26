@@ -5,7 +5,7 @@ permalink: /projects/energyade/
 ---
 
 <div class="row">
-  <div class="col-sm-8 col-xs-8"><p align="center"><img class="img-responsive" src="{{ "img/cover.jpg" }}" width="700"></p></div>
+  <div class="col-sm-8 col-xs-8"><p align="center"><img class="img-responsive" src="{{ "img/energy_ade3_logo.jpg" }}" width="700"></p></div>
 </div>
 
 - - -
@@ -18,19 +18,19 @@ permalink: /projects/energyade/
 
 The **CityGML Energy Application Domain Extension** (or, in short: **Energy ADE**) offers an open and standardised data model to facilitate multi-scale Urban Energy Modelling applications.
 
-The current version, which still in active development, is based on and builds mainly upon the first version of the [Energy ADE](https://www.citygmlwiki.org/index.php/CityGML_Energy_ADE), released in 2018, which has been already used in several national and international projects, primarily focusing on the simulation and computation of the building energy performance based on the integration of semantic 3D city models and other sources of information.
+The current version 3.0, which still in active development, is based on and builds mainly upon the first version of the [Energy ADE](https://www.citygmlwiki.org/index.php/CityGML_Energy_ADE), released in 2018, which has been already used in several national and international projects, primarily focusing on the simulation and computation of the building energy performance based on the integration of semantic 3D city models and other sources of information.
 
 The technological innovations and the experiences and feedback collected since its release have contributed to forge several new ideas to improve and update the Energy ADE. Since 2024, work has been going on to harmonise and implement such ideas, towards a new and updated Energy ADE.
 
-The new Energy ADE extends [CityGML 2.0](https://portal.ogc.org/files/?artifact_id=47842), but its development already keeps in consideration its future porting to [CityGML 3.0](https://docs.ogc.org/is/20-010/20-010.html)
+The Energy ADE 3.0 extends [CityGML 2.0](https://portal.ogc.org/files/?artifact_id=47842), but its development already keeps in consideration its future porting to [CityGML 3.0](https://docs.ogc.org/is/20-010/20-010.html)
 
 
 - - -
 ## Our role in the project
 
-Development of the new Energy ADE has originally started in spring 2024 within the European project [DigiTwins4PEDs](https://3d.bk.tudelft.nl/projects/digitwins4peds/), in which TU Delft was leading a Work Package task specifically dedicated to updating the conceptual model of the Energy ADE, and teaming up with HFT Stuttgart for its software implementation. However, several new contributors, early testers, and technology enthusiasts have since joined on a volunteer basis.
+Development of the new Energy ADE 3.0 has originally started in spring 2024 within the European project [DigiTwins4PEDs](https://3d.bk.tudelft.nl/projects/digitwins4peds/), in which TU Delft was leading a Work Package task specifically dedicated to updating the conceptual model of the Energy ADE, and teaming up with HFT Stuttgart for its software implementation. However, several new contributors, early testers, and technology enthusiasts have since joined on a volunteer basis.
 
-The new Energy ADE is now being collaboratively developed as **open-source project** and is available on **[GitHub](https://github.com/tudelft3d/Energy_ADE)** since September 2025.
+The Energy ADE 3.0 is now being collaboratively developed as **open-source project** and is available on **[GitHub](https://github.com/tudelft3d/Energy_ADE)** since September 2025.
 
 Willing to join? Get in contact!
 

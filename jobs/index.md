@@ -4,16 +4,20 @@ title:  Jobs opening in our group
 permalink: /jobs/
 ---
 
+<!-- INFO: To publish a position that is open, copy/paste, adapt and uncomment the following lines -->
 <!--
 <span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
 [title of the job](link to webpage)
 -->
 
-<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
-<!-- <span class="label label-danger">closed</span> -->
-<!-- <del> -->
+
+
+<!-- INFO: To close a position, copy/paste, adapt and uncomment one of the following blocks -->
+
+<span class="label label-danger">closed</span> 
+<del>
 [Postdoc position in 3D Geoinformation for Energy Data and Flexibility Management for PEDs](flexpeds/)
-<!-- </del> -->
+</del>
 - - -
 
 <span class="label label-danger">closed</span>

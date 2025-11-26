@@ -10,6 +10,18 @@
   code: https://github.com/tudelft3d/Inclusive-TU-Delft-Map
   img: 2025_inclusive_map.jpg
 
+- title: "SpatiaLLM: Bridging the Gap Between Natural Language and 3D Scans"
+  year: 2025
+  students:
+    - name: Mark van der Meer
+    - name: Hongyu Ye
+    - name: Segher ter Braak
+    - name: Julia Pille
+    - name: Neelabh Singh
+  report: https://repository.tudelft.nl/record/uuid:517f4f0a-b031-4a57-a416-760ac7adf2fe
+  code: https://github.com/segher2/SpatiaLLM
+  img: 2025_spatialLLM.png
+  
 - title: "Shady Amsterdam: Identifying the shady places and routes of Amsterdam"
   year: 2024
   students:
