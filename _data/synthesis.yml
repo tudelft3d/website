@@ -1,3 +1,14 @@
+- title: "Inclusive 3D Campus Map of TU Delft"
+  year: 2025
+  students:
+    - name: Phuong Anh Ho
+    - name: Alexandre Bry  
+    - name: Lars van Blokland
+    - name: Mingjie Teo 
+    - name: Daan Schlosser
+  report: https://resolver.tudelft.nl/uuid:7bdcc8a9-af66-4e16-8903-ef73905d6e29
+  code: https://github.com/tudelft3d/Inclusive-TU-Delft-Map
+  img: 2025_inclusive_map.jpg
 
 - title: "Shady Amsterdam: Identifying the shady places and routes of Amsterdam"
   year: 2024
