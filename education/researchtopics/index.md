@@ -11,6 +11,26 @@ permalink: /education/researchtopics/
 
 - - -
 
+## Web-based CityJSON Extensions generator 
+
+![](img/cjextension.png){:width="400px"}
+
+[CityJSON Extensions](https://www.cityjson.org/extensions/) are a lesser known, lesser used part of the CityJSON specifications. 
+This is partially due to the complexity of writing an Extension from scratch.
+
+The goal of the assignment is to create a web-based CityJSON Extension generator that guides the user through the process. 
+The extension generator would translate the user's input into a valid CityJSON extension and provide useful information for each component. 
+The user could provide input by filing out a dynamic form, or providing a sample CityJSON file, or something else entirely. 
+The assignment begins by exploring relevant tools for JSON Schema generation, various options for user input and methods for verifying that the newly generated CityJSON Extension is a valid extension. 
+The assignment can conclude with a written report of the findings, or continue with implementing a proof of concept.
+
+Done in collaboration with Balázs Dukai at [3DGI](https://www.3dgi.nl).
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
+
+
+
+
 ## Adding trees in City4CFD
 
 [City4CFD](https://github.com/tudelft3d/City4CFD) is an open-source tool that automatically reconstructs 3D city geometries tailored for microscale urban flow simulations. Its capabilities include reconstruction at multiple levels of detail, as well as including semantic surfaces, best practice guidelines set-up, and even multi-level geometry based on distance from point of interest.
@@ -65,20 +85,6 @@ You'll improve your programming skills in the process and learn a lot about mani
 
 **Contact:** [Stelios Vitalis](https://3d.bk.tudelft.nl/svitalis)
 
-## Tool for automatic collection and set-up of 3D point clouds
-
-![](img/3d_pointclouds.png){:width="400px"}
-
-When reconstructing automatically the geometries of urban scenarios (eg all the buildings with the terrain), the first step is to collect the necessary point clouds for the area of interest. 
-This process is generally done mostly manual, which can require a few hours of work to have the optimal location extension and point cloud density. 
-With this research assignment we would like to develop an (online) tool that automatically collects the desired point cloud in the Netherlands based on municipalities and/or areas of interest. 
-The tool could be a Python package (and potentially use [click](https://click.palletsprojects.com/en/8.0.x/)) that fetches the AHN3 tile required from [PDOK-AHN](https://app.pdok.nl/ahn3-downloadpage/) and could for instance filter the appropriate LAS classes and/or thin the datasets.
-
-And online tool hosted somewehere (by using the Python framework [flask](https://flask.palletsprojects.com/en/2.0.x/)) would be an alternative.
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) and [Ivan Pađen](https://3d.bk.tudelft.nl/ipaden)
-
-
 ## Automatic underpass height estimation from oblique images
 
 ![](img/overhang.png){:width="400px"}
@@ -86,4 +92,3 @@ And online tool hosted somewehere (by using the Python framework [flask](https:/
 For the 3DBAG project we are working on the addition of underpasses to the 3D building models. This assignment is about determining the correct height of building underpasses from oblique images. Ideally the approach should be automatic and robust so that we can scale it to the national level for the production of the 3DBAG dataset in the future.
 
 **Contact:** [Gina Stavropoulou](https://3d.bk.tudelft.nl/gstavropoulou/) and [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter) in collaboration with the company that maintains the 3DBAG with us [3DGI](https://3dgi.xyz).
-
