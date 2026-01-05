@@ -15,6 +15,43 @@ permalink: /education/msctopics/
 
 - - -
 
+## Global River Model
+
+![](img/oceancleanup.png){:width="800px"}
+
+**This MSc thesis is in collaboration with [The Ocean Cleanup](https://theoceancleanup.com)**
+
+Plastic pollution in the world's oceans is a critical environmental challenge. 
+Understanding the sources, transport, and fate of ocean plastics is essential for effective mitigation strategies. A significant proportion of ocean plastic pollution originates from riverine inputs, making it crucial to model the emission of plastic through river systems at a global scale.
+
+This MSc thesis topic involves improving a global river model that simulates monthly riverine plastic emissions. 
+The model currently relies on the MERIT (Multi-Error-Removed Improved-Terrain) dataset to identify river positions and simulate the pathways of water and plastic through hydrological systems. 
+However, the MERIT dataset has significant limitations in capturing complex waterway networks, particularly in urban environments where artificial waterways and canals play an important role in water transport.
+
+The objective of this project is to enhance the accuracy of riverine plastic emission estimates by integrating data on artificial waterways from global sources. 
+The work is structured in two main phases:
+
+*Phase 1: Algorithm Development*: Develop methods to incorporate artificial waterway data into the model input datasets, specifically:
+- Upper drainage area grids
+- Flow direction grids
+- Elevation grids
+
+Based on the MERIT database structure, create algorithms that can transform information from artificial waterway maps into compatible hydrographic datasets.
+
+*Phase 2: Global Implementation*: Automate the identification and integration of artificial waterways from publicly available global datasets (e.g., OpenStreetMap) and scale the methodology to global coverage.
+
+*Key Responsibilities:*
+- Identify and evaluate suitable datasets for artificial waterway mapping
+- Design and implement algorithms to transform geospatial data into hydrographic inputs
+- Document the methodology and validate results against reference datasets
+- Assess the impact of artificial waterway integration on model accuracy
+
+**Requirements:** GIS/geospatial data processing skills, proficiency in Python or similar programming languages, and understanding of hydrological modeling concepts.
+
+**Contact:** [Maarten de Jong](mailto:m.dejong@theoceancleanup.com) and [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+---
+
 ## Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas
 
 Urban building energy modeling (UBEM) can be a powerful tool to contribute to building energy performance and renewable integration in urban areas. Due to the complexity of modeling whole cities, building geometries in UBEM are typically simplified to reduce the computational expense of simulations. The goal of this thesis is to assess the impact of level of detail (LOD) in building models, and roof shape in particular, on UBEM simulations. The student will work with the software tool [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com). CEA uses shapefiles as inputs, which significantly simplifies building geometries into extruded polygons (LOD1, see below). The student will explore the implementation of the CityGML CityGML data by means of the 3DCityDB with the [Energy ADE v2.0](https://github.com/tudelft3d/Energy_ADE). 
