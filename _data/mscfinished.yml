@@ -1,3 +1,11 @@
+- surname: Iliopoulos
+  name: Giorgos
+  title: "(Semi-)automatic modeling of indoor building 3D models for daylight simulation with Lidar-enabled mobile devices"
+  link: https://3d.bk.tudelft.nl/ken/files/26_giorgos.pdf
+  year: 2026
+  github: https://github.com/IlioTheG/roomplan_to_honeybee
+  image: 2026_Giorgos.jpg
+
 - surname: Rahmawati
   name: Adhisye
   image: 2025_adhisye.jpg
