@@ -39,8 +39,8 @@ We have a [list of potential topics](msctopics).
 
 ## MSc thesis projects -- Ongoing
 
+{% if msc %}
 {% assign msc = site.data.mscnow | sort: 'surname' %}
-
 <div class="row">
 {% for i in msc %}
   <div class="col-xs-12 col-md-6">
@@ -57,6 +57,7 @@ We have a [list of potential topics](msctopics).
 </div>
 {% endfor %}
 </div>
+{% endif %}
 
 
 - - -
