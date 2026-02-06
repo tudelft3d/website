@@ -349,7 +349,7 @@ I graduated from TU Delft in July 2023 with an MSc degree in Building Technology
   name: Hidemichi
   title: PhD candidate
   photo: hidemichi.png
-  homepage: hideba.notion.site/me
+  homepage: hideba.notion.site
   email: hbbaba@tudelft.nl
   description: "I am a PhD candidate working on 3D city model reconstruction using heterogeneous datasets and developing environments that facilitate the integration and use of reconstructed models in real-world applications."
   projects:
@@ -400,5 +400,3 @@ At TU Delft, my PhD research work will be part of the recently awarded RenoDAT p
   linkedin: https://www.linkedin.com/in/themistoklis-vargiemezis-0ab680168
   description: "My research focuses on advancing the understanding and predictive modeling of wind flow in urban areas through an interdisciplinary approach that combines Computational Wind Engineering and Deep Learning.
   I aim to establish simulation and data-driven frameworks to improve how we design, construct and operate buildings and urban spaces, supporting the development of more sustainable and resilient cities."
-
-
