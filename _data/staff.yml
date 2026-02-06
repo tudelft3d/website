@@ -351,7 +351,7 @@ I graduated from TU Delft in July 2023 with an MSc degree in Building Technology
   photo: hidemichi.png
   homepage: 3d.bk.tudelft.nl/hbaba
   email: hbbaba@tudelft.nl
-  description: "I am a PhD candidate working on 3D city model reconstruction using heterogeneous datasets and developing environments that facilitate the integration and use of reconstructed models in real-world applications."
+  description: "I am a PhD candidate working on 3D city model reconstruction using heterogeneous datasets and developing environments that facilitate the integration and use of reconstructed models in real-world applications. You can find more about me [here](https://hideba.notion.site/) "
   projects:
     - name: multiroofs
       role: PhD
