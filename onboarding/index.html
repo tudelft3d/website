@@ -1,119 +1,284 @@
 <!-- Import OpenDyslexic font -->
-<link href="https://fonts.googleapis.com/css2?family=OpenDyslexic:wght@400;700&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=OpenDyslexic:wght@400;700&display=swap"
+    rel="stylesheet"
+/>
 
 <style>
-  .welcome-container {
-    background-color: #1f1f1e;
-    color: #f0f0f0;
-    padding: 40px;
-    margin: 0 auto;
-    max-width: 900px;
-    border-radius: 8px;
-    line-height: 1.6;
-    font-family: 'OpenDyslexic', Arial, sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-  }
-  
-  .purple-header {
-    color: #ffa500;
-  }
-  
-  .welcome-container a {
-    color: #00bfff;
-    text-decoration: underline;
-  }
-  
-  .welcome-container a:hover {
-    color: #87ceeb;
-    background-color: #333333;
-    padding: 2px 4px;
-    border-radius: 3px;
-  }
-  
-  .welcome-container code {
-    background-color: #333333;
-    padding: 4px 6px;
-    border-radius: 4px;
-    color: #ffa500;
-    border: 1px solid #555555;
-  }
+    .welcome-container {
+        background-color: #1f1f1e;
+        color: #f0f0f0;
+        padding: 40px;
+        margin: 0 auto;
+        max-width: 900px;
+        border-radius: 8px;
+        line-height: 1.6;
+        font-family: "OpenDyslexic", Arial, sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+
+    .purple-header {
+        color: #ffa500;
+    }
+
+    .welcome-container a {
+        color: #00bfff;
+        text-decoration: underline;
+    }
+
+    .welcome-container a:hover {
+        color: #87ceeb;
+        background-color: #333333;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
+
+    .welcome-container code {
+        background-color: #333333;
+        padding: 4px 6px;
+        border-radius: 4px;
+        color: #ffa500;
+        border: 1px solid #555555;
+    }
 </style>
 
 <div class="welcome-container">
-  <h1 class="purple-header">Welcome to 3D geoinformation group!</h1>
 
-  <p>So, you recently joined our group! The first days can be a little overwhelming, so we put together a TODO list to ease the process:</p>
+    <h1 class="purple-header">Welcome to the 3D Geoinformation Group!</h1>
+    <p>We're excited to have you join us!</p>
 
-  <h3 class="purple-header">ACCESS</h3>
-  <p>Get a NetID + CampusCard (our secretaries Margo or Martine will arrange this for you).</p>
+    <p>
+        So, you recently joined our group! The first days can be a little
+        overwhelming, so we put together a TODO list to ease the process:
+    </p>
 
-  <h3 class="purple-header">COMMUNICATION</h3>
-  <p>Download <a href="https://telegram.org/">Telegram</a> (if you don't already have it) and ask anyone in the group to add you to our group chat. It's also helpful if you have a global username so that it's easier to add you to group chats. This is our main communication channel as a group (even though other people in TU Delft are using Teams). You can find your colleagues through the member list of our main channel (3DGeoInfo). Please check your messages regularly!</p>
+    <h3 class="purple-header">ACCESS</h3>
+    <p>
+        Get a NetID and CampusCard (our secretaries Margo or Martine will arrange this for you). You will need your campus card to access our office and – more importantly – to get coffee!
+    </p>
 
-  <h3 class="purple-header">DESK</h3>
-  <p>Do you already know where to sit? If not, <a href="https://tud365-my.sharepoint.com/:x:/g/personal/amysterrenberg_tudelft_nl/EZ0W5DvhjFROpnpIwRkrnpwBJyaH9j9zHHRbYBhEzC9Qlg?e=i481pM">check here</a> to see if a desk has been assigned to you. If not, ask Amy.</p>
+    <h3 class="purple-header">COMMUNICATION</h3>
+    <p>
+        Download <a href="https://telegram.org/">Telegram</a> (if you don't
+        already have it) and ask anyone in the group to add you to our group
+        chat. It's also helpful if you have a global username so that it's
+        easier to add you to group chats. This is our main communication channel
+        as a group (even though other people in TU Delft are using Teams). You
+        can find your colleagues through the member list of our main channel
+        (3DGeoInfo). Please check your messages regularly!
+    </p>
 
-  <h3 class="purple-header">GITHUB</h3>
-  <p>Gina or your supervisor can give you access <a href="https://github.com/tudelft3d">to the repos of our organization</a>. Make sure you accept the invitation when you receive it. You will need access to the GitHub organization for various steps below.</p>
+    <h3 class="purple-header">DESK</h3>
+    <p>
+        Do you know where your desk is? If not,
+        <a
+            href="https://tud365-my.sharepoint.com/:x:/g/personal/amysterrenberg_tudelft_nl/EZ0W5DvhjFROpnpIwRkrnpwBJyaH9j9zHHRbYBhEzC9Qlg?e=i481pM"
+            >check here</a
+        >
+        to see if a desk has been assigned to you. If not, ask Amy or Gina.
+    </p>
 
-  <h3 class="purple-header">WEBSITE</h3>
-  <p>When you have time, you should update <a href="https://3d.bk.tudelft.nl/about/#people">our website</a> with your info on the 'staff' page.</p>
+    <h3 class="purple-header">GITHUB</h3>
+    <p>
+        Gina or your supervisor can give you access
+        <a href="https://github.com/tudelft3d"
+            >to the repositories of our organization</a
+        >. Be sure to accept the invitation when you receive it. You will need access to the GitHub organization for various steps below.
+    </p>
 
-  <p>You will need to clone <a href="https://github.com/tudelft3d/website">the website repository</a>, follow the instructions and update the <em>_data/staff.yml</em> file (or the <em>_data/staff_visiting.yml</em> file if you are visiting). The website gets updated automatically (after a few minutes) when you push your changes to the 'main' branch.</p>
+    <h3 class="purple-header">WEBSITE</h3>
+    <p>
+        When you have time, you should update
+        <a href="https://3d.bk.tudelft.nl/about/#people">our website</a> with
+        your info on the 'staff' page.
+    </p>
 
-  <p>You will need the following information:</p>
-  <ul>
-    <li>Full name</li>
-    <li>Email</li>
-    <li>Position/title</li>
-    <li>Institute/University (if you are visiting)</li>
-    <li>A square photo of 200X200px (This is important because we need to keep the size of the repo small)</li>
-    <li>A one-line description of your main project</li>
-    <li>A lengthier description of your research and background for your webpage (if you already have a webpage and you need to host it, it can also be done)</li>
-    <li>Link to website/LinkedIn</li>
-  </ul>
+    <p>
+        You will need to clone
+        <a href="https://github.com/tudelft3d/website">the website repository</a
+        >, follow the instructions and update the <em>_data/staff.yml</em> file
+        (or the <em>_data/staff_visiting.yml</em> file if you are visiting). The
+        website gets updated automatically (after a few minutes) when you push
+        your changes to the 'main' branch.
+    </p>
 
-  <p>It would also be nice if you could write a short welcoming post for yourself (not necessary for academic visitors). Please have a look at previous posts for some inspiration.</p>
+    <p>You will need the following information:</p>
+    <ul>
+        <li>Full name</li>
+        <li>Email</li>
+        <li>Position/title</li>
+        <li>Institute/University (if you are visiting)</li>
+        <li>
+            A square photo of 200X200px (This is important because we need to
+            keep the size of the repo small)
+        </li>
+        <li>A one-line description of your main project</li>
+        <li>
+            A lengthier description of your research and background for your
+            webpage (if you already have a webpage and you need to host it, it
+            can also be done)
+        </li>
+        <li>Link to website/LinkedIn</li>
+    </ul>
 
-  <p>If you do not have time or if you have any difficulties with this, Gina can help you!</p>
+    <p>
+        It would also be nice if you could write a short welcoming post for
+        yourself (not necessary for academic visitors). Please have a look at
+        previous posts for some inspiration.
+    </p>
 
-  <h3 class="purple-header">MAILING LIST</h3>
-  <p>Subscribe to <a href="https://listserv.tudelft.nl/mailman/listinfo/3dgeoinfo-bk">our group's mailing list</a>. With it, you'll receive all important emails and invites. You can also email everyone in the group at <code>3dgeoinfo-bk@lists.tudelft.nl</code>. <em>Please make sure that your supervisor sends you invitations to any upcoming but earlier-organised group events and meetings.</em></p>
+    <p>
+        If you don't have time or encounter any difficulties, Gina can help you!
+    </p>
 
-  <h3 class="purple-header">WORKING REMOTELY</h3>
-  <p>Set up your <a href="https://vpn.tudelft.nl/">TU Delft VPN</a> for working off campus. The instruction manual for the configuration can be found <a href="https://www.tudelft.nl/ict-handleidingen/vpn">here</a>.</p>
+    <h3 class="purple-header">MAILING LIST</h3>
+    <p>
+        Subscribe to
+        <a href="https://listserv.tudelft.nl/mailman/listinfo/3dgeoinfo-bk"
+            >our group's mailing list</a
+        >. With it, you'll receive all important emails and invites. You can
+        also email everyone in the group at
+        <code>3dgeoinfo-bk@lists.tudelft.nl</code>.
+        <em
+            >Please make sure that your supervisor sends you invitations to any
+            upcoming but earlier-organised group events and meetings.</em
+        >
+    </p>
 
-  <h3 class="purple-header">3DTEA</h3>
-  <p>In the 3D geoinformation group we have a casual weekly meeting which we call 3DTea. This happens <strong>every Thursday at 16:00</strong> and people can attend either online or in person. This time is usually used for short presentations about recent work/research, or about other matters that might interest us. As a newcomer, you will use one of the 3DTeas to introduce yourself and talk about the work you will be doing in the group. Most importantly, you need to include information about <strong>your favourite dish, favourite music, and favourite book/movie/series etc.</strong> <a href="https://tud365.sharepoint.com/:x:/r/sites/3DTea-UDS/_layouts/15/Doc.aspx?sourcedoc=%7B337C5919-4BDB-4132-8852-E0E1543001FF%7D&file=3DTea%40UDS.xlsx&action=default&mobileredirect=true">Please see the available dates here</a> or ask Amy.</p>
+    <h3 class="purple-header">WORKING REMOTELY</h3>
+    <p>
+        Set up your <a href="https://vpn.tudelft.nl/">TU Delft VPN</a> for
+        working off campus. The instruction manual for the configuration can be
+        found <a href="https://www.tudelft.nl/ict-handleidingen/vpn">here</a>.
+    </p>
 
-  <h3 class="purple-header">WEEKLY UPDATES</h3>
-  <p>Every Monday you will receive a reminder on the 3DGeoInfo channel on Telegram (from our bot, Wynn) to update the rest of the group on what you are working on this week. You should go to 'issues' in this repo, and you will see a "Weekly updates" issue where you can add your updates.</p>
+    <h3 class="purple-header">3DTEA</h3>
+    <p>
+        In the 3D geoinformation group we have a casual weekly meeting which we
+        call 3DTea. This happens <strong>every Thursday at 16:00</strong> and
+        people can attend either online or in person. This time is usually used
+        for short presentations about recent work/research, or about other
+        matters that might interest us. As a newcomer, you will use one of the
+        3DTeas to introduce yourself and talk about the work you will be doing
+        in the group. Most importantly, you need to include information about
+        <strong
+            >your favourite dish, favourite music, and favourite
+            book/movie/series etc.</strong
+        >
+        <a
+            href="https://tud365.sharepoint.com/:x:/r/sites/3DTea-UDS/_layouts/15/Doc.aspx?sourcedoc=%7B337C5919-4BDB-4132-8852-E0E1543001FF%7D&file=3DTea%40UDS.xlsx&action=default&mobileredirect=true"
+            >Please see the available dates here</a
+        >
+        or ask Amy.
+    </p>
 
-  <h3 class="purple-header">HOLIDAYS</h3>
-  <p>If you need to ask for holidays, you can do this through <a href="https://hours.tudelft.nl/tim/home/dashboard/mypresence">My TIM.</a> You should add your holidays (or other periods you are away) to our shared group calendar. Ask your supervisor or Gina to give you access to it. All staff members (specifically PhDs, Postdocs and other project researchers) are requested to take 5 weeks of holidays per year (for example, 1 week in spring, 3 weeks during summer and 1 week in autumn). This can be discussed in more detail with your supervisors, but you are always encouraged to take most of your vacations.</p>
+    <h3 class="purple-header">UDS MONTHLY CATCH UP</h3>
+    <p>
+        Once per month we meet with the whole Urban Data Science section to
+        update each other about our work. For this meeting we store the minutes
+        in [this repo](https://github.com/tudelft3d/UDS-catch-up). Prior to the
+        meeting you will get a notification on Telegram to add your updates.
+        Please make sure to fill it in before the meeting!
+    </p>
 
-  <h3 class="purple-header">SERVER ACCESS</h3>
-  <p>Get <a href="https://github.com/tudelft3d/admin/blob/main/servers/connecting_to_our_servers.md">access to our servers</a>, if you need it (GitHub Access required).</p>
+    <h3 class="purple-header">WEEKLY UPDATES</h3>
+    <p>
+        Every Monday you will receive a reminder on the 3DGeoInfo channel on
+        Telegram (from our bot, Wynn) to update the rest of the group on what
+        you are working on this week. You should go to 'issues' in this repo,
+        and you will see a "Weekly updates" issue where you can add your
+        updates.
+    </p>
 
-  <h3 class="purple-header">STORAGE</h3>
-  <p>Get informed about your <a href="https://github.com/tudelft3d/admin/blob/main/computation_n_storage/storage-options.md">storage options</a> and the <a href="https://github.com/tudelft3d/admin/blob/main/computation_n_storage/computation_options.md">computation options</a> (GitHub Access required).</p>
+    <h3 class="purple-header">HOLIDAYS</h3>
+    <p>
+        If you need to request holidays, you can do this through
+        <a href="https://hours.tudelft.nl/tim/home/dashboard/mypresence"
+            >My TIM.</a
+        >
+        You should add your holidays (or other periods you are away) to our shared group calendar. Ask your supervisor or Gina to give you access to it. All staff members (specifically PhDs, Postdocs, and other project researchers) are requested to take 5 weeks of holidays per year (for example, 1 week in spring, 3 weeks during summer, and 1 week in autumn). You can discuss this in more detail with your supervisors, but you are always encouraged to take most of your vacation days.
+    </p>
 
-  <h3 class="purple-header">LAPTOPS AND EQUIPMENT</h3>
-  <p>Please arrange to get a new laptop with your supervisor and the secretaries. If you need other equipment like a screen or a keyboard, Gina can help you place an order. If you already got your laptop or other equipment which has a TU Delft tag, please make sure to update <a href="https://github.com/tudelft3d/admin/blob/main/admin/inventory.md">this inventory</a> (GitHub Access required).</p>
+    <h3 class="purple-header">SERVER ACCESS</h3>
+    <p>
+        Get
+        <a
+            href="https://github.com/tudelft3d/admin/blob/main/servers/connecting_to_our_servers.md"
+            >access to our servers</a
+        >, if you need it (GitHub Access required).
+    </p>
 
-  <h3 class="purple-header">CODE AND DATA GUIDELINES</h3>
-  <p>Make sure you are familiar with <a href="https://github.com/tudelft3d/admin/blob/main/admin/code-and-data-guidelines.md">our guidelines for your code and data management</a> (GitHub Access required).</p>
+    <h3 class="purple-header">STORAGE</h3>
+    <p>
+        Get informed about your
+        <a
+            href="https://github.com/tudelft3d/admin/blob/main/computation_n_storage/storage-options.md"
+            >storage options</a
+        >
+        and the
+        <a
+            href="https://github.com/tudelft3d/admin/blob/main/computation_n_storage/computation_options.md"
+            >computation options</a
+        >
+        (GitHub Access required).
+    </p>
 
-  <h3 class="purple-header">REIMBURSEMENT SYSTEM</h3>
-  <p> You need to authorise Martine ("M.M.M. Jong-Lansbergen"), one of our secretaries, in the reimbursement system so that she can make travel forms and reimbursements for you</p>
-  <p>Login to <a href="https://declaratietool.tudelft.nl/aanvragen/">the Declaration Tool</a> with your NetID and password and follow <a href="https://tudelft.selfguide.com/instruction/f33f5060-d5d7-4e44-436d-08de001f6cb7">these instructions.</a></p>
+    <h3 class="purple-header">LAPTOPS AND EQUIPMENT</h3>
+    <p>
+        Please arrange to get a new laptop through your supervisor and the secretaries. If you need other equipment like a screen or a keyboard, Gina can help you place an order. If you have already received your laptop or other equipment with a TU Delft tag, please make sure to update
+        <a
+            href="https://github.com/tudelft3d/admin/blob/main/admin/inventory.md"
+            >this inventory</a
+        >
+        (GitHub Access required).
+    </p>
 
-  <h2 class="purple-header">Fun list:</h2>
-  <ol>
-    <li>The <em>previous</em> office management strictly enforced the "bake-your-own-birthday-cake" rule. The <em>current</em> management admits to having zero baking skills and fully supports your right to <strong>choose happiness (and store-bought cake)</strong> on your birthday. (You still have to bring one, though.)</li>
-    <li>Also please send to Gina your birthday and your first language. We need it for automating the birthday wishes :) </li>
-    <li>Consider joining <a href="https://3d.bk.tudelft.nl/idea/">the IDEA team</a>.</li>
-    <li>Finally, some goodies; ask Gina for some group stickers and a mug!</li>
-  </ol>
+    <h3 class="purple-header">CODE AND DATA GUIDELINES</h3>
+    <p>
+        Make sure you are familiar with
+        <a
+            href="https://github.com/tudelft3d/admin/blob/main/admin/code-and-data-guidelines.md"
+            >our guidelines for your code and data management</a
+        >
+        (GitHub Access required).
+    </p>
+
+    <h3 class="purple-header">REIMBURSEMENT SYSTEM</h3>
+    <p>
+        You need to authorize Martine ("M.M.M. Jong-Lansbergen"), one of our secretaries, in the reimbursement system so that she can make travel forms and reimbursements for you.
+    </p>
+    <p>
+        Login to
+        <a href="https://declaratietool.tudelft.nl/aanvragen/"
+            >the Declaration Tool</a
+        >
+        with your NetID and password and follow
+        <a
+            href="https://tudelft.selfguide.com/instruction/f33f5060-d5d7-4e44-436d-08de001f6cb7"
+            >these instructions.</a
+        >
+    </p>
+
+    <h2 class="purple-header">Fun list:</h2>
+    <ol>
+        <li>
+            The <em>previous</em> office management strictly enforced the
+            "bake-your-own-birthday-cake" rule. The <em>current</em> management
+            admits to having zero baking skills and fully supports your right to
+            <strong>choose happiness (and store-bought cake)</strong> on your
+            birthday. (You still have to bring one, though.)
+        </li>
+        <li>
+            Also please send to Gina your birthday and your first language. We
+            need it for automating the birthday wishes :)
+        </li>
+        <li>
+            Consider joining
+            <a href="https://3d.bk.tudelft.nl/idea/">the IDEA team</a>.
+        </li>
+        <li>
+            Finally, some goodies; ask Gina for some group stickers and a mug!
+        </li>
+    </ol>
 </div>
