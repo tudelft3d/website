@@ -1,0 +1,74 @@
+- surname: Bry
+  name: Alexandre
+  title: "From Points to Prints"
+  image: AlexandreBry.jpg
+
+- surname: Hartog
+  name: Anne den
+  title: "Thermally comfortable urban mobility: operationalizing urban microclimate data into a pedestrian routing tool"
+  image: AnnedenHartog.jpg
+
+- surname: Félix Aires
+  name: Carmem
+  title: "A Comparison of Wind Velocity Predictions from Wind-Only and Thermally Coupled OpenFOAM Solvers in Complex Terrain"
+  image: CarmemFelixAires.jpg
+
+- surname: Schlosser
+  name: Daan
+  title: "Investigation on the data model requirements for Digital Building Logbooks and Building Renovation Passports"
+  image: DaanSchlosser.jpg
+
+- surname: Auer
+  name: Frederick
+  title: "Testing and enhancing the Scenario ADE in the context of building performance simulation in Rotterdam"
+  image: FrederickAuer.jpg
+
+- surname: Rotteveel
+  name: Heiko
+  title: "Automatic water (level) detection using ICESat-2 measurements"
+  image: HeikoRotteveel.jpg
+
+- surname: Pille
+  name: Julia
+  title: "Seabed Fingerprinting"
+  image: JuliaPille.jpg
+
+- surname: Jonker
+  name: Luc
+  title: "Automated Generation of Tree-Aware Urban Shade Maps using Deep Learning"
+  image: LucJonker.jpg
+
+- surname: Beeren 
+  name: Michel
+  title: "Optimizing 3D Alpha Wrapping for CFD Applications; Repairing and Simplifying 3D Building Models"
+  image: MichelBeeren.jpg
+
+- surname: Hu
+  name: Ming Chieh
+  title: "Gaussian Splatting to Piecewise-Planar Surfaces For 3D Building Reconstruction"
+  image: MingChiehHu.jpg
+
+- surname: Singh 
+  name: Neelabh
+  title: "Identifying Sidewalks From Crowdsourced SVI for OSM Enrichment"
+  image: NeelabhSingh.jpg
+
+- surname: Brakelé
+  name: Sara
+  title: "Extracting building typology parameters from 3D city models for earthquake risk assessment"
+  image: SaraBrakele.jpg
+
+- surname: Wang 
+  name: Sue
+  title: "Action-Aware Indoor Navigation with Agent-Guided Adaptive Voxelization and Scenario-Aware Replanning"
+  image: SueWang.jpg
+
+- surname: Vanderheeren
+  name: Vincent
+  title: "Pillar of Morphology - Enhancing point-based mathematical morphology for processing applications in heritage point clouds"
+  image: VincentVanderheeren.jpg
+
+- surname: Bi
+  name: Xinya
+  title: "Multi-view Semantic Pruning for 3D Building Reconstruction using Gaussian Splatting"
+  image: XinyaBi.jpg
