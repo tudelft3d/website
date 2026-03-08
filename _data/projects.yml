@@ -1,4 +1,12 @@
 - name: RenoDAT
+  description: Energy Data and Flexibility Management for Positive Energy Districts
+  webpage: /projects/flexped/
+  image: flexped.png
+  funding: Driving Urban Transition (DUT) Call 2024
+  fundingurl: https://dutpartnership.eu/calls/dut-call-2024
+  start: 2026
+
+- name: RenoDAT
   description: Accelerating building RENOvation and decarbonization through DATa integration
   webpage: /projects/renodat/
   image: renodat.jpg
@@ -25,7 +33,7 @@
   webpage: /projects/digitwins4peds/
   image: digitwins4peds.jpg
   funding: Driving Urban Transition (DUT) Call 2022
-  fundingurl: https://dutpartnership.eu/funding-opportunities/dut_call_2022/
+  fundingurl: https://dutpartnership.eu/calls/dut-call-2022
   start: 2023
 
 - name: MultiRoofs
