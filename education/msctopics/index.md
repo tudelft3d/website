@@ -303,33 +303,6 @@ Before picking the topic, please contact us!
 
 - - -
 
-## Accuracy assessment of EnergyBAG (in-house urban energy building simulation tool)
-![](img/UBES_PhDCamiloEvaluation.png){:width="800px"}
-
-The aim of this MSc thesis is the evaluation of the output EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
-
-The scope of the research is to asses the accuracy of the results obtained by the UBES while computing the energy demand of buildings while pointing possible source of errors in the workflow. It is expected to use other existing UBES in this research such as [SimStadt](https://simstadt.hft-stuttgart.de/), [CitySim](http://www.kaemco.ch/download.php), [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com/) or [EnergyPlus](https://energyplus.net), to mention some.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
-## Development of a Graphical User Interface for EnergyBAG (in-house urban energy building simulation tool)
-![](img/GUI_EnergyApplications.png){:width="800px"}
-
-The scope of this MSc thesis is the design and development of a web-based Graphical User Interface (GUI) that enables the interaction with EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
-
-Within its functionalities, the GUI should allow 3D visualization of semantic 3D city models (3DCM) and generate graphs and plots that aggregate the output of the simulation tool. Data are managed in a 3DCityDB instance that supports the Energy ADE.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
-
 ## Predicting pedestrian wind comfort and thermal comfort with Large-Eddy Simulations in uDALES
 
 Pedestrian wind and thermal comfort still remain an important topic in the development of future urban scenarios. Considering the current climate change conditions, with increased frequency in heat waves and extreme weather events, the way we design our cities can further impact their resilience and comfort. Computational fluid dynamics (CFD) approaches can help us improving and adapting future and current urban designs to maximize sustainability and comfort. To maximize the predictability capabilities approaches such as Large-Eddy Simulations [LES](https://en.wikipedia.org/wiki/Large_eddy_simulation) can be used to resolve most of the urban scales and model uniquely the small scales. 
