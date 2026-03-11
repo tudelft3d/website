@@ -81,21 +81,6 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 - - -
 
-## Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam
-![](img/digitwins4peds_img.jpg){:width="800px"}
-
-This thesis is embedded within the European project [DigiTwins4PEDs](https://digitwins4peds.eu), which investigates how Urban Digital Twins can be exploited to foster the trasformation of urban districts into PEDs (Positive Energy Districts).
-As the municipality of Rotterdam is one of the project partners, the topic of the thesis will be to investigate how different scenarios of energy demand for heating _and_ cooling can be computed and managed for the building stock using the CityGML-based 3D city model of Rotterdam. Additionally, a "smart" and systematic way to deal with scenarios (data, metadata, results, etc.) will have to be developed within the thesis.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered.
-
-You will programm mainly in Python, and you will interact with the 3DCityDB using a bit of PL/pgSQL, too.
-Before picking the topic, please contact us!
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), 
-
-- - -
-
 ## IFC in PostgreSQL/PostGIS
 
 ![](img/ifcsql.png){:width="800px"}
