@@ -69,6 +69,17 @@ h1 span {
   font-size: 40%;
 }
 
+
+/* 3DTea section headers */  
+.section-header {
+  font-size: 1.3em;
+  color: #2c5bb4; /* TU Delft blue */
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
 .navbar-brand {
   margin-top: 0px;
 }
@@ -248,6 +259,16 @@ footer {
   display: none;
 }
 
+/* 3DTea section headers */
+.section-header {
+  font-size: 1.3em;
+  color: #2c5bb4;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
 /* show active nested list */
 .papers-sidebar .nav>.active>ul.nav {
   display: block;
@@ -256,6 +277,40 @@ footer {
 mark {
   background: #b8e3eb;
   padding: 0em;
+}
+
+/* 3DTea available slots highlighting */
+.available-slot {
+  background-color: #e8f5e8 !important;
+  border-left: 4px solid #28a745;
+}
+
+.available-slot td {
+  font-style: italic;
+  color: #28a745;
+}
+
+/* 3DTea presentation expectations list */
+.website-list {
+  margin: 15px 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.website-list li {
+  margin: 10px 0;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 25px;
+}
+
+.website-list li::before {
+  content: "▸";
+  color: #2c5bb4;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* For the UMnD project sub-website */
