@@ -1,21 +1,40 @@
 ---
 layout: page
-title:  "3D talks: our series of seminars"
-permalink: /3dtalks/
+title:  "3DTea@UDS: our series of seminars"
+permalink: /3dtea/
 ---
 
-
 <div class="row">
-  <div class="col-xs-4 col-md-3">
-    <img src="{{ "/img/logos/3dtalks2.png" | prepend: site.baseurl }}"/>
-  </div>
   <div class="col-xs-8 col-md-9">
-    <p>Every week, we hold talks about one aspect of 3D geoinformation.
-    Either one staff of the group presents their latest results, or we invite someone from another university or from a company to present their results and/or latest developments.</p>
-    <p>These are usually Thursdays at 16:00&ndash;17:00, and everyone is welcome to join.</p>
+    <p><strong>Welcome to 3DTea!</strong></p>
+    
+    <p>
+    Every Thursday at 16:00, we gather for our <em>3DTea</em> sessions - a relaxed weekly meeting where the whole group can connect, either in person or online. This series replaces our previous 3DTalks with a more informal format making it the perfect moment for sharing knowledge and catching up. 
+    </p>
+    
+    <p>
+    <strong>How it works:</strong><br>
+    <em>Last Thursday of each month:</em> Reserved for our monthly UDS catch-up meeting<br>
+    <em>All other Thursdays:</em> Open for member presentations, new member introductions, or group discussions. We also occasionally host invited speakers. Topics can range from research breakthroughs to personal passions - share your latest work, discuss interesting projects, or dive into subjects that inspire you. Ready to present? Find a free date in the schedule below and put your name to it! 
+    </p>
+    
+    <p><strong>Presentation expectations:</strong><br>
+    • Members are asked to present at least once per year<br>
+    • New members present twice: once for introducing yourself and your background and once on a topic of your choosing<br>
+     </p>
+    
+    <p><strong>Snacks:</strong><br>
+    All members contribute by bringing snacks for participants at least once per year. Homemade treats are welcome, and we aim to keep costs reasonable (under €5).</p>
+    
+    <p><strong>Rescheduling:</strong><br>
+    Can't present during your scheduled slot? Try to swap with another presenter first. If that's not possible, contact Amy for assistance.</p>
+
     <p>
     Add this <a href="http://3d.bk.tudelft.nl/3dtalks/3dtalks.ics">ICS file</a> to your calendar application, it will be automatically updated.
     </p>
+
+    
+
   </div>
 </div>
 
@@ -75,7 +94,7 @@ permalink: /3dtalks/
 
   {% for i in talks reversed %}
   {% assign a = i.date | date: "%Y%m%d" %}
-  {% if a < today %}
+  {% if a < today and i.title != "" and i.title != "3D MEETING" and i.title != "UDS-catch-up" and i.title != "Public Holiday" %}
     <tr>
       <td style="white-space: nowrap;">{{ i.date  }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
