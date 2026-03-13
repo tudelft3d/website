@@ -81,21 +81,6 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 - - -
 
-## Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam
-![](img/digitwins4peds_img.jpg){:width="800px"}
-
-This thesis is embedded within the European project [DigiTwins4PEDs](https://digitwins4peds.eu), which investigates how Urban Digital Twins can be exploited to foster the trasformation of urban districts into PEDs (Positive Energy Districts).
-As the municipality of Rotterdam is one of the project partners, the topic of the thesis will be to investigate how different scenarios of energy demand for heating _and_ cooling can be computed and managed for the building stock using the CityGML-based 3D city model of Rotterdam. Additionally, a "smart" and systematic way to deal with scenarios (data, metadata, results, etc.) will have to be developed within the thesis.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered.
-
-You will programm mainly in Python, and you will interact with the 3DCityDB using a bit of PL/pgSQL, too.
-Before picking the topic, please contact us!
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), 
-
-- - -
-
 ## IFC in PostgreSQL/PostGIS
 
 ![](img/ifcsql.png){:width="800px"}
@@ -317,33 +302,6 @@ Before picking the topic, please contact us!
 **Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
 
 - - -
-
-## Accuracy assessment of EnergyBAG (in-house urban energy building simulation tool)
-![](img/UBES_PhDCamiloEvaluation.png){:width="800px"}
-
-The aim of this MSc thesis is the evaluation of the output EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
-
-The scope of the research is to asses the accuracy of the results obtained by the UBES while computing the energy demand of buildings while pointing possible source of errors in the workflow. It is expected to use other existing UBES in this research such as [SimStadt](https://simstadt.hft-stuttgart.de/), [CitySim](http://www.kaemco.ch/download.php), [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com/) or [EnergyPlus](https://energyplus.net), to mention some.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
-## Development of a Graphical User Interface for EnergyBAG (in-house urban energy building simulation tool)
-![](img/GUI_EnergyApplications.png){:width="800px"}
-
-The scope of this MSc thesis is the design and development of a web-based Graphical User Interface (GUI) that enables the interaction with EnergyBAG, an in-house urban energy building simulation software tool (UBES) develop by Camilo León-Sánchez during his PhD research.
-
-Within its functionalities, the GUI should allow 3D visualization of semantic 3D city models (3DCM) and generate graphs and plots that aggregate the output of the simulation tool. Data are managed in a 3DCityDB instance that supports the Energy ADE.
-
-Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
-
-**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
 
 ## Predicting pedestrian wind comfort and thermal comfort with Large-Eddy Simulations in uDALES
 
