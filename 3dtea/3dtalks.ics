@@ -3,7 +3,7 @@ layout: null
 ---
 {% assign talks = site.data.talks | sort: 'date' %}
 BEGIN:VCALENDAR
-PRODID:-//3D geoinformation group at TU Delft//NONSGML 3D talks calendar version 1.0//EN
+PRODID:-//3D geoinformation group at TU Delft//NONSGML 3DTea calendar version 1.0//EN
 VERSION:2.0
 BEGIN:VTIMEZONE
 TZID:Europe/Amsterdam
@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 {% for i in talks %}
 BEGIN:VEVENT
-SUMMARY:3D talk
+SUMMARY:3DTea schedule
 DTSTAMP;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00
 DTSTART;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 0, 2 }}{{ i.time | slice: 3, 2 }}00
 DTEND;TZID=Europe/Amsterdam:{{ i.date | date: '%Y%m%d' }}T{{ i.time | slice: 6, 2 }}{{ i.time | slice: 9, 2 }}00
@@ -33,7 +33,7 @@ LOCATION:{{ i.room }}
 BEGIN:VALARM
 TRIGGER:-PT3H
 ACTION:DISPLAY
-DESCRIPTION:3D talk
+DESCRIPTION:3DTea schedule
 END:VALARM
 END:VEVENT
 {% endfor %}
