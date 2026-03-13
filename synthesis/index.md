@@ -14,7 +14,9 @@ permalink: /synthesis/
 {% for i in projects %}
 	<div class="col-md-4 col-xs-6">
 		<div class="thumbnail">
+    <div class="thumbnail-image">
       <a href="{{ i.report }}"><img src="img/{{ i.img }}"/></a>
+    </div>
       <div class="caption">
         <h3><a href="{{ i.report }}">{{ i.title }}</a></h3>
         {% if i.report %}

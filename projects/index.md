@@ -17,7 +17,9 @@ permalink: /projects/
   {% endif %}
   <div class="col-md-3 col-sm-4 col-xs-6">
     <div class="thumbnail">
-      <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
+      <div class="thumbnail-image">
+        <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
+      </div>
       <div class="caption">
         <h3><a href="{{ link }}">{{ i.name }}</a>
         <br />
@@ -65,7 +67,9 @@ permalink: /projects/
   {% endif %}
   <div class="col-md-3 col-sm-4 col-xs-6">
     <div class="thumbnail">
-      <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
+      <div class="thumbnail-image">
+        <a href="{{ link }}"><img src="{{ "/img/projects/" | append: i.image | prepend: site.baseurl }}"/></a>
+      </div>
       <div class="caption">
         <h3><a href="{{ link }}">{{ i.name }}</a>
         <br />

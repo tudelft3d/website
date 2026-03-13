@@ -187,6 +187,35 @@ footer {
   border: none;
 }
 
+/* Square image containers for project thumbnails */
+.thumbnail-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Creates square aspect ratio */
+  overflow: hidden;
+  background-color:  white;
+}
+
+.thumbnail-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.thumbnail-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Featurettes
 ------------------------- */
 
