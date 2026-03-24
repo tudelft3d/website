@@ -54,7 +54,7 @@ permalink: /3dtea/
     <td>Presenter</td>
     <td>Title</td>
     <td style="white-space: nowrap;">Room</td>
-    <td>Time</td>
+    <td>Snack bearer</td>
     <td>Slides</td>
   </tr>
 
@@ -67,7 +67,7 @@ permalink: /3dtea/
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td><em>Available slot - add your name!</em></td>
       <td>{{ i.room | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      <td style="white-space: nowrap;">{{ i.time }}</td>
+      <td style="white-space: nowrap;">{{ i.snacks }}</td>
       <td></td>
     </tr>
     {% else %}
@@ -76,7 +76,7 @@ permalink: /3dtea/
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.room | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      <td style="white-space: nowrap;">{{ i.time }}</td>
+      <td style="white-space: nowrap;">{{ i.snacks }}</td>
       {% if i.ppt %}
         <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/{{ i.ppt }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
       {% else %}
