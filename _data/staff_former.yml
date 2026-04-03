@@ -94,7 +94,17 @@
   email: jd916@cam.ac.uk
   linkedin: https://www.linkedin.com/in/jialei-ding/
  #current: 
- 
+
+- surname: Sánchez-Aparicio
+  name: María
+  period: 2022
+  title: Visiting PhD Candidate (University of Salamanca)
+  photo: maria_sanchez_aparicio.jpg
+  email: maria.saparicio@upm.es
+  current: "Profesora Ayudante Doctora at [Universidad Politécnica de Madrid](https://portalcientifico.upm.es/es/ipublic/researcher/336447)"
+  # linkedin:
+  # description: "Digital Twins for real estate energy efficiency."
+
 - surname: Janssen
   name: Patrick
   title: Associate-prof. (external)
