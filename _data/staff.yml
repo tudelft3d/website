@@ -36,6 +36,7 @@
   photo: taskin_okzan.jpg
   # homepage: 3d.bk.tudelft.nl/tokzan
   email: t.ozkan@tudelft.nl
+  linkedin: https://www.linkedin.com/in/taskno
   description: "Energy Data and Flexibility Management for Positive Energy Districts"
 
 - surname: León-Sánchez
@@ -45,6 +46,7 @@
   homepage: 3d.bk.tudelft.nl/cleon
   email: c.a.leonsanchez@tudelft.nl
   twitter: camiloaleonsan
+  linkedin: https://www.linkedin.com/in/cleonsanchez
   description: "Semantic 3D city models for energy applications"
 
 - surname: Jong-Lansbergen
@@ -86,6 +88,7 @@
   photo: giorgio.jpg
   email: g.agugiaro@tudelft.nl
   github: github.com/gioagu
+  linkedin: https://www.linkedin.com/in/giorgio-agugiaro-59191b16
   homepage: 3d.bk.tudelft.nl/gagugiaro
   description: "His main research interests are in the field of Geographical Information Systems and spatial data integration, with particular focus on semantic 3D city modelling and their energy-related topics.
   Some of his research topics deal for example with the development of an information model to manage and exchange semantically-enriched multi-resolution 3D data for urban energy planning.
