@@ -58,7 +58,7 @@ In the Netherlands, the project is funded through the Dutch Research Counsil [(N
   </div>
 
   <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-      <a href="https://3d.bk.tudelft.nl/tokzan"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/taskin_okyan.jpg" alt="Taşkın Ökzan photo" /></a>
+      <a href="https://3d.bk.tudelft.nl/tokzan"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/taskin_okzan.jpg" alt="Taşkın Ökzan photo" /></a>
     <h3>Taşkın Ökzan<br /><small>PostDoc (TUD)</small></h3>
     <p>
         <a href="https://3d.bk.tudelft.nl/tokzan"><i class="fas fa-home"></i></a>
