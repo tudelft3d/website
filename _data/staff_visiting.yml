@@ -13,3 +13,27 @@
   email: pmaurya@tudelft.nl
   linkedin: https://www.linkedin.com/in/priyadarshi-maurya-b9a7b3165/
   description: "PhD candidate in numerical wind prediction and risk assessment in the built environment."
+
+- surname: Berlato
+  name: Michele
+  title: PhD candidate (University of Padova)
+  photo: michele_berlato.jpg
+  email: michele.berlato@phd.unipd.it
+  # linkedin: https://www.linkedin.com/in/priyadarshi-maurya-b9a7b3165/
+  #description: ""
+
+- surname: Dell'Unto
+  name: Martina
+  title: PhD candidate (Technical University of Madrid)
+  photo: martina_dellunto.jpg
+  email: martina.dellunto@upm.es
+  # linkedin: https://www.linkedin.com/in/priyadarshi-maurya-b9a7b3165/
+  #description: ""
+
+#- surname: Sánchez-Aparicio
+  #name: María
+  #title: Profesora Ayudante Doctora (Technical University of Madrid)
+  #photo: maria_sanchez_aparicio.jpg
+  #email: maria.saparicio@upm.es
+  #linkedin: https://www.linkedin.com/in/priyadarshi-maurya-b9a7b3165/
+  #description: ""
