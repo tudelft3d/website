@@ -48,7 +48,7 @@ In the Netherlands, the project is funded through the Dutch Research Counsil [(N
 
   <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
       <a href="https://3d.bk.tudelft.nl/gagugiaro"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/giorgio.jpg" alt="Giorgio Agugiaro photo" /></a>
-    <h3>Giorgio Agugiaro<br /><small>Assistant Professor (TUD)</small></h3>
+    <h3>Giorgio Agugiaro<br /><small>Assistant Professor</small></h3>
     <p>
         <a href="https://3d.bk.tudelft.nl/gagugiaro"><i class="fas fa-home"></i></a>
         <a href="mailto:g.agugiaro@tudelft.nl"><i class="fas fa-envelope"></i></a><br />
@@ -59,7 +59,7 @@ In the Netherlands, the project is funded through the Dutch Research Counsil [(N
 
   <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
       <a href="https://3d.bk.tudelft.nl/tokzan"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/taskin_okzan.jpg" alt="Taşkın Ökzan photo" /></a>
-    <h3>Taşkın Ökzan<br /><small>PostDoc (TUD)</small></h3>
+    <h3>Taşkın Ökzan<br /><small>PostDoc</small></h3>
     <p>
         <a href="https://3d.bk.tudelft.nl/tokzan"><i class="fas fa-home"></i></a>
         <a href="mailto:t.okzan@tudelft.nl"><i class="fas fa-envelope"></i></a><br />
