@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Programme – Energy ADE Workshop 2026, TU Delft">
+    <title>Programme – Energy ADE Workshop 2026</title>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/syntax.css" rel="stylesheet">
+    <link href="../../assets/css/mine.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      body { padding-top: 50px; }
+
+      .hero-programme {
+        background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 60%, #3a8fc7 100%);
+        padding: 50px 0 40px 0;
+        color: white;
+      }
+      .hero-programme h1 { font-weight: 700; font-size: 32px; margin-top: 0; }
+      .hero-programme hr { border-color: rgba(255,255,255,0.4); margin: 14px 0; }
+      .hero-programme p { font-size: 16px; color: rgba(255,255,255,0.9); }
+
+      .day-header {
+        background: linear-gradient(135deg, #1a3a5c, #2e6da4);
+        color: white;
+        border-radius: 7px;
+        padding: 14px 22px;
+        margin: 32px 0 18px 0;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .day-header .day-date {
+        background: rgba(255,255,255,0.18);
+        border-radius: 5px;
+        padding: 4px 14px;
+        font-size: 15px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .day-header .day-title {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .day-header .day-subtitle {
+        font-size: 13px;
+        color: rgba(255,255,255,0.75);
+        margin: 2px 0 0 0;
+      }
+
+      .session-block {
+        border-left: 3px solid #2e6da4;
+        padding: 0 0 0 16px;
+        margin-bottom: 24px;
+      }
+      .session-title {
+        font-weight: 700;
+        color: #1a3a5c;
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+      }
+
+      .programme-row {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 0;
+        border-bottom: 1px solid #eef1f5;
+        gap: 16px;
+      }
+      .programme-row:last-child { border-bottom: none; }
+
+      .time-slot {
+        min-width: 90px;
+        font-size: 13px;
+        color: #2e6da4;
+        font-weight: 700;
+        padding-top: 1px;
+      }
+      .programme-content { flex: 1; }
+      .programme-content .talk-title {
+        font-size: 14px;
+        color: #333;
+        margin: 0 0 2px 0;
+      }
+      .programme-content .talk-speaker {
+        font-size: 13px;
+        color: #888;
+        margin: 0;
+      }
+
+      .break-row {
+        background: #f7f9fc;
+        border-radius: 4px;
+        padding: 8px 12px;
+        margin: 4px 0;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 13px;
+        color: #888;
+      }
+      .break-row .time-slot { color: #aaa; }
+
+      .tbc-badge {
+        display: inline-block;
+        background: #e8f0fb;
+        color: #2e6da4;
+        border-radius: 3px;
+        padding: 1px 8px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-left: 6px;
+        vertical-align: middle;
+      }
+
+      .sidebar-box {
+        background: #f0f5fb;
+        border: 1px solid #c8ddf0;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .sidebar-box h4 {
+        color: #1a3a5c;
+        font-weight: 700;
+        border-bottom: 2px solid #2e6da4;
+        padding-bottom: 8px;
+        margin-top: 0;
+        margin-bottom: 14px;
+      }
+      .sidebar-box ul { padding-left: 18px; margin-bottom: 0; font-size: 14px; }
+      .sidebar-box li { margin-bottom: 6px; }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#1a3a5c; border-color:#1a3a5c;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index_2026.html" style="color:white;">Energy ADE Workshop 2026</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index_2026.html" style="color:rgba(255,255,255,0.8);">Home</a></li>
+            <li><a href="venue.html" style="color:rgba(255,255,255,0.8);">Venue</a></li>
+            <li class="active"><a href="programme.html" style="color:white; font-weight:600;">Programme</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero-programme">
+      <div class="container">
+        <div class="row" style="display:flex; align-items:center; flex-wrap:wrap;">
+          <div class="col-md-3 col-sm-4 text-center" style="margin-bottom:20px;">
+            <a href="https://3d.bk.tudelft.nl">
+              <img class="img-responsive" src="../../img/logos/tud-3dgeoinfo-black.png"
+                   style="max-height:90px; filter:brightness(0) invert(1); margin:0 auto;">
+            </a>
+          </div>
+          <div class="col-md-9 col-sm-8">
+            <h1>Programme</h1>
+            <hr>
+            <p>
+              <i class="fa fa-calendar" style="margin-right:7px;"></i><b>June 22–23, 2026</b>
+              &nbsp;|&nbsp;
+              <i class="fa fa-map-marker" style="margin-right:7px;"></i>Delft, the Netherlands
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container" style="margin-top:36px; margin-bottom:50px;">
+      <div class="row">
+
+        <!-- Programme column -->
+        <div class="col-md-8">
+
+          <div class="alert alert-info" style="border-left: 4px solid #2e6da4;">
+            <i class="fa fa-info-circle"></i>&nbsp;
+            The detailed programme is currently being prepared and will be published here soon.
+          </div>
+
+          <!-- Day 1 -->
+          <div class="day-header">
+            <div class="day-date"><i class="fa fa-sun-o" style="margin-right:6px;"></i>Mon 22 June</div>
+            <div>
+              <p class="day-title">Public Dissemination Event</p>
+              <p class="day-subtitle">Afternoon &nbsp;|&nbsp; Open to all</p>
+            </div>
+          </div>
+
+          <div class="session-block">
+            <div class="session-title"><i class="fa fa-clock-o" style="margin-right:6px;"></i>Afternoon Session</div>
+
+            <div class="break-row">
+              <span class="time-slot">TBC</span>
+              <span><i class="fa fa-coffee" style="margin-right:6px;"></i>Welcome coffee &amp; registration</span>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Welcome and introduction <span class="tbc-badge">TBA</span></p>
+                <p class="talk-speaker">G. Agugiaro – TU Delft</p>
+              </div>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Presentations – to be announced <span class="tbc-badge">TBA</span></p>
+                <p class="talk-speaker">Speakers to be confirmed</p>
+              </div>
+            </div>
+
+            <div class="break-row">
+              <span class="time-slot">TBC</span>
+              <span><i class="fa fa-coffee" style="margin-right:6px;"></i>Coffee break</span>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Presentations – to be announced <span class="tbc-badge">TBA</span></p>
+                <p class="talk-speaker">Speakers to be confirmed</p>
+              </div>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Discussion and conclusions</p>
+                <p class="talk-speaker"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 2 -->
+          <div class="day-header">
+            <div class="day-date"><i class="fa fa-code" style="margin-right:6px;"></i>Tue 23 June</div>
+            <div>
+              <p class="day-title">Technical Developer Meeting</p>
+              <p class="day-subtitle">Morning &nbsp;|&nbsp; Technical audience</p>
+            </div>
+          </div>
+
+          <div class="session-block">
+            <div class="session-title"><i class="fa fa-clock-o" style="margin-right:6px;"></i>Morning Session</div>
+
+            <div class="break-row">
+              <span class="time-slot">TBC</span>
+              <span><i class="fa fa-coffee" style="margin-right:6px;"></i>Arrival and coffee</span>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Opening and overview <span class="tbc-badge">TBA</span></p>
+                <p class="talk-speaker">G. Agugiaro – TU Delft</p>
+              </div>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Technical presentations – to be announced <span class="tbc-badge">TBA</span></p>
+                <p class="talk-speaker">Speakers to be confirmed</p>
+              </div>
+            </div>
+
+            <div class="break-row">
+              <span class="time-slot">TBC</span>
+              <span><i class="fa fa-coffee" style="margin-right:6px;"></i>Coffee break</span>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Technical presentations – to be announced <span class="tbc-badge">TBA</span></p>
+                <p class="talk-speaker">Speakers to be confirmed</p>
+              </div>
+            </div>
+
+            <div class="programme-row">
+              <span class="time-slot">TBC</span>
+              <div class="programme-content">
+                <p class="talk-title">Conclusions and next steps</p>
+                <p class="talk-speaker"></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-4">
+
+          <div class="sidebar-box">
+            <h4><i class="fa fa-calendar" style="margin-right:7px;"></i>Event Dates</h4>
+            <ul>
+              <li><b>Mon 22 June 2026</b><br><small>Public dissemination event (afternoon)</small></li>
+              <li><b>Tue 23 June 2026</b><br><small>Technical developer meeting (morning)</small></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-box">
+            <h4><i class="fa fa-envelope" style="margin-right:7px;"></i>Register</h4>
+            <p style="font-size:14px;">Participation is free but registration is required.</p>
+            <a href="https://forms.gle/781YVepaGaQhadfL7" target="_blank" style="display:block; background:#2e6da4; color:white; font-weight:700; padding:9px 16px; border-radius:5px; text-decoration:none; font-size:14px; text-align:center;">
+              <i class="fa fa-pencil-square-o" style="margin-right:7px;"></i>Register now
+            </a>
+          </div>
+
+          <div class="sidebar-box">
+            <h4><i class="fa fa-map-marker" style="margin-right:7px;"></i>Venue</h4>
+            <p style="font-size:14px;">Delft, the Netherlands.<br>Specific venues to be confirmed.</p>
+            <a href="venue.html" style="font-size:14px;">More info &rarr;</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+  </body>
+</html>
