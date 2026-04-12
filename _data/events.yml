@@ -1,3 +1,8 @@
+- name: Energy ADE 3.0 workshop 2026
+  description: Energy and Urban Digital Twins: challenges and opportunities.
+  image: energyade_logo.jpg
+  web: /events/energy2026/
+  date: 22-23 June 2026
 
 - name: GeoBIM benchmark workshop
   description: Workshop about 3D city models, Building Information Models and their integration, with Results of the GeoBIM benchmark project.
