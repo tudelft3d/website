@@ -36,23 +36,6 @@ Willing to join? Get in contact!
 
 - - -
 
-## Contact person
-
-<div class="row">
-
-  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
-      <a href="https://3d.bk.tudelft.nl/gagugiaro"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/giorgio.jpg" alt="Giorgio Agugiaro photo" /></a>
-    <h3>Giorgio Agugiaro<br /><small>Assistant Professor</small></h3>
-    <p>
-        <a href="https://3d.bk.tudelft.nl/gagugiaro"><i class="fas fa-home"></i></a>
-        <a href="mailto:g.agugiaro@tudelft.nl"><i class="fas fa-envelope"></i></a><br/>
-        <br/>
-        <br/>
-    </p>
-  </div>
-
-</div>  
-  
 ## Main contributors 
 
 <br/><br/>
@@ -66,6 +49,8 @@ Willing to join? Get in contact!
   </tr>
 </table>
 <br/><br/>
+
+- - -
 
 ## Early testers and technology enthusiasts
 
@@ -87,3 +72,23 @@ Willing to join? Get in contact!
   </tr>
 </table>
 <br/><br/>
+
+- - -
+
+## Contact person
+
+<div class="row">
+
+  <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-md-offset-0">
+      <a href="https://3d.bk.tudelft.nl/gagugiaro"><img class="img-circle img-responsive" src="{{ site.baseurl }}/img/staff/giorgio.jpg" alt="Giorgio Agugiaro photo" /></a>
+    <h3>Giorgio Agugiaro<br /><small>Assistant Professor</small></h3>
+    <p>
+        <a href="https://3d.bk.tudelft.nl/gagugiaro"><i class="fas fa-home"></i></a>
+        <a href="mailto:g.agugiaro@tudelft.nl"><i class="fas fa-envelope"></i></a><br/>
+        <br/>
+        <br/>
+    </p>
+  </div>
+
+</div> 
+
