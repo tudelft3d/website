@@ -32,7 +32,7 @@ The toolkit of methods and technology provided by CHEK will support municipaliti
 - - -
 
 ## Our role in the project
-Besides being the coordinator, the 3D Geoinformation research group is responsible for the development of:
+Besides being the coordinator, the 3D Geoinformation research group is (co-)responsible for the development of:
 - validators for BIM (IFC) and 3D GIS data (CityJSON/CityGML).
 - a georeferencer for BIM data.
 - a BIM to Geo converter.
@@ -61,7 +61,7 @@ The software is able to extract multiple different LoDs (Levels of Detail) from 
 
 The included image shows a demo model of AutoDesk Revit that was used as input, and the resulting constructed envelopes.
 
-The software tool and an in-depth explanation of its workings can be found [here](https://github.com/jaspervdv/IFC_BuildingEnvExtractor) and the final report is available [here](https://3d.bk.tudelft.nl/pdfs/BIM2GEO_Converter.pdf).
+The software tool and an in-depth explanation of its workings can be found [here](https://github.com/jaspervdv/IFC_BuildingEnvExtractor), the final report is available [here](https://3d.bk.tudelft.nl/pdfs/BIM2GEO_Converter.pdf), and a paper based on these is available [here](https://doi.org/10.5194/isprs-archives-XLVIII-3-W4-2025-55-2026).
 
 ### CityJSON Importer plugin for Revit
 
