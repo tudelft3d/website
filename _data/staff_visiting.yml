@@ -17,8 +17,8 @@
 - surname: Berlato
   name: Michele
   title: PhD candidate (University of Padova)
-  photo: michele_berlato.jpg
-  email: michele.berlato@phd.unipd.it
+  photo: toshi.jpg
+  email: tosseto@komazawa-u.ac.jp
   linkedin: https://www.linkedin.com/in/michele-berlato-7520b530a/
   #description: ""
 
@@ -28,6 +28,14 @@
   photo: martina_dellunto.jpg
   email: martina.dellunto@upm.es
   linkedin: https://www.linkedin.com/in/martina-dell-unto/
+  #description: ""
+
+- surname: Tohikazu
+  name: Seto
+  title: Associate Professor (Komazawa University)
+  photo: michele_berlato.jpg
+  email: michele.berlato@phd.unipd.it
+  linkedin: https://www.linkedin.com/in/toshikazu-seto-a33577154/
   #description: ""
 
 #- surname: Sánchez-Aparicio
