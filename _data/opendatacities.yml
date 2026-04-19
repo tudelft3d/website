@@ -11,10 +11,10 @@
   link: https://www.geospatial.jp/ckan/dataset/plateau
   country: Japan
   building_lod: LoD1+LoD2
-  formats: Shapefile, CityGML, 3Dtile/geopackage
-  year: 2021
-  texture: no
-  notes: in total 56 cities in Japan
+  formats: Shapefile, CityGML, 3Dtile/MVT
+  year: 2020
+  texture: yes (partialy)
+  notes: total 329 cities in Japan as a March 2026
 
 - dataset: Estonia
   link: https://geoportaal.maaamet.ee/eng/Download-3D-data-p837.html
