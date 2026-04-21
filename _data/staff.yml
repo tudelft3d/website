@@ -4,7 +4,6 @@
   photo: nail.png
   homepage: 3d.bk.tudelft.nl/nail
   email: n.ibrahimli@tudelft.nl
-  #twitter: _add_twitter_
   description: "Learning-based 3D reconstruction of urban objects"
 
 - surname: Hobeika
@@ -19,7 +18,7 @@
   name: Taşkın
   title: Postdoc
   photo: taskin_ozkan.jpg
-  # homepage: 3d.bk.tudelft.nl/tozkan
+  homepage: 3d.bk.tudelft.nl/tozkan
   email: t.ozkan@tudelft.nl
   linkedin: https://www.linkedin.com/in/taskno
   description: "Energy Data and Flexibility Management for Positive Energy Districts"
