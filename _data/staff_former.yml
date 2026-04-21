@@ -52,13 +52,14 @@
   linkedin: https://www.linkedin.com/in/ziya-usta-704706191/
   homepage: ziyausta.github.io/
 
-- surname: Berlato
-  name: Michele
-  period: 2025
-  title: Visiting PhD Candidate (University of Padova)
-  photo: michele.jpg
-  email:  michele.berlato@phd.unipd.it
-  linkedin: https://www.linkedin.com/in/michele-berlato-7520b530a/
+- surname: Maurya
+  name: Priyadarshi
+  current: PhD Researcher (University School for Advanced Studies IUSS Pavia)
+  photo: priyadarshi.jpg
+  email: pmaurya@tudelft.nl
+  linkedin: https://www.linkedin.com/in/priyadarshi-maurya-b9a7b3165/
+  description: "PhD candidate in numerical wind prediction and risk assessment in the built environment."
+
 
 - surname: Roman
   name: Oscar
