@@ -1,3 +1,13 @@
+- surname: EL Yamani
+  name: Siham
+  title: Postdoctoral Researcher
+  photo: siham.jpg
+  period: 2024-2025
+  current: ""
+  homepage: 3d.bk.tudelft.nl/selyamani
+  email: S.E.ElYamani@tudelft.nl
+  linkedin: https://linkedin.com/in/selyamani/
+
 - surname: Labetski
   name: Anna
   title: PhD candidate
@@ -6,9 +16,7 @@
   current: "Data scientist at [Ordnance Survey](https://www.ordnancesurvey.co.uk)"
   email: a.labetski@tudelft.nl
   twitter: BigLabetski
-  description: "Topic: Generalisation of 3D City Models, working on the [UMnD project](https://3d.bk.tudelft.nl/projects/umnd/).<br><br>I have an HBA in Human Geography and GIS from the University of Toronto and an MSc in Geospatial Analysis from University College London. <br><br>My interests include: Cartographic Generalisation, Levels of Detail, Transportation Networks, Active Transportation, and Metadata (automation, storage and update)."
   uuid: a89ef52f-fe91-490e-b6fa-df879548abde
-
 
 - surname: Qiu
   name: Yanning
@@ -26,7 +34,6 @@
   photo: alper.jpg
   email: A.T.Akin@tudelft.nl
   linkedin: https://www.linkedin.com/in/alper-tunga-akin-54928b147/
-  description: "My current research encloses data quality assessment and data improvement in 3D city models using knowledge graph approaches."
 
 - surname: Orabona
   name: Manuel
@@ -35,7 +42,6 @@
   photo: manuel.jpg
   email:  M.O.orabona@tudelft.nl
   linkedin: https://www.linkedin.com/in/manuelorabona/
-  description: "Developing a GeoAI Model for the Identification and Assessment of Peri-Urban Fringe Areas"
 
 - surname: Usta
   name: Ziya
@@ -45,7 +51,6 @@
   email:  ziyausta@artvin.edu.tr
   linkedin: https://www.linkedin.com/in/ziya-usta-704706191/
   homepage: ziyausta.github.io/
-  description: "Working on web-based management of large scale 3d geospatial data."
 
 - surname: Berlato
   name: Michele
@@ -54,7 +59,6 @@
   photo: michele.jpg
   email:  michele.berlato@phd.unipd.it
   linkedin: https://www.linkedin.com/in/michele-berlato-7520b530a/
-  description: "Integration of BIM and GIS for the management of hydraulic assets."
 
 - surname: Roman
   name: Oscar
@@ -63,7 +67,6 @@
   photo: oscar.jpg
   email:  oroman@fbk.eu
   linkedin: https://www.linkedin.com/in/oscar-roman-934613206/
-  description: "Digital Twins for real estate energy efficiency."
 
 - surname: Hakim
   name: Amir
@@ -87,7 +90,6 @@
   photo: sabrina.jpeg
   email: sabrina.sacco@unina.it
   linkedin: https://www.linkedin.com/in/sabrina-sacco-4b1733289/
-  #current:
 
 - surname: Wu
   name: Yijie
@@ -96,7 +98,6 @@
   photo: yijie.jpg
   email: yijiewu@connect.hku.hk
   homepage: https://www.researchgate.net/profile/Yijie-Wu-2
-  #current: 
 
 - surname: Grieco
   name: Benedetta
