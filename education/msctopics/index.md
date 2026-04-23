@@ -130,29 +130,6 @@ The goal of this thesis would be to investigate what other heuristics are useful
 
 - - -
 
-## Urban Mesh Segmentation
-
-![](img/urbanmeshseg.png){:width="800px"}
-
-The aim of this research is to develop instance or semantic segmentation methods for urban meshes. 
-We will equip students with datasets, annotation tools, backbone networks, and pre-formulated ideas to facilitate the successful completion of this project. 
-Your task is to enhance the performance of existing 3D segmentation methods to achieve better results on urban textured mesh data. 
-You will learn about the most advanced deep learning techniques for 3D semantic segmentation tasks and/or interactive 3D annotation strategies. 
-The outcomes of this research are eligible for publication in high-quality journals or conference proceedings. 
-Additionally, students have the freedom to choose an additional co-supervisor. 
-Participants in this project can select from the following three research directions:
-1. Develop automatic or interactive instance segmentation methods for urban objects.
-2. Develop semantic segmentation methods for urban meshes and their textures.
-3. Develop a local adaptive receptive filed approach for 3D semantic segmentation of urban scenes.
-
-**Requirements:** 1) Experiences in mesh processing. 
-2) Proficiency in Python or C++ programming. 3) Knowledge of machine learning or deep learning.
-
-**Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
-
-- - -
-
-
 
 ## Citizen Voices in Climate Action: Developing digital platforms for citizen engagement in climate planning and design
 
@@ -202,8 +179,6 @@ If you choose this topic, you can expect to learn about automatic geometry recon
 **Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
 
 - - - 
-
-
 
 ## Filling the massive gaps in space lidar datasets with a diffusion model
 
@@ -378,23 +353,6 @@ Software libraries for computational geometry underpin a lot of our research, bu
 
 - - - 
 
-## Something with streaming TINs for massive datasets
-
-![](https://raw.githubusercontent.com/mdjong1/sstvis/main/figures/anim.gif){:width="300px"}
-
-The AHN3 dataset contains a lot of points (600+ billions), and while these are useful on their own, some applications would benefit from having a TIN, isocontours, objects extracted from them, etc.
-
-You learned in GEO1015 how to create a Delaunay TIN, and for massive ones the theory about [streaming geometries](https://www.cs.unc.edu/~isenburg/papers/ilss-scdt-06.pdf) was explained.
-
-The aim of this project is to extend the work already done ([sst](https://github.com/hugoledoux/sst/) + one [MSc thesis about simplification](http://resolver.tudelft.nl/uuid:e7df1d5a-8819-40aa-a3d1-1f6d50b8a39e)) and to add new operators useful for practitioners.
-Exactly what I am not sure yet, but if you like the challenge of dealing with several billions of points, then we can find a good topic. The main ones are creating grids with interpolation and isolines extraction.
-
-*Contact:* [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)
-
-
-
-- - - 
-
 ## Developing methods for edge-matching with customisable heuristics (geometric, topological and semantic)
 
 ![](img/BBG.png){:width="300px"}
@@ -414,20 +372,6 @@ There are different heuristics feasible, an important one being the combination 
 
 - - - 
 
-## Modern metadata for CityJSON
-![](img/metadata_balou.jpg){:width="400px"}
-
-The standard [CityJSON](https://cityjson.org)--developed by us!--has some support for metadata. First [its core has a few useful properties](https://www.cityjson.org/specs/1.1.1/#metadata), and second there is an Extension (the [MetadataExtended Extension](https://github.com/cityjson/metadata-extended)) where most of the ISO19115 properties can be used.
-The issue is that ISO19115 is being replaced in practice by [The SpatioTemporal Asset Catalog (STAC) specification](https://stacspec.org/) and by the [OGC API -- Records](https://github.com/opengeospatial/ogcapi-records/).
-Those are targeted at imagery and (mostly) other 2D datasets.
-The aim of the project is to create a [STAC extension](https://stac-extensions.github.io/) so that 3D city models in CityJSON be indexed/searched, and to (potentially) modify CityJSON.
-The project is quite exploratory, and will necessitate to build a prototype on the web where the ideas are demonstrated; see [this page for some relevant links](https://www.cityjson.org/experimental/restful/) and work done by other MSc Geomatics students.
-This projects fits in the new vision of the OGC to be "cloud-native", see that [interesting blog post](https://www.ogc.org/blog/4609).
-Why the photo of the dog? Because I thought everyone would skip reading this if they see "metadata" in the title...
-
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
-
----
 
 ## Supporting earthquake risk assessment by 3D city models
 ![](img/earthquake.png)
@@ -548,30 +492,3 @@ This topic provides a solid foundation for research that is both technically rig
 (1) Enthusiastic about 3D modeling and deep learning. (2) Proficient in programming. 
 
 **Contact**: [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
-
-- - -
-
-## Detecting and Mapping Sidewalks from Street-Level Imagery Using AI
-
-![](img/mapillary_pavement.jpeg){:width="600px"}
-
-Authoritative and openly available sidewalk datasets are rare, even though sidewalks are fundamental to walkability, accessibility, and public life. 
-This lack of data limits research on human-scale environmental exposure (e.g., heat, noise, and air pollution), as well as urban planning, accessibility studies, and mobility modelling.
-With the growing availability of open street-level imagery (Mapillary, KartoView) and advances in computer vision (e.g., DINO v3, SAM, Depth Anything), it has become possible to automatically detect and map sidewalks from imagery. 
-Datasets such as Global Streetscapes (2024), which contains over 10 million labelled images across 688 cities, provide a valuable foundation for this work.
-
-The goal of this MSc thesis is to develop and test a workflow to detect sidewalks and derive their geometry (as linestrings or polygons) from street-level imagery using deep learning methods. 
-The workflow will be validated in selected cities where authoritative datasets exist, and the resulting data may contribute to open data initiatives such as OpenStreetMap.
-
-You will:
-- Collect and filter open street-level imagery from platforms such as Mapillary and KartoView.
-- Use foundation models for semantic segmentation and depth estimation to identify sidewalks.
-- Derive geometric representations and assess positional accuracy.
-- Compare results with available authoritative datasets.
-
-This project combines computer vision, spatial data processing, and open data applications to address a key global data gap in urban research.
-
-**Required skills**:
-Experience with Python + having done the ML course.
-
-**Contact:** [Lukas Beuster](https://3d.bk.tudelft.nl/lbeuster), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
