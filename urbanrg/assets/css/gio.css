@@ -1,0 +1,44 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+.img-menu-tud {
+ display: block;
+ max-height: 35px;
+ margin-top: -8px;
+}
+
+.img-menu-3dgi {
+ display: block;
+ max-height: 38px;
+ margin-top: -1px;
+ margin-left: 15px;
+}
+
+.img-menu-urbanrg {
+ display: block;
+ max-height: 35px;
+ margin-top: -6px;
+ margin-left: 15px;
+}
+
+h3 {
+  padding-top: 60px;
+  /* padding-bottom: 20px; */
+}
+
+.gmap {
+ display: block;
+ max-width: 100%;
+ min-height: 300px;
+ height: auto;
+ border: 0;
+}
+
+.hcol {
+ height: 425px;
+ min-width: 220px;
+}
+.img_face {
+ display: block;
+ height: auto;
+ max-width: 200px;
+ margin-bottom: -40px;
+}
