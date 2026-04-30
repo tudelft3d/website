@@ -277,5 +277,118 @@ h2.page-title {
   box-shadow: var(--shadow-sm);
 }
 
+/* ── NEWS ──────────────────────────────────────────── */
+.news-item {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.news-item:last-child { border-bottom: none; }
+
+.news-date {
+  flex-shrink: 0;
+  width: 4.5rem;
+  text-align: right;
+  padding-top: 0.15rem;
+}
+.news-year {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.news-body { flex: 1; }
+
+.news-title {
+  color: var(--tud-navy);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.news-link {
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.news-link:hover { color: var(--tud-blue); }
+
+.news-meta {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+.news-meta i { margin-right: 0.3rem; }
+
+.news-body p {
+  font-size: 0.92rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-presentations {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+}
+.news-presentations li {
+  font-size: 0.88rem;
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+}
+.news-presentations li::before {
+  content: '—';
+  color: var(--text-muted);
+  flex-shrink: 0;
+  font-size: 0.75rem;
+}
+.news-presenter {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.news-inline {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+}
+.news-text {
+  flex: 1;
+  min-width: 0;
+}
+.news-figure {
+  flex-shrink: 0;
+  width: 42%;
+  margin: 0;
+}
+.news-figure img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: var(--shadow-sm);
+}
+.news-figure figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Stack on small screens */
+@media (max-width: 767px) {
+  .news-inline { flex-direction: column; }
+  .news-figure { width: 100%; }
+}
+
 /* ── MISC ──────────────────────────────────────────── */
 small { color: var(--text-muted); }
