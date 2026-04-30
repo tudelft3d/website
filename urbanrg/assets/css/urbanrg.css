@@ -73,9 +73,16 @@ a:hover { color: var(--tud-navy); }
 /* ── SECTION RHYTHM ────────────────────────────────── */
 .row { padding-top: 2.5rem; padding-bottom: 2.5rem; }
 
-#vision              { background: var(--section-alt); }
-#external_members_row{ background: var(--section-alt); }
-#software_row        { background: var(--section-alt); }
+#vision               { background: var(--section-alt); }
+#external_members_row { background: var(--section-alt); }
+
+/* output page inner sections */
+#software_row,
+#other_resources_row {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
 
 /* ── TYPOGRAPHY ────────────────────────────────────── */
 h2, h3 { color: var(--tud-navy); font-weight: 700; }
@@ -107,8 +114,8 @@ h2.page-title {
 }
 
 .member-photo {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   display: block;
   margin: 0 auto 1rem;
