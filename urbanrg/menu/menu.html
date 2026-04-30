@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top" role="navigation">
-	<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" role="navigation">
+	<div class="container-fluid px-3 px-md-4">
 		<div class="d-flex align-items-center">
 			<a id="navbar-a-tud" class="navbar-brand" href="https://www.tudelft.nl/" target="_blank">
 			  <img id="navbar-img-tud" class="img-menu-tud" src="./images/tudwhite.png" onmouseover="this.src='./images/tudblue.png'" onmouseout="this.src='./images/tudwhite.png'" alt="TU Delft"/>
@@ -11,12 +11,19 @@
 			  <img id="navbar-img-urbanrg" class="img-menu-urbanrg" src="images/urbanrg_white.png" onmouseover="this.src='images/urbanrg_white_alt.png'" onmouseout="this.src='images/urbanrg_white.png'" alt="UrbäNRG Lab" />
 			</a>
 		</div>
-		<ul class="navbar-nav ms-auto">
-			<li class="nav-item"><a id="navbar-menu-index" class="nav-link" href="../index.html">Home</a></li>
-			<li class="nav-item"><a id="navbar-menu-members" class="nav-link" href="../members/members.html">Members</a></li>
-			<li class="nav-item"><a id="navbar-menu-news" class="nav-link" href="../news/news.html">News</a></li>
-			<li class="nav-item"><a id="navbar-menu-projects" class="nav-link" href="../projects/projects.html">Projects</a></li>
-			<li class="nav-item"><a id="navbar-menu-output" class="nav-link" href="../output/output.html">Output</a></li>
-		</ul>
+		<button class="navbar-toggler border-0 shadow-none" type="button"
+			data-bs-toggle="collapse" data-bs-target="#urbanrg_navbar"
+			aria-controls="urbanrg_navbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="urbanrg_navbar">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item"><a id="navbar-menu-index"    class="nav-link" href="../index.html">Home</a></li>
+				<li class="nav-item"><a id="navbar-menu-members"  class="nav-link" href="../members/members.html">Members</a></li>
+				<li class="nav-item"><a id="navbar-menu-news"     class="nav-link" href="../news/news.html">News</a></li>
+				<li class="nav-item"><a id="navbar-menu-projects" class="nav-link" href="../projects/projects.html">Projects</a></li>
+				<li class="nav-item"><a id="navbar-menu-output"   class="nav-link" href="../output/output.html">Output</a></li>
+			</ul>
+		</div>
 	</div>
 </nav>

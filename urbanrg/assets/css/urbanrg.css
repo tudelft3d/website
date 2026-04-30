@@ -62,6 +62,19 @@ a:hover { color: var(--tud-navy); }
 .img-menu-3dgi    { display: block; max-height: 33px; margin-left: 18px; }
 .img-menu-urbanrg { display: block; max-height: 30px; margin-left: 18px; }
 
+/* Collapsed nav panel on small screens */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 0.5rem 0 0.75rem;
+    margin-top: 0.4rem;
+  }
+  .navbar .nav-link {
+    padding: 0.5rem 0.5rem !important;
+    border-radius: 0;
+  }
+}
+
 /* ── INTRO BANNER ──────────────────────────────────── */
 #intro_banner {
   text-align: center;
