@@ -8,7 +8,7 @@
 
 	<title>UrbäNRG Lab</title>
 	<meta name="description" content="Urban Energy Laboratory @ TU Delft">
-    <meta name="keywords" content="3D GIS, GIS, 3D geoinformation, TU Delft, CityGML, Energy">
+	<meta name="keywords" content="3D GIS, GIS, 3D geoinformation, TU Delft, CityGML, Energy">
 	<meta name="author" content="UrbäNRG Group">
 
 	<link rel="shortcut icon" href="./images/favicon_16.png">
@@ -16,102 +16,106 @@
 	<link rel="stylesheet" href="./assets/css/urbanrg.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<script src="./assets/js/w3.js"></script>
-	<script src="./assets/js/insertMenu.js"></script>	
+	<script src="./assets/js/insertMenu.js"></script>
 </head>
 
 <body>
-<div w3-include-html="./menu/menu.html"></div> 
- 
-<div class="container-fluid">
+<div w3-include-html="./menu/menu.html"></div>
 
-<div class="row" id="intro_banner">
-	<div style="text-align: center;">
-		<br><br>
-		<img src="./images/urbanrg.png" alt="UrbäNRG Lab" width="25%" height="25%">
-			<b><h2>Urban Energy Laboratory</h2></b>
-		<br>
-	</div>
-</div>
+<div class="container-fluid px-md-5">
 
-<div class="row" id="intro_contents">
-	<div class="col-md-1"></div>
-	<div class="col-md-10">
-		<div class="row">
-			<div class="col-md-5">
-				<div id="introduction">	
-					<b><h3>Welcome!</h3></b>
-					<font size="3">
-					The <b>Urbanism Energy Laboratory</b> is embedded within the 3D Geoinformation group, which is part of the Department of Urbanism at TU Delft's Faculty of Architecture and Built Environment.
-					<br><br>
-					We are an international group of researchers working on heterogenous topics mainly dealing with energy in the context of the built environment. In particular, we focus on tacking challenges that relate to urban suistainability, urban transition and the on-going digitalisation process.
-					<br><br>
-					Together with our TU-Delft and international colleagues we also investigate how and in which cases Urban Digital Twins can help and support different stakeholders (e.g. citizens, municipalities, planners) in the co-creation and co-development process to jointly design and implement urban solutions, therefore moving from top-down planning to bottom-up approaches.
-					<br>
-					</font>
-				</div>
-			</div>		
-			<div class="col-md-7">
-				<div style="text-align: center;">
-					<br><br><br><br>
-					<img src="./images/cover.jpg" alt="UrbäNRG Lab" class="img-fluid" style="max-height:380px; object-fit:cover; width:100%;">
-				</div>
-			</div>	
-		</div>	
-	</div>
-	<div class="col-md-1"></div>
-</div>
-
-<div class="row" id="vision">
-	<div class="col-md-1"></div>
-	<div class="col-md-10">
-		<div id="topics">
-			<b><h3>Research topics and vision</h3></b>
-			<font size="3">
-			Our research interests span over the fields of urban digital twinning (based on semantic 3D city models), urban-scale energy simulation, data modelling and standardisation. The leitmotif is to foster software and data integration to allow complex urban system simulations and to bridge the the gap between geo-information and urban planning in order to support engineers, architects, urban planners - and ultimately citizens! -  in their daily activities, eventually contributing to reshaping our homes and cities to be better liveable and sustainable.
-			<br><br>
-			We strongly believe in open-science by pushing open-access publications, developing open-source software, reproducible methodologies and results in order to maximise our impact on society.
-			</font>
-		</div>
-
-	</div>
-	<div class="col-md-1"></div>
-</div>
-
-<div class="row" id="contact">
-	<div class="col-md-1"></div>
-	<div class="col-md-10">
-		<div class="row">
-			<div class="col-md-5">
-				<div id="members_and_projects">
-					<b><h3>Curious to know more?</h3></b>
-					<font size="3">
-					Check out <a href="./members.html">who</a> we are and <a href="./projects.html">what</a> we do!
-					</font>
-				</div>
-				<div id="members_and_projects">
-					<b><h3>Get in contact!</h3></b>
-					<font size="3">
-					You can find us at the TU Delft, Faculty of Architecture and Built Environment, Julianalaan 134, Delft 2628BL, The Netherlands.<br><br>
-					<a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/">How to get here</a><br>
-					</font>
-				</div>
-			</div>
-			<div class="col-md-7">
-				<div class="map">
-					<br><br><br><br>
-					<iframe class="gmap"
-				  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2456.0722428630997!2d4.3707368!3d52.00556149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5ecc1a31d8f%3A0x2431882699573cd1!2sTU%20Delft%20Faculty%20of%20Architecture!5e0!3m2!1sen!2snl!4v1638870025765!5m2!1sen!2snl"
-				  allowfullscreen loading="lazy"></iframe>
-				</div>
-			</div>
+	<!-- ── BANNER ───────────────────────────────────── -->
+	<div class="row" id="intro_banner">
+		<div class="col-12 text-center">
+			<img src="./images/urbanrg.png" alt="UrbäNRG Lab" style="max-height:80px;">
+			<h2>Urban Energy Laboratory</h2>
 		</div>
 	</div>
-	<div class="col-md-1"></div>
-</div>
-</div>
-<br><br>
+
+	<!-- ── WELCOME ──────────────────────────────────── -->
+	<div class="row align-items-center" id="intro_contents">
+		<div class="col-xl-1"></div>
+		<div class="col-xl-4 col-md-5">
+			<h3 class="section-title">Welcome</h3>
+			<p>
+				The <strong>UrbäNRG Lab</strong> is embedded within the
+				<a href="https://3d.bk.tudelft.nl/" target="_blank">3D Geoinformation group</a>,
+				part of the Department of Urbanism at TU Delft's Faculty of Architecture
+				and Built Environment.
+			</p>
+			<p>
+				We are an international group of researchers working on heterogeneous
+				topics dealing with energy in the built environment — urban sustainability,
+				urban transition, and ongoing digitalisation processes.
+			</p>
+			<p>
+				Together with TU Delft and international colleagues we investigate how
+				Urban Digital Twins can support stakeholders in co-creating and co-developing
+				urban solutions, moving from top-down planning to bottom-up approaches.
+			</p>
+		</div>
+		<div class="col-xl-6 col-md-7 mt-4 mt-md-0">
+			<div class="col-xl-1"></div>
+			<img src="./images/cover.jpg" alt="UrbäNRG Lab"
+				class="img-fluid rounded"
+				style="max-height:400px; width:100%; object-fit:cover;
+				       box-shadow:0 4px 20px rgba(12,35,64,0.12);">
+		</div>
+		<div class="col-xl-1"></div>
+	</div>
+
+	<!-- ── VISION ───────────────────────────────────── -->
+	<div class="row" id="vision">
+		<div class="col-xl-1"></div>
+		<div class="col-xl-10 col-md-12">
+			<h3 class="section-title">Research topics &amp; vision</h3>
+			<p>
+				Our research spans urban digital twinning (based on semantic 3D city models),
+				urban-scale energy simulation, and data modelling and standardisation.
+				The leitmotif is to foster software and data integration for complex urban
+				system simulations — bridging geo-information and urban planning to support
+				engineers, architects, urban planners, and ultimately citizens.
+			</p>
+			<p>
+				We strongly believe in open science: open-access publications, open-source
+				software, and reproducible methodologies, to maximise societal impact.
+			</p>
+		</div>
+		<div class="col-xl-1"></div>
+	</div>
+
+	<!-- ── CONTACT ──────────────────────────────────── -->
+	<div class="row align-items-start" id="contact">
+		<div class="col-xl-1"></div>
+		<div class="col-xl-4 col-md-5">
+			<h3 class="section-title">Curious to know more?</h3>
+			<p>
+				Check out <a href="./members/members.html">who we are</a> and
+				<a href="./projects/projects.html">what we do</a>.
+			</p>
+			<h3 class="section-title mt-4">Get in contact</h3>
+			<p>
+				TU Delft, Faculty of Architecture and Built Environment<br>
+				Julianalaan 134, 2628 BL Delft, The Netherlands
+			</p>
+			<p>
+				<a href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/"
+				   target="_blank">
+					How to get here <i class="fas fa-arrow-right fa-xs"></i>
+				</a>
+			</p>
+		</div>
+		<div class="col-xl-6 col-md-7 mt-4 mt-md-0">
+			<iframe class="gmap"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2456.0722428630997!2d4.3707368!3d52.00556149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5ecc1a31d8f%3A0x2431882699573cd1!2sTU%20Delft%20Faculty%20of%20Architecture!5e0!3m2!1sen!2snl!4v1638870025765!5m2!1sen!2snl"
+				allowfullscreen loading="lazy"></iframe>
+		</div>
+		<div class="col-xl-1"></div>
+	</div>
+
+</div><!-- /container-fluid -->
+
 <script>myIncludeHTML();</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
