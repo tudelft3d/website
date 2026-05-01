@@ -19,12 +19,12 @@ permalink: /education/msctopics/
 ## Japan's PLATEAU: from CityGML to CityJSON
 ![](img/plateau.jpg){:width="400px"}
 
-Japan's PLATEAU project is the world's most ambitious 3D city modelling effort, covering 200+ cities with over 170,000 CityGML files where buildings and other city objects are modelled. The [project page](https://www.mlit.go.jp/plateau/) gives a good overview, and the datasets in CityGML are [openly available for download](https://www.mlit.go.jp/plateau/open-data/).
+Japan's PLATEAU project is the world's most ambitious 3D city modelling effort, covering 200+ cities with over 170,000 CityGML files where buildings and other city objects are modelled. The [project page](https://www.mlit.go.jp/plateau/) gives a good overview, and the datasets in CityGML are [openly available for download](https://www.mlit.go.jp/plateau/open-data/). One of the most notable aspects of PLATEAU is the variety and richness of its content: besides buildings, it includes transportation models, water bodies, land use, vegetation, natural-disaster-related information, and in some cases even LoD3 and LoD4 data with rich textures.
 
-The datasets use CityGML (still v2) with a behemoth of an Application Domain Extension (ADE): the i-Urban Revitalization (i-UR) ADE (to support all aspects of urban planning). The full details of the i-UR ADE are [here](https://www.chisou.go.jp/tiiki/toshisaisei/itoshisaisei/iur/index.html) and there is a [scientific summary there](https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/201/2023/isprs-archives-XLVIII-4-W7-2023-201-2023.pdf). 
+The datasets use CityGML (still v2) with a behemoth of an Application Domain Extension (ADE): the i-Urban Revitalization (i-UR) ADE (to support all aspects of urban planning). The full details of the i-UR ADE are [here](https://www.chisou.go.jp/tiiki/toshisaisei/itoshisaisei/iur/index.html) and there is a [scientific summary there](https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/201/2023/isprs-archives-XLVIII-4-W7-2023-201-2023.pdf).
 
-In practice, PLATEAU datasets have not been ported to CityGML 3.0 or to another format mostly because of the complexity of this ADE. 
-Converting the geometries and basic attributes is straightforward with [citygml-tools](https://www.cityjson.org/tutorials/conversion/), but that ignores all the rich extra attributes and new city objects defined in the i-UR ADE.
+In practice, PLATEAU datasets have not been ported to CityGML 3.0 or to another format mostly because of the complexity of this ADE.
+Converting the geometries and basic attributes is straightforward with [citygml-tools](https://www.cityjson.org/tutorials/conversion/), but that ignores all the rich extra attributes and new city objects defined in the i-UR ADE. Through PLATEAU, this research will help reveal how some of the richest CityGML datasets can be converted into CityJSON together with appropriate ADE replacements in the form of [CityJSON extension](https://www.cityjson.org/extensions/).
 
 The goal of this MSc thesis is to convert these massive CityGML datasets into CityJSON (or design and implement a workflow to do it at scale).
 
