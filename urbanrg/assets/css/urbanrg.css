@@ -11,8 +11,8 @@
   --orange:        #E8711A;
   --orange-pale:   #FFF4EC;
   --orange-border: #F9C49A;
-  --blue-pale:     #E6F3FB;
-  --blue-border:   rgba(0,166,214,0.30);
+  --blue-pale:     rgba(0,166,214,0.40);
+  --blue-border:   rgba(0,166,214,0.28);
   --section-alt:   #F5F7F9;
   --text-body:     #1C2B39;
   --text-muted:    #6c757d;
