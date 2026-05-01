@@ -17,7 +17,7 @@ permalink: /education/msctopics/
 
 
 ## Japan's PLATEAU: from CityGML to CityJSON
-![](img/plateau.jpg){:width="400px"}
+![](img/plateau.jpg){:width="600px"}
 
 Japan's PLATEAU project is the world's most ambitious 3D city modelling effort, covering 200+ cities with over 170,000 CityGML files where buildings and other city objects are modelled. The [project page](https://www.mlit.go.jp/plateau/) gives a good overview, and the datasets in CityGML are [openly available for download](https://www.mlit.go.jp/plateau/open-data/). One of the most notable aspects of PLATEAU is the variety and richness of its content: besides buildings, it includes transportation models, water bodies, land use, vegetation, natural-disaster-related information, and in some cases even LoD3 and LoD4 data with rich textures.
 
@@ -35,7 +35,7 @@ Your tasks:
 
 The result would be a showcase for the PLATEAU project and you'd be helping unblock one of the world's largest 3D city model repositories.
 
-**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Hidemichi Baba](http://3d.bk.tudelft.nl/hbaba) + [Toshikazu Seto](https://www.linkedin.com/in/toshikazu-seto-a33577154/) (visiting from the University of Tokyo, with us for a year)
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Hidemichi Baba](http://3d.bk.tudelft.nl/hbaba) + [Toshikazu Seto](https://www.linkedin.com/in/toshikazu-seto-a33577154/) (visiting from Komazawa University, Japan, with us for a year)
 
 - - - 
 
