@@ -11,6 +11,8 @@
   --orange:        #E8711A;
   --orange-pale:   #FFF4EC;
   --orange-border: #F9C49A;
+  --blue-pale:     #E6F3FB;
+  --blue-border:   rgba(0,166,214,0.30);
   --section-alt:   #F5F7F9;
   --text-body:     #1C2B39;
   --text-muted:    #6c757d;
@@ -202,8 +204,7 @@ h2.page-title {
 }
 .pub-entry:last-child { border-bottom: none; }
 
-/* Publication thumbnail — float right, text wraps around it */
-.pub-thumb-link { display: block; float: left; clear: left; margin: 0 14px 6px 0; }
+/* Publication thumbnail — floated left, text wraps around it */
 .pub-thumb {
   display: block;
   width: 105px;
@@ -215,6 +216,31 @@ h2.page-title {
   transition: opacity 0.15s;
 }
 .pub-thumb-link:hover .pub-thumb { opacity: 0.78; cursor: zoom-in; }
+
+/* Publication type label — outline pill beneath thumbnail */
+.pub-thumb-link {
+  display: block;
+  float: left;
+  clear: left;
+  margin: 0 14px 6px 0;
+  text-align: center;
+}
+.pub-thumb-link::after {
+  display: inline-block;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 20px;
+  border: 1.5px solid currentColor;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.pub-thumb-link.journal::after      { content: 'Journal';      color: #0C2340; }
+.pub-thumb-link.conference::after   { content: 'Conference';   color: #0D7A8A; }
+.pub-thumb-link.tech-report::after  { content: 'Tech. Report'; color: #B26A00; }
+.pub-thumb-link.book-chapter::after { content: 'Book Chapter'; color: #4A5E70; }
 
 /* ── LIGHTBOX ───────────────────────────────────────── */
 .pub-lightbox {
@@ -271,9 +297,9 @@ h2.page-title {
   position: sticky;
   top: 76px;
   padding: 0.6rem 0.75rem;
-  background: var(--section-alt);
+  background: var(--blue-pale);
   border-radius: var(--radius);
-  border: 1px solid var(--border);
+  border: 1px solid var(--blue-border);
   font-size: 0.8rem;
 }
 .pub-year-nav h6 {
@@ -287,7 +313,7 @@ h2.page-title {
 }
 .pub-year-nav h6:first-child { margin-top: 0; }
 .pub-year-nav ul { list-style: none; padding: 0; margin: 0; }
-.pub-year-nav li { border-bottom: 1px solid var(--border); }
+.pub-year-nav li { border-bottom: 1px solid var(--blue-border); }
 .pub-year-nav li:last-child { border-bottom: none; }
 .pub-year-nav a {
   display: block;
@@ -354,8 +380,8 @@ h2.page-title {
   position: sticky;
   top: 72px;
   margin-left: 1.5rem;
-  background: var(--orange-pale);
-  border: 1px solid var(--orange-border);
+  background: var(--blue-pale);
+  border: 1px solid var(--blue-border);
   border-radius: var(--radius);
   padding: 1.5rem;
   max-height: calc(100vh - 90px);
@@ -365,7 +391,7 @@ h2.page-title {
 .sidebar-widget {
   padding-bottom: 1.4rem;
   margin-bottom: 1.4rem;
-  border-bottom: 1px solid var(--orange-border);
+  border-bottom: 1px solid var(--blue-border);
 }
 .sidebar-widget:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 
@@ -387,7 +413,7 @@ h2.page-title {
   justify-content: center;
   width: 22px;
   height: 22px;
-  background: var(--orange);
+  background: var(--tud-blue);
   border-radius: 4px;
   flex-shrink: 0;
   color: #fff;
@@ -402,21 +428,21 @@ h2.page-title {
   font-weight: 700;
   text-transform: uppercase;
 }
-.sidebar-heading a:hover { color: var(--orange); }
+.sidebar-heading a:hover { color: var(--tud-blue); }
 
 .sidebar-news-item {
   margin-bottom: 0.8rem;
   background: #fff;
   border-radius: 5px;
   padding: 0.6rem 0.75rem;
-  border: 1px solid var(--orange-border);
+  border: 1px solid var(--blue-border);
 }
 .sidebar-news-date {
   display: block;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.07em;
-  color: var(--orange);
+  color: var(--tud-blue);
   text-transform: uppercase;
   margin-bottom: 0.2rem;
 }
@@ -426,13 +452,13 @@ h2.page-title {
   color: var(--text-body);
   line-height: 1.4;
 }
-.sidebar-news-item a:hover { color: var(--orange); }
+.sidebar-news-item a:hover { color: var(--tud-blue); }
 
 .sidebar-more {
   display: inline-block;
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--orange);
+  color: var(--tud-blue);
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
