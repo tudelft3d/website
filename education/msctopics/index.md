@@ -15,6 +15,30 @@ permalink: /education/msctopics/
 
 - - -
 
+
+## Japan's PLATEAU: from CityGML to CityJSON
+![](img/plateau.jpg){:width="400px"}
+
+Japan's PLATEAU project is the world's most ambitious 3D city modelling effort, covering 200+ cities with over 170,000 CityGML files where buildings and other city objects are modelled. The [project page](https://www.mlit.go.jp/plateau/) gives a good overview, and the datasets in CityGML are [openly available for download](https://www.mlit.go.jp/plateau/open-data/).
+
+The datasets use CityGML (still v2) with a behemoth of an Application Domain Extension (ADE): the i-Urban Revitalization (i-UR) ADE (to support all aspects of urban planning). The full details of the i-UR ADE are [here](https://www.chisou.go.jp/tiiki/toshisaisei/itoshisaisei/iur/index.html) and there is a [scientific summary there](https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/201/2023/isprs-archives-XLVIII-4-W7-2023-201-2023.pdf). 
+
+In practice, PLATEAU datasets have not been ported to CityGML 3.0 or to another format mostly because of the complexity of this ADE. 
+Converting the geometries and basic attributes is straightforward with [citygml-tools](https://www.cityjson.org/tutorials/conversion/), but that ignores all the rich extra attributes and new city objects defined in the i-UR ADE.
+
+The goal of this MSc thesis is to convert these massive CityGML datasets into CityJSON (or design and implement a workflow to do it at scale).
+
+Your tasks:
+
+1. Analyse the current ADE and design and implement a [CityJSON extension](https://www.cityjson.org/extensions/) to replace it---a mix of manual detective work and smart design decisions
+2. Implement the conversion software/prototype in the language of your choice
+
+The result would be a showcase for the PLATEAU project and you'd be helping unblock one of the world's largest 3D city model repositories.
+
+**Contact:** [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/) + [Hidemichi Baba](http://3d.bk.tudelft.nl/hbaba) + [Toshikazu Seto](https://www.linkedin.com/in/toshikazu-seto-a33577154/) (visiting from the University of Tokyo, with us for a year)
+
+- - - 
+
 ## Global River Model
 
 ![](img/oceancleanup.png){:width="800px"}
