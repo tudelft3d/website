@@ -237,10 +237,14 @@ h2.page-title {
   margin-top: 5px;
   line-height: 1.5;
 }
-.pub-thumb-link.journal::after      { content: 'Journal';      color: #0C2340; }
-.pub-thumb-link.conference::after   { content: 'Conference';   color: #0D7A8A; }
-.pub-thumb-link.tech-report::after  { content: 'Tech. Report'; color: #B26A00; }
-.pub-thumb-link.book-chapter::after { content: 'Book Chapter'; color: #4A5E70; }
+.pub-thumb-link.book-chapter::after { content: 'Book Chapter';  color: #4A5E70; }
+.pub-thumb-link.phd-thesis::after   { content: 'PhD Thesis';    color: #1B6CD1; }
+.pub-thumb-link.article::after      { content: 'Article';       color: #0C2340; }
+.pub-thumb-link.conf-paper::after   { content: 'Conf. Paper';   color: #0D7A8A; }
+.pub-thumb-link.ext-abstract::after { content: 'Ext. Abstract'; color: #85A9CC; }
+.pub-thumb-link.tech-report::after  { content: 'Tech. Report';  color: #B5B5B5; }
+
+
 
 /* ── LIGHTBOX ───────────────────────────────────────── */
 .pub-lightbox {
@@ -499,7 +503,9 @@ h2.page-title {
   color: var(--text-muted);
 }
 
-.news-body { flex: 1; }
+.news-body {
+ flex: 1;
+}
 
 .news-title {
   color: var(--tud-navy);
