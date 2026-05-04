@@ -138,23 +138,6 @@ The goal of this thesis would be to create a robust method to create planar part
 
 - - -
 
-## Different heuristics for CGAL polygon repair
-
-![](img/inout.svg){:width="500px"}
-
-Invalid polygons are a common headache for GIS practitioners. There are a number of methods and tools to deal with them, including the new [Polygon repair](https://doc.cgal.org/6.0-beta1/Polygon_repair/index.html) package of CGAL.
-
-Included in that package, so far there’s only one repair method based on the odd-even rule. This works by starting from the exterior of the polygon and every time that a line is crossed one switches from the exterior to the interior of the polygon and vice versa. However, this is not a one-size-fits-all problem and it would be best to have several repair methods based on different heuristics, such as Boolean set union (merger of all rings into one shape) or difference (inner rings should always carve out holes in the polygon).
-
-The goal of this thesis would be to investigate what other heuristics are useful in practice and to implement them.
-
-**Requirements**: proficiency in C++ programming, some familiarity with CGAL would be desirable.
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
-
-- - -
-
-
 ## Citizen Voices in Climate Action: Developing digital platforms for citizen engagement in climate planning and design
 
 Municipalities worldwide are developing plans and strategies to deal with increasing climate risks. Many of these interventions require citizen support and active participation, e.g., adopting solar PV panels or green roofs or increasing biodiversity in private backyards. Other strategies require people to change their behaviour and social norms. There is, therefore, a need to meaningfully engage citizens in climate strategies. Digital tools provide a means to do so with the potential to reach a large number of citizens. In this context, the [Citizen Voice Initiative](https://zenodo.org/records/12169892) has developed several prototypes for citizen engagement in urban planning and design: (1) [Citizens meet Climate (CmC)](https://zenodo.org/records/12183035): A digital participatory platform to empower citizens to take climate action and (2) [BIO-CiVo](https://zenodo.org/records/12180644): A digital platform to support citizens in improving neighbourhood biodiversity. Navigate through the prototypes: 
