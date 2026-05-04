@@ -213,9 +213,14 @@ h2.page-title {
   border-radius: var(--radius);
   border: 1px solid var(--border);
   background: var(--section-alt);
-  transition: opacity 0.15s;
+  /* transition: opacity 0.15s; */
+  transition: transform .3s;
 }
-.pub-thumb-link:hover .pub-thumb { opacity: 0.78; cursor: zoom-in; }
+.pub-thumb-link:hover .pub-thumb {
+ transform: scale(1.9);
+ /* opacity: 0.78; */
+ cursor: zoom-in;
+}
 
 /* Publication type label — outline pill beneath thumbnail */
 .pub-thumb-link {
@@ -237,6 +242,7 @@ h2.page-title {
   margin-top: 5px;
   line-height: 1.5;
 }
+
 .pub-thumb-link.book-chapter::after { content: 'Book Chapter';  color: #4A5E70; }
 .pub-thumb-link.phd-thesis::after   { content: 'PhD Thesis';    color: #1B6CD1; }
 .pub-thumb-link.article::after      { content: 'Article';       color: #0C2340; }
@@ -580,13 +586,25 @@ h2.page-title {
   object-fit: cover;
   object-position: center top;
   box-shadow: var(--shadow-sm);
+  /* transition: transform .3s; */
 }
+
+/* .news-figure:hover img {
+  width: 100%;
+  height: 100%;
+  object-fit: initial;
+  transform: scale(1.9);
+} */
+
+
 .news-figure figcaption {
   margin-top: 0.45rem;
   font-size: 0.78rem;
   color: var(--text-muted);
   font-style: italic;
 }
+
+
 
 /* Stack on small screens */
 @media (max-width: 767px) {
