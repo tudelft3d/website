@@ -1,16 +1,16 @@
+function get_root_url() {
+	const root_folder = "urbanrg"
+	let root_href = window.location.href;
+	//console.log("root_href", root_href);
+	let root_url = root_href.split(root_folder)[0] // http://localhost:8080/ with backslash
+	root_url = root_url.concat(root_folder, "/")
+	//console.log("root_url", root_url); // http://localhost:8080/urbanrg with backslash
+	return root_url
+}
+
 function myIncludeHTML() {
 	
 	w3.includeHTML(myCallback);
-
-	function get_root_url() {
-		const root_folder = "urbanrg"
-		let root_href = window.location.href;
-		console.log("root_href", root_href);
-		let root_url = root_href.split(root_folder)[0] // http://localhost:8080/ with backslash
-		root_url = root_url.concat(root_folder, "/")
-		console.log("root_url", root_url); // http://localhost:8080/urbanrg with backslash
-		return root_url
-	}
 
 	function myCallback() {
 		// code that has to wait goes here

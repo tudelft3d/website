@@ -22,9 +22,9 @@
 <body>
 <div w3-include-html="../menu/menu.html"></div>
 
-<div class="container-fluid px-md-5">
-	<div class="row" id="news_row">
-		<div class="col-xl-10 offset-xl-1">
+<div id="news_container" class="container-fluid px-md-5">
+	<div id="news_row" class="row">
+		<div id="news_body" class="col-xl-10 offset-xl-1">
 
 			<h2 class="page-title">News</h2>
 
@@ -33,19 +33,50 @@
 				<div class="news-date">
 					<span class="news-year">2026</span>
 				</div>
-			
-				<!-- ── Energy ADE Workshop event ──────────────────────────── -->
-				<div class="news-body">
+
+				<!-- ── ISPRS Toronto congress ───────────────────── -->
+				<!-- Once it is passed, simply delete the "news-body-upcoming" from class -->
+<!-- 				<div id="news_2026_05" class="news-body news-body-upcoming">
 					<p class="news-title">
-						<mark>Upcoming:</mark> CityGML Energy ADE 3.0 Workshop
-						<a href="https://3d.bk.tudelft.nl/events/energy2026/" target="_blank" class="news-link" title="Event page">
-							<i class="fas fa-arrow-up-right-from-square fa-xs"></i>
+						<mark>Upcoming:</mark> ISPRS Congress
+						<a href="https://www.isprs2026toronto.com/" target="_blank" class="news-link" title="Event page"><i class="fas fa-arrow-up-right-from-square fa-xs"></i></a>
+					</p>
+					<p class="news-meta">
+						<i class="fas fa-calendar fa-sm"></i> 4-11 July 2026
+						<br>
+						<i class="fas fa-location-dot fa-sm"></i> Toronto, Canada
+					</p>
+					<div class="news-inline">
+						<div class="news-text">
+							<p>
+								Add some text here
+							</p>
+							<p>
+							</p>
+						</div>
+						<figure class="news-figure">
+							<img src="./images/20260622-01_Delft.jpg"
+								alt="ISPRS Congress, Toronto, Canada, July 2026"
+								class="img-fluid rounded">
+							<figcaption>ISPRS Congress, Toronto, Canada.</figcaption>
+						</figure>
+					</div>
+				</div> -->
+			
+				<!-- ── Energy ADE Workshop event ────────────────── -->
+				<div id="news_2026_04" class="news-body news-body-upcoming">
+					<p class="news-title">
+						<mark>Upcoming: </mark>
+						<span class="news-event-title">
+						CityGML Energy ADE 3.0 Workshop
+						</span>
+						<a class="news-event-link" href="https://3d.bk.tudelft.nl/events/energy2026/" target="_blank" class="news-link" title="Event page"><i class="fas fa-arrow-up-right-from-square fa-xs"></i>
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 22-23 June 2026 &nbsp;&middot;&nbsp;
+						<span class="news-event-date"><i class="fas fa-calendar fa-sm"></i> 22-23 June 2026</span>
 						<br>
-						<i class="fas fa-location-dot fa-sm"></i> TU Delft, Delft, The Netherlands
+						<span class="news-event-location"><i class="fas fa-location-dot fa-sm"></i> TU Delft, The Netherlands</span>
 					</p>
 					<div class="news-inline">
 						<div class="news-text">
@@ -68,18 +99,18 @@
 					</div>
 				</div>
 
-			    <!-- ── Oscar's defense ───────────────────────── -->
-				<div class="news-body">
+			    <!-- ── Oscar's defense ───────────────────────────── -->
+				<div id="news_2026_03" class="news-body">
 					<p class="news-title">
+						<span class="news-event-title">
 						PhD defense, Oscar Roman
-						<a href="#" target="_blank" class="news-link" title="Dissertation">
-							<i class="fas fa-arrow-up-right-from-square fa-xs"></i>
-						</a>
+						</span>
+						<a class="news-event-link" href="" class="news-link" title="Event page"><i class="fas fa-arrow-up-right-from-square fa-xs"></i></a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 27 April 2026 &nbsp;&middot;&nbsp;
+						<span class="news-event-date"><i class="fas fa-calendar fa-sm"></i> 27 April 2026</span>
 						<br>
-						<i class="fas fa-location-dot fa-sm"></i> Trento, Italy
+						<span class="news-event-location"><i class="fas fa-location-dot fa-sm"></i> University of Trento, Italy</span>
 					</p>
 					<div class="news-inline">
 						<div class="news-text">
@@ -105,7 +136,7 @@
 				</div>
 
 				<!-- ── 4TU/14UAS event ──────────────────────────── -->
-				<div class="news-body">
+				<div id="news_2026_02" class="news-body">
 					<p class="news-title">
 						5th 4TU/14UAS Research Day
 						<a href="https://www.4tu.nl/built-environment/Events/DigitalizationEvents/5th-research-day-on-digitalization/" target="_blank" class="news-link" title="Event page">
@@ -113,7 +144,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 16 April 2026 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 16 April 2026
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> University of Twente, Enschede, The Netherlands
 					</p>
@@ -139,7 +170,7 @@
 				</div>
 
 				<!-- ── FlexPED kick-off ──────────────────────────── -->
-				<div class="news-body">
+				<div id="news_2026_01" class="news-body">
 					<p class="news-title">
 						Kick-off of EU project FlexPED
 						<a href="https://flexped.eu" target="_blank" class="news-link" title="Event page">
@@ -147,7 +178,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 25 February &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 25 February
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> HFT Stuttgart, Germany
 					</p>
@@ -182,7 +213,7 @@
 				</div>
 				
 			    <!-- ── Camilo's defense ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2025_03" class="news-body">
 					<p class="news-title">
 						PhD defense, Camilo León-Sánchez
 						<a href="#" target="_blank" class="news-link" title="Dissertation">
@@ -190,7 +221,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 6 October 2025 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 6 October 2025
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> TU Delft, Delft, The Netherlands
 					</p>
@@ -223,7 +254,7 @@
 				</div>
 
 				<!-- ── RenoDAT kick-off ──────────────────────────── -->
-				<div class="news-body">
+				<div id="news_2025_02" class="news-body">
 					<p class="news-title">
 						Kick-off of RenoDAT project 
 						<a href="https://flexped.eu" target="_blank" class="news-link" title="Event page">
@@ -231,7 +262,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 15 September &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 15 September
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> TU Delft, Delft, The Netherlands
 					</p>
@@ -254,7 +285,7 @@
 				</div>
 
 			    <!-- ── 3D Geoinfo Japan ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2025_01" class="news-body">
 					<p class="news-title">
 						3DGeoinfo & Smart Data Smart Cities conferences
 						<a href="https://www.csis.u-tokyo.ac.jp/3d_geoinfo_sdsc_2025/overview.html" target="_blank" class="news-link" title="Event page">
@@ -262,7 +293,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 2-5 September 2025 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 2-5 September 2025
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> University of Tokyo, Kashiwa, Chiba, Japan
 					</p>
@@ -298,7 +329,7 @@
 				</div>
 				
 			    <!-- ── 3D Geoinfo Vigo ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2024_04" class="news-body">
 					<p class="news-title">
 						3DGeoinfo conference
 						<a href="https://www.csis.u-tokyo.ac.jp/3d_geoinfo_sdsc_2025/overview.html" target="_blank" class="news-link" title="Event page">
@@ -306,7 +337,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 2-5 September 2025 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 2-5 September 2025
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> University of Tokyo, Kashiwa, Chiba, Japan
 					</p>
@@ -334,7 +365,7 @@
 				</div>
 
 				<!-- ── 4TU/14UAS event ──────────────────────────── -->
-				<div class="news-body">
+				<div id="news_2024_03" class="news-body">
 					<p class="news-title">
 						3rd 4TU/14UAS Research Day
 						<a href="https://www.4tu.nl/built-environment/Events/DigitalizationEvents/2nd%204TU-14UAS%20Research%20Day%20on%20Digitalization%20of%20the%20Built%20Environment/" target="_blank" class="news-link" title="Event page">
@@ -342,7 +373,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 25 April 2024 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 25 April 2024
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> TU Delft, The Netherlands
 					</p>
@@ -365,7 +396,7 @@
 				</div>
 
 			    <!-- ── DigiTwins4PEDs kick-off ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2024_02" class="news-body">
 					<p class="news-title">
 						Kick-off of EU project DigiTwins4PEDs
 						<a href="https://digitwins4peds.eu" target="_blank" class="news-link" title="Event page">
@@ -373,7 +404,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 21 February &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 21 February
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> HFT Stuttgart, Germany
 					</p>
@@ -397,7 +428,7 @@
 				</div>
 
 			    <!-- ── Maria's defense ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2024_01" class="news-body">
 					<p class="news-title">
 						PhD defense, María Sánchez Aparicio
 						<a href="#" target="_blank" class="news-link" title="Dissertation">
@@ -405,7 +436,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 20 March 2024 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 20 March 2024
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> Ávila, Spain
 					</p>
@@ -442,7 +473,7 @@
 				</div>
 				
 			    <!-- ── 3D Geoinfo Munchen ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2023_02" class="news-body">
 					<p class="news-title">
 						3DGeoinfo conference
 						<a href="https://www.asg.ed.tum.de/en/gis/news/article/the-18th-international-3dgeoinfo-conference-2023-will-be-take-place-in-munich-from-12th-to-14th-september-2023/" target="_blank" class="news-link" title="Event site">
@@ -450,7 +481,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 12-14 September 2023 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 12-14 September 2023
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> TU Mümchen, München, Germany
 					</p>
@@ -472,7 +503,7 @@
 				</div>
 
 				<!-- ── 4TU/14UAS event ──────────────────────────── -->
-				<div class="news-body">
+				<div id="news_2023_01" class="news-body">
 					<p class="news-title">
 						2nd 4TU/14UAS Research Day
 						<a href="https://www.4tu.nl/built-environment/Events/DigitalizationEvents/2nd%204TU-14UAS%20Research%20Day%20on%20Digitalization%20of%20the%20Built%20Environment/" target="_blank" class="news-link" title="Event site">
@@ -480,7 +511,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 27 March 2023 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 27 March 2023
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> TU Eindhoven, The Netherlands
 					</p>
@@ -511,7 +542,7 @@
 				</div>
 
 			    <!-- ── SDSC Sydney ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2022_02" class="news-body">
 					<p class="news-title">
 						3DGeoinfo and Smart Data and Smart Cities conferences
 						<a href="https://www.sdsc3dgeoinfo.unsw.edu.au/" target="_blank" class="news-link" title="Event site">
@@ -519,7 +550,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 18-21 October 2022 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 18-21 October 2022
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> Syndey, Australia
 					</p>
@@ -540,7 +571,7 @@
 				</div>
 
 			    <!-- ── ISPRS Congress Nice ───────────────────────── -->
-				<div class="news-body">
+				<div id="news_2022_01" class="news-body">
 					<p class="news-title">
 						ISPRS Congress
 						<a href="https://www.isprs2022-nice.com/" target="_blank" class="news-link" title="Event site">
@@ -548,7 +579,7 @@
 						</a>
 					</p>
 					<p class="news-meta">
-						<i class="fas fa-calendar fa-sm"></i> 6-11 June 2022 &nbsp;&middot;&nbsp;
+						<i class="fas fa-calendar fa-sm"></i> 6-11 June 2022
 						<br>
 						<i class="fas fa-location-dot fa-sm"></i> Nice, France
 					</p>

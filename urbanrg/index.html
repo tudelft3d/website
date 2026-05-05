@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<script src="./assets/js/w3.js"></script>
 	<script src="./assets/js/insertMenu.js"></script>
-	<!-- <script src="./assets/js/getLatestNewsItem.js"></script> -->
+	<script src="./assets/js/getLatestNewsItem.js"></script>
 </head>
 
 <body>
@@ -178,17 +178,35 @@
 		<div class="col-lg-2">
 			<div class="sidebar">
 
+				<!-- Upcoming events -->
+				<div id="sidebar_upcoming_events" class="sidebar-widget">
+					<h6 class="sidebar-heading">
+						<span class="sidebar-icon"><i class="fas fa-newspaper"></i></span>
+						Upcoming events
+					</h6>
+
+					<div class="sidebar-news-item">
+						<span id="sidebar-upcoming-date">xxx_date_xxx</span><br>
+						<a id="sidebar-upcoming-title" href="">xxx_title_xxx</a>
+					</div>
+
+				</div>
+
+
 				<!-- Latest News -->
-				<div class="sidebar-widget">
+				<div id="sidebar_news" class="sidebar-widget">
 					<h6 class="sidebar-heading">
 						<span class="sidebar-icon"><i class="fas fa-newspaper"></i></span>
 						Latest News
 					</h6>
+
 					<div class="sidebar-news-item">
-						<span class="sidebar-news-date">Apr 2026</span>
-						<a href="./news/news.html">Four presentations at the 4TU / 14UAS Research Day — University of Twente</a>
+						<span id="sidebar-news-date">xxx_date_xxx</span><br>
+						<a id="sidebar-news-title" href="">xxx_title_xxx</a>
 					</div>
+
 					<a href="./news/news.html" class="sidebar-more">All news <i class="fas fa-arrow-right fa-xs"></i></a>
+
 				</div>
 
 				<!-- Members -->
@@ -215,7 +233,7 @@
 </div><!-- /container-fluid -->
 
 <script>myIncludeHTML();</script>
-<!-- <script>getLatestNewsItem();</script> -->
+<script>getLatestNewsItem();</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
