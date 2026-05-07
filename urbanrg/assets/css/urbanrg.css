@@ -492,16 +492,14 @@ h2.page-title {
   column-gap: 2.5rem;
   row-gap: 2.5rem;
   padding: 1.5rem 0 2.5rem;
-  border-bottom: 1px solid var(--border);
-  align-items: start;
+  align-items: stretch;
 }
-.news-item:last-child { border-bottom: none; }
 
 .news-date {
   grid-column: 1 / -1;
   padding-bottom: 0.5rem;
   margin-bottom: 0.25rem;
-  border-bottom: 2px solid var(--blue-border);
+  border-bottom: 1px solid var(--border);
   text-align: left;
 }
 .news-year {
@@ -515,7 +513,24 @@ h2.page-title {
 
 .news-body {
   min-width: 0;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  column-gap: 1.25rem;
+  grid-template-areas:
+    "title  figure"
+    "meta   figure"
+    "text   figure";
+  align-content: start;
+  background: var(--section-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
 }
+.news-title  { grid-area: title; }
+.news-meta   { grid-area: meta; }
+.news-inline { display: contents; }
+.news-text   { grid-area: text; }
+.news-figure { grid-area: figure; align-self: start; }
 
 .news-title {
   color: var(--tud-navy);
@@ -570,25 +585,26 @@ h2.page-title {
   white-space: nowrap;
 }
 
-.news-inline {
-  display: flex;
-  flex-direction: column-reverse;
-  gap: 1rem;
-}
 .news-text {
   min-width: 0;
 }
 .news-figure {
-  width: 100%;
   margin: 0;
 }
 .news-figure img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  display: block;
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
+  cursor: zoom-in;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.news-figure img:hover {
+  transform: scale(1.04);
+  box-shadow: var(--shadow-md);
 }
 
 /* .news-figure:hover img {
@@ -611,6 +627,14 @@ h2.page-title {
 /* Stack on small screens */
 @media (max-width: 767.98px) {
   .news-item { grid-template-columns: 1fr; }
+  .news-body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "meta"
+      "figure"
+      "text";
+  }
 }
 
 /* ── HOMEPAGE CAROUSEL ─────────────────────────────── */
