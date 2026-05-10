@@ -1,5 +1,23 @@
+---
+layout: post
+title: Congratulations Dr. Nima Forouzandeh Shahraki！
+categories: news
+date: 2026-03-18 12:00
+---
+
 On Wednesday, 18th March, 2026, Nima Forouzandeh Shahraki successfully defended his PhD thesis at TU Delft.
 
 Nima’s PhD thesis is entitled Modelling Daylight for Existing Indoor Spaces - Towards formalisation and automation of input data for robust simulations.
 
 Congratulations, Dr. Nima Forouzandeh Shahraki 🎉
+
+
+![]({{ site.baseurl }}/img/2025/nima1.jpeg)
+![]({{ site.baseurl }}/img/2025/nima2.jpeg)
+
+
+<div style="display: inline-block; vertical-align: top;">
+  <div class="thumbnail" style="padding: 15px;">
+    <a href="https://repository.tudelft.nl/record/uuid:801f628e-7b18-481b-9b5c-fd6c63c90607"><img src="{{ "/phd/nima3.png" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
+  </div>
+</div>
