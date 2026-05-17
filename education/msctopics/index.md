@@ -15,6 +15,28 @@ permalink: /education/msctopics/
 
 - - -
 
+## 3D city model processing using LLMs
+
+![](img/3dcmllm.jpg){:width="800px"}
+
+3D city models are pretty daunting for non-specialists. But what if anyone could use an LLM to query the information in a 3D city model? We could just ask it questions (in any human language) to extract information, or perhaps even to perform an analysis or to edit the model?
+
+The goal of this MSc thesis would be to create methodologies to make this possible. The problem could be tackled from many different directions. Perhaps it would involve developing a tool to extract the necessary context from a 3D city model, or perhaps it could be a [skill](https://www.skills.sh/) for AI agents to link existing tools to LLMs with tool support.
+
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/) or [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
+
+## 3D city models without building footprints
+
+![](img/nofoot.jpg){:width="800px"}
+
+We typically create 3D city models based on 2D topography + elevation data, but most of the topographic data shouldn't be really necessary. Our eyes can see buildings and many other features clearly enough in both a dense Lidar point cloud or a DSM with decent resolution.
+
+Why do we want to avoid using the topographic data? Many reasons: it might not be up to date (or from the same time as the elevation data), it might not have the required quality (eg misaligned footprints), or maybe it just doesn't exist.
+
+The goal of this MSc thesis would be to develop methods to extract usable footprints for 3D city model generation directly from elevation data.
+
+**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
+
 ## Procedural generation of 3D buildings
 
 ![](img/randomCityEngine.png){:width="800px"}
