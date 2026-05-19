@@ -1492,3 +1492,34 @@ Participants in this project can choose from the following four research directi
 2) Proficiency in Python or C++ programming. 3) Knowledge of spatial analysis or computational geometry or deep learning.
 
 **Contact:** [WeixiaoGao](https://3d.bk.tudelft.nl/weixiao), [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/).
+
+- - -
+
+## Urban microclimate simulations @ TU Delft
+
+The aim of this project is to use the OpenFoam solver created by the ETH Zurich to perform simulations of urban microclimates at the neighbourhood scale ([here](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)). Simulations should be performed over the university campus of TU Delft using the City4CFD as an input for building geometry.
+From the outcomes of this MSc thesis, it will be expected to:
+1. Generate the simulation domain and meshing from a set of buildings that can be selected in the 3DBAG
+2. Specify boundary conditions from weather data;
+3. Perform simulations on a test case located in the university campus of TU Delft; and
+4. Study the various output variables that can be obtained from the urbanMicroclimateFoam solver.
+
+![](img/urbanMicroclimateFoam_TUDelft.png){:width="500px"}
+
+The prerequisites for this project are basic knowledge in CFD simulations, programming skills in C/C++, and experience in using Unix operating system.
+
+*Contact:* [Miguel Martin](https://miguelmartin.org/) & [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara)
+
+- - -
+
+## To mesh or not to mesh: immersed boundary methods and porosity in OpenFOAM
+
+One of the major burdens when performing computational fluid dynamic simulations (CFD) is to set up a good mesh. This task becomes really time consuming when geometries are complex, such as high resolution buildings. There are a few strategies to avoid the usage of an explicit mesh, but using immersed boundary methods or porosity definitions which in a very general description allow to construct regular meshes and represent the buildings through forces.
+
+In this MSc thesis we will apply the already developed immersed boundary method in OpenFOAM-extended and compare it with a porosity approach through several standarzied CFD study cases. The results can potentially help us reducing the number of buildings to be mesh explicitely, and therefore the amount of time spent designing our city mesh.
+
+If you work on this topic, you can expect to learn about CFD best practice guidelines, set-ups and flow simulations. You will also work with real experimental wind and turbulence data recorded in wind tunnels. Programming experience and interest is an advantage for this topic. Your work will require to implement source code for the analysis of the set-ups (in C++ or Python).
+
+![](img/ToMeshOrNotToMesh.jpg){:width="800px"}
+
+**Contact:** [Clara García-Sánchez](http://3d.bk.tudelft.nl/gsclara) and [Ivan Pađen](http://3d.bk.tudelft.nl/ipaden).
