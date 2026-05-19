@@ -17,7 +17,7 @@ permalink: /education/msctopics/
 
 ## Development of a API to automatically exchange CityGML + Energy ADE data to automatize Energy Performance Certification
 
-![](img/epc.jpg){:width="800px"}
+![](img/epc.png){:width="800px"}
 
 Within the RenoDAT project, we are developing a prototype for the Building Renovation Passport in the Netherlands.
 Preliminary work so far has proposed a data model based on the international standard CityGML and the newest Energy ADE 3.0.
