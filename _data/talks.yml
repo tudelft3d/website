@@ -1,36 +1,53 @@
+- title: ""
+  name: ""
+  room: "BG West 670"
+  date: 2026-07-23
+  snacks: ""
+  
+- title: ""
+  name: ""
+  room: "BG West 670"
+  date: 2026-07-16
+  snacks: ""
 
+- title: "Research Updates"
+  name: "Amy"
+  room: "BG West 670"
+  date: 2026-07-09
+  snacks: ""
+  
+- title: "UDS-catch-up"
+  name: ""
+  room: "Our Office"
+  date: 2026-07-02
+  snacks: ""
+  
 - title: "Results after 2nd research visit"
   name: "Michele Berlato"
   room: "BG West 670"
   date: 2026-06-25
   snacks: ""
 
-- title: "UDS-catch-up"
-  name: ""
+- title: "Building a pipeline to detect hallucinated references"
+  name: "Ken"
   room: "BG West 670"
-  date: 2026-06-23
+  date: 2026-06-18
   snacks: ""
 
-- title: ""
-  name: ""
-  room: "BG West 670"
-  date: 2026-06-16
-  snacks: ""
-
-- title: "Building an ecosystem for sustainable urban informatics"
-  name: "Filip Biljecki"
+- title: "Workflows and strategies to use LLM in research"
+  name: "Hugo Ledoux"
   room: "BG West 670"
   date: 2026-06-11
   snacks: ""
 
 - title: "UDS-catch-up"
   name: ""
-  room: "BG West 670"
+  room: "Our Office"
   date: 2026-06-04
   snacks: ""
 
-- title: ""
-  name: ""
+- title: "Research Updates"
+  name: "Hidemichi"
   room: "BG West 670"
   date: 2026-05-28
   snacks: ""
@@ -49,7 +66,7 @@
 
 - title: "UDS-catch-up"
   name: ""
-  room: "BG West 670"
+  room: "Our Office"
   date: 2026-05-07
   snacks: ""
 
@@ -85,7 +102,7 @@
 
 - title: "UDS-catch-up"
   name: ""
-  room: "BG West 670"
+  room: "Our Office"
   date: 2026-03-26
   snacks: ""
 
@@ -109,7 +126,7 @@
 
 - title: "UDS-catch-up"
   name: ""
-  room: "BG West 670"
+  room: "Our Office"
   date: 2026-02-26
   snacks: ""
 
@@ -139,7 +156,7 @@
 
 - title: "UDS-catch-up"
   name: ""
-  room: "BG West 670"
+  room: "Our Office"
   date: 2026-01-22
   snacks: ""
 
