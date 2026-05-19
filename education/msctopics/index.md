@@ -15,6 +15,28 @@ permalink: /education/msctopics/
 
 - - -
 
+## Development of a API to automatically exchange CityGML + Energy ADE data to automatize Energy Performance Certification
+
+Within the RenoDAT project, we are developing a prototype for the Building Renovation Passport in the Netherlands.
+Preliminary work so far has proposed a data model based on the international standard CityGML and the newest Energy ADE 3.0.
+The underlying problem is that the building data needed to plan a renovation/refurbishment is scattered across many separate repositories,
+each with its own format. Sharing and reusing this data, between owners, advisors, municipalities and software tools, requires a common, standardized way to exchange it.
+
+The objective of the thesis is to design an API that provides access to CityGML and Energy ADE 3.0
+data. The use case is to exchange data to and from the software tools developed by Intec-Vabi that is one of the reference tools in the NL
+for EPC (Energy Performance Certificate) calculation.
+
+This thesis is a cooperation with the Dutch company Intec-Vabi.
+
+For the thesis you will (mainly) use Python, SQL, and optionally some JavaScript.
+
+You are hearily invited to have taken the GEO1006 and GEO1004 courses before.
+Before picking the topic, please get in touch with either of the following supervisors
+
+**Contact:** [Hiba Doi](https://3d.bk.tudelft.nl/hiba/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
 ## 3D city model processing using LLMs
 
 ![](img/3dcmllm.jpg){:width="800px"}
