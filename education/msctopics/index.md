@@ -149,7 +149,7 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 ## How much polluted air we breath in our bike paths?
 
-![](img/BikeMotorbike.jpg{:width="800px"}
+![](img/BikeMotorbike.png{:width="800px"}
 
 Whenever we are biking to work, home, to meet someone are often using the bike paths designed for bikes. However, certain motorbikes are also allowed in such paths, often overtaking slower riders and stopping in front of bikes for crossing roads. 
 
