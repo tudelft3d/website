@@ -1,3 +1,85 @@
+
+
+
+- - -
+
+## Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS
+
+[CitySim](http://www.kaemco.ch/download.php) is an open-source simulation software to perform different energy simulations for buildings/districts (e.g. space heating energy demand, solar irradiation, urban heat islands). The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CityJSON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB).
+The scope of this thesis is to extend to QGIS plugin in order to allow for data preparation, run CitySim's energy simulations, collect and analyse of the simulation results from within QGIS by developing a GUI dialog and extending a bidirectional interface between the two software packages. A python-based first prototype of the interface was already partially developed in a [thesis completed in June 2022](http://resolver.tudelft.nl/uuid:3ae123bd-cae4-45b2-be48-27ffe5cab980). The ultimate goal is to allow for a seamless flow of information and to perform energy simulations in CitySim exploting the added value of a semantic 3D city model encoded using the CityGML data model.
+
+![](img/3dcdb-tools_citysim_mini.jpg){:width="800px"}
+
+The thesis is a collaboration between the 3DGeoinformation group and the [Idiap Research Institute](https://www.idiap.ch/en/scientific-research/energy-informatics/index_html) in Switzerland. Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is highly recommended, as many relevant topics needed for this thesis will be covered.
+
+You will programm in Python and in PL/pgSQL.
+Before picking the topic, please contact us!
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Development of the *client-side* part of the 3DCityDB-Tools plugin for QGIS to support CityGML 3.0 data
+
+The [3DCityDB-Tools](https://github.com/tudelft3d/3DCityDB-Tools-for-QGIS) plugin for QGIS allows to conveniently use CityGML/CitySON data stored in the free and open-source [3D City Database](https://www.3dcitydb.org/3dcitydb/) (3DCityDB). For the new 3DCityDB v.5.0, which introduces support for CityGML 3.0., a MSc thesis has already investigated and developed the (PostgreSQL-based) server-side part of the plugin.
+  
+The scope of this thesis is build upon it and to develop the client-side part of the plugin, thus facilitating the user's interaction with CityGML 3.0 data in the database using the usual QGIS GUI, instead of writing SQL commands. 
+
+![](img/3dcdb5_qgis_mini.jpg){:width="800px"}
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered.
+
+You will programm mainly in Python, you will learn how to use the Qt libraries, and you will need to use (a bit of) PL/pgSQL, too.
+Before picking the topic, please contact us!
+
+**Contact:** [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
+
+## Automatic creation of detailed building energy models from 3DBAG
+
+The aim of this project is to develop a procedure from which a sequence of detailed building energy models can be automatically created from the 3DBAG. From the models, it should be possible to estimate the energy consumed by buildings at the neighbourhood scale using the EnergyPlus simulation program (<a href="https://energyplus.net/">here</a>). The procedure should be implemented in Python.
+This project is a continuity of another MSc thesis on inferring the residential building type from 3DBAG (<a href="https://3d.bk.tudelft.nl/education/#theses">here</a>). From the outcomes of this MSc thesis, it will be expected to:
+1. Identify material properties, internal heat gains, and HVAC systems for each type of buildings;
+2. Include these information in EnergyPlus template files;
+3. Automatically create a sequence of detailed building energy models from EnergyPlus template files and 3DBAG;
+4. Perform simulations (in sequence or in parallel) to assess the energy consume by buildings at the neighbourhood scale and evaluate retrofitting strategies.
+
+![](img/eplus_3DBAG.png)
+
+The prerequisites for this project are basic knowledge in building physics and programming skills in Python.
+
+**Contact:** [Dr. Miguel Martin](https://3d.bk.tudelft.nl/mmartin/); [Camilo Leon-Sanchez](https://3d.bk.tudelft.nl/cleon/)
+
+- - -
+
+## Integration of 3DcityDB + Energy ADE 2.0 into a Solar Potential Analysis Engine
+![](img/ImageSolarPotential3DCityDBEnergyADE2.png){:width="800px"}
+
+This MSc thesis topic builds upon the work in Longxiang Xu’s MSc thesis project, [“High-resolution, large-scale, and fast calculation of solar irradiance with 3D City Models”](https://repository.tudelft.nl/record/uuid:d97174a3-3e1b-4e64-8de0-33a6ec2c48b2). Therefore, it is planned to extend, review, and update current functionalities, and to add new ones. Among the new functionalities expected are:
+•⁠  ⁠Provide support for loading CityObjects into the simulation scene via a 3DcityDB instance.
+•⁠  ⁠Enable writing results to a 3DCityDB + Energy ADE 2.0 instance.
+•⁠  ⁠Allow selection of CityObjects for simulation (i.e., computing the solar potential of a selected building within a scene).
+•⁠  ⁠Generation of appearances based on the simulation results and export them to a 3DcityDB instance.
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=67386) in Q5 is _highly_ suggested, as relevant topics needed for this thesis will be covered. Proficiency in programming is a plus, preferably C++. Before picking the topic, please contact us!
+
+**Contact:** [Camilo León Sánchez](https://3d.bk.tudelft.nl/cleon/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/), 
+
+
+- - -
+
+## Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas
+
+Urban building energy modeling (UBEM) can be a powerful tool to contribute to building energy performance and renewable integration in urban areas. Due to the complexity of modeling whole cities, building geometries in UBEM are typically simplified to reduce the computational expense of simulations. The goal of this thesis is to assess the impact of level of detail (LOD) in building models, and roof shape in particular, on UBEM simulations. The student will work with the software tool [City Energy Analyst (CEA)](https://www.cityenergyanalyst.com). CEA uses shapefiles as inputs, which significantly simplifies building geometries into extruded polygons (LOD1, see below). The student will explore the implementation of the CityGML CityGML data by means of the 3DCityDB with the [Energy ADE v2.0](https://github.com/tudelft3d/Energy_ADE). 
+
+CEA simulation results may also compared to the results obtained through other tools such as CitySim or SimStadt, which already support CityGML data as input datasets. The results of this thesis will contribute to a better understanding the tradeoffs in input simplification in large scale simulations and the resulting predicted energy performance and solar potential in urban areas.
+![](img/CityGML2CEA.png){:width="800px"}
+
+Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=52747) in Q5 is highly suggested. Prerequisites for this project is good programming skills (Python, SQL) and good understanding UML, specially of the CityGML data model.
+
+**Contact:** [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/), [Camilo León Sánchez](https://www.tudelft.nl/en/staff/c.a.leonsanchez/?cHash=71b45d7f95785818f4d5f0223d963d0b)
+
 - - - 
 
 ## Estimating noise pollution with machine learning?
