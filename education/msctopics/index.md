@@ -15,28 +15,29 @@ permalink: /education/msctopics/
 
 - - -
 
-## An API for standardized data exchange in the Dutch Renovation Passport
+## Development of a API to automatically exchange CityGML + Energy ADE data to automatize Energy Performance Certification
 
 ![](img/epc.jpg){:width="800px"}
 
-**This MSc thesis is carried out in collaboration with Vabi**, who provide the software that performs the EPC calculation.
+Within the RenoDAT project, we are developing a prototype for the Building Renovation Passport in the Netherlands.
+Preliminary work so far has proposed a data model based on the international standard CityGML and the newest Energy ADE 3.0.
+The underlying problem is that the building data needed to plan a renovation/refurbishment is scattered across many separate repositories,
+each with its own format. Sharing and reusing this data, between owners, advisors, municipalities and software tools, requires a common, standardized way to exchange it.
 
-The building data needed to plan a renovation is scattered across many separate repositories, each with its own format. Sharing and reusing this data — between owners, advisors, municipalities and software tools — requires a common, standardized way to exchange it.
+The objective of the thesis is to design an API that provides access to CityGML and Energy ADE 3.0
+data. The use case is to exchange data to and from the software tools developed by Intec-Vabi that is one of the reference tools in the NL
+for EPC (Energy Performance Certificate) calculation.
 
-In a recent paper ([link to the abstract](#TODO)), we showed that the CityGML standard 2.0, together with the updated [Energy ADE 3.0](https://github.com/tudelft3d/Energy_ADE), can serve as exactly that common standard: together they cover the data that a Building Renovation Passport needs. This thesis puts that claim to a practical test.
+This thesis is a cooperation with the Dutch company Intec-Vabi.
 
-The objective is to design an API that provides access to CityGML and Energy ADE 3.0 data. As these standards form the basis of the Building Renovation Passport, the API would enable integration with a real industry stakeholder. The partner, Vabi, runs software that performs the EPC (energy performance certificate) calculation. The thesis is therefore not about the calculation itself; it is about whether the standardized data can flow cleanly from the repository to a real calculation service and back.
+For the thesis you will (mainly) use Python, SQL, and optionally some JavaScript.
 
-The goal of this thesis is to design and implement that API. You will:
-
-1. Populate a CityGML and Energy ADE 3.0 database with building data.
-2. Study Vabi's EPC calculation and the inputs it requires.
-3. Build an API that sends building data to the Vabi servers for the EPC calculation and writes the returned results back into the database.
-4. Test the pipeline on a set of buildings, and identify where the data or the standard still falls short.
-
-The thesis does **not** include developing the EPC calculation method itself; that is provided by Vabi.
+You are hearily invited to have taken the GEO1006 and GEO1004 courses before.
+Before picking the topic, please get in touch with either of the following supervisors
 
 **Contact:** [Hiba Doi](https://3d.bk.tudelft.nl/hiba/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+
+- - -
 
 ## 3D city model processing using LLMs
 
