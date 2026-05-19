@@ -147,6 +147,20 @@ Attendance of elective course [GEO5014](https://studiegids.tudelft.nl/a101_displ
 
 - - -
 
+## How much polluted air we breath in our bike paths?
+
+![](img/BikeMotorbike.jpg{:width="800px"}
+
+Whenever we are biking to work, home, to meet someone are often using the bike paths designed for bikes. However, certain motorbikes are also allowed in such paths, often overtaking slower riders and stopping in front of bikes for crossing roads. 
+
+The MSc thesis will focus in quantifying emissions that are respired by potential bikers riding behind motorbikes or stop in crossings. We will look at different distances, wind directions and speeds to determine how the amount of respired pollution changes accordingly. 
+
+If you choose this topic, you can expect to learn about computational fluid dynamics as well as OpenFOAM. Programming experience and interest is an advantage for this topic. Your work might require to implement source code (in C++ or Python or any other language you prefer).
+
+**Contact:** [Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), [Themis Vargiemezis](https://3d.bk.tudelft.nl/tvargiemezis)
+
+- - -
+
 ## IFC in PostgreSQL/PostGIS
 
 ![](img/ifcsql.png){:width="800px"}
