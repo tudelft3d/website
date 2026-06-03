@@ -156,6 +156,22 @@ If you choose this topic, you can expect to learn about computational fluid dyna
 
 - - -
 
+## Learning latent representations of pedestrian-level urban wind fields from RANS simulations
+
+![](img/flowfield_to_latent_space.png){:width="800px"}
+
+Pedestrian wind comfort is an important aspect of sustainable and climate-resilient urban design. Computational fluid dynamics (CFD) can provide detailed information about wind conditions around buildings, but running simulations for many cities, design alternatives, and wind directions remains computationally expensive. At the same time, many urban wind datasets are now becoming available from Reynolds-Averaged Navier-Stokes (RANS) simulations, creating an opportunity to use machine learning to learn reusable patterns in urban flow fields.
+
+The objective of this MSc thesis is to develop a machine-learning framework that learns compact representations of pedestrian-height flow fields from RANS simulations of different cities and wind directions. The project will investigate whether neural-network models, such as autoencoders or U-Net-based architectures, can reconstruct and predict pedestrian-level wind fields from urban geometry and wind-direction information. The thesis will also explore how the learned latent space relates to physical urban morphology indicators, such as building density, street orientation, blockage, and frontal area density.
+
+The work can be developed in different directions depending on the student’s interests. For example, one direction is to focus on representation learning: compressing existing flow fields into a low-dimensional latent space and analysing whether similar cities, wind directions, or flow patterns cluster together.
+
+If you choose this topic, you can expect to learn about urban wind engineering, CFD data processing, machine learning, and Python workflows. Programming experience and interest are important for this topic. Experience with Python and deep learning libraries such as PyTorch is an advantage. Some background or interest in CFD, urban microclimate, or geospatial data processing is also useful.
+
+**Contact:** [Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara), [Themis Vargiemezis](https://3d.bk.tudelft.nl/tvargiemezis)
+
+- - -
+
 ## IFC in PostgreSQL/PostGIS
 
 ![](img/ifcsql.png){:width="800px"}
