@@ -21,7 +21,7 @@ Deadline to apply: to be announced.
 
 ## Job description
 
-Do you want to work at the intersection of artificial intelligence, data engineering, and infrastructure management while collaborating with municipalities and industry partners?
+Do you want to work at the intersection of artificial intelligence, data engineering, and future-proof infrastructure management while collaborating with municipalities and industry partners?
 
 We are looking for a Postdoctoral or Junior Researcher to join a multidisciplinary team developing data-driven Digital Twins for predictive maintenance and inspection of urban infrastructure.
 
