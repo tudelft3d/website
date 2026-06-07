@@ -16,6 +16,12 @@ permalink: /jobs/
 
 <span class="label label-danger">closed</span> 
 <del>
+[Junior or Postdoc researcher Improving, enriching, and harmonising available data sources to optimise AI/data-driven predictive maintenance models for Infrastructure](NGF/)
+</del>
+- - -
+
+<span class="label label-danger">closed</span> 
+<del>
 [Postdoc position in 3D Geoinformation for Energy Data and Flexibility Management for PEDs](flexpeds/)
 </del>
 - - -
