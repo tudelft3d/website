@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Vacancy Junior or Postdoc Researcher Digital Twins and AI-Driven Predictive Maintenance for Urban Infrastructure
+title:  Vacancy Junior or Postdoc AI-Driven Predictive Maintenance and Inspection for Urban Infrastructure
 permalink: /jobs/ngf/
 ---
 <!--
@@ -23,7 +23,7 @@ Deadline to apply: to be announced.
 
 Do you want to work at the intersection of artificial intelligence, data engineering, and infrastructure management while collaborating with municipalities and industry partners?
 
-We are looking for a Postdoctoral or Junior Researcher to join a multidisciplinary team developing data-driven Digital Twins for predictive maintenance of urban infrastructure.
+We are looking for a Postdoctoral or Junior Researcher to join a multidisciplinary team developing data-driven Digital Twins for predictive maintenance and inspection of urban infrastructure.
 
 The position is embedded within the National Growth Fund programme Data-driven maintenance of infrastructure and is closely connected to ongoing research on AI-driven infrastructure management at TU Delft. The project is carried out in collaboration with the Municipality of Amsterdam and industry partners active in infrastructure inspection and asset management.
 Cities collect vast amounts of data about roads, bridges, quay walls, underground utilities, and other infrastructure assets. However, these datasets are often fragmented across departments and organisations, stored in incompatible formats, and difficult to reuse for advanced analytics. As a result, the potential of AI technologies for predictive maintenance remains largely unused.
