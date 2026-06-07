@@ -16,7 +16,7 @@ permalink: /jobs/
 
 <span class="label label-danger">closed</span> 
 <del>
-[Junior or Postdoc researcher Improving, enriching, and harmonising available data sources to optimise AI/data-driven predictive maintenance models for Infrastructure](NGF/)
+[Postdoctoral or Junior Researcher: AI-Driven Predictive Maintenance and Inspection for Urban Infrastructure](ngf/)
 </del>
 - - -
 
