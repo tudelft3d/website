@@ -3,6 +3,7 @@ layout: page
 title:  Vacancy Junior or Postdoctoral researcher AI-Driven Predictive Maintenance and Inspection for Urban Infrastructure
 permalink: /jobs/ngf/
 ---
+
 <!--
 <div class="alert alert-info" role="alert">
 Deadline to apply: to be announced.
