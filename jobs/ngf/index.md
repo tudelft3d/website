@@ -38,13 +38,13 @@ The project aims to deliver:
 
 ## Your Role
 You will work on the development of a data-driven framework for predictive infrastructure maintenance, supporting the development of predictive maintenance and inspection AI model, parallel to an ongoing PhD project. The work includes:
-•	Integrating heterogeneous and multimodal datasets, including inspection records, imagery, sensor observations, maintenance logs, and asset inventories.
-•	Developing harmonised data models and semantic structures for infrastructure management.
-•	Designing data spaces and interoperability solutions that enable data sharing between municipalities, infrastructure operators, and technology providers.
-•	Modelling dependencies between infrastructure assets such as roads, bridges, quay walls, and underground systems.
-•	Creating benchmark environments for validating AI-based predictive maintenance approaches.
-•	Investigating hybrid AI architectures that combine data-driven models with physics-based simulations and engineering models.
-•	Publishing scientific results in leading journals and conferences.
+- Integrating heterogeneous and multimodal datasets, including inspection records, imagery, sensor observations, maintenance logs, and asset inventories.
+- Developing harmonised data models and semantic structures for infrastructure management.
+- Designing data spaces and interoperability solutions that enable data sharing between municipalities, infrastructure operators, and technology providers.
+- Modelling dependencies between infrastructure assets such as roads, bridges, quay walls, and underground systems.
+- Creating benchmark environments for validating AI-based predictive maintenance approaches.
+- Investigating hybrid AI architectures that combine data-driven models with physics-based simulations and engineering models.
+- Publishing scientific results in leading journals and conferences.
 
 ## The team
 The candidate will combine expertise on georelated infrastructure and asset-data, digital twins, and algorithmic decision-making. 
