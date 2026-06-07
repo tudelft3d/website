@@ -25,7 +25,8 @@ Do you want to work at the intersection of artificial intelligence, data enginee
 
 We are looking for a Postdoctoral or Junior Researcher to join a multidisciplinary team developing data-driven Digital Twins for predictive maintenance and inspection of urban infrastructure.
 
-The position is embedded within the National Growth Fund programme Data-driven maintenance of infrastructure and is closely connected to ongoing research on AI-driven infrastructure management at TU Delft. The project is carried out in collaboration with the Municipality of Amsterdam and industry partners active in infrastructure inspection and asset management.
+The position is embedded within the National Growth Fund programme Data-driven maintenance of infrastructure and is closely connected to ongoing research on AI-driven infrastructure management at TU Delft. The project is carried out in collaboration with the Municipality of Amsterdam and industry partners active in infrastructure inspection and asset management. The position will run parallel to a PhD on [Data- and AI-driven Transportation Infrastructure Life-Cycle Extension]{https://3d.bk.tudelft.nl/jobs/PhD2024_NGF/}, that has atarted in 2024.
+
 Cities collect vast amounts of data about roads, bridges, quay walls, underground utilities, and other infrastructure assets. However, these datasets are often fragmented across departments and organisations, stored in incompatible formats, and difficult to reuse for advanced analytics. As a result, the potential of AI technologies for predictive maintenance remains largely unused.
 The goal of this project is to bridge the gap between heterogeneous infrastructure datasets and scalable AI-driven decision-support systems. You will develop methods and frameworks that transform fragmented inspection and maintenance data into interoperable, AI-ready information models that support predictive maintenance and infrastructure resilience.
 
@@ -36,7 +37,7 @@ The project aims to deliver:
 •	Scientific publications and open research outputs.
 
 ## Your Role
-You will work on the development of a data-driven framework for predictive infrastructure maintenance, supporting the development of predictive maintenance and inspection AI model within a running parallel PhD project. The work includes:
+You will work on the development of a data-driven framework for predictive infrastructure maintenance, supporting the development of predictive maintenance and inspection AI model, parallel to an ongoing PhD project. The work includes:
 •	Integrating heterogeneous and multimodal datasets, including inspection records, imagery, sensor observations, maintenance logs, and asset inventories.
 •	Developing harmonised data models and semantic structures for infrastructure management.
 •	Designing data spaces and interoperability solutions that enable data sharing between municipalities, infrastructure operators, and technology providers.
@@ -45,7 +46,7 @@ You will work on the development of a data-driven framework for predictive infra
 •	Investigating hybrid AI architectures that combine data-driven models with physics-based simulations and engineering models.
 •	Publishing scientific results in leading journals and conferences.
 
-##The team
+## The team
 The candidate will combine expertise on georelated infrastructure and asset-data, digital twins, and algorithmic decision-making. 
 She/he/they will work in a team with [Dr Charalampos Andriotis](https://www.cpandriotis.com) (AiDAPT Lab), [PhD candidate Amy Sterrenerg]() and [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (3D Geoinformation). 
 The candidate will closely collaborate with researchers, engineers, and stakeholders associated with the City of Amsterdam and the [Amsterdam Institute of Advanced Metropolitan Solutions](https://www.ams-institute.org).
