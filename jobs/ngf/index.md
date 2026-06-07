@@ -32,10 +32,10 @@ Cities collect vast amounts of data about roads, bridges, quay walls, undergroun
 The goal of this project is to bridge the gap between heterogeneous infrastructure datasets and scalable AI-driven decision-support systems. You will develop methods and frameworks that transform fragmented inspection and maintenance data into interoperable, AI-ready information models that support predictive maintenance and infrastructure resilience.
 
 The project aims to deliver:
-•	AI-ready data models for infrastructure inspection and maintenance.
-•	Improved predictive models for infrastructure degradation and maintenance planning.
-•	A reusable framework for data harmonisation, enrichment, and interoperability that can be adopted by municipalities across the Netherlands.
-•	Scientific publications and open research outputs.
+- AI-ready data models for infrastructure inspection and maintenance.
+- Improved predictive models for infrastructure degradation and maintenance planning.
+- A reusable framework for data harmonisation, enrichment, and interoperability that can be adopted by municipalities across the Netherlands.
+- Scientific publications and open research outputs.
 
 ## Your Role
 You will work on the development of a data-driven framework for predictive infrastructure maintenance, supporting the development of predictive maintenance and inspection AI model, parallel to an ongoing PhD project. The work includes:
