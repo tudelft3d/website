@@ -35,6 +35,7 @@ The project aims to deliver:
 •	A reusable framework for data harmonisation, enrichment, and interoperability that can be adopted by municipalities across the Netherlands.
 •	Scientific publications and open research outputs.
 
+## Your Role
 You will work on the development of a data-driven framework for predictive infrastructure maintenance, supporting the development of predictive maintenance and inspection AI model within a running parallel PhD project. The work includes:
 •	Integrating heterogeneous and multimodal datasets, including inspection records, imagery, sensor observations, maintenance logs, and asset inventories.
 •	Developing harmonised data models and semantic structures for infrastructure management.
@@ -44,39 +45,51 @@ You will work on the development of a data-driven framework for predictive infra
 •	Investigating hybrid AI architectures that combine data-driven models with physics-based simulations and engineering models.
 •	Publishing scientific results in leading journals and conferences.
 
+##The team
+The candidate will combine expertise on georelated infrastructure and asset-data, digital twins, and algorithmic decision-making. 
+She/he/they will work in a team with [Dr Charalampos Andriotis](https://www.cpandriotis.com) (AiDAPT Lab), [PhD candidate Amy Sterrenerg]() and [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (3D Geoinformation). 
+The candidate will closely collaborate with researchers, engineers, and stakeholders associated with the City of Amsterdam and the [Amsterdam Institute of Advanced Metropolitan Solutions](https://www.ams-institute.org).
+
 ## Research group
-The [3D Geoinformation group](https://3d.bk.tudelft.nl/) focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is a multidisciplinary group of around 25 people, including computer scientists, geomatics engineers, and geographers; 6 of them are tenured staff (1 professor, 2 associate professors, and 3 assistant professors). The group has a history of successful collaborations with industry and government in the past: its research has led to open source software, standards, and patents for the management of 3D geographic information and Building Information Models.
+[AiDAPT](https://www.tudelft.nl/ai/aidapt) is TU Delft’s AI-Lab for Design, Analysis and Optimization in the Faculty of Architecture & Built Environment. The lab conducts research on decision-making under uncertainty for structural and architectural systems, at the intersection of risk & reliability, optimization, and machine learning. It is a vibrant team of engineers and computer scientists that work on novel physics-based and data-driven frameworks to understand, control, and improve built environment resilience and sustainability. As part of the [TU Delft AI Initiative](https://www.tudelft.nl/ai/tu-delft-ai-initiative), AiDAPT has links with other Faculties and the [ELLIS](https://www.tudelft.nl/ellis-delft-unit) Unit.
+
+The [3D geoinformation research group](https://3d.bk.tudelft.nl) focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is a multidisciplinary group of around [25 people](https://3d.bk.tudelft.nl/about/), including computer scientists, geomatics engineers, and geographers; 6 of them are tenured staff (1 professor, 2 associate-professor, and 3 assistant-professor). It has a history of successful collaborations with the industry and the government: its research has led to [open source software](https://github.com/tudelft3d) and standards for the management and use of 3D geo-data. 
+
+
 
 ## Job requirements
 <!-- 600 char --> 
-Applicants should:
-- hold an MSc (for junior researcher) or PhD degree (for senior/postdoc researcher) in geoinformatics/geomatics, computer science or engineering (or in a related discipline)
-- have experience in semantic 3D city modelling (in particular: CityGML and its extension mechanism),
-- have knowledge of QGIS and it plugin-based extension mechanism,
-- have good programming skills (e.g. in Python, SQL, Java, JavaScript, etc.)
-- have a good command of English (oral and written)
-- have an affinity with working in multi-disciplinary teams in an internationally oriented environment.
-
+We are looking for candidates who:
+•	Hold an MSc (for junior researcher) or PhD degree (for senior/postdoc researcher)A PhD in Civil Engineering, Computer Science, Geomatics, Data Science, Artificial Intelligence, Infrastructure Systems, or a related field.
+•	Experience with data integration, data modelling, and interoperability standards.
+•	Experience with machine learning, predictive analytics, or AI applications.
+•	Strong programming skills (e.g., Python).
+•	Experience with geospatial data, asset management, or infrastructure systems is highly desirable.
+•	Strong communication skills and the ability to work in interdisciplinary teams.
+•	Excellent written and spoken English.
 
 ## What we offer
-Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities (based on scale 10: € 3.226,00 - € 5.090,00). The employment contract is offered for 2,5 years. The position is open for 38-40 hours per week. The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
+Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities (based on scale 10: € xxxxx - € xxxxx. The employment contract is offered for 2 years. The position is open for 38-40 hours per week. The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
 
 For international applicants, TU Delft has the [Coming to Delft Service](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/nederland-tu-delft/support-for-international-employees). This service provides information for new international employees to help you prepare the relocation and to settle in the Netherlands. The Coming to Delft Service offers a [Dual Career Programme](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/coming-to-the-netherlands-tu-delft/support-for-international-employees/at-tu-delft/dual-career-programme) for partners and they organise events to expand your (social) network.
 
 ## How to apply
 
 <div class="alert alert-info" role="alert">
-Deadline to apply is 19 November 2023.
+This position will open soon.
+	
 </div>
 
+<!--
 You can apply via this [webpage](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=14541&jobTitle=Junior%20or%20Postdoc%20Researcher%20on%20Urban%20Digital%20Twins%20to%20support%20co-creation%20of%20Positive%20Energy%20Districts)
+-->
 
 Your application dossier should contain:
 
 - A detailed CV,
 - A motivation letter (max 1 page) explaining your interest in the research topics to be addressed and describing how you fit in the advertised position,
-- A list of (up to) 5 publications that best relate to this job offer,
-- A list of (up to) 5 previous/current projects that best relate to this job offer, with a short summary of the projects and a brief description of the candidate’s role in them,
+- A list of (up to) 3 publications that best relate to this job offer,
+- A list of (up to) 3 previous/current projects that best relate to this job offer, with a short summary of the projects and a brief description of the candidate’s role in them,
 - Contact details of two references with contact information (recommendation letters from them are not required at this stage).
 
 Please note:
@@ -84,4 +97,4 @@ Please note:
 - A pre-Employment screening can be part of the selection procedure.
 - Please do not contact us for unsolicited services.
 
-For more information about this position, please contact directly [Dr. Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/) (<mailto:g.agugiaro@tudelft.nl>).
+For more information about this position, please contact directly or [Dr Charalampos Andriotis](https://www.cpandriotis.com) (<c.andriotis.tudelft.nl>) [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl>).
