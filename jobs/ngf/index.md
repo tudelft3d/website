@@ -61,13 +61,13 @@ The [3D geoinformation research group](https://3d.bk.tudelft.nl) focuses on the 
 ## Job requirements
 <!-- 600 char --> 
 We are looking for candidates who:
-•	Hold an MSc (for junior researcher) or PhD degree (for senior/postdoc researcher)A PhD in Civil Engineering, Computer Science, Geomatics, Data Science, Artificial Intelligence, Infrastructure Systems, or a related field.
-•	Experience with data integration, data modelling, and interoperability standards.
-•	Experience with machine learning, predictive analytics, or AI applications.
-•	Strong programming skills (e.g., Python).
-•	Experience with geospatial data, asset management, or infrastructure systems is highly desirable.
-•	Strong communication skills and the ability to work in interdisciplinary teams.
-•	Excellent written and spoken English.
+- Hold an MSc (for junior researcher) or PhD degree (for senior/postdoc researcher)A PhD in Civil Engineering, Computer Science, Geomatics, Data Science, Artificial Intelligence, Infrastructure Systems, or a related field.
+- Experience with data integration, data modelling, and interoperability standards.
+- Experience with machine learning, predictive analytics, or AI applications.
+- Strong programming skills (e.g., Python).
+- Experience with geospatial data, asset management, or infrastructure systems is highly desirable.
+- Strong communication skills and the ability to work in interdisciplinary teams.
+- Excellent written and spoken English.
 
 ## What we offer
 Salary and benefits are in accordance with the Collective Labour Agreement for Dutch Universities (based on scale 10: € xxxxx - € xxxxx. The employment contract is offered for 2 years. The position is open for 38-40 hours per week. The TU Delft offers a customisable compensation package, discounts on health insurance, and a monthly work costs contribution. Flexible work schedules can be arranged.
