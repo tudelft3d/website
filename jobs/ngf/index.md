@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Vacancy Junior or Postdoc Researcher Improving, enriching, and harmonising available data sources to optimise AI/data-driven predictive maintenance models for Infrastructure
+title:  Vacancy Junior or Postdoc Researcher Digital Twins and AI-Driven Predictive Maintenance for Urban Infrastructure
 permalink: /jobs/ngf/
 ---
 <!--
@@ -20,8 +20,29 @@ Deadline to apply: to be announced.
 - - - 
 
 ## Job description
-xxxxxxx
 
+Do you want to work at the intersection of artificial intelligence, data engineering, and infrastructure management while collaborating with municipalities and industry partners?
+
+We are looking for a Postdoctoral or Junior Researcher to join a multidisciplinary team developing data-driven Digital Twins for predictive maintenance of urban infrastructure.
+
+The position is embedded within the National Growth Fund programme Data-driven maintenance of infrastructure and is closely connected to ongoing research on AI-driven infrastructure management at TU Delft. The project is carried out in collaboration with the Municipality of Amsterdam and industry partners active in infrastructure inspection and asset management.
+Cities collect vast amounts of data about roads, bridges, quay walls, underground utilities, and other infrastructure assets. However, these datasets are often fragmented across departments and organisations, stored in incompatible formats, and difficult to reuse for advanced analytics. As a result, the potential of AI technologies for predictive maintenance remains largely unused.
+The goal of this project is to bridge the gap between heterogeneous infrastructure datasets and scalable AI-driven decision-support systems. You will develop methods and frameworks that transform fragmented inspection and maintenance data into interoperable, AI-ready information models that support predictive maintenance and infrastructure resilience.
+
+The project aims to deliver:
+•	AI-ready data models for infrastructure inspection and maintenance.
+•	Improved predictive models for infrastructure degradation and maintenance planning.
+•	A reusable framework for data harmonisation, enrichment, and interoperability that can be adopted by municipalities across the Netherlands.
+•	Scientific publications and open research outputs.
+
+You will work on the development of a data-driven framework for predictive infrastructure maintenance, supporting the development of predictive maintenance and inspection AI model within a running parallel PhD project. The work includes:
+•	Integrating heterogeneous and multimodal datasets, including inspection records, imagery, sensor observations, maintenance logs, and asset inventories.
+•	Developing harmonised data models and semantic structures for infrastructure management.
+•	Designing data spaces and interoperability solutions that enable data sharing between municipalities, infrastructure operators, and technology providers.
+•	Modelling dependencies between infrastructure assets such as roads, bridges, quay walls, and underground systems.
+•	Creating benchmark environments for validating AI-based predictive maintenance approaches.
+•	Investigating hybrid AI architectures that combine data-driven models with physics-based simulations and engineering models.
+•	Publishing scientific results in leading journals and conferences.
 
 ## Research group
 The [3D Geoinformation group](https://3d.bk.tudelft.nl/) focuses on the technologies underpinning geographical information systems (GIS), and aims at designing, developing, and implementing better systems to model 3D cities, buildings and landscapes. It is a multidisciplinary group of around 25 people, including computer scientists, geomatics engineers, and geographers; 6 of them are tenured staff (1 professor, 2 associate professors, and 3 assistant professors). The group has a history of successful collaborations with industry and government in the past: its research has led to open source software, standards, and patents for the management of 3D geographic information and Building Information Models.
