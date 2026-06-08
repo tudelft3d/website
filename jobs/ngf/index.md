@@ -26,7 +26,7 @@ Do you want to work at the intersection of artificial intelligence, data enginee
 
 We are looking for a Postdoctoral or Junior Researcher to join a multidisciplinary team developing data-driven Digital Twins for predictive maintenance and inspection of urban infrastructure.
 
-The position is embedded within the National Growth Fund programme Data-driven maintenance of infrastructure and is closely connected to ongoing research on AI-driven infrastructure management at TU Delft. The project is carried out in collaboration with the Municipality of Amsterdam and industry partners active in infrastructure inspection and asset management. The position will run parallel to a PhD on [Data- and AI-driven Transportation Infrastructure Life-Cycle Extension](https://3d.bk.tudelft.nl/jobs/PhD2024_NGF/), that has atarted in 2024.
+The position is embedded within the National Growth Fund programme Data-driven maintenance of infrastructure and is closely connected to ongoing research on AI-driven infrastructure management at TU Delft. The project is carried out in collaboration with the Municipality of Amsterdam and industry partners active in infrastructure inspection and asset management. The position will run parallel to a PhD on [Data- and AI-driven Transportation Infrastructure Life-Cycle Extension](https://3d.bk.tudelft.nl/jobs/PhD2024_NGF/), that has started in 2024.
 
 Cities collect vast amounts of data about roads, bridges, quay walls, underground utilities, and other infrastructure assets. However, these datasets are often fragmented across departments and organisations, stored in incompatible formats, and difficult to reuse for advanced analytics. As a result, the potential of AI technologies for predictive maintenance remains largely unused.
 The goal of this project is to bridge the gap between heterogeneous infrastructure datasets and scalable AI-driven decision-support systems. You will develop methods and frameworks that transform fragmented inspection and maintenance data into interoperable, AI-ready information models that support predictive maintenance and infrastructure resilience.
@@ -49,7 +49,7 @@ You will work on the development of a data-driven framework for predictive infra
 
 ## The team
 The candidate will combine expertise on georelated infrastructure and asset-data, digital twins, and algorithmic decision-making. 
-She/he/they will work in a team with [Dr Charalampos Andriotis](https://www.cpandriotis.com) (AiDAPT Lab), [PhD candidate Amy Sterrenerg]() and [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (3D Geoinformation). 
+She/he/they will work in a team with [Dr Charalampos Andriotis](https://www.cpandriotis.com) (AiDAPT Lab), [PhD candidate Amy Sterrenberg](https://3d.bk.tudelft.nl/asterrenberg/) and [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (3D Geoinformation). 
 The candidate will closely collaborate with researchers, engineers, and stakeholders associated with the City of Amsterdam and the [Amsterdam Institute of Advanced Metropolitan Solutions](https://www.ams-institute.org).
 
 ## Research group
@@ -62,7 +62,7 @@ The [3D geoinformation research group](https://3d.bk.tudelft.nl) focuses on the 
 ## Job requirements
 <!-- 600 char --> 
 We are looking for candidates who:
-- Hold an MSc (for junior researcher) or PhD degree (for senior/postdoc researcher)A PhD in Civil Engineering, Computer Science, Geomatics, Data Science, Artificial Intelligence, Infrastructure Systems, or a related field.
+- Hold an MSc (for junior researcher) or PhD degree (for senior/postdoc researcher) in Civil Engineering, Computer Science, Geomatics, Data Science, Artificial Intelligence, Infrastructure Systems, or a related field.
 - Experience with data integration, data modelling, and interoperability standards.
 - Experience with machine learning, predictive analytics, or AI applications.
 - Strong programming skills (e.g., Python).
@@ -99,4 +99,4 @@ Please note:
 - A pre-Employment screening can be part of the selection procedure.
 - Please do not contact us for unsolicited services.
 
-For more information about this position, please contact directly or [Dr Charalampos Andriotis](https://www.cpandriotis.com) (<c.andriotis.tudelft.nl>) [Prof. Dr Jantien Stoter](http://3dgeoinfo.bk.tudelft.nl/jstoter) (<j.e.stoter@tudelft.nl>).
+For more information about this position, please contact directly [Dr Charalampos Andriotis](<c.andriotis.tudelft.nl>) or [Prof. Dr Jantien Stoter](<j.e.stoter@tudelft.nl>).
