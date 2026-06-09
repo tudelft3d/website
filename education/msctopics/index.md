@@ -374,29 +374,6 @@ This thesis will develop a 3D delineation method for urban river spaces adapting
 
 **Contact:**  [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) and [Claudiu Forgaci](https://www.tudelft.nl/staff/c.forgaci/)
 
-
-- - - 
-
-## Urban building daylight modeling – improving city models 
-
-![](img/daylight.jpg){:width="600px"}
-
-**Background and aim**:
-Decarbonization and improvement of the building stock cannot be realistically planned without considering the existing buildings. Decision-makers need accurate models on different levels of granularity for different types of decision-making. A crucial aspect of building performance is the availability of natural light in indoor spaces which has a direct impact on users' well-being and comfort, as well as its influence on reducing electric lighting consumption.
-The aim of this project is an urban-level assessment of buildings in terms of their daylight performance.
-LOD2 geometry and typical material properties will be used as the key inputs and Radiance as the simulation engine.
-
-**Research question**:
-To what extent do the existing building stock meet the requirements for daylight availability?
-How to efficiently model the existing building stock in urban level?
-
-**Methods**:
-General literature search to find potential pipelines and techniques, and to understand city-level geometry data models (CityGML). Numerical simulation of daylight.
-
-**Final results**: (a) Urban-level assessments of buildings daylight availability, or visual comfort. (b) Suggestions for policy-makers to improve daylight availability in existing buildings. (c) Suggestions (and implementation) for improving CityGML data model and its Application Domain Extension (ADE).
-
-**Contact:** [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd), [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/), and [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/).
-
 - - -
 
 ## Reconstructing permanent indoor structures from multi-view images
