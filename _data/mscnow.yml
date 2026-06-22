@@ -23,11 +23,6 @@
   title: "Testing and enhancing the Scenario ADE in the context of building performance simulation in Rotterdam"
   image: FrederickAuer.jpg
 
-- surname: Rotteveel
-  name: Heiko
-  title: "Automatic water (level) detection using ICESat-2 measurements"
-  image: HeikoRotteveel.jpg
-
 - surname: Pille
   name: Julia
   title: "Seabed Fingerprinting"
@@ -38,7 +33,7 @@
   title: "Automated Generation of Tree-Aware Urban Shade Maps using Deep Learning"
   image: LucJonker.jpg
 
-- surname: Beeren 
+- surname: Beeren
   name: Michel
   title: "Optimizing 3D Alpha Wrapping for CFD Applications; Repairing and Simplifying 3D Building Models"
   image: MichelBeeren.jpg
@@ -48,12 +43,12 @@
   title: "Gaussian Splatting to Piecewise-Planar Surfaces For 3D Building Reconstruction"
   image: MingChiehHu.jpg
 
-- surname: Singh 
+- surname: Singh
   name: Neelabh
   title: "Identifying Sidewalks From Crowdsourced SVI for OSM Enrichment"
   image: NeelabhSingh.jpg
 
-- surname: Wang 
+- surname: Wang
   name: Sue
   title: "Action-Aware Indoor Navigation with Agent-Guided Adaptive Voxelization and Scenario-Aware Replanning"
   image: SueWang.jpg
