@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "High-Resolution Urban CFD Simulations and Measurements for Urban Air Mobility"
-permalink: /jobs/IAM-CC/
+permalink: /jobs/postdocIAM-CC/
 ---
 
 <figure class="image">
