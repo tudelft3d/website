@@ -1,3 +1,11 @@
+- surname: Singh
+  name: Neelabh
+  title: "Identifying Sidewalks from Crowdsourced SVI"
+  image: NeelabhSingh.jpg
+  link: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
+  github: https://github.com/neelabhz/pixel2sidewalk/
+  year: 2026
+
 - surname: Rotteveel
   name: Heiko
   title: "Automatic water detection using ICESat-2 measurements"
