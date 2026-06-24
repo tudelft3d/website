@@ -1,3 +1,11 @@
+- surname: Jonker
+  name: Luc
+  title: "Automated generation of tree-aware urban shade maps using deep learning"
+  image: LucJonker.jpg
+  link: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
+  github: https://github.com/lucjonker/Shady_Shenanigans
+  year: 2026
+
 - surname: Singh
   name: Neelabh
   title: "Identifying Sidewalks from Crowdsourced SVI"
