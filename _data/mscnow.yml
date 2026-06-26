@@ -33,16 +33,6 @@
   title: "Gaussian Splatting to Piecewise-Planar Surfaces For 3D Building Reconstruction"
   image: MingChiehHu.jpg
 
-- surname: Wang
-  name: Sue
-  title: "Action-Aware Indoor Navigation with Agent-Guided Adaptive Voxelization and Scenario-Aware Replanning"
-  image: SueWang.jpg
-
-- surname: Vanderheeren
-  name: Vincent
-  title: "Pillar of Morphology - Enhancing point-based mathematical morphology for processing applications in heritage point clouds"
-  image: VincentVanderheeren.jpg
-
 - surname: Bi
   name: Xinya
   title: "Multi-view Semantic Pruning for 3D Building Reconstruction using Gaussian Splatting"

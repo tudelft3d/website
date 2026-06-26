@@ -1,3 +1,19 @@
+- surname: Wang
+  name: Sue
+  title: "From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs for Congestion-Aware Pedestrian Simulation"
+  image: SueWang.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/26_sue.pdf
+  github: https://github.com/tudelftgeomatics/tud-thesis-showcase
+  year: 2026
+
+- surname: Vanderheeren
+  name: Vincent
+  title: "Pillar of Morphology - Enhancing point-based mathematical morphology for processing applications in heritage point clouds"
+  image: VincentVanderheeren.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/26_vincent.pdf
+  github: https://github.com/Alcardens/Mathematical-morphology-point-cloud
+  year: 2026
+
 - surname: Bry
   name: Alexandre
   title: "From points to prints -- Generating building roofprints and footprints from airborne lidar data and inaccurate outlines"
