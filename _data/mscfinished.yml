@@ -1,3 +1,11 @@
+- surname: Bry
+  name: Alexandre
+  title: "From points to prints -- Generating building roofprints and footprints from airborne lidar data and inaccurate outlines"
+  image: AlexandreBry.jpg
+  link: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
+  github: https://github.com/alexandre-bry/MSc_Thesis-Code
+  year: 2026
+
 - surname: Jonker
   name: Luc
   title: "Automated generation of tree-aware urban shade maps using deep learning"
@@ -21,7 +29,6 @@
   link: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
   github: https://github.com/HeikoRotteveel/ICESat-2_automatic_water_detection
   year: 2026
-
 
 - surname: Brakelé
   name: Sara
