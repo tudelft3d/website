@@ -10,8 +10,8 @@
   date: 2026-07-16
   snacks: ""
 
-- title: "Research Updates"
-  name: "Amy"
+- title: "Introduction"
+  name: "Maria Sanchez"
   room: "BG West 670"
   date: 2026-07-09
   snacks: ""
@@ -22,8 +22,8 @@
   date: 2026-07-02
   snacks: ""
   
-- title: "Results after 2nd research visit"
-  name: "Michele Berlato"
+- title: "Results after 1st & 2nd research visit"
+  name: "Martina Dell’Unto & Michele Berlato"
   room: "BG West 670"
   date: 2026-06-25
   snacks: ""
@@ -46,8 +46,8 @@
   date: 2026-06-04
   snacks: ""
 
-- title: "Research Updates"
-  name: "Hidemichi"
+- title: "Overview & research areas of Stichting EPRC Delft"
+  name: "Martin Ferry (EPRC)"
   room: "BG West 670"
   date: 2026-05-28
   snacks: ""
@@ -57,6 +57,7 @@
   room: "BG West 670"
   date: 2026-05-21
   snacks: ""
+  ppt: "2026-05-21.pdf"
 
 - title: "Public Holiday"
   name: "Ascension Day"
@@ -76,8 +77,8 @@
   date: 2026-04-30
   snacks: ""
 
-- title: "Themis"
-  name: "Introduction"
+- title: "Introduction"
+  name: "Themis"
   room: "BG West 670"
   date: 2026-04-23
   snacks: ""

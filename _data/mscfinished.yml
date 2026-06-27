@@ -1,3 +1,51 @@
+- surname: Wang
+  name: Sue
+  title: "From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs for Congestion-Aware Pedestrian Simulation"
+  image: SueWang.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/26_sue.pdf
+  github: https://github.com/tudelftgeomatics/tud-thesis-showcase
+  year: 2026
+
+- surname: Vanderheeren
+  name: Vincent
+  title: "Pillar of Morphology - Enhancing point-based mathematical morphology for processing applications in heritage point clouds"
+  image: VincentVanderheeren.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/26_vincent.pdf
+  github: https://github.com/Alcardens/Mathematical-morphology-point-cloud
+  year: 2026
+
+- surname: Bry
+  name: Alexandre
+  title: "From points to prints -- Generating building roofprints and footprints from airborne lidar data and inaccurate outlines"
+  image: AlexandreBry.jpg
+  link: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
+  github: https://github.com/alexandre-bry/MSc_Thesis-Code
+  year: 2026
+
+- surname: Jonker
+  name: Luc
+  title: "Automated generation of tree-aware urban shade maps using deep learning"
+  image: LucJonker.jpg
+  link: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
+  github: https://github.com/lucjonker/Shady_Shenanigans
+  year: 2026
+
+- surname: Singh
+  name: Neelabh
+  title: "Identifying Sidewalks from Crowdsourced SVI"
+  image: NeelabhSingh.jpg
+  link: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
+  github: https://github.com/neelabhz/pixel2sidewalk/
+  year: 2026
+
+- surname: Rotteveel
+  name: Heiko
+  title: "Automatic water detection using ICESat-2 measurements"
+  image: HeikoRotteveel.jpg
+  link: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
+  github: https://github.com/HeikoRotteveel/ICESat-2_automatic_water_detection
+  year: 2026
+
 - surname: Brakelé
   name: Sara
   title: "Extracting building typology parameters from 3D city models for earthquake risk assessment"

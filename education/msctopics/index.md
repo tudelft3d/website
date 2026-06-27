@@ -156,6 +156,22 @@ If you choose this topic, you can expect to learn about computational fluid dyna
 
 - - -
 
+## Learning latent representations of pedestrian-level urban wind fields from RANS simulations
+
+![](img/flowfield_to_latent_space.png){:width="800px"}
+
+Pedestrian wind comfort is an important aspect of sustainable and climate-resilient urban design. Computational fluid dynamics (CFD) can provide detailed information about wind conditions around buildings, but running simulations for many cities, design alternatives, and wind directions remains computationally expensive. At the same time, many urban wind datasets are now becoming available from Reynolds-Averaged Navier-Stokes (RANS) simulations, creating an opportunity to use machine learning to learn reusable patterns in urban flow fields.
+
+The objective of this MSc thesis is to develop a machine-learning framework that learns compact representations of pedestrian-height flow fields from RANS simulations of different cities and wind directions. The project will investigate whether neural-network models, such as autoencoders or U-Net-based architectures, can reconstruct and predict pedestrian-level wind fields from urban geometry and wind-direction information. The thesis will also explore how the learned latent space relates to physical urban morphology indicators, such as building density, street orientation, blockage, and frontal area density.
+
+The work can be developed in different directions depending on the student’s interests. For example, one direction is to focus on representation learning: compressing existing flow fields into a low-dimensional latent space and analysing whether similar cities, wind directions, or flow patterns cluster together.
+
+If you choose this topic, you can expect to learn about urban wind engineering, CFD data processing, machine learning, and Python workflows. Programming experience and interest are important for this topic. Experience with Python and deep learning libraries such as PyTorch is an advantage. Some background or interest in CFD, urban microclimate, or geospatial data processing is also useful.
+
+**Contact:** [Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara), [Themis Vargiemezis](https://3d.bk.tudelft.nl/tvargiemezis)
+
+- - -
+
 ## IFC in PostgreSQL/PostGIS
 
 ![](img/ifcsql.png){:width="800px"}
@@ -254,21 +270,23 @@ The [project has open-source code](https://github.com/kylelo/Diff-DEM), Python c
 
 - - -
 
-## Developing an open-source Multifunctional Green Infrastructure Planning Support System
+## Designing and Implementing a Multi-Criteria NbS Suitability and Prioritisation Pipeline for Historic Urban Landscapes
 
-Urban areas face increasing pressure to address multiple environmental and social challenges simultaneously, including climate change adaptation, biodiversity loss, social inequality, and public health concerns. Traditional infrastructure planning approaches often address these issues in isolation, leading to inefficient resource allocation and missed opportunities for synergistic solutions.
+Historic Urban Landscapes (HULs) face mounting pressure to adapt to climate risks (e.g., heat stress, flooding, water scarcity) while preserving the cultural and morphological character that makes them historic in the first place. Adaptation strategies that ignore this tension tend to produce either heritage-blind interventions or overly conservative designs that fail to deliver real climate resilience.
+Nature-based solutions (NbS) such as urban greening, permeable paving, and water retention systems offer a way to reconcile these demands, but identifying *where* they are most suitable and most urgently needed requires integrating multiple, often conflicting spatial criteria (heat exposure, flood risk, social vulnerability, green accessibility, and heritage sensitivity) into a single decision-support layer. Current planning practice rarely does this systematically, relying instead on ad hoc or single-criterion assessments.
+This research is conducted within [**PAST-FORWARD**](https://www.tudelft.nl/en/2025/bk/tu-delft-wins-eur1-million-nwo-nsfc-merian-fund-grant-for-climate-resilient-heritage-cities), an NWO–NSFC funded Dutch-Chinese research project developing climate adaptation strategies and a digital decision support system for Historic Urban Landscapes in Delft, Rotterdam, Xi'an, and Guangzhou. The primary objective of this research is to design and implement a multi-criteria suitability and prioritisation pipeline that identifies and ranks priority intervention zones for NbS in HULs, and to test how methodological choices (such as indicator weighting, spatial aggregation scale, and so on) shape the resulting spatial recommendations.
+If you are interested in this topic, you can expect to learn about multi-criteria decision analysis (MCDA), spatial indicator design, sensitivity analysis, data visualization, and the practical challenge of validating computational outputs against the judgement of urban planners and heritage professionals. You will also gain hands-on experience building a reproducible spatial analysis pipeline that feeds directly into a real decision support system under active development. This prepares you for careers in spatial decision support, environmental consulting, or geospatial data science with a focus on climate adaptation and heritage-sensitive planning.
 
-Multifunctional Green-Blue Infrastructure (GBI) offers a nature-based approach that can simultaneously deliver multiple ecosystem services across different spatial scales. However, current planning processes lack integrated digital tools that can effectively guide stakeholders through collaborative decision-making while ensuring equitable distribution of benefits and addressing diverse societal needs.
-The primary objective of this research  is to develop an innovative interactive geospatial planning support system that facilitates collaborative evidence-based decision-making for multifunctional green-blue infrastructure implementation in urban areas.
-
-If you are interested in this topic, you can expect to learn about **advanced geospatial technologies and methodologies** including **multi-criteria spatial analysis**, **web-based GIS development**, and **spatial decision support system design**.
-Through this interdisciplinary approach, you will gain valuable experience in **translating complex spatial analysis into accessible decision-making tools**, preparing you for careers in smart city development, environmental consulting, urban planning technology, or spatial data science with a focus on sustainability and social equity.
-
-Prerequisites: Proficiency in GIS and software development (e.g., QGIS, R, Python) and understanding of/interest in GBI and urban/landscape planning.
+**Prerequisites**: Proficiency in GIS (QGIS), R (sf, terra, tidyverse) and/or Python; interest in multi-criteria decision analysis and urban climate adaptation. Familiarity with historic urban landscapes or heritage planning is an advantage, not a requirement.
 
 **Contact:** [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 
-
+- - -
+## Designing an Impact Assessment Module for a Climate Adaptation Decision Support System
+Identifying where nature-based solutions (NbS) are needed is only half the planning challenge — the other half is helping stakeholders understand what a proposed intervention would actually achieve. Would a row of street trees meaningfully reduce surface temperature on a given block? Would permeable paving in a historic square noticeably cut runoff? Planners and communities engaging in co-design processes need this kind of "what-if" insight presented clearly, but most spatial decision support tools either skip this step entirely or bury it in technical outputs that are inaccessible to non-specialists.
+This research is conducted within [**PAST-FORWARD**](https://www.tudelft.nl/en/2025/bk/tu-delft-wins-eur1-million-nwo-nsfc-merian-fund-grant-for-climate-resilient-heritage-cities). The primary objective of this research is to design and implement a scenario-based impact assessment module for the project's Decision Support System, allowing users to place NbS interventions on a map and see how relevant indicators (e.g., land surface temperature, surface runoff, green accessibility) would change as a result, while communicating the uncertainty inherent in those estimates.
+If you are interested in this topic, you can expect to learn about deriving and applying indicator response functions from environmental literature, building interactive scenario tools (f.i., usign R/Shiny), and designing for uncertainty communication in a way that supports rather than overwhelms non-specialist decision-making. You will test your work directly with planners and community stakeholders in a real co-design setting, gaining experience that prepares you for careers in spatial decision support, environmental consulting, or human-centred geospatial tool development.
+Prerequisites: Proficiency in GIS, R/Python, willingnes to learn Shiny application development; familiarity with spatial data formats and raster operations (sf, terra); interest in uncertainty communication or human-computer interaction in planning tools is an advantage. Some familiarity with multi-criteria suitability analysis is useful but not required.
 - - -
 
 ## Predicting pedestrian wind comfort and thermal comfort with Large-Eddy Simulations in uDALES
@@ -357,29 +375,6 @@ A wide range of applications in riverside urban areas, including flood mitigatio
 This thesis will develop a 3D delineation method for urban river spaces adapting an existing 2D delineation method. The method will be based on 3D data [3D BAG](www.3dbag.nl), point cloud and other elevation data) for use in any riverside urban area where such data is available. The thesis will make as much as possible use of open data and will address challenges and opportunities regarding the scalability of the method within the Netherlands and globally.
 
 **Contact:**  [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/) and [Claudiu Forgaci](https://www.tudelft.nl/staff/c.forgaci/)
-
-
-- - - 
-
-## Urban building daylight modeling – improving city models 
-
-![](img/daylight.jpg){:width="600px"}
-
-**Background and aim**:
-Decarbonization and improvement of the building stock cannot be realistically planned without considering the existing buildings. Decision-makers need accurate models on different levels of granularity for different types of decision-making. A crucial aspect of building performance is the availability of natural light in indoor spaces which has a direct impact on users' well-being and comfort, as well as its influence on reducing electric lighting consumption.
-The aim of this project is an urban-level assessment of buildings in terms of their daylight performance.
-LOD2 geometry and typical material properties will be used as the key inputs and Radiance as the simulation engine.
-
-**Research question**:
-To what extent do the existing building stock meet the requirements for daylight availability?
-How to efficiently model the existing building stock in urban level?
-
-**Methods**:
-General literature search to find potential pipelines and techniques, and to understand city-level geometry data models (CityGML). Numerical simulation of daylight.
-
-**Final results**: (a) Urban-level assessments of buildings daylight availability, or visual comfort. (b) Suggestions for policy-makers to improve daylight availability in existing buildings. (c) Suggestions (and implementation) for improving CityGML data model and its Application Domain Extension (ADE).
-
-**Contact:** [Eleonora Brembilla](https://www.tudelft.nl/staff/e.brembilla/?cHash=b81b85bf6c08dfd998139488a3a3f3dd), [Nima Forouzandeh](https://www.tudelft.nl/staff/n.forouzandeh/?cHash=0eff827e919ebe7ba656d3542c3dcc42), [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/), and [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/).
 
 - - -
 

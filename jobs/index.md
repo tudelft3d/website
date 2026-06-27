@@ -14,6 +14,14 @@ permalink: /jobs/
 
 <!-- INFO: To close a position, copy/paste, adapt and uncomment one of the following blocks -->
 
+<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+[Postdoctoral researcher: High-Resolution Urban CFD Simulations and Measurements for Urban Air Mobility](postdocIAM-CC/)
+- - -
+
+<span style="background-color:green; padding:3px; border-radius:3px; color:white; font-weight: bold">open</span>
+[Postdoctoral or Junior Researcher: AI-Driven Predictive Maintenance and Inspection for Urban Infrastructure](ngf/)
+- - -
+
 <span class="label label-danger">closed</span> 
 <del>
 [Postdoc position in 3D Geoinformation for Energy Data and Flexibility Management for PEDs](flexpeds/)
