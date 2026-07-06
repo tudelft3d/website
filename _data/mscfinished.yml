@@ -1,3 +1,12 @@
+- surname: Joh
+  name: Hyeji
+  title: "Generating synthetic housing distributions for modelling economic segregation"
+  link: https://resolver.tudelft.nl/
+  # github: https://github.com/michelbeeren/MSc_Geomatics_Thesis_3D_alpha_wrap
+  image: HyejiJoh.jpg
+  year: 2026
+
+
 - surname: Beeren
   name: Michel
   title: "Improving 3D alpha wrapping by preserving concave features and reducing mesh complexity"
