@@ -1,3 +1,27 @@
+- surname: Pille
+  name: Julia
+  title: "Seabed Fingerprinting for Maritime Navigation in GNSS-Denied Environments"
+  link: https://repository.tudelft.nl/record/uuid:3da9ea32-06b5-444a-bca2-5a0ffec282b2
+  github: https://github.com/juliapille/SAND-E
+  image: 2026_JuliaPille.jpg
+  year: 2026
+  
+- surname: Hu
+  name: Ming-Chieh
+  title: "Adaptive Plane Splatting for 3D Building Reconstruction"
+  link: https://repository.tudelft.nl/record/uuid:bbbae5e7-81a5-4cb1-9e01-d349ee7c24ad
+  github: https://github.com/MCHU-1999/AdaptivePS
+  image: 2026_MingChiehHu.jpeg
+  year: 2026
+  
+- surname: Bi
+  name: Xinya
+  title: "Recovering Visual Saliency from Intrinsic Properties of 3D Gaussian Splatting"
+  link: https://repository.tudelft.nl/record/uuid:d1148812-2a69-4d6b-b956-9560897e8b1d
+  github: https://github.com/MaxineXinyaBi/3DGS_Pruning
+  image: 2026_XinyaBi.jpeg
+  year: 2026
+  
 - surname: Joh
   name: Hyeji
   title: "Generating synthetic housing distributions for modelling economic segregation"

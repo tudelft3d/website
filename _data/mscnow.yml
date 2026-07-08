@@ -17,18 +17,3 @@
   name: Frederick
   title: "Testing and enhancing the Scenario ADE in the context of building performance simulation in Rotterdam"
   image: FrederickAuer.jpg
-
-- surname: Pille
-  name: Julia
-  title: "Seabed Fingerprinting"
-  image: JuliaPille.jpg
-
-- surname: Hu
-  name: Ming Chieh
-  title: "Gaussian Splatting to Piecewise-Planar Surfaces For 3D Building Reconstruction"
-  image: MingChiehHu.jpg
-
-- surname: Bi
-  name: Xinya
-  title: "Multi-view Semantic Pruning for 3D Building Reconstruction using Gaussian Splatting"
-  image: XinyaBi.jpg
