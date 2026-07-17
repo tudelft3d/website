@@ -1,3 +1,19 @@
+- surname: Schlosser
+  name: Daan
+  title: "Investigation on the data model requirements for Digital Building Logbooks and Building Renovation Passports"
+  link: https://repository.tudelft.nl/record/uuid:fe05529d-fe1c-49e4-8d98-1a0acb2bfa93
+  github: https://github.com/DaanSchlosser/CityGML2.0-EnergyADE3.0_creator
+  image: DaanSchlosser.jpg
+  year: 2026
+
+- surname: Auer
+  name: Frederick
+  title: "Testing and enhancing the Scenario ADE in the context of building performance simulation in Rotterdam"
+  link: https://repository.tudelft.nl/record/uuid:42e6250f-7dfb-49e2-bfc1-3277b915bdcb
+  github:
+  image: FrederickAuer.jpg
+  year: 2026
+
 - surname: Pille
   name: Julia
   title: "Seabed Fingerprinting for Maritime Navigation in GNSS-Denied Environments"
