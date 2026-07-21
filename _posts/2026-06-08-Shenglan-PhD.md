@@ -12,8 +12,8 @@ Shenglan’s PhD thesis is entitled '3D Urban Understanding from Point Clouds'
 Congratulations, Dr. Shenglan Du 🎉
 
 
-![]({{ site.baseurl }}/img/2026/shenglan1.jpeg)
-![]({{ site.baseurl }}/img/2026/shenglan2.jpeg)
+![]({{ site.baseurl }}/img/2026/shenglan1.JPG)
+![]({{ site.baseurl }}/img/2026/shenglan2.JPG)
 
 
 <div style="display: inline-block; vertical-align: top;">
