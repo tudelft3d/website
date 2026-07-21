@@ -1,18 +1,28 @@
+- surname: León-Sánchez
+  name: Camilo
+  title: Postdoc
+  photo: camilo.jpg
+  period: 2020-2026
+  current: "PostDoc at Wageningen University & Research, The Netherlands"
+  email: camilo.leonsanchez@wur.nl
+  twitter: camiloaleonsan
+  linkedin: https://www.linkedin.com/in/cleonsanchez
+
 - surname: Berlato
   name: Michele
   title: PhD candidate (University of Padova)
   photo: michele_berlato.jpg
+  period: 2025-2026
   email: michele.berlato@phd.unipd.it
   linkedin: https://www.linkedin.com/in/michele-berlato-7520b530a/
-  period: 2026
 
 - surname: Dell'Unto
   name: Martina
   title: PhD candidate (Technical University of Madrid)
   photo: martina_dellunto.jpg
+  period: 2026
   email: martina.dellunto@upm.es
   linkedin: https://www.linkedin.com/in/martina-dell-unto/
-  period: 2026
 
 - surname: EL Yamani
   name: Siham
@@ -183,7 +193,6 @@
   period: 2018-2022
   current: "[Kadaster](https://www.kadaster.nl)"
 
-
 - surname: Meerburg
   name: Erik  
   title: teacher data and tools
@@ -192,7 +201,6 @@
   twitter: geogoeroe
   period: 2020-2022
   current: "[B3Partners](https://www.b3partners.nl)"
-
 
 - surname: Peters
   name: Ravi

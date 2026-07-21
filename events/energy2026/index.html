@@ -136,6 +136,71 @@
       }
       .quick-link:hover { background: #e8f0fb; text-decoration: none; color: #1a3a5c; }
       .quick-link i { margin-right: 8px; color: #2e6da4; }
+
+      /* Event highlights carousel */
+      #energy-carousel {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 3px 14px rgba(0,0,0,0.15);
+        background: #1a3a5c;
+        margin-bottom: 8px;
+      }
+      #energy-carousel .item { height: 420px; }
+      #energy-carousel .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      /* Arrow controls */
+      #energy-carousel .carousel-control {
+        width: 12%;
+        background-image: none;
+        opacity: 1;
+      }
+      #energy-carousel .carousel-control .fa {
+        position: absolute;
+        top: 50%;
+        margin-top: -19px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        font-size: 17px;
+        color: #fff;
+        background: rgba(26,58,92,0.55);
+        border-radius: 50%;
+        transition: background 0.2s, transform 0.2s;
+      }
+      #energy-carousel .carousel-control.left .fa { left: 16px; }
+      #energy-carousel .carousel-control.right .fa { right: 16px; }
+      #energy-carousel .carousel-control:hover .fa {
+        background: #2e6da4;
+        transform: scale(1.1);
+      }
+      /* Indicator dots */
+      #energy-carousel .carousel-indicators { margin-bottom: 6px; }
+      #energy-carousel .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        border: 1.5px solid #fff;
+        background: transparent;
+        transition: background 0.2s, transform 0.2s;
+      }
+      #energy-carousel .carousel-indicators li:hover { background: rgba(255,255,255,0.6); }
+      #energy-carousel .carousel-indicators .active {
+        width: 10px;
+        height: 10px;
+        background: #2e6da4;
+        border-color: #2e6da4;
+        animation: pulse-dot 2s ease-out infinite;
+      }
+      @keyframes pulse-dot {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(46,109,164,0.55); }
+        50%      { box-shadow: 0 0 0 6px rgba(46,109,164,0); }
+      }
+      @media (max-width: 768px) { #energy-carousel .item { height: 260px; } }
     </style>
   </head>
   <body>
@@ -166,11 +231,9 @@
           <div class="col-md-3 col-sm-4 text-center" style="margin-bottom:20px;">
             <a href="https://3d.bk.tudelft.nl" target="_blank">
               <img class="img-responsive" src="../../img/logos/tud-3dgeoinfo-white.png" style="max-height:90px; margin:0 auto;">
-              <!-- <img class="img-responsive" src="../../img/logos/tud-3dgeoinfo-black.png" target="_blank" style="max-height:90px; filter:brightness(0) invert(1); margin:0 auto;"> -->
             </a>
             <a href="https://3d.bk.tudelft.nl/urbanrg/" target="_blank">
               <img class="img-responsive" src="../../urbanrg/images/urbanrg_white.png" onmouseover="this.src='../../urbanrg/images/urbanrg_white_alt.png'" onmouseout="this.src='../../urbanrg/images/urbanrg_white.png'" style="max-height:25px; margin:0 auto;">
-              <!-- <img class="img-responsive" src="../../urbanrg/images/urbanrg_white_alt.png" target="_blank" style="max-height:30px; filter:brightness(0) invert(1); margin:0 auto;"> -->
             </a>
           </div>
           <div class="col-md-9 col-sm-8">
@@ -182,7 +245,7 @@
               <b>June 22–23, 2026</b> &nbsp;|&nbsp; Delft, The Netherlands
             </p>
             <p style="color:rgba(255,255,255,0.85); font-size:14px; margin-bottom:0;">
-              An open event to share experiences on the creation and use of Urban Ditital Twins for energy applications
+              An open event to share experiences on the creation and use of Urban Digital Twins for energy applications
             </p>
           </div>
         </div>
@@ -197,23 +260,25 @@
 		<div class="col-md-2 logo_style">
           <a href="https://3d.bk.tudelft.nl/projects/energyade/" target="_blank">
 			<img class="image img-responsive" src="../../img/events/energy2026/energyade_logo.jpg" target="_blank">
-		  </a>
+		  </a><br>
 		  <!-- <br> -->
           <a href="https://www.digitwins4peds.eu/" target="_blank">
 		    <img class="image img-responsive" src="../../img/events/energy2026/dt4p_logo.jpg">
-		  </a>
+		  </a><br>
 		  <!-- <br> -->
           <a href="https://www.flexped.eu/" target="_blank">
 		    <img class="image img-responsive" src="../../img/events/energy2026/flexped_logo.png">
-		  </a>
-		  <br>
+		  </a><br>
           <a href="https://3d.bk.tudelft.nl/projects/renodat/" target="_blank">
 		    <img class="image img-responsive" src="../../img/events/energy2026/renodat_logo.jpg">
-		  </a>
+		  </a><br>
+		  
 		  <!-- <br> -->
 
-		  <br><br><br>
-
+		  <br><br>
+          <a href="https://www.tudelft.nl/urbanenergy" target="_blank">
+		    <img class="image img-responsive" src="../../img/events/energy2026/tud_uei_logo_nobg.png" style="max-height:60px; width:auto; margin: 20px">
+		  </a><br>
           <a href="https://dutpartnership.eu/" target="_blank">
 		    <img class="image img-responsive" src="../../img/events/energy2026/dut_logo.png">
 		  </a><br>
@@ -231,17 +296,59 @@
         <div class="col-md-8">
 
           <!-- Registration banner -->
-          <div class="register-banner">
+<!--           <div class="register-banner">
             <div>
               <h4>Do you want to participate?</h4>
               <p>Registration is free but required. Secure your place today.</p>
             </div>
             <a href="https://forms.gle/781YVepaGaQhadfL7" target="_blank" class="register-btn">Register now</a>
-          </div>
+          </div> -->
 
           <!-- Photo -->
-          <img class="about-photo" src="../../img/events/udmv2015/Delft-Hall.jpg" alt="Delft">
-          <p class="photo-caption">The City Hall on the Markt, Delft, The Netherlands</p>
+<!--           <img class="about-photo" src="../../img/events/udmv2015/Delft-Hall.jpg" alt="Delft">
+          <p class="photo-caption">The City Hall on the Markt, Delft, The Netherlands</p> -->
+
+          <!-- Event highlights -->
+          <h3 class="section-title">Event highlights</h3>
+          <div id="energy-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators">
+              <li data-target="#energy-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#energy-carousel" data-slide-to="1"></li>
+              <li data-target="#energy-carousel" data-slide-to="2"></li>
+              <li data-target="#energy-carousel" data-slide-to="3"></li>
+              <li data-target="#energy-carousel" data-slide-to="4"></li>
+              <li data-target="#energy-carousel" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="../../img/events/udmv2015/Delft-Hall.jpg" alt="The City Hall on the Markt, Delft, The Netherlands">
+              </div>
+              <div class="item">
+                <img src="photos/EnergyADE_June2026%20-%204.jpeg" alt="CityGML Energy ADE 3.0 Workshop 2026">
+              </div>
+              <div class="item">
+                <img src="photos/EnergyADE_June2026%20-%209.jpeg" alt="CityGML Energy ADE 3.0 Workshop 2026">
+              </div>
+              <div class="item">
+                <img src="photos/EnergyADE_June2026%20-%2012.jpeg" alt="CityGML Energy ADE 3.0 Workshop 2026">
+              </div>
+              <div class="item">
+                <img src="photos/EnergyADE_June2026%20-%2078.jpeg" alt="CityGML Energy ADE 3.0 Workshop 2026">
+              </div>
+              <div class="item">
+                <img src="photos/EnergyADE_June2026%20-%2091.jpeg" alt="CityGML Energy ADE 3.0 Workshop 2026">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#energy-carousel" role="button" data-slide="prev">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#energy-carousel" role="button" data-slide="next">
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p class="photo-caption">Impressions from the CityGML Energy ADE 3.0 Workshop &ndash; Delft, June 2026</p>
 
           <!-- About -->
           <h3 class="section-title">About the event</h3>
@@ -254,14 +361,14 @@
           <div class="row">
             <div class="col-sm-6">
               <div class="day-card">
-                <span class="day-badge" style="background:#2e6da4;">Mon 22 June – Afternoon</span> <span class="day-badge" style="background:#008000;">Places still available</span>
+                <span class="day-badge" style="background:#2e6da4;">Mon 22 June – Afternoon</span> <!-- <span class="day-badge" style="background:#008000;">Places still available</span> -->
                 <h4>Public dissemination event</h4>
                 <p>Open to a broad audience of cities, users, industry, and researchers. Presentations and discussions on Urban Ditial Twins for energy applications.</p>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="day-card day2">
-                <span class="day-badge" style="background:#1a3a5c;">Tue 23 June – Morning</span> <span class="day-badge" style="background:#ff0000;">Booked out</span>
+                <span class="day-badge" style="background:#1a3a5c;">Tue 23 June – Morning</span> <!-- <span class="day-badge" style="background:#ff0000;">Booked out</span> -->
                 <h4>Developers' technical meeting</h4>
                 <p>A session specific for developers and technical experts working on the CityGML Energy ADE and related tools.</p>
                 <p><b>Please note:</b> it is not possible to register for the 2nd day anymore as the maximum number of participants has already been reached.</p>
@@ -279,15 +386,20 @@
             </div>
           </div>
 
-          <!-- Registration -->
+          <!-- Registration (hidden — registration closed) -->
+<!--
           <h3 class="section-title">Registration</h3>
           <div class="row">
             <div class="col-sm-12">
               <div class="day-card">
-                <p>Participation is free, but registration is required.<br>To register, fill in the <a href="https://forms.gle/781YVepaGaQhadfL7" target="_blank">online registration form</a> before <b>15 June 2026</b>.<br>For questions, please contact <a href="mailto:g.agugiaro@tudelft.nl">G. Agugiaro</a> or <a href="mailto:h.doi@tudelft.nl">H. Doi</a>.</p>
+                <p>Participation is free, but registration is required. <span class="day-badge" style="background:#ff0000;">Registration is closed</span>
+				To register, fill in the <a href="https://forms.gle/781YVepaGaQhadfL7" target="_blank">online registration form</a> before <b>15 June 2026</b>.
+				<br>
+				For questions, please contact <a href="mailto:g.agugiaro@tudelft.nl">G. Agugiaro</a> or <a href="mailto:h.doi@tudelft.nl">H. Doi</a>.</p>
               </div>
             </div>
           </div>
+-->
 
 
           <!-- <div class="agenda-placeholder"> -->
@@ -303,9 +415,9 @@
         <!-- Right Sidebar -->
         <div class="col-md-2">
 
-          <div class="sidebar-box" style="margin-top:32px;">
+<!--           <div class="sidebar-box" style="margin-top:32px;">
             <h4>Important dates</h4>
-            <!-- <p style="font-size:12px; color:#999; margin-bottom:14px;">Updated as confirmed.</p> -->
+            <p style="font-size:12px; color:#999; margin-bottom:14px;">Updated as confirmed.</p>
 
             <div style="margin-bottom:14px;">
               <span style="background:#e8a020; color:white; border-radius:3px; padding:2px 8px; font-size:12px; font-weight:600;">15 June 2026</span>
@@ -319,13 +431,13 @@
               <span style="background:#1a3a5c; color:white; border-radius:3px; padding:2px 8px; font-size:12px; font-weight:600;">23 Jun 2026</span>
               <p style="margin:5px 0 0 0; font-size:13px; color:#555;">Technical Developer Meeting <span style="color:#999;">(morning)</span></p>
             </div>
-          </div>
+          </div> -->
 
           <div class="sidebar-box">
             <h4>Quick links</h4>
             <a href="programme.html" class="quick-link">Programme</a>
             <a href="venue.html" class="quick-link">Venue &amp; travel</a>
-            <a href="https://forms.gle/781YVepaGaQhadfL7" target="_blank" class="quick-link">Register</a>
+<!--             <a href="https://forms.gle/781YVepaGaQhadfL7" target="_blank" class="quick-link">Register</a> -->
             <a href="mailto:g.agugiaro@tudelft.nl" class="quick-link">Contact</a>
           </div>
 

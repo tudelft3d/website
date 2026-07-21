@@ -1,3 +1,108 @@
+- surname: Schlosser
+  name: Daan
+  title: "Investigation on the data model requirements for Digital Building Logbooks and Building Renovation Passports"
+  link: https://repository.tudelft.nl/record/uuid:fe05529d-fe1c-49e4-8d98-1a0acb2bfa93
+  github: https://github.com/DaanSchlosser/CityGML2.0-EnergyADE3.0_creator
+  image: DaanSchlosser.jpg
+  year: 2026
+
+- surname: Auer
+  name: Frederick
+  title: "Testing and enhancing the Scenario ADE in the context of building performance simulation in Rotterdam"
+  link: https://repository.tudelft.nl/record/uuid:42e6250f-7dfb-49e2-bfc1-3277b915bdcb
+  github:
+  image: FrederickAuer.jpg
+  year: 2026
+
+- surname: Pille
+  name: Julia
+  title: "Seabed Fingerprinting for Maritime Navigation in GNSS-Denied Environments"
+  link: https://repository.tudelft.nl/record/uuid:3da9ea32-06b5-444a-bca2-5a0ffec282b2
+  github: https://github.com/juliapille/SAND-E
+  image: 2026_JuliaPille.jpg
+  year: 2026
+  
+- surname: Hu
+  name: Ming-Chieh
+  title: "Adaptive Plane Splatting for 3D Building Reconstruction"
+  link: https://repository.tudelft.nl/record/uuid:bbbae5e7-81a5-4cb1-9e01-d349ee7c24ad
+  github: https://github.com/MCHU-1999/AdaptivePS
+  image: 2026_MingChiehHu.jpeg
+  year: 2026
+  
+- surname: Bi
+  name: Xinya
+  title: "Recovering Visual Saliency from Intrinsic Properties of 3D Gaussian Splatting"
+  link: https://repository.tudelft.nl/record/uuid:d1148812-2a69-4d6b-b956-9560897e8b1d
+  github: https://github.com/MaxineXinyaBi/3DGS_Pruning
+  image: 2026_XinyaBi.jpeg
+  year: 2026
+  
+- surname: Joh
+  name: Hyeji
+  title: "Generating synthetic housing distributions for modelling economic segregation"
+  link: https://resolver.tudelft.nl/uuid:4a7d373a-f100-483d-9eb2-9e07a392e1e7
+  # github: https://github.com/michelbeeren/MSc_Geomatics_Thesis_3D_alpha_wrap
+  image: HyejiJoh.jpg
+  year: 2026
+
+
+- surname: Beeren
+  name: Michel
+  title: "Improving 3D alpha wrapping by preserving concave features and reducing mesh complexity"
+  link: https://resolver.tudelft.nl/uuid:a3876cb2-8740-4277-9292-d4f113de97b4
+  github: https://github.com/michelbeeren/MSc_Geomatics_Thesis_3D_alpha_wrap
+  image: MichelBeeren.jpg
+  year: 2026
+
+- surname: Wang
+  name: Sue
+  title: "From IFC BIM to Semantically Enriched 2.5D Indoor Navigation Graphs for Congestion-Aware Pedestrian Simulation"
+  image: SueWang.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/26_sue.pdf
+  github: https://github.com/tudelftgeomatics/tud-thesis-showcase
+  year: 2026
+
+- surname: Vanderheeren
+  name: Vincent
+  title: "Pillar of Morphology - Enhancing point-based mathematical morphology for processing applications in heritage point clouds"
+  image: VincentVanderheeren.jpg
+  link: https://3d.bk.tudelft.nl/ken/files/26_vincent.pdf
+  github: https://github.com/Alcardens/Mathematical-morphology-point-cloud
+  year: 2026
+
+- surname: Bry
+  name: Alexandre
+  title: "From points to prints -- Generating building roofprints and footprints from airborne lidar data and inaccurate outlines"
+  image: AlexandreBry.jpg
+  link: https://resolver.tudelft.nl/uuid:101ba3d8-1988-4025-b041-fafb12d2d2f3
+  github: https://github.com/alexandre-bry/MSc_Thesis-Code
+  year: 2026
+
+- surname: Jonker
+  name: Luc
+  title: "Automated generation of tree-aware urban shade maps using deep learning"
+  image: LucJonker.jpg
+  link: https://resolver.tudelft.nl/uuid:d2954f9d-f996-43ae-81f0-a587c34ed715
+  github: https://github.com/lucjonker/Shady_Shenanigans
+  year: 2026
+
+- surname: Singh
+  name: Neelabh
+  title: "Identifying Sidewalks from Crowdsourced SVI"
+  image: NeelabhSingh.jpg
+  link: https://resolver.tudelft.nl/uuid:47f57012-2d9b-4bca-8d72-c31ffd2db163
+  github: https://github.com/neelabhz/pixel2sidewalk/
+  year: 2026
+
+- surname: Rotteveel
+  name: Heiko
+  title: "Automatic water detection using ICESat-2 measurements"
+  image: HeikoRotteveel.jpg
+  link: https://resolver.tudelft.nl/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6
+  github: https://github.com/HeikoRotteveel/ICESat-2_automatic_water_detection
+  year: 2026
+
 - surname: Brakelé
   name: Sara
   title: "Extracting building typology parameters from 3D city models for earthquake risk assessment"
