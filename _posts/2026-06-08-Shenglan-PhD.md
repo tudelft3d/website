@@ -18,7 +18,7 @@ Congratulations, Dr. Shenglan Du 🎉
 
 <div style="display: inline-block; vertical-align: top;">
   <div class="thumbnail" style="padding: 15px;">
-    <a href="https://repository.tudelft.nl/record/uuid:bf100af7-caf5-4585-954c-af807ddf031e"><img src="{{ "/phd/shenglan3.png" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
+    <a href="https://repository.tudelft.nl/record/uuid:bf100af7-caf5-4585-954c-af807ddf031e"><img src="{{ "/phd/Shenglan.png" | append: i.image | prepend: site.baseurl }}" style="height: 300px; border: 1px solid #ccc" /></a>
   </div>
 </div>
 
