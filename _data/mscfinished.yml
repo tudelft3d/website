@@ -161,6 +161,7 @@
   title: "Selective image region focus for efficient 3D building reconstruction using SAM in oblique aerial imagery"
   image: 2025_Lars.jpg
   link: https://3d.bk.tudelft.nl/ken/files/25_lars.pdf
+  github: https://github.com/LarsBoertjes/thesis
   year: 2025
 
 - surname: Zhao
@@ -262,6 +263,7 @@
   title: Reconstructing a high-detailed 2D areal representation of road network from OSM data
   image: chengzhi.png
   link: https://3d.bk.tudelft.nl/ken/files/24_chengzhi.pdf
+  github: https://github.com/Chengzhi16/ConRE-OSM
   year: 2024
 
 - surname: Chi
@@ -758,6 +760,7 @@
   year: 2020
   image: ruben2020.png
   link: https://repository.tudelft.nl/record/uuid%3A67053d30-51ae-47d9-a474-7070c73274a5
+  github: https://github.com/Flyalbatros/gis.SE.thesis
 
 - surname: van Liempt
   name:  Jordi
