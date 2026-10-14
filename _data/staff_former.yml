@@ -1,10 +1,17 @@
+- surname: Du
+  name: Shenglan
+  title: PhD candidate
+  photo: shenglan.png
+  period: 2020-2026
+  email: dushenglan940128@126.com
+  current: "Researcher at Nanjing Hydraulic Research Institute, China"
+  
 - surname: van der Vaart
   name: Jasper
   title: Scientific Software Developer and Researcher
   photo: jasper.jpg
   period: 2022-2025
   description: "CHEK (change toolkit for digital building permit)"
-
 
 - surname: León-Sánchez
   name: Camilo
@@ -116,7 +123,8 @@
   title:  PhD candidate
   photo: jin.jpg
   email: jinhuang.nuaa@gmail.com
-
+  current: "Researcher at Hong Kong Applied Science and Technology Research Institute"
+  
 - surname: Sacco
   name: Sabrina
   period: 2024
@@ -130,8 +138,8 @@
   period: 2024
   title: Visiting PhD candidate (University of Hong Kong)
   photo: yijie.jpg
-  email: yijiewu@connect.hku.hk
   homepage: https://www.researchgate.net/profile/Yijie-Wu-2
+  current: "Postdoc at Hong Kong Polytechnic University"
 
 - surname: Grieco
   name: Benedetta
