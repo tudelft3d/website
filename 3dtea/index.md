@@ -7,13 +7,13 @@ permalink: /3dtea/
 <div class="row">
   <div class="col-xs-8 col-md-9">
     <p>
-      Every Thursday at 16:00, we gather for our <em>3DTea</em> sessions - a relaxed weekly meeting where the whole group can connect, either in person or online. This series replaces our previous 3DTalks with a more informal format making it the perfect moment for sharing knowledge and catching up.
+      Once per week the Urban Data Science section members gather for our <em>3DTea</em> sessions - a relaxed weekly meeting where the whole group can connect, either in person or online - the perfect moment for sharing knowledge and catching up. In most cases this takes place on Wednesdays at 16:00, but there could be changes, so please check the schedule below.
     </p>
     <div class="section-header">How it works:</div>
     <p>
     <ul class="website-list">
-      <li><strong>Last Thursday of each month:</strong> Reserved for our monthly UDS catch-up meeting</li>
-      <li><strong>All other Thursdays:</strong> pen for member presentations, new member introductions, or group discussions. We also occasionally host invited speakers. Topics can range from research breakthroughs to personal passions - share your latest work, discuss interesting projects, or dive into subjects that inspire you. Ready to present? Find a free date in the schedule below and put your name to it!</li>
+      <li><strong>Last Wednesday of each month:</strong> Reserved for our monthly UDS catch-up meeting</li>
+      <li><strong>All other Wednesdays:</strong> Open for member presentations, new member introductions, or group discussions. We also occasionally host invited speakers. Topics can range from research breakthroughs to personal passions - share your latest work, discuss interesting projects, or dive into subjects that inspire you. Ready to present? Find a free date in the schedule below and put your name to it!</li>
     </ul>
     </p>
     <div class="section-header">Presentation expectations:</div>
@@ -29,10 +29,6 @@ permalink: /3dtea/
     <div class="section-header">Rescheduling:</div>
     <p>
       Can't present during your scheduled slot? Try to swap with another presenter first. If that's not possible, contact Amy for assistance.
-    </p>
-    <div class="section-header">Calendar updates:</div>
-    <p>
-      Add this <a href="http://3d.bk.tudelft.nl/3dtalks/3dtalks.ics">ICS file</a> to your calendar application, it will be automatically updated.
     </p>
   </div>
 </div>
@@ -51,10 +47,10 @@ permalink: /3dtea/
 
   <tr class="info">
     <td>Date</td>
+    <td>Time</td>
     <td>Presenter</td>
     <td>Title</td>
     <td style="white-space: nowrap;">Room</td>
-    <td>Snack bearer</td>
     <td>Slides</td>
   </tr>
 
@@ -64,19 +60,19 @@ permalink: /3dtea/
     {% if i.title == "" or i.title == nil %}
     <tr class="available-slot">
       <td style="white-space: nowrap;">{{ i.date  }}</td>
+      <td style="white-space: nowrap;">{{ i.time | default: "16:00" }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td><em>Available slot - add your name!</em></td>
       <td>{{ i.room | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      <td style="white-space: nowrap;">{{ i.snacks }}</td>
       <td></td>
     </tr>
     {% else %}
     <tr>
       <td style="white-space: nowrap;">{{ i.date  }}</td>
+      <td style="white-space: nowrap;">{{ i.time | default: "16:00" }}</td>
       <td>{{ i.name | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.title | markdownify | remove: '<p>' | remove: '</p>' }}</td>
       <td>{{ i.room | markdownify | remove: '<p>' | remove: '</p>' }}</td>
-      <td style="white-space: nowrap;">{{ i.snacks }}</td>
       {% if i.ppt %}
         <td><a href="https://3d.bk.tudelft.nl/pdfs/3dtalks/{{ i.ppt }}"><i class="fas fa-file-alt" aria-hidden="true"></i></a></td>
       {% else %}

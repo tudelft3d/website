@@ -48,7 +48,7 @@ To add a new talk to the 3DTea schedule, edit the [`_data/talks.yml`](./_data/ta
   name: "Presenter Name"
   room: "BG West 670"
   date: 2026-03-20
-  time: 16:00-17:00
+  time: "16:00"
   ppt: "2026-03-20.pdf"  # optional, only if slides are available
 ```
 
@@ -60,6 +60,7 @@ The talks will automatically appear in the "Upcoming talks" or "Past talks" sect
 
 **Important notes:**
 - **Date format**: Use YYYY-MM-DD format (e.g., 2026-03-20)
+- **Time format**: Use HH:MM in quotes (e.g., `time: "16:00"`). Sessions usually start at 16:00
 - **Meetings**: For monthly UDS meetings, use `title: "UDS-catch-up"`
 - **Holidays**: Use `title: "Public Holiday"`
 
