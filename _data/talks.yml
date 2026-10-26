@@ -2,7 +2,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-06-23
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -23,7 +23,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-06-09
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -37,7 +37,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-06-02
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -58,7 +58,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-05-12
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 
@@ -73,7 +73,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-04-28
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -94,7 +94,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-04-07
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -108,7 +108,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-03-31
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -129,7 +129,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-03-10
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -143,7 +143,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-03-03
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -164,7 +164,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-02-10
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -178,7 +178,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-02-03
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -199,7 +199,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-01-13
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -213,7 +213,7 @@
   name: ""
   room: "BG West 670 and online"
   date: 2027-01-06
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: ""
@@ -248,7 +248,7 @@
   name: "Vera"
   room: "BG West 670 and online"
   date: 2026-12-02
-  time: "16:00"
+  time: "16:30"
   snacks: ""
 
 - title: "TBD"
@@ -277,6 +277,13 @@
   room: "BG West 670 and online"
   date: 2026-11-11
   time: "16:00"
+  snacks: ""
+
+- title: ""
+  name: ""
+  room: "BG West 670 and online"
+  date: 2026-11-04
+  time: "16:30"
   snacks: ""
 
 - title: "The DOPAMINE family of solvers + Goodbye"
