@@ -49,18 +49,6 @@ The goal of this MSc thesis would be to create methodologies to make this possib
 
 **Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/) or [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 
-## 3D city models without building footprints
-
-![](img/nofoot.jpg){:width="800px"}
-
-We typically create 3D city models based on 2D topography + elevation data, but most of the topographic data shouldn't be really necessary. Our eyes can see buildings and many other features clearly enough in both a dense Lidar point cloud or a DSM with decent resolution.
-
-Why do we want to avoid using the topographic data? Many reasons: it might not be up to date (or from the same time as the elevation data), it might not have the required quality (eg misaligned footprints), or maybe it just doesn't exist.
-
-The goal of this MSc thesis would be to develop methods to extract usable footprints for 3D city model generation directly from elevation data.
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
-
 ## Procedural generation of 3D buildings
 
 ![](img/randomCityEngine.png){:width="800px"}
@@ -186,22 +174,6 @@ The usability of the developed solution will be tested in the context of water i
 **Requirements**: GEO1006 and GEO1004
  
 **Contact persons**: [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/), [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
-
-- - -
-
-## Creation of planar partitions from mismatched datasets
-
-![](img/pp.png){:width="800px"}
-
-Many GIS applications are based around a planar partition of polygons—a set of polygons covering the map with no overlaps and no gaps between them. For example, 3D city models are generally built by raising polygons representing building footprints, roads, water bodies, etc. to different heights according to different rules.
-
-However, good planar partition datasets are relatively rare. For many countries and cities, there’s only linear data for many features (e.g. roads, railways, rivers, etc). In other cases, the different features come from different sources and do not fit neatly together. Finally, there’s also data that is missing altogether and can only be computed based on the gaps in other data using more complex rules (e.g. roads from the space between parcels or terrain from the remainder of all other features.
-
-The goal of this thesis would be to create a robust method to create planar partitions from multiple datasets based on customisable rules (e.g. line buffers, priority lists, Boolean set ops, etc). Another possibility would be a narrower thesis focussing on creating more detailed data for only one of these types, such as in [this thesis](https://3d.bk.tudelft.nl/ken/files/24_chengzhi.pdf).
-
-**Requirements**: proficiency in programming, preferably with C++.
-
-**Contact:** [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
 
 - - -
 
@@ -337,16 +309,6 @@ However, there is still a gap between research and practice. In this research yo
 The idea is explained in [this](https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts04e/TS04E_stoter_ho_et_al_10503.pdf) short paper
 
 *Contact:* [Jantien](http://3d.bk.tudelft.nl/jstoter) 
-
-- - -
-
-## Performance and robustness of software libraries for computational geometry
-
-![](img/sweep_geometry.png){:width="500px"}
-
-Software libraries for computational geometry underpin a lot of our research, but an in-depth comparison of how these different software libraries behave in terms of performance and robustness is not available. For example, the feasability of multi-disciplinary use of geometry in BIM/GIS integration and automated thermal analysis of IFC building models is largely shaped by the characteristics of the algorithmns offered in open source libraries such as CGAL and Open CASCADE. This research project is an opportunity to publish something novel, useful and relevant to many disciplines.
-
-*Contact:* [Thomas Krijnen](mail@thomaskrijnen.com) or [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/en/)
 
 - - - 
 ## 3D delineation of urban river spaces
