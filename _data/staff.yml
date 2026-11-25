@@ -338,3 +338,11 @@ At TU Delft, my PhD research work will be part of the recently awarded RenoDAT p
   linkedin: https://www.linkedin.com/in/themistoklis-vargiemezis-0ab680168
   description: "My research focuses on advancing the understanding and predictive modeling of wind flow in urban areas through an interdisciplinary approach that combines Computational Wind Engineering and Deep Learning.
   I aim to establish simulation and data-driven frameworks to improve how we design, construct and operate buildings and urban spaces, supporting the development of more sustainable and resilient cities."
+
+- surname: Calamelli
+  name: Filippo
+  title: Postdoc
+  photo: filippoCalamelli.jpg
+  email: f.calamelli@tudelft.nl
+  linkedin: https://www.linkedin.com/in/filippo-calamelli-113325169/
+  description: "I hold a PhD in Mechanical Engineering from Politecnico di Milano, where my research focused on bridge aeroelasticity and fluid-structure interaction, combining numerical and wind tunnel activities. At TU Delft, I am working on the IAM-CC project, investigating urban wind flows and drone downwash effects during take-off and landing through high-resolution CFD simulations. My research aims to integrate numerical modelling, 3D urban reconstruction, and field measurements to support safe Urban Air Mobility operations."
