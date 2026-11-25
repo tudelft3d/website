@@ -1,19 +1,3 @@
-- surname: Ibrahimli
-  name: Nail
-  title: PhD candidate
-  photo: nail.png
-  homepage: 3d.bk.tudelft.nl/nail
-  email: n.ibrahimli@tudelft.nl
-  description: "Learning-based 3D reconstruction of urban objects"
-
-- surname: Hobeika
-  name: Nadine
-  title: PhD candidate
-  photo: nadine.png
-  homepage: 3d.bk.tudelft.nl/nhobeika
-  email: n.hobeika@tudelft.nl
-  description: "Data-driven design tool for healthy indoor spaces."
-
 - surname: Özkan
   name: Taşkın
   title: Postdoc
@@ -61,21 +45,6 @@
   Having a semantic 3D virtual city model as background, the idea is to foster software integration to allow complex urban system simulation and close (or reduce) the gap between geo-information and simulation.
   He is currently chair of the [ISPRS Technical Commission 4 WG 10 (Advanced Geospatial Applications for Smart Cities and Regions)](http://www2.isprs.org/commissions/comm4/wg10.html) and national representative for Austria of the Urban Data Management Society (UDMS)."
   uuid: 1e5e67d1-609f-43ca-8cae-9a6ff3e33a8e
-
-- surname: Gao
-  name: Weixiao
-  title: Postdoc (guest)
-  photo: weixiao.jpg
-  homepage: 3d.bk.tudelft.nl/weixiao
-  projects:
-    - name: mesh2lod
-      role: PhD Candidate
-    - name: meshannotation
-      role: PhD Candidate
-  description: "Topic: Automatic generation of semantic 3D city models from 3D textured meshes. Working in collaboration with [CycloMedia](https://www.cyclomedia.com)."
-  email: w.gao-1@tudelft.nl
-  linkedin: https://nl.linkedin.com/in/weixiao-gao-86283a121
-  # phone: "+31 6 4483248"
 
 
 - surname: Vitalis
@@ -224,23 +193,6 @@
   My PhD project aims to measure shade at scale, assess the impact of buildings and trees, and evaluate how well cities provide shade where it’s most needed.<br/><br/>
 
   In addition to my interest in shade, I am also investigating the role of additional data sources, such as remote sensing and mobile sensing platforms, in improving the availability and coverage of urban climate data."
-
-- surname: Martin
-  name: Miguel
-  title: Research fellow
-  photo: miguel.jpg
-  homepage: 3d.bk.tudelft.nl/mmartin
-  email: M.Martin@tudelft.nl
-  description: "I am Marie Curie postdoctoral research fellow under the supervision of [TU Delft](https://www.tudelft.nl/) and [CMU](https://www.cmu.edu/).
-  My research focuses on physically-based modelling of interactions between buildings and their outdoor environment.<br/><br/>
-
-  Before joining TU Delft, I was research engineer at the [Masdar Institute of Science and Technology](https://www.ku.ac.ae/institute/masdar-institute) in Abu Dhabi (United Arab Emirates).
-  Then, I was full-time Ph.D student at the [National University of Singapore](https://www.nus.edu.sg/) where I was granted the [President's Graduate Fellowship](https://fass.nus.edu.sg/prospective-students/graduate/research/scholarships/presidents-graduate-fellowship).
-  After receiving my Ph.D., I worked as postdoctoral research scholar at the [Berkeley Education Alliance for Research in Singapore](https://bears.berkeley.edu/) under the SinBerBEST 2 Theme D project.<br/><br/>
-
-  The Marie Curie action is a three-year project called Smart City Innovations and Experiments using New Climate and Energy Simulations (SCIENCES) and supervised by [Prof. Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/), [Assist. Prof. Clara Garcia-Sanchez](https://3d.bk.tudelft.nl/gsclara), and [Prof. Mario Berges](https://www.cmu.edu/cee/people/faculty/berges.html).
-  In this project, I am looking for solutions to (1) improve simulations of air pollutants in urban areas, (2) co-simulate statistical and physically-based urban microclimate models, and (3) generate physically-based models from 3D city models and Internet-of-Things.
-  Based on these solutions, it is aimed at proving that physically-based urban microclimate models could easily be integrated into digital twin platforms for the development of climate-neutral and smart cities."
 
 - surname: Cannatella
   name: Daniele

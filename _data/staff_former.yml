@@ -1,3 +1,35 @@
+- surname: Martin
+  name: Miguel
+  title: Research fellow
+  photo: miguel.jpg
+  period: 2022-2026
+  linkedin: https://www.linkedin.com/in/miguel-martin-30b621208/
+  current: "Lead Software Engineer at Indra Group"
+
+- surname: Gao
+  name: Weixiao
+  title: PhD; Postdoc
+  photo: weixiao.jpg
+  period: 2020-2025
+  linkedin: https://nl.linkedin.com/in/weixiao-gao-86283a121
+  current: ""
+
+- surname: Ibrahimli
+  name: Nail
+  title: PhD candidate
+  photo: nail.png
+  period: 2020-2025
+  linkedin: https://www.linkedin.com/in/nail-ibrahimli/
+  current: "Machine Learning Engineer at Woven by Toyota"
+
+- surname: Hobeika
+  name: Nadine
+  title: PhD candidate
+  photo: nadine.png
+  period: 2021-2026
+  linkedin: https://www.linkedin.com/in/nadine-hobeika-28a051147/
+  current: "Project Engineer at Arup"
+
 - surname: Du
   name: Shenglan
   title: PhD candidate
