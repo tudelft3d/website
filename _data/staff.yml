@@ -292,10 +292,9 @@
   homepage: 3d.bk.tudelft.nl/asterrenberg
   email: A.G.E.Sterrenberg@tudelft.nl
   linkedin: https://linkedin.com/in/amy-sterrenberg
-  description: "I am a PhD Researcher at TU Delft, working on Data- and AI-driven Transportation Infrastructure Life-Cycle Extension at 3D GeoInformation and AiDAPT Lab. The research integrates geoinformation, digital twins, AI, and algorithmic decision-making to develop optimal strategies for life-cycle extension of infrastructure. This work is carried out in the context of the National Growth Fund project “Future proof living environment”, in collaboration with the City of Amsterdam and the Amsterdam Institute of Advanced Metropolitan Solutions.
+  description: "I am a PhD Researcher at TU Delft, working on Data- and AI-driven Transportation Infrastructure Life-Cycle Extension at 3D GeoInformation and AiDAPT Lab. The research integrates geoinformation, digital twins, AI, and algorithmic decision-making to develop optimal strategies for life-cycle extension of infrastructure. This work is carried out in the context of the National Growth Fund project “Future proof living environment”, in collaboration with the City of Amsterdam and the Amsterdam Institute of Advanced Metropolitan Solutions.<br/><br/>
 
-Background:
-I graduated from TU Delft in July 2023 with an MSc degree in Building Technology, with a thesis focused on Deep Generative AI for multi-objective optimization of structures. Following graduation, I gained over a year of industry experience as a Computational Designer and Architect-Engineer with a strong focus on computational design, AI and sustainability across various architectural and structural design projects, as well as research & development (R&D)."
+  **Background:** I graduated from TU Delft in July 2023 with an MSc degree in Building Technology, with a thesis focused on Deep Generative AI for multi-objective optimization of structures. Following graduation, I gained over a year of industry experience as a Computational Designer and Architect-Engineer with a strong focus on computational design, AI and sustainability across various architectural and structural design projects, as well as research & development (R&D)."
 
 - surname: Baba
   name: Hidemichi
@@ -320,11 +319,11 @@ the Agronomic and Veterinary Institute Hassan II in Rabat. I have also gained re
 internship at the Geoscity Lab at the University of Liège, Belgium, where I worked on automatic detection and 3D modeling of urban furniture using LiDAR and mobile mapping data.
 At TU Delft, my PhD research work will be part of the recently awarded RenoDAT project and will focus on 3D geoinformation for building renovation passports and energy transition."
 
-- surname: Zaid
+- surname: Daugerel
   name: Inès
   title: PhD Researcher & Junior Lecturer
   photo: ines.jpeg
-  homepage: 3d.bk.tudelft.nl/izaid
+  homepage: 3d.bk.tudelft.nl/idaugerel
   email: izaid@tudelft.nl
   linkedin: https://www.linkedin.com/in/ineszaid/
   description: "I am a PhD researcher and Junior Lecturer in the Department of Urbanism in the Urban Data Science section, studying the long-term transformation of train station areas and the role of pedestrian movement patterns in shaping these transformations, working at the intersection of time and space."
@@ -343,6 +342,13 @@ At TU Delft, my PhD research work will be part of the recently awarded RenoDAT p
   name: Filippo
   title: Postdoc
   photo: filippoCalamelli.jpg
+  homepage: 3d.bk.tudelft.nl/fcalamelli
   email: f.calamelli@tudelft.nl
   linkedin: https://www.linkedin.com/in/filippo-calamelli-113325169/
-  description: "I hold a PhD in Mechanical Engineering from Politecnico di Milano, where my research focused on bridge aeroelasticity and fluid-structure interaction, combining numerical and wind tunnel activities. At TU Delft, I am working on the IAM-CC project, investigating urban wind flows and drone downwash effects during take-off and landing through high-resolution CFD simulations. My research aims to integrate numerical modelling, 3D urban reconstruction, and field measurements to support safe Urban Air Mobility operations."
+  description: "I am a Postdoctoral Researcher at TU Delft, working on computational fluid dynamics (CFD) and urban aerodynamics within the 3D Geoinformation Group. My current research focuses on the interaction between drone-induced downwash and urban atmospheric flows, combining CFD simulations, 3D urban modelling, and full-scale measurements to investigate aerodynamic interactions in complex urban environments.<br/><br/>
+
+  **Background:** I obtained my PhD in Mechanical Systems Engineering from Politecnico di Milano, with research focused on atmospheric turbulence, wind engineering, and fluid-structure interaction. My research combined wind tunnel experiments and numerical modelling to investigate the influence of different turbulence scales and extreme wind events on the aeroelastic response of long-span bridges. I subsequently worked as a Postdoctoral Researcher at Politecnico di Milano, further developing my expertise in CFD and experimental fluid mechanics. Before joining TU Delft, I worked as a Researcher at Eucentre Foundation, focusing on structural health monitoring, experimental measurement systems, signal processing, and machine learning.<br/><br/>
+
+  **Research interests:** CFD, Numerical Modelling, Aerodynamics, Turbulence, Fluid–Structure Interaction, High-Performance Computing.<br/><br/>
+
+  **Publications:** [Scopus profile](https://www.scopus.com/authid/detail.uri?authorId=57895194200)"
